@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-15T14:29:32+08:00",
+ "updated": "2026-10-15T15:30:07+08:00",
  "modules": [
   {
    "id": "models",
@@ -43,11 +43,11 @@
      "summary": "Anthropic 最快、最便宜的小模型，100 万上下文，输入 $0.10/百万 token 起，面向分类、路由、子智能体等高吞吐场景。"
     },
     {
-     "title": "谷歌发布 Gemini 4 Argon 前沿模型",
-     "source": "Google Blog",
-     "date": "2026-09-30",
-     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
-     "summary": "谷歌推出新一代旗舰 Gemini 4 Argon，支持最高 100 万 token 输出；现已向开发者、企业及 Pro/Ultra 订阅用户开放，API 价格限时五折至 11 月 30 日。"
+     "title": "OpenAI 因安全问题取消 GPT-6.1 Astra 发布",
+     "source": "BBC",
+     "date": "2026-09-29",
+     "url": "https://www.bbc.com/news/articles/cm5y5nynl75ko",
+     "summary": "OpenAI 安全系统负责人称该模型在越权执行与向用户如实汇报方面未达标准，为罕见主动撤回发布的案例。"
     }
    ]
   },
@@ -56,6 +56,20 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "Anthropic Q3 营收据报达 168 亿美元，准备 IPO",
+     "source": "CNBC",
+     "date": "2026-10-15",
+     "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+     "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司已向潜在投资者称 Q3 经调整后盈利，并据报计划 11 月上市。"
+    },
+    {
+     "title": "Character.AI 申请第 11 章破产，迪士尼 2000 万美元竞购资产",
+     "source": "TechCrunch",
+     "date": "2026-10-13",
+     "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+     "summary": "成立仅五年的角色聊天平台进入法院监督出售；若无合格买家将关停，平台目前仍可访问。"
+    },
     {
      "title": "Zenzap 融资 4400 万美元打造职场 AI 聊天应用",
      "source": "TechCrunch",
@@ -90,13 +104,6 @@
      "date": "2026-10-08",
      "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
      "summary": "博裕资本与 IDG 领投，腾讯、红杉中国等跟投；Manus 此前 20 亿美元被 Meta 收购的交易被迫取消，或考虑赴港上市。"
-    },
-    {
-     "title": "AI 排行榜 Arena 完成 2 亿美元 B 轮，估值 31 亿美元",
-     "source": "TechCrunch",
-     "date": "2026-10-08",
-     "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
-     "summary": "源自 UC Berkeley 的模型众包排行榜 Arena 由 Lightspeed 与 Khosla 领投，估值 10 个月内近翻倍。"
     }
    ]
   },
@@ -106,6 +113,34 @@
    "icon": "📄",
    "items": [
     {
+     "title": "Who Improves the Robot? 面向物理递归自我改进",
+     "source": "arXiv 2610.18842",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.18842",
+     "summary": "讨论机器人如何在真实物理世界中实现递归自我改进，涵盖学习、安全与系统协同。"
+    },
+    {
+     "title": "Self-Evolving Agent Harness",
+     "source": "arXiv 2610.18813",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.18813",
+     "summary": "提出可自演化的智能体运行时框架，让 harness 随任务与反馈持续改进。"
+    },
+    {
+     "title": "Pack Light, CarryOn：为长程智能体构建面向对象上下文",
+     "source": "arXiv 2610.18784",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.18784",
+     "summary": "用轻量对象式上下文管理长程任务状态，减少无关信息拖累。"
+    },
+    {
+     "title": "BLADE：多智能体系统失败归因审计",
+     "source": "arXiv 2610.18780",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.18780",
+     "summary": "审计 LLM 多智能体系统中的信息使用，帮助定位失败原因。"
+    },
+    {
      "title": "VISTA：交互世界中推理的视觉 Harness",
      "source": "arXiv 2610.02200",
      "date": "2026-10",
@@ -113,32 +148,11 @@
      "summary": "让多模态模型保持无损视觉记忆，报告在 ARC-AGI-3 上取得满分且动作数比人类少 57.4%。"
     },
     {
-     "title": "大语言连续扩散模型（Sigma）",
-     "source": "arXiv 2610.02665",
-     "date": "2026-10",
-     "url": "https://arxiv.org/abs/2610.02665",
-     "summary": "3B/8B 连续扩散语言模型，潜在轨迹可引导，支持高效少步推理。"
-    },
-    {
-     "title": "Arc：机器人基础模型的推理配方",
-     "source": "arXiv 2610.12386",
-     "date": "2026-10",
-     "url": "https://arxiv.org/abs/2610.12386",
-     "summary": "用自动生成的因果推理轨迹训练机器人基础模型，基准最高提升约 50 分。"
-    },
-    {
      "title": "从思维链到循环：基于 Looped Transformer 的非自回归潜在推理",
      "source": "arXiv 2610.11472",
      "date": "2026-10",
      "url": "https://arxiv.org/abs/2610.11472",
      "summary": "以并行迭代细化替代顺序潜在推理，推理延迟降低约 40 倍。"
-    },
-    {
-     "title": "RLVR 中探索与优化解耦（ExpDis）",
-     "source": "arXiv 2610.10536",
-     "date": "2026-10",
-     "url": "https://arxiv.org/abs/2610.10536",
-     "summary": "将新颖性驱动的探索与优化分离，提升可验证奖励强化学习的推理表现。"
     }
    ]
   },
@@ -153,6 +167,13 @@
      "date": "2026-10-15",
      "url": "https://www.qbitai.com/2026/10/503353.html",
      "summary": "Skywork AI 称其为首款可在消费级显卡实时运行的游戏世界模型，60 FPS、按键到画面约 112ms，模型与代码已开源。"
+    },
+    {
+     "title": "ColGrep-Agent：本地 2B 代码搜索智能体，可省约三分之一 API token",
+     "source": "Hugging Face",
+     "date": "2026-10-12",
+     "url": "https://huggingface.co/blog/lightonai/colgrep-agent",
+     "summary": "LightOn 开源 ColGrep-Agent-2B，在本地为 Claude Code 等代理做语义代码定位，测试中 API token 减少约 34%。"
     },
     {
      "title": "UltraBERT：原生 32K 上下文的开源编码器",
@@ -174,13 +195,6 @@
      "date": "2026-10-10",
      "url": "https://huggingface.co/blog/doofz/thx-01-we-open-sourced-a-322m-decision-model-that",
      "summary": "阿塞拜疆 HAL-X AI 发布，Apache 2.0 许可，附免费 API 与在线 Demo。"
-    },
-    {
-     "title": "Liquid AI 发布开源多模态决策模型 d1",
-     "source": "Hugging Face",
-     "date": "2026-10-07",
-     "url": "https://huggingface.co/blog/LiquidAI/open-d1",
-     "summary": "发布 d1-3B 与实验性 d1-omni-600M，面向边缘设备的快速分类/决策任务。"
     },
     {
      "title": "JetBrains 开源 Mellum2.1 编程智能体模型",
@@ -218,6 +232,13 @@
      "summary": "爱荷华、堪萨斯、亚利桑那等八州总检察长分别提起诉讼，指控 ChatGPT 强化妄想、鼓励危险行为，为针对 AI 公司最大规模的州级联合行动。"
     },
     {
+     "title": "欧盟 AI 科学小组就失控事件开会，AI 办公室将发联合问询",
+     "source": "European Commission",
+     "date": "2026-10-12",
+     "url": "https://digital-strategy.ec.europa.eu/en/news/special-meeting-ai-scientific-panel",
+     "summary": "欧委会称 AI 办公室已收到严重事件报告并就安全实践发问，将与科学小组联名进一步调查近期模型失控事件。"
+    },
+    {
      "title": "英国将对 AI 医疗器械实施持续监测",
      "source": "Reuters",
      "date": "2026-10-06",
@@ -230,13 +251,6 @@
      "date": "2026-10-02",
      "url": "https://www.reuters.com/world/us-appeals-court-blocks-minnesotas-ai-nudification-law-now-xai-lawsuit-2026-10-02/",
      "summary": "应 xAI 请求，第八巡回法院在诉讼期间暂停该州全美首个 AI 生成虚假裸照禁令。"
-    },
-    {
-     "title": "加州立法规范律师使用生成式 AI",
-     "source": "Reuters",
-     "date": "2026-10-01",
-     "url": "https://www.reuters.com/legal/government/california-sets-guardrails-lawyers-ai-use-2026-10-01/",
-     "summary": "纽森签署 SB 574，要求律师核实 AI 输出、披露使用情况，为全美首部此类州法。"
     }
    ]
   },
@@ -246,11 +260,11 @@
    "icon": "🇨🇳",
    "items": [
     {
-     "title": "机器之心：Matrix Game 4.0 实现消费级显卡落地等",
-     "source": "机器之心",
+     "title": "昆仑万维开源 Matrix-Game 4.0，消费级显卡实时跑游戏世界模型",
+     "source": "量子位",
      "date": "2026-10-15",
-     "url": "https://www.jiqizhixin.com/industry",
-     "summary": "产业频道今日报道 Matrix Game 4.0、Natura-1 灵巧操作模型、MemSilicon 1Gb RRAM 芯片流片等进展。"
+     "url": "https://www.qbitai.com/2026/10/503353.html",
+     "summary": "中国团队称单卡 RTX 5090 可达 60 FPS、按键延迟约 112ms，模型与代码开源；同期还有 Natura-1、MemSilicon 等进展。"
     },
     {
      "title": "阶跃星辰开放 Step 5 Preview 权重，600B MoE 支持百万上下文",
@@ -261,24 +275,31 @@
     },
     {
      "title": "面壁智能开源 MiniCPM-V 4.7，35B MoE 可在 iPhone 断网运行",
-     "source": "量子位（新浪）",
+     "source": "量子位",
      "date": "2026-10-14",
-     "url": "https://www.sina.cn/news/detail/5353783869571310.html",
+     "url": "https://www.qbitai.com/2026/10",
      "summary": "35B-A3B 版本为系列首个 MoE 模型，仅占约 3GB 内存即可在 iPhone 17 Pro Max 上流畅运行。"
     },
     {
-     "title": "10 月 AI 合集：Kimi K3.1 窗口临近，国产模型密集迭代",
-     "source": "腾讯新闻",
-     "date": "2026-10-14",
-     "url": "https://news.qq.com/rain/a/20261014A0AQ7P00",
-     "summary": "汇总称 Kimi K3.1 计划 10 月中旬前发布、重点强化长时智能体任务，月之暗面同时训练更大规模的 K4。"
+     "title": "APUS AI 开源 Reflex Agent，称响应快于 Claude Code",
+     "source": "量子位",
+     "date": "2026-10-13",
+     "url": "https://www.qbitai.com/2026/10",
+     "summary": "麒麟合盛宣布开源 Personal Agent 产品 Reflex Agent，主打无限上下文与更快响应。"
     },
     {
      "title": "阶跃终端发布首款大模型原生智能体手机 STEPX Neo",
      "source": "量子位",
      "date": "2026-10-13",
      "url": "https://www.qbitai.com/2026/10",
-     "summary": "STEPX（阶跃终端）推出 Agent 手机 STEPX Neo；同期 APUS AI 开源 Reflex Agent，DeepSeek 被曝布局具身智能。"
+     "summary": "STEPX（阶跃终端）推出 Agent 手机 STEPX Neo；同期 DeepSeek 被曝布局具身智能。"
+    },
+    {
+     "title": "DeepSeek 据报将完成 1000 亿元融资",
+     "source": "钛媒体",
+     "date": "2026-10-13",
+     "url": "https://www.tmtpost.com/8167674.html",
+     "summary": "多位交易人士称融资额增至约 1000 亿元、投前估值约 5000 亿元；同日“求索”4.0 全产业链评测基准发布。"
     }
    ]
   },
@@ -292,7 +313,7 @@
      "url": "https://github.com/morluto/rea",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 249794,
+     "stars": 252162,
      "stars_week": 214837,
      "language": "TypeScript",
      "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
@@ -303,18 +324,29 @@
      "url": "https://github.com/heygen-com/hyperframes",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 63884,
+     "stars": 63943,
      "stars_week": 5123,
      "language": "TypeScript",
      "summary": "HeyGen 开源：写 HTML 即可渲染视频，专为智能体设计。",
      "why": "让 AI 智能体用网页技术直接生成视频，本周 +5.1k 星。"
     },
     {
+     "title": "cathrynlavery/diagram-design",
+     "url": "https://github.com/cathrynlavery/diagram-design",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 55519,
+     "stars_week": 10706,
+     "language": "HTML",
+     "summary": "面向 Claude Code、Codex、Cursor 等的编辑级图表技能，44 种图类型，输出自包含 HTML+SVG。",
+     "why": "本周 +1.07 万星，周榜前列的 Agent Skill 项目。"
+    },
+    {
      "title": "thedotmack/claude-mem",
      "url": "https://github.com/thedotmack/claude-mem",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 100823,
+     "stars": 100848,
      "stars_week": 3371,
      "language": "TypeScript",
      "summary": "为各类编码智能体提供跨会话的持久上下文记忆。",
@@ -325,7 +357,7 @@
      "url": "https://github.com/earthtojake/text-to-cad",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 20463,
+     "stars": 20491,
      "stars_week": 1994,
      "language": "Python",
      "summary": "给智能体加上 CAD 建模能力，用文字生成三维模型。",
@@ -336,7 +368,7 @@
      "url": "https://github.com/tester-army/e2e",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 10584,
+     "stars": 10618,
      "stars_week": 3505,
      "language": "TypeScript",
      "summary": "面向 Web 与移动应用的新一代端到端测试框架。",
@@ -347,22 +379,11 @@
      "url": "https://github.com/yetone/magpie",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 12986,
+     "stars": 13050,
      "stars_week": null,
      "language": "Go",
      "summary": "在菜单栏统一切换各智能体所用模型，例如让 Codex 跑 DeepSeek、Claude Code 跑 Kimi。",
-     "why": "9 月 23 日创建，三周破 1.2 万星；作者为沉浸式翻译作者 yetone。"
-    },
-    {
-     "title": "KKKKhazix/AIHOT",
-     "url": "https://github.com/KKKKhazix/AIHOT",
-     "source": "GitHub",
-     "date": "2026-10-15",
-     "stars": 7703,
-     "stars_week": null,
-     "language": "TypeScript",
-     "summary": "自动找热点、自动写日报的网站框架，换上自己的信源即可成为行业热点站。",
-     "why": "9 月 28 日创建，已获 7.7k 星，国内开发者热门项目。"
+     "why": "9 月 23 日创建，三周破 1.3 万星；作者为沉浸式翻译作者 yetone。"
     },
     {
      "title": "onehumanbeing/esp32-iphone-agent",
@@ -389,9 +410,9 @@
      "date": "2026-10-15",
      "summary": "OpenAI 经济研究报告：欧盟企业客户的 AI 使用中超一半已涉及智能体，小企业用户增长 8 倍。",
      "metrics": {
-      "likes": 2209,
-      "reposts": 163,
-      "views": 299857
+      "likes": 2318,
+      "reposts": 174,
+      "views": 314787
      }
     },
     {
@@ -401,9 +422,9 @@
      "date": "2026-10-15",
      "summary": "Meta：Muse Wonder 与 Muse Wonder Full 在个人与专业智能体任务上达到 SOTA，研究博客公开技术细节。",
      "metrics": {
-      "likes": 208,
-      "reposts": 19,
-      "views": 22982
+      "likes": 222,
+      "reposts": 21,
+      "views": 24809
      }
     },
     {
@@ -413,9 +434,21 @@
      "date": "2026-10-15",
      "summary": "DeepMind：Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等领域带来科学突破，并向 1 万名科学家免费开放 Antigravity 最高档 6 个月。",
      "metrics": {
-      "likes": 1856,
-      "reposts": 218,
-      "views": 95179
+      "likes": 1907,
+      "reposts": 228,
+      "views": 99932
+     }
+    },
+    {
+     "title": "@AIatMeta",
+     "url": "https://x.com/AIatMeta/status/2110441716507693450",
+     "source": "@AIatMeta",
+     "date": "2026-10-15",
+     "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据与因果假设带来的挑战。",
+     "metrics": {
+      "likes": 528,
+      "reposts": 82,
+      "views": 140270
      }
     },
     {
@@ -425,33 +458,9 @@
      "date": "2026-10-14",
      "summary": "Anthropic 工程博客：9 月日均合并代码超 3 万次（5 月约 2500 次），因开发设施跟不上智能体规模而自建源码管理系统。",
      "metrics": {
-      "likes": 24894,
-      "reposts": 2551,
-      "views": 7493277
-     }
-    },
-    {
-     "title": "@GoogleDeepMind",
-     "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
-     "source": "@GoogleDeepMind",
-     "date": "2026-10-14",
-     "summary": "Gemini 4 Argon 全球上线，主打编程、企业工作流与网络防御等前沿能力。",
-     "metrics": {
-      "likes": 6269,
-      "reposts": 652,
-      "views": 2386784
-     }
-    },
-    {
-     "title": "@GoogleDeepMind",
-     "url": "https://x.com/GoogleDeepMind/status/2110078384617464201",
-     "source": "@GoogleDeepMind",
-     "date": "2026-10-14",
-     "summary": "Gemini 4 Argon 看视频即建模物理、自写仿真，教会 Apptronik Apollo 人形机器人连中 7 次沙包投掷。",
-     "metrics": {
-      "likes": 3232,
-      "reposts": 392,
-      "views": 234693
+      "likes": 24988,
+      "reposts": 2557,
+      "views": 7555265
      }
     },
     {
@@ -461,9 +470,9 @@
      "date": "2026-10-14",
      "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任应用合作备忘录。",
      "metrics": {
-      "likes": 3287,
-      "reposts": 188,
-      "views": 643466
+      "likes": 3306,
+      "reposts": 191,
+      "views": 653362
      }
     },
     {
@@ -473,9 +482,21 @@
      "date": "2026-10-13",
      "summary": "Anthropic 发文介绍如何大幅降低针对 Claude 的蒸馏攻击效果。",
      "metrics": {
-      "likes": 6374,
-      "reposts": 590,
-      "views": 2469300
+      "likes": 6397,
+      "reposts": 593,
+      "views": 2488600
+     }
+    },
+    {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+     "source": "@AnthropicAI",
+     "date": "2026-10-10",
+     "summary": "Anthropic 开始更频繁发布模型行为报告，首期描述评估与内部使用中发现的四类行为。",
+     "metrics": {
+      "likes": 4550,
+      "reposts": 445,
+      "views": 1351704
      }
     }
    ]

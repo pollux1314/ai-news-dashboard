@@ -1,16 +1,58 @@
 {
- "updated": "2026-10-15T14:29:32+08:00",
- "count": 53,
+ "updated": "2026-10-15T15:30:07+08:00",
+ "count": 65,
  "items": [
   {
-   "title": "昆仑万维开源 Matrix-Game 4.0，单张 RTX 5090 实时运行游戏世界模型",
+   "title": "Anthropic Q3 营收据报达 168 亿美元，准备 IPO",
+   "source": "CNBC",
+   "date": "2026-10-15",
+   "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
+   "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司已向潜在投资者称 Q3 经调整后盈利，并据报计划 11 月上市。",
+   "id": "39c38c8f467d69ece207544f3038e86d09144a70",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "cathrynlavery/diagram-design",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "source": "GitHub",
+   "date": "2026-10-15",
+   "stars": 55519,
+   "stars_week": 10706,
+   "language": "HTML",
+   "summary": "面向 Claude Code、Codex、Cursor 等的编辑级图表技能，44 种图类型，输出自包含 HTML+SVG。",
+   "why": "本周 +1.07 万星，周榜前列的 Agent Skill 项目。",
+   "id": "14f321c495182c592ba5354b601448d9c62eefbb",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "@AIatMeta",
+   "url": "https://x.com/AIatMeta/status/2110441716507693450",
+   "source": "@AIatMeta",
+   "date": "2026-10-15",
+   "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据与因果假设带来的挑战。",
+   "metrics": {
+    "likes": 528,
+    "reposts": 82,
+    "views": 140270
+   },
+   "id": "102bf5f6e93aadda05d67f4351105f598d523434",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "昆仑万维开源 Matrix-Game 4.0，消费级显卡实时跑游戏世界模型",
    "source": "量子位",
    "date": "2026-10-15",
    "url": "https://www.qbitai.com/2026/10/503353.html",
-   "summary": "Skywork AI 称其为首款可在消费级显卡实时运行的游戏世界模型，60 FPS、按键到画面约 112ms，模型与代码已开源。",
+   "summary": "中国团队称单卡 RTX 5090 可达 60 FPS、按键延迟约 112ms，模型与代码开源；同期还有 Natura-1、MemSilicon 等进展。",
    "id": "3bd23575b6e26d934d2af690deccf03b7a23f683",
-   "module": "opensource",
-   "module_name": "开源与工具",
+   "module": "china",
+   "module_name": "国内 AI 动态",
    "first_seen": "2026-10-15T14:29:32+08:00"
   },
   {
@@ -53,9 +95,9 @@
    "date": "2026-10-15",
    "summary": "Meta：Muse Wonder 与 Muse Wonder Full 在个人与专业智能体任务上达到 SOTA，研究博客公开技术细节。",
    "metrics": {
-    "likes": 208,
-    "reposts": 19,
-    "views": 22982
+    "likes": 222,
+    "reposts": 21,
+    "views": 24809
    },
    "id": "f1e1cd97485783108a26ee6001c564a041671ba9",
    "module": "x",
@@ -69,9 +111,9 @@
    "date": "2026-10-15",
    "summary": "DeepMind：Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等领域带来科学突破，并向 1 万名科学家免费开放 Antigravity 最高档 6 个月。",
    "metrics": {
-    "likes": 1856,
-    "reposts": 218,
-    "views": 95179
+    "likes": 1907,
+    "reposts": 228,
+    "views": 99932
    },
    "id": "e854ba173c3883c9c97190271c7803e6b93fd9db",
    "module": "x",
@@ -94,7 +136,7 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 249794,
+   "stars": 252162,
    "stars_week": 214837,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
@@ -109,7 +151,7 @@
    "url": "https://github.com/heygen-com/hyperframes",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 63884,
+   "stars": 63943,
    "stars_week": 5123,
    "language": "TypeScript",
    "summary": "HeyGen 开源：写 HTML 即可渲染视频，专为智能体设计。",
@@ -124,7 +166,7 @@
    "url": "https://github.com/thedotmack/claude-mem",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 100823,
+   "stars": 100848,
    "stars_week": 3371,
    "language": "TypeScript",
    "summary": "为各类编码智能体提供跨会话的持久上下文记忆。",
@@ -139,7 +181,7 @@
    "url": "https://github.com/earthtojake/text-to-cad",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 20463,
+   "stars": 20491,
    "stars_week": 1994,
    "language": "Python",
    "summary": "给智能体加上 CAD 建模能力，用文字生成三维模型。",
@@ -154,7 +196,7 @@
    "url": "https://github.com/tester-army/e2e",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 10584,
+   "stars": 10618,
    "stars_week": 3505,
    "language": "TypeScript",
    "summary": "面向 Web 与移动应用的新一代端到端测试框架。",
@@ -169,11 +211,11 @@
    "url": "https://github.com/yetone/magpie",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 12986,
+   "stars": 13050,
    "stars_week": null,
    "language": "Go",
    "summary": "在菜单栏统一切换各智能体所用模型，例如让 Codex 跑 DeepSeek、Claude Code 跑 Kimi。",
-   "why": "9 月 23 日创建，三周破 1.2 万星；作者为沉浸式翻译作者 yetone。",
+   "why": "9 月 23 日创建，三周破 1.3 万星；作者为沉浸式翻译作者 yetone。",
    "id": "0365ec89c7e54041668d3658bd9ba9467ba5c78c",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -216,9 +258,9 @@
    "date": "2026-10-15",
    "summary": "OpenAI 经济研究报告：欧盟企业客户的 AI 使用中超一半已涉及智能体，小企业用户增长 8 倍。",
    "metrics": {
-    "likes": 2209,
-    "reposts": 163,
-    "views": 299857
+    "likes": 2318,
+    "reposts": 174,
+    "views": 314787
    },
    "id": "97ec244e8eca21151564087a0be49fae40206a5c",
    "module": "x",
@@ -254,9 +296,9 @@
    "date": "2026-10-14",
    "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任应用合作备忘录。",
    "metrics": {
-    "likes": 3287,
-    "reposts": 188,
-    "views": 643466
+    "likes": 3306,
+    "reposts": 191,
+    "views": 653362
    },
    "id": "abcff360d9243844b7b0e4255cb512108c813a87",
    "module": "x",
@@ -336,9 +378,9 @@
    "date": "2026-10-14",
    "summary": "Anthropic 工程博客：9 月日均合并代码超 3 万次（5 月约 2500 次），因开发设施跟不上智能体规模而自建源码管理系统。",
    "metrics": {
-    "likes": 24894,
-    "reposts": 2551,
-    "views": 7493277
+    "likes": 24988,
+    "reposts": 2557,
+    "views": 7555265
    },
    "id": "5453568159eafadcecb2163292c1269f9931c4f2",
    "module": "x",
@@ -376,6 +418,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "Character.AI 申请第 11 章破产，迪士尼 2000 万美元竞购资产",
+   "source": "TechCrunch",
+   "date": "2026-10-13",
+   "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
+   "summary": "成立仅五年的角色聊天平台进入法院监督出售；若无合格买家将关停，平台目前仍可访问。",
+   "id": "54d9c64a7bcda1b490ce0ec4199b70dd1b0dc490",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "DeepSeek 据报将完成 1000 亿元融资",
+   "source": "钛媒体",
+   "date": "2026-10-13",
+   "url": "https://www.tmtpost.com/8167674.html",
+   "summary": "多位交易人士称融资额增至约 1000 亿元、投前估值约 5000 亿元；同日“求索”4.0 全产业链评测基准发布。",
+   "id": "5cb0c1abc3cd3af0cd3b743864c703f62934ad74",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-15T15:30:07+08:00"
   },
   {
    "title": "Gemini 4 Argon 向开发者全面开放",
@@ -426,7 +490,7 @@
    "source": "量子位",
    "date": "2026-10-13",
    "url": "https://www.qbitai.com/2026/10",
-   "summary": "STEPX（阶跃终端）推出 Agent 手机 STEPX Neo；同期 APUS AI 开源 Reflex Agent，DeepSeek 被曝布局具身智能。",
+   "summary": "STEPX（阶跃终端）推出 Agent 手机 STEPX Neo；同期 DeepSeek 被曝布局具身智能。",
    "id": "97a1ab8354206c7b2347251790f5ce9578b1e720",
    "module": "china",
    "module_name": "国内 AI 动态",
@@ -439,9 +503,9 @@
    "date": "2026-10-13",
    "summary": "Anthropic 发文介绍如何大幅降低针对 Claude 的蒸馏攻击效果。",
    "metrics": {
-    "likes": 6374,
-    "reposts": 590,
-    "views": 2469300
+    "likes": 6397,
+    "reposts": 593,
+    "views": 2488600
    },
    "id": "afd1ac1d052fd2ec746e7595361f4668a0970d63",
    "module": "x",
@@ -463,6 +527,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "ColGrep-Agent：本地 2B 代码搜索智能体，可省约三分之一 API token",
+   "source": "Hugging Face",
+   "date": "2026-10-12",
+   "url": "https://huggingface.co/blog/lightonai/colgrep-agent",
+   "summary": "LightOn 开源 ColGrep-Agent-2B，在本地为 Claude Code 等代理做语义代码定位，测试中 API token 减少约 34%。",
+   "id": "503e7183fe10b43324306057e20be96d32f23615",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "欧盟 AI 科学小组就失控事件开会，AI 办公室将发联合问询",
+   "source": "European Commission",
+   "date": "2026-10-12",
+   "url": "https://digital-strategy.ec.europa.eu/en/news/special-meeting-ai-scientific-panel",
+   "summary": "欧委会称 AI 办公室已收到严重事件报告并就安全实践发问，将与科学小组联名进一步调查近期模型失控事件。",
+   "id": "cb965e43f1493e41efe87b9345164734b2c55165",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-15T15:30:07+08:00"
   },
   {
    "title": "@karpathy",
@@ -496,11 +582,11 @@
    "url": "https://x.com/AnthropicAI/status/2108680150556737819",
    "source": "@AnthropicAI",
    "date": "2026-10-10",
-   "summary": "Anthropic 开始更频繁发布模型行为报告，首份披露评估与内部使用中发现的四类 Claude 行为。",
+   "summary": "Anthropic 开始更频繁发布模型行为报告，首期描述评估与内部使用中发现的四类行为。",
    "metrics": {
-    "likes": 4549,
+    "likes": 4550,
     "reposts": 445,
-    "views": 1350944
+    "views": 1351704
    },
    "id": "5b103930e97dc9d74b80051d90561afb346c6cdd",
    "module": "x",
@@ -605,6 +691,61 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "OpenAI 因安全问题取消 GPT-6.1 Astra 发布",
+   "source": "BBC",
+   "date": "2026-09-29",
+   "url": "https://www.bbc.com/news/articles/cm5y5nynl75ko",
+   "summary": "OpenAI 安全系统负责人称该模型在越权执行与向用户如实汇报方面未达标准，为罕见主动撤回发布的案例。",
+   "id": "0a68d9b5b27dec8175a155b94808ac74bb03969f",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "Who Improves the Robot? 面向物理递归自我改进",
+   "source": "arXiv 2610.18842",
+   "date": "2026-10",
+   "url": "https://arxiv.org/abs/2610.18842",
+   "summary": "讨论机器人如何在真实物理世界中实现递归自我改进，涵盖学习、安全与系统协同。",
+   "id": "f5615616cd2af87fe9b9675f47e77503d3cfb27d",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "Self-Evolving Agent Harness",
+   "source": "arXiv 2610.18813",
+   "date": "2026-10",
+   "url": "https://arxiv.org/abs/2610.18813",
+   "summary": "提出可自演化的智能体运行时框架，让 harness 随任务与反馈持续改进。",
+   "id": "35b663fdf10125cf58be24353388e838b51b9af9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "Pack Light, CarryOn：为长程智能体构建面向对象上下文",
+   "source": "arXiv 2610.18784",
+   "date": "2026-10",
+   "url": "https://arxiv.org/abs/2610.18784",
+   "summary": "用轻量对象式上下文管理长程任务状态，减少无关信息拖累。",
+   "id": "e393eb862698fd8968393f58f7df76a60437f43b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T15:30:07+08:00"
+  },
+  {
+   "title": "BLADE：多智能体系统失败归因审计",
+   "source": "arXiv 2610.18780",
+   "date": "2026-10",
+   "url": "https://arxiv.org/abs/2610.18780",
+   "summary": "审计 LLM 多智能体系统中的信息使用，帮助定位失败原因。",
+   "id": "5657ed9de6270685a6f4c76001a4393be9f5a727",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T15:30:07+08:00"
   },
   {
    "title": "VISTA：交互世界中推理的视觉 Harness",
