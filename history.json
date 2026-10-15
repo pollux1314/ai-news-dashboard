@@ -1,7 +1,39 @@
 {
- "updated": "2026-10-15T21:28:55+08:00",
- "count": 123,
+ "updated": "2026-10-15T22:35:00+08:00",
+ "count": 127,
  "items": [
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2110720940665372825",
+   "source": "@AnthropicAI",
+   "date": "2026-10-15",
+   "summary": "Anthropic 开放两类新 Fellowship 申请：STEM 方向与概念推理方向（哲学、认知科学、经济、政策、法律），2027 年 1 月起在 Anthropic 工作四个月，帮助提升 Claude 的推理。",
+   "metrics": {
+    "likes": 1992,
+    "reposts": 147,
+    "views": 149829
+   },
+   "id": "680c4c978874a08fd69534e28481c4e9d8571c9f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T22:35:00+08:00"
+  },
+  {
+   "title": "@GoogleDeepMind",
+   "url": "https://x.com/GoogleDeepMind/status/2110715601454784965",
+   "source": "@GoogleDeepMind",
+   "date": "2026-10-15",
+   "summary": "SynthID 入选《时代》2026 年度最佳发明，已为超 1800 亿张图片和视频打上水印，帮助识别 AI 生成内容。",
+   "metrics": {
+    "likes": 319,
+    "reposts": 25,
+    "views": 25122
+   },
+   "id": "0688db5c82a0a9bd02873e9cfb4a99f655929e44",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T22:35:00+08:00"
+  },
   {
    "title": "亚马逊 Bee 发布两款新个人 AI 设备 Bee Frontier 与 Bee Eclipse",
    "source": "TechCrunch",
@@ -645,11 +677,11 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 259995,
+   "stars": 261409,
    "stars_week": null,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-   "why": "今日日榜前列，总星约 25.9 万。",
+   "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.1 万。",
    "id": "92705331275526a8e0b1d0b4ec156bfb5025973f",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -775,6 +807,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "DeepSeek 完成约 1000 亿元 B 轮融资，为科创板上市铺路",
+   "source": "同花顺 / 商报",
+   "date": "2026-10-14",
+   "url": "https://news.10jqka.com.cn/20261014/c680656443.shtml",
+   "summary": "天眼查披露 B 轮规模约 1000 亿元，远超最初约 500 亿元目标，宁德时代、腾讯投资、IDG 等十家机构参投；前高瓴创投合伙人严文韬出任 CFO，公司正接洽中信证券筹备科创板上市。",
+   "id": "e3204ad197becc4847bb609584e28f0604c62223",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-15T22:35:00+08:00"
+  },
+  {
+   "title": "英伟达发布 cuPotential：供 AI 智能体做原子级模拟的 CUDA-X 库",
+   "source": "NVIDIA / GlobeNewswire",
+   "date": "2026-10-14",
+   "url": "https://www.globenewswire.com/news-release/2026/10/14/3380979/0/en/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-fabs.html",
+   "summary": "SEMICON West 上推出，可嵌入现有软件模拟原子与分子相互作用，早期测试中让已 GPU 优化的流程再快 2-3 倍；Synopsys 等率先采用，目前为早期访问，面向“AI 定义的晶圆厂”。",
+   "id": "241d169e89a3df21038ae9871dad71b4ab31e066",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-15T22:35:00+08:00"
   },
   {
    "title": "OpenAI 宣布 2027 年 1 月 14 日下线 GPT-4o、GPT-4.1 API 快照",

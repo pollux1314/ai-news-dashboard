@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-15T21:28:55+08:00",
+ "updated": "2026-10-15T22:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -106,6 +106,13 @@
      "summary": "通胀超预期推高加息预期，市场担忧 AI 投资融资成本；周三 AI 相关股市值蒸发约 800 亿美元，CoreWeave 前一日跌 15%、盘前再跌 4.5%，台积电对 2027 年表态谨慎。"
     },
     {
+     "title": "DeepSeek 完成约 1000 亿元 B 轮融资，为科创板上市铺路",
+     "source": "同花顺 / 商报",
+     "date": "2026-10-14",
+     "url": "https://news.10jqka.com.cn/20261014/c680656443.shtml",
+     "summary": "天眼查披露 B 轮规模约 1000 亿元，远超最初约 500 亿元目标，宁德时代、腾讯投资、IDG 等十家机构参投；前高瓴创投合伙人严文韬出任 CFO，公司正接洽中信证券筹备科创板上市。"
+    },
+    {
      "title": "Zenzap 完成 4400 万美元融资，打造面向职场的 AI 聊天应用",
      "source": "TechCrunch",
      "date": "2026-10-14",
@@ -118,13 +125,6 @@
      "date": "2026-10-14",
      "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
      "summary": "Accel 领投，投后估值约 157.5 亿美元；Sandboxes 产品单独年化约 3 亿美元，服务 TypeSafe、Cognition、Runway 等 AI 应用。"
-    },
-    {
-     "title": "Ricursive Intelligence：用 AI 设计芯片应对算力危机",
-     "source": "TechCrunch",
-     "date": "2026-10-14",
-     "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
-     "summary": "AlphaChip 联合创始人 Anna Goldie、Azalia Mirhoseini 创业，主张用 AI 整片优化芯片布局并迭代学习；称未来五年算力需求或增至至少 1 万倍。"
     }
    ]
   },
@@ -232,6 +232,13 @@
      "summary": "配合 arXiv:2610.14162，提供多尺度残差 VQ 与粗到细并行生成实现，面向比扩散模型更快的非自回归文本生成。"
     },
     {
+     "title": "英伟达发布 cuPotential：供 AI 智能体做原子级模拟的 CUDA-X 库",
+     "source": "NVIDIA / GlobeNewswire",
+     "date": "2026-10-14",
+     "url": "https://www.globenewswire.com/news-release/2026/10/14/3380979/0/en/nvidia-and-semiconductor-leaders-advance-ai-across-chip-design-and-manufacturing-for-ai-defined-fabs.html",
+     "summary": "SEMICON West 上推出，可嵌入现有软件模拟原子与分子相互作用，早期测试中让已 GPU 优化的流程再快 2-3 倍；Synopsys 等率先采用，目前为早期访问，面向“AI 定义的晶圆厂”。"
+    },
+    {
      "title": "UltraBERT：原生 32K 上下文的开源编码器",
      "source": "Hugging Face",
      "date": "2026-10-14",
@@ -244,13 +251,6 @@
      "date": "2026-10-14",
      "url": "https://www.qbitai.com/2026/10/503109.html",
      "summary": "35B-A3B 为系列首个 MoE，约 3GB 内存即可在 iPhone 17 Pro Max 上跑多模态；另有 1.3B 轻量版，支持 iOS/安卓/鸿蒙。"
-    },
-    {
-     "title": "Fish Audio 开源 Drama 3：35B MoE 可“导演”的语音合成模型",
-     "source": "Hugging Face / Fish Audio",
-     "date": "2026-10-13",
-     "url": "https://huggingface.co/fishaudio/drama-3",
-     "summary": "35B 总参、每 token 激活 3B，混合线性注意力；支持多参考音色克隆、自然语言演绎指令、最多 16 角色同场、语音局部改写与流式长文本，权重以 Fish Audio 社区许可发布。"
     }
    ]
   },
@@ -365,18 +365,18 @@
      "summary": "港中深教授贾奎创立、约 500 人，近期 B 轮融资 10 亿元、估值超 100 亿元，获联想创投、蓝思科技等支持；软件已用于丰田、三星、富士康等工厂。"
     },
     {
+     "title": "DeepSeek 完成约 1000 亿元 B 轮融资，为科创板上市铺路",
+     "source": "同花顺 / 商报",
+     "date": "2026-10-14",
+     "url": "https://news.10jqka.com.cn/20261014/c680656443.shtml",
+     "summary": "天眼查披露 B 轮规模约 1000 亿元，远超最初约 500 亿元目标，宁德时代、腾讯投资、IDG 等十家机构参投；前高瓴创投合伙人严文韬出任 CFO，公司正接洽中信证券筹备科创板上市。"
+    },
+    {
      "title": "STEPX Neo 发布：阶跃终端首款大模型原生智能体手机",
      "source": "量子位",
      "date": "2026-10-14",
      "url": "https://www.qbitai.com/2026/10/503201.html",
      "summary": "搭载 Step AOS 1.0 与个人智能体阶跃 Amoo，端云协同；先行版全栈定价 3999 元，含 12 个月月度 Token 额度，10 月 16 日开售。"
-    },
-    {
-     "title": "字节 Seed 成立 Alignment & Preparedness，全球招 10 名顶尖安全研究员",
-     "source": "字节跳动 Seed",
-     "date": "2026-10-14",
-     "url": "https://seed.bytedance.com/zh/blog/seed-alignment-preparedness-team-looking-for-global-talents",
-     "summary": "新部门聚焦模型/Agent 安全评测、对齐训练、自动化红队、行为监控与可解释性等，工作地点含北京、上海、圣何塞。"
     }
    ]
   },
@@ -412,11 +412,11 @@
      "url": "https://github.com/morluto/rea",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 259995,
+     "stars": 261409,
      "stars_week": null,
      "language": "TypeScript",
      "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-     "why": "今日日榜前列，总星约 25.9 万。"
+     "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.1 万。"
     },
     {
      "title": "JuliusBrussee/caveman",
@@ -480,6 +480,30 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2110720940665372825",
+     "source": "@AnthropicAI",
+     "date": "2026-10-15",
+     "summary": "Anthropic 开放两类新 Fellowship 申请：STEM 方向与概念推理方向（哲学、认知科学、经济、政策、法律），2027 年 1 月起在 Anthropic 工作四个月，帮助提升 Claude 的推理。",
+     "metrics": {
+      "likes": 1992,
+      "reposts": 147,
+      "views": 149829
+     }
+    },
+    {
+     "title": "@GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2110715601454784965",
+     "source": "@GoogleDeepMind",
+     "date": "2026-10-15",
+     "summary": "SynthID 入选《时代》2026 年度最佳发明，已为超 1800 亿张图片和视频打上水印，帮助识别 AI 生成内容。",
+     "metrics": {
+      "likes": 319,
+      "reposts": 25,
+      "views": 25122
+     }
+    },
     {
      "title": "@ClaudeDevs",
      "url": "https://x.com/ClaudeDevs/status/2110445844675838148",
@@ -550,30 +574,6 @@
       "likes": 25262,
       "reposts": 2594,
       "views": 7689307
-     }
-    },
-    {
-     "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2110289695888511368",
-     "source": "@AnthropicAI",
-     "date": "2026-10-14",
-     "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任应用合作备忘录。",
-     "metrics": {
-      "likes": 3374,
-      "reposts": 204,
-      "views": 685025
-     }
-    },
-    {
-     "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2109795898909950247",
-     "source": "@AnthropicAI",
-     "date": "2026-10-13",
-     "summary": "Anthropic：近数月显著降低针对 Claude 的蒸馏攻击有效性，并发布技术博客说明防护方法。",
-     "metrics": {
-      "likes": 6462,
-      "reposts": 607,
-      "views": 2546892
      }
     }
    ]
