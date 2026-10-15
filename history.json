@@ -183,9 +183,9 @@
    "date": "2026-10-15",
    "summary": "Claude Code 桌面版大改：更快启动会话、便于把任务拆到多个会话并行，并可随时查看每个会话的进展。",
    "metrics": {
-    "likes": 16864,
-    "reposts": 736,
-    "views": 1492261
+    "likes": 17102,
+    "reposts": 748,
+    "views": 1532952
    },
    "id": "f6c87bd22327264abebc80d91b52a1b7bce927ae",
    "module": "x",
