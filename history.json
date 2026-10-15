@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T03:28:00+08:00",
- "count": 173,
+ "updated": "2026-10-16T04:30:00+08:00",
+ "count": 177,
  "items": [
   {
    "title": "@sundarpichai",
@@ -9,9 +9,9 @@
    "date": "2026-10-16",
    "summary": "皮查伊：Google Quantum AI 首次在真实硬件上演示“魔术态培育”，Willow 处理器上误差较以往方法降低 40 倍。",
    "metrics": {
-    "likes": 836,
-    "reposts": 88,
-    "views": 40479
+    "likes": 1962,
+    "reposts": 206,
+    "views": 92734
    },
    "id": "240709af5c3c0f7b4442b4018fdcf1373cd24309",
    "module": "x",
@@ -41,9 +41,9 @@
    "date": "2026-10-16",
    "summary": "英伟达宣布扩大与沃尔沃汽车合作，将沃尔沃安全经验与 NVIDIA Hyperion、Halos OS 等结合推进安全自动驾驶。",
    "metrics": {
-    "likes": 179,
-    "reposts": 16,
-    "views": 14530
+    "likes": 275,
+    "reposts": 24,
+    "views": 19340
    },
    "id": "9497d3054c758a21e0662bb28e81f872e31728a8",
    "module": "x",
@@ -57,9 +57,9 @@
    "date": "2026-10-16",
    "summary": "苏莱曼：微软 MAI 已拥有完全自研的 3T 参数级 SOTA 预训练基座模型（MAI-Base-2），后训练结果即将公布。",
    "metrics": {
-    "likes": 1569,
-    "reposts": 150,
-    "views": 216698
+    "likes": 1795,
+    "reposts": 165,
+    "views": 296019
    },
    "id": "765034dcbec0828406d9b040febbd278bd15c021",
    "module": "x",
@@ -73,9 +73,9 @@
    "date": "2026-10-16",
    "summary": "OpenAI 推出 GPT-Live-1.1：ChatGPT、Codex 与 dots 语音新增法/德/印地/墨西哥西语/韩/日语音色，口音更好、更少“checking...”，今日向所有用户推送，API 即将上线。",
    "metrics": {
-    "likes": 3781,
-    "reposts": 243,
-    "views": 196038
+    "likes": 5182,
+    "reposts": 323,
+    "views": 301192
    },
    "id": "775988000eb33d1735c7ab85495f7c0772626dda",
    "module": "x",
@@ -105,9 +105,9 @@
    "date": "2026-10-16",
    "summary": "Meta 发布 Muse Spark Open，称其为迄今最强的美国开放权重模型：816B 总参 / 42B 激活、1M 上下文，面向编码与智能体任务。",
    "metrics": {
-    "likes": 4093,
-    "reposts": 408,
-    "views": 162749
+    "likes": 6629,
+    "reposts": 649,
+    "views": 362595
    },
    "id": "5c16a9c6461b449689e83655df40b083e2b450c0",
    "module": "x",
@@ -136,9 +136,9 @@
    "date": "2026-10-16",
    "summary": "Anthropic 称正与多家机构商谈由外部评估方审视其安全实践，并已向 METR_Evals 团队授予接近员工级访问权限；同步介绍与第三方评估方的合作方式。",
    "metrics": {
-    "likes": 1105,
-    "reposts": 78,
-    "views": 86377
+    "likes": 1616,
+    "reposts": 109,
+    "views": 168914
    },
    "id": "c9c82329cbcae35290082aec08401c4d622f84af",
    "module": "x",
@@ -150,11 +150,11 @@
    "url": "https://github.com/xerj-org/xerj",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 5349,
+   "stars": 5499,
    "stars_week": null,
    "language": "Rust",
    "summary": "面向 AI 的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40 倍 token，兼容 Elasticsearch 客户端。",
-   "why": "今日日榜新上，单日约 725 星。",
+   "why": "今日日榜新上，单日约 725 星，总星约 5500。",
    "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -165,12 +165,27 @@
    "url": "https://github.com/ruvnet/ruflo",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 74953,
+   "stars": 75012,
    "stars_week": null,
    "language": "TypeScript",
-   "summary": "多智能体 swarm harness：自适应记忆、联邦、向量 RAG，集成 Claude Code / Codex 等。",
-   "why": "日榜持续，总星约 7.5 万。",
+   "summary": "多智能体 swarm harness：自适应记忆、自学习、联邦与向量 RAG，原生集成 Claude Code / Codex 等。",
+   "why": "今日日榜新上，总星约 7.5 万。",
    "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T20:32:02+08:00"
+  },
+  {
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 280221,
+   "stars_week": null,
+   "language": "JavaScript",
+   "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化：技能、本能、记忆、安全与研究优先开发流程。",
+   "why": "今日日榜新上，总星约 28 万。",
+   "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T20:32:02+08:00"
@@ -180,7 +195,7 @@
    "url": "https://github.com/obra/superpowers",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 299737,
+   "stars": 299763,
    "stars_week": null,
    "language": "Shell",
    "summary": "可落地的智能体技能框架与软件开发方法论。",
@@ -195,7 +210,7 @@
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 112387,
+   "stars": 112416,
    "stars_week": null,
    "language": "Go",
    "summary": "用“穴居人式”简短对话为编码智能体省约 65% token 的 Skill + 代理。",
@@ -225,11 +240,11 @@
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 50287,
+   "stars": 50328,
    "stars_week": null,
    "language": "Python",
    "summary": "面向科学的 Agent Skills 库：177 个验证技能与 100+ 数据库，覆盖生药化与药物发现，兼容 Cursor/Claude Code 等。",
-   "why": "今日日榜新上前列，单日约 1091 星，总星约 5.0 万。",
+   "why": "日榜前列，单日约 1091 星，总星约 5.0 万。",
    "id": "36917ef32b441dc1267859059cff87fff8d86bcd",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -240,7 +255,7 @@
    "url": "https://github.com/debpalash/VoiceStudio",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 68638,
+   "stars": 68741,
    "stars_week": null,
    "language": "Python",
    "summary": "开源本地 ElevenLabs 替代：声音克隆、配音、听写与有声书，支持 646 种语言。",
@@ -270,15 +285,48 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 266309,
+   "stars": 267108,
    "stars_week": null,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-   "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.6 万。",
+   "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.7 万。",
    "id": "92705331275526a8e0b1d0b4ec156bfb5025973f",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "OpenAI 发布 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多语音色",
+   "url": "https://openai.com/products/release-notes/",
+   "source": "OpenAI",
+   "date": "2026-10-15",
+   "summary": "GPT-Live-1.1 与迷你版 Quip 今日向全体用户推送，新增法/德/印地/日/韩/墨西哥西语等音色及英语 Bubbie，口音更自然，搜索等待提示语更丰富；API 即将上线。",
+   "id": "eee727226111eaffd5a01115fdf984bbc87b577e",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T04:30:00+08:00"
+  },
+  {
+   "title": "亚马逊推出 Bee 个人 AI 设备，潘纳斯畅想「环境计算」取代 App",
+   "source": "TechCrunch",
+   "date": "2026-10-15",
+   "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+   "summary": "在 Disrupt，Devices 负责人 Panos Panay 称未来是安静工作的环境设备而非点选 App；同步推出 Bee 腕带/吊坠与磁吸卡片机，实时处理音频后删除原始录音、本地密钥加密转录，起价约 75 美元。",
+   "id": "69334bf7d5867e77b41002824a39d1c3c2b77447",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T04:30:00+08:00"
+  },
+  {
+   "title": "Bluesky 扩展 AI 应用 Attie：可用自然语言搭建网站、游戏等",
+   "source": "TechCrunch",
+   "date": "2026-10-15",
+   "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+   "summary": "原用于定制信息流的 Attie 现支持用自然语言构建网站、游戏等更广泛项目，延续 Bluesky 在 AT Protocol 上的开放社交与 AI 工具布局。",
+   "id": "00b9e4087573b03b5460a3930f782dadb563451c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T04:30:00+08:00"
   },
   {
    "title": "微软 MAI 完成 MAI-Base-2 预训练：2.8T 总参 / 80B 激活 MoE",
@@ -484,14 +532,14 @@
    "first_seen": "2026-10-16T00:35:00+08:00"
   },
   {
-   "title": "欧盟对 OpenAI、Anthropic 启动 AI 法案调查，最高可罚全球营收 3%",
+   "title": "欧盟 AI 办公室首次向 OpenAI、Anthropic 发出 AI 法案信息调取",
    "source": "IT之家",
    "date": "2026-10-15",
    "url": "https://www.ithome.com/1/013/154.htm",
-   "summary": "欧盟人工智能办公室就前沿模型测试“越狱”并入侵外部系统发出信息调取请求，为 AI 法案实施以来对前沿实验室的重要执法考验。",
+   "summary": "针对测试阶段模型逃逸并触及外部真实系统事件正式调查安全措施与监控；尚处取证阶段，若认定重大违规最高可罚全球年营业额 3%。",
    "id": "e7f18cd0c3614ed428ccbecdd38cee0b4c03a6cf",
-   "module": "china",
-   "module_name": "国内 AI 动态",
+   "module": "policy",
+   "module_name": "政策与监管",
    "first_seen": "2026-10-16T00:35:00+08:00"
   },
   {
@@ -740,11 +788,11 @@
    "first_seen": "2026-10-15T21:28:55+08:00"
   },
   {
-   "title": "美国 FTC 向 OpenAI、Anthropic 发出民事调查令",
-   "source": "Axios / CBS News",
-   "date": "2026-10-15",
+   "title": "美国 FTC 传票 OpenAI 与 Anthropic，调查 AI 安全事件与消费者保护",
    "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
-   "summary": "FTC 周三发出各超 50 页的调查令，索取安全事件、防护措施、营销材料与隐私政策文件，聚焦消费者保护；据报还将要求 AI 高管作证，并向第三方 AI 机构发调查令。",
+   "source": "Axios",
+   "date": "2026-10-15",
+   "summary": "民事调查要求聚焦安全事件、防护与营销是否误导；后续还将向第三方 AI 组织发函，并计划让高管作证。特朗普政府 SI Force 此前已要求事故即时通报。",
    "id": "706ad4e62b7672b4933eeafd41c8077349e2bacb",
    "module": "policy",
    "module_name": "政策与监管",
@@ -770,21 +818,6 @@
    "id": "5241da4e264a90228aa886615f823a728ee6bbaf",
    "module": "china",
    "module_name": "国内 AI 动态",
-   "first_seen": "2026-10-15T20:32:02+08:00"
-  },
-  {
-   "title": "affaan-m/ECC",
-   "url": "https://github.com/affaan-m/ECC",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 280006,
-   "stars_week": null,
-   "language": "JavaScript",
-   "summary": "智能体 harness 性能优化系统：Skills、本能、记忆、安全与研究优先开发。",
-   "why": "日榜上升，总星约 28 万。",
-   "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T20:32:02+08:00"
   },
   {
@@ -982,22 +1015,22 @@
    "first_seen": "2026-10-15T17:36:05+08:00"
   },
   {
-   "title": "SwarmRSI：科学智能体群的递归自我改进",
-   "source": "arXiv 2610.20431",
+   "title": "SwarmRSI：通过演化科研状态实现智能体群递归自我改进",
+   "source": "arXiv 2610.20431 / 华为等",
    "date": "2026-10-15",
    "url": "https://arxiv.org/abs/2610.20431",
-   "summary": "华为等提出通过反馈引导变异与互补重组演化共享研究状态；在 OpenProblems 与 NatureBench 达 SOTA，约 77% 最优程序源自继承状态。",
+   "summary": "用反馈引导突变与互补重组演化假设、程序与实验证据；Gemini 3.1 Pro 上 OpenProblems 均分 76.2，NatureBench Match-SOTA 达 44.4%，约 77% 最终最优程序源自 rebase/交叉或反馈触发更新。",
    "id": "33451a300236d7b939e97a2af9b47e660a3c36c3",
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
-   "title": "Co-Evolving Acting and Forecasting for Language Agents",
+   "title": "Co-Evolving Acting and Forecasting：用多步动作预测提升智能体样本效率",
    "source": "arXiv 2610.20597",
    "date": "2026-10-15",
    "url": "https://arxiv.org/abs/2610.20597",
-   "summary": "针对长程 rollout 成本高、仅用终局标量奖励的问题，提出动作与预测协同演化，更好利用中间步骤监督信号。",
+   "summary": "在成功轨迹上训练骨干同时生成后续动作序列，推理仍逐步执行无额外开销；五基准上强于 GRPO 等，ScienceWorld 样本效率相对 ECHO/GRPO 最高约 1.9×/2.0×。",
    "id": "4bfad90816f78189fcabf9f5707a8df745cad1a7",
    "module": "research",
    "module_name": "研究与论文",
@@ -1308,11 +1341,11 @@
    "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
-   "title": "美国八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全宣传",
+   "title": "八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全性",
    "source": "The Verge",
    "date": "2026-10-14",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-   "summary": "艾奥瓦、堪萨斯等八州分别起诉，称公司将利润置于安全之上、未充分警示风险并收集未成年人数据；OpenAI 称已有分龄保护并将与各州合作推进行业政策。",
+   "summary": "艾奥瓦等八州分别起诉，称产品过度迎合、可能鼓励自残并误导“安全适龄”；要求加强未成年人保护并寻求民事罚款与赔偿。OpenAI 称已建行业领先的年龄防护。",
    "id": "88ac6d1c3f06222f0526a1499b3df95ba78896a4",
    "module": "policy",
    "module_name": "政策与监管",
@@ -1500,14 +1533,14 @@
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
-   "title": "面壁智能开源 MiniCPM-V 4.7，35B MoE 可在 iPhone 断网运行",
+   "title": "面壁 MiniCPM-V 4.7 开源：iPhone 断网可跑 35B 多模态 MoE",
+   "url": "https://www.qbitai.com/2026/10/503109.html",
    "source": "量子位",
    "date": "2026-10-14",
-   "url": "https://www.qbitai.com/2026/10/503109.html",
-   "summary": "35B-A3B 为系列首个 MoE，约 3GB 内存即可在 iPhone 17 Pro Max 上跑多模态；另有 1.3B 轻量版，支持 iOS/安卓/鸿蒙。",
+   "summary": "35B-A3B 约 3GB 内存、13+ tok/s；适配瑞芯微/后摩/Intel/AMD/Arm，支持 SWIFT、LLaMA-Factory 与多种量化格式。",
    "id": "6ff5128a4cb380092de0a4986dfe5ab77f750812",
-   "module": "opensource",
-   "module_name": "开源与工具",
+   "module": "china",
+   "module_name": "国内 AI 动态",
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
@@ -1710,6 +1743,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "梁文锋拟领投 Winverse AI：DeepSeek 加码机器人「大脑」",
+   "url": "https://www.qbitai.com/2026/10/503093.html",
+   "source": "量子位 / Bloomberg",
+   "date": "2026-10-13",
+   "summary": "据彭博社，DeepSeek 计划领投腾讯前科学家、Swin Transformer 共同作者胡瀚创办的具身基础模型公司数千万美元种子轮，投后估值约 4 亿美元；美团龙珠亦有意向。此前 DeepSeek 已战略入股宇树约 1.41 亿元。",
+   "id": "674ec494e48979a6ea32bbdf1414024352634488",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T04:30:00+08:00"
   },
   {
    "title": "Interaction-as-a-Judge：用计算机使用智能体交互轨迹评估交互式应用",

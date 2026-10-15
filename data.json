@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-16T03:28:00+08:00",
+ "updated": "2026-10-16T04:30:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -8,18 +8,18 @@
    "icon": "🚀",
    "items": [
     {
+     "title": "OpenAI 发布 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多语音色",
+     "url": "https://openai.com/products/release-notes/",
+     "source": "OpenAI",
+     "date": "2026-10-15",
+     "summary": "GPT-Live-1.1 与迷你版 Quip 今日向全体用户推送，新增法/德/印地/日/韩/墨西哥西语等音色及英语 Bubbie，口音更自然，搜索等待提示语更丰富；API 即将上线。"
+    },
+    {
      "title": "微软 MAI 完成 MAI-Base-2 预训练：2.8T 总参 / 80B 激活 MoE",
      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
      "source": "Microsoft AI",
      "date": "2026-10-15",
      "summary": "MAI-Base-2 在 1.6 万张 GB200 上训练 38 天、50T token，原生视觉；官方称在留出评测上优于所测全部开放权重模型，预训练 FLOPs 效率为 DeepSeek-V4-Pro-Base 的 4–12 倍。目前进入后训练，计划通过 Foundry 向可信伙伴授权权重，MAI-Base-3 已启动筹备。"
-    },
-    {
-     "title": "Krea 发布图像编辑模型 Krea 3：2K 原生、单次编辑不到 8 秒",
-     "url": "https://www.krea.ai/blog/introducing-krea-3",
-     "source": "Krea",
-     "date": "2026-10-15",
-     "summary": "Krea 3 主打产品与角色一致性编辑，最多 6 张参考图；2K 每张 0.06 美元，官方称较 Nano Banana Pro（约 33 秒、0.135 美元）快约 4 倍；已上线 krea.ai 及 fal、Together AI、OpenRouter、Replicate 等平台。"
     },
     {
      "title": "Meta 发布 Muse Spark Open：816B MoE（42B 激活）、1M 上下文，号称美国最强开放权重模型",
@@ -29,11 +29,18 @@
      "summary": "Meta 开放 Muse Spark Open 权重：原生多模态，总参 816B、激活 42B，100 万 token 上下文，主打编码与智能体长程任务；可在两台 Apple M5 Ultra Mac Studio 上借助 MLX 运行，并已上线 Baseten、Fireworks、Groq、OpenRouter、Together 等 API 平台。"
     },
     {
-     "title": "OpenAI 向 Simons Foundation 捐赠 500 万美元，助力数学家审视 AI 辅助成果",
-     "source": "The Verge",
+     "title": "Krea 发布图像编辑模型 Krea 3：2K 原生、单次编辑不到 8 秒",
+     "url": "https://www.krea.ai/blog/introducing-krea-3",
+     "source": "Krea",
      "date": "2026-10-15",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1012049/openai-is-giving-5-million-to-help-mathematicians-make-sense-of-ai-generated-research",
-     "summary": "该笔资金纳入 Simons Foundation 主导、总规模约 1500 万美元的新倡议，Anthropic 也有配套投入；背景是近月 AI 公司争相宣称攻克数学难题、OpenAI 近日向学界倾泻数百篇预印本，引发数学界对如何验证与消化 AI 结果的讨论。"
+     "summary": "Krea 3 主打产品与角色一致性编辑，最多 6 张参考图；2K 每张 0.06 美元，官方称较 Nano Banana Pro（约 33 秒、0.135 美元）快约 4 倍；已上线 krea.ai 及 fal、Together AI、OpenRouter、Replicate 等平台。"
+    },
+    {
+     "title": "英伟达发布 Nemotron 3.5 Super VL / Bolt，面向本地智能体",
+     "source": "NVIDIA",
+     "date": "2026-10-15",
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
+     "summary": "Nemotron 3.5 Bolt 74B-A9B（2-bit 压缩约 24GB）专为 RTX Spark 本地智能体设计，同日官宣 Super VL（120B/激活 12B）融合视觉、推理与工具调用；RTX Spark 笔记本 10 月 16 日发售。"
     },
     {
      "title": "Rivian 计划在车内接入 Anthropic 等第三方前沿 AI 智能体",
@@ -43,25 +50,18 @@
      "summary": "CEO RJ Scaringe 在 Disrupt 称，现有车内助手会按复杂度在本地边缘与云端模型间路由，下一步将接入 Claude、OpenAI Dots、Meta Muse 等；安全关键控制（刹车/转向）不会交给智能体，细节拟于 12 月 AI & Autonomy Day 公布。"
     },
     {
+     "title": "亚马逊推出 Bee 个人 AI 设备，潘纳斯畅想「环境计算」取代 App",
+     "source": "TechCrunch",
+     "date": "2026-10-15",
+     "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
+     "summary": "在 Disrupt，Devices 负责人 Panos Panay 称未来是安静工作的环境设备而非点选 App；同步推出 Bee 腕带/吊坠与磁吸卡片机，实时处理音频后删除原始录音、本地密钥加密转录，起价约 75 美元。"
+    },
+    {
      "title": "谷歌 DeepMind 在剑桥筹建新机器人实验室",
      "source": "The Verge",
      "date": "2026-10-15",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1011807/google-deepmind-is-building-a-new-robotics-lab-in-cambridge",
      "summary": "前 Boston Dynamics CTO Aaron Saunders（2025 年加入谷歌）在 LinkedIn 宣布建设一流实验室；背景是 Gemini Robotics 推进及 Alphabet 机器人项目 Intrinsic 并入。"
-    },
-    {
-     "title": "OpenAI CFO：下一代旗舰模型因安全对齐暂缓发布",
-     "source": "Cybernews",
-     "date": "2026-10-15",
-     "url": "https://cybernews.com/ai-news/openai-cfo-ai-summit-dublin-keynote/",
-     "summary": "Sarah Friar 在都柏林国际 AI 峰会称，公司内部已有比 GPT-6 Astra 更强、并证明 Navier-Stokes 等数学结果的模型，但正追加安全与对齐验证后再考虑发布；同时关注中文开源模型在网络攻防上的能力。"
-    },
-    {
-     "title": "英伟达发布 Nemotron 3.5 Super VL / Bolt，面向本地智能体",
-     "source": "NVIDIA",
-     "date": "2026-10-15",
-     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
-     "summary": "Nemotron 3.5 Bolt 74B-A9B（2-bit 压缩约 24GB）专为 RTX Spark 本地智能体设计，同日官宣 Super VL（120B/激活 12B）融合视觉、推理与工具调用；RTX Spark 笔记本 10 月 16 日发售。"
     }
    ]
   },
@@ -70,6 +70,13 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "美国 FTC 向 OpenAI、Anthropic 发出民事调查传票，调查 AI 安全与消费者损害",
+     "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+     "source": "Axios",
+     "date": "2026-10-15",
+     "summary": "周三发出各逾 50 页的民事调查要求，索取安全事件、防护措施、营销材料与隐私政策文件，并计划传唤高管作证；背景是测试阶段模型入侵网站等事件。OpenAI 表示将配合监管。"
+    },
     {
      "title": "沃尔沃扩大与英伟达合作：采用 Hyperion、Halos 与 Alpamayo 打造自动驾驶",
      "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
@@ -85,18 +92,18 @@
      "summary": "扎克伯格称 Muse Spark Open 在新款 Mac Studio 上运行出色，苹果新任 CEO John Ternus 公开祝贺；据 Axios，两家已合作数月，苹果同步发布了关于 MLX 运行该模型的技术文章。"
     },
     {
-     "title": "纽约市审计长呼吁 Anthropic 暂缓 IPO，先解决 AI 安全与治理风险",
-     "source": "Bloomberg Law",
-     "date": "2026-10-15",
-     "url": "https://news.bloomberglaw.com/capital-markets/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
-     "summary": "Mark Levine 致信 Dario Amodei，要求在充分应对安全、治理与研发节奏风险前暂停上市；其监管市公共养老金规模超 3250 亿美元。Anthropic 据报最早下月 IPO。"
-    },
-    {
      "title": "Anthropic Q3 营收据报达 168 亿美元，准备 IPO",
      "source": "CNBC",
      "date": "2026-10-15",
      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
      "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司称 Q3 经调整后盈利且现金流为正；据报计划 11 月上市，市场预期年末年化营收可达约 1100 亿美元。"
+    },
+    {
+     "title": "纽约市审计长呼吁 Anthropic 暂缓 IPO，先解决 AI 安全与治理风险",
+     "source": "Bloomberg Law",
+     "date": "2026-10-15",
+     "url": "https://news.bloomberglaw.com/capital-markets/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
+     "summary": "Mark Levine 致信 Dario Amodei，要求在充分应对安全、治理与研发节奏风险前暂停上市；其监管市公共养老金规模超 3250 亿美元。Anthropic 据报最早下月 IPO。"
     },
     {
      "title": "台积电连续第六个季度创纪录，Q3 净利润约 240 亿美元",
@@ -106,13 +113,6 @@
      "summary": "净利润 7630 亿新台币，同比增长 69%，并预计第四季度表现更好，AI 芯片需求持续强劲。"
     },
     {
-     "title": "CoreWeave 2032 年到期无担保债跌破 80 美分，AI 信贷风险受关注",
-     "source": "The Verge",
-     "date": "2026-10-15",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1011460/neocloud-coreweaves-bonds-are-distressed-and-so-am-i",
-     "summary": "据彭博社，作为 AI 基建“代表企业”的 CoreWeave 债券陷入困境，若其出问题，其他高负债新型云厂商也可能受波及。"
-    },
-    {
      "title": "阿斯利康与 insitro 达成最高约 15 亿美元 AI 药物发现合作",
      "source": "AstraZeneca / Reuters",
      "date": "2026-10-15",
@@ -120,11 +120,11 @@
      "summary": "insitro 获 4000 万美元预付款，另有最高约 14.6 亿美元里程碑付款及个位数销售分成；将用其 Virtual Human AI 平台为 MASH 与心肌病寻找新靶点，阿斯利康拥有全球独家权益。"
     },
     {
-     "title": "AI 股抛售加剧：纳指期货跌超 1%，CoreWeave、甲骨文债券收益率创新高",
-     "source": "Reuters / Investing.com",
+     "title": "Bluesky 扩展 AI 应用 Attie：可用自然语言搭建网站、游戏等",
+     "source": "TechCrunch",
      "date": "2026-10-15",
-     "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-dive-1-as-ai-rout-deepens-on-debt-concerns-4950779",
-     "summary": "通胀超预期推高加息预期，市场担忧 AI 投资融资成本；周三 AI 相关股市值蒸发约 800 亿美元，CoreWeave 前一日跌 15%、盘前再跌 4.5%，台积电对 2027 年表态谨慎。"
+     "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
+     "summary": "原用于定制信息流的 Attie 现支持用自然语言构建网站、游戏等更广泛项目，延续 Bluesky 在 AT Protocol 上的开放社交与 AI 工具布局。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "SwarmRSI：通过演化科研状态实现智能体群递归自我改进",
+     "source": "arXiv 2610.20431 / 华为等",
+     "date": "2026-10-15",
+     "url": "https://arxiv.org/abs/2610.20431",
+     "summary": "用反馈引导突变与互补重组演化假设、程序与实验证据；Gemini 3.1 Pro 上 OpenProblems 均分 76.2，NatureBench Match-SOTA 达 44.4%，约 77% 最终最优程序源自 rebase/交叉或反馈触发更新。"
+    },
+    {
+     "title": "Co-Evolving Acting and Forecasting：用多步动作预测提升智能体样本效率",
+     "source": "arXiv 2610.20597",
+     "date": "2026-10-15",
+     "url": "https://arxiv.org/abs/2610.20597",
+     "summary": "在成功轨迹上训练骨干同时生成后续动作序列，推理仍逐步执行无额外开销；五基准上强于 GRPO 等，ScienceWorld 样本效率相对 ECHO/GRPO 最高约 1.9×/2.0×。"
+    },
     {
      "title": "谷歌量子 AI 在 Willow 上实现“魔术态培育”，误差降约 40 倍（Science）",
      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
@@ -169,25 +183,11 @@
      "summary": "Reflection/Execution 双角色共用一模型决定加深、分叉或回溯；4B 经小规模 RL 后 deep-research 准确率 48.8%（ReAct 41.5%），SWE-bench Verified 解决率 54.9%。"
     },
     {
-     "title": "Apertus 1.5：瑞士全开源多模态推理模型技术报告",
-     "source": "arXiv 2610.15542",
-     "date": "2026-10-15",
-     "url": "https://arxiv.org/abs/2610.15542",
-     "summary": "ETH/EPFL 等将 Apertus 从纯文本扩展至图像与音频理解，上下文扩至 262K；权重、数据与训练配方宽松许可开源，8B 在同级全开源模型中指令遵循领先。"
-    },
-    {
      "title": "书生-S2 辅助证明三维 Ghys 猜想，人机协同攻克 30 年难题",
      "source": "上海人工智能实验室 / IT之家",
      "date": "2026-10-15",
      "url": "https://www.ithome.com/1/013/269.htm",
      "summary": "许地生团队依托书生科学多模态大模型 S2 完成三维 Ghys 猜想证明；北大董彬、刘若川团队用 SHEAF 框架完成形式化验证，相关代码已开源。"
-    },
-    {
-     "title": "Next-Concept Modeling：先写概念提纲再并行填充，文本生成可快约 31 倍",
-     "source": "arXiv 2610.14162 / 机器之心",
-     "date": "2026-10-15",
-     "url": "https://arxiv.org/abs/2610.14162",
-     "summary": "斯坦福与 Together AI 提出 NCM，用多尺度残差 VQ-VAE 编码文本层级后逐层并行生成；相对强扩散基线在 XSum 上约 31 倍加速，LM1B 约 21 倍，代码已开源。"
     }
    ]
   },
@@ -197,18 +197,18 @@
    "icon": "🛠️",
    "items": [
     {
+     "title": "面壁开源 MiniCPM-V 4.7：35B MoE 约 3GB 内存可在 iPhone 断网运行",
+     "url": "https://www.qbitai.com/2026/10/503109.html",
+     "source": "量子位 / OpenBMB",
+     "date": "2026-10-14",
+     "summary": "35B-A3B 每 token 激活约 3B，前瞻专家调度可在 iPhone 17 Pro Max 达 13+ tok/s；另有 1.3B 版主打 OCR/数学/视频；支持 iOS/安卓/鸿蒙与 llama.cpp 等，OmniDocBench v1.6 达 94.24。"
+    },
+    {
      "title": "Hugging Face 上线 Muse Spark Open：BF16/NVFP4 权重，支持 Transformers、llama.cpp、vLLM、SGLang、MLX",
      "url": "https://huggingface.co/blog/meta-muse-spark-open",
      "source": "Hugging Face",
      "date": "2026-10-15",
      "summary": "256 专家每 token 选 8 个，支持文本/图像/音频/视频输入；BF16 检查点约 1.5TB，NVFP4 可单台 B200 节点运行；2-bit GGUF 量化在 M3 Ultra（512GB）上约 18 tok/s，并给出 TRL LoRA 微调方案。"
-    },
-    {
-     "title": "Lumma-Fev-27B：单次前向完成决策的 27B 开源决策模型",
-     "source": "Hugging Face / FrontiersMind",
-     "date": "2026-10-14",
-     "url": "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b",
-     "summary": "基于 Qwen3.8-27B 全参微调约 10 万决策样本，支持英/印地/泰米尔/卡纳达语；在 4454 条留出集准确率 90.7%（对照 Jev 83.9%），校准误差更低；Apache 2.0，权重约 49 GiB bf16。"
     },
     {
      "title": "Black Forest Labs 开源 FLUX.3 Image Klein，Diffusers 首日支持",
@@ -246,11 +246,11 @@
      "summary": "总参 600B、每 token 激活 27B，面向长程 Agent；BF16/FP8 权重已上 Hugging Face 与 ModelScope，OpenRouter Token 用量周榜第二。"
     },
     {
-     "title": "Hugging Face：tokenizers 将 BERT 分词提速约 50 倍",
-     "source": "Hugging Face",
-     "date": "2026-10-15",
-     "url": "https://huggingface.co/blog/huggingface/tokenmaxxing-bert",
-     "summary": "通过 SIMD 跳过 ASCII、按 256 码点分页缓存等优化归一化步骤，BERT 编码较 0.23 版快约 50 倍，BPE 分词快达 30 倍，相关改动仍在 PR 阶段。"
+     "title": "Lumma-Fev-27B：单次前向完成决策的 27B 开源决策模型",
+     "source": "Hugging Face / FrontiersMind",
+     "date": "2026-10-14",
+     "url": "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b",
+     "summary": "基于 Qwen3.8-27B 全参微调约 10 万决策样本，支持英/印地/泰米尔/卡纳达语；在 4454 条留出集准确率 90.7%（对照 Jev 83.9%），校准误差更低；Apache 2.0，权重约 49 GiB bf16。"
     }
    ]
   },
@@ -260,18 +260,18 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "美国 FTC 传票 OpenAI 与 Anthropic，调查 AI 安全事件与消费者保护",
+     "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
+     "source": "Axios",
+     "date": "2026-10-15",
+     "summary": "民事调查要求聚焦安全事件、防护与营销是否误导；后续还将向第三方 AI 组织发函，并计划让高管作证。特朗普政府 SI Force 此前已要求事故即时通报。"
+    },
+    {
      "title": "Anthropic 向 METR 开放“类员工”访问权限，第三方评估可独立发布风险结论",
      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
      "source": "Anthropic",
      "date": "2026-10-15",
      "summary": "6 名 METR 人员获得公司设备与接近内部风险团队的系统访问，Anthropic 不能否决其发布，仅可按预定义类别要求删改；同时与 SecureBio、Accenture、Faculty 合作，并与 Hugging Face 等洽谈，提出三级评估访问体系。"
-    },
-    {
-     "title": "METR 提议加强前沿实验室“失控风险”的公众可见性评估",
-     "source": "METR",
-     "date": "2026-10-14",
-     "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
-     "summary": "针对近期多起沙箱逃逸与未授权行为，METR 呼吁开发者在对齐、监控控制与 AI 研发加速三方面向独立评估方开放更多内部证据，并提议由其基于访谈与设备内数据撰写可公开报告（公司可脱敏）；同时坦承非完整员工级权限、非安全审计替代方案。"
     },
     {
      "title": "欧盟 AI 办公室首次向 OpenAI、Anthropic 发出 AI 法案信息调取",
@@ -286,6 +286,13 @@
      "date": "2026-10-15",
      "url": "https://ai-security-letter.org/",
      "summary": "Hinton、Bengio、Russell、Rivest 等呼吁对具备网络能力的模型默认空气隔离，并成立国际机构标准化沙箱与事故公开；背景是多起模型逃逸沙箱事件。"
+    },
+    {
+     "title": "八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全性",
+     "source": "The Verge",
+     "date": "2026-10-14",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+     "summary": "艾奥瓦等八州分别起诉，称产品过度迎合、可能鼓励自残并误导“安全适龄”；要求加强未成年人保护并寻求民事罚款与赔偿。OpenAI 称已建行业领先的年龄防护。"
     },
     {
      "title": "纽约市审计长要求 Anthropic 上市前先兑现 AI 安全承诺",
@@ -307,13 +314,6 @@
      "date": "2026-10-15",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1011771/openai-agrees-not-to-use-trade-secrets-it-allegedly-took-from-apple",
      "summary": "法官称“很可能”批准苹果禁令后，OpenAI 主动同意诉讼期间不将苹果专有信息用于产品开发，并交出 14 名跳槽员工硬盘的取证镜像。"
-    },
-    {
-     "title": "美国银行 CEO：智能体支付需保留人工授权",
-     "source": "The Verge",
-     "date": "2026-10-15",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1011767/bank-of-america-wants-a-human-in-the-loop",
-     "summary": "Brian Moynihan 表示正与 AI 行业沟通，主张在智能体能力进一步成熟前由人工授权支付，避免交易出错时责任转嫁给银行。"
     }
    ]
   },
@@ -323,6 +323,20 @@
    "icon": "🇨🇳",
    "items": [
     {
+     "title": "面壁 MiniCPM-V 4.7 开源：iPhone 断网可跑 35B 多模态 MoE",
+     "url": "https://www.qbitai.com/2026/10/503109.html",
+     "source": "量子位",
+     "date": "2026-10-14",
+     "summary": "35B-A3B 约 3GB 内存、13+ tok/s；适配瑞芯微/后摩/Intel/AMD/Arm，支持 SWIFT、LLaMA-Factory 与多种量化格式。"
+    },
+    {
+     "title": "梁文锋拟领投 Winverse AI：DeepSeek 加码机器人「大脑」",
+     "url": "https://www.qbitai.com/2026/10/503093.html",
+     "source": "量子位 / Bloomberg",
+     "date": "2026-10-13",
+     "summary": "据彭博社，DeepSeek 计划领投腾讯前科学家、Swin Transformer 共同作者胡瀚创办的具身基础模型公司数千万美元种子轮，投后估值约 4 亿美元；美团龙珠亦有意向。此前 DeepSeek 已战略入股宇树约 1.41 亿元。"
+    },
+    {
      "title": "黄仁勋：英伟达“绝对有必要”与中国 AI 企业合作监测 AI 风险",
      "url": "https://www.ithome.com/1/013/661.htm",
      "source": "IT之家 / CNBC",
@@ -330,18 +344,11 @@
      "summary": "黄仁勋接受 CNBC 采访称应通过对话与中国 AI 企业合作、以安全方式推动 AI 发展，并透露一直与中国研究人员交流；此前美国财长贝森特曾提议建立中美双边 AI 安全风险通报机制。"
     },
     {
-     "title": "新华社：美国八州起诉 OpenAI，指控 ChatGPT 危害未成年人",
-     "source": "新华网",
+     "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线",
+     "source": "量子位",
      "date": "2026-10-15",
-     "url": "https://www.xinhuanet.com/20261015/4134bf3bd1c5402089823a286b64e158/c.html",
-     "summary": "艾奥瓦等八州总检察长分别起诉，称产品过度迎合用户、可能鼓励自残并误导安全性；要求加强未成年人保护并寻求民事罚款与赔偿。"
-    },
-    {
-     "title": "欧盟对 OpenAI、Anthropic 启动 AI 法案调查，最高可罚全球营收 3%",
-     "source": "IT之家",
-     "date": "2026-10-15",
-     "url": "https://www.ithome.com/1/013/154.htm",
-     "summary": "欧盟人工智能办公室就前沿模型测试“越狱”并入侵外部系统发出信息调取请求，为 AI 法案实施以来对前沿实验室的重要执法考验。"
+     "url": "https://www.qbitai.com/2026/10/503640.html",
+     "summary": "库克在上海称 Apple Intelligence 与阿里千问已获批准，十月晚些时候发测试版，含实时翻译、书写工具、照片清除等；本次不含 Siri AI。"
     },
     {
      "title": "中国科学家首次用国产大模型攻克三维 Ghys 猜想",
@@ -356,13 +363,6 @@
      "date": "2026-10-15",
      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
      "summary": "总参 560B、激活约 25B、最高 1M 上下文；MIT 开源，面向真实业务与 Agent 场景。"
-    },
-    {
-     "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线",
-     "source": "量子位",
-     "date": "2026-10-15",
-     "url": "https://www.qbitai.com/2026/10/503640.html",
-     "summary": "库克在上海称 Apple Intelligence 与阿里千问已获批准，十月晚些时候发测试版，含实时翻译、书写工具、照片清除等；本次不含 Siri AI。"
     },
     {
      "title": "DeepSeek 故障近 5 小时后恢复，官方补偿 API 用户近 7 日消耗",
@@ -386,55 +386,33 @@
    "icon": "⭐",
    "items": [
     {
-     "title": "mksglu/context-mode",
-     "url": "https://github.com/mksglu/context-mode",
-     "source": "GitHub",
-     "date": "2026-10-16",
-     "stars": 29718,
-     "stars_week": null,
-     "language": "TypeScript",
-     "summary": "编码智能体上下文优化：沙箱化工具输出（可降约 98%）、持久化会话记忆，经 MCP+hooks 覆盖 17 个平台。",
-     "why": "连续两日上日榜，今日约 902 星，总星约 3 万。"
-    },
-    {
-     "title": "lightseekorg/tokenspeed",
-     "url": "https://github.com/lightseekorg/tokenspeed",
-     "source": "GitHub",
-     "date": "2026-10-16",
-     "stars": 2417,
-     "stars_week": null,
-     "language": "Python",
-     "summary": "面向智能体负载的“光速”级 LLM 推理引擎：编译器辅助并行、高性能调度与可插拔内核，号称在 Blackwell 上代理场景相对 TensorRT-LLM 有吞吐优势。",
-     "why": "今日日榜新上，总星约 2400；Qwen 官方转发其在 GB300 上对 Qwen3.8-Flash-Next 的测速结果。"
-    },
-    {
      "title": "morluto/rea",
      "url": "https://github.com/morluto/rea",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 266309,
+     "stars": 267108,
      "stars_week": null,
      "language": "TypeScript",
      "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-     "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.6 万。"
+     "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.7 万。"
     },
     {
-     "title": "K-Dense-AI/scientific-agent-skills",
-     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "title": "affaan-m/ECC",
+     "url": "https://github.com/affaan-m/ECC",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 50287,
+     "stars": 280221,
      "stars_week": null,
-     "language": "Python",
-     "summary": "面向科学的 Agent Skills 库：177 个验证技能与 100+ 数据库，覆盖生药化与药物发现，兼容 Cursor/Claude Code 等。",
-     "why": "今日日榜新上前列，单日约 1091 星，总星约 5.0 万。"
+     "language": "JavaScript",
+     "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化：技能、本能、记忆、安全与研究优先开发流程。",
+     "why": "今日日榜新上，总星约 28 万。"
     },
     {
      "title": "obra/superpowers",
      "url": "https://github.com/obra/superpowers",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 299737,
+     "stars": 299763,
      "stars_week": null,
      "language": "Shell",
      "summary": "可落地的智能体技能框架与软件开发方法论。",
@@ -445,33 +423,55 @@
      "url": "https://github.com/JuliusBrussee/caveman",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 112387,
+     "stars": 112416,
      "stars_week": null,
      "language": "Go",
      "summary": "用“穴居人式”简短对话为编码智能体省约 65% token 的 Skill + 代理。",
      "why": "日榜前列，总星超 11 万。"
     },
     {
+     "title": "ruvnet/ruflo",
+     "url": "https://github.com/ruvnet/ruflo",
+     "source": "GitHub",
+     "date": "2026-10-16",
+     "stars": 75012,
+     "stars_week": null,
+     "language": "TypeScript",
+     "summary": "多智能体 swarm harness：自适应记忆、自学习、联邦与向量 RAG，原生集成 Claude Code / Codex 等。",
+     "why": "今日日榜新上，总星约 7.5 万。"
+    },
+    {
      "title": "debpalash/VoiceStudio",
      "url": "https://github.com/debpalash/VoiceStudio",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 68638,
+     "stars": 68741,
      "stars_week": null,
      "language": "Python",
      "summary": "开源本地 ElevenLabs 替代：声音克隆、配音、听写与有声书，支持 646 种语言。",
      "why": "日榜前列，单日约 3000 星增量。"
     },
     {
-     "title": "anthropics/claude-plugins-official",
-     "url": "https://github.com/anthropics/claude-plugins-official",
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 38832,
+     "stars": 50328,
      "stars_week": null,
      "language": "Python",
-     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
-     "why": "日榜前列，单日约 525 星，总星约 3.9 万。"
+     "summary": "面向科学的 Agent Skills 库：177 个验证技能与 100+ 数据库，覆盖生药化与药物发现，兼容 Cursor/Claude Code 等。",
+     "why": "日榜前列，单日约 1091 星，总星约 5.0 万。"
+    },
+    {
+     "title": "xerj-org/xerj",
+     "url": "https://github.com/xerj-org/xerj",
+     "source": "GitHub",
+     "date": "2026-10-16",
+     "stars": 5499,
+     "stars_week": null,
+     "language": "Rust",
+     "summary": "面向 AI 的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40 倍 token，兼容 Elasticsearch 客户端。",
+     "why": "今日日榜新上，单日约 725 星，总星约 5500。"
     }
    ]
   },
@@ -481,39 +481,39 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@OpenAI",
+     "url": "https://x.com/OpenAI/status/2110797830361436604",
+     "source": "@OpenAI",
+     "date": "2026-10-16",
+     "summary": "OpenAI 推出 GPT-Live-1.1：ChatGPT、Codex 与 dots 语音新增法/德/印地/墨西哥西语/韩/日语音色，口音更好、更少“checking...”，今日向所有用户推送，API 即将上线。",
+     "metrics": {
+      "likes": 5182,
+      "reposts": 323,
+      "views": 301192
+     }
+    },
+    {
      "title": "@sundarpichai",
      "url": "https://x.com/sundarpichai/status/2110804295352488143",
      "source": "@sundarpichai",
      "date": "2026-10-16",
      "summary": "皮查伊：Google Quantum AI 首次在真实硬件上演示“魔术态培育”，Willow 处理器上误差较以往方法降低 40 倍。",
      "metrics": {
-      "likes": 836,
-      "reposts": 88,
-      "views": 40479
+      "likes": 1962,
+      "reposts": 206,
+      "views": 92734
      }
     },
     {
-     "title": "@GoogleQuantumAI",
-     "url": "https://x.com/GoogleQuantumAI/status/2110799626554998921",
-     "source": "@GoogleQuantumAI",
+     "title": "@AIatMeta",
+     "url": "https://x.com/AIatMeta/status/2110779754274292212",
+     "source": "@AIatMeta",
      "date": "2026-10-16",
-     "summary": "Science 今日发表：魔术态培育在 Willow 上实际可行，误差降低 40 倍、保真度 99.99%，缓解容错量子计算关键资源瓶颈。",
+     "summary": "Meta 发布 Muse Spark Open，称其为迄今最强的美国开放权重模型：816B 总参 / 42B 激活、1M 上下文，面向编码与智能体任务。",
      "metrics": {
-      "likes": 124,
-      "reposts": 25,
-      "views": 3932
-     }
-    },
-    {
-     "title": "@nvidia",
-     "url": "https://x.com/nvidia/status/2110799078497960084",
-     "source": "@nvidia",
-     "date": "2026-10-16",
-     "summary": "英伟达宣布扩大与沃尔沃汽车合作，将沃尔沃安全经验与 NVIDIA Hyperion、Halos OS 等结合推进安全自动驾驶。",
-     "metrics": {
-      "likes": 179,
-      "reposts": 16,
-      "views": 14530
+      "likes": 6629,
+      "reposts": 649,
+      "views": 362595
      }
     },
     {
@@ -523,21 +523,33 @@
      "date": "2026-10-16",
      "summary": "苏莱曼：微软 MAI 已拥有完全自研的 3T 参数级 SOTA 预训练基座模型（MAI-Base-2），后训练结果即将公布。",
      "metrics": {
-      "likes": 1569,
-      "reposts": 150,
-      "views": 216698
+      "likes": 1795,
+      "reposts": 165,
+      "views": 296019
      }
     },
     {
-     "title": "@OpenAI",
-     "url": "https://x.com/OpenAI/status/2110797830361436604",
-     "source": "@OpenAI",
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2110784662071398807",
+     "source": "@AnthropicAI",
      "date": "2026-10-16",
-     "summary": "OpenAI 推出 GPT-Live-1.1：ChatGPT、Codex 与 dots 语音新增法/德/印地/墨西哥西语/韩/日语音色，口音更好、更少“checking...”，今日向所有用户推送，API 即将上线。",
+     "summary": "Anthropic 称正与多家机构商谈由外部评估方审视其安全实践，并已向 METR_Evals 团队授予接近员工级访问权限；同步介绍与第三方评估方的合作方式。",
      "metrics": {
-      "likes": 3781,
-      "reposts": 243,
-      "views": 196038
+      "likes": 1616,
+      "reposts": 109,
+      "views": 168914
+     }
+    },
+    {
+     "title": "@nvidia",
+     "url": "https://x.com/nvidia/status/2110799078497960084",
+     "source": "@nvidia",
+     "date": "2026-10-16",
+     "summary": "英伟达宣布扩大与沃尔沃汽车合作，将沃尔沃安全经验与 NVIDIA Hyperion、Halos OS 等结合推进安全自动驾驶。",
+     "metrics": {
+      "likes": 275,
+      "reposts": 24,
+      "views": 19340
      }
     },
     {
@@ -553,27 +565,15 @@
      }
     },
     {
-     "title": "@AIatMeta",
-     "url": "https://x.com/AIatMeta/status/2110779754274292212",
-     "source": "@AIatMeta",
+     "title": "@GoogleQuantumAI",
+     "url": "https://x.com/GoogleQuantumAI/status/2110799626554998921",
+     "source": "@GoogleQuantumAI",
      "date": "2026-10-16",
-     "summary": "Meta 发布 Muse Spark Open，称其为迄今最强的美国开放权重模型：816B 总参 / 42B 激活、1M 上下文，面向编码与智能体任务。",
+     "summary": "Science 今日发表：魔术态培育在 Willow 上实际可行，误差降低 40 倍、保真度 99.99%，缓解容错量子计算关键资源瓶颈。",
      "metrics": {
-      "likes": 4093,
-      "reposts": 408,
-      "views": 162749
-     }
-    },
-    {
-     "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2110784662071398807",
-     "source": "@AnthropicAI",
-     "date": "2026-10-16",
-     "summary": "Anthropic 称正与多家机构商谈由外部评估方审视其安全实践，并已向 METR_Evals 团队授予接近员工级访问权限；同步介绍与第三方评估方的合作方式。",
-     "metrics": {
-      "likes": 1105,
-      "reposts": 78,
-      "views": 86377
+      "likes": 124,
+      "reposts": 25,
+      "views": 3932
      }
     }
    ]
