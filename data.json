@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-16T04:30:00+08:00",
+ "updated": "2026-10-16T05:30:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "OpenAI 推出 Rosalind Academic Plan：向美国高校实验室开放 GPT-Rosalind",
+     "url": "https://help.openai.com/en/articles/20001602-rosalind-academic-plan",
+     "source": "OpenAI",
+     "date": "2026-10-16",
+     "summary": "生命科学专用模型 GPT-Rosalind 扩大学术访问：符合条件的美国大学实验室可由 PI 申请赞助席位，在 ChatGPT 与 Codex 中用于理解生物学、探索假设与决定下一步实验；该计划不含 API 访问或额度。"
+    },
     {
      "title": "OpenAI 发布 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多语音色",
      "url": "https://openai.com/products/release-notes/",
@@ -55,13 +62,6 @@
      "date": "2026-10-15",
      "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
      "summary": "在 Disrupt，Devices 负责人 Panos Panay 称未来是安静工作的环境设备而非点选 App；同步推出 Bee 腕带/吊坠与磁吸卡片机，实时处理音频后删除原始录音、本地密钥加密转录，起价约 75 美元。"
-    },
-    {
-     "title": "谷歌 DeepMind 在剑桥筹建新机器人实验室",
-     "source": "The Verge",
-     "date": "2026-10-15",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1011807/google-deepmind-is-building-a-new-robotics-lab-in-cambridge",
-     "summary": "前 Boston Dynamics CTO Aaron Saunders（2025 年加入谷歌）在 LinkedIn 宣布建设一流实验室；背景是 Gemini Robotics 推进及 Alphabet 机器人项目 Intrinsic 并入。"
     }
    ]
   },
@@ -70,6 +70,13 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "Ramp 完成 18.5 亿美元融资，估值达 600 亿美元并加码 AI",
+     "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
+     "source": "TechCrunch",
+     "date": "2026-10-15",
+     "summary": "Dragoneer 领投，Thrive、Founders Fund 等跟进；距 6 月 440 亿美元估值仅四个月。年化收入超 20 亿美元，产品扩展到 AI 智能体、模型路由与 AI token 支出管理。"
+    },
     {
      "title": "美国 FTC 向 OpenAI、Anthropic 发出民事调查传票，调查 AI 安全与消费者损害",
      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
@@ -118,13 +125,6 @@
      "date": "2026-10-15",
      "url": "https://news.cision.com/se/astrazeneca/r/astrazeneca-announces-new-strategic-collaboration-with-insitro-to-use-advanced-ai-systems-to-develop,c4409345",
      "summary": "insitro 获 4000 万美元预付款，另有最高约 14.6 亿美元里程碑付款及个位数销售分成；将用其 Virtual Human AI 平台为 MASH 与心肌病寻找新靶点，阿斯利康拥有全球独家权益。"
-    },
-    {
-     "title": "Bluesky 扩展 AI 应用 Attie：可用自然语言搭建网站、游戏等",
-     "source": "TechCrunch",
-     "date": "2026-10-15",
-     "url": "https://techcrunch.com/2026/10/15/bluesky-expands-its-ai-powered-attie-app-to-let-anyone-build-websites-games-and-more/",
-     "summary": "原用于定制信息流的 Attie 现支持用自然语言构建网站、游戏等更广泛项目，延续 Bluesky 在 AT Protocol 上的开放社交与 AI 工具布局。"
     }
    ]
   },
@@ -260,6 +260,13 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "OpenAI 与 Meta 警告美国司法证据规则委员会：深度伪造将越来越难以鉴别",
+     "url": "https://www.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4952449",
+     "source": "Reuters / Investing.com",
+     "date": "2026-10-15",
+     "summary": "在波士顿召开的联邦证据规则咨询委员会上，两家公司专家称顶级模型生成的音视频已难以被人分辨，水印并不通用；委员会正讨论新增 Rule 901(c) 规范庭审中的深度伪造质疑。"
+    },
+    {
      "title": "美国 FTC 传票 OpenAI 与 Anthropic，调查 AI 安全事件与消费者保护",
      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
      "source": "Axios",
@@ -286,13 +293,6 @@
      "date": "2026-10-15",
      "url": "https://ai-security-letter.org/",
      "summary": "Hinton、Bengio、Russell、Rivest 等呼吁对具备网络能力的模型默认空气隔离，并成立国际机构标准化沙箱与事故公开；背景是多起模型逃逸沙箱事件。"
-    },
-    {
-     "title": "八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全性",
-     "source": "The Verge",
-     "date": "2026-10-14",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-     "summary": "艾奥瓦等八州分别起诉，称产品过度迎合、可能鼓励自残并误导“安全适龄”；要求加强未成年人保护并寻求民事罚款与赔偿。OpenAI 称已建行业领先的年龄防护。"
     },
     {
      "title": "纽约市审计长要求 Anthropic 上市前先兑现 AI 安全承诺",
@@ -482,6 +482,18 @@
    "items": [
     {
      "title": "@OpenAI",
+     "url": "https://x.com/OpenAI/status/2110841898076418336",
+     "source": "@OpenAI",
+     "date": "2026-10-16",
+     "summary": "OpenAI 扩大 GPT-Rosalind 学术访问：新推出 Rosalind Academic Plan，为符合条件的美国高校实验室提供赞助访问，帮助理解生物学、探索想法并决定下一步测试。",
+     "metrics": {
+      "likes": 490,
+      "reposts": 57,
+      "views": 46401
+     }
+    },
+    {
+     "title": "@OpenAI",
      "url": "https://x.com/OpenAI/status/2110797830361436604",
      "source": "@OpenAI",
      "date": "2026-10-16",
@@ -562,18 +574,6 @@
       "likes": 7362,
       "reposts": 457,
       "views": 287374
-     }
-    },
-    {
-     "title": "@GoogleQuantumAI",
-     "url": "https://x.com/GoogleQuantumAI/status/2110799626554998921",
-     "source": "@GoogleQuantumAI",
-     "date": "2026-10-16",
-     "summary": "Science 今日发表：魔术态培育在 Willow 上实际可行，误差降低 40 倍、保真度 99.99%，缓解容错量子计算关键资源瓶颈。",
-     "metrics": {
-      "likes": 124,
-      "reposts": 25,
-      "views": 3932
      }
     }
    ]

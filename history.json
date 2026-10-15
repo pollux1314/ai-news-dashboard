@@ -1,7 +1,34 @@
 {
- "updated": "2026-10-16T04:30:00+08:00",
- "count": 177,
+ "updated": "2026-10-16T05:30:00+08:00",
+ "count": 181,
  "items": [
+  {
+   "title": "OpenAI 推出 Rosalind Academic Plan：向美国高校实验室开放 GPT-Rosalind",
+   "url": "https://help.openai.com/en/articles/20001602-rosalind-academic-plan",
+   "source": "OpenAI",
+   "date": "2026-10-16",
+   "summary": "生命科学专用模型 GPT-Rosalind 扩大学术访问：符合条件的美国大学实验室可由 PI 申请赞助席位，在 ChatGPT 与 Codex 中用于理解生物学、探索假设与决定下一步实验；该计划不含 API 访问或额度。",
+   "id": "af2ce380aaa365b0ad3e2ae9be3e4708fb22f93a",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T05:30:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110841898076418336",
+   "source": "@OpenAI",
+   "date": "2026-10-16",
+   "summary": "OpenAI 扩大 GPT-Rosalind 学术访问：新推出 Rosalind Academic Plan，为符合条件的美国高校实验室提供赞助访问，帮助理解生物学、探索想法并决定下一步测试。",
+   "metrics": {
+    "likes": 490,
+    "reposts": 57,
+    "views": 46401
+   },
+   "id": "91f6232d44de146187e56932df9a504003074cd9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T05:30:00+08:00"
+  },
   {
    "title": "@sundarpichai",
    "url": "https://x.com/sundarpichai/status/2110804295352488143",
@@ -294,6 +321,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "Ramp 完成 18.5 亿美元融资，估值达 600 亿美元并加码 AI",
+   "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
+   "source": "TechCrunch",
+   "date": "2026-10-15",
+   "summary": "Dragoneer 领投，Thrive、Founders Fund 等跟进；距 6 月 440 亿美元估值仅四个月。年化收入超 20 亿美元，产品扩展到 AI 智能体、模型路由与 AI token 支出管理。",
+   "id": "d50f8db84b07d382c611755d6f8832f477c92449",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T05:30:00+08:00"
+  },
+  {
+   "title": "OpenAI 与 Meta 警告美国司法证据规则委员会：深度伪造将越来越难以鉴别",
+   "url": "https://www.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4952449",
+   "source": "Reuters / Investing.com",
+   "date": "2026-10-15",
+   "summary": "在波士顿召开的联邦证据规则咨询委员会上，两家公司专家称顶级模型生成的音视频已难以被人分辨，水印并不通用；委员会正讨论新增 Rule 901(c) 规范庭审中的深度伪造质疑。",
+   "id": "650253c0a426217ba66f87c77899e66ca4bf86b5",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-16T05:30:00+08:00"
   },
   {
    "title": "OpenAI 发布 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多语音色",
