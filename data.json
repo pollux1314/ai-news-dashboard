@@ -1,0 +1,442 @@
+{
+ "title": "AI 资讯面板",
+ "updated": "2026-10-15T14:10:00+08:00",
+ "modules": [
+  {
+   "id": "models",
+   "name": "大模型与产品发布",
+   "icon": "🚀",
+   "items": [
+    {
+     "title": "谷歌发布 Gemini 4 Argon 前沿模型",
+     "source": "Google Blog",
+     "date": "2026-09-30",
+     "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+     "summary": "谷歌推出新一代旗舰 Gemini 4 Argon，支持最高 100 万 token 输出；现已向开发者、企业及 Pro/Ultra 订阅用户开放，API 价格限时五折至 11 月 30 日。"
+    },
+    {
+     "title": "Gemini 4 Argon 向开发者全面开放",
+     "source": "Google Blog",
+     "date": "2026-10-13",
+     "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
+     "summary": "开发者可通过 Gemini API、AI Studio 与 Antigravity 使用 gemini-4-argon，主打智能体编程与长输出任务。"
+    },
+    {
+     "title": "Meta 发布 Muse Wonder / Muse Wonder Full，正式进入前沿竞争",
+     "source": "The Verge",
+     "date": "2026-10-14",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011311/the-ai-race-is-back-on",
+     "summary": "Meta 超级智能实验室推出首款前沿级模型，自测成绩对标 GPT-6 Astra 与 Claude Opus 5.5；连同 Gemini 4 Argon，The Verge 认为 AI 竞赛重新开局。"
+    },
+    {
+     "title": "OpenAI 向所有 ChatGPT 套餐推送 GPT-6 与智能界面",
+     "source": "OpenAI",
+     "date": "2026-10-08",
+     "url": "https://openai.com/index/gpt-6-for-everyone/",
+     "summary": "付费用户使用 GPT-6 Sol，免费与 Go 用户切换至 GPT-6 Luna，回答中可嵌入按钮、表单与图表等交互元素。"
+    },
+    {
+     "title": "Anthropic 推出 Claude Haiku 5.5",
+     "source": "Anthropic",
+     "date": "2026-10-07",
+     "url": "https://www.anthropic.com/claude-haiku-5-5",
+     "summary": "Anthropic 最快、最便宜的小模型，100 万上下文，输入 $0.10/百万 token 起，面向分类、路由、子智能体等高吞吐场景。"
+    }
+   ]
+  },
+  {
+   "id": "industry",
+   "name": "行业与融资",
+   "icon": "💰",
+   "items": [
+    {
+     "title": "Manus 完成超 5 亿美元融资，为与 Meta 交易终止后首轮",
+     "source": "TechCrunch",
+     "date": "2026-10-08",
+     "url": "https://techcrunch.com/2026/10/08/chinas-manus-raises-over-500m-in-first-funding-round-since-split-with-meta/",
+     "summary": "博裕资本与 IDG 领投，腾讯、红杉中国等跟投；Manus 此前 20 亿美元被 Meta 收购的交易被迫取消，或考虑赴港上市。"
+    },
+    {
+     "title": "AI 排行榜 Arena 完成 2 亿美元 B 轮，估值 31 亿美元",
+     "source": "TechCrunch",
+     "date": "2026-10-08",
+     "url": "https://techcrunch.com/2026/10/08/popular-ai-leaderboard-arena-nearly-doubles-valuation-to-3-1b-valuation-in-10-months/",
+     "summary": "源自 UC Berkeley 的模型众包排行榜 Arena 由 Lightspeed 与 Khosla 领投，估值 10 个月内近翻倍。"
+    },
+    {
+     "title": "Pluto Security 获 4200 万美元，应对企业 AI 安全新挑战",
+     "source": "TechCrunch",
+     "date": "2026-10-13",
+     "url": "https://techcrunch.com/2026/10/13/pluto-security-raises-42m-as-ai-gives-enterprise-security-teams-a-new-headache/",
+     "summary": "以色列/美国初创公司走出隐身，专注监控与管控企业内的 AI 工具、连接器与使用行为。"
+    },
+    {
+     "title": "Zenzap 融资 4400 万美元打造职场 AI 聊天应用",
+     "source": "TechCrunch",
+     "date": "2026-10-14",
+     "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
+     "summary": "Zenzap 希望用内置 AI 的工作聊天工具取代职场中的 WhatsApp。"
+    },
+    {
+     "title": "DeepSeek 据报将完成 1000 亿元融资",
+     "source": "21世纪经济报道",
+     "date": "2026-10-13",
+     "url": "https://www.21jingji.com/article/20261013/herald/e445af80c18bdf8f76491b2226c2c22c.html",
+     "summary": "报道称 DeepSeek 本轮融资约 1000 亿元、投前估值约 5000 亿元，并推进科创板上市；Kimi 亦完成 Pre-IPO 融资。"
+    }
+   ]
+  },
+  {
+   "id": "research",
+   "name": "研究与论文",
+   "icon": "📄",
+   "items": [
+    {
+     "title": "VISTA：交互世界中推理的视觉 Harness",
+     "source": "arXiv 2610.02200",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.02200",
+     "summary": "让多模态模型保持无损视觉记忆，报告在 ARC-AGI-3 上取得满分且动作数比人类少 57.4%。"
+    },
+    {
+     "title": "大语言连续扩散模型（Sigma）",
+     "source": "arXiv 2610.02665",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.02665",
+     "summary": "3B/8B 连续扩散语言模型，潜在轨迹可引导，支持高效少步推理。"
+    },
+    {
+     "title": "Arc：机器人基础模型的推理配方",
+     "source": "arXiv 2610.12386",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.12386",
+     "summary": "用自动生成的因果推理轨迹训练机器人基础模型，基准最高提升约 50 分。"
+    },
+    {
+     "title": "从思维链到循环：基于 Looped Transformer 的非自回归潜在推理",
+     "source": "arXiv 2610.11472",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.11472",
+     "summary": "以并行迭代细化替代顺序潜在推理，推理延迟降低约 40 倍。"
+    },
+    {
+     "title": "RLVR 中探索与优化解耦（ExpDis）",
+     "source": "arXiv 2610.10536",
+     "date": "2026-10",
+     "url": "https://arxiv.org/abs/2610.10536",
+     "summary": "将新颖性驱动的探索与优化分离，提升可验证奖励强化学习的推理表现。"
+    }
+   ]
+  },
+  {
+   "id": "opensource",
+   "name": "开源与工具",
+   "icon": "🛠️",
+   "items": [
+    {
+     "title": "Liquid AI 开源 LFM2.5-24B-A2B 端侧推理模型",
+     "source": "Hugging Face",
+     "date": "2026-10-13",
+     "url": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+     "summary": "24B 总参数、仅 2B 激活，支持工具调用与多步任务，可在本地硬件持续运行智能体。"
+    },
+    {
+     "title": "Liquid AI 发布开源多模态决策模型 d1",
+     "source": "Hugging Face",
+     "date": "2026-10-07",
+     "url": "https://huggingface.co/blog/LiquidAI/open-d1",
+     "summary": "发布 d1-3B 与实验性 d1-omni-600M，面向边缘设备的快速分类/决策任务。"
+    },
+    {
+     "title": "JetBrains 开源 Mellum2.1 编程智能体模型",
+     "source": "JetBrains Blog",
+     "date": "2026-10",
+     "url": "https://blog.jetbrains.com/ai/2026/10/mellum2-1-gets-to-work-a-fast-open-model-for-coding-agents/",
+     "summary": "12B MoE（2.5B 激活），Apache 2.0 许可，强化后训练以适配编程智能体。"
+    },
+    {
+     "title": "UltraBERT：原生 32K 上下文的开源编码器",
+     "source": "Hugging Face",
+     "date": "2026-10-14",
+     "url": "https://huggingface.co/blog/dmis-lab/ultrabert",
+     "summary": "150M/380M 英文编码器及嵌入模型，兼顾分类与检索，Apache 2.0。"
+    },
+    {
+     "title": "THX-01：可在手机运行的 3.22 亿参数开源决策模型",
+     "source": "Hugging Face",
+     "date": "2026-10-10",
+     "url": "https://huggingface.co/blog/doofz/thx-01-we-open-sourced-a-322m-decision-model-that",
+     "summary": "阿塞拜疆 HAL-X AI 发布，Apache 2.0 许可，附免费 API 与在线 Demo。"
+    }
+   ]
+  },
+  {
+   "id": "policy",
+   "name": "政策与监管",
+   "icon": "⚖️",
+   "items": [
+    {
+     "title": "美国八州起诉 OpenAI，指 ChatGPT 伤害青少年",
+     "source": "Reuters（via Investing.com）",
+     "date": "2026-10-14",
+     "url": "https://www.investing.com/news/stock-market-news/eight-us-states-sue-openai-claiming-chatgpt-harms-children-4949879",
+     "summary": "爱荷华、堪萨斯、亚利桑那等八州总检察长分别提起诉讼，指控 ChatGPT 强化妄想、鼓励危险行为，为针对 AI 公司最大规模的州级联合行动。"
+    },
+    {
+     "title": "英国将对 AI 医疗器械实施持续监测",
+     "source": "Reuters",
+     "date": "2026-10-06",
+     "url": "https://www.reuters.com/legal/litigation/uk-says-it-will-monitor-ai-based-medical-devices-continually-2026-10-05/",
+     "summary": "英国政府接受全部 44 条建议，AI 医疗器械获批后仍需持续上市后监测，实施计划将于 2027 年春发布。"
+    },
+    {
+     "title": "美国上诉法院暂停明尼苏达州 AI “脱衣”禁令",
+     "source": "Reuters",
+     "date": "2026-10-02",
+     "url": "https://www.reuters.com/world/us-appeals-court-blocks-minnesotas-ai-nudification-law-now-xai-lawsuit-2026-10-02/",
+     "summary": "应 xAI 请求，第八巡回法院在诉讼期间暂停该州全美首个 AI 生成虚假裸照禁令。"
+    },
+    {
+     "title": "加州立法规范律师使用生成式 AI",
+     "source": "Reuters",
+     "date": "2026-10-01",
+     "url": "https://www.reuters.com/legal/government/california-sets-guardrails-lawyers-ai-use-2026-10-01/",
+     "summary": "纽森签署 SB 574，要求律师核实 AI 输出、披露使用情况，为全美首部此类州法。"
+    }
+   ]
+  },
+  {
+   "id": "china",
+   "name": "国内 AI 动态",
+   "icon": "🇨🇳",
+   "items": [
+    {
+     "title": "面壁智能开源 MiniCPM-V 4.7，35B MoE 可在 iPhone 断网运行",
+     "source": "量子位（新浪）",
+     "date": "2026-10-14",
+     "url": "https://www.sina.cn/news/detail/5353783869571310.html",
+     "summary": "35B-A3B 版本为系列首个 MoE 模型，仅占约 3GB 内存即可在 iPhone 17 Pro Max 上流畅运行。"
+    },
+    {
+     "title": "阶跃终端发布首款大模型原生智能体手机 STEPX Neo",
+     "source": "量子位",
+     "date": "2026-10-13",
+     "url": "https://www.qbitai.com/2026/10",
+     "summary": "STEPX（阶跃终端）推出 Agent 手机 STEPX Neo；同期 APUS AI 开源 Reflex Agent，DeepSeek 被曝布局具身智能。"
+    },
+    {
+     "title": "机器之心：Matrix Game 4.0 实现消费级显卡落地等",
+     "source": "机器之心",
+     "date": "2026-10-15",
+     "url": "https://www.jiqizhixin.com/industry",
+     "summary": "产业频道今日报道 Matrix Game 4.0、Natura-1 灵巧操作模型、MemSilicon 1Gb RRAM 芯片流片等进展。"
+    },
+    {
+     "title": "10 月 AI 合集：Kimi K3.1 窗口临近，国产模型密集迭代",
+     "source": "腾讯新闻",
+     "date": "2026-10-14",
+     "url": "https://news.qq.com/rain/a/20261014A0AQ7P00",
+     "summary": "汇总称 Kimi K3.1 计划 10 月中旬前发布、重点强化长时智能体任务，月之暗面同时训练更大规模的 K4。"
+    }
+   ]
+  },
+  {
+   "id": "github",
+   "name": "GitHub 热门 AI 项目",
+   "icon": "⭐",
+   "items": [
+    {
+     "title": "morluto/rea",
+     "url": "https://github.com/morluto/rea",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 249794,
+     "stars_week": 214837,
+     "language": "TypeScript",
+     "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
+     "why": "本周新增约 21.5 万星，为全站周榜第一，并在 X 上引发 AI 编程大讨论。"
+    },
+    {
+     "title": "heygen-com/hyperframes",
+     "url": "https://github.com/heygen-com/hyperframes",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 63884,
+     "stars_week": 5123,
+     "language": "TypeScript",
+     "summary": "HeyGen 开源：写 HTML 即可渲染视频，专为智能体设计。",
+     "why": "让 AI 智能体用网页技术直接生成视频，本周 +5.1k 星。"
+    },
+    {
+     "title": "thedotmack/claude-mem",
+     "url": "https://github.com/thedotmack/claude-mem",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 100823,
+     "stars_week": 3371,
+     "language": "TypeScript",
+     "summary": "为各类编码智能体提供跨会话的持久上下文记忆。",
+     "why": "解决智能体“失忆”痛点，已破 10 万星，本周 +3.4k。"
+    },
+    {
+     "title": "earthtojake/text-to-cad",
+     "url": "https://github.com/earthtojake/text-to-cad",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 20463,
+     "stars_week": 1994,
+     "language": "Python",
+     "summary": "给智能体加上 CAD 建模能力，用文字生成三维模型。",
+     "why": "AI 从代码走向实体设计的代表项目，本周 +2k 星。"
+    },
+    {
+     "title": "tester-army/e2e",
+     "url": "https://github.com/tester-army/e2e",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 10584,
+     "stars_week": 3505,
+     "language": "TypeScript",
+     "summary": "面向 Web 与移动应用的新一代端到端测试框架。",
+     "why": "本周 +3.5k 星，契合 AI 写代码后自动化验证的需求。"
+    },
+    {
+     "title": "yetone/magpie",
+     "url": "https://github.com/yetone/magpie",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 12986,
+     "stars_week": null,
+     "language": "Go",
+     "summary": "在菜单栏统一切换各智能体所用模型，例如让 Codex 跑 DeepSeek、Claude Code 跑 Kimi。",
+     "why": "9 月 23 日创建，三周破 1.2 万星；作者为沉浸式翻译作者 yetone。"
+    },
+    {
+     "title": "KKKKhazix/AIHOT",
+     "url": "https://github.com/KKKKhazix/AIHOT",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 7703,
+     "stars_week": null,
+     "language": "TypeScript",
+     "summary": "自动找热点、自动写日报的网站框架，换上自己的信源即可成为行业热点站。",
+     "why": "9 月 28 日创建，已获 7.7k 星，国内开发者热门项目。"
+    },
+    {
+     "title": "onehumanbeing/esp32-iphone-agent",
+     "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 2171,
+     "stars_week": null,
+     "language": "C",
+     "summary": "用 7 美元的 ESP32 让 AI 视觉模型操控真实 iPhone（AirPlay 看屏 + USB HID 操作）。",
+     "why": "10 月 11 日创建，数天内破 2k 星，低成本手机智能体新思路。"
+    }
+   ]
+  },
+  {
+   "id": "x",
+   "name": "X 重要动态",
+   "icon": "𝕏",
+   "items": [
+    {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2110047081414987957",
+     "source": "@AnthropicAI",
+     "date": "2026-10-14",
+     "summary": "Anthropic 工程博客：9 月日均合并代码超 3 万次（5 月约 2500 次），因开发设施跟不上智能体规模而自建源码管理系统。",
+     "metrics": {
+      "likes": 24894,
+      "reposts": 2551,
+      "views": 7493277
+     }
+    },
+    {
+     "title": "@karpathy",
+     "url": "https://x.com/karpathy/status/2109361546505966046",
+     "source": "@karpathy",
+     "date": "2026-10-12",
+     "summary": "Karpathy 指出公众对大模型能力的认知鸿沟正在扩大，约 75% 的人几乎没真正接触过前沿 AI。",
+     "metrics": {
+      "likes": 43095,
+      "reposts": 5744,
+      "views": 6466096
+     }
+    },
+    {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2109795898909950247",
+     "source": "@AnthropicAI",
+     "date": "2026-10-13",
+     "summary": "Anthropic 发文介绍如何大幅降低针对 Claude 的蒸馏攻击效果。",
+     "metrics": {
+      "likes": 6374,
+      "reposts": 590,
+      "views": 2469300
+     }
+    },
+    {
+     "title": "@GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2110039274922131792",
+     "source": "@GoogleDeepMind",
+     "date": "2026-10-14",
+     "summary": "Gemini 4 Argon 全球上线，主打编程、企业工作流与网络防御等前沿能力。",
+     "metrics": {
+      "likes": 6269,
+      "reposts": 652,
+      "views": 2386784
+     }
+    },
+    {
+     "title": "@AIatMeta",
+     "url": "https://x.com/AIatMeta/status/2109691148943999167",
+     "source": "@AIatMeta",
+     "date": "2026-10-13",
+     "summary": "Meta 推出 Muse Wonder 与 Muse Wonder Full，称其为面向个人与专业智能体任务的前沿模型。",
+     "metrics": {
+      "likes": 2144,
+      "reposts": 227,
+      "views": 279483
+     }
+    },
+    {
+     "title": "@GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2110078384617464201",
+     "source": "@GoogleDeepMind",
+     "date": "2026-10-14",
+     "summary": "Gemini 4 Argon 看视频即建模物理、自写仿真，教会 Apptronik Apollo 人形机器人连中 7 次沙包投掷。",
+     "metrics": {
+      "likes": 3232,
+      "reposts": 392,
+      "views": 234693
+     }
+    },
+    {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2108680150556737819",
+     "source": "@AnthropicAI",
+     "date": "2026-10-10",
+     "summary": "Anthropic 开始更频繁发布模型行为报告，首份披露评估与内部使用中发现的四类 Claude 行为。",
+     "metrics": {
+      "likes": 4549,
+      "reposts": 445,
+      "views": 1350944
+     }
+    },
+    {
+     "title": "@OpenAI",
+     "url": "https://x.com/OpenAI/status/2110442001749659890",
+     "source": "@OpenAI",
+     "date": "2026-10-15",
+     "summary": "OpenAI 经济研究报告：欧盟企业客户的 AI 使用中超一半已涉及智能体，小企业用户增长 8 倍。",
+     "metrics": {
+      "likes": 2209,
+      "reposts": 163,
+      "views": 299857
+     }
+    }
+   ]
+  }
+ ]
+}
