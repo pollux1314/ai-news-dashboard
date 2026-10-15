@@ -4,12 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ingest": "node --env-file=.env.local scripts/ingest.mjs",
+    "build:html": "python3 build.py"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@tinybirdco/sdk": "^0.0.84"
-  }
+  },
+  "type": "module"
 }
