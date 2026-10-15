@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-16T05:30:00+08:00",
+ "updated": "2026-10-16T06:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -176,11 +176,11 @@
      "summary": "普林斯顿等提出多开发者智能体系统（MDA）：个体准确率不超过 35% 的专科智能体组合后在 GAIA 达 70%，高于同等总预算下一般单开发者系统中位数约 12 个百分点。"
     },
     {
-     "title": "TreeFlex：由策略自身导航搜索树的智能体框架",
-     "source": "arXiv 2610.20334 / Meta AI",
+     "title": "微软研究院发布 Magnetar：通用后量子零知识证明虚拟机，平均提速 10–39 倍",
+     "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
+     "source": "Microsoft Research",
      "date": "2026-10-15",
-     "url": "https://arxiv.org/abs/2610.20334",
-     "summary": "Reflection/Execution 双角色共用一模型决定加深、分叉或回溯；4B 经小规模 RL 后 deep-research 准确率 48.8%（ReAct 41.5%），SWE-bench Verified 解决率 54.9%。"
+     "summary": "Magnetar 是基于 RISC-V 的 zkVM，可直接证明 Rust/Go/C 程序执行，安全性仅依赖 SHA-256/SHA-3 等标准哈希、无需可信设置；笔记本上每秒证明 720–870 万条指令，15 项基准平均比现有最快同类系统快 10–39 倍，证明约 12 毫秒可验证，可用于让 AI 智能体附带合规执行证明。"
     },
     {
      "title": "书生-S2 辅助证明三维 Ghys 猜想，人机协同攻克 30 年难题",
@@ -302,11 +302,11 @@
      "summary": "公共养老金监管方公开施压，将 IPO 节奏与安全、治理挂钩，显示资本市场对前沿实验室监管预期升温。"
     },
     {
-     "title": "多国银行监管机构加强审查 AI 风险",
-     "source": "Reuters / The Japan Times",
+     "title": "美国财政部推动 IMF 等国际伙伴把“人工智能”改称“超级智能”",
+     "url": "https://www.investing.com/news/economy-news/us-treasury-pushes-global-partners-to-rename-ai-as-super-intelligence-4951669",
+     "source": "Reuters",
      "date": "2026-10-15",
-     "url": "https://www.japantimes.co.jp/business/2026/10/15/tech/ai-banks-stability-fears/",
-     "summary": "据六位知情人士，美联储等美国三大监管机构正询问银行使用前沿 AI 模型的情况，担忧网络攻击与失控智能体威胁金融稳定。"
+     "summary": "路透社报道，美国财政部副部长 Erin Browne 称美方正与 IMF 其他股东谈判，希望在 IMFC 声明中以“super intelligence（SI）”取代“AI”一词；此前特朗普上月已要求联邦机构改用该称呼，消息人士称美方暗示将坚持这一措辞。"
     },
     {
      "title": "OpenAI 在苹果商业机密案中让步，承诺不使用涉案信息",
@@ -390,11 +390,11 @@
      "url": "https://github.com/morluto/rea",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 267108,
+     "stars": 268441,
      "stars_week": null,
      "language": "TypeScript",
      "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-     "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.7 万。"
+     "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.8 万。"
     },
     {
      "title": "affaan-m/ECC",
@@ -412,7 +412,7 @@
      "url": "https://github.com/obra/superpowers",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 299763,
+     "stars": 299827,
      "stars_week": null,
      "language": "Shell",
      "summary": "可落地的智能体技能框架与软件开发方法论。",
@@ -423,29 +423,29 @@
      "url": "https://github.com/JuliusBrussee/caveman",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 112416,
+     "stars": 112475,
      "stars_week": null,
      "language": "Go",
      "summary": "用“穴居人式”简短对话为编码智能体省约 65% token 的 Skill + 代理。",
      "why": "日榜前列，总星超 11 万。"
     },
     {
-     "title": "ruvnet/ruflo",
-     "url": "https://github.com/ruvnet/ruflo",
+     "title": "anthropics/claude-plugins-official",
+     "url": "https://github.com/anthropics/claude-plugins-official",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 75012,
+     "stars": 38994,
      "stars_week": null,
-     "language": "TypeScript",
-     "summary": "多智能体 swarm harness：自适应记忆、自学习、联邦与向量 RAG，原生集成 Claude Code / Codex 等。",
-     "why": "今日日榜新上，总星约 7.5 万。"
+     "language": "Python",
+     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
+     "why": "日榜前列，单日约 525 星，总星约 3.9 万。"
     },
     {
      "title": "debpalash/VoiceStudio",
      "url": "https://github.com/debpalash/VoiceStudio",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 68741,
+     "stars": 68918,
      "stars_week": null,
      "language": "Python",
      "summary": "开源本地 ElevenLabs 替代：声音克隆、配音、听写与有声书，支持 646 种语言。",
@@ -456,22 +456,22 @@
      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 50328,
+     "stars": 50393,
      "stars_week": null,
      "language": "Python",
      "summary": "面向科学的 Agent Skills 库：177 个验证技能与 100+ 数据库，覆盖生药化与药物发现，兼容 Cursor/Claude Code 等。",
      "why": "日榜前列，单日约 1091 星，总星约 5.0 万。"
     },
     {
-     "title": "xerj-org/xerj",
-     "url": "https://github.com/xerj-org/xerj",
+     "title": "mksglu/context-mode",
+     "url": "https://github.com/mksglu/context-mode",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 5499,
+     "stars": 29760,
      "stars_week": null,
-     "language": "Rust",
-     "summary": "面向 AI 的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40 倍 token，兼容 Elasticsearch 客户端。",
-     "why": "今日日榜新上，单日约 725 星，总星约 5500。"
+     "language": "TypeScript",
+     "summary": "面向 AI 编码智能体的上下文窗口优化：沙箱化工具输出（缩减约 98%）、持久化会话记忆，并通过 MCP + hooks 在 17 个平台间路由。",
+     "why": "日榜前列，单日约 902 星，总星约 3.0 万。"
     }
    ]
   },
@@ -553,15 +553,15 @@
      }
     },
     {
-     "title": "@nvidia",
-     "url": "https://x.com/nvidia/status/2110799078497960084",
-     "source": "@nvidia",
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2110846112152105136",
+     "source": "@AnthropicAI",
      "date": "2026-10-16",
-     "summary": "英伟达宣布扩大与沃尔沃汽车合作，将沃尔沃安全经验与 NVIDIA Hyperion、Halos OS 等结合推进安全自动驾驶。",
+     "summary": "Anthropic：探索 AI 在数学乃至科学研究中的最佳用法需要时间与资源，已承诺投入 500 万美元，参与 Simons 基金会牵头的 1500 万美元数学社区计划，支持数学家主导科研进展。",
      "metrics": {
-      "likes": 275,
-      "reposts": 24,
-      "views": 19340
+      "likes": 683,
+      "reposts": 50,
+      "views": 52889
      }
     },
     {
