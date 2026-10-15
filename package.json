@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ingest": "node --env-file=.env.local scripts/ingest.mjs",
-    "build:html": "python3 build.py"
+    "build:html": "python3 build.py",
+    "refresh": "node scripts/refresh.mjs"
   },
   "keywords": [],
   "author": "",
