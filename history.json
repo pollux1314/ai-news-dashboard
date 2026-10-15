@@ -1,7 +1,83 @@
 {
- "updated": "2026-10-15T14:10:00+08:00",
- "count": 44,
+ "updated": "2026-10-15T14:29:32+08:00",
+ "count": 53,
  "items": [
+  {
+   "title": "昆仑万维开源 Matrix-Game 4.0，单张 RTX 5090 实时运行游戏世界模型",
+   "source": "量子位",
+   "date": "2026-10-15",
+   "url": "https://www.qbitai.com/2026/10/503353.html",
+   "summary": "Skywork AI 称其为首款可在消费级显卡实时运行的游戏世界模型，60 FPS、按键到画面约 112ms，模型与代码已开源。",
+   "id": "3bd23575b6e26d934d2af690deccf03b7a23f683",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
+  {
+   "title": "多国银行监管机构加强审查 AI 风险",
+   "source": "Reuters / The Japan Times",
+   "date": "2026-10-15",
+   "url": "https://www.japantimes.co.jp/business/2026/10/15/tech/ai-banks-stability-fears/",
+   "summary": "据六位知情人士，美联储等美国三大监管机构正询问银行使用前沿 AI 模型的情况，担忧网络攻击与失控智能体威胁金融稳定。",
+   "id": "1720c2ed3c0be173d0e185bbaa9e5cf71687d681",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
+  {
+   "title": "OpenAI 指控跳槽苹果员工带走未发布设备文件",
+   "source": "Reuters / The Hindu",
+   "date": "2026-10-15",
+   "url": "https://www.thehindu.com/sci-tech/technology/openai-employee-who-left-for-apple-took-files-about-unreleased-device-openai-alleges/article71586620.ece",
+   "summary": "OpenAI 在与苹果的商业机密诉讼中提交文件称，一名前员工将 100 多份未发布产品文件发至私人账户并向苹果高层演示；案件预计 2027 年 10 月开庭。",
+   "id": "d9cb7f7e7a9910ae0faa24b154a0e29932a11c35",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
+  {
+   "title": "阶跃星辰开放 Step 5 Preview 权重，600B MoE 支持百万上下文",
+   "source": "新浪科技",
+   "date": "2026-10-15",
+   "url": "https://finance.sina.com.cn/tech/2026-10-15/doc-inivhpnp8149089.shtml",
+   "summary": "总参 600B、每 token 激活 27B，面向长程 Agent 任务；BF16/FP8 权重已上 Hugging Face 与 ModelScope，OpenRouter Token 用量周榜第二。",
+   "id": "1c56534d60e56e787895c8a6650c64b8d74e8153",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
+  {
+   "title": "@AIatMeta",
+   "url": "https://x.com/AIatMeta/status/2110517571149807685",
+   "source": "@AIatMeta",
+   "date": "2026-10-15",
+   "summary": "Meta：Muse Wonder 与 Muse Wonder Full 在个人与专业智能体任务上达到 SOTA，研究博客公开技术细节。",
+   "metrics": {
+    "likes": 208,
+    "reposts": 19,
+    "views": 22982
+   },
+   "id": "f1e1cd97485783108a26ee6001c564a041671ba9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
+  {
+   "title": "@GoogleDeepMind",
+   "url": "https://x.com/GoogleDeepMind/status/2110421861435879476",
+   "source": "@GoogleDeepMind",
+   "date": "2026-10-15",
+   "summary": "DeepMind：Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等领域带来科学突破，并向 1 万名科学家免费开放 Antigravity 最高档 6 个月。",
+   "metrics": {
+    "likes": 1856,
+    "reposts": 218,
+    "views": 95179
+   },
+   "id": "e854ba173c3883c9c97190271c7803e6b93fd9db",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
   {
    "title": "机器之心：Matrix Game 4.0 实现消费级显卡落地等",
    "source": "机器之心",
@@ -148,6 +224,44 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "谷歌公开发布 Deep Review 智能体文档审阅系统",
+   "source": "Google Research",
+   "date": "2026-10-14",
+   "url": "https://research.google/blog/analyzing-technical-documents-with-deep-review/",
+   "summary": "由 Paper Assistant Tool 演进而来，已在 STOC、ICML、NeurIPS、ICLR 为 1.6 万余篇投稿提供预审；现扩展到法律、金融等领域文档的严格核查。",
+   "id": "e5f78e0104d8f37684d734968bb4a8740ca5f9eb",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
+  {
+   "title": "Scimplify 融资 2500 万美元，用 AI 挑战中国关键材料优势",
+   "source": "TechCrunch",
+   "date": "2026-10-14",
+   "url": "https://techcrunch.com/2026/10/14/scimplify-raises-25m-to-challenge-chinas-grip-on-critical-materials-with-ai/",
+   "summary": "印度特种化学品平台 Scimplify 完成新一轮融资，借助 AI 加速关键材料研发与供应链建设。",
+   "id": "ca567069ecbf16ad27e5e0d3970ab0ed2a996afc",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-15T14:29:32+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2110289695888511368",
+   "source": "@AnthropicAI",
+   "date": "2026-10-14",
+   "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任应用合作备忘录。",
+   "metrics": {
+    "likes": 3287,
+    "reposts": 188,
+    "views": 643466
+   },
+   "id": "abcff360d9243844b7b0e4255cb512108c813a87",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T14:29:32+08:00"
   },
   {
    "title": "Meta 发布 Muse Wonder / Muse Wonder Full，正式进入前沿竞争",
