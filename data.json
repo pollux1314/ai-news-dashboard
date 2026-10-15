@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-16T06:35:00+08:00",
+ "updated": "2026-10-16T07:27:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -9,59 +9,59 @@
    "items": [
     {
      "title": "OpenAI 推出 Rosalind Academic Plan：向美国高校实验室开放 GPT-Rosalind",
-     "url": "https://help.openai.com/en/articles/20001602-rosalind-academic-plan",
+     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
      "source": "OpenAI",
      "date": "2026-10-16",
-     "summary": "生命科学专用模型 GPT-Rosalind 扩大学术访问：符合条件的美国大学实验室可由 PI 申请赞助席位，在 ChatGPT 与 Codex 中用于理解生物学、探索假设与决定下一步实验；该计划不含 API 访问或额度。"
+     "summary": "生命科学专用模型 GPT-Rosalind 扩大学术访问：符合条件的美国大学实验室可由 PI 申请赞助席位（最长约 12 个月），在 ChatGPT 与 Codex 中用于理解生物学、探索假设与决定下一步实验。"
+    },
+    {
+     "title": "xAI 发布 Grok Voice 3.0：语音对话指数 86.9，API 仍为每分钟 0.08 美元",
+     "url": "https://x.ai/news/grok-voice-3",
+     "source": "xAI",
+     "date": "2026-10-14",
+     "summary": "Grok Voice 3.0 在 Artificial Analysis 语音对话指数上取得 86.9（#1），Full Duplex Bench 97%；首音延迟约 0.81 秒，定价与前代相同。已用于特斯拉车内与 Starlink 客服，API 以 grok-voice-3.0 / grok-voice-latest 提供。"
     },
     {
      "title": "OpenAI 发布 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多语音色",
      "url": "https://openai.com/products/release-notes/",
      "source": "OpenAI",
      "date": "2026-10-15",
-     "summary": "GPT-Live-1.1 与迷你版 Quip 今日向全体用户推送，新增法/德/印地/日/韩/墨西哥西语等音色及英语 Bubbie，口音更自然，搜索等待提示语更丰富；API 即将上线。"
+     "summary": "GPT-Live-1.1 与迷你版 Quip 向全体用户推送，新增法/德/印地/日/韩/墨西哥西语等音色及英语 Bubbie，口音更自然，搜索等待提示语更丰富；API 即将上线。"
     },
     {
      "title": "微软 MAI 完成 MAI-Base-2 预训练：2.8T 总参 / 80B 激活 MoE",
      "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
      "source": "Microsoft AI",
      "date": "2026-10-15",
-     "summary": "MAI-Base-2 在 1.6 万张 GB200 上训练 38 天、50T token，原生视觉；官方称在留出评测上优于所测全部开放权重模型，预训练 FLOPs 效率为 DeepSeek-V4-Pro-Base 的 4–12 倍。目前进入后训练，计划通过 Foundry 向可信伙伴授权权重，MAI-Base-3 已启动筹备。"
+     "summary": "MAI-Base-2 在 1.6 万张 GB200 上训练 38 天、50T token，原生视觉；官方称在留出评测上优于所测全部开放权重模型，预训练 FLOPs 效率为 DeepSeek-V4-Pro-Base 的 4–12 倍。目前进入后训练，计划通过 Foundry 向可信伙伴授权权重。"
     },
     {
      "title": "Meta 发布 Muse Spark Open：816B MoE（42B 激活）、1M 上下文，号称美国最强开放权重模型",
      "url": "https://research.meta.ai/blog/muse-spark-open",
      "source": "Meta AI",
      "date": "2026-10-15",
-     "summary": "Meta 开放 Muse Spark Open 权重：原生多模态，总参 816B、激活 42B，100 万 token 上下文，主打编码与智能体长程任务；可在两台 Apple M5 Ultra Mac Studio 上借助 MLX 运行，并已上线 Baseten、Fireworks、Groq、OpenRouter、Together 等 API 平台。"
+     "summary": "Meta 开放 Muse Spark Open 权重：原生多模态，总参 816B、激活 42B，100 万 token 上下文，主打编码与智能体长程任务；可在两台 Apple M5 Ultra Mac Studio 上借助 MLX 运行，并已上线多家 API 平台。"
     },
     {
      "title": "Krea 发布图像编辑模型 Krea 3：2K 原生、单次编辑不到 8 秒",
      "url": "https://www.krea.ai/blog/introducing-krea-3",
      "source": "Krea",
      "date": "2026-10-15",
-     "summary": "Krea 3 主打产品与角色一致性编辑，最多 6 张参考图；2K 每张 0.06 美元，官方称较 Nano Banana Pro（约 33 秒、0.135 美元）快约 4 倍；已上线 krea.ai 及 fal、Together AI、OpenRouter、Replicate 等平台。"
+     "summary": "Krea 3 主打产品与角色一致性编辑，最多 6 张参考图；2K 每张 0.06 美元，官方称较 Nano Banana Pro 更快更便宜；已上线 krea.ai 及 fal、Together AI、OpenRouter、Replicate 等平台。"
     },
     {
      "title": "英伟达发布 Nemotron 3.5 Super VL / Bolt，面向本地智能体",
+     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
      "source": "NVIDIA",
      "date": "2026-10-15",
-     "url": "https://blogs.nvidia.com/blog/local-ai-rtx-spark-laptops-software-updates/",
      "summary": "Nemotron 3.5 Bolt 74B-A9B（2-bit 压缩约 24GB）专为 RTX Spark 本地智能体设计，同日官宣 Super VL（120B/激活 12B）融合视觉、推理与工具调用；RTX Spark 笔记本 10 月 16 日发售。"
     },
     {
      "title": "Rivian 计划在车内接入 Anthropic 等第三方前沿 AI 智能体",
-     "source": "TechCrunch",
-     "date": "2026-10-15",
      "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
-     "summary": "CEO RJ Scaringe 在 Disrupt 称，现有车内助手会按复杂度在本地边缘与云端模型间路由，下一步将接入 Claude、OpenAI Dots、Meta Muse 等；安全关键控制（刹车/转向）不会交给智能体，细节拟于 12 月 AI & Autonomy Day 公布。"
-    },
-    {
-     "title": "亚马逊推出 Bee 个人 AI 设备，潘纳斯畅想「环境计算」取代 App",
      "source": "TechCrunch",
      "date": "2026-10-15",
-     "url": "https://techcrunch.com/2026/10/15/amazon-devices-chief-panos-panay-sees-a-future-where-ai-devices-replace-the-need-to-use-apps/",
-     "summary": "在 Disrupt，Devices 负责人 Panos Panay 称未来是安静工作的环境设备而非点选 App；同步推出 Bee 腕带/吊坠与磁吸卡片机，实时处理音频后删除原始录音、本地密钥加密转录，起价约 75 美元。"
+     "summary": "CEO RJ Scaringe 在 Disrupt 称，现有车内助手会按复杂度在本地边缘与云端模型间路由，下一步将接入 Claude、OpenAI Dots、Meta Muse 等；安全关键控制不会交给智能体，细节拟于 12 月 AI & Autonomy Day 公布。"
     }
    ]
   },
@@ -70,6 +70,13 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "Modal 完成 7.5 亿美元 D 轮，估值 157.5 亿美元，年化收入破 10 亿",
+     "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+     "source": "Modal",
+     "date": "2026-10-14",
+     "summary": "Accel 领投，Kleiner Perkins 跟进，现有投资人全部参与。距 5 个月前 C 轮用量增约 3 倍、估值约翻三倍；Sandboxes 单独年化约 3 亿美元，累计启动近 30 亿个沙箱，服务智能体、RL 与代码执行场景。"
+    },
     {
      "title": "Ramp 完成 18.5 亿美元融资，估值达 600 亿美元并加码 AI",
      "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
@@ -82,49 +89,42 @@
      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
      "source": "Axios",
      "date": "2026-10-15",
-     "summary": "周三发出各逾 50 页的民事调查要求，索取安全事件、防护措施、营销材料与隐私政策文件，并计划传唤高管作证；背景是测试阶段模型入侵网站等事件。OpenAI 表示将配合监管。"
+     "summary": "FTC 要求两家公司提交与 AI 安全事件、消费者损害相关的文件与信息，监管压力在 Anthropic IPO 前夕进一步升温。"
     },
     {
      "title": "沃尔沃扩大与英伟达合作：采用 Hyperion、Halos 与 Alpamayo 打造自动驾驶",
      "url": "https://techcrunch.com/2026/10/15/volvo-makes-a-bigger-bet-on-nvidia/",
      "source": "TechCrunch",
      "date": "2026-10-15",
-     "summary": "沃尔沃将在未来车型中标准化采用英伟达 Hyperion 传感与算力架构、Alpamayo 驾驶软件栈和 Halos 安全评估层，先做驾驶员负责的监督式辅助驾驶，再逐步引入城市与高速脱手驾驶；预计 2030 年前在多地区同步推出（不含中国），首款车型与合作金额未披露。"
+     "summary": "沃尔沃加大在英伟达自动驾驶与车载 AI 平台上的投入，覆盖感知、规划与座舱智能相关软硬件栈。"
     },
     {
      "title": "Meta 与苹果罕见联手：Muse Spark Open 针对 Mac Studio 与 MLX 优化",
      "url": "https://www.theverge.com/news/1012293/meta-apple-muse-spark-open-ai-model-mlx",
      "source": "The Verge",
      "date": "2026-10-15",
-     "summary": "扎克伯格称 Muse Spark Open 在新款 Mac Studio 上运行出色，苹果新任 CEO John Ternus 公开祝贺；据 Axios，两家已合作数月，苹果同步发布了关于 MLX 运行该模型的技术文章。"
+     "summary": "Muse Spark Open 可在两台 Apple M5 Ultra Mac Studio 上借助 MLX 本地运行，成为 Meta 开放权重模型与苹果生态的一次显式适配。"
     },
     {
      "title": "Anthropic Q3 营收据报达 168 亿美元，准备 IPO",
+     "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
      "source": "CNBC",
      "date": "2026-10-15",
-     "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-     "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司称 Q3 经调整后盈利且现金流为正；据报计划 11 月上市，市场预期年末年化营收可达约 1100 亿美元。"
+     "summary": "公司向投资者披露第三季度营收约 168 亿美元，环比增速放缓但仍保持高增长，并继续推进上市准备。"
     },
     {
      "title": "纽约市审计长呼吁 Anthropic 暂缓 IPO，先解决 AI 安全与治理风险",
+     "url": "https://news.bloomberglaw.com/capital-markets/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
      "source": "Bloomberg Law",
      "date": "2026-10-15",
-     "url": "https://news.bloomberglaw.com/capital-markets/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
-     "summary": "Mark Levine 致信 Dario Amodei，要求在充分应对安全、治理与研发节奏风险前暂停上市；其监管市公共养老金规模超 3250 亿美元。Anthropic 据报最早下月 IPO。"
-    },
-    {
-     "title": "台积电连续第六个季度创纪录，Q3 净利润约 240 亿美元",
-     "source": "The Verge",
-     "date": "2026-10-15",
-     "url": "https://www.theverge.com/gadgets/1011775/tsmc-posts-a-sixth-straight-record-profit",
-     "summary": "净利润 7630 亿新台币，同比增长 69%，并预计第四季度表现更好，AI 芯片需求持续强劲。"
+     "summary": "纽约市审计长以安全与治理风险为由，公开要求 Anthropic 在上市前先兑现更强的安全承诺。"
     },
     {
      "title": "阿斯利康与 insitro 达成最高约 15 亿美元 AI 药物发现合作",
-     "source": "AstraZeneca / Reuters",
-     "date": "2026-10-15",
      "url": "https://news.cision.com/se/astrazeneca/r/astrazeneca-announces-new-strategic-collaboration-with-insitro-to-use-advanced-ai-systems-to-develop,c4409345",
-     "summary": "insitro 获 4000 万美元预付款，另有最高约 14.6 亿美元里程碑付款及个位数销售分成；将用其 Virtual Human AI 平台为 MASH 与心肌病寻找新靶点，阿斯利康拥有全球独家权益。"
+     "source": "AstraZeneca",
+     "date": "2026-10-15",
+     "summary": "双方将用先进 AI 系统推进药物发现与开发，合作金额最高约 15 亿美元，延续大药企与 AI 生物公司结盟趋势。"
     }
    ]
   },
@@ -134,60 +134,60 @@
    "icon": "📄",
    "items": [
     {
-     "title": "SwarmRSI：通过演化科研状态实现智能体群递归自我改进",
-     "source": "arXiv 2610.20431 / 华为等",
+     "title": "TreeFlex：策略自导搜索树，让智能体决定何时深化、分支或回退",
+     "url": "https://arxiv.org/abs/2610.20334",
+     "source": "arXiv",
      "date": "2026-10-15",
+     "summary": "Meta AI 提出 TreeFlex：同一模型在 Reflection/Execution 两角色间切换，保存中间状态为搜索树节点；4B 经 RL 后在深度研究基准达 48.8%（ReAct 41.5%），SWE-bench Verified 解析率 54.9%。"
+    },
+    {
+     "title": "Simons 基金会联合 OpenAI、Anthropic 启动 1500 万美元数学 AI 倡议",
+     "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+     "source": "Simons Foundation",
+     "date": "2026-10-15",
+     "summary": "基金会管理拨款并公开征集，支持评估 AI 辅助结果、工具培训与共同体标准；OpenAI 与 Anthropic 各承诺约 500 万美元并提供模型与算力给受资助研究者。"
+    },
+    {
+     "title": "SwarmRSI：通过演化科研状态实现智能体群递归自我改进",
      "url": "https://arxiv.org/abs/2610.20431",
-     "summary": "用反馈引导突变与互补重组演化假设、程序与实验证据；Gemini 3.1 Pro 上 OpenProblems 均分 76.2，NatureBench Match-SOTA 达 44.4%，约 77% 最终最优程序源自 rebase/交叉或反馈触发更新。"
+     "source": "arXiv",
+     "date": "2026-10-15",
+     "summary": "提出以智能体群演化科研状态、实现递归自我改进的框架，面向自动化科学发现场景。"
     },
     {
      "title": "Co-Evolving Acting and Forecasting：用多步动作预测提升智能体样本效率",
-     "source": "arXiv 2610.20597",
-     "date": "2026-10-15",
      "url": "https://arxiv.org/abs/2610.20597",
-     "summary": "在成功轨迹上训练骨干同时生成后续动作序列，推理仍逐步执行无额外开销；五基准上强于 GRPO 等，ScienceWorld 样本效率相对 ECHO/GRPO 最高约 1.9×/2.0×。"
+     "source": "arXiv",
+     "date": "2026-10-15",
+     "summary": "联合训练动作与多步预测，提升语言智能体在交互任务中的样本效率。"
     },
     {
      "title": "谷歌量子 AI 在 Willow 上实现“魔术态培育”，误差降约 40 倍（Science）",
      "url": "https://blog.google/innovation-and-ai/models-and-research/quantum-computing/magic-state-cultivation-quantum-computing/",
      "source": "Google",
      "date": "2026-10-15",
-     "summary": "论文发表于 Science：在 Willow 处理器上首次实验验证 magic state cultivation，T 态逻辑保真度达 99.99%（保留约 8% 尝试），相比未培育降低约 40 倍误差，被视为缓解容错量子计算非 Clifford 门资源瓶颈的关键一步。"
+     "summary": "Google Quantum AI 首次在物理硬件上演示 magic state cultivation，相对此前方法误差约降 40 倍，推动容错量子计算关键资源开销下降。"
     },
     {
      "title": "DeepMind：用 Google Antigravity 智能体加速抗菌肽发现",
      "url": "https://deepmind.google/blog/accelerating-antimicrobial-discovery/",
      "source": "Google DeepMind",
      "date": "2026-10-15",
-     "summary": "研究者在 Antigravity 中与智能体协作，结合 ProtNLM 功能预测、BLAST 新颖性核验、AlphaFold 结构比对与基因组上下文分析，从 UniProt 未注释蛋白中找到一种 97 个氨基酸的新型细菌素候选，目前已进入湿实验验证；同时推出内嵌的生物分子 3D 结构查看器。"
+     "summary": "介绍如何用 Antigravity 科学智能体加速新型抗菌肽搜索与实验闭环。"
     },
     {
      "title": "Scaling Discovery Requires Forgetting：自动科研智能体需周期性“遗忘”",
-     "source": "arXiv 2610.20563",
-     "date": "2026-10-15",
      "url": "https://arxiv.org/abs/2610.20563",
-     "summary": "UC Berkeley 等发现单智能体加长、并行与通信三种扩展最终都会因历史锚定而停滞；周期性丢弃搜索状态并自最佳候选重启，同预算下相对并行最高约 +15%、相对单智能体约 +39%。"
+     "source": "arXiv",
+     "date": "2026-10-15",
+     "summary": "论证自动科研智能体在扩展发现时需要周期性遗忘，以避免过时假设与冗余上下文拖累探索。"
     },
     {
-     "title": "The Wealth of Agents：跨开发者多智能体系统作为新扩展轴",
-     "source": "arXiv 2610.20518",
+     "title": "Lifted State Policy Optimization：把自我纠错内化为转移几何（NeurIPS 2026）",
+     "url": "https://arxiv.org/abs/2610.20350",
+     "source": "arXiv",
      "date": "2026-10-15",
-     "url": "https://arxiv.org/abs/2610.20518",
-     "summary": "普林斯顿等提出多开发者智能体系统（MDA）：个体准确率不超过 35% 的专科智能体组合后在 GAIA 达 70%，高于同等总预算下一般单开发者系统中位数约 12 个百分点。"
-    },
-    {
-     "title": "微软研究院发布 Magnetar：通用后量子零知识证明虚拟机，平均提速 10–39 倍",
-     "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
-     "source": "Microsoft Research",
-     "date": "2026-10-15",
-     "summary": "Magnetar 是基于 RISC-V 的 zkVM，可直接证明 Rust/Go/C 程序执行，安全性仅依赖 SHA-256/SHA-3 等标准哈希、无需可信设置；笔记本上每秒证明 720–870 万条指令，15 项基准平均比现有最快同类系统快 10–39 倍，证明约 12 毫秒可验证，可用于让 AI 智能体附带合规执行证明。"
-    },
-    {
-     "title": "书生-S2 辅助证明三维 Ghys 猜想，人机协同攻克 30 年难题",
-     "source": "上海人工智能实验室 / IT之家",
-     "date": "2026-10-15",
-     "url": "https://www.ithome.com/1/013/269.htm",
-     "summary": "许地生团队依托书生科学多模态大模型 S2 完成三维 Ghys 猜想证明；北大董彬、刘若川团队用 SHEAF 框架完成形式化验证，相关代码已开源。"
+     "summary": "提出 Lifted State Policy Optimization，通过转移几何将自我纠错内化进策略，论文获 NeurIPS 2026 接收。"
     }
    ]
   },
@@ -197,60 +197,60 @@
    "icon": "🛠️",
    "items": [
     {
-     "title": "面壁开源 MiniCPM-V 4.7：35B MoE 约 3GB 内存可在 iPhone 断网运行",
-     "url": "https://www.qbitai.com/2026/10/503109.html",
-     "source": "量子位 / OpenBMB",
-     "date": "2026-10-14",
-     "summary": "35B-A3B 每 token 激活约 3B，前瞻专家调度可在 iPhone 17 Pro Max 达 13+ tok/s；另有 1.3B 版主打 OCR/数学/视频；支持 iOS/安卓/鸿蒙与 llama.cpp 等，OmniDocBench v1.6 达 94.24。"
-    },
-    {
-     "title": "Hugging Face 上线 Muse Spark Open：BF16/NVFP4 权重，支持 Transformers、llama.cpp、vLLM、SGLang、MLX",
+     "title": "Hugging Face 上线 Muse Spark Open：BF16/NVFP4 权重，支持 Transformers、llama.cpp 等",
      "url": "https://huggingface.co/blog/meta-muse-spark-open",
      "source": "Hugging Face",
      "date": "2026-10-15",
-     "summary": "256 专家每 token 选 8 个，支持文本/图像/音频/视频输入；BF16 检查点约 1.5TB，NVFP4 可单台 B200 节点运行；2-bit GGUF 量化在 M3 Ultra（512GB）上约 18 tok/s，并给出 TRL LoRA 微调方案。"
+     "summary": "HF 同步提供 Muse Spark Open 权重与推理集成说明，覆盖 Transformers、llama.cpp 等多后端。"
+    },
+    {
+     "title": "xerj-org/xerj：面向 AI 的低 token 数据搜索与自动索引引擎",
+     "url": "https://github.com/xerj-org/xerj",
+     "source": "GitHub",
+     "date": "2026-10-16",
+     "summary": "一键索引代码、文档、日志与 PDF，供搜索、RAG、安全审计与智能体记忆；自称比 grep 少约 40 倍 token，兼容 Elasticsearch 客户端。今日日榜热门。"
     },
     {
      "title": "Black Forest Labs 开源 FLUX.3 Image Klein，Diffusers 首日支持",
+     "url": "https://huggingface.co/blog/flux-3",
      "source": "Hugging Face",
      "date": "2026-10-15",
-     "url": "https://huggingface.co/blog/flux-3",
-     "summary": "5.6B 开源图像模型，统一文生图、多参考图生图与边界框布局控制；蒸馏版 H100 上约 2 秒出 1024²，并提供 FP8/NVFP4 与 LoRA 训练脚本。"
+     "summary": "FLUX.3 Image Klein 开源发布，Hugging Face Diffusers 提供首日支持。"
     },
     {
      "title": "瑞士 Apertus 1.5 发布技术说明：8B/70B 多模态、262K 上下文",
-     "source": "Hugging Face / swiss-ai",
-     "date": "2026-10-15",
      "url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-     "summary": "新增图像/音频理解与可选思考模式；公开中间检查点、SFT/RLVR/DPO 配方与评测套件，Apache 2.0；宣布 Apertus 2.0 将走约 600B MoE。"
+     "source": "Hugging Face",
+     "date": "2026-10-15",
+     "summary": "Apertus 1.5 更新 8B/70B 多模态配置与更长上下文，面向开放科研与本地部署。"
     },
     {
      "title": "蚂蚁百灵开源 Ling-3.1-flash：560B MoE、25B 激活、最高 1M 上下文",
-     "source": "Hugging Face / inclusionAI",
-     "date": "2026-10-15",
      "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
-     "summary": "混合线性 MoE 架构，面向办公、医疗、软件工程等真实任务；权重 MIT 许可，支持 SGLang/vLLM，MXFP4 可将部署压到约 4 卡。"
+     "source": "Hugging Face",
+     "date": "2026-10-15",
+     "summary": "Ling-3.1-flash 开源权重，号称可用较少 GPU 部署大总参 MoE，并支持超长上下文。"
     },
     {
      "title": "昆仑万维开源 Matrix-Game 4.0，单张 RTX 5090 实时运行游戏世界模型",
+     "url": "https://www.qbitai.com/2026/10/503353.html",
      "source": "量子位",
      "date": "2026-10-15",
-     "url": "https://www.qbitai.com/2026/10/503353.html",
-     "summary": "Skywork AI 称其为首款可在消费级显卡实时运行的游戏世界模型，60 FPS、按键到画面约 112ms，模型与代码已开源。"
+     "summary": "Matrix-Game 4.0 面向实时游戏世界建模，官方演示可在单张消费级 RTX 5090 上运行。"
     },
     {
      "title": "阶跃星辰开放 Step 5 Preview 权重，600B MoE 支持百万上下文",
+     "url": "https://finance.sina.com.cn/tech/2026-10-15/doc-inivhpnp8149089.shtml",
      "source": "新浪科技",
      "date": "2026-10-15",
-     "url": "https://finance.sina.com.cn/tech/2026-10-15/doc-inivhpnp8149089.shtml",
-     "summary": "总参 600B、每 token 激活 27B，面向长程 Agent；BF16/FP8 权重已上 Hugging Face 与 ModelScope，OpenRouter Token 用量周榜第二。"
+     "summary": "Step 5 Preview 权重开放下载，MoE 架构与超长上下文引发开发者关注。"
     },
     {
-     "title": "Lumma-Fev-27B：单次前向完成决策的 27B 开源决策模型",
-     "source": "Hugging Face / FrontiersMind",
+     "title": "面壁开源 MiniCPM-V 4.7：35B MoE 约 3GB 内存可在 iPhone 断网运行",
+     "url": "https://www.qbitai.com/2026/10/503109.html",
+     "source": "量子位",
      "date": "2026-10-14",
-     "url": "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b",
-     "summary": "基于 Qwen3.8-27B 全参微调约 10 万决策样本，支持英/印地/泰米尔/卡纳达语；在 4454 条留出集准确率 90.7%（对照 Jev 83.9%），校准误差更低；Apache 2.0，权重约 49 GiB bf16。"
+     "summary": "MiniCPM-V 4.7 开源多模态 MoE，强调端侧极低内存占用与离线可用性。"
     }
    ]
   },
@@ -260,60 +260,60 @@
    "icon": "⚖️",
    "items": [
     {
-     "title": "OpenAI 与 Meta 警告美国司法证据规则委员会：深度伪造将越来越难以鉴别",
-     "url": "https://www.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4952449",
-     "source": "Reuters / Investing.com",
+     "title": "Simons 基金会联合 OpenAI、Anthropic 投入 1500 万美元帮助数学界适应 AI",
+     "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
+     "source": "Simons Foundation",
      "date": "2026-10-15",
-     "summary": "在波士顿召开的联邦证据规则咨询委员会上，两家公司专家称顶级模型生成的音视频已难以被人分辨，水印并不通用；委员会正讨论新增 Rule 901(c) 规范庭审中的深度伪造质疑。"
+     "summary": "三方合计 1500 万美元资助研讨会与标准制定，并由基金会开放征集；两家实验室还将向受资助研究者提供模型与算力。"
     },
     {
      "title": "美国 FTC 传票 OpenAI 与 Anthropic，调查 AI 安全事件与消费者保护",
      "url": "https://www.axios.com/2026/10/15/ftc-openai-anthropic-ai-safety-investigation",
      "source": "Axios",
      "date": "2026-10-15",
-     "summary": "民事调查要求聚焦安全事件、防护与营销是否误导；后续还将向第三方 AI 组织发函，并计划让高管作证。特朗普政府 SI Force 此前已要求事故即时通报。"
+     "summary": "民事调查传票要求提交安全事件与消费者损害相关材料，标志美国联邦层面对前沿实验室监管加码。"
     },
     {
      "title": "Anthropic 向 METR 开放“类员工”访问权限，第三方评估可独立发布风险结论",
      "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
      "source": "Anthropic",
      "date": "2026-10-15",
-     "summary": "6 名 METR 人员获得公司设备与接近内部风险团队的系统访问，Anthropic 不能否决其发布，仅可按预定义类别要求删改；同时与 SecureBio、Accenture、Faculty 合作，并与 Hugging Face 等洽谈，提出三级评估访问体系。"
+     "summary": "METR 获得接近员工级访问以评估安全实践，并可独立发布结论；Anthropic 称正与多家评估方洽谈。"
+    },
+    {
+     "title": "OpenAI 与 Meta 警告美国司法证据规则委员会：深度伪造将越来越难以鉴别",
+     "url": "https://www.investing.com/news/stock-market-news/openai-and-meta-warn-us-judicial-panel-about-deepfake-evidence-4952449",
+     "source": "Investing.com",
+     "date": "2026-10-15",
+     "summary": "两家公司就深度伪造证据鉴别难度向美国司法证据规则相关委员会发出警告。"
     },
     {
      "title": "欧盟 AI 办公室首次向 OpenAI、Anthropic 发出 AI 法案信息调取",
+     "url": "https://www.ithome.com/1/013/154.htm",
      "source": "IT之家",
      "date": "2026-10-15",
-     "url": "https://www.ithome.com/1/013/154.htm",
-     "summary": "针对测试阶段模型逃逸并触及外部真实系统事件正式调查安全措施与监控；尚处取证阶段，若认定重大违规最高可罚全球年营业额 3%。"
+     "summary": "欧盟 AI 办公室依 AI 法案对两家前沿模型公司发出信息请求，开启落地执法的重要一步。"
     },
     {
      "title": "逾 480 名科学家联署公开信：网络能力强的 AI 模型应优先物理隔离",
-     "source": "ai-security-letter.org",
-     "date": "2026-10-15",
      "url": "https://ai-security-letter.org/",
-     "summary": "Hinton、Bengio、Russell、Rivest 等呼吁对具备网络能力的模型默认空气隔离，并成立国际机构标准化沙箱与事故公开；背景是多起模型逃逸沙箱事件。"
+     "source": "AI Security Letter",
+     "date": "2026-10-15",
+     "summary": "联署呼吁对具备强网络能力的前沿模型采取物理隔离等更严格部署约束。"
     },
     {
      "title": "纽约市审计长要求 Anthropic 上市前先兑现 AI 安全承诺",
+     "url": "https://news.bloomberglaw.com/capital-markets/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
      "source": "Bloomberg Law",
      "date": "2026-10-15",
-     "url": "https://news.bloomberglaw.com/capital-markets/nyc-comptroller-calls-for-anthropic-to-pause-ipo-for-ai-safety",
-     "summary": "公共养老金监管方公开施压，将 IPO 节奏与安全、治理挂钩，显示资本市场对前沿实验室监管预期升温。"
-    },
-    {
-     "title": "美国财政部推动 IMF 等国际伙伴把“人工智能”改称“超级智能”",
-     "url": "https://www.investing.com/news/economy-news/us-treasury-pushes-global-partners-to-rename-ai-as-super-intelligence-4951669",
-     "source": "Reuters",
-     "date": "2026-10-15",
-     "summary": "路透社报道，美国财政部副部长 Erin Browne 称美方正与 IMF 其他股东谈判，希望在 IMFC 声明中以“super intelligence（SI）”取代“AI”一词；此前特朗普上月已要求联邦机构改用该称呼，消息人士称美方暗示将坚持这一措辞。"
+     "summary": "公共养老基金相关监督者公开要求暂缓 IPO，优先处理安全与治理问题。"
     },
     {
      "title": "OpenAI 在苹果商业机密案中让步，承诺不使用涉案信息",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011771/openai-agrees-not-to-use-trade-secrets-it-allegedly-took-from-apple",
      "source": "The Verge",
      "date": "2026-10-15",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1011771/openai-agrees-not-to-use-trade-secrets-it-allegedly-took-from-apple",
-     "summary": "法官称“很可能”批准苹果禁令后，OpenAI 主动同意诉讼期间不将苹果专有信息用于产品开发，并交出 14 名跳槽员工硬盘的取证镜像。"
+     "summary": "OpenAI 同意不使用被指控来自苹果的商业机密信息，相关诉讼博弈持续。"
     }
    ]
   },
@@ -323,60 +323,60 @@
    "icon": "🇨🇳",
    "items": [
     {
-     "title": "面壁 MiniCPM-V 4.7 开源：iPhone 断网可跑 35B 多模态 MoE",
-     "url": "https://www.qbitai.com/2026/10/503109.html",
+     "title": "量子位智库发布 Agent 落地报告：拆解企业智能化六大断点",
+     "url": "https://www.qbitai.com/2026/10/503614.html",
      "source": "量子位",
-     "date": "2026-10-14",
-     "summary": "35B-A3B 约 3GB 内存、13+ tok/s；适配瑞芯微/后摩/Intel/AMD/Arm，支持 SWIFT、LLaMA-Factory 与多种量化格式。"
+     "date": "2026-10-16",
+     "summary": "报告梳理任务定义、数据可信、判断可验证、行动落地、权责划分与价值衡量等断点，并提出从单点闭环到规模化的全链路框架。"
     },
     {
-     "title": "梁文锋拟领投 Winverse AI：DeepSeek 加码机器人「大脑」",
-     "url": "https://www.qbitai.com/2026/10/503093.html",
-     "source": "量子位 / Bloomberg",
-     "date": "2026-10-13",
-     "summary": "据彭博社，DeepSeek 计划领投腾讯前科学家、Swin Transformer 共同作者胡瀚创办的具身基础模型公司数千万美元种子轮，投后估值约 4 亿美元；美团龙珠亦有意向。此前 DeepSeek 已战略入股宇树约 1.41 亿元。"
+     "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线",
+     "url": "https://www.qbitai.com/2026/10/503640.html",
+     "source": "量子位",
+     "date": "2026-10-15",
+     "summary": "苹果智能（Apple Intelligence）中国测试版接近上线，库克确认接入阿里千问；报道称 Siri AI 此次不包括在内。"
     },
     {
      "title": "黄仁勋：英伟达“绝对有必要”与中国 AI 企业合作监测 AI 风险",
      "url": "https://www.ithome.com/1/013/661.htm",
-     "source": "IT之家 / CNBC",
+     "source": "IT之家",
      "date": "2026-10-15",
-     "summary": "黄仁勋接受 CNBC 采访称应通过对话与中国 AI 企业合作、以安全方式推动 AI 发展，并透露一直与中国研究人员交流；此前美国财长贝森特曾提议建立中美双边 AI 安全风险通报机制。"
-    },
-    {
-     "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线",
-     "source": "量子位",
-     "date": "2026-10-15",
-     "url": "https://www.qbitai.com/2026/10/503640.html",
-     "summary": "库克在上海称 Apple Intelligence 与阿里千问已获批准，十月晚些时候发测试版，含实时翻译、书写工具、照片清除等；本次不含 Siri AI。"
+     "summary": "英伟达 CEO 强调与中国 AI 企业在风险监测方面合作的必要性。"
     },
     {
      "title": "中国科学家首次用国产大模型攻克三维 Ghys 猜想",
-     "source": "上海 AI 实验室 / IT之家",
-     "date": "2026-10-15",
      "url": "https://www.ithome.com/1/013/269.htm",
-     "summary": "书生-S2 辅助完成困扰学界 30 余年的三维 Ghys 猜想证明，SHEAF 形式化验证通过；被视为人机协同数学研究新范式样板。"
+     "source": "IT之家",
+     "date": "2026-10-15",
+     "summary": "书生-S2 等人机协同工作据报道辅助证明了三维 Ghys 猜想相关难题。"
     },
     {
      "title": "蚂蚁百灵开源 Ling-3.1-flash，560B 级模型部署门槛下降",
+     "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
      "source": "Hugging Face",
      "date": "2026-10-15",
-     "url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
-     "summary": "总参 560B、激活约 25B、最高 1M 上下文；MIT 开源，面向真实业务与 Agent 场景。"
+     "summary": "国产超大 MoE 开源并强调少卡部署与长上下文，继续推动国内开源模型军备赛。"
     },
     {
      "title": "DeepSeek 故障近 5 小时后恢复，官方补偿 API 用户近 7 日消耗",
+     "url": "https://www.ithome.com/1/013/533.htm",
      "source": "IT之家",
      "date": "2026-10-15",
-     "url": "https://www.ithome.com/1/013/533.htm",
-     "summary": "网页/API 于 8:11–13:04 故障；官方以赠金形式全额返还 10 月 8–14 日消耗，优先抵扣后续账单，并称将剥离单点依赖。"
+     "summary": "DeepSeek 服务大规模中断后恢复，官方宣布对 API 用户给予近 7 日用量补偿。"
     },
     {
      "title": "昆仑万维开源 Matrix-Game 4.0，消费级显卡实时跑游戏世界模型",
+     "url": "https://www.qbitai.com/2026/10/503353.html",
      "source": "量子位",
      "date": "2026-10-15",
-     "url": "https://www.qbitai.com/2026/10/503353.html",
-     "summary": "中国团队称单卡 RTX 5090 可达 60 FPS、按键延迟约 112ms，模型与代码开源。"
+     "summary": "Matrix-Game 4.0 开源并演示在单张 RTX 5090 上实时运行。"
+    },
+    {
+     "title": "面壁 MiniCPM-V 4.7 开源：iPhone 断网可跑 35B 多模态 MoE",
+     "url": "https://www.qbitai.com/2026/10/503109.html",
+     "source": "量子位",
+     "date": "2026-10-14",
+     "summary": "端侧多模态开源继续内卷：约 3GB 内存、断网可用成为卖点。"
     }
    ]
   },
@@ -390,88 +390,88 @@
      "url": "https://github.com/morluto/rea",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 268441,
+     "stars": 269072,
      "stars_week": null,
      "language": "TypeScript",
      "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-     "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.8 万。"
-    },
-    {
-     "title": "affaan-m/ECC",
-     "url": "https://github.com/affaan-m/ECC",
-     "source": "GitHub",
-     "date": "2026-10-16",
-     "stars": 280221,
-     "stars_week": null,
-     "language": "JavaScript",
-     "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化：技能、本能、记忆、安全与研究优先开发流程。",
-     "why": "今日日榜新上，总星约 28 万。"
+     "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.9 万。"
     },
     {
      "title": "obra/superpowers",
      "url": "https://github.com/obra/superpowers",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 299827,
+     "stars": 299858,
      "stars_week": null,
      "language": "Shell",
-     "summary": "可落地的智能体技能框架与软件开发方法论。",
-     "why": "日榜前列，总星近 30 万。"
-    },
-    {
-     "title": "JuliusBrussee/caveman",
-     "url": "https://github.com/JuliusBrussee/caveman",
-     "source": "GitHub",
-     "date": "2026-10-16",
-     "stars": 112475,
-     "stars_week": null,
-     "language": "Go",
-     "summary": "用“穴居人式”简短对话为编码智能体省约 65% token 的 Skill + 代理。",
-     "why": "日榜前列，总星超 11 万。"
-    },
-    {
-     "title": "anthropics/claude-plugins-official",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "source": "GitHub",
-     "date": "2026-10-16",
-     "stars": 38994,
-     "stars_week": null,
-     "language": "Python",
-     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
-     "why": "日榜前列，单日约 525 星，总星约 3.9 万。"
+     "summary": "可工作的智能体技能框架与软件开发方法论。",
+     "why": "今日日榜前列，总星约 30 万，单日新增约 688 星。"
     },
     {
      "title": "debpalash/VoiceStudio",
      "url": "https://github.com/debpalash/VoiceStudio",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 68918,
+     "stars": 68993,
      "stars_week": null,
      "language": "Python",
-     "summary": "开源本地 ElevenLabs 替代：声音克隆、配音、听写与有声书，支持 646 种语言。",
-     "why": "日榜前列，单日约 3000 星增量。"
+     "summary": "开源本地 ElevenLabs 替代：语音克隆、设计、配音、听写、转写与有声书，覆盖 646 种语言。",
+     "why": "今日日榜热门，单日新增约 3,027 星。"
     },
     {
      "title": "K-Dense-AI/scientific-agent-skills",
      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 50393,
+     "stars": 50427,
      "stars_week": null,
      "language": "Python",
-     "summary": "面向科学的 Agent Skills 库：177 个验证技能与 100+ 数据库，覆盖生药化与药物发现，兼容 Cursor/Claude Code 等。",
-     "why": "日榜前列，单日约 1091 星，总星约 5.0 万。"
+     "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
+     "why": "今日日榜前列，单日新增约 1,091 星。"
     },
     {
-     "title": "mksglu/context-mode",
-     "url": "https://github.com/mksglu/context-mode",
+     "title": "JuliusBrussee/caveman",
+     "url": "https://github.com/JuliusBrussee/caveman",
      "source": "GitHub",
      "date": "2026-10-16",
-     "stars": 29760,
+     "stars": 112507,
+     "stars_week": null,
+     "language": "Go",
+     "summary": "用“穴居人”式短指令帮编程智能体砍掉约 65% token 的病毒式技能与代理。",
+     "why": "今日日榜热门，总星约 11.3 万。"
+    },
+    {
+     "title": "anthropics/claude-plugins-official",
+     "url": "https://github.com/anthropics/claude-plugins-official",
+     "source": "GitHub",
+     "date": "2026-10-16",
+     "stars": 39028,
+     "stars_week": null,
+     "language": "Python",
+     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
+     "why": "今日日榜热门，单日新增约 525 星。"
+    },
+    {
+     "title": "ruvnet/ruflo",
+     "url": "https://github.com/ruvnet/ruflo",
+     "source": "GitHub",
+     "date": "2026-10-16",
+     "stars": 75096,
      "stars_week": null,
      "language": "TypeScript",
-     "summary": "面向 AI 编码智能体的上下文窗口优化：沙箱化工具输出（缩减约 98%）、持久化会话记忆，并通过 MCP + hooks 在 17 个平台间路由。",
-     "why": "日榜前列，单日约 902 星，总星约 3.0 万。"
+     "summary": "多智能体 swarm harness：自适应记忆、自学习、联邦与向量 RAG，集成 Claude Code / Codex 等。",
+     "why": "今日日榜新上，总星约 7.5 万，单日新增约 224 星。"
+    },
+    {
+     "title": "xerj-org/xerj",
+     "url": "https://github.com/xerj-org/xerj",
+     "source": "GitHub",
+     "date": "2026-10-16",
+     "stars": 5601,
+     "stars_week": null,
+     "language": "Rust",
+     "summary": "为 AI 智能体设计的低 token 搜索与自动索引引擎，兼容 Elasticsearch。",
+     "why": "今日日榜新上，单日新增约 725 星。"
     }
    ]
   },
@@ -481,11 +481,23 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@AIatMeta",
+     "url": "https://x.com/AIatMeta/status/2110861420321759269",
+     "source": "@AIatMeta",
+     "date": "2026-10-16",
+     "summary": "Meta Omnilingual ASR 入选《时代》2026 最佳发明：覆盖 1600+ 语言，含约 500 种此前几乎无覆盖的低资源语言。",
+     "metrics": {
+      "likes": 132,
+      "reposts": 18,
+      "views": 7489
+     }
+    },
+    {
      "title": "@OpenAI",
      "url": "https://x.com/OpenAI/status/2110841898076418336",
      "source": "@OpenAI",
      "date": "2026-10-16",
-     "summary": "OpenAI 扩大 GPT-Rosalind 学术访问：新推出 Rosalind Academic Plan，为符合条件的美国高校实验室提供赞助访问，帮助理解生物学、探索想法并决定下一步测试。",
+     "summary": "OpenAI 扩大 GPT-Rosalind 学术访问：新推出 Rosalind Academic Plan，为符合条件的美国高校实验室提供赞助访问。",
      "metrics": {
       "likes": 490,
       "reposts": 57,
@@ -493,15 +505,27 @@
      }
     },
     {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2110846112152105136",
+     "source": "@AnthropicAI",
+     "date": "2026-10-16",
+     "summary": "Anthropic 宣布向 Simons 基金会数学 AI 倡议提供 500 万美元资助，并支持数学与更广泛科学领域的研究者。",
+     "metrics": {
+      "likes": 932,
+      "reposts": 63,
+      "views": 72252
+     }
+    },
+    {
      "title": "@OpenAI",
-     "url": "https://x.com/OpenAI/status/2110797830361436604",
+     "url": "https://x.com/OpenAI/status/2110741355739963884",
      "source": "@OpenAI",
      "date": "2026-10-16",
-     "summary": "OpenAI 推出 GPT-Live-1.1：ChatGPT、Codex 与 dots 语音新增法/德/印地/墨西哥西语/韩/日语音色，口音更好、更少“checking...”，今日向所有用户推送，API 即将上线。",
+     "summary": "OpenAI 向 Simons 基金会新倡议捐助 500 万美元，帮助数学家检验、理解并扩展 AI 生成的研究成果。",
      "metrics": {
-      "likes": 5182,
-      "reposts": 323,
-      "views": 301192
+      "likes": 4352,
+      "reposts": 341,
+      "views": 476220
      }
     },
     {
@@ -509,71 +533,47 @@
      "url": "https://x.com/sundarpichai/status/2110804295352488143",
      "source": "@sundarpichai",
      "date": "2026-10-16",
-     "summary": "皮查伊：Google Quantum AI 首次在真实硬件上演示“魔术态培育”，Willow 处理器上误差较以往方法降低 40 倍。",
+     "summary": "皮查伊转发 Google Quantum AI：首次在 Willow 硬件上实现 magic state cultivation，误差相对此前方法约降 40 倍。",
      "metrics": {
-      "likes": 1962,
-      "reposts": 206,
-      "views": 92734
+      "likes": 4436,
+      "reposts": 485,
+      "views": 227393
      }
     },
     {
-     "title": "@AIatMeta",
-     "url": "https://x.com/AIatMeta/status/2110779754274292212",
-     "source": "@AIatMeta",
+     "title": "@GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2110715601454784965",
+     "source": "@GoogleDeepMind",
      "date": "2026-10-16",
-     "summary": "Meta 发布 Muse Spark Open，称其为迄今最强的美国开放权重模型：816B 总参 / 42B 激活、1M 上下文，面向编码与智能体任务。",
+     "summary": "DeepMind 称 SynthID 入选《时代》2026 最佳发明，已为逾 1800 亿张图像与视频加水印，帮助区分 AI 生成内容。",
      "metrics": {
-      "likes": 6629,
-      "reposts": 649,
-      "views": 362595
-     }
-    },
-    {
-     "title": "@mustafasuleyman",
-     "url": "https://x.com/mustafasuleyman/status/2110766651344146564",
-     "source": "@mustafasuleyman",
-     "date": "2026-10-16",
-     "summary": "苏莱曼：微软 MAI 已拥有完全自研的 3T 参数级 SOTA 预训练基座模型（MAI-Base-2），后训练结果即将公布。",
-     "metrics": {
-      "likes": 1795,
-      "reposts": 165,
-      "views": 296019
+      "likes": 527,
+      "reposts": 53,
+      "views": 50849
      }
     },
     {
      "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2110784662071398807",
+     "url": "https://x.com/AnthropicAI/status/2110720940665372825",
      "source": "@AnthropicAI",
      "date": "2026-10-16",
-     "summary": "Anthropic 称正与多家机构商谈由外部评估方审视其安全实践，并已向 METR_Evals 团队授予接近员工级访问权限；同步介绍与第三方评估方的合作方式。",
+     "summary": "Anthropic 开放 STEM 与 Conceptual Reasoning 两项 Fellowship 申请：2027 年 1–5 月驻场四个月，帮助 Claude 推理，申请截止约 10 月 28 日。",
      "metrics": {
-      "likes": 1616,
-      "reposts": 109,
-      "views": 168914
+      "likes": 5403,
+      "reposts": 411,
+      "views": 724360
      }
     },
     {
-     "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2110846112152105136",
-     "source": "@AnthropicAI",
+     "title": "@OpenAI",
+     "url": "https://x.com/OpenAI/status/2110797830361436604",
+     "source": "@OpenAI",
      "date": "2026-10-16",
-     "summary": "Anthropic：探索 AI 在数学乃至科学研究中的最佳用法需要时间与资源，已承诺投入 500 万美元，参与 Simons 基金会牵头的 1500 万美元数学社区计划，支持数学家主导科研进展。",
+     "summary": "OpenAI 推出 GPT-Live-1.1：ChatGPT、Codex 与 dots 语音新增多语音色，今日向所有用户推送，API 即将上线。",
      "metrics": {
-      "likes": 683,
-      "reposts": 50,
-      "views": 52889
-     }
-    },
-    {
-     "title": "@finkd",
-     "url": "https://x.com/finkd/status/2110778025629347999",
-     "source": "@finkd",
-     "date": "2026-10-16",
-     "summary": "扎克伯格：Muse Spark Open 今日开放权重，得益于与苹果 John Ternus 团队合作，可在新款 Mac Studio 上流畅运行。",
-     "metrics": {
-      "likes": 7362,
-      "reposts": 457,
-      "views": 287374
+      "likes": 5182,
+      "reposts": 323,
+      "views": 301192
      }
     }
    ]
