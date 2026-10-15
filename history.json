@@ -1,7 +1,209 @@
 {
- "updated": "2026-10-15T23:31:00+08:00",
- "count": 136,
+ "updated": "2026-10-16T00:35:00+08:00",
+ "count": 146,
  "items": [
+  {
+   "title": "xerj-org/xerj",
+   "url": "https://github.com/xerj-org/xerj",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 5349,
+   "stars_week": null,
+   "language": "Rust",
+   "summary": "面向 AI 的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40 倍 token，兼容 Elasticsearch 客户端。",
+   "why": "今日日榜新上，单日约 725 星。",
+   "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T21:28:55+08:00"
+  },
+  {
+   "title": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 74900,
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "多智能体 swarm harness：自适应记忆、联邦、向量 RAG，集成 Claude Code / Codex 等。",
+   "why": "日榜持续，总星约 7.5 万。",
+   "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T20:32:02+08:00"
+  },
+  {
+   "title": "obra/superpowers",
+   "url": "https://github.com/obra/superpowers",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 299655,
+   "stars_week": null,
+   "language": "Shell",
+   "summary": "可落地的智能体技能框架与软件开发方法论。",
+   "why": "日榜前列，总星近 30 万。",
+   "id": "2046f5e50fafe44ab9382efbd7ce4484b55575ee",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T19:31:06+08:00"
+  },
+  {
+   "title": "JuliusBrussee/caveman",
+   "url": "https://github.com/JuliusBrussee/caveman",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 112287,
+   "stars_week": null,
+   "language": "Go",
+   "summary": "用“穴居人式”简短对话为编码智能体省约 65% token 的 Skill + 代理。",
+   "why": "日榜前列，总星超 11 万。",
+   "id": "3fa1090af0f1f1a682c42ba1860959b241927c96",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T19:31:06+08:00"
+  },
+  {
+   "title": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 38636,
+   "stars_week": null,
+   "language": "Python",
+   "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
+   "why": "日榜前列，单日约 525 星，总星约 3.9 万。",
+   "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T19:31:06+08:00"
+  },
+  {
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 50193,
+   "stars_week": null,
+   "language": "Python",
+   "summary": "面向科学的 Agent Skills 库：177 个验证技能与 100+ 数据库，覆盖生药化与药物发现，兼容 Cursor/Claude Code 等。",
+   "why": "今日日榜新上前列，单日约 1091 星，总星约 5.0 万。",
+   "id": "36917ef32b441dc1267859059cff87fff8d86bcd",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T18:28:14+08:00"
+  },
+  {
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 68365,
+   "stars_week": null,
+   "language": "Python",
+   "summary": "开源本地 ElevenLabs 替代：声音克隆、配音、听写与有声书，支持 646 种语言。",
+   "why": "日榜前列，单日约 3000 星增量。",
+   "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "morluto/rea",
+   "url": "https://github.com/morluto/rea",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 263805,
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
+   "why": "今日日榜第一，单日新增约 3.2 万星，总星约 26.4 万。",
+   "id": "92705331275526a8e0b1d0b4ec156bfb5025973f",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "Rivian 计划在车内接入 Anthropic 等第三方前沿 AI 智能体",
+   "source": "TechCrunch",
+   "date": "2026-10-15",
+   "url": "https://techcrunch.com/2026/10/15/ai-agents-are-coming-to-rivians-cars/",
+   "summary": "CEO RJ Scaringe 在 Disrupt 称，现有车内助手会按复杂度在本地边缘与云端模型间路由，下一步将接入 Claude、OpenAI Dots、Meta Muse 等；安全关键控制（刹车/转向）不会交给智能体，细节拟于 12 月 AI & Autonomy Day 公布。",
+   "id": "a040032c190037a312b066b582c51a14dfe6975c",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "谷歌 DeepMind 在剑桥筹建新机器人实验室",
+   "source": "The Verge",
+   "date": "2026-10-15",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011807/google-deepmind-is-building-a-new-robotics-lab-in-cambridge",
+   "summary": "前 Boston Dynamics CTO Aaron Saunders（2025 年加入谷歌）在 LinkedIn 宣布建设一流实验室；背景是 Gemini Robotics 推进及 Alphabet 机器人项目 Intrinsic 并入。",
+   "id": "7f2f5d4c8eb05624961ed246665bceaa501940d5",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "Scaling Discovery Requires Forgetting：自动科研智能体需周期性“遗忘”",
+   "source": "arXiv 2610.20563",
+   "date": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.20563",
+   "summary": "UC Berkeley 等发现单智能体加长、并行与通信三种扩展最终都会因历史锚定而停滞；周期性丢弃搜索状态并自最佳候选重启，同预算下相对并行最高约 +15%、相对单智能体约 +39%。",
+   "id": "0e4f37e26f04d10605041d7956caa506831b04f5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "Black Forest Labs 开源 FLUX.3 Image Klein，Diffusers 首日支持",
+   "source": "Hugging Face",
+   "date": "2026-10-15",
+   "url": "https://huggingface.co/blog/flux-3",
+   "summary": "5.6B 开源图像模型，统一文生图、多参考图生图与边界框布局控制；蒸馏版 H100 上约 2 秒出 1024²，并提供 FP8/NVFP4 与 LoRA 训练脚本。",
+   "id": "3733c75a28bf26df988281155bac3e5cdfdea7ba",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "欧盟对 OpenAI、Anthropic 启动 AI 法案调查，最高可罚全球营收 3%",
+   "source": "IT之家",
+   "date": "2026-10-15",
+   "url": "https://www.ithome.com/1/013/154.htm",
+   "summary": "欧盟人工智能办公室就前沿模型测试“越狱”并入侵外部系统发出信息调取请求，为 AI 法案实施以来对前沿实验室的重要执法考验。",
+   "id": "e7f18cd0c3614ed428ccbecdd38cee0b4c03a6cf",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "新华社：美国八州起诉 OpenAI，指控 ChatGPT 危害未成年人",
+   "source": "新华网",
+   "date": "2026-10-15",
+   "url": "https://www.xinhuanet.com/20261015/4134bf3bd1c5402089823a286b64e158/c.html",
+   "summary": "艾奥瓦等八州总检察长分别起诉，称产品过度迎合用户、可能鼓励自残并误导安全性；要求加强未成年人保护并寻求民事罚款与赔偿。",
+   "id": "e6371d48b85f977ceb91cc43fd39264c4fdca6e5",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "@bfl_ai",
+   "url": "https://x.com/bfl_ai/status/2110751201105256925",
+   "source": "@bfl_ai",
+   "date": "2026-10-15",
+   "summary": "Black Forest Labs 发布开源 FLUX 3 Image Klein：5.6B 参数、单消费级 GPU 可跑，支持原生 4K、边界框布局与像素级编辑。",
+   "metrics": {
+    "likes": 979,
+    "reposts": 139,
+    "views": 35424
+   },
+   "id": "5b6cf8a429c030b2825a8eea070acbe41db5dbdb",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
   {
    "title": "OpenAI CFO：下一代旗舰模型因安全对齐暂缓发布",
    "source": "Cybernews",
@@ -86,9 +288,9 @@
    "date": "2026-10-15",
    "summary": "OpenAI 向 Simons Foundation 新倡议捐赠 500 万美元，助力数学家审视、理解并拓展 AI 辅助成果；与 Anthropic 共同配套算力资源，项目总规模约 1500 万美元。",
    "metrics": {
-    "likes": 1636,
-    "reposts": 127,
-    "views": 140828
+    "likes": 2471,
+    "reposts": 196,
+    "views": 225641
    },
    "id": "8793a1813d242e00bc602137a8f363e530424831",
    "module": "x",
@@ -102,9 +304,9 @@
    "date": "2026-10-15",
    "summary": "英伟达扩展 Nemotron 开源家族，发布 Nemotron 3.5 Super VL：融合视觉理解、推理与工具调用，总参 120B、激活 12B，面向长程智能体。",
    "metrics": {
-    "likes": 111,
-    "reposts": 13,
-    "views": 10448
+    "likes": 388,
+    "reposts": 44,
+    "views": 24900
    },
    "id": "6cfb5f9068f0b7506339fc7a28241c3688c29558",
    "module": "x",
@@ -118,9 +320,9 @@
    "date": "2026-10-15",
    "summary": "开放两类新 Fellowship：STEM 与概念推理方向，2027 年 1 月起在 Anthropic 工作四个月，协助提升 Claude 推理。",
    "metrics": {
-    "likes": 2980,
-    "reposts": 207,
-    "views": 239481
+    "likes": 3576,
+    "reposts": 253,
+    "views": 314278
    },
    "id": "680c4c978874a08fd69534e28481c4e9d8571c9f",
    "module": "x",
@@ -134,9 +336,9 @@
    "date": "2026-10-15",
    "summary": "SynthID 入选《时代》2026 年度最佳发明，已为超 1800 亿张图片和视频打上水印。",
    "metrics": {
-    "likes": 393,
-    "reposts": 37,
-    "views": 33502
+    "likes": 428,
+    "reposts": 43,
+    "views": 38454
    },
    "id": "0688db5c82a0a9bd02873e9cfb4a99f655929e44",
    "module": "x",
@@ -243,21 +445,6 @@
    "first_seen": "2026-10-15T21:28:55+08:00"
   },
   {
-   "title": "xerj-org/xerj",
-   "url": "https://github.com/xerj-org/xerj",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 4859,
-   "stars_week": null,
-   "language": "Rust",
-   "summary": "面向 AI 的数据搜索引擎：一条命令为代码、文档、日志与 PDF 建索引，用于搜索、RAG、安全审计与智能体记忆，兼容 Elasticsearch，Apache-2.0。",
-   "why": "今日日榜新上，单日新增约 725 星，称比 grep 少用约 40 倍 token。",
-   "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T21:28:55+08:00"
-  },
-  {
    "title": "蚂蚁百灵开源 Ling-3.1-flash，560B 级模型部署门槛下降",
    "source": "Hugging Face",
    "date": "2026-10-15",
@@ -279,21 +466,6 @@
    "summary": "智能体 harness 性能优化系统：Skills、本能、记忆、安全与研究优先开发。",
    "why": "日榜上升，总星约 28 万。",
    "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T20:32:02+08:00"
-  },
-  {
-   "title": "ruvnet/ruflo",
-   "url": "https://github.com/ruvnet/ruflo",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 74874,
-   "stars_week": null,
-   "language": "TypeScript",
-   "summary": "多智能体 swarm harness：自适应记忆、联邦、向量 RAG，集成 Claude Code / Codex 等。",
-   "why": "日榜持续，总星约 7.5 万。",
-   "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T20:32:02+08:00"
@@ -332,51 +504,6 @@
    "first_seen": "2026-10-15T19:31:06+08:00"
   },
   {
-   "title": "obra/superpowers",
-   "url": "https://github.com/obra/superpowers",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 299607,
-   "stars_week": null,
-   "language": "Shell",
-   "summary": "可落地的智能体技能框架与软件开发方法论。",
-   "why": "日榜前列，总星近 30 万。",
-   "id": "2046f5e50fafe44ab9382efbd7ce4484b55575ee",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T19:31:06+08:00"
-  },
-  {
-   "title": "JuliusBrussee/caveman",
-   "url": "https://github.com/JuliusBrussee/caveman",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 112237,
-   "stars_week": null,
-   "language": "Go",
-   "summary": "用“穴居人式”简短对话为编码智能体省约 65% token 的 Skill + 代理。",
-   "why": "日榜前列，总星超 11 万。",
-   "id": "3fa1090af0f1f1a682c42ba1860959b241927c96",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T19:31:06+08:00"
-  },
-  {
-   "title": "anthropics/claude-plugins-official",
-   "url": "https://github.com/anthropics/claude-plugins-official",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 38556,
-   "stars_week": null,
-   "language": "Python",
-   "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
-   "why": "今日日榜新上，单日约 525 星，总星约 3.9 万。",
-   "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T19:31:06+08:00"
-  },
-  {
    "title": "DeepSeek 故障近 5 小时后恢复，官方补偿 API 用户近 7 日消耗",
    "source": "IT之家",
    "date": "2026-10-15",
@@ -385,21 +512,6 @@
    "id": "3a71ca7b5b0c42d5f336b94ba8d734b3f2a707c5",
    "module": "china",
    "module_name": "国内 AI 动态",
-   "first_seen": "2026-10-15T18:28:14+08:00"
-  },
-  {
-   "title": "K-Dense-AI/scientific-agent-skills",
-   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 50032,
-   "stars_week": null,
-   "language": "Python",
-   "summary": "面向科学的 Agent Skills 库：177 项验证技能与 100+ 科学数据库，覆盖生物、化学、医学与药物发现。",
-   "why": "今日日榜前列，总星约 5 万。",
-   "id": "36917ef32b441dc1267859059cff87fff8d86bcd",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T18:28:14+08:00"
   },
   {
@@ -506,21 +618,6 @@
    "first_seen": "2026-10-15T17:36:05+08:00"
   },
   {
-   "title": "debpalash/VoiceStudio",
-   "url": "https://github.com/debpalash/VoiceStudio",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 68267,
-   "stars_week": null,
-   "language": "Python",
-   "summary": "开源本地 ElevenLabs 替代：声音克隆、配音、听写与有声书，支持 646 种语言。",
-   "why": "日榜前列，单日约 3000 星增量。",
-   "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T17:36:05+08:00"
-  },
-  {
    "title": "ifixai-ai/iFixAi",
    "url": "https://github.com/ifixai-ai/iFixAi",
    "source": "GitHub",
@@ -605,22 +702,22 @@
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
-   "title": "The Wealth of Agents：跨开发者扩展智能体系统",
+   "title": "The Wealth of Agents：跨开发者多智能体系统作为新扩展轴",
    "source": "arXiv 2610.20518",
    "date": "2026-10-15",
    "url": "https://arxiv.org/abs/2610.20518",
-   "summary": "研究多开发者智能体系统（MDA），突破单人全控部署的规模瓶颈，探讨协作与组合式智能体生态。",
+   "summary": "普林斯顿等提出多开发者智能体系统（MDA）：个体准确率不超过 35% 的专科智能体组合后在 GAIA 达 70%，高于同等总预算下一般单开发者系统中位数约 12 个百分点。",
    "id": "c529be1d59a2901a8e26ec0598456278db888724",
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
-   "title": "TreeFlex：让智能体导航自身搜索树",
-   "source": "arXiv 2610.20334",
+   "title": "TreeFlex：由策略自身导航搜索树的智能体框架",
+   "source": "arXiv 2610.20334 / Meta AI",
    "date": "2026-10-15",
    "url": "https://arxiv.org/abs/2610.20334",
-   "summary": "指出 ReAct 式上下文堆积过时信息会挤占容量，提出 TreeFlex 让智能体在自建搜索树上导航与聚焦推理。",
+   "summary": "Reflection/Execution 双角色共用一模型决定加深、分叉或回溯；4B 经小规模 RL 后 deep-research 准确率 48.8%（ReAct 41.5%），SWE-bench Verified 解决率 54.9%。",
    "id": "02cffde0fee35adf111229c42e2d2ddd2f1ff329",
    "module": "research",
    "module_name": "研究与论文",
@@ -683,11 +780,11 @@
    "url": "https://x.com/AIatMeta/status/2110441716507693450",
    "source": "@AIatMeta",
    "date": "2026-10-15",
-   "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据与因果假设带来的挑战。",
+   "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据不完美及队列/变量/因果假设选择的重要性。",
    "metrics": {
-    "likes": 586,
-    "reposts": 86,
-    "views": 157584
+    "likes": 633,
+    "reposts": 92,
+    "views": 172563
    },
    "id": "102bf5f6e93aadda05d67f4351105f598d523434",
    "module": "x",
@@ -779,21 +876,6 @@
    "id": "4b21305063db8eafe5ca31a344be4a1841c6a1a8",
    "module": "china",
    "module_name": "国内 AI 动态",
-   "first_seen": "2026-10-15T14:10:00+08:00"
-  },
-  {
-   "title": "morluto/rea",
-   "url": "https://github.com/morluto/rea",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 262598,
-   "stars_week": null,
-   "language": "TypeScript",
-   "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-   "why": "今日日榜前列，单日新增约 3.2 万星，总星约 26.3 万。",
-   "id": "92705331275526a8e0b1d0b4ec156bfb5025973f",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
@@ -916,6 +998,33 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "美国八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全宣传",
+   "source": "The Verge",
+   "date": "2026-10-14",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
+   "summary": "艾奥瓦、堪萨斯等八州分别起诉，称公司将利润置于安全之上、未充分警示风险并收集未成年人数据；OpenAI 称已有分龄保护并将与各州合作推进行业政策。",
+   "id": "88ac6d1c3f06222f0526a1499b3df95ba78896a4",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "@nvidia",
+   "url": "https://x.com/nvidia/status/2110485178929844666",
+   "source": "@nvidia",
+   "date": "2026-10-14",
+   "summary": "黄仁勋在伦敦宣布对新药与量子等方向的英国 AI 初创投资：boltz_bio、ForesightWorks、hivergeai、PrimaMente 与 Riverlane。",
+   "metrics": {
+    "likes": 456,
+    "reposts": 55,
+    "views": 44694
+   },
+   "id": "7250bf1295b78c88bbdcf33499fad1f1e89e5145",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T00:35:00+08:00"
   },
   {
    "title": "DeepSeek 完成约 1000 亿元 B 轮融资，为科创板上市铺路",
@@ -1155,9 +1264,9 @@
    "date": "2026-10-14",
    "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任采用谅解备忘录。",
    "metrics": {
-    "likes": 3403,
+    "likes": 3409,
     "reposts": 206,
-    "views": 699731
+    "views": 703856
    },
    "id": "abcff360d9243844b7b0e4255cb512108c813a87",
    "module": "x",
@@ -1187,11 +1296,11 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
-   "title": "UltraBERT：原生 32K 上下文的开源编码器",
-   "source": "Hugging Face",
+   "title": "UltraBERT：同时擅长分类与检索的 32K 编码器家族开源",
+   "source": "Hugging Face / dmis-lab",
    "date": "2026-10-14",
    "url": "https://huggingface.co/blog/dmis-lab/ultrabert",
-   "summary": "150M/380M 英文编码器及嵌入模型，兼顾分类与检索，Apache 2.0。",
+   "summary": "150M/380M 编码器与 Embed-150M，Apache 2.0；双掩码比例解耦 LM head，380M 在 GLUE 91.0、BEIR 47.7，Embed-150M 在 MTEB(eng v2) 67.24 为 200M 以下稠密嵌入第一。",
    "id": "3090119047a3c299298814c2c115324e5040aaf5",
    "module": "opensource",
    "module_name": "开源与工具",
@@ -1277,6 +1386,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "Character.AI 申请 Chapter 11 破产，迪士尼出价 2000 万美元作 stalking horse",
+   "source": "CNBC",
+   "date": "2026-10-13",
+   "url": "https://www.cnbc.com/2026/10/13/character-ai-chapter-11-disney-bid.html",
+   "summary": "公司称 AI 娱乐开发与增长成本高，叠加诉讼与监管压力现金流不足；迪士尼拟以 2000 万美元许可部分 IP 并提供过渡服务。平台售卖期间拟继续运营，若不获更高出价可能关停。",
+   "id": "111f4379ae3af37ef6604b7c5f9aa4ace6d77db6",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T00:35:00+08:00"
   },
   {
    "title": "Fish Audio 开源 Drama 3：35B MoE 可“导演”的语音合成模型",
