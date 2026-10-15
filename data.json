@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-15T17:36:05+08:00",
+ "updated": "2026-10-15T18:28:14+08:00",
  "modules": [
   {
    "id": "models",
@@ -36,11 +36,11 @@
      "summary": "开发者可通过 Gemini API、AI Studio 与 Antigravity 使用 gemini-4-argon，主打智能体编程与长输出任务；限时 introductory 定价约 $2/$10 每百万 token。"
     },
     {
-     "title": "OpenAI 向所有 ChatGPT 套餐推送 GPT-6 与智能界面",
+     "title": "OpenAI 案例：Third Moment Research 用 GPT-6 系并行跑上万智能体数十小时",
      "source": "OpenAI",
-     "date": "2026-10-08",
-     "url": "https://openai.com/index/gpt-6-for-everyone/",
-     "summary": "付费用户使用 GPT-6 Sol，免费与 Go 用户切换至 GPT-6 Luna，回答中可嵌入按钮、表单与图表等交互元素。"
+     "date": "2026-10-14",
+     "url": "https://openai.com/index/third-moment-research/",
+     "summary": "量化研究实验室以 GPT-6 Astra / GPT-6.1 Sol 与 Codex 同时运行约 1 万个智能体、单次自治研究 36–48 小时；Codex 将回测从约 3 小时压到约 3–5 分钟。"
     },
     {
      "title": "SpaceXSI（原 xAI）发布 Grok Voice 3.0 语音到语音模型",
@@ -75,7 +75,7 @@
      "source": "CNBC",
      "date": "2026-10-15",
      "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-     "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司已向潜在投资者称 Q3 经调整后盈利，并据报计划 11 月上市。"
+     "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司称 Q3 经调整后盈利且现金流为正；据报计划 11 月上市，市场预期年末年化营收可达约 1100 亿美元。"
     },
     {
      "title": "Modal 完成 7.5 亿美元 D 轮，年化营收突破 10 亿美元",
@@ -92,11 +92,11 @@
      "summary": "成立仅五年的角色聊天平台进入法院监督出售；若无合格买家将关停，平台目前仍可访问。"
     },
     {
-     "title": "Zenzap 融资 4400 万美元打造职场 AI 聊天应用",
+     "title": "Ricursive Intelligence：用 AI 设计芯片应对算力危机",
      "source": "TechCrunch",
      "date": "2026-10-14",
-     "url": "https://techcrunch.com/2026/10/14/zenzap-raises-44m-for-its-ai-chat-app-that-aims-to-replace-whatsapp-in-the-workplace/",
-     "summary": "Zenzap 希望用内置 AI 的工作聊天工具取代职场中的 WhatsApp。"
+     "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+     "summary": "AlphaChip 联合创始人 Anna Goldie、Azalia Mirhoseini 创业，主张用 AI 整片优化芯片布局并迭代学习；称未来五年算力需求或增至至少 1 万倍，需更高能效芯片而非只建更多数据中心。"
     },
     {
      "title": "DeepSeek 据报将完成 1000 亿元融资",
@@ -211,13 +211,6 @@
      "summary": "150M/380M 英文编码器及嵌入模型，兼顾分类与检索，Apache 2.0。"
     },
     {
-     "title": "ColGrep-Agent：本地 2B 代码搜索智能体，可省约三分之一 API token",
-     "source": "Hugging Face",
-     "date": "2026-10-12",
-     "url": "https://huggingface.co/blog/lightonai/colgrep-agent",
-     "summary": "LightOn 开源 ColGrep-Agent-2B，在本地为 Claude Code 等代理做语义代码定位，测试中 API token 减少约 34%。"
-    },
-    {
      "title": "Liquid AI 开源 LFM2.5-24B-A2B 端侧推理模型",
      "source": "Hugging Face",
      "date": "2026-10-13",
@@ -237,6 +230,13 @@
      "date": "2026-10-15",
      "url": "https://huggingface.co/blog/huggingface/tokenmaxxing-bert",
      "summary": "通过 SIMD 跳过 ASCII、按 256 码点分页缓存等优化归一化步骤，BERT 编码较 0.23 版快约 50 倍，BPE 分词快达 30 倍，相关改动仍在 PR 阶段。"
+    },
+    {
+     "title": "ColGrep-Agent：本地 2B 代码搜索智能体，可省约三分之一 API token",
+     "source": "Hugging Face",
+     "date": "2026-10-12",
+     "url": "https://huggingface.co/blog/lightonai/colgrep-agent",
+     "summary": "LightOn 开源 ColGrep-Agent-2B，在本地为 Claude Code 等代理做语义代码定位，测试中 API token 减少约 34%。"
     }
    ]
   },
@@ -309,6 +309,13 @@
    "icon": "🇨🇳",
    "items": [
     {
+     "title": "DeepSeek 故障近 5 小时后恢复，官方补偿 API 用户近 7 日消耗",
+     "source": "IT之家",
+     "date": "2026-10-15",
+     "url": "https://www.ithome.com/1/013/533.htm",
+     "summary": "网页/API 于 8:11–13:04 故障；官方以赠金形式全额返还 10 月 8–14 日消耗，优先抵扣后续账单，并称将剥离单点依赖。"
+    },
+    {
      "title": "昆仑万维开源 Matrix-Game 4.0，消费级显卡实时跑游戏世界模型",
      "source": "量子位",
      "date": "2026-10-15",
@@ -316,11 +323,11 @@
      "summary": "中国团队称单卡 RTX 5090 可达 60 FPS、按键延迟约 112ms，模型与代码开源。"
     },
     {
-     "title": "DeepSeek 全球服务短暂宕机，DeepSeekHarness 账号同日现身 B 站",
-     "source": "量子位",
-     "date": "2026-10-15",
-     "url": "https://www.qbitai.com/2026/10/503326.html",
-     "summary": "网页与 V4 Pro / V4.1 Flash API 自约 8:11 起部分中断；同期开源 Agent 平台 Harness 相关账号上线 B 站，网友猜测或与产品推广有关。"
+     "title": "字节 Seed 成立 Alignment & Preparedness，全球招 10 名顶尖安全研究员",
+     "source": "字节跳动 Seed",
+     "date": "2026-10-14",
+     "url": "https://seed.bytedance.com/zh/blog/seed-alignment-preparedness-team-looking-for-global-talents",
+     "summary": "新部门聚焦模型/Agent 安全评测、对齐训练、自动化红队、行为监控与可解释性等，工作地点含北京、上海、圣何塞，承诺匹配前沿模型研究级算力。"
     },
     {
      "title": "阶跃星辰开放 Step 5 Preview 权重，600B MoE 支持百万上下文",
@@ -335,13 +342,6 @@
      "date": "2026-10-14",
      "url": "https://www.qbitai.com/2026/10/503109.html",
      "summary": "35B-A3B 版本为系列首个 MoE 模型，仅占约 3GB 内存即可在 iPhone 17 Pro Max 上流畅运行。"
-    },
-    {
-     "title": "APUS AI 开源 Reflex Agent，称响应快于 Claude Code",
-     "source": "量子位",
-     "date": "2026-10-13",
-     "url": "https://www.qbitai.com/2026/10/503165.html",
-     "summary": "麒麟合盛宣布开源 Personal Agent 产品 Reflex Agent，主打无限上下文与更快响应。"
     },
     {
      "title": "DeepSeek 据报将完成 1000 亿元融资",
@@ -369,11 +369,11 @@
      "url": "https://github.com/morluto/rea",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 255287,
+     "stars": 256314,
      "stars_week": 214837,
      "language": "TypeScript",
      "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-     "why": "本周新增约 21.5 万星，为全站周榜第一，并在 X 上引发 AI 编程大讨论。"
+     "why": "今日日榜第一，单日约 +4.1 万星，总星超 25.6 万，并在 X 上引发 AI 编程大讨论。"
     },
     {
      "title": "mattpocock/skills",
@@ -387,15 +387,15 @@
      "why": "本周 +1.2 万星，周榜前列的工程向 Skill 仓库，总星已近 30 万。"
     },
     {
-     "title": "heygen-com/hyperframes",
-     "url": "https://github.com/heygen-com/hyperframes",
+     "title": "debpalash/VoiceStudio",
+     "url": "https://github.com/debpalash/VoiceStudio",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 64022,
-     "stars_week": 5123,
-     "language": "TypeScript",
-     "summary": "HeyGen 开源：写 HTML 即可渲染视频，专为智能体设计。",
-     "why": "让 AI 智能体用网页技术直接生成视频，本周 +5.1k 星。"
+     "stars": 67688,
+     "stars_week": null,
+     "language": "Python",
+     "summary": "开源、完全本地的 ElevenLabs 替代品：声音克隆、声音设计、视频配音、听写转写与有声书制作，支持 646 种语言。",
+     "why": "今日 GitHub 日榜第二，单日约 +3.5k 星。"
     },
     {
      "title": "cathrynlavery/diagram-design",
@@ -409,6 +409,17 @@
      "why": "本周 +1.07 万星，周榜前列的 Agent Skill 项目。"
     },
     {
+     "title": "K-Dense-AI/scientific-agent-skills",
+     "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+     "source": "GitHub",
+     "date": "2026-10-15",
+     "stars": 49876,
+     "stars_week": null,
+     "language": "Python",
+     "summary": "面向科学的 Agent Skills 库：177 项验证技能与 100+ 科学数据库，覆盖生物、化学、医学与药物发现。",
+     "why": "今日日榜第五，适配 Cursor/Claude Code/Codex 等，称服务全球超 25 万科学家。"
+    },
+    {
      "title": "thedotmack/claude-mem",
      "url": "https://github.com/thedotmack/claude-mem",
      "source": "GitHub",
@@ -420,37 +431,26 @@
      "why": "解决智能体“失忆”痛点，已破 10 万星，本周 +3.4k。"
     },
     {
-     "title": "debpalash/VoiceStudio",
-     "url": "https://github.com/debpalash/VoiceStudio",
+     "title": "vxcontrol/pentagi",
+     "url": "https://github.com/vxcontrol/pentagi",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 67588,
+     "stars": 30191,
      "stars_week": null,
-     "language": "Python",
-     "summary": "开源、完全本地的 ElevenLabs 替代品：声音克隆、声音设计、视频配音、听写转写与有声书制作，支持 646 种语言。",
-     "why": "今日 GitHub 日榜第二，单日 +3.5k 星。"
+     "language": "Go",
+     "summary": "可执行复杂渗透测试任务的全自主 AI 智能体系统。",
+     "why": "今日日榜第八，单日约 +1.0k 星，开源进攻性安全自动化工具。"
     },
     {
      "title": "ifixai-ai/iFixAi",
      "url": "https://github.com/ifixai-ai/iFixAi",
      "source": "GitHub",
      "date": "2026-10-15",
-     "stars": 28023,
+     "stars": 28046,
      "stars_week": null,
      "language": "Python",
      "summary": "独立审计 AI 智能体，由人或智能体自身运行，约 120 秒内判断智能体是否在做该做的事。",
-     "why": "今日 +2.1k 星，切中智能体可信与审计需求。"
-    },
-    {
-     "title": "mksglu/context-mode",
-     "url": "https://github.com/mksglu/context-mode",
-     "source": "GitHub",
-     "date": "2026-10-15",
-     "stars": 29502,
-     "stars_week": null,
-     "language": "TypeScript",
-     "summary": "面向 AI 编码智能体的上下文窗口优化：沙箱化工具输出（约 98% 压缩）、持久化会话记忆，并通过 MCP 与 hooks 支持 17 个平台。",
-     "why": "今日 +947 星，解决智能体上下文膨胀问题。"
+     "why": "今日约 +2.1k 星，切中智能体可信与审计需求。"
     }
    ]
   },
@@ -466,9 +466,9 @@
      "date": "2026-10-15",
      "summary": "OpenAI 经济研究报告：欧盟企业客户的 AI 使用中超一半已涉及智能体，小企业用户增长 8 倍。",
      "metrics": {
-      "likes": 2369,
-      "reposts": 182,
-      "views": 323082
+      "likes": 2437,
+      "reposts": 190,
+      "views": 335493
      }
     },
     {
@@ -478,9 +478,9 @@
      "date": "2026-10-15",
      "summary": "Meta：Muse Wonder 与 Muse Wonder Full 在个人与专业智能体任务上达到 SOTA，研究博客公开技术细节。",
      "metrics": {
-      "likes": 246,
-      "reposts": 22,
-      "views": 26533
+      "likes": 278,
+      "reposts": 26,
+      "views": 29882
      }
     },
     {
@@ -490,9 +490,9 @@
      "date": "2026-10-15",
      "summary": "DeepMind：Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等领域带来科学突破，并向 1 万名科学家免费开放 Antigravity 最高档 6 个月。",
      "metrics": {
-      "likes": 1972,
-      "reposts": 237,
-      "views": 108809
+      "likes": 2056,
+      "reposts": 251,
+      "views": 118855
      }
     },
     {
@@ -502,9 +502,9 @@
      "date": "2026-10-15",
      "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据与因果假设带来的挑战。",
      "metrics": {
-      "likes": 542,
-      "reposts": 82,
-      "views": 144565
+      "likes": 562,
+      "reposts": 83,
+      "views": 150333
      }
     },
     {
@@ -514,9 +514,9 @@
      "date": "2026-10-14",
      "summary": "Anthropic 工程博客：9 月日均合并代码超 3 万次（5 月约 2500 次），因开发设施跟不上智能体规模而自建源码管理系统。",
      "metrics": {
-      "likes": 25041,
-      "reposts": 2562,
-      "views": 7585057
+      "likes": 25144,
+      "reposts": 2578,
+      "views": 7635544
      }
     },
     {
@@ -526,9 +526,9 @@
      "date": "2026-10-14",
      "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任应用合作备忘录。",
      "metrics": {
-      "likes": 3321,
-      "reposts": 194,
-      "views": 662382
+      "likes": 3358,
+      "reposts": 197,
+      "views": 674080
      }
     },
     {
@@ -544,15 +544,15 @@
      }
     },
     {
-     "title": "@elonmusk",
-     "url": "https://x.com/elonmusk/status/2110610960474079445",
-     "source": "@elonmusk",
-     "date": "2026-10-15",
-     "summary": "马斯克称若 Grok 代用户购物出错或泄露银行卡信息（称尚未发生），SpaceX 将全额赔付。",
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2109795898909950247",
+     "source": "@AnthropicAI",
+     "date": "2026-10-13",
+     "summary": "Anthropic：近数月显著降低针对 Claude 的蒸馏攻击有效性，并发布技术博客说明防护方法。",
      "metrics": {
-      "likes": 4387,
-      "reposts": 463,
-      "views": 832014
+      "likes": 6425,
+      "reposts": 600,
+      "views": 2519943
      }
     }
    ]

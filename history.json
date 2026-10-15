@@ -1,7 +1,48 @@
 {
- "updated": "2026-10-15T17:36:05+08:00",
- "count": 92,
+ "updated": "2026-10-15T18:28:14+08:00",
+ "count": 98,
  "items": [
+  {
+   "title": "DeepSeek 故障近 5 小时后恢复，官方补偿 API 用户近 7 日消耗",
+   "source": "IT之家",
+   "date": "2026-10-15",
+   "url": "https://www.ithome.com/1/013/533.htm",
+   "summary": "网页/API 于 8:11–13:04 故障；官方以赠金形式全额返还 10 月 8–14 日消耗，优先抵扣后续账单，并称将剥离单点依赖。",
+   "id": "3a71ca7b5b0c42d5f336b94ba8d734b3f2a707c5",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-15T18:28:14+08:00"
+  },
+  {
+   "title": "K-Dense-AI/scientific-agent-skills",
+   "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+   "source": "GitHub",
+   "date": "2026-10-15",
+   "stars": 49876,
+   "stars_week": null,
+   "language": "Python",
+   "summary": "面向科学的 Agent Skills 库：177 项验证技能与 100+ 科学数据库，覆盖生物、化学、医学与药物发现。",
+   "why": "今日日榜第五，适配 Cursor/Claude Code/Codex 等，称服务全球超 25 万科学家。",
+   "id": "36917ef32b441dc1267859059cff87fff8d86bcd",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T18:28:14+08:00"
+  },
+  {
+   "title": "vxcontrol/pentagi",
+   "url": "https://github.com/vxcontrol/pentagi",
+   "source": "GitHub",
+   "date": "2026-10-15",
+   "stars": 30191,
+   "stars_week": null,
+   "language": "Go",
+   "summary": "可执行复杂渗透测试任务的全自主 AI 智能体系统。",
+   "why": "今日日榜第八，单日约 +1.0k 星，开源进攻性安全自动化工具。",
+   "id": "2e8a64d0e7e2e45718bfa3bb5c69681601a2e1b9",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T18:28:14+08:00"
+  },
   {
    "title": "Claude Code 桌面版大更新：嵌套会话并行、可保存环境与 /btw 支线对话",
    "source": "36氪",
@@ -95,11 +136,11 @@
    "url": "https://github.com/debpalash/VoiceStudio",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 67588,
+   "stars": 67688,
    "stars_week": null,
    "language": "Python",
    "summary": "开源、完全本地的 ElevenLabs 替代品：声音克隆、声音设计、视频配音、听写转写与有声书制作，支持 646 种语言。",
-   "why": "今日 GitHub 日榜第二，单日 +3.5k 星。",
+   "why": "今日 GitHub 日榜第二，单日约 +3.5k 星。",
    "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -110,11 +151,11 @@
    "url": "https://github.com/ifixai-ai/iFixAi",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 28023,
+   "stars": 28046,
    "stars_week": null,
    "language": "Python",
    "summary": "独立审计 AI 智能体，由人或智能体自身运行，约 120 秒内判断智能体是否在做该做的事。",
-   "why": "今日 +2.1k 星，切中智能体可信与审计需求。",
+   "why": "今日约 +2.1k 星，切中智能体可信与审计需求。",
    "id": "d8ea9701e2c6b77085701a9daaf19eb647f40a95",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -242,7 +283,7 @@
    "source": "CNBC",
    "date": "2026-10-15",
    "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-   "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司已向潜在投资者称 Q3 经调整后盈利，并据报计划 11 月上市。",
+   "summary": "知情人士称营收由 Q2 约 116 亿美元升至 168 亿美元，公司称 Q3 经调整后盈利且现金流为正；据报计划 11 月上市，市场预期年末年化营收可达约 1100 亿美元。",
    "id": "39c38c8f467d69ece207544f3038e86d09144a70",
    "module": "industry",
    "module_name": "行业与融资",
@@ -270,9 +311,9 @@
    "date": "2026-10-15",
    "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据与因果假设带来的挑战。",
    "metrics": {
-    "likes": 542,
-    "reposts": 82,
-    "views": 144565
+    "likes": 562,
+    "reposts": 83,
+    "views": 150333
    },
    "id": "102bf5f6e93aadda05d67f4351105f598d523434",
    "module": "x",
@@ -330,9 +371,9 @@
    "date": "2026-10-15",
    "summary": "Meta：Muse Wonder 与 Muse Wonder Full 在个人与专业智能体任务上达到 SOTA，研究博客公开技术细节。",
    "metrics": {
-    "likes": 246,
-    "reposts": 22,
-    "views": 26533
+    "likes": 278,
+    "reposts": 26,
+    "views": 29882
    },
    "id": "f1e1cd97485783108a26ee6001c564a041671ba9",
    "module": "x",
@@ -346,9 +387,9 @@
    "date": "2026-10-15",
    "summary": "DeepMind：Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等领域带来科学突破，并向 1 万名科学家免费开放 Antigravity 最高档 6 个月。",
    "metrics": {
-    "likes": 1972,
-    "reposts": 237,
-    "views": 108809
+    "likes": 2056,
+    "reposts": 251,
+    "views": 118855
    },
    "id": "e854ba173c3883c9c97190271c7803e6b93fd9db",
    "module": "x",
@@ -371,11 +412,11 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 255287,
+   "stars": 256314,
    "stars_week": 214837,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-   "why": "本周新增约 21.5 万星，为全站周榜第一，并在 X 上引发 AI 编程大讨论。",
+   "why": "今日日榜第一，单日约 +4.1 万星，总星超 25.6 万，并在 X 上引发 AI 编程大讨论。",
    "id": "92705331275526a8e0b1d0b4ec156bfb5025973f",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -493,14 +534,47 @@
    "date": "2026-10-15",
    "summary": "OpenAI 经济研究报告：欧盟企业客户的 AI 使用中超一半已涉及智能体，小企业用户增长 8 倍。",
    "metrics": {
-    "likes": 2369,
-    "reposts": 182,
-    "views": 323082
+    "likes": 2437,
+    "reposts": 190,
+    "views": 335493
    },
    "id": "97ec244e8eca21151564087a0be49fae40206a5c",
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "OpenAI 案例：Third Moment Research 用 GPT-6 系并行跑上万智能体数十小时",
+   "source": "OpenAI",
+   "date": "2026-10-14",
+   "url": "https://openai.com/index/third-moment-research/",
+   "summary": "量化研究实验室以 GPT-6 Astra / GPT-6.1 Sol 与 Codex 同时运行约 1 万个智能体、单次自治研究 36–48 小时；Codex 将回测从约 3 小时压到约 3–5 分钟。",
+   "id": "7641fa57a65cfc29b18da8ea84887a7d905c6ef5",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-15T18:28:14+08:00"
+  },
+  {
+   "title": "Ricursive Intelligence：用 AI 设计芯片应对算力危机",
+   "source": "TechCrunch",
+   "date": "2026-10-14",
+   "url": "https://techcrunch.com/2026/10/14/ricursive-intelligence-is-betting-on-ai-designed-chips-to-help-solve-the-compute-crisis/",
+   "summary": "AlphaChip 联合创始人 Anna Goldie、Azalia Mirhoseini 创业，主张用 AI 整片优化芯片布局并迭代学习；称未来五年算力需求或增至至少 1 万倍，需更高能效芯片而非只建更多数据中心。",
+   "id": "f86858c1d8495e4acc9f40471d3ad3a3ae33d26a",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-15T18:28:14+08:00"
+  },
+  {
+   "title": "字节 Seed 成立 Alignment & Preparedness，全球招 10 名顶尖安全研究员",
+   "source": "字节跳动 Seed",
+   "date": "2026-10-14",
+   "url": "https://seed.bytedance.com/zh/blog/seed-alignment-preparedness-team-looking-for-global-talents",
+   "summary": "新部门聚焦模型/Agent 安全评测、对齐训练、自动化红队、行为监控与可解释性等，工作地点含北京、上海、圣何塞，承诺匹配前沿模型研究级算力。",
+   "id": "7094a7245ec718a1f847c9fb5a8ed9777ffb4635",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-15T18:28:14+08:00"
   },
   {
    "title": "SpaceXSI（原 xAI）发布 Grok Voice 3.0 语音到语音模型",
@@ -619,9 +693,9 @@
    "date": "2026-10-14",
    "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任应用合作备忘录。",
    "metrics": {
-    "likes": 3321,
-    "reposts": 194,
-    "views": 662382
+    "likes": 3358,
+    "reposts": 197,
+    "views": 674080
    },
    "id": "abcff360d9243844b7b0e4255cb512108c813a87",
    "module": "x",
@@ -701,9 +775,9 @@
    "date": "2026-10-14",
    "summary": "Anthropic 工程博客：9 月日均合并代码超 3 万次（5 月约 2500 次），因开发设施跟不上智能体规模而自建源码管理系统。",
    "metrics": {
-    "likes": 25041,
-    "reposts": 2562,
-    "views": 7585057
+    "likes": 25144,
+    "reposts": 2578,
+    "views": 7635544
    },
    "id": "5453568159eafadcecb2163292c1269f9931c4f2",
    "module": "x",
@@ -824,11 +898,11 @@
    "url": "https://x.com/AnthropicAI/status/2109795898909950247",
    "source": "@AnthropicAI",
    "date": "2026-10-13",
-   "summary": "Anthropic 发文介绍如何大幅降低针对 Claude 的蒸馏攻击效果。",
+   "summary": "Anthropic：近数月显著降低针对 Claude 的蒸馏攻击有效性，并发布技术博客说明防护方法。",
    "metrics": {
-    "likes": 6397,
-    "reposts": 593,
-    "views": 2488600
+    "likes": 6425,
+    "reposts": 600,
+    "views": 2519943
    },
    "id": "afd1ac1d052fd2ec746e7595361f4668a0970d63",
    "module": "x",
