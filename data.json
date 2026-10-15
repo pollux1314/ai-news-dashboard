@@ -1,12 +1,33 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-16T00:35:00+08:00",
+ "updated": "2026-10-16T01:40:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "OpenAI 向 Simons Foundation 捐赠 500 万美元，助力数学家审视 AI 辅助成果",
+     "source": "The Verge",
+     "date": "2026-10-15",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1012049/openai-is-giving-5-million-to-help-mathematicians-make-sense-of-ai-generated-research",
+     "summary": "该笔资金纳入 Simons Foundation 主导、总规模约 1500 万美元的新倡议，Anthropic 也有配套投入；背景是近月 AI 公司争相宣称攻克数学难题、OpenAI 近日向学界倾泻数百篇预印本，引发数学界对如何验证与消化 AI 结果的讨论。"
+    },
+    {
+     "title": "谷歌让 AI Mode / AI Overviews 中内联链接更靠前、更醒目",
+     "source": "The Verge",
+     "date": "2026-10-15",
+     "url": "https://www.theverge.com/tech/1012206/google-ai-mode-overview-inline-links",
+     "summary": "谷歌称将让关键来源链接更频繁出现在回答靠前位置，并测试特定任务顶部展示相关链接、扩大时效性文章轮播，以及在 AI Mode 中可点击的发布者主页；同时透露 News AI 试点已有超 400 家出版方参与，Axios、CNN、FT 等新加入。"
+    },
+    {
+     "title": "马斯克承诺：若 Grok 购物出错或泄露信用卡将“全额补齐”",
+     "source": "The Verge",
+     "date": "2026-10-15",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1011847/elon-musk-is-promising-to-make-you-whole-if-grok-messes-up-a-purchase-or-leaks-your-credit-card",
+     "summary": "马斯克在 X 上表示若 Grok 搞砸购买或泄露信用卡信息将赔偿用户损失，并称“尚未发生过”；未给出具体细则，媒体提醒其过往类似公开承诺兑现情况不一。"
+    },
     {
      "title": "Rivian 计划在车内接入 Anthropic 等第三方前沿 AI 智能体",
      "source": "TechCrunch",
@@ -41,27 +62,6 @@
      "date": "2026-10-15",
      "url": "https://www.36kr.com/p/4026611597628033",
      "summary": "并行任务自动拆成嵌套子会话并回报主会话；新会话页可一键打开最近文件夹、保存多目录/SSH/云端环境并按文件夹建 worktree；/btw 在独立标签页提问不打断主线。"
-    },
-    {
-     "title": "Figma 推出 Specs 等功能，为设计智能体定义品牌规则",
-     "source": "TechCrunch",
-     "date": "2026-10-15",
-     "url": "https://techcrunch.com/2026/10/14/figma-announces-new-features-to-define-how-agents-work-on-its-platform/",
-     "summary": "在印度 Config 发布 Markdown 编辑器 Figma Specs，供团队与第三方智能体遵循设计规范；Code Layers 进入公测，MCP 新增支持 20 余款工具。"
-    },
-    {
-     "title": "亚马逊 Bee 发布两款新个人 AI 设备 Bee Frontier 与 Bee Eclipse",
-     "source": "TechCrunch",
-     "date": "2026-10-15",
-     "url": "https://techcrunch.com/2026/10/15/amazons-bee-launches-two-new-personal-ai-devices-starting-at-75/",
-     "summary": "被亚马逊收购后首批新品：可戴腕/别衣的 Frontier 售 $74.99，吸附手机背面的卡片式 Eclipse 售 $99.99；自动总结对话并生成待办，$11.99/月 Pro 版接入 Amazon.com 与 Alexa+，原始音频不留存。"
-    },
-    {
-     "title": "谷歌 Universal Cart 跨商家 AI 购物车在美国上线",
-     "source": "The Verge",
-     "date": "2026-10-15",
-     "url": "https://www.theverge.com/tech/1011797/google-ai-universal-cart-shopping-tool-launch",
-     "summary": "I/O 预告的统一购物车登陆 Gemini 应用与搜索 AI Mode，可汇总多家零售商商品、推送降价/补货与优惠码，并借 Google Wallet 推荐最划算的信用卡；后续将接入 Gmail 与 YouTube。"
     }
    ]
   },
@@ -134,6 +134,20 @@
    "icon": "📄",
    "items": [
     {
+     "title": "Interaction-as-a-Judge：用计算机使用智能体交互轨迹评估交互式应用",
+     "source": "arXiv 2610.17895",
+     "date": "2026-10-13",
+     "url": "https://arxiv.org/abs/2610.17895",
+     "summary": "CMU/Arena 等提出让 CUA 直接操作应用并据此评判；相对纯代码评判，人类偏好预测约 65.6%→69.1%，需求验证约 77.0%→81.6%；交互自反馈五轮内修复破损需求约 75.5%（代码反馈约 55.4%），并开源相关数据集。"
+    },
+    {
+     "title": "Grounding Awareness：个人智能体需区分“用户信息”与“双方已确立约定”",
+     "source": "arXiv 2610.18684",
+     "date": "2026-10-13",
+     "url": "https://arxiv.org/abs/2610.18684",
+     "summary": "CMU/NYU 等指出现有记忆系统擅长记偏好却常把助手未获确认的提议当成用户指令；在 160 场景基准上敏感性普遍偏低，并给出无需改模型的 Grounding Layer，明示约定状态并在关键动作前校验。"
+    },
+    {
      "title": "Scaling Discovery Requires Forgetting：自动科研智能体需周期性“遗忘”",
      "source": "arXiv 2610.20563",
      "date": "2026-10-15",
@@ -174,20 +188,6 @@
      "date": "2026-10-15",
      "url": "https://arxiv.org/abs/2610.14162",
      "summary": "斯坦福与 Together AI 提出 NCM，用多尺度残差 VQ-VAE 编码文本层级后逐层并行生成；相对强扩散基线在 XSum 上约 31 倍加速，LM1B 约 21 倍，代码已开源。"
-    },
-    {
-     "title": "SwarmRSI：科学智能体群的递归自我改进",
-     "source": "arXiv 2610.20431",
-     "date": "2026-10-15",
-     "url": "https://arxiv.org/abs/2610.20431",
-     "summary": "华为等提出通过反馈引导变异与互补重组演化共享研究状态；在 OpenProblems 与 NatureBench 达 SOTA，约 77% 最优程序源自继承状态。"
-    },
-    {
-     "title": "Co-Evolving Acting and Forecasting for Language Agents",
-     "source": "arXiv 2610.20597",
-     "date": "2026-10-15",
-     "url": "https://arxiv.org/abs/2610.20597",
-     "summary": "针对长程 rollout 成本高、仅用终局标量奖励的问题，提出动作与预测协同演化，更好利用中间步骤监督信号。"
     }
    ]
   },
@@ -196,6 +196,13 @@
    "name": "开源与工具",
    "icon": "🛠️",
    "items": [
+    {
+     "title": "Lumma-Fev-27B：单次前向完成决策的 27B 开源决策模型",
+     "source": "Hugging Face / FrontiersMind",
+     "date": "2026-10-14",
+     "url": "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b",
+     "summary": "基于 Qwen3.8-27B 全参微调约 10 万决策样本，支持英/印地/泰米尔/卡纳达语；在 4454 条留出集准确率 90.7%（对照 Jev 83.9%），校准误差更低；Apache 2.0，权重约 49 GiB bf16。"
+    },
     {
      "title": "Black Forest Labs 开源 FLUX.3 Image Klein，Diffusers 首日支持",
      "source": "Hugging Face",
@@ -244,13 +251,6 @@
      "date": "2026-10-15",
      "url": "https://huggingface.co/blog/huggingface/tokenmaxxing-bert",
      "summary": "通过 SIMD 跳过 ASCII、按 256 码点分页缓存等优化归一化步骤，BERT 编码较 0.23 版快约 50 倍，BPE 分词快达 30 倍，相关改动仍在 PR 阶段。"
-    },
-    {
-     "title": "NCM 开源：下一概念建模文本生成框架",
-     "source": "GitHub / Stanford HazyResearch",
-     "date": "2026-10-15",
-     "url": "https://github.com/HazyResearch/ncm",
-     "summary": "配合 arXiv:2610.14162，提供多尺度残差 VQ 与粗到细并行生成实现，面向比扩散模型更快的非自回归文本生成。"
     }
    ]
   },
@@ -259,6 +259,13 @@
    "name": "政策与监管",
    "icon": "⚖️",
    "items": [
+    {
+     "title": "METR 提议加强前沿实验室“失控风险”的公众可见性评估",
+     "source": "METR",
+     "date": "2026-10-14",
+     "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+     "summary": "针对近期多起沙箱逃逸与未授权行为，METR 呼吁开发者在对齐、监控控制与 AI 研发加速三方面向独立评估方开放更多内部证据，并提议由其基于访谈与设备内数据撰写可公开报告（公司可脱敏）；同时坦承非完整员工级权限、非安全审计替代方案。"
+    },
     {
      "title": "美国八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全宣传",
      "source": "The Verge",
@@ -307,13 +314,6 @@
      "date": "2026-10-15",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1011767/bank-of-america-wants-a-human-in-the-loop",
      "summary": "Brian Moynihan 表示正与 AI 行业沟通，主张在智能体能力进一步成熟前由人工授权支付，避免交易出错时责任转嫁给银行。"
-    },
-    {
-     "title": "OpenAI 指控跳槽苹果员工带走未发布设备文件",
-     "source": "Reuters / The Hindu",
-     "date": "2026-10-15",
-     "url": "https://www.thehindu.com/sci-tech/technology/openai-employee-who-left-for-apple-took-files-about-unreleased-device-openai-alleges/article71586620.ece",
-     "summary": "OpenAI 在与苹果的商业机密诉讼中提交文件称，一名前员工将 100 多份未发布产品文件发至私人账户并向苹果高层演示；案件预计 2027 年 10 月开庭。"
     }
    ]
   },
@@ -385,6 +385,17 @@
    "name": "GitHub 热门 AI 项目",
    "icon": "⭐",
    "items": [
+    {
+     "title": "lightseekorg/tokenspeed",
+     "url": "https://github.com/lightseekorg/tokenspeed",
+     "source": "GitHub",
+     "date": "2026-10-16",
+     "stars": 2388,
+     "stars_week": null,
+     "language": "Python",
+     "summary": "面向智能体负载的“光速”级 LLM 推理引擎：编译器辅助并行、高性能调度与可插拔内核，号称在 Blackwell 上代理场景相对 TensorRT-LLM 有吞吐优势。",
+     "why": "今日日榜新上，总星约 2400；Qwen 官方转发其在 GB300 上对 Qwen3.8-Flash-Next 的测速结果。"
+    },
     {
      "title": "morluto/rea",
      "url": "https://github.com/morluto/rea",
@@ -461,17 +472,6 @@
      "language": "Python",
      "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
      "why": "日榜前列，单日约 525 星，总星约 3.9 万。"
-    },
-    {
-     "title": "xerj-org/xerj",
-     "url": "https://github.com/xerj-org/xerj",
-     "source": "GitHub",
-     "date": "2026-10-16",
-     "stars": 5349,
-     "stars_week": null,
-     "language": "Rust",
-     "summary": "面向 AI 的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40 倍 token，兼容 Elasticsearch 客户端。",
-     "why": "今日日榜新上，单日约 725 星。"
     }
    ]
   },
@@ -480,6 +480,42 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2110784662071398807",
+     "source": "@AnthropicAI",
+     "date": "2026-10-16",
+     "summary": "Anthropic 称正与多家机构商谈由外部评估方审视其安全实践，并已向 METR_Evals 团队授予接近员工级访问权限；同步介绍与第三方评估方的合作方式。",
+     "metrics": {
+      "likes": 67,
+      "reposts": 6,
+      "views": 8448
+     }
+    },
+    {
+     "title": "@MistralAI",
+     "url": "https://x.com/MistralAI/status/2110684732103041474",
+     "source": "@MistralAI",
+     "date": "2026-10-15",
+     "summary": "Mistral 宣布与 CERN 合作探索粒子物理方向的大规模 AI，目标打造在数十亿次模拟碰撞上训练的单一 Large Physics Model，覆盖碰撞重建、粒子识别、异常信号与探测器设计评估等任务。",
+     "metrics": {
+      "likes": 1651,
+      "reposts": 211,
+      "views": 52166
+     }
+    },
+    {
+     "title": "@OpenAI",
+     "url": "https://x.com/OpenAI/status/2110442001749659890",
+     "source": "@OpenAI",
+     "date": "2026-10-14",
+     "summary": "OpenAI 称欧洲企业客户中逾半数 AI 使用已涉及智能体工具，该地区小企业用户数增长约 8 倍，并发布最新经济研究报告。",
+     "metrics": {
+      "likes": 2689,
+      "reposts": 215,
+      "views": 377568
+     }
+    },
     {
      "title": "@bfl_ai",
      "url": "https://x.com/bfl_ai/status/2110751201105256925",
@@ -538,42 +574,6 @@
       "likes": 428,
       "reposts": 43,
       "views": 38454
-     }
-    },
-    {
-     "title": "@AIatMeta",
-     "url": "https://x.com/AIatMeta/status/2110441716507693450",
-     "source": "@AIatMeta",
-     "date": "2026-10-15",
-     "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据不完美及队列/变量/因果假设选择的重要性。",
-     "metrics": {
-      "likes": 633,
-      "reposts": 92,
-      "views": 172563
-     }
-    },
-    {
-     "title": "@nvidia",
-     "url": "https://x.com/nvidia/status/2110485178929844666",
-     "source": "@nvidia",
-     "date": "2026-10-14",
-     "summary": "黄仁勋在伦敦宣布对新药与量子等方向的英国 AI 初创投资：boltz_bio、ForesightWorks、hivergeai、PrimaMente 与 Riverlane。",
-     "metrics": {
-      "likes": 456,
-      "reposts": 55,
-      "views": 44694
-     }
-    },
-    {
-     "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2110289695888511368",
-     "source": "@AnthropicAI",
-     "date": "2026-10-14",
-     "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任采用谅解备忘录。",
-     "metrics": {
-      "likes": 3409,
-      "reposts": 206,
-      "views": 703856
      }
     }
    ]

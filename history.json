@@ -1,7 +1,38 @@
 {
- "updated": "2026-10-16T00:35:00+08:00",
- "count": 146,
+ "updated": "2026-10-16T01:40:00+08:00",
+ "count": 156,
  "items": [
+  {
+   "title": "lightseekorg/tokenspeed",
+   "url": "https://github.com/lightseekorg/tokenspeed",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 2388,
+   "stars_week": null,
+   "language": "Python",
+   "summary": "面向智能体负载的“光速”级 LLM 推理引擎：编译器辅助并行、高性能调度与可插拔内核，号称在 Blackwell 上代理场景相对 TensorRT-LLM 有吞吐优势。",
+   "why": "今日日榜新上，总星约 2400；Qwen 官方转发其在 GB300 上对 Qwen3.8-Flash-Next 的测速结果。",
+   "id": "2faa6375a507ee2cb23a7296418634c86bf8af3a",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T01:40:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2110784662071398807",
+   "source": "@AnthropicAI",
+   "date": "2026-10-16",
+   "summary": "Anthropic 称正与多家机构商谈由外部评估方审视其安全实践，并已向 METR_Evals 团队授予接近员工级访问权限；同步介绍与第三方评估方的合作方式。",
+   "metrics": {
+    "likes": 67,
+    "reposts": 6,
+    "views": 8448
+   },
+   "id": "c9c82329cbcae35290082aec08401c4d622f84af",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T01:40:00+08:00"
+  },
   {
    "title": "xerj-org/xerj",
    "url": "https://github.com/xerj-org/xerj",
@@ -121,6 +152,55 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "OpenAI 向 Simons Foundation 捐赠 500 万美元，助力数学家审视 AI 辅助成果",
+   "source": "The Verge",
+   "date": "2026-10-15",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1012049/openai-is-giving-5-million-to-help-mathematicians-make-sense-of-ai-generated-research",
+   "summary": "该笔资金纳入 Simons Foundation 主导、总规模约 1500 万美元的新倡议，Anthropic 也有配套投入；背景是近月 AI 公司争相宣称攻克数学难题、OpenAI 近日向学界倾泻数百篇预印本，引发数学界对如何验证与消化 AI 结果的讨论。",
+   "id": "dc115e4f00fd472f57bd6653cde7755de6a41dba",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T01:40:00+08:00"
+  },
+  {
+   "title": "谷歌让 AI Mode / AI Overviews 中内联链接更靠前、更醒目",
+   "source": "The Verge",
+   "date": "2026-10-15",
+   "url": "https://www.theverge.com/tech/1012206/google-ai-mode-overview-inline-links",
+   "summary": "谷歌称将让关键来源链接更频繁出现在回答靠前位置，并测试特定任务顶部展示相关链接、扩大时效性文章轮播，以及在 AI Mode 中可点击的发布者主页；同时透露 News AI 试点已有超 400 家出版方参与，Axios、CNN、FT 等新加入。",
+   "id": "35cf84b6693cba9fb3b823c9392774439ecc0742",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T01:40:00+08:00"
+  },
+  {
+   "title": "马斯克承诺：若 Grok 购物出错或泄露信用卡将“全额补齐”",
+   "source": "The Verge",
+   "date": "2026-10-15",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011847/elon-musk-is-promising-to-make-you-whole-if-grok-messes-up-a-purchase-or-leaks-your-credit-card",
+   "summary": "马斯克在 X 上表示若 Grok 搞砸购买或泄露信用卡信息将赔偿用户损失，并称“尚未发生过”；未给出具体细则，媒体提醒其过往类似公开承诺兑现情况不一。",
+   "id": "019bf30a0f7a0eb06a808ec292980a333aae1fe2",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T01:40:00+08:00"
+  },
+  {
+   "title": "@MistralAI",
+   "url": "https://x.com/MistralAI/status/2110684732103041474",
+   "source": "@MistralAI",
+   "date": "2026-10-15",
+   "summary": "Mistral 宣布与 CERN 合作探索粒子物理方向的大规模 AI，目标打造在数十亿次模拟碰撞上训练的单一 Large Physics Model，覆盖碰撞重建、粒子识别、异常信号与探测器设计评估等任务。",
+   "metrics": {
+    "likes": 1651,
+    "reposts": 211,
+    "views": 52166
+   },
+   "id": "71d267a3512e566ee06b5263f1aa929fa88e9f1a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
    "title": "Rivian 计划在车内接入 Anthropic 等第三方前沿 AI 智能体",
@@ -984,20 +1064,26 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
-   "title": "@OpenAI",
-   "url": "https://x.com/OpenAI/status/2110442001749659890",
-   "source": "@OpenAI",
-   "date": "2026-10-15",
-   "summary": "经济研究报告：欧盟企业客户 AI 使用中超一半已涉及智能体，小企业用户增长 8 倍。",
-   "metrics": {
-    "likes": 2625,
-    "reposts": 209,
-    "views": 367666
-   },
-   "id": "97ec244e8eca21151564087a0be49fae40206a5c",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-15T14:10:00+08:00"
+   "title": "Lumma-Fev-27B：单次前向完成决策的 27B 开源决策模型",
+   "source": "Hugging Face / FrontiersMind",
+   "date": "2026-10-14",
+   "url": "https://huggingface.co/blog/FrontiersMind/lumma-fev-27b",
+   "summary": "基于 Qwen3.8-27B 全参微调约 10 万决策样本，支持英/印地/泰米尔/卡纳达语；在 4454 条留出集准确率 90.7%（对照 Jev 83.9%），校准误差更低；Apache 2.0，权重约 49 GiB bf16。",
+   "id": "1942cb2f2148f569507f8db7d93cf1ff504cac1b",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-16T01:40:00+08:00"
+  },
+  {
+   "title": "METR 提议加强前沿实验室“失控风险”的公众可见性评估",
+   "source": "METR",
+   "date": "2026-10-14",
+   "url": "https://metr.org/blog/2026-10-14-better-informing-the-public-about-loss-of-control-risks/",
+   "summary": "针对近期多起沙箱逃逸与未授权行为，METR 呼吁开发者在对齐、监控控制与 AI 研发加速三方面向独立评估方开放更多内部证据，并提议由其基于访谈与设备内数据撰写可公开报告（公司可脱敏）；同时坦承非完整员工级权限、非安全审计替代方案。",
+   "id": "33ec7de5ea06f067be6b3dd712e6561b2e7cc242",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
    "title": "美国八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全宣传",
@@ -1274,6 +1360,22 @@
    "first_seen": "2026-10-15T14:29:32+08:00"
   },
   {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110442001749659890",
+   "source": "@OpenAI",
+   "date": "2026-10-14",
+   "summary": "OpenAI 称欧洲企业客户中逾半数 AI 使用已涉及智能体工具，该地区小企业用户数增长约 8 倍，并发布最新经济研究报告。",
+   "metrics": {
+    "likes": 2689,
+    "reposts": 215,
+    "views": 377568
+   },
+   "id": "97ec244e8eca21151564087a0be49fae40206a5c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
    "title": "Meta 发布 Muse Wonder / Muse Wonder Full，正式进入前沿竞争",
    "source": "The Verge",
    "date": "2026-10-14",
@@ -1386,6 +1488,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "Interaction-as-a-Judge：用计算机使用智能体交互轨迹评估交互式应用",
+   "source": "arXiv 2610.17895",
+   "date": "2026-10-13",
+   "url": "https://arxiv.org/abs/2610.17895",
+   "summary": "CMU/Arena 等提出让 CUA 直接操作应用并据此评判；相对纯代码评判，人类偏好预测约 65.6%→69.1%，需求验证约 77.0%→81.6%；交互自反馈五轮内修复破损需求约 75.5%（代码反馈约 55.4%），并开源相关数据集。",
+   "id": "57bbed4af43d3234d119e0cdbab4834dfb7a7f85",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T01:40:00+08:00"
+  },
+  {
+   "title": "Grounding Awareness：个人智能体需区分“用户信息”与“双方已确立约定”",
+   "source": "arXiv 2610.18684",
+   "date": "2026-10-13",
+   "url": "https://arxiv.org/abs/2610.18684",
+   "summary": "CMU/NYU 等指出现有记忆系统擅长记偏好却常把助手未获确认的提议当成用户指令；在 160 场景基准上敏感性普遍偏低，并给出无需改模型的 Grounding Layer，明示约定状态并在关键动作前校验。",
+   "id": "0dc210588430ffb89a02589938516b41084ef646",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
    "title": "Character.AI 申请 Chapter 11 破产，迪士尼出价 2000 万美元作 stalking horse",
