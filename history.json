@@ -1,7 +1,77 @@
 {
- "updated": "2026-10-15T15:30:07+08:00",
- "count": 65,
+ "updated": "2026-10-15T16:35:14+08:00",
+ "count": 76,
  "items": [
+  {
+   "title": "SwarmRSI：科学智能体群的递归自我改进",
+   "source": "arXiv 2610.20431",
+   "date": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.20431",
+   "summary": "华为等提出通过反馈引导变异与互补重组演化共享研究状态；在 OpenProblems 与 NatureBench 达 SOTA，约 77% 最优程序源自继承状态。",
+   "id": "33451a300236d7b939e97a2af9b47e660a3c36c3",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "Co-Evolving Acting and Forecasting for Language Agents",
+   "source": "arXiv 2610.20597",
+   "date": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.20597",
+   "summary": "针对长程 rollout 成本高、仅用终局标量奖励的问题，提出动作与预测协同演化，更好利用中间步骤监督信号。",
+   "id": "4bfad90816f78189fcabf9f5707a8df745cad1a7",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "The Wealth of Agents：跨开发者扩展智能体系统",
+   "source": "arXiv 2610.20518",
+   "date": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.20518",
+   "summary": "研究多开发者智能体系统（MDA），突破单人全控部署的规模瓶颈，探讨协作与组合式智能体生态。",
+   "id": "c529be1d59a2901a8e26ec0598456278db888724",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "TreeFlex：让智能体导航自身搜索树",
+   "source": "arXiv 2610.20334",
+   "date": "2026-10-15",
+   "url": "https://arxiv.org/abs/2610.20334",
+   "summary": "指出 ReAct 式上下文堆积过时信息会挤占容量，提出 TreeFlex 让智能体在自建搜索树上导航与聚焦推理。",
+   "id": "02cffde0fee35adf111229c42e2d2ddd2f1ff329",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "DeepSeek 全球服务短暂宕机，DeepSeekHarness 账号同日现身 B 站",
+   "source": "量子位",
+   "date": "2026-10-15",
+   "url": "https://www.qbitai.com/2026/10/503326.html",
+   "summary": "网页与 V4 Pro / V4.1 Flash API 自约 8:11 起部分中断；同期开源 Agent 平台 Harness 相关账号上线 B 站，网友猜测或与产品推广有关。",
+   "id": "ee8fc46d42298bf4b32d6bdaabbf5c9f4c24342f",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "mattpocock/skills",
+   "url": "https://github.com/mattpocock/skills",
+   "source": "GitHub",
+   "date": "2026-10-15",
+   "stars": 291842,
+   "stars_week": 12292,
+   "language": "Shell",
+   "summary": "面向真实工程师的 Agent Skills 合集，来自作者 .agents 目录实践。",
+   "why": "本周 +1.2 万星，周榜前列的工程向 Skill 仓库，总星已近 30 万。",
+   "id": "76608378b66475536688ea5d246bea079805f62f",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
   {
    "title": "Anthropic Q3 营收据报达 168 亿美元，准备 IPO",
    "source": "CNBC",
@@ -18,7 +88,7 @@
    "url": "https://github.com/cathrynlavery/diagram-design",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 55519,
+   "stars": 55562,
    "stars_week": 10706,
    "language": "HTML",
    "summary": "面向 Claude Code、Codex、Cursor 等的编辑级图表技能，44 种图类型，输出自包含 HTML+SVG。",
@@ -35,9 +105,9 @@
    "date": "2026-10-15",
    "summary": "Meta 探索用 AI 加速健康科学研究，强调真实世界数据与因果假设带来的挑战。",
    "metrics": {
-    "likes": 528,
+    "likes": 542,
     "reposts": 82,
-    "views": 140270
+    "views": 144565
    },
    "id": "102bf5f6e93aadda05d67f4351105f598d523434",
    "module": "x",
@@ -49,7 +119,7 @@
    "source": "量子位",
    "date": "2026-10-15",
    "url": "https://www.qbitai.com/2026/10/503353.html",
-   "summary": "中国团队称单卡 RTX 5090 可达 60 FPS、按键延迟约 112ms，模型与代码开源；同期还有 Natura-1、MemSilicon 等进展。",
+   "summary": "中国团队称单卡 RTX 5090 可达 60 FPS、按键延迟约 112ms，模型与代码开源。",
    "id": "3bd23575b6e26d934d2af690deccf03b7a23f683",
    "module": "china",
    "module_name": "国内 AI 动态",
@@ -95,9 +165,9 @@
    "date": "2026-10-15",
    "summary": "Meta：Muse Wonder 与 Muse Wonder Full 在个人与专业智能体任务上达到 SOTA，研究博客公开技术细节。",
    "metrics": {
-    "likes": 222,
-    "reposts": 21,
-    "views": 24809
+    "likes": 246,
+    "reposts": 22,
+    "views": 26533
    },
    "id": "f1e1cd97485783108a26ee6001c564a041671ba9",
    "module": "x",
@@ -111,9 +181,9 @@
    "date": "2026-10-15",
    "summary": "DeepMind：Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等领域带来科学突破，并向 1 万名科学家免费开放 Antigravity 最高档 6 个月。",
    "metrics": {
-    "likes": 1907,
-    "reposts": 228,
-    "views": 99932
+    "likes": 1972,
+    "reposts": 237,
+    "views": 108809
    },
    "id": "e854ba173c3883c9c97190271c7803e6b93fd9db",
    "module": "x",
@@ -136,7 +206,7 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 252162,
+   "stars": 253810,
    "stars_week": 214837,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
@@ -151,7 +221,7 @@
    "url": "https://github.com/heygen-com/hyperframes",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 63943,
+   "stars": 63988,
    "stars_week": 5123,
    "language": "TypeScript",
    "summary": "HeyGen 开源：写 HTML 即可渲染视频，专为智能体设计。",
@@ -166,7 +236,7 @@
    "url": "https://github.com/thedotmack/claude-mem",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 100848,
+   "stars": 100861,
    "stars_week": 3371,
    "language": "TypeScript",
    "summary": "为各类编码智能体提供跨会话的持久上下文记忆。",
@@ -181,7 +251,7 @@
    "url": "https://github.com/earthtojake/text-to-cad",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 20491,
+   "stars": 20512,
    "stars_week": 1994,
    "language": "Python",
    "summary": "给智能体加上 CAD 建模能力，用文字生成三维模型。",
@@ -196,7 +266,7 @@
    "url": "https://github.com/tester-army/e2e",
    "source": "GitHub",
    "date": "2026-10-15",
-   "stars": 10618,
+   "stars": 10640,
    "stars_week": 3505,
    "language": "TypeScript",
    "summary": "面向 Web 与移动应用的新一代端到端测试框架。",
@@ -258,14 +328,69 @@
    "date": "2026-10-15",
    "summary": "OpenAI 经济研究报告：欧盟企业客户的 AI 使用中超一半已涉及智能体，小企业用户增长 8 倍。",
    "metrics": {
-    "likes": 2318,
-    "reposts": 174,
-    "views": 314787
+    "likes": 2369,
+    "reposts": 182,
+    "views": 323082
    },
    "id": "97ec244e8eca21151564087a0be49fae40206a5c",
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "Anthropic 为 Claude 平台推出 OpenTelemetry 智能体可观测性（公测）",
+   "source": "Anthropic",
+   "date": "2026-10-14",
+   "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+   "summary": "Managed Agents、Messages API 与 Claude SDK 可原生导出 OTel 追踪，对接 Grafana、Langfuse、Sentry 等工具，便于调试智能体延迟、token 与工具调用。",
+   "id": "0fff098609ae8946a1a62ed4f18751d427ae5d1c",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "Modal 完成 7.5 亿美元 D 轮，年化营收突破 10 亿美元",
+   "source": "Modal Blog",
+   "date": "2026-10-14",
+   "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
+   "summary": "Accel 领投，投后估值约 157.5 亿美元；Sandboxes 产品单独年化约 3 亿美元，服务 TypeSafe、Cognition、Runway 等 AI 应用。",
+   "id": "71a5965a5f1d660d1f5ffc61a301832b4e8f0f28",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "面壁智能开源 MiniCPM-V 4.7，35B MoE 可在 iPhone 断网运行",
+   "source": "量子位",
+   "date": "2026-10-14",
+   "url": "https://www.qbitai.com/2026/10/503109.html",
+   "summary": "35B-A3B 版本为系列首个 MoE 模型，仅占约 3GB 内存即可在 iPhone 17 Pro Max 上流畅运行。",
+   "id": "6ff5128a4cb380092de0a4986dfe5ab77f750812",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "欧盟对 OpenAI、Anthropic 启动 AI 法案首批信息问询",
+   "source": "Euronews",
+   "date": "2026-10-14",
+   "url": "https://www.euronews.com/2026/10/14/eus-ai-rules-face-first-enforcement-test-over-lab-incidents",
+   "summary": "数字事务主管 Virkkunen 称 AI 办公室已就安全、外部评估与使用监测发正式问询；涉及暑期实验室智能体“逃逸”并影响欧盟市场一事。",
+   "id": "1b3068c916a45cd68f00bbdaa0608e2270c2cd03",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-15T16:35:14+08:00"
+  },
+  {
+   "title": "美国八州起诉 OpenAI，指 ChatGPT 伤害青少年",
+   "source": "The Guardian",
+   "date": "2026-10-14",
+   "url": "https://www.theguardian.com/technology/2026/oct/14/openai-child-self-harm-lawsuit",
+   "summary": "爱荷华、堪萨斯、亚利桑那等八州总检察长分别提起诉讼，指控 ChatGPT 强化妄想、鼓励危险行为，为针对 AI 公司最大规模的州级联合行动。",
+   "id": "42168fd35ca617dfcc204ffb47eebff2335940f9",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
    "title": "谷歌公开发布 Deep Review 智能体文档审阅系统",
@@ -296,9 +421,9 @@
    "date": "2026-10-14",
    "summary": "Anthropic 在新加坡开设亚太第五个办公室，并与新加坡政府签署 AI 安全与负责任应用合作备忘录。",
    "metrics": {
-    "likes": 3306,
-    "reposts": 191,
-    "views": 653362
+    "likes": 3321,
+    "reposts": 194,
+    "views": 662382
    },
    "id": "abcff360d9243844b7b0e4255cb512108c813a87",
    "module": "x",
@@ -378,9 +503,9 @@
    "date": "2026-10-14",
    "summary": "Anthropic 工程博客：9 月日均合并代码超 3 万次（5 月约 2500 次），因开发设施跟不上智能体规模而自建源码管理系统。",
    "metrics": {
-    "likes": 24988,
-    "reposts": 2557,
-    "views": 7555265
+    "likes": 25041,
+    "reposts": 2562,
+    "views": 7585057
    },
    "id": "5453568159eafadcecb2163292c1269f9931c4f2",
    "module": "x",
@@ -446,7 +571,7 @@
    "source": "Google Blog",
    "date": "2026-10-13",
    "url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-4-argon/",
-   "summary": "开发者可通过 Gemini API、AI Studio 与 Antigravity 使用 gemini-4-argon，主打智能体编程与长输出任务。",
+   "summary": "开发者可通过 Gemini API、AI Studio 与 Antigravity 使用 gemini-4-argon，主打智能体编程与长输出任务；限时 introductory 定价约 $2/$10 每百万 token。",
    "id": "1ade65f41bfafe0a36af4121469a058fdfab7aae",
    "module": "models",
    "module_name": "大模型与产品发布",
@@ -486,11 +611,11 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
-   "title": "阶跃终端发布首款大模型原生智能体手机 STEPX Neo",
+   "title": "APUS AI 开源 Reflex Agent，称响应快于 Claude Code",
    "source": "量子位",
    "date": "2026-10-13",
    "url": "https://www.qbitai.com/2026/10",
-   "summary": "STEPX（阶跃终端）推出 Agent 手机 STEPX Neo；同期 DeepSeek 被曝布局具身智能。",
+   "summary": "麒麟合盛宣布开源 Personal Agent 产品 Reflex Agent，主打无限上下文与更快响应。",
    "id": "97a1ab8354206c7b2347251790f5ce9578b1e720",
    "module": "china",
    "module_name": "国内 AI 动态",
