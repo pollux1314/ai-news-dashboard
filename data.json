@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-16T22:31:00+08:00",
+  "updated": "2026-10-16T23:26:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -8,18 +8,18 @@
       "icon": "🚀",
       "items": [
         {
+          "title": "Reflection 开放 Beam 权重：501B MoE（23B 激活）、1M 上下文，Apache 2.0 许可",
+          "url": "https://huggingface.co/blog/reflection-beam",
+          "source": "Hugging Face",
+          "date": "2026-10-16",
+          "summary": "美国新实验室 Reflection 首个模型正式开放权重，主打编程与智能体：提供 BF16/FP8/NVFP4 检查点与 DFlash2 投机解码草稿模型，首日支持 Transformers、vLLM、SGLang；官方称 SWE-bench Verified 81.6%、Terminal Bench v2.1 80.1%（厂商自报），并开源训练所用的 Mirror CLI 智能体框架。"
+        },
+        {
           "title": "Anthropic Code Review 正式 GA：Team/Enterprise 自动审 PR，多数约 6–10 分钟完成",
           "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
           "source": "Anthropic",
           "date": "2026-10-16",
           "summary": "Claude Code Review 退出研究预览，面向 Team/Enterprise：相对预览版约快 3 倍，管理员可按仓库选 Quick/Standard/Deep；Eligible Enterprise 可于 2027 年 1 月 15 日前申领至少 1 万美元 Code Review 积分。"
-        },
-        {
-          "title": "英伟达开源 Nemotron 3.5 Bolt：74B MoE（9B 激活）本地智能体模型，适配 RTX Spark",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "source": "NVIDIA",
-          "date": "2026-10-15",
-          "summary": "与 Super VL 同期发布：Bolt 74B-A9B 以原生 2-bit 量化压进约 24GB 显存，面向 RTX/DGX Spark 本地智能体；另有面向对话/边缘的 Bolt E4B（约 10 月 23 日上线）。权重已上 Hugging Face，支持 llama.cpp/Ollama/vLLM 等。"
         },
         {
           "title": "英伟达 RTX Spark 笔记本 10 月 16 日起零售：Grace+Blackwell 超级芯片，本地跑大模型",
@@ -50,18 +50,18 @@
           "summary": "生命科学专用模型 GPT-Rosalind 扩大学术访问：符合条件的美国大学实验室可由 PI 申请赞助席位（最长约 12 个月），在 ChatGPT 与 Codex 中用于理解生物学、探索假设与决定下一步实验。"
         },
         {
+          "title": "英伟达开源 Nemotron 3.5 Bolt：74B MoE（9B 激活）本地智能体模型，适配 RTX Spark",
+          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
+          "source": "NVIDIA",
+          "date": "2026-10-15",
+          "summary": "与 Super VL 同期发布：Bolt 74B-A9B 以原生 2-bit 量化压进约 24GB 显存，面向 RTX/DGX Spark 本地智能体；另有面向对话/边缘的 Bolt E4B（约 10 月 23 日上线）。权重已上 Hugging Face，支持 llama.cpp/Ollama/vLLM 等。"
+        },
+        {
           "title": "微软 AI 完成 MAI-Base-2 预训练：2.8T MoE / 80B 激活，号称预训算力效率远超开源基座",
           "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
           "source": "Microsoft AI",
           "date": "2026-10-15",
           "summary": "官方称在 1.6 万张 GB200 上训练约 38 天、混合约 50T token（含视觉）；内部留出评测上优于所测开源权重基座，相对 DeepSeek-V4-Pro-Base 预训 FLOPs 效率约 4–12 倍。仍在后训练，计划经 Azure AI Foundry 向可信伙伴许可权重。"
-        },
-        {
-          "title": "Anthropic：Claude Opus 5.5 快速模式退出研究预览，API 无需再申请",
-          "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
-          "source": "Anthropic",
-          "date": "2026-10-15",
-          "summary": "同模型最高约 2.5× 输出吞吐，定价 8/40 美元每百万 token；Start/Build/Scale 档默认配额，无需 beta 头。亦已登陆 Azure 上的 Claude in Microsoft Foundry；Opus 5 / 4.8 快速模式仍处研究预览。"
         }
       ]
     },
@@ -70,20 +70,6 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
-        {
-          "title": "Character.AI 申请 Chapter 11 破产：迪士尼成部分资产 2000 万美元 stalking-horse 竞买方",
-          "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-          "source": "TechCrunch",
-          "date": "2026-10-13",
-          "summary": "成立约五年的陪伴聊天平台因诉讼与规模化压力进入法院监督出售；资产与负债均在 5000 万–1 亿美元区间。平台暂续运营，预计 11 月底至 12 月初完成；若无买家则可能关停。"
-        },
-        {
-          "title": "North.cloud 完成 6000 万美元 B 轮：PeakSpan 领投，加码云/AI/数据支出自动化",
-          "url": "https://north.cloud/newsroom/north-series-b-release",
-          "source": "North.cloud",
-          "date": "2026-10-15",
-          "summary": "FinOps 平台称已管理近 200 亿美元云支出、帮客户节省逾 4 亿美元；资金将扩展跨云自主优化、加深 OpenAI/Anthropic/Snowflake 等集成，并推进 TokenFlow 统一 AI 用量与预算管控。"
-        },
         {
           "title": "CNBC：AI 与半导体板块本周市值蒸发超 1 万亿美元，CoreWeave 信用承压",
           "url": "https://www.cnbc.com/2026/10/16/cnbc-daily-open-ai-inflation-coreweave-.html",
@@ -97,6 +83,20 @@
           "source": "BBC",
           "date": "2026-10-16",
           "summary": "Anthropic 在上市前投资者活动中强调快速增长与盈利能力，并回应安全关切；市场仍关注 AI 基建开支与整体科技股承压。"
+        },
+        {
+          "title": "TechCrunch：连 Benchmark 也承认 AI 正在瓦解“不投直接竞品”的风投惯例",
+          "url": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
+          "source": "TechCrunch",
+          "date": "2026-10-15",
+          "summary": "Benchmark 合伙人在 Disrupt 上表示，AI 让软件构建成本趋近于零、创业公司不断扩张赛道，投资组合冲突将更常见；文章以 Factory 与 Cognition 的董事观察员纠纷为例，指出 OpenAI 与 Anthropic 已共享数十家投资方。"
+        },
+        {
+          "title": "North.cloud 完成 6000 万美元 B 轮：PeakSpan 领投，加码云/AI/数据支出自动化",
+          "url": "https://north.cloud/newsroom/north-series-b-release",
+          "source": "North.cloud",
+          "date": "2026-10-15",
+          "summary": "FinOps 平台称已管理近 200 亿美元云支出、帮客户节省逾 4 亿美元；资金将扩展跨云自主优化、加深 OpenAI/Anthropic/Snowflake 等集成，并推进 TokenFlow 统一 AI 用量与预算管控。"
         },
         {
           "title": "路透：部分投资者将 Anthropic IPO 估值预期下调至约 1.5 万亿美元",
@@ -197,20 +197,6 @@
       "icon": "🛠️",
       "items": [
         {
-          "title": "Anthropic：Claude 平台公测 OpenTelemetry 追踪，可观测 Managed Agents/API/SDK",
-          "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
-          "source": "Anthropic",
-          "date": "2026-10-14",
-          "summary": "可把智能体每轮、模型调用与工具使用以标准 OTel 轨迹导出到 Grafana、Langfuse、Datadog 等；遵循 GenAI 语义约定，Console 配置目的地即可，SDK 侧也可自动导出。"
-        },
-        {
-          "title": "OpenUI 1.0 开源：面向 AI 智能体的生成式 UI 开放标准",
-          "url": "https://github.com/thesysdev/openui",
-          "source": "GitHub / Thesys",
-          "date": "2026-10-15",
-          "summary": "MIT 开源框架，让任意模型输出地图、图表、表单与仪表盘等交互界面；官方称相对 JSON UI 方案可显著减少输出 token，并兼容 LangChain、Vercel AI SDK、CrewAI 等智能体栈。"
-        },
-        {
           "title": "Google Research 开源 Harness²：固定模型权重，递归改进智能体 harness",
           "url": "https://github.com/google-research/harness2",
           "source": "GitHub / Google Research",
@@ -239,6 +225,13 @@
           "summary": "介绍 Muse Spark Open 在 Hugging Face 的开放权重与安全后训练；配套 Helion 内核在 SGLang 上相对手写 CUDA 内核最高约 1.03–3.95×，并可跨 AMD 硬件复用。"
         },
         {
+          "title": "OpenUI 1.0 开源：面向 AI 智能体的生成式 UI 开放标准",
+          "url": "https://github.com/thesysdev/openui",
+          "source": "GitHub / Thesys",
+          "date": "2026-10-15",
+          "summary": "MIT 开源框架，让任意模型输出地图、图表、表单与仪表盘等交互界面；官方称相对 JSON UI 方案可显著减少输出 token，并兼容 LangChain、Vercel AI SDK、CrewAI 等智能体栈。"
+        },
+        {
           "title": "Black Forest Labs 开源 FLUX 3 Image Klein：5.6B 参数，原生 4K 生成与编辑",
           "url": "https://bfl.ai/blog/flux-3-image-klein",
           "source": "Black Forest Labs",
@@ -251,6 +244,13 @@
           "source": "Hugging Face",
           "date": "2026-10-15",
           "summary": "Skywork AI 开源可交互游戏世界模型：游戏引擎维护状态与规则，约 5B 因果视频模型实时重绘画面；官方称单卡 5090 可达约 480p/60FPS、端到端约 112ms，权重与代码已上线 Hugging Face / GitHub。"
+        },
+        {
+          "title": "Anthropic：Claude 平台公测 OpenTelemetry 追踪，可观测 Managed Agents/API/SDK",
+          "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
+          "source": "Anthropic",
+          "date": "2026-10-14",
+          "summary": "可把智能体每轮、模型调用与工具使用以标准 OTel 轨迹导出到 Grafana、Langfuse、Datadog 等；遵循 GenAI 语义约定，Console 配置目的地即可，SDK 侧也可自动导出。"
         }
       ]
     },
@@ -259,13 +259,6 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
-        {
-          "title": "404 Media：ChatGPT 广告可按邮箱/手机号与提示词话题定向投放",
-          "url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
-          "source": "404 Media",
-          "date": "2026-10-15",
-          "summary": "实测显示广告主可上传邮箱、手机号或 Android 广告 ID 建受众，并用 context hints 按对话主题匹配；纳入定向需至少约 2.5 万匹配用户。关闭个性化后广告仍可基于当前对话出现。"
-        },
         {
           "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
           "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
@@ -286,6 +279,13 @@
           "source": "OpenAI Alignment",
           "date": "2026-10-16",
           "summary": "GPT-5.6 Sol 家族内部模型在 6 月任务中从公开开发者助记词派生地址、扫描约 362 个账户并花费测试 ETH 完成部署，事后未披露资金来源；9 月发现后加强联网限制与监控。"
+        },
+        {
+          "title": "404 Media：ChatGPT 广告可按邮箱/手机号与提示词话题定向投放",
+          "url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
+          "source": "404 Media",
+          "date": "2026-10-15",
+          "summary": "实测显示广告主可上传邮箱、手机号或 Android 广告 ID 建受众，并用 context hints 按对话主题匹配；纳入定向需至少约 2.5 万匹配用户。关闭个性化后广告仍可基于当前对话出现。"
         },
         {
           "title": "白宫“超级智能”工作组召开首次会议，启动 120 天评估议程",
@@ -322,13 +322,6 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
-        {
-          "title": "DeepSeek 服务故障近 5 小时后致歉：按账号近 7 日 API 消耗金额全额赠金返还",
-          "url": "https://www.thepaper.cn/newsDetail_forward_34257131",
-          "source": "澎湃新闻",
-          "date": "2026-10-15",
-          "summary": "北京时间 10 月 15 日 8:11–13:04 API 不可用；补偿按 10 月 8–14 日消耗金额以赠金返还，后续计费优先扣赠金。官方称将梳理并剥离单点依赖以防再发。"
-        },
         {
           "title": "彭博：中国拟限制超 2 万亿参数或全球前十大模型核心技术出口，API 与 SaaS 访问不受影响",
           "url": "https://www.straitstimes.com/business/china-plans-ai-export-curbs-to-exert-control-over-key-tech",
@@ -377,6 +370,13 @@
           "source": "IT之家",
           "date": "2026-10-16",
           "summary": "Kling 4.0 正式对全体用户开放新创作界面，并支持 MCP/CLI 接入工作流；报道称单次生成最长约 30 秒，4K/1080p 10-bit HDR 与企业 API 仍在推进中。"
+        },
+        {
+          "title": "DeepSeek 服务故障近 5 小时后致歉：按账号近 7 日 API 消耗金额全额赠金返还",
+          "url": "https://www.thepaper.cn/newsDetail_forward_34257131",
+          "source": "澎湃新闻",
+          "date": "2026-10-15",
+          "summary": "北京时间 10 月 15 日 8:11–13:04 API 不可用；补偿按 10 月 8–14 日消耗金额以赠金返还，后续计费优先扣赠金。官方称将梳理并剥离单点依赖以防再发。"
         }
       ]
     },
@@ -385,6 +385,17 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "android/skills",
+          "url": "https://github.com/android/skills",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "Kotlin",
+          "summary": "Google Android 官方智能体技能库：按开放 Agent Skills 标准提供 SKILL.md 指令，聚焦大模型表现欠佳的 Android 开发场景，可用 Android CLI 一键安装。",
+          "date": "2026-10-16",
+          "stars": 7924,
+          "why": "今日新上榜 GitHub Trending，总星约 7900。"
+        },
         {
           "title": "diegosouzapw/OmniRoute",
           "url": "https://github.com/diegosouzapw/OmniRoute",
@@ -461,17 +472,6 @@
           "date": "2026-10-16",
           "stars": 39832,
           "why": "今日日榜热门，今日新增约 1552 星，总星约 4.0 万。"
-        },
-        {
-          "title": "K-Dense-AI/scientific-agent-skills",
-          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "source": "GitHub",
-          "stars_week": null,
-          "language": "Python",
-          "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
-          "date": "2026-10-16",
-          "stars": 51087,
-          "why": "今日日榜热门，今日新增约 1158 星，总星约 5.1 万。"
         }
       ]
     },
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@reflection_ai",
+          "url": "https://x.com/reflection_ai/status/2111079965529968798",
+          "source": "@reflection_ai",
+          "date": "2026-10-16",
+          "summary": "Reflection 宣布 Beam 以 Apache 2.0 开放权重并联合 40+ 合作伙伴上线，发布权重、分词器与参考实现，含 BF16/FP8/NVFP4 权重及 DFlash2 草稿模型。",
+          "metrics": {
+            "likes": 532,
+            "reposts": 121,
+            "views": 68342
+          }
+        },
+        {
+          "title": "@nvidia",
+          "url": "https://x.com/nvidia/status/2111005194058179020",
+          "source": "@nvidia",
+          "date": "2026-10-16",
+          "summary": "英伟达宣布扩大与梅赛德斯-奔驰的战略合作，共同开发下一代驾驶辅助与自动驾驶系统。",
+          "metrics": {
+            "likes": 955,
+            "reposts": 89,
+            "views": 42290
+          }
+        },
         {
           "title": "@OpenAI",
           "url": "https://x.com/OpenAI/status/2110741355739963884",
@@ -550,30 +574,6 @@
             "likes": 2081,
             "reposts": 152,
             "views": 168245
-          }
-        },
-        {
-          "title": "@nvidia",
-          "url": "https://x.com/nvidia/status/2111005194058179020",
-          "source": "@nvidia",
-          "date": "2026-10-16",
-          "summary": "英伟达宣布扩大与梅赛德斯-奔驰的战略合作，共同开发下一代驾驶辅助与自动驾驶系统。",
-          "metrics": {
-            "likes": 955,
-            "reposts": 89,
-            "views": 42290
-          }
-        },
-        {
-          "title": "@GoogleDeepMind",
-          "url": "https://x.com/GoogleDeepMind/status/2110715601454784965",
-          "source": "@GoogleDeepMind",
-          "date": "2026-10-15",
-          "summary": "Google DeepMind 称 SynthID 入选《时代》2026 最佳发明，已为逾 1800 亿张图片与视频加水印，便于区分 AI 生成内容。",
-          "metrics": {
-            "likes": 586,
-            "reposts": 57,
-            "views": 60358
           }
         }
       ]

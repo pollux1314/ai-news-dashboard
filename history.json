@@ -1,7 +1,49 @@
 {
- "updated": "2026-10-16T22:31:00+08:00",
- "count": 272,
+ "updated": "2026-10-16T23:26:00+08:00",
+ "count": 276,
  "items": [
+  {
+   "title": "Reflection 开放 Beam 权重：501B MoE（23B 激活）、1M 上下文，Apache 2.0 许可",
+   "url": "https://huggingface.co/blog/reflection-beam",
+   "source": "Hugging Face",
+   "date": "2026-10-16",
+   "summary": "美国新实验室 Reflection 首个模型正式开放权重，主打编程与智能体：提供 BF16/FP8/NVFP4 检查点与 DFlash2 投机解码草稿模型，首日支持 Transformers、vLLM、SGLang；官方称 SWE-bench Verified 81.6%、Terminal Bench v2.1 80.1%（厂商自报），并开源训练所用的 Mirror CLI 智能体框架。",
+   "id": "849b423196d125cc3aaed178ce976945d3094cba",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T23:26:00+08:00"
+  },
+  {
+   "title": "android/skills",
+   "url": "https://github.com/android/skills",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Kotlin",
+   "summary": "Google Android 官方智能体技能库：按开放 Agent Skills 标准提供 SKILL.md 指令，聚焦大模型表现欠佳的 Android 开发场景，可用 Android CLI 一键安装。",
+   "date": "2026-10-16",
+   "stars": 7924,
+   "why": "今日新上榜 GitHub Trending，总星约 7900。",
+   "id": "3a4ad9e5ba46f8627ffaa31bf38cd5c806499810",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T23:26:00+08:00"
+  },
+  {
+   "title": "@reflection_ai",
+   "url": "https://x.com/reflection_ai/status/2111079965529968798",
+   "source": "@reflection_ai",
+   "date": "2026-10-16",
+   "summary": "Reflection 宣布 Beam 以 Apache 2.0 开放权重并联合 40+ 合作伙伴上线，发布权重、分词器与参考实现，含 BF16/FP8/NVFP4 权重及 DFlash2 草稿模型。",
+   "metrics": {
+    "likes": 532,
+    "reposts": 121,
+    "views": 68342
+   },
+   "id": "c8fb2603ee4eb7d2b9bfd05d9f5bbd565c08f06b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T23:26:00+08:00"
+  },
   {
    "title": "Anthropic Code Review 正式 GA：Team/Enterprise 自动审 PR，多数约 6–10 分钟完成",
    "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
@@ -849,6 +891,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "TechCrunch：连 Benchmark 也承认 AI 正在瓦解“不投直接竞品”的风投惯例",
+   "url": "https://techcrunch.com/2026/10/15/even-benchmark-thinks-ai-is-eroding-the-venture-pact-against-backing-rivals/",
+   "source": "TechCrunch",
+   "date": "2026-10-15",
+   "summary": "Benchmark 合伙人在 Disrupt 上表示，AI 让软件构建成本趋近于零、创业公司不断扩张赛道，投资组合冲突将更常见；文章以 Factory 与 Cognition 的董事观察员纠纷为例，指出 OpenAI 与 Anthropic 已共享数十家投资方。",
+   "id": "ac92425b3079fb0cae67a81d3b72cde50f760a92",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T23:26:00+08:00"
   },
   {
    "title": "North.cloud 完成 6000 万美元 B 轮：PeakSpan 领投，加码云/AI/数据支出自动化",
