@@ -1,7 +1,74 @@
 {
- "updated": "2026-10-16T21:30:00+08:00",
- "count": 264,
+ "updated": "2026-10-16T22:31:00+08:00",
+ "count": 272,
  "items": [
+  {
+   "title": "Anthropic Code Review 正式 GA：Team/Enterprise 自动审 PR，多数约 6–10 分钟完成",
+   "url": "https://claude.com/resources/articles/code-review-is-now-generally-available",
+   "source": "Anthropic",
+   "date": "2026-10-16",
+   "summary": "Claude Code Review 退出研究预览，面向 Team/Enterprise：相对预览版约快 3 倍，管理员可按仓库选 Quick/Standard/Deep；Eligible Enterprise 可于 2027 年 1 月 15 日前申领至少 1 万美元 Code Review 积分。",
+   "id": "b09ae946e685c3f07dd97cfdc41305bd25a2584f",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T22:31:00+08:00"
+  },
+  {
+   "title": "SpecAgent：弱模型起草、强模型语义核验工具调用轨迹，内存流量约减半",
+   "url": "https://arxiv.org/abs/2610.21463",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "港科大（广州）等提出弱模型执行只读工具并起草轨迹、强模型单次 prefill 做语义前缀核验与修复；在 τ²-Bench 上成功率接近强模型单独运行，同时显著降低 HBM 流量与墙钟时间。",
+   "id": "cfe5b93ffaa288b73daf341465de314e6f1b3880",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T22:31:00+08:00"
+  },
+  {
+   "title": "thesysdev/openui",
+   "url": "https://github.com/thesysdev/openui",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "生成式 UI 开放标准：智能体可输出可交互仪表盘/表单/图表界面。",
+   "date": "2026-10-16",
+   "stars": 11268,
+   "why": "OpenUI 1.0 发布后持续攀升，总星约 1.1 万。",
+   "id": "3def475be658213e62a9fcfef739198d890a0360",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T22:31:00+08:00"
+  },
+  {
+   "title": "diegosouzapw/OmniRoute",
+   "url": "https://github.com/diegosouzapw/OmniRoute",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "免费 MIT AI 网关：统一接入数百家提供商与上千模型，带配额感知自动回退与 token 压缩，适配 Claude Code/Cursor/Codex 等。",
+   "date": "2026-10-16",
+   "stars": 77223,
+   "why": "今日活跃热门，总星约 7.7 万。",
+   "id": "586d93ecfa9d49563367800d9d5fdee8aa740a31",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T22:31:00+08:00"
+  },
+  {
+   "title": "ChromeDevTools/chrome-devtools-mcp",
+   "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "官方 Chrome DevTools MCP：让编程智能体直接操控与调试浏览器。",
+   "date": "2026-10-16",
+   "stars": 53660,
+   "why": "今日活跃热门，总星约 5.4 万。",
+   "id": "a67bb8d2a6b423507df124720c24d43b990cf127",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T22:31:00+08:00"
+  },
   {
    "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
    "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
@@ -705,7 +772,7 @@
    "language": "Python",
    "summary": "开源、完全本地运行的 ElevenLabs 替代：支持声音克隆、声音设计等语音生成能力。",
    "date": "2026-10-16",
-   "stars": 70196,
+   "stars": 70290,
    "why": "今日日榜热门，总星约 7.0 万（持续攀升）。",
    "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
    "module": "github",
@@ -767,6 +834,54 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "heygen-com/hyperframes",
+   "url": "https://github.com/heygen-com/hyperframes",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "面向智能体的 HTML→视频渲染框架：用 HTML/动画描述画面，再输出视频。",
+   "date": "2026-10-16",
+   "stars": 65038,
+   "why": "今日活跃热门，总星约 6.5 万。",
+   "id": "8898dc1fb352feb74bc1d4ed3953354a1dd7997d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "North.cloud 完成 6000 万美元 B 轮：PeakSpan 领投，加码云/AI/数据支出自动化",
+   "url": "https://north.cloud/newsroom/north-series-b-release",
+   "source": "North.cloud",
+   "date": "2026-10-15",
+   "summary": "FinOps 平台称已管理近 200 亿美元云支出、帮客户节省逾 4 亿美元；资金将扩展跨云自主优化、加深 OpenAI/Anthropic/Snowflake 等集成，并推进 TokenFlow 统一 AI 用量与预算管控。",
+   "id": "ce9ad1a6628b14f1e4f88f0155bb60ecfa4ead17",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T22:31:00+08:00"
+  },
+  {
+   "title": "404 Media：ChatGPT 广告可按邮箱/手机号与提示词话题定向投放",
+   "url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
+   "source": "404 Media",
+   "date": "2026-10-15",
+   "summary": "实测显示广告主可上传邮箱、手机号或 Android 广告 ID 建受众，并用 context hints 按对话主题匹配；纳入定向需至少约 2.5 万匹配用户。关闭个性化后广告仍可基于当前对话出现。",
+   "id": "97d96322f5f80d86e3eca40f22c22a1d5b5551eb",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-16T22:31:00+08:00"
+  },
+  {
+   "title": "DeepSeek 服务故障近 5 小时后致歉：按账号近 7 日 API 消耗金额全额赠金返还",
+   "url": "https://www.thepaper.cn/newsDetail_forward_34257131",
+   "source": "澎湃新闻",
+   "date": "2026-10-15",
+   "summary": "北京时间 10 月 15 日 8:11–13:04 API 不可用；补偿按 10 月 8–14 日消耗金额以赠金返还，后续计费优先扣赠金。官方称将梳理并剥离单点依赖以防再发。",
+   "id": "874606b81d32ac625a1b39227521eda4ecb681f6",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T22:31:00+08:00"
   },
   {
    "title": "OpenAI 推送 GPT-Live-1.1：ChatGPT/Codex/dots 语音更新，多语种新音色",
@@ -1022,14 +1137,14 @@
    "first_seen": "2026-10-16T10:30:00+08:00"
   },
   {
-   "title": "NVIDIA 开源 Nemotron 3.5 Super VL：120B MoE / 12B 激活多模态智能体模型",
+   "title": "英伟达开源 Nemotron 3.5 Bolt：74B MoE（9B 激活）本地智能体模型，适配 RTX Spark",
    "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
    "source": "NVIDIA",
    "date": "2026-10-15",
-   "summary": "面向长程智能体的开放权重多模态 MoE，支持文本/图像/文档/视频与工具调用；权重已上线 Hugging Face 与 NIM，NVFP4 可在单卡 H200 等配置部署。",
+   "summary": "与 Super VL 同期发布：Bolt 74B-A9B 以原生 2-bit 量化压进约 24GB 显存，面向 RTX/DGX Spark 本地智能体；另有面向对话/边缘的 Bolt E4B（约 10 月 23 日上线）。权重已上 Hugging Face，支持 llama.cpp/Ollama/vLLM 等。",
    "id": "902189e10f1e2e57f9ed91f547635cc1a5c5ed59",
-   "module": "opensource",
-   "module_name": "开源与工具",
+   "module": "models",
+   "module_name": "大模型与产品发布",
    "first_seen": "2026-10-16T10:30:00+08:00"
   },
   {
@@ -1518,11 +1633,11 @@
    "url": "https://x.com/OpenAI/status/2110741355739963884",
    "source": "@OpenAI",
    "date": "2026-10-15",
-   "summary": "OpenAI 宣布向 Simons 基金会新计划出资 500 万美元，帮助数学界审读、理解并推进 AI 生成的数学结果，并配套模型与算力支持。",
+   "summary": "OpenAI 宣布向 Simons 基金会数学 AI 计划出资 500 万美元，帮助数学界审视、理解并在 AI 结果之上继续推进研究。",
    "metrics": {
-    "likes": 5300,
-    "reposts": 417,
-    "views": 718102
+    "likes": 5780,
+    "reposts": 458,
+    "views": 833193
    },
    "id": "8793a1813d242e00bc602137a8f363e530424831",
    "module": "x",
@@ -1611,11 +1726,11 @@
    "url": "https://x.com/nvidia/status/2110750157272719562",
    "source": "@nvidia",
    "date": "2026-10-15",
-   "summary": "英伟达扩展 Nemotron 开源家族，发布 Nemotron 3.5 Super VL：融合视觉理解、推理与工具调用，总参 120B、激活 12B，面向长程智能体。",
+   "summary": "英伟达宣布扩展开源 Nemotron 家族，发布 Nemotron 3.5 Super VL：把视觉理解、推理与工具调用结合，面向更快完成工作的智能体。",
    "metrics": {
-    "likes": 388,
-    "reposts": 44,
-    "views": 24900
+    "likes": 927,
+    "reposts": 108,
+    "views": 72286
    },
    "id": "6cfb5f9068f0b7506339fc7a28241c3688c29558",
    "module": "x",
@@ -2158,21 +2273,6 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
-   "title": "heygen-com/hyperframes",
-   "url": "https://github.com/heygen-com/hyperframes",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 64022,
-   "stars_week": 5123,
-   "language": "TypeScript",
-   "summary": "HeyGen 开源：写 HTML 即可渲染视频，专为智能体设计。",
-   "why": "让 AI 智能体用网页技术直接生成视频，本周 +5.1k 星。",
-   "id": "8898dc1fb352feb74bc1d4ed3953354a1dd7997d",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T14:10:00+08:00"
-  },
-  {
    "title": "thedotmack/claude-mem",
    "url": "https://github.com/thedotmack/claude-mem",
    "source": "GitHub",
@@ -2528,14 +2628,14 @@
    "first_seen": "2026-10-15T17:36:05+08:00"
   },
   {
-   "title": "Anthropic 为 Claude 平台推出 OpenTelemetry 智能体可观测性（公测）",
+   "title": "Anthropic：Claude 平台公测 OpenTelemetry 追踪，可观测 Managed Agents/API/SDK",
+   "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
    "source": "Anthropic",
    "date": "2026-10-14",
-   "url": "https://claude.com/resources/articles/agent-observability-on-the-claude-platform",
-   "summary": "Managed Agents、Messages API 与 Claude SDK 可原生导出 OTel 追踪，对接 Grafana、Langfuse、Sentry 等工具，便于调试智能体延迟、token 与工具调用。",
+   "summary": "可把智能体每轮、模型调用与工具使用以标准 OTel 轨迹导出到 Grafana、Langfuse、Datadog 等；遵循 GenAI 语义约定，Console 配置目的地即可，SDK 侧也可自动导出。",
    "id": "0fff098609ae8946a1a62ed4f18751d427ae5d1c",
-   "module": "models",
-   "module_name": "大模型与产品发布",
+   "module": "opensource",
+   "module_name": "开源与工具",
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
@@ -2839,11 +2939,11 @@
    "first_seen": "2026-10-15T17:36:05+08:00"
   },
   {
-   "title": "Character.AI 申请第 11 章破产，迪士尼 2000 万美元竞购资产",
+   "title": "Character.AI 申请 Chapter 11 破产：迪士尼成部分资产 2000 万美元 stalking-horse 竞买方",
+   "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
    "source": "TechCrunch",
    "date": "2026-10-13",
-   "url": "https://techcrunch.com/2026/10/13/just-5-years-in-interactive-chatbot-platform-character-ai-files-for-bankruptcy/",
-   "summary": "成立仅五年的角色聊天平台进入法院监督出售；若无合格买家将关停，平台目前仍可访问。",
+   "summary": "成立约五年的陪伴聊天平台因诉讼与规模化压力进入法院监督出售；资产与负债均在 5000 万–1 亿美元区间。平台暂续运营，预计 11 月底至 12 月初完成；若无买家则可能关停。",
    "id": "54d9c64a7bcda1b490ce0ec4199b70dd1b0dc490",
    "module": "industry",
    "module_name": "行业与融资",
