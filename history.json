@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T15:27:00+08:00",
- "count": 236,
+ "updated": "2026-10-16T16:34:00+08:00",
+ "count": 241,
  "items": [
   {
    "title": "谷歌 Gemini 4 Argon 全球开放：API 限时半价，主打长程编程与专业工作",
@@ -97,9 +97,9 @@
    "date": "2026-10-16",
    "summary": "英伟达 Vera Rubin NVL72 首批 AA-AgentPerf 结果：每兆瓦总吞吐最高约为 GB300 NVL72 的 5.7 倍（DeepSeek V4 Pro），在 GLM-5.2、Kimi K3 上约 3 倍。",
    "metrics": {
-    "likes": 127,
+    "likes": 140,
     "reposts": 9,
-    "views": 16300
+    "views": 17542
    },
    "id": "2eef55d7ed62b3071bf66bf08260a2a1abafd70f",
    "module": "x",
@@ -113,9 +113,9 @@
    "date": "2026-10-16",
    "summary": "Muse Spark Open 在 Artificial Analysis 智能指数得 39 分，成为美国第一的开放权重模型；在 AA-Omniscience 上领跑开放模型，幻觉率最低。",
    "metrics": {
-    "likes": 493,
-    "reposts": 32,
-    "views": 48122
+    "likes": 523,
+    "reposts": 34,
+    "views": 52449
    },
    "id": "e66e041ed6139ca25c7df6e033887390699f4f71",
    "module": "x",
@@ -129,9 +129,9 @@
    "date": "2026-10-16",
    "summary": "Meta 超级智能实验室的 Muse Wonder 登陆 Cursor：默认推理强度下 CursorBench 得分 46.1%，为 Muse 系列最高，定价 4/20 美元每百万 token。",
    "metrics": {
-    "likes": 1422,
-    "reposts": 69,
-    "views": 87647
+    "likes": 1499,
+    "reposts": 72,
+    "views": 92650
    },
    "id": "b219a9b4ebfbd30fe476c9984ae112830d5eacb8",
    "module": "x",
@@ -249,11 +249,11 @@
    "url": "https://x.com/AnthropicAI/status/2110846112152105136",
    "source": "@AnthropicAI",
    "date": "2026-10-16",
-   "summary": "Anthropic 宣布向 Simons 基金会数学 AI 倡议投入 500 万美元，支持数学界探索如何更好地使用 AI 推进科研。",
+   "summary": "Anthropic 宣布向 Simons 基金会数学 AI 计划承诺 500 万美元资金，并支持数学与更广泛科学领域的工具与资源。",
    "metrics": {
-    "likes": 1616,
-    "reposts": 119,
-    "views": 128307
+    "likes": 1832,
+    "reposts": 134,
+    "views": 146598
    },
    "id": "061414cde0b10d6d4c8d8c817df9994604e09e2d",
    "module": "x",
@@ -278,9 +278,9 @@
    "date": "2026-10-16",
    "summary": "OpenAI 推出 Rosalind Academic Plan：向符合条件的美国高校实验室提供 GPT-Rosalind 等工具的赞助访问，助力生命科学研究。",
    "metrics": {
-    "likes": 2152,
-    "reposts": 208,
-    "views": 227398
+    "likes": 2220,
+    "reposts": 211,
+    "views": 235449
    },
    "id": "91f6232d44de146187e56932df9a504003074cd9",
    "module": "x",
@@ -356,11 +356,11 @@
    "url": "https://x.com/OpenAI/status/2110797830361436604",
    "source": "@OpenAI",
    "date": "2026-10-16",
-   "summary": "OpenAI 推出 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多国音色与更自然口音，今日向全体用户推送。",
+   "summary": "GPT-Live-1.1 上线 ChatGPT / Codex / dots：新增多语种音色与更自然口音，减少“checking…”等待提示；全体用户今日推送，API 即将上线。",
    "metrics": {
-    "likes": 9048,
-    "reposts": 636,
-    "views": 1013953
+    "likes": 9498,
+    "reposts": 673,
+    "views": 1172398
    },
    "id": "775988000eb33d1735c7ab85495f7c0772626dda",
    "module": "x",
@@ -421,30 +421,14 @@
    "date": "2026-10-16",
    "summary": "Anthropic 宣布已向 METR 团队提供类员工访问权限以评估安全实践，并说明与第三方独立评估方的合作框架。",
    "metrics": {
-    "likes": 3185,
-    "reposts": 207,
-    "views": 403859
+    "likes": 3242,
+    "reposts": 210,
+    "views": 413801
    },
    "id": "c9c82329cbcae35290082aec08401c4d622f84af",
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T01:40:00+08:00"
-  },
-  {
-   "title": "@OpenAI",
-   "url": "https://x.com/OpenAI/status/2110741355739963884",
-   "source": "@OpenAI",
-   "date": "2026-10-16",
-   "summary": "OpenAI 向 Simons 基金会新倡议捐助 500 万美元，帮助数学家检验、理解并扩展 AI 生成的研究成果。",
-   "metrics": {
-    "likes": 5055,
-    "reposts": 400,
-    "views": 648546
-   },
-   "id": "8793a1813d242e00bc602137a8f363e530424831",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-15T23:31:00+08:00"
   },
   {
    "title": "@AnthropicAI",
@@ -498,10 +482,10 @@
    "url": "https://github.com/ruvnet/ruflo",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 75278,
+   "stars": 75328,
    "stars_week": null,
    "language": "TypeScript",
-   "summary": "多智能体 swarm harness：协调部署多玩家智能体集群。",
+   "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code / Codex 等。",
    "why": "今日日榜热门，今日新增约 147 星，总星约 7.5 万。",
    "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
    "module": "github",
@@ -513,11 +497,11 @@
    "url": "https://github.com/affaan-m/ECC",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 280665,
+   "stars": 280726,
    "stars_week": null,
    "language": "JavaScript",
    "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发。",
-   "why": "今日日榜热门，总星约 28.1 万。",
+   "why": "今日日榜热门，今日新增约 1,013 星，总星约 28.1 万。",
    "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -528,7 +512,7 @@
    "url": "https://github.com/obra/superpowers",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 300178,
+   "stars": 300225,
    "stars_week": null,
    "language": "Shell",
    "summary": "可工作的智能体技能框架与软件开发方法论。",
@@ -543,7 +527,7 @@
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 112812,
+   "stars": 112861,
    "stars_week": null,
    "language": "Go",
    "summary": "用“穴居人”式短指令帮编程智能体砍掉约 65% token 的病毒式技能与代理。",
@@ -558,11 +542,11 @@
    "url": "https://github.com/anthropics/claude-plugins-official",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 39498,
+   "stars": 39573,
    "stars_week": null,
    "language": "Python",
    "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
-   "why": "今日日榜热门，今日新增约 307 星，总星约 3.9 万。",
+   "why": "今日日榜热门，今日新增约 307 星，总星约 4.0 万。",
    "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -573,7 +557,7 @@
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 50832,
+   "stars": 50893,
    "stars_week": null,
    "language": "Python",
    "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
@@ -588,7 +572,7 @@
    "url": "https://github.com/debpalash/VoiceStudio",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 69682,
+   "stars": 69778,
    "stars_week": null,
    "language": "Python",
    "summary": "开源、完全本地运行的 ElevenLabs 替代：支持声音克隆、声音设计等语音生成能力。",
@@ -629,11 +613,11 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 278063,
+   "stars": 279430,
    "stars_week": null,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-   "why": "今日日榜热门，今日新增约 3 万+ 星，总星约 27.8 万。",
+   "why": "今日日榜热门，今日新增约 3.2 万星，总星约 27.9 万。",
    "id": "92705331275526a8e0b1d0b4ec156bfb5025973f",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -653,6 +637,39 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "OPRD：用多范围 Reminder 蒸馏长程编程智能体，SWE 平均提升 11.3 分",
+   "url": "https://arxiv.org/abs/2610.21496",
+   "source": "arXiv",
+   "date": "2026-10-15",
+   "summary": "清华/上智所/NUS 等提出 On-Policy Reminder Distillation：成功轨迹自模仿、失败轨迹做 Reminder 条件反向 KL；相对 Qwen3.5-4B 在 SWE-bench 三榜平均提升 11.3 分，过程错误事件约减半。",
+   "id": "e8d28a49039853e537147fc031ca52586fe41dad",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T16:34:00+08:00"
+  },
+  {
+   "title": "Mosaic：多智能体会话 Agentic RL，BrowseComp 相对广播基线最高约 +10%",
+   "url": "https://arxiv.org/abs/2610.22174",
+   "source": "arXiv",
+   "date": "2026-10-15",
+   "summary": "港科大广州等提出面向上下文压缩与子智能体分叉的多会话 RL：会话感知轨迹优势估计 + 会话级边际收益塑形；Qwen3.5-4B 在 BrowseComp 上优于广播基线，且平均会话数更少。",
+   "id": "5a74db1d4f120b233b766c2715d6e3e94642ca2d",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T16:34:00+08:00"
+  },
+  {
+   "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线（不含 Siri AI）",
+   "url": "https://www.bjnews.com.cn/detail/1792060132129350.html",
+   "source": "新京报",
+   "date": "2026-10-15",
+   "summary": "库克在上海表示苹果智能与阿里千问相关方案已获批准，十月晚些时候发测试版；首批含实时翻译、书写工具、照片清除等，但不含本次 Siri AI。量子位等亦有同步报道。",
+   "id": "1efb14f62c90a3b680865b4f6856df5d9c0cd692",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T16:34:00+08:00"
   },
   {
    "title": "Hybrid Reasoning Agents：潜空间推理与文本工具调用统一，性能升约 10%、token 省 35–55%",
@@ -919,11 +936,11 @@
    "first_seen": "2026-10-16T08:30:00+08:00"
   },
   {
-   "title": "Simons 基金会联合 OpenAI、Anthropic 启动 1500 万美元数学 AI 倡议",
+   "title": "Simons 基金会联手 OpenAI、Anthropic 启动 1500 万美元数学 AI 计划",
    "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
    "source": "Simons Foundation",
    "date": "2026-10-15",
-   "summary": "基金会管理拨款并公开征集，支持评估 AI 辅助结果、工具培训与共同体标准；OpenAI 与 Anthropic 各承诺约 500 万美元并提供模型与算力给受资助研究者。",
+   "summary": "三方合计提供约 1500 万美元资金与算力资源，由 Simons 基金会管理并发放；支持工作坊与提案征集，帮助数学界评估 AI 辅助结果、学习工具并制定使用标准。OpenAI 另承诺出资 500 万美元并开放模型与算力。",
    "id": "2702a2f8e6d0052b0f172377304fd166e4c13074",
    "module": "research",
    "module_name": "研究与论文",
@@ -1257,6 +1274,22 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T00:35:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110741355739963884",
+   "source": "@OpenAI",
+   "date": "2026-10-15",
+   "summary": "OpenAI 宣布向 Simons 基金会新计划出资 500 万美元，帮助数学界审读、理解并推进 AI 生成的数学结果，并配套模型与算力支持。",
+   "metrics": {
+    "likes": 5300,
+    "reposts": 417,
+    "views": 718102
+   },
+   "id": "8793a1813d242e00bc602137a8f363e530424831",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T23:31:00+08:00"
   },
   {
    "title": "OpenAI CFO：下一代旗舰模型因安全对齐暂缓发布",
@@ -1945,6 +1978,28 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
+   "title": "Paper Instruments 发布 Ultramarine 1 Flash：面向金融/法律等知识工作的智能体模型",
+   "url": "https://www.paperinstruments.com/blog/ultramarine",
+   "source": "Paper Instruments",
+   "date": "2026-10-14",
+   "summary": "基于 GLM-5.3 Flash 大规模非可验证 RL 后训练；六项知识工作基准平均提升约 4.1 分、生成 token 约少 6.5%；内部套件约 0.13 美元/任务，接近 Opus 5.5 / GPT-6 等高端模型表现，权重计划两周内开放。",
+   "id": "9f2224b670452374907d0b2e31f012e4672f856a",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T16:34:00+08:00"
+  },
+  {
+   "title": "Anthropic 开设新加坡办公室并与新加坡政府签署 AI 安全 MOU",
+   "url": "https://www.anthropic.com/news/singapore-office-opening",
+   "source": "Anthropic",
+   "date": "2026-10-14",
+   "summary": "亚太第五处办公室落地新加坡；与数字发展与信息部签署谅解备忘录，合作覆盖模型评估、测试标准、事件响应、负责任采用与技能建设。GovTech、DBS、Grab 等已在使用 Claude。",
+   "id": "87253efedaff810e9e069125a5f7f7cc952dd69f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-16T16:34:00+08:00"
+  },
+  {
    "title": "阶跃终端发布首款 Agent 手机 STEPX Neo",
    "url": "https://www.qbitai.com/2026/10/503244.html",
    "source": "量子位",
@@ -2203,11 +2258,11 @@
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
-   "title": "Modal 完成 7.5 亿美元 D 轮，估值 157.5 亿美元，年化收入破 10 亿",
+   "title": "Modal 完成 7.5 亿美元 D 轮，估值 157.5 亿美元，年化经常性收入破 10 亿",
    "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
    "source": "Modal",
    "date": "2026-10-14",
-   "summary": "Accel 领投，Kleiner Perkins 跟进，现有投资人全部参与。距 5 个月前 C 轮用量增约 3 倍、估值约翻三倍；Sandboxes 单独年化约 3 亿美元，累计启动近 30 亿个沙箱，服务智能体、RL 与代码执行场景。",
+   "summary": "Accel 领投，Kleiner Perkins 新进，Menlo、General Catalyst、Lux 等老股东跟投。官方称自 C 轮五个月内用量翻三倍、同比增超 15 倍；Sandbox 产品单独年化约 3 亿美元，服务 Cognition、Ramp、Runway 等。",
    "id": "71a5965a5f1d660d1f5ffc61a301832b4e8f0f28",
    "module": "industry",
    "module_name": "行业与融资",
