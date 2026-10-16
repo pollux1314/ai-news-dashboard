@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-16T20:30:00+08:00",
- "count": 261,
+ "updated": "2026-10-16T21:30:00+08:00",
+ "count": 264,
  "items": [
   {
    "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
@@ -170,9 +170,9 @@
    "date": "2026-10-16",
    "summary": "Google DeepMind 盘点其模型与工具如何帮助全球科学家定位罕见遗传变异、加速药物发现，让疾病更易检测、治疗与预防。",
    "metrics": {
-    "likes": 38,
-    "reposts": 4,
-    "views": 6618
+    "likes": 305,
+    "reposts": 26,
+    "views": 26273
    },
    "id": "1f86e0b7ada313ceccc8a765218c7fe12642a92c",
    "module": "x",
@@ -186,9 +186,9 @@
    "date": "2026-10-16",
    "summary": "英伟达宣布扩大与梅赛德斯-奔驰的战略合作，共同开发下一代驾驶辅助与自动驾驶系统。",
    "metrics": {
-    "likes": 600,
-    "reposts": 67,
-    "views": 24894
+    "likes": 955,
+    "reposts": 89,
+    "views": 42290
    },
    "id": "bcb8a9e996dc5a40e64b5a727212b7b6be9c05db",
    "module": "x",
@@ -471,22 +471,6 @@
    "first_seen": "2026-10-16T07:27:00+08:00"
   },
   {
-   "title": "@AnthropicAI",
-   "url": "https://x.com/AnthropicAI/status/2110846112152105136",
-   "source": "@AnthropicAI",
-   "date": "2026-10-16",
-   "summary": "Anthropic 宣布向 Simons 基金会数学 AI 计划承诺 500 万美元资金，并支持数学与更广泛科学领域的工具与资源。",
-   "metrics": {
-    "likes": 1832,
-    "reposts": 134,
-    "views": 146598
-   },
-   "id": "061414cde0b10d6d4c8d8c817df9994604e09e2d",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-16T06:35:00+08:00"
-  },
-  {
    "title": "OpenAI 推出 Rosalind Academic Plan：向美国高校实验室开放 GPT-Rosalind",
    "url": "https://help.openai.com/en/articles/20001602-rosalind-academic-plan",
    "source": "OpenAI",
@@ -495,22 +479,6 @@
    "id": "af2ce380aaa365b0ad3e2ae9be3e4708fb22f93a",
    "module": "models",
    "module_name": "大模型与产品发布",
-   "first_seen": "2026-10-16T05:30:00+08:00"
-  },
-  {
-   "title": "@OpenAI",
-   "url": "https://x.com/OpenAI/status/2110841898076418336",
-   "source": "@OpenAI",
-   "date": "2026-10-16",
-   "summary": "OpenAI 推出 Rosalind Academic Plan：向符合条件的美国高校实验室提供 GPT-Rosalind 等工具的赞助访问，助力生命科学研究。",
-   "metrics": {
-    "likes": 2220,
-    "reposts": 211,
-    "views": 235449
-   },
-   "id": "91f6232d44de146187e56932df9a504003074cd9",
-   "module": "x",
-   "module_name": "X 重要动态",
    "first_seen": "2026-10-16T05:30:00+08:00"
   },
   {
@@ -578,22 +546,6 @@
    "first_seen": "2026-10-16T03:28:00+08:00"
   },
   {
-   "title": "@OpenAI",
-   "url": "https://x.com/OpenAI/status/2110797830361436604",
-   "source": "@OpenAI",
-   "date": "2026-10-16",
-   "summary": "GPT-Live-1.1 上线 ChatGPT / Codex / dots：新增多语种音色与更自然口音，减少“checking…”等待提示；全体用户今日推送，API 即将上线。",
-   "metrics": {
-    "likes": 9498,
-    "reposts": 673,
-    "views": 1172398
-   },
-   "id": "775988000eb33d1735c7ab85495f7c0772626dda",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-16T02:35:00+08:00"
-  },
-  {
    "title": "@finkd",
    "url": "https://x.com/finkd/status/2110778025629347999",
    "source": "@finkd",
@@ -641,54 +593,6 @@
    "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
-   "title": "@AnthropicAI",
-   "url": "https://x.com/AnthropicAI/status/2110784662071398807",
-   "source": "@AnthropicAI",
-   "date": "2026-10-16",
-   "summary": "Anthropic 宣布已向 METR 团队提供类员工访问权限以评估安全实践，并说明与第三方独立评估方的合作框架。",
-   "metrics": {
-    "likes": 3242,
-    "reposts": 210,
-    "views": 413801
-   },
-   "id": "c9c82329cbcae35290082aec08401c4d622f84af",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-16T01:40:00+08:00"
-  },
-  {
-   "title": "@AnthropicAI",
-   "url": "https://x.com/AnthropicAI/status/2110720940665372825",
-   "source": "@AnthropicAI",
-   "date": "2026-10-16",
-   "summary": "Anthropic 开放两类新 Fellowship 申请：STEM 与 Conceptual Reasoning，2027 年 1 月起在 Anthropic 工作四个月，帮助 Claude 提升推理能力。",
-   "metrics": {
-    "likes": 6050,
-    "reposts": 474,
-    "views": 938904
-   },
-   "id": "680c4c978874a08fd69534e28481c4e9d8571c9f",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-15T22:35:00+08:00"
-  },
-  {
-   "title": "@GoogleDeepMind",
-   "url": "https://x.com/GoogleDeepMind/status/2110715601454784965",
-   "source": "@GoogleDeepMind",
-   "date": "2026-10-16",
-   "summary": "DeepMind 宣布 SynthID 入选《时代》周刊 2026 最佳发明；称已为超 1800 亿张图片与视频加水印，便于区分 AI 生成内容。",
-   "metrics": {
-    "likes": 559,
-    "reposts": 54,
-    "views": 55826
-   },
-   "id": "0688db5c82a0a9bd02873e9cfb4a99f655929e44",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-15T22:35:00+08:00"
-  },
-  {
    "title": "xerj-org/xerj",
    "url": "https://github.com/xerj-org/xerj",
    "source": "GitHub",
@@ -696,8 +600,8 @@
    "language": "Rust",
    "summary": "面向 AI 智能体的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40× token，兼容 Elasticsearch。",
    "date": "2026-10-16",
-   "stars": 6399,
-   "why": "今日日榜热门，今日新增约 1647 星，总星约 6.4 千。",
+   "stars": 6481,
+   "why": "今日日榜热门，总星约 6.5 千。",
    "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -801,8 +705,8 @@
    "language": "Python",
    "summary": "开源、完全本地运行的 ElevenLabs 替代：支持声音克隆、声音设计等语音生成能力。",
    "date": "2026-10-16",
-   "stars": 70106,
-   "why": "今日日榜热门，今日新增约 2301 星，总星约 7.0 万。",
+   "stars": 70196,
+   "why": "今日日榜热门，总星约 7.0 万（持续攀升）。",
    "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -863,6 +767,39 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "OpenAI 推送 GPT-Live-1.1：ChatGPT/Codex/dots 语音更新，多语种新音色",
+   "url": "https://deploymentsafety.openai.com/gpt-live-1-1/introduction",
+   "source": "OpenAI",
+   "date": "2026-10-15",
+   "summary": "面向 Plus 及以上默认启用 GPT-Live-1.1，其他用户用 Quip；新增法语、德语、印地语、日语、韩语、墨西哥西班牙语等音色与更好口音，并减少语音中的“checking…”等待。API 即将开放。",
+   "id": "c23b966c8452d8a6d975f7606ceeb374ef80fa8c",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T21:30:00+08:00"
+  },
+  {
+   "title": "The World Won't Wait：实时时钟下评估与训练智能体，TORSI 提升约一倍进度分",
+   "url": "https://arxiv.org/abs/2610.20665",
+   "source": "arXiv",
+   "date": "2026-10-15",
+   "summary": "提出 RealtimeBench（六类游戏、推理期间环境持续推进）与两时间尺度自改进 TORSI；两轮后将 Jev 平均测试进度分从 13.51 提至 24.19，指令亦可迁移到其他模型。",
+   "id": "5a4c85ab654b4c130dac9517dd298276ee632fc3",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T21:30:00+08:00"
+  },
+  {
+   "title": "库克确认：Apple 智能首批核心功能已在华获批，10 月底推测试版",
+   "url": "https://www.thepaper.cn/newsDetail_forward_34256510",
+   "source": "澎湃新闻",
+   "date": "2026-10-15",
+   "summary": "苹果执行董事长库克接受澎湃独家采访称，实时翻译、写作工具、照片消除等已获批，本月晚些时候推出测试版；新版 Siri AI 不在首批。多款国行机型进网许可已新增大模型备案编号。",
+   "id": "917e048d599bc2819ce0978e68ba6079433ecfb8",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T21:30:00+08:00"
   },
   {
    "title": "Liquid AI 发布 d1-ultra 决策模型：登顶 AA 决策指数，仅按输入计费",
@@ -1074,11 +1011,11 @@
    "first_seen": "2026-10-16T11:32:00+08:00"
   },
   {
-   "title": "Anthropic 全面开放 Claude Opus 5.5 Fast：输出最高约 2.5 倍速",
+   "title": "Anthropic：Claude Opus 5.5 快速模式退出研究预览，API 无需再申请",
    "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
    "source": "Anthropic",
    "date": "2026-10-15",
-   "summary": "Opus 5.5 Fast 模式正式对 API 全量开放，无需 beta 头；定价约 8/40 美元每百万 token，已登陆 Microsoft Foundry，标准 Opus 仍为 4/20。",
+   "summary": "同模型最高约 2.5× 输出吞吐，定价 8/40 美元每百万 token；Start/Build/Scale 档默认配额，无需 beta 头。亦已登陆 Azure 上的 Claude in Microsoft Foundry；Opus 5 / 4.8 快速模式仍处研究预览。",
    "id": "9bc0cd5416c98a572710f57ba5dae5c2a1d94692",
    "module": "models",
    "module_name": "大模型与产品发布",
@@ -1195,6 +1132,22 @@
    "first_seen": "2026-10-16T07:27:00+08:00"
   },
   {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2110846112152105136",
+   "source": "@AnthropicAI",
+   "date": "2026-10-15",
+   "summary": "Anthropic 宣布向 Simons 基金会数学 AI 计划承诺 500 万美元资金，并支持数学与更广泛科学领域的工具与资源。",
+   "metrics": {
+    "likes": 2081,
+    "reposts": 152,
+    "views": 168245
+   },
+   "id": "061414cde0b10d6d4c8d8c817df9994604e09e2d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T06:35:00+08:00"
+  },
+  {
    "title": "微软研究院发布 Magnetar：通用后量子零知识证明虚拟机，平均提速 10–39 倍",
    "url": "https://www.microsoft.com/en-us/research/blog/proof-based-general-purpose-computing-with-magnetar/",
    "source": "Microsoft Research",
@@ -1215,6 +1168,22 @@
    "module": "policy",
    "module_name": "政策与监管",
    "first_seen": "2026-10-16T06:35:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110841898076418336",
+   "source": "@OpenAI",
+   "date": "2026-10-15",
+   "summary": "OpenAI 推广 Rosalind Academic Plan：面向符合条件的美国高校实验室提供 GPT-Rosalind 赞助访问，助力生命科学假设探索与实验决策。",
+   "metrics": {
+    "likes": 2533,
+    "reposts": 232,
+    "views": 266519
+   },
+   "id": "91f6232d44de146187e56932df9a504003074cd9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T05:30:00+08:00"
   },
   {
    "title": "Ramp 完成 18.5 亿美元融资，估值达 600 亿美元并加码 AI",
@@ -1272,11 +1241,11 @@
    "first_seen": "2026-10-16T04:30:00+08:00"
   },
   {
-   "title": "微软 MAI 完成 MAI-Base-2 预训练：2.8T 总参 / 80B 激活 MoE",
+   "title": "微软 AI 完成 MAI-Base-2 预训练：2.8T MoE / 80B 激活，号称预训算力效率远超开源基座",
    "url": "https://microsoft.ai/news/frontier-pre-training-at-microsoft-ai/",
    "source": "Microsoft AI",
    "date": "2026-10-15",
-   "summary": "MAI-Base-2 在 1.6 万张 GB200 上训练 38 天、50T token，原生视觉；官方称在留出评测上优于所测全部开放权重模型，预训练 FLOPs 效率为 DeepSeek-V4-Pro-Base 的 4–12 倍。目前进入后训练，计划通过 Foundry 向可信伙伴授权权重。",
+   "summary": "官方称在 1.6 万张 GB200 上训练约 38 天、混合约 50T token（含视觉）；内部留出评测上优于所测开源权重基座，相对 DeepSeek-V4-Pro-Base 预训 FLOPs 效率约 4–12 倍。仍在后训练，计划经 Azure AI Foundry 向可信伙伴许可权重。",
    "id": "099b737c1709fd1910d660bd84d6e0a0a70a44d1",
    "module": "models",
    "module_name": "大模型与产品发布",
@@ -1325,6 +1294,22 @@
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-16T03:28:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110797830361436604",
+   "source": "@OpenAI",
+   "date": "2026-10-15",
+   "summary": "OpenAI 宣布 GPT-Live-1.1 向全体用户推送：新音色与更好口音覆盖法语、德语、印地语、墨西哥西班牙语、韩语与日语，并减少语音中的“checking…”；API 即将开放。",
+   "metrics": {
+    "likes": 10118,
+    "reposts": 723,
+    "views": 1356500
+   },
+   "id": "775988000eb33d1735c7ab85495f7c0772626dda",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T02:35:00+08:00"
   },
   {
    "title": "Meta 发布 Muse Spark Open：816B MoE（42B 激活）、1M 上下文，号称美国最强开放权重模型",
@@ -1380,6 +1365,22 @@
    "module": "china",
    "module_name": "国内 AI 动态",
    "first_seen": "2026-10-16T02:35:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2110784662071398807",
+   "source": "@AnthropicAI",
+   "date": "2026-10-15",
+   "summary": "Anthropic 称已向 METR 团队提供类员工级访问以评估安全实践，并介绍与第三方评估方的合作框架。",
+   "metrics": {
+    "likes": 3430,
+    "reposts": 228,
+    "views": 449517
+   },
+   "id": "c9c82329cbcae35290082aec08401c4d622f84af",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
    "title": "OpenAI 向 Simons Foundation 捐赠 500 万美元，助力数学家审视 AI 辅助成果",
@@ -1620,6 +1621,38 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-15T23:31:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2110720940665372825",
+   "source": "@AnthropicAI",
+   "date": "2026-10-15",
+   "summary": "Anthropic 开放两类新研究奖学金申请（STEM 与概念推理），2027 年 1 月起为期四个月，帮助 Claude 提升推理能力。",
+   "metrics": {
+    "likes": 6442,
+    "reposts": 522,
+    "views": 1121692
+   },
+   "id": "680c4c978874a08fd69534e28481c4e9d8571c9f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T22:35:00+08:00"
+  },
+  {
+   "title": "@GoogleDeepMind",
+   "url": "https://x.com/GoogleDeepMind/status/2110715601454784965",
+   "source": "@GoogleDeepMind",
+   "date": "2026-10-15",
+   "summary": "Google DeepMind 称 SynthID 入选《时代》2026 最佳发明，已为逾 1800 亿张图片与视频加水印，便于区分 AI 生成内容。",
+   "metrics": {
+    "likes": 586,
+    "reposts": 57,
+    "views": 60358
+   },
+   "id": "0688db5c82a0a9bd02873e9cfb4a99f655929e44",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-15T22:35:00+08:00"
   },
   {
    "title": "亚马逊 Bee 发布两款新个人 AI 设备 Bee Frontier 与 Bee Eclipse",
@@ -1959,11 +1992,11 @@
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
-   "title": "TreeFlex：策略自导搜索树，让智能体决定何时深化、分支或回退",
+   "title": "TreeFlex：智能体自导航搜索树，BrowseComp 与 SWE 均显著超过扁平 ReAct",
    "url": "https://arxiv.org/abs/2610.20334",
-   "source": "arXiv",
+   "source": "arXiv / Meta AI",
    "date": "2026-10-15",
-   "summary": "Meta AI 提出 TreeFlex：同一模型在 Reflection/Execution 两角色间切换，保存中间状态为搜索树节点；4B 经 RL 后在深度研究基准达 48.8%（ReAct 41.5%），SWE-bench Verified 解析率 54.9%。",
+   "summary": "Meta AI 提出 Reflection/Execution 双角色策略在 harness 维护的搜索树上导航；4B RL 后 BrowseComp-Plus Mean@8 达 48.8%（扁平 ReAct 41.5%），SWE-bench Verified 上 9B 解析率 54.9%。",
    "id": "02cffde0fee35adf111229c42e2d2ddd2f1ff329",
    "module": "research",
    "module_name": "研究与论文",
@@ -2325,11 +2358,11 @@
    "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
-   "title": "八州起诉 OpenAI，指控 ChatGPT 危害未成年人并误导安全性",
+   "title": "美国八州起诉 OpenAI：指 ChatGPT 危害未成年人并误导安全宣传",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
    "source": "The Verge",
    "date": "2026-10-14",
-   "url": "https://www.theverge.com/ai-artificial-intelligence/1011500/openai-state-lawsuits-chatgpt-safety",
-   "summary": "艾奥瓦等八州分别起诉，称产品过度迎合、可能鼓励自残并误导“安全适龄”；要求加强未成年人保护并寻求民事罚款与赔偿。OpenAI 称已建行业领先的年龄防护。",
+   "summary": "爱荷华、堪萨斯、内布拉斯加、西弗吉尼亚、阿肯色、亚利桑那、爱达荷、蒙大拿分别起诉，援引消费者保护法，指控公司夸大安全、未能保护未成年人并寻求民事处罚与数据删除。OpenAI 称已构建按年龄防护并愿与各州合作。",
    "id": "88ac6d1c3f06222f0526a1499b3df95ba78896a4",
    "module": "policy",
    "module_name": "政策与监管",
