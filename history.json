@@ -1,7 +1,34 @@
 {
- "updated": "2026-10-17T06:38:00+08:00",
- "count": 318,
+ "updated": "2026-10-17T07:40:00+08:00",
+ "count": 320,
  "items": [
+  {
+   "title": "OpenAI 升级 ChatGPT 中的 GPT-6 Pro：多个智能体并行拆解任务，响应更快、插件与工具调用更强",
+   "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+   "source": "OpenAI",
+   "date": "2026-10-17",
+   "summary": "据 ChatGPT 发布说明，Chat 标签下的 GPT-6 Pro（由 GPT-6 Astra 驱动）现可让多个智能体并行处理任务的不同部分，用户可在对话中跟踪进度并打开已完成子任务查看细节；同时响应更快、插件与工具使用改进。正向符合条件的 Pro 用户推送，托管工作区视设置而定。",
+   "id": "cb6abc3bd12f0986699f5ce1095bb522ae6c0643",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-17T07:40:00+08:00"
+  },
+  {
+   "title": "@OpenAIDevs",
+   "url": "https://x.com/OpenAIDevs/status/2111213093577691337",
+   "source": "@OpenAIDevs",
+   "date": "2026-10-17",
+   "summary": "OpenAI 分享内部工程师如何用 Codex 梳理代码库、找出需要关注之处，并持续清理维护积压。",
+   "metrics": {
+    "likes": 391,
+    "reposts": 10,
+    "views": 30538
+   },
+   "id": "11c1ac1f2e42d2008c337b40d6a4553cfbbc162e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T07:40:00+08:00"
+  },
   {
    "title": "feder-cr/git-ai",
    "url": "https://github.com/feder-cr/git-ai",

@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T06:38:00+08:00",
+ "updated": "2026-10-17T07:40:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "OpenAI 升级 ChatGPT 中的 GPT-6 Pro：多个智能体并行拆解任务，响应更快、插件与工具调用更强",
+     "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
+     "source": "OpenAI",
+     "date": "2026-10-17",
+     "summary": "据 ChatGPT 发布说明，Chat 标签下的 GPT-6 Pro（由 GPT-6 Astra 驱动）现可让多个智能体并行处理任务的不同部分，用户可在对话中跟踪进度并打开已完成子任务查看细节；同时响应更快、插件与工具使用改进。正向符合条件的 Pro 用户推送，托管工作区视设置而定。"
+    },
     {
      "title": "Elorian 发布首个模型 Glimpse：推理中可反复裁剪图像/抽取视频帧的视觉思考模型",
      "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
@@ -55,13 +62,6 @@
      "source": "Anthropic",
      "date": "2026-10-16",
      "summary": "Opus 5.5 的 Fast Mode 已无需 waitlist/beta header，请求设 speed:\"fast\" 即可；同一权重、更高输出 token/秒，定价为标准档约 2 倍。已支持 Claude API、Managed Agents，以及 Azure 上的 Microsoft Foundry 部署。"
-    },
-    {
-     "title": "OpenAI 推出 Rosalind Academic Plan：美高校实验室最多 30 个免费席位一年",
-     "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
-     "source": "OpenAI",
-     "date": "2026-10-15",
-     "summary": "面向美国高校实验室的 GPT-Rosalind 生命科学模型学术计划：符合条件的实验室可获最多 30 个 Business Standard 席位、最长 12 个月免费，并在受信访问审批后使用 GPT-Rosalind；研究数据默认不用于训练，暂不含 API。"
     }
    ]
   },
@@ -482,6 +482,18 @@
    "items": [
     {
      "title": "@OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2111213093577691337",
+     "source": "@OpenAIDevs",
+     "date": "2026-10-17",
+     "summary": "OpenAI 分享内部工程师如何用 Codex 梳理代码库、找出需要关注之处，并持续清理维护积压。",
+     "metrics": {
+      "likes": 391,
+      "reposts": 10,
+      "views": 30538
+     }
+    },
+    {
+     "title": "@OpenAIDevs",
      "url": "https://x.com/OpenAIDevs/status/2111211411766399288",
      "source": "@OpenAIDevs",
      "date": "2026-10-17",
@@ -562,18 +574,6 @@
       "likes": 1031,
       "reposts": 80,
       "views": 67845
-     }
-    },
-    {
-     "title": "@nvidia",
-     "url": "https://x.com/nvidia/status/2111005194058179020",
-     "source": "@nvidia",
-     "date": "2026-10-16",
-     "summary": "英伟达宣布扩大与梅赛德斯-奔驰的战略合作，共同开发下一代驾驶辅助与自动驾驶系统。",
-     "metrics": {
-      "likes": 1496,
-      "reposts": 129,
-      "views": 71903
      }
     }
    ]
