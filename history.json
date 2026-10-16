@@ -1,7 +1,22 @@
 {
- "updated": "2026-10-16T10:31:00+08:00",
- "count": 205,
+ "updated": "2026-10-16T11:32:00+08:00",
+ "count": 212,
  "items": [
+  {
+   "title": "feder-cr/open_scion",
+   "url": "https://github.com/feder-cr/open_scion",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 726,
+   "stars_week": null,
+   "language": "Go",
+   "summary": "面向编程智能体的开源 Scion 风格版本控制系统，对应 Anthropic 工程博文中为智能体规模设计的源码控制思路。",
+   "why": "10 月 15 日新建，约 24 小时内获约 726 星。",
+   "id": "b5d7639c0d82ca900c59936cbd5944716a5bd498",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T10:30:00+08:00"
+  },
   {
    "title": "QingYunA/answer-me-with-html",
    "url": "https://github.com/QingYunA/answer-me-with-html",
@@ -44,11 +59,11 @@
    "url": "https://x.com/AIatMeta/status/2110861420321759269",
    "source": "@AIatMeta",
    "date": "2026-10-16",
-   "summary": "Meta Omnilingual ASR 入选《时代》2026 最佳发明：覆盖 1600+ 语言，含约 500 种此前几乎无覆盖的低资源语言。",
+   "summary": "Meta Omnilingual ASR 入选《时代》2026 最佳发明：覆盖逾 1600 种语言识别，含约 500 种此前低资源语言。",
    "metrics": {
-    "likes": 227,
-    "reposts": 26,
-    "views": 12450
+    "likes": 333,
+    "reposts": 37,
+    "views": 19216
    },
    "id": "81868fd23b0972ce81fc902724f5a665bf59f4fa",
    "module": "x",
@@ -62,9 +77,9 @@
    "date": "2026-10-16",
    "summary": "Anthropic 宣布向 Simons 基金会数学 AI 倡议提供 500 万美元资助，并支持数学与更广泛科学领域的研究者。",
    "metrics": {
-    "likes": 1333,
-    "reposts": 96,
-    "views": 104899
+    "likes": 1447,
+    "reposts": 104,
+    "views": 113902
    },
    "id": "061414cde0b10d6d4c8d8c817df9994604e09e2d",
    "module": "x",
@@ -89,9 +104,9 @@
    "date": "2026-10-16",
    "summary": "OpenAI 扩大 GPT-Rosalind 学术访问：新推出 Rosalind Academic Plan，为符合条件的美国高校实验室提供赞助访问。",
    "metrics": {
-    "likes": 1748,
-    "reposts": 172,
-    "views": 178551
+    "likes": 1868,
+    "reposts": 185,
+    "views": 190857
    },
    "id": "91f6232d44de146187e56932df9a504003074cd9",
    "module": "x",
@@ -169,9 +184,9 @@
    "date": "2026-10-16",
    "summary": "OpenAI 推出 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多国音色与更自然口音，今日向全体用户推送。",
    "metrics": {
-    "likes": 8420,
-    "reposts": 596,
-    "views": 824145
+    "likes": 8682,
+    "reposts": 617,
+    "views": 896272
    },
    "id": "775988000eb33d1735c7ab85495f7c0772626dda",
    "module": "x",
@@ -201,9 +216,9 @@
    "date": "2026-10-16",
    "summary": "Meta 发布 Muse Spark Open：816B 总参 / 42B 激活、1M 上下文，面向编码与长程智能体；称其为迄今最强美国开放权重模型。",
    "metrics": {
-    "likes": 9431,
-    "reposts": 984,
-    "views": 681833
+    "likes": 9631,
+    "reposts": 1005,
+    "views": 717996
    },
    "id": "5c16a9c6461b449689e83655df40b083e2b450c0",
    "module": "x",
@@ -232,9 +247,9 @@
    "date": "2026-10-16",
    "summary": "Anthropic 更新第三方评估合作：已向 METR 团队开放接近员工级访问以评估安全实践，并正与多家评估方洽谈。",
    "metrics": {
-    "likes": 2703,
-    "reposts": 186,
-    "views": 324843
+    "likes": 2889,
+    "reposts": 196,
+    "views": 351024
    },
    "id": "c9c82329cbcae35290082aec08401c4d622f84af",
    "module": "x",
@@ -305,7 +320,7 @@
    "url": "https://github.com/ruvnet/ruflo",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 75174,
+   "stars": 75209,
    "stars_week": null,
    "language": "TypeScript",
    "summary": "多智能体 swarm harness：协调部署多玩家智能体集群。",
@@ -320,11 +335,11 @@
    "url": "https://github.com/affaan-m/ECC",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 280462,
+   "stars": 280512,
    "stars_week": null,
    "language": "JavaScript",
    "summary": "智能体 harness 性能优化系统：技能、本能、记忆与搜索等组件。",
-   "why": "今日日榜热门，总星约 28 万。",
+   "why": "今日日榜热门，总星约 28.1 万。",
    "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -335,11 +350,11 @@
    "url": "https://github.com/obra/superpowers",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 299961,
+   "stars": 300019,
    "stars_week": null,
    "language": "Shell",
    "summary": "可工作的智能体技能框架与软件开发方法论。",
-   "why": "今日日榜前列，总星约 30 万。",
+   "why": "今日日榜前列，总星突破约 30 万。",
    "id": "2046f5e50fafe44ab9382efbd7ce4484b55575ee",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -350,7 +365,7 @@
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 112618,
+   "stars": 112666,
    "stars_week": null,
    "language": "Go",
    "summary": "用“穴居人”式短指令帮编程智能体砍掉约 65% token 的病毒式技能与代理。",
@@ -380,7 +395,7 @@
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 50562,
+   "stars": 50626,
    "stars_week": null,
    "language": "Python",
    "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
@@ -395,7 +410,7 @@
    "url": "https://github.com/debpalash/VoiceStudio",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 69237,
+   "stars": 69337,
    "stars_week": null,
    "language": "Python",
    "summary": "开源本地 ElevenLabs 替代：语音克隆、设计、配音、听写、转写与有声书，覆盖 646 种语言。",
@@ -425,11 +440,11 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 272556,
+   "stars": 274037,
    "stars_week": null,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-   "why": "今日日榜前列，总星约 27.3 万。",
+   "why": "今日日榜前列，总星约 27.4 万。",
    "id": "92705331275526a8e0b1d0b4ec156bfb5025973f",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -449,6 +464,72 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "阶跃星辰开源 Step 5 Preview：Hugging Face 提供 BF16/FP8 等权重与部署指南",
+   "url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+   "source": "Hugging Face",
+   "date": "2026-10-15",
+   "summary": "600B/27B 稀疏 MoE、最高 1M 上下文，支持 vLLM/SGLang/Transformers 部署；面向软件工程、专业知识工作与金融等 Agent 场景。",
+   "id": "d11bdcfc2234737f90fff1b05661ac3bc05251a7",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-16T11:32:00+08:00"
+  },
+  {
+   "title": "CoreWeave 五年期 CDS 创纪录：盘中至 1194.5 基点，隐含违约概率超 60%",
+   "url": "https://news.bloomberglaw.com/capital-markets/coreweave-risk-gauge-hits-record-pricing-60-odds-of-default",
+   "source": "Bloomberg Law",
+   "date": "2026-10-15",
+   "summary": "彭博报道称 CoreWeave 信用违约互换成本升至纪录高位，市场定价五年内违约概率超过六成；高收益债券亦承压，反映 AI 算力融资紧张。",
+   "id": "15b1419f391cbb7f909c263ca47635d1253b2d55",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T11:32:00+08:00"
+  },
+  {
+   "title": "路透：部分投资者将 Anthropic IPO 估值预期下调至约 1.5 万亿美元",
+   "url": "https://www.investing.com/news/stock-market-news/exclusiveinvestors-temper-anthropic-ipo-valuation-expectations-over-revenue-growth-slowdown-sources-say-4952698",
+   "source": "Reuters",
+   "date": "2026-10-15",
+   "summary": "知情人士称，投资者日披露 Q3 营收 168 亿美元、环比增 45% 后，部分人因增速放缓将估值预期从约 2 万亿美元下调至约 1.5 万亿美元；公司未立即置评。",
+   "id": "d0144f69b128f03ac3363d2352c92e944273e373",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T11:32:00+08:00"
+  },
+  {
+   "title": "Anthropic：用强化学习训练对齐审计智能体，Haiku 审计质量可比肩 Opus 4.6",
+   "url": "https://alignment.anthropic.com/2026/training-alignment-auditors/",
+   "source": "Anthropic",
+   "date": "2026-10-15",
+   "summary": "在植入隐藏行为的目标模型上用成对奖励训练审计策略；最佳配置审计质量 72.7（Opus 4.6 为 68.0），假阳性校准约 99.6，并可迁移到更难的 AuditBench 目标。",
+   "id": "f34a02fc3ed935f3b06841883981a0912214ca21",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T11:32:00+08:00"
+  },
+  {
+   "title": "DeepMind：Gemini 4 Argon 安全报告称 AI 驱动的 ML 研发尚未端到端加速",
+   "url": "https://storage.googleapis.com/deepmind-media/gemini/gemini_4_safety_report.pdf",
+   "source": "Google DeepMind",
+   "date": "2026-10-15",
+   "summary": "官方 Safety & Security Report 评估 ML R&D 加速/自动化均未达关键能力阈值；模型卡亦写明研究工程任务表现低于阈值，并称目前未见显著端到端研发加速。",
+   "id": "03bd3d1d2c09b8a0fc2a1ec3ca4df813be063006",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T11:32:00+08:00"
+  },
+  {
+   "title": "NVIDIA 同步推出 Nemotron 3.5 Bolt：74B（9B 激活）装进约 24GB 本地跑 Agent",
+   "url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Bolt-74B-A9B-24GB",
+   "source": "Hugging Face",
+   "date": "2026-10-15",
+   "summary": "与 Super VL 同日发布：Bolt 74B-A9B 以原生 2-bit 量化面向 RTX/DGX Spark 等本地 Agent；另有 4GB 的 Bolt E4B 计划 10 月 23 日推出。",
+   "id": "af2de150ea4eafa29e70166f6d19b4c4b875638b",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-16T11:32:00+08:00"
   },
   {
    "title": "Anthropic 全面开放 Claude Opus 5.5 Fast：输出最高约 2.5 倍速",
@@ -479,17 +560,6 @@
    "date": "2026-10-15",
    "summary": "日合并量从约 2500 增至超 3 万后，Anthropic 自研服务端中心的 Scion，以 changeset 与派生数据替代 Git 全量克隆；称基础设施 footprint 约为原 Git 镜像的 1/200。暂无公开发布计划。",
    "id": "8c17f1f1ac30a4ed7675999bf42cfdc439a732b4",
-   "module": "opensource",
-   "module_name": "开源与工具",
-   "first_seen": "2026-10-16T10:30:00+08:00"
-  },
-  {
-   "title": "feder-cr/open_scion：面向编程智能体的开源 Scion 风格版本控制",
-   "url": "https://github.com/feder-cr/open_scion",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "summary": "社区开源的 Scion 风格版本控制系统，对应 Anthropic 工程博文中为智能体规模设计的源码控制思路；今日新建后快速获得关注。",
-   "id": "b5d7639c0d82ca900c59936cbd5944716a5bd498",
    "module": "opensource",
    "module_name": "开源与工具",
    "first_seen": "2026-10-16T10:30:00+08:00"
@@ -1443,14 +1513,14 @@
    "first_seen": "2026-10-15T14:29:32+08:00"
   },
   {
-   "title": "阶跃星辰开放 Step 5 Preview 权重，600B MoE 支持百万上下文",
+   "title": "阶跃星辰开放 Step 5 Preview 完整权重，OpenRouter 用量登顶前列",
    "url": "https://finance.sina.com.cn/tech/2026-10-15/doc-inivhpnp8149089.shtml",
    "source": "新浪科技",
    "date": "2026-10-15",
-   "summary": "Step 5 Preview 权重开放下载，MoE 架构与超长上下文引发开发者关注。",
+   "summary": "阶跃宣布开放 BF16/FP8 权重并上线 Hugging Face 与 ModelScope；600B 总参、27B 激活、1M 上下文。据 OpenRouter 10 月 15 日数据，Token 用量周榜与日榜均列全球第二。",
    "id": "1c56534d60e56e787895c8a6650c64b8d74e8153",
-   "module": "opensource",
-   "module_name": "开源与工具",
+   "module": "china",
+   "module_name": "国内 AI 动态",
    "first_seen": "2026-10-15T14:29:32+08:00"
   },
   {
@@ -1585,6 +1655,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "阶跃终端发布首款 Agent 手机 STEPX Neo",
+   "url": "https://www.qbitai.com/2026/10/503244.html",
+   "source": "量子位",
+   "date": "2026-10-14",
+   "summary": "STEPX（阶跃终端）推出大模型原生智能体手机 STEPX Neo，面向创客与 Agent 场景的物理终端形态。",
+   "id": "9a886f5e7d3c3bec91965c83f03f896a8fbf396f",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T11:32:00+08:00"
   },
   {
    "title": "美国八州起诉 OpenAI：指控 ChatGPT 误导用户并危害未成年人",
