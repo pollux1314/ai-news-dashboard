@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-17T00:35:00+08:00",
+  "updated": "2026-10-17T01:35:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Elorian 发布首个模型 Glimpse：推理中可反复裁剪图像/抽取视频帧的视觉思考模型",
+          "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+          "source": "TechCrunch",
+          "date": "2026-10-16",
+          "summary": "前 DeepMind 研究员 Andrew Dai 创办的 Elorian（种子轮 5500 万美元、估值 3 亿美元）推出 Glimpse 研究预览：推理时可回看原图、裁剪区域、抽帧或运行代码测量，即“视觉草稿空间”；API 定价 $0.60/$3 每百万 token，厂商自评在科学图表推理与短视频描述上超过 GPT-6 Astra。"
+        },
         {
           "title": "Anthropic Claude Opus 5.5 Fast Mode 全面开放：最高约 2.5× 输出吞吐，API 价 $8/$40 每百万 token",
           "url": "https://platform.claude.com/docs/en/build-with-claude/fast-mode",
@@ -55,13 +62,6 @@
           "source": "OpenAI",
           "date": "2026-10-15",
           "summary": "GPT-Live-1.1 面向全体用户上线：新增多语种音色（法语、德语、印地语、墨西哥西班牙语、韩语、日语等），口音更自然，并减少语音交互中的“checking…”停顿；API 支持随后开放。"
-        },
-        {
-          "title": "英伟达开源 Nemotron 3.5 Bolt：74B MoE（9B 激活）本地智能体模型，适配 RTX Spark",
-          "url": "https://blogs.nvidia.com/blog/nemotron-3-5-super-vl/",
-          "source": "NVIDIA",
-          "date": "2026-10-15",
-          "summary": "与 Super VL 同期发布：Bolt 74B-A9B 以原生 2-bit 量化压进约 24GB 显存，面向 RTX/DGX Spark 本地智能体；另有面向对话/边缘的 Bolt E4B（约 10 月 23 日上线）。权重已上 Hugging Face，支持 llama.cpp/Ollama/vLLM 等。"
         }
       ]
     },
@@ -70,6 +70,20 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "Semafor：加密模型路由平台 TrustedRouter 完成 600 万美元种子轮，Sierra Ventures 领投",
+          "url": "https://www.semafor.com/article/10/16/2026/openrouter-challenger-closes-seed-round",
+          "source": "Semafor",
+          "date": "2026-10-16",
+          "summary": "上线仅六周的 TrustedRouter 主打端到端加密与可验证机密计算，宣称平台与机房都无法读取部分开放权重模型的提示与输出；CEO Joseph Perla 称 DeepSeek、智谱、月之暗面等中国模型最受欢迎，并计划打造“纽约 Token 交易所”。"
+        },
+        {
+          "title": "Vercel 数据：TypeSafe 决策模型 Jev 两周内被 35% 付费团队使用，成 AI Gateway 史上最快",
+          "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+          "source": "TechCrunch",
+          "date": "2026-10-16",
+          "summary": "据 Vercel AI Gateway 数据，Jev 发布两周覆盖 35% 付费团队，约为第二名 Sonnet 5.5 的两倍；开源模型已占网关 token 量逾 70%、支出近 25%，同时流向前沿实验室的支出增长约 10 倍。"
+        },
         {
           "title": "CNBC：AI 与半导体板块本周市值蒸发超 1 万亿美元，CoreWeave 信用承压",
           "url": "https://www.cnbc.com/2026/10/16/cnbc-daily-open-ai-inflation-coreweave-.html",
@@ -106,20 +120,6 @@
           "summary": "FinOps 平台称已管理近 200 亿美元云支出、帮客户节省逾 4 亿美元；资金将扩展跨云自主优化、加深 OpenAI/Anthropic/Snowflake 等集成，并推进 TokenFlow 统一 AI 用量与预算管控。"
         },
         {
-          "title": "Scuba 出手隐身：累计融资 3400 万美元，做团队与智能体共享上下文引擎",
-          "url": "https://scuba.app/blog/introducing-scuba",
-          "source": "Scuba",
-          "date": "2026-10-15",
-          "summary": "Accel 领投 Pre-seed 并与 IVP 共同领投 Seed，BoxGroup、Conviction、Homebrew、Scribble 等跟投；产品自动整理团队捕获的知识，并通过 MCP 接入 Claude/ChatGPT/Cursor，让智能体基于团队上下文答问与写作。"
-        },
-        {
-          "title": "Modal 完成 7.5 亿美元 D 轮，估值 157.5 亿美元，年化经常性收入破 10 亿",
-          "url": "https://modal.com/blog/1-billion-annualized-run-rate-series-d",
-          "source": "Modal",
-          "date": "2026-10-14",
-          "summary": "Accel 领投，Kleiner Perkins 新进，现有投资方全面跟投；CEO 称用量较 C 轮后约增 3 倍、同比超 15 倍，Sandboxes 单项年化约 3 亿美元，定位面向 AI 智能体与推理的新一代云基础设施。"
-        },
-        {
           "title": "Ramp 完成 18.5 亿美元融资，估值达 600 亿美元并加码 AI",
           "url": "https://techcrunch.com/2026/10/15/ramp-reaches-60b-valuation-as-it-pushes-deeper-into-ai/",
           "source": "TechCrunch",
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "浙大 InfiniSplat v2：冻结几何分支的前馈 3DGS，任意视角重建 LPIPS 降 25.8%",
+          "url": "https://arxiv.org/abs/2610.20341",
+          "source": "arXiv",
+          "date": "2026-10-15",
+          "summary": "基于 Depth Anything 3 构建双分支：冻结几何、单独学习高斯属性，并以 GT 相机对齐与大角度目标视角监督训练；六个数据集上有/无位姿两种设置均取得最佳平均 LPIPS 与 DISTS，登 Hugging Face 每日论文热榜。"
+        },
+        {
+          "title": "阿里 OpenGCUA：开放通用电脑操作智能体全栈，OSWorld-v2 八款模型平均提升 19.6 分",
+          "url": "https://arxiv.org/abs/2610.22200",
+          "source": "arXiv",
+          "date": "2026-10-16",
+          "summary": "阿里 MAI-UI 团队提出 GCUA：由模型自主决定观察、动作与任务组织，以代码执行统一 GUI/Shell 操作；在 OSWorld-v2 离线集上使 GPT-6 Astra、Claude Opus 5 等八款模型平均分数从 45.3 升至 64.9、步数减少 53%，并开源 harness、提示词、轨迹与跨设备 SDK 预览版。"
+        },
         {
           "title": "DeepMind：四名 Gemini 4 Argon 智能体 27 小时通关 Minecraft，写 2783 个程序击败末影龙",
           "url": "https://arxiv.org/abs/2610.22319",
@@ -174,20 +188,6 @@
           "source": "Google Research",
           "date": "2026-10-16",
           "summary": "面向长技术文档的多智能体审阅工具全球开放，试点逾 1.6 万次提交；每周提供两次免费审阅额度。"
-        },
-        {
-          "title": "Simons 基金会联手 OpenAI、Anthropic 启动 1500 万美元数学 AI 计划",
-          "url": "https://www.simonsfoundation.org/news/simons-foundation-launches-15m-effort-to-help-mathematicians-navigate-ai-era/",
-          "source": "Simons Foundation",
-          "date": "2026-10-15",
-          "summary": "计划资助数学家评估 AI 结果并共建方法；OpenAI 出资 500 万美元，Anthropic 亦承诺 500 万美元并提供模型与算力支持。"
-        },
-        {
-          "title": "OPRD：用多范围 Reminder 蒸馏长程编程智能体，SWE 平均提升 11.3 分",
-          "url": "https://arxiv.org/abs/2610.21496",
-          "source": "arXiv",
-          "date": "2026-10-15",
-          "summary": "通过多范围 Reminder 蒸馏提升长程软件工程智能体表现，报告在 SWE 相关评测上平均提升约 11.3 分。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "Meta 新商业条款 10 月 30 日生效：可爬取企业账户关联网站内容并用于训练 AI",
+          "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+          "source": "The Verge",
+          "date": "2026-10-16",
+          "summary": "据 Nieman Lab，Meta 合并后的商业条款授权其爬取与企业账户“关联”的域名并用于训练产品，法律学者担心可借此绕过 robots.txt 与内容授权；Meta 回应称爬虫使用方式未变，更新仅为获取第三方网站商品信息。"
+        },
+        {
           "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
           "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
           "source": "商务部",
@@ -279,13 +286,6 @@
           "source": "OpenAI Alignment",
           "date": "2026-10-16",
           "summary": "对齐报告披露一次测试环境中的未授权资金使用事件，用于透明化内部红队与对齐评估发现。"
-        },
-        {
-          "title": "404 Media：ChatGPT 广告可按邮箱/手机号与提示词话题定向投放",
-          "url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
-          "source": "404 Media",
-          "date": "2026-10-15",
-          "summary": "报道称 ChatGPT 广告定向可结合账号联系方式与对话话题信号，引发对隐私与广告透明度的讨论。"
         },
         {
           "title": "白宫“超级智能”工作组召开首次会议，启动 120 天评估议程",
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "清华特奖得主、GeoPT 一作吴海旭创业物理世界模型：物原科技获蚂蚁、美团等多轮投资",
+          "url": "https://www.qbitai.com/2026/10/503880.html",
+          "source": "量子位",
+          "date": "2026-10-16",
+          "summary": "量子位获悉，MIT CSAIL 博士后吴海旭今年创办物原科技，切入具备物理建模能力的世界模型，技术思路延续 GeoPT“合成动力学”路线；公司已完成多轮融资，估值达数亿美元，投资方包括蚂蚁、美团、达晨财智、星连等。"
+        },
         {
           "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线（不含 Siri AI）",
           "url": "https://technode.com/2026/10/16/apple-intelligence-to-enter-china-beta-testing-this-month-tim-cook-confirms/",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-16",
           "summary": "可灵 4.0 全量开放并强化智能体接入（MCP/CLI），视频生成时长能力提升至约 30 秒量级。"
-        },
-        {
-          "title": "DeepSeek 服务故障近 5 小时后致歉：按账号近 7 日 API 消耗金额全额赠金返还",
-          "url": "https://www.thepaper.cn/newsDetail_forward_34257131",
-          "source": "澎湃新闻",
-          "date": "2026-10-15",
-          "summary": "DeepSeek 对话与部分 API 服务中断约五小时后公布补偿：按账号近七日 API 消耗金额以赠金全额返还，并称将剥离单点依赖。"
         }
       ]
     },
@@ -393,7 +393,7 @@
           "language": "Python",
           "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
           "date": "2026-10-17",
-          "stars": 40141,
+          "stars": 40196,
           "why": "今日日榜热门，今日新增约 1552 星，总星约 4.0 万。"
         },
         {
@@ -404,7 +404,7 @@
           "language": "Python",
           "summary": "面向科研的 Agent Skills 库：177+ 验证技能与百余科学数据库，兼容 Cursor/Claude Code/Codex 等。",
           "date": "2026-10-17",
-          "stars": 51251,
+          "stars": 51280,
           "why": "今日日榜热门，今日新增约 1158 星，总星约 5.1 万。"
         },
         {
@@ -415,7 +415,7 @@
           "language": "Python",
           "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、设计、配音与听写等。",
           "date": "2026-10-17",
-          "stars": 70479,
+          "stars": 70561,
           "why": "今日日榜热门，今日新增约 2301 星，总星约 7.0 万。"
         },
         {
@@ -426,8 +426,19 @@
           "language": "Rust",
           "summary": "面向 AI 智能体的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40× token。",
           "date": "2026-10-17",
-          "stars": 6654,
+          "stars": 6695,
           "why": "今日日榜热门，今日新增约 1647 星，总星约 6.7 千。"
+        },
+        {
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "JavaScript",
+          "summary": "智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发，适配 Claude Code/Codex/Opencode/Cursor 等。",
+          "date": "2026-10-17",
+          "stars": 281176,
+          "why": "今日日榜热门，今日新增约 1057 星，总星约 28.1 万。"
         },
         {
           "title": "ruvnet/ruflo",
@@ -437,7 +448,7 @@
           "language": "TypeScript",
           "summary": "多智能体 swarm/harness：自适应记忆、联邦与向量 RAG，集成 Claude Code/Codex 等。",
           "date": "2026-10-17",
-          "stars": 75499,
+          "stars": 75519,
           "why": "今日日榜热门，今日新增约 672 星，总星约 7.5 万。"
         },
         {
@@ -448,19 +459,8 @@
           "language": "Shell",
           "summary": "智能体技能框架与软件开发方法论，强调可复用的 agentic skills。",
           "date": "2026-10-17",
-          "stars": 300506,
+          "stars": 300525,
           "why": "今日日榜热门，今日新增约 973 星，总星约 30.1 万。"
-        },
-        {
-          "title": "HKUDS/CLI-Anything",
-          "url": "https://github.com/HKUDS/CLI-Anything",
-          "source": "GitHub",
-          "stars_week": null,
-          "language": "Python",
-          "summary": "让各类软件变为可被智能体调用的 Agent-Native CLI。",
-          "date": "2026-10-17",
-          "stars": 53319,
-          "why": "今日日榜热门，今日新增约 323 星，总星约 5.3 万。"
         },
         {
           "title": "mksglu/context-mode",
@@ -470,7 +470,7 @@
           "language": "TypeScript",
           "summary": "为编程智能体优化上下文窗口：沙箱化工具输出（宣称约减 98%）、持久会话记忆与跨平台路由。",
           "date": "2026-10-17",
-          "stars": 30091,
+          "stars": 30115,
           "why": "今日日榜热门，今日新增约 449 星，总星约 3.0 万。"
         }
       ]
@@ -480,6 +480,54 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@AndrewDai",
+          "url": "https://x.com/AndrewDai/status/2111142161584628060",
+          "source": "@AndrewDai",
+          "date": "2026-10-16",
+          "summary": "Elorian CEO Andrew Dai 发布首个“视觉思考”模型 Glimpse，称在关键公开视觉推理基准上可与 GPT-6 Astra 竞争，聊天用户免费、提供 API 并上架 OpenRouter。",
+          "metrics": {
+            "likes": 220,
+            "reposts": 52,
+            "views": 31629
+          }
+        },
+        {
+          "title": "@OpenAIDevs",
+          "url": "https://x.com/OpenAIDevs/status/2111142258867335430",
+          "source": "@OpenAIDevs",
+          "date": "2026-10-16",
+          "summary": "OpenAI Developers 介绍用 GPT-Live-1 构建语音应用时，可通过提示词塑造音色，或选用新的国际化预设声音。",
+          "metrics": {
+            "likes": 237,
+            "reposts": 21,
+            "views": 12978
+          }
+        },
+        {
+          "title": "@ArtificialAnlys",
+          "url": "https://x.com/ArtificialAnlys/status/2111087606759030831",
+          "source": "@ArtificialAnlys",
+          "date": "2026-10-16",
+          "summary": "Artificial Analysis：Reflection 首个开放权重模型 Beam（501B 总参/23B 激活）智能指数得 30 分，位列美国开放权重模型第 2。",
+          "metrics": {
+            "likes": 381,
+            "reposts": 36,
+            "views": 31716
+          }
+        },
+        {
+          "title": "@StepFun_ai",
+          "url": "https://x.com/StepFun_ai/status/2111094816327254192",
+          "source": "@StepFun_ai",
+          "date": "2026-10-16",
+          "summary": "阶跃星辰称 Step 5 Preview 上线一周即登 OpenRouter 周榜第 2，累计用量 19.5T token，并自 10 月 10 日起稳居日榜第 2。",
+          "metrics": {
+            "likes": 115,
+            "reposts": 3,
+            "views": 3141
+          }
+        },
         {
           "title": "@GoogleDeepMind",
           "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
@@ -518,30 +566,6 @@
         },
         {
           "title": "@OpenAI",
-          "url": "https://x.com/OpenAI/status/2110797830361436604",
-          "source": "@OpenAI",
-          "date": "2026-10-15",
-          "summary": "OpenAI 宣布 GPT-Live-1.1 向全体用户推送：新音色与更好口音覆盖法语、德语、印地语、墨西哥西班牙语、韩语与日语，并减少语音中的“checking…”；API 即将开放。",
-          "metrics": {
-            "likes": 10445,
-            "reposts": 744,
-            "views": 1477860
-          }
-        },
-        {
-          "title": "@AnthropicAI",
-          "url": "https://x.com/AnthropicAI/status/2110784662071398807",
-          "source": "@AnthropicAI",
-          "date": "2026-10-15",
-          "summary": "Anthropic 宣布已向 METR 团队授予类员工级访问，用于独立评估安全实践，并说明与第三方评估方的合作方式。",
-          "metrics": {
-            "likes": 3555,
-            "reposts": 238,
-            "views": 475745
-          }
-        },
-        {
-          "title": "@OpenAI",
           "url": "https://x.com/OpenAI/status/2110841898076418336",
           "source": "@OpenAI",
           "date": "2026-10-15",
@@ -550,30 +574,6 @@
             "likes": 2698,
             "reposts": 250,
             "views": 284091
-          }
-        },
-        {
-          "title": "@AnthropicAI",
-          "url": "https://x.com/AnthropicAI/status/2110720940665372825",
-          "source": "@AnthropicAI",
-          "date": "2026-10-15",
-          "summary": "Anthropic 开放两类新研究奖学金申请（STEM 与概念推理），2027 年 1 月起为期四个月，帮助 Claude 提升推理能力。",
-          "metrics": {
-            "likes": 6561,
-            "reposts": 532,
-            "views": 1168605
-          }
-        },
-        {
-          "title": "@OpenAI",
-          "url": "https://x.com/OpenAI/status/2110741355739963884",
-          "source": "@OpenAI",
-          "date": "2026-10-15",
-          "summary": "OpenAI 宣布向 Simons 基金会数学 AI 计划出资 500 万美元，帮助数学界审视、理解并在 AI 结果之上继续推进研究。",
-          "metrics": {
-            "likes": 5887,
-            "reposts": 469,
-            "views": 857206
           }
         }
       ]

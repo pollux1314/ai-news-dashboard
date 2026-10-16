@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T00:35:00+08:00",
- "count": 283,
+ "updated": "2026-10-17T01:35:00+08:00",
+ "count": 294,
  "items": [
   {
    "title": "HKUDS/CLI-Anything",
@@ -25,7 +25,7 @@
    "language": "Rust",
    "summary": "面向 AI 智能体的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40× token。",
    "date": "2026-10-17",
-   "stars": 6654,
+   "stars": 6695,
    "why": "今日日榜热门，今日新增约 1647 星，总星约 6.7 千。",
    "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
    "module": "github",
@@ -40,9 +40,24 @@
    "language": "TypeScript",
    "summary": "多智能体 swarm/harness：自适应记忆、联邦与向量 RAG，集成 Claude Code/Codex 等。",
    "date": "2026-10-17",
-   "stars": 75499,
+   "stars": 75519,
    "why": "今日日榜热门，今日新增约 672 星，总星约 7.5 万。",
    "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T20:32:02+08:00"
+  },
+  {
+   "title": "affaan-m/ECC",
+   "url": "https://github.com/affaan-m/ECC",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "JavaScript",
+   "summary": "智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发，适配 Claude Code/Codex/Opencode/Cursor 等。",
+   "date": "2026-10-17",
+   "stars": 281176,
+   "why": "今日日榜热门，今日新增约 1057 星，总星约 28.1 万。",
+   "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T20:32:02+08:00"
@@ -55,7 +70,7 @@
    "language": "Shell",
    "summary": "智能体技能框架与软件开发方法论，强调可复用的 agentic skills。",
    "date": "2026-10-17",
-   "stars": 300506,
+   "stars": 300525,
    "why": "今日日榜热门，今日新增约 973 星，总星约 30.1 万。",
    "id": "2046f5e50fafe44ab9382efbd7ce4484b55575ee",
    "module": "github",
@@ -70,7 +85,7 @@
    "language": "Python",
    "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
    "date": "2026-10-17",
-   "stars": 40141,
+   "stars": 40196,
    "why": "今日日榜热门，今日新增约 1552 星，总星约 4.0 万。",
    "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
    "module": "github",
@@ -85,7 +100,7 @@
    "language": "Python",
    "summary": "面向科研的 Agent Skills 库：177+ 验证技能与百余科学数据库，兼容 Cursor/Claude Code/Codex 等。",
    "date": "2026-10-17",
-   "stars": 51251,
+   "stars": 51280,
    "why": "今日日榜热门，今日新增约 1158 星，总星约 5.1 万。",
    "id": "36917ef32b441dc1267859059cff87fff8d86bcd",
    "module": "github",
@@ -100,7 +115,7 @@
    "language": "Python",
    "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、设计、配音与听写等。",
    "date": "2026-10-17",
-   "stars": 70479,
+   "stars": 70561,
    "why": "今日日榜热门，今日新增约 2301 星，总星约 7.0 万。",
    "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
    "module": "github",
@@ -115,12 +130,142 @@
    "language": "TypeScript",
    "summary": "为编程智能体优化上下文窗口：沙箱化工具输出（宣称约减 98%）、持久会话记忆与跨平台路由。",
    "date": "2026-10-17",
-   "stars": 30091,
+   "stars": 30115,
    "why": "今日日榜热门，今日新增约 449 星，总星约 3.0 万。",
    "id": "c4764ac37ccdddc8e7717cba92f01f19c175907a",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Elorian 发布首个模型 Glimpse：推理中可反复裁剪图像/抽取视频帧的视觉思考模型",
+   "url": "https://techcrunch.com/2026/10/16/elorians-first-ai-model-wants-to-reason-with-images-not-just-about-them/",
+   "source": "TechCrunch",
+   "date": "2026-10-16",
+   "summary": "前 DeepMind 研究员 Andrew Dai 创办的 Elorian（种子轮 5500 万美元、估值 3 亿美元）推出 Glimpse 研究预览：推理时可回看原图、裁剪区域、抽帧或运行代码测量，即“视觉草稿空间”；API 定价 $0.60/$3 每百万 token，厂商自评在科学图表推理与短视频描述上超过 GPT-6 Astra。",
+   "id": "6f0ec75f9d13aede3ac2b4269c4896bc3781b2b4",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "Semafor：加密模型路由平台 TrustedRouter 完成 600 万美元种子轮，Sierra Ventures 领投",
+   "url": "https://www.semafor.com/article/10/16/2026/openrouter-challenger-closes-seed-round",
+   "source": "Semafor",
+   "date": "2026-10-16",
+   "summary": "上线仅六周的 TrustedRouter 主打端到端加密与可验证机密计算，宣称平台与机房都无法读取部分开放权重模型的提示与输出；CEO Joseph Perla 称 DeepSeek、智谱、月之暗面等中国模型最受欢迎，并计划打造“纽约 Token 交易所”。",
+   "id": "444f85e765a60c2fbacd8365bb3433a5e4f17b96",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "Vercel 数据：TypeSafe 决策模型 Jev 两周内被 35% 付费团队使用，成 AI Gateway 史上最快",
+   "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
+   "source": "TechCrunch",
+   "date": "2026-10-16",
+   "summary": "据 Vercel AI Gateway 数据，Jev 发布两周覆盖 35% 付费团队，约为第二名 Sonnet 5.5 的两倍；开源模型已占网关 token 量逾 70%、支出近 25%，同时流向前沿实验室的支出增长约 10 倍。",
+   "id": "7524c167f0c40ac13a6bc66261093a65ff87e06d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "阿里 OpenGCUA：开放通用电脑操作智能体全栈，OSWorld-v2 八款模型平均提升 19.6 分",
+   "url": "https://arxiv.org/abs/2610.22200",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "阿里 MAI-UI 团队提出 GCUA：由模型自主决定观察、动作与任务组织，以代码执行统一 GUI/Shell 操作；在 OSWorld-v2 离线集上使 GPT-6 Astra、Claude Opus 5 等八款模型平均分数从 45.3 升至 64.9、步数减少 53%，并开源 harness、提示词、轨迹与跨设备 SDK 预览版。",
+   "id": "c26a37e4b78d8f6f71aabca21d28ea34eb6fb80d",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "Meta 新商业条款 10 月 30 日生效：可爬取企业账户关联网站内容并用于训练 AI",
+   "url": "https://www.theverge.com/tech/1012846/meta-business-terms-scrape-news-publishers",
+   "source": "The Verge",
+   "date": "2026-10-16",
+   "summary": "据 Nieman Lab，Meta 合并后的商业条款授权其爬取与企业账户“关联”的域名并用于训练产品，法律学者担心可借此绕过 robots.txt 与内容授权；Meta 回应称爬虫使用方式未变，更新仅为获取第三方网站商品信息。",
+   "id": "ad3a47861a304e90929ff5e23fc83f823638b7a6",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "清华特奖得主、GeoPT 一作吴海旭创业物理世界模型：物原科技获蚂蚁、美团等多轮投资",
+   "url": "https://www.qbitai.com/2026/10/503880.html",
+   "source": "量子位",
+   "date": "2026-10-16",
+   "summary": "量子位获悉，MIT CSAIL 博士后吴海旭今年创办物原科技，切入具备物理建模能力的世界模型，技术思路延续 GeoPT“合成动力学”路线；公司已完成多轮融资，估值达数亿美元，投资方包括蚂蚁、美团、达晨财智、星连等。",
+   "id": "5199aaef7e490cc645f4a06763f2dde08d24be6c",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "@AndrewDai",
+   "url": "https://x.com/AndrewDai/status/2111142161584628060",
+   "source": "@AndrewDai",
+   "date": "2026-10-16",
+   "summary": "Elorian CEO Andrew Dai 发布首个“视觉思考”模型 Glimpse，称在关键公开视觉推理基准上可与 GPT-6 Astra 竞争，聊天用户免费、提供 API 并上架 OpenRouter。",
+   "metrics": {
+    "likes": 220,
+    "reposts": 52,
+    "views": 31629
+   },
+   "id": "84e981e0a96d0d454b4616f692468a1f781e167a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "@OpenAIDevs",
+   "url": "https://x.com/OpenAIDevs/status/2111142258867335430",
+   "source": "@OpenAIDevs",
+   "date": "2026-10-16",
+   "summary": "OpenAI Developers 介绍用 GPT-Live-1 构建语音应用时，可通过提示词塑造音色，或选用新的国际化预设声音。",
+   "metrics": {
+    "likes": 237,
+    "reposts": 21,
+    "views": 12978
+   },
+   "id": "012aca243af6f4bbb8ad923943b5c13b92998084",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "@ArtificialAnlys",
+   "url": "https://x.com/ArtificialAnlys/status/2111087606759030831",
+   "source": "@ArtificialAnlys",
+   "date": "2026-10-16",
+   "summary": "Artificial Analysis：Reflection 首个开放权重模型 Beam（501B 总参/23B 激活）智能指数得 30 分，位列美国开放权重模型第 2。",
+   "metrics": {
+    "likes": 381,
+    "reposts": 36,
+    "views": 31716
+   },
+   "id": "546f12cdb4d80137b152a9c18ccb0f0a3d5aa1be",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T01:35:00+08:00"
+  },
+  {
+   "title": "@StepFun_ai",
+   "url": "https://x.com/StepFun_ai/status/2111094816327254192",
+   "source": "@StepFun_ai",
+   "date": "2026-10-16",
+   "summary": "阶跃星辰称 Step 5 Preview 上线一周即登 OpenRouter 周榜第 2，累计用量 19.5T token，并自 10 月 10 日起稳居日榜第 2。",
+   "metrics": {
+    "likes": 115,
+    "reposts": 3,
+    "views": 3141
+   },
+   "id": "fef45852e250b5fb3453e28d1edf958bee913348",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T01:35:00+08:00"
   },
   {
    "title": "DeepMind：四名 Gemini 4 Argon 智能体 27 小时通关 Minecraft，写 2783 个程序击败末影龙",
@@ -836,21 +981,6 @@
    "first_seen": "2026-10-16T01:40:00+08:00"
   },
   {
-   "title": "affaan-m/ECC",
-   "url": "https://github.com/affaan-m/ECC",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "JavaScript",
-   "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发。",
-   "date": "2026-10-16",
-   "stars": 280897,
-   "why": "今日日榜热门，今日新增约 1057 星，总星约 28.1 万。",
-   "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T20:32:02+08:00"
-  },
-  {
    "title": "JuliusBrussee/caveman",
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "GitHub",
@@ -920,6 +1050,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "浙大 InfiniSplat v2：冻结几何分支的前馈 3DGS，任意视角重建 LPIPS 降 25.8%",
+   "url": "https://arxiv.org/abs/2610.20341",
+   "source": "arXiv",
+   "date": "2026-10-15",
+   "summary": "基于 Depth Anything 3 构建双分支：冻结几何、单独学习高斯属性，并以 GT 相机对齐与大角度目标视角监督训练；六个数据集上有/无位姿两种设置均取得最佳平均 LPIPS 与 DISTS，登 Hugging Face 每日论文热榜。",
+   "id": "faa3c2c4277ecf8743d444da0274f56d03c2e2a2",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T01:35:00+08:00"
   },
   {
    "title": "Mueon 完成 6500 万美元 A 轮：Maverick Silicon 领投，推进 Cubelets 模块化 AI 算力硬件",
