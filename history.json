@@ -1,7 +1,22 @@
 {
- "updated": "2026-10-16T07:27:00+08:00",
- "count": 189,
+ "updated": "2026-10-16T08:30:00+08:00",
+ "count": 197,
  "items": [
+  {
+   "title": "QingYunA/answer-me-with-html",
+   "url": "https://github.com/QingYunA/answer-me-with-html",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 3450,
+   "stars_week": null,
+   "language": "JavaScript",
+   "summary": "Agent Skill：用一页可读 HTML 回答复杂问题，兼容 Claude Code 等。",
+   "why": "近期热门 AI agent skill，约 3.5k 星。",
+   "id": "39a6cfc0a703e3942217a346569a38f09d7be6bf",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T08:30:00+08:00"
+  },
   {
    "title": "OpenAI 推出 Rosalind Academic Plan：向美国高校实验室开放 GPT-Rosalind",
    "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
@@ -31,9 +46,9 @@
    "date": "2026-10-16",
    "summary": "Meta Omnilingual ASR 入选《时代》2026 最佳发明：覆盖 1600+ 语言，含约 500 种此前几乎无覆盖的低资源语言。",
    "metrics": {
-    "likes": 132,
-    "reposts": 18,
-    "views": 7489
+    "likes": 227,
+    "reposts": 26,
+    "views": 12450
    },
    "id": "81868fd23b0972ce81fc902724f5a665bf59f4fa",
    "module": "x",
@@ -47,9 +62,9 @@
    "date": "2026-10-16",
    "summary": "Anthropic 宣布向 Simons 基金会数学 AI 倡议提供 500 万美元资助，并支持数学与更广泛科学领域的研究者。",
    "metrics": {
-    "likes": 932,
-    "reposts": 63,
-    "views": 72252
+    "likes": 1083,
+    "reposts": 81,
+    "views": 85367
    },
    "id": "061414cde0b10d6d4c8d8c817df9994604e09e2d",
    "module": "x",
@@ -74,9 +89,9 @@
    "date": "2026-10-16",
    "summary": "OpenAI 扩大 GPT-Rosalind 学术访问：新推出 Rosalind Academic Plan，为符合条件的美国高校实验室提供赞助访问。",
    "metrics": {
-    "likes": 490,
-    "reposts": 57,
-    "views": 46401
+    "likes": 1506,
+    "reposts": 139,
+    "views": 148863
    },
    "id": "91f6232d44de146187e56932df9a504003074cd9",
    "module": "x",
@@ -184,11 +199,11 @@
    "url": "https://x.com/AIatMeta/status/2110779754274292212",
    "source": "@AIatMeta",
    "date": "2026-10-16",
-   "summary": "Meta 发布 Muse Spark Open，称其为迄今最强的美国开放权重模型：816B 总参 / 42B 激活、1M 上下文，面向编码与智能体任务。",
+   "summary": "Meta 发布 Muse Spark Open：816B 总参 / 42B 激活、1M 上下文，面向编码与长程智能体；称其为迄今最强美国开放权重模型。",
    "metrics": {
-    "likes": 6629,
-    "reposts": 649,
-    "views": 362595
+    "likes": 8855,
+    "reposts": 924,
+    "views": 599373
    },
    "id": "5c16a9c6461b449689e83655df40b083e2b450c0",
    "module": "x",
@@ -215,11 +230,11 @@
    "url": "https://x.com/AnthropicAI/status/2110784662071398807",
    "source": "@AnthropicAI",
    "date": "2026-10-16",
-   "summary": "Anthropic 称正与多家机构商谈由外部评估方审视其安全实践，并已向 METR_Evals 团队授予接近员工级访问权限；同步介绍与第三方评估方的合作方式。",
+   "summary": "Anthropic 更新第三方评估合作：已向 METR 团队开放接近员工级访问以评估安全实践，并正与多家评估方洽谈。",
    "metrics": {
-    "likes": 1616,
-    "reposts": 109,
-    "views": 168914
+    "likes": 2368,
+    "reposts": 169,
+    "views": 272006
    },
    "id": "c9c82329cbcae35290082aec08401c4d622f84af",
    "module": "x",
@@ -233,9 +248,9 @@
    "date": "2026-10-16",
    "summary": "OpenAI 向 Simons 基金会新倡议捐助 500 万美元，帮助数学家检验、理解并扩展 AI 生成的研究成果。",
    "metrics": {
-    "likes": 4352,
-    "reposts": 341,
-    "views": 476220
+    "likes": 4504,
+    "reposts": 349,
+    "views": 507931
    },
    "id": "8793a1813d242e00bc602137a8f363e530424831",
    "module": "x",
@@ -275,18 +290,14 @@
    "first_seen": "2026-10-15T22:35:00+08:00"
   },
   {
-   "title": "xerj-org/xerj",
+   "title": "xerj-org/xerj：面向 AI 的低 token 数据搜索与自动索引引擎",
    "url": "https://github.com/xerj-org/xerj",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 5601,
-   "stars_week": null,
-   "language": "Rust",
-   "summary": "为 AI 智能体设计的低 token 搜索与自动索引引擎，兼容 Elasticsearch。",
-   "why": "今日日榜新上，单日新增约 725 星。",
+   "summary": "一键索引代码、文档、日志与 PDF，供搜索、RAG、安全审计与智能体记忆；自称比 grep 少约 40 倍 token，兼容 Elasticsearch 客户端。今日日榜热门。",
    "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
+   "module": "opensource",
+   "module_name": "开源与工具",
    "first_seen": "2026-10-15T21:28:55+08:00"
   },
   {
@@ -324,7 +335,7 @@
    "url": "https://github.com/obra/superpowers",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 299858,
+   "stars": 299886,
    "stars_week": null,
    "language": "Shell",
    "summary": "可工作的智能体技能框架与软件开发方法论。",
@@ -339,7 +350,7 @@
    "url": "https://github.com/JuliusBrussee/caveman",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 112507,
+   "stars": 112531,
    "stars_week": null,
    "language": "Go",
    "summary": "用“穴居人”式短指令帮编程智能体砍掉约 65% token 的病毒式技能与代理。",
@@ -369,7 +380,7 @@
    "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 50427,
+   "stars": 50455,
    "stars_week": null,
    "language": "Python",
    "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
@@ -384,7 +395,7 @@
    "url": "https://github.com/debpalash/VoiceStudio",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 68993,
+   "stars": 69061,
    "stars_week": null,
    "language": "Python",
    "summary": "开源本地 ElevenLabs 替代：语音克隆、设计、配音、听写、转写与有声书，覆盖 646 种语言。",
@@ -414,7 +425,7 @@
    "url": "https://github.com/morluto/rea",
    "source": "GitHub",
    "date": "2026-10-16",
-   "stars": 269072,
+   "stars": 269806,
    "stars_week": null,
    "language": "TypeScript",
    "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
@@ -423,6 +434,65 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "onehumanbeing/esp32-iphone-agent",
+   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
+   "source": "GitHub",
+   "date": "2026-10-16",
+   "stars": 2434,
+   "stars_week": null,
+   "language": "C",
+   "summary": "约 7 美元 ESP32 让任意 OpenAI 兼容视觉模型操控真机 iPhone：AirPlay 视觉 + USB HID，无需 Mac/开发者账号/越狱。",
+   "why": "十月新建 computer-use 项目，快速涨至约 2.4k 星。",
+   "id": "a1097dcd46a9932f1d60a79700c7cf8606527e88",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "OpenAI 上线巴西葡语 AI for Educators，并推介 Study Mode 引导式学习",
+   "url": "https://openai.com/index/teaching-students-to-think-and-learn-through-questions/",
+   "source": "OpenAI",
+   "date": "2026-10-15",
+   "summary": "教师节活动中，OpenAI Academy 推出巴西葡萄牙语版 AI for Educators 课程；Study Mode 以提问、提示与理解检查支持主动学习，可在 ChatGPT 工具菜单开启。",
+   "id": "7cc489b1fbeaaf9318c5269727d0f8f0ed476dcd",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T08:30:00+08:00"
+  },
+  {
+   "title": "Cohere 拟收购网络安全初创 AISLE，成立 Cohere Cyber",
+   "url": "https://cohere.com/blog/cohere-and-aisle-sign-letter-of-intent-to-advance-cyber-resilient-sovereign-ai",
+   "source": "Cohere",
+   "date": "2026-10-15",
+   "summary": "双方签署意向书：AISLE 以 AI 自主发现与修复未知漏洞（首年超 500 个 CVE，含 OpenSSL/curl）；创始人将领导新 Cohere Cyber，并扩大布拉格布局。交易条款未披露，尚未交割。",
+   "id": "7d369f9d483c77b3c2259f2daa652e564b0940cb",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T08:30:00+08:00"
+  },
+  {
+   "title": "CIPR：跨接口一致性训练提升 LLM 智能体对工具界面扰动的鲁棒性",
+   "url": "https://arxiv.org/abs/2610.20576",
+   "source": "arXiv",
+   "date": "2026-10-15",
+   "summary": "提出 Cross-Interface Policy Regularization：在已知等价动作对应下惩罚两套工具界面间的动作分布 KL；在函数调用基准上，相对标准后训练可在界面扰动下多恢复约 10.5 个百分点准确率。",
+   "id": "9112c94f891093bfaf9f58bf1bc2a4bc79cd1d2f",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T08:30:00+08:00"
+  },
+  {
+   "title": "IBM 发布 Granite Switch 4.1：聊天、决策与语音同端点（8B/30B）",
+   "url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+   "source": "Hugging Face",
+   "date": "2026-10-15",
+   "summary": "集成 Decision aLoRA、Guardian 安全 aLoRA 与 OpenASR 榜单最快的 Granite-Speech-5.0-Turbo-CTC；Activated LoRA 复用 KV cache，可在单端点实时完成转写—摘要—安全筛选。",
+   "id": "a01e02239da0a38ee49f2989916454516c49e83e",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-16T08:30:00+08:00"
   },
   {
    "title": "Simons 基金会联合 OpenAI、Anthropic 投入 1500 万美元帮助数学界适应 AI",
@@ -1338,11 +1408,11 @@
    "url": "https://x.com/GoogleDeepMind/status/2110421861435879476",
    "source": "@GoogleDeepMind",
    "date": "2026-10-15",
-   "summary": "Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等领域带来科学突破，并向 1 万名科学家免费开放 Antigravity 最高档 6 个月。",
+   "summary": "DeepMind 称 Gemini 4 Argon 已在量子计算、核聚变、蛋白质设计等方向加速科学突破。",
    "metrics": {
-    "likes": 2211,
-    "reposts": 278,
-    "views": 135477
+    "likes": 2354,
+    "reposts": 294,
+    "views": 148515
    },
    "id": "e854ba173c3883c9c97190271c7803e6b93fd9db",
    "module": "x",
@@ -1451,19 +1521,26 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
-   "title": "onehumanbeing/esp32-iphone-agent",
-   "url": "https://github.com/onehumanbeing/esp32-iphone-agent",
-   "source": "GitHub",
-   "date": "2026-10-15",
-   "stars": 2171,
-   "stars_week": null,
-   "language": "C",
-   "summary": "用 7 美元的 ESP32 让 AI 视觉模型操控真实 iPhone（AirPlay 看屏 + USB HID 操作）。",
-   "why": "10 月 11 日创建，数天内破 2k 星，低成本手机智能体新思路。",
-   "id": "a1097dcd46a9932f1d60a79700c7cf8606527e88",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T14:10:00+08:00"
+   "title": "谷歌：地理空间推理智能体系统评测与 GeoKTools / GeoExpertQueries 基准",
+   "url": "https://research.google/blog/putting-earth-ai-to-work-geospatial-agents-for-our-planets-biggest-challenges/",
+   "source": "Google Research",
+   "date": "2026-10-14",
+   "summary": "技术报告比较独立 LLM、通用工具、Earth AI 技能与完整规划智能体；领域专用技能与事前规划显著提升开放式空间工作流表现，并开源部分基准开发集。",
+   "id": "93dc9e9d57baf2011e2b30744bd421102fa08c23",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T08:30:00+08:00"
+  },
+  {
+   "title": "Labelbox 完成超 1 亿美元 E 轮，投前估值 12.5 亿美元",
+   "url": "https://labelbox.com/blog/labelbox-series-e/",
+   "source": "Labelbox",
+   "date": "2026-10-14",
+   "summary": "Infinitum Partners 领投，含股权与信贷额度；资金加码面向前沿实验室的 Horizon RL 环境与面向企业的 Recursion Managed Agents。",
+   "id": "90e2e91e2f01c5663468f4b06792de3f97422c95",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T08:30:00+08:00"
   },
   {
    "title": "Lumma-Fev-27B：单次前向完成决策的 27B 开源决策模型",
@@ -1892,11 +1969,22 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
-   "title": "梁文锋拟领投 Winverse AI：DeepSeek 加码机器人「大脑」",
-   "url": "https://www.qbitai.com/2026/10/503093.html",
-   "source": "量子位 / Bloomberg",
+   "title": "Prime Intellect 收购视觉模型公司 Moondream 及其 Photon 推理引擎",
+   "url": "https://www.primeintellect.ai/blog/moondream",
+   "source": "Prime Intellect",
    "date": "2026-10-13",
-   "summary": "据彭博社，DeepSeek 计划领投腾讯前科学家、Swin Transformer 共同作者胡瀚创办的具身基础模型公司数千万美元种子轮，投后估值约 4 亿美元；美团龙珠亦有意向。此前 DeepSeek 已战略入股宇树约 1.41 亿元。",
+   "summary": "Moondream 创始人加入负责推理与多模态；Moondream 3.1 已上线 Prime Inference，云服务拟于 11 月 13 日关停并迁移客户。",
+   "id": "8b26376aba7673c01e20512f2599dc8eec88df96",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-16T08:30:00+08:00"
+  },
+  {
+   "title": "DeepSeek 拟领投 Winverse AI：梁文锋加码「具身大脑」",
+   "url": "https://www.qbitai.com/2026/10/503093.html",
+   "source": "量子位",
+   "date": "2026-10-13",
+   "summary": "据彭博，DeepSeek 计划领投 Swin Transformer 作者胡瀚创办的机器人 AI 公司种子轮，投后估值约 4 亿美元；此前已入股宇树，形成本体+大脑双线布局。",
    "id": "674ec494e48979a6ea32bbdf1414024352634488",
    "module": "china",
    "module_name": "国内 AI 动态",
