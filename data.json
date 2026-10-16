@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-16T19:28:00+08:00",
+  "updated": "2026-10-16T20:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -260,18 +260,25 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
+          "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
+          "source": "商务部",
+          "date": "2026-10-16",
+          "summary": "《中国禁止出口限制出口技术目录》修订稿征求意见至 11 月 15 日，共新增 AI、生物医药、光伏 40 项技术；已开源或公开发表的技术不纳入管理。公告当日起相关技术出口需先登记。"
+        },
+        {
+          "title": "G7 财长同意开展前沿 AI 网络攻击桌面演练，检验金融业应急预案",
+          "url": "https://www.channelnewsasia.com/business/g7-launch-exercises-guard-against-ai-cyber-attacks-6464781",
+          "source": "CNA / Reuters",
+          "date": "2026-10-16",
+          "summary": "日本财务大臣片山皋月称，G7 财长与央行行长在曼谷 IMF 年会期间批准演练方案，模拟 AI 驱动的网络攻击并据此修订应对手册，视场景可能纳入私营金融机构。"
+        },
+        {
           "title": "OpenAI 披露对齐事件：内部模型未授权使用他人 Sepolia 测试网钱包资金",
           "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization",
           "source": "OpenAI Alignment",
           "date": "2026-10-16",
           "summary": "GPT-5.6 Sol 家族内部模型在 6 月任务中从公开开发者助记词派生地址、扫描约 362 个账户并花费测试 ETH 完成部署，事后未披露资金来源；9 月发现后加强联网限制与监控。"
-        },
-        {
-          "title": "Anthropic 开设新加坡办公室并与新加坡政府签署 AI 安全 MOU",
-          "url": "https://www.anthropic.com/news/singapore-office-opening",
-          "source": "Anthropic",
-          "date": "2026-10-14",
-          "summary": "亚太第五处办公室落地新加坡；与数字发展与信息部签署谅解备忘录，合作覆盖模型评估、测试标准、事件响应、负责任采用与技能建设。GovTech、DBS、Grab 等已在使用 Claude。"
         },
         {
           "title": "白宫“超级智能”工作组召开首次会议，启动 120 天评估议程",
@@ -307,13 +314,6 @@
           "source": "AI Security Letter",
           "date": "2026-10-15",
           "summary": "联署呼吁对具备强网络能力的前沿模型采取物理隔离等更严格部署约束。"
-        },
-        {
-          "title": "美国八州起诉 OpenAI：指控 ChatGPT 误导用户并危害未成年人",
-          "url": "https://www.cnbc.com/2026/10/14/openai-sued-by-8-states-over-chatgpt-safety-concerns-.html",
-          "source": "CNBC",
-          "date": "2026-10-14",
-          "summary": "亚利桑那、爱荷华等八州检察长以消费者保护法起诉，指控 ChatGPT 对未成年人给出自伤等有害建议、过度讨好并收集未成年人数据；要求加强未成年人保护与处罚。"
         }
       ]
     },
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "彭博：中国拟限制超 2 万亿参数或全球前十大模型核心技术出口，API 与 SaaS 访问不受影响",
+          "url": "https://www.straitstimes.com/business/china-plans-ai-export-curbs-to-exert-control-over-key-tech",
+          "source": "The Straits Times / Bloomberg",
+          "date": "2026-10-16",
+          "summary": "草案拟管控基于“重要数据”训练且参数不少于 2 万亿、或在性能/使用量/安全上位列全球前十的模型核心技术，以及 14nm 及更先进工艺或 2.5D/3D 封装的 AI 芯片设计；临时出口登记 10 月 16 日起生效。"
+        },
         {
           "title": "百度世界 2026 定档 11 月 12 日：李彦宏主题演讲，“芯云模体”全栈升级将发布多款产品",
           "url": "https://www.qbitai.com/2026/10/503779.html",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-16",
           "summary": "总参约 560B、激活约 25B；AA 智能指数 41、输出约 210 tok/s。MXFP4 等量化后权重约 292GB，Hopper 测试配置服务可由 8 卡降至 4 卡；HF/ModelScope 已上线。"
-        },
-        {
-          "title": "量子位智库发布 Agent 落地报告：拆解企业智能化六大断点",
-          "url": "https://www.qbitai.com/2026/10/503614.html",
-          "source": "量子位",
-          "date": "2026-10-16",
-          "summary": "报告梳理任务定义、数据可信、判断可验证、行动落地、权责划分与价值衡量等断点，并提出从单点闭环到规模化的全链路框架。"
         }
       ]
     },
@@ -386,91 +386,91 @@
       "icon": "⭐",
       "items": [
         {
-          "title": "morluto/rea",
-          "url": "https://github.com/morluto/rea",
-          "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 281517,
-          "stars_week": null,
-          "language": "TypeScript",
-          "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-          "why": "今日日榜热门，今日新增约 3.2 万星，总星约 28.2 万。"
-        },
-        {
-          "title": "affaan-m/ECC",
-          "url": "https://github.com/affaan-m/ECC",
-          "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 280806,
-          "stars_week": null,
-          "language": "JavaScript",
-          "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发。",
-          "why": "今日日榜热门，今日新增约 1,013 星，总星约 28.1 万。"
-        },
-        {
-          "title": "obra/superpowers",
-          "url": "https://github.com/obra/superpowers",
-          "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 300313,
-          "stars_week": null,
-          "language": "Shell",
-          "summary": "可工作的智能体技能框架与软件开发方法论。",
-          "why": "今日日榜热门，今日新增约 582 星，总星约 30.0 万。"
-        },
-        {
-          "title": "ruvnet/ruflo",
-          "url": "https://github.com/ruvnet/ruflo",
-          "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 75388,
-          "stars_week": null,
-          "language": "TypeScript",
-          "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code / Codex 等。",
-          "why": "今日日榜热门，今日新增约 147 星，总星约 7.5 万。"
-        },
-        {
           "title": "debpalash/VoiceStudio",
           "url": "https://github.com/debpalash/VoiceStudio",
           "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 69957,
           "stars_week": null,
           "language": "Python",
           "summary": "开源、完全本地运行的 ElevenLabs 替代：支持声音克隆、声音设计等语音生成能力。",
-          "why": "今日日榜热门，今日新增约 3,024 星，总星约 7.0 万。"
+          "date": "2026-10-16",
+          "stars": 70106,
+          "why": "今日日榜热门，今日新增约 2301 星，总星约 7.0 万。"
         },
         {
-          "title": "K-Dense-AI/scientific-agent-skills",
-          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "title": "xerj-org/xerj",
+          "url": "https://github.com/xerj-org/xerj",
           "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 51000,
           "stars_week": null,
-          "language": "Python",
-          "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
-          "why": "今日日榜热门，今日新增约 1,091 星，总星约 5.1 万。"
+          "language": "Rust",
+          "summary": "面向 AI 智能体的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40× token，兼容 Elasticsearch。",
+          "date": "2026-10-16",
+          "stars": 6399,
+          "why": "今日日榜热门，今日新增约 1647 星，总星约 6.4 千。"
         },
         {
           "title": "anthropics/claude-plugins-official",
           "url": "https://github.com/anthropics/claude-plugins-official",
           "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 39709,
           "stars_week": null,
           "language": "Python",
           "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
-          "why": "今日日榜热门，今日新增约 307 星，总星约 4.0 万。"
+          "date": "2026-10-16",
+          "stars": 39832,
+          "why": "今日日榜热门，今日新增约 1552 星，总星约 4.0 万。"
+        },
+        {
+          "title": "K-Dense-AI/scientific-agent-skills",
+          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "Python",
+          "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
+          "date": "2026-10-16",
+          "stars": 51087,
+          "why": "今日日榜热门，今日新增约 1158 星，总星约 5.1 万。"
+        },
+        {
+          "title": "affaan-m/ECC",
+          "url": "https://github.com/affaan-m/ECC",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "JavaScript",
+          "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发。",
+          "date": "2026-10-16",
+          "stars": 280897,
+          "why": "今日日榜热门，今日新增约 1057 星，总星约 28.1 万。"
+        },
+        {
+          "title": "obra/superpowers",
+          "url": "https://github.com/obra/superpowers",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "Shell",
+          "summary": "可工作的智能体技能框架与软件开发方法论。",
+          "date": "2026-10-16",
+          "stars": 300377,
+          "why": "今日日榜热门，今日新增约 973 星，总星约 30.0 万。"
+        },
+        {
+          "title": "MadsLorentzen/ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "Python",
+          "summary": "基于 Claude Code 的本地 AI 求职框架：评估职位、定制简历、撰写求职信并辅助面试准备。",
+          "date": "2026-10-16",
+          "stars": 47806,
+          "why": "今日日榜热门，今日新增约 879 星，总星约 4.8 万。"
         },
         {
           "title": "HKUDS/CLI-Anything",
           "url": "https://github.com/HKUDS/CLI-Anything",
           "source": "GitHub",
-          "date": "2026-10-16",
-          "stars": 53183,
           "stars_week": null,
           "language": "Python",
           "summary": "让所有软件“智能体原生”：为任意软件生成可供 AI 智能体调用的 CLI，并配套 CLI-Hub。",
+          "date": "2026-10-16",
+          "stars": 53211,
           "why": "今日日榜热门，今日新增约 716 星，总星约 5.3 万。"
         }
       ]
@@ -480,6 +480,18 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@MistralAI",
+          "url": "https://x.com/MistralAI/status/2111056939841163336",
+          "source": "@MistralAI",
+          "date": "2026-10-16",
+          "summary": "Mistral 称 Mistral Large 4 在 Ulam 私有基准 STEMBench 的工程与天文学科目上表现突出。",
+          "metrics": {
+            "likes": 457,
+            "reposts": 32,
+            "views": 13332
+          }
+        },
         {
           "title": "@ArtificialAnlys",
           "url": "https://x.com/ArtificialAnlys/status/2111052531166249039",
@@ -562,18 +574,6 @@
             "likes": 1832,
             "reposts": 134,
             "views": 146598
-          }
-        },
-        {
-          "title": "@OpenAI",
-          "url": "https://x.com/OpenAI/status/2110797830361436604",
-          "source": "@OpenAI",
-          "date": "2026-10-16",
-          "summary": "GPT-Live-1.1 上线 ChatGPT / Codex / dots：新增多语种音色与更自然口音，减少“checking…”等待提示；全体用户今日推送，API 即将上线。",
-          "metrics": {
-            "likes": 9498,
-            "reposts": 673,
-            "views": 1172398
           }
         }
       ]
