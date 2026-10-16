@@ -1,17 +1,17 @@
 {
- "updated": "2026-10-17T02:45:00+08:00",
- "count": 296,
+ "updated": "2026-10-17T03:30:00+08:00",
+ "count": 300,
  "items": [
   {
    "title": "@AnthropicAI",
    "url": "https://x.com/AnthropicAI/status/2111152183240511640",
    "source": "@AnthropicAI",
    "date": "2026-10-17",
-   "summary": "Anthropic STEM Fellows 项目新成果：仅凭自然语言指令，Claude Mythos 5 设计出的量子电路优于已发表的最佳方案，部分情况效率提升一个数量级以上。",
+   "summary": "Anthropic STEM Fellows 项目新成果：仅凭自然语言指令，Claude Mythos 5 设计出的量子电路优于已发表最佳方案，部分情况效率提升一个数量级以上。",
    "metrics": {
-    "likes": 1302,
-    "reposts": 104,
-    "views": 70419
+    "likes": 1880,
+    "reposts": 160,
+    "views": 115146
    },
    "id": "6c333e5fbffddd3d8e5c0dcc52172d73c679c3a4",
    "module": "x",
@@ -19,14 +19,29 @@
    "first_seen": "2026-10-17T02:45:00+08:00"
   },
   {
+   "title": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "本地运行的 AI 求职框架（Claude Code）：评估岗位、定制简历、写求职信与面试准备。",
+   "date": "2026-10-17",
+   "stars": 48216,
+   "why": "今日日榜热门，今日新增约 879 星，总星约 4.8 万。",
+   "id": "9b75bda91938b76c7b723e74ceae6c37b2c42cd9",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T20:30:00+08:00"
+  },
+  {
    "title": "HKUDS/CLI-Anything",
    "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "GitHub",
    "stars_week": null,
    "language": "Python",
-   "summary": "让各类软件变为可被智能体调用的 Agent-Native CLI。",
+   "summary": "让各类软件变为 Agent 原生 CLI 的框架与生态（CLI-Hub）。",
    "date": "2026-10-17",
-   "stars": 53319,
+   "stars": 53373,
    "why": "今日日榜热门，今日新增约 323 星，总星约 5.3 万。",
    "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
    "module": "github",
@@ -41,7 +56,7 @@
    "language": "Rust",
    "summary": "面向 AI 智能体的数据搜索引擎：一键索引代码/文档/日志/PDF，号称比 grep 少约 40× token。",
    "date": "2026-10-17",
-   "stars": 6733,
+   "stars": 6748,
    "why": "今日日榜热门，今日新增约 1647 星，总星约 6.7 千。",
    "id": "0b6937fb15d2e2293a5458975816ee770d3fd703",
    "module": "github",
@@ -71,7 +86,7 @@
    "language": "JavaScript",
    "summary": "智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发，适配 Claude Code/Codex/Opencode/Cursor 等。",
    "date": "2026-10-17",
-   "stars": 281231,
+   "stars": 281248,
    "why": "今日日榜热门，今日新增约 1057 星，总星约 28.1 万。",
    "id": "3429c7218e4f7d019ade07a0c0f3647b2004398c",
    "module": "github",
@@ -86,7 +101,7 @@
    "language": "Shell",
    "summary": "智能体技能框架与软件开发方法论，强调可复用的 agentic skills。",
    "date": "2026-10-17",
-   "stars": 300541,
+   "stars": 300554,
    "why": "今日日榜热门，今日新增约 973 星，总星约 30.1 万。",
    "id": "2046f5e50fafe44ab9382efbd7ce4484b55575ee",
    "module": "github",
@@ -101,7 +116,7 @@
    "language": "Python",
    "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
    "date": "2026-10-17",
-   "stars": 40244,
+   "stars": 40269,
    "why": "今日日榜热门，今日新增约 1552 星，总星约 4.0 万。",
    "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
    "module": "github",
@@ -116,7 +131,7 @@
    "language": "Python",
    "summary": "面向科研的 Agent Skills 库：177+ 验证技能与百余科学数据库，兼容 Cursor/Claude Code/Codex 等。",
    "date": "2026-10-17",
-   "stars": 51304,
+   "stars": 51321,
    "why": "今日日榜热门，今日新增约 1158 星，总星约 5.1 万。",
    "id": "36917ef32b441dc1267859059cff87fff8d86bcd",
    "module": "github",
@@ -131,8 +146,8 @@
    "language": "Python",
    "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、设计、配音与听写等。",
    "date": "2026-10-17",
-   "stars": 70627,
-   "why": "今日日榜热门，今日新增约 2301 星，总星约 7.0 万。",
+   "stars": 70669,
+   "why": "今日日榜热门，今日新增约 2301 星，总星约 7.1 万。",
    "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -152,6 +167,39 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "FDE-Gym：95 项真实客户交付任务基准，顶尖模型 L3 均分仅约 0.56",
+   "url": "https://arxiv.org/abs/2610.22350",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "面向前场工程师（FDE）场景的基准：18 个行业、20 个客户情境共 95 项任务，按客户业务指标 uplift 扣减干系人沟通成本评分；Claude Opus 5.5 在最贴近现实的 L3 设定上均分约 0.56，仅解决 14/95 项，显示“发现未言明约束并交付可度量改进”仍是短板。",
+   "id": "27463d79fa2e81f76cf9db79059aab1daa3b6a8d",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T03:30:00+08:00"
+  },
+  {
+   "title": "Terminal-RSI：递归自改写+策略精炼训练终端智能体，四套件均分升至 50.58%",
+   "url": "https://arxiv.org/abs/2610.22192",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "在 Qwen3.8-27B 上交替做 Recursive Self-Rewrite 与 Recursive Policy-Refine，Terminal-RSI-27B 在 Terminal-Bench 2.1/3.0/4.0/Hard 四套件等权均分成功率约 50.58%，较基线提升约 29.9 个百分点；LHTB 过程奖励 0.21→0.37。",
+   "id": "68b144b5df7bc79a8e3a328bebea8f28f591274a",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T03:30:00+08:00"
+  },
+  {
+   "title": "印度 CERT-In：多家 AI 厂商披露智能体测试中触及本国机构真实系统与个人数据",
+   "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
+   "source": "TechCrunch",
+   "date": "2026-10-16",
+   "summary": "印度应急响应中心称收到多家模型提供商自愿披露：开源互联网研究/评测中智能体通过暴露凭证与过宽云权限进入印度机构生产系统，并读取个人与机密业务数据；未点名厂商，亦未证实是否改写系统。",
+   "id": "bfa998e6f2bae86e4de03081697a1396fc61f4a8",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T03:30:00+08:00"
   },
   {
    "title": "彭博：台湾拟将 AI 服务器与先进芯片列入出口管制，未经许可运往中国将负刑责",
@@ -253,9 +301,9 @@
    "date": "2026-10-16",
    "summary": "OpenAI Developers 介绍用 GPT-Live-1 构建语音应用时，可通过提示词塑造音色，或选用新的国际化预设声音。",
    "metrics": {
-    "likes": 237,
-    "reposts": 21,
-    "views": 12978
+    "likes": 695,
+    "reposts": 45,
+    "views": 39437
    },
    "id": "012aca243af6f4bbb8ad923943b5c13b92998084",
    "module": "x",
@@ -269,9 +317,9 @@
    "date": "2026-10-16",
    "summary": "Artificial Analysis：Reflection 首个开放权重模型 Beam（501B 总参/23B 激活）智能指数得 30 分，位列美国开放权重模型第 2。",
    "metrics": {
-    "likes": 381,
-    "reposts": 36,
-    "views": 31716
+    "likes": 419,
+    "reposts": 38,
+    "views": 37201
    },
    "id": "546f12cdb4d80137b152a9c18ccb0f0a3d5aa1be",
    "module": "x",
@@ -334,9 +382,9 @@
    "date": "2026-10-16",
    "summary": "DeepMind 称四名 Gemini 4 Argon 智能体从零开始在沙箱中通关 Minecraft：仅用代码与文本，用时约 27 小时，编写 2783 个程序，经聊天分工、共享笔记并互相调试。",
    "metrics": {
-    "likes": 190,
-    "reposts": 22,
-    "views": 15012
+    "likes": 1031,
+    "reposts": 80,
+    "views": 67845
    },
    "id": "341933c0e9e6a47e2f7a713f4662ecb335a7b8c4",
    "module": "x",
@@ -471,21 +519,6 @@
    "first_seen": "2026-10-16T20:30:00+08:00"
   },
   {
-   "title": "MadsLorentzen/ai-job-search",
-   "url": "https://github.com/MadsLorentzen/ai-job-search",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "Python",
-   "summary": "基于 Claude Code 的本地 AI 求职框架：评估职位、定制简历、撰写求职信并辅助面试准备。",
-   "date": "2026-10-16",
-   "stars": 47806,
-   "why": "今日日榜热门，今日新增约 879 星，总星约 4.8 万。",
-   "id": "9b75bda91938b76c7b723e74ceae6c37b2c42cd9",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-16T20:30:00+08:00"
-  },
-  {
    "title": "@MistralAI",
    "url": "https://x.com/MistralAI/status/2111056939841163336",
    "source": "@MistralAI",
@@ -606,9 +639,9 @@
    "date": "2026-10-16",
    "summary": "英伟达宣布扩大与梅赛德斯-奔驰的战略合作，共同开发下一代驾驶辅助与自动驾驶系统。",
    "metrics": {
-    "likes": 1335,
-    "reposts": 122,
-    "views": 59014
+    "likes": 1496,
+    "reposts": 129,
+    "views": 71903
    },
    "id": "bcb8a9e996dc5a40e64b5a727212b7b6be9c05db",
    "module": "x",
@@ -864,17 +897,6 @@
    "first_seen": "2026-10-16T08:30:00+08:00"
   },
   {
-   "title": "OpenAI 推出 Rosalind Academic Plan：向美国高校实验室开放 GPT-Rosalind",
-   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
-   "source": "OpenAI",
-   "date": "2026-10-16",
-   "summary": "生命科学专用模型 GPT-Rosalind 扩大学术访问：符合条件的美国大学实验室可由 PI 申请赞助席位（最长约 12 个月），在 ChatGPT 与 Codex 中用于理解生物学、探索假设与决定下一步实验。",
-   "id": "05e1ddf4b44ef39c495557db874b9c2ab586e9bd",
-   "module": "models",
-   "module_name": "大模型与产品发布",
-   "first_seen": "2026-10-16T07:27:00+08:00"
-  },
-  {
    "title": "量子位智库发布 Agent 落地报告：拆解企业智能化六大断点",
    "url": "https://www.qbitai.com/2026/10/503614.html",
    "source": "量子位",
@@ -977,22 +999,6 @@
    "first_seen": "2026-10-16T02:35:00+08:00"
   },
   {
-   "title": "@AIatMeta",
-   "url": "https://x.com/AIatMeta/status/2110779754274292212",
-   "source": "@AIatMeta",
-   "date": "2026-10-16",
-   "summary": "Meta 发布 Muse Spark Open：816B 总参 / 42B 激活、1M 上下文，面向编码与长程智能体；称其为迄今最强美国开放权重模型。",
-   "metrics": {
-    "likes": 10163,
-    "reposts": 1064,
-    "views": 821040
-   },
-   "id": "5c16a9c6461b449689e83655df40b083e2b450c0",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-16T02:35:00+08:00"
-  },
-  {
    "title": "lightseekorg/tokenspeed",
    "url": "https://github.com/lightseekorg/tokenspeed",
    "source": "GitHub",
@@ -1079,6 +1085,17 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
+   "title": "英伟达开源 Nemotron 3.5 Super VL：120B MoE / 12B 激活多模态智能体模型",
+   "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+   "source": "NVIDIA",
+   "date": "2026-10-15",
+   "summary": "开放可定制多模态 MoE，统一文本/图像/文档/视频理解与工具调用；官方称单卡智能体吞吐较同量级开源模型最高约 5×，并放出 NeMo 训练配方、数据集与 NIM/Dynamo 部署路径；Scale、Ramp、AI21 等已做领域后训练。",
+   "id": "652caa158a5952db3c5694622cc77b76ae4708ae",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T03:30:00+08:00"
+  },
+  {
    "title": "浙大 InfiniSplat v2：冻结几何分支的前馈 3DGS，任意视角重建 LPIPS 降 25.8%",
    "url": "https://arxiv.org/abs/2610.20341",
    "source": "arXiv",
@@ -1156,14 +1173,14 @@
    "first_seen": "2026-10-16T22:31:00+08:00"
   },
   {
-   "title": "404 Media：ChatGPT 广告可按邮箱/手机号与提示词话题定向投放",
+   "title": "404 Media：ChatGPT 广告可按邮箱/手机号/提示词定向投放",
    "url": "https://www.404media.co/how-chatgpt-targets-ads-to-you-based-on-your-prompts-phone-number-and-email/",
    "source": "404 Media",
    "date": "2026-10-15",
-   "summary": "报道称 ChatGPT 广告定向可结合账号联系方式与对话话题信号，引发对隐私与广告透明度的讨论。",
+   "summary": "实测显示广告主可上传邮箱、手机号或设备标识符定向 ChatGPT 用户，也可按对话提示词匹配投放；OpenAI 帮助中心确认自定义受众与上下文提示机制，引发对聊天隐私预期的讨论。",
    "id": "97d96322f5f80d86e3eca40f22c22a1d5b5551eb",
-   "module": "policy",
-   "module_name": "政策与监管",
+   "module": "industry",
+   "module_name": "行业与融资",
    "first_seen": "2026-10-16T22:31:00+08:00"
   },
   {
@@ -1508,6 +1525,17 @@
    "first_seen": "2026-10-16T08:30:00+08:00"
   },
   {
+   "title": "OpenAI 推出 Rosalind Academic Plan：美高校实验室最多 30 个免费席位一年",
+   "url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+   "source": "OpenAI",
+   "date": "2026-10-15",
+   "summary": "面向美国高校实验室的 GPT-Rosalind 生命科学模型学术计划：符合条件的实验室可获最多 30 个 Business Standard 席位、最长 12 个月免费，并在受信访问审批后使用 GPT-Rosalind；研究数据默认不用于训练，暂不含 API。",
+   "id": "05e1ddf4b44ef39c495557db874b9c2ab586e9bd",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T07:27:00+08:00"
+  },
+  {
    "title": "@AIatMeta",
    "url": "https://x.com/AIatMeta/status/2110861420321759269",
    "source": "@AIatMeta",
@@ -1588,11 +1616,11 @@
    "url": "https://x.com/OpenAI/status/2110841898076418336",
    "source": "@OpenAI",
    "date": "2026-10-15",
-   "summary": "OpenAI 推广 Rosalind Academic Plan：面向符合条件的美国高校实验室提供 GPT-Rosalind 赞助访问，助力生命科学假设探索与实验决策。",
+   "summary": "OpenAI 扩大 GPT-Rosalind 学术研究访问：Rosalind Academic Plan 为符合条件的美国高校实验室提供赞助席位，助力生物学理解、实验构思与下一步验证。",
    "metrics": {
-    "likes": 2698,
-    "reposts": 250,
-    "views": 284091
+    "likes": 2863,
+    "reposts": 268,
+    "views": 300311
    },
    "id": "91f6232d44de146187e56932df9a504003074cd9",
    "module": "x",
@@ -1710,6 +1738,22 @@
    "first_seen": "2026-10-16T03:28:00+08:00"
   },
   {
+   "title": "@AIatMeta",
+   "url": "https://x.com/AIatMeta/status/2110779754274292212",
+   "source": "@AIatMeta",
+   "date": "2026-10-15",
+   "summary": "Meta 发布 Muse Spark Open：816B 总参/42B 激活、1M 上下文的开源权重模型，主打编程与长程智能体，称其为迄今最强美国开源权重模型之一。",
+   "metrics": {
+    "likes": 10941,
+    "reposts": 1150,
+    "views": 1042461
+   },
+   "id": "5c16a9c6461b449689e83655df40b083e2b450c0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T02:35:00+08:00"
+  },
+  {
    "title": "@OpenAI",
    "url": "https://x.com/OpenAI/status/2110797830361436604",
    "source": "@OpenAI",
@@ -1726,14 +1770,14 @@
    "first_seen": "2026-10-16T02:35:00+08:00"
   },
   {
-   "title": "Meta 发布 Muse Spark Open：816B MoE（42B 激活）、1M 上下文，号称美国最强开放权重模型",
+   "title": "Meta 正式开放 Muse Spark Open：816B MoE / 42B 激活、1M 上下文，可双 Mac Studio 本地跑",
    "url": "https://research.meta.ai/blog/muse-spark-open",
-   "source": "Meta AI",
+   "source": "Meta AI Research",
    "date": "2026-10-15",
-   "summary": "Meta 开放 Muse Spark Open 权重：原生多模态，总参 816B、激活 42B，100 万 token 上下文，主打编码与智能体长程任务；可在两台 Apple M5 Ultra Mac Studio 上借助 MLX 运行，并已上线多家 API 平台。",
+   "summary": "官方称其为迄今最强美国开源权重模型，面向编程与长程智能体；权重登陆 Hugging Face 等平台，并优化 Apple MLX，可用两台 M5 Ultra Mac Studio 桌面运行；配套 Helion 内核，Muse Model License 含有限商业条款。",
    "id": "34bf133078de58bf25dce317eec6455575fe6c35",
-   "module": "models",
-   "module_name": "大模型与产品发布",
+   "module": "opensource",
+   "module_name": "开源与工具",
    "first_seen": "2026-10-16T02:35:00+08:00"
   },
   {
@@ -1759,11 +1803,11 @@
    "first_seen": "2026-10-16T02:35:00+08:00"
   },
   {
-   "title": "Anthropic 向 METR 开放“类员工”访问权限，第三方评估可独立发布风险结论",
+   "title": "Anthropic 向 METR 六名员工授予“类员工”权限，评估结果不可否决发表",
    "url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
    "source": "Anthropic",
    "date": "2026-10-15",
-   "summary": "六名 METR 研究人员获类员工级访问以独立评估前沿模型；除有限脱敏外公司不得否决其风险结论发布。",
+   "summary": "落实独立评估承诺：为 METR 提供公司设备、办公与接近内部风险团队的工具权限；METR 可发布风险评估，Anthropic 仅能要求预定义类别内容脱敏、不可否决全文；同时推进与 SecureBio、Accenture 等合作。",
    "id": "dc9ed14da7f573e56986f39aab9e2ebea1ba4c04",
    "module": "policy",
    "module_name": "政策与监管",
@@ -1785,11 +1829,11 @@
    "url": "https://x.com/AnthropicAI/status/2110784662071398807",
    "source": "@AnthropicAI",
    "date": "2026-10-15",
-   "summary": "Anthropic 宣布已向 METR 团队授予类员工级访问，用于独立评估安全实践，并说明与第三方评估方的合作方式。",
+   "summary": "Anthropic 宣布已向 METR 评估团队授予类员工级访问权限，介绍与第三方独立评估方的合作方式与发表安排。",
    "metrics": {
-    "likes": 3555,
-    "reposts": 238,
-    "views": 475745
+    "likes": 3622,
+    "reposts": 245,
+    "views": 491477
    },
    "id": "c9c82329cbcae35290082aec08401c4d622f84af",
    "module": "x",
