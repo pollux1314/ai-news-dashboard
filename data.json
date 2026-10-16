@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-16T17:25:00+08:00",
+  "updated": "2026-10-16T18:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "OpenAI 纳维-斯托克斯“爆破”证明再反转：专家称其并未沿用“西班牙路线”",
+          "url": "https://www.qbitai.com/2026/10/503685.html",
+          "source": "量子位 / 科学美国人",
+          "date": "2026-10-16",
+          "summary": "据《科学美国人》追踪报道，多组正在研读这份 166 页证明的数学家认为，OpenAI 模型实际采用了与此前公认的西班牙数学家路线不同的方法，而 OpenAI 发布时自己也未弄清；该证明构造特殊平滑外力使三维流体在有限时间内爆破。"
+        },
+        {
           "title": "Goodfire 发文《神经网络本来就是干净的》：Qwen3-32B 约 90% 神经元仅有单一主要功能",
           "url": "https://www.goodfire.com/research/already-clean",
           "source": "Goodfire",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-15",
           "summary": "Stanford/UIUC/Meta 等提出 HybridAgents：经 HybridLink 在潜空间与文本模式间切换，并配 HybridSFT/HybridRL；11 项基准相对前沿智能体平均提升约 10.4%，推理更快、成本更低。"
-        },
-        {
-          "title": "CoPE：让语言智能体在行动的同时预测未来动作序列，样本效率最高约 2×",
-          "url": "https://arxiv.org/abs/2610.20597",
-          "source": "arXiv",
-          "date": "2026-10-15",
-          "summary": "UIUC 与 Meta AI 提出 CoPE：在成功轨迹上训练多步动作预测作为 GRPO 辅助目标，使行动与预测共进化；五基准整体优于 GRPO/ECHO 等，ScienceWorld 样本效率相对 GRPO 最高约 2 倍，推理无额外开销。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "范式智能联合睿思智联开源“模域 ModelSphere”：一站式生产级大模型部署平台",
+          "url": "https://github.com/modelsphere/modelsphere",
+          "source": "GitHub / 范式",
+          "date": "2026-10-16",
+          "summary": "整合算力管理、模型部署与运行优化，内置弹性扩缩容、PD 分离、三级 KV 缓存与 AutoTune 调优，可统一调度昇腾、天数智芯、摩尔线程、海光等国产芯片；官方称极限吞吐较基准提升约 285%。"
+        },
         {
           "title": "anthropics/claude-plugins-official：Anthropic 官方 Claude Code 插件目录开源",
           "url": "https://github.com/anthropics/claude-plugins-official",
@@ -244,13 +251,6 @@
           "source": "Hugging Face",
           "date": "2026-10-15",
           "summary": "与 Super VL 同日发布：Bolt 74B-A9B 以原生 2-bit 量化面向 RTX/DGX Spark 等本地 Agent；另有 4GB 的 Bolt E4B 计划 10 月 23 日推出。"
-        },
-        {
-          "title": "Mistral 开源 Timestral 时序基础模型：Modified MIT，可本地/离线部署",
-          "url": "https://mistral.ai/news/timestral/",
-          "source": "Mistral",
-          "date": "2026-10-15",
-          "summary": "GitHub 仓库可跑自有数据；支持零样本、Forge 微调与气隙环境部署，面向工厂传感器、金融流水等企业时序场景。"
         }
       ]
     },
@@ -323,6 +323,20 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "深辰凯动羽毛球机器人连打 1452 拍获吉尼斯纪录，前波士顿动力 CSO 点赞",
+          "url": "https://www.qbitai.com/2026/10/503756.html",
+          "source": "量子位",
+          "date": "2026-10-16",
+          "summary": "浙江深辰凯动的机器人将移动 AMR 平台与机械臂协同，实时预测羽毛球三维轨迹完成拦截；团队称目标是打造通用物理运动平台与机器人大脑，可迁移至物流分拣等场景。"
+        },
+        {
+          "title": "四川具身人形机器人 EIR 完成超 1 亿元 Pre-A 轮，“爱湫”9.8 万元起冲刺万台量产",
+          "url": "https://www.qbitai.com/2026/10/503782.html",
+          "source": "量子位",
+          "date": "2026-10-16",
+          "summary": "本轮获四川省、市、县三级国资联动支持，资金用于情感陪伴人形机器人“爱湫”迭代、万台级生产基地与销售体系建设；产品采用 3D 超短焦投影面部方案，新一轮融资已同步启动。"
+        },
+        {
           "title": "优必选 Thinker-WM 论文公开：统一 RGB/深度/动作的具身世界模型，三大基准登顶",
           "url": "https://arxiv.org/abs/2610.18447",
           "source": "arXiv / 优必选",
@@ -363,20 +377,6 @@
           "source": "凤凰网 / 智东西",
           "date": "2026-10-16",
           "summary": "介绍 816B/42B、1M 上下文的 Muse Spark Open 及 Mac Studio 本地运行；称 AA 开放权重智能指数 39 分，低于 MiMo-V2.6-Pro、GLM-5.3、Ling-3.1-flash 等国产模型。"
-        },
-        {
-          "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线（不含 Siri AI）",
-          "url": "https://www.bjnews.com.cn/detail/1792060132129350.html",
-          "source": "新京报",
-          "date": "2026-10-15",
-          "summary": "库克在上海表示苹果智能与阿里千问相关方案已获批准，十月晚些时候发测试版；首批含实时翻译、书写工具、照片清除等，但不含本次 Siri AI。量子位等亦有同步报道。"
-        },
-        {
-          "title": "昆仑万维开源 Matrix-Game 4.0：号称全球首款单卡消费级可实时运行的游戏世界模型",
-          "url": "https://www.qbitai.com/2026/10/503353.html",
-          "source": "量子位",
-          "date": "2026-10-15",
-          "summary": "报道称 Matrix-Game 4.0 将世界状态交给游戏引擎、画面交给视频模型，单张 RTX 5090 可跑约 60FPS；支持自然语言改玩法，权重与代码开源至 GitHub 与 Hugging Face。"
         }
       ]
     },
@@ -390,18 +390,18 @@
           "url": "https://github.com/morluto/rea",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 279430,
+          "stars": 281517,
           "stars_week": null,
           "language": "TypeScript",
           "summary": "用智能体逆向分析任意软件，从应用行为一直到原生二进制。",
-          "why": "今日日榜热门，今日新增约 3.2 万星，总星约 27.9 万。"
+          "why": "今日日榜热门，今日新增约 3.2 万星，总星约 28.2 万。"
         },
         {
           "title": "affaan-m/ECC",
           "url": "https://github.com/affaan-m/ECC",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 280726,
+          "stars": 280806,
           "stars_week": null,
           "language": "JavaScript",
           "summary": "面向 Claude Code / Codex / Cursor 等的智能体 harness 性能优化系统：技能、本能、记忆、安全与研究优先开发。",
@@ -412,7 +412,7 @@
           "url": "https://github.com/obra/superpowers",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 300225,
+          "stars": 300313,
           "stars_week": null,
           "language": "Shell",
           "summary": "可工作的智能体技能框架与软件开发方法论。",
@@ -423,7 +423,7 @@
           "url": "https://github.com/JuliusBrussee/caveman",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 112861,
+          "stars": 112936,
           "stars_week": null,
           "language": "Go",
           "summary": "用“穴居人”式短指令帮编程智能体砍掉约 65% token 的病毒式技能与代理。",
@@ -434,7 +434,7 @@
           "url": "https://github.com/ruvnet/ruflo",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 75328,
+          "stars": 75388,
           "stars_week": null,
           "language": "TypeScript",
           "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code / Codex 等。",
@@ -445,7 +445,7 @@
           "url": "https://github.com/debpalash/VoiceStudio",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 69778,
+          "stars": 69957,
           "stars_week": null,
           "language": "Python",
           "summary": "开源、完全本地运行的 ElevenLabs 替代：支持声音克隆、声音设计等语音生成能力。",
@@ -456,7 +456,7 @@
           "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 50893,
+          "stars": 51000,
           "stars_week": null,
           "language": "Python",
           "summary": "把任意 AI 智能体变成“AI 科学家”的技能库：177+ 验证技能与 100+ 科学数据库。",
@@ -467,7 +467,7 @@
           "url": "https://github.com/anthropics/claude-plugins-official",
           "source": "GitHub",
           "date": "2026-10-16",
-          "stars": 39573,
+          "stars": 39709,
           "stars_week": null,
           "language": "Python",
           "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@GoogleDeepMind",
+          "url": "https://x.com/GoogleDeepMind/status/2111038207240388770",
+          "source": "@GoogleDeepMind",
+          "date": "2026-10-16",
+          "summary": "Google DeepMind 盘点其模型与工具如何帮助全球科学家定位罕见遗传变异、加速药物发现，让疾病更易检测、治疗与预防。",
+          "metrics": {
+            "likes": 38,
+            "reposts": 4,
+            "views": 6618
+          }
+        },
+        {
+          "title": "@nvidia",
+          "url": "https://x.com/nvidia/status/2111005194058179020",
+          "source": "@nvidia",
+          "date": "2026-10-16",
+          "summary": "英伟达宣布扩大与梅赛德斯-奔驰的战略合作，共同开发下一代驾驶辅助与自动驾驶系统。",
+          "metrics": {
+            "likes": 600,
+            "reposts": 67,
+            "views": 24894
+          }
+        },
         {
           "title": "@ArtificialAnlys",
           "url": "https://x.com/ArtificialAnlys/status/2110903253013762365",
@@ -517,18 +541,6 @@
           }
         },
         {
-          "title": "@OpenAI",
-          "url": "https://x.com/OpenAI/status/2110741355739963884",
-          "source": "@OpenAI",
-          "date": "2026-10-15",
-          "summary": "OpenAI 宣布向 Simons 基金会新计划出资 500 万美元，帮助数学界审读、理解并推进 AI 生成的数学结果，并配套模型与算力支持。",
-          "metrics": {
-            "likes": 5300,
-            "reposts": 417,
-            "views": 718102
-          }
-        },
-        {
           "title": "@AnthropicAI",
           "url": "https://x.com/AnthropicAI/status/2110846112152105136",
           "source": "@AnthropicAI",
@@ -562,18 +574,6 @@
             "likes": 2220,
             "reposts": 211,
             "views": 235449
-          }
-        },
-        {
-          "title": "@AnthropicAI",
-          "url": "https://x.com/AnthropicAI/status/2110784662071398807",
-          "source": "@AnthropicAI",
-          "date": "2026-10-16",
-          "summary": "Anthropic 宣布已向 METR 团队提供类员工访问权限以评估安全实践，并说明与第三方独立评估方的合作框架。",
-          "metrics": {
-            "likes": 3242,
-            "reposts": 210,
-            "views": 413801
           }
         }
       ]
