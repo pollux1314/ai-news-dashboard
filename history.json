@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-16T16:34:00+08:00",
- "count": 241,
+ "updated": "2026-10-16T17:25:00+08:00",
+ "count": 244,
  "items": [
+  {
+   "title": "英伟达 RTX Spark 笔记本 10 月 16 日起零售：Grace+Blackwell 超级芯片，本地跑大模型",
+   "url": "https://www.nvidia.com/en-us/geforce/news/rtx-spark-dlss-reflex-ray-tracing-games/",
+   "source": "NVIDIA",
+   "date": "2026-10-16",
+   "summary": "微软、华硕、戴尔、惠普、联想等首批 RTX Spark 笔记本今日开售，起价约 2599 美元；芯片集成最多 6144 CUDA 核心的 Blackwell RTX GPU 与 20 核 Grace CPU，统一内存最高 128GB，主打离线运行大模型与智能体。",
+   "id": "3c888e56134ebda5d74cf23be7f917b93d1153b9",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-16T17:25:00+08:00"
+  },
+  {
+   "title": "Goodfire 发文《神经网络本来就是干净的》：Qwen3-32B 约 90% 神经元仅有单一主要功能",
+   "url": "https://www.goodfire.com/research/already-clean",
+   "source": "Goodfire",
+   "date": "2026-10-16",
+   "summary": "Nick Cammarata 认为借助 AI 智能体可直接解释大多数神经元，无需稀疏自编码器；ConvNeXt 末层约 99% 神经元易解释，Qwen3-32B 初步审计约 90% 为单一功能。属初步结论，尚未独立复现，也不覆盖注意力层。",
+   "id": "745543f6241a5f4cf287481246d7855092d313e4",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-16T17:25:00+08:00"
+  },
+  {
+   "title": "优必选 Thinker-WM 论文公开：统一 RGB/深度/动作的具身世界模型，三大基准登顶",
+   "url": "https://arxiv.org/abs/2610.18447",
+   "source": "arXiv / 优必选",
+   "date": "2026-10-16",
+   "summary": "以共享的 Unified Dynamics Transformer 联合建模视觉、几何与机器人动作，单模型支持世界预测、策略推理、动作生成等六种模式；用约 3 万小时异构数据训练，在 EWMBench、WorldOlympiad、WorldArena 均排名第一。",
+   "id": "b313ea7d18b1315ceac5705cd21335fedaebb7e9",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-16T17:25:00+08:00"
+  },
   {
    "title": "谷歌 Gemini 4 Argon 全球开放：API 限时半价，主打长程编程与专业工作",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
