@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-16T10:30:00+08:00",
+ "updated": "2026-10-16T10:31:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -30,7 +30,7 @@
     },
     {
      "title": "OpenAI 发布 GPT-Live-1.1：ChatGPT / Codex / dots 语音新增多语音色",
-     "url": "https://x.com/OpenAI/status/2110797830361436604",
+     "url": "https://openai.com/products/release-notes/",
      "source": "OpenAI",
      "date": "2026-10-15",
      "summary": "GPT-Live-1.1 向全体用户推送，新增法/德/印地/日/韩/墨西哥西语等音色，口音更自然，搜索等待提示语更丰富；API 即将上线。"

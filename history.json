@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-16T10:30:00+08:00",
+ "updated": "2026-10-16T10:31:00+08:00",
  "count": 205,
  "items": [
   {
@@ -631,7 +631,7 @@
    "url": "https://openai.com/products/release-notes/",
    "source": "OpenAI",
    "date": "2026-10-15",
-   "summary": "GPT-Live-1.1 与迷你版 Quip 向全体用户推送，新增法/德/印地/日/韩/墨西哥西语等音色及英语 Bubbie，口音更自然，搜索等待提示语更丰富；API 即将上线。",
+   "summary": "GPT-Live-1.1 向全体用户推送，新增法/德/印地/日/韩/墨西哥西语等音色，口音更自然，搜索等待提示语更丰富；API 即将上线。",
    "id": "eee727226111eaffd5a01115fdf984bbc87b577e",
    "module": "models",
    "module_name": "大模型与产品发布",
