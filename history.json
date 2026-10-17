@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T15:30:00+08:00",
- "count": 369,
+ "updated": "2026-10-17T16:30:00+08:00",
+ "count": 370,
  "items": [
   {
    "title": "OpenAI 推出 ChatGPT Slides：在 Space 中生成、协作编辑与演示幻灯片，可导出 PPT/PDF/Google Slides",
@@ -1919,6 +1919,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "韩国 2027 高考新规：携带 AI 智能眼镜即判作弊、成绩作废，佩戴者再禁考一年",
+   "url": "https://www.koreajoongangdaily.com/korea/ai-glasses-could-cost-students-two-csats/12922933",
+   "source": "Korea JoongAng Daily",
+   "date": "2026-10-15",
+   "summary": "韩国课程评价院（KICE）发布 11 月 19 日 2027 学年高考（CSAT）考生须知：考前未上交而在考试中佩戴 AI 智能眼镜、智能手表等设备，当年成绩作废并禁考一年；仅将智能眼镜带入考场或随身携带也将判当年成绩无效；拒绝监考员检查可按严重作弊处理。此前首尔市立大学、延世大学的论述考试中已接连查获考生使用 AI 智能眼镜作弊。",
+   "id": "a89b70b112e38e89f13560e92308f59c821a669d",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T16:30:00+08:00"
   },
   {
    "title": "Politico：微软、谷歌高管称欧盟《AI 法案》已过时，欧委会坚称足以应对智能体风险",
