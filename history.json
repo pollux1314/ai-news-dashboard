@@ -1,7 +1,169 @@
 {
- "updated": "2026-10-17T13:30:00+08:00",
- "count": 349,
+ "updated": "2026-10-17T14:30:00+08:00",
+ "count": 365,
  "items": [
+  {
+   "title": "FT：Anthropic 向黑石开出逾 10% 收益率，为 600 亿美元“北极星”TPU 芯片融资募 90 亿美元次级债",
+   "url": "https://www.livemint.com/ai/artificial-intelligence/anthropic-offers-blackstone-double-digit-yield-in-chip-financing-deal-what-the-60-billion-deal-entails-11792204532812.html",
+   "source": "Mint / Financial Times",
+   "date": "2026-10-17",
+   "summary": "据 FT 报道，Anthropic 拟以约 600 亿美元的 Project North Star 融资购入约 1.5GW 谷歌 TPU 算力；黑石旗下基金将投资 90 亿美元次级债（以 Anthropic 五年期芯片租赁付款为抵押，票面 10%，为计划 180 亿美元次级部分的一半），另约 420 亿美元高级债由博通担保。同评级发行人公开市场收益率通常约 7%，被视为 AI 基建融资成本上升的信号。",
+   "id": "70f40d601355deeefccb24d0f20664b2a29c0efa",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "DeepSeek 上线独立 Search / Fetch API：面向智能体与 RAG，每千次成功请求 5 元",
+   "url": "https://pandaily.com/deepseek-api-search-fetch-endpoints-5-yuan-per-1000-requests-5-qps-agents-rag",
+   "source": "Pandaily",
+   "date": "2026-10-17",
+   "summary": "据 DeepSeek 中文 API 文档，Search 接口返回结构化网页结果（单次 1–50 条，支持 site:/lang:/after: 等运算符），Fetch 接口将单个网页转为 Markdown；均按成功请求计费、每千次 5 元，失败/空结果/超时不收费，账号级各 5 QPS。Search API 上线后两周内，经 Claude Code 与 Codex 触发的搜索暂不收费。",
+   "id": "e9eda63b843818615727722021df63d9428cf2ea",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "deeplethe/solid-glass",
+   "url": "https://github.com/deeplethe/solid-glass",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "面向 AI 应用的“实体玻璃”风格设计系统：基于 shadcn/ui、Tailwind CSS 4 与 React 19，提供状态图标、智能体工作区（会话/线程/文件/后台任务）等组件与整页区块，介于扁平与液态玻璃之间，兼顾质感与可读性。",
+   "date": "2026-10-17",
+   "stars": 1532,
+   "why": "10 月 12 日创建，约 1500 星，为本周新建 AI 相关仓库星标前列。",
+   "id": "baffc898b4fc07d3a7a336a0a6b630dc9785e9dd",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "zhuyansen/new-term-radar",
+   "url": "https://github.com/zhuyansen/new-term-radar",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "AI 新名词日报雷达：从 X 账号首次提及、Hugging Face 趋势榜、GitHub 新仓库爆发、AI 工具目录站点地图等信号中捕捉新模型/产品/仓库名，早于关键词工具与 Google Trends 发现热词，提供 CLI、Agent Skills 与 MCP 服务器。",
+   "date": "2026-10-17",
+   "stars": 1068,
+   "why": "10 月 12 日创建，约 1070 星，面向 AI 站长与资讯作者的新热门工具。",
+   "id": "dff922dfd8a88fec75806050cb4bdc7b22d668a9",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "datalab-to/indra",
+   "url": "https://github.com/datalab-to/indra",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "Datalab 开源的 CPU 端极速 OCR：主识别模型约 100 万参数、模型总计约 18MB（ONNX Runtime，无需 PyTorch），官方称最高 49 页/秒、比 Tesseract 与 PaddleOCR 快 11–17 倍，输出 Markdown/文本/带框 JSON，含版面块标签与阅读顺序。",
+   "date": "2026-10-17",
+   "stars": 485,
+   "why": "10 月 13 日创建，约 490 星，Marker/Chandra 团队新作。",
+   "id": "dfa4f9b10c2699b04f53c3d61e8fa0aa934f5841",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "Leonxlnx/earshot",
+   "url": "https://github.com/Leonxlnx/earshot",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "给编程智能体装上“耳朵”：把音频转成智能体可推理的证据——用文字描述声音、匹配描述、在长录音中定位片段、逐秒“听写”整段影片并打分；还能用代码合成音效并靠“听”迭代改进。纯 CPU 本地运行，提供 CLI、Python API 与 MCP 服务器。",
+   "date": "2026-10-17",
+   "stars": 410,
+   "why": "10 月 15 日创建，两天约 410 星。",
+   "id": "dc8cec88b45e7cd384c68953434da5c286510003",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2111265984703082730",
+   "source": "@Reuters",
+   "date": "2026-10-17",
+   "summary": "路透社快讯：Anthropic 签下其首个加拿大数据中心租约（EverWind 位于新斯科舍省 Point Tupper 的园区）。",
+   "metrics": {
+    "likes": 43,
+    "reposts": 14,
+    "views": 37486
+   },
+   "id": "ef8be06ba12c3e4db15b1782adfba38246cc8463",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "@FT",
+   "url": "https://x.com/FT/status/2111260264070852755",
+   "source": "@FT",
+   "date": "2026-10-17",
+   "summary": "《金融时报》：Anthropic 在最新一笔芯片融资中向黑石提供两位数收益率。",
+   "metrics": {
+    "likes": 87,
+    "reposts": 14,
+    "views": 31102
+   },
+   "id": "c2ee0443c10b26246118f8e6a0893c6f3c64565d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2111268519367082030",
+   "source": "@business",
+   "date": "2026-10-17",
+   "summary": "彭博：在全球 AI 交易走弱之际，中国公司成为最大输家，令北京借助股市助推科技自立的努力受挫。",
+   "metrics": {
+    "likes": 110,
+    "reposts": 19,
+    "views": 36200
+   },
+   "id": "00942eebba7c3930e32652d17f9060bafa44a837",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "@GeminiApp",
+   "url": "https://x.com/GeminiApp/status/2111147479248855484",
+   "source": "@GeminiApp",
+   "date": "2026-10-17",
+   "summary": "Google Gemini：借助 Gemini 4 Argon，可在 Canvas 中把冗长 PDF 转成可交互、带动画的网页应用，按自己的节奏探索内容。",
+   "metrics": {
+    "likes": 2092,
+    "reposts": 167,
+    "views": 115312
+   },
+   "id": "df2f0dddbf42c61d8de36009e2f04975b27783dc",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "@DrJimFan",
+   "url": "https://x.com/DrJimFan/status/2111128797181567466",
+   "source": "@DrJimFan",
+   "date": "2026-10-17",
+   "summary": "英伟达 Jim Fan 宣布开源智能体机器人框架 ASPIRE v1.0：Astra 发布当天切换后端模型后各基准一夜之间饱和至约 99%；其机器人仿真基准上 Opus 5.5 略胜 Astra，Sonnet 5.5 处于成本-能力帕累托前沿（约 12 美元/任务）。",
+   "metrics": {
+    "likes": 755,
+    "reposts": 104,
+    "views": 44944
+   },
+   "id": "f61d74797f22ff4a26712d1ad48c430d17e756ac",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
   {
    "title": "苹果更新 App Store 审核规则：明确封禁 AI“一键脱衣”类应用，开发者须主动防范并删除非自愿私密图像",
    "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
@@ -446,6 +608,50 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "路透社：Anthropic 签下首个加拿大数据中心租约，EverWind 新斯科舍省项目投资逾 100 亿加元",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-signs-lease-for-first-canadian-data-center-4954967",
+   "source": "Reuters",
+   "date": "2026-10-16",
+   "summary": "Anthropic 与 EverWind 签约租用新斯科舍省 Point Tupper 的数据中心容量，为其在加拿大的首个数据中心协议；EverWind 同时公布逾 100 亿加元的数据中心园区与风电投资计划，称是该省史上最大私人投资。Anthropic 去年算力与基础设施支出 73.3 亿美元，较 2024 年增长约三倍。",
+   "id": "dea72310137a66c6889811122644881cc8b573d3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "Google Research：AI 智能体接入湿实验室机器人闭环设计分子，发现个位数纳摩尔级癌症靶点蛋白结合物",
+   "url": "https://research.google/blog/grounding-ai-agents-in-biological-reality-building-blocks-for-autonomous-wet-labs/",
+   "source": "Google Research",
+   "date": "2026-10-16",
+   "summary": "介绍三项工作：基于 PyLabRobot 的实验室数字孪生框架 VERID（3D 状态追踪、虚拟预演、硬件安全校验）；智能体三轮闭环设计 DNA 适配体，对肌红蛋白与 α-凝血酶的确认命中率分别提升至 33.5% 与 42.1%；以及“表位切除”加速结构预测 8.6 倍，对实体瘤靶点 FAP 设计出单个位数纳摩尔亲和力的结合蛋白。所有序列均经生物安全筛查并由人类审批。",
+   "id": "83945f3b589d992420f251b26deed5a55811294f",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "小米开源 MiDashengLM-Spatial：称业界首个开源端到端空间音频理解大模型，Apache 2.0",
+   "url": "https://www.ithome.com/1/013/739.htm",
+   "source": "IT之家 / 小米",
+   "date": "2026-10-16",
+   "summary": "以 MiDashengLM-7B 为基座，在保留通用音频理解的同时增加声源方位与空间分布的感知和推理能力；完整公开权重、推理与评估代码及技术报告，后续将用于小米智能家居与汽车座舱等场景。",
+   "id": "1e9f3f8fc587c022fa315815e0ffd15c67d88386",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T14:30:00+08:00"
+  },
+  {
+   "title": "AIPOCH Open-Science v1.0 发布：开源本地优先的 AI 科研工作台，研究过程可打包复现",
+   "url": "https://github.com/aipoch/open-science",
+   "source": "GitHub / AIPOCH",
+   "date": "2026-10-16",
+   "summary": "Apache 2.0 桌面应用（macOS/Windows/Linux），集成可配置科研智能体、Python/R Notebook 执行、文献工具、MCP 连接器与可复用技能，支持 Claude Code、Codex、OpenCode 等后端；完成的研究会话可导出为含对话分支、文件版本与验证证据的 .science 包，便于审阅与交接。仓库约 5100 星。",
+   "id": "92edae1ebf75efff2544b127ea8116467741b90e",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T14:30:00+08:00"
   },
   {
    "title": "Gartner：AI 数据中心投资到 2030 年难以回本——需 8.5 万亿美元收入，可归因 AI 收入至多 3.6 万亿",
@@ -1659,6 +1865,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "Politico：微软、谷歌高管称欧盟《AI 法案》已过时，欧委会坚称足以应对智能体风险",
+   "url": "https://www.politico.eu/article/ai-eu-pressure-law-microsoft-brad-smith-google-deepmind-tech/",
+   "source": "Politico Europe",
+   "date": "2026-10-15",
+   "summary": "都柏林 AI 峰会期间，微软总裁 Brad Smith 称欧盟应重新审视现行规则，哈萨比斯也表示三年前立法如今已过时；欧盟科技主管 Virkkunen 称法案“足以应对”AI 智能体。匈牙利文件指出法案存在三处缺口：未上市的内部测试模型是否适用、监管方对训练测试信息掌握不足、智能体造成损害时的责任认定。",
+   "id": "0d6c3ecd83722a0e8e1cef10e9183eeed89d1dd0",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T14:30:00+08:00"
   },
   {
    "title": "GitHub Copilot 将于 11 月 16 日下线 Claude Opus 4.8、Opus 5 与 GPT-5.6 Terra，建议改用 Opus 5.5 / GPT-6.1 Sol",
