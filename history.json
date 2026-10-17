@@ -1,7 +1,37 @@
 {
- "updated": "2026-10-17T17:45:00+08:00",
- "count": 378,
+ "updated": "2026-10-17T18:26:00+08:00",
+ "count": 382,
  "items": [
+  {
+   "title": "Graphicle-AI/graphicle",
+   "url": "https://github.com/Graphicle-AI/graphicle",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Rust",
+   "summary": "单个 Rust 程序为编码智能体提供代码图谱与项目记忆：把仓库映射成代码图，记住文档、决策与历史会话，向 Claude Code、Codex、Cursor 等 MCP 客户端返回带文件行号的引用片段，本地运行、无需 API Key。",
+   "date": "2026-10-17",
+   "stars": 214,
+   "why": "10 月 14 日创建，约 210 星，面向编码智能体的上下文/记忆工具新秀。",
+   "id": "54c796830fb6d8752aacd5cbe98c138ba2169108",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T18:26:00+08:00"
+  },
+  {
+   "title": "assafkip/claudemy",
+   "url": "https://github.com/assafkip/claudemy",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "免费 Claude Code 技能：输入一个主题，自动联网调研并生成约 12 节、每节 2 分钟的双人对话音频课，附每课要点卡片、来源一致性与可点击出处，定位为 Udemy/Coursera 的开源替代。",
+   "date": "2026-10-17",
+   "stars": 288,
+   "why": "10 月 14 日创建，约 290 星，本周新建 Claude Code 技能类仓库中增长较快。",
+   "id": "da9d22f34738efe39915f28a1f76f5e42c904341",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T18:26:00+08:00"
+  },
   {
    "title": "DeepSeek 发布 V4.1-Flash-1017：基准更强、完成任务更快、输出更短，网页/App/API 同步上线",
    "url": "https://api-docs.deepseek.com/news/news261017",
@@ -730,6 +760,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "FT：花旗与美国银行跟进限制第三方 AI 智能体登录客户账户，担忧智能体搬运存款引发流失",
+   "url": "https://www.digitaltoday.co.kr/en/view/115865/major-financial-firms-move-to-block-access-by-personal-ai-agents-citing-deposit-flight-risk",
+   "source": "Digital Today / Financial Times",
+   "date": "2026-10-16",
+   "summary": "据 FT 周五报道，花旗表示不允许第三方 AI 智能体或助手直接登录客户账户、在其数字银行平台上交易；美国银行 CEO 莫伊尼汉称资金离开账户须由人批准，在明确 AI 批准付款的责任归属前将限制智能体访问存款。此前摩根大通已屏蔽 Meta Muse 等外部智能体。Apollo 首席经济学家 Torsten Slok 警告，AI 助手可能把约 0.1% 利率的活期存款自动转向 3.3%–5% 的账户。",
+   "id": "7277888c77dd97e5242c6b559a651c9aa6933738",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T18:26:00+08:00"
+  },
+  {
+   "title": "WorldOracle 开放评测：用真实执行记录检验动作条件世界模型，Cosmos 3 等长序列得分近乎腰斩",
+   "url": "https://arxiv.org/abs/2610.18826",
+   "source": "arXiv / 机器之心",
+   "date": "2026-10-16",
+   "summary": "普林斯顿、UT Austin、多伦多大学、NVIDIA 与智元等提出 WorldOracle：给定真实操作的初始画面与动作序列，让世界模型生成预测视频再与真实执行对照评分，含抓空、掉落等失败案例，覆盖智元 G2、YAM 与第一视角人手。七个模型的机械臂得分普遍高于物体得分（如 IRASim 78.8 vs 29.1），完整长序列中 DreamDojo、Cosmos 3 得分接近减半；平台已于 10 月 16 日向开发者开放。",
+   "id": "70442c65e890e8f6d67e07e18b4b769c6d24f3a1",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T18:26:00+08:00"
   },
   {
    "title": "Waypoint-OPD：用 RL 中途检查点“门控”策略偏移蒸馏，六组数学/代码设置均列第一",

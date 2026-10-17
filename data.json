@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-17T17:45:00+08:00",
+  "updated": "2026-10-17T18:26:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -85,6 +85,13 @@
           "summary": "Amjad Masad 在 TechCrunch Disrupt 上表示，Replit 内部与公开基准显示 OpenAI 的 Sol 与 Astra 在从零构建应用上表现更好；但知情人士称双方合作仍在，Replit 9 月博客仍列出 Claude Fable 5/5.1。Masad 还透露企业合同今年约占收入 15%，B2B 超 50%。"
         },
         {
+          "title": "FT：花旗与美国银行跟进限制第三方 AI 智能体登录客户账户，担忧智能体搬运存款引发流失",
+          "url": "https://www.digitaltoday.co.kr/en/view/115865/major-financial-firms-move-to-block-access-by-personal-ai-agents-citing-deposit-flight-risk",
+          "source": "Digital Today / Financial Times",
+          "date": "2026-10-16",
+          "summary": "据 FT 周五报道，花旗表示不允许第三方 AI 智能体或助手直接登录客户账户、在其数字银行平台上交易；美国银行 CEO 莫伊尼汉称资金离开账户须由人批准，在明确 AI 批准付款的责任归属前将限制智能体访问存款。此前摩根大通已屏蔽 Meta Muse 等外部智能体。Apollo 首席经济学家 Torsten Slok 警告，AI 助手可能把约 0.1% 利率的活期存款自动转向 3.3%–5% 的账户。"
+        },
+        {
           "title": "路透社：Anthropic 签下首个加拿大数据中心租约，EverWind 新斯科舍省项目投资逾 100 亿加元",
           "url": "https://www.investing.com/news/stock-market-news/anthropic-signs-lease-for-first-canadian-data-center-4954967",
           "source": "Reuters",
@@ -118,13 +125,6 @@
           "source": "AI Weekly / Financial Times",
           "date": "2026-10-16",
           "summary": "据 FT 所见文件，KBRA 给予 Anthropic 发行人评级 BB+，距投资级仅一档；其中约 44 亿美元直接承担 Anthropic 信用风险的次级债收益率约 8.5%，博通担保的优先级债约 5.75%。KBRA 采用“风险评分”而非完整财务模型，因 Anthropic 未提供自由现金流与 EBITDA。KBRA 与 Anthropic 均拒绝置评。"
-        },
-        {
-          "title": "路透社：德国将于下周公布与英伟达的工业 AI 合作协议，物理 AI 训练机器人与自动驾驶",
-          "url": "https://www.yahoo.com/news/articles/germany-unveil-nvidia-ai-agreement-110226552.html",
-          "source": "Reuters",
-          "date": "2026-10-16",
-          "summary": "据路透社援引德国政府消息人士，德国将在下周的“Invest in Germany”投资峰会期间宣布与英伟达的合作，推动 AI 在德国工业中的应用，合作方不止英伟达。据《商报》报道，联邦政府准备投入数亿欧元用于采购算力和训练工业 AI 模型，西门子、奥迪、Black Forest Labs 等约十家德企拟参与。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "WorldOracle 开放评测：用真实执行记录检验动作条件世界模型，Cosmos 3 等长序列得分近乎腰斩",
+          "url": "https://arxiv.org/abs/2610.18826",
+          "source": "arXiv / 机器之心",
+          "date": "2026-10-16",
+          "summary": "普林斯顿、UT Austin、多伦多大学、NVIDIA 与智元等提出 WorldOracle：给定真实操作的初始画面与动作序列，让世界模型生成预测视频再与真实执行对照评分，含抓空、掉落等失败案例，覆盖智元 G2、YAM 与第一视角人手。七个模型的机械臂得分普遍高于物体得分（如 IRASim 78.8 vs 29.1），完整长序列中 DreamDojo、Cosmos 3 得分接近减半；平台已于 10 月 16 日向开发者开放。"
+        },
         {
           "title": "Waypoint-OPD：用 RL 中途检查点“门控”策略偏移蒸馏，六组数学/代码设置均列第一",
           "url": "https://arxiv.org/abs/2610.21601",
@@ -181,13 +188,6 @@
           "source": "Microsoft Research",
           "date": "2026-10-16",
           "summary": "Probabilistic Bias Correction 从任意模型的历史预报中学习系统误差并校正概率：使 ECMWF 去偏次季节模型在 98% 降水、92% 气温、91% 气压目标上提升，AIFS 准确度翻倍；基于 PBC 的 MicroDuet 在 ECMWF AI Weather Quest 夺冠，已开源并在肯尼亚气象局试用。"
-        },
-        {
-          "title": "Anthropic 前沿红队：Claude 半小时破解 NIST ECDSA 曲线种子之谜——原是 1990 年代 lrand48 按 Unix 时间戳生成",
-          "url": "https://www.anthropic.com/research/ecdsa-curve-origins",
-          "source": "Anthropic",
-          "date": "2026-10-16",
-          "summary": "内部研究模型发现 P-192/224/256/384/521 等种子并非哈希短语，而是 C 库 lrand48 以 1997–1998 年时间戳初始化后的输出（P-256 为第 1842 个候选），并顺带还原部分基点生成方式；官方强调这不是密码学破解，反而降低“后门”可能，3.6864 万美元赏金捐给 ISRG。"
         }
       ]
     },
@@ -386,6 +386,28 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "Graphicle-AI/graphicle",
+          "url": "https://github.com/Graphicle-AI/graphicle",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "Rust",
+          "summary": "单个 Rust 程序为编码智能体提供代码图谱与项目记忆：把仓库映射成代码图，记住文档、决策与历史会话，向 Claude Code、Codex、Cursor 等 MCP 客户端返回带文件行号的引用片段，本地运行、无需 API Key。",
+          "date": "2026-10-17",
+          "stars": 214,
+          "why": "10 月 14 日创建，约 210 星，面向编码智能体的上下文/记忆工具新秀。"
+        },
+        {
+          "title": "assafkip/claudemy",
+          "url": "https://github.com/assafkip/claudemy",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "Python",
+          "summary": "免费 Claude Code 技能：输入一个主题，自动联网调研并生成约 12 节、每节 2 分钟的双人对话音频课，附每课要点卡片、来源一致性与可点击出处，定位为 Udemy/Coursera 的开源替代。",
+          "date": "2026-10-17",
+          "stars": 288,
+          "why": "10 月 14 日创建，约 290 星，本周新建 Claude Code 技能类仓库中增长较快。"
+        },
+        {
           "title": "i12bp8/decomp.wtf",
           "url": "https://github.com/i12bp8/decomp.wtf",
           "source": "GitHub",
@@ -450,28 +472,6 @@
           "date": "2026-10-17",
           "stars": 410,
           "why": "10 月 15 日创建，两天约 410 星。"
-        },
-        {
-          "title": "chenglou/handwired",
-          "url": "https://github.com/chenglou/handwired",
-          "source": "GitHub",
-          "stars_week": null,
-          "language": "TypeScript",
-          "summary": "把普通 JavaScript 程序（if-else、循环、状态）“手写”编译成矩阵乘法+ReLU 的神经网络：无需训练、结果精确且完全可微，可在 JS 或 WebGPU 上运行，作者为前 React 核心成员 Cheng Lou。",
-          "date": "2026-10-17",
-          "stars": 1594,
-          "why": "10 月 15 日创建，两天约 1600 星，为近几日新建仓库星标增速前列，引发中文 AI 圈讨论。"
-        },
-        {
-          "title": "outcrawlai/scout",
-          "url": "https://github.com/outcrawlai/scout",
-          "source": "GitHub",
-          "stars_week": null,
-          "language": "TypeScript",
-          "summary": "Outcrawl 开源的浏览器智能体 Scout：基于 CDP 的网页自动化，让 LLM 代为浏览与操作网站。",
-          "date": "2026-10-17",
-          "stars": 904,
-          "why": "10 月 13 日创建，已约 900 星，是本周新建 AI 智能体仓库中星标较高者。"
         }
       ]
     },
