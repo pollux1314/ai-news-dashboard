@@ -1,7 +1,86 @@
 {
- "updated": "2026-10-17T16:30:00+08:00",
- "count": 370,
+ "updated": "2026-10-17T17:45:00+08:00",
+ "count": 378,
  "items": [
+  {
+   "title": "DeepSeek 发布 V4.1-Flash-1017：基准更强、完成任务更快、输出更短，网页/App/API 同步上线",
+   "url": "https://api-docs.deepseek.com/news/news261017",
+   "source": "DeepSeek API Docs",
+   "date": "2026-10-17",
+   "summary": "据 DeepSeek 官方发布说明，DeepSeek-V4.1-Flash-1017 相比上一版本在基准成绩、任务完成速度和输出长度上实现性能与成本的帕累托改进，已在官网、App 与 API 上线；通过带自反馈的强化学习强化从零构建完整项目（游戏、3D 建模等）的能力，并针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 等优化，建议升级 Harness v0.2.1-rc.1 及以上。同时 Search / Fetch API 全面开放，每端点每千次 0.75 美元。",
+   "id": "78d78e2c249690d138bb99cc4e07e498864d6622",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
+  {
+   "title": "DeepSeek-V4.1-Flash-1017 权重开源：Hugging Face 与魔搭同步上架，MIT 许可",
+   "url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+   "source": "Hugging Face",
+   "date": "2026-10-17",
+   "summary": "DeepSeek 在 Hugging Face 与 ModelScope 同步开放 DeepSeek-V4.1-Flash-1017 权重，Hugging Face 模型卡标注 MIT 许可；官方称新版本在 DeepSWE v1.1 上以更低单任务成本取得更高 Pass@1，并针对 DeepSeek Harness 等智能体编程环境优化。",
+   "id": "9b13d6a721a0c27049840c9b9a043dabdb98a309",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
+  {
+   "title": "美联社：朝鲜称试射 AI 目标探测与制导的新型鱼雷系统 Zam-2.0",
+   "url": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
+   "source": "AP News",
+   "date": "2026-10-17",
+   "summary": "据美联社援引朝中社报道，朝鲜周六称已于周四成功试射一款名为 Zam-2.0 的“超高速、精确制导”鱼雷系统，该系统使用人工智能进行目标探测与制导；官方未详细说明 AI 的具体作用，AI 武器化与军控议题再度受到关注。",
+   "id": "47355bdd7fb0da59701156b55c1ef9cfd6040aaf",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
+  {
+   "title": "i12bp8/decomp.wtf",
+   "url": "https://github.com/i12bp8/decomp.wtf",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "“What The Function”：让 AI 智能体在本地把你拥有的游戏反编译成 C 代码，且重新编译后与原二进制逐字节一致，面向游戏逆向与匹配式反编译（matching decomp）。",
+   "date": "2026-10-17",
+   "stars": 475,
+   "why": "10 月 13 日创建，约 475 星，本周新建 AI 智能体相关仓库星标靠前。",
+   "id": "95dd3324c642a10e092babdbf33a8e1de350c70a",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
+  {
+   "title": "anujasid/mcp-for-blender-pro",
+   "url": "https://github.com/anujasid/mcp-for-blender-pro",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "Blender 的 AI 助手与 MCP 服务器：支持可视化对话、场景工具、模型选择与多智能体工作流，可接 OpenAI、Claude、Gemini、Ollama、OpenCode，覆盖 bpy 脚本、3D 建模与几何节点自动化。",
+   "date": "2026-10-17",
+   "stars": 352,
+   "why": "10 月 15 日创建，约 350 星，本周新建 MCP 类仓库中增长较快。",
+   "id": "79b84127392ca7e57203e2171af1e1a474930d4b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
+  {
+   "title": "@deepseek_ai",
+   "url": "https://x.com/deepseek_ai/status/2111375640717033777",
+   "source": "@deepseek_ai",
+   "date": "2026-10-17",
+   "summary": "DeepSeek 官宣 DeepSeek-V4.1-Flash-1017：基准更强、完成任务更快、输出更短，实现性能与成本的帕累托改进，已在官网、App 与 API 上线，并针对 DeepSeek Harness、腾讯 CodeBuddy 等优化。",
+   "metrics": {
+    "likes": 6294,
+    "reposts": 869,
+    "views": 246308
+   },
+   "id": "29ba1aa566494733e8f350a285f9d3a5ca6eb61a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
   {
    "title": "OpenAI 推出 ChatGPT Slides：在 Space 中生成、协作编辑与演示幻灯片，可导出 PPT/PDF/Google Slides",
    "url": "https://help.openai.com/en/articles/20001605-creating-and-collaborating-on-slides-in-chatgpt",
@@ -651,6 +730,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Waypoint-OPD：用 RL 中途检查点“门控”策略偏移蒸馏，六组数学/代码设置均列第一",
+   "url": "https://arxiv.org/abs/2610.21601",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-16",
+   "summary": "论文提出 Waypoint-guided On-Policy Distillation：借助同一 RL 训练中的中间教师检查点，比较早期与后期策略偏移方向，方向相反时抑制终点偏移信号，仅需多一次冻结教师打分。以 RL 训练的 Qwen3-4B 为教师、Qwen3-8B/14B/30B-A3B 为学生，在数学与代码推理六组设置中均取得最高领域均分；为 HF 每日论文当日最高票。",
+   "id": "9077977650abe35f8f2941791040c197cf5d74a9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
+  {
+   "title": "MJev-Spatial：把空间推理改成单次前向“分类”，不生成答案 token，12 项基准中 7 项第一",
+   "url": "https://arxiv.org/abs/2610.22276",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-16",
+   "summary": "论文提出“System 1”多模态决策模型 MJev-Spatial，把选择题、数值估计与点位预测统一为分类：复用主干预训练的 query/key 投影为候选打分、不增参数，数值与点位用由粗到细的分箱/区域分类，每次决策一次前向完成。基于 Qwen3.5-4B、用 1230 万条空间问答训练，在 8 个对比模型中总分最高（65.64%）。",
+   "id": "bb0ad31e25644b6c829a4510bcc2f5c824fc6f3f",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T17:45:00+08:00"
   },
   {
    "title": "澎湃：DeepSeek 整合 Harness、Web、App 与 Platform 团队成立“产品部”，崔添翼任负责人",
