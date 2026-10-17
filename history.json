@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-18T06:35:00+08:00",
- "count": 429,
+ "updated": "2026-10-18T07:30:00+08:00",
+ "count": 435,
  "items": [
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2111553608609096055",
+   "source": "@TechCrunch",
+   "date": "2026-10-18",
+   "summary": "TechCrunch：过去一年 Anthropic 员工构成与工作类型显著变化（配合其内部就业报告）。",
+   "metrics": {
+    "likes": 40,
+    "reposts": 3,
+    "views": 25153
+   },
+   "id": "f1daf4dc39e2aea17e7a0813bf8504e72e4eedf2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T07:30:00+08:00"
+  },
   {
    "title": "@theinformation",
    "url": "https://x.com/theinformation/status/2111570453684732204",
@@ -69,12 +85,12 @@
    "title": "anujasid/blender-ai-mcp-addon",
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
    "source": "GitHub",
-   "stars": 551,
+   "stars": 608,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
-   "summary": "Blender AI 助手插件（mcp-for-blender-pro）：内置 MCP 服务器与可视化聊天工作区，提供 21 个场景工具，可检查场景、建模、改材质、找素材和导出；支持 OpenAI、Claude、Gemini、本地 Ollama 等模型，并可配置“经理-执行-审查”多智能体流程，MIT 许可。",
-   "why": "10 月 15 日创建，约 550 星，本周新建 AI 仓库中增长靠前的 3D 创作类 MCP 工具。",
+   "summary": "Blender AI 助手插件：内置 MCP 服务器与可视化聊天工作区，提供场景工具，支持多模型与多智能体流程，MIT 许可。",
+   "why": "10 月 15 日创建，约 608 星，本周新建 3D/MCP 类增长靠前。",
    "id": "7a6a0e30e3185c0cc09d98f691e77aaaf085ab3e",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -84,12 +100,12 @@
    "title": "juliobsz/skills",
    "url": "https://github.com/juliobsz/skills",
    "source": "GitHub",
-   "stars": 381,
+   "stars": 384,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-18",
-   "summary": "/awwwards 智能体技能：一句话需求（如“给我做个作品集”）即可让 Claude Code、Codex、Cursor、Gemini CLI 等智能体扮演创意总监、设计师与前端开发，生成“获奖级”网站并在真实浏览器中自检后交付；通过 npx skills add 安装，MIT 许可。",
-   "why": "10 月 12 日创建，约 380 星，本周热门 Agent Skills 新项目。",
+   "summary": "/awwwards 智能体技能：一句话需求生成“获奖级”网站并在真实浏览器自检后交付。",
+   "why": "10 月 12 日创建，约 384 星，Agent Skills 新项目。",
    "id": "39161a311279aa4e98c2800cae0fb3d944a55b29",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -103,8 +119,8 @@
    "stars_week": null,
    "language": "JavaScript",
    "date": "2026-10-18",
-   "summary": "面向 GPT-6.1 Sol / GPT-6 Astra 的行为“配方”：用系统指令与基于事件的 steering 让编码智能体少走流程、做出更有判断力和审美的交付；从单一配方编译到 Codex、Claude Code、Pi、DeepSeek Harness 等多种宿主，安装不改动用户原有模型与权限配置。",
-   "why": "10 月 12 日创建，约 350 星，Codex 提示工程类新项目。",
+   "summary": "强调判断力与品味的系统指令与源码感知工作流，减少仪式感。",
+   "why": "约 351 星，本周品味/指令类热门新仓库。",
    "id": "356221a44768d85a99b2a1918406c41be86eb078",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
@@ -131,11 +147,11 @@
    "url": "https://x.com/TechCrunch/status/2111529951555891386",
    "source": "@TechCrunch",
    "date": "2026-10-18",
-   "summary": "TechCrunch：Replit CEO Amjad Masad 周末澄清，OpenAI 将取代 Anthropic 成为 Replit 的默认模型提供方，但平台用户仍可选用 Claude。",
+   "summary": "TechCrunch：Replit CEO 澄清 OpenAI 将取代 Anthropic 成为默认模型提供方，Claude 仍可选用。",
    "metrics": {
-    "likes": 7,
-    "reposts": 2,
-    "views": 9666
+    "likes": 28,
+    "reposts": 4,
+    "views": 20708
    },
    "id": "26baf0bdb22ab4f07867bf963377a13092ca97af",
    "module": "x",
@@ -221,6 +237,177 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-18T00:32:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2111475606076760365",
+   "source": "@verge",
+   "date": "2026-10-18",
+   "summary": "The Verge：专家认为可能允许爬取新闻网站训练 AI 的措辞，已从 Meta 商业条款中删除。",
+   "metrics": {
+    "likes": 24,
+    "reposts": 5,
+    "views": 15162
+   },
+   "id": "c4a697ac584d40ea5e6725015753f84c992aba4e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2111459970114064809",
+   "source": "@verge",
+   "date": "2026-10-18",
+   "summary": "The Verge：OpenAI、Meta、Google 希望 AI 智能体代劳一切，但热门网站正纷纷限制智能体访问。",
+   "metrics": {
+    "likes": 38,
+    "reposts": 13,
+    "views": 17044
+   },
+   "id": "9efd06688c11f4a0cf50cc92776a73c23cd8ee19",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T22:30:00+08:00"
+  },
+  {
+   "title": "Graphicle-AI/graphicle",
+   "url": "https://github.com/Graphicle-AI/graphicle",
+   "source": "GitHub",
+   "stars": 259,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-18",
+   "summary": "面向编程智能体的代码图与记忆，单二进制 Rust 实现，适配 Claude Code 等。",
+   "why": "10 月 14 日创建，约 259 星，代码图记忆类新项目。",
+   "id": "54c796830fb6d8752aacd5cbe98c138ba2169108",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T18:26:00+08:00"
+  },
+  {
+   "title": "@deepseek_ai",
+   "url": "https://x.com/deepseek_ai/status/2111375640717033777",
+   "source": "@deepseek_ai",
+   "date": "2026-10-18",
+   "summary": "DeepSeek：发布 DeepSeek-V4.1-Flash-1017，称基准更强、任务更快、输出更短，已在网页/App/API 上线，并同步开放权重与 Search/Fetch API。",
+   "metrics": {
+    "likes": 29766,
+    "reposts": 3319,
+    "views": 4378131
+   },
+   "id": "29ba1aa566494733e8f350a285f9d3a5ca6eb61a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T17:45:00+08:00"
+  },
+  {
+   "title": "OpenMOSS/MOSS-Image",
+   "url": "https://github.com/OpenMOSS/MOSS-Image",
+   "source": "GitHub",
+   "stars": 434,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "复旦 OpenMOSS 的 5B DiT 文生图基座，强调图中文字与布局控制，Apache 2.0。",
+   "why": "10 月 16 日创建，约 434 星，新建文生图基座增长快。",
+   "id": "bfc4e1509fcad720636dc4036edc0f98694b99d7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "Tencent-Hunyuan/Hy-Memory",
+   "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+   "source": "GitHub",
+   "stars": 560,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "腾讯混元 Hy-Memory 2.0：记忆专用模型、框架与 MemHub，面向智能体长期记忆。",
+   "why": "10 月 15 日前后开源，约 560 星，国内大厂记忆组件开源。",
+   "id": "e127630b938b3649ba6d088f1da423671c1334ae",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T06:38:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2111192259073094035",
+   "source": "@OpenAI",
+   "date": "2026-10-18",
+   "summary": "OpenAI：ChatGPT 中的 GPT-6 Astra Pro 升级——响应更快、插件/工具更强，并支持多个智能体并行处理任务不同部分。",
+   "metrics": {
+    "likes": 11370,
+    "reposts": 605,
+    "views": 1993963
+   },
+   "id": "9723315cf52b08d0c242a2e497fdcd2719ea49d4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T04:30:00+08:00"
+  },
+  {
+   "title": "NVlabs/ASPIRE",
+   "url": "https://github.com/NVlabs/ASPIRE",
+   "source": "GitHub",
+   "stars": 460,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "英伟达 ASPIRE：智能体式机器人技能发现、自测与自修，演示含双臂解魔方。",
+   "why": "GEAR 实验室开源，约 460 星，具身技能发现方向热门。",
+   "id": "2ea65ef1b6a844150041f79763271dc5dcf57cf7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T04:30:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2111152183240511640",
+   "source": "@AnthropicAI",
+   "date": "2026-10-18",
+   "summary": "Anthropic：STEM Fellows 新成果——Claude Mythos 5 按自然语言说明设计量子电路，部分任务相对已发表最佳方案提升一个数量级量级。",
+   "metrics": {
+    "likes": 5092,
+    "reposts": 561,
+    "views": 736288
+   },
+   "id": "6c333e5fbffddd3d8e5c0dcc52172d73c679c3a4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T02:45:00+08:00"
+  },
+  {
+   "title": "google-research/harness2",
+   "url": "https://github.com/google-research/harness2",
+   "source": "GitHub",
+   "stars": 1308,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "Google Research 开源 Harness²：在固定模型权重下递归改进智能体 harness，面向 harness 工程与智能体基础设施。",
+   "why": "约 1300 星，本周热门的 harness/智能体基础设施仓库。",
+   "id": "a6f637d138a71bfd36ab5d6fe77e661c16e0283c",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T19:35:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2110797830361436604",
+   "source": "@OpenAI",
+   "date": "2026-10-18",
+   "summary": "OpenAI：GPT-Live-1.1 为 ChatGPT/Codex/dots 语音带来新音色、更好口音与更少“checking…”停顿，今日向全体用户推送。",
+   "metrics": {
+    "likes": 11177,
+    "reposts": 804,
+    "views": 1876275
+   },
+   "id": "775988000eb33d1735c7ab85495f7c0772626dda",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-16T02:35:00+08:00"
   },
   {
    "title": "Anthropic 发布内部就业报告：初级技术岗招聘占比从 27% 降至 9%，员工指挥的智能体工时已达人类的 6 倍",
@@ -416,22 +603,6 @@
    "first_seen": "2026-10-17T23:38:00+08:00"
   },
   {
-   "title": "@verge",
-   "url": "https://x.com/verge/status/2111475606076760365",
-   "source": "@verge",
-   "date": "2026-10-17",
-   "summary": "The Verge：被专家认为允许 Meta 抓取新闻网站内容训练 AI 的条款措辞，已从 Meta 的商业条款中删除。",
-   "metrics": {
-    "likes": 4,
-    "reposts": 2,
-    "views": 4967
-   },
-   "id": "c4a697ac584d40ea5e6725015753f84c992aba4e",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-17T23:38:00+08:00"
-  },
-  {
    "title": "@theinformation",
    "url": "https://x.com/theinformation/status/2111457273448989036",
    "source": "@theinformation",
@@ -476,22 +647,6 @@
    "id": "adbef724cb274560f99367511b2ecdc73c31c6df",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T22:30:00+08:00"
-  },
-  {
-   "title": "@verge",
-   "url": "https://x.com/verge/status/2111459970114064809",
-   "source": "@verge",
-   "date": "2026-10-17",
-   "summary": "The Verge：OpenAI、Meta、谷歌都想让 AI 智能体替你办好一切，但热门网站并不放行。",
-   "metrics": {
-    "likes": 7,
-    "reposts": 4,
-    "views": 4410
-   },
-   "id": "9efd06688c11f4a0cf50cc92776a73c23cd8ee19",
-   "module": "x",
-   "module_name": "X 重要动态",
    "first_seen": "2026-10-17T22:30:00+08:00"
   },
   {
@@ -590,21 +745,6 @@
    "first_seen": "2026-10-17T19:25:00+08:00"
   },
   {
-   "title": "Graphicle-AI/graphicle",
-   "url": "https://github.com/Graphicle-AI/graphicle",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "Rust",
-   "summary": "单个 Rust 程序为编码智能体提供代码图谱与项目记忆：把仓库映射成代码图，记住文档、决策与历史会话，向 Claude Code、Codex、Cursor 等 MCP 客户端返回带文件行号的引用片段，本地运行、无需 API Key。",
-   "date": "2026-10-17",
-   "stars": 214,
-   "why": "10 月 14 日创建，约 210 星，面向编码智能体的上下文/记忆工具新秀。",
-   "id": "54c796830fb6d8752aacd5cbe98c138ba2169108",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T18:26:00+08:00"
-  },
-  {
    "title": "assafkip/claudemy",
    "url": "https://github.com/assafkip/claudemy",
    "source": "GitHub",
@@ -680,22 +820,6 @@
    "id": "79b84127392ca7e57203e2171af1e1a474930d4b",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T17:45:00+08:00"
-  },
-  {
-   "title": "@deepseek_ai",
-   "url": "https://x.com/deepseek_ai/status/2111375640717033777",
-   "source": "@deepseek_ai",
-   "date": "2026-10-17",
-   "summary": "DeepSeek 官宣 DeepSeek-V4.1-Flash-1017：基准更强、完成任务更快、输出更短，实现性能与成本的帕累托改进，已在官网、App 与 API 上线，并针对 DeepSeek Harness、腾讯 CodeBuddy 等优化。",
-   "metrics": {
-    "likes": 6294,
-    "reposts": 869,
-    "views": 246308
-   },
-   "id": "29ba1aa566494733e8f350a285f9d3a5ca6eb61a",
-   "module": "x",
-   "module_name": "X 重要动态",
    "first_seen": "2026-10-17T17:45:00+08:00"
   },
   {
@@ -1167,38 +1291,6 @@
    "first_seen": "2026-10-17T04:30:00+08:00"
   },
   {
-   "title": "@OpenAI",
-   "url": "https://x.com/OpenAI/status/2111192259073094035",
-   "source": "@OpenAI",
-   "date": "2026-10-17",
-   "summary": "OpenAI：ChatGPT 中的 GPT-6 Astra Pro 升级，响应更快、插件与工具调用更好；新增多智能体并行处理任务的不同部分，可跟踪各智能体进度并查看完成结果，现向 Chat 标签页的 Pro 用户开放。",
-   "metrics": {
-    "likes": 342,
-    "reposts": 17,
-    "views": 12916
-   },
-   "id": "9723315cf52b08d0c242a2e497fdcd2719ea49d4",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-17T04:30:00+08:00"
-  },
-  {
-   "title": "@AnthropicAI",
-   "url": "https://x.com/AnthropicAI/status/2111152183240511640",
-   "source": "@AnthropicAI",
-   "date": "2026-10-17",
-   "summary": "Anthropic STEM Fellows 项目新成果：仅凭自然语言指令，Claude Mythos 5 设计出的量子电路优于已发表最佳方案，部分情况效率提升一个数量级以上。",
-   "metrics": {
-    "likes": 1880,
-    "reposts": 160,
-    "views": 115146
-   },
-   "id": "6c333e5fbffddd3d8e5c0dcc52172d73c679c3a4",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-17T02:45:00+08:00"
-  },
-  {
    "title": "MadsLorentzen/ai-job-search",
    "url": "https://github.com/MadsLorentzen/ai-job-search",
    "source": "GitHub",
@@ -1347,6 +1439,61 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "OpenAI 向全体 API 客户开放 prompt-to-voice：用文字描述创建自定义音色，可在 GPT-Live 会话中复用",
+   "url": "https://developers.openai.com/api/docs/guides/custom-voices",
+   "source": "OpenAI Developers",
+   "date": "2026-10-16",
+   "summary": "据 OpenAI API Changelog（10 月 16 日），prompt-to-voice 已对全体 API 客户开放：可通过 API 或 Voice Playground 用文字描述创建自定义音色，并在 GPT-Live 会话中复用；创建音色免费，语音生成按常规 GPT-Live 计费。同日还为 GPT-Live 新增德/法/印地/日/韩等九种自然音色。",
+   "id": "c4ef2661336d94586c3369c51b94bb170c043bdf",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-18T07:30:00+08:00"
+  },
+  {
+   "title": "Learning to Steer LLM Agents：用快慢双路径 RL 训练“转向智能体”，在线纠偏目标漂移",
+   "url": "https://arxiv.org/abs/2610.22316",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "新加坡国立大学、中科大与阿里通义等提出转向智能体：快路径低成本判断是否干预，慢路径生成纠偏动作，并用成对排序损失与 GRPO 联合训练。在信息检索类任务上，相对无干预可提升约 6.7 分，并迁移到未见执行器与多智能体场景。",
+   "id": "4734fcf88311f2924bf886f8559afc626e7c7749",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T07:30:00+08:00"
+  },
+  {
+   "title": "JevAgentHarness：决策模型与 LLM 共享控制，开源 4B 决策模型可显著降本加速",
+   "url": "https://arxiv.org/abs/2610.21412",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "UIUC 等提出 AgentDecisionBench 与 JevAgentHarness，让 harness 把大量多选决策委托给决策模型；并开源在智能体自有失误状态下训练的 AgentDecision-4B。报告称在相似分布任务上成本可降约八成、速度最高约 2.5×。",
+   "id": "f8eae26297047f1d204ce823a335a653c03d108b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T07:30:00+08:00"
+  },
+  {
+   "title": "英国 CMA 提议认定微软商业软件生态具有战略市场地位，将评估 Copilot 等 AI 工具公平竞争",
+   "url": "https://www.gov.uk/government/news/cma-takes-first-steps-to-ensure-choice-in-business-software",
+   "source": "GOV.UK / CMA",
+   "date": "2026-10-16",
+   "summary": "英国竞争与市场管理局（CMA）提议认定微软商业软件生态（含 Word/Excel/Outlook/PowerPoint/Teams 及日益重要的 Copilot）具有战略市场地位（SMS），并发布可能干预路线图；将进一步评估客户能否自由选择 AI 工具、安全产品捆绑与云许可等。意见征询至 11 月 13 日，最终认定截止 2027 年 2 月。SMS 不等于认定违法。",
+   "id": "8c0cc75813b1946937aebbc884922f11b48146d3",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T07:30:00+08:00"
+  },
+  {
+   "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线（不含 Siri AI）",
+   "url": "https://technode.com/2026/10/16/apple-intelligence-to-enter-china-beta-testing-this-month-tim-cook-c",
+   "source": "TechNode",
+   "date": "2026-10-16",
+   "summary": "苹果 CEO 库克确认 Apple Intelligence 已获准接入阿里通义千问，计划 10 月底在中国内地推出测试版；首批功能含实时翻译、写作工具与照片消除等，新版 Siri AI 不在本次测试范围。",
+   "id": "8a574b17c9efa1cc2b0ace8327882b52c1971f8a",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-18T07:30:00+08:00"
   },
   {
    "title": "英伟达开源 Nemotron Labs Dory 1.0：4B 循环（looped）语言模型，同一权重可按 1–4 次循环调节算力，256K 上下文",
@@ -1547,17 +1694,6 @@
    "first_seen": "2026-10-17T13:30:00+08:00"
   },
   {
-   "title": "复旦 OpenMOSS 开源 MOSS-Image：5B DiT 文生图基座，主打图中文字渲染与布局控制，Apache 2.0",
-   "url": "https://github.com/OpenMOSS/MOSS-Image",
-   "source": "GitHub / OpenMOSS",
-   "date": "2026-10-16",
-   "summary": "同时发布 MOSS-Image-Base 与 MOSS-Image-SFT 权重（Hugging Face / ModelScope），支持最长 4K token 提示词、文字与视觉元素的位置布局控制、动漫与写实风格，易于 LoRA 微调；官方称采用替代 GPU 平台进行异构训练，并提供 ComfyUI 原生插件与提示词增强 Skill。",
-   "id": "bfc4e1509fcad720636dc4036edc0f98694b99d7",
-   "module": "opensource",
-   "module_name": "开源与工具",
-   "first_seen": "2026-10-17T13:30:00+08:00"
-  },
-  {
    "title": "腾讯首度承认：测试第三方模型的 AI 智能体出现非预期联网行为，曾反复尝试抓取高德地图数据",
    "url": "https://www.8world.com/greater-china/tencent-says-ai-agents-showed-unintended-browsing-behaviour-3311741",
    "source": "8world / 路透社",
@@ -1613,11 +1749,11 @@
    "first_seen": "2026-10-17T10:40:00+08:00"
   },
   {
-   "title": "Anthropic：Claude Mythos 5 自主设计量子电路，8 项任务中 7 项 Toffoli 门与量子比特数同时优于已发表最佳方案",
+   "title": "Anthropic：Claude Mythos 5 自主设计量子电路，8 项任务中多项优于已发表最佳方案",
    "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
    "source": "Anthropic",
    "date": "2026-10-16",
-   "summary": "STEM Fellows 项目成果（Andi Gu 主导，与哈佛 Susanne Yelin、Mikhail Lukin 合作，论文 arXiv:2610.22367）：模型按自然语言描述提出电路，由独立评估程序验证正确性并按 Toffoli 数×峰值量子比特数打分迭代。模逆运算新架构 Toffoli 门最多减少约 17 倍，优化问题关键步骤约为谷歌此前设计的 1/12；设计尚未在真实量子硬件上运行。",
+   "summary": "Anthropic STEM Fellows 中，Claude Mythos 5 与自动评估器闭环约 53 小时，在八项量子电路任务上提出新设计，多项同时降低 Toffoli 门与量子比特数；合作方含哈佛与 QuEra，论文已挂 arXiv。",
    "id": "04b7640931c7c9715e6a3167f61f1a526fddcb22",
    "module": "research",
    "module_name": "研究与论文",
@@ -1712,17 +1848,6 @@
    "first_seen": "2026-10-17T06:38:00+08:00"
   },
   {
-   "title": "腾讯混元开源 Hy-Memory 2.0：记忆专用模型 Hy-Memory-30B-A3B + 框架 + MemHub 三层全开源",
-   "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
-   "source": "GitHub / 腾讯混元",
-   "date": "2026-10-16",
-   "summary": "30B 总参/约 3B 激活的长期记忆写入模型可直接替换 Mem0、MemOS 等框架内的通用 LLM，经记忆 OPD + 归因强化学习训练，四套记忆系统平均 55.49 分（官方称高于 Claude Opus 5 的 54.62）；MemHub 可在 Claude Code、Cursor、Codex 等工具间本地共享记忆。",
-   "id": "e127630b938b3649ba6d088f1da423671c1334ae",
-   "module": "opensource",
-   "module_name": "开源与工具",
-   "first_seen": "2026-10-17T06:38:00+08:00"
-  },
-  {
    "title": "Politico：Anthropic 正低调向美国议员推介自拟的 AI 安全法案",
    "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
    "source": "Politico",
@@ -1764,17 +1889,6 @@
    "id": "7a6a342eb9583796b00ba8488e92f11c4c3f9a88",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-17T04:30:00+08:00"
-  },
-  {
-   "title": "英伟达 GEAR 开源 ASPIRE v1.0：智能体自写/自测/自修机器人技能，双臂机器人解魔方",
-   "url": "https://github.com/NVlabs/ASPIRE",
-   "source": "GitHub",
-   "date": "2026-10-16",
-   "summary": "Apache-2.0 的 code-as-policy 机器人框架：智能体编写、闭环执行、按多模态轨迹定位失败并修复，沉淀可复用技能库；演示中双臂 YAM 机器人在线学会魔方层转动并完成复原。",
-   "id": "2ea65ef1b6a844150041f79763271dc5dcf57cf7",
-   "module": "opensource",
-   "module_name": "开源与工具",
    "first_seen": "2026-10-17T04:30:00+08:00"
   },
   {
@@ -2117,14 +2231,14 @@
    "first_seen": "2026-10-16T22:31:00+08:00"
   },
   {
-   "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
+   "title": "商务部、科技部拟管制 23 项 AI 技术出口：大模型、智能体与算力集群等入列",
    "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
    "source": "商务部",
    "date": "2026-10-16",
-   "summary": "征求意见稿拟对超大规模参数模型、智能体及相关算力/芯片设计等技术实施出口管制；公开征求意见期至 11 月 15 日。",
+   "summary": "商务部与科技部就修订《中国禁止出口限制出口技术目录》征求意见，拟新增约 23 项人工智能相关条目，涵盖大模型训练与推理、智能体及算力集群等。",
    "id": "139deac0b8879a9f63e1988336477b899e7a9ed0",
-   "module": "policy",
-   "module_name": "政策与监管",
+   "module": "china",
+   "module_name": "国内 AI 动态",
    "first_seen": "2026-10-16T20:30:00+08:00"
   },
   {
@@ -2164,17 +2278,6 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T20:30:00+08:00"
-  },
-  {
-   "title": "Google Research 开源 Harness²：固定模型权重，递归改进智能体 harness",
-   "url": "https://github.com/google-research/harness2",
-   "source": "GitHub",
-   "date": "2026-10-16",
-   "summary": "在模型权重不变前提下，让智能体递归改进自身运行 harness/脚手架，探索“系统层”自我提升路径。",
-   "id": "a6f637d138a71bfd36ab5d6fe77e661c16e0283c",
-   "module": "opensource",
-   "module_name": "开源与工具",
-   "first_seen": "2026-10-16T19:35:00+08:00"
   },
   {
    "title": "百度世界 2026 定档 11 月 12 日：李彦宏主题演讲，“芯云模体”全栈升级将发布多款产品",
@@ -2313,11 +2416,11 @@
    "first_seen": "2026-10-16T17:25:00+08:00"
   },
   {
-   "title": "谷歌 Gemini 4 Argon 全球开放：API 限时半价，主打长程编程与专业工作",
+   "title": "谷歌 Gemini 4 Argon 向付费 API 与 Gemini App 广泛开放",
    "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/",
    "source": "Google",
    "date": "2026-10-16",
-   "summary": "面向开发者、企业与 Gemini Pro/Ultra 用户全面开放；官方称在编码、金融、法律与科学等长程任务上达前沿水平。首发价约 2/10 美元每百万 token（优惠至 11 月 30 日），并附 217 页安全报告。",
+   "summary": "据 Google 官方博客，Gemini 4 Argon 在有限开放后更广泛可用：付费层级 Gemini API、Ultra 的 Antigravity，以及 Google AI Pro/Ultra 的 Gemini 应用均可使用，主打长程编程与专业工作。",
    "id": "c1e94fc831365c1377e60834917c9412addc463f",
    "module": "models",
    "module_name": "大模型与产品发布",
@@ -3435,22 +3538,6 @@
     "views": 1042461
    },
    "id": "5c16a9c6461b449689e83655df40b083e2b450c0",
-   "module": "x",
-   "module_name": "X 重要动态",
-   "first_seen": "2026-10-16T02:35:00+08:00"
-  },
-  {
-   "title": "@OpenAI",
-   "url": "https://x.com/OpenAI/status/2110797830361436604",
-   "source": "@OpenAI",
-   "date": "2026-10-15",
-   "summary": "OpenAI 宣布 GPT-Live-1.1 向全体用户推送：新音色与更好口音覆盖法语、德语、印地语、墨西哥西班牙语、韩语与日语，并减少语音中的“checking…”；API 即将开放。",
-   "metrics": {
-    "likes": 10445,
-    "reposts": 744,
-    "views": 1477860
-   },
-   "id": "775988000eb33d1735c7ab85495f7c0772626dda",
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T02:35:00+08:00"
