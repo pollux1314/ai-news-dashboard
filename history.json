@@ -1,7 +1,39 @@
 {
- "updated": "2026-10-18T01:30:00+08:00",
- "count": 410,
+ "updated": "2026-10-18T02:35:00+08:00",
+ "count": 412,
  "items": [
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111525156032012698",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：Anthropic 营收增速正在放缓，而它即将迎来对 AI 股投资者胃口的最大考验；在一次私下会议上，部分潜在投资者对其最新数据感到失望，并质疑其可能高达 2 万亿美元的 IPO 估值。",
+   "metrics": {
+    "likes": 5,
+    "reposts": 1,
+    "views": 11571
+   },
+   "id": "b1d15756d353cb1bfc75e3f1bc738f59c2c8146d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T02:35:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111510059721052413",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：OpenAI 公布 300 多项由 AI 解决的数学成果，令顶尖密码学家警觉；有人警告进一步突破可能威胁保护在线支付、即时通讯与加密货币的加密体系。",
+   "metrics": {
+    "likes": 5,
+    "reposts": 0,
+    "views": 2226
+   },
+   "id": "0b7375dbdf4bdb3d4b7736633b4dfd01d7a03128",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T02:35:00+08:00"
+  },
   {
    "title": "@theinformation",
    "url": "https://x.com/theinformation/status/2111502555775680771",
