@@ -1,7 +1,38 @@
 {
- "updated": "2026-10-18T04:30:00+08:00",
- "count": 425,
+ "updated": "2026-10-18T05:35:00+08:00",
+ "count": 427,
  "items": [
+  {
+   "title": "reason-machines/reason-network",
+   "url": "https://github.com/reason-machines/reason-network",
+   "source": "GitHub",
+   "stars": 200,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-18",
+   "summary": "Reason Network：让团队里各自的编程智能体互相“对话”协作的引擎，是 reason network 命令背后的核心实现；基于 iroh 点对点网络并支持 MCP，Rust 编写，Apache 2.0 许可。",
+   "why": "10 月 16 日创建，约 200 星，本周新建的编程智能体协作类项目中增长较快。",
+   "id": "17bd4145ec305c231fd9c7e978508de3d053383b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T05:35:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111562930407760100",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：科技高管和 AI 开发者正在自家地下室、车库和家庭办公室搭建“个人数据中心”，以省下云计算费用、更好地掌控 AI 模型，但这些高功率机器也带来了昂贵的散热难题。",
+   "metrics": {
+    "likes": 4,
+    "reposts": 1,
+    "views": 1433
+   },
+   "id": "a480c90dfecae04a3ed916704ebd05246eb3ba77",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T05:35:00+08:00"
+  },
   {
    "title": "@theinformation",
    "url": "https://x.com/theinformation/status/2111547828434554908",
