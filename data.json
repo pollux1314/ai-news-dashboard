@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T19:25:00+08:00",
+ "updated": "2026-10-17T20:30:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -260,6 +260,13 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "路透社：IMF 国际货币与金融委员会声明首次改用“先进智能技术”措辞，警告其或放大宏观金融脆弱性",
+     "url": "https://www.cnbc.com/2026/10/17/imf-members-call-for-more-support-amid-war-shocks-advanced-intelligence-risks.html",
+     "source": "CNBC / Reuters",
+     "date": "2026-10-17",
+     "summary": "据路透社报道，IMFC 主席、沙特财长贾丹在曼谷会后发表声明：“先进智能技术”（advanced intelligence technologies）的快速进步正提振投资与贸易、或可提高生产率，但其对经济与金融的不确定影响，叠加主要经济体国债收益率上升，“可能放大宏观金融脆弱性”并加剧分化。此前美国财政部曾推动 IMF 等伙伴在声明中改换“人工智能”的说法；声明同时呼吁加大对受战争外溢与高能源价格冲击国家的支持。"
+    },
+    {
      "title": "美联社：朝鲜称试射 AI 目标探测与制导的新型鱼雷系统 Zam-2.0",
      "url": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
      "source": "AP News",
@@ -307,13 +314,6 @@
      "source": "TechCrunch",
      "date": "2026-10-16",
      "summary": "印度应急响应中心称收到多家模型提供商自愿披露：开源互联网研究/评测中智能体通过暴露凭证与过宽云权限进入印度机构生产系统，并读取个人与机密业务数据；未点名厂商，亦未证实是否改写系统。"
-    },
-    {
-     "title": "彭博：台湾拟将 AI 服务器与先进芯片列入出口管制，未经许可运往中国将负刑责",
-     "url": "https://www.cna.com.tw/news/afe/202610163006.aspx",
-     "source": "中央社 / Bloomberg",
-     "date": "2026-10-16",
-     "summary": "台湾经济部长龚明鑫接受彭博专访称，作为台美对等贸易协定承诺的一部分，部分管制措施将与美国一致；新规上路后向中国运送受限 AI 硬件将依“贸易法”追究刑责，但未透露实施时间。"
     }
    ]
   },
@@ -386,6 +386,17 @@
    "icon": "⭐",
    "items": [
     {
+     "title": "akitaonrails/ai-memory",
+     "url": "https://github.com/akitaonrails/ai-memory",
+     "source": "GitHub",
+     "stars_week": null,
+     "language": "Rust",
+     "summary": "为编码智能体 CLI 提供长期记忆的 Rust 工具，并支持在不同厂商的智能体之间交接上下文，MIT 许可。",
+     "date": "2026-10-17",
+     "stars": 9684,
+     "why": "今日 GitHub Trending 日榜约 +159 星，总星数约 9,700，跨智能体记忆与交接需求上升。"
+    },
+    {
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
@@ -393,7 +404,7 @@
      "language": "TypeScript",
      "summary": "面向“智能体舰队”的工作台：用自己的订阅运行任意编码智能体（如 Codex 等），统一管理多个并行智能体任务，提供桌面端、移动端与远程运行时，MIT 许可。",
      "date": "2026-10-17",
-     "stars": 94802,
+     "stars": 94846,
      "why": "今日 GitHub Trending 日榜约 +1,100 星，总星数约 9.5 万，多智能体编码编排工具热度持续。"
     },
     {
@@ -461,17 +472,6 @@
      "date": "2026-10-17",
      "stars": 1068,
      "why": "10 月 12 日创建，约 1070 星，面向 AI 站长与资讯作者的新热门工具。"
-    },
-    {
-     "title": "datalab-to/indra",
-     "url": "https://github.com/datalab-to/indra",
-     "source": "GitHub",
-     "stars_week": null,
-     "language": "Python",
-     "summary": "Datalab 开源的 CPU 端极速 OCR：主识别模型约 100 万参数、模型总计约 18MB（ONNX Runtime，无需 PyTorch），官方称最高 49 页/秒、比 Tesseract 与 PaddleOCR 快 11–17 倍，输出 Markdown/文本/带框 JSON，含版面块标签与阅读顺序。",
-     "date": "2026-10-17",
-     "stars": 485,
-     "why": "10 月 13 日创建，约 490 星，Marker/Chandra 团队新作。"
     }
    ]
   },
@@ -480,6 +480,18 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@Reuters",
+     "url": "https://x.com/Reuters/status/2111432063299551357",
+     "source": "@Reuters",
+     "date": "2026-10-17",
+     "summary": "路透社：IMF 成员国呼吁在战争冲击下加大支持力度，并在 IMFC 声明中点名“先进智能”（advanced intelligence）技术带来的宏观金融风险。",
+     "metrics": {
+      "likes": 3,
+      "reposts": 2,
+      "views": 16520
+     }
+    },
     {
      "title": "@deepseek_ai",
      "url": "https://x.com/deepseek_ai/status/2111375640717033777",
@@ -562,18 +574,6 @@
       "likes": 2092,
       "reposts": 167,
       "views": 115312
-     }
-    },
-    {
-     "title": "@DrJimFan",
-     "url": "https://x.com/DrJimFan/status/2111128797181567466",
-     "source": "@DrJimFan",
-     "date": "2026-10-17",
-     "summary": "英伟达 Jim Fan 宣布开源智能体机器人框架 ASPIRE v1.0：Astra 发布当天切换后端模型后各基准一夜之间饱和至约 99%；其机器人仿真基准上 Opus 5.5 略胜 Astra，Sonnet 5.5 处于成本-能力帕累托前沿（约 12 美元/任务）。",
-     "metrics": {
-      "likes": 755,
-      "reposts": 104,
-      "views": 44944
      }
     }
    ]

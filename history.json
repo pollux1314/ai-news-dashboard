@@ -1,7 +1,49 @@
 {
- "updated": "2026-10-17T19:25:00+08:00",
- "count": 384,
+ "updated": "2026-10-17T20:30:00+08:00",
+ "count": 387,
  "items": [
+  {
+   "title": "路透社：IMF 国际货币与金融委员会声明首次改用“先进智能技术”措辞，警告其或放大宏观金融脆弱性",
+   "url": "https://www.cnbc.com/2026/10/17/imf-members-call-for-more-support-amid-war-shocks-advanced-intelligence-risks.html",
+   "source": "CNBC / Reuters",
+   "date": "2026-10-17",
+   "summary": "据路透社报道，IMFC 主席、沙特财长贾丹在曼谷会后发表声明：“先进智能技术”（advanced intelligence technologies）的快速进步正提振投资与贸易、或可提高生产率，但其对经济与金融的不确定影响，叠加主要经济体国债收益率上升，“可能放大宏观金融脆弱性”并加剧分化。此前美国财政部曾推动 IMF 等伙伴在声明中改换“人工智能”的说法；声明同时呼吁加大对受战争外溢与高能源价格冲击国家的支持。",
+   "id": "4c9b6ff125d51072d0cebdd6de2550c3c1fe3200",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T20:30:00+08:00"
+  },
+  {
+   "title": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Rust",
+   "summary": "为编码智能体 CLI 提供长期记忆的 Rust 工具，并支持在不同厂商的智能体之间交接上下文，MIT 许可。",
+   "date": "2026-10-17",
+   "stars": 9684,
+   "why": "今日 GitHub Trending 日榜约 +159 星，总星数约 9,700，跨智能体记忆与交接需求上升。",
+   "id": "9b780e5528de913df223fca2ac9a33c81a4aa057",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T20:30:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2111432063299551357",
+   "source": "@Reuters",
+   "date": "2026-10-17",
+   "summary": "路透社：IMF 成员国呼吁在战争冲击下加大支持力度，并在 IMFC 声明中点名“先进智能”（advanced intelligence）技术带来的宏观金融风险。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 2,
+    "views": 16520
+   },
+   "id": "2ae51cc8a22f6b782ba280807b2e748a922617e1",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T20:30:00+08:00"
+  },
   {
    "title": "stablyai/orca",
    "url": "https://github.com/stablyai/orca",
@@ -10,7 +52,7 @@
    "language": "TypeScript",
    "summary": "面向“智能体舰队”的工作台：用自己的订阅运行任意编码智能体（如 Codex 等），统一管理多个并行智能体任务，提供桌面端、移动端与远程运行时，MIT 许可。",
    "date": "2026-10-17",
-   "stars": 94802,
+   "stars": 94846,
    "why": "今日 GitHub Trending 日榜约 +1,100 星，总星数约 9.5 万，多智能体编码编排工具热度持续。",
    "id": "4747a804fd4584863d91d5dbdd7a2f406fc624a7",
    "module": "github",
