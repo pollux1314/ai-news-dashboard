@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-18T03:33:00+08:00",
- "count": 424,
+ "updated": "2026-10-18T04:30:00+08:00",
+ "count": 425,
  "items": [
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111547828434554908",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：微软每年向 Anthropic 支付的 Copilot 模型费用有望超过 20 亿美元，与此同时微软正越来越多地改用 OpenAI 模型，以降低成本、改善利润率。",
+   "metrics": {
+    "likes": 0,
+    "reposts": 0,
+    "views": 1309
+   },
+   "id": "48c8ff046ea32b818f34f5cedc5eceda8214634c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T04:30:00+08:00"
+  },
   {
    "title": "anujasid/blender-ai-mcp-addon",
    "url": "https://github.com/anujasid/blender-ai-mcp-addon",
