@@ -1,7 +1,22 @@
 {
- "updated": "2026-10-17T18:26:00+08:00",
- "count": 382,
+ "updated": "2026-10-17T19:25:00+08:00",
+ "count": 384,
  "items": [
+  {
+   "title": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "面向“智能体舰队”的工作台：用自己的订阅运行任意编码智能体（如 Codex 等），统一管理多个并行智能体任务，提供桌面端、移动端与远程运行时，MIT 许可。",
+   "date": "2026-10-17",
+   "stars": 94802,
+   "why": "今日 GitHub Trending 日榜约 +1,100 星，总星数约 9.5 万，多智能体编码编排工具热度持续。",
+   "id": "4747a804fd4584863d91d5dbdd7a2f406fc624a7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T19:25:00+08:00"
+  },
   {
    "title": "Graphicle-AI/graphicle",
    "url": "https://github.com/Graphicle-AI/graphicle",
@@ -760,6 +775,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Perplexity 开源 SPACE：Perplexity Computer 背后的智能体沙箱平台，每个任务独占 Firecracker 微虚拟机，Apache 2.0",
+   "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+   "source": "Perplexity Blog",
+   "date": "2026-10-16",
+   "summary": "Perplexity 开源了支撑其个人智能体 Computer 的沙箱平台 SPACE（Sandboxed Platform for Agentic Code Execution）：用 Rust 实现，每个智能体任务运行在独立的 Firecracker 微虚拟机中，拥有独立文件系统与生命周期控制（暂停、挂起、唤醒、删除），通过 HTTP/SSE API 调用，无需 SDK；网络访问与平台凭证在虚拟机外部管理，智能体可访问授权服务而不在工作环境中存放凭证。Perplexity 称 7 月已用 SPACE 替换此前的商用沙箱供应商，GitHub 仓库 perplexityai/SPACE 以 Apache 2.0 许可发布。",
+   "id": "6d8a951eb294ad5084e719de69be3f766e82c144",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T19:25:00+08:00"
   },
   {
    "title": "FT：花旗与美国银行跟进限制第三方 AI 智能体登录客户账户，担忧智能体搬运存款引发流失",
