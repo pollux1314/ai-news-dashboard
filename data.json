@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-18T05:35:00+08:00",
+  "updated": "2026-10-18T06:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Anthropic 发布内部就业报告：初级技术岗招聘占比从 27% 降至 9%，员工指挥的智能体工时已达人类的 6 倍",
+          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+          "source": "TechCrunch / Anthropic",
+          "date": "2026-10-17",
+          "summary": "Anthropic 10 月 16 日发布《How employment is changing at Anthropic》：自 2025 年初以来，技术部门初级员工占比从 21% 降至 14%，初级技术岗招聘占比从 27% 骤降至 9%；技术团队占全员比例从 61% 降至 56%。智能体工时在 2026 年 3 月首超员工，8 月达约 6:1，人均代码提交速度约为半年前的 5 倍，人类注意力成为瓶颈；人均会议时间同比增加 20%，招聘更看重自主性与判断力。"
+        },
+        {
           "title": "AI 视频创作平台 Clueso 完成 1000 万美元 A 轮：Dharana Capital 领投，YC 跟投，计算机智能体自动录屏生成产品视频",
           "url": "https://indianstartupnews.com/funding/iit-madras-alumni-founded-ai-video-creation-startup-clueso-raises-10-million-in-funding-12672700",
           "source": "Indian Startup News",
@@ -118,13 +125,6 @@
           "source": "Reuters",
           "date": "2026-10-16",
           "summary": "Anthropic 与 EverWind 签约租用新斯科舍省 Point Tupper 的数据中心容量，为其在加拿大的首个数据中心协议；EverWind 同时公布逾 100 亿加元的数据中心园区与风电投资计划，称是该省史上最大私人投资。Anthropic 去年算力与基础设施支出 73.3 亿美元，较 2024 年增长约三倍。"
-        },
-        {
-          "title": "Gartner：AI 数据中心投资到 2030 年难以回本——需 8.5 万亿美元收入，可归因 AI 收入至多 3.6 万亿",
-          "url": "https://www.computerworld.com/article/4236641/ai-datacenter-capex-will-far-exceed-forecast-revenue-through-2030-3.html",
-          "source": "Computerworld / Gartner",
-          "date": "2026-10-16",
-          "summary": "Gartner 高级总监分析师 Will Sommer 称，AI 数据中心所有者到 2030 年需创造 8.5 万亿美元收入才能覆盖已宣布的资本开支、融资成本与预期回报，但可归因于 AI 数据中心的企业与消费 AI 收入预计不超过 3.6 万亿美元；超大规模云厂商尚能消化压力，但成本压力将迫使超过 80% 的 neocloud 厂商无法继续独立运营。贝恩此前也给出类似判断。"
         }
       ]
     },
@@ -482,6 +482,18 @@
       "items": [
         {
           "title": "@theinformation",
+          "url": "https://x.com/theinformation/status/2111570453684732204",
+          "source": "@theinformation",
+          "date": "2026-10-18",
+          "summary": "The Information：OpenAI 收缩高成本副业的趋势或正在逆转——公司正探讨一项交易以重启 Sora，同时扩大在机器人、创作者工具和个人设备方面的投入。",
+          "metrics": {
+            "likes": 1,
+            "reposts": 0,
+            "views": 2083
+          }
+        },
+        {
+          "title": "@theinformation",
           "url": "https://x.com/theinformation/status/2111562930407760100",
           "source": "@theinformation",
           "date": "2026-10-18",
@@ -562,18 +574,6 @@
             "likes": 3,
             "reposts": 0,
             "views": 1311
-          }
-        },
-        {
-          "title": "@theinformation",
-          "url": "https://x.com/theinformation/status/2111494959933092060",
-          "source": "@theinformation",
-          "date": "2026-10-18",
-          "summary": "The Information：更强的模型不再必然带来更多使用量——模型智能领先 10 分如今只换来约 20% 的开发者流量增长，而 2025 年底这一数字接近 69%，OpenAI、Anthropic 等头部实验室面临新挑战。",
-          "metrics": {
-            "likes": 1,
-            "reposts": 0,
-            "views": 352
           }
         }
       ]

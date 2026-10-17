@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-18T05:35:00+08:00",
- "count": 427,
+ "updated": "2026-10-18T06:35:00+08:00",
+ "count": 429,
  "items": [
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111570453684732204",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：OpenAI 收缩高成本副业的趋势或正在逆转——公司正探讨一项交易以重启 Sora，同时扩大在机器人、创作者工具和个人设备方面的投入。",
+   "metrics": {
+    "likes": 1,
+    "reposts": 0,
+    "views": 2083
+   },
+   "id": "b6bb2131081774f44bc4f0607a6891126d22a21c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T06:35:00+08:00"
+  },
   {
    "title": "reason-machines/reason-network",
    "url": "https://github.com/reason-machines/reason-network",
@@ -205,6 +221,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-18T00:32:00+08:00"
+  },
+  {
+   "title": "Anthropic 发布内部就业报告：初级技术岗招聘占比从 27% 降至 9%，员工指挥的智能体工时已达人类的 6 倍",
+   "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+   "source": "TechCrunch / Anthropic",
+   "date": "2026-10-17",
+   "summary": "Anthropic 10 月 16 日发布《How employment is changing at Anthropic》：自 2025 年初以来，技术部门初级员工占比从 21% 降至 14%，初级技术岗招聘占比从 27% 骤降至 9%；技术团队占全员比例从 61% 降至 56%。智能体工时在 2026 年 3 月首超员工，8 月达约 6:1，人均代码提交速度约为半年前的 5 倍，人类注意力成为瓶颈；人均会议时间同比增加 20%，招聘更看重自主性与判断力。",
+   "id": "b769f5e984a396b07ae23dba72a79aeb18cc507c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T06:35:00+08:00"
   },
   {
    "title": "Anthropic：10 月 29 日起 Claude Haiku 4.5 退出 Free/Pro/Max 模型选择器，自动切换至 Haiku 5.5",
