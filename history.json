@@ -1,7 +1,38 @@
 {
- "updated": "2026-10-17T21:35:00+08:00",
- "count": 391,
+ "updated": "2026-10-17T22:30:00+08:00",
+ "count": 393,
  "items": [
+  {
+   "title": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
+   "date": "2026-10-17",
+   "stars": 214731,
+   "why": "今日 GitHub Trending 日榜约 +488 星，总星数约 21.5 万，开源编码智能体热度持续。",
+   "id": "adbef724cb274560f99367511b2ecdc73c31c6df",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T22:30:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2111459970114064809",
+   "source": "@verge",
+   "date": "2026-10-17",
+   "summary": "The Verge：OpenAI、Meta、谷歌都想让 AI 智能体替你办好一切，但热门网站并不放行。",
+   "metrics": {
+    "likes": 7,
+    "reposts": 4,
+    "views": 4410
+   },
+   "id": "9efd06688c11f4a0cf50cc92776a73c23cd8ee19",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T22:30:00+08:00"
+  },
   {
    "title": "The Verge：网站纷纷对 AI 智能体关门——亚马逊、达美航空、摩根大通、嘉信等限制代用户操作，Yelp 只放行付费授权的智能体",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",

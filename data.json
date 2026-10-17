@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T21:35:00+08:00",
+ "updated": "2026-10-17T22:30:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -386,6 +386,17 @@
    "icon": "⭐",
    "items": [
     {
+     "title": "anomalyco/opencode",
+     "url": "https://github.com/anomalyco/opencode",
+     "source": "GitHub",
+     "stars_week": null,
+     "language": "TypeScript",
+     "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
+     "date": "2026-10-17",
+     "stars": 214731,
+     "why": "今日 GitHub Trending 日榜约 +488 星，总星数约 21.5 万，开源编码智能体热度持续。"
+    },
+    {
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
@@ -461,17 +472,6 @@
      "date": "2026-10-17",
      "stars": 1532,
      "why": "10 月 12 日创建，约 1500 星，为本周新建 AI 相关仓库星标前列。"
-    },
-    {
-     "title": "zhuyansen/new-term-radar",
-     "url": "https://github.com/zhuyansen/new-term-radar",
-     "source": "GitHub",
-     "stars_week": null,
-     "language": "Python",
-     "summary": "AI 新名词日报雷达：从 X 账号首次提及、Hugging Face 趋势榜、GitHub 新仓库爆发、AI 工具目录站点地图等信号中捕捉新模型/产品/仓库名，早于关键词工具与 Google Trends 发现热词，提供 CLI、Agent Skills 与 MCP 服务器。",
-     "date": "2026-10-17",
-     "stars": 1068,
-     "why": "10 月 12 日创建，约 1070 星，面向 AI 站长与资讯作者的新热门工具。"
     }
    ]
   },
@@ -480,6 +480,18 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@verge",
+     "url": "https://x.com/verge/status/2111459970114064809",
+     "source": "@verge",
+     "date": "2026-10-17",
+     "summary": "The Verge：OpenAI、Meta、谷歌都想让 AI 智能体替你办好一切，但热门网站并不放行。",
+     "metrics": {
+      "likes": 7,
+      "reposts": 4,
+      "views": 4410
+     }
+    },
     {
      "title": "@IMFNews",
      "url": "https://x.com/IMFNews/status/2111366625933119873",
@@ -562,18 +574,6 @@
       "likes": 87,
       "reposts": 14,
       "views": 31102
-     }
-    },
-    {
-     "title": "@business",
-     "url": "https://x.com/business/status/2111268519367082030",
-     "source": "@business",
-     "date": "2026-10-17",
-     "summary": "彭博：在全球 AI 交易走弱之际，中国公司成为最大输家，令北京借助股市助推科技自立的努力受挫。",
-     "metrics": {
-      "likes": 110,
-      "reposts": 19,
-      "views": 36200
      }
     }
    ]
