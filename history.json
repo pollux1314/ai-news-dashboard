@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-18T00:32:00+08:00",
- "count": 409,
+ "updated": "2026-10-18T01:30:00+08:00",
+ "count": 410,
  "items": [
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111502555775680771",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：Cognition 瞄准“tokenmaxxing”（无节制堆 token）现象，推出一套按 AI 使用效率给工程师打分的系统，并据表现动态调整每人的 AI 花费额度。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 0,
+    "views": 1311
+   },
+   "id": "d1ebc8b7237050cab520e6660c500e689a74c5c7",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T01:30:00+08:00"
+  },
   {
    "title": "@theinformation",
    "url": "https://x.com/theinformation/status/2111494959933092060",

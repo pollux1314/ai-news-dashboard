@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-18T00:32:00+08:00",
+  "updated": "2026-10-18T01:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -482,6 +482,18 @@
       "items": [
         {
           "title": "@theinformation",
+          "url": "https://x.com/theinformation/status/2111502555775680771",
+          "source": "@theinformation",
+          "date": "2026-10-18",
+          "summary": "The Information：Cognition 瞄准“tokenmaxxing”（无节制堆 token）现象，推出一套按 AI 使用效率给工程师打分的系统，并据表现动态调整每人的 AI 花费额度。",
+          "metrics": {
+            "likes": 3,
+            "reposts": 0,
+            "views": 1311
+          }
+        },
+        {
+          "title": "@theinformation",
           "url": "https://x.com/theinformation/status/2111494959933092060",
           "source": "@theinformation",
           "date": "2026-10-18",
@@ -562,18 +574,6 @@
             "likes": 17,
             "reposts": 7,
             "views": 10584
-          }
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2111432063299551357",
-          "source": "@Reuters",
-          "date": "2026-10-17",
-          "summary": "路透社：IMF 成员国呼吁在战争冲击下加大支持力度，并在 IMFC 声明中点名“先进智能”（advanced intelligence）技术带来的宏观金融风险。",
-          "metrics": {
-            "likes": 3,
-            "reposts": 2,
-            "views": 16520
           }
         }
       ]
