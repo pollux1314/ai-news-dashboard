@@ -1,7 +1,50 @@
 {
- "updated": "2026-10-17T14:30:00+08:00",
- "count": 365,
+ "updated": "2026-10-17T15:30:00+08:00",
+ "count": 369,
  "items": [
+  {
+   "title": "OpenAI 推出 ChatGPT Slides：在 Space 中生成、协作编辑与演示幻灯片，可导出 PPT/PDF/Google Slides",
+   "url": "https://help.openai.com/en/articles/20001605-creating-and-collaborating-on-slides-in-chatgpt",
+   "source": "OpenAI Help Center",
+   "date": "2026-10-17",
+   "summary": "据 OpenAI 帮助中心，ChatGPT Slides 正向拥有 Space 权限的 Pro、Business、Enterprise 账户逐步推送：可在 Work 中让 ChatGPT 依据对话、附件或模板生成可编辑演示文稿，直接修改文字、图片、表格与图表，或选中元素请 ChatGPT 改写；支持多人实时协作与评论（可 @ChatGPT 或 dot 代改），并可在 ChatGPT 内直接演示，网页端可导出 PowerPoint、PDF 和 Google Slides。",
+   "id": "098afb3f04cb8d46370fc9bd388a6bf3dc587c17",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-17T15:30:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2111359112994804113",
+   "source": "@Reuters",
+   "date": "2026-10-17",
+   "summary": "路透社：花旗称，尽管估值回调，中国 AI 供应链相关 IPO 依然坚挺。",
+   "metrics": {
+    "likes": 2,
+    "reposts": 1,
+    "views": 10103
+   },
+   "id": "534c7ef2da2ae92d75f90c6a2be7ccfb57c69425",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T15:30:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2111323846976393694",
+   "source": "@Reuters",
+   "date": "2026-10-17",
+   "summary": "路透社：对 AI 交易的担忧叠加油价高企，华尔街股市大跌。",
+   "metrics": {
+    "likes": 18,
+    "reposts": 14,
+    "views": 31095
+   },
+   "id": "961c208f07a504b41412c5ecdf6eca24ff7b7a30",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T15:30:00+08:00"
+  },
   {
    "title": "FT：Anthropic 向黑石开出逾 10% 收益率，为 600 亿美元“北极星”TPU 芯片融资募 90 亿美元次级债",
    "url": "https://www.livemint.com/ai/artificial-intelligence/anthropic-offers-blackstone-double-digit-yield-in-chip-financing-deal-what-the-60-billion-deal-entails-11792204532812.html",
@@ -608,6 +651,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "澎湃：DeepSeek 整合 Harness、Web、App 与 Platform 团队成立“产品部”，崔添翼任负责人",
+   "url": "https://www.thepaper.cn/newsDetail_forward_34262324",
+   "source": "澎湃新闻",
+   "date": "2026-10-16",
+   "summary": "据澎湃新闻，DeepSeek 已将 Harness、Web、App 和 Platform 等团队整合为产品部，统筹产品、设计与研发工作，原 Harness 团队负责人崔添翼出任负责人；DeepSeek 同时在北京、杭州招聘 AI 产品与 Agent Harness 产品经理、产品设计师和项目经理，显示其正从模型研发向产品化加速。",
+   "id": "219c4b1066d101fa747ceab4e761353c368d84de",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-17T15:30:00+08:00"
   },
   {
    "title": "路透社：Anthropic 签下首个加拿大数据中心租约，EverWind 新斯科舍省项目投资逾 100 亿加元",
