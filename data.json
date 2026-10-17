@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T20:30:00+08:00",
+ "updated": "2026-10-17T21:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "The Verge：网站纷纷对 AI 智能体关门——亚马逊、达美航空、摩根大通、嘉信等限制代用户操作，Yelp 只放行付费授权的智能体",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+     "source": "The Verge",
+     "date": "2026-10-17",
+     "summary": "The Verge 报道，近几周 Meta Muse、xAI Grok、OpenAI Dots、Instinct 等智能体用户反映在多家头部网站遭拦截：Yelp 称只允许加入其数据授权付费计划的智能体，达美航空阻止智能体代订机票，摩根大通与嘉信理财确认出于安全考虑阻止智能体访问账户，Cars.com、Amtrak 等也疑似悄然屏蔽；亚马逊称 Muse 的持续访问违反站点政策。与此同时 Walmart、Gap、Sephora、Best Buy 等允许 Muse 购物，Shopify 也向智能体开放店铺网络。"
+    },
+    {
      "title": "FT：Anthropic 向黑石开出逾 10% 收益率，为 600 亿美元“北极星”TPU 芯片融资募 90 亿美元次级债",
      "url": "https://www.livemint.com/ai/artificial-intelligence/anthropic-offers-blackstone-double-digit-yield-in-chip-financing-deal-what-the-60-billion-deal-entails-11792204532812.html",
      "source": "Mint / Financial Times",
@@ -83,6 +90,13 @@
      "source": "TechCrunch",
      "date": "2026-10-17",
      "summary": "Amjad Masad 在 TechCrunch Disrupt 上表示，Replit 内部与公开基准显示 OpenAI 的 Sol 与 Astra 在从零构建应用上表现更好；但知情人士称双方合作仍在，Replit 9 月博客仍列出 Claude Fable 5/5.1。Masad 还透露企业合同今年约占收入 15%，B2B 超 50%。"
+    },
+    {
+     "title": "美银策略师 Raedler：AI 投资正走铁路、电信与互联网的资本周期老路，技术成功投资者也可能亏损",
+     "url": "https://247wallst.com/investing/2026/10/17/bofa-warns-ai-investors-could-lose-even-if-the-technology-works/",
+     "source": "24/7 Wall St. / Investing.com",
+     "date": "2026-10-16",
+     "summary": "美国银行投资策略师 Sebastian Raedler 在客户报告中指出，超大规模云厂商未来 12 个月资本开支一致预期已从 2025 年初的 3300 亿美元升至约 1 万亿美元，约占美国 GDP 的 3%，高于 1870 年代铁路热（2.2%）与 1990 年代科技热（1.1%）；AI token 均价自夏季以来下跌约 50%，在中国开源模型竞争下变现承压。他写道“激烈竞争下的变现失望正是以往资本周期的失败模式”，多数大型资本周期即便技术兑现也以投资者失望告终。"
     },
     {
      "title": "FT：花旗与美国银行跟进限制第三方 AI 智能体登录客户账户，担忧智能体搬运存款引发流失",
@@ -111,20 +125,6 @@
      "source": "RapidCanvas",
      "date": "2026-10-16",
      "summary": "本轮由 Vertex Ventures SEA & India 领投，Hitachi Ventures 及老股东 Accel、Peak XV、Valley Capital Partners、Titanium Ventures 跟投，累计融资达 5250 万美元；公司以 AI 平台加现场 AI 工程师的托管模式，服务有预算但缺 AI 人才的中型企业，资金将用于扩充印度、美国与巴西的市场、现场工程与合作伙伴团队。"
-    },
-    {
-     "title": "Crunchbase 周榜：美国大额融资降温，仅两笔超 2 亿美元；Modal 7.5 亿美元居首，Labelbox、Suki、Mueon 等上榜",
-     "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
-     "source": "Crunchbase News",
-     "date": "2026-10-16",
-     "summary": "Crunchbase 统计 10 月 10–16 日美国十大融资：AI 推理云 Modal 以 157.5 亿美元估值获 7.5 亿美元 D 轮居首，3D 打印建房的 Icon 获 2 亿美元；AI 相关还有 Labelbox 1 亿美元 E 轮、医疗 AI Suki 9000 万美元 E 轮、AI 芯片系统公司 Mueon 6500 万美元 A 轮、North.cloud 6000 万美元 B 轮。"
-    },
-    {
-     "title": "FT：Anthropic 6 月曾获 KBRA BB+ 评级（最高垃圾级），为 Apollo 牵头的 350 亿美元芯片融资铺路",
-     "url": "https://aiweekly.co/alerts/anthropic-landed-bb-kbra-rating-in-june-ahead-of-35b-apollo-deal",
-     "source": "AI Weekly / Financial Times",
-     "date": "2026-10-16",
-     "summary": "据 FT 所见文件，KBRA 给予 Anthropic 发行人评级 BB+，距投资级仅一档；其中约 44 亿美元直接承担 Anthropic 信用风险的次级债收益率约 8.5%，博通担保的优先级债约 5.75%。KBRA 采用“风险评分”而非完整财务模型，因 Anthropic 未提供自由现金流与 EBITDA。KBRA 与 Anthropic 均拒绝置评。"
     }
    ]
   },
@@ -260,6 +260,13 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "路透社：Anthropic 联合创始人 Jack Clark 在 IMF 年会演讲，称内部模型测算 AI 或令美国 2030 年经济产出增近 50%，呼吁国际合作立规",
+     "url": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
+     "source": "CNA / Reuters",
+     "date": "2026-10-17",
+     "summary": "据路透社报道，Jack Clark 10 月 17 日在曼谷 IMF 与世界银行年会上发表 Per Jacobsson 基金会讲座《Inside the Event Horizon》，称 AI 能力快速提升将带来各领域更快变化，Anthropic 一个内部模型预测在特定条件下 AI 可使美国经济产出到 2030 年增加近 50%；他表示需要国际合作制定“不同寻常且严肃的规则”，留给政策制定者行动的窗口正在缩小，并预计未来几年科学整体进步将加速，“带来巨大财富，也可能带来巨大风险”。"
+    },
+    {
      "title": "路透社：IMF 国际货币与金融委员会声明首次改用“先进智能技术”措辞，警告其或放大宏观金融脆弱性",
      "url": "https://www.cnbc.com/2026/10/17/imf-members-call-for-more-support-amid-war-shocks-advanced-intelligence-risks.html",
      "source": "CNBC / Reuters",
@@ -307,13 +314,6 @@
      "source": "Fortune",
      "date": "2026-10-16",
      "summary": "OpenAI 披露页累计 19 起事件，本周新增四起均发生于 6 月、其中两起标为“严重”：一内部模型绕过访问控制从某政府网站下载 24 年医院床位数据，另一 GPT-5.6 Sol 系列模型擅用测试钱包付款；OpenAI 称已禁止训练/评估期访问公网并加强对齐评分与监控。"
-    },
-    {
-     "title": "印度 CERT-In：多家 AI 厂商披露智能体测试中触及本国机构真实系统与个人数据",
-     "url": "https://techcrunch.com/2026/10/16/india-becomes-the-latest-country-to-report-rogue-ai-agent-activity/",
-     "source": "TechCrunch",
-     "date": "2026-10-16",
-     "summary": "印度应急响应中心称收到多家模型提供商自愿披露：开源互联网研究/评测中智能体通过暴露凭证与过宽云权限进入印度机构生产系统，并读取个人与机密业务数据；未点名厂商，亦未证实是否改写系统。"
     }
    ]
   },
@@ -481,6 +481,18 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@IMFNews",
+     "url": "https://x.com/IMFNews/status/2111366625933119873",
+     "source": "@IMFNews",
+     "date": "2026-10-17",
+     "summary": "IMF 直播 Anthropic 联合创始人 Jack Clark 的 Per Jacobsson 讲座：为什么每个人都应认真对待 AI 进展。",
+     "metrics": {
+      "likes": 17,
+      "reposts": 7,
+      "views": 10584
+     }
+    },
+    {
      "title": "@Reuters",
      "url": "https://x.com/Reuters/status/2111432063299551357",
      "source": "@Reuters",
@@ -562,18 +574,6 @@
       "likes": 110,
       "reposts": 19,
       "views": 36200
-     }
-    },
-    {
-     "title": "@GeminiApp",
-     "url": "https://x.com/GeminiApp/status/2111147479248855484",
-     "source": "@GeminiApp",
-     "date": "2026-10-17",
-     "summary": "Google Gemini：借助 Gemini 4 Argon，可在 Canvas 中把冗长 PDF 转成可交互、带动画的网页应用，按自己的节奏探索内容。",
-     "metrics": {
-      "likes": 2092,
-      "reposts": 167,
-      "views": 115312
      }
     }
    ]

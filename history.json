@@ -1,7 +1,45 @@
 {
- "updated": "2026-10-17T20:30:00+08:00",
- "count": 387,
+ "updated": "2026-10-17T21:35:00+08:00",
+ "count": 391,
  "items": [
+  {
+   "title": "The Verge：网站纷纷对 AI 智能体关门——亚马逊、达美航空、摩根大通、嘉信等限制代用户操作，Yelp 只放行付费授权的智能体",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+   "source": "The Verge",
+   "date": "2026-10-17",
+   "summary": "The Verge 报道，近几周 Meta Muse、xAI Grok、OpenAI Dots、Instinct 等智能体用户反映在多家头部网站遭拦截：Yelp 称只允许加入其数据授权付费计划的智能体，达美航空阻止智能体代订机票，摩根大通与嘉信理财确认出于安全考虑阻止智能体访问账户，Cars.com、Amtrak 等也疑似悄然屏蔽；亚马逊称 Muse 的持续访问违反站点政策。与此同时 Walmart、Gap、Sephora、Best Buy 等允许 Muse 购物，Shopify 也向智能体开放店铺网络。",
+   "id": "79619743255e89a10aca34b40659d0156cc48c5c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T21:35:00+08:00"
+  },
+  {
+   "title": "路透社：Anthropic 联合创始人 Jack Clark 在 IMF 年会演讲，称内部模型测算 AI 或令美国 2030 年经济产出增近 50%，呼吁国际合作立规",
+   "url": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
+   "source": "CNA / Reuters",
+   "date": "2026-10-17",
+   "summary": "据路透社报道，Jack Clark 10 月 17 日在曼谷 IMF 与世界银行年会上发表 Per Jacobsson 基金会讲座《Inside the Event Horizon》，称 AI 能力快速提升将带来各领域更快变化，Anthropic 一个内部模型预测在特定条件下 AI 可使美国经济产出到 2030 年增加近 50%；他表示需要国际合作制定“不同寻常且严肃的规则”，留给政策制定者行动的窗口正在缩小，并预计未来几年科学整体进步将加速，“带来巨大财富，也可能带来巨大风险”。",
+   "id": "ac607b3600239a415df878bcf7683f2d8a8670d3",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T21:35:00+08:00"
+  },
+  {
+   "title": "@IMFNews",
+   "url": "https://x.com/IMFNews/status/2111366625933119873",
+   "source": "@IMFNews",
+   "date": "2026-10-17",
+   "summary": "IMF 直播 Anthropic 联合创始人 Jack Clark 的 Per Jacobsson 讲座：为什么每个人都应认真对待 AI 进展。",
+   "metrics": {
+    "likes": 17,
+    "reposts": 7,
+    "views": 10584
+   },
+   "id": "bb2c8f196526aeec91f5cdaf9f9c42ea44010299",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T21:35:00+08:00"
+  },
   {
    "title": "路透社：IMF 国际货币与金融委员会声明首次改用“先进智能技术”措辞，警告其或放大宏观金融脆弱性",
    "url": "https://www.cnbc.com/2026/10/17/imf-members-call-for-more-support-amid-war-shocks-advanced-intelligence-risks.html",
@@ -817,6 +855,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "美银策略师 Raedler：AI 投资正走铁路、电信与互联网的资本周期老路，技术成功投资者也可能亏损",
+   "url": "https://247wallst.com/investing/2026/10/17/bofa-warns-ai-investors-could-lose-even-if-the-technology-works/",
+   "source": "24/7 Wall St. / Investing.com",
+   "date": "2026-10-16",
+   "summary": "美国银行投资策略师 Sebastian Raedler 在客户报告中指出，超大规模云厂商未来 12 个月资本开支一致预期已从 2025 年初的 3300 亿美元升至约 1 万亿美元，约占美国 GDP 的 3%，高于 1870 年代铁路热（2.2%）与 1990 年代科技热（1.1%）；AI token 均价自夏季以来下跌约 50%，在中国开源模型竞争下变现承压。他写道“激烈竞争下的变现失望正是以往资本周期的失败模式”，多数大型资本周期即便技术兑现也以投资者失望告终。",
+   "id": "cfeab9bafc77f08ba95937ec781a25cbacc58a28",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T21:35:00+08:00"
   },
   {
    "title": "Perplexity 开源 SPACE：Perplexity Computer 背后的智能体沙箱平台，每个任务独占 Firecracker 微虚拟机，Apache 2.0",
