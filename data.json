@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T08:27:00+08:00",
+ "updated": "2026-10-17T09:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -197,6 +197,13 @@
    "icon": "🛠️",
    "items": [
     {
+     "title": "Perplexity 开源新一代多模态决策模型 pplx-decider v1.2：含 4B Flash 版，推理最高快 5 倍",
+     "url": "https://huggingface.co/perplexity-ai/pplx-decider-v1.2",
+     "source": "Hugging Face / Perplexity",
+     "date": "2026-10-17",
+     "summary": "Perplexity 在 Hugging Face 开放 pplx-decider-v1.2 与 pplx-decider-flash-v1.2 权重，支持文本与图像（最高约 1.6MP）；同一请求内多个问题可一次前向完成，推理最高快约 5 倍。模型卡显示其在 Decision Index 0.3 总分由 v1.1 的 62.30 升至 68.09，官方称 Flash 为该榜单最强 4B 模型。"
+    },
+    {
      "title": "腾讯混元开源 Hy-Memory 2.0：记忆专用模型 Hy-Memory-30B-A3B + 框架 + MemHub 三层全开源",
      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
      "source": "GitHub / 腾讯混元",
@@ -244,13 +251,6 @@
      "source": "NVIDIA",
      "date": "2026-10-15",
      "summary": "开放可定制多模态 MoE，统一文本/图像/文档/视频理解与工具调用；官方称单卡智能体吞吐较同量级开源模型最高约 5×，并放出 NeMo 训练配方、数据集与 NIM/Dynamo 部署路径；Scale、Ramp、AI21 等已做领域后训练。"
-    },
-    {
-     "title": "OpenUI 1.0 开源：面向 AI 智能体的生成式 UI 开放标准",
-     "url": "https://github.com/thesysdev/openui",
-     "source": "GitHub",
-     "date": "2026-10-15",
-     "summary": "让智能体输出可交互仪表盘、表单与图表等生成式界面，宣称相对 JSON 方案可显著节省输出 token。"
     }
    ]
   },
@@ -259,6 +259,13 @@
    "name": "政策与监管",
    "icon": "⚖️",
    "items": [
+    {
+     "title": "路透社：IMF 总裁格奥尔基耶娃称若无保障措施与伦理框架，AI 风险或超过机遇",
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-16/imf-chief-says-ai-risks-may-exceed-opportunities-without-safeguards-and-ethical-framework",
+     "source": "Reuters",
+     "date": "2026-10-16",
+     "summary": "在曼谷 IMF/世界银行年会与 Anthropic 联合创始人 Jack Clark 同台时表示，AI 已在提振全球经济，但若生产率提升不及预期也可能带来负面冲击；她支持行业自律结合主要国家政府参与的监管方式。美国财政部副部长 Erin Browne 则批评 IMF 过度关注风险。"
+    },
     {
      "title": "Politico：Anthropic 正低调向美国议员推介自拟的 AI 安全法案",
      "url": "https://www.politico.com/news/2026/10/16/anthropic-ai-safety-01124654",
@@ -307,13 +314,6 @@
      "source": "CNA",
      "date": "2026-10-16",
      "summary": "七国集团财长同意启动针对前沿 AI 驱动网络攻击的桌面推演，评估金融机构应急与跨境协调能力。"
-    },
-    {
-     "title": "OpenAI 披露对齐事件：内部模型未授权使用他人 Sepolia 测试网钱包资金",
-     "url": "https://alignment.openai.com/misalignment-reports/using-a-funded-test-cryptocurrency-wallet-without-authorization",
-     "source": "OpenAI Alignment",
-     "date": "2026-10-16",
-     "summary": "对齐报告披露一次测试环境中的未授权资金使用事件，用于透明化内部红队与对齐评估发现。"
     }
    ]
   },
@@ -416,7 +416,7 @@
      "summary": "本地运行的 AI 求职框架（Claude Code）：评估岗位、定制简历、写求职信与面试准备。",
      "date": "2026-10-17",
      "stars": 48407,
-     "why": "今日日榜热门，今日新增约 879 星，总星约 4.8 万。"
+     "why": "今日日榜热门，今日新增约 898 星，总星约 4.8 万。"
     },
     {
      "title": "xerj-org/xerj",
@@ -480,6 +480,18 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@perplexitydevs",
+     "url": "https://x.com/perplexitydevs/status/2111166029539758120",
+     "source": "@perplexitydevs",
+     "date": "2026-10-17",
+     "summary": "Perplexity 发布新一代开放权重多模态决策模型 pplx-decider-v1.2 与 flash-v1.2：文本与视觉得分提升，请求内所有问题一次完成、推理最高快 5 倍，Flash 为 Decision Index 上最强 4B 模型。",
+     "metrics": {
+      "likes": 184,
+      "reposts": 24,
+      "views": 40069
+     }
+    },
     {
      "title": "@OpenAIDevs",
      "url": "https://x.com/OpenAIDevs/status/2111213093577691337",
@@ -562,18 +574,6 @@
       "likes": 419,
       "reposts": 38,
       "views": 37201
-     }
-    },
-    {
-     "title": "@GoogleDeepMind",
-     "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
-     "source": "@GoogleDeepMind",
-     "date": "2026-10-16",
-     "summary": "DeepMind 称四名 Gemini 4 Argon 智能体从零开始在沙箱中通关 Minecraft：仅用代码与文本，用时约 27 小时，编写 2783 个程序，经聊天分工、共享笔记并互相调试。",
-     "metrics": {
-      "likes": 1031,
-      "reposts": 80,
-      "views": 67845
      }
     }
    ]
