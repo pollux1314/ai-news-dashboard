@@ -1,7 +1,50 @@
 {
- "updated": "2026-10-17T23:38:00+08:00",
- "count": 406,
+ "updated": "2026-10-18T00:32:00+08:00",
+ "count": 409,
  "items": [
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111494959933092060",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：更强的模型不再必然带来更多使用量——模型智能领先 10 分如今只换来约 20% 的开发者流量增长，而 2025 年底这一数字接近 69%，OpenAI、Anthropic 等头部实验室面临新挑战。",
+   "metrics": {
+    "likes": 1,
+    "reposts": 0,
+    "views": 352
+   },
+   "id": "b5f69fae29021333127b0f6a8327b44d7d2432e5",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T00:32:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111487476204192023",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：OpenAI 广告业务 8 月底年化收入已达 10 亿美元，但可能完不成 2026 年的激进销售目标，公司正在降价并大举从 Meta 挖人以加速增长。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 1,
+    "views": 1453
+   },
+   "id": "19b1c1e097f2332a81225a9fea07ca002cf44ce7",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T00:32:00+08:00"
+  },
+  {
+   "title": "智谱 GLM-Legal 登顶 Vals 法律榜开放权重第一：Harvey LAB 全通过率 19.2%、LegalBench 86.23%",
+   "url": "https://www.qbitai.com/2026/10/503965.html",
+   "source": "量子位 / Z.ai",
+   "date": "2026-10-17",
+   "summary": "据量子位与 Z.ai 官方博客，智谱推出法律专用模型 GLM-Legal（10 月 12 日首发 Beta），基于轻量级 GLM-5.3-Flash，经法律语料中训与数万个真实法律环境强化学习，可完成合同审查、证据梳理与跨境合规研究。Vals AI 测评中其 Harvey LAB 全通过率 19.2%（基座仅 6.7%）、LegalBench 准确率 86.23%，均为开放权重模型第一；目前邀请律所与法务团队申请 Beta，后续将接入 AutoClaw。",
+   "id": "8e2dfa5ad77d4b94ad7a862b6c8b5078a9bcb24d",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-18T00:32:00+08:00"
+  },
   {
    "title": "AI 视频创作平台 Clueso 完成 1000 万美元 A 轮：Dharana Capital 领投，YC 跟投，计算机智能体自动录屏生成产品视频",
    "url": "https://indianstartupnews.com/funding/iit-madras-alumni-founded-ai-video-creation-startup-clueso-raises-10-million-in-funding-12672700",
