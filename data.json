@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T10:40:00+08:00",
+ "updated": "2026-10-17T11:40:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -239,18 +239,18 @@
      "summary": "面向生产环境的大模型部署与管理开源平台，覆盖推理服务、资源调度与运维能力。"
     },
     {
-     "title": "anthropics/claude-plugins-official：Anthropic 官方 Claude Code 插件目录开源",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "source": "GitHub",
-     "date": "2026-10-16",
-     "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录，持续登上 GitHub 日榜。"
+     "title": "GitHub Copilot 将于 11 月 16 日下线 Claude Opus 4.8、Opus 5 与 GPT-5.6 Terra，建议改用 Opus 5.5 / GPT-6.1 Sol",
+     "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/",
+     "source": "GitHub Changelog",
+     "date": "2026-10-15",
+     "summary": "下线范围覆盖 Copilot Chat、内联编辑、ask/agent 模式与代码补全；Opus 4.8 对年付个人订阅用户保留。Business/Enterprise 在默认模型启用策略下会自动开启替代模型，固定了模型的工作流需在截止日前切换。"
     },
     {
-     "title": "PrismML 开源 Ternary Bonsai 2 小尺寸版：2B/4B/9B 三元权重模型，最小仅 0.43GB",
-     "url": "https://prismml.com/news/prismml-expands-bonsai-2-family-with-2b-4b-and-9b-models-for-on-device-ai",
-     "source": "PrismML",
+     "title": "开源 AI 编码 harness Archon 曝 CVSS 9.8 漏洞：控制 API 默认无鉴权且监听 0.0.0.0，可远程让智能体执行命令",
+     "url": "https://www.vulncheck.com/advisories/archon-0.2.13-through-0.11.1-missing-authentication-via-api-control-api",
+     "source": "VulnCheck",
      "date": "2026-10-15",
-     "summary": "基于 Qwen3.5、权重仅取 {−1,0,+1}，2B/4B/9B 体积约 0.43/0.95/2.00GB，支持视觉理解与工具调用；官方称 iPhone 18 Pro Max 上 9B 约 34 tok/s、2B 约 120 tok/s，Apache 2.0 许可，提供 GGUF 与 MLX 版本。"
+     "summary": "CVE-2026-111322 影响 Archon 0.2.13 至 0.11.1：默认 SQLite 安装下 /api/* 不校验身份，攻击者可向以 bypassPermissions 运行的编码智能体发消息，在主机上执行命令（CVSS 3.1 为 9.8，4.0 为 9.3）。缓解办法是绑定 127.0.0.1、防火墙隔离，或配置 DATABASE_URL 与 BETTER_AUTH_SECRET 启用鉴权。"
     }
    ]
   },

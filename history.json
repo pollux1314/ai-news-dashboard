@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T10:40:00+08:00",
- "count": 329,
+ "updated": "2026-10-17T11:40:00+08:00",
+ "count": 331,
  "items": [
   {
    "title": "Perplexity 开源新一代多模态决策模型 pplx-decider v1.2：含 4B Flash 版，推理最高快 5 倍",
@@ -1424,6 +1424,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T14:10:00+08:00"
+  },
+  {
+   "title": "GitHub Copilot 将于 11 月 16 日下线 Claude Opus 4.8、Opus 5 与 GPT-5.6 Terra，建议改用 Opus 5.5 / GPT-6.1 Sol",
+   "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/",
+   "source": "GitHub Changelog",
+   "date": "2026-10-15",
+   "summary": "下线范围覆盖 Copilot Chat、内联编辑、ask/agent 模式与代码补全；Opus 4.8 对年付个人订阅用户保留。Business/Enterprise 在默认模型启用策略下会自动开启替代模型，固定了模型的工作流需在截止日前切换。",
+   "id": "b14d2bda1baa509772d0f4c6c7de203f418ccf7c",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T11:40:00+08:00"
+  },
+  {
+   "title": "开源 AI 编码 harness Archon 曝 CVSS 9.8 漏洞：控制 API 默认无鉴权且监听 0.0.0.0，可远程让智能体执行命令",
+   "url": "https://www.vulncheck.com/advisories/archon-0.2.13-through-0.11.1-missing-authentication-via-api-control-api",
+   "source": "VulnCheck",
+   "date": "2026-10-15",
+   "summary": "CVE-2026-111322 影响 Archon 0.2.13 至 0.11.1：默认 SQLite 安装下 /api/* 不校验身份，攻击者可向以 bypassPermissions 运行的编码智能体发消息，在主机上执行命令（CVSS 3.1 为 9.8，4.0 为 9.3）。缓解办法是绑定 127.0.0.1、防火墙隔离，或配置 DATABASE_URL 与 BETTER_AUTH_SECRET 启用鉴权。",
+   "id": "167b2e6e8154b246636bd7058e846711ad26055f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T11:40:00+08:00"
   },
   {
    "title": "PrismML 开源 Ternary Bonsai 2 小尺寸版：2B/4B/9B 三元权重模型，最小仅 0.43GB",
