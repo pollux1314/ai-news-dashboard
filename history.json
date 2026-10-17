@@ -1,7 +1,155 @@
 {
- "updated": "2026-10-17T22:30:00+08:00",
- "count": 393,
+ "updated": "2026-10-17T23:38:00+08:00",
+ "count": 406,
  "items": [
+  {
+   "title": "AI 视频创作平台 Clueso 完成 1000 万美元 A 轮：Dharana Capital 领投，YC 跟投，计算机智能体自动录屏生成产品视频",
+   "url": "https://indianstartupnews.com/funding/iit-madras-alumni-founded-ai-video-creation-startup-clueso-raises-10-million-in-funding-12672700",
+   "source": "Indian Startup News",
+   "date": "2026-10-17",
+   "summary": "IIT Madras 校友创办的 Clueso 本轮由 Dharana Capital 领投，Founders Future、Neotribe Ventures 及老股东 Y Combinator、f7 Ventures 参投，累计融资 1200 万美元。其智能体可自动操作软件、录制流程并生成脚本、AI 配音、动效与字幕，产品更新后可自动重录刷新旧视频，并支持 MCP 让 Claude、ChatGPT 直接调用；资金将用于企业市场拓展与智能体研发。",
+   "id": "68db200320197df1e6fb6fb75fda5890d86042c2",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "清华 THUNLP 联合面壁智能、OpenBMB 开源智能体操作系统 PilotDeck 2.0：工作舱隔离 + 白盒记忆，复杂任务成本降约 83%",
+   "url": "https://github.com/OpenBMB/PilotDeck",
+   "source": "GitHub / 量子位",
+   "date": "2026-10-17",
+   "summary": "PilotDeck 以 WorkSpace（工作舱）为单位隔离不同项目的文件、记忆与技能，记忆的生成、存储与调用全链路对用户可见、可手动修改或固定，并有空闲时自动整理记忆的“Dream 模式”；支持后台长周期任务与按难度路由强/弱模型，原生支持 MCP。据量子位报道，使用 Qwen3.6-35B-A3B 时 Workbuddy Bench 得分 79.1（Claude Code 为 77.3）。仓库 AGPL-3.0 许可，约 4500 星。",
+   "id": "5cd2d03e71e90a96ea77cef23425eef38dd0d433",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "The Verge：Meta 在舆论压力下删除商业条款中可能允许其爬取新闻网站训练 AI 的措辞",
+   "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+   "source": "The Verge",
+   "date": "2026-10-17",
+   "summary": "此前 Meta 合并后的商业条款写有“可使用相关域名、网页或 URL 中的任何内容开发、改进 Meta 产品”，被 Nieman Lab 与康奈尔法学教授 James Grimmelmann 等解读为可免费抓取新闻网站内容训练 AI、甚至凌驾 robots.txt。Meta 现已整段删除该措辞，发言人称相关爬取条款仅适用于广告与商业产品，不改变 Meta 使用爬虫的方式，内容方仍可用 robots.txt 表达偏好。",
+   "id": "ac0eba5f39915c2126dfb359a39af8c6b0da8fff",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "“鹏城云脑Ⅲ”10000P 国产算力上线试运行：基于华为昇腾 384 超节点，建成后达 16000P",
+   "url": "https://www.ithome.com/1/014/387.htm",
+   "source": "IT之家",
+   "date": "2026-10-17",
+   "summary": "据 IT之家，在 10 月 15–16 日深圳举行的 2026 世界算力网大会开幕式上，大科学装置“鹏城云脑Ⅲ”的 10000P 国产算力正式上线试运行。该设施采用华为昇腾 384 超节点架构，首期设备今年 3 月通电，全部建成后算力规模约 16000P（16 EFLOPS），进入“边建设、边运营”阶段，开始为国产大模型训练与科学智能研究输出算力。",
+   "id": "fe66d36b69bf59cafcc98816da7dc42c38117e61",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "清华 THUNLP、面壁智能等开源 PilotDeck 2.0 智能体操作系统：Workbuddy Bench 得分超 Claude Code",
+   "url": "https://www.qbitai.com/2026/10/503935.html",
+   "source": "量子位",
+   "date": "2026-10-17",
+   "summary": "量子位报道，PilotDeck 2.0 主打多项目隔离、白盒可编辑长期记忆、后台执行与智能模型路由，通过“强模型做决策、小模型干杂活”的调度，复杂长任务成本可降低近六分之五；使用 Qwen3.6-35B-A3B 时 Workbuddy Bench 得分 79.1，高于 Claude Code 的 77.3（团队自测）。",
+   "id": "13e2c19dd74e3017d02624ebceb0731381c74154",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "pro-vi/cc-stretch",
+   "url": "https://github.com/pro-vi/cc-stretch",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "Claude Code 插件，实现 Ted Nelson 提出的“伸缩文本”（stretchtext）：回复默认简短，点击短语即可原地展开细节、再点收起，并告诉 Claude 你展开了哪些部分；作者在 69 条真实回复上测得默认可见文字约为原回复的 17%。",
+   "date": "2026-10-17",
+   "stars": 359,
+   "why": "10 月 14 日创建，约 360 星，本周新建 Claude Code 插件中增长靠前。",
+   "id": "25de04c058994db4ef94580791609efc206feb0c",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "Entelligence-AI/agentplay",
+   "url": "https://github.com/Entelligence-AI/agentplay",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "一条 uvx agentplay 命令即可把本机 Claude Code、Codex、Cursor、Copilot、OpenCode、Kiro 等编码智能体会话回放成“地图+时间线”：读了哪些文件、改了什么、哪里失败、最终交付了什么；本地运行、自动脱敏，无需账号与 API Key。",
+   "date": "2026-10-17",
+   "stars": 234,
+   "why": "10 月 14 日创建，约 230 星，编码智能体可观测性工具新秀。",
+   "id": "f291fe49524e350eb0457c1735c75729e20f651d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "aicodeking/leanrea",
+   "url": "https://github.com/aicodeking/leanrea",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "Python",
+   "summary": "一份约 8KB 的 SKILL.md 替代 REA（Reverse Engineer Anything）的 MCP 服务器与 207 个工具：直接告诉智能体用 asar、otool、jadx、Ghidra 等现成命令做逆向；作者基准中相对 REA 墙钟时间少 38%、成本低 35%、准确率相当（作者自测）。",
+   "date": "2026-10-17",
+   "stars": 227,
+   "why": "10 月 17 日刚创建即获约 230 星，“技能替代 MCP”思路受关注。",
+   "id": "1717937cb144de01308f91dfdf75f6679068a9ac",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2111475606076760365",
+   "source": "@verge",
+   "date": "2026-10-17",
+   "summary": "The Verge：被专家认为允许 Meta 抓取新闻网站内容训练 AI 的条款措辞，已从 Meta 的商业条款中删除。",
+   "metrics": {
+    "likes": 4,
+    "reposts": 2,
+    "views": 4967
+   },
+   "id": "c4a697ac584d40ea5e6725015753f84c992aba4e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111457273448989036",
+   "source": "@theinformation",
+   "date": "2026-10-17",
+   "summary": "The Information：据投资者与分析师估算，Anthropic 单个路易斯安那数据中心每月或可带来 13 亿美元收入，这也解释了其为何急于让约 5300 亿美元租赁算力上线。",
+   "metrics": {
+    "likes": 10,
+    "reposts": 3,
+    "views": 3254
+   },
+   "id": "2a1fff84ae1478f4fb6679fdeaa29745f4bfa824",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111449669179936928",
+   "source": "@theinformation",
+   "date": "2026-10-17",
+   "summary": "The Information：OpenAI 或通过收购 Trail of Bits 深化网络安全能力——该公司工程师已用 Codex 在 Python 等开源项目中找漏洞并修复（此前报道称双方处于早期收购谈判）。",
+   "metrics": {
+    "likes": 11,
+    "reposts": 1,
+    "views": 3327
+   },
+   "id": "3799e8e9e5495cb32c8f86822ff419fc2b4ca201",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
   {
    "title": "anomalyco/opencode",
    "url": "https://github.com/anomalyco/opencode",
@@ -886,6 +1034,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "OmniCompass：全模态视频定位与理解基准，评测 50 个多模态大模型，开源模型在音视频联合理解上仍明显落后",
+   "url": "https://arxiv.org/abs/2610.18829",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-16",
+   "summary": "基准分 VL（视觉证据）与 AV（音视频联合证据）两条赛道，各含时间定位、空间定位与问答三类任务：VL 含 820 段视频、2460 个实例，AV 含 240 段视频、720 个实例，全部人工多轮标注，并区分纯文本与图文两种指代方式。对 50 个模型的评测显示开源模型落后闭源，精确的时空定位仍是难点；为 HF 10 月 16 日每日论文票数第二（约 575 票）。",
+   "id": "544c110b81176c2c14f5b81318956baf1ba9a2c2",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T23:38:00+08:00"
+  },
+  {
+   "title": "通义 MAI-Gym：GUI 智能体评测与在线 RL 一体化开放平台，9B 模型 OSWorld-Verified 76.2%",
+   "url": "https://arxiv.org/abs/2610.20939",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-16",
+   "summary": "Tongyi-MAI 团队提出统一手机、电脑与网页环境的评测、数据采集与在线强化学习平台，支持 10 个现有基准、可扩展至 2 万个并行环境，并能自动合成可重置的模拟应用与跨应用任务。据此训练的 MAI-Gym-9B 在 10B 以下开放 GUI 智能体中达到 MobileWorld 78.4%、OSWorld-Verified 76.2%；在模拟购票 App 中的 RL 可迁移到真机，成功率由 28.8% 提升至 48.1%。框架、2000 个验证任务与模型权重均开放。",
+   "id": "01580d7fed2ad77c3e9fa97d710f771eb5d38115",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T23:38:00+08:00"
   },
   {
    "title": "美银策略师 Raedler：AI 投资正走铁路、电信与互联网的资本周期老路，技术成功投资者也可能亏损",

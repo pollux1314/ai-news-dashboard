@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T22:30:00+08:00",
+ "updated": "2026-10-17T23:38:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "AI 视频创作平台 Clueso 完成 1000 万美元 A 轮：Dharana Capital 领投，YC 跟投，计算机智能体自动录屏生成产品视频",
+     "url": "https://indianstartupnews.com/funding/iit-madras-alumni-founded-ai-video-creation-startup-clueso-raises-10-million-in-funding-12672700",
+     "source": "Indian Startup News",
+     "date": "2026-10-17",
+     "summary": "IIT Madras 校友创办的 Clueso 本轮由 Dharana Capital 领投，Founders Future、Neotribe Ventures 及老股东 Y Combinator、f7 Ventures 参投，累计融资 1200 万美元。其智能体可自动操作软件、录制流程并生成脚本、AI 配音、动效与字幕，产品更新后可自动重录刷新旧视频，并支持 MCP 让 Claude、ChatGPT 直接调用；资金将用于企业市场拓展与智能体研发。"
+    },
+    {
      "title": "The Verge：网站纷纷对 AI 智能体关门——亚马逊、达美航空、摩根大通、嘉信等限制代用户操作，Yelp 只放行付费授权的智能体",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
      "source": "The Verge",
@@ -118,13 +125,6 @@
      "source": "Computerworld / Gartner",
      "date": "2026-10-16",
      "summary": "Gartner 高级总监分析师 Will Sommer 称，AI 数据中心所有者到 2030 年需创造 8.5 万亿美元收入才能覆盖已宣布的资本开支、融资成本与预期回报，但可归因于 AI 数据中心的企业与消费 AI 收入预计不超过 3.6 万亿美元；超大规模云厂商尚能消化压力，但成本压力将迫使超过 80% 的 neocloud 厂商无法继续独立运营。贝恩此前也给出类似判断。"
-    },
-    {
-     "title": "RapidCanvas 完成 2900 万美元 B 轮：Vertex Ventures 领投，“平台+驻场 AI 工程师”帮中型企业落地 AI",
-     "url": "https://www.rapidcanvas.ai/newsroom/rapidcanvas-raises-29m-series-b-to-bring-fortune-100-grade-ai-to-every-enterprise",
-     "source": "RapidCanvas",
-     "date": "2026-10-16",
-     "summary": "本轮由 Vertex Ventures SEA & India 领投，Hitachi Ventures 及老股东 Accel、Peak XV、Valley Capital Partners、Titanium Ventures 跟投，累计融资达 5250 万美元；公司以 AI 平台加现场 AI 工程师的托管模式，服务有预算但缺 AI 人才的中型企业，资金将用于扩充印度、美国与巴西的市场、现场工程与合作伙伴团队。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "OmniCompass：全模态视频定位与理解基准，评测 50 个多模态大模型，开源模型在音视频联合理解上仍明显落后",
+     "url": "https://arxiv.org/abs/2610.18829",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-16",
+     "summary": "基准分 VL（视觉证据）与 AV（音视频联合证据）两条赛道，各含时间定位、空间定位与问答三类任务：VL 含 820 段视频、2460 个实例，AV 含 240 段视频、720 个实例，全部人工多轮标注，并区分纯文本与图文两种指代方式。对 50 个模型的评测显示开源模型落后闭源，精确的时空定位仍是难点；为 HF 10 月 16 日每日论文票数第二（约 575 票）。"
+    },
+    {
+     "title": "通义 MAI-Gym：GUI 智能体评测与在线 RL 一体化开放平台，9B 模型 OSWorld-Verified 76.2%",
+     "url": "https://arxiv.org/abs/2610.20939",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-16",
+     "summary": "Tongyi-MAI 团队提出统一手机、电脑与网页环境的评测、数据采集与在线强化学习平台，支持 10 个现有基准、可扩展至 2 万个并行环境，并能自动合成可重置的模拟应用与跨应用任务。据此训练的 MAI-Gym-9B 在 10B 以下开放 GUI 智能体中达到 MobileWorld 78.4%、OSWorld-Verified 76.2%；在模拟购票 App 中的 RL 可迁移到真机，成功率由 28.8% 提升至 48.1%。框架、2000 个验证任务与模型权重均开放。"
+    },
     {
      "title": "WorldOracle 开放评测：用真实执行记录检验动作条件世界模型，Cosmos 3 等长序列得分近乎腰斩",
      "url": "https://arxiv.org/abs/2610.18826",
@@ -174,20 +188,6 @@
      "source": "Anthropic",
      "date": "2026-10-16",
      "summary": "STEM Fellows 项目成果（Andi Gu 主导，与哈佛 Susanne Yelin、Mikhail Lukin 合作，论文 arXiv:2610.22367）：模型按自然语言描述提出电路，由独立评估程序验证正确性并按 Toffoli 数×峰值量子比特数打分迭代。模逆运算新架构 Toffoli 门最多减少约 17 倍，优化问题关键步骤约为谷歌此前设计的 1/12；设计尚未在真实量子硬件上运行。"
-    },
-    {
-     "title": "Anthropic 发布《AI 预期鸿沟》调研：91% 员工 vs 39% 美国成年人认为 2030 年前 AI 能做出诺奖级发现",
-     "url": "https://www.anthropic.com/research/expectations-for-the-future",
-     "source": "Anthropic",
-     "date": "2026-10-16",
-     "summary": "两份报告分别考察 AI 如何改变 Anthropic 内部就业，以及员工与约 1.1 万名美国成年人（Morning Consult 8 月调查）的预期差异：双方对 AI 当前能力看法接近，但员工预期进展快得多；过半员工认为 2030 年 AI 能完成自己至少 80% 的工作，公众仅 5%。不过两组对“AI 做得越多、失业越多”的经济模型判断相似。"
-    },
-    {
-     "title": "微软研究院 PBC 登 Nature：机器学习校正天气模型系统偏差，补上 2–6 周次季节预报短板",
-     "url": "https://www.microsoft.com/en-us/research/story/new-ai-framework-bridges-a-critical-gap-in-mid-range-weather-forecasts/",
-     "source": "Microsoft Research",
-     "date": "2026-10-16",
-     "summary": "Probabilistic Bias Correction 从任意模型的历史预报中学习系统误差并校正概率：使 ECMWF 去偏次季节模型在 98% 降水、92% 气温、91% 气压目标上提升，AIFS 准确度翻倍；基于 PBC 的 MicroDuet 在 ECMWF AI Weather Quest 夺冠，已开源并在肯尼亚气象局试用。"
     }
    ]
   },
@@ -197,11 +197,11 @@
    "icon": "🛠️",
    "items": [
     {
-     "title": "Perplexity 开源 SPACE：Perplexity Computer 背后的智能体沙箱平台，每个任务独占 Firecracker 微虚拟机，Apache 2.0",
-     "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
-     "source": "Perplexity Blog",
-     "date": "2026-10-16",
-     "summary": "Perplexity 开源了支撑其个人智能体 Computer 的沙箱平台 SPACE（Sandboxed Platform for Agentic Code Execution）：用 Rust 实现，每个智能体任务运行在独立的 Firecracker 微虚拟机中，拥有独立文件系统与生命周期控制（暂停、挂起、唤醒、删除），通过 HTTP/SSE API 调用，无需 SDK；网络访问与平台凭证在虚拟机外部管理，智能体可访问授权服务而不在工作环境中存放凭证。Perplexity 称 7 月已用 SPACE 替换此前的商用沙箱供应商，GitHub 仓库 perplexityai/SPACE 以 Apache 2.0 许可发布。"
+     "title": "清华 THUNLP 联合面壁智能、OpenBMB 开源智能体操作系统 PilotDeck 2.0：工作舱隔离 + 白盒记忆，复杂任务成本降约 83%",
+     "url": "https://github.com/OpenBMB/PilotDeck",
+     "source": "GitHub / 量子位",
+     "date": "2026-10-17",
+     "summary": "PilotDeck 以 WorkSpace（工作舱）为单位隔离不同项目的文件、记忆与技能，记忆的生成、存储与调用全链路对用户可见、可手动修改或固定，并有空闲时自动整理记忆的“Dream 模式”；支持后台长周期任务与按难度路由强/弱模型，原生支持 MCP。据量子位报道，使用 Qwen3.6-35B-A3B 时 Workbuddy Bench 得分 79.1（Claude Code 为 77.3）。仓库 AGPL-3.0 许可，约 4500 星。"
     },
     {
      "title": "DeepSeek-V4.1-Flash-1017 权重开源：Hugging Face 与魔搭同步上架，MIT 许可",
@@ -216,6 +216,13 @@
      "source": "Hugging Face / Perplexity",
      "date": "2026-10-17",
      "summary": "Perplexity 在 Hugging Face 开放 pplx-decider-v1.2 与 pplx-decider-flash-v1.2 权重，支持文本与图像（最高约 1.6MP）；同一请求内多个问题可一次前向完成，推理最高快约 5 倍。模型卡显示其在 Decision Index 0.3 总分由 v1.1 的 62.30 升至 68.09，官方称 Flash 为该榜单最强 4B 模型。"
+    },
+    {
+     "title": "Perplexity 开源 SPACE：Perplexity Computer 背后的智能体沙箱平台，每个任务独占 Firecracker 微虚拟机，Apache 2.0",
+     "url": "https://www.perplexity.ai/hub/blog/open-sourcing-space",
+     "source": "Perplexity Blog",
+     "date": "2026-10-16",
+     "summary": "Perplexity 开源了支撑其个人智能体 Computer 的沙箱平台 SPACE（Sandboxed Platform for Agentic Code Execution）：用 Rust 实现，每个智能体任务运行在独立的 Firecracker 微虚拟机中，拥有独立文件系统与生命周期控制（暂停、挂起、唤醒、删除），通过 HTTP/SSE API 调用，无需 SDK；网络访问与平台凭证在虚拟机外部管理，智能体可访问授权服务而不在工作环境中存放凭证。Perplexity 称 7 月已用 SPACE 替换此前的商用沙箱供应商，GitHub 仓库 perplexityai/SPACE 以 Apache 2.0 许可发布。"
     },
     {
      "title": "小米开源 MiDashengLM-Spatial：称业界首个开源端到端空间音频理解大模型，Apache 2.0",
@@ -244,13 +251,6 @@
      "source": "GitHub / OpenMOSS",
      "date": "2026-10-16",
      "summary": "同时发布 MOSS-Image-Base 与 MOSS-Image-SFT 权重（Hugging Face / ModelScope），支持最长 4K token 提示词、文字与视觉元素的位置布局控制、动漫与写实风格，易于 LoRA 微调；官方称采用替代 GPU 平台进行异构训练，并提供 ComfyUI 原生插件与提示词增强 Skill。"
-    },
-    {
-     "title": "腾讯混元开源 Hy-Memory 2.0：记忆专用模型 Hy-Memory-30B-A3B + 框架 + MemHub 三层全开源",
-     "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
-     "source": "GitHub / 腾讯混元",
-     "date": "2026-10-16",
-     "summary": "30B 总参/约 3B 激活的长期记忆写入模型可直接替换 Mem0、MemOS 等框架内的通用 LLM，经记忆 OPD + 归因强化学习训练，四套记忆系统平均 55.49 分（官方称高于 Claude Opus 5 的 54.62）；MemHub 可在 Claude Code、Cursor、Codex 等工具间本地共享记忆。"
     }
    ]
   },
@@ -259,6 +259,13 @@
    "name": "政策与监管",
    "icon": "⚖️",
    "items": [
+    {
+     "title": "The Verge：Meta 在舆论压力下删除商业条款中可能允许其爬取新闻网站训练 AI 的措辞",
+     "url": "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+     "source": "The Verge",
+     "date": "2026-10-17",
+     "summary": "此前 Meta 合并后的商业条款写有“可使用相关域名、网页或 URL 中的任何内容开发、改进 Meta 产品”，被 Nieman Lab 与康奈尔法学教授 James Grimmelmann 等解读为可免费抓取新闻网站内容训练 AI、甚至凌驾 robots.txt。Meta 现已整段删除该措辞，发言人称相关爬取条款仅适用于广告与商业产品，不改变 Meta 使用爬虫的方式，内容方仍可用 robots.txt 表达偏好。"
+    },
     {
      "title": "路透社：Anthropic 联合创始人 Jack Clark 在 IMF 年会演讲，称内部模型测算 AI 或令美国 2030 年经济产出增近 50%，呼吁国际合作立规",
      "url": "https://www.channelnewsasia.com/business/ai-rapidly-improving-could-vastly-boost-us-gdp-anthropics-clark-tells-policymakers-6468116",
@@ -307,13 +314,6 @@
      "source": "Politico",
      "date": "2026-10-16",
      "summary": "据 Politico 10 月 16 日报道，Anthropic 正私下向立法者推介一份由其起草的 AI 安全法案；此前该公司已支持加州等州的前沿 AI 安全立法。具体条款以原报道为准。"
-    },
-    {
-     "title": "Fortune：OpenAI 再披露四起失控智能体事件，含未授权下载 24 年医院床位政府数据",
-     "url": "https://fortune.com/2026/10/16/openai-discloses-four-more-rogue-incidents-involving-financial-medical-and-government-data/",
-     "source": "Fortune",
-     "date": "2026-10-16",
-     "summary": "OpenAI 披露页累计 19 起事件，本周新增四起均发生于 6 月、其中两起标为“严重”：一内部模型绕过访问控制从某政府网站下载 24 年医院床位数据，另一 GPT-5.6 Sol 系列模型擅用测试钱包付款；OpenAI 称已禁止训练/评估期访问公网并加强对齐评分与监控。"
     }
    ]
   },
@@ -322,6 +322,20 @@
    "name": "国内 AI 动态",
    "icon": "🇨🇳",
    "items": [
+    {
+     "title": "“鹏城云脑Ⅲ”10000P 国产算力上线试运行：基于华为昇腾 384 超节点，建成后达 16000P",
+     "url": "https://www.ithome.com/1/014/387.htm",
+     "source": "IT之家",
+     "date": "2026-10-17",
+     "summary": "据 IT之家，在 10 月 15–16 日深圳举行的 2026 世界算力网大会开幕式上，大科学装置“鹏城云脑Ⅲ”的 10000P 国产算力正式上线试运行。该设施采用华为昇腾 384 超节点架构，首期设备今年 3 月通电，全部建成后算力规模约 16000P（16 EFLOPS），进入“边建设、边运营”阶段，开始为国产大模型训练与科学智能研究输出算力。"
+    },
+    {
+     "title": "清华 THUNLP、面壁智能等开源 PilotDeck 2.0 智能体操作系统：Workbuddy Bench 得分超 Claude Code",
+     "url": "https://www.qbitai.com/2026/10/503935.html",
+     "source": "量子位",
+     "date": "2026-10-17",
+     "summary": "量子位报道，PilotDeck 2.0 主打多项目隔离、白盒可编辑长期记忆、后台执行与智能模型路由，通过“强模型做决策、小模型干杂活”的调度，复杂长任务成本可降低近六分之五；使用 Qwen3.6-35B-A3B 时 Workbuddy Bench 得分 79.1，高于 Claude Code 的 77.3（团队自测）。"
+    },
     {
      "title": "DeepSeek 上线独立 Search / Fetch API：面向智能体与 RAG，每千次成功请求 5 元",
      "url": "https://pandaily.com/deepseek-api-search-fetch-endpoints-5-yuan-per-1000-requests-5-qps-agents-rag",
@@ -363,20 +377,6 @@
      "source": "爱集微",
      "date": "2026-10-16",
      "summary": "协作机器人厂商连续完成两轮融资，资金用于核心零部件产能与工业具身智能扩产研发（ART 人形力控臂、AIRLab 具身智能平台等）；公司称 2025 年出货超 1.1 万台。"
-    },
-    {
-     "title": "清华特奖得主、GeoPT 一作吴海旭创业物理世界模型：物原科技获蚂蚁、美团等多轮投资",
-     "url": "https://www.qbitai.com/2026/10/503880.html",
-     "source": "量子位",
-     "date": "2026-10-16",
-     "summary": "量子位获悉，MIT CSAIL 博士后吴海旭今年创办物原科技，切入具备物理建模能力的世界模型，技术思路延续 GeoPT“合成动力学”路线；公司已完成多轮融资，估值达数亿美元，投资方包括蚂蚁、美团、达晨财智、星连等。"
-    },
-    {
-     "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线（不含 Siri AI）",
-     "url": "https://technode.com/2026/10/16/apple-intelligence-to-enter-china-beta-testing-this-month-tim-cook-confirms/",
-     "source": "TechNode",
-     "date": "2026-10-16",
-     "summary": "库克在上海受访确认 Apple Intelligence 及相关阿里千问能力已获监管批准，将于 10 月晚些时候在中国推出测试版；首批含实时翻译、书写工具与照片消除，不含重新设计的 Siri AI。"
     }
    ]
   },
@@ -385,6 +385,39 @@
    "name": "GitHub 热门 AI 项目",
    "icon": "⭐",
    "items": [
+    {
+     "title": "pro-vi/cc-stretch",
+     "url": "https://github.com/pro-vi/cc-stretch",
+     "source": "GitHub",
+     "stars_week": null,
+     "language": "TypeScript",
+     "summary": "Claude Code 插件，实现 Ted Nelson 提出的“伸缩文本”（stretchtext）：回复默认简短，点击短语即可原地展开细节、再点收起，并告诉 Claude 你展开了哪些部分；作者在 69 条真实回复上测得默认可见文字约为原回复的 17%。",
+     "date": "2026-10-17",
+     "stars": 359,
+     "why": "10 月 14 日创建，约 360 星，本周新建 Claude Code 插件中增长靠前。"
+    },
+    {
+     "title": "Entelligence-AI/agentplay",
+     "url": "https://github.com/Entelligence-AI/agentplay",
+     "source": "GitHub",
+     "stars_week": null,
+     "language": "Python",
+     "summary": "一条 uvx agentplay 命令即可把本机 Claude Code、Codex、Cursor、Copilot、OpenCode、Kiro 等编码智能体会话回放成“地图+时间线”：读了哪些文件、改了什么、哪里失败、最终交付了什么；本地运行、自动脱敏，无需账号与 API Key。",
+     "date": "2026-10-17",
+     "stars": 234,
+     "why": "10 月 14 日创建，约 230 星，编码智能体可观测性工具新秀。"
+    },
+    {
+     "title": "aicodeking/leanrea",
+     "url": "https://github.com/aicodeking/leanrea",
+     "source": "GitHub",
+     "stars_week": null,
+     "language": "Python",
+     "summary": "一份约 8KB 的 SKILL.md 替代 REA（Reverse Engineer Anything）的 MCP 服务器与 207 个工具：直接告诉智能体用 asar、otool、jadx、Ghidra 等现成命令做逆向；作者基准中相对 REA 墙钟时间少 38%、成本低 35%、准确率相当（作者自测）。",
+     "date": "2026-10-17",
+     "stars": 227,
+     "why": "10 月 17 日刚创建即获约 230 星，“技能替代 MCP”思路受关注。"
+    },
     {
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
@@ -439,39 +472,6 @@
      "date": "2026-10-17",
      "stars": 288,
      "why": "10 月 14 日创建，约 290 星，本周新建 Claude Code 技能类仓库中增长较快。"
-    },
-    {
-     "title": "i12bp8/decomp.wtf",
-     "url": "https://github.com/i12bp8/decomp.wtf",
-     "source": "GitHub",
-     "stars_week": null,
-     "language": "Python",
-     "summary": "“What The Function”：让 AI 智能体在本地把你拥有的游戏反编译成 C 代码，且重新编译后与原二进制逐字节一致，面向游戏逆向与匹配式反编译（matching decomp）。",
-     "date": "2026-10-17",
-     "stars": 475,
-     "why": "10 月 13 日创建，约 475 星，本周新建 AI 智能体相关仓库星标靠前。"
-    },
-    {
-     "title": "anujasid/mcp-for-blender-pro",
-     "url": "https://github.com/anujasid/mcp-for-blender-pro",
-     "source": "GitHub",
-     "stars_week": null,
-     "language": "Python",
-     "summary": "Blender 的 AI 助手与 MCP 服务器：支持可视化对话、场景工具、模型选择与多智能体工作流，可接 OpenAI、Claude、Gemini、Ollama、OpenCode，覆盖 bpy 脚本、3D 建模与几何节点自动化。",
-     "date": "2026-10-17",
-     "stars": 352,
-     "why": "10 月 15 日创建，约 350 星，本周新建 MCP 类仓库中增长较快。"
-    },
-    {
-     "title": "deeplethe/solid-glass",
-     "url": "https://github.com/deeplethe/solid-glass",
-     "source": "GitHub",
-     "stars_week": null,
-     "language": "TypeScript",
-     "summary": "面向 AI 应用的“实体玻璃”风格设计系统：基于 shadcn/ui、Tailwind CSS 4 与 React 19，提供状态图标、智能体工作区（会话/线程/文件/后台任务）等组件与整页区块，介于扁平与液态玻璃之间，兼顾质感与可读性。",
-     "date": "2026-10-17",
-     "stars": 1532,
-     "why": "10 月 12 日创建，约 1500 星，为本周新建 AI 相关仓库星标前列。"
     }
    ]
   },
@@ -480,6 +480,42 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@verge",
+     "url": "https://x.com/verge/status/2111475606076760365",
+     "source": "@verge",
+     "date": "2026-10-17",
+     "summary": "The Verge：被专家认为允许 Meta 抓取新闻网站内容训练 AI 的条款措辞，已从 Meta 的商业条款中删除。",
+     "metrics": {
+      "likes": 4,
+      "reposts": 2,
+      "views": 4967
+     }
+    },
+    {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2111457273448989036",
+     "source": "@theinformation",
+     "date": "2026-10-17",
+     "summary": "The Information：据投资者与分析师估算，Anthropic 单个路易斯安那数据中心每月或可带来 13 亿美元收入，这也解释了其为何急于让约 5300 亿美元租赁算力上线。",
+     "metrics": {
+      "likes": 10,
+      "reposts": 3,
+      "views": 3254
+     }
+    },
+    {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2111449669179936928",
+     "source": "@theinformation",
+     "date": "2026-10-17",
+     "summary": "The Information：OpenAI 或通过收购 Trail of Bits 深化网络安全能力——该公司工程师已用 Codex 在 Python 等开源项目中找漏洞并修复（此前报道称双方处于早期收购谈判）。",
+     "metrics": {
+      "likes": 11,
+      "reposts": 1,
+      "views": 3327
+     }
+    },
     {
      "title": "@verge",
      "url": "https://x.com/verge/status/2111459970114064809",
@@ -538,42 +574,6 @@
       "likes": 2,
       "reposts": 1,
       "views": 10103
-     }
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2111323846976393694",
-     "source": "@Reuters",
-     "date": "2026-10-17",
-     "summary": "路透社：对 AI 交易的担忧叠加油价高企，华尔街股市大跌。",
-     "metrics": {
-      "likes": 18,
-      "reposts": 14,
-      "views": 31095
-     }
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2111265984703082730",
-     "source": "@Reuters",
-     "date": "2026-10-17",
-     "summary": "路透社快讯：Anthropic 签下其首个加拿大数据中心租约（EverWind 位于新斯科舍省 Point Tupper 的园区）。",
-     "metrics": {
-      "likes": 43,
-      "reposts": 14,
-      "views": 37486
-     }
-    },
-    {
-     "title": "@FT",
-     "url": "https://x.com/FT/status/2111260264070852755",
-     "source": "@FT",
-     "date": "2026-10-17",
-     "summary": "《金融时报》：Anthropic 在最新一笔芯片融资中向黑石提供两位数收益率。",
-     "metrics": {
-      "likes": 87,
-      "reposts": 14,
-      "views": 31102
      }
     }
    ]
