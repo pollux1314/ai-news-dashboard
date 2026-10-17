@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T07:40:00+08:00",
- "count": 320,
+ "updated": "2026-10-17T08:27:00+08:00",
+ "count": 322,
  "items": [
   {
    "title": "OpenAI 升级 ChatGPT 中的 GPT-6 Pro：多个智能体并行拆解任务，响应更快、插件与工具调用更强",
@@ -283,6 +283,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "路透社：德国将于下周公布与英伟达的工业 AI 合作协议，物理 AI 训练机器人与自动驾驶",
+   "url": "https://www.yahoo.com/news/articles/germany-unveil-nvidia-ai-agreement-110226552.html",
+   "source": "Reuters",
+   "date": "2026-10-16",
+   "summary": "据路透社援引德国政府消息人士，德国将在下周的“Invest in Germany”投资峰会期间宣布与英伟达的合作，推动 AI 在德国工业中的应用，合作方不止英伟达。据《商报》报道，联邦政府准备投入数亿欧元用于采购算力和训练工业 AI 模型，西门子、奥迪、Black Forest Labs 等约十家德企拟参与。",
+   "id": "609d8af8b87466f041686bc5f3299053b2d0dd69",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T08:27:00+08:00"
+  },
+  {
+   "title": "Waymo 进军加拿大：多伦多启动人工驾驶测绘与安全测试，目标 2028 年推出无人驾驶出租车服务",
+   "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+   "source": "Waymo",
+   "date": "2026-10-16",
+   "summary": "Waymo 宣布在安大略省自动驾驶试点计划下，于多伦多先以少量全电动捷豹 I-PACE 进行人工驾驶、地图采集与安全测试，暂不提供商业乘车；目标 2028 年为乘客推出全无人驾驶 Robotaxi 服务，由 Element Fleet Management 协助车队运营。",
+   "id": "8e50c4c2e3c4acebb5fe7791ebabf05a354126e5",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T08:27:00+08:00"
   },
   {
    "title": "嘉信理财 CEO：正屏蔽 Meta Muse 等未授权 AI 智能体动用客户资金，改以 MCP 只读接入",

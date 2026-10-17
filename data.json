@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T07:40:00+08:00",
+ "updated": "2026-10-17T08:27:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -78,6 +78,20 @@
      "summary": "Amjad Masad 在 TechCrunch Disrupt 上表示，Replit 内部与公开基准显示 OpenAI 的 Sol 与 Astra 在从零构建应用上表现更好；但知情人士称双方合作仍在，Replit 9 月博客仍列出 Claude Fable 5/5.1。Masad 还透露企业合同今年约占收入 15%，B2B 超 50%。"
     },
     {
+     "title": "路透社：德国将于下周公布与英伟达的工业 AI 合作协议，物理 AI 训练机器人与自动驾驶",
+     "url": "https://www.yahoo.com/news/articles/germany-unveil-nvidia-ai-agreement-110226552.html",
+     "source": "Reuters",
+     "date": "2026-10-16",
+     "summary": "据路透社援引德国政府消息人士，德国将在下周的“Invest in Germany”投资峰会期间宣布与英伟达的合作，推动 AI 在德国工业中的应用，合作方不止英伟达。据《商报》报道，联邦政府准备投入数亿欧元用于采购算力和训练工业 AI 模型，西门子、奥迪、Black Forest Labs 等约十家德企拟参与。"
+    },
+    {
+     "title": "Waymo 进军加拿大：多伦多启动人工驾驶测绘与安全测试，目标 2028 年推出无人驾驶出租车服务",
+     "url": "https://waymo.com/blog/2026/10/waymo-in-toronto/",
+     "source": "Waymo",
+     "date": "2026-10-16",
+     "summary": "Waymo 宣布在安大略省自动驾驶试点计划下，于多伦多先以少量全电动捷豹 I-PACE 进行人工驾驶、地图采集与安全测试，暂不提供商业乘车；目标 2028 年为乘客推出全无人驾驶 Robotaxi 服务，由 Element Fleet Management 协助车队运营。"
+    },
+    {
      "title": "嘉信理财 CEO：正屏蔽 Meta Muse 等未授权 AI 智能体动用客户资金，改以 MCP 只读接入",
      "url": "https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse",
      "source": "The Next Web",
@@ -99,25 +113,11 @@
      "summary": "新芯航途（XHEART）历史累计融资约 50 亿元人民币；本轮引入欧洲车企雷诺集团首次投资，奇瑞汽车追加，国产存储龙头长鑫科技参与。"
     },
     {
-     "title": "Semafor：加密模型路由平台 TrustedRouter 完成 600 万美元种子轮，Sierra Ventures 领投",
-     "url": "https://www.semafor.com/article/10/16/2026/openrouter-challenger-closes-seed-round",
-     "source": "Semafor",
-     "date": "2026-10-16",
-     "summary": "上线仅六周的 TrustedRouter 主打端到端加密与可验证机密计算，宣称平台与机房都无法读取部分开放权重模型的提示与输出；CEO Joseph Perla 称 DeepSeek、智谱、月之暗面等中国模型最受欢迎，并计划打造“纽约 Token 交易所”。"
-    },
-    {
      "title": "Vercel 数据：TypeSafe 决策模型 Jev 两周内被 35% 付费团队使用，成 AI Gateway 史上最快",
      "url": "https://techcrunch.com/2026/10/16/jev-is-vercels-fastest-adopted-ai-model-ever/",
      "source": "TechCrunch",
      "date": "2026-10-16",
      "summary": "据 Vercel AI Gateway 数据，Jev 发布两周覆盖 35% 付费团队，约为第二名 Sonnet 5.5 的两倍；开源模型已占网关 token 量逾 70%、支出近 25%，同时流向前沿实验室的支出增长约 10 倍。"
-    },
-    {
-     "title": "CNBC：AI 与半导体板块本周市值蒸发超 1 万亿美元，CoreWeave 信用承压",
-     "url": "https://www.cnbc.com/2026/10/16/cnbc-daily-open-ai-inflation-coreweave-.html",
-     "source": "CNBC",
-     "date": "2026-10-16",
-     "summary": "报道称全球约 20 只主要 AI/半导体股本周合计市值蒸发逾 1 万亿美元；CoreWeave 高收益债与五年期 CDS 大幅走阔，市场担忧 AI 基建债融资风险。"
     },
     {
      "title": "BBC：Anthropic IPO 前向投资者展示营收与盈利路径",
