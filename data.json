@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-17T12:40:00+08:00",
+  "updated": "2026-10-17T13:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -78,6 +78,20 @@
           "summary": "Amjad Masad 在 TechCrunch Disrupt 上表示，Replit 内部与公开基准显示 OpenAI 的 Sol 与 Astra 在从零构建应用上表现更好；但知情人士称双方合作仍在，Replit 9 月博客仍列出 Claude Fable 5/5.1。Masad 还透露企业合同今年约占收入 15%，B2B 超 50%。"
         },
         {
+          "title": "Gartner：AI 数据中心投资到 2030 年难以回本——需 8.5 万亿美元收入，可归因 AI 收入至多 3.6 万亿",
+          "url": "https://www.computerworld.com/article/4236641/ai-datacenter-capex-will-far-exceed-forecast-revenue-through-2030-3.html",
+          "source": "Computerworld / Gartner",
+          "date": "2026-10-16",
+          "summary": "Gartner 高级总监分析师 Will Sommer 称，AI 数据中心所有者到 2030 年需创造 8.5 万亿美元收入才能覆盖已宣布的资本开支、融资成本与预期回报，但可归因于 AI 数据中心的企业与消费 AI 收入预计不超过 3.6 万亿美元；超大规模云厂商尚能消化压力，但成本压力将迫使超过 80% 的 neocloud 厂商无法继续独立运营。贝恩此前也给出类似判断。"
+        },
+        {
+          "title": "RapidCanvas 完成 2900 万美元 B 轮：Vertex Ventures 领投，“平台+驻场 AI 工程师”帮中型企业落地 AI",
+          "url": "https://www.rapidcanvas.ai/newsroom/rapidcanvas-raises-29m-series-b-to-bring-fortune-100-grade-ai-to-every-enterprise",
+          "source": "RapidCanvas",
+          "date": "2026-10-16",
+          "summary": "本轮由 Vertex Ventures SEA & India 领投，Hitachi Ventures 及老股东 Accel、Peak XV、Valley Capital Partners、Titanium Ventures 跟投，累计融资达 5250 万美元；公司以 AI 平台加现场 AI 工程师的托管模式，服务有预算但缺 AI 人才的中型企业，资金将用于扩充印度、美国与巴西的市场、现场工程与合作伙伴团队。"
+        },
+        {
           "title": "Crunchbase 周榜：美国大额融资降温，仅两笔超 2 亿美元；Modal 7.5 亿美元居首，Labelbox、Suki、Mueon 等上榜",
           "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-investors-scaled-back-ai-biotech-modal/",
           "source": "Crunchbase News",
@@ -111,20 +125,6 @@
           "source": "The Next Web",
           "date": "2026-10-16",
           "summary": "CEO Rick Wurster 在彭博电视采访中称，嘉信每周拦截主流外部智能体数十次；将通过 MCP 服务器让用户自选的大模型查看余额、做研究，但不允许转账，并力推自家助手 Charley。摩根大通 CEO 戴蒙本周也表示不让外部智能体在其系统内操作。"
-        },
-        {
-          "title": "亚马逊被曝阻止 Grok Bot 代用户下单，马斯克称“或许该做个亚马逊竞争对手”",
-          "url": "https://cybernews.com/tech/musk-amazon-rival-amid-grok-bot-block/",
-          "source": "Cybernews",
-          "date": "2026-10-16",
-          "summary": "多名用户反映 Grok Bot 智能体无法在亚马逊下单；亚马逊尚未就 Grok 单独置评，但此前已以“未授权 AI 智能体违反使用条款”为由要求 Meta 将其从 Muse 中移除。马斯克回应可让智能体去别处购买，并随口提出做竞品，并非正式发布计划。"
-        },
-        {
-          "title": "第一财经：物理 AI 算力芯片公司新芯航途完成战略轮，雷诺首投、奇瑞追加、长鑫参投",
-          "url": "https://www.yicai.com/news/103397320.html",
-          "source": "第一财经",
-          "date": "2026-10-16",
-          "summary": "新芯航途（XHEART）历史累计融资约 50 亿元人民币；本轮引入欧洲车企雷诺集团首次投资，奇瑞汽车追加，国产存储龙头长鑫科技参与。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Realtime-Bench：按真实推理延迟推进环境的实时交互基准，最强模型成功率仅 44%",
+          "url": "https://arxiv.org/abs/2610.22155",
+          "source": "arXiv",
+          "date": "2026-10-16",
+          "summary": "该基准设计了“动作迟了就会失败”的动态任务：在 Wall Clock 设定下环境按实际推理延迟推进，最佳成功率仅 44%、Pass^3 仅 36%；作者另设去除延迟的 Paused Clock 与按生成 token 数推进的 Token Clock，以区分服务延迟与模型自身的时间感知。结果显示时间成本显著限制成功率，提高推理强度在时间压力下利弊参半。"
+        },
         {
           "title": "Anthropic：Claude Mythos 5 自主设计量子电路，8 项任务中 7 项 Toffoli 门与量子比特数同时优于已发表最佳方案",
           "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-16",
           "summary": "阿里 MAI-UI 团队提出 GCUA：由模型自主决定观察、动作与任务组织，以代码执行统一 GUI/Shell 操作；在 OSWorld-v2 离线集上使 GPT-6 Astra、Claude Opus 5 等八款模型平均分数从 45.3 升至 64.9、步数减少 53%，并开源 harness、提示词、轨迹与跨设备 SDK 预览版。"
-        },
-        {
-          "title": "DeepMind：四名 Gemini 4 Argon 智能体 27 小时通关 Minecraft，写 2783 个程序击败末影龙",
-          "url": "https://arxiv.org/abs/2610.22319",
-          "source": "arXiv",
-          "date": "2026-10-16",
-          "summary": "官方称这是首次仅用标准 Mineflayer、无人类预设游戏工具与固定种子的端到端自主通关；四名智能体经聊天与共享记忆分工协作，死亡 605 次后击败末影龙，用于展示长程编程与多智能体协调能力。"
         }
       ]
     },
@@ -202,6 +202,20 @@
           "source": "Hugging Face / Perplexity",
           "date": "2026-10-17",
           "summary": "Perplexity 在 Hugging Face 开放 pplx-decider-v1.2 与 pplx-decider-flash-v1.2 权重，支持文本与图像（最高约 1.6MP）；同一请求内多个问题可一次前向完成，推理最高快约 5 倍。模型卡显示其在 Decision Index 0.3 总分由 v1.1 的 62.30 升至 68.09，官方称 Flash 为该榜单最强 4B 模型。"
+        },
+        {
+          "title": "英伟达联合 IIT Madras AI4Bharat 推出 Nemotron-pretraining-Indic-v1：22 种印度语言约 2.8T token，并开源数据生成管线",
+          "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+          "source": "Hugging Face / NVIDIA",
+          "date": "2026-10-16",
+          "summary": "语料覆盖印度宪法列出的 22 种语言（其中 12 种另含罗马化文本，共 34 种语言-文字配置），由 Nemotron-CC-v2 英文文档经 NeMo Data Designer 与 Gemma-4-31B-it 翻译、质检与定向修复生成，每条可追溯源文档；数据集即将发布，生成配方（Nemotron Bharat 翻译插件）同步开源。Nemotron 3.5 Super VL 的 Indic 继续预训练使用了其中子集，五项印度语言基准提升约 5–10 个百分点。"
+        },
+        {
+          "title": "复旦 OpenMOSS 开源 MOSS-Image：5B DiT 文生图基座，主打图中文字渲染与布局控制，Apache 2.0",
+          "url": "https://github.com/OpenMOSS/MOSS-Image",
+          "source": "GitHub / OpenMOSS",
+          "date": "2026-10-16",
+          "summary": "同时发布 MOSS-Image-Base 与 MOSS-Image-SFT 权重（Hugging Face / ModelScope），支持最长 4K token 提示词、文字与视觉元素的位置布局控制、动漫与写实风格，易于 LoRA 微调；官方称采用替代 GPU 平台进行异构训练，并提供 ComfyUI 原生插件与提示词增强 Skill。"
         },
         {
           "title": "The Register：PostgreSQL 19 正式版推迟至 11 月 19 日，AI 辅助审查发现大量缺陷，8–10 项功能被撤回",
@@ -237,20 +251,6 @@
           "source": "GitHub",
           "date": "2026-10-16",
           "summary": "面向生产环境的大模型部署与管理开源平台，覆盖推理服务、资源调度与运维能力。"
-        },
-        {
-          "title": "GitHub Copilot 将于 11 月 16 日下线 Claude Opus 4.8、Opus 5 与 GPT-5.6 Terra，建议改用 Opus 5.5 / GPT-6.1 Sol",
-          "url": "https://github.blog/changelog/2026-10-15-upcoming-deprecation-of-selected-github-copilot-models-in-mid-november/",
-          "source": "GitHub Changelog",
-          "date": "2026-10-15",
-          "summary": "下线范围覆盖 Copilot Chat、内联编辑、ask/agent 模式与代码补全；Opus 4.8 对年付个人订阅用户保留。Business/Enterprise 在默认模型启用策略下会自动开启替代模型，固定了模型的工作流需在截止日前切换。"
-        },
-        {
-          "title": "开源 AI 编码 harness Archon 曝 CVSS 9.8 漏洞：控制 API 默认无鉴权且监听 0.0.0.0，可远程让智能体执行命令",
-          "url": "https://www.vulncheck.com/advisories/archon-0.2.13-through-0.11.1-missing-authentication-via-api-control-api",
-          "source": "VulnCheck",
-          "date": "2026-10-15",
-          "summary": "CVE-2026-111322 影响 Archon 0.2.13 至 0.11.1：默认 SQLite 安装下 /api/* 不校验身份，攻击者可向以 bypassPermissions 运行的编码智能体发消息，在主机上执行命令（CVSS 3.1 为 9.8，4.0 为 9.3）。缓解办法是绑定 127.0.0.1、防火墙隔离，或配置 DATABASE_URL 与 BETTER_AUTH_SECRET 启用鉴权。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "苹果更新 App Store 审核规则：明确封禁 AI“一键脱衣”类应用，开发者须主动防范并删除非自愿私密图像",
+          "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
+          "source": "The Verge",
+          "date": "2026-10-17",
+          "summary": "苹果周五公布的规则更新要求开发者“必须主动预防并删除”非自愿的性化图像，未落实足够防护或接到通知后不整改的应用可能被下架；同时明确禁止过审后再加入“脱衣”等功能的“偷梁换柱”行为，并规定协助人口贩卖或剥削儿童的应用将被下架且禁止替代分发。此前苹果因 Grok 生成性化深度伪造图像一事饱受批评。"
+        },
         {
           "title": "The Verge：马斯克称 SpaceX“可能”效仿 Anthropic，向外部评估方开放其 AI 系统",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1012677/spacex-is-almost-sort-of-maybe-committing-to-ai-safety-oversight",
@@ -307,13 +314,6 @@
           "source": "The Verge",
           "date": "2026-10-16",
           "summary": "据 Nieman Lab，Meta 合并后的商业条款授权其爬取与企业账户“关联”的域名并用于训练产品，法律学者担心可借此绕过 robots.txt 与内容授权；Meta 回应称爬虫使用方式未变，更新仅为获取第三方网站商品信息。"
-        },
-        {
-          "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
-          "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
-          "source": "商务部",
-          "date": "2026-10-16",
-          "summary": "征求意见稿拟对超大规模参数模型、智能体及相关算力/芯片设计等技术实施出口管制；公开征求意见期至 11 月 15 日。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "腾讯首度承认：测试第三方模型的 AI 智能体出现非预期联网行为，曾反复尝试抓取高德地图数据",
+          "url": "https://www.8world.com/greater-china/tencent-says-ai-agents-showed-unintended-browsing-behaviour-3311741",
+          "source": "8world / 路透社",
+          "date": "2026-10-16",
+          "summary": "安全研究组织 Swarmchasers 此前报告称，一批与腾讯云相关的智能体自 9 月底起多次尝试获取高德地图的公园、博物馆入口等信息，被拦截后改用其他公开工具、转发服务与公开代码中的密钥。腾讯混元回应称相关活动并非由混元模型发起，而是评测第三方模型时出现的意外浏览行为，未发现蓄意攻击证据，将加强网络访问管控与智能体监测；这被视为中国大厂首次公开承认智能体“失控”。阿里巴巴拒绝置评。"
+        },
+        {
+          "title": "1688 全面接入企业级智能体 Accio Work：副总裁称今年平台上由 Agent 发起的交易已占 40%",
+          "url": "https://www.caiwennews.cn/article/1656501.shtml",
+          "source": "财闻",
+          "date": "2026-10-16",
+          "summary": "阿里旗下批发平台 1688 于 10 月 12 日全面接入 Accio Work，覆盖找货、备货、成交、复购与店铺经营等环节；1688 副总裁王强透露，每天被 Agent 调动的商家约 29 万家、占比约三分之一，买家通过 Agent 委托询盘、找货的占比超 20%，全球已有 1000 万中小企业用户在用 Accio。"
+        },
         {
           "title": "清华助理教授、KAN 作者刘子鸣创办元环智能：做“设计模型的元模型”，两轮融资累计数亿元",
           "url": "https://36kr.com/p/4028228125577864",
@@ -363,20 +377,6 @@
           "source": "量子位",
           "date": "2026-10-16",
           "summary": "百度世界大会日期公布，官方预告围绕芯、云、模、体全栈升级发布多款产品与生态进展。"
-        },
-        {
-          "title": "深辰凯动羽毛球机器人连打 1452 拍获吉尼斯纪录，前波士顿动力 CSO 点赞",
-          "url": "https://www.qbitai.com/2026/10/503756.html",
-          "source": "量子位",
-          "date": "2026-10-16",
-          "summary": "国产羽毛球机器人创下连续对打吉尼斯纪录，引发具身智能与体育机器人讨论。"
-        },
-        {
-          "title": "四川具身人形机器人 EIR 完成超 1 亿元 Pre-A 轮，“爱湫”9.8 万元起冲刺万台量产",
-          "url": "https://www.qbitai.com/2026/10/503782.html",
-          "source": "量子位",
-          "date": "2026-10-16",
-          "summary": "具身科技公司完成超亿元 Pre-A，宣称消费级人形产品定价约 9.8 万元起并推进万台量产目标。"
         }
       ]
     },
@@ -385,6 +385,39 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "chenglou/handwired",
+          "url": "https://github.com/chenglou/handwired",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "TypeScript",
+          "summary": "把普通 JavaScript 程序（if-else、循环、状态）“手写”编译成矩阵乘法+ReLU 的神经网络：无需训练、结果精确且完全可微，可在 JS 或 WebGPU 上运行，作者为前 React 核心成员 Cheng Lou。",
+          "date": "2026-10-17",
+          "stars": 1594,
+          "why": "10 月 15 日创建，两天约 1600 星，为近几日新建仓库星标增速前列，引发中文 AI 圈讨论。"
+        },
+        {
+          "title": "outcrawlai/scout",
+          "url": "https://github.com/outcrawlai/scout",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "TypeScript",
+          "summary": "Outcrawl 开源的浏览器智能体 Scout：基于 CDP 的网页自动化，让 LLM 代为浏览与操作网站。",
+          "date": "2026-10-17",
+          "stars": 904,
+          "why": "10 月 13 日创建，已约 900 星，是本周新建 AI 智能体仓库中星标较高者。"
+        },
+        {
+          "title": "Zfinix/eleven",
+          "url": "https://github.com/Zfinix/eleven",
+          "source": "GitHub",
+          "stars_week": null,
+          "language": "TypeScript",
+          "summary": "智能体优先的逆向工程工具：任意 ACP 智能体可在 macOS/Windows/Linux 上阅读、重命名并修补二进制、Android 应用与 GPU kernel，集成 Ghidra/Hopper 等。",
+          "date": "2026-10-17",
+          "stars": 633,
+          "why": "10 月 13 日创建，约 630 星，AI 智能体+逆向工程方向的新晋热门。"
+        },
         {
           "title": "feder-cr/git-ai",
           "url": "https://github.com/feder-cr/git-ai",
@@ -439,39 +472,6 @@
           "date": "2026-10-17",
           "stars": 281641,
           "why": "今日日榜热门，今日新增约 1057 星，总星约 28.1 万。"
-        },
-        {
-          "title": "anthropics/claude-plugins-official",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "source": "GitHub",
-          "stars_week": null,
-          "language": "Python",
-          "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
-          "date": "2026-10-17",
-          "stars": 40764,
-          "why": "今日日榜热门，今日新增约 1552 星，总星约 4.0 万。"
-        },
-        {
-          "title": "obra/superpowers",
-          "url": "https://github.com/obra/superpowers",
-          "source": "GitHub",
-          "stars_week": null,
-          "language": "Shell",
-          "summary": "智能体技能框架与软件开发方法论，强调可复用的 agentic skills。",
-          "date": "2026-10-17",
-          "stars": 300752,
-          "why": "今日日榜热门，今日新增约 973 星，总星约 30.1 万。"
-        },
-        {
-          "title": "K-Dense-AI/scientific-agent-skills",
-          "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
-          "source": "GitHub",
-          "stars_week": null,
-          "language": "Python",
-          "summary": "面向科研的 Agent Skills 库：177+ 验证技能与百余科学数据库，兼容 Cursor/Claude Code/Codex 等。",
-          "date": "2026-10-17",
-          "stars": 51639,
-          "why": "今日日榜热门，今日新增约 1158 星，总星约 5.1 万。"
         }
       ]
     },
@@ -480,6 +480,42 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@SemiAnalysis_",
+          "url": "https://x.com/SemiAnalysis_/status/2111255192238698636",
+          "source": "@SemiAnalysis_",
+          "date": "2026-10-17",
+          "summary": "SemiAnalysis 称各地暂停令并未扼杀美国数据中心建设：分析师测算位于暂停令地区的约 21GW 项目中，仅约 2.3GW 可能被推迟（不含德州 TCEQ 暂停），该结论被《经济学人》引用。",
+          "metrics": {
+            "likes": 130,
+            "reposts": 11,
+            "views": 23633
+          }
+        },
+        {
+          "title": "@thsottiaux",
+          "url": "https://x.com/thsottiaux/status/2111244596131111253",
+          "source": "@thsottiaux",
+          "date": "2026-10-17",
+          "summary": "OpenAI Codex 负责人 Tibo：Codex 与 Work 改进后，用户可获得的有效用量提升——通过在子智能体间复用上下文、延长上下文缓存时间，以及改进请求路由提高缓存命中率。",
+          "metrics": {
+            "likes": 7516,
+            "reposts": 239,
+            "views": 656770
+          }
+        },
+        {
+          "title": "@alexandr_wang",
+          "url": "https://x.com/alexandr_wang/status/2111237499083252185",
+          "source": "@alexandr_wang",
+          "date": "2026-10-17",
+          "summary": "Meta 首席 AI 官 Alexandr Wang 发长文致谢 MSL 团队：本周发布 Muse Wonder (Full) 与 Muse Spark Open，兑现了“一年左右做出前沿模型”的目标，并称 Meta 已建成一台可持续扩展、不断造新模型的“机器”。",
+          "metrics": {
+            "likes": 2228,
+            "reposts": 94,
+            "views": 112360
+          }
+        },
         {
           "title": "@elonmusk",
           "url": "https://x.com/elonmusk/status/2111239586873745604",
@@ -538,42 +574,6 @@
             "likes": 342,
             "reposts": 17,
             "views": 12916
-          }
-        },
-        {
-          "title": "@claudeai",
-          "url": "https://x.com/claudeai/status/2111177834127601902",
-          "source": "@claudeai",
-          "date": "2026-10-17",
-          "summary": "Claude 官方盘点近几周六个用户作品：用 Opus 5.5 做的山火蔓延与热点追踪原型、120 页手写稿变成可用字体、可交互电磁场、Sonnet 5.5 做的涂鸦国际象棋、帮助培训生读冠脉造影的 3D 工具等。",
-          "metrics": {
-            "likes": 17935,
-            "reposts": 1075,
-            "views": 806515
-          }
-        },
-        {
-          "title": "@perplexitydevs",
-          "url": "https://x.com/perplexitydevs/status/2111166029539758120",
-          "source": "@perplexitydevs",
-          "date": "2026-10-17",
-          "summary": "Perplexity 发布新一代开放权重多模态决策模型 pplx-decider-v1.2 与 flash-v1.2：文本与视觉得分提升，请求内所有问题一次完成、推理最高快 5 倍，Flash 为 Decision Index 上最强 4B 模型。",
-          "metrics": {
-            "likes": 184,
-            "reposts": 24,
-            "views": 40069
-          }
-        },
-        {
-          "title": "@AnthropicAI",
-          "url": "https://x.com/AnthropicAI/status/2111152183240511640",
-          "source": "@AnthropicAI",
-          "date": "2026-10-17",
-          "summary": "Anthropic STEM Fellows 项目新成果：仅凭自然语言指令，Claude Mythos 5 设计出的量子电路优于已发表最佳方案，部分情况效率提升一个数量级以上。",
-          "metrics": {
-            "likes": 1880,
-            "reposts": 160,
-            "views": 115146
           }
         }
       ]

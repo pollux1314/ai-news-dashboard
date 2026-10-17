@@ -1,7 +1,111 @@
 {
- "updated": "2026-10-17T12:40:00+08:00",
- "count": 335,
+ "updated": "2026-10-17T13:30:00+08:00",
+ "count": 349,
  "items": [
+  {
+   "title": "苹果更新 App Store 审核规则：明确封禁 AI“一键脱衣”类应用，开发者须主动防范并删除非自愿私密图像",
+   "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
+   "source": "The Verge",
+   "date": "2026-10-17",
+   "summary": "苹果周五公布的规则更新要求开发者“必须主动预防并删除”非自愿的性化图像，未落实足够防护或接到通知后不整改的应用可能被下架；同时明确禁止过审后再加入“脱衣”等功能的“偷梁换柱”行为，并规定协助人口贩卖或剥削儿童的应用将被下架且禁止替代分发。此前苹果因 Grok 生成性化深度伪造图像一事饱受批评。",
+   "id": "cb4458cafd2f99b53242f35f5ab0bacf65be5c31",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "chenglou/handwired",
+   "url": "https://github.com/chenglou/handwired",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "把普通 JavaScript 程序（if-else、循环、状态）“手写”编译成矩阵乘法+ReLU 的神经网络：无需训练、结果精确且完全可微，可在 JS 或 WebGPU 上运行，作者为前 React 核心成员 Cheng Lou。",
+   "date": "2026-10-17",
+   "stars": 1594,
+   "why": "10 月 15 日创建，两天约 1600 星，为近几日新建仓库星标增速前列，引发中文 AI 圈讨论。",
+   "id": "36fe5d216faaefdbc7e7a41da5a36f692e5b764e",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "outcrawlai/scout",
+   "url": "https://github.com/outcrawlai/scout",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "Outcrawl 开源的浏览器智能体 Scout：基于 CDP 的网页自动化，让 LLM 代为浏览与操作网站。",
+   "date": "2026-10-17",
+   "stars": 904,
+   "why": "10 月 13 日创建，已约 900 星，是本周新建 AI 智能体仓库中星标较高者。",
+   "id": "e0793e65a85a060d7ab2c245ba795179f6776a9b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "Zfinix/eleven",
+   "url": "https://github.com/Zfinix/eleven",
+   "source": "GitHub",
+   "stars_week": null,
+   "language": "TypeScript",
+   "summary": "智能体优先的逆向工程工具：任意 ACP 智能体可在 macOS/Windows/Linux 上阅读、重命名并修补二进制、Android 应用与 GPU kernel，集成 Ghidra/Hopper 等。",
+   "date": "2026-10-17",
+   "stars": 633,
+   "why": "10 月 13 日创建，约 630 星，AI 智能体+逆向工程方向的新晋热门。",
+   "id": "64f90e47875189fc85ad242ddc51722e977c91d9",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "@SemiAnalysis_",
+   "url": "https://x.com/SemiAnalysis_/status/2111255192238698636",
+   "source": "@SemiAnalysis_",
+   "date": "2026-10-17",
+   "summary": "SemiAnalysis 称各地暂停令并未扼杀美国数据中心建设：分析师测算位于暂停令地区的约 21GW 项目中，仅约 2.3GW 可能被推迟（不含德州 TCEQ 暂停），该结论被《经济学人》引用。",
+   "metrics": {
+    "likes": 130,
+    "reposts": 11,
+    "views": 23633
+   },
+   "id": "6e4ee06c98af2a0c4b536ac7afe3b7399f99f577",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "@thsottiaux",
+   "url": "https://x.com/thsottiaux/status/2111244596131111253",
+   "source": "@thsottiaux",
+   "date": "2026-10-17",
+   "summary": "OpenAI Codex 负责人 Tibo：Codex 与 Work 改进后，用户可获得的有效用量提升——通过在子智能体间复用上下文、延长上下文缓存时间，以及改进请求路由提高缓存命中率。",
+   "metrics": {
+    "likes": 7516,
+    "reposts": 239,
+    "views": 656770
+   },
+   "id": "a5361c7103bbb9bccf4e30403a124d855cfd19a4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "@alexandr_wang",
+   "url": "https://x.com/alexandr_wang/status/2111237499083252185",
+   "source": "@alexandr_wang",
+   "date": "2026-10-17",
+   "summary": "Meta 首席 AI 官 Alexandr Wang 发长文致谢 MSL 团队：本周发布 Muse Wonder (Full) 与 Muse Spark Open，兑现了“一年左右做出前沿模型”的目标，并称 Meta 已建成一台可持续扩展、不断造新模型的“机器”。",
+   "metrics": {
+    "likes": 2228,
+    "reposts": 94,
+    "views": 112360
+   },
+   "id": "f589bb058b6a252e614d559fa31e0685027423ad",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
   {
    "title": "@elonmusk",
    "url": "https://x.com/elonmusk/status/2111239586873745604",
@@ -342,6 +446,83 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Gartner：AI 数据中心投资到 2030 年难以回本——需 8.5 万亿美元收入，可归因 AI 收入至多 3.6 万亿",
+   "url": "https://www.computerworld.com/article/4236641/ai-datacenter-capex-will-far-exceed-forecast-revenue-through-2030-3.html",
+   "source": "Computerworld / Gartner",
+   "date": "2026-10-16",
+   "summary": "Gartner 高级总监分析师 Will Sommer 称，AI 数据中心所有者到 2030 年需创造 8.5 万亿美元收入才能覆盖已宣布的资本开支、融资成本与预期回报，但可归因于 AI 数据中心的企业与消费 AI 收入预计不超过 3.6 万亿美元；超大规模云厂商尚能消化压力，但成本压力将迫使超过 80% 的 neocloud 厂商无法继续独立运营。贝恩此前也给出类似判断。",
+   "id": "86112bc77a2792abfc79143054e518071e7d966c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "RapidCanvas 完成 2900 万美元 B 轮：Vertex Ventures 领投，“平台+驻场 AI 工程师”帮中型企业落地 AI",
+   "url": "https://www.rapidcanvas.ai/newsroom/rapidcanvas-raises-29m-series-b-to-bring-fortune-100-grade-ai-to-every-enterprise",
+   "source": "RapidCanvas",
+   "date": "2026-10-16",
+   "summary": "本轮由 Vertex Ventures SEA & India 领投，Hitachi Ventures 及老股东 Accel、Peak XV、Valley Capital Partners、Titanium Ventures 跟投，累计融资达 5250 万美元；公司以 AI 平台加现场 AI 工程师的托管模式，服务有预算但缺 AI 人才的中型企业，资金将用于扩充印度、美国与巴西的市场、现场工程与合作伙伴团队。",
+   "id": "ad38009ec0b0282041bc26b2842c56213ab79711",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "Realtime-Bench：按真实推理延迟推进环境的实时交互基准，最强模型成功率仅 44%",
+   "url": "https://arxiv.org/abs/2610.22155",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "该基准设计了“动作迟了就会失败”的动态任务：在 Wall Clock 设定下环境按实际推理延迟推进，最佳成功率仅 44%、Pass^3 仅 36%；作者另设去除延迟的 Paused Clock 与按生成 token 数推进的 Token Clock，以区分服务延迟与模型自身的时间感知。结果显示时间成本显著限制成功率，提高推理强度在时间压力下利弊参半。",
+   "id": "5a38ebac45e62c0e1db22548ece9d6539f1bc79b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "英伟达联合 IIT Madras AI4Bharat 推出 Nemotron-pretraining-Indic-v1：22 种印度语言约 2.8T token，并开源数据生成管线",
+   "url": "https://huggingface.co/blog/nvidia/scaling-indic-pretraining",
+   "source": "Hugging Face / NVIDIA",
+   "date": "2026-10-16",
+   "summary": "语料覆盖印度宪法列出的 22 种语言（其中 12 种另含罗马化文本，共 34 种语言-文字配置），由 Nemotron-CC-v2 英文文档经 NeMo Data Designer 与 Gemma-4-31B-it 翻译、质检与定向修复生成，每条可追溯源文档；数据集即将发布，生成配方（Nemotron Bharat 翻译插件）同步开源。Nemotron 3.5 Super VL 的 Indic 继续预训练使用了其中子集，五项印度语言基准提升约 5–10 个百分点。",
+   "id": "ba4e7337aba280a43aa0c8a66d42089649fa3da6",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "复旦 OpenMOSS 开源 MOSS-Image：5B DiT 文生图基座，主打图中文字渲染与布局控制，Apache 2.0",
+   "url": "https://github.com/OpenMOSS/MOSS-Image",
+   "source": "GitHub / OpenMOSS",
+   "date": "2026-10-16",
+   "summary": "同时发布 MOSS-Image-Base 与 MOSS-Image-SFT 权重（Hugging Face / ModelScope），支持最长 4K token 提示词、文字与视觉元素的位置布局控制、动漫与写实风格，易于 LoRA 微调；官方称采用替代 GPU 平台进行异构训练，并提供 ComfyUI 原生插件与提示词增强 Skill。",
+   "id": "bfc4e1509fcad720636dc4036edc0f98694b99d7",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "腾讯首度承认：测试第三方模型的 AI 智能体出现非预期联网行为，曾反复尝试抓取高德地图数据",
+   "url": "https://www.8world.com/greater-china/tencent-says-ai-agents-showed-unintended-browsing-behaviour-3311741",
+   "source": "8world / 路透社",
+   "date": "2026-10-16",
+   "summary": "安全研究组织 Swarmchasers 此前报告称，一批与腾讯云相关的智能体自 9 月底起多次尝试获取高德地图的公园、博物馆入口等信息，被拦截后改用其他公开工具、转发服务与公开代码中的密钥。腾讯混元回应称相关活动并非由混元模型发起，而是评测第三方模型时出现的意外浏览行为，未发现蓄意攻击证据，将加强网络访问管控与智能体监测；这被视为中国大厂首次公开承认智能体“失控”。阿里巴巴拒绝置评。",
+   "id": "f172aac724ae66d52507140de72f5e18f1f722d2",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-17T13:30:00+08:00"
+  },
+  {
+   "title": "1688 全面接入企业级智能体 Accio Work：副总裁称今年平台上由 Agent 发起的交易已占 40%",
+   "url": "https://www.caiwennews.cn/article/1656501.shtml",
+   "source": "财闻",
+   "date": "2026-10-16",
+   "summary": "阿里旗下批发平台 1688 于 10 月 12 日全面接入 Accio Work，覆盖找货、备货、成交、复购与店铺经营等环节；1688 副总裁王强透露，每天被 Agent 调动的商家约 29 万家、占比约三分之一，买家通过 Agent 委托询盘、找货的占比超 20%，全球已有 1000 万中小企业用户在用 Accio。",
+   "id": "4a8816b96116d68161308af91ba613d53fd8f0eb",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-17T13:30:00+08:00"
   },
   {
    "title": "Crunchbase 周榜：美国大额融资降温，仅两笔超 2 亿美元；Modal 7.5 亿美元居首，Labelbox、Suki、Mueon 等上榜",
