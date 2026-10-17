@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-17T09:35:00+08:00",
+ "updated": "2026-10-17T10:40:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -78,6 +78,13 @@
      "summary": "Amjad Masad 在 TechCrunch Disrupt 上表示，Replit 内部与公开基准显示 OpenAI 的 Sol 与 Astra 在从零构建应用上表现更好；但知情人士称双方合作仍在，Replit 9 月博客仍列出 Claude Fable 5/5.1。Masad 还透露企业合同今年约占收入 15%，B2B 超 50%。"
     },
     {
+     "title": "FT：Anthropic 6 月曾获 KBRA BB+ 评级（最高垃圾级），为 Apollo 牵头的 350 亿美元芯片融资铺路",
+     "url": "https://aiweekly.co/alerts/anthropic-landed-bb-kbra-rating-in-june-ahead-of-35b-apollo-deal",
+     "source": "AI Weekly / Financial Times",
+     "date": "2026-10-16",
+     "summary": "据 FT 所见文件，KBRA 给予 Anthropic 发行人评级 BB+，距投资级仅一档；其中约 44 亿美元直接承担 Anthropic 信用风险的次级债收益率约 8.5%，博通担保的优先级债约 5.75%。KBRA 采用“风险评分”而非完整财务模型，因 Anthropic 未提供自由现金流与 EBITDA。KBRA 与 Anthropic 均拒绝置评。"
+    },
+    {
      "title": "路透社：德国将于下周公布与英伟达的工业 AI 合作协议，物理 AI 训练机器人与自动驾驶",
      "url": "https://www.yahoo.com/news/articles/germany-unveil-nvidia-ai-agreement-110226552.html",
      "source": "Reuters",
@@ -118,13 +125,6 @@
      "source": "TechCrunch",
      "date": "2026-10-16",
      "summary": "据 Vercel AI Gateway 数据，Jev 发布两周覆盖 35% 付费团队，约为第二名 Sonnet 5.5 的两倍；开源模型已占网关 token 量逾 70%、支出近 25%，同时流向前沿实验室的支出增长约 10 倍。"
-    },
-    {
-     "title": "BBC：Anthropic IPO 前向投资者展示营收与盈利路径",
-     "url": "https://www.bbc.com/news/articles/cqzjx448vxkgo",
-     "source": "BBC",
-     "date": "2026-10-16",
-     "summary": "Anthropic 在上市前投资者活动中强调快速增长与盈利能力，并回应安全关切；市场仍关注 AI 基建开支与整体科技股承压。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "Anthropic：Claude Mythos 5 自主设计量子电路，8 项任务中 7 项 Toffoli 门与量子比特数同时优于已发表最佳方案",
+     "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+     "source": "Anthropic",
+     "date": "2026-10-16",
+     "summary": "STEM Fellows 项目成果（Andi Gu 主导，与哈佛 Susanne Yelin、Mikhail Lukin 合作，论文 arXiv:2610.22367）：模型按自然语言描述提出电路，由独立评估程序验证正确性并按 Toffoli 数×峰值量子比特数打分迭代。模逆运算新架构 Toffoli 门最多减少约 17 倍，优化问题关键步骤约为谷歌此前设计的 1/12；设计尚未在真实量子硬件上运行。"
+    },
+    {
+     "title": "Anthropic 发布《AI 预期鸿沟》调研：91% 员工 vs 39% 美国成年人认为 2030 年前 AI 能做出诺奖级发现",
+     "url": "https://www.anthropic.com/research/expectations-for-the-future",
+     "source": "Anthropic",
+     "date": "2026-10-16",
+     "summary": "两份报告分别考察 AI 如何改变 Anthropic 内部就业，以及员工与约 1.1 万名美国成年人（Morning Consult 8 月调查）的预期差异：双方对 AI 当前能力看法接近，但员工预期进展快得多；过半员工认为 2030 年 AI 能完成自己至少 80% 的工作，公众仅 5%。不过两组对“AI 做得越多、失业越多”的经济模型判断相似。"
+    },
     {
      "title": "微软研究院 PBC 登 Nature：机器学习校正天气模型系统偏差，补上 2–6 周次季节预报短板",
      "url": "https://www.microsoft.com/en-us/research/story/new-ai-framework-bridges-a-critical-gap-in-mid-range-weather-forecasts/",
@@ -174,20 +188,6 @@
      "source": "arXiv",
      "date": "2026-10-16",
      "summary": "官方称这是首次仅用标准 Mineflayer、无人类预设游戏工具与固定种子的端到端自主通关；四名智能体经聊天与共享记忆分工协作，死亡 605 次后击败末影龙，用于展示长程编程与多智能体协调能力。"
-    },
-    {
-     "title": "MLExpert：35B MoE 自主机器学习工程智能体，MLE-Bench Lite 奖牌率 37.9%→72.7%",
-     "url": "https://arxiv.org/abs/2610.22344",
-     "source": "arXiv",
-     "date": "2026-10-16",
-     "summary": "上海 AI Lab 等提出分层智能体 SFT 与窗口化交互强化学习（WIRL），训练可自主组织长程实验的 MLE 模型；在可比规模模型中奖牌率领先，并接近更大前沿模型表现，还能迁移到 NatureBench 与脚手架/算法优化。"
-    },
-    {
-     "title": "SpecAgent：弱模型起草、强模型语义核验工具调用轨迹，内存流量约减半",
-     "url": "https://arxiv.org/abs/2610.21463",
-     "source": "arXiv",
-     "date": "2026-10-16",
-     "summary": "弱模型执行只读工具调用并起草步骤，强模型以单次 prefill 做语义核验并修复首个拒绝步；在 τ²-Bench 上成功率接近强模型，同时显著降低时延与内存流量。"
     }
    ]
   },
@@ -202,6 +202,13 @@
      "source": "Hugging Face / Perplexity",
      "date": "2026-10-17",
      "summary": "Perplexity 在 Hugging Face 开放 pplx-decider-v1.2 与 pplx-decider-flash-v1.2 权重，支持文本与图像（最高约 1.6MP）；同一请求内多个问题可一次前向完成，推理最高快约 5 倍。模型卡显示其在 Decision Index 0.3 总分由 v1.1 的 62.30 升至 68.09，官方称 Flash 为该榜单最强 4B 模型。"
+    },
+    {
+     "title": "The Register：PostgreSQL 19 正式版推迟至 11 月 19 日，AI 辅助审查发现大量缺陷，8–10 项功能被撤回",
+     "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+     "source": "The Register",
+     "date": "2026-10-16",
+     "summary": "发布团队将 GA 从原计划推迟，新增 11 月 12 日 RC2 以纳入大量修复；提交者 Peter Eisentraut 称 LLM 辅助审查让后期暴露的问题激增。但核心开发者 Tomas Vondra 统计 12 次撤回中仅约 4 次与 AI 有关，并指出今年 CVE 已达 44 个、资深开发者忙于处理安全报告也是主因。"
     },
     {
      "title": "腾讯混元开源 Hy-Memory 2.0：记忆专用模型 Hy-Memory-30B-A3B + 框架 + MemHub 三层全开源",
@@ -244,13 +251,6 @@
      "source": "PrismML",
      "date": "2026-10-15",
      "summary": "基于 Qwen3.5、权重仅取 {−1,0,+1}，2B/4B/9B 体积约 0.43/0.95/2.00GB，支持视觉理解与工具调用；官方称 iPhone 18 Pro Max 上 9B 约 34 tok/s、2B 约 120 tok/s，Apache 2.0 许可，提供 GGUF 与 MLX 版本。"
-    },
-    {
-     "title": "英伟达开源 Nemotron 3.5 Super VL：120B MoE / 12B 激活多模态智能体模型",
-     "url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
-     "source": "NVIDIA",
-     "date": "2026-10-15",
-     "summary": "开放可定制多模态 MoE，统一文本/图像/文档/视频理解与工具调用；官方称单卡智能体吞吐较同量级开源模型最高约 5×，并放出 NeMo 训练配方、数据集与 NIM/Dynamo 部署路径；Scale、Ramp、AI21 等已做领域后训练。"
     }
    ]
   },

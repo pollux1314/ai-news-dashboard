@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-17T09:35:00+08:00",
- "count": 325,
+ "updated": "2026-10-17T10:40:00+08:00",
+ "count": 329,
  "items": [
   {
    "title": "Perplexity 开源新一代多模态决策模型 pplx-decider v1.2：含 4B Flash 版，推理最高快 5 倍",
@@ -310,6 +310,50 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "FT：Anthropic 6 月曾获 KBRA BB+ 评级（最高垃圾级），为 Apollo 牵头的 350 亿美元芯片融资铺路",
+   "url": "https://aiweekly.co/alerts/anthropic-landed-bb-kbra-rating-in-june-ahead-of-35b-apollo-deal",
+   "source": "AI Weekly / Financial Times",
+   "date": "2026-10-16",
+   "summary": "据 FT 所见文件，KBRA 给予 Anthropic 发行人评级 BB+，距投资级仅一档；其中约 44 亿美元直接承担 Anthropic 信用风险的次级债收益率约 8.5%，博通担保的优先级债约 5.75%。KBRA 采用“风险评分”而非完整财务模型，因 Anthropic 未提供自由现金流与 EBITDA。KBRA 与 Anthropic 均拒绝置评。",
+   "id": "83ecf1a7f7cd9ebe5f64b027e84a0aee66a46caf",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-17T10:40:00+08:00"
+  },
+  {
+   "title": "Anthropic：Claude Mythos 5 自主设计量子电路，8 项任务中 7 项 Toffoli 门与量子比特数同时优于已发表最佳方案",
+   "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
+   "source": "Anthropic",
+   "date": "2026-10-16",
+   "summary": "STEM Fellows 项目成果（Andi Gu 主导，与哈佛 Susanne Yelin、Mikhail Lukin 合作，论文 arXiv:2610.22367）：模型按自然语言描述提出电路，由独立评估程序验证正确性并按 Toffoli 数×峰值量子比特数打分迭代。模逆运算新架构 Toffoli 门最多减少约 17 倍，优化问题关键步骤约为谷歌此前设计的 1/12；设计尚未在真实量子硬件上运行。",
+   "id": "04b7640931c7c9715e6a3167f61f1a526fddcb22",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T10:40:00+08:00"
+  },
+  {
+   "title": "Anthropic 发布《AI 预期鸿沟》调研：91% 员工 vs 39% 美国成年人认为 2030 年前 AI 能做出诺奖级发现",
+   "url": "https://www.anthropic.com/research/expectations-for-the-future",
+   "source": "Anthropic",
+   "date": "2026-10-16",
+   "summary": "两份报告分别考察 AI 如何改变 Anthropic 内部就业，以及员工与约 1.1 万名美国成年人（Morning Consult 8 月调查）的预期差异：双方对 AI 当前能力看法接近，但员工预期进展快得多；过半员工认为 2030 年 AI 能完成自己至少 80% 的工作，公众仅 5%。不过两组对“AI 做得越多、失业越多”的经济模型判断相似。",
+   "id": "ab1e0ebf1e3443ff4e16896705b3c6ca401ae374",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-17T10:40:00+08:00"
+  },
+  {
+   "title": "The Register：PostgreSQL 19 正式版推迟至 11 月 19 日，AI 辅助审查发现大量缺陷，8–10 项功能被撤回",
+   "url": "https://www.theregister.com/databases/2026/10/16/postgres-19-delayed-after-ai-reviewers-find-more-bugs-than-humans-can-fix/5303471",
+   "source": "The Register",
+   "date": "2026-10-16",
+   "summary": "发布团队将 GA 从原计划推迟，新增 11 月 12 日 RC2 以纳入大量修复；提交者 Peter Eisentraut 称 LLM 辅助审查让后期暴露的问题激增。但核心开发者 Tomas Vondra 统计 12 次撤回中仅约 4 次与 AI 有关，并指出今年 CVE 已达 44 个、资深开发者忙于处理安全报告也是主因。",
+   "id": "e4018d8e9eb4c3e62dd1294356757ccd0b812eed",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T10:40:00+08:00"
   },
   {
    "title": "路透社：IMF 总裁格奥尔基耶娃称若无保障措施与伦理框架，AI 风险或超过机遇",
