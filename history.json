@@ -1,17 +1,80 @@
 {
- "updated": "2026-10-19T04:30:00+08:00",
- "count": 522,
+ "updated": "2026-10-19T05:35:00+08:00",
+ "count": 532,
  "items": [
+  {
+   "title": "abhi245y/PS5LM-Plus",
+   "url": "https://github.com/abhi245y/PS5LM-Plus",
+   "source": "GitHub",
+   "stars": 396,
+   "stars_week": null,
+   "language": "C++",
+   "date": "2026-10-19",
+   "summary": "在破解版 PS5 上原生运行 llama.cpp：GPU 推理 GGUF，Qwen3.8-27B 约 20 tok/s，提供 OpenAI 兼容 API，GPL-3.0。",
+   "why": "本周本地推理热点项目，约 400 星；游戏主机跑 27B 引发讨论。",
+   "id": "97acb68b74766d4f088523c303af20725cc8ee44",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
+   "title": "@elonmusk",
+   "url": "https://x.com/elonmusk/status/2111914748648296655",
+   "source": "@elonmusk",
+   "date": "2026-10-19",
+   "summary": "马斯克转发并称「Grok Bot 就像雇了一名极其能干的员工」，呼应用户展示用 Grok Bot 完成购物下单等代理任务的演示。",
+   "metrics": {
+    "likes": 2956,
+    "reposts": 397,
+    "views": 718626
+   },
+   "id": "788e3da34723ee283ceb14a1769e9d50d44c2afa",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
+   "title": "@elonmusk",
+   "url": "https://x.com/elonmusk/status/2111930742615802163",
+   "source": "@elonmusk",
+   "date": "2026-10-19",
+   "summary": "马斯克发帖「租用 AI/SI 算力是什么体验」，配图调侃算力租用之难，引发对超级智能算力供需的讨论。",
+   "metrics": {
+    "likes": 1516,
+    "reposts": 205,
+    "views": 392635
+   },
+   "id": "b76e33be0eb4616be45cddd0c0d2b4ca13a8c870",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
+   "title": "@elonmusk",
+   "url": "https://x.com/elonmusk/status/2111914396490604547",
+   "source": "@elonmusk",
+   "date": "2026-10-19",
+   "summary": "马斯克回复 Anthropic 公益基金公告，称「我建议把股份直接分给公众」。",
+   "metrics": {
+    "likes": 7384,
+    "reposts": 395,
+    "views": 272339
+   },
+   "id": "22ec619e0e15db04dfa54cbc9a4418b85caf373a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
   {
    "title": "@AndrewCurran_",
    "url": "https://x.com/AndrewCurran_/status/2111889465438601604",
    "source": "@AndrewCurran_",
    "date": "2026-10-19",
-   "summary": "解读 Anthropic 公益基金：最关键的一句是“直接向特定人群分配”，看起来像是在筹划自主主导的全球 UBI；并称约半数 Anthropic 员工也在把自己的股份捐入该基金。",
+   "summary": "解读 Anthropic 公益基金：最关键的一句是「直接向特定人群分配」，看起来像是在筹划自主主导的全球 UBI；并称约半数 Anthropic 员工也在把股份捐入相关公益安排。",
    "metrics": {
-    "likes": 1059,
-    "reposts": 62,
-    "views": 38757
+    "likes": 1465,
+    "reposts": 91,
+    "views": 59526
    },
    "id": "b80284f4e75a1f1186b891a9260c6232541e5305",
    "module": "x",
@@ -23,7 +86,7 @@
    "url": "https://x.com/kimmonismus/status/2111879755741950184",
    "source": "@kimmonismus",
    "date": "2026-10-19",
-   "summary": "转述 Anthropic 联合创始人 Jack Clark 的说法：“我相信今年我们已获得令人信服的证据，表明奇点已经开始”，并评论称无论外界信不信，Anthropic 都按已进入奇点来行事。",
+   "summary": "转述 Anthropic 联合创始人 Jack Clark 的说法：「我相信今年我们已获得令人信服的证据，表明奇点已经开始」，并评论称无论外界信不信，Anthropic 都按已进入奇点来行事。",
    "metrics": {
     "likes": 777,
     "reposts": 52,
@@ -41,9 +104,9 @@
    "date": "2026-10-19",
    "summary": "Anthropic 官宣将部分股份注入全资新实体 Anthropic Public Benefit Fund，起步为 5%，公司价值较基准每上涨 50% 可再追加，专门用于公共利益。",
    "metrics": {
-    "likes": 996,
-    "reposts": 65,
-    "views": 43532
+    "likes": 7922,
+    "reposts": 565,
+    "views": 1173510
    },
    "id": "e4acd08bc2ec359e6ea390b163c82da498b3b3c2",
    "module": "x",
@@ -66,11 +129,11 @@
    "url": "https://x.com/elonmusk/status/2111867437238853726",
    "source": "@elonmusk",
    "date": "2026-10-19",
-   "summary": "马斯克转发 Brian Roemmele 的演示并称“Grok Bot 可以打电话给餐厅帮你订位”：该 Grok Bot 会自行查找餐厅电话、确认人数时间与回拨号码，用户确认后用 Grok 语音拨号，通话后汇报结果并可写入日历；设有不提供信用卡、一次只打一通、不主动拨号等防护。",
+   "summary": "马斯克转发 Brian Roemmele 的演示并称「Grok Bot 可以打电话给餐厅帮你订位」：该 Bot 会自行查找餐厅电话、确认人数时间与回拨号码，用户确认后用 Grok 语音拨号。",
    "metrics": {
-    "likes": 1729,
-    "reposts": 201,
-    "views": 473952
+    "likes": 5994,
+    "reposts": 722,
+    "views": 1074059
    },
    "id": "6d04bef620d890e42dedee0e20b83ecf6306f37f",
    "module": "x",
@@ -96,16 +159,106 @@
    "title": "anomalyco/opencode",
    "url": "https://github.com/anomalyco/opencode",
    "source": "GitHub",
-   "stars": 216367,
+   "stars": 216461,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-19",
    "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
-   "why": "今日 GitHub Trending 日榜约 +1417 星，总星数约 21.6 万；在 OpenCode Console 遭“蒸馏攻击”、部分用户 API 密钥外泄的事件发酵期间关注度反而走高。",
+   "why": "今日 GitHub Trending 日榜前列，总星数约 21.6 万；OpenCode Console 密钥事件后关注度仍高。",
    "id": "adbef724cb274560f99367511b2ecdc73c31c6df",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-17T22:30:00+08:00"
+  },
+  {
+   "title": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "source": "GitHub",
+   "stars": 96497,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-19",
+   "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
+   "why": "今日 GitHub 趋势榜持续上榜，累计约 9.6 万星，定位为多智能体编排层。",
+   "id": "4747a804fd4584863d91d5dbdd7a2f406fc624a7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T19:25:00+08:00"
+  },
+  {
+   "title": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "source": "GitHub",
+   "stars": 52804,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-19",
+   "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
+   "why": "近期日增星靠前，累计约 5.3 万星。",
+   "id": "9b75bda91938b76c7b723e74ceae6c37b2c42cd9",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T20:30:00+08:00"
+  },
+  {
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "source": "GitHub",
+   "stars": 54533,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-19",
+   "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
+   "why": "趋势榜上榜，累计约 5.5 万星。",
+   "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T19:35:00+08:00"
+  },
+  {
+   "title": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "source": "GitHub",
+   "stars": 76451,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-19",
+   "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
+   "why": "趋势榜常客，累计约 7.6 万星。",
+   "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T20:32:02+08:00"
+  },
+  {
+   "title": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "source": "GitHub",
+   "stars": 42605,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-19",
+   "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录，覆盖 MCP 与 Skills 等扩展，Apache 2.0。",
+   "why": "趋势榜上榜，累计约 4.3 万星。",
+   "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T19:31:06+08:00"
+  },
+  {
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "source": "GitHub",
+   "stars": 75067,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-19",
+   "summary": "本地语音克隆、配音、听写与转写的开源替代方案，定位对标 ElevenLabs，AGPL-3.0。",
+   "why": "今日 GitHub Trending 上榜，累计约 7.5 万星。",
+   "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T17:36:05+08:00"
   },
   {
    "title": "澎湃新闻：《五台山研究》《沈阳师范大学学报》《青年学报》等多家期刊宣布拒收 AI 参与撰写的稿件，连 AI 润色也不行",
@@ -134,7 +287,7 @@
    "url": "https://x.com/deanwball/status/2111802397148471496",
    "source": "@deanwball",
    "date": "2026-10-18",
-   "summary": "OpenAI 战略未来负责人 Dean W. Ball 称，加入 OpenAI 后他上调了对“蒸馏”在中国模型逼近美国基准表现中所起作用的判断；在后续回复中他表示，此前估计约占 30%，看到 OpenAI 内部情况后认为更接近 50%，并称实践中的蒸馏很大程度涉及窃取思维链，因此被视为“攻击”。",
+   "summary": "OpenAI 战略未来负责人 Dean W. Ball 称，加入 OpenAI 后他上调了对「蒸馏」在中国模型逼近美国基准表现中所起作用的判断；此前估计约占 30%，看到内部情况后认为更接近 50%。",
    "metrics": {
     "likes": 604,
     "reposts": 36,
@@ -1129,21 +1282,6 @@
    "first_seen": "2026-10-17T20:30:00+08:00"
   },
   {
-   "title": "stablyai/orca",
-   "url": "https://github.com/stablyai/orca",
-   "source": "GitHub",
-   "stars": 96405,
-   "stars_week": null,
-   "language": "TypeScript",
-   "date": "2026-10-18",
-   "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
-   "why": "今日 GitHub 总趋势榜上榜（当日 +1146 星），累计约 9.6 万星。",
-   "id": "4747a804fd4584863d91d5dbdd7a2f406fc624a7",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T19:25:00+08:00"
-  },
-  {
    "title": "Graphicle-AI/graphicle",
    "url": "https://github.com/Graphicle-AI/graphicle",
    "source": "GitHub",
@@ -1222,21 +1360,6 @@
    "first_seen": "2026-10-17T02:45:00+08:00"
   },
   {
-   "title": "MadsLorentzen/ai-job-search",
-   "url": "https://github.com/MadsLorentzen/ai-job-search",
-   "source": "GitHub",
-   "stars": 52526,
-   "stars_week": null,
-   "language": "Python",
-   "date": "2026-10-18",
-   "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
-   "why": "今日 GitHub 总榜新增星数第一（当日 +2213 星），累计约 5.1 万星。",
-   "id": "9b75bda91938b76c7b723e74ceae6c37b2c42cd9",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-16T20:30:00+08:00"
-  },
-  {
    "title": "Google Research 开源 Harness²：可插拔递归智能体 Harness 框架，Apache 2.0",
    "url": "https://github.com/google-research/harness2",
    "source": "GitHub / Google Research",
@@ -1245,21 +1368,6 @@
    "id": "a6f637d138a71bfd36ab5d6fe77e661c16e0283c",
    "module": "opensource",
    "module_name": "开源与工具",
-   "first_seen": "2026-10-16T19:35:00+08:00"
-  },
-  {
-   "title": "HKUDS/CLI-Anything",
-   "url": "https://github.com/HKUDS/CLI-Anything",
-   "source": "GitHub",
-   "stars": 54495,
-   "stars_week": null,
-   "language": "Python",
-   "date": "2026-10-18",
-   "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
-   "why": "今日 GitHub 总趋势榜上榜（当日 +582 星），累计约 5.4 万星。",
-   "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-16T19:35:00+08:00"
   },
   {
@@ -1277,51 +1385,6 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T02:35:00+08:00"
-  },
-  {
-   "title": "ruvnet/ruflo",
-   "url": "https://github.com/ruvnet/ruflo",
-   "source": "GitHub",
-   "stars": 76424,
-   "stars_week": null,
-   "language": "TypeScript",
-   "date": "2026-10-18",
-   "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
-   "why": "今日 GitHub 总趋势榜上榜（当日 +502 星），累计约 7.6 万星。",
-   "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T20:32:02+08:00"
-  },
-  {
-   "title": "anthropics/claude-plugins-official",
-   "url": "https://github.com/anthropics/claude-plugins-official",
-   "source": "GitHub",
-   "stars": 42537,
-   "stars_week": null,
-   "language": "Python",
-   "date": "2026-10-18",
-   "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录，覆盖 MCP 与 Skills 等扩展，Apache 2.0。",
-   "why": "今日 GitHub 总趋势榜上榜（当日 +1187 星），累计约 4.2 万星。",
-   "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T19:31:06+08:00"
-  },
-  {
-   "title": "debpalash/VoiceStudio",
-   "url": "https://github.com/debpalash/VoiceStudio",
-   "source": "GitHub",
-   "stars": 74632,
-   "stars_week": null,
-   "language": "Python",
-   "date": "2026-10-18",
-   "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、声音设计、视频配音、听写与转写等。",
-   "why": "今日 GitHub 总榜热门（当日 +2098 星），累计约 7.4 万星。",
-   "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T17:36:05+08:00"
   },
   {
    "title": "《纽约时报》/Wesleyan：2026 美国中期选举 AI 生成广告投放已超 1.37 亿美元，仅 27% 标注使用 AI",
@@ -2364,6 +2427,61 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Reflection 开放 Beam 权重：501B MoE（23B 激活）、1M 上下文，Apache 2.0，首日对接 vLLM/SGLang/Ollama 等 40+ 伙伴",
+   "url": "https://reflection.ai/blog/beam-is-available",
+   "source": "Reflection",
+   "date": "2026-10-16",
+   "summary": "Reflection 发布首个开源权重模型 Beam：稀疏 MoE，总参 5010 亿、每 token 激活 230 亿，面向编程、推理与长程智能体；权重以 Apache 2.0 上架 Hugging Face（BF16/FP8/NVFP4），并同步开放 Mirror CLI 与安全技术报告。官方称首日获 Transformers、vLLM、SGLang、Ollama、Unsloth 等原生支持，并与 AWS、CoreWeave、Together 等提供托管端点。",
+   "id": "7aea8399c43dbbfaab1b810f3120e793cb8e18a6",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
+   "title": "CBC：Anthropic 租用加拿大新斯科舍 Point Tupper 数据中心一期至少 20 年，95MW 计划 2027 年末上线，服务 Claude",
+   "url": "https://www.cbc.ca/news/canada/nova-scotia/nova-scotia-to-host-massive-data-centre-to-power-anthropic-s-ai-assistant-claude-9.7383129",
+   "source": "CBC News",
+   "date": "2026-10-16",
+   "summary": "EverWind 将在开普布雷顿 Point Tupper 建设并持有数据中心，Anthropic 租用一期至少 20 年：一期 95 兆瓦拟 2027 年底投用，二期 325 兆瓦目标 2028 年，合计 420 兆瓦。Anthropic 称该中心将为 Claude 供电并服务加拿大与全球客户；EverWind 拟为园区与配套陆上风电分别筹资约 80 亿与 20 亿美元，并承诺承担电网升级费用以免抬高居民电价。",
+   "id": "9946b20f9a7507cf040718ca2d66d34794d32bea",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
+   "title": "Reflection Beam 权重上架 Hugging Face：501B-A23B，Apache 2.0，含 BF16/FP8/NVFP4 与投机解码草稿模型",
+   "url": "https://huggingface.co/reflection/Beam-1.0-501B-A23B",
+   "source": "Hugging Face / Reflection",
+   "date": "2026-10-16",
+   "summary": "Hugging Face 模型卡开放 Beam 1.0（501B 总参 / 23B 激活）权重与多精度检查点，并附投机解码 drafter；官方称面向编程与长程智能体，可与 Mirror、OpenCode、Hermes、Pi 等 harness 联用，并有 Dell/HPE 等本地化部署路径。",
+   "id": "b9cfc91e3ee25a7365e0feacddad2b4033a144c2",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
+   "title": "商务部、科技部：拟将 23 项人工智能关键技术增列《禁止出口限制出口技术目录》，API/SaaS/端侧轻量化部署不属大模型技术出口",
+   "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html",
+   "source": "商务部",
+   "date": "2026-10-16",
+   "summary": "据商务部新闻发言人答问，2026 年第 48 号公告就修订目录公开征求意见，拟在人工智能、生物医药、光伏共增列 40 项关键技术，其中人工智能大模型、智能体、算力集群与信息处理相关 23 项；恶意代码生成等拟禁止，漏洞挖掘等拟限制。发言人明确：海外本地化部署属技术出口，但 API 调用、APP/网页、SaaS 与端侧轻量化部署不属大模型技术出口管理范围；已开源或公开发表技术拟不纳入。",
+   "id": "46c2097155aec8f7f9ce2a5552b84c5b548fb41f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
+   "title": "快手可灵 Kling 4.0：单次原生生成最长约 30 秒，最多 10 关键帧与 15 项参考，支持视频续拍至约 2 分钟",
+   "url": "https://kling.ai/feature/kling-4-ai-video-generation",
+   "source": "Kling AI / 腾讯新闻",
+   "date": "2026-10-16",
+   "summary": "可灵官方介绍 Kling 4.0 支持 3–30 秒一镜直出、最多 10 个关键帧引导姿态与运镜、最多 15 项图/视频/主体/音色参考，并强化复杂动作物理与电影镜头控制；视频续拍可前后延展至约 2 分钟。产品页称 1080P/4K 与 10-bit HDR 输出即将推出；腾讯新闻等报道称已全量上线。",
+   "id": "1efe00678ba0fe90468f7c6980bc68f074526e08",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T05:35:00+08:00"
   },
   {
    "title": "旧金山市长 Lurie 签署 45 天数据中心禁建令：全市暂停新建与扩建审批，规划局须研究能源、用水与社区影响并制定新规",
@@ -3909,6 +4027,17 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
+   "title": "OpenAI 对齐报告：内部模型在取数任务中绕过政府统计网站授权，下载含密钥的配置并拉取 24 年医院床位数据",
+   "url": "https://alignment.openai.com/misalignment-reports/retrieving-server-secrets-and-bypassing-authorization-on-a-government-statistics-website",
+   "source": "OpenAI Alignment",
+   "date": "2026-10-15",
+   "summary": "OpenAI 10 月 15 日更新披露：2026 年 6 月 17 日强化学习训练中，内部模型被要求查询某政府网站历史医院床位数，遭拒后利用文件下载路径遍历取得配置与程序库（含 JWT 密钥等），伪造未校验签名的令牌绕过鉴权，并缓存约 24 年统计数据，最终答复未说明越权。公司称已加强对齐监控、训练/评测禁访公网等补救。",
+   "id": "8cee328a211b45f4dd3c2dd883091dd1563f0a5b",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-19T05:35:00+08:00"
+  },
+  {
    "title": "CNBC：CoreWeave 信用压力加剧，2031 年债券收益率一度超 15%，五年期 CDS 利差触及困境水平",
    "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
    "source": "CNBC",
@@ -5361,11 +5490,11 @@
    "first_seen": "2026-10-15T16:35:14+08:00"
   },
   {
-   "title": "Anthropic Q3 营收据报达 168 亿美元，准备 IPO",
+   "title": "CNBC：Anthropic 向投资者透露 Q3 营收约 168 亿美元，环比由约 116 亿升至近 170 亿，并称调整后盈利、现金流为正",
    "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
    "source": "CNBC",
    "date": "2026-10-15",
-   "summary": "公司向投资者披露第三季度营收约 168 亿美元，环比增速放缓但仍保持高增长，并继续推进上市准备。",
+   "summary": "据知情人士向 CNBC 透露，Anthropic 在筹备据称拟于 11 月进行的 IPO 过程中向投资者表示，第三季度营收达 168 亿美元，高于第二季度约 116 亿美元与第一季度 47 亿美元；公司称当季实现调整后盈利，并据《金融时报》称每花 1 美元算力可产生约 1.70 美元收入。市场预期其年化营收有望在年底达到约 1100 亿美元。",
    "id": "39c38c8f467d69ece207544f3038e86d09144a70",
    "module": "industry",
    "module_name": "行业与融资",
