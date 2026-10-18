@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T07:45:00+08:00",
+ "updated": "2026-10-19T07:28:00+08:00",
  "count": 539,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "b17f331c6c0bb04dc1274655ea6ddb9b1481a173",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-19T07:45:00+08:00"
+   "first_seen": "2026-10-19T07:28:00+08:00"
   },
   {
    "title": "《科学》刊发 RFdiffusion3：David Baker 团队联合牛津、英伟达实现原子级蛋白质与核酸设计，速度约为上一代 10 倍",
@@ -22,7 +22,7 @@
    "id": "f24da948d90910e722c05a4eb6703cfacb8d9e60",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-19T07:45:00+08:00"
+   "first_seen": "2026-10-19T07:28:00+08:00"
   },
   {
    "title": "@testingcatalog",
@@ -38,7 +38,7 @@
    "id": "87be52290fa397997ad08c2365a19902045b260c",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-19T07:45:00+08:00"
+   "first_seen": "2026-10-19T07:28:00+08:00"
   },
   {
    "title": "@emollick",
@@ -323,7 +323,7 @@
    "id": "18d51bf61ff44c7cf27e5683434c973326af6a37",
    "module": "china",
    "module_name": "国内 AI 动态",
-   "first_seen": "2026-10-19T07:45:00+08:00"
+   "first_seen": "2026-10-19T07:28:00+08:00"
   },
   {
    "title": "Murea Labs 交互视频世界模型 Murea-Pro 登顶 WBench：Full-289 综合 81.1 分，RTX PRO 6000 上 3.6 秒生成 5 秒音视频",
