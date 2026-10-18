@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-18T09:35:00+08:00",
+ "updated": "2026-10-18T10:40:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,20 @@
    "icon": "💰",
    "items": [
     {
+     "title": "奥尔特曼确认 OpenAI 将自研人形机器人：核心是打造机器人“大脑”，预计 2027 年拿出演示样机",
+     "url": "https://www.ithome.com/1/014/433.htm",
+     "source": "IT之家",
+     "date": "2026-10-18",
+     "summary": "OpenAI CEO 萨姆·奥尔特曼在《Sources》播客中被问到是否会亲自制造人形机器人时回答“我们会”，称人形适配为人类设计的世界，但比外形更重要的是驱动机器人的“大脑”。他对《财富》表示预计 2027 年拿出亮眼的演示样机，机器人上街还需数年。OpenAI 招聘页目前挂有 27 个机器人岗位，涵盖运动控制、状态估计、自研机电一体化执行器及量产供应链；短期目标是协助技术工人建设基础设施的通用机器人，长期是个人机器人。"
+    },
+    {
+     "title": "美光研发面向物理 AI 的边缘推理内存 EIM：逻辑芯片上堆叠 LPDDR，预计 2028 年下半年量产",
+     "url": "https://www.ithome.com/1/014/419.htm",
+     "source": "IT之家 / The Elec",
+     "date": "2026-10-18",
+     "summary": "据韩媒 The Elec，美光高管在 10 月 16 日韩国半导体展 SEDEX 2026 上披露正研发边缘推理内存（EIM），架构为在逻辑芯片上垂直堆叠低功耗内存，用于降低 AI 推理延迟、提升带宽，并推进集成至 LPDDR6 方案。美光预计人形机器人终将走向 HBM，未来高性能人形机器人约需 200GB DRAM 与 4TB 存储（当前主流服务机器人约 12GB/256GB）。"
+    },
+    {
      "title": "Anthropic 发布内部就业报告：初级技术岗招聘占比从 27% 降至 9%，员工指挥的智能体工时已达人类的 6 倍",
      "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
      "source": "TechCrunch / Anthropic",
@@ -111,20 +125,6 @@
      "source": "24/7 Wall St. / Investing.com",
      "date": "2026-10-16",
      "summary": "美国银行投资策略师 Sebastian Raedler 在客户报告中指出，超大规模云厂商未来 12 个月资本开支一致预期已从 2025 年初的 3300 亿美元升至约 1 万亿美元，约占美国 GDP 的 3%，高于 1870 年代铁路热（2.2%）与 1990 年代科技热（1.1%）；AI token 均价自夏季以来下跌约 50%，在中国开源模型竞争下变现承压。他写道“激烈竞争下的变现失望正是以往资本周期的失败模式”，多数大型资本周期即便技术兑现也以投资者失望告终。"
-    },
-    {
-     "title": "FT：花旗与美国银行跟进限制第三方 AI 智能体登录客户账户，担忧智能体搬运存款引发流失",
-     "url": "https://www.digitaltoday.co.kr/en/view/115865/major-financial-firms-move-to-block-access-by-personal-ai-agents-citing-deposit-flight-risk",
-     "source": "Digital Today / Financial Times",
-     "date": "2026-10-16",
-     "summary": "据 FT 周五报道，花旗表示不允许第三方 AI 智能体或助手直接登录客户账户、在其数字银行平台上交易；美国银行 CEO 莫伊尼汉称资金离开账户须由人批准，在明确 AI 批准付款的责任归属前将限制智能体访问存款。此前摩根大通已屏蔽 Meta Muse 等外部智能体。Apollo 首席经济学家 Torsten Slok 警告，AI 助手可能把约 0.1% 利率的活期存款自动转向 3.3%–5% 的账户。"
-    },
-    {
-     "title": "路透社：Anthropic 签下首个加拿大数据中心租约，EverWind 新斯科舍省项目投资逾 100 亿加元",
-     "url": "https://www.investing.com/news/stock-market-news/anthropic-signs-lease-for-first-canadian-data-center-4954967",
-     "source": "Reuters",
-     "date": "2026-10-16",
-     "summary": "Anthropic 与 EverWind 签约租用新斯科舍省 Point Tupper 的数据中心容量，为其在加拿大的首个数据中心协议；EverWind 同时公布逾 100 亿加元的数据中心园区与风电投资计划，称是该省史上最大私人投资。Anthropic 去年算力与基础设施支出 73.3 亿美元，较 2024 年增长约三倍。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "上海 AI Lab Intern Lumina U2：首个以全离散多码本视觉 token 统一理解与生成的扩散语言模型",
+     "url": "https://arxiv.org/abs/2610.20818",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-16",
+     "summary": "Intern Lumina U2 在单一主干中用扩散语言模型统一全视觉理解与图像生成：每个视觉位置由多个互补码本的一组离散码表示，在保持与离散文本建模兼容的同时提升视觉表征容量；输入端按位置拼接嵌入，输出端用轻量多码本自回归头依次预测各码，避免连续/混合范式下文本与图像异构空间的优化冲突。"
+    },
+    {
+     "title": "清华 NLP AutoSFT：多智能体自动做 SFT 数据研究，执行与分析分离，IFEval 最佳成绩 +6.5",
+     "url": "https://arxiv.org/abs/2610.22194",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-16",
+     "summary": "研究发现单个智能体自动化后训练时往往只会调整数据类别比例，且上下文被执行输出塞满。AutoSFT 设计了覆盖调比例、剪枝、修复、替换与合成的数据动作空间，由元智能体分离执行与分析、从多角度收集提案并调用合成子智能体；在固定模型、训练器与预算下，执行器使上下文丢失减半，分析子智能体将最佳 IFEval 提升 6.5 分，合成再带来额外提升。"
+    },
     {
      "title": "Google Research、MIT 与哈佛研究：AI 智能体在工作报告中惯于隐瞒自身错误，一句“请诚实”可大幅改善",
      "url": "https://the-decoder.com/ai-models-hide-mistakes-in-their-own-work-reports-but-one-sentence-in-your-prompt-can-help/",
@@ -146,13 +160,6 @@
      "source": "arXiv",
      "date": "2026-10-16",
      "summary": "新加坡国立大学、中科大与阿里通义等提出转向智能体：快路径低成本判断是否干预，慢路径生成纠偏动作，并用成对排序损失与 GRPO 联合训练。在信息检索类任务上，相对无干预可提升约 6.7 分，并迁移到未见执行器与多智能体场景。"
-    },
-    {
-     "title": "Anthropic：Claude Mythos 5 自主设计量子电路，8 项任务中多项优于已发表最佳方案",
-     "url": "https://www.anthropic.com/research/designing-efficient-quantum-circuits",
-     "source": "Anthropic",
-     "date": "2026-10-16",
-     "summary": "Anthropic STEM Fellows 中，Claude Mythos 5 与自动评估器闭环约 53 小时，在八项量子电路任务上提出新设计，多项同时降低 Toffoli 门与量子比特数；合作方含哈佛与 QuEra，论文已挂 arXiv。"
     },
     {
      "title": "JevAgentHarness：决策模型与 LLM 共享控制，开源 4B 决策模型可显著降本加速",
@@ -181,13 +188,6 @@
      "source": "arXiv / 机器之心",
      "date": "2026-10-16",
      "summary": "普林斯顿、UT Austin、多伦多大学、NVIDIA 与智元等提出 WorldOracle：给定真实操作的初始画面与动作序列，让世界模型生成预测视频再与真实执行对照评分，含抓空、掉落等失败案例，覆盖智元 G2、YAM 与第一视角人手。七个模型的机械臂得分普遍高于物体得分（如 IRASim 78.8 vs 29.1），完整长序列中 DreamDojo、Cosmos 3 得分接近减半；平台已于 10 月 16 日向开发者开放。"
-    },
-    {
-     "title": "Waypoint-OPD：用 RL 中途检查点“门控”策略偏移蒸馏，六组数学/代码设置均列第一",
-     "url": "https://arxiv.org/abs/2610.21601",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-16",
-     "summary": "论文提出 Waypoint-guided On-Policy Distillation：借助同一 RL 训练中的中间教师检查点，比较早期与后期策略偏移方向，方向相反时抑制终点偏移信号，仅需多一次冻结教师打分。以 RL 训练的 Qwen3-4B 为教师、Qwen3-8B/14B/30B-A3B 为学生，在数学与代码推理六组设置中均取得最高领域均分；为 HF 每日论文当日最高票。"
     }
    ]
   },
@@ -323,6 +323,13 @@
    "icon": "🇨🇳",
    "items": [
     {
+     "title": "我国首个全国产十万卡 AI 超集群真机在全国高性能计算学术大会亮相：曙光 8000 走超算与智算原生融合路线",
+     "url": "https://www.ithome.com/1/014/456.htm",
+     "source": "IT之家 / 央视新闻",
+     "date": "2026-10-18",
+     "summary": "据央视新闻，在深圳举行的 2026 全国高性能计算学术大会上，今年建成的我国首个全国产十万卡 AI 超集群真机亮相，并将发布十大应用成果。曙光 8000 在同一底座上兼顾最高精度科学计算与大模型训练推理；该集群 8 月官宣投用，目前支持新材料、创新药、人工智能等 26 个领域 300 多种计算任务。"
+    },
+    {
      "title": "Manifold AI 流形空间推出 WorldScape R²SI 机器人递归自进化框架，登顶 RoboDojo 总榜，超过 GPT-6 Astra 与英伟达 GR00T-N1.7",
      "url": "https://feng.ifeng.com/c/8xIuPhHNWQl",
      "source": "机器之心（凤凰网转载）",
@@ -370,13 +377,6 @@
      "source": "量子位",
      "date": "2026-10-17",
      "summary": "量子位报道，PilotDeck 2.0 主打多项目隔离、白盒可编辑长期记忆、后台执行与智能模型路由，通过“强模型做决策、小模型干杂活”的调度，复杂长任务成本可降低近六分之五；使用 Qwen3.6-35B-A3B 时 Workbuddy Bench 得分 79.1，高于 Claude Code 的 77.3（团队自测）。"
-    },
-    {
-     "title": "DeepSeek 上线独立 Search / Fetch API：面向智能体与 RAG，每千次成功请求 5 元",
-     "url": "https://pandaily.com/deepseek-api-search-fetch-endpoints-5-yuan-per-1000-requests-5-qps-agents-rag",
-     "source": "Pandaily",
-     "date": "2026-10-17",
-     "summary": "据 DeepSeek 中文 API 文档，Search 接口返回结构化网页结果（单次 1–50 条，支持 site:/lang:/after: 等运算符），Fetch 接口将单个网页转为 Markdown；均按成功请求计费、每千次 5 元，失败/空结果/超时不收费，账号级各 5 QPS。Search API 上线后两周内，经 Claude Code 与 Codex 触发的搜索暂不收费。"
     }
    ]
   },
@@ -389,7 +389,7 @@
      "title": "google-research/harness2",
      "url": "https://github.com/google-research/harness2",
      "source": "GitHub",
-     "stars": 1308,
+     "stars": 1549,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -400,7 +400,7 @@
      "title": "anujasid/blender-ai-mcp-addon",
      "url": "https://github.com/anujasid/blender-ai-mcp-addon",
      "source": "GitHub",
-     "stars": 608,
+     "stars": 630,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -411,7 +411,7 @@
      "title": "Tencent-Hunyuan/Hy-Memory",
      "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
      "source": "GitHub",
-     "stars": 560,
+     "stars": 588,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -422,7 +422,7 @@
      "title": "NVlabs/ASPIRE",
      "url": "https://github.com/NVlabs/ASPIRE",
      "source": "GitHub",
-     "stars": 460,
+     "stars": 471,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -433,7 +433,7 @@
      "title": "OpenMOSS/MOSS-Image",
      "url": "https://github.com/OpenMOSS/MOSS-Image",
      "source": "GitHub",
-     "stars": 434,
+     "stars": 456,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -444,7 +444,7 @@
      "title": "juliobsz/skills",
      "url": "https://github.com/juliobsz/skills",
      "source": "GitHub",
-     "stars": 384,
+     "stars": 385,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-18",
@@ -455,7 +455,7 @@
      "title": "NB-Corp/gpt-with-taste",
      "url": "https://github.com/NB-Corp/gpt-with-taste",
      "source": "GitHub",
-     "stars": 351,
+     "stars": 352,
      "stars_week": null,
      "language": "JavaScript",
      "date": "2026-10-18",
@@ -463,15 +463,15 @@
      "why": "约 351 星，本周品味/指令类热门新仓库。"
     },
     {
-     "title": "Graphicle-AI/graphicle",
-     "url": "https://github.com/Graphicle-AI/graphicle",
+     "title": "mistralai/timestral",
+     "url": "https://github.com/mistralai/timestral",
      "source": "GitHub",
-     "stars": 259,
+     "stars": 276,
      "stars_week": null,
-     "language": "Rust",
+     "language": "Python",
      "date": "2026-10-18",
-     "summary": "面向编程智能体的代码图与记忆，单二进制 Rust 实现，适配 Claude Code 等。",
-     "why": "10 月 14 日创建，约 259 星，代码图记忆类新项目。"
+     "summary": "Mistral 时序基础模型 Timestral 官方推理库：5M/28M/123M/209M 四种规模，支持多变量概率预测与过去/已知未来协变量，最长 32768 步上下文，CPU 即可推理；代码 Apache 2.0。",
+     "why": "10 月 15 日创建，约 276 星；Timestral-209M 发布时在 GIFT-Eval、TIME、fev-bench 预训练零样本榜均列第一。"
     }
    ]
   },
@@ -480,6 +480,18 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@elonmusk",
+     "url": "https://x.com/elonmusk/status/2111612315204272233",
+     "source": "@elonmusk",
+     "date": "2026-10-18",
+     "summary": "马斯克转引用户让 Grok Bot“自己想办法挣钱养活自己”的截图，称“确实有效，Grok Bot 能为自己买单”；同日还称团队每天对 Grok Bot 做约 20 项改进。",
+     "metrics": {
+      "likes": 4987,
+      "reposts": 530,
+      "views": 801567
+     }
+    },
     {
      "title": "@deepseek_ai",
      "url": "https://x.com/deepseek_ai/status/2111375640717033777",
@@ -490,18 +502,6 @@
       "likes": 29766,
       "reposts": 3319,
       "views": 4378131
-     }
-    },
-    {
-     "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2111152183240511640",
-     "source": "@AnthropicAI",
-     "date": "2026-10-18",
-     "summary": "Anthropic：STEM Fellows 新成果——Claude Mythos 5 按自然语言说明设计量子电路，部分任务相对已发表最佳方案提升一个数量级量级。",
-     "metrics": {
-      "likes": 5092,
-      "reposts": 561,
-      "views": 736288
      }
     },
     {
