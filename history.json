@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-18T21:30:00+08:00",
- "count": 503,
+ "updated": "2026-10-18T22:35:00+08:00",
+ "count": 505,
  "items": [
+  {
+   "title": "英伟达为 vLLM 上游贡献 Kimi K3 解码优化：2.8 万亿参数模型在 GB300 NVL72 上达 423 tok/s/user，同硬件提速 1.68 倍",
+   "url": "https://www.ithome.com/1/014/595.htm",
+   "source": "IT之家 / SemiAnalysis",
+   "date": "2026-10-18",
+   "summary": "SemiAnalysis 称，英伟达 CentML 工程师用 Cute DSL 编写解码专用内核，通过大规模 Megakernel 融合（约 1.2 万行代码）把 Kimi K3 的单用户推理速度提升到 423 tok/s，相比同一 GB300 NVL72 硬件提升 1.68 倍；英伟达还在为 vLLM 优化 DeepSeek V4.1 等模型。",
+   "id": "59ceb1a2a28af323e43d889fd9798c54ed5ba27b",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-18T22:35:00+08:00"
+  },
   {
    "title": "DeepSeek：Search / Fetch API 按次计费细则公布，每千次成功请求 5 元，11 月 1 日起正式收费",
    "url": "https://www.ithome.com/1/014/587.htm",
@@ -2123,6 +2134,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "旧金山市长 Lurie 签署 45 天数据中心禁建令：全市暂停新建与扩建审批，规划局须研究能源、用水与社区影响并制定新规",
+   "url": "https://sfstandard.com/2026/10/16/mayor-lurie-data-center-moratorium/",
+   "source": "The San Francisco Standard",
+   "date": "2026-10-16",
+   "summary": "该紧急条例由市议员 Shamann Walton 提出，10 月 6 日市议会一致通过，10 月 16 日经市长签署生效。45 天内全市暂停数据中心新建和扩容审批，规划局需研究其对电价、用水、空气和社区的影响，并给出数据中心的正式定义与长期管控规则；普通附属机房与不增容的维护不受影响。",
+   "id": "9c7edbf229b1ad9456d93a70a3715e801377db95",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T22:35:00+08:00"
   },
   {
    "title": "Anthropic 签署加拿大首个数据中心长期租约：新斯科舍 Point Tupper 一期 95MW，服务 Claude，计划 2027 年末上线",
