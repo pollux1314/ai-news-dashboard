@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-18T13:40:00+08:00",
- "count": 457,
+ "updated": "2026-10-18T14:25:00+08:00",
+ "count": 458,
  "items": [
+  {
+   "title": "AWS CFO：AI 基建繁荣可持续，AI 服务器投资回报周期不到三年，在手订单近 5000 亿美元",
+   "url": "https://www.ithome.com/1/014/488.htm",
+   "source": "IT之家 / Axios",
+   "date": "2026-10-18",
+   "summary": "据 Axios 报道（经 IT之家转述），亚马逊云科技首席财务官 John Felton 表示 AI 基础设施与服务支出的繁荣是可持续的：AWS 的 AI 服务器投资回报周期不到三年，截至第二季度在手订单储备近 5000 亿美元，覆盖行业巨头、头部 AI 实验室与中小企业。AWS 第二季度营收 422 亿美元、同比增长 36.7%，AI 业务年化营收运行率已突破 250 亿美元。他认为应把 AI 视为生产力工具而非单纯降本工具。",
+   "id": "28ace79743d4abc073a56cd9153d19ac184a1513",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T14:25:00+08:00"
+  },
   {
    "title": "MIT 推出晶体材料视觉-语言模型：融合 3D 原子结构与自然语言描述，可按性质检索候选材料",
    "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
