@@ -1,7 +1,65 @@
 {
- "updated": "2026-10-18T17:30:00+08:00",
- "count": 475,
+ "updated": "2026-10-18T18:30:00+08:00",
+ "count": 482,
  "items": [
+  {
+   "title": "高通中国区董事长孟樸：AI 走向云边协同，智能体推动从“以应用为中心”迈向“以智能体为中心”；安蒙称已有 AI 企业要求 2028 年手机本地跑 100B 模型",
+   "url": "https://www.ithome.com/1/014/522.htm",
+   "source": "IT之家",
+   "date": "2026-10-18",
+   "summary": "据 IT之家援引新浪科技，孟樸在 2026 东北亚（沈阳）人才交流大会暨人工智能赋能产业发展大会上表示，终端侧 AI 在实时响应、可靠性和个性化方面有独特优势，大量 AI 任务正扩展到手机、PC、汽车、机器人和工业设备，智能体 AI 进一步加速这一趋势。报道同时提及高通 CEO 安蒙此前称已有 AI 企业要求高通在 2028 年推出可本地运行 100B 参数模型的手机平台，并认为智能体将推动下一轮换机“超级周期”。",
+   "id": "4e55c7d461ba1e346b17461e0c554abf087f5841",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-18T18:30:00+08:00"
+  },
+  {
+   "title": "ScrapeCreators/social-media-research-skills",
+   "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+   "source": "GitHub",
+   "stars": 4071,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "面向 AI 智能体的社媒研究技能包：爆款帖挖掘、评论分析、竞品拆解、广告库与趋势追踪，覆盖 TikTok、Instagram、YouTube、Reddit、X、LinkedIn 等，可用于 Claude Code、Cursor、Codex、Gemini CLI，MIT 许可。",
+   "why": "今日 GitHub Python 趋势榜上榜（当日 +103 星），累计约 4100 星。",
+   "id": "1230527240befd9b66ad905ee5acba7938d7df85",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T18:30:00+08:00"
+  },
+  {
+   "title": "@TimSweeneyEpic",
+   "url": "https://x.com/TimSweeneyEpic/status/2111633221725122769",
+   "source": "@TimSweeneyEpic",
+   "date": "2026-10-18",
+   "summary": "Epic CEO Tim Sweeney 长文：写 Unreal Engine 1 时约 70% 时间只是敲代码和重构，交给 AI 理所当然；更意外的是 AI 像“即时版 Carmack”能巧妙解决硬核技术问题、并直接理解和操作复杂 3D 场景，重要的是最终产品。",
+   "metrics": {
+    "likes": 10916,
+    "reposts": 968,
+    "views": 753205
+   },
+   "id": "89e9b24e583939f1171e8d66ac3d529b04dee85a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T18:30:00+08:00"
+  },
+  {
+   "title": "@odysseyml",
+   "url": "https://x.com/odysseyml/status/2111589148146749616",
+   "source": "@odysseyml",
+   "date": "2026-10-18",
+   "summary": "世界模型公司 Odyssey：把果蝇大脑模型放进其前沿世界模型 Odyssey-3，让这只“小家伙”在完全由模型想象生成的模拟世界中自主飞行（附 30 秒视频），引发广泛讨论。",
+   "metrics": {
+    "likes": 9485,
+    "reposts": 944,
+    "views": 1793723
+   },
+   "id": "3f6016a5fcd910e8367e29828c5fe0c82b4ebe55",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T18:30:00+08:00"
+  },
   {
    "title": "FT：Anthropic 与律所磋商 AI 智能体“谈判规范”——代用户砍价、处理纠纷、谈薪资时如何兼顾公平",
    "url": "https://www.ithome.com/1/014/519.htm",
@@ -720,6 +778,21 @@
    "first_seen": "2026-10-17T02:45:00+08:00"
   },
   {
+   "title": "MadsLorentzen/ai-job-search",
+   "url": "https://github.com/MadsLorentzen/ai-job-search",
+   "source": "GitHub",
+   "stars": 51250,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
+   "why": "今日 GitHub 总榜新增星数第一（当日 +2213 星），累计约 5.1 万星。",
+   "id": "9b75bda91938b76c7b723e74ceae6c37b2c42cd9",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-16T20:30:00+08:00"
+  },
+  {
    "title": "google-research/harness2",
    "url": "https://github.com/google-research/harness2",
    "source": "GitHub",
@@ -749,6 +822,32 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T02:35:00+08:00"
+  },
+  {
+   "title": "debpalash/VoiceStudio",
+   "url": "https://github.com/debpalash/VoiceStudio",
+   "source": "GitHub",
+   "stars": 74082,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、声音设计、视频配音、听写与转写等。",
+   "why": "今日 GitHub 总榜热门（当日 +2098 星），累计约 7.4 万星。",
+   "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "G30 曼谷研讨会：英国央行行长贝利等呼吁加强 AI 模型发布前后测试、支付系统内建反欺诈，称“模型武装了进攻方，也得武装防守方”",
+   "url": "https://www.nationthailand.com/business/banking-finance/40072426",
+   "source": "The Nation Thailand",
+   "date": "2026-10-17",
+   "summary": "据 The Nation 报道，10 月 17 日在 IMF/世行年会期间举行的 G30 第 41 届国际银行研讨会上，英国央行行长 Andrew Bailey、IMF 总裁格奥尔基耶娃、韩国央行行长申铉松与尼日利亚央行行长 Cardoso 一致认为 AI 正重塑全球金融、设立护栏的窗口正迅速关闭：Bailey 主张在商用发布前后都执行更强的模型测试标准，并称开放权重模型比 Anthropic Mythos 等前沿系统更难评估；申铉松强调资本要求、杠杆限制等传统工具；格奥尔基耶娃认为成立全球网络安全组织太慢，政府应要求开发者完全透明。",
+   "id": "5df64e50e28c17afe8855f25ef4a0c0ee990bd9c",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T18:30:00+08:00"
   },
   {
    "title": "Scientific American：多组数学家称 OpenAI 的 Navier-Stokes 证明与其声称借鉴的方法并不相同，万实例智能体群的贡献无人说清",
@@ -1692,21 +1791,6 @@
    "first_seen": "2026-10-17T04:30:00+08:00"
   },
   {
-   "title": "MadsLorentzen/ai-job-search",
-   "url": "https://github.com/MadsLorentzen/ai-job-search",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "Python",
-   "summary": "本地运行的 AI 求职框架（Claude Code）：评估岗位、定制简历、写求职信与面试准备。",
-   "date": "2026-10-17",
-   "stars": 48730,
-   "why": "今日日榜热门，今日新增约 898 星，总星约 4.8 万。",
-   "id": "9b75bda91938b76c7b723e74ceae6c37b2c42cd9",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-16T20:30:00+08:00"
-  },
-  {
    "title": "HKUDS/CLI-Anything",
    "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "GitHub",
@@ -1812,21 +1896,6 @@
    "first_seen": "2026-10-15T18:28:14+08:00"
   },
   {
-   "title": "debpalash/VoiceStudio",
-   "url": "https://github.com/debpalash/VoiceStudio",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "Python",
-   "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、设计、配音与听写等。",
-   "date": "2026-10-17",
-   "stars": 71522,
-   "why": "今日日榜热门，今日新增约 2301 星，总星约 7.1 万。",
-   "id": "1c9d47a9794512b728120064b4e1ef5b112970d2",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T17:36:05+08:00"
-  },
-  {
    "title": "mksglu/context-mode",
    "url": "https://github.com/mksglu/context-mode",
    "source": "GitHub",
@@ -1840,6 +1909,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Cloudflare 推出 Verified bots 持续问责机制：按是否遵守 robots.txt、收到 429 后是否降速给认证爬虫打“信任区间”，后续将在 Radar 公开",
+   "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+   "source": "Cloudflare Blog",
+   "date": "2026-10-16",
+   "summary": "Cloudflare 10 月 16 日博客称，成为 Verified Bot 后并非一劳永逸：其新系统持续衡量认证爬虫是否尊重站点偏好，首批信号包括是否遵守 robots.txt 禁止路径、收到 HTTP 429 后是否放慢或暂停，基于长期重复行为而非单次违规，形成可解释的“信任区间”；未来将在 Radar 公开分数并扩展衡量维度。文中提到 2025 年曾因 Perplexity 爬虫绕过封禁而将其移出认证名单。",
+   "id": "90fc70b282736535ad3f810909fab75833063a40",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T18:30:00+08:00"
+  },
+  {
+   "title": "美国 NIST、NSA 与 CISA 联合发布“超级智能”训练与评测事件响应十项自愿实践：限制智能体权限、多层监控、自动关停并向政府报告",
+   "url": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+   "source": "CISA",
+   "date": "2026-10-16",
+   "summary": "NIST 超级智能创新与标准中心（CAISSI）、NSA 超级智能安全中心（SISC）与 CISA 于 10 月 16 日联合发布《Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation》，面向训练和评测高能力 SI 智能体（尤其是部署前、安全防护较弱的非公开系统）的组织，把“SI 控制事件”定义为智能体采取未经指令、违背策略、控制或人类监督的行动；十项实践分为准备、检测、响应、恢复、报告五阶段，涵盖限制信息/系统/网络访问、监控异常行为、保全证据与关停、恢复前验证封控，以及向受影响方和政府报告事件与未遂事件。",
+   "id": "06ca72ec747dbc6e94c394a6b0324d309763196c",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T18:30:00+08:00"
   },
   {
    "title": "RoTA-Bench：交互式 3D-2D 投影对齐评测空间推理，GPT-5.6-Sol 仅完成 17%，人类参与者全部完成",

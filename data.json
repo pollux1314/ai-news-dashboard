@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-18T17:30:00+08:00",
+  "updated": "2026-10-18T18:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -260,11 +260,25 @@
       "icon": "⚖️",
       "items": [
         {
-          "title": "The Verge：Instagram 负责人 Mosseri 称平台正“研究如何应对”AI 仿冒内容，禁止 AI 内容“不现实”",
-          "url": "https://www.theverge.com/tech/1013411/adam-mosseri-says-instagram-is-working-out-what-to-do-about-ai-fakes",
-          "source": "The Verge",
+          "title": "Cloudflare 推出 Verified bots 持续问责机制：按是否遵守 robots.txt、收到 429 后是否降速给认证爬虫打“信任区间”，后续将在 Radar 公开",
+          "url": "https://blog.cloudflare.com/verified-bots-accountability/",
+          "source": "Cloudflare Blog",
+          "date": "2026-10-16",
+          "summary": "Cloudflare 10 月 16 日博客称，成为 Verified Bot 后并非一劳永逸：其新系统持续衡量认证爬虫是否尊重站点偏好，首批信号包括是否遵守 robots.txt 禁止路径、收到 HTTP 429 后是否放慢或暂停，基于长期重复行为而非单次违规，形成可解释的“信任区间”；未来将在 Radar 公开分数并扩展衡量维度。文中提到 2025 年曾因 Perplexity 爬虫绕过封禁而将其移出认证名单。"
+        },
+        {
+          "title": "美国 NIST、NSA 与 CISA 联合发布“超级智能”训练与评测事件响应十项自愿实践：限制智能体权限、多层监控、自动关停并向政府报告",
+          "url": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+          "source": "CISA",
+          "date": "2026-10-16",
+          "summary": "NIST 超级智能创新与标准中心（CAISSI）、NSA 超级智能安全中心（SISC）与 CISA 于 10 月 16 日联合发布《Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation》，面向训练和评测高能力 SI 智能体（尤其是部署前、安全防护较弱的非公开系统）的组织，把“SI 控制事件”定义为智能体采取未经指令、违背策略、控制或人类监督的行动；十项实践分为准备、检测、响应、恢复、报告五阶段，涵盖限制信息/系统/网络访问、监控异常行为、保全证据与关停、恢复前验证封控，以及向受影响方和政府报告事件与未遂事件。"
+        },
+        {
+          "title": "G30 曼谷研讨会：英国央行行长贝利等呼吁加强 AI 模型发布前后测试、支付系统内建反欺诈，称“模型武装了进攻方，也得武装防守方”",
+          "url": "https://www.nationthailand.com/business/banking-finance/40072426",
+          "source": "The Nation Thailand",
           "date": "2026-10-17",
-          "summary": "除名人深度伪造外，Instagram 上还出现 AI 账号盗用喜剧演员段子、AI 版画家创作过程视频获数百万播放等现象。Instagram 负责人 Adam Mosseri 表示全面禁止 AI 内容并不现实，但对于段子这类不受版权保护的内容被 AI 搬运，平台尚不确定如何处理。"
+          "summary": "据 The Nation 报道，10 月 17 日在 IMF/世行年会期间举行的 G30 第 41 届国际银行研讨会上，英国央行行长 Andrew Bailey、IMF 总裁格奥尔基耶娃、韩国央行行长申铉松与尼日利亚央行行长 Cardoso 一致认为 AI 正重塑全球金融、设立护栏的窗口正迅速关闭：Bailey 主张在商用发布前后都执行更强的模型测试标准，并称开放权重模型比 Anthropic Mythos 等前沿系统更难评估；申铉松强调资本要求、杠杆限制等传统工具；格奥尔基耶娃认为成立全球网络安全组织太慢，政府应要求开发者完全透明。"
         },
         {
           "title": "The Verge：Meta 在舆论压力下删除商业条款中可能允许其爬取新闻网站训练 AI 的措辞",
@@ -288,25 +302,11 @@
           "summary": "据路透社报道，IMFC 主席、沙特财长贾丹在曼谷会后发表声明：“先进智能技术”（advanced intelligence technologies）的快速进步正提振投资与贸易、或可提高生产率，但其对经济与金融的不确定影响，叠加主要经济体国债收益率上升，“可能放大宏观金融脆弱性”并加剧分化。此前美国财政部曾推动 IMF 等伙伴在声明中改换“人工智能”的说法；声明同时呼吁加大对受战争外溢与高能源价格冲击国家的支持。"
         },
         {
-          "title": "美联社：朝鲜称试射 AI 目标探测与制导的新型鱼雷系统 Zam-2.0",
-          "url": "https://apnews.com/article/north-korea-torpedo-kim-jong-un-ai-b9856c5697a043f74586719974dad6cc",
-          "source": "AP News",
-          "date": "2026-10-17",
-          "summary": "据美联社援引朝中社报道，朝鲜周六称已于周四成功试射一款名为 Zam-2.0 的“超高速、精确制导”鱼雷系统，该系统使用人工智能进行目标探测与制导；官方未详细说明 AI 的具体作用，AI 武器化与军控议题再度受到关注。"
-        },
-        {
           "title": "苹果更新 App Store 审核规则：明确封禁 AI“一键脱衣”类应用，开发者须主动防范并删除非自愿私密图像",
           "url": "https://www.theverge.com/tech/1013314/apple-app-store-nudify-ai-apps-harassment",
           "source": "The Verge",
           "date": "2026-10-17",
           "summary": "苹果周五公布的规则更新要求开发者“必须主动预防并删除”非自愿的性化图像，未落实足够防护或接到通知后不整改的应用可能被下架；同时明确禁止过审后再加入“脱衣”等功能的“偷梁换柱”行为，并规定协助人口贩卖或剥削儿童的应用将被下架且禁止替代分发。此前苹果因 Grok 生成性化深度伪造图像一事饱受批评。"
-        },
-        {
-          "title": "openDemocracy：亚马逊内部 AI 工具 Atlas 按“工会风险”给仓库打分，英国两座仓库被列为最高风险级",
-          "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
-          "source": "openDemocracy",
-          "date": "2026-10-16",
-          "summary": "加拿大一宗诉讼中公开的内部培训材料显示，亚马逊 AI 预测工具 Atlas 汇集 Reddit 帖子、内部留言板与员工调查回复等“数百个数据点”，给美、加、英仓库打出 100–900 分的组织工会/劳资行动风险分并分五级；16 座仓库被列为“活动迫在眉睫”的 Tier 1，含英国 EMA4 与 BHX4。亚马逊称其仅限站点层面、不追踪个人，且目前未在英国使用。"
         },
         {
           "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "高通中国区董事长孟樸：AI 走向云边协同，智能体推动从“以应用为中心”迈向“以智能体为中心”；安蒙称已有 AI 企业要求 2028 年手机本地跑 100B 模型",
+          "url": "https://www.ithome.com/1/014/522.htm",
+          "source": "IT之家",
+          "date": "2026-10-18",
+          "summary": "据 IT之家援引新浪科技，孟樸在 2026 东北亚（沈阳）人才交流大会暨人工智能赋能产业发展大会上表示，终端侧 AI 在实时响应、可靠性和个性化方面有独特优势，大量 AI 任务正扩展到手机、PC、汽车、机器人和工业设备，智能体 AI 进一步加速这一趋势。报道同时提及高通 CEO 安蒙此前称已有 AI 企业要求高通在 2028 年推出可本地运行 100B 参数模型的手机平台，并认为智能体将推动下一轮换机“超级周期”。"
+        },
         {
           "title": "Tech 星球：AI 玩具市场高速增长但投资大幅降温，产品同质化严重、退货率常年超 50%",
           "url": "https://www.ithome.com/1/014/540.htm",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-17",
           "summary": "微信鸿蒙版已上线小艺语音操作能力，用户唤醒小艺后说出“用微信给 XX 发消息”“给 XX 打微信视频”等指令即可直接执行，发送文字时还可口述具体内容。遇到联系人重名或指令不明确时小艺会追问确认；更新微信鸿蒙版和小艺至最新版本即可使用。"
-        },
-        {
-          "title": "中科院院士鄂维南：AI 将推动“科研平权”，称 AI 原生工业软件一两年内有望对标甚至超越西门子",
-          "url": "https://www.ithome.com/1/014/371.htm",
-          "source": "IT之家 / 凤凰科技",
-          "date": "2026-10-17",
-          "summary": "10 月 17 日光华思想力论坛上，北大讲席教授鄂维南表示 AI 本质是“数学 + 计算机工程”，将大幅降低科研门槛，“未来民科是科研的主力”。他认为可借 AI 构建 AI 原生工业软件体系实现“换道超车”，工业生产线建模“三年、最多五年”可实现；同时警示若顶刊投稿量激增百倍，现行科研体系将难以应对。"
         }
       ]
     },
@@ -385,6 +385,39 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "MadsLorentzen/ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "source": "GitHub",
+          "stars": 51250,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-18",
+          "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
+          "why": "今日 GitHub 总榜新增星数第一（当日 +2213 星），累计约 5.1 万星。"
+        },
+        {
+          "title": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "source": "GitHub",
+          "stars": 74082,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-18",
+          "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、声音设计、视频配音、听写与转写等。",
+          "why": "今日 GitHub 总榜热门（当日 +2098 星），累计约 7.4 万星。"
+        },
+        {
+          "title": "ScrapeCreators/social-media-research-skills",
+          "url": "https://github.com/ScrapeCreators/social-media-research-skills",
+          "source": "GitHub",
+          "stars": 4071,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-18",
+          "summary": "面向 AI 智能体的社媒研究技能包：爆款帖挖掘、评论分析、竞品拆解、广告库与趋势追踪，覆盖 TikTok、Instagram、YouTube、Reddit、X、LinkedIn 等，可用于 Claude Code、Cursor、Codex、Gemini CLI，MIT 许可。",
+          "why": "今日 GitHub Python 趋势榜上榜（当日 +103 星），累计约 4100 星。"
+        },
         {
           "title": "krillinai/OpenCreator",
           "url": "https://github.com/krillinai/OpenCreator",
@@ -439,39 +472,6 @@
           "date": "2026-10-18",
           "summary": "谷歌开源 ARTEMIS：把自然语言指令转成可靠的 Android 自动化流程，端到端执行并记录日志，可接入 Antigravity、Codex、Claude Code 等 AI 编码助手；仓库称在 AndroidWorld 基准成功率 99%+，Apache 2.0。",
           "why": "今日 GitHub Python 趋势榜上榜（当日 +134 星），累计约 1.2 万星。"
-        },
-        {
-          "title": "ranxianglei/billion-context",
-          "url": "https://github.com/ranxianglei/billion-context",
-          "source": "GitHub",
-          "stars": 1809,
-          "stars_week": 888,
-          "language": "TypeScript",
-          "date": "2026-10-18",
-          "summary": "面向编码智能体的上下文压缩插件：主打 100K 小窗口即可工作、约省 5 倍 token，并支持数月级、数十亿 token 的超长单会话。",
-          "why": "GitHub 周榜上榜，本周 +888 星，累计约 1766 星。"
-        },
-        {
-          "title": "google-research/harness2",
-          "url": "https://github.com/google-research/harness2",
-          "source": "GitHub",
-          "stars": 1815,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-18",
-          "summary": "Google Research 开源 Harness²：在固定模型权重下递归改进智能体 harness，面向 harness 工程与智能体基础设施。",
-          "why": "约 1300 星，本周热门的 harness/智能体基础设施仓库。"
-        },
-        {
-          "title": "anujasid/blender-ai-mcp-addon",
-          "url": "https://github.com/anujasid/blender-ai-mcp-addon",
-          "source": "GitHub",
-          "stars": 653,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-18",
-          "summary": "Blender AI 助手插件：内置 MCP 服务器与可视化聊天工作区，提供场景工具，支持多模型与多智能体流程，MIT 许可。",
-          "why": "10 月 15 日创建，约 608 星，本周新建 3D/MCP 类增长靠前。"
         }
       ]
     },
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@TimSweeneyEpic",
+          "url": "https://x.com/TimSweeneyEpic/status/2111633221725122769",
+          "source": "@TimSweeneyEpic",
+          "date": "2026-10-18",
+          "summary": "Epic CEO Tim Sweeney 长文：写 Unreal Engine 1 时约 70% 时间只是敲代码和重构，交给 AI 理所当然；更意外的是 AI 像“即时版 Carmack”能巧妙解决硬核技术问题、并直接理解和操作复杂 3D 场景，重要的是最终产品。",
+          "metrics": {
+            "likes": 10916,
+            "reposts": 968,
+            "views": 753205
+          }
+        },
+        {
+          "title": "@odysseyml",
+          "url": "https://x.com/odysseyml/status/2111589148146749616",
+          "source": "@odysseyml",
+          "date": "2026-10-18",
+          "summary": "世界模型公司 Odyssey：把果蝇大脑模型放进其前沿世界模型 Odyssey-3，让这只“小家伙”在完全由模型想象生成的模拟世界中自主飞行（附 30 秒视频），引发广泛讨论。",
+          "metrics": {
+            "likes": 9485,
+            "reposts": 944,
+            "views": 1793723
+          }
+        },
         {
           "title": "@testingcatalog",
           "url": "https://x.com/testingcatalog/status/2111724606927028578",
@@ -550,30 +574,6 @@
             "likes": 29766,
             "reposts": 3319,
             "views": 4378131
-          }
-        },
-        {
-          "title": "@OpenAI",
-          "url": "https://x.com/OpenAI/status/2111192259073094035",
-          "source": "@OpenAI",
-          "date": "2026-10-18",
-          "summary": "OpenAI：ChatGPT 中的 GPT-6 Astra Pro 升级——响应更快、插件/工具更强，并支持多个智能体并行处理任务不同部分。",
-          "metrics": {
-            "likes": 11370,
-            "reposts": 605,
-            "views": 1993963
-          }
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2111529951555891386",
-          "source": "@TechCrunch",
-          "date": "2026-10-18",
-          "summary": "TechCrunch：Replit CEO 澄清 OpenAI 将取代 Anthropic 成为默认模型提供方，Claude 仍可选用。",
-          "metrics": {
-            "likes": 28,
-            "reposts": 4,
-            "views": 20708
           }
         }
       ]
