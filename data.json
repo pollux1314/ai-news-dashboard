@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-18T12:40:00+08:00",
+  "updated": "2026-10-18T13:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "MIT 推出晶体材料视觉-语言模型：融合 3D 原子结构与自然语言描述，可按性质检索候选材料",
+          "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
+          "source": "MIT News",
+          "date": "2026-10-18",
+          "summary": "MIT 李巨（Ju Li）、Elsa Olivetti 团队在《Nature Communications》发表研究：用对比学习对齐晶体 3D 结构与 AI 合成的结构叙述文本（结合论文与第一性原理数据库），模型可根据自然语言描述的性质检索晶体材料，表现优于仅用论文文本训练的基线；在固态锂电池电解质查询中，其排名靠前的结果包含已被独立认定为有前景的候选材料。"
+        },
+        {
           "title": "上海 AI Lab Intern Lumina U2：首个以全离散多码本视觉 token 统一理解与生成的扩散语言模型",
           "url": "https://arxiv.org/abs/2610.20818",
           "source": "arXiv / Hugging Face Daily Papers",
@@ -160,13 +167,6 @@
           "source": "arXiv",
           "date": "2026-10-16",
           "summary": "新加坡国立大学、中科大与阿里通义等提出转向智能体：快路径低成本判断是否干预，慢路径生成纠偏动作，并用成对排序损失与 GRPO 联合训练。在信息检索类任务上，相对无干预可提升约 6.7 分，并迁移到未见执行器与多智能体场景。"
-        },
-        {
-          "title": "JevAgentHarness：决策模型与 LLM 共享控制，开源 4B 决策模型可显著降本加速",
-          "url": "https://arxiv.org/abs/2610.21412",
-          "source": "arXiv",
-          "date": "2026-10-16",
-          "summary": "UIUC 等提出 AgentDecisionBench 与 JevAgentHarness，让 harness 把大量多选决策委托给决策模型；并开源在智能体自有失误状态下训练的 AgentDecision-4B。报告称在相似分布任务上成本可降约八成、速度最高约 2.5×。"
         },
         {
           "title": "OmniCompass：全模态视频定位与理解基准，评测 50 个多模态大模型，开源模型在音视频联合理解上仍明显落后",
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "阿里 Qwen 开源 BlenderWorld：223 个任务、2651 条评分标准，评测视觉智能体在 Blender 中完成真实 3D 创作",
+          "url": "https://www.ithome.com/1/014/217.htm",
+          "source": "IT之家 / Qwen",
+          "date": "2026-10-17",
+          "summary": "Qwen 团队 10 月 14 日开源 3D 创作智能体基准 BlenderWorld（MIT 许可，GitHub/Hugging Face/ModelScope 同步）：要求交付可编辑的 .blend 工程而非单张渲染图，覆盖产品、建筑、自然环境、角色、动画、科学可视化等 9 大类 22 子类；评测从 8 个视角渲染并结合场景检查，规则符合度与视觉质量各占 50%。项目主页显示 GPT-6-Astra 以 79.9 分居首，但全通过率仅 42.2%。"
+        },
+        {
           "title": "清华 THUNLP 联合面壁智能、OpenBMB 开源智能体操作系统 PilotDeck 2.0：工作舱隔离 + 白盒记忆，复杂任务成本降约 83%",
           "url": "https://github.com/OpenBMB/PilotDeck",
           "source": "GitHub / 量子位",
@@ -216,13 +223,6 @@
           "source": "Hugging Face / Perplexity",
           "date": "2026-10-17",
           "summary": "Perplexity 在 Hugging Face 开放 pplx-decider-v1.2 与 pplx-decider-flash-v1.2 权重，支持文本与图像（最高约 1.6MP）；同一请求内多个问题可一次前向完成，推理最高快约 5 倍。模型卡显示其在 Decision Index 0.3 总分由 v1.1 的 62.30 升至 68.09，官方称 Flash 为该榜单最强 4B 模型。"
-        },
-        {
-          "title": "复旦 OpenMOSS 开源 MOSS-Image：5B DiT 文生图基座，主打图中文字渲染与布局控制，Apache 2.0",
-          "url": "https://github.com/OpenMOSS/MOSS-Image",
-          "source": "GitHub / OpenMOSS",
-          "date": "2026-10-16",
-          "summary": "复旦 OpenMOSS 开源 5B 参数 DiT 文生图基座 MOSS-Image，强调高质量图中文字渲染与布局控制，Apache 2.0 许可；仓库约 430+ 星。"
         },
         {
           "title": "腾讯混元开源 Hy-Memory 2.0：记忆专用模型 Hy-Memory-30B-A3B + 框架 + MemHub 三层全开源",
@@ -386,10 +386,32 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "google/artemis",
+          "url": "https://github.com/google/artemis",
+          "source": "GitHub",
+          "stars": 12186,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-18",
+          "summary": "谷歌开源 ARTEMIS：把自然语言指令转成可靠的 Android 自动化流程，端到端执行并记录日志，可接入 Antigravity、Codex、Claude Code 等 AI 编码助手；仓库称在 AndroidWorld 基准成功率 99%+，Apache 2.0。",
+          "why": "今日 GitHub Python 趋势榜上榜（当日 +134 星），累计约 1.2 万星。"
+        },
+        {
+          "title": "ranxianglei/billion-context",
+          "url": "https://github.com/ranxianglei/billion-context",
+          "source": "GitHub",
+          "stars": 1766,
+          "stars_week": 888,
+          "language": "TypeScript",
+          "date": "2026-10-18",
+          "summary": "面向编码智能体的上下文压缩插件：主打 100K 小窗口即可工作、约省 5 倍 token，并支持数月级、数十亿 token 的超长单会话。",
+          "why": "GitHub 周榜上榜，本周 +888 星，累计约 1766 星。"
+        },
+        {
           "title": "google-research/harness2",
           "url": "https://github.com/google-research/harness2",
           "source": "GitHub",
-          "stars": 1735,
+          "stars": 1815,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-18",
@@ -400,7 +422,7 @@
           "title": "anujasid/blender-ai-mcp-addon",
           "url": "https://github.com/anujasid/blender-ai-mcp-addon",
           "source": "GitHub",
-          "stars": 646,
+          "stars": 653,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-18",
@@ -411,7 +433,7 @@
           "title": "Tencent-Hunyuan/Hy-Memory",
           "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
           "source": "GitHub",
-          "stars": 604,
+          "stars": 615,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-18",
@@ -422,7 +444,7 @@
           "title": "NVlabs/ASPIRE",
           "url": "https://github.com/NVlabs/ASPIRE",
           "source": "GitHub",
-          "stars": 483,
+          "stars": 487,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-18",
@@ -433,34 +455,12 @@
           "title": "OpenMOSS/MOSS-Image",
           "url": "https://github.com/OpenMOSS/MOSS-Image",
           "source": "GitHub",
-          "stars": 473,
+          "stars": 480,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-18",
           "summary": "复旦 OpenMOSS 的 5B DiT 文生图基座，强调图中文字与布局控制，Apache 2.0。",
           "why": "10 月 16 日创建，约 434 星，新建文生图基座增长快。"
-        },
-        {
-          "title": "juliobsz/skills",
-          "url": "https://github.com/juliobsz/skills",
-          "source": "GitHub",
-          "stars": 385,
-          "stars_week": null,
-          "language": "TypeScript",
-          "date": "2026-10-18",
-          "summary": "/awwwards 智能体技能：一句话需求生成“获奖级”网站并在真实浏览器自检后交付。",
-          "why": "10 月 12 日创建，约 384 星，Agent Skills 新项目。"
-        },
-        {
-          "title": "NB-Corp/gpt-with-taste",
-          "url": "https://github.com/NB-Corp/gpt-with-taste",
-          "source": "GitHub",
-          "stars": 353,
-          "stars_week": null,
-          "language": "JavaScript",
-          "date": "2026-10-18",
-          "summary": "强调判断力与品味的系统指令与源码感知工作流，减少仪式感。",
-          "why": "约 351 星，本周品味/指令类热门新仓库。"
         },
         {
           "title": "mistralai/timestral",
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@reflection_ai",
+          "url": "https://x.com/reflection_ai/status/2111640810148303231",
+          "source": "@reflection_ai",
+          "date": "2026-10-18",
+          "summary": "Reflection：Beam 在 24 小时内服务了 1 万亿 token，为此重置所有用户的用量限额。",
+          "metrics": {
+            "likes": 197,
+            "reposts": 23,
+            "views": 16976
+          }
+        },
+        {
+          "title": "@arena",
+          "url": "https://x.com/arena/status/2111478594732167527",
+          "source": "@arena",
+          "date": "2026-10-17",
+          "summary": "Arena 更新 Alignment Index（基于 30 个模型 9 万余次真实智能体会话，衡量越权操作、错误归因等信号）：Meta 新顶级模型 Muse Wonder 取代 Muse Spark 1.3，Reflection Beam 1.0 首次上榜即为 Agent Arena 总榜第一的美国开源模型，阶跃星辰（StepFun）也加入榜单。",
+          "metrics": {
+            "likes": 204,
+            "reposts": 21,
+            "views": 27683
+          }
+        },
         {
           "title": "@AndrewCurran_",
           "url": "https://x.com/AndrewCurran_/status/2111656899338973391",
@@ -529,18 +553,6 @@
           }
         },
         {
-          "title": "@theinformation",
-          "url": "https://x.com/theinformation/status/2111532729049231721",
-          "source": "@theinformation",
-          "date": "2026-10-18",
-          "summary": "The Information：软件测试模拟器公司 Antithesis 2025 年底以 5.25 亿美元估值融资 1.05 亿美元，随着企业用 AI 写更多代码、测试需求加速，正考虑以显著更高估值再融一轮。",
-          "metrics": {
-            "likes": 8,
-            "reposts": 1,
-            "views": 4554
-          }
-        },
-        {
           "title": "@TechCrunch",
           "url": "https://x.com/TechCrunch/status/2111529951555891386",
           "source": "@TechCrunch",
@@ -550,18 +562,6 @@
             "likes": 28,
             "reposts": 4,
             "views": 20708
-          }
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2111553608609096055",
-          "source": "@TechCrunch",
-          "date": "2026-10-18",
-          "summary": "TechCrunch：过去一年 Anthropic 员工构成与工作类型显著变化（配合其内部就业报告）。",
-          "metrics": {
-            "likes": 40,
-            "reposts": 3,
-            "views": 25153
           }
         },
         {
