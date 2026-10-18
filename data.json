@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-19T00:35:00+08:00",
+ "updated": "2026-10-19T01:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "TechCrunch/彭博：迪士尼将向至少 60 名 Character.AI 员工发出录用邀约，年薪酬总额约 6000 万美元，多数已接受",
+     "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+     "source": "TechCrunch / Bloomberg",
+     "date": "2026-10-19",
+     "summary": "Character.AI 本周申请破产后，彭博发现的法律文件显示，迪士尼同意向至少 60 名员工（公司大部分人员）发出录用邀约，预计年薪酬总额约 6000 万美元，获邀员工“绝大多数”已接受；此前迪士尼已以 2000 万美元作为部分资产的 stalking horse 竞购方，前 CEO Karandeep Anand 已出任迪士尼首任 CTO。文件称公司受高成本及潜在诉讼与监管负担拖累，其他买家仍可报更高价。"
+    },
+    {
      "title": "索尼新专利：AI 在 GPU 完成渲染前预测下一帧画面，减少游戏卡顿并规避插帧额外延迟",
      "url": "https://www.ithome.com/1/014/615.htm",
      "source": "IT之家（援引 TechSpot）",
@@ -118,13 +125,6 @@
      "source": "AI Weekly（转述 FT）",
      "date": "2026-10-18",
      "summary": "据 FT 报道，RegLayer 统计 2026 年至少 47 个美国大型数据中心项目因电力、用水与税收优惠等引发的地方反对而被推迟、撤回或阻止；伯恩斯坦称受并网周期、变压器短缺与液冷瓶颈制约，美国规划中的数据中心管线只有约 35% 可信，AI 基建算力紧张或进一步加剧。"
-    },
-    {
-     "title": "AWS CFO：AI 基建繁荣可持续，AI 服务器投资回报周期不到三年，在手订单近 5000 亿美元",
-     "url": "https://www.ithome.com/1/014/488.htm",
-     "source": "IT之家 / Axios",
-     "date": "2026-10-18",
-     "summary": "据 Axios 报道（经 IT之家转述），亚马逊云科技首席财务官 John Felton 表示 AI 基础设施与服务支出的繁荣是可持续的：AWS 的 AI 服务器投资回报周期不到三年，截至第二季度在手订单储备近 5000 亿美元，覆盖行业巨头、头部 AI 实验室与中小企业。AWS 第二季度营收 422 亿美元、同比增长 36.7%，AI 业务年化营收运行率已突破 250 亿美元。他认为应把 AI 视为生产力工具而非单纯降本工具。"
     }
    ]
   },
@@ -386,6 +386,17 @@
    "icon": "⭐",
    "items": [
     {
+     "title": "anomalyco/opencode",
+     "url": "https://github.com/anomalyco/opencode",
+     "source": "GitHub",
+     "stars": 216246,
+     "stars_week": null,
+     "language": "TypeScript",
+     "date": "2026-10-19",
+     "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
+     "why": "今日 GitHub Trending 日榜约 +1417 星，总星数约 21.6 万；在 OpenCode Console 遭“蒸馏攻击”、部分用户 API 密钥外泄的事件发酵期间关注度反而走高。"
+    },
+    {
      "title": "cranebeaker/coop-anything",
      "url": "https://github.com/cranebeaker/coop-anything",
      "source": "GitHub",
@@ -461,17 +472,6 @@
      "date": "2026-10-18",
      "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
      "why": "今日 GitHub 总榜新增星数第一（当日 +2213 星），累计约 5.1 万星。"
-    },
-    {
-     "title": "debpalash/VoiceStudio",
-     "url": "https://github.com/debpalash/VoiceStudio",
-     "source": "GitHub",
-     "stars": 74632,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-18",
-     "summary": "开源、完全本地运行的 ElevenLabs 替代：声音克隆、声音设计、视频配音、听写与转写等。",
-     "why": "今日 GitHub 总榜热门（当日 +2098 星），累计约 7.4 万星。"
     }
    ]
   },
@@ -480,6 +480,30 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@elonmusk",
+     "url": "https://x.com/elonmusk/status/2111867437238853726",
+     "source": "@elonmusk",
+     "date": "2026-10-19",
+     "summary": "马斯克转发 Brian Roemmele 的演示并称“Grok Bot 可以打电话给餐厅帮你订位”：该 Grok Bot 会自行查找餐厅电话、确认人数时间与回拨号码，用户确认后用 Grok 语音拨号，通话后汇报结果并可写入日历；设有不提供信用卡、一次只打一通、不主动拨号等防护。",
+     "metrics": {
+      "likes": 1729,
+      "reposts": 201,
+      "views": 473952
+     }
+    },
+    {
+     "title": "@Thom_Wolf",
+     "url": "https://x.com/Thom_Wolf/status/2111828314851598745",
+     "source": "@Thom_Wolf",
+     "date": "2026-10-18",
+     "summary": "Hugging Face 联合创始人 Thomas Wolf 粗算：Meta、英伟达、阿里、DeepSeek、月之暗面、Mistral 等约 36 家实验室已在 Hugging Face Hub 上免费共享了价值近 10 亿美元训练算力的开放模型，2023 年底这一数字还不到 4000 万美元。",
+     "metrics": {
+      "likes": 105,
+      "reposts": 12,
+      "views": 16189
+     }
+    },
     {
      "title": "@AndrewCurran_",
      "url": "https://x.com/AndrewCurran_/status/2111837963214794940",
@@ -550,30 +574,6 @@
       "likes": 520,
       "reposts": 27,
       "views": 51571
-     }
-    },
-    {
-     "title": "@reflection_ai",
-     "url": "https://x.com/reflection_ai/status/2111640810148303231",
-     "source": "@reflection_ai",
-     "date": "2026-10-18",
-     "summary": "Reflection：Beam 在 24 小时内服务了 1 万亿 token，为此重置所有用户的用量限额。",
-     "metrics": {
-      "likes": 377,
-      "reposts": 37,
-      "views": 46853
-     }
-    },
-    {
-     "title": "@AndrewCurran_",
-     "url": "https://x.com/AndrewCurran_/status/2111656899338973391",
-     "source": "@AndrewCurran_",
-     "date": "2026-10-18",
-     "summary": "Andrew Curran 发现 OpenAI API 中悄然出现三个神秘新模型：aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha，OpenAI 尚未公布任何说明或定价。",
-     "metrics": {
-      "likes": 2127,
-      "reposts": 74,
-      "views": 142767
      }
     }
    ]

@@ -1,7 +1,34 @@
 {
- "updated": "2026-10-19T00:35:00+08:00",
- "count": 513,
+ "updated": "2026-10-19T01:35:00+08:00",
+ "count": 516,
  "items": [
+  {
+   "title": "TechCrunch/彭博：迪士尼将向至少 60 名 Character.AI 员工发出录用邀约，年薪酬总额约 6000 万美元，多数已接受",
+   "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
+   "source": "TechCrunch / Bloomberg",
+   "date": "2026-10-19",
+   "summary": "Character.AI 本周申请破产后，彭博发现的法律文件显示，迪士尼同意向至少 60 名员工（公司大部分人员）发出录用邀约，预计年薪酬总额约 6000 万美元，获邀员工“绝大多数”已接受；此前迪士尼已以 2000 万美元作为部分资产的 stalking horse 竞购方，前 CEO Karandeep Anand 已出任迪士尼首任 CTO。文件称公司受高成本及潜在诉讼与监管负担拖累，其他买家仍可报更高价。",
+   "id": "6a083a36de897bf06fdff7fb10c232db49ef8a72",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T01:35:00+08:00"
+  },
+  {
+   "title": "@elonmusk",
+   "url": "https://x.com/elonmusk/status/2111867437238853726",
+   "source": "@elonmusk",
+   "date": "2026-10-19",
+   "summary": "马斯克转发 Brian Roemmele 的演示并称“Grok Bot 可以打电话给餐厅帮你订位”：该 Grok Bot 会自行查找餐厅电话、确认人数时间与回拨号码，用户确认后用 Grok 语音拨号，通话后汇报结果并可写入日历；设有不提供信用卡、一次只打一通、不主动拨号等防护。",
+   "metrics": {
+    "likes": 1729,
+    "reposts": 201,
+    "views": 473952
+   },
+   "id": "6d04bef620d890e42dedee0e20b83ecf6306f37f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T01:35:00+08:00"
+  },
   {
    "title": "cranebeaker/coop-anything",
    "url": "https://github.com/cranebeaker/coop-anything",
@@ -16,6 +43,37 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-19T00:35:00+08:00"
+  },
+  {
+   "title": "anomalyco/opencode",
+   "url": "https://github.com/anomalyco/opencode",
+   "source": "GitHub",
+   "stars": 216246,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-19",
+   "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
+   "why": "今日 GitHub Trending 日榜约 +1417 星，总星数约 21.6 万；在 OpenCode Console 遭“蒸馏攻击”、部分用户 API 密钥外泄的事件发酵期间关注度反而走高。",
+   "id": "adbef724cb274560f99367511b2ecdc73c31c6df",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T22:30:00+08:00"
+  },
+  {
+   "title": "@Thom_Wolf",
+   "url": "https://x.com/Thom_Wolf/status/2111828314851598745",
+   "source": "@Thom_Wolf",
+   "date": "2026-10-18",
+   "summary": "Hugging Face 联合创始人 Thomas Wolf 粗算：Meta、英伟达、阿里、DeepSeek、月之暗面、Mistral 等约 36 家实验室已在 Hugging Face Hub 上免费共享了价值近 10 亿美元训练算力的开放模型，2023 年底这一数字还不到 4000 万美元。",
+   "metrics": {
+    "likes": 105,
+    "reposts": 12,
+    "views": 16189
+   },
+   "id": "aacc03e7875205f64279dd3fbe5ac7ef99dd414b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T01:35:00+08:00"
   },
   {
    "title": "索尼新专利：AI 在 GPU 完成渲染前预测下一帧画面，减少游戏卡顿并规避插帧额外延迟",
@@ -1534,21 +1592,6 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-17T23:38:00+08:00"
-  },
-  {
-   "title": "anomalyco/opencode",
-   "url": "https://github.com/anomalyco/opencode",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "TypeScript",
-   "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
-   "date": "2026-10-17",
-   "stars": 214731,
-   "why": "今日 GitHub Trending 日榜约 +488 星，总星数约 21.5 万，开源编码智能体热度持续。",
-   "id": "adbef724cb274560f99367511b2ecdc73c31c6df",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T22:30:00+08:00"
   },
   {
    "title": "The Verge：网站纷纷对 AI 智能体关门——亚马逊、达美航空、摩根大通、嘉信等限制代用户操作，Yelp 只放行付费授权的智能体",
