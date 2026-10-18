@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-18T10:40:00+08:00",
+ "updated": "2026-10-18T11:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -517,6 +517,18 @@
      }
     },
     {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2111532729049231721",
+     "source": "@theinformation",
+     "date": "2026-10-18",
+     "summary": "The Information：软件测试模拟器公司 Antithesis 2025 年底以 5.25 亿美元估值融资 1.05 亿美元，随着企业用 AI 写更多代码、测试需求加速，正考虑以显著更高估值再融一轮。",
+     "metrics": {
+      "likes": 8,
+      "reposts": 1,
+      "views": 4554
+     }
+    },
+    {
      "title": "@TechCrunch",
      "url": "https://x.com/TechCrunch/status/2111529951555891386",
      "source": "@TechCrunch",
@@ -526,18 +538,6 @@
       "likes": 28,
       "reposts": 4,
       "views": 20708
-     }
-    },
-    {
-     "title": "@verge",
-     "url": "https://x.com/verge/status/2111475606076760365",
-     "source": "@verge",
-     "date": "2026-10-18",
-     "summary": "The Verge：专家认为可能允许爬取新闻网站训练 AI 的措辞，已从 Meta 商业条款中删除。",
-     "metrics": {
-      "likes": 24,
-      "reposts": 5,
-      "views": 15162
      }
     },
     {

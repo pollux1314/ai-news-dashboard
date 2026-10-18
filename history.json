@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-18T10:40:00+08:00",
- "count": 447,
+ "updated": "2026-10-18T11:35:00+08:00",
+ "count": 448,
  "items": [
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2111532729049231721",
+   "source": "@theinformation",
+   "date": "2026-10-18",
+   "summary": "The Information：软件测试模拟器公司 Antithesis 2025 年底以 5.25 亿美元估值融资 1.05 亿美元，随着企业用 AI 写更多代码、测试需求加速，正考虑以显著更高估值再融一轮。",
+   "metrics": {
+    "likes": 8,
+    "reposts": 1,
+    "views": 4554
+   },
+   "id": "63e76b9d29a6667ff181d47b37ae7fc0be8d2047",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T11:35:00+08:00"
+  },
   {
    "title": "奥尔特曼确认 OpenAI 将自研人形机器人：核心是打造机器人“大脑”，预计 2027 年拿出演示样机",
    "url": "https://www.ithome.com/1/014/433.htm",
