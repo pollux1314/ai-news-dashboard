@@ -1,7 +1,63 @@
 {
- "updated": "2026-10-18T18:30:00+08:00",
- "count": 482,
+ "updated": "2026-10-18T19:30:00+08:00",
+ "count": 490,
  "items": [
+  {
+   "title": "THE DECODER：继慕尼黑之后，德国亚琛法院也认定谷歌须为 AI 搜索答案担责，禁止 AI Mode 继续传播针对一名医生的虚假指控",
+   "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
+   "source": "THE DECODER",
+   "date": "2026-10-18",
+   "summary": "亚琛地区法院在 9 月 24 日的临时禁令中援引慕尼黑第一地区法院 5 月判决，认定 AI 生成的搜索回答是谷歌“自己的陈述”而非第三方链接：谷歌 AI Mode 将另一名前教授涉及的性侵指控与诉讼张冠李戴到一位神经放射学教授身上，谷歌收到通知后拒绝删除。法院禁止传播三种相关文本，违者每次最高罚 25 万欧元，裁定尚未生效、谷歌可提出异议。报道称谷歌在慕尼黑案宣布上诉后以和解收场，未形成上级法院判例。",
+   "id": "04f9dcaeeab22d9c5fff4d6abe91238e2d431bcb",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T19:30:00+08:00"
+  },
+  {
+   "title": "Graphify-Labs/graphify",
+   "url": "https://github.com/Graphify-Labs/graphify",
+   "source": "GitHub",
+   "stars": 128013,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "把代码库连同文档、SQL schema、配置与 PDF 转成可查询的知识图谱，以 /graphify 技能形式用于 Claude Code、Cursor、Codex、Gemini CLI；本地确定性 AST 解析、每条边可解释、无需向量库，Apache 2.0。",
+   "why": "今日 GitHub Python 趋势榜上榜（当日 +592 星），累计约 12.8 万星。",
+   "id": "dd6a9d14a094d1594baeb964ac415610498cc4a0",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T19:30:00+08:00"
+  },
+  {
+   "title": "anthropics/claude-quickstarts",
+   "url": "https://github.com/anthropics/claude-quickstarts",
+   "source": "GitHub",
+   "stars": 18528,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-18",
+   "summary": "Anthropic 官方的 Claude API 快速上手项目合集，帮助开发者快速搭建可部署的应用，MIT 许可。",
+   "why": "今日 GitHub TypeScript 趋势榜上榜（当日 +453 星），累计约 1.85 万星。",
+   "id": "26b52d229f3345260414109877146496bd603218",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T19:30:00+08:00"
+  },
+  {
+   "title": "mozilla-ai/otari",
+   "url": "https://github.com/mozilla-ai/otari",
+   "source": "GitHub",
+   "stars": 637,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "Mozilla.ai 开源的可自托管 LLM 网关：兼容 OpenAI 接口，一个端点接入 40 多家模型提供商，支持虚拟密钥、预算与用量追踪，Apache 2.0。",
+   "why": "今日 GitHub Python 趋势榜上榜（当日 +46 星），累计约 640 星。",
+   "id": "2376e8b3d6259d90b531fc627683113125fcf95d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T19:30:00+08:00"
+  },
   {
    "title": "高通中国区董事长孟樸：AI 走向云边协同，智能体推动从“以应用为中心”迈向“以智能体为中心”；安蒙称已有 AI 企业要求 2028 年手机本地跑 100B 模型",
    "url": "https://www.ithome.com/1/014/522.htm",
@@ -837,6 +893,33 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "彭博：OpenAI 聘请 xAI 前销售负责人格雷厄姆·西曼斯负责网络安全业务销售，持续从马斯克旗下 AI 业务挖角",
+   "url": "https://www.ithome.com/1/014/239.htm",
+   "source": "IT之家",
+   "date": "2026-10-17",
+   "summary": "据 IT之家援引彭博社，西曼斯自 2025 年 8 月起领导 xAI 销售团队、参与向华尔街客户推广 Grok，此前在 MongoDB 任职约 8 年，将加入 OpenAI 网络安全团队。报道称 OpenAI 9 月以来还先后招揽 Cursor 前全球营收及销售总裁、xAI 前基础设施工程负责人等，意在潜在上市前扩大企业客户营收与广告等收入来源。",
+   "id": "8b54afd11e920a37f2e09151f52d1c479a374706",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T19:30:00+08:00"
+  },
+  {
+   "title": "@elonmusk",
+   "url": "https://x.com/elonmusk/status/2111161779657285919",
+   "source": "@elonmusk",
+   "date": "2026-10-17",
+   "summary": "马斯克称团队正大力开发面向企业的专用议价智能体 Hagglebot，认为可将企业成本效率提升 5% 以上，按全球 GDP 计每年最多可省 6 万亿美元；此前有用户发帖称 SpaceXAI 开放了内部使用的 Grok Bots，其中 Haggle Bot 首周为团队省下逾 10 万美元。上线时间与定价尚未公布。",
+   "metrics": {
+    "likes": 7264,
+    "reposts": 530,
+    "views": 1576277
+   },
+   "id": "592cb21e90616629fa8e758a750c85365cf66d66",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T19:30:00+08:00"
   },
   {
    "title": "G30 曼谷研讨会：英国央行行长贝利等呼吁加强 AI 模型发布前后测试、支付系统内建反欺诈，称“模型武装了进攻方，也得武装防守方”",
@@ -1909,6 +1992,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "微软推出 Copilot for Legal：Word 与 Cowork 内置 20 余项法律专用技能，可按企业审查规则以修订模式改合同",
+   "url": "https://www.ithome.com/1/014/250.htm",
+   "source": "IT之家",
+   "date": "2026-10-16",
+   "summary": "据 IT之家，微软总裁 Brad Smith 10 月 16 日宣布推出 Copilot for Legal，为商用客户提供 20 余项法律专用 AI Skills（起草/审查合同、义务追踪、整理案件时间线等），主要在 Word 桌面版与跨应用工作区 Cowork 中使用；Word 中可依企业预设 playbook 识别需关注条款并以修订模式提出建议。同步接入 Bloomberg Law、Thomson Reuters HighQ、DocuSign、Harvey 等法律科技插件；需 Microsoft 365 Copilot 商用授权，微软强调 AI 生成的引用与结论仍需人工核验。",
+   "id": "f0d85b91cb29bb6de16654a866526fa38d22ddb5",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-18T19:30:00+08:00"
+  },
+  {
+   "title": "JetBrains 本地 AI 编程工具 Junie Local Day 0 适配英伟达 RTX Spark，Windows 支持转为稳定版：免注册、无 Token 费用与配额",
+   "url": "https://www.ithome.com/1/014/242.htm",
+   "source": "IT之家",
+   "date": "2026-10-16",
+   "summary": "据 IT之家，JetBrains 10 月 16 日公告 Junie Local 可在本机让 AI 读代码、改文件并运行测试，代码无需上传云端；RTX Spark 上初测生成速度最高约 55 token/s。除 RTX Spark 外，24GB 以上显存的 Ampere 及更新架构 RTX 显卡（如 3090、4090、32GB 的 5090）也可运行，需 Windows 11、581 及以上驱动与约 20GB 磁盘；安装程序会按可用显存调整上下文，可选 Qwen3.6-27B 或 JetBrains 融合模型。",
+   "id": "858abf9c86038d858a985d6ed979cd38f0b08e02",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-18T19:30:00+08:00"
   },
   {
    "title": "Cloudflare 推出 Verified bots 持续问责机制：按是否遵守 robots.txt、收到 429 后是否降速给认证爬虫打“信任区间”，后续将在 Radar 公开",
