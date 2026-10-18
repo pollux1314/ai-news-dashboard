@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-19T06:35:00+08:00",
+ "updated": "2026-10-19T07:45:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "彭博：Nscale IPO 估值目标遭投资者抵制——原寻求约 300 亿美元，部分投资者认为 160–190 亿美元才易获认购",
+     "url": "https://www.ithome.com/1/014/623.htm",
+     "source": "IT之家 / 彭博社",
+     "date": "2026-10-19",
+     "summary": "据彭博社援引知情人士，获英伟达投资的伦敦 AI 数据中心开发商 Nscale 原寻求约 300 亿美元 IPO 估值，但在澳洲 Firmus IPO 失败等挫折后，部分投资者提出 160 亿至 190 亿美元区间更易获认可；公司 9 月 18 日已提交赴美上市申请，尚未启动路演。此前微软已退出其一处英国数据中心合作项目，CoreWeave、Nebius 等同行股价近期重挫。"
+    },
+    {
      "title": "TechCrunch/彭博：迪士尼将向至少 60 名 Character.AI 员工发出录用邀约，年薪酬总额约 6000 万美元，多数已接受",
      "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
      "source": "TechCrunch / Bloomberg",
@@ -83,13 +90,6 @@
      "source": "Anthropic 官方博客 / 路透社",
      "date": "2026-10-18",
      "summary": "Anthropic 10 月 18 日宣布，经股东批准后将把 5% 股份注入新成立的全资 LLC“Anthropic Public Benefit Fund”，此后公司估值每较设定基准上涨 50%，董事会可酌情再追加 2%。基金可用于向传统非营利组织大额捐赠或直接向特定人群分配，例如应对 AI 对劳动力市场的冲击（Anthropic 此前已为此承诺 2 亿美元）；所持股权不会用于美国或海外的游说与政治捐款。连同联合创始人捐出 80% 股权的承诺与员工股权捐赠配捐计划，约 20% 的 Anthropic 股份将用于公益。"
-    },
-    {
-     "title": "CNBC：Anthropic 向投资者透露 Q3 营收约 168 亿美元，环比由约 116 亿升至近 170 亿，并称调整后盈利、现金流为正",
-     "url": "https://www.cnbc.com/2026/10/15/anthropics-third-quarter-revenue-hits-16point8-billion-ipo.html",
-     "source": "CNBC",
-     "date": "2026-10-15",
-     "summary": "据知情人士向 CNBC 透露，Anthropic 在筹备据称拟于 11 月进行的 IPO 过程中向投资者表示，第三季度营收达 168 亿美元，高于第二季度约 116 亿美元与第一季度 47 亿美元；公司称当季实现调整后盈利，并据《金融时报》称每花 1 美元算力可产生约 1.70 美元收入。市场预期其年化营收有望在年底达到约 1100 亿美元。"
     },
     {
      "title": "CBC：Anthropic 租用加拿大新斯科舍 Point Tupper 数据中心一期至少 20 年，95MW 计划 2027 年末上线，服务 Claude",
@@ -133,6 +133,13 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "《科学》刊发 RFdiffusion3：David Baker 团队联合牛津、英伟达实现原子级蛋白质与核酸设计，速度约为上一代 10 倍",
+     "url": "https://www.ithome.com/1/014/625.htm",
+     "source": "IT之家 / Science",
+     "date": "2026-10-19",
+     "summary": "华盛顿大学、牛津大学与英伟达等团队于当地时间 10 月 16 日在《科学》发表 RFdiffusion3 论文：参考 AlphaFold3 架构，每个氨基酸最多以 14 个原子表征并直接调整原子三维坐标；在 41 个酶活性位点对比中 37 组优于 RFdiffusion2，生成速度约快 10 倍，设计出的对氧磷降解酶与肽裂解酶在真实实验中完成预期反应。模型已于 2025 年 12 月开源。"
+    },
     {
      "title": "Google Research 开源 Harness²：无真值标签下递归优化智能体 Harness，WorkBuddy-Bench 最高提升约 11.5 分",
      "url": "https://arxiv.org/abs/2610.14224",
@@ -181,13 +188,6 @@
      "source": "arXiv",
      "date": "2026-10-16",
      "summary": "模型需观察被旋转的物体并连续选择旋转动作，在有限步数内恢复目标剪影。基准由 2D 图标自动构建 674 个可解任务与 100 题测试集；GPT-5.6-Sol 成功率仅 17%，20 名本科生合计四次完成全部测试集，且模型更常出现剪影重叠变好但位姿对齐变差的情况。"
-    },
-    {
-     "title": "南加大 3DCodeVerse：以可执行代码生成可编辑、可验证的 3D 内容，发布 200 万规模 3D 代码数据集与多智能体 Harness",
-     "url": "https://arxiv.org/abs/2610.22341",
-     "source": "arXiv",
-     "date": "2026-10-16",
-     "summary": "3DCodeVerse 包含 3DCodeVerse-2M 可独立执行的 3D 代码语料（附资源、描述与验证记录），以及基于有向无环图的多智能体生成框架，借执行检查、空间测量与视觉反馈在无人工反馈下自动评估和修正程序，并给出微调开源模型的基线与 3D 编码实践指南。"
     }
    ]
   },
@@ -323,6 +323,13 @@
    "icon": "🇨🇳",
    "items": [
     {
+     "title": "硬氪：前华为车 BU 世界模型基模负责人蔡佳创办具身大脑公司「格物通智」，完成近亿元天使轮融资",
+     "url": "https://eu.36kr.com/zh/p/4025325566054529",
+     "source": "36氪",
+     "date": "2026-10-18",
+     "summary": "杭州「格物通智」2026 年 8 月成立，投资方包括匹克投资、鸿富资产、杭州资本、杭州人才集团等；公司以触觉-视觉多模态数据构建“物理反演世界模型 + PSI 物理自进化”技术体系，通过 Real to Sim 从视频反推触觉信号，为机器人提供有“手感”的灵巧操作能力，正与纺织服装、光模块、汽车零部件客户推进 PoC，预计年底完成首个交付。"
+    },
+    {
      "title": "高通中国区董事长孟樸：AI 走向云边协同，智能体推动从“以应用为中心”迈向“以智能体为中心”；安蒙称已有 AI 企业要求 2028 年手机本地跑 100B 模型",
      "url": "https://www.ithome.com/1/014/522.htm",
      "source": "IT之家",
@@ -370,13 +377,6 @@
      "source": "机器之心 / 网易",
      "date": "2026-10-18",
      "summary": "美团 LongCat 维护的交互世界模型评测 WBench 榜单显示，Murea-Pro 以 81.1 分居首，交互能力 82.6、物理合理性 74.4 分别领先第二名约 9.5 和 5.2 分；其 Murea-InWorld 系统由 Murea-Mind 维护世界状态、规划事件，Pro/Fast 负责生成画面与声音，实时因子约 0.71。轻量版 Murea-Fast 在 OpenS2V-Eval 开源模型中排名第一。"
-    },
-    {
-     "title": "Manifold AI 流形空间推出 WorldScape R²SI 机器人递归自进化框架，登顶 RoboDojo 总榜，超过 GPT-6 Astra 与英伟达 GR00T-N1.7",
-     "url": "https://feng.ifeng.com/c/8xIuPhHNWQl",
-     "source": "机器之心（凤凰网转载）",
-     "date": "2026-10-17",
-     "summary": "Manifold AI 的 R²SI 由内外双层智能体构成：内层 Robot Agent 按任务加载技能执行，外层 Recursion Agent 跨轮次复盘、修订技能并训练反应式动作模型，更新经测试后自动发布。结合一次示范即可学习新任务的 ICL 能力，系统在 RoboDojo 机器人操作基准 Agent 赛道位列第一；push_T 任务中动作步数经迭代从 596 步降至 389 步。"
     }
    ]
   },
@@ -389,89 +389,89 @@
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
      "source": "GitHub",
-     "stars": 216461,
+     "stars": 216529,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
      "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
-     "why": "今日 GitHub Trending 日榜前列，总星数约 21.6 万；OpenCode Console 密钥事件后关注度仍高。"
+     "why": "今日 GitHub Trending 日榜上榜，当日 +1,417 星，累计约 21.7 万星。"
     },
     {
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 96497,
+     "stars": 96580,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
      "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
-     "why": "今日 GitHub 趋势榜持续上榜，累计约 9.6 万星，定位为多智能体编排层。"
+     "why": "今日 GitHub Trending 日榜上榜，当日 +1,146 星，累计约 9.7 万星。"
     },
     {
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 76451,
+     "stars": 76490,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
      "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
-     "why": "趋势榜常客，累计约 7.6 万星。"
+     "why": "今日 GitHub Trending 日榜上榜，当日 +502 星，累计约 7.6 万星。"
     },
     {
      "title": "debpalash/VoiceStudio",
      "url": "https://github.com/debpalash/VoiceStudio",
      "source": "GitHub",
-     "stars": 75067,
+     "stars": 75244,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
      "summary": "本地语音克隆、配音、听写与转写的开源替代方案，定位对标 ElevenLabs，AGPL-3.0。",
-     "why": "今日 GitHub Trending 上榜，累计约 7.5 万星。"
+     "why": "今日 GitHub Trending 日榜上榜，当日 +2,098 星，累计约 7.5 万星。"
     },
     {
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 54533,
+     "stars": 54568,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
      "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
-     "why": "趋势榜上榜，累计约 5.5 万星。"
+     "why": "今日 GitHub Trending 日榜上榜，当日 +582 星，累计约 5.5 万星。"
     },
     {
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 52804,
+     "stars": 53019,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
      "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
-     "why": "近期日增星靠前，累计约 5.3 万星。"
+     "why": "今日 GitHub Trending 日榜上榜，当日 +2,213 星，累计约 5.3 万星。"
     },
     {
      "title": "anthropics/claude-plugins-official",
      "url": "https://github.com/anthropics/claude-plugins-official",
      "source": "GitHub",
-     "stars": 42605,
+     "stars": 42649,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
      "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录，覆盖 MCP 与 Skills 等扩展，Apache 2.0。",
-     "why": "趋势榜上榜，累计约 4.3 万星。"
+     "why": "今日 GitHub Trending 日榜上榜，当日 +1,187 星，累计约 4.3 万星。"
     },
     {
-     "title": "abhi245y/PS5LM-Plus",
-     "url": "https://github.com/abhi245y/PS5LM-Plus",
+     "title": "akitaonrails/ai-memory",
+     "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 396,
+     "stars": 10450,
      "stars_week": null,
-     "language": "C++",
+     "language": "Rust",
      "date": "2026-10-19",
-     "summary": "在破解版 PS5 上原生运行 llama.cpp：GPU 推理 GGUF，Qwen3.8-27B 约 20 tok/s，提供 OpenAI 兼容 API，GPL-3.0。",
-     "why": "本周本地推理热点项目，约 400 星；游戏主机跑 27B 引发讨论。"
+     "summary": "为编码智能体 CLI 提供长期记忆，并支持在不同厂商的智能体之间交接上下文，MIT 许可。",
+     "why": "今日 GitHub Trending 日榜上榜，当日 +513 星，累计约 1.0 万星。"
     }
    ]
   },
@@ -481,15 +481,27 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@testingcatalog",
+     "url": "https://x.com/testingcatalog/status/2111944960652034447",
+     "source": "@testingcatalog",
+     "date": "2026-10-19",
+     "summary": "TestingCatalog 爆料：Claude 正在重新准备上线“个人理财”（Personal Finance）功能，将通过 Plaid 接入银行数据并据此生成各类分析看板（未经 Anthropic 官方确认）；Andrew Curran 转发并戏称其为「Claude Monet」（个人理财顾问）。",
+     "metrics": {
+      "likes": 227,
+      "reposts": 6,
+      "views": 18689
+     }
+    },
+    {
      "title": "@AnthropicAI",
      "url": "https://x.com/AnthropicAI/status/2111881963657412903",
      "source": "@AnthropicAI",
      "date": "2026-10-19",
      "summary": "Anthropic 官宣将部分股份注入全资新实体 Anthropic Public Benefit Fund，起步为 5%，公司价值较基准每上涨 50% 可再追加，专门用于公共利益。",
      "metrics": {
-      "likes": 7922,
-      "reposts": 565,
-      "views": 1173510
+      "likes": 10216,
+      "reposts": 729,
+      "views": 1843412
      }
     },
     {
@@ -499,9 +511,9 @@
      "date": "2026-10-19",
      "summary": "马斯克转发并称「Grok Bot 就像雇了一名极其能干的员工」，呼应用户展示用 Grok Bot 完成购物下单等代理任务的演示。",
      "metrics": {
-      "likes": 2956,
-      "reposts": 397,
-      "views": 718626
+      "likes": 4301,
+      "reposts": 577,
+      "views": 976510
      }
     },
     {
@@ -511,9 +523,9 @@
      "date": "2026-10-19",
      "summary": "马斯克转发 Brian Roemmele 的演示并称「Grok Bot 可以打电话给餐厅帮你订位」：该 Bot 会自行查找餐厅电话、确认人数时间与回拨号码，用户确认后用 Grok 语音拨号。",
      "metrics": {
-      "likes": 5994,
-      "reposts": 722,
-      "views": 1074059
+      "likes": 6770,
+      "reposts": 825,
+      "views": 1182056
      }
     },
     {
@@ -523,9 +535,9 @@
      "date": "2026-10-19",
      "summary": "马斯克发帖「租用 AI/SI 算力是什么体验」，配图调侃算力租用之难，引发对超级智能算力供需的讨论。",
      "metrics": {
-      "likes": 1516,
-      "reposts": 205,
-      "views": 392635
+      "likes": 5295,
+      "reposts": 606,
+      "views": 1025096
      }
     },
     {
@@ -535,9 +547,9 @@
      "date": "2026-10-19",
      "summary": "解读 Anthropic 公益基金：最关键的一句是「直接向特定人群分配」，看起来像是在筹划自主主导的全球 UBI；并称约半数 Anthropic 员工也在把股份捐入相关公益安排。",
      "metrics": {
-      "likes": 1465,
-      "reposts": 91,
-      "views": 59526
+      "likes": 1849,
+      "reposts": 117,
+      "views": 85991
      }
     },
     {
@@ -547,9 +559,9 @@
      "date": "2026-10-19",
      "summary": "马斯克回复 Anthropic 公益基金公告，称「我建议把股份直接分给公众」。",
      "metrics": {
-      "likes": 7384,
-      "reposts": 395,
-      "views": 272339
+      "likes": 13850,
+      "reposts": 617,
+      "views": 568629
      }
     },
     {
@@ -559,21 +571,9 @@
      "date": "2026-10-19",
      "summary": "转述 Anthropic 联合创始人 Jack Clark 的说法：「我相信今年我们已获得令人信服的证据，表明奇点已经开始」，并评论称无论外界信不信，Anthropic 都按已进入奇点来行事。",
      "metrics": {
-      "likes": 777,
-      "reposts": 52,
-      "views": 21849
-     }
-    },
-    {
-     "title": "@emollick",
-     "url": "https://x.com/emollick/status/2111925398548193574",
-     "source": "@emollick",
-     "date": "2026-10-19",
-     "summary": "沃顿商学院教授 Ethan Mollick 吐槽：Anthropic 宣称编码大幅提速，但 Claude 至今仍无法修改账户邮箱，官方建议只能删号重注册。",
-     "metrics": {
-      "likes": 342,
-      "reposts": 15,
-      "views": 12678
+      "likes": 1134,
+      "reposts": 76,
+      "views": 32442
      }
     }
    ]
