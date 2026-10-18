@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-18T23:35:00+08:00",
+ "updated": "2026-10-19T00:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "索尼新专利：AI 在 GPU 完成渲染前预测下一帧画面，减少游戏卡顿并规避插帧额外延迟",
+     "url": "https://www.ithome.com/1/014/615.htm",
+     "source": "IT之家（援引 TechSpot）",
+     "date": "2026-10-18",
+     "summary": "据 TechSpot 报道，索尼近期申请一项专利：用 AI 根据已渲染画面直接预测下一帧，而不必像传统帧生成那样等待两帧渲染完成再插值，从而稳定帧输出节奏并避免额外延迟。系统用联合训练的编解码器把渲染画面转为嵌入表示，与图形管线并行运行，还可利用运动矢量和玩家近期的手柄操作辅助预测。实际效果取决于 AI 能否足够快且准确地生成画面。"
+    },
+    {
      "title": "首尔经济日报：三星将采用台积电 3nm 工艺为英伟达定制 HBM（NVHBM）生产基底裸片，打破一站式自产模式",
      "url": "https://www.ithome.com/1/014/612.htm",
      "source": "IT之家 / 首尔经济日报",
@@ -118,13 +125,6 @@
      "source": "IT之家 / Axios",
      "date": "2026-10-18",
      "summary": "据 Axios 报道（经 IT之家转述），亚马逊云科技首席财务官 John Felton 表示 AI 基础设施与服务支出的繁荣是可持续的：AWS 的 AI 服务器投资回报周期不到三年，截至第二季度在手订单储备近 5000 亿美元，覆盖行业巨头、头部 AI 实验室与中小企业。AWS 第二季度营收 422 亿美元、同比增长 36.7%，AI 业务年化营收运行率已突破 250 亿美元。他认为应把 AI 视为生产力工具而非单纯降本工具。"
-    },
-    {
-     "title": "Anthropic 签署加拿大首个数据中心长期租约：新斯科舍 Point Tupper 一期 95MW，服务 Claude，计划 2027 年末上线",
-     "url": "https://tsnmedia.org/everwind-point-tupper-campus/",
-     "source": "TSN / Reuters / Bloomberg",
-     "date": "2026-10-16",
-     "summary": "据路透社与彭博等报道，Anthropic 与 EverWind 就新斯科舍 Point Tupper 数据中心校园一期达成至少约 20 年租约，为其在加拿大的首个数据中心协议；一期约 95MW、约 1.86 万平方米，目标 2027 年末投运，后续或扩建至约 420MW。EverWind 称含风电在内的私人投资计划逾 100 亿美元；Anthropic 表示将为 Claude 与加拿大及全球客户提供算力，并承诺承担并网升级、不向居民转嫁电价。"
     }
    ]
   },
@@ -281,6 +281,13 @@
      "summary": "亚琛地区法院在 9 月 24 日的临时禁令中援引慕尼黑第一地区法院 5 月判决，认定 AI 生成的搜索回答是谷歌“自己的陈述”而非第三方链接：谷歌 AI Mode 将另一名前教授涉及的性侵指控与诉讼张冠李戴到一位神经放射学教授身上，谷歌收到通知后拒绝删除。法院禁止传播三种相关文本，违者每次最高罚 25 万欧元，裁定尚未生效、谷歌可提出异议。报道称谷歌在慕尼黑案宣布上诉后以和解收场，未形成上级法院判例。"
     },
     {
+     "title": "《纽约时报》/Wesleyan：2026 美国中期选举 AI 生成广告投放已超 1.37 亿美元，仅 27% 标注使用 AI",
+     "url": "https://gizmodo.com/137-million-has-been-spent-on-ai-generated-ads-ahead-of-midterms-only-27-included-a-disclaimer-2000827138",
+     "source": "Gizmodo（援引 NYT、Wesleyan Media Project）",
+     "date": "2026-10-17",
+     "summary": "Wesleyan Media Project 数据显示，今年中期选举中至少部分由 AI 制作的政治广告投放已超 1.37 亿美元，覆盖 34 个州共 220 条广告，而 2024 年周期同类支出不足 5 万美元。其中仅 27% 附有 AI 披露声明，近半数含真实政客的深度伪造形象；共和党候选人及团体占广告数的 81%、支出的 88%。目前仅 30 个州要求政治广告披露 AI 使用，距投票只剩两周多。"
+    },
+    {
      "title": "至少八个美国州起诉 OpenAI：指控 ChatGPT 伤害未成年人，并催生“网络黑客智能体”",
      "url": "https://fortune.com/2026/10/17/states-lawsuit-openai-cyberhacking-agents-chatgpt-harm-children-adults/",
      "source": "Fortune",
@@ -293,13 +300,6 @@
      "source": "Al Jazeera",
      "date": "2026-10-17",
      "summary": "任期将尽的加州州长加文·纽森签署行政令，要求对人工智能模型开展独立核验，并成立专家委员会研究可对失控智能体启用的 kill switch 等措施；其内容与他 2024 年否决的类似立法方向相近。分析人士认为此举与他布局 2028 年总统竞选、回应选民对 AI 安全与就业担忧有关。"
-    },
-    {
-     "title": "G30 曼谷研讨会：英国央行行长贝利等呼吁加强 AI 模型发布前后测试、支付系统内建反欺诈，称“模型武装了进攻方，也得武装防守方”",
-     "url": "https://www.nationthailand.com/business/banking-finance/40072426",
-     "source": "The Nation Thailand",
-     "date": "2026-10-17",
-     "summary": "据 The Nation 报道，10 月 17 日在 IMF/世行年会期间举行的 G30 第 41 届国际银行研讨会上，英国央行行长 Andrew Bailey、IMF 总裁格奥尔基耶娃、韩国央行行长申铉松与尼日利亚央行行长 Cardoso 一致认为 AI 正重塑全球金融、设立护栏的窗口正迅速关闭：Bailey 主张在商用发布前后都执行更强的模型测试标准，并称开放权重模型比 Anthropic Mythos 等前沿系统更难评估；申铉松强调资本要求、杠杆限制等传统工具；格奥尔基耶娃认为成立全球网络安全组织太慢，政府应要求开发者完全透明。"
     },
     {
      "title": "The Verge：Meta 在舆论压力下删除商业条款中可能允许其爬取新闻网站训练 AI 的措辞",
@@ -386,21 +386,21 @@
    "icon": "⭐",
    "items": [
     {
-     "title": "LiCinCan/blender-ai-mcp-addon",
-     "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+     "title": "cranebeaker/coop-anything",
+     "url": "https://github.com/cranebeaker/coop-anything",
      "source": "GitHub",
-     "stars": 747,
+     "stars": 331,
      "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-18",
-     "summary": "Blender 的 AI 助手插件兼 MCP Server：支持可视化对话、场景工具与多智能体工作流，可接入 OpenAI、Claude、Gemini、Ollama、OpenCode 等，MIT 许可。",
-     "why": "10 月 16 日（UTC+8）创建，约 3 天累计约 750 星，AI 驱动 3D 创作热度上升。"
+     "language": "C",
+     "date": "2026-10-19",
+     "summary": "让 AI 编码智能体（Claude Code、Codex、Gemini CLI、Cursor、OpenCode 等）把任意单机游戏改造成可联机合作：智能体按 AGENTS.md 与技能调研现有 mod、必要时逆向游戏与引擎、在游戏内用机器人测试，并打包为可经 Steam 一键加入的联机版本；附带 MCP Server，MIT 许可。",
+     "why": "10 月 16 日创建，约 3 天累计 330 余星；已发布《杀出重围》联机版，《辐射：新维加斯》《塞尔达：时之笛》等进行中，是“智能体逆向工程”热潮（REA 等）的新应用。"
     },
     {
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 96176,
+     "stars": 96251,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-18",
@@ -411,7 +411,7 @@
      "title": "anthropics/claude-plugins-official",
      "url": "https://github.com/anthropics/claude-plugins-official",
      "source": "GitHub",
-     "stars": 42394,
+     "stars": 42435,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -422,7 +422,7 @@
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 76354,
+     "stars": 76377,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-18",
@@ -433,7 +433,7 @@
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 54410,
+     "stars": 54438,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -444,7 +444,7 @@
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 10291,
+     "stars": 10313,
      "stars_week": null,
      "language": "Rust",
      "date": "2026-10-18",
@@ -455,7 +455,7 @@
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 51951,
+     "stars": 52109,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -466,7 +466,7 @@
      "title": "debpalash/VoiceStudio",
      "url": "https://github.com/debpalash/VoiceStudio",
      "source": "GitHub",
-     "stars": 74532,
+     "stars": 74632,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -487,9 +487,9 @@
      "date": "2026-10-18",
      "summary": "Andrew Curran：OpenCode 正遭受持续网络攻击，事故处理中遇到与 Hugging Face 此前相同的问题——用于防御的前沿模型在分析攻击时触发安全护栏，开始拒绝协助对抗攻击智能体；其引用的回复称“现在拿到了 daybreak blue 的访问权限，情况好些了”。",
      "metrics": {
-      "likes": 180,
-      "reposts": 25,
-      "views": 5897
+      "likes": 1219,
+      "reposts": 109,
+      "views": 42601
      }
     },
     {
@@ -499,9 +499,9 @@
      "date": "2026-10-18",
      "summary": "马斯克称 Optimus 与 Cybercab 将占特斯拉价值的绝大部分；能经济地扩张到“K2 及以上”规模的只有超级智能、机器人、太阳能与入轨运力，且前两者会带动其余。",
      "metrics": {
-      "likes": 16482,
-      "reposts": 1222,
-      "views": 538314
+      "likes": 22257,
+      "reposts": 1609,
+      "views": 935988
      }
     },
     {
@@ -511,9 +511,9 @@
      "date": "2026-10-18",
      "summary": "马斯克回应向 Grok Bot 出示信用卡截图以完成下单：称这是最简单的方式，除非使用安全保险库；调侃“把信用卡交给餐厅陌生人可以，交给 Grok Bot 却觉得奇怪”。",
      "metrics": {
-      "likes": 6120,
-      "reposts": 708,
-      "views": 1702405
+      "likes": 7487,
+      "reposts": 860,
+      "views": 2132832
      }
     },
     {
@@ -523,9 +523,9 @@
      "date": "2026-10-18",
      "summary": "Epic CEO Tim Sweeney 长文：写 Unreal Engine 1 时约 70% 时间只是敲代码和重构，交给 AI 理所当然；更意外的是 AI 像“即时版 Carmack”能巧妙解决硬核技术问题、并直接理解和操作复杂 3D 场景，重要的是最终产品。",
      "metrics": {
-      "likes": 10916,
-      "reposts": 968,
-      "views": 753205
+      "likes": 14522,
+      "reposts": 1286,
+      "views": 1075031
      }
     },
     {
@@ -535,9 +535,9 @@
      "date": "2026-10-18",
      "summary": "世界模型公司 Odyssey：把果蝇大脑模型放进其前沿世界模型 Odyssey-3，让这只“小家伙”在完全由模型想象生成的模拟世界中自主飞行（附 30 秒视频），引发广泛讨论。",
      "metrics": {
-      "likes": 9485,
-      "reposts": 944,
-      "views": 1793723
+      "likes": 13489,
+      "reposts": 1263,
+      "views": 3060172
      }
     },
     {
@@ -547,9 +547,9 @@
      "date": "2026-10-18",
      "summary": "Meta 首席 AI 官 Alexandr Wang 晒出 Muse Wonder Full 在 VulcanBench 上的成绩：整体与 GPT-6 Astra、Claude Opus 5.5、Sol 6.1 相当，但速度明显更慢，团队正在优化。",
      "metrics": {
-      "likes": 472,
-      "reposts": 22,
-      "views": 42906
+      "likes": 520,
+      "reposts": 27,
+      "views": 51571
      }
     },
     {
@@ -559,9 +559,9 @@
      "date": "2026-10-18",
      "summary": "Reflection：Beam 在 24 小时内服务了 1 万亿 token，为此重置所有用户的用量限额。",
      "metrics": {
-      "likes": 197,
-      "reposts": 23,
-      "views": 16976
+      "likes": 377,
+      "reposts": 37,
+      "views": 46853
      }
     },
     {
@@ -571,9 +571,9 @@
      "date": "2026-10-18",
      "summary": "Andrew Curran 发现 OpenAI API 中悄然出现三个神秘新模型：aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha，OpenAI 尚未公布任何说明或定价。",
      "metrics": {
-      "likes": 691,
-      "reposts": 34,
-      "views": 29367
+      "likes": 2127,
+      "reposts": 74,
+      "views": 142767
      }
     }
    ]

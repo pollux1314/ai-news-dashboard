@@ -1,7 +1,33 @@
 {
- "updated": "2026-10-18T23:35:00+08:00",
- "count": 510,
+ "updated": "2026-10-19T00:35:00+08:00",
+ "count": 513,
  "items": [
+  {
+   "title": "cranebeaker/coop-anything",
+   "url": "https://github.com/cranebeaker/coop-anything",
+   "source": "GitHub",
+   "stars": 331,
+   "stars_week": null,
+   "language": "C",
+   "date": "2026-10-19",
+   "summary": "让 AI 编码智能体（Claude Code、Codex、Gemini CLI、Cursor、OpenCode 等）把任意单机游戏改造成可联机合作：智能体按 AGENTS.md 与技能调研现有 mod、必要时逆向游戏与引擎、在游戏内用机器人测试，并打包为可经 Steam 一键加入的联机版本；附带 MCP Server，MIT 许可。",
+   "why": "10 月 16 日创建，约 3 天累计 330 余星；已发布《杀出重围》联机版，《辐射：新维加斯》《塞尔达：时之笛》等进行中，是“智能体逆向工程”热潮（REA 等）的新应用。",
+   "id": "daa98ecb15f376b112ecd1ee3c10899d363837f8",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-19T00:35:00+08:00"
+  },
+  {
+   "title": "索尼新专利：AI 在 GPU 完成渲染前预测下一帧画面，减少游戏卡顿并规避插帧额外延迟",
+   "url": "https://www.ithome.com/1/014/615.htm",
+   "source": "IT之家（援引 TechSpot）",
+   "date": "2026-10-18",
+   "summary": "据 TechSpot 报道，索尼近期申请一项专利：用 AI 根据已渲染画面直接预测下一帧，而不必像传统帧生成那样等待两帧渲染完成再插值，从而稳定帧输出节奏并避免额外延迟。系统用联合训练的编解码器把渲染画面转为嵌入表示，与图形管线并行运行，还可利用运动矢量和玩家近期的手柄操作辅助预测。实际效果取决于 AI 能否足够快且准确地生成画面。",
+   "id": "daa5890012f2836f5550f5ad668f6242d86c400b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T00:35:00+08:00"
+  },
   {
    "title": "首尔经济日报：三星将采用台积电 3nm 工艺为英伟达定制 HBM（NVHBM）生产基底裸片，打破一站式自产模式",
    "url": "https://www.ithome.com/1/014/612.htm",
@@ -57,9 +83,9 @@
    "date": "2026-10-18",
    "summary": "Andrew Curran：OpenCode 正遭受持续网络攻击，事故处理中遇到与 Hugging Face 此前相同的问题——用于防御的前沿模型在分析攻击时触发安全护栏，开始拒绝协助对抗攻击智能体；其引用的回复称“现在拿到了 daybreak blue 的访问权限，情况好些了”。",
    "metrics": {
-    "likes": 180,
-    "reposts": 25,
-    "views": 5897
+    "likes": 1219,
+    "reposts": 109,
+    "views": 42601
    },
    "id": "5147c4aed7e686a776aefee87d3d4df1b403df4b",
    "module": "x",
@@ -128,9 +154,9 @@
    "date": "2026-10-18",
    "summary": "马斯克称 Optimus 与 Cybercab 将占特斯拉价值的绝大部分；能经济地扩张到“K2 及以上”规模的只有超级智能、机器人、太阳能与入轨运力，且前两者会带动其余。",
    "metrics": {
-    "likes": 16482,
-    "reposts": 1222,
-    "views": 538314
+    "likes": 22257,
+    "reposts": 1609,
+    "views": 935988
    },
    "id": "f36218b9d7e17932ff00eaf3fbd1ddf5a84914b4",
    "module": "x",
@@ -144,9 +170,9 @@
    "date": "2026-10-18",
    "summary": "马斯克回应向 Grok Bot 出示信用卡截图以完成下单：称这是最简单的方式，除非使用安全保险库；调侃“把信用卡交给餐厅陌生人可以，交给 Grok Bot 却觉得奇怪”。",
    "metrics": {
-    "likes": 6120,
-    "reposts": 708,
-    "views": 1702405
+    "likes": 7487,
+    "reposts": 860,
+    "views": 2132832
    },
    "id": "935476552db3a16750ce1fe2ac056431b5e8ebb5",
    "module": "x",
@@ -279,9 +305,9 @@
    "date": "2026-10-18",
    "summary": "Epic CEO Tim Sweeney 长文：写 Unreal Engine 1 时约 70% 时间只是敲代码和重构，交给 AI 理所当然；更意外的是 AI 像“即时版 Carmack”能巧妙解决硬核技术问题、并直接理解和操作复杂 3D 场景，重要的是最终产品。",
    "metrics": {
-    "likes": 10916,
-    "reposts": 968,
-    "views": 753205
+    "likes": 14522,
+    "reposts": 1286,
+    "views": 1075031
    },
    "id": "89e9b24e583939f1171e8d66ac3d529b04dee85a",
    "module": "x",
@@ -295,9 +321,9 @@
    "date": "2026-10-18",
    "summary": "世界模型公司 Odyssey：把果蝇大脑模型放进其前沿世界模型 Odyssey-3，让这只“小家伙”在完全由模型想象生成的模拟世界中自主飞行（附 30 秒视频），引发广泛讨论。",
    "metrics": {
-    "likes": 9485,
-    "reposts": 944,
-    "views": 1793723
+    "likes": 13489,
+    "reposts": 1263,
+    "views": 3060172
    },
    "id": "3f6016a5fcd910e8367e29828c5fe0c82b4ebe55",
    "module": "x",
@@ -453,9 +479,9 @@
    "date": "2026-10-18",
    "summary": "Meta 首席 AI 官 Alexandr Wang 晒出 Muse Wonder Full 在 VulcanBench 上的成绩：整体与 GPT-6 Astra、Claude Opus 5.5、Sol 6.1 相当，但速度明显更慢，团队正在优化。",
    "metrics": {
-    "likes": 472,
-    "reposts": 22,
-    "views": 42906
+    "likes": 520,
+    "reposts": 27,
+    "views": 51571
    },
    "id": "5be1e0ad5479eda0e1710aad854bac2b3ecffea2",
    "module": "x",
@@ -521,9 +547,9 @@
    "date": "2026-10-18",
    "summary": "Reflection：Beam 在 24 小时内服务了 1 万亿 token，为此重置所有用户的用量限额。",
    "metrics": {
-    "likes": 197,
-    "reposts": 23,
-    "views": 16976
+    "likes": 377,
+    "reposts": 37,
+    "views": 46853
    },
    "id": "966402a94a2bb84da11c00a8f76876731ae4f0f1",
    "module": "x",
@@ -559,9 +585,9 @@
    "date": "2026-10-18",
    "summary": "Andrew Curran 发现 OpenAI API 中悄然出现三个神秘新模型：aurora-red-alpha、aurora-green-alpha、aurora-blue-alpha，OpenAI 尚未公布任何说明或定价。",
    "metrics": {
-    "likes": 691,
-    "reposts": 34,
-    "views": 29367
+    "likes": 2127,
+    "reposts": 74,
+    "views": 142767
    },
    "id": "2cf0a31d63ebce2c30f1447a0d87d660e024ac84",
    "module": "x",
@@ -947,7 +973,7 @@
    "title": "akitaonrails/ai-memory",
    "url": "https://github.com/akitaonrails/ai-memory",
    "source": "GitHub",
-   "stars": 10291,
+   "stars": 10313,
    "stars_week": null,
    "language": "Rust",
    "date": "2026-10-18",
@@ -962,7 +988,7 @@
    "title": "stablyai/orca",
    "url": "https://github.com/stablyai/orca",
    "source": "GitHub",
-   "stars": 96176,
+   "stars": 96251,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-18",
@@ -1055,7 +1081,7 @@
    "title": "MadsLorentzen/ai-job-search",
    "url": "https://github.com/MadsLorentzen/ai-job-search",
    "source": "GitHub",
-   "stars": 51951,
+   "stars": 52109,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
@@ -1081,7 +1107,7 @@
    "title": "HKUDS/CLI-Anything",
    "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "GitHub",
-   "stars": 54410,
+   "stars": 54438,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
@@ -1112,7 +1138,7 @@
    "title": "ruvnet/ruflo",
    "url": "https://github.com/ruvnet/ruflo",
    "source": "GitHub",
-   "stars": 76354,
+   "stars": 76377,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-18",
@@ -1127,7 +1153,7 @@
    "title": "anthropics/claude-plugins-official",
    "url": "https://github.com/anthropics/claude-plugins-official",
    "source": "GitHub",
-   "stars": 42394,
+   "stars": 42435,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
@@ -1142,7 +1168,7 @@
    "title": "debpalash/VoiceStudio",
    "url": "https://github.com/debpalash/VoiceStudio",
    "source": "GitHub",
-   "stars": 74532,
+   "stars": 74632,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
@@ -1152,6 +1178,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "《纽约时报》/Wesleyan：2026 美国中期选举 AI 生成广告投放已超 1.37 亿美元，仅 27% 标注使用 AI",
+   "url": "https://gizmodo.com/137-million-has-been-spent-on-ai-generated-ads-ahead-of-midterms-only-27-included-a-disclaimer-2000827138",
+   "source": "Gizmodo（援引 NYT、Wesleyan Media Project）",
+   "date": "2026-10-17",
+   "summary": "Wesleyan Media Project 数据显示，今年中期选举中至少部分由 AI 制作的政治广告投放已超 1.37 亿美元，覆盖 34 个州共 220 条广告，而 2024 年周期同类支出不足 5 万美元。其中仅 27% 附有 AI 披露声明，近半数含真实政客的深度伪造形象；共和党候选人及团体占广告数的 81%、支出的 88%。目前仅 30 个州要求政治广告披露 AI 使用，距投票只剩两周多。",
+   "id": "c8dc816f11625579d2153f31ec049ab1d881b927",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-19T00:35:00+08:00"
   },
   {
    "title": "至少八个美国州起诉 OpenAI：指控 ChatGPT 伤害未成年人，并催生“网络黑客智能体”",
