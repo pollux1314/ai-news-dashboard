@@ -1,7 +1,39 @@
 {
- "updated": "2026-10-19T03:30:00+08:00",
- "count": 519,
+ "updated": "2026-10-19T04:30:00+08:00",
+ "count": 522,
  "items": [
+  {
+   "title": "@AndrewCurran_",
+   "url": "https://x.com/AndrewCurran_/status/2111889465438601604",
+   "source": "@AndrewCurran_",
+   "date": "2026-10-19",
+   "summary": "解读 Anthropic 公益基金：最关键的一句是“直接向特定人群分配”，看起来像是在筹划自主主导的全球 UBI；并称约半数 Anthropic 员工也在把自己的股份捐入该基金。",
+   "metrics": {
+    "likes": 1059,
+    "reposts": 62,
+    "views": 38757
+   },
+   "id": "b80284f4e75a1f1186b891a9260c6232541e5305",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T04:30:00+08:00"
+  },
+  {
+   "title": "@kimmonismus",
+   "url": "https://x.com/kimmonismus/status/2111879755741950184",
+   "source": "@kimmonismus",
+   "date": "2026-10-19",
+   "summary": "转述 Anthropic 联合创始人 Jack Clark 的说法：“我相信今年我们已获得令人信服的证据，表明奇点已经开始”，并评论称无论外界信不信，Anthropic 都按已进入奇点来行事。",
+   "metrics": {
+    "likes": 777,
+    "reposts": 52,
+    "views": 21849
+   },
+   "id": "10b557fb271b3ce25fb663508317232122f0147c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T04:30:00+08:00"
+  },
   {
    "title": "@AnthropicAI",
    "url": "https://x.com/AnthropicAI/status/2111881963657412903",
@@ -74,6 +106,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-17T22:30:00+08:00"
+  },
+  {
+   "title": "澎湃新闻：《五台山研究》《沈阳师范大学学报》《青年学报》等多家期刊宣布拒收 AI 参与撰写的稿件，连 AI 润色也不行",
+   "url": "https://www.thepaper.cn/newsDetail_forward_34276234",
+   "source": "澎湃新闻",
+   "date": "2026-10-18",
+   "summary": "《五台山研究》10 月 15 日称来稿中出现内容空泛、篡改引文、虚构文献等 AI 痕迹，宣布拒绝任何利用 AI 生成、改写、润色或翻译的论文，违者退稿并可限制后续投稿；沈阳师范大学学报三刊暂不接收 AI 代写、润色、改写稿件；《青年学报》亦暂不接收 AI 参与撰写（含润色）的来稿，并欢迎“手搓”稿件。报道指出，此前多数期刊仍允许 AI 用于语言润色、文献检索等非核心环节。",
+   "id": "6d41c7d6a700ffb8fabdebfc368e194ab58faf64",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T04:30:00+08:00"
   },
   {
    "title": "Anthropic 设立“Anthropic 公益基金”：首批承诺 5% 公司股份，估值每较基准上涨 50% 可再追加 2%",
