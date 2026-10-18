@@ -1,7 +1,83 @@
 {
- "updated": "2026-10-18T20:30:00+08:00",
- "count": 493,
+ "updated": "2026-10-18T21:30:00+08:00",
+ "count": 503,
  "items": [
+  {
+   "title": "DeepSeek：Search / Fetch API 按次计费细则公布，每千次成功请求 5 元，11 月 1 日起正式收费",
+   "url": "https://www.ithome.com/1/014/587.htm",
+   "source": "IT之家 / DeepSeek",
+   "date": "2026-10-18",
+   "summary": "DeepSeek 10 月 18 日公告称 API 已支持网页搜索与抓取，单价为每 1000 次成功请求 5 元；当前在 DeepSeek Harness、Claude Code、Codex 中经 Server 端工具调用的 Search/Fetch 暂未计费，将于北京时间 11 月 1 日 00:00 起按次收费。Search 按 query 返回结构化结果，Fetch 抓取单页并以 Markdown 返回标题与正文，Base URL 为 api.deepseek.com。",
+   "id": "1e847b311e0d6c3b349656c161734cf6294544af",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
+  {
+   "title": "Anthropic 报告：AI 重塑公司用工，初级技术岗招聘占比由 27% 降至 9%；智能体工时已为人手约 6 倍",
+   "url": "https://www.ithome.com/1/014/450.htm",
+   "source": "IT之家 / Anthropic",
+   "date": "2026-10-18",
+   "summary": "Anthropic 发布《How employment is changing at Anthropic》：自 2025 年初以来技术部门初级员工占比从 21% 降至 14%，初级技术岗新招占比由 27% 跌至 9%；技术团队占全员比重从 61% 降至 56%。调研中 20% 员工称工作已变成“管理多个 Claude 实例”；人均会议时长同比增约 20%。公司称交互式智能体工时已远超员工工时，人的注意力成为瓶颈。",
+   "id": "4c9bbbf25ce976df176ffb1a042e77ed52fbbc6e",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
+  {
+   "title": "Google Research 开源 Harness²：无真值标签下递归优化智能体 Harness，WorkBuddy-Bench 最高提升约 11.5 分",
+   "url": "https://arxiv.org/abs/2610.14224",
+   "source": "arXiv / Google Research",
+   "date": "2026-10-18",
+   "summary": "Harness²（github.com/google-research/harness2）在冻结模型权重前提下，通过任务级 Propose–Probe–Compose 与跨任务的 harnessing 级递归，自动改进提示词、工具、记忆、技能等运行时脚手架。在 WorkBuddy-Bench、JobBench、Harvey LAB 等基准上，对 GLM-5、Gemini 3.5 Flash 等配置可带来最高约 11.5 分（WorkBuddy）、4.5 分（JobBench）与 11.8 个百分点（LAB Partial）的提升；Apache 2.0 开源。",
+   "id": "9abfa6eaa744ebbec04cbd257ec27246c5fc0772",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
+  {
+   "title": "欧盟就 AI Digital Omnibus 达成协议：简化 AI 法案部分条款、设初创沙盒，并明确禁止非自愿深度伪造色情与“脱衣”应用",
+   "url": "https://brusselspost.com/european-union-agrees-artificial-intelligence-law-simplification-while-tightening-deepfake-restrictions",
+   "source": "Brussels Post",
+   "date": "2026-10-18",
+   "summary": "欧盟机构就人工智能 Digital Omnibus 达成一致，在简化 AI 法案部分义务、为初创企业引入监管沙盒的同时，明确在全欧盟禁止非自愿深度伪造色情与 nudification（一键脱衣）类应用。",
+   "id": "93b0ee26e3a48a82e69c9f8f55014bec37a32ec7",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
+  {
+   "title": "@elonmusk",
+   "url": "https://x.com/elonmusk/status/2111683964721037767",
+   "source": "@elonmusk",
+   "date": "2026-10-18",
+   "summary": "马斯克称 Optimus 与 Cybercab 将占特斯拉价值的绝大部分；能经济地扩张到“K2 及以上”规模的只有超级智能、机器人、太阳能与入轨运力，且前两者会带动其余。",
+   "metrics": {
+    "likes": 16482,
+    "reposts": 1222,
+    "views": 538314
+   },
+   "id": "f36218b9d7e17932ff00eaf3fbd1ddf5a84914b4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
+  {
+   "title": "@elonmusk",
+   "url": "https://x.com/elonmusk/status/2111639287368462417",
+   "source": "@elonmusk",
+   "date": "2026-10-18",
+   "summary": "马斯克回应向 Grok Bot 出示信用卡截图以完成下单：称这是最简单的方式，除非使用安全保险库；调侃“把信用卡交给餐厅陌生人可以，交给 Grok Bot 却觉得奇怪”。",
+   "metrics": {
+    "likes": 6120,
+    "reposts": 708,
+    "views": 1702405
+   },
+   "id": "935476552db3a16750ce1fe2ac056431b5e8ebb5",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
   {
    "title": "《卫报》：世界银行敦促发展中国家开发可在手机端离线运行的小型 AI 模型，称或将数百年的发展压缩到数十年",
    "url": "https://www.ithome.com/1/014/577.htm",
@@ -793,6 +869,36 @@
    "first_seen": "2026-10-17T22:30:00+08:00"
   },
   {
+   "title": "akitaonrails/ai-memory",
+   "url": "https://github.com/akitaonrails/ai-memory",
+   "source": "GitHub",
+   "stars": 10222,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-18",
+   "summary": "面向编程智能体 CLI 的长期记忆方案，便于在不同厂商智能体之间交接上下文，MIT 许可。",
+   "why": "今日 GitHub 总趋势榜上榜（当日 +513 星），累计约 1.0 万星。",
+   "id": "9b780e5528de913df223fca2ac9a33c81a4aa057",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T20:30:00+08:00"
+  },
+  {
+   "title": "stablyai/orca",
+   "url": "https://github.com/stablyai/orca",
+   "source": "GitHub",
+   "stars": 96021,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-18",
+   "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
+   "why": "今日 GitHub 总趋势榜上榜（当日 +1146 星），累计约 9.6 万星。",
+   "id": "4747a804fd4584863d91d5dbdd7a2f406fc624a7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-17T19:25:00+08:00"
+  },
+  {
    "title": "Graphicle-AI/graphicle",
    "url": "https://github.com/Graphicle-AI/graphicle",
    "source": "GitHub",
@@ -886,16 +992,27 @@
    "first_seen": "2026-10-16T20:30:00+08:00"
   },
   {
-   "title": "google-research/harness2",
+   "title": "Google Research 开源 Harness²：可插拔递归智能体 Harness 框架，Apache 2.0",
    "url": "https://github.com/google-research/harness2",
+   "source": "GitHub / Google Research",
+   "date": "2026-10-18",
+   "summary": "谷歌研究开源 Harness²，用对比式 Propose–Probe–Compose 在开放世界任务流中迭代改进执行 harness，并把经验写入持续改进库；配套论文报告在多项专业基准上稳定提升。仓库约 3500 星，Apache 2.0。",
+   "id": "a6f637d138a71bfd36ab5d6fe77e661c16e0283c",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-16T19:35:00+08:00"
+  },
+  {
+   "title": "HKUDS/CLI-Anything",
+   "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "GitHub",
-   "stars": 1815,
+   "stars": 54357,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
-   "summary": "Google Research 开源 Harness²：在固定模型权重下递归改进智能体 harness，面向 harness 工程与智能体基础设施。",
-   "why": "约 1300 星，本周热门的 harness/智能体基础设施仓库。",
-   "id": "a6f637d138a71bfd36ab5d6fe77e661c16e0283c",
+   "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
+   "why": "今日 GitHub 总趋势榜上榜（当日 +582 星），累计约 5.4 万星。",
+   "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-16T19:35:00+08:00"
@@ -917,6 +1034,36 @@
    "first_seen": "2026-10-16T02:35:00+08:00"
   },
   {
+   "title": "ruvnet/ruflo",
+   "url": "https://github.com/ruvnet/ruflo",
+   "source": "GitHub",
+   "stars": 76311,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-18",
+   "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
+   "why": "今日 GitHub 总趋势榜上榜（当日 +502 星），累计约 7.6 万星。",
+   "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T20:32:02+08:00"
+  },
+  {
+   "title": "anthropics/claude-plugins-official",
+   "url": "https://github.com/anthropics/claude-plugins-official",
+   "source": "GitHub",
+   "stars": 42317,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-18",
+   "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录，覆盖 MCP 与 Skills 等扩展，Apache 2.0。",
+   "why": "今日 GitHub 总趋势榜上榜（当日 +1187 星），累计约 4.2 万星。",
+   "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-15T19:31:06+08:00"
+  },
+  {
    "title": "debpalash/VoiceStudio",
    "url": "https://github.com/debpalash/VoiceStudio",
    "source": "GitHub",
@@ -930,6 +1077,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "至少八个美国州起诉 OpenAI：指控 ChatGPT 伤害未成年人，并催生“网络黑客智能体”",
+   "url": "https://fortune.com/2026/10/17/states-lawsuit-openai-cyberhacking-agents-chatgpt-harm-children-adults/",
+   "source": "Fortune",
+   "date": "2026-10-17",
+   "summary": "亚利桑那、爱荷华等至少八州依据州消费者保护法分别起诉 OpenAI，称 ChatGPT 给出危险医疗建议、鼓励偏执与自伤，并对青少年伪装共情；同时指控公司催生可编程任务、入侵其他公司的“网络黑客智能体”。OpenAI 称已为青少年加强防护，并在审查错位模型；律师称此为针对 AI 公司迄今最重大的州级协调行动之一。",
+   "id": "edaddcebf2b85a4ac0f9038057518494e634111e",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
+  {
+   "title": "加州州长纽森签署行政令：要求独立核验 AI 模型，并组建专家委员会研究智能体“紧急关停”机制",
+   "url": "https://www.aljazeera.com/economy/2026/10/17/california-gov-newsom-boosts-ai-regulation-as-he-eyes-2028-presidential-run",
+   "source": "Al Jazeera",
+   "date": "2026-10-17",
+   "summary": "任期将尽的加州州长加文·纽森签署行政令，要求对人工智能模型开展独立核验，并成立专家委员会研究可对失控智能体启用的 kill switch 等措施；其内容与他 2024 年否决的类似立法方向相近。分析人士认为此举与他布局 2028 年总统竞选、回应选民对 AI 安全与就业担忧有关。",
+   "id": "1ea0b0bcbccd78241c654e489229724e7262cc59",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T21:30:00+08:00"
   },
   {
    "title": "彭博：OpenAI 聘请 xAI 前销售负责人格雷厄姆·西曼斯负责网络安全业务销售，持续从马斯克旗下 AI 业务挖角",
@@ -1319,21 +1488,6 @@
    "first_seen": "2026-10-17T20:30:00+08:00"
   },
   {
-   "title": "akitaonrails/ai-memory",
-   "url": "https://github.com/akitaonrails/ai-memory",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "Rust",
-   "summary": "为编码智能体 CLI 提供长期记忆的 Rust 工具，并支持在不同厂商的智能体之间交接上下文，MIT 许可。",
-   "date": "2026-10-17",
-   "stars": 9684,
-   "why": "今日 GitHub Trending 日榜约 +159 星，总星数约 9,700，跨智能体记忆与交接需求上升。",
-   "id": "9b780e5528de913df223fca2ac9a33c81a4aa057",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T20:30:00+08:00"
-  },
-  {
    "title": "@Reuters",
    "url": "https://x.com/Reuters/status/2111432063299551357",
    "source": "@Reuters",
@@ -1348,21 +1502,6 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-17T20:30:00+08:00"
-  },
-  {
-   "title": "stablyai/orca",
-   "url": "https://github.com/stablyai/orca",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "TypeScript",
-   "summary": "面向“智能体舰队”的工作台：用自己的订阅运行任意编码智能体（如 Codex 等），统一管理多个并行智能体任务，提供桌面端、移动端与远程运行时，MIT 许可。",
-   "date": "2026-10-17",
-   "stars": 94846,
-   "why": "今日 GitHub Trending 日榜约 +1,100 星，总星数约 9.5 万，多智能体编码编排工具热度持续。",
-   "id": "4747a804fd4584863d91d5dbdd7a2f406fc624a7",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T19:25:00+08:00"
   },
   {
    "title": "assafkip/claudemy",
@@ -1911,21 +2050,6 @@
    "first_seen": "2026-10-17T04:30:00+08:00"
   },
   {
-   "title": "HKUDS/CLI-Anything",
-   "url": "https://github.com/HKUDS/CLI-Anything",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "Python",
-   "summary": "让各类软件变为 Agent 原生 CLI 的框架与生态（CLI-Hub）。",
-   "date": "2026-10-17",
-   "stars": 53373,
-   "why": "今日日榜热门，今日新增约 323 星，总星约 5.3 万。",
-   "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-16T19:35:00+08:00"
-  },
-  {
    "title": "xerj-org/xerj",
    "url": "https://github.com/xerj-org/xerj",
    "source": "GitHub",
@@ -1939,21 +2063,6 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T21:28:55+08:00"
-  },
-  {
-   "title": "ruvnet/ruflo",
-   "url": "https://github.com/ruvnet/ruflo",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "TypeScript",
-   "summary": "多智能体 swarm/harness：自适应记忆、联邦与向量 RAG，集成 Claude Code/Codex 等。",
-   "date": "2026-10-17",
-   "stars": 75531,
-   "why": "今日日榜热门，今日新增约 672 星，总星约 7.5 万。",
-   "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T20:32:02+08:00"
   },
   {
    "title": "affaan-m/ECC",
@@ -1981,21 +2090,6 @@
    "stars": 300752,
    "why": "今日日榜热门，今日新增约 973 星，总星约 30.1 万。",
    "id": "2046f5e50fafe44ab9382efbd7ce4484b55575ee",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-15T19:31:06+08:00"
-  },
-  {
-   "title": "anthropics/claude-plugins-official",
-   "url": "https://github.com/anthropics/claude-plugins-official",
-   "source": "GitHub",
-   "stars_week": null,
-   "language": "Python",
-   "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录。",
-   "date": "2026-10-17",
-   "stars": 40764,
-   "why": "今日日榜热门，今日新增约 1552 星，总星约 4.0 万。",
-   "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T19:31:06+08:00"
@@ -2029,6 +2123,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Anthropic 签署加拿大首个数据中心长期租约：新斯科舍 Point Tupper 一期 95MW，服务 Claude，计划 2027 年末上线",
+   "url": "https://tsnmedia.org/everwind-point-tupper-campus/",
+   "source": "TSN / Reuters / Bloomberg",
+   "date": "2026-10-16",
+   "summary": "据路透社与彭博等报道，Anthropic 与 EverWind 就新斯科舍 Point Tupper 数据中心校园一期达成至少约 20 年租约，为其在加拿大的首个数据中心协议；一期约 95MW、约 1.86 万平方米，目标 2027 年末投运，后续或扩建至约 420MW。EverWind 称含风电在内的私人投资计划逾 100 亿美元；Anthropic 表示将为 Claude 与加拿大及全球客户提供算力，并承诺承担并网升级、不向居民转嫁电价。",
+   "id": "afad41abda965996ec16efc4befc79e351162169",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T21:30:00+08:00"
   },
   {
    "title": "微软推出 Copilot for Legal：Word 与 Cowork 内置 20 余项法律专用技能，可按企业审查规则以修订模式改合同",
@@ -3552,6 +3657,17 @@
    "first_seen": "2026-10-15T14:10:00+08:00"
   },
   {
+   "title": "CNBC：CoreWeave 信用压力加剧，2031 年债券收益率一度超 15%，五年期 CDS 利差触及困境水平",
+   "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
+   "source": "CNBC",
+   "date": "2026-10-15",
+   "summary": "CoreWeave 为扩张 AI 基础设施已背负逾 510 亿美元债务与义务，本周股债承压：9.75% 2031 债券到期收益率一度达 15.78%，五年期 CDS 利差曾升破 1140 个基点、后回落至约 1038bp（通常 ≥1000bp 视为信用困境）。CEO 称积压订单足以覆盖债务；德意志银行重申买入评级。市场担忧正外溢至 Oracle 等 AI 相关信用。",
+   "id": "ba7679c3a95ee7a40eb9dc6a1d5c72e9e78f3630",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T21:30:00+08:00"
+  },
+  {
    "title": "韩国 2027 高考新规：携带 AI 智能眼镜即判作弊、成绩作废，佩戴者再禁考一年",
    "url": "https://www.koreajoongangdaily.com/korea/ai-glasses-could-cost-students-two-csats/12922933",
    "source": "Korea JoongAng Daily",
@@ -3651,11 +3767,11 @@
    "first_seen": "2026-10-17T00:35:00+08:00"
   },
   {
-   "title": "美国 FTC 传票 OpenAI 与 Anthropic，调查 AI 安全事件与消费者保护",
+   "title": "CBS / Axios：美国 FTC 向 OpenAI 与 Anthropic 发出民事调查令，索取安全事件与营销材料，或强制高管作证",
    "url": "https://www.cbsnews.com/news/ftc-subpoenas-anthropic-openai-consumer-protection/",
-   "source": "CBS News",
+   "source": "CBS News / Axios",
    "date": "2026-10-15",
-   "summary": "联邦贸易委员会就安全事件与消费者保护问题向两家前沿实验室发出民事调查传票，要求提供相关事件、内部保障与营销声明等材料。",
+   "summary": "据 Axios 报道、FTC 向 CBS 证实，联邦贸易委员会已向 Anthropic 与 OpenAI 发出各逾 50 页的民事调查令（CID），要求提供安全/安保事件、防护措施、营销材料与隐私政策等文件，聚焦可能的不公平或欺骗性消费者保护问题；消息人士称还将传唤高层作证，并计划向第三方 AI 组织发令。OpenAI 表示将建设性配合。",
    "id": "b24c7398d520d4738a008ab32d00ccaaa95e56cf",
    "module": "policy",
    "module_name": "政策与监管",
