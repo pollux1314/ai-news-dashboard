@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-18T07:30:00+08:00",
- "count": 435,
+ "updated": "2026-10-18T08:30:00+08:00",
+ "count": 437,
  "items": [
   {
    "title": "@TechCrunch",
@@ -408,6 +408,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T02:35:00+08:00"
+  },
+  {
+   "title": "Manifold AI 流形空间推出 WorldScape R²SI 机器人递归自进化框架，登顶 RoboDojo 总榜，超过 GPT-6 Astra 与英伟达 GR00T-N1.7",
+   "url": "https://feng.ifeng.com/c/8xIuPhHNWQl",
+   "source": "机器之心（凤凰网转载）",
+   "date": "2026-10-17",
+   "summary": "Manifold AI 的 R²SI 由内外双层智能体构成：内层 Robot Agent 按任务加载技能执行，外层 Recursion Agent 跨轮次复盘、修订技能并训练反应式动作模型，更新经测试后自动发布。结合一次示范即可学习新任务的 ICL 能力，系统在 RoboDojo 机器人操作基准 Agent 赛道位列第一；push_T 任务中动作步数经迭代从 596 步降至 389 步。",
+   "id": "8c49a3b5f50c72e64baded0dc1f2ff1898e6a216",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-18T08:30:00+08:00"
+  },
+  {
+   "title": "国产 AI 集合天气预报系统“风清”V1.0 投入业务运行：全球有效预报时效 11 天，部分指标优于 ECMWF 同类系统",
+   "url": "https://www.tmtpost.com/nictation/8171940.html",
+   "source": "钛媒体",
+   "date": "2026-10-17",
+   "summary": "由国家气象中心牵头，联合雄安气象人工智能创新研究院、国家气象信息中心和国家超算互联网等研制，依托国家超算互联网十万卡 AI4S 集群完成全链路训练，是国内首个数据、模型、算力全自主可控的气象 AI 集合预报业务模型；综合预报性能优于欧洲中期天气预报中心的 AI 集合预报系统。",
+   "id": "21375172749ee0c1efaf3023c103acbe7a4552e7",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-18T08:30:00+08:00"
   },
   {
    "title": "Anthropic 发布内部就业报告：初级技术岗招聘占比从 27% 降至 9%，员工指挥的智能体工时已达人类的 6 倍",
@@ -2231,14 +2253,14 @@
    "first_seen": "2026-10-16T22:31:00+08:00"
   },
   {
-   "title": "商务部、科技部拟管制 23 项 AI 技术出口：大模型、智能体与算力集群等入列",
+   "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
    "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
    "source": "商务部",
    "date": "2026-10-16",
-   "summary": "商务部与科技部就修订《中国禁止出口限制出口技术目录》征求意见，拟新增约 23 项人工智能相关条目，涵盖大模型训练与推理、智能体及算力集群等。",
+   "summary": "中国商务部、科技部发布征求意见稿，拟将约 23 项人工智能相关技术列入出口管制，覆盖大模型、智能体与算力集群等方向，以完善出口管制清单。",
    "id": "139deac0b8879a9f63e1988336477b899e7a9ed0",
-   "module": "china",
-   "module_name": "国内 AI 动态",
+   "module": "policy",
+   "module_name": "政策与监管",
    "first_seen": "2026-10-16T20:30:00+08:00"
   },
   {

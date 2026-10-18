@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-18T07:30:00+08:00",
+  "updated": "2026-10-18T08:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -323,6 +323,20 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "Manifold AI 流形空间推出 WorldScape R²SI 机器人递归自进化框架，登顶 RoboDojo 总榜，超过 GPT-6 Astra 与英伟达 GR00T-N1.7",
+          "url": "https://feng.ifeng.com/c/8xIuPhHNWQl",
+          "source": "机器之心（凤凰网转载）",
+          "date": "2026-10-17",
+          "summary": "Manifold AI 的 R²SI 由内外双层智能体构成：内层 Robot Agent 按任务加载技能执行，外层 Recursion Agent 跨轮次复盘、修订技能并训练反应式动作模型，更新经测试后自动发布。结合一次示范即可学习新任务的 ICL 能力，系统在 RoboDojo 机器人操作基准 Agent 赛道位列第一；push_T 任务中动作步数经迭代从 596 步降至 389 步。"
+        },
+        {
+          "title": "国产 AI 集合天气预报系统“风清”V1.0 投入业务运行：全球有效预报时效 11 天，部分指标优于 ECMWF 同类系统",
+          "url": "https://www.tmtpost.com/nictation/8171940.html",
+          "source": "钛媒体",
+          "date": "2026-10-17",
+          "summary": "由国家气象中心牵头，联合雄安气象人工智能创新研究院、国家气象信息中心和国家超算互联网等研制，依托国家超算互联网十万卡 AI4S 集群完成全链路训练，是国内首个数据、模型、算力全自主可控的气象 AI 集合预报业务模型；综合预报性能优于欧洲中期天气预报中心的 AI 集合预报系统。"
+        },
+        {
           "title": "微信鸿蒙版接入小艺语音操作：一句话即可发微信消息、打语音和视频电话",
           "url": "https://www.ithome.com/1/014/401.htm",
           "source": "IT之家",
@@ -363,20 +377,6 @@
           "source": "Pandaily",
           "date": "2026-10-17",
           "summary": "据 DeepSeek 中文 API 文档，Search 接口返回结构化网页结果（单次 1–50 条，支持 site:/lang:/after: 等运算符），Fetch 接口将单个网页转为 Markdown；均按成功请求计费、每千次 5 元，失败/空结果/超时不收费，账号级各 5 QPS。Search API 上线后两周内，经 Claude Code 与 Codex 触发的搜索暂不收费。"
-        },
-        {
-          "title": "库克确认：苹果智能接入阿里千问，10 月底中国测试版上线（不含 Siri AI）",
-          "url": "https://technode.com/2026/10/16/apple-intelligence-to-enter-china-beta-testing-this-month-tim-cook-c",
-          "source": "TechNode",
-          "date": "2026-10-16",
-          "summary": "苹果 CEO 库克确认 Apple Intelligence 已获准接入阿里通义千问，计划 10 月底在中国内地推出测试版；首批功能含实时翻译、写作工具与照片消除等，新版 Siri AI 不在本次测试范围。"
-        },
-        {
-          "title": "商务部、科技部拟管制 23 项 AI 技术出口：大模型、智能体与算力集群等入列",
-          "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
-          "source": "商务部",
-          "date": "2026-10-16",
-          "summary": "商务部与科技部就修订《中国禁止出口限制出口技术目录》征求意见，拟新增约 23 项人工智能相关条目，涵盖大模型训练与推理、智能体及算力集群等。"
         }
       ]
     },
