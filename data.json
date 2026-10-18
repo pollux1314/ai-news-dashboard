@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-18T22:35:00+08:00",
+ "updated": "2026-10-18T23:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,11 +71,11 @@
    "icon": "💰",
    "items": [
     {
-     "title": "Anthropic 签署加拿大首个数据中心长期租约：新斯科舍 Point Tupper 一期 95MW，服务 Claude，计划 2027 年末上线",
-     "url": "https://tsnmedia.org/everwind-point-tupper-campus/",
-     "source": "TSN / Reuters / Bloomberg",
-     "date": "2026-10-16",
-     "summary": "据路透社与彭博等报道，Anthropic 与 EverWind 就新斯科舍 Point Tupper 数据中心校园一期达成至少约 20 年租约，为其在加拿大的首个数据中心协议；一期约 95MW、约 1.86 万平方米，目标 2027 年末投运，后续或扩建至约 420MW。EverWind 称含风电在内的私人投资计划逾 100 亿美元；Anthropic 表示将为 Claude 与加拿大及全球客户提供算力，并承诺承担并网升级、不向居民转嫁电价。"
+     "title": "首尔经济日报：三星将采用台积电 3nm 工艺为英伟达定制 HBM（NVHBM）生产基底裸片，打破一站式自产模式",
+     "url": "https://www.ithome.com/1/014/612.htm",
+     "source": "IT之家 / 首尔经济日报",
+     "date": "2026-10-18",
+     "summary": "据报道，英伟达要求三家 NVHBM 供应商三星、SK 海力士和美光统一用台积电 3nm 工艺制造基底裸片，核心裸片统一采用 1c 第六代 DRAM 工艺，以保证性能一致并减少逐家验证工作量。NVHBM 基于 HBM4E 架构，是英伟达 8 月发布的定制版高带宽内存。三星已接受要求，但标准 HBM 及面向 AMD 等客户的定制 HBM 仍保留一站式自产，并在验证自有产线生产 NVHBM 基底裸片作为产能预案。"
     },
     {
      "title": "Anthropic 报告：AI 重塑公司用工，初级技术岗招聘占比由 27% 降至 9%；智能体工时已为人手约 6 倍",
@@ -83,13 +83,6 @@
      "source": "IT之家 / Anthropic",
      "date": "2026-10-18",
      "summary": "Anthropic 发布《How employment is changing at Anthropic》：自 2025 年初以来技术部门初级员工占比从 21% 降至 14%，初级技术岗新招占比由 27% 跌至 9%；技术团队占全员比重从 61% 降至 56%。调研中 20% 员工称工作已变成“管理多个 Claude 实例”；人均会议时长同比增约 20%。公司称交互式智能体工时已远超员工工时，人的注意力成为瓶颈。"
-    },
-    {
-     "title": "CNBC：CoreWeave 信用压力加剧，2031 年债券收益率一度超 15%，五年期 CDS 利差触及困境水平",
-     "url": "https://www.cnbc.com/2026/10/15/coreweave-credit-default-swaps-hit-distress-levels-as-investors-sour-on-ai-debt.html",
-     "source": "CNBC",
-     "date": "2026-10-15",
-     "summary": "CoreWeave 为扩张 AI 基础设施已背负逾 510 亿美元债务与义务，本周股债承压：9.75% 2031 债券到期收益率一度达 15.78%，五年期 CDS 利差曾升破 1140 个基点、后回落至约 1038bp（通常 ≥1000bp 视为信用困境）。CEO 称积压订单足以覆盖债务；德意志银行重申买入评级。市场担忧正外溢至 Oracle 等 AI 相关信用。"
     },
     {
      "title": "《卫报》：世界银行敦促发展中国家开发可在手机端离线运行的小型 AI 模型，称或将数百年的发展压缩到数十年",
@@ -125,6 +118,13 @@
      "source": "IT之家 / Axios",
      "date": "2026-10-18",
      "summary": "据 Axios 报道（经 IT之家转述），亚马逊云科技首席财务官 John Felton 表示 AI 基础设施与服务支出的繁荣是可持续的：AWS 的 AI 服务器投资回报周期不到三年，截至第二季度在手订单储备近 5000 亿美元，覆盖行业巨头、头部 AI 实验室与中小企业。AWS 第二季度营收 422 亿美元、同比增长 36.7%，AI 业务年化营收运行率已突破 250 亿美元。他认为应把 AI 视为生产力工具而非单纯降本工具。"
+    },
+    {
+     "title": "Anthropic 签署加拿大首个数据中心长期租约：新斯科舍 Point Tupper 一期 95MW，服务 Claude，计划 2027 年末上线",
+     "url": "https://tsnmedia.org/everwind-point-tupper-campus/",
+     "source": "TSN / Reuters / Bloomberg",
+     "date": "2026-10-16",
+     "summary": "据路透社与彭博等报道，Anthropic 与 EverWind 就新斯科舍 Point Tupper 数据中心校园一期达成至少约 20 年租约，为其在加拿大的首个数据中心协议；一期约 95MW、约 1.86 万平方米，目标 2027 年末投运，后续或扩建至约 420MW。EverWind 称含风电在内的私人投资计划逾 100 亿美元；Anthropic 表示将为 Claude 与加拿大及全球客户提供算力，并承诺承担并网升级、不向居民转嫁电价。"
     }
    ]
   },
@@ -197,6 +197,13 @@
    "icon": "🛠️",
    "items": [
     {
+     "title": "VAST 开源实时世界模型 EdenLive：单张 RTX 5090、720P 下 5B 模型超 24FPS，可任意参考输入、任意画风、分钟级连续生成",
+     "url": "https://www.qbitai.com/2026/10/504136.html",
+     "source": "量子位 / VAST",
+     "date": "2026-10-18",
+     "summary": "EdenLive 由上游交互系统维护世界状态与规则、生成模型负责视觉渲染：输入简化场景或参考视频，配合目标首帧和提示词，即可沿参考的布局与运动实时生成写实、二次元等画风画面，端到端延迟为百毫秒级，可用于游戏原型预览、视频重渲染换皮与具身数据增强。权重、推理代码与技术报告已在 GitHub 和 Hugging Face 公开，Apache 2.0 许可。"
+    },
+    {
      "title": "Google Research 开源 Harness²：可插拔递归智能体 Harness 框架，Apache 2.0",
      "url": "https://github.com/google-research/harness2",
      "source": "GitHub / Google Research",
@@ -244,13 +251,6 @@
      "source": "Hugging Face / Perplexity",
      "date": "2026-10-17",
      "summary": "Perplexity 在 Hugging Face 开放 pplx-decider-v1.2 与 pplx-decider-flash-v1.2 权重，支持文本与图像（最高约 1.6MP）；同一请求内多个问题可一次前向完成，推理最高快约 5 倍。模型卡显示其在 Decision Index 0.3 总分由 v1.1 的 62.30 升至 68.09，官方称 Flash 为该榜单最强 4B 模型。"
-    },
-    {
-     "title": "JetBrains 本地 AI 编程工具 Junie Local Day 0 适配英伟达 RTX Spark，Windows 支持转为稳定版：免注册、无 Token 费用与配额",
-     "url": "https://www.ithome.com/1/014/242.htm",
-     "source": "IT之家",
-     "date": "2026-10-16",
-     "summary": "据 IT之家，JetBrains 10 月 16 日公告 Junie Local 可在本机让 AI 读代码、改文件并运行测试，代码无需上传云端；RTX Spark 上初测生成速度最高约 55 token/s。除 RTX Spark 外，24GB 以上显存的 Ampere 及更新架构 RTX 显卡（如 3090、4090、32GB 的 5090）也可运行，需 Windows 11、581 及以上驱动与约 20GB 磁盘；安装程序会按可用显存调整上下文，可选 Qwen3.6-27B 或 JetBrains 融合模型。"
     }
    ]
   },
@@ -259,6 +259,13 @@
    "name": "政策与监管",
    "icon": "⚖️",
    "items": [
+    {
+     "title": "The Verge：美国上诉法院维持汤森路透诉 Ross Intelligence 案一审判决——用抓取的汤森路透数据训练法律 AI 不属合理使用",
+     "url": "https://www.theverge.com/ai-artificial-intelligence/1013500/appeals-court-upholds-thomson-reuters-win-in-ai-training-lawsuit",
+     "source": "The Verge",
+     "date": "2026-10-18",
+     "summary": "2025 年 2 月，美国特拉华联邦地区法院法官 Stephanos Bibas 驳回了 Ross Intelligence 的合理使用抗辩——后者用从汤森路透抓取的数据训练其法律 AI。The Verge 10 月 18 日报道，上诉法院现已维持这一判决，但裁决全文目前仍处于密封状态。"
+    },
     {
      "title": "欧盟就 AI Digital Omnibus 达成协议：简化 AI 法案部分条款、设初创沙盒，并明确禁止非自愿深度伪造色情与“脱衣”应用",
      "url": "https://brusselspost.com/european-union-agrees-artificial-intelligence-law-simplification-while-tightening-deepfake-restrictions",
@@ -307,13 +314,6 @@
      "source": "CNA / Reuters",
      "date": "2026-10-17",
      "summary": "据路透社报道，Jack Clark 10 月 17 日在曼谷 IMF 与世界银行年会上发表 Per Jacobsson 基金会讲座《Inside the Event Horizon》，称 AI 能力快速提升将带来各领域更快变化，Anthropic 一个内部模型预测在特定条件下 AI 可使美国经济产出到 2030 年增加近 50%；他表示需要国际合作制定“不同寻常且严肃的规则”，留给政策制定者行动的窗口正在缩小，并预计未来几年科学整体进步将加速，“带来巨大财富，也可能带来巨大风险”。"
-    },
-    {
-     "title": "旧金山市长 Lurie 签署 45 天数据中心禁建令：全市暂停新建与扩建审批，规划局须研究能源、用水与社区影响并制定新规",
-     "url": "https://sfstandard.com/2026/10/16/mayor-lurie-data-center-moratorium/",
-     "source": "The San Francisco Standard",
-     "date": "2026-10-16",
-     "summary": "该紧急条例由市议员 Shamann Walton 提出，10 月 6 日市议会一致通过，10 月 16 日经市长签署生效。45 天内全市暂停数据中心新建和扩容审批，规划局需研究其对电价、用水、空气和社区的影响，并给出数据中心的正式定义与长期管控规则；普通附属机房与不增容的维护不受影响。"
     }
    ]
   },
@@ -386,10 +386,21 @@
    "icon": "⭐",
    "items": [
     {
+     "title": "LiCinCan/blender-ai-mcp-addon",
+     "url": "https://github.com/LiCinCan/blender-ai-mcp-addon",
+     "source": "GitHub",
+     "stars": 747,
+     "stars_week": null,
+     "language": "Python",
+     "date": "2026-10-18",
+     "summary": "Blender 的 AI 助手插件兼 MCP Server：支持可视化对话、场景工具与多智能体工作流，可接入 OpenAI、Claude、Gemini、Ollama、OpenCode 等，MIT 许可。",
+     "why": "10 月 16 日（UTC+8）创建，约 3 天累计约 750 星，AI 驱动 3D 创作热度上升。"
+    },
+    {
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 96021,
+     "stars": 96176,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-18",
@@ -400,7 +411,7 @@
      "title": "anthropics/claude-plugins-official",
      "url": "https://github.com/anthropics/claude-plugins-official",
      "source": "GitHub",
-     "stars": 42317,
+     "stars": 42394,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -411,7 +422,7 @@
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 76311,
+     "stars": 76354,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-18",
@@ -422,7 +433,7 @@
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 54357,
+     "stars": 54410,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -433,7 +444,7 @@
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 10222,
+     "stars": 10291,
      "stars_week": null,
      "language": "Rust",
      "date": "2026-10-18",
@@ -441,21 +452,10 @@
      "why": "今日 GitHub 总趋势榜上榜（当日 +513 星），累计约 1.0 万星。"
     },
     {
-     "title": "Comfy-Org/ComfyUI",
-     "url": "https://github.com/Comfy-Org/ComfyUI",
-     "source": "GitHub",
-     "stars": 138175,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-18",
-     "summary": "模块化的扩散模型图形界面、API 与后端，以节点图方式搭建图像/视频等生成工作流，并自带本地推理引擎。",
-     "why": "今日 GitHub 总趋势榜上榜（当日 +155 星），累计约 13.8 万星。"
-    },
-    {
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 51477,
+     "stars": 51951,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -466,7 +466,7 @@
      "title": "debpalash/VoiceStudio",
      "url": "https://github.com/debpalash/VoiceStudio",
      "source": "GitHub",
-     "stars": 74242,
+     "stars": 74532,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -480,6 +480,18 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@AndrewCurran_",
+     "url": "https://x.com/AndrewCurran_/status/2111837963214794940",
+     "source": "@AndrewCurran_",
+     "date": "2026-10-18",
+     "summary": "Andrew Curran：OpenCode 正遭受持续网络攻击，事故处理中遇到与 Hugging Face 此前相同的问题——用于防御的前沿模型在分析攻击时触发安全护栏，开始拒绝协助对抗攻击智能体；其引用的回复称“现在拿到了 daybreak blue 的访问权限，情况好些了”。",
+     "metrics": {
+      "likes": 180,
+      "reposts": 25,
+      "views": 5897
+     }
+    },
     {
      "title": "@elonmusk",
      "url": "https://x.com/elonmusk/status/2111683964721037767",
@@ -562,18 +574,6 @@
       "likes": 691,
       "reposts": 34,
       "views": 29367
-     }
-    },
-    {
-     "title": "@elonmusk",
-     "url": "https://x.com/elonmusk/status/2111612315204272233",
-     "source": "@elonmusk",
-     "date": "2026-10-18",
-     "summary": "马斯克转引用户让 Grok Bot“自己想办法挣钱养活自己”的截图，称“确实有效，Grok Bot 能为自己买单”；同日还称团队每天对 Grok Bot 做约 20 项改进。",
-     "metrics": {
-      "likes": 4987,
-      "reposts": 530,
-      "views": 801567
      }
     }
    ]
