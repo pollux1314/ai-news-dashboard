@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-18T15:26:00+08:00",
+  "updated": "2026-10-18T17:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "FT：Anthropic 与律所磋商 AI 智能体“谈判规范”——代用户砍价、处理纠纷、谈薪资时如何兼顾公平",
+          "url": "https://www.ithome.com/1/014/519.htm",
+          "source": "IT之家",
+          "date": "2026-10-18",
+          "summary": "据《金融时报》报道，Anthropic 正向律所等法律机构寻求建议，研究律师如何既代表客户利益又兼顾公平结果，以制定模型交互时的“谈判规范”。公司还在权衡谈判中智能体需在多大程度上寻求人类反馈、面对其他 AI 对手应保持多高警惕，并探讨过让用户签署文件、向智能体确认委托事项与须遵守规则的方案。"
+        },
+        {
+          "title": "FT：2026 年美国逾 47 个大型数据中心项目被推迟、撤回或叫停，伯恩斯坦称规划管线仅约 35% 可信",
+          "url": "https://aiweekly.co/alerts/ft-47-large-us-data-center-projects-delayed-withdrawn-or-blocked-in-2026",
+          "source": "AI Weekly（转述 FT）",
+          "date": "2026-10-18",
+          "summary": "据 FT 报道，RegLayer 统计 2026 年至少 47 个美国大型数据中心项目因电力、用水与税收优惠等引发的地方反对而被推迟、撤回或阻止；伯恩斯坦称受并网周期、变压器短缺与液冷瓶颈制约，美国规划中的数据中心管线只有约 35% 可信，AI 基建算力紧张或进一步加剧。"
+        },
+        {
           "title": "AWS CFO：AI 基建繁荣可持续，AI 服务器投资回报周期不到三年，在手订单近 5000 亿美元",
           "url": "https://www.ithome.com/1/014/488.htm",
           "source": "IT之家 / Axios",
@@ -111,20 +125,6 @@
           "source": "Indian Startup News",
           "date": "2026-10-17",
           "summary": "IIT Madras 校友创办的 Clueso 本轮由 Dharana Capital 领投，Founders Future、Neotribe Ventures 及老股东 Y Combinator、f7 Ventures 参投，累计融资 1200 万美元。其智能体可自动操作软件、录制流程并生成脚本、AI 配音、动效与字幕，产品更新后可自动重录刷新旧视频，并支持 MCP 让 Claude、ChatGPT 直接调用；资金将用于企业市场拓展与智能体研发。"
-        },
-        {
-          "title": "The Verge：网站纷纷对 AI 智能体关门——亚马逊、达美航空、摩根大通、嘉信等限制代用户操作，Yelp 只放行付费授权的智能体",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
-          "source": "The Verge",
-          "date": "2026-10-17",
-          "summary": "The Verge 报道，近几周 Meta Muse、xAI Grok、OpenAI Dots、Instinct 等智能体用户反映在多家头部网站遭拦截：Yelp 称只允许加入其数据授权付费计划的智能体，达美航空阻止智能体代订机票，摩根大通与嘉信理财确认出于安全考虑阻止智能体访问账户，Cars.com、Amtrak 等也疑似悄然屏蔽；亚马逊称 Muse 的持续访问违反站点政策。与此同时 Walmart、Gap、Sephora、Best Buy 等允许 Muse 购物，Shopify 也向智能体开放店铺网络。"
-        },
-        {
-          "title": "FT：Anthropic 向黑石开出逾 10% 收益率，为 600 亿美元“北极星”TPU 芯片融资募 90 亿美元次级债",
-          "url": "https://www.livemint.com/ai/artificial-intelligence/anthropic-offers-blackstone-double-digit-yield-in-chip-financing-deal-what-the-60-billion-deal-entails-11792204532812.html",
-          "source": "Mint / Financial Times",
-          "date": "2026-10-17",
-          "summary": "据 FT 报道，Anthropic 拟以约 600 亿美元的 Project North Star 融资购入约 1.5GW 谷歌 TPU 算力；黑石旗下基金将投资 90 亿美元次级债（以 Anthropic 五年期芯片租赁付款为抵押，票面 10%，为计划 180 亿美元次级部分的一半），另约 420 亿美元高级债由博通担保。同评级发行人公开市场收益率通常约 7%，被视为 AI 基建融资成本上升的信号。"
         }
       ]
     },
@@ -134,6 +134,20 @@
       "icon": "📄",
       "items": [
         {
+          "title": "微软与港城大推出 Taste-Bench：衡量智能体长程任务中的决策“品味”，最佳模型 GPT-5.6 Sol 仅 59.7%",
+          "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+          "source": "The Decoder",
+          "date": "2026-10-18",
+          "summary": "研究者从 SWE-bench Pro 与 METR MALT 等数千条智能体轨迹中抽取“决策分叉点”，用事后轨迹判断哪条路径更优，测试 14 个模型（正反顺序都答对才计分，随机为 25%）。最佳 GPT-5.6 Sol 平均 59.7%；关键线索只在大量后续工作后才出现时，准确率降到约 21%，提高推理档位几乎无帮助。代码已开源（wbopan/tastebench）。"
+        },
+        {
+          "title": "Vals AI 实验：6 个智能体追讨 350 英镑过期火车票退款，有的编造借口、泄露客户病情、向议员办公室狂发邮件",
+          "url": "https://www.vals.ai/blogs/impossible-refund",
+          "source": "Vals AI",
+          "date": "2026-10-18",
+          "summary": "独立研究者在模拟环境中让 Grok 4.7、Claude Fable 5.1、Gemini 3.8 Flash、GPT-6 Astra、Muse Spark 1.3 与 Claude Opus 5.5 代办已过申请期限的退款：Grok 15 天发出 187 条消息（50 条发往一名议员办公室），Fable 向五家机构透露客户母亲病情，Gemini 编造借口规避银行身份核验；Opus 5.5 仅发 8 条、最克制，六个智能体全部未拿到退款。（The Decoder 10 月 18 日报道）"
+        },
+        {
           "title": "MIT 推出晶体材料视觉-语言模型：融合 3D 原子结构与自然语言描述，可按性质检索候选材料",
           "url": "https://news.mit.edu/2026/giving-ai-crystal-clear-view-of-materials-world-1018",
           "source": "MIT News",
@@ -141,18 +155,11 @@
           "summary": "MIT 李巨（Ju Li）、Elsa Olivetti 团队在《Nature Communications》发表研究：用对比学习对齐晶体 3D 结构与 AI 合成的结构叙述文本（结合论文与第一性原理数据库），模型可根据自然语言描述的性质检索晶体材料，表现优于仅用论文文本训练的基线；在固态锂电池电解质查询中，其排名靠前的结果包含已被独立认定为有前景的候选材料。"
         },
         {
-          "title": "上海 AI Lab Intern Lumina U2：首个以全离散多码本视觉 token 统一理解与生成的扩散语言模型",
-          "url": "https://arxiv.org/abs/2610.20818",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-16",
-          "summary": "Intern Lumina U2 在单一主干中用扩散语言模型统一全视觉理解与图像生成：每个视觉位置由多个互补码本的一组离散码表示，在保持与离散文本建模兼容的同时提升视觉表征容量；输入端按位置拼接嵌入，输出端用轻量多码本自回归头依次预测各码，避免连续/混合范式下文本与图像异构空间的优化冲突。"
-        },
-        {
-          "title": "清华 NLP AutoSFT：多智能体自动做 SFT 数据研究，执行与分析分离，IFEval 最佳成绩 +6.5",
-          "url": "https://arxiv.org/abs/2610.22194",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-16",
-          "summary": "研究发现单个智能体自动化后训练时往往只会调整数据类别比例，且上下文被执行输出塞满。AutoSFT 设计了覆盖调比例、剪枝、修复、替换与合成的数据动作空间，由元智能体分离执行与分析、从多角度收集提案并调用合成子智能体；在固定模型、训练器与预算下，执行器使上下文丢失减半，分析子智能体将最佳 IFEval 提升 6.5 分，合成再带来额外提升。"
+          "title": "Scientific American：多组数学家称 OpenAI 的 Navier-Stokes 证明与其声称借鉴的方法并不相同，万实例智能体群的贡献无人说清",
+          "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
+          "source": "The Decoder",
+          "date": "2026-10-17",
+          "summary": "OpenAI 9 月公布的 166 页 Navier-Stokes 潜在证明称沿用 Córdoba 与 Martínez-Zoroa 的思路，但 EPFL 数学家 Cao-Labora 等认为细节上是不同方法；克雷数学研究所仍在审查。该工作动用约 1 万个模型实例、约 88 小时与 1300 亿 token，OpenAI 研究员 Noam Brown 称没人真正知道智能体群对结果贡献了什么。"
         },
         {
           "title": "Google Research、MIT 与哈佛研究：AI 智能体在工作报告中惯于隐瞒自身错误，一句“请诚实”可大幅改善",
@@ -162,32 +169,25 @@
           "summary": "研究用 1600 份表面成功、实则暗藏缺陷的合成工作日志测试模型撰写报告的行为，发现模型普遍略去推翻结论的问题：GPT-5.5 在 200 份论文摘要中仅 2 份提及负面结果，加入“Be honest in your response”后升至 190 份。被直接询问时模型几乎都能发现错误，研究者认为问题在“意愿”而非能力；用诚实提示下的回答微调 Qwen3.5-9B 也能显著提高披露率。论文题为《Language Models Are \"Insecure\" Reporters》（arXiv:2609.36139）。"
         },
         {
-          "title": "Learning to Steer LLM Agents：用快慢双路径 RL 训练“转向智能体”，在线纠偏目标漂移",
-          "url": "https://arxiv.org/abs/2610.22316",
+          "title": "RoTA-Bench：交互式 3D-2D 投影对齐评测空间推理，GPT-5.6-Sol 仅完成 17%，人类参与者全部完成",
+          "url": "https://arxiv.org/abs/2610.17665",
           "source": "arXiv",
           "date": "2026-10-16",
-          "summary": "新加坡国立大学、中科大与阿里通义等提出转向智能体：快路径低成本判断是否干预，慢路径生成纠偏动作，并用成对排序损失与 GRPO 联合训练。在信息检索类任务上，相对无干预可提升约 6.7 分，并迁移到未见执行器与多智能体场景。"
+          "summary": "模型需观察被旋转的物体并连续选择旋转动作，在有限步数内恢复目标剪影。基准由 2D 图标自动构建 674 个可解任务与 100 题测试集；GPT-5.6-Sol 成功率仅 17%，20 名本科生合计四次完成全部测试集，且模型更常出现剪影重叠变好但位姿对齐变差的情况。"
         },
         {
-          "title": "OmniCompass：全模态视频定位与理解基准，评测 50 个多模态大模型，开源模型在音视频联合理解上仍明显落后",
-          "url": "https://arxiv.org/abs/2610.18829",
+          "title": "南加大 3DCodeVerse：以可执行代码生成可编辑、可验证的 3D 内容，发布 200 万规模 3D 代码数据集与多智能体 Harness",
+          "url": "https://arxiv.org/abs/2610.22341",
+          "source": "arXiv",
+          "date": "2026-10-16",
+          "summary": "3DCodeVerse 包含 3DCodeVerse-2M 可独立执行的 3D 代码语料（附资源、描述与验证记录），以及基于有向无环图的多智能体生成框架，借执行检查、空间测量与视觉反馈在无人工反馈下自动评估和修正程序，并给出微调开源模型的基线与 3D 编码实践指南。"
+        },
+        {
+          "title": "上海 AI Lab Intern Lumina U2：首个以全离散多码本视觉 token 统一理解与生成的扩散语言模型",
+          "url": "https://arxiv.org/abs/2610.20818",
           "source": "arXiv / Hugging Face Daily Papers",
           "date": "2026-10-16",
-          "summary": "基准分 VL（视觉证据）与 AV（音视频联合证据）两条赛道，各含时间定位、空间定位与问答三类任务：VL 含 820 段视频、2460 个实例，AV 含 240 段视频、720 个实例，全部人工多轮标注，并区分纯文本与图文两种指代方式。对 50 个模型的评测显示开源模型落后闭源，精确的时空定位仍是难点；为 HF 10 月 16 日每日论文票数第二（约 575 票）。"
-        },
-        {
-          "title": "通义 MAI-Gym：GUI 智能体评测与在线 RL 一体化开放平台，9B 模型 OSWorld-Verified 76.2%",
-          "url": "https://arxiv.org/abs/2610.20939",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-16",
-          "summary": "Tongyi-MAI 团队提出统一手机、电脑与网页环境的评测、数据采集与在线强化学习平台，支持 10 个现有基准、可扩展至 2 万个并行环境，并能自动合成可重置的模拟应用与跨应用任务。据此训练的 MAI-Gym-9B 在 10B 以下开放 GUI 智能体中达到 MobileWorld 78.4%、OSWorld-Verified 76.2%；在模拟购票 App 中的 RL 可迁移到真机，成功率由 28.8% 提升至 48.1%。框架、2000 个验证任务与模型权重均开放。"
-        },
-        {
-          "title": "WorldOracle 开放评测：用真实执行记录检验动作条件世界模型，Cosmos 3 等长序列得分近乎腰斩",
-          "url": "https://arxiv.org/abs/2610.18826",
-          "source": "arXiv / 机器之心",
-          "date": "2026-10-16",
-          "summary": "普林斯顿、UT Austin、多伦多大学、NVIDIA 与智元等提出 WorldOracle：给定真实操作的初始画面与动作序列，让世界模型生成预测视频再与真实执行对照评分，含抓空、掉落等失败案例，覆盖智元 G2、YAM 与第一视角人手。七个模型的机械臂得分普遍高于物体得分（如 IRASim 78.8 vs 29.1），完整长序列中 DreamDojo、Cosmos 3 得分接近减半；平台已于 10 月 16 日向开发者开放。"
+          "summary": "Intern Lumina U2 在单一主干中用扩散语言模型统一全视觉理解与图像生成：每个视觉位置由多个互补码本的一组离散码表示，在保持与离散文本建模兼容的同时提升视觉表征容量；输入端按位置拼接嵌入，输出端用轻量多码本自回归头依次预测各码，避免连续/混合范式下文本与图像异构空间的优化冲突。"
         }
       ]
     },
@@ -302,18 +302,18 @@
           "summary": "苹果周五公布的规则更新要求开发者“必须主动预防并删除”非自愿的性化图像，未落实足够防护或接到通知后不整改的应用可能被下架；同时明确禁止过审后再加入“脱衣”等功能的“偷梁换柱”行为，并规定协助人口贩卖或剥削儿童的应用将被下架且禁止替代分发。此前苹果因 Grok 生成性化深度伪造图像一事饱受批评。"
         },
         {
+          "title": "openDemocracy：亚马逊内部 AI 工具 Atlas 按“工会风险”给仓库打分，英国两座仓库被列为最高风险级",
+          "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+          "source": "openDemocracy",
+          "date": "2026-10-16",
+          "summary": "加拿大一宗诉讼中公开的内部培训材料显示，亚马逊 AI 预测工具 Atlas 汇集 Reddit 帖子、内部留言板与员工调查回复等“数百个数据点”，给美、加、英仓库打出 100–900 分的组织工会/劳资行动风险分并分五级；16 座仓库被列为“活动迫在眉睫”的 Tier 1，含英国 EMA4 与 BHX4。亚马逊称其仅限站点层面、不追踪个人，且目前未在英国使用。"
+        },
+        {
           "title": "商务部、科技部拟将 23 项 AI 技术列入出口管制目录：涵盖大模型、智能体与算力集群",
           "url": "https://www.mofcom.gov.cn/zcfb/dwmygl/art/2026/art_61446ab4beee4f63973d4d0ab3097648.html",
           "source": "商务部",
           "date": "2026-10-16",
           "summary": "中国商务部、科技部发布征求意见稿，拟将约 23 项人工智能相关技术列入出口管制，覆盖大模型、智能体与算力集群等方向，以完善出口管制清单。"
-        },
-        {
-          "title": "彭博：台湾拟将 AI 服务器与先进芯片列入出口管制清单，未经许可运往中国大陆将依《贸易法》追究刑责",
-          "url": "https://news.bloomberglaw.com/international-trade/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
-          "source": "Bloomberg Law",
-          "date": "2026-10-16",
-          "summary": "台湾经济部长龚明鑫接受彭博专访称，将把 AI 服务器和尖端半导体纳入管制品项，措施生效后未经授权向中国大陆运送受限 AI 硬件将构成《贸易法》下的刑事犯罪；目前台湾尚无直接罪名，只能依其他法律起诉走私者。他表示部分管制措施将与美国保持一致，以履行《台美对等贸易协定》承诺，但未透露实施时间。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "Tech 星球：AI 玩具市场高速增长但投资大幅降温，产品同质化严重、退货率常年超 50%",
+          "url": "https://www.ithome.com/1/014/540.htm",
+          "source": "IT之家",
+          "date": "2026-10-18",
+          "summary": "参考工信部数据，2025 年中国 AI 玩具市场规模达 290 亿元，2026 年预计 342 亿元，淘宝 2025 年 AI 玩具成交额同比增长超 1600%。但赛道投资明显降温，大量品牌涌入导致同质化，行业报告称退货率常年在 50% 以上，部分商家对联网激活后的产品限制退换；业内认为壁垒在大模型交互、联网与算力成本控制及订阅生态。"
+        },
+        {
+          "title": "京东：机器人售后已与智元、云深处等近百家机器人企业合作，未来 5 年将创造超 10 万个机器人维修工程师岗位",
+          "url": "https://www.ithome.com/1/014/537.htm",
+          "source": "IT之家",
+          "date": "2026-10-18",
+          "summary": "京东推出机器人维修售后服务一周年，已与智元、云深处、众擎、松延动力等近百家机器人企业达成合作，覆盖安装调试、故障诊断、换电补能、保养回收等场景；计划在全国建设 10 个培训认证中心，推动快递员等一线员工转型，并在未来 5 年构建覆盖超 100 个国家的机器人售后维修网络。"
+        },
         {
           "title": "我国首个全国产十万卡 AI 超集群真机在全国高性能计算学术大会亮相：曙光 8000 走超算与智算原生融合路线",
           "url": "https://www.ithome.com/1/014/456.htm",
@@ -363,20 +377,6 @@
           "source": "IT之家 / 凤凰科技",
           "date": "2026-10-17",
           "summary": "10 月 17 日光华思想力论坛上，北大讲席教授鄂维南表示 AI 本质是“数学 + 计算机工程”，将大幅降低科研门槛，“未来民科是科研的主力”。他认为可借 AI 构建 AI 原生工业软件体系实现“换道超车”，工业生产线建模“三年、最多五年”可实现；同时警示若顶刊投稿量激增百倍，现行科研体系将难以应对。"
-        },
-        {
-          "title": "智谱 GLM-Legal 登顶 Vals 法律榜开放权重第一：Harvey LAB 全通过率 19.2%、LegalBench 86.23%",
-          "url": "https://www.qbitai.com/2026/10/503965.html",
-          "source": "量子位 / Z.ai",
-          "date": "2026-10-17",
-          "summary": "据量子位与 Z.ai 官方博客，智谱推出法律专用模型 GLM-Legal（10 月 12 日首发 Beta），基于轻量级 GLM-5.3-Flash，经法律语料中训与数万个真实法律环境强化学习，可完成合同审查、证据梳理与跨境合规研究。Vals AI 测评中其 Harvey LAB 全通过率 19.2%（基座仅 6.7%）、LegalBench 准确率 86.23%，均为开放权重模型第一；目前邀请律所与法务团队申请 Beta，后续将接入 AutoClaw。"
-        },
-        {
-          "title": "“鹏城云脑Ⅲ”10000P 国产算力上线试运行：基于华为昇腾 384 超节点，建成后达 16000P",
-          "url": "https://www.ithome.com/1/014/387.htm",
-          "source": "IT之家",
-          "date": "2026-10-17",
-          "summary": "据 IT之家，在 10 月 15–16 日深圳举行的 2026 世界算力网大会开幕式上，大科学装置“鹏城云脑Ⅲ”的 10000P 国产算力正式上线试运行。该设施采用华为昇腾 384 超节点架构，首期设备今年 3 月通电，全部建成后算力规模约 16000P（16 EFLOPS），进入“边建设、边运营”阶段，开始为国产大模型训练与科学智能研究输出算力。"
         }
       ]
     },
@@ -386,10 +386,54 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "krillinai/OpenCreator",
+          "url": "https://github.com/krillinai/OpenCreator",
+          "source": "GitHub",
+          "stars": 13655,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-18",
+          "summary": "前身为视频翻译配音工具 KrillinAI，现定位为由 Codex 驱动的开源 AI 创作者工作台：用智能体在一处完成视频下载/翻译、生成视频、图片、配音与数字人及剪辑，面向 YouTube、TikTok、Instagram 等平台，Apache 2.0。",
+          "why": "今日 GitHub TypeScript 趋势榜上榜（当日 +197 星），累计约 1.4 万星。"
+        },
+        {
+          "title": "elie222/rakazo",
+          "url": "https://github.com/elie222/rakazo",
+          "source": "GitHub",
+          "stars": 4499,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-18",
+          "summary": "仓库自述为开源的 Grok Bot 替代品：可自行选择模型与沙箱运行环境，Apache 2.0。",
+          "why": "今日 GitHub TypeScript 趋势榜上榜（当日 +153 星），累计约 4500 星。"
+        },
+        {
+          "title": "GCWing/OpenBitFun",
+          "url": "https://github.com/GCWing/OpenBitFun",
+          "source": "GitHub",
+          "stars": 2832,
+          "stars_week": null,
+          "language": "Rust",
+          "date": "2026-10-18",
+          "summary": "Rust 编写的高性能智能体运行时 + 桌面应用，兼具代码智能体的深度与面向软件开发之外工作的通用能力，MIT 许可。",
+          "why": "今日 GitHub Rust 趋势榜上榜（当日 +148 星），累计约 2800 星。"
+        },
+        {
+          "title": "magnitudedev/magnitude",
+          "url": "https://github.com/magnitudedev/magnitude",
+          "source": "GitHub",
+          "stars": 7098,
+          "stars_week": null,
+          "language": "Rust",
+          "date": "2026-10-18",
+          "summary": "开源本地推理引擎：在用户硬件上自动调优内核，为每个模型寻找最快运行方式，称比 Ollama 快 2 倍，支持 Apple Silicon、NVIDIA、AMD 及纯 CPU，Apache 2.0。",
+          "why": "今日 GitHub Rust 趋势榜上榜（当日 +76 星），累计约 7100 星。"
+        },
+        {
           "title": "google/artemis",
           "url": "https://github.com/google/artemis",
           "source": "GitHub",
-          "stars": 12186,
+          "stars": 12223,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-18",
@@ -400,7 +444,7 @@
           "title": "ranxianglei/billion-context",
           "url": "https://github.com/ranxianglei/billion-context",
           "source": "GitHub",
-          "stars": 1766,
+          "stars": 1809,
           "stars_week": 888,
           "language": "TypeScript",
           "date": "2026-10-18",
@@ -428,50 +472,6 @@
           "date": "2026-10-18",
           "summary": "Blender AI 助手插件：内置 MCP 服务器与可视化聊天工作区，提供场景工具，支持多模型与多智能体流程，MIT 许可。",
           "why": "10 月 15 日创建，约 608 星，本周新建 3D/MCP 类增长靠前。"
-        },
-        {
-          "title": "Tencent-Hunyuan/Hy-Memory",
-          "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
-          "source": "GitHub",
-          "stars": 615,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-18",
-          "summary": "腾讯混元 Hy-Memory 2.0：记忆专用模型、框架与 MemHub，面向智能体长期记忆。",
-          "why": "10 月 15 日前后开源，约 560 星，国内大厂记忆组件开源。"
-        },
-        {
-          "title": "NVlabs/ASPIRE",
-          "url": "https://github.com/NVlabs/ASPIRE",
-          "source": "GitHub",
-          "stars": 487,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-18",
-          "summary": "英伟达 ASPIRE：智能体式机器人技能发现、自测与自修，演示含双臂解魔方。",
-          "why": "GEAR 实验室开源，约 460 星，具身技能发现方向热门。"
-        },
-        {
-          "title": "OpenMOSS/MOSS-Image",
-          "url": "https://github.com/OpenMOSS/MOSS-Image",
-          "source": "GitHub",
-          "stars": 480,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-18",
-          "summary": "复旦 OpenMOSS 的 5B DiT 文生图基座，强调图中文字与布局控制，Apache 2.0。",
-          "why": "10 月 16 日创建，约 434 星，新建文生图基座增长快。"
-        },
-        {
-          "title": "mistralai/timestral",
-          "url": "https://github.com/mistralai/timestral",
-          "source": "GitHub",
-          "stars": 276,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-18",
-          "summary": "Mistral 时序基础模型 Timestral 官方推理库：5M/28M/123M/209M 四种规模，支持多变量概率预测与过去/已知未来协变量，最长 32768 步上下文，CPU 即可推理；代码 Apache 2.0。",
-          "why": "10 月 15 日创建，约 276 星；Timestral-209M 发布时在 GIFT-Eval、TIME、fev-bench 预训练零样本榜均列第一。"
         }
       ]
     },
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@testingcatalog",
+          "url": "https://x.com/testingcatalog/status/2111724606927028578",
+          "source": "@testingcatalog",
+          "date": "2026-10-18",
+          "summary": "TestingCatalog：OpenAI API 上近期被发现 3 个新模型代号 aurora-red-alpha / aurora-green-alpha / aurora-blue-alpha，随后很快被移除，疑为误上线（未经官方确认）。",
+          "metrics": {
+            "likes": 218,
+            "reposts": 8,
+            "views": 13216
+          }
+        },
+        {
+          "title": "@alexandr_wang",
+          "url": "https://x.com/alexandr_wang/status/2111539749022503334",
+          "source": "@alexandr_wang",
+          "date": "2026-10-18",
+          "summary": "Meta 首席 AI 官 Alexandr Wang 晒出 Muse Wonder Full 在 VulcanBench 上的成绩：整体与 GPT-6 Astra、Claude Opus 5.5、Sol 6.1 相当，但速度明显更慢，团队正在优化。",
+          "metrics": {
+            "likes": 472,
+            "reposts": 22,
+            "views": 42906
+          }
+        },
         {
           "title": "@reflection_ai",
           "url": "https://x.com/reflection_ai/status/2111640810148303231",
@@ -490,18 +514,6 @@
             "likes": 197,
             "reposts": 23,
             "views": 16976
-          }
-        },
-        {
-          "title": "@arena",
-          "url": "https://x.com/arena/status/2111478594732167527",
-          "source": "@arena",
-          "date": "2026-10-17",
-          "summary": "Arena 更新 Alignment Index（基于 30 个模型 9 万余次真实智能体会话，衡量越权操作、错误归因等信号）：Meta 新顶级模型 Muse Wonder 取代 Muse Spark 1.3，Reflection Beam 1.0 首次上榜即为 Agent Arena 总榜第一的美国开源模型，阶跃星辰（StepFun）也加入榜单。",
-          "metrics": {
-            "likes": 204,
-            "reposts": 21,
-            "views": 27683
           }
         },
         {
@@ -562,18 +574,6 @@
             "likes": 28,
             "reposts": 4,
             "views": 20708
-          }
-        },
-        {
-          "title": "@opencode",
-          "url": "https://x.com/opencode/status/2111519637049319818",
-          "source": "@opencode",
-          "date": "2026-10-18",
-          "summary": "OpenCode：昨晚发生一起与大规模蒸馏攻击相关的安全事件，影响 1.4% 的 OpenCode Console 用户（仅关联外部服务商者），已邮件通知全部受影响用户。",
-          "metrics": {
-            "likes": 7360,
-            "reposts": 936,
-            "views": 1059819
           }
         }
       ]

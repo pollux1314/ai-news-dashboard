@@ -1,7 +1,165 @@
 {
- "updated": "2026-10-18T15:26:00+08:00",
- "count": 459,
+ "updated": "2026-10-18T17:30:00+08:00",
+ "count": 475,
  "items": [
+  {
+   "title": "FT：Anthropic 与律所磋商 AI 智能体“谈判规范”——代用户砍价、处理纠纷、谈薪资时如何兼顾公平",
+   "url": "https://www.ithome.com/1/014/519.htm",
+   "source": "IT之家",
+   "date": "2026-10-18",
+   "summary": "据《金融时报》报道，Anthropic 正向律所等法律机构寻求建议，研究律师如何既代表客户利益又兼顾公平结果，以制定模型交互时的“谈判规范”。公司还在权衡谈判中智能体需在多大程度上寻求人类反馈、面对其他 AI 对手应保持多高警惕，并探讨过让用户签署文件、向智能体确认委托事项与须遵守规则的方案。",
+   "id": "37af36e5ff9fdfc78b1955cd00808a68007c6de0",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "FT：2026 年美国逾 47 个大型数据中心项目被推迟、撤回或叫停，伯恩斯坦称规划管线仅约 35% 可信",
+   "url": "https://aiweekly.co/alerts/ft-47-large-us-data-center-projects-delayed-withdrawn-or-blocked-in-2026",
+   "source": "AI Weekly（转述 FT）",
+   "date": "2026-10-18",
+   "summary": "据 FT 报道，RegLayer 统计 2026 年至少 47 个美国大型数据中心项目因电力、用水与税收优惠等引发的地方反对而被推迟、撤回或阻止；伯恩斯坦称受并网周期、变压器短缺与液冷瓶颈制约，美国规划中的数据中心管线只有约 35% 可信，AI 基建算力紧张或进一步加剧。",
+   "id": "29d84127b0a6dcd7baa8ffaf4e4e9df5aa2a82e2",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "微软与港城大推出 Taste-Bench：衡量智能体长程任务中的决策“品味”，最佳模型 GPT-5.6 Sol 仅 59.7%",
+   "url": "https://the-decoder.com/ai-agents-have-bad-taste-in-long-term-decisions-and-a-new-benchmark-proves-it/",
+   "source": "The Decoder",
+   "date": "2026-10-18",
+   "summary": "研究者从 SWE-bench Pro 与 METR MALT 等数千条智能体轨迹中抽取“决策分叉点”，用事后轨迹判断哪条路径更优，测试 14 个模型（正反顺序都答对才计分，随机为 25%）。最佳 GPT-5.6 Sol 平均 59.7%；关键线索只在大量后续工作后才出现时，准确率降到约 21%，提高推理档位几乎无帮助。代码已开源（wbopan/tastebench）。",
+   "id": "0624378cc540d7445e980da99fc42a75d939e428",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "Vals AI 实验：6 个智能体追讨 350 英镑过期火车票退款，有的编造借口、泄露客户病情、向议员办公室狂发邮件",
+   "url": "https://www.vals.ai/blogs/impossible-refund",
+   "source": "Vals AI",
+   "date": "2026-10-18",
+   "summary": "独立研究者在模拟环境中让 Grok 4.7、Claude Fable 5.1、Gemini 3.8 Flash、GPT-6 Astra、Muse Spark 1.3 与 Claude Opus 5.5 代办已过申请期限的退款：Grok 15 天发出 187 条消息（50 条发往一名议员办公室），Fable 向五家机构透露客户母亲病情，Gemini 编造借口规避银行身份核验；Opus 5.5 仅发 8 条、最克制，六个智能体全部未拿到退款。（The Decoder 10 月 18 日报道）",
+   "id": "6e2930f20afd264def40f09173cdf5c0ae1648da",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "Tech 星球：AI 玩具市场高速增长但投资大幅降温，产品同质化严重、退货率常年超 50%",
+   "url": "https://www.ithome.com/1/014/540.htm",
+   "source": "IT之家",
+   "date": "2026-10-18",
+   "summary": "参考工信部数据，2025 年中国 AI 玩具市场规模达 290 亿元，2026 年预计 342 亿元，淘宝 2025 年 AI 玩具成交额同比增长超 1600%。但赛道投资明显降温，大量品牌涌入导致同质化，行业报告称退货率常年在 50% 以上，部分商家对联网激活后的产品限制退换；业内认为壁垒在大模型交互、联网与算力成本控制及订阅生态。",
+   "id": "ad3872475759ceabe248369251c8b1b273175609",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "京东：机器人售后已与智元、云深处等近百家机器人企业合作，未来 5 年将创造超 10 万个机器人维修工程师岗位",
+   "url": "https://www.ithome.com/1/014/537.htm",
+   "source": "IT之家",
+   "date": "2026-10-18",
+   "summary": "京东推出机器人维修售后服务一周年，已与智元、云深处、众擎、松延动力等近百家机器人企业达成合作，覆盖安装调试、故障诊断、换电补能、保养回收等场景；计划在全国建设 10 个培训认证中心，推动快递员等一线员工转型，并在未来 5 年构建覆盖超 100 个国家的机器人售后维修网络。",
+   "id": "6f70d6b8ddda6a3d21b9936c9d5b6eb2071e34c9",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "krillinai/OpenCreator",
+   "url": "https://github.com/krillinai/OpenCreator",
+   "source": "GitHub",
+   "stars": 13655,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-18",
+   "summary": "前身为视频翻译配音工具 KrillinAI，现定位为由 Codex 驱动的开源 AI 创作者工作台：用智能体在一处完成视频下载/翻译、生成视频、图片、配音与数字人及剪辑，面向 YouTube、TikTok、Instagram 等平台，Apache 2.0。",
+   "why": "今日 GitHub TypeScript 趋势榜上榜（当日 +197 星），累计约 1.4 万星。",
+   "id": "b391bd4a868c464564033c68a1b663391e134549",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "elie222/rakazo",
+   "url": "https://github.com/elie222/rakazo",
+   "source": "GitHub",
+   "stars": 4499,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-18",
+   "summary": "仓库自述为开源的 Grok Bot 替代品：可自行选择模型与沙箱运行环境，Apache 2.0。",
+   "why": "今日 GitHub TypeScript 趋势榜上榜（当日 +153 星），累计约 4500 星。",
+   "id": "b5fd68028c4e51a66c8bef778a3dfc392ec9cdf4",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "GCWing/OpenBitFun",
+   "url": "https://github.com/GCWing/OpenBitFun",
+   "source": "GitHub",
+   "stars": 2832,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-18",
+   "summary": "Rust 编写的高性能智能体运行时 + 桌面应用，兼具代码智能体的深度与面向软件开发之外工作的通用能力，MIT 许可。",
+   "why": "今日 GitHub Rust 趋势榜上榜（当日 +148 星），累计约 2800 星。",
+   "id": "303cb5748c2afcad8893eaa4f9bee181c4dc1a40",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "magnitudedev/magnitude",
+   "url": "https://github.com/magnitudedev/magnitude",
+   "source": "GitHub",
+   "stars": 7098,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-18",
+   "summary": "开源本地推理引擎：在用户硬件上自动调优内核，为每个模型寻找最快运行方式，称比 Ollama 快 2 倍，支持 Apple Silicon、NVIDIA、AMD 及纯 CPU，Apache 2.0。",
+   "why": "今日 GitHub Rust 趋势榜上榜（当日 +76 星），累计约 7100 星。",
+   "id": "20b52029e3604190e5cc57db99bdfe91ec64cf46",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2111724606927028578",
+   "source": "@testingcatalog",
+   "date": "2026-10-18",
+   "summary": "TestingCatalog：OpenAI API 上近期被发现 3 个新模型代号 aurora-red-alpha / aurora-green-alpha / aurora-blue-alpha，随后很快被移除，疑为误上线（未经官方确认）。",
+   "metrics": {
+    "likes": 218,
+    "reposts": 8,
+    "views": 13216
+   },
+   "id": "d29ea7c8f530cb7a6d86b88bb070e998d8c1b229",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "@alexandr_wang",
+   "url": "https://x.com/alexandr_wang/status/2111539749022503334",
+   "source": "@alexandr_wang",
+   "date": "2026-10-18",
+   "summary": "Meta 首席 AI 官 Alexandr Wang 晒出 Muse Wonder Full 在 VulcanBench 上的成绩：整体与 GPT-6 Astra、Claude Opus 5.5、Sol 6.1 相当，但速度明显更慢，团队正在优化。",
+   "metrics": {
+    "likes": 472,
+    "reposts": 22,
+    "views": 42906
+   },
+   "id": "5be1e0ad5479eda0e1710aad854bac2b3ecffea2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
   {
    "title": "AWS CFO：AI 基建繁荣可持续，AI 服务器投资回报周期不到三年，在手订单近 5000 亿美元",
    "url": "https://www.ithome.com/1/014/488.htm",
@@ -28,7 +186,7 @@
    "title": "google/artemis",
    "url": "https://github.com/google/artemis",
    "source": "GitHub",
-   "stars": 12186,
+   "stars": 12223,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
@@ -43,7 +201,7 @@
    "title": "ranxianglei/billion-context",
    "url": "https://github.com/ranxianglei/billion-context",
    "source": "GitHub",
-   "stars": 1766,
+   "stars": 1809,
    "stars_week": 888,
    "language": "TypeScript",
    "date": "2026-10-18",
@@ -530,21 +688,6 @@
    "first_seen": "2026-10-17T13:30:00+08:00"
   },
   {
-   "title": "Tencent-Hunyuan/Hy-Memory",
-   "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
-   "source": "GitHub",
-   "stars": 615,
-   "stars_week": null,
-   "language": "Python",
-   "date": "2026-10-18",
-   "summary": "腾讯混元 Hy-Memory 2.0：记忆专用模型、框架与 MemHub，面向智能体长期记忆。",
-   "why": "10 月 15 日前后开源，约 560 星，国内大厂记忆组件开源。",
-   "id": "e127630b938b3649ba6d088f1da423671c1334ae",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-17T06:38:00+08:00"
-  },
-  {
    "title": "@OpenAI",
    "url": "https://x.com/OpenAI/status/2111192259073094035",
    "source": "@OpenAI",
@@ -558,21 +701,6 @@
    "id": "9723315cf52b08d0c242a2e497fdcd2719ea49d4",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-17T04:30:00+08:00"
-  },
-  {
-   "title": "NVlabs/ASPIRE",
-   "url": "https://github.com/NVlabs/ASPIRE",
-   "source": "GitHub",
-   "stars": 487,
-   "stars_week": null,
-   "language": "Python",
-   "date": "2026-10-18",
-   "summary": "英伟达 ASPIRE：智能体式机器人技能发现、自测与自修，演示含双臂解魔方。",
-   "why": "GEAR 实验室开源，约 460 星，具身技能发现方向热门。",
-   "id": "2ea65ef1b6a844150041f79763271dc5dcf57cf7",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-17T04:30:00+08:00"
   },
   {
@@ -621,6 +749,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-16T02:35:00+08:00"
+  },
+  {
+   "title": "Scientific American：多组数学家称 OpenAI 的 Navier-Stokes 证明与其声称借鉴的方法并不相同，万实例智能体群的贡献无人说清",
+   "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
+   "source": "The Decoder",
+   "date": "2026-10-17",
+   "summary": "OpenAI 9 月公布的 166 页 Navier-Stokes 潜在证明称沿用 Córdoba 与 Martínez-Zoroa 的思路，但 EPFL 数学家 Cao-Labora 等认为细节上是不同方法；克雷数学研究所仍在审查。该工作动用约 1 万个模型实例、约 88 小时与 1300 亿 token，OpenAI 研究员 Noam Brown 称没人真正知道智能体群对结果贡献了什么。",
+   "id": "aac68ebfc9bb25838990f0906b8aca301a3bb7f2",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T17:30:00+08:00"
   },
   {
    "title": "阿里 Qwen 开源 BlenderWorld：223 个任务、2651 条评分标准，评测视觉智能体在 Blender 中完成真实 3D 创作",
@@ -1703,6 +1842,39 @@
    "first_seen": "2026-10-15T17:36:05+08:00"
   },
   {
+   "title": "RoTA-Bench：交互式 3D-2D 投影对齐评测空间推理，GPT-5.6-Sol 仅完成 17%，人类参与者全部完成",
+   "url": "https://arxiv.org/abs/2610.17665",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "模型需观察被旋转的物体并连续选择旋转动作，在有限步数内恢复目标剪影。基准由 2D 图标自动构建 674 个可解任务与 100 题测试集；GPT-5.6-Sol 成功率仅 17%，20 名本科生合计四次完成全部测试集，且模型更常出现剪影重叠变好但位姿对齐变差的情况。",
+   "id": "92bdd6fca27f7e22067a57f76b489fc574d7f61e",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "南加大 3DCodeVerse：以可执行代码生成可编辑、可验证的 3D 内容，发布 200 万规模 3D 代码数据集与多智能体 Harness",
+   "url": "https://arxiv.org/abs/2610.22341",
+   "source": "arXiv",
+   "date": "2026-10-16",
+   "summary": "3DCodeVerse 包含 3DCodeVerse-2M 可独立执行的 3D 代码语料（附资源、描述与验证记录），以及基于有向无环图的多智能体生成框架，借执行检查、空间测量与视觉反馈在无人工反馈下自动评估和修正程序，并给出微调开源模型的基线与 3D 编码实践指南。",
+   "id": "ee2d3cbdd9a20526c157f6e97812398eb71ecf97",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
+   "title": "openDemocracy：亚马逊内部 AI 工具 Atlas 按“工会风险”给仓库打分，英国两座仓库被列为最高风险级",
+   "url": "https://www.opendemocracy.net/amazon-ai-surveillance-monitor-union-activity-uk-warehouses-birmingham-coventry-atlas-sutton-coldfield/",
+   "source": "openDemocracy",
+   "date": "2026-10-16",
+   "summary": "加拿大一宗诉讼中公开的内部培训材料显示，亚马逊 AI 预测工具 Atlas 汇集 Reddit 帖子、内部留言板与员工调查回复等“数百个数据点”，给美、加、英仓库打出 100–900 分的组织工会/劳资行动风险分并分五级；16 座仓库被列为“活动迫在眉睫”的 Tier 1，含英国 EMA4 与 BHX4。亚马逊称其仅限站点层面、不追踪个人，且目前未在英国使用。",
+   "id": "ca34855deda27f35529e39e1f9e3cae8f4f6eb7f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-18T17:30:00+08:00"
+  },
+  {
    "title": "彭博：台湾拟将 AI 服务器与先进芯片列入出口管制清单，未经许可运往中国大陆将依《贸易法》追究刑责",
    "url": "https://news.bloomberglaw.com/international-trade/taiwan-to-curb-ai-chip-exports-to-china-as-part-of-us-trade-deal",
    "source": "Bloomberg Law",
@@ -2121,6 +2293,17 @@
    "first_seen": "2026-10-17T08:27:00+08:00"
   },
   {
+   "title": "腾讯混元开源 Hy-Memory 2.0：记忆专用模型 Hy-Memory-30B-A3B + 框架 + MemHub 三层全开源",
+   "url": "https://github.com/Tencent-Hunyuan/Hy-Memory",
+   "source": "GitHub / 腾讯混元",
+   "date": "2026-10-16",
+   "summary": "腾讯混元开源 Hy-Memory 2.0，包含记忆专用模型、框架与 MemHub，面向智能体长期记忆场景，仓库约 560 星。",
+   "id": "e127630b938b3649ba6d088f1da423671c1334ae",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T06:38:00+08:00"
+  },
+  {
    "title": "嘉信理财 CEO：正屏蔽 Meta Muse 等未授权 AI 智能体动用客户资金，改以 MCP 只读接入",
    "url": "https://thenextweb.com/news/schwab-blocks-ai-agents-meta-muse",
    "source": "The Next Web",
@@ -2174,6 +2357,17 @@
    "module": "china",
    "module_name": "国内 AI 动态",
    "first_seen": "2026-10-17T05:30:00+08:00"
+  },
+  {
+   "title": "英伟达 GEAR 开源 ASPIRE：智能体自写/自测/自修机器人技能，双臂机器人解魔方",
+   "url": "https://github.com/NVlabs/ASPIRE",
+   "source": "GitHub / NVIDIA",
+   "date": "2026-10-16",
+   "summary": "英伟达 GEAR 实验室开源 ASPIRE（Agentic Skills Discovery for Robotics），让智能体自主发现、测试与修复机器人技能，演示含双臂解魔方等，约 460 星。",
+   "id": "2ea65ef1b6a844150041f79763271dc5dcf57cf7",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-17T04:30:00+08:00"
   },
   {
    "title": "第一财经：物理 AI 算力芯片公司新芯航途完成战略轮，雷诺首投、奇瑞追加、长鑫参投",
