@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-19T05:35:00+08:00",
- "count": 532,
+ "updated": "2026-10-19T06:35:00+08:00",
+ "count": 535,
  "items": [
+  {
+   "title": "@emollick",
+   "url": "https://x.com/emollick/status/2111925398548193574",
+   "source": "@emollick",
+   "date": "2026-10-19",
+   "summary": "沃顿商学院教授 Ethan Mollick 吐槽：Anthropic 宣称编码大幅提速，但 Claude 至今仍无法修改账户邮箱，官方建议只能删号重注册。",
+   "metrics": {
+    "likes": 342,
+    "reposts": 15,
+    "views": 12678
+   },
+   "id": "4e99d2914b38ecf47a1dc6ed79e034e51ed9d287",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T06:35:00+08:00"
+  },
   {
    "title": "abhi245y/PS5LM-Plus",
    "url": "https://github.com/abhi245y/PS5LM-Plus",
@@ -259,6 +275,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "Murea Labs 交互视频世界模型 Murea-Pro 登顶 WBench：Full-289 综合 81.1 分，RTX PRO 6000 上 3.6 秒生成 5 秒音视频",
+   "url": "https://www.163.com/dy/article/L9I7E9570511AQHO.html",
+   "source": "机器之心 / 网易",
+   "date": "2026-10-18",
+   "summary": "美团 LongCat 维护的交互世界模型评测 WBench 榜单显示，Murea-Pro 以 81.1 分居首，交互能力 82.6、物理合理性 74.4 分别领先第二名约 9.5 和 5.2 分；其 Murea-InWorld 系统由 Murea-Mind 维护世界状态、规划事件，Pro/Fast 负责生成画面与声音，实时因子约 0.71。轻量版 Murea-Fast 在 OpenS2V-Eval 开源模型中排名第一。",
+   "id": "625e7f46c0201abd4366db7679b1b78682c3989a",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T06:35:00+08:00"
   },
   {
    "title": "澎湃新闻：《五台山研究》《沈阳师范大学学报》《青年学报》等多家期刊宣布拒收 AI 参与撰写的稿件，连 AI 润色也不行",
@@ -2427,6 +2454,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-15T17:36:05+08:00"
+  },
+  {
+   "title": "威斯康星州司法部联合约 40 个州向 Character.AI 破产法院提交通知：要求出售公司或资产时附加儿童安全、隐私与消费者保护条件",
+   "url": "https://urbanmilwaukee.com/pressrelease/wisconsin-department-of-justice-seeks-consumer-protections-in-character-ai-bankruptcy/",
+   "source": "Wisconsin DOJ / Urban Milwaukee",
+   "date": "2026-10-16",
+   "summary": "在 Character Technologies 的 Chapter 11 破产案中，威斯康星州司法部与另外 39 个州一道向法院提交通知，援引聊天机器人对未成年人的风险、敏感用户数据、年龄管控不足及冒充专业人士等问题，要求任何资产出售都须保留安全、隐私与消费者保护措施。《密尔沃基哨兵报》10 月 18 日跟进报道。",
+   "id": "afe95177ee17f139ba7c29d621800e969051674a",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-19T06:35:00+08:00"
   },
   {
    "title": "Reflection 开放 Beam 权重：501B MoE（23B 激活）、1M 上下文，Apache 2.0，首日对接 vLLM/SGLang/Ollama 等 40+ 伙伴",
