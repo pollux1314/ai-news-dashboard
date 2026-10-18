@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-19T01:35:00+08:00",
- "count": 516,
+ "updated": "2026-10-19T02:35:00+08:00",
+ "count": 519,
  "items": [
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2111881963657412903",
+   "source": "@AnthropicAI",
+   "date": "2026-10-19",
+   "summary": "Anthropic 官宣将部分股份注入全资新实体 Anthropic Public Benefit Fund，起步为 5%，公司价值较基准每上涨 50% 可再追加，专门用于公共利益。",
+   "metrics": {
+    "likes": 996,
+    "reposts": 65,
+    "views": 43532
+   },
+   "id": "e4acd08bc2ec359e6ea390b163c82da498b3b3c2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T02:35:00+08:00"
+  },
   {
    "title": "TechCrunch/彭博：迪士尼将向至少 60 名 Character.AI 员工发出录用邀约，年薪酬总额约 6000 万美元，多数已接受",
    "url": "https://techcrunch.com/2026/10/18/disney-agrees-to-hire-the-majority-of-character-ais-workforce/",
@@ -48,7 +64,7 @@
    "title": "anomalyco/opencode",
    "url": "https://github.com/anomalyco/opencode",
    "source": "GitHub",
-   "stars": 216246,
+   "stars": 216309,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-19",
@@ -58,6 +74,33 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-17T22:30:00+08:00"
+  },
+  {
+   "title": "Anthropic 设立“Anthropic 公益基金”：首批承诺 5% 公司股份，估值每较基准上涨 50% 可再追加 2%",
+   "url": "https://www.anthropic.com/news/public-benefit-fund",
+   "source": "Anthropic 官方博客 / 路透社",
+   "date": "2026-10-18",
+   "summary": "Anthropic 10 月 18 日宣布，经股东批准后将把 5% 股份注入新成立的全资 LLC“Anthropic Public Benefit Fund”，此后公司估值每较设定基准上涨 50%，董事会可酌情再追加 2%。基金可用于向传统非营利组织大额捐赠或直接向特定人群分配，例如应对 AI 对劳动力市场的冲击（Anthropic 此前已为此承诺 2 亿美元）；所持股权不会用于美国或海外的游说与政治捐款。连同联合创始人捐出 80% 股权的承诺与员工股权捐赠配捐计划，约 20% 的 Anthropic 股份将用于公益。",
+   "id": "4c6c987b6534578844c4e934b848e7958e078caa",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T02:35:00+08:00"
+  },
+  {
+   "title": "@deanwball",
+   "url": "https://x.com/deanwball/status/2111802397148471496",
+   "source": "@deanwball",
+   "date": "2026-10-18",
+   "summary": "OpenAI 战略未来负责人 Dean W. Ball 称，加入 OpenAI 后他上调了对“蒸馏”在中国模型逼近美国基准表现中所起作用的判断；在后续回复中他表示，此前估计约占 30%，看到 OpenAI 内部情况后认为更接近 50%，并称实践中的蒸馏很大程度涉及窃取思维链，因此被视为“攻击”。",
+   "metrics": {
+    "likes": 604,
+    "reposts": 36,
+    "views": 52330
+   },
+   "id": "2adce8e7d4f9d0012cbef3867299486ec8ce8a0a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T02:35:00+08:00"
   },
   {
    "title": "@Thom_Wolf",
@@ -1046,7 +1089,7 @@
    "title": "stablyai/orca",
    "url": "https://github.com/stablyai/orca",
    "source": "GitHub",
-   "stars": 96251,
+   "stars": 96360,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-18",
@@ -1139,7 +1182,7 @@
    "title": "MadsLorentzen/ai-job-search",
    "url": "https://github.com/MadsLorentzen/ai-job-search",
    "source": "GitHub",
-   "stars": 52109,
+   "stars": 52376,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
@@ -1165,7 +1208,7 @@
    "title": "HKUDS/CLI-Anything",
    "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "GitHub",
-   "stars": 54438,
+   "stars": 54472,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",
@@ -1196,7 +1239,7 @@
    "title": "ruvnet/ruflo",
    "url": "https://github.com/ruvnet/ruflo",
    "source": "GitHub",
-   "stars": 76377,
+   "stars": 76410,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-18",
@@ -1211,7 +1254,7 @@
    "title": "anthropics/claude-plugins-official",
    "url": "https://github.com/anthropics/claude-plugins-official",
    "source": "GitHub",
-   "stars": 42435,
+   "stars": 42506,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-18",

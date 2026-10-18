@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-19T01:35:00+08:00",
+ "updated": "2026-10-19T02:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -78,6 +78,13 @@
      "summary": "Character.AI 本周申请破产后，彭博发现的法律文件显示，迪士尼同意向至少 60 名员工（公司大部分人员）发出录用邀约，预计年薪酬总额约 6000 万美元，获邀员工“绝大多数”已接受；此前迪士尼已以 2000 万美元作为部分资产的 stalking horse 竞购方，前 CEO Karandeep Anand 已出任迪士尼首任 CTO。文件称公司受高成本及潜在诉讼与监管负担拖累，其他买家仍可报更高价。"
     },
     {
+     "title": "Anthropic 设立“Anthropic 公益基金”：首批承诺 5% 公司股份，估值每较基准上涨 50% 可再追加 2%",
+     "url": "https://www.anthropic.com/news/public-benefit-fund",
+     "source": "Anthropic 官方博客 / 路透社",
+     "date": "2026-10-18",
+     "summary": "Anthropic 10 月 18 日宣布，经股东批准后将把 5% 股份注入新成立的全资 LLC“Anthropic Public Benefit Fund”，此后公司估值每较设定基准上涨 50%，董事会可酌情再追加 2%。基金可用于向传统非营利组织大额捐赠或直接向特定人群分配，例如应对 AI 对劳动力市场的冲击（Anthropic 此前已为此承诺 2 亿美元）；所持股权不会用于美国或海外的游说与政治捐款。连同联合创始人捐出 80% 股权的承诺与员工股权捐赠配捐计划，约 20% 的 Anthropic 股份将用于公益。"
+    },
+    {
      "title": "索尼新专利：AI 在 GPU 完成渲染前预测下一帧画面，减少游戏卡顿并规避插帧额外延迟",
      "url": "https://www.ithome.com/1/014/615.htm",
      "source": "IT之家（援引 TechSpot）",
@@ -118,13 +125,6 @@
      "source": "IT之家",
      "date": "2026-10-18",
      "summary": "据《金融时报》报道，Anthropic 正向律所等法律机构寻求建议，研究律师如何既代表客户利益又兼顾公平结果，以制定模型交互时的“谈判规范”。公司还在权衡谈判中智能体需在多大程度上寻求人类反馈、面对其他 AI 对手应保持多高警惕，并探讨过让用户签署文件、向智能体确认委托事项与须遵守规则的方案。"
-    },
-    {
-     "title": "FT：2026 年美国逾 47 个大型数据中心项目被推迟、撤回或叫停，伯恩斯坦称规划管线仅约 35% 可信",
-     "url": "https://aiweekly.co/alerts/ft-47-large-us-data-center-projects-delayed-withdrawn-or-blocked-in-2026",
-     "source": "AI Weekly（转述 FT）",
-     "date": "2026-10-18",
-     "summary": "据 FT 报道，RegLayer 统计 2026 年至少 47 个美国大型数据中心项目因电力、用水与税收优惠等引发的地方反对而被推迟、撤回或阻止；伯恩斯坦称受并网周期、变压器短缺与液冷瓶颈制约，美国规划中的数据中心管线只有约 35% 可信，AI 基建算力紧张或进一步加剧。"
     }
    ]
   },
@@ -389,7 +389,7 @@
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
      "source": "GitHub",
-     "stars": 216246,
+     "stars": 216309,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -411,7 +411,7 @@
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 96251,
+     "stars": 96360,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-18",
@@ -422,7 +422,7 @@
      "title": "anthropics/claude-plugins-official",
      "url": "https://github.com/anthropics/claude-plugins-official",
      "source": "GitHub",
-     "stars": 42435,
+     "stars": 42506,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -433,7 +433,7 @@
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 76377,
+     "stars": 76410,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-18",
@@ -444,7 +444,7 @@
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 54438,
+     "stars": 54472,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -466,7 +466,7 @@
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 52109,
+     "stars": 52376,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-18",
@@ -481,6 +481,18 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@AnthropicAI",
+     "url": "https://x.com/AnthropicAI/status/2111881963657412903",
+     "source": "@AnthropicAI",
+     "date": "2026-10-19",
+     "summary": "Anthropic 官宣将部分股份注入全资新实体 Anthropic Public Benefit Fund，起步为 5%，公司价值较基准每上涨 50% 可再追加，专门用于公共利益。",
+     "metrics": {
+      "likes": 996,
+      "reposts": 65,
+      "views": 43532
+     }
+    },
+    {
      "title": "@elonmusk",
      "url": "https://x.com/elonmusk/status/2111867437238853726",
      "source": "@elonmusk",
@@ -490,6 +502,18 @@
       "likes": 1729,
       "reposts": 201,
       "views": 473952
+     }
+    },
+    {
+     "title": "@deanwball",
+     "url": "https://x.com/deanwball/status/2111802397148471496",
+     "source": "@deanwball",
+     "date": "2026-10-18",
+     "summary": "OpenAI 战略未来负责人 Dean W. Ball 称，加入 OpenAI 后他上调了对“蒸馏”在中国模型逼近美国基准表现中所起作用的判断；在后续回复中他表示，此前估计约占 30%，看到 OpenAI 内部情况后认为更接近 50%，并称实践中的蒸馏很大程度涉及窃取思维链，因此被视为“攻击”。",
+     "metrics": {
+      "likes": 604,
+      "reposts": 36,
+      "views": 52330
      }
     },
     {
@@ -550,30 +574,6 @@
       "likes": 14522,
       "reposts": 1286,
       "views": 1075031
-     }
-    },
-    {
-     "title": "@odysseyml",
-     "url": "https://x.com/odysseyml/status/2111589148146749616",
-     "source": "@odysseyml",
-     "date": "2026-10-18",
-     "summary": "世界模型公司 Odyssey：把果蝇大脑模型放进其前沿世界模型 Odyssey-3，让这只“小家伙”在完全由模型想象生成的模拟世界中自主飞行（附 30 秒视频），引发广泛讨论。",
-     "metrics": {
-      "likes": 13489,
-      "reposts": 1263,
-      "views": 3060172
-     }
-    },
-    {
-     "title": "@alexandr_wang",
-     "url": "https://x.com/alexandr_wang/status/2111539749022503334",
-     "source": "@alexandr_wang",
-     "date": "2026-10-18",
-     "summary": "Meta 首席 AI 官 Alexandr Wang 晒出 Muse Wonder Full 在 VulcanBench 上的成绩：整体与 GPT-6 Astra、Claude Opus 5.5、Sol 6.1 相当，但速度明显更慢，团队正在优化。",
-     "metrics": {
-      "likes": 520,
-      "reposts": 27,
-      "views": 51571
      }
     }
    ]
