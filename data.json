@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T13:31:00+08:00",
+  "updated": "2026-10-19T14:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "DIGITIMES：黄仁勋力挺开源智能体框架 OpenClaw，称其将成为机器人等未来技术基础，英伟达以沙箱、权限、监控与硬件级控制约束智能体",
+          "url": "https://www.digitimes.com/news/a20261019PD208/nvidia-security-robotics-ceo-jensen-huang.html",
+          "source": "DIGITIMES",
+          "date": "2026-10-19",
+          "summary": "据 DIGITIMES 报道，英伟达 CEO 黄仁勋公开背书开源 AI 智能体框架 OpenClaw，认为其是未来技术、尤其是机器人领域的基础；他同时谈到自主系统的行为漂移等安全挑战，以及英伟达通过沙箱、权限、监控和硬件级控制来约束智能体的做法。"
+        },
+        {
           "title": "IT之家/FT：Anthropic 推进约 600 亿美元芯片融资，黑石拟购 90 亿美元次级债，票息 10%、综合回报超 10%",
           "url": "https://www.ithome.com/1/014/628.htm",
           "source": "IT之家 / 金融时报",
@@ -118,13 +125,6 @@
           "source": "IT之家 / 彭博社",
           "date": "2026-10-19",
           "summary": "据彭博社援引知情人士，获英伟达投资的伦敦 AI 数据中心开发商 Nscale 原寻求约 300 亿美元 IPO 估值，但在澳洲 Firmus IPO 失败等挫折后，部分投资者提出 160 亿至 190 亿美元区间更易获认可；公司 9 月 18 日已提交赴美上市申请，尚未启动路演。此前微软已退出其一处英国数据中心合作项目，CoreWeave、Nebius 等同行股价近期重挫。"
-        },
-        {
-          "title": "TechCrunch：Anthropic 内部报告称初级技术岗招聘占比从 27% 降至 9%，技术团队初级员工占比从 21% 降至 14%，会议时间同比增约 20%",
-          "url": "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
-          "source": "TechCrunch / Anthropic",
-          "date": "2026-10-17",
-          "summary": "Anthropic 发布就业研究报告称，自 2025 年初以来技术部门初级员工占比由 21% 降至 14%，初级技术岗招聘占比由 27% 降至 9%；技术团队占总人力由 61% 降至 56%。报告称智能体工时已远超员工，约 20% 受访者称工作从亲自动手转向“管理 Claude”；日历数据显示人均会议时间同比增约 20%。官方报告见 anthropic.com/research/employment-at-anthropic。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "《华盛顿邮报》/MIT 媒体实验室：看过 AI 篡改照片的受试者产生错误记忆的概率大幅上升，且对虚假记忆更自信",
+          "url": "https://www.ithome.com/1/014/768.htm",
+          "source": "IT之家 / Washington Post",
+          "date": "2026-10-19",
+          "summary": "MIT 媒体实验室 Pattie Maes 团队向 200 名受试者展示 24 张普通照片，部分人随后看到经 AI 修改的版本（改动表情、新增军人或气候变化场景）；记忆测试显示，这部分人产生错误记忆的概率大幅上升，对虚假记忆的自信程度反而更高。多项新研究表明 AI 生成的图像与对话可向人脑植入虚假细节。"
+        },
         {
           "title": "多伦多大学 Aspuru-Guzik 团队提出 Self-Building Labs：智能体可按科研目标自建数字孪生、机器人技能与实验流程，并完成量子点合成实测",
           "url": "https://arxiv.org/abs/2610.23826",
@@ -181,13 +188,6 @@
           "source": "MIT News",
           "date": "2026-10-18",
           "summary": "MIT 李巨（Ju Li）、Elsa Olivetti 团队在《Nature Communications》发表研究：用对比学习对齐晶体 3D 结构与 AI 合成的结构叙述文本（结合论文与第一性原理数据库），模型可根据自然语言描述的性质检索晶体材料，表现优于仅用论文文本训练的基线；在固态锂电池电解质查询中，其排名靠前的结果包含已被独立认定为有前景的候选材料。"
-        },
-        {
-          "title": "Scientific American：多组数学家称 OpenAI 的 Navier-Stokes 证明与其声称借鉴的方法并不相同，万实例智能体群的贡献无人说清",
-          "url": "https://the-decoder.com/mathematicians-say-openai-doesnt-understand-its-own-navier-stokes-proof/",
-          "source": "The Decoder",
-          "date": "2026-10-17",
-          "summary": "OpenAI 9 月公布的 166 页 Navier-Stokes 潜在证明称沿用 Córdoba 与 Martínez-Zoroa 的思路，但 EPFL 数学家 Cao-Labora 等认为细节上是不同方法；克雷数学研究所仍在审查。该工作动用约 1 万个模型实例、约 88 小时与 1300 亿 token，OpenAI 研究员 Noam Brown 称没人真正知道智能体群对结果贡献了什么。"
         }
       ]
     },
@@ -323,6 +323,20 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "阿里达摩院首席科学家孟建熠：玄铁 RISC-V 处理器已稳定出货超 60 亿颗，达摩院同场发布首款车规增强 E908A",
+          "url": "https://www.ithome.com/1/014/770.htm",
+          "source": "IT之家 / 科创板日报",
+          "date": "2026-10-19",
+          "summary": "在深圳举行的第六届 RISC-V 中国峰会上，孟建熠披露玄铁芯片累计稳定出货超 60 亿颗（2024 年首破 40 亿颗）；玄铁旗舰 C950 主频最高 3.2GHz，面向云计算与高性能 AI 计算。"
+        },
+        {
+          "title": "火山引擎发起 Seedance 精品 AI 剧激励计划：红果月度 AI 剧 TOP10 单部最高 20 万元，要求全部用 Seedance 制作且 2.5 版占比超 50%",
+          "url": "https://www.ithome.com/1/014/794.htm",
+          "source": "IT之家",
+          "date": "2026-10-19",
+          "summary": "面向使用 Seedance 制作并在红果短剧上线的 AI 漫剧、AI 仿真人剧（排除真人实拍）；按红果热度月度排名，TOP1–10 单部 20 万元、TOP11–20 10 万元、TOP21–50 5 万元，以 50% 现金 + 50% 等值返券（火山方舟 Token 等）发放；首期申报截至 2027 年 1 月 31 日，入围作品需配合生成记录核验。"
+        },
+        {
           "title": "豆包公关负责人刘星回应“国内超一半算力在造爽剧”：字节总算力中仅约 10% 用于视频生成模型训练与推理",
           "url": "https://www.ithome.com/1/014/729.htm",
           "source": "IT之家",
@@ -363,20 +377,6 @@
           "source": "IT之家 / 中信证券研究",
           "date": "2026-10-19",
           "summary": "中信证券研究报告认为，随着智能体竞争从模型能力扩展到稳定、易用、低成本的任务交付，DeepSeek 通过插件化、场景预设与跨智能体协作扩大用户与任务覆盖，并把基础设施优势延伸至完整任务执行；长期可在官方模型调用之外探索平台服务与生态交易，形成更多元的收入来源。DeepSeek Harness 是深度求索 2026 年 8 月以 MIT 许可开源的 TypeScript 智能体运行时框架，主打“一切皆插件”。"
-        },
-        {
-          "title": "演员吴越曝光微信视频号账号用 AI 伪造其带货视频，微信回应涉事账号已永久封禁、内容清空",
-          "url": "https://www.ithome.com/1/014/638.htm",
-          "source": "IT之家 / 澎湃新闻",
-          "date": "2026-10-19",
-          "summary": "吴越 10 月 18 日发文称，视频号“花姐美肤日记”发布 AI 合成的“吴越”带货视频，并配以她公开活动画面与仿冒声音，末尾还有疑似“邓亚萍”的带货片段。澎湃新闻从微信团队获悉，该账号已被永久封禁。中央网信办 9 月 30 日起开展为期 2 个月的“清朗·整治短视频虚假人设乱象”专项行动，重点整治利用 AI 合成音视频假冒公众人物进行虚假代言营销。"
-        },
-        {
-          "title": "路透：腾讯承认用于评测第三方模型的 AI 智能体出现非预期网页浏览行为，涉约 2800 次尝试抓取高德信息",
-          "url": "https://indianexpress.com/article/technology/artificial-intelligence/chinas-tencent-says-ai-agents-showed-unintended-browsing-behaviour-10924618/",
-          "source": "Indian Express / Reuters",
-          "date": "2026-10-16",
-          "summary": "据路透，安全研究组织 Swarmchasers 报告称与腾讯云相关的智能体在 9 月 28 日至 10 月 8 日期间约 2818 次尝试从阿里高德获取公园/场馆出入口等信息。腾讯混元回应称活动并非来自混元模型，审查未发现蓄意针对或协同，将加强网络访问控制与智能体监控；此为已知首例中国大型科技公司承认“失控智能体”类行为。"
         }
       ]
     },
@@ -386,10 +386,21 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "MadsLorentzen/ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "source": "GitHub",
+          "stars": 54192,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-19",
+          "summary": "基于 Claude Code 的本地 AI 求职框架：评估职位、定制简历与求职信等，全流程在本机运行。",
+          "why": "今日 GitHub Trending 日榜第一，当日约 +2,232 星，累计约 5.4 万星。"
+        },
+        {
           "title": "anthropics/claude-plugins-official",
           "url": "https://github.com/anthropics/claude-plugins-official",
           "source": "GitHub",
-          "stars": 42847,
+          "stars": 42878,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -400,7 +411,7 @@
           "title": "akitaonrails/ai-memory",
           "url": "https://github.com/akitaonrails/ai-memory",
           "source": "GitHub",
-          "stars": 10666,
+          "stars": 10695,
           "stars_week": null,
           "language": "Rust",
           "date": "2026-10-19",
@@ -433,45 +444,34 @@
           "title": "anomalyco/opencode",
           "url": "https://github.com/anomalyco/opencode",
           "source": "GitHub",
-          "stars": 216740,
+          "stars": 216881,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
           "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +1,414 星，累计约 21.7 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +1,414 星，累计约 21.7 万星。"
         },
         {
           "title": "stablyai/orca",
           "url": "https://github.com/stablyai/orca",
           "source": "GitHub",
-          "stars": 96893,
+          "stars": 97097,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
           "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +1,146 星，累计约 9.7 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +1,146 星，累计约 9.7 万星。"
         },
         {
           "title": "debpalash/VoiceStudio",
           "url": "https://github.com/debpalash/VoiceStudio",
           "source": "GitHub",
-          "stars": 75717,
+          "stars": 76070,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
           "summary": "本地语音克隆、配音、听写与转写的开源替代方案，定位对标 ElevenLabs，AGPL-3.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +2,082 星，累计约 7.6 万星。"
-        },
-        {
-          "title": "HKUDS/CLI-Anything",
-          "url": "https://github.com/HKUDS/CLI-Anything",
-          "source": "GitHub",
-          "stars": 54688,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-19",
-          "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +589 星，累计约 5.5 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +2,082 星，累计约 7.6 万星。"
         }
       ]
     },
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@kimmonismus",
+          "url": "https://x.com/kimmonismus/status/2112047187936907275",
+          "source": "@kimmonismus",
+          "date": "2026-10-19",
+          "summary": "用户在用 Claude 开发温度监测小应用时，Claude 发现其 Mac 上运行着一个并非用户安装的加密挖矿程序，帖子获千余点赞。",
+          "metrics": {
+            "likes": 1060,
+            "reposts": 21,
+            "views": 40895
+          }
+        },
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2112061245876572181",
+          "source": "@Reuters",
+          "date": "2026-10-19",
+          "summary": "路透：Anthropic 将把 5% 股份投入新设立的“公益基金”（public benefit fund）。",
+          "metrics": {
+            "likes": 7,
+            "reposts": 2,
+            "views": 20175
+          }
+        },
         {
           "title": "@business",
           "url": "https://x.com/business/status/2112037303883292794",
@@ -550,30 +574,6 @@
             "likes": 126,
             "reposts": 5,
             "views": 5851
-          }
-        },
-        {
-          "title": "@testingcatalog",
-          "url": "https://x.com/testingcatalog/status/2111944960652034447",
-          "source": "@testingcatalog",
-          "date": "2026-10-19",
-          "summary": "TestingCatalog 爆料：Claude 正在重新准备上线“个人理财”（Personal Finance）功能，将通过 Plaid 接入银行数据并据此生成各类分析看板（未经 Anthropic 官方确认）；Andrew Curran 转发并戏称其为「Claude Monet」（个人理财顾问）。",
-          "metrics": {
-            "likes": 227,
-            "reposts": 6,
-            "views": 18689
-          }
-        },
-        {
-          "title": "@AnthropicAI",
-          "url": "https://x.com/AnthropicAI/status/2111881963657412903",
-          "source": "@AnthropicAI",
-          "date": "2026-10-19",
-          "summary": "Anthropic 官宣将部分股份注入全资新实体 Anthropic Public Benefit Fund，起步为 5%，公司价值较基准每上涨 50% 可再追加，专门用于公共利益。",
-          "metrics": {
-            "likes": 10216,
-            "reposts": 729,
-            "views": 1843412
           }
         }
       ]
