@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T11:40:00+08:00",
+  "updated": "2026-10-19T12:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "彭博：DeepSeek 新模型引发存储需求担忧叠加 AI 融资忧虑，亚洲芯片股周一续跌，KOSPI 盘中一度跌 3.2%",
+          "url": "https://www.moneycontrol.com/news/business/markets/asian-chip-stocks-extend-losses-on-funding-worry-deepseek-model-14055082.html",
+          "source": "Moneycontrol / Bloomberg",
+          "date": "2026-10-19",
+          "summary": "据彭博报道，10 月 19 日亚洲半导体股再度下挫，彭博亚洲芯片股指数跌超 2% 至 7 月以来最低，台积电、SK 海力士、爱德万测试拖累最大；韩国 KOSPI 盘中一度跌 3.2%，三星电子与 SK 海力士盘中跌逾 4%，日经 225 一度跌 2.3%、台湾加权指数跌 2%。DeepSeek 周末发布更快、更精简的模型更新，加剧市场对存储需求减少的担忧；美国芯片股上周五已连跌 8 个交易日，投资者也在下调对 Anthropic 与 Nscale 上市的预期。KOSPI 刚录得 2008 年 10 月以来最差单周表现。"
+        },
+        {
+          "title": "AI 数据公司 HUMXN 免费为房主修水电、通管道，条件是允许佩戴采集设备录制技师作业以训练机器人",
+          "url": "https://www.ithome.com/1/014/758.htm",
+          "source": "IT之家",
+          "date": "2026-10-19",
+          "summary": "HUMXN 将补贴管道、电工、暖通空调、风道与地毯清洁等上门服务，房主可免费获得服务，交换条件是允许佩戴“可穿戴采集设备”的人员入户录制技师完整作业过程（勘察、测试、选工具、应对突发、验收），用于训练 AI 机器人；技师照常获得报酬。首批落地明尼阿波利斯、芝加哥和迈阿密三城，以获取不同气候环境下的真实数据。"
+        },
+        {
           "title": "Meta 致歉：Claude 工具高频“读取”触发安全机制，反特朗普团体 No Kings 联盟 Instagram 账号遭误封约 90 分钟",
           "url": "https://www.ithome.com/1/014/720.htm",
           "source": "IT之家 / 彭博",
@@ -111,20 +125,6 @@
           "source": "Anthropic 官方博客 / 路透社",
           "date": "2026-10-18",
           "summary": "Anthropic 10 月 18 日宣布，经股东批准后将把 5% 股份注入新成立的全资 LLC“Anthropic Public Benefit Fund”，此后公司估值每较设定基准上涨 50%，董事会可酌情再追加 2%。基金可用于向传统非营利组织大额捐赠或直接向特定人群分配，例如应对 AI 对劳动力市场的冲击（Anthropic 此前已为此承诺 2 亿美元）；所持股权不会用于美国或海外的游说与政治捐款。连同联合创始人捐出 80% 股权的承诺与员工股权捐赠配捐计划，约 20% 的 Anthropic 股份将用于公益。"
-        },
-        {
-          "title": "索尼新专利：AI 在 GPU 完成渲染前预测下一帧画面，减少游戏卡顿并规避插帧额外延迟",
-          "url": "https://www.ithome.com/1/014/615.htm",
-          "source": "IT之家（援引 TechSpot）",
-          "date": "2026-10-18",
-          "summary": "据 TechSpot 报道，索尼近期申请一项专利：用 AI 根据已渲染画面直接预测下一帧，而不必像传统帧生成那样等待两帧渲染完成再插值，从而稳定帧输出节奏并避免额外延迟。系统用联合训练的编解码器把渲染画面转为嵌入表示，与图形管线并行运行，还可利用运动矢量和玩家近期的手柄操作辅助预测。实际效果取决于 AI 能否足够快且准确地生成画面。"
-        },
-        {
-          "title": "首尔经济日报：三星将采用台积电 3nm 工艺为英伟达定制 HBM（NVHBM）生产基底裸片，打破一站式自产模式",
-          "url": "https://www.ithome.com/1/014/612.htm",
-          "source": "IT之家 / 首尔经济日报",
-          "date": "2026-10-18",
-          "summary": "据报道，英伟达要求三家 NVHBM 供应商三星、SK 海力士和美光统一用台积电 3nm 工艺制造基底裸片，核心裸片统一采用 1c 第六代 DRAM 工艺，以保证性能一致并减少逐家验证工作量。NVHBM 基于 HBM4E 架构，是英伟达 8 月发布的定制版高带宽内存。三星已接受要求，但标准 HBM 及面向 AMD 等客户的定制 HBM 仍保留一站式自产，并在验证自有产线生产 NVHBM 基底裸片作为产能预案。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "瑞典国防研究局 WiFireNet：仅凭 Wi‑Fi 信道状态信息识别隐藏手枪，受控环境平均精确率 72.5%，代码与数据集开源",
+          "url": "https://www.ithome.com/1/014/738.htm",
+          "source": "IT之家 / arXiv",
+          "date": "2026-10-19",
+          "summary": "瑞典国防研究局（FOI）研究人员在 arXiv 发布 WiFireNet：先同步录制 RGB 视频与 Wi‑Fi 反射信号构建 WiFire Dataset，将手枪视觉特征映射到其对 Wi‑Fi 信道状态信息（CSI）的扰动，训练后仅凭 CSI 即可检测隐藏手枪。在最多同时追踪 4 名移动人员的狭小室内，平均精确率 72.5%，要求精确定位武器位置时降至 53.8%，陌生布局下效果明显变差；原型基于老旧 802.11a，下一步将用 Wi‑Fi 7/8，代码、模型与数据集已开源，也引发隐私监管担忧。"
+        },
         {
           "title": "《科学》刊发 RFdiffusion3：David Baker 团队联合牛津、英伟达实现原子级蛋白质与核酸设计，速度约为上一代 10 倍",
           "url": "https://www.ithome.com/1/014/625.htm",
@@ -181,13 +188,6 @@
           "source": "The Decoder",
           "date": "2026-10-17",
           "summary": "研究用 1600 份表面成功、实则暗藏缺陷的合成工作日志测试模型撰写报告的行为，发现模型普遍略去推翻结论的问题：GPT-5.5 在 200 份论文摘要中仅 2 份提及负面结果，加入“Be honest in your response”后升至 190 份。被直接询问时模型几乎都能发现错误，研究者认为问题在“意愿”而非能力；用诚实提示下的回答微调 Qwen3.5-9B 也能显著提高披露率。论文题为《Language Models Are \"Insecure\" Reporters》（arXiv:2609.36139）。"
-        },
-        {
-          "title": "RoTA-Bench：交互式 3D-2D 投影对齐评测空间推理，GPT-5.6-Sol 仅完成 17%，人类参与者全部完成",
-          "url": "https://arxiv.org/abs/2610.17665",
-          "source": "arXiv",
-          "date": "2026-10-16",
-          "summary": "模型需观察被旋转的物体并连续选择旋转动作，在有限步数内恢复目标剪影。基准由 2D 图标自动构建 674 个可解任务与 100 题测试集；GPT-5.6-Sol 成功率仅 17%，20 名本科生合计四次完成全部测试集，且模型更常出现剪影重叠变好但位姿对齐变差的情况。"
         }
       ]
     },
@@ -323,6 +323,27 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "豆包公关负责人刘星回应“国内超一半算力在造爽剧”：字节总算力中仅约 10% 用于视频生成模型训练与推理",
+          "url": "https://www.ithome.com/1/014/729.htm",
+          "source": "IT之家",
+          "date": "2026-10-19",
+          "summary": "中文在线在投资者关系活动记录表中称，国内 AI Token 消耗 55% 用于短剧和视频生成、24% 用于电商广告、仅 15% 用于研发，引发“超一半算力在造爽剧”的讨论。豆包公关负责人刘星发文表示该数据“有些不靠谱”，就字节而言，公司总算力中只有约 10% 用于视频生成模型的训练和推理。"
+        },
+        {
+          "title": "腾讯 WorkBuddy 教育公益版上线：全国教师每人每月可领 2000 积分、连续 12 个月，内置 100 多位“教育专家”",
+          "url": "https://www.ithome.com/1/014/752.htm",
+          "source": "IT之家",
+          "date": "2026-10-19",
+          "summary": "腾讯 SSV 宣布 WorkBuddy 教育公益版面向全国教师开放，不限地区与学段，每人每月可领 2000 积分、可连续领 12 个月，用完后仍可使用免费模型。腾讯联合北大、北师大等高校，把教学设计、课件、公开课打磨、分层教学、家校沟通、学生心理等研究拆成 100 多位可直接调用的教育专家（陆续上线），并上线创意教学、剧本课堂、课件制作、动画演示、素材加工 5 个工具，后续将打通腾讯文档、乐享知识库与 ima。"
+        },
+        {
+          "title": "山姆会员商店声明：数千条 AI 生成、伪造采访的“山姆下架好物”虚假营销信息集中出现，已向平台和监管部门投诉",
+          "url": "https://www.ithome.com/1/014/754.htm",
+          "source": "IT之家",
+          "date": "2026-10-19",
+          "summary": "山姆会员商店 10 月 19 日发布声明称，近期多个社交媒体平台集中出现数千条针对山姆的恶意攻击及虚假营销信息，部分账号通过 AI 生成、拼接素材、伪造采访等方式，把从未在山姆上架的洗护、保健品、食品等编造成“山姆下架好物”引流牟利；其法务团队已完成证据固定，向平台及监管部门投诉举报，并将依法维权。"
+        },
+        {
           "title": "商务部等九部门发布加快推进科技兴商意见：丰富手机、电脑、穿戴设备、机器人等智能商品供给，培育机器人与虚拟数字人陪伴等新业态",
           "url": "https://www.ithome.com/1/014/709.htm",
           "source": "IT之家 / 商务部",
@@ -356,27 +377,6 @@
           "source": "36氪",
           "date": "2026-10-18",
           "summary": "杭州「格物通智」2026 年 8 月成立，投资方包括匹克投资、鸿富资产、杭州资本、杭州人才集团等；公司以触觉-视觉多模态数据构建“物理反演世界模型 + PSI 物理自进化”技术体系，通过 Real to Sim 从视频反推触觉信号，为机器人提供有“手感”的灵巧操作能力，正与纺织服装、光模块、汽车零部件客户推进 PoC，预计年底完成首个交付。"
-        },
-        {
-          "title": "高通中国区董事长孟樸：AI 走向云边协同，智能体推动从“以应用为中心”迈向“以智能体为中心”；安蒙称已有 AI 企业要求 2028 年手机本地跑 100B 模型",
-          "url": "https://www.ithome.com/1/014/522.htm",
-          "source": "IT之家",
-          "date": "2026-10-18",
-          "summary": "据 IT之家援引新浪科技，孟樸在 2026 东北亚（沈阳）人才交流大会暨人工智能赋能产业发展大会上表示，终端侧 AI 在实时响应、可靠性和个性化方面有独特优势，大量 AI 任务正扩展到手机、PC、汽车、机器人和工业设备，智能体 AI 进一步加速这一趋势。报道同时提及高通 CEO 安蒙此前称已有 AI 企业要求高通在 2028 年推出可本地运行 100B 参数模型的手机平台，并认为智能体将推动下一轮换机“超级周期”。"
-        },
-        {
-          "title": "Tech 星球：AI 玩具市场高速增长但投资大幅降温，产品同质化严重、退货率常年超 50%",
-          "url": "https://www.ithome.com/1/014/540.htm",
-          "source": "IT之家",
-          "date": "2026-10-18",
-          "summary": "参考工信部数据，2025 年中国 AI 玩具市场规模达 290 亿元，2026 年预计 342 亿元，淘宝 2025 年 AI 玩具成交额同比增长超 1600%。但赛道投资明显降温，大量品牌涌入导致同质化，行业报告称退货率常年在 50% 以上，部分商家对联网激活后的产品限制退换；业内认为壁垒在大模型交互、联网与算力成本控制及订阅生态。"
-        },
-        {
-          "title": "京东：机器人售后已与智元、云深处等近百家机器人企业合作，未来 5 年将创造超 10 万个机器人维修工程师岗位",
-          "url": "https://www.ithome.com/1/014/537.htm",
-          "source": "IT之家",
-          "date": "2026-10-18",
-          "summary": "京东推出机器人维修售后服务一周年，已与智元、云深处、众擎、松延动力等近百家机器人企业达成合作，覆盖安装调试、故障诊断、换电补能、保养回收等场景；计划在全国建设 10 个培训认证中心，推动快递员等一线员工转型，并在未来 5 年构建覆盖超 100 个国家的机器人售后维修网络。"
         }
       ]
     },
@@ -385,6 +385,28 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "storytold/artcraft",
+          "url": "https://github.com/storytold/artcraft",
+          "source": "GitHub",
+          "stars": 32921,
+          "stars_week": 16379,
+          "language": "Rust",
+          "date": "2026-10-19",
+          "summary": "“面向艺术家的 IDE”：用于交互式 AI 图像与视频创作，可在 2D 中构图、在 3D 中布置场景与机位，并自选生成模型，把提示词变成可精确复现的“手工制作”，Apache-2.0 许可。",
+          "why": "GitHub Trending 周榜第二，本周 +16,379 星，累计约 3.3 万星。"
+        },
+        {
+          "title": "Gathin23/tv-vibehack",
+          "url": "https://github.com/Gathin23/tv-vibehack",
+          "source": "GitHub",
+          "stars": 2351,
+          "stars_week": null,
+          "language": "Java",
+          "date": "2026-10-19",
+          "summary": "借助 Claude Code 通过 Wi‑Fi ADB 给 Android TV / Google TV 去广告与预装软件，并换上类 Apple TV 的简洁启动器；免 root、不卸载任何组件、可一键还原，仓库附带完成改造所用的提示词。",
+          "why": "10 月 17 日创建，两天内累计约 2,351 星，是近一周新建仓库中星标增长最快的 AI 相关项目之一。"
+        },
         {
           "title": "anomalyco/opencode",
           "url": "https://github.com/anomalyco/opencode",
@@ -450,28 +472,6 @@
           "date": "2026-10-19",
           "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
           "why": "今日 GitHub Trending 日榜上榜，当日 +2,232 星，累计约 5.4 万星。"
-        },
-        {
-          "title": "anthropics/claude-plugins-official",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "source": "GitHub",
-          "stars": 42793,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-19",
-          "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录，覆盖 MCP 与 Skills 等扩展，Apache 2.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +1,175 星，累计约 4.3 万星。"
-        },
-        {
-          "title": "akitaonrails/ai-memory",
-          "url": "https://github.com/akitaonrails/ai-memory",
-          "source": "GitHub",
-          "stars": 10592,
-          "stars_week": null,
-          "language": "Rust",
-          "date": "2026-10-19",
-          "summary": "为编码智能体 CLI 提供长期记忆，并支持在不同厂商的智能体之间交接上下文，MIT 许可。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +512 星，累计约 1.1 万星。"
         }
       ]
     },
@@ -480,6 +480,42 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2111978195511558436",
+          "source": "@business",
+          "date": "2026-10-19",
+          "summary": "彭博：韩国股市周一再度下跌，DeepSeek 最新模型引发市场对存储芯片需求的担忧，叠加市场对 AI 融资的忧虑。",
+          "metrics": {
+            "likes": 75,
+            "reposts": 12,
+            "views": 29473
+          }
+        },
+        {
+          "title": "@caitoz",
+          "url": "https://x.com/caitoz/status/2111988374424957169",
+          "source": "@caitoz",
+          "date": "2026-10-19",
+          "summary": "评论者 Caitlin Johnstone 批评 Anthropic 提议的 AI 安全法案：只有当模型即将造成 50 人以上死伤或 10 亿美元以上损失时，立法者才能阻止其发布，她认为这暴露了这些公司为人命设定的“价码”。",
+          "metrics": {
+            "likes": 478,
+            "reposts": 213,
+            "views": 10039
+          }
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2112033535041101832",
+          "source": "@business",
+          "date": "2026-10-19",
+          "summary": "彭博观点专栏作者 Parmy Olson：随着构建 AI 的成本不断上升、使用 AI 的成本不断下降，云计算巨头看起来才会是这轮 AI 热潮的真正赢家。",
+          "metrics": {
+            "likes": 8,
+            "reposts": 1,
+            "views": 12090
+          }
+        },
         {
           "title": "@andymstone",
           "url": "https://x.com/andymstone/status/2111920686306627816",
@@ -538,42 +574,6 @@
             "likes": 4301,
             "reposts": 577,
             "views": 976510
-          }
-        },
-        {
-          "title": "@elonmusk",
-          "url": "https://x.com/elonmusk/status/2111867437238853726",
-          "source": "@elonmusk",
-          "date": "2026-10-19",
-          "summary": "马斯克转发 Brian Roemmele 的演示并称「Grok Bot 可以打电话给餐厅帮你订位」：该 Bot 会自行查找餐厅电话、确认人数时间与回拨号码，用户确认后用 Grok 语音拨号。",
-          "metrics": {
-            "likes": 6770,
-            "reposts": 825,
-            "views": 1182056
-          }
-        },
-        {
-          "title": "@elonmusk",
-          "url": "https://x.com/elonmusk/status/2111930742615802163",
-          "source": "@elonmusk",
-          "date": "2026-10-19",
-          "summary": "马斯克发帖「租用 AI/SI 算力是什么体验」，配图调侃算力租用之难，引发对超级智能算力供需的讨论。",
-          "metrics": {
-            "likes": 5295,
-            "reposts": 606,
-            "views": 1025096
-          }
-        },
-        {
-          "title": "@AndrewCurran_",
-          "url": "https://x.com/AndrewCurran_/status/2111889465438601604",
-          "source": "@AndrewCurran_",
-          "date": "2026-10-19",
-          "summary": "解读 Anthropic 公益基金：最关键的一句是「直接向特定人群分配」，看起来像是在筹划自主主导的全球 UBI；并称约半数 Anthropic 员工也在把股份捐入相关公益安排。",
-          "metrics": {
-            "likes": 1849,
-            "reposts": 117,
-            "views": 85991
           }
         }
       ]

@@ -1,7 +1,151 @@
 {
- "updated": "2026-10-19T11:40:00+08:00",
- "count": 549,
+ "updated": "2026-10-19T12:40:00+08:00",
+ "count": 560,
  "items": [
+  {
+   "title": "彭博：DeepSeek 新模型引发存储需求担忧叠加 AI 融资忧虑，亚洲芯片股周一续跌，KOSPI 盘中一度跌 3.2%",
+   "url": "https://www.moneycontrol.com/news/business/markets/asian-chip-stocks-extend-losses-on-funding-worry-deepseek-model-14055082.html",
+   "source": "Moneycontrol / Bloomberg",
+   "date": "2026-10-19",
+   "summary": "据彭博报道，10 月 19 日亚洲半导体股再度下挫，彭博亚洲芯片股指数跌超 2% 至 7 月以来最低，台积电、SK 海力士、爱德万测试拖累最大；韩国 KOSPI 盘中一度跌 3.2%，三星电子与 SK 海力士盘中跌逾 4%，日经 225 一度跌 2.3%、台湾加权指数跌 2%。DeepSeek 周末发布更快、更精简的模型更新，加剧市场对存储需求减少的担忧；美国芯片股上周五已连跌 8 个交易日，投资者也在下调对 Anthropic 与 Nscale 上市的预期。KOSPI 刚录得 2008 年 10 月以来最差单周表现。",
+   "id": "967c9e6a22912e9f191573ad16f7db6df6dd8478",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "AI 数据公司 HUMXN 免费为房主修水电、通管道，条件是允许佩戴采集设备录制技师作业以训练机器人",
+   "url": "https://www.ithome.com/1/014/758.htm",
+   "source": "IT之家",
+   "date": "2026-10-19",
+   "summary": "HUMXN 将补贴管道、电工、暖通空调、风道与地毯清洁等上门服务，房主可免费获得服务，交换条件是允许佩戴“可穿戴采集设备”的人员入户录制技师完整作业过程（勘察、测试、选工具、应对突发、验收），用于训练 AI 机器人；技师照常获得报酬。首批落地明尼阿波利斯、芝加哥和迈阿密三城，以获取不同气候环境下的真实数据。",
+   "id": "49a3e753bbee5eae92bd97065c8cddb3295263ea",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "瑞典国防研究局 WiFireNet：仅凭 Wi‑Fi 信道状态信息识别隐藏手枪，受控环境平均精确率 72.5%，代码与数据集开源",
+   "url": "https://www.ithome.com/1/014/738.htm",
+   "source": "IT之家 / arXiv",
+   "date": "2026-10-19",
+   "summary": "瑞典国防研究局（FOI）研究人员在 arXiv 发布 WiFireNet：先同步录制 RGB 视频与 Wi‑Fi 反射信号构建 WiFire Dataset，将手枪视觉特征映射到其对 Wi‑Fi 信道状态信息（CSI）的扰动，训练后仅凭 CSI 即可检测隐藏手枪。在最多同时追踪 4 名移动人员的狭小室内，平均精确率 72.5%，要求精确定位武器位置时降至 53.8%，陌生布局下效果明显变差；原型基于老旧 802.11a，下一步将用 Wi‑Fi 7/8，代码、模型与数据集已开源，也引发隐私监管担忧。",
+   "id": "b981798a04a8a472b73dbcc3395c211df8a2e2d6",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "豆包公关负责人刘星回应“国内超一半算力在造爽剧”：字节总算力中仅约 10% 用于视频生成模型训练与推理",
+   "url": "https://www.ithome.com/1/014/729.htm",
+   "source": "IT之家",
+   "date": "2026-10-19",
+   "summary": "中文在线在投资者关系活动记录表中称，国内 AI Token 消耗 55% 用于短剧和视频生成、24% 用于电商广告、仅 15% 用于研发，引发“超一半算力在造爽剧”的讨论。豆包公关负责人刘星发文表示该数据“有些不靠谱”，就字节而言，公司总算力中只有约 10% 用于视频生成模型的训练和推理。",
+   "id": "e1c720187724bcfc0583ec493b8d48fa57178d25",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "腾讯 WorkBuddy 教育公益版上线：全国教师每人每月可领 2000 积分、连续 12 个月，内置 100 多位“教育专家”",
+   "url": "https://www.ithome.com/1/014/752.htm",
+   "source": "IT之家",
+   "date": "2026-10-19",
+   "summary": "腾讯 SSV 宣布 WorkBuddy 教育公益版面向全国教师开放，不限地区与学段，每人每月可领 2000 积分、可连续领 12 个月，用完后仍可使用免费模型。腾讯联合北大、北师大等高校，把教学设计、课件、公开课打磨、分层教学、家校沟通、学生心理等研究拆成 100 多位可直接调用的教育专家（陆续上线），并上线创意教学、剧本课堂、课件制作、动画演示、素材加工 5 个工具，后续将打通腾讯文档、乐享知识库与 ima。",
+   "id": "b9b4db0c0009f052d773d9eea56a3463e508654b",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "山姆会员商店声明：数千条 AI 生成、伪造采访的“山姆下架好物”虚假营销信息集中出现，已向平台和监管部门投诉",
+   "url": "https://www.ithome.com/1/014/754.htm",
+   "source": "IT之家",
+   "date": "2026-10-19",
+   "summary": "山姆会员商店 10 月 19 日发布声明称，近期多个社交媒体平台集中出现数千条针对山姆的恶意攻击及虚假营销信息，部分账号通过 AI 生成、拼接素材、伪造采访等方式，把从未在山姆上架的洗护、保健品、食品等编造成“山姆下架好物”引流牟利；其法务团队已完成证据固定，向平台及监管部门投诉举报，并将依法维权。",
+   "id": "ac02a53131f99b34736bc29a7fa32d33fcf29997",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "storytold/artcraft",
+   "url": "https://github.com/storytold/artcraft",
+   "source": "GitHub",
+   "stars": 32921,
+   "stars_week": 16379,
+   "language": "Rust",
+   "date": "2026-10-19",
+   "summary": "“面向艺术家的 IDE”：用于交互式 AI 图像与视频创作，可在 2D 中构图、在 3D 中布置场景与机位，并自选生成模型，把提示词变成可精确复现的“手工制作”，Apache-2.0 许可。",
+   "why": "GitHub Trending 周榜第二，本周 +16,379 星，累计约 3.3 万星。",
+   "id": "bfce4da4b5d0e88bd9b715230cdcb5b68a9a0e40",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "Gathin23/tv-vibehack",
+   "url": "https://github.com/Gathin23/tv-vibehack",
+   "source": "GitHub",
+   "stars": 2351,
+   "stars_week": null,
+   "language": "Java",
+   "date": "2026-10-19",
+   "summary": "借助 Claude Code 通过 Wi‑Fi ADB 给 Android TV / Google TV 去广告与预装软件，并换上类 Apple TV 的简洁启动器；免 root、不卸载任何组件、可一键还原，仓库附带完成改造所用的提示词。",
+   "why": "10 月 17 日创建，两天内累计约 2,351 星，是近一周新建仓库中星标增长最快的 AI 相关项目之一。",
+   "id": "41bd0cd88e7d649d83da215f4b6d6d9ea7d5b5fb",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2111978195511558436",
+   "source": "@business",
+   "date": "2026-10-19",
+   "summary": "彭博：韩国股市周一再度下跌，DeepSeek 最新模型引发市场对存储芯片需求的担忧，叠加市场对 AI 融资的忧虑。",
+   "metrics": {
+    "likes": 75,
+    "reposts": 12,
+    "views": 29473
+   },
+   "id": "af52a158f03ec03e02fd9308712cb784279e814d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "@caitoz",
+   "url": "https://x.com/caitoz/status/2111988374424957169",
+   "source": "@caitoz",
+   "date": "2026-10-19",
+   "summary": "评论者 Caitlin Johnstone 批评 Anthropic 提议的 AI 安全法案：只有当模型即将造成 50 人以上死伤或 10 亿美元以上损失时，立法者才能阻止其发布，她认为这暴露了这些公司为人命设定的“价码”。",
+   "metrics": {
+    "likes": 478,
+    "reposts": 213,
+    "views": 10039
+   },
+   "id": "af1a69c8523e17806f8d05497c1a3b22b9eb77b0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112033535041101832",
+   "source": "@business",
+   "date": "2026-10-19",
+   "summary": "彭博观点专栏作者 Parmy Olson：随着构建 AI 的成本不断上升、使用 AI 的成本不断下降，云计算巨头看起来才会是这轮 AI 热潮的真正赢家。",
+   "metrics": {
+    "likes": 8,
+    "reposts": 1,
+    "views": 12090
+   },
+   "id": "cd7dd6ece1de9ca98a1891b162ba02203d3a8423",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T12:40:00+08:00"
+  },
   {
    "title": "Meta 致歉：Claude 工具高频“读取”触发安全机制，反特朗普团体 No Kings 联盟 Instagram 账号遭误封约 90 分钟",
    "url": "https://www.ithome.com/1/014/720.htm",
