@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T10:40:00+08:00",
+  "updated": "2026-10-19T11:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Meta 致歉：Claude 工具高频“读取”触发安全机制，反特朗普团体 No Kings 联盟 Instagram 账号遭误封约 90 分钟",
+          "url": "https://www.ithome.com/1/014/720.htm",
+          "source": "IT之家 / 彭博",
+          "date": "2026-10-19",
+          "summary": "Meta 传播副总裁 Andy Stone 周日更正说法：工程团队查明，触发误封的是账号的“读取”行为——周六 Anthropic 旗下一款 Claude 工具在短时间内集中访问主页、帖子和话题标签，速率约为正常水平的四倍，特征更像机器人流量。约一小时后自动复核判定误封并恢复展示，但管理员权限更晚才恢复。Meta 最初称是高频发帖、转发触发，此次修正了说法；未说明具体是哪款 Claude 工具、由谁操作。"
+        },
+        {
           "title": "The Verge：费城一名女子因阻挡 Uber 配送机器人被捕，称以此抗议机器人抢走人类配送员工作",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
           "source": "The Verge",
@@ -118,13 +125,6 @@
           "source": "IT之家 / 首尔经济日报",
           "date": "2026-10-18",
           "summary": "据报道，英伟达要求三家 NVHBM 供应商三星、SK 海力士和美光统一用台积电 3nm 工艺制造基底裸片，核心裸片统一采用 1c 第六代 DRAM 工艺，以保证性能一致并减少逐家验证工作量。NVHBM 基于 HBM4E 架构，是英伟达 8 月发布的定制版高带宽内存。三星已接受要求，但标准 HBM 及面向 AMD 等客户的定制 HBM 仍保留一站式自产，并在验证自有产线生产 NVHBM 基底裸片作为产能预案。"
-        },
-        {
-          "title": "Anthropic 报告：AI 重塑公司用工，初级技术岗招聘占比由 27% 降至 9%；智能体工时已为人手约 6 倍",
-          "url": "https://www.ithome.com/1/014/450.htm",
-          "source": "IT之家 / Anthropic",
-          "date": "2026-10-18",
-          "summary": "Anthropic 发布《How employment is changing at Anthropic》：自 2025 年初以来技术部门初级员工占比从 21% 降至 14%，初级技术岗新招占比由 27% 跌至 9%；技术团队占全员比重从 61% 降至 56%。调研中 20% 员工称工作已变成“管理多个 Claude 实例”；人均会议时长同比增约 20%。公司称交互式智能体工时已远超员工工时，人的注意力成为瓶颈。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "商务部等九部门发布加快推进科技兴商意见：丰富手机、电脑、穿戴设备、机器人等智能商品供给，培育机器人与虚拟数字人陪伴等新业态",
+          "url": "https://www.ithome.com/1/014/709.htm",
+          "source": "IT之家 / 商务部",
+          "date": "2026-10-19",
+          "summary": "意见要求提升人工智能、大数据、具身智能等新技术在商贸全链条的应用：深入实施“人工智能 + 制造”专项行动，鼓励基于安全可靠开源操作系统的智能产品；推广工业大模型、边缘智能支撑的柔性制造与 AI 个性化定制；开展“人工智能 + 文化和旅游”应用试点；探索 AI 在健康管理、康复护理等场景的普惠化应用；坚持科技向善，培育健康规范的机器人、虚拟数字人陪伴等智能服务新业态。"
+        },
+        {
           "title": "国家统计局：前三季度 GDP 同比增长 4.6%，工业机器人产量同比增长 29.1%，3D 打印设备产量增长 62.5%",
           "url": "https://www.ithome.com/1/014/685.htm",
           "source": "IT之家 / 央视新闻",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-18",
           "summary": "京东推出机器人维修售后服务一周年，已与智元、云深处、众擎、松延动力等近百家机器人企业达成合作，覆盖安装调试、故障诊断、换电补能、保养回收等场景；计划在全国建设 10 个培训认证中心，推动快递员等一线员工转型，并在未来 5 年构建覆盖超 100 个国家的机器人售后维修网络。"
-        },
-        {
-          "title": "我国首个全国产十万卡 AI 超集群真机在全国高性能计算学术大会亮相：曙光 8000 走超算与智算原生融合路线",
-          "url": "https://www.ithome.com/1/014/456.htm",
-          "source": "IT之家 / 央视新闻",
-          "date": "2026-10-18",
-          "summary": "据央视新闻，在深圳举行的 2026 全国高性能计算学术大会上，今年建成的我国首个全国产十万卡 AI 超集群真机亮相，并将发布十大应用成果。曙光 8000 在同一底座上兼顾最高精度科学计算与大模型训练推理；该集群 8 月官宣投用，目前支持新材料、创新药、人工智能等 26 个领域 300 多种计算任务。"
         }
       ]
     },
@@ -389,7 +389,7 @@
           "title": "anomalyco/opencode",
           "url": "https://github.com/anomalyco/opencode",
           "source": "GitHub",
-          "stars": 216688,
+          "stars": 216740,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -400,7 +400,7 @@
           "title": "stablyai/orca",
           "url": "https://github.com/stablyai/orca",
           "source": "GitHub",
-          "stars": 96791,
+          "stars": 96893,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -411,7 +411,7 @@
           "title": "ruvnet/ruflo",
           "url": "https://github.com/ruvnet/ruflo",
           "source": "GitHub",
-          "stars": 76570,
+          "stars": 76612,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -422,7 +422,7 @@
           "title": "debpalash/VoiceStudio",
           "url": "https://github.com/debpalash/VoiceStudio",
           "source": "GitHub",
-          "stars": 75576,
+          "stars": 75717,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -433,7 +433,7 @@
           "title": "HKUDS/CLI-Anything",
           "url": "https://github.com/HKUDS/CLI-Anything",
           "source": "GitHub",
-          "stars": 54650,
+          "stars": 54688,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -444,18 +444,18 @@
           "title": "MadsLorentzen/ai-job-search",
           "url": "https://github.com/MadsLorentzen/ai-job-search",
           "source": "GitHub",
-          "stars": 53499,
+          "stars": 53721,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
           "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +2,232 星，累计约 5.3 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +2,232 星，累计约 5.4 万星。"
         },
         {
           "title": "anthropics/claude-plugins-official",
           "url": "https://github.com/anthropics/claude-plugins-official",
           "source": "GitHub",
-          "stars": 42760,
+          "stars": 42793,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -466,7 +466,7 @@
           "title": "akitaonrails/ai-memory",
           "url": "https://github.com/akitaonrails/ai-memory",
           "source": "GitHub",
-          "stars": 10548,
+          "stars": 10592,
           "stars_week": null,
           "language": "Rust",
           "date": "2026-10-19",
@@ -480,6 +480,18 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@andymstone",
+          "url": "https://x.com/andymstone/status/2111920686306627816",
+          "source": "@andymstone",
+          "date": "2026-10-19",
+          "summary": "Meta 传播副总裁 Andy Stone 更新 No Kings 联盟 Instagram 账号误封的根因：触发安全系统的主要是账号的“读取”行为，网络安全系统检测到一款 Claude 工具短时间内以约四倍于常态的速率集中访问，而非此前所说的高频发帖。",
+          "metrics": {
+            "likes": 131,
+            "reposts": 25,
+            "views": 195187
+          }
+        },
         {
           "title": "@AndrewCurran_",
           "url": "https://x.com/AndrewCurran_/status/2111994636164345988",
@@ -562,18 +574,6 @@
             "likes": 1849,
             "reposts": 117,
             "views": 85991
-          }
-        },
-        {
-          "title": "@elonmusk",
-          "url": "https://x.com/elonmusk/status/2111914396490604547",
-          "source": "@elonmusk",
-          "date": "2026-10-19",
-          "summary": "马斯克回复 Anthropic 公益基金公告，称「我建议把股份直接分给公众」。",
-          "metrics": {
-            "likes": 13850,
-            "reposts": 617,
-            "views": 568629
           }
         }
       ]
