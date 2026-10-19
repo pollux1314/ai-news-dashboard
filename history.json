@@ -1,7 +1,87 @@
 {
- "updated": "2026-10-20T02:35:00+08:00",
- "count": 628,
+ "updated": "2026-10-20T03:30:00+08:00",
+ "count": 639,
  "items": [
+  {
+   "title": "@AndrewCurran_",
+   "url": "https://x.com/AndrewCurran_/status/2112250754358788437",
+   "source": "@AndrewCurran_",
+   "date": "2026-10-20",
+   "summary": "Andrew Curran：美国国土安全部要求所有联邦民用机构移除 DeepSeek 产品及“任何基于 DeepSeek 实现开发的第三方服务”，并停止采购。",
+   "metrics": {
+    "likes": 355,
+    "reposts": 51,
+    "views": 11695
+   },
+   "id": "e1a619e2cd1d969718717432a456206908647092",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "@fal",
+   "url": "https://x.com/fal/status/2112251022047412492",
+   "source": "@fal",
+   "date": "2026-10-20",
+   "summary": "fal 发布与 Black Forest Labs 合作后训练的视频模型 FLUX 3 Max：第三方基准图生视频质量并列第一，约 12 秒生成 10 秒 720/768p 视频，未来三周限时 75% 折扣。",
+   "metrics": {
+    "likes": 447,
+    "reposts": 70,
+    "views": 38777
+   },
+   "id": "65b8842483cae48be7205ddaac361f4dbee29c55",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "@ArtificialAnlys",
+   "url": "https://x.com/ArtificialAnlys/status/2112249300860444927",
+   "source": "@ArtificialAnlys",
+   "date": "2026-10-20",
+   "summary": "Artificial Analysis 推出 AA-PersonalityBench：用 900 道题、LLM 评审团两两比较，衡量模型 30 项性格特质（聚合为表现力、温暖、想象力、“Slop”等 8 项指数）与 21 项沟通特征；如 Qwen3.8 27B 平均每答约 1030 词，近 GPT-6 Luna 的 4 倍。",
+   "metrics": {
+    "likes": 190,
+    "reposts": 12,
+    "views": 11052
+   },
+   "id": "8873757689a78a738ec6b182493b0731451bd470",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "@arena",
+   "url": "https://x.com/arena/status/2112247114944360666",
+   "source": "@arena",
+   "date": "2026-10-20",
+   "summary": "Arena：DeepSeek-V4.1-Flash-20261017（Max）登顶 Agent Arena 开源模型第一、总榜第 11，基于 7500+ 真实会话净提升 5.1%；每任务中位成本 0.20 美元，约以 GPT-6.1 Sol 27% 的成本取得其 37% 的提升。",
+   "metrics": {
+    "likes": 156,
+    "reposts": 11,
+    "views": 10068
+   },
+   "id": "362a79ce5ffc2fbef318e9dc1e379586847baa3f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112257545138016581",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "The Information 独家：曾主导五角大楼与 Anthropic 公开争执的 Emil Michael，现负责与 Anthropic 等 AI 实验室合作应对国家安全威胁，并表示政府必要时准备施加更严格管控。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 1,
+    "views": 1415
+   },
+   "id": "ef64143e6d1867bf2d737abd242dcd90eda6d221",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
   {
    "title": "@TechCrunch",
    "url": "https://x.com/TechCrunch/status/2112243153541431796",
@@ -44,7 +124,7 @@
    "title": "anthropics/claude-code",
    "url": "https://github.com/anthropics/claude-code",
    "source": "GitHub",
-   "stars": 152490,
+   "stars": 152542,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-20",
@@ -118,6 +198,72 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "微软扩展 Project Perception：称“前沿模型无论出自谁手都不可信”，把企业内 AI 智能体当作“内部人风险”，以 Guardian Agents 实时监管每一步操作",
+   "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+   "source": "Microsoft Official Blog / The Verge",
+   "date": "2026-10-19",
+   "summary": "微软安全执行副总裁 Hayete Gallot 撰文：模型被训练为追求结果，容易奖励投机、行为不可预测，还可能与其他智能体协作“共谋”。Project Perception 汇聚身份、数据、端点、网络、云与运行时信号，发现企业内智能体并为其分配身份、容器与权限策略，按动态风险由绿/蓝队 Guardian Agents 持续监督并实时处置，高影响操作仍需人工批准；纳德拉称这是把“模型即内部人风险”原则落地。",
+   "id": "d75d4d6e566ee19fb17c3edbb1f95e39dd818645",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "Amnon Shashua 新公司 doubleAI 发布首个“代码执行模型”Maxwell：在 CPU/GPU 上实时优化程序机器指令并形式化验证，A 轮融资 2 亿美元、估值超 10 亿美元",
+   "url": "https://www.calcalistech.com/ctechnews/article/sk11xpc73ge",
+   "source": "Calcalist Ctech",
+   "date": "2026-10-19",
+   "summary": "Mobileye 创始人 Shashua 的 doubleAI 结束隐身：A 轮由 Lightspeed 与 Bessemer 联合领投，Dell Technologies Capital、英伟达等参投，团队约 40 人。Maxwell 持续分析运行中的程序、硬件与数据，在不改源码的前提下重写底层指令，并对每项优化做数学验证以保证行为不变；公司称真实负载中数据管线提速 38 倍以上、推理内核提速 4.5 倍以上（未经独立验证），按为客户节省的算力成本收费，现开放早期访问。",
+   "id": "71b9a90b2048d9ec74f50391f65aa5dd70070551",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "Meta 首次详解俄亥俄州吉瓦级超级集群 Prometheus：一期已训练 Muse 系列模型，正向约 100 万张 GPU 扩展，中断率一年内降 99%",
+   "url": "https://www.storagereview.com/news/meta-prometheus-gigawatt-supercluster-1-million-gpus-gb200-gb300-nvl72",
+   "source": "StorageReview / Meta Engineering",
+   "date": "2026-10-19",
+   "summary": "据 Meta 工程博客，Prometheus 同时运行 GB200 NVL72（Catalina）与 GB300 NVL72（Clemente），下一步引入 Vera Rubin NVL72；每个 NVL72 域只用 64 张 GPU、留 8 张作机内备份。Muse Wonder 预训练 goodput 超 85%、RL 超 90%，平均无中断约 4.7 万 GPU 小时，固件修复后超 5.4 万；2025 年中中断峰值近每 8000 GPU 每天 1000 次，现已降 99%。经验将用于路易斯安那州新集群 Hyperion。",
+   "id": "43d45af121cc37c8d8b62a37903bea966904bd19",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "AI 陪伴应用 Tolan 获 3000 万美元新融资，USV 领投、Khosla 与 Homebrew 参投，月活约 25 万、七成用户为女性",
+   "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
+   "source": "TechCrunch / Upstarts Media",
+   "date": "2026-10-19",
+   "summary": "本轮使 Tolan 累计融资翻倍，估值高于此前的 1.2 亿美元（PitchBook 以“中等置信度”估超 2.68 亿美元）。用户通过卡通角色与其交流，用于管理日程、情绪与家庭事务；过去一年对话超 7000 万次，40% 用户为父母，ARR 达“两位数百万美元”。新资金将用于扩展功能并首次推出免费档。",
+   "id": "e37065d0e754995bd1562415e68c8397a160f6a5",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "美国国土安全部下令联邦民用机构移除 DeepSeek 产品及基于其模型的第三方服务，并禁止今后采购",
+   "url": "https://www.bbc.com/news/articles/cjkgeq0k1wevo",
+   "source": "BBC / Reuters",
+   "date": "2026-10-19",
+   "summary": "据联邦公报周一公布的通知，DHS 认为 DeepSeek 模型存在“多重威胁向量”，政府雇员或供应商使用可能导致敏感数据传往中国，并禁止 DeepSeek 参与联邦合同。命令适用于财政部、国务院、司法部等民用机构，国防部不在其内；相关命令签署于 7 月 24 日、7 月底起已生效，此次为首次公开。",
+   "id": "e9b8c6385b8490165cc0300f6a159a498e4485ce",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T03:30:00+08:00"
+  },
+  {
+   "title": "铭芯启睿完成超 4 亿元 A 轮融资：前 Graphcore 总裁卢涛出任 CEO，启动面向大模型推理的第一代 LPU 研发",
+   "url": "https://wallstreetcn.com/articles/3783927",
+   "source": "华尔街见闻",
+   "date": "2026-10-19",
+   "summary": "本轮由博原资本领投，博世创投、米哈游、兆易创新等跟投，小米战投等老股东加注，资金用于 RRAM 阻变存储产业化与 LPU 研发。卢涛称第一代 LPU 不采用 RRAM，目标支持数万亿参数完整模型、单用户每秒 1000 Token（为研发目标，尚无实测）；首代 1Gb RRAM 芯片“泰山一号”已流片、仍在验证。",
+   "id": "22a48e0fba1b292bea0b31aa2efa79932451ca26",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T03:30:00+08:00"
   },
   {
    "title": "AI 工作助手初创 Town 完成 1.08 亿美元 B 轮融资，估值 10 亿美元跻身独角兽，距公开上线仅四个月",
@@ -1319,7 +1465,7 @@
    "title": "Comfy-Org/ComfyUI",
    "url": "https://github.com/Comfy-Org/ComfyUI",
    "source": "GitHub",
-   "stars": 139428,
+   "stars": 139522,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-19",
@@ -1334,7 +1480,7 @@
    "title": "anomalyco/opencode",
    "url": "https://github.com/anomalyco/opencode",
    "source": "GitHub",
-   "stars": 217476,
+   "stars": 217600,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-19",
@@ -1349,7 +1495,7 @@
    "title": "akitaonrails/ai-memory",
    "url": "https://github.com/akitaonrails/ai-memory",
    "source": "GitHub",
-   "stars": 11079,
+   "stars": 11178,
    "stars_week": null,
    "language": "Rust",
    "date": "2026-10-19",
@@ -1364,7 +1510,7 @@
    "title": "stablyai/orca",
    "url": "https://github.com/stablyai/orca",
    "source": "GitHub",
-   "stars": 97901,
+   "stars": 98020,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-19",
@@ -1379,7 +1525,7 @@
    "title": "MadsLorentzen/ai-job-search",
    "url": "https://github.com/MadsLorentzen/ai-job-search",
    "source": "GitHub",
-   "stars": 56209,
+   "stars": 56624,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-19",
@@ -1394,7 +1540,7 @@
    "title": "HKUDS/CLI-Anything",
    "url": "https://github.com/HKUDS/CLI-Anything",
    "source": "GitHub",
-   "stars": 55051,
+   "stars": 55123,
    "stars_week": null,
    "language": "Python",
    "date": "2026-10-19",
@@ -1409,7 +1555,7 @@
    "title": "ruvnet/ruflo",
    "url": "https://github.com/ruvnet/ruflo",
    "source": "GitHub",
-   "stars": 76993,
+   "stars": 77061,
    "stars_week": null,
    "language": "TypeScript",
    "date": "2026-10-19",
