@@ -1,7 +1,45 @@
 {
- "updated": "2026-10-19T22:40:00+08:00",
- "count": 613,
+ "updated": "2026-10-19T23:52:00+08:00",
+ "count": 616,
  "items": [
+  {
+   "title": "The Information：Anthropic 本月将推新模型，更擅长从有限指令推断用户真实意图；谷歌备 Gemini 4 Carbon，OpenAI 拟推更便宜的 Terra 新模型",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-google-and-openai-prepare-new-ai-models-the-information-reports-4957891",
+   "source": "Investing.com / The Information",
+   "date": "2026-10-19",
+   "summary": "据 The Information 援引知情人士：Anthropic 新模型推理与直觉更强，测试者称能从单个软件 bug 看出背后更大的问题并给出更全面修复；谷歌在开发上周发布的 Gemini 4 Argon 的升级版 Gemini 4 Carbon；OpenAI 准备在未来几周推出 Terra 系列新模型，能力更强、价格低于 GPT-6.1 Sol。均为媒体报道，尚未官宣。",
+   "id": "ae03faa4db0cf9e3e52bff4799cca78fd4a2a9b9",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-19T23:52:00+08:00"
+  },
+  {
+   "title": "岩山科技岩芯矩阵联合港科大、CMU 开源 EdgeRock-4B：256K 上下文 KV Cache 固定 72MiB、较源模型减少 99.1%，单卡吞吐达 6.42 倍",
+   "url": "https://huggingface.co/rockmatrix-ai/EdgeRock",
+   "source": "Hugging Face / 量子位",
+   "date": "2026-10-19",
+   "summary": "EdgeRock-4B 基于 Qwen3.5-4B 改造，用循环状态 + 1024 token 局部窗口 + “记忆岩锚”（Rock Memory Anchors）固定历史内存；单张 80GB Hopper 卡 512 路并发输出 12124 tokens/s，AIME 2024–2026 平均 pass@1 82.9%，支持文本与图像推理，权重与推理代码已开源。",
+   "id": "3780b345c9f954fb29dc87af5a4da014d4485297",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-19T23:52:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112195306695647502",
+   "source": "@testingcatalog",
+   "date": "2026-10-19",
+   "summary": "转述 The Information：Anthropic 本月将发布新模型，同期还有谷歌 Gemini 4 Carbon 与 OpenAI 新 Terra 模型；Anthropic 新模型尤其擅长在用户没说清时识别其真实意图与目标。",
+   "metrics": {
+    "likes": 474,
+    "reposts": 28,
+    "views": 19729
+   },
+   "id": "cefe6f050fdb7fd27207df1c59832e16a106de57",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T23:52:00+08:00"
+  },
   {
    "title": "Salesforce 宣布未来五年在西班牙投资 10 亿美元：马德里新总部成为 EMEA South 枢纽，设 AI 实施团队与前线部署工程师",
    "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/",

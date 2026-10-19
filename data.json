@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T22:40:00+08:00",
+  "updated": "2026-10-19T23:52:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "The Information：Anthropic 本月将推新模型，更擅长从有限指令推断用户真实意图；谷歌备 Gemini 4 Carbon，OpenAI 拟推更便宜的 Terra 新模型",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-google-and-openai-prepare-new-ai-models-the-information-reports-4957891",
+          "source": "Investing.com / The Information",
+          "date": "2026-10-19",
+          "summary": "据 The Information 援引知情人士：Anthropic 新模型推理与直觉更强，测试者称能从单个软件 bug 看出背后更大的问题并给出更全面修复；谷歌在开发上周发布的 Gemini 4 Argon 的升级版 Gemini 4 Carbon；OpenAI 准备在未来几周推出 Terra 系列新模型，能力更强、价格低于 GPT-6.1 Sol。均为媒体报道，尚未官宣。"
+        },
         {
           "title": "Anthropic：独立版 Claude Design（claude.ai/design）将于 12 月 14 日关闭，设计功能并入 Claude 对话、Artifacts 与 Claude Code",
           "url": "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude",
@@ -55,13 +62,6 @@
           "source": "OpenAI Help Center",
           "date": "2026-10-17",
           "summary": "据 OpenAI 帮助中心，ChatGPT Slides 正向拥有 Space 权限的 Pro、Business、Enterprise 账户逐步推送：可在 Work 中让 ChatGPT 依据对话、附件或模板生成可编辑演示文稿，直接修改文字、图片、表格与图表，或选中元素请 ChatGPT 改写；支持多人实时协作与评论（可 @ChatGPT 或 dot 代改），并可在 ChatGPT 内直接演示，网页端可导出 PowerPoint、PDF 和 Google Slides。"
-        },
-        {
-          "title": "OpenAI 升级 ChatGPT 中的 GPT-6 Pro：多个智能体并行拆解任务，响应更快、插件与工具调用更强",
-          "url": "https://help.openai.com/en/articles/6825453-chatgpt-release-notes",
-          "source": "OpenAI",
-          "date": "2026-10-17",
-          "summary": "据 ChatGPT 发布说明，Chat 标签下的 GPT-6 Pro（由 GPT-6 Astra 驱动）现可让多个智能体并行处理任务的不同部分，用户可在对话中跟踪进度并打开已完成子任务查看细节；同时响应更快、插件与工具使用改进。正向符合条件的 Pro 用户推送，托管工作区视设置而定。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "岩山科技岩芯矩阵联合港科大、CMU 开源 EdgeRock-4B：256K 上下文 KV Cache 固定 72MiB、较源模型减少 99.1%，单卡吞吐达 6.42 倍",
+          "url": "https://huggingface.co/rockmatrix-ai/EdgeRock",
+          "source": "Hugging Face / 量子位",
+          "date": "2026-10-19",
+          "summary": "EdgeRock-4B 基于 Qwen3.5-4B 改造，用循环状态 + 1024 token 局部窗口 + “记忆岩锚”（Rock Memory Anchors）固定历史内存；单张 80GB Hopper 卡 512 路并发输出 12124 tokens/s，AIME 2024–2026 平均 pass@1 82.9%，支持文本与图像推理，权重与推理代码已开源。"
+        },
+        {
           "title": "亚马逊发布 TorchNeuron：现有 PyTorch 代码只改一项配置即可原生跑在 AWS Trainium2/3 上，10 月 20 日 PyTorch 大会开源",
           "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
           "source": "About Amazon",
@@ -244,13 +251,6 @@
           "source": "GitHub / Google Research",
           "date": "2026-10-18",
           "summary": "谷歌研究开源 Harness²，用对比式 Propose–Probe–Compose 在开放世界任务流中迭代改进执行 harness，并把经验写入持续改进库；配套论文报告在多项专业基准上稳定提升。仓库约 3500 星，Apache 2.0。"
-        },
-        {
-          "title": "阿里 Qwen 开源 BlenderWorld：223 个任务、2651 条评分标准，评测视觉智能体在 Blender 中完成真实 3D 创作",
-          "url": "https://www.ithome.com/1/014/217.htm",
-          "source": "IT之家 / Qwen",
-          "date": "2026-10-17",
-          "summary": "Qwen 团队 10 月 14 日开源 3D 创作智能体基准 BlenderWorld（MIT 许可，GitHub/Hugging Face/ModelScope 同步）：要求交付可编辑的 .blend 工程而非单张渲染图，覆盖产品、建筑、自然环境、角色、动画、科学可视化等 9 大类 22 子类；评测从 8 个视角渲染并结合场景检查，规则符合度与视觉质量各占 50%。项目主页显示 GPT-6-Astra 以 79.9 分居首，但全通过率仅 42.2%。"
         }
       ]
     },
@@ -494,6 +494,18 @@
       "items": [
         {
           "title": "@testingcatalog",
+          "url": "https://x.com/testingcatalog/status/2112195306695647502",
+          "source": "@testingcatalog",
+          "date": "2026-10-19",
+          "summary": "转述 The Information：Anthropic 本月将发布新模型，同期还有谷歌 Gemini 4 Carbon 与 OpenAI 新 Terra 模型；Anthropic 新模型尤其擅长在用户没说清时识别其真实意图与目标。",
+          "metrics": {
+            "likes": 474,
+            "reposts": 28,
+            "views": 19729
+          }
+        },
+        {
+          "title": "@testingcatalog",
           "url": "https://x.com/testingcatalog/status/2112186265986650332",
           "source": "@testingcatalog",
           "date": "2026-10-19",
@@ -574,18 +586,6 @@
             "likes": 8,
             "reposts": 2,
             "views": 14869
-          }
-        },
-        {
-          "title": "@testingcatalog",
-          "url": "https://x.com/testingcatalog/status/2112130950008062088",
-          "source": "@testingcatalog",
-          "date": "2026-10-19",
-          "summary": "Nebius 将 AI Builder Program 扩展至欧洲，联合英伟达、Accel 等欧洲 VC 提供合计 1000 万美元算力资助，免费加入，可获在 Nebius 上运行开源模型的额度；欧洲版于 NVIDIA GTC 启动。",
-          "metrics": {
-            "likes": 27,
-            "reposts": 1,
-            "views": 4018
           }
         }
       ]
