@@ -1,12 +1,26 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T04:35:00+08:00",
+ "updated": "2026-10-20T05:31:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "Tavus 发布实时数字人视频扩散模型 Falcon：逐 latent 自回归流式生成 720p，音频到视频平均延迟 430ms",
+     "url": "https://www.tavus.io/blog/falcon",
+     "source": "Tavus",
+     "date": "2026-10-20",
+     "summary": "Falcon 仅以音频和流式文本提示为条件，可在对话中实时切换表情、手势等非语言行为；在 B200 上平均音频到视频延迟 430ms，比最快基线 AvatarForcing 低约 50%。经 DMD2 少步蒸馏、Teacher Forcing 与改进版 Self-Forcing 三阶段训练，团队称在自建对话测试集上 FID、DOVER、THEval 优于 LiveTalk、LiveAvatar 等开源基线（厂商自评）。"
+    },
+    {
+     "title": "Inception 发布扩散语言模型 Mercury 3：称质量追平或超过 GPT-6 Luna 与 Claude Haiku 5.5，速度达 1068 tok/s、快 4–8 倍",
+     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+     "source": "Inception Labs",
+     "date": "2026-10-19",
+     "summary": "Mercury 3 参数规模为 Mercury 1 的 40 倍以上，上下文由 Mercury 2.5 的 260K 提升至 1M，在 NVIDIA GPU 上达 1068 tokens/秒（官方自测）。标价每百万输入/输出 0.20/0.70 美元，首发五折为 0.10/0.35 美元；已上线 Inception API、OpenRouter、Baseten 与 Vercel AI Gateway，兼容 OpenAI 接口。"
+    },
     {
      "title": "Skyfall AI 发布 SKY-001 研究预览：号称首个面向工程的“世界模型”，可从文字或 2D 草图生成分层参数化 CAD/BIM 施工方案",
      "url": "https://skyfall.ai/blog/introducing-sky-001",
@@ -48,20 +62,6 @@
      "source": "MiniMax 官方文档",
      "date": "2026-10-19",
      "summary": "据 MiniMax 模型文档，MiniMax-M3.1-Flash 已作为前沿多模态编码模型上线，具备 1M 上下文与可调思考深度；自 2026 年 10 月 19 日起，M2.5/M2.7 系列不再对向新用户开放，M Plan 与 Token Plan 对该系列的请求将自动路由至 M3.1 Flash，模型名可向后兼容无需改代码；按量付费存量用户可继续用至 11 月 18 日正式下线。 据 IT之家，M3.1 Flash 即此前匿名处理超 200T Token 的“Space Bunny”，推理速度提升近 3 倍、Agentic 任务成本降约 70%，DeepSWE v1.1 达 73.7%、OSWorld V2 61.7 分；价格为每百万输入 1 元、输出 4 元。"
-    },
-    {
-     "title": "DeepSeek：Search / Fetch API 按次计费细则公布，每千次成功请求 5 元，11 月 1 日起正式收费",
-     "url": "https://www.ithome.com/1/014/587.htm",
-     "source": "IT之家 / DeepSeek",
-     "date": "2026-10-18",
-     "summary": "DeepSeek 10 月 18 日公告称 API 已支持网页搜索与抓取，单价为每 1000 次成功请求 5 元；当前在 DeepSeek Harness、Claude Code、Codex 中经 Server 端工具调用的 Search/Fetch 暂未计费，将于北京时间 11 月 1 日 00:00 起按次收费。Search 按 query 返回结构化结果，Fetch 抓取单页并以 Markdown 返回标题与正文，Base URL 为 api.deepseek.com。"
-    },
-    {
-     "title": "Anthropic：10 月 29 日起 Claude Haiku 4.5 退出 Free/Pro/Max 模型选择器，自动切换至 Haiku 5.5",
-     "url": "https://www.ithome.com/1/014/312.htm",
-     "source": "IT之家",
-     "date": "2026-10-17",
-     "summary": "Anthropic 于当地时间 10 月 15 日宣布，自 10 月 29 日起 Claude Haiku 4.5 将从 Free、Pro 和 Max 套餐的模型选择器中移除，涵盖网页、桌面与移动端聊天及 Claude Cowork、Claude Design；选中该模型的用户将被自动切换至 Haiku 5.5。Claude Code、Team/Enterprise 套餐与 API 中的 Haiku 4.5 不受影响，既有对话不会被删除。"
     }
    ]
   },
@@ -76,6 +76,27 @@
      "source": "NVIDIA Blog / tagesschau",
      "date": "2026-10-20",
      "summary": "在柏林首届“Invest in Germany”峰会上，德国经济部与研究部同英伟达签署意向声明，推动面向机器人、自动驾驶、工厂仿真与制造的物理 AI 模型，目标是把工业 AI 系统性推向大规模应用。默茨呼吁中小企业开放工业数据，黄仁勋称 AI 只会增强而非取代德国工程能力。联邦政府暂未公布投资额，据 tagesschau 援引媒体报道，拟投入数亿欧元，部分用于租用德国电信 AI 云算力。"
+    },
+    {
+     "title": "彭博：Nscale 与 Anthropic 洽谈约 450 亿美元新算力协议，为西弗吉尼亚 Monarch 园区第二栋 460MW Vera Rubin 机房",
+     "url": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
+     "source": "Reuters / Bloomberg",
+     "date": "2026-10-19",
+     "summary": "据彭博援引知情人士，英伟达支持的 Nscale 正与 Anthropic 谈判第二份价值约 450 亿美元的算力租赁协议；8 月双方已签下首份 450 亿美元合同。Anthropic 还拥有园区第三栋建筑的优先购买权，细节仍可能变化。同一报道称部分投资者敦促 Anthropic 下调 IPO 估值目标；双方均未回应，路透未能独立核实。"
+    },
+    {
+     "title": "路透：英伟达拿下 Modal CPU 订单，Modal 首次引入 Vera CPU 托管智能体，早期测试称智能体任务量翻倍",
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-wins-fastgrowing-ai-startup-modal-for-new-central-processors-4957898",
+     "source": "Reuters",
+     "date": "2026-10-19",
+     "summary": "此前完全依赖英特尔与 AMD 处理器的 AI 云公司 Modal 表示，将用英伟达新款 Vera CPU 承载长时运行的智能体任务，测试中完成量约为现有 x86 方案的两倍；但仍将与英特尔、AMD 混合部署。英伟达预计本财年 Vera 销售额至少 200 亿美元，OpenAI、Anthropic、甲骨文与 Perplexity 也计划采用。"
+    },
+    {
+     "title": "AI 代码审查公司 Greptile 完成 5000 万美元 B 轮融资，Menlo Ventures 领投、估值 7.5 亿美元",
+     "url": "https://www.greptile.com/blog/series-b",
+     "source": "Greptile",
+     "date": "2026-10-19",
+     "summary": "Jump Trading、Wing、Benchmark、YC 等参投，Deedy Das 加入董事会。Greptile 称每天审查并测试 GitHub 上超过 1% 的新开 PR，客户包括英伟达、Coinbase、Decagon、Vanta，定位为多款编码智能体之上的独立代码验证层，目标是让关键系统也能自动合并复杂改动。"
     },
     {
      "title": "Amnon Shashua 新公司 doubleAI 发布首个“代码执行模型”Maxwell：在 CPU/GPU 上实时优化程序机器指令并形式化验证，A 轮融资 2 亿美元、估值超 10 亿美元",
@@ -104,27 +125,6 @@
      "source": "TechCrunch",
      "date": "2026-10-19",
      "summary": "由前 Plaid CTO Jean-Denis Greze 创立的 Town 宣布 B 轮由 Forerunner 与 Menlo Ventures 联合领投，a16z、First Round 等跟投，累计融资至少 1.6 亿美元。每名员工获得一个连接邮箱、日历、文档与业务系统的助手“Townie”，现可彼此协作、交接工作，并通过邮件和短信对接外部客户与候选人；公司称 6 月上线后数周 ARR 达七位数，7 月以来付费客户增长 4 倍。"
-    },
-    {
-     "title": "亚马逊与 X-energy 签第二份核电协议：在印第安纳州原燃煤电厂旧址建 12 座 Xe-100 小型模块化反应堆，总装机近 1 吉瓦",
-     "url": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/",
-     "source": "TechCrunch",
-     "date": "2026-10-19",
-     "summary": "新电站位于 Terre Haute 以南，规模是两年前首份协议的三倍，将接入公共电网并为亚马逊数据中心供电；双方目标是 2039 年前在美国新建 5 吉瓦核电，但时间表仍取决于 X-energy 在得州 Seadrift 的首座电站能否顺利落地。"
-    },
-    {
-     "title": "币安上线 Binance AI Pro：用自然语言描述交易思路，即可生成可视化、可回测的自动化策略",
-     "url": "https://www.prnewswire.com/news-releases/binance-launches-binance-ai-pro-bringing-conversational-ai-strategy-building-to-users-302912575.html",
-     "source": "PR Newswire / Binance",
-     "date": "2026-10-19",
-     "summary": "Binance AI Pro 是面向金融的 AI 智能体，网页与 App 均可用：用户用日常语言说明资产、条件与风控，智能体生成可编辑的“策略画布”工作流。所有策略可先用虚拟资金纸面交易，上线需单独审批，并在隔离的 AI 策略子账户中运行，资金只能由用户手动划转，智能体无法自行转账。首批支持现货与 U 本位合约；免费 Standard 计划每月 25 万积分，Premium 计划另行收费。"
-    },
-    {
-     "title": "Salesforce 宣布未来五年在西班牙投资 10 亿美元：马德里新总部成为 EMEA South 枢纽，设 AI 实施团队与前线部署工程师",
-     "url": "https://www.salesforce.com/news/press-releases/2026/10/19/1-billion-ai-leadership-investment-spain/",
-     "source": "Salesforce",
-     "date": "2026-10-19",
-     "summary": "Salesforce 在马德里新总部启用仪式上公布投资计划；新设的 AI Implementation Team 由前线部署工程师与西班牙客户共同设计、部署智能体用例，并运营区域人才中心，招募 EMEA South 各国毕业生在西班牙培训一年后返回本国推动 AI 落地。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "商汤 SenseNova 等联合报告《GPT-6-Astra 实现具身智能了吗？》：12 项具身基准逼近饱和，但真机部署仍有明显鸿沟",
+     "url": "https://arxiv.org/abs/2610.22471",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-19",
+     "summary": "在允许上下文学习并把步数预算放宽至 10 倍的统一协议下，GPT-6-Astra 在 LIBERO 系列与 SIMPLE 上超 95%，RoboDojo 81.9%、DexJoCo 87.3%。但在 8 种真机平台零样本测试中，刚性抓放 17/18 成功，插头插入 0/11；单个 LIBERO 回合约耗百万 token、近一小时。作者结论：已跨过“具身能力”门槛，尚未达到实用具身智能。"
+    },
+    {
+     "title": "Meta 发布 Muse Glimmer 30B 技术报告：面向消费级硬件的端侧智能体模型，4-bit 量化后单 GPU 可跑",
+     "url": "https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/",
+     "source": "AI at Meta",
+     "date": "2026-10-19",
+     "summary": "Muse Glimmer 为 30B 稠密模型并配感知编码器，支持图文输入，训练数据覆盖百余种语言，Apache 2.0 许可。报告称其在工具调用、多步规划与智能体任务完成上领先同量级的 Gemma4-31B 与 Qwen3.6-27B；量化后语言模型不足 20GB，可装入 24–32GB 显存，并附推测解码草稿模型。"
+    },
     {
      "title": "MIT CSAIL《Is this machine playing?》：13 个 Claude Opus 4.7 智能体“Eko”被独自放在虚拟荒岛 30 小时，自发探索、发明游戏，事后任务表现优于新智能体",
      "url": "https://www.technologyreview.com/2026/10/19/1147095/ai-stranded-claude-virtual-desert-island-play/",
@@ -174,20 +188,6 @@
      "source": "IT之家 / arXiv",
      "date": "2026-10-19",
      "summary": "瑞典国防研究局（FOI）研究人员在 arXiv 发布 WiFireNet：先同步录制 RGB 视频与 Wi‑Fi 反射信号构建 WiFire Dataset，将手枪视觉特征映射到其对 Wi‑Fi 信道状态信息（CSI）的扰动，训练后仅凭 CSI 即可检测隐藏手枪。在最多同时追踪 4 名移动人员的狭小室内，平均精确率 72.5%，要求精确定位武器位置时降至 53.8%，陌生布局下效果明显变差；原型基于老旧 802.11a，下一步将用 Wi‑Fi 7/8，代码、模型与数据集已开源，也引发隐私监管担忧。"
-    },
-    {
-     "title": "《科学》刊发 RFdiffusion3：David Baker 团队联合牛津、英伟达实现原子级蛋白质与核酸设计，速度约为上一代 10 倍",
-     "url": "https://www.ithome.com/1/014/625.htm",
-     "source": "IT之家 / Science",
-     "date": "2026-10-19",
-     "summary": "华盛顿大学、牛津大学与英伟达等团队于当地时间 10 月 16 日在《科学》发表 RFdiffusion3 论文：参考 AlphaFold3 架构，每个氨基酸最多以 14 个原子表征并直接调整原子三维坐标；在 41 个酶活性位点对比中 37 组优于 RFdiffusion2，生成速度约快 10 倍，设计出的对氧磷降解酶与肽裂解酶在真实实验中完成预期反应。模型已于 2025 年 12 月开源。"
-    },
-    {
-     "title": "Google Research 开源 Harness²：无真值标签下递归优化智能体 Harness，WorkBuddy-Bench 最高提升约 11.5 分",
-     "url": "https://arxiv.org/abs/2610.14224",
-     "source": "arXiv / Google Research",
-     "date": "2026-10-18",
-     "summary": "Harness²（github.com/google-research/harness2）在冻结模型权重前提下，通过任务级 Propose–Probe–Compose 与跨任务的 harnessing 级递归，自动改进提示词、工具、记忆、技能等运行时脚手架。在 WorkBuddy-Bench、JobBench、Harvey LAB 等基准上，对 GLM-5、Gemini 3.5 Flash 等配置可带来最高约 11.5 分（WorkBuddy）、4.5 分（JobBench）与 11.8 个百分点（LAB Partial）的提升；Apache 2.0 开源。"
     }
    ]
   },
@@ -209,6 +209,13 @@
      "source": "IBM Research",
      "date": "2026-10-20",
      "summary": "IBM 将在 PyTorch Conference 2026 介绍 Torch-Spyre 进展：Spyre 为 32 核数据流 AI 加速器，项目实现设备专属张量布局与面向片上暂存的分块优化，并向上游 PyTorch 回馈改动，便于其他树外加速器深度集成。"
+    },
+    {
+     "title": "中国电信星辰 AGI 实验室开源意图理解模型 Xing4.0-29B-Intent：29B MoE（4B 激活），同时做意图分类与参数抽取",
+     "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-Intent",
+     "source": "Hugging Face / 智东西",
+     "date": "2026-10-19",
+     "summary": "模型以统一 Schema（category+args JSON）覆盖实体、关系、事件抽取与口语理解，端到端延迟低于 150ms。官方称零样本冷启动 Micro-F1 达 70.27，较 Jev 最优配置高 12.62 个百分点，48 个公开数据集统一评测总分 58（均为官方数据）。同步开源 275.3 万条 SFT 语料与推理 SDK，Apache-2.0 许可。"
     },
     {
      "title": "岩山科技岩芯矩阵联合港科大、CMU 开源 EdgeRock-4B：256K 上下文 KV Cache 固定 72MiB、较源模型减少 99.1%，单卡吞吐达 6.42 倍",
@@ -244,13 +251,6 @@
      "source": "量子位 / VAST",
      "date": "2026-10-18",
      "summary": "EdenLive 由上游交互系统维护世界状态与规则、生成模型负责视觉渲染：输入简化场景或参考视频，配合目标首帧和提示词，即可沿参考的布局与运动实时生成写实、二次元等画风画面，端到端延迟为百毫秒级，可用于游戏原型预览、视频重渲染换皮与具身数据增强。权重、推理代码与技术报告已在 GitHub 和 Hugging Face 公开，Apache 2.0 许可。"
-    },
-    {
-     "title": "英伟达为 vLLM 上游贡献 Kimi K3 解码优化：2.8 万亿参数模型在 GB300 NVL72 上达 423 tok/s/user，同硬件提速 1.68 倍",
-     "url": "https://www.ithome.com/1/014/595.htm",
-     "source": "IT之家 / SemiAnalysis",
-     "date": "2026-10-18",
-     "summary": "SemiAnalysis 称，英伟达 CentML 工程师用 Cute DSL 编写解码专用内核，通过大规模 Megakernel 融合（约 1.2 万行代码）把 Kimi K3 的单用户推理速度提升到 423 tok/s，相比同一 GB300 NVL72 硬件提升 1.68 倍；英伟达还在为 vLLM 优化 DeepSeek V4.1 等模型。"
     }
    ]
   },
@@ -323,6 +323,13 @@
    "icon": "🇨🇳",
    "items": [
     {
+     "title": "量子位：北京通用人工智能研究院孵化的通衍灵智押注“递归自进化个性化 AI”，以 Personal LoRA 沉淀个人与企业专属能力",
+     "url": "https://www.qbitai.com/2026/10/504294.html",
+     "source": "量子位",
+     "date": "2026-10-19",
+     "summary": "通衍灵智在共享基座之上为个人、项目、企业训练轻量 Personal LoRA，由 Evaluator 筛选反馈再增量更新，不达标即回滚；配套训推并行（TIP）与 Paged LoRA 显存管理。阶段测试用 Qwen2.5-72B 与 8 张 H800，在 LoRA 请求占比 1%–30% 时延迟占优，占比升至 50% 时性能退化；公司称完整自动化闭环仍在研发中。"
+    },
+    {
      "title": "铭芯启睿完成超 4 亿元 A 轮融资：前 Graphcore 总裁卢涛出任 CEO，启动面向大模型推理的第一代 LPU 研发",
      "url": "https://wallstreetcn.com/articles/3783927",
      "source": "华尔街见闻",
@@ -370,13 +377,6 @@
      "source": "IT之家",
      "date": "2026-10-19",
      "summary": "科大讯飞 2026 年第三季度营收 65.65 亿元（同比 +7.99%），归母净利润 2.26 亿元（+31.05%），扣非净亏损 1.26 亿元；单季研发投入超 17 亿元、占营收逾 25%。前三季度累计营收 181.87 亿元、归母净利润 2188.72 万元，经营现金流转正。公司称将于 10 月 22 日发布基于全国产算力底座的全新“云 + 端”讯飞星火大模型，并升级多模人机交互技术。"
-    },
-    {
-     "title": "速卖通联合天猫启动“中国品牌全球增长计划”：拟对优秀 AI 硬件品牌做天使轮投资，目标扶持超 100 个 AI 硬件品牌",
-     "url": "https://www.ithome.com/1/014/870.htm",
-     "source": "IT之家 / 中证网",
-     "date": "2026-10-19",
-     "summary": "在 2026 速卖通年度峰会暨双 11 商家大会上，速卖通与天猫推出面向头部品牌、AI 硬件新品牌和优质工厂品牌的增长计划；其中速卖通拟对优秀 AI 硬件品牌进行天使轮投资，并配套 Brand+ 与天猫经营支持，目标扶持超 100 个品牌。公开数据显示 2026 年 1–7 月速卖通 AI 硬件品类销售额同比增长 100%；平台还将通过 AI 能力拓展拉美、东南亚、非洲等 66 个新市场。"
     }
    ]
   },
@@ -493,6 +493,54 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@StefanoErmon",
+     "url": "https://x.com/StefanoErmon/status/2112222911218291051",
+     "source": "@StefanoErmon",
+     "date": "2026-10-20",
+     "summary": "Inception 联合创始人 Stefano Ermon：发布 Mercury 3，称其为迄今最强的扩散语言模型，质量超过 GPT-6 Luna 与 Haiku 5.5，速度超过 1000 tok/s。",
+     "metrics": {
+      "likes": 2933,
+      "reposts": 226,
+      "views": 193522
+     }
+    },
+    {
+     "title": "@AIatMeta",
+     "url": "https://x.com/AIatMeta/status/2112265822274302066",
+     "source": "@AIatMeta",
+     "date": "2026-10-20",
+     "summary": "Meta 发布 Muse Glimmer 技术报告：30B 开放权重模型，专为消费级硬件上的智能体任务打造，4-bit 精度下单张消费级 GPU 即可实用运行，工具调用领先同尺寸开源模型。",
+     "metrics": {
+      "likes": 503,
+      "reposts": 56,
+      "views": 38995
+     }
+    },
+    {
+     "title": "@rauchg",
+     "url": "https://x.com/rauchg/status/2112247046082363821",
+     "source": "@rauchg",
+     "date": "2026-10-20",
+     "summary": "Vercel CEO Guillermo Rauch：开源基于 libfx 的高速 HTML artifact 构建器，把 v0 应对服务器崩溃、LLM 不稳定与函数时限的底层“持久化”能力免费开放给智能体开发者。",
+     "metrics": {
+      "likes": 903,
+      "reposts": 50,
+      "views": 46589
+     }
+    },
+    {
+     "title": "@ycombinator",
+     "url": "https://x.com/ycombinator/status/2112234482975846504",
+     "source": "@ycombinator",
+     "date": "2026-10-20",
+     "summary": "YC 祝贺 W24 校友 Greptile 完成 5000 万美元 B 轮：每天审查并测试 GitHub 上超过 1% 的新开 PR，不到 50 人服务数千个工程团队。",
+     "metrics": {
+      "likes": 175,
+      "reposts": 10,
+      "views": 15710
+     }
+    },
+    {
      "title": "@kimmonismus",
      "url": "https://x.com/kimmonismus/status/2112261368288293179",
      "source": "@kimmonismus",
@@ -538,54 +586,6 @@
       "likes": 355,
       "reposts": 51,
       "views": 11695
-     }
-    },
-    {
-     "title": "@fal",
-     "url": "https://x.com/fal/status/2112251022047412492",
-     "source": "@fal",
-     "date": "2026-10-20",
-     "summary": "fal 发布与 Black Forest Labs 合作后训练的视频模型 FLUX 3 Max：第三方基准图生视频质量并列第一，约 12 秒生成 10 秒 720/768p 视频，未来三周限时 75% 折扣。",
-     "metrics": {
-      "likes": 447,
-      "reposts": 70,
-      "views": 38777
-     }
-    },
-    {
-     "title": "@ArtificialAnlys",
-     "url": "https://x.com/ArtificialAnlys/status/2112249300860444927",
-     "source": "@ArtificialAnlys",
-     "date": "2026-10-20",
-     "summary": "Artificial Analysis 推出 AA-PersonalityBench：用 900 道题、LLM 评审团两两比较，衡量模型 30 项性格特质（聚合为表现力、温暖、想象力、“Slop”等 8 项指数）与 21 项沟通特征；如 Qwen3.8 27B 平均每答约 1030 词，近 GPT-6 Luna 的 4 倍。",
-     "metrics": {
-      "likes": 190,
-      "reposts": 12,
-      "views": 11052
-     }
-    },
-    {
-     "title": "@arena",
-     "url": "https://x.com/arena/status/2112247114944360666",
-     "source": "@arena",
-     "date": "2026-10-20",
-     "summary": "Arena：DeepSeek-V4.1-Flash-20261017（Max）登顶 Agent Arena 开源模型第一、总榜第 11，基于 7500+ 真实会话净提升 5.1%；每任务中位成本 0.20 美元，约以 GPT-6.1 Sol 27% 的成本取得其 37% 的提升。",
-     "metrics": {
-      "likes": 156,
-      "reposts": 11,
-      "views": 10068
-     }
-    },
-    {
-     "title": "@theinformation",
-     "url": "https://x.com/theinformation/status/2112257545138016581",
-     "source": "@theinformation",
-     "date": "2026-10-20",
-     "summary": "The Information 独家：曾主导五角大楼与 Anthropic 公开争执的 Emil Michael，现负责与 Anthropic 等 AI 实验室合作应对国家安全威胁，并表示政府必要时准备施加更严格管控。",
-     "metrics": {
-      "likes": 3,
-      "reposts": 1,
-      "views": 1415
      }
     }
    ]
