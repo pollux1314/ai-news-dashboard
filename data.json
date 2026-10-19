@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T03:30:00+08:00",
+ "updated": "2026-10-20T04:35:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "Skyfall AI 发布 SKY-001 研究预览：号称首个面向工程的“世界模型”，可从文字或 2D 草图生成分层参数化 CAD/BIM 施工方案",
+     "url": "https://skyfall.ai/blog/introducing-sky-001",
+     "source": "Skyfall AI",
+     "date": "2026-10-19",
+     "summary": "SKY-001 支持装配分解、2D 转 3D 建模与可执行的 CAD 操作轨迹。公司自测称其在 CAD 与 BIM 任务上优于 GPT-6 Astra 与 Opus 5.5，单样本速度约快 120 倍、成本更低（均为厂商自评，BIM 评测仅基于 IoU 几何指标）；目标 2027 年初商用部署。"
+    },
     {
      "title": "微软扩展 Project Perception：称“前沿模型无论出自谁手都不可信”，把企业内 AI 智能体当作“内部人风险”，以 Guardian Agents 实时监管每一步操作",
      "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
@@ -55,13 +62,6 @@
      "source": "IT之家",
      "date": "2026-10-17",
      "summary": "Anthropic 于当地时间 10 月 15 日宣布，自 10 月 29 日起 Claude Haiku 4.5 将从 Free、Pro 和 Max 套餐的模型选择器中移除，涵盖网页、桌面与移动端聊天及 Claude Cowork、Claude Design；选中该模型的用户将被自动切换至 Haiku 5.5。Claude Code、Team/Enterprise 套餐与 API 中的 Haiku 4.5 不受影响，既有对话不会被删除。"
-    },
-    {
-     "title": "DeepSeek 发布 V4.1-Flash-1017：基准更强、完成任务更快、输出更短，网页/App/API 同步上线",
-     "url": "https://api-docs.deepseek.com/news/news261017",
-     "source": "DeepSeek API Docs",
-     "date": "2026-10-17",
-     "summary": "据 DeepSeek 官方发布说明，DeepSeek-V4.1-Flash-1017 相比上一版本在基准成绩、任务完成速度和输出长度上实现性能与成本的帕累托改进，已在官网、App 与 API 上线；通过带自反馈的强化学习强化从零构建完整项目（游戏、3D 建模等）的能力，并针对 DeepSeek Harness、腾讯 CodeBuddy、WorkBuddy 等优化，建议升级 Harness v0.2.1-rc.1 及以上。同时 Search / Fetch API 全面开放，每端点每千次 0.75 美元。"
     }
    ]
   },
@@ -70,6 +70,13 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "德国联邦政府与英伟达签署联合意向声明：围绕“工业 4.0 平台”共建物理 AI 前沿模型，英伟达模型将向中小企业与科研机构开放",
+     "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+     "source": "NVIDIA Blog / tagesschau",
+     "date": "2026-10-20",
+     "summary": "在柏林首届“Invest in Germany”峰会上，德国经济部与研究部同英伟达签署意向声明，推动面向机器人、自动驾驶、工厂仿真与制造的物理 AI 模型，目标是把工业 AI 系统性推向大规模应用。默茨呼吁中小企业开放工业数据，黄仁勋称 AI 只会增强而非取代德国工程能力。联邦政府暂未公布投资额，据 tagesschau 援引媒体报道，拟投入数亿欧元，部分用于租用德国电信 AI 云算力。"
+    },
     {
      "title": "Amnon Shashua 新公司 doubleAI 发布首个“代码执行模型”Maxwell：在 CPU/GPU 上实时优化程序机器指令并形式化验证，A 轮融资 2 亿美元、估值超 10 亿美元",
      "url": "https://www.calcalistech.com/ctechnews/article/sk11xpc73ge",
@@ -118,13 +125,6 @@
      "source": "Salesforce",
      "date": "2026-10-19",
      "summary": "Salesforce 在马德里新总部启用仪式上公布投资计划；新设的 AI Implementation Team 由前线部署工程师与西班牙客户共同设计、部署智能体用例，并运营区域人才中心，招募 EMEA South 各国毕业生在西班牙培训一年后返回本国推动 AI 落地。"
-    },
-    {
-     "title": "AI 芯片初创 Tenstorrent 完成 15 亿美元 E 轮融资，估值 62 亿美元较 2024 年翻倍以上，资金用于 Galaxy 服务器量产与全球扩张",
-     "url": "https://qz.com/tenstorrent-raised-1-5-billion-series-e-valuation-101926",
-     "source": "Quartz / Bloomberg / Reuters",
-     "date": "2026-10-19",
-     "summary": "Tenstorrent 10 月 19 日宣布完成 15 亿美元 E 轮融资，投后估值 62 亿美元，较 2024 年一轮（约 26 亿美元）翻倍以上；本轮由 Trace Capital 与 Innovation X 领投，Sandisk、Tether Investments、T. Rowe Price、Cadence Ventures 等参与，老股东 ARK Invest 与富达跟投。公司基于 RISC-V 开发 AI 芯片与软件，资金将用于扩大 Galaxy 服务器量产与全球商业化。据彭博，公司今年曾与英特尔、高通等洽谈出售，CEO Jim Keller 称最终选择融资而非出售。"
     }
    ]
   },
@@ -197,6 +197,13 @@
    "icon": "🛠️",
    "items": [
     {
+     "title": "Video Rebirth 开源 H3 HyperFlow：基于 MiniMax H3 的无数据流自蒸馏 LoRA，把视频生成从 49 步压到 8 步、约提速 3 倍，音画同步生成",
+     "url": "https://huggingface.co/videorebirth/hyperflow",
+     "source": "Hugging Face / GitHub",
+     "date": "2026-10-20",
+     "summary": "HyperFlow 为约 2.8GB 的 LoRA，基于 diffusers Modular Pipeline，使用固定 sigma 网格与双时间条件，支持文生音视频、首尾帧与参考图生成等工作流。代码以 Apache-2.0 开源（github.com/Video-Rebirth/hyperflow），权重受 MiniMax H3 社区许可约束，含地域限制。"
+    },
+    {
      "title": "IBM 开源 Torch-Spyre：以 PyTorch PrivateUse1 + Inductor 后端接入 Spyre 加速器，可直接运行 Hugging Face 与 vLLM 上数千个模型",
      "url": "https://research.ibm.com/publications/integrating-the-ibm-spyre-accelerator",
      "source": "IBM Research",
@@ -244,13 +251,6 @@
      "source": "IT之家 / SemiAnalysis",
      "date": "2026-10-18",
      "summary": "SemiAnalysis 称，英伟达 CentML 工程师用 Cute DSL 编写解码专用内核，通过大规模 Megakernel 融合（约 1.2 万行代码）把 Kimi K3 的单用户推理速度提升到 423 tok/s，相比同一 GB300 NVL72 硬件提升 1.68 倍；英伟达还在为 vLLM 优化 DeepSeek V4.1 等模型。"
-    },
-    {
-     "title": "OpenCode Console 遭入侵：1.4% 关联外部模型的用户 OpenAI/Anthropic/谷歌 API 密钥或外泄，官方称与大规模蒸馏攻击有关",
-     "url": "https://www.ithome.com/1/014/434.htm",
-     "source": "IT之家 / OpenCode",
-     "date": "2026-10-18",
-     "summary": "OpenCode 称当地时间 10 月 16 日晚一个正在停用的旧系统遭未授权访问，影响 1.4% 的 OpenCode Console 用户，仅限在工作区保存了外部服务商密钥的用户，已于 17 日邮件通知。多名用户反映 Anthropic、谷歌账户出现数百美元/欧元未授权扣费。OpenCode 正与 Anthropic、OpenAI、谷歌合作补救，建议受影响用户吊销并更换密钥、检查用量；联合创始人称普通 OpenCode 客户端的密钥不经过公司服务器，退款已在进行。"
     }
    ]
   },
@@ -389,7 +389,7 @@
      "title": "anthropics/claude-code",
      "url": "https://github.com/anthropics/claude-code",
      "source": "GitHub",
-     "stars": 152542,
+     "stars": 152566,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-20",
@@ -400,7 +400,7 @@
      "title": "Comfy-Org/ComfyUI",
      "url": "https://github.com/Comfy-Org/ComfyUI",
      "source": "GitHub",
-     "stars": 139522,
+     "stars": 139562,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -415,7 +415,7 @@
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
      "source": "GitHub",
-     "stars": 217600,
+     "stars": 217638,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -426,7 +426,7 @@
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 11178,
+     "stars": 11214,
      "stars_week": null,
      "language": "Rust",
      "date": "2026-10-19",
@@ -437,7 +437,7 @@
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 98020,
+     "stars": 98071,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -448,7 +448,7 @@
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 56624,
+     "stars": 56762,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -459,7 +459,7 @@
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 55123,
+     "stars": 55138,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -474,7 +474,7 @@
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 77061,
+     "stars": 77088,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -492,6 +492,42 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@kimmonismus",
+     "url": "https://x.com/kimmonismus/status/2112261368288293179",
+     "source": "@kimmonismus",
+     "date": "2026-10-20",
+     "summary": "Chubby：Video Rebirth 开源 MiniMax H3 视频模型加速方案 HyperFlow，生成步数从 49 降到 8、速度约快 3 倍，同时生成音频，并附三组提示词实测。",
+     "metrics": {
+      "likes": 50,
+      "reposts": 3,
+      "views": 6280
+     }
+    },
+    {
+     "title": "@testingcatalog",
+     "url": "https://x.com/testingcatalog/status/2112274382122865149",
+     "source": "@testingcatalog",
+     "date": "2026-10-20",
+     "summary": "TestingCatalog：Skyfall AI 发布首个专注工程任务的世界模型 SKY-001，据 Skyfall 测试在 CAD 与 BIM 任务上超过 GPT-6 Astra 与 Opus 5.5，速度约快 120 倍。",
+     "metrics": {
+      "likes": 19,
+      "reposts": 1,
+      "views": 2569
+     }
+    },
+    {
+     "title": "@nvidia",
+     "url": "https://x.com/nvidia/status/2112269224949485860",
+     "source": "@nvidia",
+     "date": "2026-10-20",
+     "summary": "英伟达：黄仁勋与德国总理默茨当晚在柏林对谈，探讨将德国工程能力与英伟达 AI 结合，推进制造业与汽车业，并表示将支持德国的相关计划。",
+     "metrics": {
+      "likes": 136,
+      "reposts": 21,
+      "views": 11619
+     }
+    },
     {
      "title": "@AndrewCurran_",
      "url": "https://x.com/AndrewCurran_/status/2112250754358788437",
@@ -550,42 +586,6 @@
       "likes": 3,
       "reposts": 1,
       "views": 1415
-     }
-    },
-    {
-     "title": "@TechCrunch",
-     "url": "https://x.com/TechCrunch/status/2112243153541431796",
-     "source": "@TechCrunch",
-     "date": "2026-10-20",
-     "summary": "TechCrunch：AI 助手初创 Town 宣布 1.08 亿美元 B 轮融资，Forerunner 与 Menlo Ventures 联合领投，估值达独角兽级别。",
-     "metrics": {
-      "likes": 9,
-      "reposts": 1,
-      "views": 6736
-     }
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2112229820264321458",
-     "source": "@Reuters",
-     "date": "2026-10-20",
-     "summary": "路透 Breakingviews 评论：牛津峰会为企业 AI 敲响警钟。",
-     "metrics": {
-      "likes": 4,
-      "reposts": 0,
-      "views": 20383
-     }
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2112223540925571277",
-     "source": "@Reuters",
-     "date": "2026-10-20",
-     "summary": "路透：经历数月来最惨烈的一周抛售后，美股 AI/芯片股周一反弹，CoreWeave 获高盛上调评级。",
-     "metrics": {
-      "likes": 1,
-      "reposts": 2,
-      "views": 16878
      }
     }
    ]
