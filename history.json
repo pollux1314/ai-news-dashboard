@@ -1,7 +1,98 @@
 {
- "updated": "2026-10-19T18:40:00+08:00",
- "count": 593,
+ "updated": "2026-10-19T19:40:00+08:00",
+ "count": 600,
  "items": [
+  {
+   "title": "Anthropic：独立版 Claude Design（claude.ai/design）将于 12 月 14 日关闭，设计功能并入 Claude 对话、Artifacts 与 Claude Code",
+   "url": "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude",
+   "source": "Claude Help Center",
+   "date": "2026-10-19",
+   "summary": "Claude 帮助中心称 Claude Design 现已并入 Claude，Free/Pro/Max/Team/Enterprise 均可用；独立站点可用至 2026 年 12 月 14 日，之后跳转至 Claude。设计系统可现在通过 Artifacts 页面迁移，但独立版中的对话、项目评论不会迁移并将按数据保留政策删除，公开项目链接届时失效。",
+   "id": "a49498202663424ac77a34aa8f81fcdc1e2a5c01",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-19T19:40:00+08:00"
+  },
+  {
+   "title": "梅赛德斯-奔驰与英伟达深化战略合作：MB.OS 结合 Hyperion、Alpamayo 与 Halos，开发城市点到点辅助驾驶并面向未来 L4 自动驾驶",
+   "url": "https://www.ithome.com/1/014/990.htm",
+   "source": "IT之家",
+   "date": "2026-10-19",
+   "summary": "据 IT之家报道，奔驰与英伟达 16 日公告深化合作：MB.OS 与 NVIDIA Hyperion 计算与传感器架构协同，Alpamayo Stack 提供具备 AI 推理能力的全栈驾驶软件（城市点到点辅助驾驶、主动安全、自动泊车），Halos 并行安全栈提供冗余；奔驰还将在工程仿真与 MO360 数字化生产中采用英伟达技术。",
+   "id": "f8a9cc77eadf045715add78c71588d3c4786c530",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T19:40:00+08:00"
+  },
+  {
+   "title": "工信部：今年上半年我国人形机器人整机产品突破 400 款、产量超 4 万台，预计全年突破 10 万台",
+   "url": "https://www.ithome.com/1/015/002.htm",
+   "source": "IT之家 / 国新办",
+   "date": "2026-10-19",
+   "summary": "国新办 10 月 19 日新闻发布会介绍，工信部推动以人形机器人为代表的具身智能产业规模加速壮大：上半年整机产品超 400 款、产量超 4 万台，全年预计超 10 万台；同时攻关运动控制、仿真、触觉传感等关键技术，并在仓储物流、餐饮零售、家庭服务等 300 多个场景推进验证部署。",
+   "id": "d93c5786137d246b2ca43918b2af2f57c7652693",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T19:40:00+08:00"
+  },
+  {
+   "title": "海光信息三季报：Q3 营收 58.56 亿元同比增 45.5%、归母净利润 10.48 亿元增 37.9%，研发投入 18.2 亿元",
+   "url": "https://www.ithome.com/1/014/992.htm",
+   "source": "IT之家",
+   "date": "2026-10-19",
+   "summary": "海光信息（CPU 与 DCU 协处理器厂商）2026 年第三季度营收 58.56 亿元、同比增长 45.46%，归母净利润 10.48 亿元、增长 37.9%；前三季度累计营收约 149.5 亿元、增长 57.58%。公司称受 AI 产业快速发展与国产替代转向市场驱动带动，国内高端芯片需求持续攀升；经营现金流因加大备货转负。",
+   "id": "c0ea29753e2c9f56aff1fb67d3adbf9ee129b96e",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T19:40:00+08:00"
+  },
+  {
+   "title": "headroomlabs-ai/headroom",
+   "url": "https://github.com/headroomlabs-ai/headroom",
+   "source": "GitHub",
+   "stars": 75970,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-19",
+   "summary": "在工具输出、日志、文件和 RAG 片段送入大模型前先做压缩：编码智能体约省 20% token、JSON 省 60–95%，答案不变；提供库、代理与 MCP 服务器三种形态，Apache-2.0。",
+   "why": "今日 GitHub Trending 日榜约 +317 星，累计近 7.6 万星。",
+   "id": "9a75aafc0f232f11cd056b828b730c35405025ca",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-19T19:40:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112143001493328194",
+   "source": "@Reuters",
+   "date": "2026-10-19",
+   "summary": "本周美股大型科技公司财报季开启、Meta 成焦点：在一轮由 AI 引发的急跌后，投资者希望就资本开支、债务与未来增长得到答案。",
+   "metrics": {
+    "likes": 8,
+    "reposts": 2,
+    "views": 14869
+   },
+   "id": "b97a643d17fb887ee41e45629273016ad7f2b1db",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T19:40:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112130950008062088",
+   "source": "@testingcatalog",
+   "date": "2026-10-19",
+   "summary": "Nebius 将 AI Builder Program 扩展至欧洲，联合英伟达、Accel 等欧洲 VC 提供合计 1000 万美元算力资助，免费加入，可获在 Nebius 上运行开源模型的额度；欧洲版于 NVIDIA GTC 启动。",
+   "metrics": {
+    "likes": 27,
+    "reposts": 1,
+    "views": 4018
+   },
+   "id": "474bdf1e4c3f07698bd6cb8fed36d2048be1d89f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-19T19:40:00+08:00"
+  },
   {
    "title": "路透独家：一名中文黑客借开源智能体平台 Cairn 让 AI 自主发起约 1200 次入侵、攻破 100 多家公司网站，迪尔、SharkNinja、康明斯在列",
    "url": "https://www.livemint.com/technology/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-11792404169869.html",
@@ -939,18 +1030,14 @@
    "first_seen": "2026-10-15T20:32:02+08:00"
   },
   {
-   "title": "anthropics/claude-plugins-official",
+   "title": "Anthropic 官方开源 Claude Code 插件目录 claude-plugins-official：集中托管高质量插件，Apache-2.0，日榜约 +1175 星",
    "url": "https://github.com/anthropics/claude-plugins-official",
-   "source": "GitHub",
-   "stars": 43026,
-   "stars_week": null,
-   "language": "Python",
+   "source": "GitHub / Anthropic",
    "date": "2026-10-19",
-   "summary": "Anthropic 官方维护的 Claude Code 高质量插件目录，含 MCP 与 skills 相关插件，Apache-2.0。",
-   "why": "今日 GitHub Trending 日榜上榜，当日约 +1,175 星，累计约 4.3 万星。",
+   "summary": "anthropics/claude-plugins-official 为 Anthropic 维护的 Claude Code 高质量插件官方目录，文档指向 code.claude.com/docs/en/plugins；仓库约 4.3 万星、Apache-2.0，今日 GitHub Trending 日榜上榜（约 +1,175 星），话题含 claude-code、mcp、skills。",
    "id": "3de13b42e404c8302ffbab609e0c8670a25364c7",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
+   "module": "opensource",
+   "module_name": "开源与工具",
    "first_seen": "2026-10-15T19:31:06+08:00"
   },
   {
