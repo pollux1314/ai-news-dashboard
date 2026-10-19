@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T17:35:00+08:00",
+  "updated": "2026-10-19T18:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "路透独家：一名中文黑客借开源智能体平台 Cairn 让 AI 自主发起约 1200 次入侵、攻破 100 多家公司网站，迪尔、SharkNinja、康明斯在列",
+          "url": "https://www.livemint.com/technology/how-one-hacker-used-ai-agents-and-a-few-thousand-dollars-to-break-into-scores-of-sites-11792404169869.html",
+          "source": "Reuters / Mint",
+          "date": "2026-10-19",
+          "summary": "据路透社 10 月 19 日独家报道，网络安全公司 NorForge 首席威胁研究员 Snorre Fagerland 扫描网上意外暴露的开源 AI 问题求解平台 Cairn 实例时，自 10 月 2 日起发现约两打被用于恶意活动的实例；其中一名中文黑客几乎把整个攻击过程外包给 AI 智能体，自主探测并尝试约 1200 次入侵，攻破 100 多家公司网站。路透独立核查确认受害者包括农机巨头迪尔、家电公司 SharkNinja 和发动机制造商康明斯；迪尔称已完成修复、未发现敏感信息被访问，SharkNinja 称受影响的只是独立的产品支持站点，康明斯表示正在调查。Fagerland 称这是商用 AI 智能体可在无人干预下端到端完成复杂入侵的现实证据。"
+        },
+        {
           "title": "斯德哥尔摩 AI 物业运营初创 Vessla 完成 330 万美元超额认购 Pre-seed，Seedcamp 领投，Lovable 与 OpenAI 员工跟投",
           "url": "https://techfundingnews.com/vessla-raises-3m-seedcamp-ai-operating-system-property-management/",
           "source": "Tech Funding News",
@@ -118,13 +125,6 @@
           "source": "The Verge",
           "date": "2026-10-19",
           "summary": "Carolyn Marvin 拦在一台 Uber 配送机器人前拒不让路，被警方以扰乱秩序罪逮捕；她对费城 ABC13 表示，自己每次看到这类机器人都会站到前面阻止，因为它们正在抢走人类配送员的工作。配送机器人已在费城市中心十分常见并引发反弹，今年早些时候中心城区还有一台被踢翻。The Verge 指出，机器人出租车、配送机器人与 AI 智能体对低技能岗位就业的冲击正引发越来越广泛的担忧。"
-        },
-        {
-          "title": "游戏反编译社区平台 decomp.dev 宣布关停：新版 Opus 与 GPT 让批量产出反编译成果变得轻而易举，社群协作精神被冲淡",
-          "url": "https://www.ithome.com/1/014/631.htm",
-          "source": "IT之家",
-          "date": "2026-10-19",
-          "summary": "2024 年创立的 decomp.dev 是逆向工程与游戏反编译爱好者的热门平台。告别公告称，在人工引导与代码审查下 AI 能大幅加快反编译，新版 Opus 与 GPT 在相关任务上表现惊人，任何人有足够算力额度即可批量产出成果，但这种零散贡献割裂了圈子、削弱了社群属性，平台因此失去存在意义；公告并非单纯反 AI，更多是惋惜。"
         }
       ]
     },
@@ -408,21 +408,10 @@
           "why": "GitHub Trending 周榜第二，本周 +16,379 星，累计约 3.3 万星。"
         },
         {
-          "title": "Gathin23/tv-vibehack",
-          "url": "https://github.com/Gathin23/tv-vibehack",
-          "source": "GitHub",
-          "stars": 2896,
-          "stars_week": null,
-          "language": "Java",
-          "date": "2026-10-19",
-          "summary": "借助 Claude Code 通过 Wi‑Fi ADB 给 Android TV / Google TV 去广告与预装软件，并换上类 Apple TV 的简洁启动器；免 root、不卸载任何组件、可一键还原，仓库附带完成改造所用的提示词。",
-          "why": "10 月 17 日创建，累计约 2,453 星，持续登上 AI 相关热门讨论。"
-        },
-        {
           "title": "anomalyco/opencode",
           "url": "https://github.com/anomalyco/opencode",
           "source": "GitHub",
-          "stars": 217011,
+          "stars": 217103,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -430,10 +419,21 @@
           "why": "今日 GitHub Trending 日榜上榜，当日约 +1,414 星，累计约 21.7 万星。"
         },
         {
+          "title": "debpalash/VoiceStudio",
+          "url": "https://github.com/debpalash/VoiceStudio",
+          "source": "GitHub",
+          "stars": 76541,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-19",
+          "summary": "本地语音克隆、配音、听写与转写的开源替代方案，定位对标 ElevenLabs，AGPL-3.0。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +2,082 星，累计约 7.7 万星。"
+        },
+        {
           "title": "akitaonrails/ai-memory",
           "url": "https://github.com/akitaonrails/ai-memory",
           "source": "GitHub",
-          "stars": 10760,
+          "stars": 10809,
           "stars_week": null,
           "language": "Rust",
           "date": "2026-10-19",
@@ -444,7 +444,7 @@
           "title": "stablyai/orca",
           "url": "https://github.com/stablyai/orca",
           "source": "GitHub",
-          "stars": 97265,
+          "stars": 97404,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -455,7 +455,7 @@
           "title": "MadsLorentzen/ai-job-search",
           "url": "https://github.com/MadsLorentzen/ai-job-search",
           "source": "GitHub",
-          "stars": 54626,
+          "stars": 55007,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -466,7 +466,7 @@
           "title": "anthropics/claude-plugins-official",
           "url": "https://github.com/anthropics/claude-plugins-official",
           "source": "GitHub",
-          "stars": 42960,
+          "stars": 43026,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2112126663060304170",
+          "source": "@Reuters",
+          "date": "2026-10-19",
+          "summary": "路透独家：一名黑客如何用 AI 智能体和几千美元攻破数十个网站——研究人员发现其借开源平台 Cairn 让 AI 自主入侵 100 多家公司站点。",
+          "metrics": {
+            "likes": 6,
+            "reposts": 1,
+            "views": 17006
+          }
+        },
+        {
+          "title": "@MiniMax_AI",
+          "url": "https://x.com/MiniMax_AI/status/2112111925975032241",
+          "source": "@MiniMax_AI",
+          "date": "2026-10-19",
+          "summary": "MiniMax 官方预告：“Welcome back. Space Bunny. MiniMax-M3.1-Flash is coming.”TestingCatalog 指出 API 文档将其描述为百万上下文、可调思考深度的前沿多模态编码模型。",
+          "metrics": {
+            "likes": 4083,
+            "reposts": 392,
+            "views": 557796
+          }
+        },
         {
           "title": "@arena",
           "url": "https://x.com/arena/status/2111894091168682086",
@@ -550,30 +574,6 @@
             "likes": 7,
             "reposts": 2,
             "views": 20175
-          }
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2112037303883292794",
-          "source": "@business",
-          "date": "2026-10-19",
-          "summary": "彭博：从后台中心到高端金融，英国银行业正成为自动化时代的案例研究，探讨金融业如何被自动化重塑。",
-          "metrics": {
-            "likes": 15,
-            "reposts": 1,
-            "views": 16662
-          }
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2111978195511558436",
-          "source": "@business",
-          "date": "2026-10-19",
-          "summary": "彭博：韩国股市周一再度下跌，DeepSeek 最新模型引发市场对存储芯片需求的担忧，叠加市场对 AI 融资的忧虑。",
-          "metrics": {
-            "likes": 75,
-            "reposts": 12,
-            "views": 29473
           }
         }
       ]
