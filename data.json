@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T09:40:00+08:00",
+  "updated": "2026-10-19T10:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "国家统计局：前三季度 GDP 同比增长 4.6%，工业机器人产量同比增长 29.1%，3D 打印设备产量增长 62.5%",
+          "url": "https://www.ithome.com/1/014/685.htm",
+          "source": "IT之家 / 央视新闻",
+          "date": "2026-10-19",
+          "summary": "国新办 10 月 19 日发布会公布前三季度经济数据：GDP 107.1 万亿元，按不变价格同比增长 4.6%，三季度增长 4.5%。国家统计局副局长毛盛勇表示，装备制造业和高技术制造业支撑明显，工业机器人产量同比增长 29.1%，3D 打印设备、锂离子电池产量分别增长 62.5%、39.5%。"
+        },
+        {
           "title": "中信证券：看好国产大模型持续崛起，DeepSeek Harness 有望成为其从模型供给走向平台生态的关键一环",
           "url": "https://www.ithome.com/1/014/646.htm",
           "source": "IT之家 / 中信证券研究",
@@ -370,13 +377,6 @@
           "source": "IT之家 / 央视新闻",
           "date": "2026-10-18",
           "summary": "据央视新闻，在深圳举行的 2026 全国高性能计算学术大会上，今年建成的我国首个全国产十万卡 AI 超集群真机亮相，并将发布十大应用成果。曙光 8000 在同一底座上兼顾最高精度科学计算与大模型训练推理；该集群 8 月官宣投用，目前支持新材料、创新药、人工智能等 26 个领域 300 多种计算任务。"
-        },
-        {
-          "title": "李未可 X-AI 记忆眼镜开启预售：最长 12 小时录音、128 种语言实时翻译，集成腾讯云 WorkBuddy，699 元起",
-          "url": "https://www.ithome.com/1/014/477.htm",
-          "source": "IT之家",
-          "date": "2026-10-18",
-          "summary": "眼镜主打全场景 AI 记录，可自动抓取待办与关键结论、语音检索记忆，并基于个人记忆库生成会议纪要与文稿；通过标准 MCP 协议连接豆包、飞书、千问办公、Codex、Claude 等智能体平台，记忆数据支持编辑、删除与导出并采用 AES-256 云端加密；机身 26 克，可选配 1200 万像素摄像模组。"
         }
       ]
     },
@@ -389,7 +389,7 @@
           "title": "anomalyco/opencode",
           "url": "https://github.com/anomalyco/opencode",
           "source": "GitHub",
-          "stars": 216529,
+          "stars": 216688,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -400,7 +400,7 @@
           "title": "stablyai/orca",
           "url": "https://github.com/stablyai/orca",
           "source": "GitHub",
-          "stars": 96580,
+          "stars": 96791,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -411,29 +411,29 @@
           "title": "ruvnet/ruflo",
           "url": "https://github.com/ruvnet/ruflo",
           "source": "GitHub",
-          "stars": 76490,
+          "stars": 76570,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
           "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +513 星，累计约 7.6 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +513 星，累计约 7.7 万星。"
         },
         {
           "title": "debpalash/VoiceStudio",
           "url": "https://github.com/debpalash/VoiceStudio",
           "source": "GitHub",
-          "stars": 75244,
+          "stars": 75576,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
           "summary": "本地语音克隆、配音、听写与转写的开源替代方案，定位对标 ElevenLabs，AGPL-3.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +2,082 星，累计约 7.5 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +2,082 星，累计约 7.6 万星。"
         },
         {
           "title": "HKUDS/CLI-Anything",
           "url": "https://github.com/HKUDS/CLI-Anything",
           "source": "GitHub",
-          "stars": 54568,
+          "stars": 54650,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -444,7 +444,7 @@
           "title": "MadsLorentzen/ai-job-search",
           "url": "https://github.com/MadsLorentzen/ai-job-search",
           "source": "GitHub",
-          "stars": 53019,
+          "stars": 53499,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -455,7 +455,7 @@
           "title": "anthropics/claude-plugins-official",
           "url": "https://github.com/anthropics/claude-plugins-official",
           "source": "GitHub",
-          "stars": 42649,
+          "stars": 42760,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -466,12 +466,12 @@
           "title": "akitaonrails/ai-memory",
           "url": "https://github.com/akitaonrails/ai-memory",
           "source": "GitHub",
-          "stars": 10450,
+          "stars": 10548,
           "stars_week": null,
           "language": "Rust",
           "date": "2026-10-19",
           "summary": "为编码智能体 CLI 提供长期记忆，并支持在不同厂商的智能体之间交接上下文，MIT 许可。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +512 星，累计约 1.0 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +512 星，累计约 1.1 万星。"
         }
       ]
     },
@@ -480,6 +480,18 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@AndrewCurran_",
+          "url": "https://x.com/AndrewCurran_/status/2111994636164345988",
+          "source": "@AndrewCurran_",
+          "date": "2026-10-19",
+          "summary": "Andrew Curran 称马斯克表示不会像 Anthropic 那样设立公益基金，而是直接把股份分给公众；并提到 OpenAI 今年 4 月也曾提议设立“公共财富基金”，通过分红把收益直接分配给美国公民。",
+          "metrics": {
+            "likes": 126,
+            "reposts": 5,
+            "views": 5851
+          }
+        },
         {
           "title": "@testingcatalog",
           "url": "https://x.com/testingcatalog/status/2111944960652034447",
@@ -562,18 +574,6 @@
             "likes": 13850,
             "reposts": 617,
             "views": 568629
-          }
-        },
-        {
-          "title": "@kimmonismus",
-          "url": "https://x.com/kimmonismus/status/2111879755741950184",
-          "source": "@kimmonismus",
-          "date": "2026-10-19",
-          "summary": "转述 Anthropic 联合创始人 Jack Clark 的说法：「我相信今年我们已获得令人信服的证据，表明奇点已经开始」，并评论称无论外界信不信，Anthropic 都按已进入奇点来行事。",
-          "metrics": {
-            "likes": 1134,
-            "reposts": 76,
-            "views": 32442
           }
         }
       ]
