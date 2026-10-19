@@ -1,7 +1,23 @@
 {
- "updated": "2026-10-20T01:31:00+08:00",
- "count": 626,
+ "updated": "2026-10-20T02:35:00+08:00",
+ "count": 628,
  "items": [
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2112243153541431796",
+   "source": "@TechCrunch",
+   "date": "2026-10-20",
+   "summary": "TechCrunch：AI 助手初创 Town 宣布 1.08 亿美元 B 轮融资，Forerunner 与 Menlo Ventures 联合领投，估值达独角兽级别。",
+   "metrics": {
+    "likes": 9,
+    "reposts": 1,
+    "views": 6736
+   },
+   "id": "ab225024e86b970dcd50adf375a01e92f3666c38",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T02:35:00+08:00"
+  },
   {
    "title": "IBM 开源 Torch-Spyre：以 PyTorch PrivateUse1 + Inductor 后端接入 Spyre 加速器，可直接运行 Hugging Face 与 vLLM 上数千个模型",
    "url": "https://research.ibm.com/publications/integrating-the-ibm-spyre-accelerator",
@@ -102,6 +118,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "AI 工作助手初创 Town 完成 1.08 亿美元 B 轮融资，估值 10 亿美元跻身独角兽，距公开上线仅四个月",
+   "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
+   "source": "TechCrunch",
+   "date": "2026-10-19",
+   "summary": "由前 Plaid CTO Jean-Denis Greze 创立的 Town 宣布 B 轮由 Forerunner 与 Menlo Ventures 联合领投，a16z、First Round 等跟投，累计融资至少 1.6 亿美元。每名员工获得一个连接邮箱、日历、文档与业务系统的助手“Townie”，现可彼此协作、交接工作，并通过邮件和短信对接外部客户与候选人；公司称 6 月上线后数周 ARR 达七位数，7 月以来付费客户增长 4 倍。",
+   "id": "ebe42a2b25a5baf720e262e5d966858faa92947f",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T02:35:00+08:00"
   },
   {
    "title": "亚马逊与 X-energy 签第二份核电协议：在印第安纳州原燃煤电厂旧址建 12 座 Xe-100 小型模块化反应堆，总装机近 1 吉瓦",
