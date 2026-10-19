@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-19T19:40:00+08:00",
+ "updated": "2026-10-19T20:33:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -26,7 +26,7 @@
      "url": "https://platform.minimax.io/docs/guides/models-intro",
      "source": "MiniMax 官方文档",
      "date": "2026-10-19",
-     "summary": "据 MiniMax 模型文档，MiniMax-M3.1-Flash 已作为前沿多模态编码模型上线，具备 1M 上下文与可调思考深度；自 2026 年 10 月 19 日起，M2.5/M2.7 系列不再对向新用户开放，M Plan 与 Token Plan 对该系列的请求将自动路由至 M3.1 Flash，模型名可向后兼容无需改代码；按量付费存量用户可继续用至 11 月 18 日正式下线。"
+     "summary": "据 MiniMax 模型文档，MiniMax-M3.1-Flash 已作为前沿多模态编码模型上线，具备 1M 上下文与可调思考深度；自 2026 年 10 月 19 日起，M2.5/M2.7 系列不再对向新用户开放，M Plan 与 Token Plan 对该系列的请求将自动路由至 M3.1 Flash，模型名可向后兼容无需改代码；按量付费存量用户可继续用至 11 月 18 日正式下线。 据 IT之家，M3.1 Flash 即此前匿名处理超 200T Token 的“Space Bunny”，推理速度提升近 3 倍、Agentic 任务成本降约 70%，DeepSWE v1.1 达 73.7%、OSWorld V2 61.7 分；价格为每百万输入 1 元、输出 4 元。"
     },
     {
      "title": "DeepSeek：Search / Fetch API 按次计费细则公布，每千次成功请求 5 元，11 月 1 日起正式收费",
@@ -70,6 +70,13 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "苹果收购瑞士 AI 音频编辑公司 Samplab：可改音频中任意音符、识别编辑和弦，有望并入 Logic Pro",
+     "url": "https://www.ithome.com/1/015/005.htm",
+     "source": "IT之家 / AppleInsider",
+     "date": "2026-10-19",
+     "summary": "据 AppleInsider 报道、IT之家转引，苹果已收购 2020 年成立于苏黎世的 AI 音频编辑公司 Samplab 的部分资产，并向部分员工提供职位。Samplab 主打“面向 AI 时代的音乐制作”，可修改音频中的单个音符、识别并编辑和弦，并提供精细音轨分离；预计相关技术将整合进 Logic Pro，强化现有 AI 音轨分离能力。"
+    },
     {
      "title": "梅赛德斯-奔驰与英伟达深化战略合作：MB.OS 结合 Hyperion、Alpamayo 与 Halos，开发城市点到点辅助驾驶并面向未来 L4 自动驾驶",
      "url": "https://www.ithome.com/1/014/990.htm",
@@ -118,13 +125,6 @@
      "source": "IT之家",
      "date": "2026-10-19",
      "summary": "HUMXN 将补贴管道、电工、暖通空调、风道与地毯清洁等上门服务，房主可免费获得服务，交换条件是允许佩戴“可穿戴采集设备”的人员入户录制技师完整作业过程（勘察、测试、选工具、应对突发、验收），用于训练 AI 机器人；技师照常获得报酬。首批落地明尼阿波利斯、芝加哥和迈阿密三城，以获取不同气候环境下的真实数据。"
-    },
-    {
-     "title": "Meta 致歉：Claude 工具高频“读取”触发安全机制，反特朗普团体 No Kings 联盟 Instagram 账号遭误封约 90 分钟",
-     "url": "https://www.ithome.com/1/014/720.htm",
-     "source": "IT之家 / 彭博",
-     "date": "2026-10-19",
-     "summary": "Meta 传播副总裁 Andy Stone 周日更正说法：工程团队查明，触发误封的是账号的“读取”行为——周六 Anthropic 旗下一款 Claude 工具在短时间内集中访问主页、帖子和话题标签，速率约为正常水平的四倍，特征更像机器人流量。约一小时后自动复核判定误封并恢复展示，但管理员权限更晚才恢复。Meta 最初称是高频发帖、转发触发，此次修正了说法；未说明具体是哪款 Claude 工具、由谁操作。"
     }
    ]
   },
@@ -323,6 +323,13 @@
    "icon": "🇨🇳",
    "items": [
     {
+     "title": "“中国博通”众星微首秀：12 款互连芯片量产、累计出货超 80 万颗，发布 PCIe 6.0 Switch、800G 多协议 AI 网卡与多模 RAID 芯片",
+     "url": "https://www.qbitai.com/2026/10/504225.html",
+     "source": "量子位",
+     "date": "2026-10-19",
+     "summary": "量子位报道，无锡众星微成立 6 年后首次集中发布：网卡、存储卡与 Switch 芯片等 12 款芯片已量产、累计出货超 80 万颗。新品 PCIe 6.0 Switch 最多 144 通道、百纳秒级时延并支持 CXL 内存池化；800G 多协议 AI NIC 支持线速转发、微秒级时延，面向大规模 AI 集群；多模 RAID 芯片支持 SAS/SATA/PCIe 5.0 并内置硬件加密。"
+    },
+    {
      "title": "工信部：今年上半年我国人形机器人整机产品突破 400 款、产量超 4 万台，预计全年突破 10 万台",
      "url": "https://www.ithome.com/1/015/002.htm",
      "source": "IT之家 / 国新办",
@@ -370,13 +377,6 @@
      "source": "IT之家",
      "date": "2026-10-19",
      "summary": "Marvis 面向银河麒麟桌面操作系统 V10SP1（X86、ARM），支持多款国产 CPU；可按自然语言调整系统设置、诊断问题，调用安全中心与麒麟管家做体检、杀毒、清理，安装卸载软件，并支持本地文档智能检索、任务自动化与通过手机 App 跨端远控电脑。目前已向政务部门、国资企业及行业伙伴开放合作。"
-    },
-    {
-     "title": "阿里达摩院首席科学家孟建熠：玄铁 RISC-V 处理器已稳定出货超 60 亿颗，达摩院同场发布首款车规增强 E908A",
-     "url": "https://www.ithome.com/1/014/770.htm",
-     "source": "IT之家 / 科创板日报",
-     "date": "2026-10-19",
-     "summary": "在深圳举行的第六届 RISC-V 中国峰会上，孟建熠披露玄铁芯片累计稳定出货超 60 亿颗（2024 年首破 40 亿颗）；玄铁旗舰 C950 主频最高 3.2GHz，面向云计算与高性能 AI 计算。"
     }
    ]
   },
@@ -386,10 +386,21 @@
    "icon": "⭐",
    "items": [
     {
+     "title": "shiyu-coder/Kronos",
+     "url": "https://github.com/shiyu-coder/Kronos",
+     "source": "GitHub",
+     "stars": 41330,
+     "stars_week": null,
+     "language": "Python",
+     "date": "2026-10-19",
+     "summary": "Kronos：面向金融市场“语言”（K 线行情）的开源基础模型，MIT 许可。",
+     "why": "今日 GitHub Trending 日榜约 +355 星，累计超 4.1 万星。"
+    },
+    {
      "title": "headroomlabs-ai/headroom",
      "url": "https://github.com/headroomlabs-ai/headroom",
      "source": "GitHub",
-     "stars": 75970,
+     "stars": 75993,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -422,7 +433,7 @@
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
      "source": "GitHub",
-     "stars": 217103,
+     "stars": 217209,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -430,21 +441,10 @@
      "why": "今日 GitHub Trending 日榜上榜，当日约 +1,414 星，累计约 21.7 万星。"
     },
     {
-     "title": "debpalash/VoiceStudio",
-     "url": "https://github.com/debpalash/VoiceStudio",
-     "source": "GitHub",
-     "stars": 76541,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-19",
-     "summary": "本地语音克隆、配音、听写与转写的开源替代方案，定位对标 ElevenLabs，AGPL-3.0。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +2,082 星，累计约 7.7 万星。"
-    },
-    {
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 10809,
+     "stars": 10871,
      "stars_week": null,
      "language": "Rust",
      "date": "2026-10-19",
@@ -455,7 +455,7 @@
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 97404,
+     "stars": 97550,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -466,7 +466,7 @@
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 55007,
+     "stars": 55356,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -480,6 +480,30 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@nvidia",
+     "url": "https://x.com/nvidia/status/2112154040524026151",
+     "source": "@nvidia",
+     "date": "2026-10-19",
+     "summary": "英伟达发布黄仁勋视频：“整个产业都将建立在开放模型之上，开发者需要自由地构建它们”，阐述保持模型开放与可获取的重要性。",
+     "metrics": {
+      "likes": 86,
+      "reposts": 13,
+      "views": 9763
+     }
+    },
+    {
+     "title": "@testingcatalog",
+     "url": "https://x.com/testingcatalog/status/2112155774898040898",
+     "source": "@testingcatalog",
+     "date": "2026-10-19",
+     "summary": "MiniMax 正式发布 M3.1 Flash（即 OpenRouter 上的匿名模型“Space Bunny”）：DeepSWE 约 74%，API 价格每百万输入/输出 token 0.15/0.60 美元；权重将于 10 月 23 日放出，MiniMax 还在准备 Pro 版本。",
+     "metrics": {
+      "likes": 18,
+      "reposts": 0,
+      "views": 2305
+     }
+    },
     {
      "title": "@Reuters",
      "url": "https://x.com/Reuters/status/2112143001493328194",
@@ -550,30 +574,6 @@
       "likes": 9,
       "reposts": 1,
       "views": 14516
-     }
-    },
-    {
-     "title": "@jiqizhixin",
-     "url": "https://x.com/jiqizhixin/status/2111988703396786398",
-     "source": "@jiqizhixin",
-     "date": "2026-10-19",
-     "summary": "机器之心介绍南洋理工大学 RoboFoundry：让整个机器人软件栈自主演化，在不改动任何模型参数的情况下将成功率从 56.9% 提升到 72.7%（arXiv 2609.32862）。",
-     "metrics": {
-      "likes": 20,
-      "reposts": 1,
-      "views": 963
-     }
-    },
-    {
-     "title": "@elonmusk",
-     "url": "https://x.com/elonmusk/status/2112070071401238607",
-     "source": "@elonmusk",
-     "date": "2026-10-19",
-     "summary": "马斯克发帖称“很多人将被极具说服力的超级智能‘一击拿下’，我可能也是其中之一”，引发对超级智能操纵与说服风险的讨论，发布约 1 小时获逾 1.2 万点赞、2200 余条回复。",
-     "metrics": {
-      "likes": 12344,
-      "reposts": 1005,
-      "views": 945030
      }
     }
    ]
