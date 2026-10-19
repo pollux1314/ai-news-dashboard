@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T05:31:00+08:00",
+ "updated": "2026-10-20T06:30:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "Gemini Notebook 新增“共创”流程：生成幻灯片或视频前先基于资料提议主题，并让用户确认格式、视觉风格与范围",
+     "url": "https://www.theverge.com/tech/1013962/gemini-notebook-will-now-lay-out-its-plans-before-generating-a-slide-deck-or-video",
+     "source": "The Verge",
+     "date": "2026-10-20",
+     "summary": "据 The Verge，谷歌 AI 笔记应用 Gemini Notebook 现在会根据用户上传的资料先建议幻灯片或视频的主题，并在开始生成前让用户确认格式、视觉风格和覆盖范围；新增“Review”开关后，还可在最终渲染前审阅完整大纲。"
+    },
     {
      "title": "Tavus 发布实时数字人视频扩散模型 Falcon：逐 latent 自回归流式生成 720p，音频到视频平均延迟 430ms",
      "url": "https://www.tavus.io/blog/falcon",
@@ -48,13 +55,6 @@
      "source": "Claude Help Center",
      "date": "2026-10-19",
      "summary": "Claude 帮助中心称 Claude Design 现已并入 Claude，Free/Pro/Max/Team/Enterprise 均可用；独立站点可用至 2026 年 12 月 14 日，之后跳转至 Claude。设计系统可现在通过 Artifacts 页面迁移，但独立版中的对话、项目评论不会迁移并将按数据保留政策删除，公开项目链接届时失效。"
-    },
-    {
-     "title": "Arena 第 42 周大模型盲测周榜：gemini-4-argon-high 以 1525 分蝉联综合榜首，kimi-k3-max 首次稳定进入代码榜前十",
-     "url": "https://www.ithome.com/1/014/865.htm",
-     "source": "IT之家 / Arena",
-     "date": "2026-10-19",
-     "summary": "据 IT之家整理的 Arena（arena.ai）2026 年第 42 周（10 月 12–18 日）匿名盲测排名：综合榜 gemini-4-argon-high 1525 分居首，claude-opus-5.5-high 1507 分第二，claude-opus-4-6-high 与 claude-fable-5-high 同为 1504 分并列第三；国产模型中 kimi-k3-max 第 16（1488 分）、qwen3.8-max 第 22、mimo-v2.6-pro 第 26、glm-5.3-max 第 27。本期新入榜 gemini-3.5-flash-medium、mimo-v2.6-pro 与 flux-2-flex，kimi-k3-max 首次稳定在代码榜前十。"
     },
     {
      "title": "MiniMax 上线 M3.1 Flash：百万上下文多模态编码模型，今日起 M Plan/Token Plan 对 M2.5/M2.7 请求自动路由至新模型",
@@ -134,6 +134,20 @@
    "icon": "📄",
    "items": [
     {
+     "title": "OpenAI 发布低资源编程语言进展：自建 MultiLangBench 上 GPT‑6 Astra 20 种语言平均通过率 87.4%，COBOL 迁移评测 GPT‑6.1 Sol 最高 97.9%（官方自测）",
+     "url": "https://openai.com/index/low-resource-programming-languages/",
+     "source": "OpenAI",
+     "date": "2026-10-19",
+     "summary": "OpenAI 推出两项自建评测：MultiLangBench 要求模型用 20 种语言从零实现兼容 SQLite 的数据库引擎，GPT‑6 Astra 平均测试通过率 87.4%（GPT‑5.6 Sol 为 26.8%），其中 COBOL 从 10.9% 升至 72.1%；COBOL 迁移评测要求输出逐字节一致，GPT‑6.1 Sol 低推理强度下 86.6%、高推理强度达 97.9%。以上均为 OpenAI 自报结果，MultiLangBench 评测与测试集已在 GitHub 开放。"
+    },
+    {
+     "title": "《自然》评论：神经科学家 Anil Seth、哲学家 Ned Block 与 Giulio Tononi 列出三点理由，认为现有 AI 没有意识、沿当前路线也不太可能产生意识",
+     "url": "https://www.nature.com/articles/d41586-026-03313-7",
+     "source": "Nature",
+     "date": "2026-10-19",
+     "summary": "三位作者在《自然》发表评论指出：智能不等于意识，大模型的语言流畅性容易诱发拟人化错觉；“合适的计算即足以产生意识”的计算功能主义假设存疑，大脑不只是“肉做的计算机”。他们认为在 AI 上误判有意识（假阳性）远比漏判更可能，因此反对以预防原则赋予 AI 福利或权利。"
+    },
+    {
      "title": "商汤 SenseNova 等联合报告《GPT-6-Astra 实现具身智能了吗？》：12 项具身基准逼近饱和，但真机部署仍有明显鸿沟",
      "url": "https://arxiv.org/abs/2610.22471",
      "source": "arXiv / Hugging Face Daily Papers",
@@ -169,25 +183,11 @@
      "summary": "Yang、Hooi 等在 arXiv:2610.22987 研究编码智能体执行 Harness 的权限更新环节：为缓解审批疲劳，用户可批准智能体提议的 allow-rule，此后匹配动作不再提示。论文显示，仓库中植入的对抗上下文能引导执行常规任务的智能体提出看似合理但过宽的规则；在 Claude Code、Codex CLI 等生产平台上 58% 的实验实例成功诱导目标规则，规则覆盖 56.9% 的同类能力测试用例，获批后在 58 个实例中有 47 个实现静默完成恶意目标。"
     },
     {
-     "title": "《华盛顿邮报》/MIT 媒体实验室：看过 AI 篡改照片的受试者产生错误记忆的概率大幅上升，且对虚假记忆更自信",
-     "url": "https://www.ithome.com/1/014/768.htm",
-     "source": "IT之家 / Washington Post",
-     "date": "2026-10-19",
-     "summary": "MIT 媒体实验室 Pattie Maes 团队向 200 名受试者展示 24 张普通照片，部分人随后看到经 AI 修改的版本（改动表情、新增军人或气候变化场景）；记忆测试显示，这部分人产生错误记忆的概率大幅上升，对虚假记忆的自信程度反而更高。多项新研究表明 AI 生成的图像与对话可向人脑植入虚假细节。"
-    },
-    {
      "title": "多伦多大学 Aspuru-Guzik 团队提出 Self-Building Labs：智能体可按科研目标自建数字孪生、机器人技能与实验流程，并完成量子点合成实测",
      "url": "https://arxiv.org/abs/2610.23826",
      "source": "arXiv / University of Toronto",
      "date": "2026-10-19",
      "summary": "Bai、Zhao、Aspuru-Guzik 等在 arXiv:2610.23826 提出自构建实验室（SBL）：给定高层科学目标与实验室现状（空房间到已有 SDL），智能体识别能力缺口，构建数字孪生、开发机器人技能与实验工作流，再经物理验证。团队在真实量子点（CdS）合成实验中端到端执行液体处理、封板与光读取，并在仿真中演示跨多机器人与工位扩展；项目页 self-building-labs.github.io。"
-    },
-    {
-     "title": "瑞典国防研究局 WiFireNet：仅凭 Wi‑Fi 信道状态信息识别隐藏手枪，受控环境平均精确率 72.5%，代码与数据集开源",
-     "url": "https://www.ithome.com/1/014/738.htm",
-     "source": "IT之家 / arXiv",
-     "date": "2026-10-19",
-     "summary": "瑞典国防研究局（FOI）研究人员在 arXiv 发布 WiFireNet：先同步录制 RGB 视频与 Wi‑Fi 反射信号构建 WiFire Dataset，将手枪视觉特征映射到其对 Wi‑Fi 信道状态信息（CSI）的扰动，训练后仅凭 CSI 即可检测隐藏手枪。在最多同时追踪 4 名移动人员的狭小室内，平均精确率 72.5%，要求精确定位武器位置时降至 53.8%，陌生布局下效果明显变差；原型基于老旧 802.11a，下一步将用 Wi‑Fi 7/8，代码、模型与数据集已开源，也引发隐私监管担忧。"
     }
    ]
   },

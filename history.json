@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-20T05:31:00+08:00",
- "count": 658,
+ "updated": "2026-10-20T06:30:00+08:00",
+ "count": 661,
  "items": [
+  {
+   "title": "Gemini Notebook 新增“共创”流程：生成幻灯片或视频前先基于资料提议主题，并让用户确认格式、视觉风格与范围",
+   "url": "https://www.theverge.com/tech/1013962/gemini-notebook-will-now-lay-out-its-plans-before-generating-a-slide-deck-or-video",
+   "source": "The Verge",
+   "date": "2026-10-20",
+   "summary": "据 The Verge，谷歌 AI 笔记应用 Gemini Notebook 现在会根据用户上传的资料先建议幻灯片或视频的主题，并在开始生成前让用户确认格式、视觉风格和覆盖范围；新增“Review”开关后，还可在最终渲染前审阅完整大纲。",
+   "id": "e81d04e9cc4aa48d489d0dbc36cdfff8c4e53b73",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-20T06:30:00+08:00"
+  },
   {
    "title": "Tavus 发布实时数字人视频扩散模型 Falcon：逐 latent 自回归流式生成 720p，音频到视频平均延迟 430ms",
    "url": "https://www.tavus.io/blog/falcon",
@@ -343,6 +354,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "OpenAI 发布低资源编程语言进展：自建 MultiLangBench 上 GPT‑6 Astra 20 种语言平均通过率 87.4%，COBOL 迁移评测 GPT‑6.1 Sol 最高 97.9%（官方自测）",
+   "url": "https://openai.com/index/low-resource-programming-languages/",
+   "source": "OpenAI",
+   "date": "2026-10-19",
+   "summary": "OpenAI 推出两项自建评测：MultiLangBench 要求模型用 20 种语言从零实现兼容 SQLite 的数据库引擎，GPT‑6 Astra 平均测试通过率 87.4%（GPT‑5.6 Sol 为 26.8%），其中 COBOL 从 10.9% 升至 72.1%；COBOL 迁移评测要求输出逐字节一致，GPT‑6.1 Sol 低推理强度下 86.6%、高推理强度达 97.9%。以上均为 OpenAI 自报结果，MultiLangBench 评测与测试集已在 GitHub 开放。",
+   "id": "b474c3614e4cf3b3f650b3bfb3419840b44c78ec",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T06:30:00+08:00"
+  },
+  {
+   "title": "《自然》评论：神经科学家 Anil Seth、哲学家 Ned Block 与 Giulio Tononi 列出三点理由，认为现有 AI 没有意识、沿当前路线也不太可能产生意识",
+   "url": "https://www.nature.com/articles/d41586-026-03313-7",
+   "source": "Nature",
+   "date": "2026-10-19",
+   "summary": "三位作者在《自然》发表评论指出：智能不等于意识，大模型的语言流畅性容易诱发拟人化错觉；“合适的计算即足以产生意识”的计算功能主义假设存疑，大脑不只是“肉做的计算机”。他们认为在 AI 上误判有意识（假阳性）远比漏判更可能，因此反对以预防原则赋予 AI 福利或权利。",
+   "id": "cc3ce52857c111646897c6f5e5fd03d023d1a239",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T06:30:00+08:00"
   },
   {
    "title": "Inception 发布扩散语言模型 Mercury 3：称质量追平或超过 GPT-6 Luna 与 Claude Haiku 5.5，速度达 1068 tok/s、快 4–8 倍",
