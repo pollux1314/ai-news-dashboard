@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T08:32:00+08:00",
+  "updated": "2026-10-19T09:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "The Verge：费城一名女子因阻挡 Uber 配送机器人被捕，称以此抗议机器人抢走人类配送员工作",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013541/a-woman-was-arrested-in-philly-for-blocking-a-delivery-robot",
+          "source": "The Verge",
+          "date": "2026-10-19",
+          "summary": "Carolyn Marvin 拦在一台 Uber 配送机器人前拒不让路，被警方以扰乱秩序罪逮捕；她对费城 ABC13 表示，自己每次看到这类机器人都会站到前面阻止，因为它们正在抢走人类配送员的工作。配送机器人已在费城市中心十分常见并引发反弹，今年早些时候中心城区还有一台被踢翻。The Verge 指出，机器人出租车、配送机器人与 AI 智能体对低技能岗位就业的冲击正引发越来越广泛的担忧。"
+        },
+        {
           "title": "游戏反编译社区平台 decomp.dev 宣布关停：新版 Opus 与 GPT 让批量产出反编译成果变得轻而易举，社群协作精神被冲淡",
           "url": "https://www.ithome.com/1/014/631.htm",
           "source": "IT之家",
@@ -118,13 +125,6 @@
           "source": "IT之家 / Anthropic",
           "date": "2026-10-18",
           "summary": "Anthropic 发布《How employment is changing at Anthropic》：自 2025 年初以来技术部门初级员工占比从 21% 降至 14%，初级技术岗新招占比由 27% 跌至 9%；技术团队占全员比重从 61% 降至 56%。调研中 20% 员工称工作已变成“管理多个 Claude 实例”；人均会议时长同比增约 20%。公司称交互式智能体工时已远超员工工时，人的注意力成为瓶颈。"
-        },
-        {
-          "title": "FT：Anthropic 与律所磋商 AI 智能体“谈判规范”——代用户砍价、处理纠纷、谈薪资时如何兼顾公平",
-          "url": "https://www.ithome.com/1/014/519.htm",
-          "source": "IT之家",
-          "date": "2026-10-18",
-          "summary": "据《金融时报》报道，Anthropic 正向律所等法律机构寻求建议，研究律师如何既代表客户利益又兼顾公平结果，以制定模型交互时的“谈判规范”。公司还在权衡谈判中智能体需在多大程度上寻求人类反馈、面对其他 AI 对手应保持多高警惕，并探讨过让用户签署文件、向智能体确认委托事项与须遵守规则的方案。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "中信证券：看好国产大模型持续崛起，DeepSeek Harness 有望成为其从模型供给走向平台生态的关键一环",
+          "url": "https://www.ithome.com/1/014/646.htm",
+          "source": "IT之家 / 中信证券研究",
+          "date": "2026-10-19",
+          "summary": "中信证券研究报告认为，随着智能体竞争从模型能力扩展到稳定、易用、低成本的任务交付，DeepSeek 通过插件化、场景预设与跨智能体协作扩大用户与任务覆盖，并把基础设施优势延伸至完整任务执行；长期可在官方模型调用之外探索平台服务与生态交易，形成更多元的收入来源。DeepSeek Harness 是深度求索 2026 年 8 月以 MIT 许可开源的 TypeScript 智能体运行时框架，主打“一切皆插件”。"
+        },
+        {
           "title": "演员吴越曝光微信视频号账号用 AI 伪造其带货视频，微信回应涉事账号已永久封禁、内容清空",
           "url": "https://www.ithome.com/1/014/638.htm",
           "source": "IT之家 / 澎湃新闻",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-18",
           "summary": "眼镜主打全场景 AI 记录，可自动抓取待办与关键结论、语音检索记忆，并基于个人记忆库生成会议纪要与文稿；通过标准 MCP 协议连接豆包、飞书、千问办公、Codex、Claude 等智能体平台，记忆数据支持编辑、删除与导出并采用 AES-256 云端加密；机身 26 克，可选配 1200 万像素摄像模组。"
-        },
-        {
-          "title": "澎湃新闻：《五台山研究》《沈阳师范大学学报》《青年学报》等多家期刊宣布拒收 AI 参与撰写的稿件，连 AI 润色也不行",
-          "url": "https://www.thepaper.cn/newsDetail_forward_34276234",
-          "source": "澎湃新闻",
-          "date": "2026-10-18",
-          "summary": "《五台山研究》10 月 15 日称来稿中出现内容空泛、篡改引文、虚构文献等 AI 痕迹，宣布拒绝任何利用 AI 生成、改写、润色或翻译的论文，违者退稿并可限制后续投稿；沈阳师范大学学报三刊暂不接收 AI 代写、润色、改写稿件；《青年学报》亦暂不接收 AI 参与撰写（含润色）的来稿，并欢迎“手搓”稿件。报道指出，此前多数期刊仍允许 AI 用于语言润色、文献检索等非核心环节。"
         }
       ]
     },
@@ -394,7 +394,7 @@
           "language": "TypeScript",
           "date": "2026-10-19",
           "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +1,417 星，累计约 21.7 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +1,414 星，累计约 21.7 万星。"
         },
         {
           "title": "stablyai/orca",
@@ -416,7 +416,7 @@
           "language": "TypeScript",
           "date": "2026-10-19",
           "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +502 星，累计约 7.6 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +513 星，累计约 7.6 万星。"
         },
         {
           "title": "debpalash/VoiceStudio",
@@ -427,7 +427,7 @@
           "language": "Python",
           "date": "2026-10-19",
           "summary": "本地语音克隆、配音、听写与转写的开源替代方案，定位对标 ElevenLabs，AGPL-3.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +2,098 星，累计约 7.5 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +2,082 星，累计约 7.5 万星。"
         },
         {
           "title": "HKUDS/CLI-Anything",
@@ -438,7 +438,7 @@
           "language": "Python",
           "date": "2026-10-19",
           "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +582 星，累计约 5.5 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +589 星，累计约 5.5 万星。"
         },
         {
           "title": "MadsLorentzen/ai-job-search",
@@ -449,7 +449,7 @@
           "language": "Python",
           "date": "2026-10-19",
           "summary": "本地运行的 AI 求职框架（基于 Claude Code）：评估岗位、定制简历、撰写求职信与面试准备。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +2,213 星，累计约 5.3 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +2,232 星，累计约 5.3 万星。"
         },
         {
           "title": "anthropics/claude-plugins-official",
@@ -460,7 +460,7 @@
           "language": "Python",
           "date": "2026-10-19",
           "summary": "Anthropic 官方维护的高质量 Claude Code 插件目录，覆盖 MCP 与 Skills 等扩展，Apache 2.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +1,187 星，累计约 4.3 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +1,175 星，累计约 4.3 万星。"
         },
         {
           "title": "akitaonrails/ai-memory",
@@ -471,7 +471,7 @@
           "language": "Rust",
           "date": "2026-10-19",
           "summary": "为编码智能体 CLI 提供长期记忆，并支持在不同厂商的智能体之间交接上下文，MIT 许可。",
-          "why": "今日 GitHub Trending 日榜上榜，当日 +513 星，累计约 1.0 万星。"
+          "why": "今日 GitHub Trending 日榜上榜，当日 +512 星，累计约 1.0 万星。"
         }
       ]
     },
