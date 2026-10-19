@@ -1,7 +1,60 @@
 {
- "updated": "2026-10-20T00:58:00+08:00",
- "count": 621,
+ "updated": "2026-10-20T01:31:00+08:00",
+ "count": 626,
  "items": [
+  {
+   "title": "IBM 开源 Torch-Spyre：以 PyTorch PrivateUse1 + Inductor 后端接入 Spyre 加速器，可直接运行 Hugging Face 与 vLLM 上数千个模型",
+   "url": "https://research.ibm.com/publications/integrating-the-ibm-spyre-accelerator",
+   "source": "IBM Research",
+   "date": "2026-10-20",
+   "summary": "IBM 将在 PyTorch Conference 2026 介绍 Torch-Spyre 进展：Spyre 为 32 核数据流 AI 加速器，项目实现设备专属张量布局与面向片上暂存的分块优化，并向上游 PyTorch 回馈改动，便于其他树外加速器深度集成。",
+   "id": "1f713a320f96f336b1ac889abaa5b21ab91f1659",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T01:31:00+08:00"
+  },
+  {
+   "title": "The Verge/CNBC：涉嫌在 OpenAI 会议室安装窃听设备的员工 Abdulrahman Alfozan，被指 2025–2026 年间与一名沙特王室成员“频繁”联系",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1013714/openai-staffer-accused-of-planting-bug-was-allegedly-in-frequent-communication-with-a-saudi-royal",
+   "source": "The Verge / CNBC",
+   "date": "2026-10-20",
+   "summary": "据 CNBC 发现的法庭文件，Alfozan 通过 WhatsApp 与这名未具名王室成员保持联系，对方曾告诉他沙特正在启动一项人工智能计划并希望他加入；他在 10 月 5 日联系过对方，数日后因涉嫌在 OpenAI 会议室安装窃听设备被捕。",
+   "id": "a26c98453d28e95c8acc2c2c9ec5cdec322738ee",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T01:31:00+08:00"
+  },
+  {
+   "title": "anthropics/claude-code",
+   "url": "https://github.com/anthropics/claude-code",
+   "source": "GitHub",
+   "stars": 152490,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-20",
+   "summary": "Anthropic 官方终端智能体编程工具：理解代码库，以自然语言执行日常任务、解释复杂代码并处理 git 工作流。",
+   "why": "今日 GitHub Trending 日榜上榜，当日约 +167 星，累计约 15.2 万星。",
+   "id": "9c241fb43bc9a6592b7a03258cae5b930445544b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T01:31:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112229820264321458",
+   "source": "@Reuters",
+   "date": "2026-10-20",
+   "summary": "路透 Breakingviews 评论：牛津峰会为企业 AI 敲响警钟。",
+   "metrics": {
+    "likes": 4,
+    "reposts": 0,
+    "views": 20383
+   },
+   "id": "c7ee00d19d2855858cf2e568f2fbb30ca123cbc8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T01:31:00+08:00"
+  },
   {
    "title": "@Reuters",
    "url": "https://x.com/Reuters/status/2112223540925571277",
@@ -49,6 +102,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "亚马逊与 X-energy 签第二份核电协议：在印第安纳州原燃煤电厂旧址建 12 座 Xe-100 小型模块化反应堆，总装机近 1 吉瓦",
+   "url": "https://techcrunch.com/2026/10/19/amazon-to-fund-12-small-nuclear-reactors-at-former-indiana-coal-plant/",
+   "source": "TechCrunch",
+   "date": "2026-10-19",
+   "summary": "新电站位于 Terre Haute 以南，规模是两年前首份协议的三倍，将接入公共电网并为亚马逊数据中心供电；双方目标是 2039 年前在美国新建 5 吉瓦核电，但时间表仍取决于 X-energy 在得州 Seadrift 的首座电站能否顺利落地。",
+   "id": "9af7623112d7a9fb8be5162775323f2cf1ed6621",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T01:31:00+08:00"
   },
   {
    "title": "币安上线 Binance AI Pro：用自然语言描述交易思路，即可生成可视化、可回测的自动化策略",
