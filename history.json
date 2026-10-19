@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-19T07:28:00+08:00",
- "count": 539,
+ "updated": "2026-10-19T08:32:00+08:00",
+ "count": 542,
  "items": [
+  {
+   "title": "游戏反编译社区平台 decomp.dev 宣布关停：新版 Opus 与 GPT 让批量产出反编译成果变得轻而易举，社群协作精神被冲淡",
+   "url": "https://www.ithome.com/1/014/631.htm",
+   "source": "IT之家",
+   "date": "2026-10-19",
+   "summary": "2024 年创立的 decomp.dev 是逆向工程与游戏反编译爱好者的热门平台。告别公告称，在人工引导与代码审查下 AI 能大幅加快反编译，新版 Opus 与 GPT 在相关任务上表现惊人，任何人有足够算力额度即可批量产出成果，但这种零散贡献割裂了圈子、削弱了社群属性，平台因此失去存在意义；公告并非单纯反 AI，更多是惋惜。",
+   "id": "d74f0cde9d3130f789fa2815e9260c4d48b6eba3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-19T08:32:00+08:00"
+  },
+  {
+   "title": "开源 AI 模组工具 NPCTalk：让《GTA 5》NPC 用 AI 克隆原声实时无脚本对话，MIT 许可，借助 Claude Code 开发",
+   "url": "https://www.ithome.com/1/014/627.htm",
+   "source": "IT之家 / GitHub",
+   "date": "2026-10-19",
+   "summary": "NPCTalk 由 Universal Modder 开发：Nemotron ASR 识别语音、Cerebras 上的 Qwen 3.8 27B 实时生成台词、Fish Audio Drama 3 克隆配音，NPC 还能配合动作回应；按键通话延迟约 1.15–2.2 秒。开发经验已封装为可复用的智能体技能集，兼容 Claude Code、Codex、Cursor、Gemini CLI，目前仅在《GTA 5》旧版单人模式演示，可玩模组预计下周发布，运行云端服务需付费。项目仓库 github.com/christos-antono/NPCTalk。",
+   "id": "1bef8603e38284d46d59aed9f079b261d6a1d965",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-19T08:32:00+08:00"
+  },
+  {
+   "title": "演员吴越曝光微信视频号账号用 AI 伪造其带货视频，微信回应涉事账号已永久封禁、内容清空",
+   "url": "https://www.ithome.com/1/014/638.htm",
+   "source": "IT之家 / 澎湃新闻",
+   "date": "2026-10-19",
+   "summary": "吴越 10 月 18 日发文称，视频号“花姐美肤日记”发布 AI 合成的“吴越”带货视频，并配以她公开活动画面与仿冒声音，末尾还有疑似“邓亚萍”的带货片段。澎湃新闻从微信团队获悉，该账号已被永久封禁。中央网信办 9 月 30 日起开展为期 2 个月的“清朗·整治短视频虚假人设乱象”专项行动，重点整治利用 AI 合成音视频假冒公众人物进行虚假代言营销。",
+   "id": "5266dfb53e88391710c009f7b9b6a270f5393c8e",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-19T08:32:00+08:00"
+  },
   {
    "title": "彭博：Nscale IPO 估值目标遭投资者抵制——原寻求约 300 亿美元，部分投资者认为 160–190 亿美元才易获认购",
    "url": "https://www.ithome.com/1/014/623.htm",
