@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-19T14:35:00+08:00",
+  "updated": "2026-10-19T15:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -309,11 +309,11 @@
           "summary": "任期将尽的加州州长加文·纽森签署行政令，要求对人工智能模型开展独立核验，并成立专家委员会研究可对失控智能体启用的 kill switch 等措施；其内容与他 2024 年否决的类似立法方向相近。分析人士认为此举与他布局 2028 年总统竞选、回应选民对 AI 安全与就业担忧有关。"
         },
         {
-          "title": "商务部、科技部：拟将 23 项人工智能关键技术增列《禁止出口限制出口技术目录》，API/SaaS/端侧轻量化部署不属大模型技术出口",
-          "url": "https://www.mofcom.gov.cn/syxwfb/art/2026/art_a4acff07e134447fbe7bbeb486df3ea6.html",
-          "source": "商务部",
-          "date": "2026-10-16",
-          "summary": "据商务部新闻发言人答问，2026 年第 48 号公告就修订目录公开征求意见，拟在人工智能、生物医药、光伏共增列 40 项关键技术，其中人工智能大模型、智能体、算力集群与信息处理相关 23 项；恶意代码生成等拟禁止，漏洞挖掘等拟限制。发言人明确：海外本地化部署属技术出口，但 API 调用、APP/网页、SaaS 与端侧轻量化部署不属大模型技术出口管理范围；已开源或公开发表技术拟不纳入。"
+          "title": "西安雁塔法院：被告用 AI 合成伪造律师通话录音当庭“作证”被识破，判返还多退的 3.36 万元并遭严厉训诫",
+          "url": "https://www.ithome.com/1/014/836.htm",
+          "source": "IT之家 / 央视新闻",
+          "date": "2026-10-19",
+          "summary": "游戏公司向未成年人家长退款时误多转 33627.6 元，对方拒不返还并在庭审中提交一段“律师同意免除返还”的通话录音；经声音比对证实录音非律师本人，被告承认系自行用 AI 合成伪造。法院认定构成不当得利、判决返还本息，因其当庭认错且未造成严重后果，未予罚款或拘留，仅作批评教育与口头训诫。"
         }
       ]
     },
@@ -365,18 +365,18 @@
           "summary": "意见要求提升人工智能、大数据、具身智能等新技术在商贸全链条的应用：深入实施“人工智能 + 制造”专项行动，鼓励基于安全可靠开源操作系统的智能产品；推广工业大模型、边缘智能支撑的柔性制造与 AI 个性化定制；开展“人工智能 + 文化和旅游”应用试点；探索 AI 在健康管理、康复护理等场景的普惠化应用；坚持科技向善，培育健康规范的机器人、虚拟数字人陪伴等智能服务新业态。"
         },
         {
-          "title": "国家统计局：前三季度 GDP 同比增长 4.6%，工业机器人产量同比增长 29.1%，3D 打印设备产量增长 62.5%",
-          "url": "https://www.ithome.com/1/014/685.htm",
-          "source": "IT之家 / 央视新闻",
+          "title": "商汤系大晓机器人发布具身基模型 ACE-Brain-0.6：基于 Qwen3.5-9B 微调，八项 Grounding 评测中六项超过 GPT-6 Astra",
+          "url": "https://www.ithome.com/1/014/815.htm",
+          "source": "IT之家",
           "date": "2026-10-19",
-          "summary": "国新办 10 月 19 日发布会公布前三季度经济数据：GDP 107.1 万亿元，按不变价格同比增长 4.6%，三季度增长 4.5%。国家统计局副局长毛盛勇表示，装备制造业和高技术制造业支撑明显，工业机器人产量同比增长 29.1%，3D 打印设备、锂离子电池产量分别增长 62.5%、39.5%。"
+          "summary": "ACE-Brain-0.6 为视觉空间锚定增强型具身基模型，用约百万条空间锚定样本训练，重点提升目标识别、空间定位与交互区域判断；七项公开基准平均 74.53 分（GPT-6 Astra 为 73.68），真实机器人场景评测 RobotGrounding 得 94.13 分（Astra 91.10）。大晓机器人由商汤联合创始人王晓刚创立，截至 10 月已完成数亿美元融资。"
         },
         {
-          "title": "中信证券：看好国产大模型持续崛起，DeepSeek Harness 有望成为其从模型供给走向平台生态的关键一环",
-          "url": "https://www.ithome.com/1/014/646.htm",
-          "source": "IT之家 / 中信证券研究",
+          "title": "腾讯 AI 管家 Marvis（马维斯）上架麒麟软件商店：系统级个人 AI 管家深度适配银河麒麟，可直接操控电脑、远程改文件",
+          "url": "https://www.ithome.com/1/014/832.htm",
+          "source": "IT之家",
           "date": "2026-10-19",
-          "summary": "中信证券研究报告认为，随着智能体竞争从模型能力扩展到稳定、易用、低成本的任务交付，DeepSeek 通过插件化、场景预设与跨智能体协作扩大用户与任务覆盖，并把基础设施优势延伸至完整任务执行；长期可在官方模型调用之外探索平台服务与生态交易，形成更多元的收入来源。DeepSeek Harness 是深度求索 2026 年 8 月以 MIT 许可开源的 TypeScript 智能体运行时框架，主打“一切皆插件”。"
+          "summary": "Marvis 面向银河麒麟桌面操作系统 V10SP1（X86、ARM），支持多款国产 CPU；可按自然语言调整系统设置、诊断问题，调用安全中心与麒麟管家做体检、杀毒、清理，安装卸载软件，并支持本地文档智能检索、任务自动化与通过手机 App 跨端远控电脑。目前已向政务部门、国资企业及行业伙伴开放合作。"
         }
       ]
     },
@@ -389,7 +389,7 @@
           "title": "MadsLorentzen/ai-job-search",
           "url": "https://github.com/MadsLorentzen/ai-job-search",
           "source": "GitHub",
-          "stars": 54192,
+          "stars": 54434,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -400,7 +400,7 @@
           "title": "anthropics/claude-plugins-official",
           "url": "https://github.com/anthropics/claude-plugins-official",
           "source": "GitHub",
-          "stars": 42878,
+          "stars": 42914,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -411,7 +411,7 @@
           "title": "akitaonrails/ai-memory",
           "url": "https://github.com/akitaonrails/ai-memory",
           "source": "GitHub",
-          "stars": 10695,
+          "stars": 10734,
           "stars_week": null,
           "language": "Rust",
           "date": "2026-10-19",
@@ -444,7 +444,7 @@
           "title": "anomalyco/opencode",
           "url": "https://github.com/anomalyco/opencode",
           "source": "GitHub",
-          "stars": 216881,
+          "stars": 216942,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -455,7 +455,7 @@
           "title": "stablyai/orca",
           "url": "https://github.com/stablyai/orca",
           "source": "GitHub",
-          "stars": 97097,
+          "stars": 97184,
           "stars_week": null,
           "language": "TypeScript",
           "date": "2026-10-19",
@@ -466,7 +466,7 @@
           "title": "debpalash/VoiceStudio",
           "url": "https://github.com/debpalash/VoiceStudio",
           "source": "GitHub",
-          "stars": 76070,
+          "stars": 76190,
           "stars_week": null,
           "language": "Python",
           "date": "2026-10-19",
@@ -565,15 +565,15 @@
           }
         },
         {
-          "title": "@AndrewCurran_",
-          "url": "https://x.com/AndrewCurran_/status/2111994636164345988",
-          "source": "@AndrewCurran_",
+          "title": "@elonmusk",
+          "url": "https://x.com/elonmusk/status/2112070071401238607",
+          "source": "@elonmusk",
           "date": "2026-10-19",
-          "summary": "Andrew Curran 称马斯克表示不会像 Anthropic 那样设立公益基金，而是直接把股份分给公众；并提到 OpenAI 今年 4 月也曾提议设立“公共财富基金”，通过分红把收益直接分配给美国公民。",
+          "summary": "马斯克发帖称“很多人将被极具说服力的超级智能‘一击拿下’，我可能也是其中之一”，引发对超级智能操纵与说服风险的讨论，发布约 1 小时获逾 1.2 万点赞、2200 余条回复。",
           "metrics": {
-            "likes": 126,
-            "reposts": 5,
-            "views": 5851
+            "likes": 12344,
+            "reposts": 1005,
+            "views": 945030
           }
         }
       ]
