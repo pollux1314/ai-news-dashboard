@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T06:30:00+08:00",
+ "updated": "2026-10-20T07:30:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -50,18 +50,18 @@
      "summary": "据 The Information 援引知情人士：Anthropic 新模型推理与直觉更强，测试者称能从单个软件 bug 看出背后更大的问题并给出更全面修复；谷歌在开发上周发布的 Gemini 4 Argon 的升级版 Gemini 4 Carbon；OpenAI 准备在未来几周推出 Terra 系列新模型，能力更强、价格低于 GPT-6.1 Sol。均为媒体报道，尚未官宣。"
     },
     {
-     "title": "Anthropic：独立版 Claude Design（claude.ai/design）将于 12 月 14 日关闭，设计功能并入 Claude 对话、Artifacts 与 Claude Code",
-     "url": "https://support.claude.com/en/articles/17440474-migrate-from-standalone-claude-design-to-claude",
-     "source": "Claude Help Center",
+     "title": "Replika 创始人 Eugenia Kuyda 的 Wabi 2.0 向所有用户开放：多线程、多人共享的个人 AI 助手，会按任务自动生成小应用",
+     "url": "https://techcrunch.com/2026/10/19/replikas-founder-built-the-ai-assistant-she-pitched-at-disrupt-12-years-ago/",
+     "source": "TechCrunch",
      "date": "2026-10-19",
-     "summary": "Claude 帮助中心称 Claude Design 现已并入 Claude，Free/Pro/Max/Team/Enterprise 均可用；独立站点可用至 2026 年 12 月 14 日，之后跳转至 Claude。设计系统可现在通过 Artifacts 页面迁移，但独立版中的对话、项目评论不会迁移并将按数据保留政策删除，公开项目链接届时失效。"
+     "summary": "Wabi 以消息应用形态运行，用户可为不同任务与长期目标建立多个智能体线程，线程可分享为群聊；连接邮箱后会自动生成初始线程与应用（如健康线程里的减重追踪器、家庭线程里的附近亲子活动）。按聊天单独授权邮箱、日历等数据，他人请求个人信息时全员可见；已通过 SOC 2，目前免费、商业模式未定，覆盖 iOS、Android 与 Mac。"
     },
     {
-     "title": "MiniMax 上线 M3.1 Flash：百万上下文多模态编码模型，今日起 M Plan/Token Plan 对 M2.5/M2.7 请求自动路由至新模型",
-     "url": "https://platform.minimax.io/docs/guides/models-intro",
-     "source": "MiniMax 官方文档",
+     "title": "Viggle 发布“物理原生”世界基础模型 JST-2：以持久 3D 原子建模场景、角色与动作，约 1 秒生成可漫游 3D 场景、单次推理成本低于 1 美分",
+     "url": "https://viggle.ai/jst2",
+     "source": "Viggle",
      "date": "2026-10-19",
-     "summary": "据 MiniMax 模型文档，MiniMax-M3.1-Flash 已作为前沿多模态编码模型上线，具备 1M 上下文与可调思考深度；自 2026 年 10 月 19 日起，M2.5/M2.7 系列不再对向新用户开放，M Plan 与 Token Plan 对该系列的请求将自动路由至 M3.1 Flash，模型名可向后兼容无需改代码；按量付费存量用户可继续用至 11 月 18 日正式下线。 据 IT之家，M3.1 Flash 即此前匿名处理超 200T Token 的“Space Bunny”，推理速度提升近 3 倍、Agentic 任务成本降约 70%，DeepSWE v1.1 达 73.7%、OSWorld V2 61.7 分；价格为每百万输入 1 元、输出 4 元。"
+     "summary": "JST-2 不在像素空间学习，而是把世界表示为带 xyz 位置、属性与动力学向量的“物理原生 Token”，可解码为图像或 3D 高斯泼溅；支持最多 64 个视角作为空间上下文逐步扩展世界，角色无需单独绑骨蒙皮即可驱动，动作可由文本或视频生成。官方称在 B200 上约 1 秒出场景（计时不含网络延迟）；场景碰撞与物体交互目前仍靠规则物理，计划由 JST-3 改为学习型动力学。"
     }
    ]
   },
@@ -120,11 +120,11 @@
      "summary": "本轮使 Tolan 累计融资翻倍，估值高于此前的 1.2 亿美元（PitchBook 以“中等置信度”估超 2.68 亿美元）。用户通过卡通角色与其交流，用于管理日程、情绪与家庭事务；过去一年对话超 7000 万次，40% 用户为父母，ARR 达“两位数百万美元”。新资金将用于扩展功能并首次推出免费档。"
     },
     {
-     "title": "AI 工作助手初创 Town 完成 1.08 亿美元 B 轮融资，估值 10 亿美元跻身独角兽，距公开上线仅四个月",
-     "url": "https://techcrunch.com/2026/10/19/ai-assistant-startup-town-nabs-unicorn-valuation-four-months-after-launch/",
-     "source": "TechCrunch",
+     "title": "Upstarts Media：Stripe Link 已为约 200 个 AI 智能体处理代用户购物支付，较 9 月统计时的约 70 个翻倍有余",
+     "url": "https://www.upstartsmedia.com/p/data-stripe-link-how-ai-assistants-spend",
+     "source": "Upstarts Media",
      "date": "2026-10-19",
-     "summary": "由前 Plaid CTO Jean-Denis Greze 创立的 Town 宣布 B 轮由 Forerunner 与 Menlo Ventures 联合领投，a16z、First Round 等跟投，累计融资至少 1.6 亿美元。每名员工获得一个连接邮箱、日历、文档与业务系统的助手“Townie”，现可彼此协作、交接工作，并通过邮件和短信对接外部客户与候选人；公司称 6 月上线后数周 ARR 达七位数，7 月以来付费客户增长 4 倍。"
+     "summary": "Stripe 消费产品负责人 Dan Hill 表示，Instinct、Muse 等个人助手以及 Skydive、Town 等工作类智能体都通过 Link 代用户下单；Anthropic 与 OpenAI 也使用 Link，但尚未用于智能体购物。Link 总用户约 3 亿，智能体仍只占小部分，但 Hill 称其交易量“正变得非常可观”。"
     }
    ]
   },
@@ -302,18 +302,18 @@
      "summary": "游戏公司向未成年人家长退款时误多转 33627.6 元，对方拒不返还并在庭审中提交一段“律师同意免除返还”的通话录音；经声音比对证实录音非律师本人，被告承认系自行用 AI 合成伪造。法院认定构成不当得利、判决返还本息，因其当庭认错且未造成严重后果，未予罚款或拘留，仅作批评教育与口头训诫。"
     },
     {
+     "title": "英国金融行为监管局（FCA）发布金融业 AI 应用“良好与不良实践”：强调消费者责任、高管问责与运营韧性，并计划牵头制定智能体金融框架",
+     "url": "https://www.fca.org.uk/publications/good-poor-practice/ai-financial-services",
+     "source": "FCA",
+     "date": "2026-10-19",
+     "summary": "FCA 基于今年的企业测试、监管工作与 AI Lab 项目给出示例：不良做法包括无明确需求就开发 AI 工具、默认排除弱势消费者、夸大能力、未充分测试即上线自动化流程、部署后才补治理；要求明确人工监督与升级触发机制、高管对 AI 系统个人负责、压力测试并保留降级方案、关注对单一模型的依赖。FCA 称现有规则照常适用，该材料并非新规，将随技术演进更新。"
+    },
+    {
      "title": "The Verge：美国上诉法院维持汤森路透诉 Ross Intelligence 案一审判决——用抓取的汤森路透数据训练法律 AI 不属合理使用",
      "url": "https://www.theverge.com/ai-artificial-intelligence/1013500/appeals-court-upholds-thomson-reuters-win-in-ai-training-lawsuit",
      "source": "The Verge",
      "date": "2026-10-18",
      "summary": "2025 年 2 月，美国特拉华联邦地区法院法官 Stephanos Bibas 驳回了 Ross Intelligence 的合理使用抗辩——后者用从汤森路透抓取的数据训练其法律 AI。The Verge 10 月 18 日报道，上诉法院现已维持这一判决，但裁决全文目前仍处于密封状态。"
-    },
-    {
-     "title": "欧盟就 AI Digital Omnibus 达成协议：简化 AI 法案部分条款、设初创沙盒，并明确禁止非自愿深度伪造色情与“脱衣”应用",
-     "url": "https://brusselspost.com/european-union-agrees-artificial-intelligence-law-simplification-while-tightening-deepfake-restrictions",
-     "source": "Brussels Post",
-     "date": "2026-10-18",
-     "summary": "欧盟机构就人工智能 Digital Omnibus 达成一致，在简化 AI 法案部分义务、为初创企业引入监管沙盒的同时，明确在全欧盟禁止非自愿深度伪造色情与 nudification（一键脱衣）类应用。"
     }
    ]
   },
@@ -372,11 +372,11 @@
      "summary": "据 IT之家，奇瑞将于 10 月 20 日在芜湖举办以“Change·改变”为主题的 2026 全球创新大会，展望“瑶光 2035”计划：发布首个汽车行业垂域大模型，并展示专为物理 AI 世界模型设计的车规级芯片；出行领域将亮相原生前装 Robotaxi 与凌霄 eVTOL；具身智能方面，墨甲机器人已在教育、医疗等 100 多个场景常态化上岗，其首款消费级家庭陪伴人形机器人“墨宝”将全球首发并开启预订。"
     },
     {
-     "title": "科大讯飞三季报：Q3 营收 65.65 亿元、归母净利润 2.26 亿元同比增 31%，研发投入超 17 亿元；10 月 22 日将发布全新“云 + 端”星火大模型",
-     "url": "https://www.ithome.com/1/014/868.htm",
-     "source": "IT之家",
+     "title": "达摩院在 RISC-V 中国峰会发布玄铁车规处理器 E908A 与自动驾驶、具身智能路线图：称玄铁 C950 跑 Qwen3.8-Flash-Next 推理达 43 token/秒",
+     "url": "https://www.qbitai.com/2026/10/504238.html",
+     "source": "量子位",
      "date": "2026-10-19",
-     "summary": "科大讯飞 2026 年第三季度营收 65.65 亿元（同比 +7.99%），归母净利润 2.26 亿元（+31.05%），扣非净亏损 1.26 亿元；单季研发投入超 17 亿元、占营收逾 25%。前三季度累计营收 181.87 亿元、归母净利润 2188.72 万元，经营现金流转正。公司称将于 10 月 22 日发布基于全国产算力底座的全新“云 + 端”讯飞星火大模型，并升级多模人机交互技术。"
+     "summary": "E908A 号称首款同时达到 ASIL-B 与 ASIL-D 标准的 RISC-V CPU IP，单点故障度量（SPFM）超 90%，面向安全岛、域控与车载网关；下一代 C950A 目标性能为现有 RISC-V 车规产品的 5 倍。达摩院称 C950 在四类 Agentic 工作负载上较主流传统架构处理器提升 10% 以上（官方数据）。"
     }
    ]
   },
@@ -553,39 +553,39 @@
      }
     },
     {
-     "title": "@testingcatalog",
-     "url": "https://x.com/testingcatalog/status/2112274382122865149",
-     "source": "@testingcatalog",
+     "title": "@ChatGPT",
+     "url": "https://x.com/ChatGPT/status/2112265233192657153",
+     "source": "@ChatGPT",
      "date": "2026-10-20",
-     "summary": "TestingCatalog：Skyfall AI 发布首个专注工程任务的世界模型 SKY-001，据 Skyfall 测试在 CAD 与 BIM 任务上超过 GPT-6 Astra 与 Opus 5.5，速度约快 120 倍。",
+     "summary": "ChatGPT Slides 更新：支持在 ChatGPT 内实时共享、协同编辑并留言，可让 ChatGPT 或用户的 dot 把反馈直接改进幻灯片，并可直接在页面上点选修改；据 TestingCatalog，面向 Pro、Business 与 Enterprise 计划。",
      "metrics": {
-      "likes": 19,
-      "reposts": 1,
-      "views": 2569
-     }
-    },
-    {
-     "title": "@nvidia",
-     "url": "https://x.com/nvidia/status/2112269224949485860",
-     "source": "@nvidia",
-     "date": "2026-10-20",
-     "summary": "英伟达：黄仁勋与德国总理默茨当晚在柏林对谈，探讨将德国工程能力与英伟达 AI 结合，推进制造业与汽车业，并表示将支持德国的相关计划。",
-     "metrics": {
-      "likes": 136,
-      "reposts": 21,
-      "views": 11619
+      "likes": 1862,
+      "reposts": 118,
+      "views": 124332
      }
     },
     {
      "title": "@AndrewCurran_",
-     "url": "https://x.com/AndrewCurran_/status/2112250754358788437",
+     "url": "https://x.com/AndrewCurran_/status/2112317743756423170",
      "source": "@AndrewCurran_",
      "date": "2026-10-20",
-     "summary": "Andrew Curran：美国国土安全部要求所有联邦民用机构移除 DeepSeek 产品及“任何基于 DeepSeek 实现开发的第三方服务”，并停止采购。",
+     "summary": "转引 The Information 记者 Natasha Mascarenhas 的独家：前谷歌 CEO Eric Schmidt 曾参与 Anthropic A 轮，个人持有约 1% 股份；报道称 Anthropic 在 C 轮之前的融资主要由超级天使与非营利机构主导。",
      "metrics": {
-      "likes": 355,
-      "reposts": 51,
-      "views": 11695
+      "likes": 192,
+      "reposts": 6,
+      "views": 5975
+     }
+    },
+    {
+     "title": "@ViggleAI",
+     "url": "https://x.com/ViggleAI/status/2112202242048528540",
+     "source": "@ViggleAI",
+     "date": "2026-10-19",
+     "summary": "Viggle 发布 JST-2，称其为全球首个全栈“物理原生”世界基础模型：不在像素/视频空间学习，而是整套模型栈直接在 3D 中构建，可数秒生成 3D 场景并实时扩展。",
+     "metrics": {
+      "likes": 971,
+      "reposts": 163,
+      "views": 662660
      }
     }
    ]
