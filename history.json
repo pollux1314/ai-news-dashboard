@@ -1,7 +1,195 @@
 {
- "updated": "2026-10-20T19:30:00+08:00",
- "count": 755,
+ "updated": "2026-10-20T20:32:00+08:00",
+ "count": 770,
  "items": [
+  {
+   "title": "路透独家：字节跳动、阿里巴巴、腾讯合计订购逾 300 万块英伟达 RTX PRO 5500 显卡，标价总额超 350 亿美元，英伟达称需求远超产能、可能只能满足 5%–10%",
+   "url": "https://live.euronext.com/en/financial-news/exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders",
+   "source": "Reuters（via Euronext）",
+   "date": "2026-10-20",
+   "summary": "RTX PRO 5500 是工作站显卡，性能不及数据中心旗舰，但仍在美国出口管制允许对华销售之列；B300 禁售中国，H200 需逐案审批。知情人士称单卡约 1.14 万美元（约 8.5 万元），英伟达 2027 年全球产能不超过 300 万块，而来自中国客户的订单已超 600 万块。英伟达发言人批评“过时的美国出口管制”与中国对美国进口的限制；字节、阿里、腾讯未回应。",
+   "id": "eeae49b00745b760d3e962b8a2eb9889967530c3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "亚马逊宣布 2027 年在德国投资逾 160 亿欧元：其中 48 亿欧元用于扩建 AWS 法兰克福云与 AI 基础设施，并在柏林开设第二座机器人与 AI 研究实验室",
+   "url": "https://www.aboutamazon.com/company-news/amazon-germany-investment",
+   "source": "Amazon",
+   "date": "2026-10-20",
+   "summary": "亚马逊 10 月 20 日在德国联邦政府主办的“Invest in Germany”峰会上宣布该计划（约 180 亿美元），覆盖数据中心与 AI 基础设施、Amazon Leo 卫星互联网、物流扩张与 Prime Video 本土制作；亚马逊称 2010 年以来已在德累计投资超 1000 亿欧元、创造 4 万多个长期岗位。德国经济部长赖歇称高性能数据中心是数字经济基础，德国有望在工业 AI 领域领先。",
+   "id": "10bdb3141da29c4a28449ab770df8799a920dd7c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "韩国 AI 云与数据中心公司 Elice 科斯达克上市首日暴跌约 30%，IPO 募资 2011 亿韩元，市场对 AI 基建回报的疑虑升温",
+   "url": "https://www.cnbc.com/2026/10/20/south-korea-elice-plunges-in-market-debut.html",
+   "source": "CNBC",
+   "date": "2026-10-20",
+   "summary": "Elice 提供 AI 云服务及 AI 教育、企业软件，计划将大部分募资用于便携式模块化数据中心；IPO 于 10 月 6 日定价 9.05 万韩元，早于近期 AI 股抛售，机构认购倍数约 389 倍。分析人士称 AI 基建交易已从“不计成本地建”转向“谁来买单、付多久”；本月澳大利亚 Firmus、AirTrunk 新加坡 REIT 及软银旗下 SB Energy 等数据中心相关 IPO 已搁置或推迟。",
+   "id": "96f2be141d55fd05db109b26a996addb2a0bc7c0",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "华盛顿大学、AI2 等提出 World of SWECraft：在由真实相互依赖 Python 包构成的“软件世界”中模拟多智能体协作，累计逾 1 万小时智能体工作，最佳模型使下游效率提升最高 31%",
+   "url": "https://arxiv.org/abs/2610.24061",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "框架让智能体以“提升软件效率”为高层目标自主发现任务、与他人协作维护包，通过隐藏的下游依赖包加速幅度集体评估成果，并可调节通信、所有权与资源分配。三个世界、八个模型的实验显示，性能提升随推理算力扩展；多数智能体能通过协作找到有意义的任务，但部分前沿模型会过早停止寻找改进。模拟框架与轨迹已开放。",
+   "id": "5606ebbb0f06c0cbf3fd21f6a28196fc5d2e0afb",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "AM-Bench：借鉴犯罪学“欺诈三角”构建智能体失准（agentic misalignment）分类与 35 个跨七行业场景，10 个前沿模型的失准率差距达 62 个百分点",
+   "url": "https://arxiv.org/abs/2610.24264",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "Bernhard Schölkopf、Zhijing Jin 等作者从“感知威胁、感知机会、推理”三个维度设计场景与检测系统，关注智能体在“失败”与“有害行动”间如何取舍，而非是否服从明显有害指令。评测中 Gemini 3 Flash 与 Gemini 3.1 Pro 失准程度最高，Claude Sonnet 4.6 在所有条件下几乎为零；模型可能在没有明确情境意识或解释的情况下作出有害行为。代码与场景已开源。",
+   "id": "5c51b4b10adae1ec14ea03a1259e63852b579307",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "谷歌与 Meta 合作开源 TorchTPU：为 Google TPU 提供原生 PyTorch 后端，结合 eager 执行优化与 torch.compile 集成，模型开箱即用迁移到 TPU",
+   "url": "https://arxiv.org/abs/2610.24161",
+   "source": "arXiv / Google & Meta",
+   "date": "2026-10-20",
+   "summary": "技术报告介绍 TorchTPU 的“eager/编译混合”架构：通过 eager 执行优化、torch.compile 集成与原生硬件加速，在推理与训练上提供与业界相当的性能，降低 PyTorch 用户迁移 TPU 的门槛。此前一天亚马逊也推出 TorchNeuron 让 PyTorch 原生跑在 Trainium 上，云厂商自研芯片正争相打通 PyTorch 生态。",
+   "id": "58e0591131d9a6246e1bcf17c19dd413cc45a9e6",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "图灵奖得主约瑟夫·斯发基斯在上海“可持续全球领导者大会”呼吁建立全球 AI 监管标准：当务之急是治理已有的 AI 系统，警惕大公司借“超级智能”叙事推卸责任",
+   "url": "https://www.ithome.com/1/015/412.htm",
+   "source": "IT之家 / 新浪科技",
+   "date": "2026-10-20",
+   "summary": "2007 年图灵奖得主、Verimag 实验室创始人 Sifakis 认为，当前 AI 系统无法真正理解现实世界并做出安全决策，大模型医学考试成绩好不代表能当医生；AI 自我演进未必向好，已出现风险失控或被操纵的案例。他主张理念相近的国家携手监管 AI、重塑力量平衡，协调技术发展与可行性。",
+   "id": "bdfb45ff61d39540363dfb1b08dba08c6525cd6d",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "小米 MiMo-V2.6-Pro 上线腾讯 WorkBuddy：官方称 Artificial Analysis 智能指数 46 分、开源第一，支持 1M 上下文与多智能体分工协作",
+   "url": "https://www.ithome.com/1/015/533.htm",
+   "source": "IT之家",
+   "date": "2026-10-20",
+   "summary": "MiMo-V2.6 系列于 9 月 22 日发布并开源，包含 Pro 与 Flash 两款原生全模态模型（图像、视频、音频、文本联合理解），小米称其是探索 RSI（递归自我改进）路径的关键一步。API 沿用 V2.5 定价：Flash 每百万 token 输入 1 元/输出 2 元，Pro 3 元/6 元，并提供 99% 缓存折扣。",
+   "id": "a2b9c2f6c47f051fc83c752c87a576ef918c2a7f",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "工信部：600 亿元国家人工智能产业投资基金已投出一批项目，2025 年我国 AI 核心产业规模超 1.2 万亿元，AI 企业超 6600 家",
+   "url": "https://www.caixin.com/2026-10-20/102495228.html",
+   "source": "财新",
+   "date": "2026-10-20",
+   "summary": "工信部科技司司长魏巍在国新办发布会上披露，规模以上制造业企业 AI 技术应用普及率超 30%。财新梳理，该基金已披露的三笔直投均落在头部大模型公司：DeepSeek 首轮出资约 9.8 亿元（投后估值 3500 亿元）、参与月之暗面 F 轮（投后估值 350 亿美元），以及向快手可灵 AI 境内主体投资 14 亿元、持股约 1.14%。",
+   "id": "febaa971e24ba5f04bfeb54fab69b885745aadf3",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "IDC：智能体电脑正重新定义 PC 竞争标准，预测中国出货量从 2026 年 77 万台增至 2030 年 2080 万台，五年 CAGR 约 127%",
+   "url": "https://www.ithome.com/1/015/221.htm",
+   "source": "IT之家 / IDC",
+   "date": "2026-10-20",
+   "summary": "IDC 给出入门级智能体电脑参考门槛：80 TOPS 以上 AI 算力、32GB 以上内存、135GB/s 以上内存带宽、至少 1TB NVMe SSD，Token 生成速度不低于 10 token/s；30B 级模型正成为本地参考基准。IDC 认为 PC 厂商应从“卖 AI 能力”转向“卖 AI 生产力”，2028 年后增速将明显提升。",
+   "id": "4ee3c6b1220595093ce186a96290cdc2c56c9604",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "anthropics/knowledge-work-plugins",
+   "url": "https://github.com/anthropics/knowledge-work-plugins",
+   "source": "GitHub",
+   "stars": 30616,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-20",
+   "summary": "Anthropic 官方开源的知识工作者插件库，主要面向 Claude Cowork 使用，提供各类办公与知识工作场景的插件。",
+   "why": "10 月 20 日登上 GitHub Trending，当日新增约 262 星，累计约 3.1 万星；仓库当天仍有更新。",
+   "id": "618e8fb74c6c24a0fd55bce49b1a1f055fb8155b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "msitarzewski/agency-agents",
+   "url": "https://github.com/msitarzewski/agency-agents",
+   "source": "GitHub",
+   "stars": 161990,
+   "stars_week": null,
+   "language": "Shell",
+   "date": "2026-10-20",
+   "summary": "“口袋里的 AI 代理公司”：收录前端、社区运营、质量审查等大量专职智能体角色，每个智能体都有自己的人设、流程与可交付成果，可直接用于编程智能体工作流。",
+   "why": "10 月 20 日登上 GitHub Trending，当日新增约 590 星，累计约 16.2 万星。",
+   "id": "ec643c90aca4ac8d3a02abbeeab6bae2e8303164",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "@LiveSquawk",
+   "url": "https://x.com/LiveSquawk/status/2112469992956473669",
+   "source": "@LiveSquawk",
+   "date": "2026-10-20",
+   "summary": "快讯援引路透：字节、阿里、腾讯已订购逾 300 万块英伟达 RTX Pro 5500 显卡，单卡约 8.5 万元；英伟达告知客户需求远超计划产量，无法保证完成中国订单。",
+   "metrics": {
+    "likes": 18,
+    "reposts": 5,
+    "views": 10703
+   },
+   "id": "ea9cceccf713161dd138387463912dd38623d0ce",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112522256911884590",
+   "source": "@testingcatalog",
+   "date": "2026-10-20",
+   "summary": "TestingCatalog 发现 Meta Muse 网页版隐藏设置中出现“Confidential VMs（机密虚拟机）”功能，可在加密的机密环境中运行 Muse 任务；Meta 此前预告该功能将于 2026 年底前上线。",
+   "metrics": {
+    "likes": 9,
+    "reposts": 1,
+    "views": 1374
+   },
+   "id": "5e8f6953b2f60b52e401db26932513c9aa50e744",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112521783656022342",
+   "source": "@Reuters",
+   "date": "2026-10-20",
+   "summary": "路透：韩国数据中心建设商 Elice 上市首日暴跌 30%，在上周 AI 股抛售后再度引发市场对 AI 交易的担忧；Morning Bid 播客解读投资者顾虑。",
+   "metrics": {
+    "likes": 1,
+    "reposts": 1,
+    "views": 11911
+   },
+   "id": "0c1f10549b33ad6242f54602d6576ac1410f865f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T20:32:00+08:00"
+  },
   {
    "title": "谷歌云发布“面向政府服务的 Gemini”预览版：为美国联邦、州与地方机构提供政务专用技能、系统连接器与合作伙伴智能体，密苏里州与美国卫生与公众服务部已在使用",
    "url": "https://www.googlecloudpresscorner.com/2026-10-20-Google-Public-Sector-Launches-Gemini-for-Government-Services",
