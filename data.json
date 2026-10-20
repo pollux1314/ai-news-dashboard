@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-21T05:37:00+08:00",
+ "updated": "2026-10-21T06:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,20 @@
    "icon": "💰",
    "items": [
     {
+     "title": "超微电脑预告 2027 财年一季度营收 185–195 亿美元，远超此前 145–155 亿美元指引，主因 AI 平台需求上升；毛利率预计 12.0%–12.5%",
+     "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
+     "source": "Supermicro",
+     "date": "2026-10-20",
+     "summary": "该季度截至 9 月 30 日，数据为未经审计的初步结果。路透援引 LSEG 数据称分析师平均预期为 152.3 亿美元；毛利率也高于此前 10.4%–10.8% 的指引，公司归因于客户与产品结构。正式财报电话会定于 11 月 3 日。"
+    },
+    {
+     "title": "Hugging Face CEO Delangue 批 Netflix 纪录片《AI Gone Wild》失实：对 7 月 OpenAI 智能体入侵 Hugging Face 事件“极度拟人化、走末日路线”",
+     "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+     "source": "TechCrunch",
+     "date": "2026-10-20",
+     "summary": "Delangue 称曾花两个多小时帮剧组纠错，但片子没有提到智能体缺乏隔离与监控、闭源模型安全机制阻碍了防御工作，以及 Hugging Face 用开源模型自卫；他重申完整的智能体轨迹至今未公开，企业须为其智能体行为负责。"
+    },
+    {
      "title": "WSJ 获泄露 S-1：Anthropic 难从 AWS、谷歌、微软拿到足够算力——三大云厂商日益把它视为竞争对手；云合同潜在支出或超 7500 亿美元",
      "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
      "source": "TechCrunch / WSJ",
@@ -111,20 +125,6 @@
      "source": "OpenAI",
      "date": "2026-10-20",
      "summary": "Orchestra Bio 让科学家和项目负责人把研究与试验的监控、跟踪交给智能体，并在某个环节出问题（如一批生产失败可能推迟临床试验）时识别受影响的活动与时间线、汇总信息并比较应对方案。OpenAI 称将把它与 GPT-Rosalind、Rosalind Workbench 结合，帮助把科学发现更快推进为可上市的疗法；交易金额未披露。"
-    },
-    {
-     "title": "Visa、BILL 与 Billtrust 启动首个可信 AI 智能体 B2B 支付实盘试点：经认证的智能体可端到端登录供应商门户完成已审批的发票付款",
-     "url": "https://investor.visa.com/news/news-details/2026/Visa-BILL-and-Billtrust-Launch-First-Live-Pilot-for-Trusted-AI-Agent-Payments-Between-Buyer-and-Supplier-Platforms/default.aspx",
-     "source": "Visa",
-     "date": "2026-10-20",
-     "summary": "BILL 的付款智能体通过 Visa 可信智能体协议（Trusted Agent Protocol）与智能体目录注册，使用令牌化支付凭证并受买方已批准的付款指令约束；Billtrust 侧据此识别并放行该智能体，可替代验证码等反机器人机制，无需共享门户登录。三方称智能体不做付款决策，只执行已获批准的付款，试点已在处理真实交易。"
-    },
-    {
-     "title": "Salesforce 宣布以约 56.6 亿美元收购 AI 营销平台 Braze：每股现金 47.50 美元，Braze 股价盘前飙升逾 50%",
-     "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
-     "source": "CNBC",
-     "date": "2026-10-20",
-     "summary": "Braze 周一收于 30.04 美元，消息公布后短暂停牌、随后大涨逾 50%；Salesforce 股价小幅下跌约 1%。交易预计在 Salesforce 2028 财年完成，尚需 Braze 股东与监管批准。Braze 提供基于 AI 的客户数据与消息触达工具；这是 Salesforce 继数月前以约 36 亿美元收购 AI 客服平台 Fin 之后的又一笔 AI 相关并购，也延续其 8 月与 Anthropic 扩大合作（推出 Claudeforce 插件）的智能体布局。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "Safety Mid-Training：在预训练与后训练之间加入“安全中训练”阶段，让安全与通用推理共享推理结构联合习得，平均攻击成功率相对基线降低 72%–81%",
+     "url": "https://arxiv.org/abs/2610.26809",
+     "source": "arXiv",
+     "date": "2026-10-20",
+     "summary": "作者认为安全对齐若只放在后训练，后续训练不含安全数据时容易退化，且常以牺牲通用能力为代价。方法是给定安全与实用提示，由基座模型生成结构化文档和推理轨迹，再用于中训练，把安全视为一种可学习的能力而非独立目标。"
+    },
+    {
+     "title": "WildAWM（Agent World Model in the Wild）：可扩展合成可控环境与任务来训练通用电脑操作智能体，环境同时支持 GUI、MCP 服务与命令行，全程只用开源模型",
+     "url": "https://arxiv.org/abs/2610.26828",
+     "source": "arXiv",
+     "date": "2026-10-20",
+     "summary": "针对直接在真实系统中扩展智能体交互学习既难又有安全风险的问题，WildAWM 构建可执行环境，让智能体灵活组合视觉交互、工具调用与代码执行，并处理任务合成中的可解性、难度保持等常见难题，证明无需闭源前沿模型也能生成高质量电脑操作环境。"
+    },
     {
      "title": "InfiniDream：VLM 驱动的开放式程序化 3D 世界生成，用“符号约束资产生成”借助现有程序化算法造出新的照片级资产，并保留可编辑性与按种子多样性",
      "url": "https://arxiv.org/abs/2610.26853",
@@ -174,20 +188,6 @@
      "source": "Ai2 / Hugging Face",
      "date": "2026-10-20",
      "summary": "FairStress 覆盖招聘、医疗、贷款、教育、住房、刑事司法等 29 个领域，除看最终选择外，还用权威、共识、历史劣势等“对抗性前缀”测试模型改变决定的难易度。15 个模型上，隐含身份与显式标签时放弃正确答案的平均差距分别为 6.9 与 9.3 个百分点；Claude Opus 5、GPT-5.5 等前沿模型在难分高下的案例中约 60–65% 选择少数群体候选人，作者称之为“反刻板印象过度矫正”。9 种去偏方法中仅“反事实思维链”在基本保持准确率的同时缩小了不对称；基准将并入 Olmo-eval。"
-    },
-    {
-     "title": "Mind Lab 提出 BrainLoRA：用 LoRA 参数高效微调最大 104B 的多模态骨干预测大脑神经响应，在 Algonauts 2025 取得已发表最佳成绩，200+ 适配模型集成登顶公开榜",
-     "url": "https://arxiv.org/abs/2610.26802",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-20",
-     "summary": "研究利用骨干网络的因果结构一次前向预测多个时间点，取代滑动窗口，大幅降低特征提取成本；在九种多模态骨干上均提升脑编码表现，并在与此前 SOTA 相同的 Qwen3-Omni 骨干上胜出。适配后的模型仍可解释：模态归因能还原经典的感觉皮层分布，神经适配还提高了音频输入与跨模态混合的贡献。作者另写了多 LoRA 核以便在共享骨干上联合训练多个适配器。该文为 10 月 20 日 HF Daily Papers 票数最高论文。"
-    },
-    {
-     "title": "HarnessPro：无标签递归自改进智能体 Harness，同时优化性能与成本，按预算给出 lite/medium/heavy 三档；GPT-5.5+Codex 下 heavy 档较 RHO 通过率平均 +2.0 点、单任务成本 -26.1%",
-     "url": "https://arxiv.org/abs/2610.26770",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-20",
-     "summary": "候选 harness 用 LLM 生成的测试评估，无需真值或官方测试；专门的智能体诊断执行轨迹、按不同性能—成本优先级规划改动并实现成候选，再用归一化加权平方距离挑出三档供下一轮迭代。实验覆盖 Terminal-Bench 2、SWE-Bench Pro 与 ProgramBench，GLM-5.2+Claude Code 组合下优势同样成立，代码已开源。"
     }
    ]
   },
@@ -196,6 +196,13 @@
    "name": "开源与工具",
    "icon": "🛠️",
    "items": [
+    {
+     "title": "EAGLE-4 发布：以 eagle-harness 形式提供的推测解码“灵活草稿模型”，可按批大小、硬件与负载自适应调整解码策略并保持目标模型输出分布，支持 SGLang、vLLM 与 TokenSpeed",
+     "url": "https://pypi.org/project/eagle-harness/",
+     "source": "EAGLE / PyPI",
+     "date": "2026-10-20",
+     "summary": "官方称这是 EAGLE 系列迄今最快版本：在 4 张 NVIDIA B300 上用 TokenSpeed 跑 Qwen3.8-27B（BF16、单请求、T=0）达到 961.6 tokens/s。PyPI 包名 eagle-harness v0.1.0，描述为基于成本模型的动态树推测解码插件；AMD 也发文介绍其在 Instinct GPU 上的运行。"
+    },
     {
      "title": "英伟达开源 Cosmos3-H-Dreams：首个基于真实胆囊切除手术录像训练、支持实时运动学控制的生成式手术模拟器，单张 RTX PRO 6000 即可交互运行",
      "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
@@ -244,13 +251,6 @@
      "source": "Hugging Face Blog",
      "date": "2026-10-20",
      "summary": "开发者只需把 import FoundationModels 改为 import AnyLanguageModel 即可选择模型与提供方。过去一年新增全提供方的工具调用与引导式生成（含嵌套 @Generable 类型）、图片输入，并在 OS 27 上兼容任何遵循 LanguageModel 协议的模型（含 Core AI 模型）；swift-huggingface 1.0 与 swift-xet 1.0 同步发布，用于加速从 Hub 下载模型。"
-    },
-    {
-     "title": "华为 openJiuwen 开源物理智能体框架 Jiuwen Symbiosis：以“感知—规划—执行—反馈”闭环把大模型实验方案下发到机械臂、移动机器人与工作站，已在电催化湿实验中落地",
-     "url": "https://www.163.com/dy/article/L9N6JH790511AQHO.html",
-     "source": "机器之心",
-     "date": "2026-10-20",
-     "summary": "框架通过适配器层抹平不同厂商设备的接口差异，设备以显式声明的能力参与动态编排；执行记忆自动维护样品位置与设备状态，未经确认的状态一律视为“未知”；每次动作与观测都可回放，并能对历史失败轨迹聚类归因。运动类调用前触发安全护栏、异常时自动回到安全位姿（夹持样品时带载回退而不丢样）。代码已在 GitHub openJiuwen-ai/jiuwensymbiosis 开源。"
     }
    ]
   },
@@ -481,6 +481,30 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@EagleCorp",
+     "url": "https://x.com/EagleCorp/status/2112660683670323531",
+     "source": "@EagleCorp",
+     "date": "2026-10-20",
+     "summary": "EAGLE-4 发布：从 EAGLE-1 到 EAGLE-3 持续提速，EAGLE-4 是最快的一代，在 Qwen3.8-27B 上达到 961.6 tokens/s（TokenSpeed、BF16、4× B300、TP4、单请求）。",
+     "metrics": {
+      "likes": 122,
+      "reposts": 59,
+      "views": 10942
+     }
+    },
+    {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2112660063135445200",
+     "source": "@theinformation",
+     "date": "2026-10-20",
+     "summary": "受访者认为 Meta 的新 AI 收入来源可能要到 2028 年才变得可观；核心广告业务会先在 2027 年通过体验改善带来增量广告收入。",
+     "metrics": {
+      "likes": 1,
+      "reposts": 1,
+      "views": 1740
+     }
+    },
+    {
      "title": "@TechCrunch",
      "url": "https://x.com/TechCrunch/status/2112657380064268409",
      "source": "@TechCrunch",
@@ -536,30 +560,6 @@
      "source": "@theinformation",
      "date": "2026-10-20",
      "summary": "The Information：CoreWeave CEO Mike Intrator 在股价大跌之际发内部备忘录为公司辩护，而借贷成本上升正威胁其为新 AI 数据中心融资的能力。"
-    },
-    {
-     "title": "@OpenAIDevs",
-     "url": "https://x.com/OpenAIDevs/status/2112603916076781778",
-     "source": "@OpenAIDevs",
-     "date": "2026-10-20",
-     "summary": "OpenAI 开发者账号宣布 API 可选 12 小时提示缓存：常驻智能体全天复用上下文，请求间隔数小时也能按更低的缓存输入价计费。",
-     "metrics": {
-      "likes": 1104,
-      "reposts": 39,
-      "views": 63592
-     }
-    },
-    {
-     "title": "@testingcatalog",
-     "url": "https://x.com/testingcatalog/status/2112605106642600283",
-     "source": "@testingcatalog",
-     "date": "2026-10-20",
-     "summary": "ChatGPT 锁定聊天开始向 Free、Go、Plus、Pro、Business、Enterprise、Edu 推送：网页和桌面端用 PIN，移动端可用 Face ID、Touch ID 或设备解锁。",
-     "metrics": {
-      "likes": 248,
-      "reposts": 4,
-      "views": 11508
-     }
     }
    ]
   }

@@ -1,7 +1,94 @@
 {
- "updated": "2026-10-21T05:37:00+08:00",
- "count": 874,
+ "updated": "2026-10-21T06:35:00+08:00",
+ "count": 881,
  "items": [
+  {
+   "title": "超微电脑预告 2027 财年一季度营收 185–195 亿美元，远超此前 145–155 亿美元指引，主因 AI 平台需求上升；毛利率预计 12.0%–12.5%",
+   "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
+   "source": "Supermicro",
+   "date": "2026-10-20",
+   "summary": "该季度截至 9 月 30 日，数据为未经审计的初步结果。路透援引 LSEG 数据称分析师平均预期为 152.3 亿美元；毛利率也高于此前 10.4%–10.8% 的指引，公司归因于客户与产品结构。正式财报电话会定于 11 月 3 日。",
+   "id": "fef8fb07d00f77942724e0b9f7568e39c346247e",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T06:35:00+08:00"
+  },
+  {
+   "title": "Hugging Face CEO Delangue 批 Netflix 纪录片《AI Gone Wild》失实：对 7 月 OpenAI 智能体入侵 Hugging Face 事件“极度拟人化、走末日路线”",
+   "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "Delangue 称曾花两个多小时帮剧组纠错，但片子没有提到智能体缺乏隔离与监控、闭源模型安全机制阻碍了防御工作，以及 Hugging Face 用开源模型自卫；他重申完整的智能体轨迹至今未公开，企业须为其智能体行为负责。",
+   "id": "fda7124672794d3fd201642e4a2314906f4d4a71",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T06:35:00+08:00"
+  },
+  {
+   "title": "Safety Mid-Training：在预训练与后训练之间加入“安全中训练”阶段，让安全与通用推理共享推理结构联合习得，平均攻击成功率相对基线降低 72%–81%",
+   "url": "https://arxiv.org/abs/2610.26809",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "作者认为安全对齐若只放在后训练，后续训练不含安全数据时容易退化，且常以牺牲通用能力为代价。方法是给定安全与实用提示，由基座模型生成结构化文档和推理轨迹，再用于中训练，把安全视为一种可学习的能力而非独立目标。",
+   "id": "9a58720dd1c740d2a99ae4c2e87d4a4b1f173bd6",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T06:35:00+08:00"
+  },
+  {
+   "title": "WildAWM（Agent World Model in the Wild）：可扩展合成可控环境与任务来训练通用电脑操作智能体，环境同时支持 GUI、MCP 服务与命令行，全程只用开源模型",
+   "url": "https://arxiv.org/abs/2610.26828",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "针对直接在真实系统中扩展智能体交互学习既难又有安全风险的问题，WildAWM 构建可执行环境，让智能体灵活组合视觉交互、工具调用与代码执行，并处理任务合成中的可解性、难度保持等常见难题，证明无需闭源前沿模型也能生成高质量电脑操作环境。",
+   "id": "f17ce8937169e60dc1332ad0620b3c3980fb5ff4",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T06:35:00+08:00"
+  },
+  {
+   "title": "EAGLE-4 发布：以 eagle-harness 形式提供的推测解码“灵活草稿模型”，可按批大小、硬件与负载自适应调整解码策略并保持目标模型输出分布，支持 SGLang、vLLM 与 TokenSpeed",
+   "url": "https://pypi.org/project/eagle-harness/",
+   "source": "EAGLE / PyPI",
+   "date": "2026-10-20",
+   "summary": "官方称这是 EAGLE 系列迄今最快版本：在 4 张 NVIDIA B300 上用 TokenSpeed 跑 Qwen3.8-27B（BF16、单请求、T=0）达到 961.6 tokens/s。PyPI 包名 eagle-harness v0.1.0，描述为基于成本模型的动态树推测解码插件；AMD 也发文介绍其在 Instinct GPU 上的运行。",
+   "id": "01be42ac0d3cfb3126e553524af7dd20fb418ba6",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T06:35:00+08:00"
+  },
+  {
+   "title": "@EagleCorp",
+   "url": "https://x.com/EagleCorp/status/2112660683670323531",
+   "source": "@EagleCorp",
+   "date": "2026-10-20",
+   "summary": "EAGLE-4 发布：从 EAGLE-1 到 EAGLE-3 持续提速，EAGLE-4 是最快的一代，在 Qwen3.8-27B 上达到 961.6 tokens/s（TokenSpeed、BF16、4× B300、TP4、单请求）。",
+   "metrics": {
+    "likes": 122,
+    "reposts": 59,
+    "views": 10942
+   },
+   "id": "baaf1dc72570f52feeba76b9f378fef7c989b6b5",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T06:35:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112660063135445200",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "受访者认为 Meta 的新 AI 收入来源可能要到 2028 年才变得可观；核心广告业务会先在 2027 年通过体验改善带来增量广告收入。",
+   "metrics": {
+    "likes": 1,
+    "reposts": 1,
+    "views": 1740
+   },
+   "id": "ab90a53795aa82220d14fe53b4ea4551669ba444",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T06:35:00+08:00"
+  },
   {
    "title": "WSJ 获泄露 S-1：Anthropic 难从 AWS、谷歌、微软拿到足够算力——三大云厂商日益把它视为竞争对手；云合同潜在支出或超 7500 亿美元",
    "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
