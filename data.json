@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T11:30:00+08:00",
+ "updated": "2026-10-20T12:40:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "Semafor 独家：Waymo 拟用本月新借的 50 亿美元把车队从约 4000 辆扩至年底 8000 辆、2027 年底 2 万辆，规模扩大 5 倍",
+     "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",
+     "source": "Semafor",
+     "date": "2026-10-20",
+     "summary": "据知情人士，Waymo 计划用本月首次举债筹得的 50 亿美元（PIMCO、黑石、Sixth Street 等私募信贷提供，无 Alphabet 担保）大幅扩充车队。Waymo 目前在美国 15 座城市运营，并计划进入伦敦、东京、新加坡与多伦多；报道称其已向中国订购数千辆车用于扩张。Waymo 拒绝置评。"
+    },
+    {
      "title": "路透独家：OpenAI 加速推进约 300 亿美元新一轮融资，估值或超 1.4 万亿美元，力争在 Anthropic 11 月中旬 IPO 前锁定投资",
      "url": "https://www.moneycontrol.com/artificial-intelligence/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-report-article-14055784.html",
      "source": "Reuters / Moneycontrol",
@@ -83,6 +90,13 @@
      "source": "NVIDIA Blog / tagesschau",
      "date": "2026-10-20",
      "summary": "在柏林首届“Invest in Germany”峰会上，德国经济部与研究部同英伟达签署意向声明，推动面向机器人、自动驾驶、工厂仿真与制造的物理 AI 模型，目标是把工业 AI 系统性推向大规模应用。默茨呼吁中小企业开放工业数据，黄仁勋称 AI 只会增强而非取代德国工程能力。联邦政府暂未公布投资额，据 tagesschau 援引媒体报道，拟投入数亿欧元，部分用于租用德国电信 AI 云算力。"
+    },
+    {
+     "title": "SemiAnalysis：2027 年全球数据中心新增容量将超 50GW、在建约 60GW，今年迄今已签约近 1 万亿美元不可撤销租约，短缺或转向内存与芯片",
+     "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+     "source": "SemiAnalysis",
+     "date": "2026-10-19",
+     "summary": "报告反驳 Altimeter 的 Brad Gerstner 关于 2027 年仅建成约 25GW 的判断，称前 40 大园区已有超 24GW 处于施工后期、多数将在 2027 年交付；美国超大规模云厂商自建开工量呈抛物线上升，Meta、AWS、微软、谷歌、英伟达、AMD、Anthropic、OpenAI 均在寻求吉瓦级租约。模块化设计把施工周期压到 10 个月内，表后自建电源基本缓解电力瓶颈，2027–28 年内存与逻辑芯片可能成为头号约束。"
     },
     {
      "title": "彭博：Nscale 与 Anthropic 洽谈约 450 亿美元新算力协议，为西弗吉尼亚 Monarch 园区第二栋 460MW Vera Rubin 机房",
@@ -111,20 +125,6 @@
      "source": "Calcalist Ctech",
      "date": "2026-10-19",
      "summary": "Mobileye 创始人 Shashua 的 doubleAI 结束隐身：A 轮由 Lightspeed 与 Bessemer 联合领投，Dell Technologies Capital、英伟达等参投，团队约 40 人。Maxwell 持续分析运行中的程序、硬件与数据，在不改源码的前提下重写底层指令，并对每项优化做数学验证以保证行为不变；公司称真实负载中数据管线提速 38 倍以上、推理内核提速 4.5 倍以上（未经独立验证），按为客户节省的算力成本收费，现开放早期访问。"
-    },
-    {
-     "title": "Meta 首次详解俄亥俄州吉瓦级超级集群 Prometheus：一期已训练 Muse 系列模型，正向约 100 万张 GPU 扩展，中断率一年内降 99%",
-     "url": "https://www.storagereview.com/news/meta-prometheus-gigawatt-supercluster-1-million-gpus-gb200-gb300-nvl72",
-     "source": "StorageReview / Meta Engineering",
-     "date": "2026-10-19",
-     "summary": "据 Meta 工程博客，Prometheus 同时运行 GB200 NVL72（Catalina）与 GB300 NVL72（Clemente），下一步引入 Vera Rubin NVL72；每个 NVL72 域只用 64 张 GPU、留 8 张作机内备份。Muse Wonder 预训练 goodput 超 85%、RL 超 90%，平均无中断约 4.7 万 GPU 小时，固件修复后超 5.4 万；2025 年中中断峰值近每 8000 GPU 每天 1000 次，现已降 99%。经验将用于路易斯安那州新集群 Hyperion。"
-    },
-    {
-     "title": "AI 陪伴应用 Tolan 获 3000 万美元新融资，USV 领投、Khosla 与 Homebrew 参投，月活约 25 万、七成用户为女性",
-     "url": "https://techcrunch.com/2026/10/19/tolan-snags-30m-for-its-ai-companion-that-helps-users-navigate-life/",
-     "source": "TechCrunch / Upstarts Media",
-     "date": "2026-10-19",
-     "summary": "本轮使 Tolan 累计融资翻倍，估值高于此前的 1.2 亿美元（PitchBook 以“中等置信度”估超 2.68 亿美元）。用户通过卡通角色与其交流，用于管理日程、情绪与家庭事务；过去一年对话超 7000 万次，40% 用户为父母，ARR 达“两位数百万美元”。新资金将用于扩展功能并首次推出免费档。"
     }
    ]
   },
@@ -133,6 +133,13 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "OR-License：用真实付费运筹咨询项目（合同总额 368 万美元）评测 LLM 智能体，最强 Claude Code 配置严格可行率 88.39%，部署调整质量 0.87 仍不及专家",
+     "url": "https://arxiv.org/abs/2610.24087",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-20",
+     "summary": "基准含 10 个工业场景的 31 个实例，保留原始客户需求、数据与交付格式，并用客户模拟器 ORSim 只披露业务事实、不提供运筹专业知识。11 个前沿模型在编码智能体 harness 下，部分在条件目标质量上超过专家方案，但没有一个在部署调整质量（DAQ，不可行交付记 0）上追平专家；研究链完成率仅 24%–45%，主要失败在问题建模与实现。今日登上 Hugging Face 每日论文榜。"
+    },
     {
      "title": "《柳叶刀·数字健康》：AI 仅凭一张面部照片即可估算年龄并预测癌症患者生存风险，得分最高组更可能在 90 天内死亡",
      "url": "https://www.ithome.com/1/015/079.htm",
@@ -155,6 +162,13 @@
      "summary": "HexaFuture 团队提出“薄 harness”：只把智能体命令翻译成双臂机器人动作，智能体通过三路 RGB 相机与标定信息、用三角测量等方法自写自修工具代码，并在每次失败后读日志定位原因。工具在每任务 10 个布局上构建后冻结，再在 10 个新布局上测试。作者结论：瓶颈在于接触操作而非推理。该文为 HF 日榜 10 月 19 日最高票论文（约 285 票）。"
     },
     {
+     "title": "State World Models：把“规则执行”与“视频渲染”分离，Stateful Harness 维护隐藏世界状态，在 WorldState-Bench 上把冻结视频模型的规则符合率从 32% 提到 92%",
+     "url": "https://arxiv.org/abs/2610.26811",
+     "source": "arXiv",
+     "date": "2026-10-19",
+     "summary": "现有世界模型多专注镜头移动，难以处理结果取决于画面外隐藏状态的动作。作者提出 Stateful Harness：按既定规则演化世界状态，用冻结的视频模型渲染每个事件，再用生成片段回写状态，并以可编辑 3D 场景预览提供空间与镜头引导。新基准 WorldState-Bench 含 50 组反事实孪生样例；11 个视频后端在仅给规则时最好只有 32% 的样例两边都正确，MiniMax-H3 明确结局后为 64%，完整 harness 达 92%。"
+    },
+    {
      "title": "LEV：用“循环层”代替生成 token 让决策模型按题目难度加深思考，2.6B 模型在 JevBench 上从 1 轮 63.2% 升至 4 轮 76.2%",
      "url": "https://arxiv.org/abs/2610.20951",
      "source": "arXiv / Lehigh University",
@@ -174,20 +188,6 @@
      "source": "NVIDIA Newsroom",
      "date": "2026-10-19",
      "summary": "在 GTC Berlin 期间发布：英伟达与于利希超算中心称这是迄今最大规模、细节最完整的容错量子处理器模拟，纳入相干相位误差与三能级泄漏等真实噪声，验证从 distance-3 色码生长到 distance-7 混合码的魔法态培养协议；借助 cuQuantum 与 CUDA-Q，模拟周期由数周缩至数天。"
-    },
-    {
-     "title": "DiscoveryRSI：多智能体演化搜索生成可检验科研假设并递归自我改进，27B 模型假设与截止后新发表研究的对应率 6.3%，高于 GPT-6（2.5%）与 Claude Opus 5（2.3%）",
-     "url": "https://arxiv.org/abs/2610.23839",
-     "source": "arXiv / Hugging Face Papers",
-     "date": "2026-10-19",
-     "summary": "框架把假设树中选定的研究编译为可执行 Harbor 任务，通过“假设功劳分配”训练模型、“harness 回放”修正工作流、“再发现”应用到新课题；在四个生命科学领域，两轮自改进后假设质量从 4.86 升至 5.39，可证伪性与数据可解性提升最大。27 名医学/生物背景评审参与人工评估，并配套发布 DFM-Bench。"
-    },
-    {
-     "title": "小米 Xiaomi-Lens-0 技术报告：4B 多模态模型直接从自身视觉表征解码分割掩码，RefCOCO 系列指代理解较 Qwen3.5 平均提升 5.6 分",
-     "url": "https://arxiv.org/abs/2610.23279",
-     "source": "arXiv / 小米",
-     "date": "2026-10-19",
-     "summary": "基于 Qwen3.5-4B，以轻量掩码解码器结合视觉编码器 patch 特征与语言模型的 <|mask|> 状态，无需额外分割编码器，并支持在思维链中“用视觉潜变量思考”。在全部 8 个 RES 划分上 cIoU 第一，CountQA 计数准确率由 43.8 升至 50.6；同时发布覆盖航拍、驾驶、全景图像的 LensBench 基准。"
     }
    ]
   },
@@ -260,6 +260,13 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "加拿大四大新闻机构 Postmedia、Torstar、《环球邮报》与加拿大通讯社在安大略起诉 Anthropic：指控其抓取新闻训练 Claude、绕过付费墙，索赔每件作品最高 2 万加元",
+     "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205",
+     "source": "CBC News / The Canadian Press",
+     "date": "2026-10-20",
+     "summary": "诉状于 10 月 6 日提交安大略高等法院，指控 Anthropic 违反网站服务条款、规避技术保护措施，未经许可抓取内容开发并运营 Claude，并在响应用户提问时持续抓取，构成侵权与不当得利；原告寻求永久禁令及惩罚性赔偿。同一批机构 2024 年曾联合 CBC 起诉 OpenAI，至今未和解。Anthropic 尚未回应，指控未经法院证实。"
+    },
+    {
      "title": "黄仁勋在伦敦：AI 发展不能“急刹车”，但必须装“安全带”——以更聪明的安全标准、监测与事故防范约束 AI，英伟达承诺五年投入 2.5 亿美元支持英国 AI 安全研究",
      "url": "https://www.ithome.com/1/015/127.htm",
      "source": "IT之家（转引 Android Headline）",
@@ -307,13 +314,6 @@
      "source": "New Jersey Monitor",
      "date": "2026-10-19",
      "summary": "听证未表决。Meta 政策总监主张大模型开发者不应为下游用户滥用担责以保护开源；普林斯顿科技政策诊所等呼吁强监管并防止监管俘获。标识法案拟按每次违规每日 5000 美元罚款，商界担忧中小企业负担；前沿模型法案还允许检察长直接或委托第三方审计大型 AI 公司。"
-    },
-    {
-     "title": "美国国土安全部下令联邦民用机构移除 DeepSeek 产品及基于其模型的第三方服务，并禁止今后采购",
-     "url": "https://www.bbc.com/news/articles/cjkgeq0k1wevo",
-     "source": "BBC / Reuters",
-     "date": "2026-10-19",
-     "summary": "据联邦公报周一公布的通知，DHS 认为 DeepSeek 模型存在“多重威胁向量”，政府雇员或供应商使用可能导致敏感数据传往中国，并禁止 DeepSeek 参与联邦合同。命令适用于财政部、国务院、司法部等民用机构，国防部不在其内；相关命令签署于 7 月 24 日、7 月底起已生效，此次为首次公开。"
     }
    ]
   },
@@ -322,6 +322,13 @@
    "name": "国内 AI 动态",
    "icon": "🇨🇳",
    "items": [
+    {
+     "title": "无人配送车公司新石器完成近 4 亿美元 E 轮融资，博裕投资与国家人工智能产业投资基金领投，创今年国内自动驾驶最大单笔融资",
+     "url": "https://www.ithome.com/1/015/217.htm",
+     "source": "IT之家",
+     "date": "2026-10-20",
+     "summary": "新石器（Neolix）宣布完成 E 轮近 4 亿美元（约 26.8 亿元人民币）融资，官方称由博裕投资与某国家级基金联合领投，据界面新闻该国家级基金为国家人工智能产业投资基金。公司累计融资已超百亿元人民币，新资金将用于全球区域服务中枢布局，以及加大端到端大模型数据训练闭环投入、提升无人驾驶安全等级并降低全生命周期运维成本。"
+    },
     {
      "title": "自变量发布具身仿真评测基准 X2Real：仿真与真机任务成功率相关性 0.96、进度分相关性 0.99，44 个任务覆盖推理与操作能力",
      "url": "https://www.ithome.com/1/015/177.htm",
@@ -370,13 +377,6 @@
      "source": "量子位",
      "date": "2026-10-19",
      "summary": "量子位报道，无锡众星微成立 6 年后首次集中发布：网卡、存储卡与 Switch 芯片等 12 款芯片已量产、累计出货超 80 万颗。新品 PCIe 6.0 Switch 最多 144 通道、百纳秒级时延并支持 CXL 内存池化；800G 多协议 AI NIC 支持线速转发、微秒级时延，面向大规模 AI 集群；多模 RAID 芯片支持 SAS/SATA/PCIe 5.0 并内置硬件加密。"
-    },
-    {
-     "title": "工信部：今年上半年我国人形机器人整机产品突破 400 款、产量超 4 万台，预计全年突破 10 万台",
-     "url": "https://www.ithome.com/1/015/002.htm",
-     "source": "IT之家 / 国新办",
-     "date": "2026-10-19",
-     "summary": "国新办 10 月 19 日新闻发布会介绍，工信部推动以人形机器人为代表的具身智能产业规模加速壮大：上半年整机产品超 400 款、产量超 4 万台，全年预计超 10 万台；同时攻关运动控制、仿真、触觉传感等关键技术，并在仓储物流、餐饮零售、家庭服务等 300 多个场景推进验证部署。"
     }
    ]
   },
@@ -389,7 +389,7 @@
      "title": "anthropics/claude-code",
      "url": "https://github.com/anthropics/claude-code",
      "source": "GitHub",
-     "stars": 152707,
+     "stars": 152730,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-20",
@@ -400,7 +400,7 @@
      "title": "Comfy-Org/ComfyUI",
      "url": "https://github.com/Comfy-Org/ComfyUI",
      "source": "GitHub",
-     "stars": 139874,
+     "stars": 139938,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -415,7 +415,7 @@
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
      "source": "GitHub",
-     "stars": 217941,
+     "stars": 217990,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -426,7 +426,7 @@
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 11462,
+     "stars": 11498,
      "stars_week": null,
      "language": "Rust",
      "date": "2026-10-19",
@@ -437,7 +437,7 @@
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 98439,
+     "stars": 98518,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -448,7 +448,7 @@
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 57704,
+     "stars": 57863,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -459,7 +459,7 @@
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 55328,
+     "stars": 55358,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -474,7 +474,7 @@
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 77291,
+     "stars": 77315,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -492,6 +492,30 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@ManlingLi_",
+     "url": "https://x.com/ManlingLi_/status/2112307226224292176",
+     "source": "@ManlingLi_",
+     "date": "2026-10-20",
+     "summary": "Manling Li 发布 Embodied First Exam（EFE）：一行代码即可让编码智能体在 31 个仿真套件、44 种机器人上的 1090 个具身任务中接受测试，覆盖空间约束谜题、多机器人协作的“奥运项目”与实时评测，用于系统回答 GPT-6 Astra 等模型能否胜任机器人任务。",
+     "metrics": {
+      "likes": 329,
+      "reposts": 64,
+      "views": 27675
+     }
+    },
+    {
+     "title": "@Polymarket",
+     "url": "https://x.com/Polymarket/status/2112330215875547422",
+     "source": "@Polymarket",
+     "date": "2026-10-20",
+     "summary": "Polymarket 快讯：据报道 Waymo 计划大规模扩张 Robotaxi 车队，到 2027 年底规模扩大 5 倍至 2 万辆（消息源为 Semafor）。",
+     "metrics": {
+      "likes": 481,
+      "reposts": 30,
+      "views": 71100
+     }
+    },
     {
      "title": "@Reuters",
      "url": "https://x.com/Reuters/status/2112374494803452036",
@@ -562,30 +586,6 @@
       "likes": 281,
       "reposts": 35,
       "views": 82950
-     }
-    },
-    {
-     "title": "@ArtificialAnlys",
-     "url": "https://x.com/ArtificialAnlys/status/2112318755321868493",
-     "source": "@ArtificialAnlys",
-     "date": "2026-10-20",
-     "summary": "Artificial Analysis 上线 HealthBench 与 HealthBench Professional 排行榜：基于 OpenAI 发布的两项基准，评估模型在真实健康对话中的回复质量。",
-     "metrics": {
-      "likes": 86,
-      "reposts": 13,
-      "views": 8139
-     }
-    },
-    {
-     "title": "@StefanoErmon",
-     "url": "https://x.com/StefanoErmon/status/2112222911218291051",
-     "source": "@StefanoErmon",
-     "date": "2026-10-20",
-     "summary": "Inception 联合创始人 Stefano Ermon：发布 Mercury 3，称其为迄今最强的扩散语言模型，质量超过 GPT-6 Luna 与 Haiku 5.5，速度超过 1000 tok/s。",
-     "metrics": {
-      "likes": 2933,
-      "reposts": 226,
-      "views": 193522
      }
     }
    ]
