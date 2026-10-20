@@ -1,7 +1,220 @@
 {
- "updated": "2026-10-21T00:40:00+08:00",
- "count": 815,
+ "updated": "2026-10-21T01:35:00+08:00",
+ "count": 831,
  "items": [
+  {
+   "title": "Zoom 在 Zoomtopia 推出 AI 治理套件：集中式 AI 智能体管理、自定义 AI 护栏，以及实时“深度伪造风险检测”",
+   "url": "https://news.zoom.com/zoomtopia-2026-security/",
+   "source": "Zoom",
+   "date": "2026-10-20",
+   "summary": "Zoom 称 AI 智能体越来越多地接触会议内容与企业系统，管理员需要像管控其他关键系统一样管控 AI：集中式 AI 管理可查看组织内运行的智能体、访问的数据并审计其活动（预计 2026 年 12 月）；自定义 AI 护栏可阻止指定敏感信息出现在 AI 摘要中，并可要求人工审核（预计 2027 年 Q1）；与 Microsoft Purview 的敏感度标签同步已上线。深度伪造风险检测实时分析音视频信号，识别可能在 Zoom 之外被篡改的参会者画面或声音并给出置信度提示，面向招聘面试、客户沟通等场景，预计 12 月推出。",
+   "id": "3060598f4bdebc466fcabc2f7710d50b92afa639",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "Salesforce 宣布以约 56.6 亿美元收购 AI 营销平台 Braze：每股现金 47.50 美元，Braze 股价盘前飙升逾 50%",
+   "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
+   "source": "CNBC",
+   "date": "2026-10-20",
+   "summary": "Braze 周一收于 30.04 美元，消息公布后短暂停牌、随后大涨逾 50%；Salesforce 股价小幅下跌约 1%。交易预计在 Salesforce 2028 财年完成，尚需 Braze 股东与监管批准。Braze 提供基于 AI 的客户数据与消息触达工具；这是 Salesforce 继数月前以约 36 亿美元收购 AI 客服平台 Fin 之后的又一笔 AI 相关并购，也延续其 8 月与 Anthropic 扩大合作（推出 Claudeforce 插件）的智能体布局。",
+   "id": "857b61bdc6beef201d12adade8198c8da71013c7",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "Radical Numerics 发布多模态基因组语言模型 Omnii-1：AI 设计的噬菌体首次在“同情用药”途径下给到人类患者，用于治疗耐药菌感染",
+   "url": "https://www.radicalnumerics.ai/blog/omnii-phage",
+   "source": "Radical Numerics",
+   "date": "2026-10-20",
+   "summary": "由 Evo/Evo 2 原班人马创立的 Radical Numerics 称，Omnii-1 把 DNA、RNA、蛋白质等 28 类生物数据统一表示；团队针对 T7 噬菌体尾丝蛋白 gp17 生成变体，在 11–15 个氨基酸改动时 69.9% 的设计可成功“重启”，随机对照仅 4.8%。含 AI 设计噬菌体的鸡尾酒在体外清除了患者的耐药菌株，随后在医生主导、受监管的同情用药途径下给药；公司出于隐私未披露疗效，并强调单一病例不能证明安全性或有效性。Omnii 同时被用于生物防御，已与劳伦斯利弗莫尔国家实验室合作。",
+   "id": "44add383a8c65c410669f22b6c6021c83c2e0dad",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "Ai2 发布 FairStress 公平性基准：300 个双候选人决策场景扩展为 1300 多万测试用例，发现模型在被“说服”时更易为少数群体放弃正确决定",
+   "url": "https://huggingface.co/blog/allenai/fairstress",
+   "source": "Ai2 / Hugging Face",
+   "date": "2026-10-20",
+   "summary": "FairStress 覆盖招聘、医疗、贷款、教育、住房、刑事司法等 29 个领域，除看最终选择外，还用权威、共识、历史劣势等“对抗性前缀”测试模型改变决定的难易度。15 个模型上，隐含身份与显式标签时放弃正确答案的平均差距分别为 6.9 与 9.3 个百分点；Claude Opus 5、GPT-5.5 等前沿模型在难分高下的案例中约 60–65% 选择少数群体候选人，作者称之为“反刻板印象过度矫正”。9 种去偏方法中仅“反事实思维链”在基本保持准确率的同时缩小了不对称；基准将并入 Olmo-eval。",
+   "id": "ca293d8533a3487d56775601759d9e248992e54a",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "llm-d 1.0 发布：红帽、IBM、谷歌主导的 Kubernetes 原生分布式推理栈进入生产就绪，新增多租户 QoS、零停机升级与面向智能体的路由",
+   "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
+   "source": "IBM Research",
+   "date": "2026-10-20",
+   "summary": "在 PyTorch Conference North America 上发布；llm-d 由红帽、IBM、谷歌与 CoreWeave、英伟达去年共同创立，现为 CNCF 沙箱项目，可在 vLLM 或 SGLang 之上提供前缀缓存感知路由、KV 缓存跨 GPU/CPU/存储卸载、预填充/解码分离与宽专家并行。1.0 重点是“第二天运维”：稳定 API、流控与优先级、多轮请求固定到已有缓存的副本。IBM 称在智能体编程负载中前缀路由捕获了 97% 的可复用缓存，并演示自托管同时运行 3000 个软件工程智能体，成本为调用同一开源模型托管服务的 1/5 到 1/10。",
+   "id": "8a14a92d09a13dfe8a35388e6cc0dd329d173be2",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "Politico：OpenAI 不再推动对华严格芯片出口管制，国会对华鹰派拟在跛脚鸭会期把限制条款塞进国防授权法案时失去这一行业盟友",
+   "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
+   "source": "TNW / Politico",
+   "date": "2026-10-20",
+   "summary": "据 Politico 援引国会助手与说客，OpenAI 去年多次公开支持严格限制先进芯片对华销售，如今在相关议题上保持沉默；一名国会助手称“沉默就是在替英伟达干活”，一名说客称“目前没人想挑战总统”。此举被视为利好反对新限制的英伟达，并使 OpenAI 更贴近特朗普政府立场；英伟达今年 2 月完成对 OpenAI 300 亿美元股权投资。OpenAI 发言人称美国实验室在先进芯片上保持大幅领先是关键，有效的出口管制政策是更广泛战略的一部分；Anthropic 则继续支持多项芯片法案。",
+   "id": "977d0606ec3e001ad147180992f32dcbd44b45c6",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "国家数据集团有限公司在雄安新区成立：丁薛祥出席揭牌，称组建该央企对把握人工智能发展先机、建设数字中国具有重要意义",
+   "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083803.htm",
+   "source": "中国政府网 / 新华社",
+   "date": "2026-10-20",
+   "summary": "新华社 10 月 20 日电，国家数据集团成立大会在河北雄安新区举行。丁薛祥要求公司深化数据要素服务、加快数据基础设施建设、加强关键核心技术攻关，在数据领域发挥战略性、引领性、支撑性作用，努力打造世界一流数据科技企业；各有关部门加大支持、相关企业协同合作，形成促进数据产业发展的合力。外媒将其解读为中国把 AI 训练所需的数据资源统筹到一家国资平台。",
+   "id": "377f24af829d8c4f44a8e177982233bf3d3da9bf",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "彭博：智谱 Z.ai 四位联合创始人曾参与由中国通用技术研究院（CGTRI）共同资助的研究项目，英国军情五处称该机构与国家安全部关系密切",
+   "url": "https://qz.com/z-ai-founders-research-cgtri-mi5-spy-agency-102026",
+   "source": "Quartz / Bloomberg",
+   "date": "2026-10-20",
+   "summary": "据彭博，该项目 2018–2021 年执行、获批经费 294 万元，由 CGTRI 与国家自然科学基金共同资助，目标是开发解析社交媒体帖子、识别重要事件并绘制人物关系的 AI 软件；清华教授、智谱联合创始人李涓子为负责人之一，唐杰、许斌与 CEO 张鹏以合著者、共同发明人或软著权人身份出现。军情五处 9 月 30 日的预警未点名智谱；中国驻英使馆称其说法“毫无根据”，智谱未回应置评。智谱今年 1 月在港上市，市值约 320 亿美元。",
+   "id": "e99d5e06478a2e057638b0c8ea15176a8c20cf26",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "llm-d/llm-d",
+   "url": "https://github.com/llm-d/llm-d",
+   "source": "GitHub",
+   "stars": 4881,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-20",
+   "summary": "Kubernetes 原生的分布式 LLM 推理服务栈（Apache-2.0）：在 vLLM/SGLang 之上提供前缀缓存感知路由、分层 KV 缓存、预填充/解码分离、宽专家并行与多租户流控，“任意模型、任意加速器、任意云”。",
+   "why": "10 月 20 日发布 v1.0.0（北京时间 10:30），红帽、IBM、谷歌在 PyTorch 大会上宣布其进入生产就绪，CoreWeave、英伟达、AMD、Hugging Face、Mistral 等参与贡献。",
+   "id": "8d782cefd2116e34bbe973cc76173417a16acb7f",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "mihirgupta0900/tv-home",
+   "url": "https://github.com/mihirgupta0900/tv-home",
+   "source": "GitHub",
+   "stars": 289,
+   "stars_week": null,
+   "language": "Java",
+   "date": "2026-10-20",
+   "summary": "一条 Claude Code 提示词即可通过 Wi-Fi/ADB 给慢且满是广告的 Android TV 去臃肿（只禁用不卸载、可还原），并装上带轮播自然壁纸的极简 Apple TV 风格桌面；作者在 2GB 内存的 TCL Google TV 上禁用 25 个应用，桌面内存占用从 192MB 降到 83MB。",
+   "why": "10 月 19 日（北京时间）创建约两天近 300 星，属于本周“用编程智能体清理智能电视”热潮中的又一新项目（与 free-my-tv、tv-detox 同类）。",
+   "id": "834af793f34558d6a01eb5b614c2c23d34dfd1bb",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "nichochar/ari",
+   "url": "https://github.com/nichochar/ari",
+   "source": "GitHub",
+   "stars": 158,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-20",
+   "summary": "“纸笔 + AI 导师”学习工具（MIT）：在纸上方架一个摄像头，Ari 能实时看到你写的内容，按需生成课程与练习、边做边答疑并批改作业；本地运行，复用 ChatGPT/Codex 订阅登录，无需 API key。",
+   "why": "10 月 18 日创建，两天约 160 星；把多模态模型用于手写数学/物理练习辅导的轻量开源方案。",
+   "id": "a320dea1fb38db5fb1a67dd1971da2a076268673",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112558232489099437",
+   "source": "@business",
+   "date": "2026-10-20",
+   "summary": "彭博：Salesforce 同意以近 57 亿美元企业价值收购 AI 营销平台 Braze。",
+   "metrics": {
+    "likes": 51,
+    "reposts": 8,
+    "views": 29088
+   },
+   "id": "4ad233fb8864810ab39dcd7e1e5c2b8f7a11721c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "@RadicalNumerics",
+   "url": "https://x.com/RadicalNumerics/status/2112581706305962435",
+   "source": "@RadicalNumerics",
+   "date": "2026-10-20",
+   "summary": "Radical Numerics 发布 Omnii-1——“我们迄今最强大的基因组语言模型”，其设计的噬菌体已首次用于人类患者。",
+   "metrics": {
+    "likes": 32,
+    "reposts": 7,
+    "views": 780
+   },
+   "id": "e3bb44705a7b87be6299876d50d579d55826f73a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2112579251555721573",
+   "source": "@AnthropicAI",
+   "date": "2026-10-20",
+   "summary": "Anthropic 科学博客新文：用 Claude 设计针对蝎毒神经毒素的蛋白结合体——蝎子每年蜇伤约 120 万人，抗蛇毒血清常常昂贵或短缺，Claude 朝新疗法迈出了早期一步。",
+   "metrics": {
+    "likes": 2321,
+    "reposts": 184,
+    "views": 144752
+   },
+   "id": "c19367f5cb0d177b99f151d2d24ea65e98edcf41",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "@allen_ai",
+   "url": "https://x.com/allen_ai/status/2112587238961803746",
+   "source": "@allen_ai",
+   "date": "2026-10-20",
+   "summary": "Ai2 推出 FairStress：测试人口统计公平性不止看最终答案，还看模型多容易改变一个有充分依据的决定、以及如何解释自己的选择。",
+   "metrics": {
+    "likes": 8,
+    "reposts": 3,
+    "views": 739
+   },
+   "id": "03e42256bb00853e1421bd9b97fd6b6cfc2127eb",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
+  {
+   "title": "@RedHat",
+   "url": "https://x.com/RedHat/status/2112514674528813448",
+   "source": "@RedHat",
+   "date": "2026-10-20",
+   "summary": "红帽：llm-d 1.0 为生产负载带来多租户服务质量、零停机滚动升级与前缀缓存感知路由，帮助扩展分布式推理并控制 AI 服务成本。",
+   "metrics": {
+    "likes": 21,
+    "reposts": 3,
+    "views": 3209
+   },
+   "id": "c5ce6794beafa94936e66172c6300b44321ad30c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T01:35:00+08:00"
+  },
   {
    "title": "Mistral 发布 Voxtral 3 语音模型家族与语音智能体 SDK：转写模型支持 50+ 语言并号称超越 Whisper、Scribe v2 与 Gemini 3.5 Transcribe，TTS 覆盖 35+ 语言、50+ 方言",
    "url": "https://mistral.ai/news/voxtral-3",
@@ -4062,11 +4275,11 @@
    "first_seen": "2026-10-18T20:30:00+08:00"
   },
   {
-   "title": "THE DECODER：继慕尼黑之后，德国亚琛法院也认定谷歌须为 AI 搜索答案担责，禁止 AI Mode 继续传播针对一名医生的虚假指控",
+   "title": "德国亚琛地区法院沿用慕尼黑判例裁定谷歌须为 AI Mode 生成的虚假陈述担责：AI 把另一名教授的性侵指控错安到一位主任医师身上",
    "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-   "source": "THE DECODER",
+   "source": "The Decoder",
    "date": "2026-10-18",
-   "summary": "亚琛地区法院在 9 月 24 日的临时禁令中援引慕尼黑第一地区法院 5 月判决，认定 AI 生成的搜索回答是谷歌“自己的陈述”而非第三方链接：谷歌 AI Mode 将另一名前教授涉及的性侵指控与诉讼张冠李戴到一位神经放射学教授身上，谷歌收到通知后拒绝删除。法院禁止传播三种相关文本，违者每次最高罚 25 万欧元，裁定尚未生效、谷歌可提出异议。报道称谷歌在慕尼黑案宣布上诉后以和解收场，未形成上级法院判例。",
+   "summary": "亚琛法院 9 月 24 日发出临时禁令（案号 8 O 268/26），认定 AI 生成的答案是谷歌自身的陈述而非对第三方内容的链接，谷歌作为“妨害人”须停止传播三项虚假说法，违者每次最高罚 25 万欧元；裁定尚未生效，谷歌可提出异议。The Decoder 获悉，谷歌此前就 5 月慕尼黑第一地区法院同类判决宣布上诉，后以和解告终，因此至今没有上级法院审查这一法理；若该观点站稳，德国 AI 搜索的商业模式与出版商权利都可能受到影响。",
    "id": "04f9dcaeeab22d9c5fff4d6abe91238e2d431bcb",
    "module": "policy",
    "module_name": "政策与监管",
