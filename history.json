@@ -1,7 +1,264 @@
 {
- "updated": "2026-10-20T23:31:00+08:00",
- "count": 795,
+ "updated": "2026-10-21T00:45:00+08:00",
+ "count": 815,
  "items": [
+  {
+   "title": "Mistral 发布 Voxtral 3 语音模型家族与语音智能体 SDK：转写模型支持 50+ 语言并号称超越 Whisper、Scribe v2 与 Gemini 3.5 Transcribe，TTS 覆盖 35+ 语言、50+ 方言",
+   "url": "https://mistral.ai/news/voxtral-3",
+   "source": "Mistral AI",
+   "date": "2026-10-20",
+   "summary": "Voxtral Small Transcribe 3 支持说话人分离、上下文偏置与端点检测；4B 的 Mini 版转写价 0.0035 美元/分钟，Realtime 版延迟低于 500ms；Voxtral Speech 3 可按语境调整情绪、语速与重音，每百万字符 13 美元，Pro Voice 用 30 分钟音频复刻声音风格。新 SDK 基于 LiveKit，把听、推理、调工具、说串成单条流式管线，每轮响应不到 1 秒，支持 SIP 与 WebRTC；可走欧盟托管 API 或自部署。Artificial Analysis 称 Small Transcribe 3 位列其语音转文字榜第 3。",
+   "id": "afe5d96a9d4684fb96de500346e2384550461c1d",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "Perplexity Computer 新增 Mac 端侧模式：智能体与模型全部在本机运行（Qwen 3.6 或后训练的 PPLX Pro），可离线操作本地应用与文件，建议 36GB 以上内存",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1014400/perplexity-computer-can-now-run-fully-offline-on-mac-but-youll-need-a-lot-of-ram",
+   "source": "The Verge / Perplexity",
+   "date": "2026-10-20",
+   "summary": "据 The Verge，更新后用户可在不把数据传到云端的情况下跨原生 Mac 应用和本地文件执行任务，借助 Apple Silicon 在本机跑模型；需要最新信息或浏览器操作时，也可把部分任务转交云端。功能已在 Perplexity Mac 应用上线。",
+   "id": "363545536b262f65f9c67f6f665974dea7fe8c02",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "关键基础设施 AI 公司 ASI（原 Air Space Intelligence）完成 3.25 亿美元 C 轮、估值 30 亿美元，Spark Capital 领投，Citadel Securities、a16z 等参投",
+   "url": "https://www.financialcontent.com/article/bizwire-2026-10-20-asi-secures-325m-series-c-at-3b-valuation-to-power-americas-critical-infrastructure-with-ai",
+   "source": "Business Wire / Bloomberg",
+   "date": "2026-10-20",
+   "summary": "ASI 用持续前向仿真为空管、电网、国防后勤等预测未来数小时至数周的态势。公司今年 6 月获美国交通部/FAA 8.75 亿美元国家空域系统现代化项目，美国陆军另授予 9900 万美元合同用于下一代指挥控制（NGC2）；客户还包括达美、阿拉斯加与联合航空及 National Grid。新资金将用于能源、物流和战术边缘部署，并扩充波士顿的前沿 AI 研究团队。",
+   "id": "16abd587bb31f7db9b192447a66dc3f6cf6772e2",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "Meta 独立 AI 助手 Muse 上线约 40 天在美国下载量突破 1000 万，Sensor Tower 称其是第 12 款在 40 天内达成该里程碑的应用",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1014440/metas-muse-ai-hits-10-million-us-downloads",
+   "source": "The Verge / Sensor Tower",
+   "date": "2026-10-20",
+   "summary": "Muse 于 9 月推出。Sensor Tower 认为其增长部分得益于 Meta 规模可观的广告投放。",
+   "id": "f413c53ffdff60445755dd1c17837ac404df9721",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "Spotify：过去一年已从推荐中移除逾 5000 万首被认定为 AI 劣质内容或垃圾的歌曲，并调整推荐系统更多突出人类音乐人",
+   "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
+   "source": "The Verge",
+   "date": "2026-10-20",
+   "summary": "Spotify 称编辑也不会为这类内容编排歌单，调整后听众相关投诉明显下降。它没有强制给所有 AI 曲目加标签，而是推出“AI Persona”标识，用于以 AI 身份出现、不代表真人的艺人，并且不推荐此类音乐；判定依据包括收听互动与反馈、上传模式、元数据及第三方 AI 检测工具。同时它正与环球音乐、Believe 合作推出 AI 混音创作工具。",
+   "id": "e85a4c5da2af52ae78ebcd6df6fef324bcd51cb3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "Electric Plant 获 1120 万美元种子轮：自研“植物电信号大模型” Bombadil，读取茎干内微伏级电信号判断约 125 种植物的需水、需肥与光照状况",
+   "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "本轮由 Onto Ventures 与 Climactic 领投。传感器约折叠 iPhone 大小，用不锈钢螺钉接入形成层，每英亩只需几枚，单价几十美元，远低于动辄上千美元的现有设备；数据经低功耗无线网络上传，由云端 Bombadil 解读后回传给种植者调整灌溉与施肥。公司称可在增产的同时节水 20% 以上。",
+   "id": "5130abca4141f29e7b41918cc604c981206a7152",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "Mind Lab 提出 BrainLoRA：用 LoRA 参数高效微调最大 104B 的多模态骨干预测大脑神经响应，在 Algonauts 2025 取得已发表最佳成绩，200+ 适配模型集成登顶公开榜",
+   "url": "https://arxiv.org/abs/2610.26802",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-20",
+   "summary": "研究利用骨干网络的因果结构一次前向预测多个时间点，取代滑动窗口，大幅降低特征提取成本；在九种多模态骨干上均提升脑编码表现，并在与此前 SOTA 相同的 Qwen3-Omni 骨干上胜出。适配后的模型仍可解释：模态归因能还原经典的感觉皮层分布，神经适配还提高了音频输入与跨模态混合的贡献。作者另写了多 LoRA 核以便在共享骨干上联合训练多个适配器。该文为 10 月 20 日 HF Daily Papers 票数最高论文。",
+   "id": "d7638f10c57aaffb40c0fa212d410f13a03c4eb9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "HarnessPro：无标签递归自改进智能体 Harness，同时优化性能与成本，按预算给出 lite/medium/heavy 三档；GPT-5.5+Codex 下 heavy 档较 RHO 通过率平均 +2.0 点、单任务成本 -26.1%",
+   "url": "https://arxiv.org/abs/2610.26770",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-20",
+   "summary": "候选 harness 用 LLM 生成的测试评估，无需真值或官方测试；专门的智能体诊断执行轨迹、按不同性能—成本优先级规划改动并实现成候选，再用归一化加权平方距离挑出三档供下一轮迭代。实验覆盖 Terminal-Bench 2、SWE-Bench Pro 与 ProgramBench，GLM-5.2+Claude Code 组合下优势同样成立，代码已开源。",
+   "id": "c2700c6d1f0dc5a08610e1a7d1f86bdbe885c914",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "美团 LongCat 提出 Interlock：把长程任务表示为带类型的“完成图”来合成训练任务，用自身通过的轨迹微调 Qwen3.6 后 AutomationBench 通过率 +4.0–4.5 点、JobBench +3.2–6.6 分",
+   "url": "https://arxiv.org/abs/2610.19686",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-20",
+   "summary": "作者指出智能体常常“局部正确但任务没做完”。Interlock 用依据边连接公开证据与决策、用耦合超边施加跨组件联合约束、用实现边把决策连到所有必需的下游效果，再编译成可重置工作区、公开请求与评分细则，并做来源覆盖与公开输入两道审查；agent-as-judge 检查产物、跑校验脚本，只保留满足全部必选要求的轨迹。在 Harvey LAB 上细则通过率也提升 3.9–4.2 个百分点。",
+   "id": "ae9b1450298238451f19ee24668e66e2c220942b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "Ornith 开源 Ornith-1.5-122B（MIT）：122B MoE，单台 DGX 即可部署并提供移动端量化版，TerminalBench 2.1 得 81.2、CyberGym 80.0",
+   "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+   "source": "Hugging Face / Ornith",
+   "date": "2026-10-20",
+   "summary": "官方称其“强与快不再取舍”：基准更高、完成更快、输出更短，指令遵循、任务拆解与真实工作场景知识更强，为同等规模开源模型 SOTA。模型卡对比中，TerminalBench 2.1 略低于 Qwen3.8-Flash-Next（83.4）与 DeepSeek-V4-Flash-0731（82.7），CyberGym 则高于两者（78.0/76.7），NL2Repo 51.2。发布帖在 X 上浏览约 18 万次。",
+   "id": "961c19e76e6ab3dae77129c44137b0e2f6f3e707",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "黄仁勋在柏林与德国总理默茨对谈：欧洲不应过度依赖监管，“行业不能蓬勃发展就没什么可监管的”，主张像监管互联网产品一样管 AI 应用而非底层技术",
+   "url": "https://www.ithome.com/1/015/603.htm",
+   "source": "IT之家 / Business Insider",
+   "date": "2026-10-20",
+   "summary": "据 Business Insider，黄仁勋过去一周先后访问法国、瑞典、英国和德国，为 10 月 20–22 日的 GTC Berlin 预热（主题演讲定于北京时间 10 月 21 日 17:00）。他称安全必须放在首位，但不能只靠监管大棒指望领先，“给德国一个机会，给这个行业一个机会”。默茨回应称完全不监管不对，过严的规则同样不可取；两人都把 AI 视为帮助德国走出经济低迷的可能途径。",
+   "id": "9fd6103042fa7d85e4e4fc6eba771c6ce304fc5f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "硬氪：AI 材料研发平台睿质科技完成数千万元天使轮融资，中关村资本领投；核心产品 Archeos 以多智能体串起文献检索、材料设计、计算仿真与报告生成",
+   "url": "https://www.163.com/dy/article/L9M2GN2505118DFD.html",
+   "source": "36氪 / 硬氪",
+   "date": "2026-10-20",
+   "summary": "睿质科技由院士、长江学者团队领衔，面向科研机构与工业企业提供材料计算、性能预测与研发服务，覆盖先进功能陶瓷、合金、新能源材料等领域，中关村科学城公司跟投，新一轮融资已在推进。公司目前结合平台工具与定制化计算服务（如某工业级合金性能预测项目），未来计划把仿真与实验验证结合，与产业客户联合研发，探索技术授权与收益分成。",
+   "id": "86004464332eb5fff9f5ea33d62890d38a65b215",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "simbasjungles/free-my-tv",
+   "url": "https://github.com/simbasjungles/free-my-tv",
+   "source": "GitHub",
+   "stars": 1195,
+   "stars_week": null,
+   "language": "Java",
+   "date": "2026-10-20",
+   "summary": "用 Claude Code 构建的开源无广告电视桌面，支持 Google TV、LG 与 Samsung 电视：常用应用置顶、每小时从已装应用里推热门内容、天气与行情卡片，无需 root，一键恢复原厂桌面，MIT。",
+   "why": "10 月 19 日创建，一天多即约 1200 星；“用编程智能体给智能电视去广告”是本周热门话题（The Verge、IT之家均有报道），仓库 10 月 20 日仍在更新。",
+   "id": "f097e65b6a7782ba8752869139b1d7a39262d3fb",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "Ansub/tv-detox",
+   "url": "https://github.com/Ansub/tv-detox",
+   "source": "GitHub",
+   "stars": 849,
+   "stars_week": null,
+   "language": "Java",
+   "date": "2026-10-20",
+   "summary": "让 Claude Code 或 Codex 帮老旧 Android TV 提速：提供一个精简无广告的桌面，外加让智能体清理预装应用与广告的提示词，MIT。",
+   "why": "作者 Ansub Khan 的做法被 The Verge 专门报道；10 月 18 日创建，累计约 850 星，10 月 20 日仍有提交。",
+   "id": "6a8bf93fd93a941c49bccea13fbc7942b2736420",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "dominikmartn/harp",
+   "url": "https://github.com/dominikmartn/harp",
+   "source": "GitHub",
+   "stars": 178,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-20",
+   "summary": "基于开源 Warp 终端的非官方分支，把标签栏换成专为长时间运行编程智能体设计的侧边栏：并排运行多个 Claude Code 与 Codex 会话，标出哪个正在工作、在等你、已完成，支持分组，macOS，AGPL-3.0。",
+   "why": "10 月 20 日刚创建，当天已约 180 星，并在持续提交。",
+   "id": "571b01845b8f840095c156fdad98005cf3981cec",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "@MistralAI",
+   "url": "https://x.com/MistralAI/status/2112574615318876178",
+   "source": "@MistralAI",
+   "date": "2026-10-20",
+   "summary": "Mistral 发布 Voxtral 3：业界领先的转写与语音合成模型，驱动 Mistral 全新的语音智能体 API。",
+   "metrics": {
+    "likes": 357,
+    "reposts": 49,
+    "views": 10824
+   },
+   "id": "5de49ff7f818476d64f3ff272f68270a7a9a8bf0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "@perplexity_ai",
+   "url": "https://x.com/perplexity_ai/status/2112571597798461920",
+   "source": "@perplexity_ai",
+   "date": "2026-10-20",
+   "summary": "Perplexity Computer 现可完全在 Mac 本地运行：模型与智能体都在本机，可操作原生应用与本地文件，敏感数据不出设备，已在 Mac 应用上线。",
+   "metrics": {
+    "likes": 167,
+    "reposts": 17,
+    "views": 11401
+   },
+   "id": "cfbbae39c5fbb2a6617df5926c8965e99813b5c9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "@ornith_",
+   "url": "https://x.com/ornith_/status/2112553477457268799",
+   "source": "@ornith_",
+   "date": "2026-10-20",
+   "summary": "Ornith 发布 Ornith-1.5-122B：主打“强与快不再取舍”，指令遵循、任务拆解与理解能力更强，推理效率高，以 MIT 许可开放权重。",
+   "metrics": {
+    "likes": 1382,
+    "reposts": 276,
+    "views": 179428
+   },
+   "id": "ab5ca292128dbf8df3af606582018d9e96a162b2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "@ArtificialAnlys",
+   "url": "https://x.com/ArtificialAnlys/status/2112577841418428564",
+   "source": "@ArtificialAnlys",
+   "date": "2026-10-20",
+   "summary": "Krea 新增最高思考档 Krea 3 Ultra，在 AA-Image-Editing v2.1 排第 5，质量与 Nano Banana 2.1、MAI-Image-2.6 相近；Krea 3 于 10 月 15 日发布，这是它首次登上该编辑榜。",
+   "metrics": {
+    "likes": 33,
+    "reposts": 3,
+    "views": 3814
+   },
+   "id": "f23b9680a21f58f47bfb9c9cd03b15be4cd5ca3f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112574689880985935",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "The Information 独家专访：五角大楼官员 Emil Michael 把呼吁加强监管的 AI 实验室比作“让别人把自己拦下的醉驾司机”，认为企业应为安全承担更多责任。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 0,
+    "views": 1505
+   },
+   "id": "7ef68b61cecf7a1336e64374e244dc63da2578dc",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T00:45:00+08:00"
+  },
   {
    "title": "Figma 首届印度 Config 大会新增 20 家 MCP 合作伙伴（含 Linear、Notion、Mistral、Meta Muse、OpenCode 等），联合创始人 Dylan Field 称 MCP“并不完美”、更有利于前沿实验室",
    "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
