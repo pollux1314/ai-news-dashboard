@@ -1,7 +1,67 @@
 {
- "updated": "2026-10-20T20:32:00+08:00",
- "count": 770,
+ "updated": "2026-10-20T21:40:00+08:00",
+ "count": 775,
  "items": [
+  {
+   "title": "自动驾驶飞机公司 Reliable Robotics 新获 1.15 亿美元，D 轮扩至 2.75 亿美元、估值突破 10 亿美元，其自主飞行系统正为塞斯纳 208B 货机申请适航认证",
+   "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
+   "source": "TechCrunch / Business Wire",
+   "date": "2026-10-20",
+   "summary": "由 SpaceX 前工程师创办的 Reliable Robotics 本轮新资金含硅谷银行 2500 万美元定期贷款，将用于扩充机队、生产设施与工程团队。其 Reliable Autonomy System 可改装现有塞斯纳 208B Grand Caravan，使其在美国空域实现无人自主运营，主攻无人货运航线，走的是“改装现役机型”而非设计新飞机的路线。",
+   "id": "54693e4e62e2b13cff54944faf70943c62c31217",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T21:40:00+08:00"
+  },
+  {
+   "title": "物理安全 AI 初创 Firefly 完成 2000 万美元 A 轮融资，Definition Capital 领投：用 AI 把摄像头、对讲机与传感器整合成统一的校园与医院应急响应系统",
+   "url": "https://siliconangle.com/2026/10/20/ai-startup-firefly-secures-20m-to-make-the-physical-world-a-safer-place/",
+   "source": "SiliconANGLE",
+   "date": "2026-10-20",
+   "summary": "BoxGroup、Susa Ventures 跟投。Firefly 的 Ember 安全管理平台可接入现有摄像头与对讲设备，自动识别事件、提供上下文并组织响应，另有可穿戴紧急按钮、能三角定位并检测枪声的 AI 信标和网络网关等自研硬件；已在科罗拉多州最大社区学院 Front Range 三个校区部署，下一步瞄准学校、医院与企业园区。",
+   "id": "b1e59bfee03b211ead9789a88bce0966c7210370",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T21:40:00+08:00"
+  },
+  {
+   "title": "华为 openJiuwen 开源物理智能体框架 Jiuwen Symbiosis：以“感知—规划—执行—反馈”闭环把大模型实验方案下发到机械臂、移动机器人与工作站，已在电催化湿实验中落地",
+   "url": "https://www.163.com/dy/article/L9N6JH790511AQHO.html",
+   "source": "机器之心",
+   "date": "2026-10-20",
+   "summary": "框架通过适配器层抹平不同厂商设备的接口差异，设备以显式声明的能力参与动态编排；执行记忆自动维护样品位置与设备状态，未经确认的状态一律视为“未知”；每次动作与观测都可回放，并能对历史失败轨迹聚类归因。运动类调用前触发安全护栏、异常时自动回到安全位姿（夹持样品时带载回退而不丢样）。代码已在 GitHub openJiuwen-ai/jiuwensymbiosis 开源。",
+   "id": "d972542bf7a05cda500695f40c9c10938719c4b7",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T21:40:00+08:00"
+  },
+  {
+   "title": "虎嗅：DeepSeek 新一轮融资进入收官，保底 800 亿元、有望近千亿，投前估值 5000 亿元；梁文锋个人出资约 200 亿元，宁德时代累计 150 亿元成最大外部投资方",
+   "url": "https://www.readaitime.com/news/2026-10-20/2jez3h8z",
+   "source": "读懂AI时代（转载虎嗅）",
+   "date": "2026-10-20",
+   "summary": "报道称本轮“增资不加价”，新老股东对半分额；腾讯出资 100 亿元，网易、京东、砺思、IDG 各 30 亿元，新进股东均为产业资本（石溪资本、中芯聚源、君联、CPE 源峰、吉利），国家 AI 产业投资基金同步参与，红杉、高瓴缺席。文中援引 The Information：2026 年前 7 个月营收 4.75 亿元、API 毛利率 82.9%，但净亏 7.15 亿元、算力投入 110 亿元；资金重点投向乌兰察布 GW 级智算中心（计划部署 16 万颗昇腾 950DT），并计划年底递表、2027 年登陆科创板。融资消息此前已有报道，本文披露更多股东与财务细节。",
+   "id": "fa38e6f3dfe590d171d40668670ff73644c5f8ca",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T21:40:00+08:00"
+  },
+  {
+   "title": "@kimmonismus",
+   "url": "https://x.com/kimmonismus/status/2112530523541352535",
+   "source": "@kimmonismus",
+   "date": "2026-10-20",
+   "summary": "2026 年菲尔兹奖得主 John Pardon 表示，AI 能读懂他最潦草的证明草稿、找出漏洞并得出非平凡的数学结果，“AI 理解了，100%”。",
+   "metrics": {
+    "likes": 148,
+    "reposts": 14,
+    "views": 4880
+   },
+   "id": "d1839916ff645e5b8addf0449d7468a4afeb9740",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T21:40:00+08:00"
+  },
   {
    "title": "路透独家：字节跳动、阿里巴巴、腾讯合计订购逾 300 万块英伟达 RTX PRO 5500 显卡，标价总额超 350 亿美元，英伟达称需求远超产能、可能只能满足 5%–10%",
    "url": "https://live.euronext.com/en/financial-news/exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders",

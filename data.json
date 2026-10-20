@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-20T20:32:00+08:00",
+  "updated": "2026-10-20T21:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "自动驾驶飞机公司 Reliable Robotics 新获 1.15 亿美元，D 轮扩至 2.75 亿美元、估值突破 10 亿美元，其自主飞行系统正为塞斯纳 208B 货机申请适航认证",
+          "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
+          "source": "TechCrunch / Business Wire",
+          "date": "2026-10-20",
+          "summary": "由 SpaceX 前工程师创办的 Reliable Robotics 本轮新资金含硅谷银行 2500 万美元定期贷款，将用于扩充机队、生产设施与工程团队。其 Reliable Autonomy System 可改装现有塞斯纳 208B Grand Caravan，使其在美国空域实现无人自主运营，主攻无人货运航线，走的是“改装现役机型”而非设计新飞机的路线。"
+        },
+        {
+          "title": "物理安全 AI 初创 Firefly 完成 2000 万美元 A 轮融资，Definition Capital 领投：用 AI 把摄像头、对讲机与传感器整合成统一的校园与医院应急响应系统",
+          "url": "https://siliconangle.com/2026/10/20/ai-startup-firefly-secures-20m-to-make-the-physical-world-a-safer-place/",
+          "source": "SiliconANGLE",
+          "date": "2026-10-20",
+          "summary": "BoxGroup、Susa Ventures 跟投。Firefly 的 Ember 安全管理平台可接入现有摄像头与对讲设备，自动识别事件、提供上下文并组织响应，另有可穿戴紧急按钮、能三角定位并检测枪声的 AI 信标和网络网关等自研硬件；已在科罗拉多州最大社区学院 Front Range 三个校区部署，下一步瞄准学校、医院与企业园区。"
+        },
+        {
           "title": "路透独家：字节跳动、阿里巴巴、腾讯合计订购逾 300 万块英伟达 RTX PRO 5500 显卡，标价总额超 350 亿美元，英伟达称需求远超产能、可能只能满足 5%–10%",
           "url": "https://live.euronext.com/en/financial-news/exclusive-bytedance-alibaba-tencent-place-over-35-billion-worth-nvidia-chip-orders",
           "source": "Reuters（via Euronext）",
@@ -111,20 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-20",
           "summary": "本轮由 AVP 领投，Dawn Capital、MMC Ventures、Tera Ventures 跟投。Blackwall 不直接卖给网站，而是通过主机、托管服务与云厂商以白标方式分发 DDoS 防护、威胁情报、证书管理等工具，并用数字指纹和部署在客户端点的自有 AI 模型识别请求意图，区分真人委派的智能体与恶意爬虫。CEO Nikita Rozenberg 认为未来智能体代用户访问网站和支付时，将需要管理哪些智能体可访问、以何种条件授权付款。资金将用于拓展北美、欧洲、亚太与中东市场。"
-        },
-        {
-          "title": "The Information：奥特曼向员工阐述 AI 安全的三种“终局”——类 IAEA 国际机构、合并所有实验室的“AI 版 CERN”，以及一家公司强大到可切断所有对手算力的方案",
-          "url": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
-          "source": "The Information",
-          "date": "2026-10-20",
-          "summary": "据两位知情人士，奥特曼上周在内部讨论中列举了业界关于如何安全开发 AI 的三类提议，他似乎倾向于设立类似国际原子能机构、负责执行安全标准的国际组织；第二种是把所有 AI 实验室合并为单一机构；第三种（他并不偏好）是某家开发者获得足够经济实力，剥夺包括潜在危险者在内的所有其他开发者的算力。报道指出，这一表态恰逢特朗普政府搭建首个针对超级智能开发者的监管体系。"
-        },
-        {
-          "title": "Semafor 独家：Waymo 拟用本月新借的 50 亿美元把车队从约 4000 辆扩至年底 8000 辆、2027 年底 2 万辆，规模扩大 5 倍",
-          "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",
-          "source": "Semafor",
-          "date": "2026-10-20",
-          "summary": "据知情人士，Waymo 计划用本月首次举债筹得的 50 亿美元（PIMCO、黑石、Sixth Street 等私募信贷提供，无 Alphabet 担保）大幅扩充车队。Waymo 目前在美国 15 座城市运营，并计划进入伦敦、东京、新加坡与多伦多；报道称其已向中国订购数千辆车用于扩张。Waymo 拒绝置评。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "华为 openJiuwen 开源物理智能体框架 Jiuwen Symbiosis：以“感知—规划—执行—反馈”闭环把大模型实验方案下发到机械臂、移动机器人与工作站，已在电催化湿实验中落地",
+          "url": "https://www.163.com/dy/article/L9N6JH790511AQHO.html",
+          "source": "机器之心",
+          "date": "2026-10-20",
+          "summary": "框架通过适配器层抹平不同厂商设备的接口差异，设备以显式声明的能力参与动态编排；执行记忆自动维护样品位置与设备状态，未经确认的状态一律视为“未知”；每次动作与观测都可回放，并能对历史失败轨迹聚类归因。运动类调用前触发安全护栏、异常时自动回到安全位姿（夹持样品时带载回退而不丢样）。代码已在 GitHub openJiuwen-ai/jiuwensymbiosis 开源。"
+        },
+        {
           "title": "谷歌与 Meta 合作开源 TorchTPU：为 Google TPU 提供原生 PyTorch 后端，结合 eager 执行优化与 torch.compile 集成，模型开箱即用迁移到 TPU",
           "url": "https://arxiv.org/abs/2610.24161",
           "source": "arXiv / Google & Meta",
@@ -244,13 +251,6 @@
           "source": "Hugging Face / inclusionAI",
           "date": "2026-10-19",
           "summary": "三大系列：Ming-3.0-tts（0.5B 文本设计音色与情绪/笑声等副语言控制，7 种语言；Tiny 7.9B-A1.3B 长篇语音）、Ming-3.0-audio（Flash 126B-A6.5B 长录音摘要、语音问答与工具调用；Tiny 9.3B-A2.7B）、Ming-3.0-asr-tiny（方言口音与热词上下文识别，四类平均错误率 4.41%）。权重上架 Hugging Face 与 ModelScope，SGLang、vLLM 首日支持。"
-        },
-        {
-          "title": "中国电信星辰 AGI 实验室开源意图理解模型 Xing4.0-29B-Intent：29B MoE（4B 激活），同时做意图分类与参数抽取",
-          "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-Intent",
-          "source": "Hugging Face / 智东西",
-          "date": "2026-10-19",
-          "summary": "模型以统一 Schema（category+args JSON）覆盖实体、关系、事件抽取与口语理解，端到端延迟低于 150ms。官方称零样本冷启动 Micro-F1 达 70.27，较 Jev 最优配置高 12.62 个百分点，48 个公开数据集统一评测总分 58（均为官方数据）。同步开源 275.3 万条 SFT 语料与推理 SDK，Apache-2.0 许可。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "虎嗅：DeepSeek 新一轮融资进入收官，保底 800 亿元、有望近千亿，投前估值 5000 亿元；梁文锋个人出资约 200 亿元，宁德时代累计 150 亿元成最大外部投资方",
+          "url": "https://www.readaitime.com/news/2026-10-20/2jez3h8z",
+          "source": "读懂AI时代（转载虎嗅）",
+          "date": "2026-10-20",
+          "summary": "报道称本轮“增资不加价”，新老股东对半分额；腾讯出资 100 亿元，网易、京东、砺思、IDG 各 30 亿元，新进股东均为产业资本（石溪资本、中芯聚源、君联、CPE 源峰、吉利），国家 AI 产业投资基金同步参与，红杉、高瓴缺席。文中援引 The Information：2026 年前 7 个月营收 4.75 亿元、API 毛利率 82.9%，但净亏 7.15 亿元、算力投入 110 亿元；资金重点投向乌兰察布 GW 级智算中心（计划部署 16 万颗昇腾 950DT），并计划年底递表、2027 年登陆科创板。融资消息此前已有报道，本文披露更多股东与财务细节。"
+        },
+        {
           "title": "小米 MiMo-V2.6-Pro 上线腾讯 WorkBuddy：官方称 Artificial Analysis 智能指数 46 分、开源第一，支持 1M 上下文与多智能体分工协作",
           "url": "https://www.ithome.com/1/015/533.htm",
           "source": "IT之家",
@@ -370,13 +377,6 @@
           "source": "21经济网 / 每日经济新闻",
           "date": "2026-10-20",
           "summary": "M3.1 Flash 采用更激进的稀疏结构，日常输出速度 200+ TPS（P50 约 170+ TPS），Agentic 任务综合成本约为前代三成；官方称 DeepSWE v1.1 达 73.7%、AutomationBench-AA 62.8%，OSWorld V2 61.7 分、Agents' Last Exam 29.6 分均居国产模型首位（厂商自测）。API 定价为每百万 tokens 输入 1 元、输出 4 元、缓存读取 0.1 元；距 DeepSeek V4.1-Flash-1017 更新仅 72 小时，MiniMax 还预告 Pro 版本即将到来。"
-        },
-        {
-          "title": "清华、原力灵机与极寰时代开源世界动作模型 LoopWAM：用部署中的成功、次优与失败轨迹闭环自提升，登顶真机榜 RoboChallenge Table30 V2，全程用阿里云国产 PPU 训练",
-          "url": "https://github.com/loop-wam/LoopWAM",
-          "source": "GitHub / 机器之心",
-          "date": "2026-10-20",
-          "summary": "LoopWAM 以 Wan2.2-TI2V-5B 视频模型为基础构建视频+动作双分支，将所有部署轨迹纳入视频预测训练，并通过质量 steering 与按质量加权的动作监督偏向高质量行为，无需额外专家演示或强化学习。三轮部署后 Table30 V2（30 项真机任务、4 种本体）成功率从 23.67% 升至 43.33%、过程分 56.80，均列榜首；仿真上 RoboTwin 2.0 平均成功率 94.5%、RoboCasa365 达 49.5%。论文 arXiv:2610.18873，模型均由阿里云 PPU-810E 训练。"
         }
       ]
     },
@@ -481,6 +481,18 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@kimmonismus",
+          "url": "https://x.com/kimmonismus/status/2112530523541352535",
+          "source": "@kimmonismus",
+          "date": "2026-10-20",
+          "summary": "2026 年菲尔兹奖得主 John Pardon 表示，AI 能读懂他最潦草的证明草稿、找出漏洞并得出非平凡的数学结果，“AI 理解了，100%”。",
+          "metrics": {
+            "likes": 148,
+            "reposts": 14,
+            "views": 4880
+          }
+        },
+        {
           "title": "@LiveSquawk",
           "url": "https://x.com/LiveSquawk/status/2112469992956473669",
           "source": "@LiveSquawk",
@@ -562,18 +574,6 @@
             "likes": 67,
             "reposts": 4,
             "views": 6346
-          }
-        },
-        {
-          "title": "@deepseek_ai",
-          "url": "https://x.com/deepseek_ai/status/2112476496283775135",
-          "source": "@deepseek_ai",
-          "date": "2026-10-20",
-          "summary": "DeepSeek 官方发推宣布内部推理框架 DeepInfer 全面开源，称其以高吞吐、低延迟支撑 DeepSeek-V4.1-Flash 的大规模服务，希望帮助社区降低算力成本与能耗；后续推文介绍同步开源的 deepseek-recipe，并称“开放模型、开放算子、开放推理”。",
-          "metrics": {
-            "likes": 38,
-            "reposts": 7,
-            "views": 5755
           }
         }
       ]
