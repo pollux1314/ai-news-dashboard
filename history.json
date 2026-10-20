@@ -1,7 +1,131 @@
 {
- "updated": "2026-10-20T21:40:00+08:00",
- "count": 775,
+ "updated": "2026-10-20T22:31:00+08:00",
+ "count": 785,
  "items": [
+  {
+   "title": "Adobe Lightroom 移动版上线生成式 AI“睁眼”快捷操作：检测到闭眼时一键把眼睛“打开”，并参考图库中同一人的其他照片匹配眼睛颜色、大小与形状",
+   "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
+   "source": "The Verge",
+   "date": "2026-10-20",
+   "summary": "据 The Verge，iOS、iPadOS 与 Android 版 Lightroom 检测到人物闭眼时会自动在图上显示 Open Eyes 快捷操作图标。与 Photoshop Elements 从另一张照片拼接眼睛不同，新功能用生成式 AI 让替换的眼睛匹配光线与姿态。免费版用户可试用两次，之后需订阅含更多 AI 积分的 Creative Cloud 方案。",
+   "id": "af3e08fe45e19629019572e01a2762adab56bfad",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "MIT 教授 Pulkit Agrawal 与前 DeepMind 研究员 Tuomas Haarnoja 创办的机器人公司 Eka 完成 1.5 亿美元 A 轮融资，投后估值 14.5 亿美元，a16z 与 F-Prime 领投",
+   "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "Eka Robotics 的操作架构结合力敏夹爪与一种新的深度学习模型。据 TechCrunch，其机械臂每小时可抓取约 1500 件、重量不超过 1 公斤的物品（人类约 600 件），公司称抓取成功率超过 95%。a16z 合伙人 Raghu Raguram 称其在部分任务上已超越人类，预计未来几个月会在更多灵巧操作任务上达到超人水平。",
+   "id": "208dc20e81cfcf4eac355dbe4f20a2fc283b5eb8",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "用 AI 模拟消费者行为做市场调研的 Vectorial 获 300 万美元种子轮，Smilegate 与 SenseAI Ventures 联合领投",
+   "url": "https://siliconangle.com/2026/10/20/ai-startup-vectorial-lands-3m-in-funding-to-simulate-human-behavior-for-consumer-research/",
+   "source": "SiliconANGLE",
+   "date": "2026-10-20",
+   "summary": "Vectorial 的平台用行为模型 SAPIENS 按目标人群模拟数千名用户，为产品与营销团队持续提供反馈；模型基于超过 250 万真实消费者的行为数据训练，公司称预测消费者行为比通用模型准确 30%、与真实用户研究对比准确率约 86%。客户包括 GoodRx 等，融资将用于扩充数据集并开发 SAPIENS 2.0。",
+   "id": "48436f10018369036bda1c47f0222943b8cd403f",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "Anthropic：内部研究模型在 Claude Science 中约 64 小时基本自主地设计针对蝎毒神经毒素的蛋白小结合体，生成 31.8 万个设计，211 个送实验室测试后 17 个达标",
+   "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+   "source": "Anthropic",
+   "date": "2026-10-20",
+   "summary": "项目与投资研究机构 Citrini Research 合作，检验非专家团队能否借 Claude 解决真实健康问题。研究模型只靠初始提示和 4 次追问完成设计，并在监督下分析数据、生成图表、起草报告；Adaptyv Bio 与 Twist Bioscience 做湿实验，17 个结合体分别结合四种对人类危险的蝎毒神经毒素。Anthropic 强调尚未验证能否在细胞环境中中和毒液，不声称做出了抗蛇毒血清，并公开全部 211 个设计及数据。",
+   "id": "c021c28354e5e9fa746ec1a8d4bae08bd2f92401",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "CoworkEnv：按能力需求自动合成可执行的“AI 同事”长程训练环境，用其 SFT 后 Qwen3-VL-8B 在 Claw-Eval 平均分从 46.6 提升到 64.1",
+   "url": "https://arxiv.org/abs/2610.24960",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-20",
+   "summary": "框架由工作流需求驱动任务构建，并用程序化校验与反馈修复检查生成的规格与评分逻辑；教师执行轨迹用于监督微调，学生交互产生强化学习所需的 rollout 与奖励，训练出小型 PocketWorker 模型。SFT 在多轮任务上提升 31.9 分，并可迁移到 ClawMark 基准；作者还比较了不同奖励处理与信用分配下的 RL 训练动态。",
+   "id": "d14e769c2c8f439a71bb2651ff9c1288e5fa96ff",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "Hugging Face 发布 AnyLanguageModel 1.0：可直接替换苹果 Foundation Models 框架的 Swift 库，同一套代码切换系统模型、llama.cpp/MLX/Core ML 本地开源模型与云端服务",
+   "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+   "source": "Hugging Face Blog",
+   "date": "2026-10-20",
+   "summary": "开发者只需把 import FoundationModels 改为 import AnyLanguageModel 即可选择模型与提供方。过去一年新增全提供方的工具调用与引导式生成（含嵌套 @Generable 类型）、图片输入，并在 OS 27 上兼容任何遵循 LanguageModel 协议的模型（含 Core AI 模型）；swift-huggingface 1.0 与 swift-xet 1.0 同步发布，用于加速从 Hub 下载模型。",
+   "id": "2596ff929aeef5579581b4037417df8135811f0e",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "腾讯元宝搜索升级并通过腾讯云对外开放：数千亿级索引、13 个行业 157 个权威信源，提供 Skill、MCP、API 三种接入，每月 2000 次免费额度",
+   "url": "https://www.geekpark.net/news/372649",
+   "source": "极客公园",
+   "date": "2026-10-20",
+   "summary": "元宝搜索此前已在腾讯内部规模化验证，日均调用数亿次，支撑 WorkBuddy、ima、腾讯金融科技、腾讯视频等 50 多个业务。此次升级以多源交叉验证抑制幻觉，排序链路引入 Gist Token 压缩以降低延迟与成本，支持千亿级向量实时索引；ima 接入后信源召回提升 10%，腾讯视频场景信息覆盖度扩展 20%。",
+   "id": "f9a00cb0db075a3734f7c426dcbce899db8d2faa",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "vllm-project/vllm",
+   "url": "https://github.com/vllm-project/vllm",
+   "source": "GitHub",
+   "stars": 94287,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-20",
+   "summary": "高吞吐、省显存的大模型推理与服务引擎，支持 CUDA、AMD、TPU 等硬件及 DeepSeek、Qwen、Kimi、gpt-oss 等主流开源模型，Apache 2.0。",
+   "why": "10 月 20 日登上 GitHub Trending，当日新增约 98 星，累计约 9.4 万星；仓库当天仍在持续提交。",
+   "id": "65e32dabe8c37cf04fa1a1771be5046c98b63b66",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "@kimmonismus",
+   "url": "https://x.com/kimmonismus/status/2112548663327158783",
+   "source": "@kimmonismus",
+   "date": "2026-10-20",
+   "summary": "转述 Anthropic 新研究：内部 Claude 研究模型仅凭初始提示和 4 次追问就基本独立完成了一个研究项目，结果经实验室验证，称这是“自主 AI 科学家”的开端。",
+   "metrics": {
+    "likes": 53,
+    "reposts": 2,
+    "views": 3107
+   },
+   "id": "49c977c18b1493625fb61ebf2f08d598ade8e7bd",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112536847427494249",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "The Information：数百家 AI 云服务商竞相建设数据中心，但高管们预计最终只有 7 到 10 家能活下来；英伟达正通过投资、信用支持和客户引荐维持这个市场。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 1,
+    "views": 2201
+   },
+   "id": "e1ac935267dfcc63837291a5350d4061df8f8a23",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T22:31:00+08:00"
+  },
   {
    "title": "自动驾驶飞机公司 Reliable Robotics 新获 1.15 亿美元，D 轮扩至 2.75 亿美元、估值突破 10 亿美元，其自主飞行系统正为塞斯纳 208B 货机申请适航认证",
    "url": "https://techcrunch.com/2026/10/20/spacex-alums-aviation-startup-reliable-robotics-lands-115m-topping-1b-valuation/",
