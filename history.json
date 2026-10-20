@@ -1,7 +1,150 @@
 {
- "updated": "2026-10-20T18:40:00+08:00",
- "count": 744,
+ "updated": "2026-10-20T19:45:00+08:00",
+ "count": 755,
  "items": [
+  {
+   "title": "谷歌云发布“面向政府服务的 Gemini”预览版：为美国联邦、州与地方机构提供政务专用技能、系统连接器与合作伙伴智能体，密苏里州与美国卫生与公众服务部已在使用",
+   "url": "https://www.googlecloudpresscorner.com/2026-10-20-Google-Public-Sector-Launches-Gemini-for-Government-Services",
+   "source": "Google Cloud Press Corner",
+   "date": "2026-10-20",
+   "summary": "Google Public Sector 在 2026 公共部门峰会上推出该智能体方案，是继法律版、金融服务版之后的又一行业套件。它预置法规解读、采购与供应商资质评估等技能，可连接 Google Workspace、SharePoint、Outlook 365、Salesforce、ServiceNow 及 eCFR/Federal Register 等政府系统，回答附带精确到页码段落的出处；埃森哲联邦服务、德勤、SAIC 等为合作伙伴。机构现有身份与访问控制自动继承，数据留在机构云边界内。",
+   "id": "80cacff6c00c9ba7c02c396d9536bb0289fb3e3b",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "Yelp 推出 AI 语音代打电话功能“Check for Me”：替用户致电餐厅询问排队时长并短信回传，AI 助手同时接入 OpenTable 订座并能记住偏好",
+   "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "用户在餐厅页面输入人数与手机号，AI 智能体便代为致电询问等位时间，再以短信告知结果。Yelp AI 助手新增 OpenTable 订座、跨对话记忆偏好、30 天聊天记录、自定义提醒和“去过/想去”清单，下月起推送每周个性化推荐；面向商家推出每月 30 美元的 Smart Lead Reply，可自动回复客户并筛选线索。",
+   "id": "33f72cf8b33fabf0bfc9783ae0a70c0b40b5b625",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "Meshy 发布 Meshy Edit：基于自研新模型，圈选 3D 模型区域、一句话描述改动，约一分钟生成新模型且未选中部分保持不变",
+   "url": "https://www.qbitai.com/2026/10/504415.html",
+   "source": "量子位",
+   "date": "2026-10-20",
+   "summary": "Meshy Edit 支持套索整块选区（同时覆盖正侧背面）或画笔微调，可附最多 5 张参考图；每次编辑生成新模型、原模型保留，可直接送切片软件 3D 打印。已向全部注册用户开放，每次消耗 20 积分，支持 Meshy 6 与 Meshy 7.1 高精度模型。Meshy 由胡渊鸣创立，截至 9 月注册用户超 1500 万，ARR 突破 1 亿美元。",
+   "id": "b73531141d99eb71d278abe9d9daf7e12dead1d3",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "会议纪要工具 Otter.ai 从 General Catalyst 客户价值基金获得 3.2 亿美元非稀释性融资，用于企业市场、国际扩张与产品创新",
+   "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "General Catalyst 的 Customer Value Fund（CVF）不稀释股权，按营销投入带来的收入获取回报。据 PitchBook，Otter 此前累计股权融资仅 5000 万美元、上一轮在 2021 年；公司去年 ARR 突破 1 亿美元，累计用户从去年的 2500 万增至 4000 万。Otter 正测试会前简报与会中实时问答“Live Assist”，与 Fireflies、Granola、Read AI 等竞争。",
+   "id": "697eb620bfd36fec37637ea13f9f91de9fcd188f",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "AdaExploreBench：用隐藏规则与无预告的规则漂移测试 LLM 智能体主动探索与测试时适应，八个主流模型中 GPT-6 Sol 校准准确率仅 61.9%",
+   "url": "https://arxiv.org/abs/2610.25950",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "基准把环境动态设为隐藏规则，要求智能体主动收集证据推断规则；在隐式规则漂移下，智能体需从表现下降中察觉旧知识已过时并重新探索。实验显示，提供充分证据或去掉规则漂移可让平均表现提升近 10%，说明当前智能体能基于有效证据推理，但难以主动获取正确证据、识别证据失效。",
+   "id": "934a38edf2b4eee9c74b2b74e47b54c3f9618194",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "是石科技发布分布式推理调度框架 TokenFleet：GLM-5.3 实测中预测延迟路由使 P95 首 Token 延迟降 32.4%、P50 降 71.3%",
+   "url": "https://www.qbitai.com/2026/10/504421.html",
+   "source": "量子位",
+   "date": "2026-10-20",
+   "summary": "TokenFleet 在 2026 CCF 全国高性能计算学术大会期间发布，含三项技术：TokenPilot 综合 KV 缓存复用收益与排队代价选实例，FleetMind 做跨机房容量协同，SLOMax 负责混合负载准入与队列治理。公司给出的 GLM-5.3 收益测算示例中，总输出吞吐增约 1.5%，达标输出吞吐提高约 29.4%，达标比例从约 67% 升至约 86%（均为厂商数据）。",
+   "id": "90f4376e221f047a7b35ccaaeea3ed00372f35bb",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "DietrichGebert/ponytail",
+   "url": "https://github.com/DietrichGebert/ponytail",
+   "source": "GitHub",
+   "stars": 168635,
+   "stars_week": null,
+   "language": "JavaScript",
+   "date": "2026-10-20",
+   "summary": "给 Claude Code、Cursor 等编程智能体用的技能/规则包，让智能体像“最懒的资深工程师”一样思考，遵循 YAGNI，优先少写代码、不写多余代码。",
+   "why": "10 月 20 日登上 GitHub Trending，当日新增约 1007 星，累计约 16.9 万星。",
+   "id": "dbd5adafc40739487d3203587de8fb38bbf92997",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "cloudflare/security-audit-skill",
+   "url": "https://github.com/cloudflare/security-audit-skill",
+   "source": "GitHub",
+   "stars": 33055,
+   "stars_week": null,
+   "language": "JavaScript",
+   "date": "2026-10-20",
+   "summary": "Cloudflare 开源的编程智能体技能：分多个阶段做安全审计，每条发现都经过独立验证，并以机器可读格式输出，MIT 许可。",
+   "why": "10 月 20 日 GitHub Trending 上榜，当日新增约 849 星，累计约 3.3 万星。",
+   "id": "6426decba2ef7b96f71b59cf09f9d9099db6345d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "kanaworksai-hue/audio-studio-mcp",
+   "url": "https://github.com/kanaworksai-hue/audio-studio-mcp",
+   "source": "GitHub",
+   "stars": 295,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-20",
+   "summary": "本地运行的 AI 配乐与音效 MCP 服务器：让 Claude Code、Cursor 等客户端用一句话调用 Stable Audio 3 生成 BGM/音效，并可无缝循环、响度标准化后导出 WAV/OGG/FLAC，支持 Apple Silicon（MLX）与 NVIDIA GPU，无需云服务或 API Key。",
+   "why": "10 月 18 日新建，两天获约 295 星，是近几天新建 AI 仓库星标增速前列。",
+   "id": "643ce8037c5c9af623358b3f8fad32f419262931",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "@googlecloud",
+   "url": "https://x.com/googlecloud/status/2112484617429114973",
+   "source": "@googlecloud",
+   "date": "2026-10-20",
+   "summary": "谷歌云官方发推宣布“面向政府服务的 Gemini”进入预览：为公共部门工作流提供专用技能、安全连接器和合作伙伴智能体，并内置治理能力。",
+   "metrics": {
+    "likes": 23,
+    "reposts": 3,
+    "views": 4184
+   },
+   "id": "307c431c69ecaf256d62a74fb944248fd3b58f32",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2112501351968055302",
+   "source": "@TechCrunch",
+   "date": "2026-10-20",
+   "summary": "TechCrunch 发推报道：会议纪要工具 Otter.ai 宣布从 General Catalyst 客户价值基金（CVF）获得 3.2 亿美元，该基金不稀释股权、按营销投入的成效获取回报。",
+   "metrics": {
+    "likes": 5,
+    "reposts": 0,
+    "views": 5328
+   },
+   "id": "bbda80b94ed96a4b8a31e4ef0334f28c480971d3",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T19:45:00+08:00"
+  },
   {
    "title": "EgoXperience：第一视角视频全栈重建范式，自动标注引擎产出 50 小时 EgoX-Data-6M，EgoX 单次前向即可在统一世界坐标系下联合重建相机、场景、手与物体",
    "url": "https://arxiv.org/abs/2610.26625",
