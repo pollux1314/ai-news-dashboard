@@ -1,7 +1,162 @@
 {
- "updated": "2026-10-21T04:31:00+08:00",
- "count": 861,
+ "updated": "2026-10-21T05:37:00+08:00",
+ "count": 874,
  "items": [
+  {
+   "title": "WSJ 获泄露 S-1：Anthropic 难从 AWS、谷歌、微软拿到足够算力——三大云厂商日益把它视为竞争对手；云合同潜在支出或超 7500 亿美元",
+   "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+   "source": "TechCrunch / WSJ",
+   "date": "2026-10-20",
+   "summary": "据《华尔街日报》获得的泄露 S-1 文件，Anthropic 正自租数据中心并与第三方运营商合作，但担心后者“经营历史有限”、可靠性不及超大规模云厂商。文件显示其上半年净亏损 807 亿美元、营收 163 亿美元，两家客户约占五分之一营收；并警告有害 AI 行为造成的损害赔偿可能超过保险覆盖。公司上周告诉潜在投资者第三季度营收已达 168 亿美元、环比增 45%，据报计划 11 月 IPO。",
+   "id": "9ea810a533713aeb54ac0309fa028960896ca838",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "SpaceX 三季度营收 146 亿美元、重回盈利（净利润 44 亿美元）：更名为“Super Intelligence”的 AI 业务营收 75 亿美元、占比 52%，马斯克预计 2027 年底 ARR 达 5000 亿至 1 万亿美元",
+   "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "AI 业务涵盖新近收购的 Cursor 编码工具、Grok 及拥有 1.7GW 算力的新云业务，实现利润 4.31 亿美元（含 Cursor 收购相关 12 亿美元一次性股权激励）。季度资本开支 196 亿美元，CFO 称四季度将投入 350–400 亿美元，用于 Colossus II 与星舰；马斯克称每周有四天在孟菲斯推进 Colossus II，并认为超级智能部署的瓶颈在电力、散热与基础设施而非芯片。",
+   "id": "38bd10c8e49d1d2ab4a085e37403f6612579ccbf",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "OpenAI 前 Preparedness 负责人 Aleksander Madry 结束“休假”回归，将与首席科学家 Jakub Pachocki 共同应对更强 AI 的安全与安保挑战",
+   "url": "https://www.benzinga.com/markets/private-markets/26/10/62451821/openai-safety-expert-returns-after-months-away-citing-rising-ai-risks",
+   "source": "Benzinga",
+   "date": "2026-10-20",
+   "summary": "Madry 今年 5 月离开 OpenAI，称当时想专注让 AI 更有用，但“我们已进入 AI 进展的不同阶段”，安全与安保必须成为核心优先事项。Pachocki 回应称自己关注 AI 进展的速度与影响应如何指导 OpenAI 及整个领域的战略，是他请 Madry 回来；奥特曼也发文致谢。Madry 此前曾任 MIT 可部署机器学习中心主任。",
+   "id": "eae235d3fb4bc29af9d5f16fbfca52f30ea7758d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "彭博：前谷歌 CEO 埃里克·施密特约持有 Anthropic 1% 股份，约为 CEO Dario Amodei（约 2%）的一半",
+   "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+   "source": "TechCrunch / Bloomberg",
+   "date": "2026-10-20",
+   "summary": "施密特在 2021 年 A 轮（PitchBook 称当时估值 4.61 亿美元）投入数千万美元。Anthropic 预计年内上市，若按最高约 2 万亿美元估值计算，这笔股份价值约 200 亿美元；施密特其他 AI 投资还包括 Mistral、General Intuition 与 Reflection AI。",
+   "id": "2f7a561d0868a8a6426cf94ced1808b5d853e38d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "InfiniDream：VLM 驱动的开放式程序化 3D 世界生成，用“符号约束资产生成”借助现有程序化算法造出新的照片级资产，并保留可编辑性与按种子多样性",
+   "url": "https://arxiv.org/abs/2610.26853",
+   "source": "arXiv / Alaya Lab",
+   "date": "2026-10-20",
+   "summary": "针对 VLM 写代码生成的 3D 资产过于简单、而照片级程序化系统需大量手工开发的问题，InfiniDream 不再受限于预定义工厂与 API，可生成全新资产类型；同时构建端到端文生世界管线，把语义场景规划与程序化资产结合，生成开放式照片级 3D 世界，适用于合成数据与游戏开发。",
+   "id": "54113f2bc6a58b86be103032b69302fdd4402d26",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "Manga2Animate：多智能体框架把现有漫画忠实改编成动画——先产出动画脚本与视觉分镜两种中间表示，每步由创作智能体生成、审阅智能体对照原漫画画格把关",
+   "url": "https://arxiv.org/abs/2610.26851",
+   "source": "arXiv / 阳明交通大学",
+   "date": "2026-10-20",
+   "summary": "现有方法要么只通过文字读取漫画、丢失角色与画风，要么把整页直接喂给视频模型导致剧情错误。Manga2Animate 让生成全程以原作为依据，通过表示特定的选择机制与双层反馈逐步细化脚本与分镜后再合成动画，实验与用户研究显示在忠实度上优于基线。",
+   "id": "30a7c97540c621da57da4632153c4232a7c75760",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "英伟达开源 Cosmos3-H-Dreams：首个基于真实胆囊切除手术录像训练、支持实时运动学控制的生成式手术模拟器，单张 RTX PRO 6000 即可交互运行",
+   "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+   "source": "Hugging Face / NVIDIA",
+   "date": "2026-10-20",
+   "summary": "基于 16B 的 Cosmos3-H-Embodied-Nano，在 CMR Surgical Versius 平台的临床视频与机器人运动学数据上专门化，使用 28 维动作（双臂位姿、夹爪、能量控制等）；通过 Self-Forcing 蒸馏出 4 步与 2 步两个实时学生模型，借助 FlashDreams 流式推理与 FadeMem 缓存压缩支持长时间推演。代码、权重与微调蒸馏教程均已开放；英伟达强调其为研究用模拟器，不用于临床。",
+   "id": "4eb9f7080b11166ecabe823c8b93aa97e58d2978",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "Gathin23/cleanyourtv",
+   "url": "https://github.com/Gathin23/cleanyourtv",
+   "source": "GitHub",
+   "stars": 11257,
+   "stars_week": null,
+   "language": "Java",
+   "date": "2026-10-20",
+   "summary": "通过 Wi‑Fi 给任意 Android TV / Google TV 去除预装臃肿软件，并换上类 Apple TV 的干净桌面：把仓库里的 PROMPT.md 粘贴给 Claude Code、Codex 或 Gemini CLI，由编码智能体在局域网发现电视、识别该品牌的广告与预装包并逐一询问后处理；无需 root、不卸载任何东西，一行命令即可还原，README 附上百款已验证机型。",
+   "why": "10 月 17 日创建，四天约 1.1 万星，是本周新建仓库星标第一，也是“用 AI 智能体给电视去广告”这波热潮中最火的项目。",
+   "id": "ab0e470b36e49b22d49ee5e563c3d92c246221aa",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "soumatheusgomes/editonny",
+   "url": "https://github.com/soumatheusgomes/editonny",
+   "source": "GitHub",
+   "stars": 274,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-20",
+   "summary": "面向 Claude Code 与 Codex 的开源视频剪辑 Skill（MIT）：用自然语言让智能体剪掉停顿和口误、加字幕、修音频、重新构图，并把口播片段转成动态图形场景；转写与渲染全部在本地完成。",
+   "why": "10 月 19 日开源，一天多约 270 星，进入近期新建仓库星标前列。",
+   "id": "afbac499664dd9915ad30e6f7ccbec2803f12442",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2112657380064268409",
+   "source": "@TechCrunch",
+   "date": "2026-10-20",
+   "summary": "据报 Anthropic 难以从日益把它视为竞争对手的云厂商处获得足够算力，而其基础设施支出正在 11 月计划 IPO 前急剧膨胀。",
+   "metrics": {
+    "likes": 2,
+    "reposts": 0,
+    "views": 3458
+   },
+   "id": "38547c14c685ee15ca43bfa37cc7672d73191a68",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "@sama",
+   "url": "https://x.com/sama/status/2112652656602923366",
+   "source": "@sama",
+   "date": "2026-10-20",
+   "summary": "奥特曼感谢 Aleksander Madry 接受邀请回归 OpenAI：“在迈向超级智能的过程中，我们面临的安全与安保挑战极其巨大”，称 Madry 具备出色的技能来应对。",
+   "metrics": {
+    "likes": 831,
+    "reposts": 29,
+    "views": 78665
+   },
+   "id": "79a61ce7b86bed8871e5f674ed2a26b1170673e6",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
+  {
+   "title": "@aleks_madry",
+   "url": "https://x.com/aleks_madry/status/2112231448103239998",
+   "source": "@aleks_madry",
+   "date": "2026-10-20",
+   "summary": "Madry 宣布重返 OpenAI：原以为的离职“更像一次休假”；AI 进展已进入新阶段，处理好更强 AI 的安全与安保挑战必须成为核心优先事项，他将加入首席科学家 Jakub Pachocki（@merettm）一同推进。",
+   "metrics": {
+    "likes": 1992,
+    "reposts": 69,
+    "views": 325003
+   },
+   "id": "bf5dcd59ef4dc49bc942036fd8556d8607ebe6d6",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T05:37:00+08:00"
+  },
   {
    "title": "谷歌把“Personal Intelligence with Gemini”带进汽车：Android Auto 今日起上线，可调用 Gmail、日历、地图、YouTube 和搜索记录给出个性化回答，Google Built-in 车型数月内跟进",
    "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
@@ -2558,6 +2713,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "市场监管总局（国家标准委）发布钢铁行业首批三项人工智能国家标准化指导性技术文件，覆盖应用场景分类、钢铁大模型数据集与服务能力成熟度评估",
+   "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_f0525752113140c88bcbead0c2440ecb.html",
+   "source": "市场监管总局",
+   "date": "2026-10-19",
+   "summary": "三项文件为 GB/Z 224—2026《人工智能 钢铁行业应用场景分类指南》、GB/Z 231—2026《人工智能 钢铁大模型数据集技术要求》与 GB/Z 241—2026《人工智能 钢铁大模型服务能力成熟度评估》，由钢研、宝武、宝信等 50 余家单位联合编制，构建“场景分类—数据集规范—成熟度评估”闭环，推动 AI 赋能钢铁从试点走向规模化落地。",
+   "id": "dacc9dad4f4543d41fafb2e25be5e51737e82e3c",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T05:37:00+08:00"
   },
   {
    "title": "MemT-1.0：把记忆内化为模型计算的“记忆原生”基础模型，基于 Gated DeltaNet-2 与 Mixture-of-Storage，128K 历史下推理提速约 1.86 倍、持久存储较完整 KV 缓存降低 66 倍",

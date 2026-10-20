@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-21T04:31:00+08:00",
+ "updated": "2026-10-21T05:37:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,34 @@
    "icon": "💰",
    "items": [
     {
+     "title": "WSJ 获泄露 S-1：Anthropic 难从 AWS、谷歌、微软拿到足够算力——三大云厂商日益把它视为竞争对手；云合同潜在支出或超 7500 亿美元",
+     "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+     "source": "TechCrunch / WSJ",
+     "date": "2026-10-20",
+     "summary": "据《华尔街日报》获得的泄露 S-1 文件，Anthropic 正自租数据中心并与第三方运营商合作，但担心后者“经营历史有限”、可靠性不及超大规模云厂商。文件显示其上半年净亏损 807 亿美元、营收 163 亿美元，两家客户约占五分之一营收；并警告有害 AI 行为造成的损害赔偿可能超过保险覆盖。公司上周告诉潜在投资者第三季度营收已达 168 亿美元、环比增 45%，据报计划 11 月 IPO。"
+    },
+    {
+     "title": "SpaceX 三季度营收 146 亿美元、重回盈利（净利润 44 亿美元）：更名为“Super Intelligence”的 AI 业务营收 75 亿美元、占比 52%，马斯克预计 2027 年底 ARR 达 5000 亿至 1 万亿美元",
+     "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+     "source": "TechCrunch",
+     "date": "2026-10-20",
+     "summary": "AI 业务涵盖新近收购的 Cursor 编码工具、Grok 及拥有 1.7GW 算力的新云业务，实现利润 4.31 亿美元（含 Cursor 收购相关 12 亿美元一次性股权激励）。季度资本开支 196 亿美元，CFO 称四季度将投入 350–400 亿美元，用于 Colossus II 与星舰；马斯克称每周有四天在孟菲斯推进 Colossus II，并认为超级智能部署的瓶颈在电力、散热与基础设施而非芯片。"
+    },
+    {
+     "title": "OpenAI 前 Preparedness 负责人 Aleksander Madry 结束“休假”回归，将与首席科学家 Jakub Pachocki 共同应对更强 AI 的安全与安保挑战",
+     "url": "https://www.benzinga.com/markets/private-markets/26/10/62451821/openai-safety-expert-returns-after-months-away-citing-rising-ai-risks",
+     "source": "Benzinga",
+     "date": "2026-10-20",
+     "summary": "Madry 今年 5 月离开 OpenAI，称当时想专注让 AI 更有用，但“我们已进入 AI 进展的不同阶段”，安全与安保必须成为核心优先事项。Pachocki 回应称自己关注 AI 进展的速度与影响应如何指导 OpenAI 及整个领域的战略，是他请 Madry 回来；奥特曼也发文致谢。Madry 此前曾任 MIT 可部署机器学习中心主任。"
+    },
+    {
+     "title": "彭博：前谷歌 CEO 埃里克·施密特约持有 Anthropic 1% 股份，约为 CEO Dario Amodei（约 2%）的一半",
+     "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
+     "source": "TechCrunch / Bloomberg",
+     "date": "2026-10-20",
+     "summary": "施密特在 2021 年 A 轮（PitchBook 称当时估值 4.61 亿美元）投入数千万美元。Anthropic 预计年内上市，若按最高约 2 万亿美元估值计算，这笔股份价值约 200 亿美元；施密特其他 AI 投资还包括 Mistral、General Intuition 与 Reflection AI。"
+    },
+    {
      "title": "万事达开放 Agent Pay for Machines 早期访问：基于开放支付协议 x402 并接入万事达网络，让 AI 智能体在授权预算内按用量购买数字服务，无需单独账户、API Key 或发票",
      "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mastercard-debuts-tool-to-help-ai-agents-purchase-digital-services/",
      "source": "PYMNTS / Mastercard",
@@ -97,34 +125,6 @@
      "source": "CNBC",
      "date": "2026-10-20",
      "summary": "Braze 周一收于 30.04 美元，消息公布后短暂停牌、随后大涨逾 50%；Salesforce 股价小幅下跌约 1%。交易预计在 Salesforce 2028 财年完成，尚需 Braze 股东与监管批准。Braze 提供基于 AI 的客户数据与消息触达工具；这是 Salesforce 继数月前以约 36 亿美元收购 AI 客服平台 Fin 之后的又一笔 AI 相关并购，也延续其 8 月与 Anthropic 扩大合作（推出 Claudeforce 插件）的智能体布局。"
-    },
-    {
-     "title": "关键基础设施 AI 公司 ASI（原 Air Space Intelligence）完成 3.25 亿美元 C 轮、估值 30 亿美元，Spark Capital 领投，Citadel Securities、a16z 等参投",
-     "url": "https://www.financialcontent.com/article/bizwire-2026-10-20-asi-secures-325m-series-c-at-3b-valuation-to-power-americas-critical-infrastructure-with-ai",
-     "source": "Business Wire / Bloomberg",
-     "date": "2026-10-20",
-     "summary": "ASI 用持续前向仿真为空管、电网、国防后勤等预测未来数小时至数周的态势。公司今年 6 月获美国交通部/FAA 8.75 亿美元国家空域系统现代化项目，美国陆军另授予 9900 万美元合同用于下一代指挥控制（NGC2）；客户还包括达美、阿拉斯加与联合航空及 National Grid。新资金将用于能源、物流和战术边缘部署，并扩充波士顿的前沿 AI 研究团队。"
-    },
-    {
-     "title": "Meta 独立 AI 助手 Muse 上线约 40 天在美国下载量突破 1000 万，Sensor Tower 称其是第 12 款在 40 天内达成该里程碑的应用",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1014440/metas-muse-ai-hits-10-million-us-downloads",
-     "source": "The Verge / Sensor Tower",
-     "date": "2026-10-20",
-     "summary": "Muse 于 9 月推出。Sensor Tower 认为其增长部分得益于 Meta 规模可观的广告投放。"
-    },
-    {
-     "title": "Spotify：过去一年已从推荐中移除逾 5000 万首被认定为 AI 劣质内容或垃圾的歌曲，并调整推荐系统更多突出人类音乐人",
-     "url": "https://www.theverge.com/entertainment/1014284/spotify-ai-slop-spam-songs-removed",
-     "source": "The Verge",
-     "date": "2026-10-20",
-     "summary": "Spotify 称编辑也不会为这类内容编排歌单，调整后听众相关投诉明显下降。它没有强制给所有 AI 曲目加标签，而是推出“AI Persona”标识，用于以 AI 身份出现、不代表真人的艺人，并且不推荐此类音乐；判定依据包括收听互动与反馈、上传模式、元数据及第三方 AI 检测工具。同时它正与环球音乐、Believe 合作推出 AI 混音创作工具。"
-    },
-    {
-     "title": "Electric Plant 获 1120 万美元种子轮：自研“植物电信号大模型” Bombadil，读取茎干内微伏级电信号判断约 125 种植物的需水、需肥与光照状况",
-     "url": "https://techcrunch.com/2026/10/20/plants-can-speak-using-electricity-so-this-startup-built-an-ai-model-to-decipher-their-language/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "本轮由 Onto Ventures 与 Climactic 领投。传感器约折叠 iPhone 大小，用不锈钢螺钉接入形成层，每英亩只需几枚，单价几十美元，远低于动辄上千美元的现有设备；数据经低功耗无线网络上传，由云端 Bombadil 解读后回传给种植者调整灌溉与施肥。公司称可在增产的同时节水 20% 以上。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "InfiniDream：VLM 驱动的开放式程序化 3D 世界生成，用“符号约束资产生成”借助现有程序化算法造出新的照片级资产，并保留可编辑性与按种子多样性",
+     "url": "https://arxiv.org/abs/2610.26853",
+     "source": "arXiv / Alaya Lab",
+     "date": "2026-10-20",
+     "summary": "针对 VLM 写代码生成的 3D 资产过于简单、而照片级程序化系统需大量手工开发的问题，InfiniDream 不再受限于预定义工厂与 API，可生成全新资产类型；同时构建端到端文生世界管线，把语义场景规划与程序化资产结合，生成开放式照片级 3D 世界，适用于合成数据与游戏开发。"
+    },
+    {
+     "title": "Manga2Animate：多智能体框架把现有漫画忠实改编成动画——先产出动画脚本与视觉分镜两种中间表示，每步由创作智能体生成、审阅智能体对照原漫画画格把关",
+     "url": "https://arxiv.org/abs/2610.26851",
+     "source": "arXiv / 阳明交通大学",
+     "date": "2026-10-20",
+     "summary": "现有方法要么只通过文字读取漫画、丢失角色与画风，要么把整页直接喂给视频模型导致剧情错误。Manga2Animate 让生成全程以原作为依据，通过表示特定的选择机制与双层反馈逐步细化脚本与分镜后再合成动画，实验与用户研究显示在忠实度上优于基线。"
+    },
     {
      "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
      "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
@@ -174,20 +188,6 @@
      "source": "arXiv / Hugging Face Daily Papers",
      "date": "2026-10-20",
      "summary": "候选 harness 用 LLM 生成的测试评估，无需真值或官方测试；专门的智能体诊断执行轨迹、按不同性能—成本优先级规划改动并实现成候选，再用归一化加权平方距离挑出三档供下一轮迭代。实验覆盖 Terminal-Bench 2、SWE-Bench Pro 与 ProgramBench，GLM-5.2+Claude Code 组合下优势同样成立，代码已开源。"
-    },
-    {
-     "title": "MemT-1.0：把记忆内化为模型计算的“记忆原生”基础模型，基于 Gated DeltaNet-2 与 Mixture-of-Storage，128K 历史下推理提速约 1.86 倍、持久存储较完整 KV 缓存降低 66 倍",
-     "url": "https://arxiv.org/abs/2610.26825",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-19",
-     "summary": "在 Metis 基础上用轮内 token 级稳定记忆更新，并以 Mixture-of-Storage 扩展原生记忆容量；经继续预训练和后训练（34B tokens）发布 MemT-1.0-Nano 与 Flash。平均优于参数化记忆基线、与检索增强方法相当并基本保持通用能力，内化程序性经验后智能体任务成功率提升。"
-    },
-    {
-     "title": "Holi-World：从人类第一视角经验构建“整体世界智能”，自动把录像转成连接场景结构、物体状态与交互历史的世界记录，训练出 HOLIWORLD-VL-4B",
-     "url": "https://arxiv.org/abs/2610.26549",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-19",
-     "summary": "Ropedia 团队提出覆盖采集、世界表示、自动数据构建、模型学习与独立评测的一体化体系：HOLIWORLD-Foundry 结合静态与动态感知自动生成世界记录，HOLIWORLD-Data 从约 100 个自采场景整理出约 8 万条问答用于训练 4B 视觉语言模型，并以独立人工标注构建 HOLIWORLD-Bench；在 ScanNet、ScanNet++、Aria Digital Twin 等上表现强劲。10 月 20 日 HF 每日论文点赞约 100。"
     }
    ]
   },
@@ -196,6 +196,13 @@
    "name": "开源与工具",
    "icon": "🛠️",
    "items": [
+    {
+     "title": "英伟达开源 Cosmos3-H-Dreams：首个基于真实胆囊切除手术录像训练、支持实时运动学控制的生成式手术模拟器，单张 RTX PRO 6000 即可交互运行",
+     "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+     "source": "Hugging Face / NVIDIA",
+     "date": "2026-10-20",
+     "summary": "基于 16B 的 Cosmos3-H-Embodied-Nano，在 CMR Surgical Versius 平台的临床视频与机器人运动学数据上专门化，使用 28 维动作（双臂位姿、夹爪、能量控制等）；通过 Self-Forcing 蒸馏出 4 步与 2 步两个实时学生模型，借助 FlashDreams 流式推理与 FadeMem 缓存压缩支持长时间推演。代码、权重与微调蒸馏教程均已开放；英伟达强调其为研究用模拟器，不用于临床。"
+    },
     {
      "title": "Bria 发布并开源 Fibo 2：8B 统一图像生成与编辑模型，全部使用授权数据训练，称在 Artificial Analysis 图像编辑榜位列开源权重第一",
      "url": "https://docs.bria.ai/whats-new/fibo-2",
@@ -244,13 +251,6 @@
      "source": "机器之心",
      "date": "2026-10-20",
      "summary": "框架通过适配器层抹平不同厂商设备的接口差异，设备以显式声明的能力参与动态编排；执行记忆自动维护样品位置与设备状态，未经确认的状态一律视为“未知”；每次动作与观测都可回放，并能对历史失败轨迹聚类归因。运动类调用前触发安全护栏、异常时自动回到安全位姿（夹持样品时带载回退而不丢样）。代码已在 GitHub openJiuwen-ai/jiuwensymbiosis 开源。"
-    },
-    {
-     "title": "谷歌与 Meta 合作开源 TorchTPU：为 Google TPU 提供原生 PyTorch 后端，结合 eager 执行优化与 torch.compile 集成，模型开箱即用迁移到 TPU",
-     "url": "https://arxiv.org/abs/2610.24161",
-     "source": "arXiv / Google & Meta",
-     "date": "2026-10-20",
-     "summary": "技术报告介绍 TorchTPU 的“eager/编译混合”架构：通过 eager 执行优化、torch.compile 集成与原生硬件加速，在推理与训练上提供与业界相当的性能，降低 PyTorch 用户迁移 TPU 的门槛。此前一天亚马逊也推出 TorchNeuron 让 PyTorch 原生跑在 Trainium 上，云厂商自研芯片正争相打通 PyTorch 生态。"
     }
    ]
   },
@@ -372,11 +372,11 @@
      "summary": "报道称本轮“增资不加价”，新老股东对半分额；腾讯出资 100 亿元，网易、京东、砺思、IDG 各 30 亿元，新进股东均为产业资本（石溪资本、中芯聚源、君联、CPE 源峰、吉利），国家 AI 产业投资基金同步参与，红杉、高瓴缺席。文中援引 The Information：2026 年前 7 个月营收 4.75 亿元、API 毛利率 82.9%，但净亏 7.15 亿元、算力投入 110 亿元；资金重点投向乌兰察布 GW 级智算中心（计划部署 16 万颗昇腾 950DT），并计划年底递表、2027 年登陆科创板。融资消息此前已有报道，本文披露更多股东与财务细节。"
     },
     {
-     "title": "小米 MiMo-V2.6-Pro 上线腾讯 WorkBuddy：官方称 Artificial Analysis 智能指数 46 分、开源第一，支持 1M 上下文与多智能体分工协作",
-     "url": "https://www.ithome.com/1/015/533.htm",
-     "source": "IT之家",
-     "date": "2026-10-20",
-     "summary": "MiMo-V2.6 系列于 9 月 22 日发布并开源，包含 Pro 与 Flash 两款原生全模态模型（图像、视频、音频、文本联合理解），小米称其是探索 RSI（递归自我改进）路径的关键一步。API 沿用 V2.5 定价：Flash 每百万 token 输入 1 元/输出 2 元，Pro 3 元/6 元，并提供 99% 缓存折扣。"
+     "title": "市场监管总局（国家标准委）发布钢铁行业首批三项人工智能国家标准化指导性技术文件，覆盖应用场景分类、钢铁大模型数据集与服务能力成熟度评估",
+     "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_f0525752113140c88bcbead0c2440ecb.html",
+     "source": "市场监管总局",
+     "date": "2026-10-19",
+     "summary": "三项文件为 GB/Z 224—2026《人工智能 钢铁行业应用场景分类指南》、GB/Z 231—2026《人工智能 钢铁大模型数据集技术要求》与 GB/Z 241—2026《人工智能 钢铁大模型服务能力成熟度评估》，由钢研、宝武、宝信等 50 余家单位联合编制，构建“场景分类—数据集规范—成熟度评估”闭环，推动 AI 赋能钢铁从试点走向规模化落地。"
     }
    ]
   },
@@ -385,6 +385,28 @@
    "name": "GitHub 热门 AI 项目",
    "icon": "⭐",
    "items": [
+    {
+     "title": "Gathin23/cleanyourtv",
+     "url": "https://github.com/Gathin23/cleanyourtv",
+     "source": "GitHub",
+     "stars": 11257,
+     "stars_week": null,
+     "language": "Java",
+     "date": "2026-10-20",
+     "summary": "通过 Wi‑Fi 给任意 Android TV / Google TV 去除预装臃肿软件，并换上类 Apple TV 的干净桌面：把仓库里的 PROMPT.md 粘贴给 Claude Code、Codex 或 Gemini CLI，由编码智能体在局域网发现电视、识别该品牌的广告与预装包并逐一询问后处理；无需 root、不卸载任何东西，一行命令即可还原，README 附上百款已验证机型。",
+     "why": "10 月 17 日创建，四天约 1.1 万星，是本周新建仓库星标第一，也是“用 AI 智能体给电视去广告”这波热潮中最火的项目。"
+    },
+    {
+     "title": "soumatheusgomes/editonny",
+     "url": "https://github.com/soumatheusgomes/editonny",
+     "source": "GitHub",
+     "stars": 274,
+     "stars_week": null,
+     "language": "Python",
+     "date": "2026-10-20",
+     "summary": "面向 Claude Code 与 Codex 的开源视频剪辑 Skill（MIT）：用自然语言让智能体剪掉停顿和口误、加字幕、修音频、重新构图，并把口播片段转成动态图形场景；转写与渲染全部在本地完成。",
+     "why": "10 月 19 日开源，一天多约 270 星，进入近期新建仓库星标前列。"
+    },
     {
      "title": "HeyChengC/wallstreet-explainer",
      "url": "https://github.com/HeyChengC/wallstreet-explainer",
@@ -450,28 +472,6 @@
      "date": "2026-10-20",
      "summary": "一条 Claude Code 提示词即可通过 Wi-Fi/ADB 给慢且满是广告的 Android TV 去臃肿（只禁用不卸载、可还原），并装上带轮播自然壁纸的极简 Apple TV 风格桌面；作者在 2GB 内存的 TCL Google TV 上禁用 25 个应用，桌面内存占用从 192MB 降到 83MB。",
      "why": "10 月 19 日（北京时间）创建约两天近 300 星，属于本周“用编程智能体清理智能电视”热潮中的又一新项目（与 free-my-tv、tv-detox 同类）。"
-    },
-    {
-     "title": "nichochar/ari",
-     "url": "https://github.com/nichochar/ari",
-     "source": "GitHub",
-     "stars": 158,
-     "stars_week": null,
-     "language": "TypeScript",
-     "date": "2026-10-20",
-     "summary": "“纸笔 + AI 导师”学习工具（MIT）：在纸上方架一个摄像头，Ari 能实时看到你写的内容，按需生成课程与练习、边做边答疑并批改作业；本地运行，复用 ChatGPT/Codex 订阅登录，无需 API key。",
-     "why": "10 月 18 日创建，两天约 160 星；把多模态模型用于手写数学/物理练习辅导的轻量开源方案。"
-    },
-    {
-     "title": "simbasjungles/free-my-tv",
-     "url": "https://github.com/simbasjungles/free-my-tv",
-     "source": "GitHub",
-     "stars": 1195,
-     "stars_week": null,
-     "language": "Java",
-     "date": "2026-10-20",
-     "summary": "用 Claude Code 构建的开源无广告电视桌面，支持 Google TV、LG 与 Samsung 电视：常用应用置顶、每小时从已装应用里推热门内容、天气与行情卡片，无需 root，一键恢复原厂桌面，MIT。",
-     "why": "10 月 19 日创建，一天多即约 1200 星；“用编程智能体给智能电视去广告”是本周热门话题（The Verge、IT之家均有报道），仓库 10 月 20 日仍在更新。"
     }
    ]
   },
@@ -480,6 +480,42 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@TechCrunch",
+     "url": "https://x.com/TechCrunch/status/2112657380064268409",
+     "source": "@TechCrunch",
+     "date": "2026-10-20",
+     "summary": "据报 Anthropic 难以从日益把它视为竞争对手的云厂商处获得足够算力，而其基础设施支出正在 11 月计划 IPO 前急剧膨胀。",
+     "metrics": {
+      "likes": 2,
+      "reposts": 0,
+      "views": 3458
+     }
+    },
+    {
+     "title": "@sama",
+     "url": "https://x.com/sama/status/2112652656602923366",
+     "source": "@sama",
+     "date": "2026-10-20",
+     "summary": "奥特曼感谢 Aleksander Madry 接受邀请回归 OpenAI：“在迈向超级智能的过程中，我们面临的安全与安保挑战极其巨大”，称 Madry 具备出色的技能来应对。",
+     "metrics": {
+      "likes": 831,
+      "reposts": 29,
+      "views": 78665
+     }
+    },
+    {
+     "title": "@aleks_madry",
+     "url": "https://x.com/aleks_madry/status/2112231448103239998",
+     "source": "@aleks_madry",
+     "date": "2026-10-20",
+     "summary": "Madry 宣布重返 OpenAI：原以为的离职“更像一次休假”；AI 进展已进入新阶段，处理好更强 AI 的安全与安保挑战必须成为核心优先事项，他将加入首席科学家 Jakub Pachocki（@merettm）一同推进。",
+     "metrics": {
+      "likes": 1992,
+      "reposts": 69,
+      "views": 325003
+     }
+    },
     {
      "title": "@TechCrunch",
      "url": "https://x.com/TechCrunch/status/2112635740584648919",
@@ -523,42 +559,6 @@
       "likes": 248,
       "reposts": 4,
       "views": 11508
-     }
-    },
-    {
-     "title": "@theinformation",
-     "url": "https://x.com/theinformation/status/2112612337932812694",
-     "source": "@theinformation",
-     "date": "2026-10-20",
-     "summary": "The Information：奥特曼称 OpenAI 需要弄清 AI 何时强大到无法安全开发或发布，内部代号“pacing 2.0”的工作将为可持续自我改进的 AI 系统设定界限。",
-     "metrics": {
-      "likes": 3,
-      "reposts": 0,
-      "views": 1923
-     }
-    },
-    {
-     "title": "@OpenAI",
-     "url": "https://x.com/OpenAI/status/2112607347688583586",
-     "source": "@OpenAI",
-     "date": "2026-10-20",
-     "summary": "OpenAI 官宣收购药物研发协同平台 Orchestra Bio，将基于生命科学模型与工具 Rosalind 简化药物研发运营，帮助新疗法更快抵达患者。",
-     "metrics": {
-      "likes": 985,
-      "reposts": 85,
-      "views": 62032
-     }
-    },
-    {
-     "title": "@theinformation",
-     "url": "https://x.com/theinformation/status/2112597246042603587",
-     "source": "@theinformation",
-     "date": "2026-10-20",
-     "summary": "The Information：奥特曼对员工称，AI 安全的一种路径可能是把最大的几家 AI 实验室合并成一个组织，但 OpenAI 与 Anthropic 都在冲刺 IPO，与对手协调恐怕很难。",
-     "metrics": {
-      "likes": 8,
-      "reposts": 1,
-      "views": 4796
      }
     }
    ]
