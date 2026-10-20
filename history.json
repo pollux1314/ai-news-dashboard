@@ -1,7 +1,56 @@
 {
- "updated": "2026-10-20T12:40:00+08:00",
- "count": 706,
+ "updated": "2026-10-20T13:33:00+08:00",
+ "count": 710,
  "items": [
+  {
+   "title": "小红书 Dots 团队提出 DoSA：用可证明的分数上下界提前排除不可能入选 Top-K 的候选，精确保持稀疏注意力选择结果，1M 上下文下 DeepSeek-V3.2 首 token 延迟降约 48%",
+   "url": "https://arxiv.org/abs/2610.13990",
+   "source": "arXiv / 机器之心",
+   "date": "2026-10-20",
+   "summary": "DSA 类稀疏注意力中，负责打分筛选的索引器（Indexer）在约 1M token 上下文下占预填充时间 73%–91%。DoSA 保留原始评分函数，仅用少量索引头构造保守上界，与种子候选得到的门槛下界比较，约 97% 的候选被安全过滤，其余仍用全部索引头精确打分。GLM-5.2 完整 Indexer 相对 SGLang 加速 1.12–2.74 倍；端到端首 token 延迟 Dots3-Note-preview、GLM-5.2、DeepSeek-V3.2 分别降低约 37%、46%、48%。代码已开源（github.com/llm-sys/dosa-sglang）。",
+   "id": "7da14cf7085c0c194d2f9c3a13ab7dac9142f4eb",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T13:33:00+08:00"
+  },
+  {
+   "title": "日本网络安全公司 GMO 调查：中国关联的 AI 自主渗透智能体 Artex 被用于攻击约 80 家日本企业，8 家已披露数据泄露；该工具此前亦涉韩国金融机构连环入侵",
+   "url": "https://www.straitstimes.com/asia/east-asia/security-firm-finds-china-linked-ai-agent-behind-japan-cyberattacks",
+   "source": "The Straits Times / 共同社",
+   "date": "2026-10-20",
+   "summary": "GMO 互联网集团旗下安全子公司 10 月 19 日在博客披露，其发现 6 台专门针对日本企业的境外攻击服务器均有 Artex 使用痕迹，受害者涉及零售、物流、保险与金融等行业，其中 8 家在 9–10 月披露数据已泄露或可能泄露。Artex 是一款中文 AI 自主渗透测试工具，接入大语言模型后可分析目标、规划入侵路径并调用安全工具；另据 CrowdStrike 分析，韩国金融业自 9 月下旬以来的入侵也使用了 Artex。日本网络安全担当大臣古川俊治 10 月 20 日表示，政府正分析是否存在恶意使用 AI 的情况。",
+   "id": "789ac4e62aa65eb98872108206fe5e1466fc6608",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T13:33:00+08:00"
+  },
+  {
+   "title": "清华、原力灵机与极寰时代开源世界动作模型 LoopWAM：用部署中的成功、次优与失败轨迹闭环自提升，登顶真机榜 RoboChallenge Table30 V2，全程用阿里云国产 PPU 训练",
+   "url": "https://github.com/loop-wam/LoopWAM",
+   "source": "GitHub / 机器之心",
+   "date": "2026-10-20",
+   "summary": "LoopWAM 以 Wan2.2-TI2V-5B 视频模型为基础构建视频+动作双分支，将所有部署轨迹纳入视频预测训练，并通过质量 steering 与按质量加权的动作监督偏向高质量行为，无需额外专家演示或强化学习。三轮部署后 Table30 V2（30 项真机任务、4 种本体）成功率从 23.67% 升至 43.33%、过程分 56.80，均列榜首；仿真上 RoboTwin 2.0 平均成功率 94.5%、RoboCasa365 达 49.5%。论文 arXiv:2610.18873，模型均由阿里云 PPU-810E 训练。",
+   "id": "bf72c58f83986b17b505db91773808cd5af3cefa",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T13:33:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112411011948925240",
+   "source": "@business",
+   "date": "2026-10-20",
+   "summary": "彭博：近期入侵多家日本大企业的黑客使用了一款中国开发的 AI 工具，据东京一家网络安全公司称，该工具与上月韩国多家银行遭入侵事件有关。",
+   "metrics": {
+    "likes": 4,
+    "reposts": 2,
+    "views": 11832
+   },
+   "id": "8723420897ac9dc5c4ace5bfa0496de436cb26f5",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T13:33:00+08:00"
+  },
   {
    "title": "Semafor 独家：Waymo 拟用本月新借的 50 亿美元把车队从约 4000 辆扩至年底 8000 辆、2027 年底 2 万辆，规模扩大 5 倍",
    "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",

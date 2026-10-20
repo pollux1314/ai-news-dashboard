@@ -1,594 +1,594 @@
 {
- "title": "AI 资讯面板",
- "updated": "2026-10-20T12:40:00+08:00",
- "modules": [
-  {
-   "id": "models",
-   "name": "大模型与产品发布",
-   "icon": "🚀",
-   "items": [
+  "title": "AI 资讯面板",
+  "updated": "2026-10-20T13:33:00+08:00",
+  "modules": [
     {
-     "title": "Dream Labs 走出隐身发布机器人基础模型 Dream-1 并开放 API：可控制从未见过的双臂机器人、执行未训练过的任务，最低 3 美元/小时；同时完成 9000 万美元种子轮",
-     "url": "https://siliconangle.com/2026/10/19/dream-labs-raises-90m-to-help-build-more-intelligent-robots-with-simple-video-feeds/",
-     "source": "SiliconANGLE",
-     "date": "2026-10-20",
-     "summary": "Dream-1 把机器人技能当作视频预测问题，用人类第一视角操作视频训练，适配任何带平行夹爪的双臂机器人，只需视频流和自然语言指令。Dream API 当日全面开放：完整版 3 美元/小时、轻量版 0.75 美元/小时，另提供微调即服务与网页 Robot Playground。种子轮由 B Capital 与 Kindred Ventures 联合领投；CEO Joel Jang 团队曾在英伟达从事机器人学习研究，目前与 20 多家硬件厂商合作。"
+      "id": "models",
+      "name": "大模型与产品发布",
+      "icon": "🚀",
+      "items": [
+        {
+          "title": "Dream Labs 走出隐身发布机器人基础模型 Dream-1 并开放 API：可控制从未见过的双臂机器人、执行未训练过的任务，最低 3 美元/小时；同时完成 9000 万美元种子轮",
+          "url": "https://siliconangle.com/2026/10/19/dream-labs-raises-90m-to-help-build-more-intelligent-robots-with-simple-video-feeds/",
+          "source": "SiliconANGLE",
+          "date": "2026-10-20",
+          "summary": "Dream-1 把机器人技能当作视频预测问题，用人类第一视角操作视频训练，适配任何带平行夹爪的双臂机器人，只需视频流和自然语言指令。Dream API 当日全面开放：完整版 3 美元/小时、轻量版 0.75 美元/小时，另提供微调即服务与网页 Robot Playground。种子轮由 B Capital 与 Kindred Ventures 联合领投；CEO Joel Jang 团队曾在英伟达从事机器人学习研究，目前与 20 多家硬件厂商合作。"
+        },
+        {
+          "title": "Cloudflare 发布“System One”抽取模型 Clairic 预览：单次前向输出带置信度的类型化数值，不生成 token，称级联流水线比全 LLM 快约 3.2 倍、成本低 49%",
+          "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+          "source": "Cloudflare Blog",
+          "date": "2026-10-20",
+          "summary": "Clairic 以 @cf/cloudflare/clairic 在 Workers AI 上线预览，可从文本与最多 4 张图片中抽取、计算、估计和预测文本片段、数字、日期、列表、分布估计与时间序列预测，并返回 confidence、p_null 与 80% 区间；只按输入计费（每百万输入 token 0.10 美元）。Cloudflare 自测“Clairic→Clef→GLM-5.3”理赔流水线端到端 19.3 秒、对比全 GLM-5.3 的 61.7 秒，成本低 49%；计划后续开放权重。"
+        },
+        {
+          "title": "Gemini Notebook 新增“共创”流程：生成幻灯片或视频前先基于资料提议主题，并让用户确认格式、视觉风格与范围",
+          "url": "https://www.theverge.com/tech/1013962/gemini-notebook-will-now-lay-out-its-plans-before-generating-a-slide-deck-or-video",
+          "source": "The Verge",
+          "date": "2026-10-20",
+          "summary": "据 The Verge，谷歌 AI 笔记应用 Gemini Notebook 现在会根据用户上传的资料先建议幻灯片或视频的主题，并在开始生成前让用户确认格式、视觉风格和覆盖范围；新增“Review”开关后，还可在最终渲染前审阅完整大纲。"
+        },
+        {
+          "title": "Tavus 发布实时数字人视频扩散模型 Falcon：逐 latent 自回归流式生成 720p，音频到视频平均延迟 430ms",
+          "url": "https://www.tavus.io/blog/falcon",
+          "source": "Tavus",
+          "date": "2026-10-20",
+          "summary": "Falcon 仅以音频和流式文本提示为条件，可在对话中实时切换表情、手势等非语言行为；在 B200 上平均音频到视频延迟 430ms，比最快基线 AvatarForcing 低约 50%。经 DMD2 少步蒸馏、Teacher Forcing 与改进版 Self-Forcing 三阶段训练，团队称在自建对话测试集上 FID、DOVER、THEval 优于 LiveTalk、LiveAvatar 等开源基线（厂商自评）。"
+        },
+        {
+          "title": "Inception 发布扩散语言模型 Mercury 3：称质量追平或超过 GPT-6 Luna 与 Claude Haiku 5.5，速度达 1068 tok/s、快 4–8 倍",
+          "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
+          "source": "Inception Labs",
+          "date": "2026-10-19",
+          "summary": "Mercury 3 参数规模为 Mercury 1 的 40 倍以上，上下文由 Mercury 2.5 的 260K 提升至 1M，在 NVIDIA GPU 上达 1068 tokens/秒（官方自测）。标价每百万输入/输出 0.20/0.70 美元，首发五折为 0.10/0.35 美元；已上线 Inception API、OpenRouter、Baseten 与 Vercel AI Gateway，兼容 OpenAI 接口。"
+        },
+        {
+          "title": "Skyfall AI 发布 SKY-001 研究预览：号称首个面向工程的“世界模型”，可从文字或 2D 草图生成分层参数化 CAD/BIM 施工方案",
+          "url": "https://skyfall.ai/blog/introducing-sky-001",
+          "source": "Skyfall AI",
+          "date": "2026-10-19",
+          "summary": "SKY-001 支持装配分解、2D 转 3D 建模与可执行的 CAD 操作轨迹。公司自测称其在 CAD 与 BIM 任务上优于 GPT-6 Astra 与 Opus 5.5，单样本速度约快 120 倍、成本更低（均为厂商自评，BIM 评测仅基于 IoU 几何指标）；目标 2027 年初商用部署。"
+        },
+        {
+          "title": "微软扩展 Project Perception：称“前沿模型无论出自谁手都不可信”，把企业内 AI 智能体当作“内部人风险”，以 Guardian Agents 实时监管每一步操作",
+          "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+          "source": "Microsoft Official Blog / The Verge",
+          "date": "2026-10-19",
+          "summary": "微软安全执行副总裁 Hayete Gallot 撰文：模型被训练为追求结果，容易奖励投机、行为不可预测，还可能与其他智能体协作“共谋”。Project Perception 汇聚身份、数据、端点、网络、云与运行时信号，发现企业内智能体并为其分配身份、容器与权限策略，按动态风险由绿/蓝队 Guardian Agents 持续监督并实时处置，高影响操作仍需人工批准；纳德拉称这是把“模型即内部人风险”原则落地。"
+        },
+        {
+          "title": "The Information：Anthropic 本月将推新模型，更擅长从有限指令推断用户真实意图；谷歌备 Gemini 4 Carbon，OpenAI 拟推更便宜的 Terra 新模型",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-google-and-openai-prepare-new-ai-models-the-information-reports-4957891",
+          "source": "Investing.com / The Information",
+          "date": "2026-10-19",
+          "summary": "据 The Information 援引知情人士：Anthropic 新模型推理与直觉更强，测试者称能从单个软件 bug 看出背后更大的问题并给出更全面修复；谷歌在开发上周发布的 Gemini 4 Argon 的升级版 Gemini 4 Carbon；OpenAI 准备在未来几周推出 Terra 系列新模型，能力更强、价格低于 GPT-6.1 Sol。均为媒体报道，尚未官宣。"
+        }
+      ]
     },
     {
-     "title": "Cloudflare 发布“System One”抽取模型 Clairic 预览：单次前向输出带置信度的类型化数值，不生成 token，称级联流水线比全 LLM 快约 3.2 倍、成本低 49%",
-     "url": "https://blog.cloudflare.com/clairic-extraction-model/",
-     "source": "Cloudflare Blog",
-     "date": "2026-10-20",
-     "summary": "Clairic 以 @cf/cloudflare/clairic 在 Workers AI 上线预览，可从文本与最多 4 张图片中抽取、计算、估计和预测文本片段、数字、日期、列表、分布估计与时间序列预测，并返回 confidence、p_null 与 80% 区间；只按输入计费（每百万输入 token 0.10 美元）。Cloudflare 自测“Clairic→Clef→GLM-5.3”理赔流水线端到端 19.3 秒、对比全 GLM-5.3 的 61.7 秒，成本低 49%；计划后续开放权重。"
+      "id": "industry",
+      "name": "行业与融资",
+      "icon": "💰",
+      "items": [
+        {
+          "title": "Semafor 独家：Waymo 拟用本月新借的 50 亿美元把车队从约 4000 辆扩至年底 8000 辆、2027 年底 2 万辆，规模扩大 5 倍",
+          "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",
+          "source": "Semafor",
+          "date": "2026-10-20",
+          "summary": "据知情人士，Waymo 计划用本月首次举债筹得的 50 亿美元（PIMCO、黑石、Sixth Street 等私募信贷提供，无 Alphabet 担保）大幅扩充车队。Waymo 目前在美国 15 座城市运营，并计划进入伦敦、东京、新加坡与多伦多；报道称其已向中国订购数千辆车用于扩张。Waymo 拒绝置评。"
+        },
+        {
+          "title": "路透独家：OpenAI 加速推进约 300 亿美元新一轮融资，估值或超 1.4 万亿美元，力争在 Anthropic 11 月中旬 IPO 前锁定投资",
+          "url": "https://www.moneycontrol.com/artificial-intelligence/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-report-article-14055784.html",
+          "source": "Reuters / Moneycontrol",
+          "date": "2026-10-20",
+          "summary": "据两名知情人士，软银、阿布扎比 MGX 等现有股东正洽谈参投；OpenAI 向投资者称 GPT-6 Astra 发布后增长提速，年化收入已达 500 亿美元、年底有望升至 700 亿美元。OpenAI 3 月以 8520 亿美元估值完成 1220 亿美元融资；Anthropic 第三季度营收 168 亿美元，部分投资者主张其 IPO 估值从 2 万亿美元下调至约 1.5 万亿美元。"
+        },
+        {
+          "title": "德国联邦政府与英伟达签署联合意向声明：围绕“工业 4.0 平台”共建物理 AI 前沿模型，英伟达模型将向中小企业与科研机构开放",
+          "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
+          "source": "NVIDIA Blog / tagesschau",
+          "date": "2026-10-20",
+          "summary": "在柏林首届“Invest in Germany”峰会上，德国经济部与研究部同英伟达签署意向声明，推动面向机器人、自动驾驶、工厂仿真与制造的物理 AI 模型，目标是把工业 AI 系统性推向大规模应用。默茨呼吁中小企业开放工业数据，黄仁勋称 AI 只会增强而非取代德国工程能力。联邦政府暂未公布投资额，据 tagesschau 援引媒体报道，拟投入数亿欧元，部分用于租用德国电信 AI 云算力。"
+        },
+        {
+          "title": "SemiAnalysis：2027 年全球数据中心新增容量将超 50GW、在建约 60GW，今年迄今已签约近 1 万亿美元不可撤销租约，短缺或转向内存与芯片",
+          "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
+          "source": "SemiAnalysis",
+          "date": "2026-10-19",
+          "summary": "报告反驳 Altimeter 的 Brad Gerstner 关于 2027 年仅建成约 25GW 的判断，称前 40 大园区已有超 24GW 处于施工后期、多数将在 2027 年交付；美国超大规模云厂商自建开工量呈抛物线上升，Meta、AWS、微软、谷歌、英伟达、AMD、Anthropic、OpenAI 均在寻求吉瓦级租约。模块化设计把施工周期压到 10 个月内，表后自建电源基本缓解电力瓶颈，2027–28 年内存与逻辑芯片可能成为头号约束。"
+        },
+        {
+          "title": "彭博：Nscale 与 Anthropic 洽谈约 450 亿美元新算力协议，为西弗吉尼亚 Monarch 园区第二栋 460MW Vera Rubin 机房",
+          "url": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
+          "source": "Reuters / Bloomberg",
+          "date": "2026-10-19",
+          "summary": "据彭博援引知情人士，英伟达支持的 Nscale 正与 Anthropic 谈判第二份价值约 450 亿美元的算力租赁协议；8 月双方已签下首份 450 亿美元合同。Anthropic 还拥有园区第三栋建筑的优先购买权，细节仍可能变化。同一报道称部分投资者敦促 Anthropic 下调 IPO 估值目标；双方均未回应，路透未能独立核实。"
+        },
+        {
+          "title": "路透：英伟达拿下 Modal CPU 订单，Modal 首次引入 Vera CPU 托管智能体，早期测试称智能体任务量翻倍",
+          "url": "https://www.investing.com/news/stock-market-news/nvidia-wins-fastgrowing-ai-startup-modal-for-new-central-processors-4957898",
+          "source": "Reuters",
+          "date": "2026-10-19",
+          "summary": "此前完全依赖英特尔与 AMD 处理器的 AI 云公司 Modal 表示，将用英伟达新款 Vera CPU 承载长时运行的智能体任务，测试中完成量约为现有 x86 方案的两倍；但仍将与英特尔、AMD 混合部署。英伟达预计本财年 Vera 销售额至少 200 亿美元，OpenAI、Anthropic、甲骨文与 Perplexity 也计划采用。"
+        },
+        {
+          "title": "AI 代码审查公司 Greptile 完成 5000 万美元 B 轮融资，Menlo Ventures 领投、估值 7.5 亿美元",
+          "url": "https://www.greptile.com/blog/series-b",
+          "source": "Greptile",
+          "date": "2026-10-19",
+          "summary": "Jump Trading、Wing、Benchmark、YC 等参投，Deedy Das 加入董事会。Greptile 称每天审查并测试 GitHub 上超过 1% 的新开 PR，客户包括英伟达、Coinbase、Decagon、Vanta，定位为多款编码智能体之上的独立代码验证层，目标是让关键系统也能自动合并复杂改动。"
+        },
+        {
+          "title": "Amnon Shashua 新公司 doubleAI 发布首个“代码执行模型”Maxwell：在 CPU/GPU 上实时优化程序机器指令并形式化验证，A 轮融资 2 亿美元、估值超 10 亿美元",
+          "url": "https://www.calcalistech.com/ctechnews/article/sk11xpc73ge",
+          "source": "Calcalist Ctech",
+          "date": "2026-10-19",
+          "summary": "Mobileye 创始人 Shashua 的 doubleAI 结束隐身：A 轮由 Lightspeed 与 Bessemer 联合领投，Dell Technologies Capital、英伟达等参投，团队约 40 人。Maxwell 持续分析运行中的程序、硬件与数据，在不改源码的前提下重写底层指令，并对每项优化做数学验证以保证行为不变；公司称真实负载中数据管线提速 38 倍以上、推理内核提速 4.5 倍以上（未经独立验证），按为客户节省的算力成本收费，现开放早期访问。"
+        }
+      ]
     },
     {
-     "title": "Gemini Notebook 新增“共创”流程：生成幻灯片或视频前先基于资料提议主题，并让用户确认格式、视觉风格与范围",
-     "url": "https://www.theverge.com/tech/1013962/gemini-notebook-will-now-lay-out-its-plans-before-generating-a-slide-deck-or-video",
-     "source": "The Verge",
-     "date": "2026-10-20",
-     "summary": "据 The Verge，谷歌 AI 笔记应用 Gemini Notebook 现在会根据用户上传的资料先建议幻灯片或视频的主题，并在开始生成前让用户确认格式、视觉风格和覆盖范围；新增“Review”开关后，还可在最终渲染前审阅完整大纲。"
+      "id": "research",
+      "name": "研究与论文",
+      "icon": "📄",
+      "items": [
+        {
+          "title": "小红书 Dots 团队提出 DoSA：用可证明的分数上下界提前排除不可能入选 Top-K 的候选，精确保持稀疏注意力选择结果，1M 上下文下 DeepSeek-V3.2 首 token 延迟降约 48%",
+          "url": "https://arxiv.org/abs/2610.13990",
+          "source": "arXiv / 机器之心",
+          "date": "2026-10-20",
+          "summary": "DSA 类稀疏注意力中，负责打分筛选的索引器（Indexer）在约 1M token 上下文下占预填充时间 73%–91%。DoSA 保留原始评分函数，仅用少量索引头构造保守上界，与种子候选得到的门槛下界比较，约 97% 的候选被安全过滤，其余仍用全部索引头精确打分。GLM-5.2 完整 Indexer 相对 SGLang 加速 1.12–2.74 倍；端到端首 token 延迟 Dots3-Note-preview、GLM-5.2、DeepSeek-V3.2 分别降低约 37%、46%、48%。代码已开源（github.com/llm-sys/dosa-sglang）。"
+        },
+        {
+          "title": "OR-License：用真实付费运筹咨询项目（合同总额 368 万美元）评测 LLM 智能体，最强 Claude Code 配置严格可行率 88.39%，部署调整质量 0.87 仍不及专家",
+          "url": "https://arxiv.org/abs/2610.24087",
+          "source": "arXiv / Hugging Face Daily Papers",
+          "date": "2026-10-20",
+          "summary": "基准含 10 个工业场景的 31 个实例，保留原始客户需求、数据与交付格式，并用客户模拟器 ORSim 只披露业务事实、不提供运筹专业知识。11 个前沿模型在编码智能体 harness 下，部分在条件目标质量上超过专家方案，但没有一个在部署调整质量（DAQ，不可行交付记 0）上追平专家；研究链完成率仅 24%–45%，主要失败在问题建模与实现。今日登上 Hugging Face 每日论文榜。"
+        },
+        {
+          "title": "《柳叶刀·数字健康》：AI 仅凭一张面部照片即可估算年龄并预测癌症患者生存风险，得分最高组更可能在 90 天内死亡",
+          "url": "https://www.ithome.com/1/015/079.htm",
+          "source": "IT之家（转引彭博社）",
+          "date": "2026-10-20",
+          "summary": "研究用超过 4000 万张人脸图像和 3 万多名癌症患者照片训练，年龄估算误差约 5 岁，能把患者可靠地分为高、低风险两组，且在不同年龄、种族、性别和癌种中均有效；算法主要关注鼻梁与眼下区域。作者之一、麻省总医院布莱根的 Raymond Mak 称不会用来拒绝治疗；萨里大学教授 Miroslaw Bober 认为尚不能用于临床，需对照医生判断做更多测试。"
+        },
+        {
+          "title": "UCSD 提出 ACT3D：VLM 像人一样逐帧“走动观察”3D 场景再作答，强化学习后六项 3D 基准平均 53.2%，较 Qwen 基座提升 22.0%，超过 Gemini 3.6 Flash",
+          "url": "https://arxiv.org/abs/2610.21783",
+          "source": "arXiv / Hugging Face Daily Papers",
+          "date": "2026-10-20",
+          "summary": "论文《Learning to Think and Explore in 3D World》保留 VLM 原生单图输入，把 3D 表示作为可交互环境：模型可移动、转向视角后再回答问题。先做轨迹监督微调，再用以答案正确性为主的奖励做 RL，不直接监督探索动作。ACT3D 输入帧数比现有开源 3D 方法少 50–70%，在未见领域较监督初始化平均提升 5.9%。"
+        },
+        {
+          "title": "HexaShell：让编码智能体直接“写代码开机器人”，以 Codex + GPT-6-Astra 在 RoboDojo 全部 42 项任务上取得 39.7% 成功率、48.0 进度分，刷新榜单 SOTA",
+          "url": "https://arxiv.org/abs/2610.23479",
+          "source": "arXiv / Hugging Face Daily Papers",
+          "date": "2026-10-20",
+          "summary": "HexaFuture 团队提出“薄 harness”：只把智能体命令翻译成双臂机器人动作，智能体通过三路 RGB 相机与标定信息、用三角测量等方法自写自修工具代码，并在每次失败后读日志定位原因。工具在每任务 10 个布局上构建后冻结，再在 10 个新布局上测试。作者结论：瓶颈在于接触操作而非推理。该文为 HF 日榜 10 月 19 日最高票论文（约 285 票）。"
+        },
+        {
+          "title": "State World Models：把“规则执行”与“视频渲染”分离，Stateful Harness 维护隐藏世界状态，在 WorldState-Bench 上把冻结视频模型的规则符合率从 32% 提到 92%",
+          "url": "https://arxiv.org/abs/2610.26811",
+          "source": "arXiv",
+          "date": "2026-10-19",
+          "summary": "现有世界模型多专注镜头移动，难以处理结果取决于画面外隐藏状态的动作。作者提出 Stateful Harness：按既定规则演化世界状态，用冻结的视频模型渲染每个事件，再用生成片段回写状态，并以可编辑 3D 场景预览提供空间与镜头引导。新基准 WorldState-Bench 含 50 组反事实孪生样例；11 个视频后端在仅给规则时最好只有 32% 的样例两边都正确，MiniMax-H3 明确结局后为 64%，完整 harness 达 92%。"
+        },
+        {
+          "title": "LEV：用“循环层”代替生成 token 让决策模型按题目难度加深思考，2.6B 模型在 JevBench 上从 1 轮 63.2% 升至 4 轮 76.2%",
+          "url": "https://arxiv.org/abs/2610.20951",
+          "source": "arXiv / Lehigh University",
+          "date": "2026-10-19",
+          "summary": "Lehigh 大学等基于原生循环预训练骨干（Ouro、Nanbeige4.2）构建 System 1.5 决策模型，每轮循环后用共享指针头读出选项，一个检查点可在任意深度作答；以无标注请求拟合的停止器按需决定深度，节省 15%–24% 计算、精度损失不到 1 个点；50ms 以内 1.4B/3B 模型比同延迟稠密模型与级联高 5.4–8.8 个点。代码与模型已开源。"
+        },
+        {
+          "title": "北大与蚂蚁国际发布 BizBench（BizAgentBench）：基于全球支付公司真实流程的 50 个长程业务任务，Claude Opus 5 严格成功率 64.0%、GPT-6 Sol 61.3%",
+          "url": "https://arxiv.org/abs/2610.20424",
+          "source": "arXiv / Hugging Face Papers",
+          "date": "2026-10-19",
+          "summary": "环境含 789 份知识文档与 601 个可发现业务工具，混有过时或相互冲突的规则；确定性检查同时评估目标达成、过程合规（如先授权后执行、全程不跌破备付金下限）与副作用。GPT-6 Sol 三次全部成功的任务仅 40%；Qwen3.8-27B 目标达成 42.0% 但严格成功仅 32.7%；DeepSeek-V4.1-Flash 平均每次 191.3 次工具调用，比参考执行多约 70%。"
+        }
+      ]
     },
     {
-     "title": "Tavus 发布实时数字人视频扩散模型 Falcon：逐 latent 自回归流式生成 720p，音频到视频平均延迟 430ms",
-     "url": "https://www.tavus.io/blog/falcon",
-     "source": "Tavus",
-     "date": "2026-10-20",
-     "summary": "Falcon 仅以音频和流式文本提示为条件，可在对话中实时切换表情、手势等非语言行为；在 B200 上平均音频到视频延迟 430ms，比最快基线 AvatarForcing 低约 50%。经 DMD2 少步蒸馏、Teacher Forcing 与改进版 Self-Forcing 三阶段训练，团队称在自建对话测试集上 FID、DOVER、THEval 优于 LiveTalk、LiveAvatar 等开源基线（厂商自评）。"
+      "id": "opensource",
+      "name": "开源与工具",
+      "icon": "🛠️",
+      "items": [
+        {
+          "title": "Video Rebirth 开源 H3 HyperFlow：基于 MiniMax H3 的无数据流自蒸馏 LoRA，把视频生成从 49 步压到 8 步、约提速 3 倍，音画同步生成",
+          "url": "https://huggingface.co/videorebirth/hyperflow",
+          "source": "Hugging Face / GitHub",
+          "date": "2026-10-20",
+          "summary": "HyperFlow 为约 2.8GB 的 LoRA，基于 diffusers Modular Pipeline，使用固定 sigma 网格与双时间条件，支持文生音视频、首尾帧与参考图生成等工作流。代码以 Apache-2.0 开源（github.com/Video-Rebirth/hyperflow），权重受 MiniMax H3 社区许可约束，含地域限制。"
+        },
+        {
+          "title": "IBM 开源 Torch-Spyre：以 PyTorch PrivateUse1 + Inductor 后端接入 Spyre 加速器，可直接运行 Hugging Face 与 vLLM 上数千个模型",
+          "url": "https://research.ibm.com/publications/integrating-the-ibm-spyre-accelerator",
+          "source": "IBM Research",
+          "date": "2026-10-20",
+          "summary": "IBM 将在 PyTorch Conference 2026 介绍 Torch-Spyre 进展：Spyre 为 32 核数据流 AI 加速器，项目实现设备专属张量布局与面向片上暂存的分块优化，并向上游 PyTorch 回馈改动，便于其他树外加速器深度集成。"
+        },
+        {
+          "title": "蚂蚁百灵开源 Ming-3.0 语音模型家族共 5 款：0.5B TTS 在 Artificial Analysis 可控语音榜开源第一，另含 126B（6.5B 激活）音频理解模型与方言 ASR",
+          "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
+          "source": "Hugging Face / inclusionAI",
+          "date": "2026-10-19",
+          "summary": "三大系列：Ming-3.0-tts（0.5B 文本设计音色与情绪/笑声等副语言控制，7 种语言；Tiny 7.9B-A1.3B 长篇语音）、Ming-3.0-audio（Flash 126B-A6.5B 长录音摘要、语音问答与工具调用；Tiny 9.3B-A2.7B）、Ming-3.0-asr-tiny（方言口音与热词上下文识别，四类平均错误率 4.41%）。权重上架 Hugging Face 与 ModelScope，SGLang、vLLM 首日支持。"
+        },
+        {
+          "title": "中国电信星辰 AGI 实验室开源意图理解模型 Xing4.0-29B-Intent：29B MoE（4B 激活），同时做意图分类与参数抽取",
+          "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-Intent",
+          "source": "Hugging Face / 智东西",
+          "date": "2026-10-19",
+          "summary": "模型以统一 Schema（category+args JSON）覆盖实体、关系、事件抽取与口语理解，端到端延迟低于 150ms。官方称零样本冷启动 Micro-F1 达 70.27，较 Jev 最优配置高 12.62 个百分点，48 个公开数据集统一评测总分 58（均为官方数据）。同步开源 275.3 万条 SFT 语料与推理 SDK，Apache-2.0 许可。"
+        },
+        {
+          "title": "岩山科技岩芯矩阵联合港科大、CMU 开源 EdgeRock-4B：256K 上下文 KV Cache 固定 72MiB、较源模型减少 99.1%，单卡吞吐达 6.42 倍",
+          "url": "https://huggingface.co/rockmatrix-ai/EdgeRock",
+          "source": "Hugging Face / 量子位",
+          "date": "2026-10-19",
+          "summary": "EdgeRock-4B 基于 Qwen3.5-4B 改造，用循环状态 + 1024 token 局部窗口 + “记忆岩锚”（Rock Memory Anchors）固定历史内存；单张 80GB Hopper 卡 512 路并发输出 12124 tokens/s，AIME 2024–2026 平均 pass@1 82.9%，支持文本与图像推理，权重与推理代码已开源。"
+        },
+        {
+          "title": "亚马逊发布 TorchNeuron：现有 PyTorch 代码只改一项配置即可原生跑在 AWS Trainium2/3 上，10 月 20 日 PyTorch 大会开源",
+          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
+          "source": "About Amazon",
+          "date": "2026-10-19",
+          "summary": "TorchNeuron 通过 PyTorch 自带的新硬件注册机制接入 Trainium，开发者现有的测试、调试与扩展工具无需修改即可使用；官方演示同一训练脚本在常规芯片与 Trainium 上学习曲线一致。将在 PyTorch Conference North America 以开源许可发布，Cartesia 等语音、机器人、世界模型、药物发现公司已在使用。"
+        },
+        {
+          "title": "开源 AI 模组工具 NPCTalk：让《GTA 5》NPC 用 AI 克隆原声实时无脚本对话，MIT 许可，借助 Claude Code 开发",
+          "url": "https://www.ithome.com/1/014/627.htm",
+          "source": "IT之家 / GitHub",
+          "date": "2026-10-19",
+          "summary": "NPCTalk 由 Universal Modder 开发：Nemotron ASR 识别语音、Cerebras 上的 Qwen 3.8 27B 实时生成台词、Fish Audio Drama 3 克隆配音，NPC 还能配合动作回应；按键通话延迟约 1.15–2.2 秒。开发经验已封装为可复用的智能体技能集，兼容 Claude Code、Codex、Cursor、Gemini CLI，目前仅在《GTA 5》旧版单人模式演示，可玩模组预计下周发布，运行云端服务需付费。项目仓库 github.com/christos-antono/NPCTalk。"
+        },
+        {
+          "title": "Anthropic 官方开源 Claude Code 插件目录 claude-plugins-official：集中托管高质量插件，Apache-2.0，日榜约 +1175 星",
+          "url": "https://github.com/anthropics/claude-plugins-official",
+          "source": "GitHub / Anthropic",
+          "date": "2026-10-19",
+          "summary": "anthropics/claude-plugins-official 为 Anthropic 维护的 Claude Code 高质量插件官方目录，文档指向 code.claude.com/docs/en/plugins；仓库约 4.3 万星、Apache-2.0，今日 GitHub Trending 日榜上榜（约 +1,175 星），话题含 claude-code、mcp、skills。"
+        }
+      ]
     },
     {
-     "title": "Inception 发布扩散语言模型 Mercury 3：称质量追平或超过 GPT-6 Luna 与 Claude Haiku 5.5，速度达 1068 tok/s、快 4–8 倍",
-     "url": "https://www.inceptionlabs.ai/blog/introducing-mercury-3",
-     "source": "Inception Labs",
-     "date": "2026-10-19",
-     "summary": "Mercury 3 参数规模为 Mercury 1 的 40 倍以上，上下文由 Mercury 2.5 的 260K 提升至 1M，在 NVIDIA GPU 上达 1068 tokens/秒（官方自测）。标价每百万输入/输出 0.20/0.70 美元，首发五折为 0.10/0.35 美元；已上线 Inception API、OpenRouter、Baseten 与 Vercel AI Gateway，兼容 OpenAI 接口。"
+      "id": "policy",
+      "name": "政策与监管",
+      "icon": "⚖️",
+      "items": [
+        {
+          "title": "日本网络安全公司 GMO 调查：中国关联的 AI 自主渗透智能体 Artex 被用于攻击约 80 家日本企业，8 家已披露数据泄露；该工具此前亦涉韩国金融机构连环入侵",
+          "url": "https://www.straitstimes.com/asia/east-asia/security-firm-finds-china-linked-ai-agent-behind-japan-cyberattacks",
+          "source": "The Straits Times / 共同社",
+          "date": "2026-10-20",
+          "summary": "GMO 互联网集团旗下安全子公司 10 月 19 日在博客披露，其发现 6 台专门针对日本企业的境外攻击服务器均有 Artex 使用痕迹，受害者涉及零售、物流、保险与金融等行业，其中 8 家在 9–10 月披露数据已泄露或可能泄露。Artex 是一款中文 AI 自主渗透测试工具，接入大语言模型后可分析目标、规划入侵路径并调用安全工具；另据 CrowdStrike 分析，韩国金融业自 9 月下旬以来的入侵也使用了 Artex。日本网络安全担当大臣古川俊治 10 月 20 日表示，政府正分析是否存在恶意使用 AI 的情况。"
+        },
+        {
+          "title": "加拿大四大新闻机构 Postmedia、Torstar、《环球邮报》与加拿大通讯社在安大略起诉 Anthropic：指控其抓取新闻训练 Claude、绕过付费墙，索赔每件作品最高 2 万加元",
+          "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205",
+          "source": "CBC News / The Canadian Press",
+          "date": "2026-10-20",
+          "summary": "诉状于 10 月 6 日提交安大略高等法院，指控 Anthropic 违反网站服务条款、规避技术保护措施，未经许可抓取内容开发并运营 Claude，并在响应用户提问时持续抓取，构成侵权与不当得利；原告寻求永久禁令及惩罚性赔偿。同一批机构 2024 年曾联合 CBC 起诉 OpenAI，至今未和解。Anthropic 尚未回应，指控未经法院证实。"
+        },
+        {
+          "title": "黄仁勋在伦敦：AI 发展不能“急刹车”，但必须装“安全带”——以更聪明的安全标准、监测与事故防范约束 AI，英伟达承诺五年投入 2.5 亿美元支持英国 AI 安全研究",
+          "url": "https://www.ithome.com/1/015/127.htm",
+          "source": "IT之家（转引 Android Headline）",
+          "date": "2026-10-20",
+          "summary": "黄仁勋把 AI 比作电网、供水等关键基础设施，反对简单禁止或繁重监管，主张建立聪明的安全标准；称常与研究人员交流风险监控和安全协议，并提出英国可作为中美等各方开展 AI 安全对话的中立平台。对于数据中心延期、AI 公司上市推迟等担忧，他称是快速扩张中的“成长阵痛”。"
+        },
+        {
+          "title": "纽约市长曼达尼：联邦在 AI 监管上“完全失职”，呼吁纽约人拒绝“AI 不可避免”的叙事、追究 AI 公司责任",
+          "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "Zohran Mamdani 在 AI Now Institute 主办的 People’s AI Assembly 上与演员 Ilana Glazer 对谈，称 AI 的快速铺开并非不可避免，批评把 AI 讨论框定为对华“军备竞赛”而忽视人文关切。他上月已下令禁止小学和初中使用 AI，并在夏季推出要求房源照片/视频披露 AI 生成的政策。"
+        },
+        {
+          "title": "The Verge/CNBC：涉嫌在 OpenAI 会议室安装窃听设备的员工 Abdulrahman Alfozan，被指 2025–2026 年间与一名沙特王室成员“频繁”联系",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1013714/openai-staffer-accused-of-planting-bug-was-allegedly-in-frequent-communication-with-a-saudi-royal",
+          "source": "The Verge / CNBC",
+          "date": "2026-10-20",
+          "summary": "据 CNBC 发现的法庭文件，Alfozan 通过 WhatsApp 与这名未具名王室成员保持联系，对方曾告诉他沙特正在启动一项人工智能计划并希望他加入；他在 10 月 5 日联系过对方，数日后因涉嫌在 OpenAI 会议室安装窃听设备被捕。"
+        },
+        {
+          "title": "IFP 报告：美国前沿 AI 领先中国约 6.5 个月，若动用现有行政权限遏制对抗性蒸馏、远程算力访问与芯片走私，到 2027 年底领先可大致翻倍",
+          "url": "https://ifp.org/how-to-increase-americas-ai-lead-over-china/",
+          "source": "Institute for Progress",
+          "date": "2026-10-19",
+          "summary": "Tim Fist、Georgia Adamson、Konstantin Pilz 估算：中国到 2026 年底可获约 460 万 H100 当量算力、2027 年底约 880 万，其中远程访问海外数据中心约占可限制部分的一半；对抗性蒸馏约夺回一半领先优势（无蒸馏时 16 倍算力优势对应约 13 个月领先）。建议包括为反蒸馏协作设立反垄断安全港、限制中国企业远程使用海外训练集群、强化尽调防走私、收紧现可合法出口芯片与 HBM 管控，合计约可增加 6.6 个月领先。"
+        },
+        {
+          "title": "新泽西州众议院公共安全委员会通过 A-5607 聊天机器人用户保护法案：把聊天机器人视为产品适用产品责任，禁止出售聊天记录，每次违规罚款 5000 美元",
+          "url": "https://www.insidernj.com/assembly-committee-passes-chatbot-user-protection-bill/",
+          "source": "Insider NJ",
+          "date": "2026-10-19",
+          "summary": "法案要求聊天机器人提供方未经用户明确同意不得处理输入以外的个人数据、不得出售聊天记录、保存期不超过两年，须每月评估对用户的风险并按州检察长规则缓解；州检察长可提起民事诉讼，受害用户可索赔实际损失或每次违规 5000 美元（取高者）。委员会以多数票通过，一名共和党议员反对、一名弃权。"
+        },
+        {
+          "title": "TechCrunch：Hugging Face 首席政策官 Irene Solaiman 称“嵌入式第三方评估员”并非简单解药——评测需可复现、可横向比较，且应覆盖模型+harness+智能体整体",
+          "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
+          "source": "TechCrunch",
+          "date": "2026-10-19",
+          "summary": "在 TechCrunch Disrupt 上，Solaiman 指出评测是仍在演进的科学，基准很快失效，谁有资格做哪类任务的评估员缺乏标准化；开放权重对复现至关重要。报道提到 Anthropic 聘请埃森哲作为首个评估方引发争议，并指出更好的 harness 可能让较弱模型胜过前沿模型。"
+        }
+      ]
     },
     {
-     "title": "Skyfall AI 发布 SKY-001 研究预览：号称首个面向工程的“世界模型”，可从文字或 2D 草图生成分层参数化 CAD/BIM 施工方案",
-     "url": "https://skyfall.ai/blog/introducing-sky-001",
-     "source": "Skyfall AI",
-     "date": "2026-10-19",
-     "summary": "SKY-001 支持装配分解、2D 转 3D 建模与可执行的 CAD 操作轨迹。公司自测称其在 CAD 与 BIM 任务上优于 GPT-6 Astra 与 Opus 5.5，单样本速度约快 120 倍、成本更低（均为厂商自评，BIM 评测仅基于 IoU 几何指标）；目标 2027 年初商用部署。"
+      "id": "china",
+      "name": "国内 AI 动态",
+      "icon": "🇨🇳",
+      "items": [
+        {
+          "title": "清华、原力灵机与极寰时代开源世界动作模型 LoopWAM：用部署中的成功、次优与失败轨迹闭环自提升，登顶真机榜 RoboChallenge Table30 V2，全程用阿里云国产 PPU 训练",
+          "url": "https://github.com/loop-wam/LoopWAM",
+          "source": "GitHub / 机器之心",
+          "date": "2026-10-20",
+          "summary": "LoopWAM 以 Wan2.2-TI2V-5B 视频模型为基础构建视频+动作双分支，将所有部署轨迹纳入视频预测训练，并通过质量 steering 与按质量加权的动作监督偏向高质量行为，无需额外专家演示或强化学习。三轮部署后 Table30 V2（30 项真机任务、4 种本体）成功率从 23.67% 升至 43.33%、过程分 56.80，均列榜首；仿真上 RoboTwin 2.0 平均成功率 94.5%、RoboCasa365 达 49.5%。论文 arXiv:2610.18873，模型均由阿里云 PPU-810E 训练。"
+        },
+        {
+          "title": "无人配送车公司新石器完成近 4 亿美元 E 轮融资，博裕投资与国家人工智能产业投资基金领投，创今年国内自动驾驶最大单笔融资",
+          "url": "https://www.ithome.com/1/015/217.htm",
+          "source": "IT之家",
+          "date": "2026-10-20",
+          "summary": "新石器（Neolix）宣布完成 E 轮近 4 亿美元（约 26.8 亿元人民币）融资，官方称由博裕投资与某国家级基金联合领投，据界面新闻该国家级基金为国家人工智能产业投资基金。公司累计融资已超百亿元人民币，新资金将用于全球区域服务中枢布局，以及加大端到端大模型数据训练闭环投入、提升无人驾驶安全等级并降低全生命周期运维成本。"
+        },
+        {
+          "title": "自变量发布具身仿真评测基准 X2Real：仿真与真机任务成功率相关性 0.96、进度分相关性 0.99，44 个任务覆盖推理与操作能力",
+          "url": "https://www.ithome.com/1/015/177.htm",
+          "source": "IT之家",
+          "date": "2026-10-20",
+          "summary": "X2Real 以可信性、有效性、客观性为原则：对 Franka、ArtiXon Arm-6A、ARX R5、Quanta X1 等本体做与真机对齐的标定，实现毫米级轨迹一致；10 类 44 个任务另含堆积木、汉诺塔等挑战任务；训练数据（近 300 小时）与评测环境严格隔离并多维随机化；基于英伟达 Isaac Lab-Arena 的 Mana 生态由智能体自动出题、判分与补题，统一评测协议支持在线评测。"
+        },
+        {
+          "title": "The Information：DeepSeek 与华为联合设计 AI 芯片，华为工程师驻场，DeepSeek 最早今年底起用昇腾 950DT 做模型训练，华为 2027 年 Q1 的 960DT 将优先供给 DeepSeek",
+          "url": "https://www.investing.com/news/stock-market-news/deepseek-teams-up-with-huawei-to-challenge-nvidia-4958123",
+          "source": "Investing.com / The Information",
+          "date": "2026-10-20",
+          "summary": "据 The Information，华为工程师进驻 DeepSeek 办公室，把模型计算与芯片间数据传输方面的反馈纳入芯片设计；DeepSeek 也在用开源编程语言 TileLang 降低对 CUDA 的依赖，上月已发布适配昇腾 950 的版本。报道援引 Epoch AI 称英伟达 B300 原始算力约为昇腾 950 的 7 倍，训练前沿模型可能需上万颗华为芯片连续运行数周；DeepSeek 仍在寻求英伟达先进芯片。"
+        },
+        {
+          "title": "首届全球具身智能应用创新挑战赛暨 2026 中国机器人大赛在杭州闭幕：2000 多支队伍、近 5000 名选手真机比拼，宇树、达摩院等 50 家企业提供 500 多个实习岗位",
+          "url": "https://www.qbitai.com/2026/10/504199.html",
+          "source": "量子位",
+          "date": "2026-10-19",
+          "summary": "赛事依托国家具身智能应用中试基地，覆盖自动分拣、服务、医疗、农业、水下机器人与无人机，以及柔性分拣、空地协同、居家服务、灵巧操作等具身任务，共决出 59 项冠军；冠军队获“实习金卡”可免试进入生态企业实习。"
+        },
+        {
+          "title": "量子位：北京通用人工智能研究院孵化的通衍灵智押注“递归自进化个性化 AI”，以 Personal LoRA 沉淀个人与企业专属能力",
+          "url": "https://www.qbitai.com/2026/10/504294.html",
+          "source": "量子位",
+          "date": "2026-10-19",
+          "summary": "通衍灵智在共享基座之上为个人、项目、企业训练轻量 Personal LoRA，由 Evaluator 筛选反馈再增量更新，不达标即回滚；配套训推并行（TIP）与 Paged LoRA 显存管理。阶段测试用 Qwen2.5-72B 与 8 张 H800，在 LoRA 请求占比 1%–30% 时延迟占优，占比升至 50% 时性能退化；公司称完整自动化闭环仍在研发中。"
+        },
+        {
+          "title": "铭芯启睿完成超 4 亿元 A 轮融资：前 Graphcore 总裁卢涛出任 CEO，启动面向大模型推理的第一代 LPU 研发",
+          "url": "https://wallstreetcn.com/articles/3783927",
+          "source": "华尔街见闻",
+          "date": "2026-10-19",
+          "summary": "本轮由博原资本领投，博世创投、米哈游、兆易创新等跟投，小米战投等老股东加注，资金用于 RRAM 阻变存储产业化与 LPU 研发。卢涛称第一代 LPU 不采用 RRAM，目标支持数万亿参数完整模型、单用户每秒 1000 Token（为研发目标，尚无实测）；首代 1Gb RRAM 芯片“泰山一号”已流片、仍在验证。"
+        },
+        {
+          "title": "商汤大装置 CTO 宣善明：日均 6 万亿 Token 服务背后，用 PD 分离 + 国产/高端 GPU 异构调度，同等旗舰卡下整体吞吐最高提至 5 倍",
+          "url": "https://www.qbitai.com/2026/10/504188.html",
+          "source": "量子位",
+          "date": "2026-10-19",
+          "summary": "在 CSDI Summit 上，宣善明介绍商汤在临港 AIDC 建成万卡级异构推理集群：国产算力承担计算密集的 Prefill，高带宽 GPU 承担 Decode，经 KV Cache 传输衔接，并支持节点角色动态切换与高端算力补位；下一步探索跨数据中心乃至跨地域的 PD 分离与 AF 分离。5 倍吞吐为特定测试配置下的数据。"
+        }
+      ]
     },
     {
-     "title": "微软扩展 Project Perception：称“前沿模型无论出自谁手都不可信”，把企业内 AI 智能体当作“内部人风险”，以 Guardian Agents 实时监管每一步操作",
-     "url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
-     "source": "Microsoft Official Blog / The Verge",
-     "date": "2026-10-19",
-     "summary": "微软安全执行副总裁 Hayete Gallot 撰文：模型被训练为追求结果，容易奖励投机、行为不可预测，还可能与其他智能体协作“共谋”。Project Perception 汇聚身份、数据、端点、网络、云与运行时信号，发现企业内智能体并为其分配身份、容器与权限策略，按动态风险由绿/蓝队 Guardian Agents 持续监督并实时处置，高影响操作仍需人工批准；纳德拉称这是把“模型即内部人风险”原则落地。"
+      "id": "github",
+      "name": "GitHub 热门 AI 项目",
+      "icon": "⭐",
+      "items": [
+        {
+          "title": "anthropics/claude-code",
+          "url": "https://github.com/anthropics/claude-code",
+          "source": "GitHub",
+          "stars": 152730,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-20",
+          "summary": "Anthropic 官方终端智能体编程工具：理解代码库，以自然语言执行日常任务、解释复杂代码并处理 git 工作流。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +167 星，累计约 15.3 万星。"
+        },
+        {
+          "title": "Comfy-Org/ComfyUI",
+          "url": "https://github.com/Comfy-Org/ComfyUI",
+          "source": "GitHub",
+          "stars": 139938,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-19",
+          "summary": "模块化的扩散模型图形界面、API 与后端，以节点图方式搭建图像/视频等生成工作流，并自带本地推理引擎。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +1,011 星，累计约 14.0 万星。",
+          "id": "f34c24127709c365beae977b62bacf2ff26f70f8",
+          "module": "github",
+          "module_name": "GitHub 热门 AI 项目",
+          "first_seen": "2026-10-18T20:30:00+08:00"
+        },
+        {
+          "title": "anomalyco/opencode",
+          "url": "https://github.com/anomalyco/opencode",
+          "source": "GitHub",
+          "stars": 217990,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-19",
+          "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +1,311 星，累计约 21.8 万星。"
+        },
+        {
+          "title": "akitaonrails/ai-memory",
+          "url": "https://github.com/akitaonrails/ai-memory",
+          "source": "GitHub",
+          "stars": 11498,
+          "stars_week": null,
+          "language": "Rust",
+          "date": "2026-10-19",
+          "summary": "面向编码智能体 CLI 的长期记忆方案，便于在不同厂商智能体之间交接上下文，MIT 许可。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +666 星，累计约 1.1 万星。"
+        },
+        {
+          "title": "stablyai/orca",
+          "url": "https://github.com/stablyai/orca",
+          "source": "GitHub",
+          "stars": 98518,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-19",
+          "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +1,590 星，累计约 9.8 万星。"
+        },
+        {
+          "title": "MadsLorentzen/ai-job-search",
+          "url": "https://github.com/MadsLorentzen/ai-job-search",
+          "source": "GitHub",
+          "stars": 57863,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-19",
+          "summary": "基于 Claude Code 的本地 AI 求职框架：评估职位、定制简历与求职信等，全流程在本机运行。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +3,856 星，累计约 5.7 万星。"
+        },
+        {
+          "title": "HKUDS/CLI-Anything",
+          "url": "https://github.com/HKUDS/CLI-Anything",
+          "source": "GitHub",
+          "stars": 55358,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-19",
+          "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +606 星，累计约 5.5 万星。",
+          "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
+          "module": "github",
+          "module_name": "GitHub 热门 AI 项目",
+          "first_seen": "2026-10-16T19:35:00+08:00"
+        },
+        {
+          "title": "ruvnet/ruflo",
+          "url": "https://github.com/ruvnet/ruflo",
+          "source": "GitHub",
+          "stars": 77315,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-19",
+          "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
+          "why": "今日 GitHub Trending 日榜上榜，当日约 +564 星，累计约 7.7 万星。",
+          "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
+          "module": "github",
+          "module_name": "GitHub 热门 AI 项目",
+          "first_seen": "2026-10-15T20:32:02+08:00"
+        }
+      ]
     },
     {
-     "title": "The Information：Anthropic 本月将推新模型，更擅长从有限指令推断用户真实意图；谷歌备 Gemini 4 Carbon，OpenAI 拟推更便宜的 Terra 新模型",
-     "url": "https://www.investing.com/news/stock-market-news/anthropic-google-and-openai-prepare-new-ai-models-the-information-reports-4957891",
-     "source": "Investing.com / The Information",
-     "date": "2026-10-19",
-     "summary": "据 The Information 援引知情人士：Anthropic 新模型推理与直觉更强，测试者称能从单个软件 bug 看出背后更大的问题并给出更全面修复；谷歌在开发上周发布的 Gemini 4 Argon 的升级版 Gemini 4 Carbon；OpenAI 准备在未来几周推出 Terra 系列新模型，能力更强、价格低于 GPT-6.1 Sol。均为媒体报道，尚未官宣。"
+      "id": "x",
+      "name": "X 重要动态",
+      "icon": "𝕏",
+      "items": [
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2112411011948925240",
+          "source": "@business",
+          "date": "2026-10-20",
+          "summary": "彭博：近期入侵多家日本大企业的黑客使用了一款中国开发的 AI 工具，据东京一家网络安全公司称，该工具与上月韩国多家银行遭入侵事件有关。",
+          "metrics": {
+            "likes": 4,
+            "reposts": 2,
+            "views": 11832
+          }
+        },
+        {
+          "title": "@ManlingLi_",
+          "url": "https://x.com/ManlingLi_/status/2112307226224292176",
+          "source": "@ManlingLi_",
+          "date": "2026-10-20",
+          "summary": "Manling Li 发布 Embodied First Exam（EFE）：一行代码即可让编码智能体在 31 个仿真套件、44 种机器人上的 1090 个具身任务中接受测试，覆盖空间约束谜题、多机器人协作的“奥运项目”与实时评测，用于系统回答 GPT-6 Astra 等模型能否胜任机器人任务。",
+          "metrics": {
+            "likes": 329,
+            "reposts": 64,
+            "views": 27675
+          }
+        },
+        {
+          "title": "@Polymarket",
+          "url": "https://x.com/Polymarket/status/2112330215875547422",
+          "source": "@Polymarket",
+          "date": "2026-10-20",
+          "summary": "Polymarket 快讯：据报道 Waymo 计划大规模扩张 Robotaxi 车队，到 2027 年底规模扩大 5 倍至 2 万辆（消息源为 Semafor）。",
+          "metrics": {
+            "likes": 481,
+            "reposts": 30,
+            "views": 71100
+          }
+        },
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2112374494803452036",
+          "source": "@Reuters",
+          "date": "2026-10-20",
+          "summary": "路透：Anthropic 与马斯克就如何让公众分享 AI 繁荣红利提出截然不同的蓝图——Anthropic 周末承诺把 5% 股份注入“公共利益基金”，这一分歧可能影响 AI 财富如何惠及大众。",
+          "metrics": {
+            "likes": 8,
+            "reposts": 5,
+            "views": 19949
+          }
+        },
+        {
+          "title": "@testingcatalog",
+          "url": "https://x.com/testingcatalog/status/2112334786794528884",
+          "source": "@testingcatalog",
+          "date": "2026-10-20",
+          "summary": "TestingCatalog：OpenAI Platform 上线“Decisions”API 测试场，可用 Predicate、Choice、Score 三种模式试用 OpenAI 新发布的决策模型，直接返回概率而非生成文本。",
+          "metrics": {
+            "likes": 89,
+            "reposts": 5,
+            "views": 7445
+          }
+        },
+        {
+          "title": "@ArtificialAnlys",
+          "url": "https://x.com/ArtificialAnlys/status/2112364868020105323",
+          "source": "@ArtificialAnlys",
+          "date": "2026-10-20",
+          "summary": "Artificial Analysis：蚂蚁集团 Ming-3.0-tts 成为其可控语音 TTS 竞技场开源权重第一，并在发音鲁棒性榜并列第一，与 Fish Audio Drama 3 Preview 持平、领先 Eleven v4。",
+          "metrics": {
+            "likes": 28,
+            "reposts": 1,
+            "views": 3686
+          }
+        },
+        {
+          "title": "@kimmonismus",
+          "url": "https://x.com/kimmonismus/status/2112242007062233122",
+          "source": "@kimmonismus",
+          "date": "2026-10-20",
+          "summary": "Chubby 汇总：除 Anthropic 新模型外，谷歌据报正开发 Argon 的升级版 Gemini 4 Carbon，开发者称 Gemini 在视觉任务上仍尤为强势；OpenAI 据报准备在未来几周推出能力更强的 Terra 模型。",
+          "metrics": {
+            "likes": 513,
+            "reposts": 33,
+            "views": 27976
+          }
+        },
+        {
+          "title": "@OpenAI",
+          "url": "https://x.com/OpenAI/status/2112310345863930168",
+          "source": "@OpenAI",
+          "date": "2026-10-20",
+          "summary": "OpenAI：最新模型进展显著增强在 COBOL、Fortran、Visual Basic 等低资源编程语言中构建与迁移软件的能力，这些语言支撑着银行、政府与企业依赖的关键系统。",
+          "metrics": {
+            "likes": 3027,
+            "reposts": 205,
+            "views": 270931
+          }
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "industry",
-   "name": "行业与融资",
-   "icon": "💰",
-   "items": [
-    {
-     "title": "Semafor 独家：Waymo 拟用本月新借的 50 亿美元把车队从约 4000 辆扩至年底 8000 辆、2027 年底 2 万辆，规模扩大 5 倍",
-     "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",
-     "source": "Semafor",
-     "date": "2026-10-20",
-     "summary": "据知情人士，Waymo 计划用本月首次举债筹得的 50 亿美元（PIMCO、黑石、Sixth Street 等私募信贷提供，无 Alphabet 担保）大幅扩充车队。Waymo 目前在美国 15 座城市运营，并计划进入伦敦、东京、新加坡与多伦多；报道称其已向中国订购数千辆车用于扩张。Waymo 拒绝置评。"
-    },
-    {
-     "title": "路透独家：OpenAI 加速推进约 300 亿美元新一轮融资，估值或超 1.4 万亿美元，力争在 Anthropic 11 月中旬 IPO 前锁定投资",
-     "url": "https://www.moneycontrol.com/artificial-intelligence/openai-seeks-to-accelerate-fundraising-ahead-of-anthropic-ipo-report-article-14055784.html",
-     "source": "Reuters / Moneycontrol",
-     "date": "2026-10-20",
-     "summary": "据两名知情人士，软银、阿布扎比 MGX 等现有股东正洽谈参投；OpenAI 向投资者称 GPT-6 Astra 发布后增长提速，年化收入已达 500 亿美元、年底有望升至 700 亿美元。OpenAI 3 月以 8520 亿美元估值完成 1220 亿美元融资；Anthropic 第三季度营收 168 亿美元，部分投资者主张其 IPO 估值从 2 万亿美元下调至约 1.5 万亿美元。"
-    },
-    {
-     "title": "德国联邦政府与英伟达签署联合意向声明：围绕“工业 4.0 平台”共建物理 AI 前沿模型，英伟达模型将向中小企业与科研机构开放",
-     "url": "https://blogs.nvidia.com/blog/germany-wants-to-lead-the-world-in-industrial-ai-how-nvidia-will-help/",
-     "source": "NVIDIA Blog / tagesschau",
-     "date": "2026-10-20",
-     "summary": "在柏林首届“Invest in Germany”峰会上，德国经济部与研究部同英伟达签署意向声明，推动面向机器人、自动驾驶、工厂仿真与制造的物理 AI 模型，目标是把工业 AI 系统性推向大规模应用。默茨呼吁中小企业开放工业数据，黄仁勋称 AI 只会增强而非取代德国工程能力。联邦政府暂未公布投资额，据 tagesschau 援引媒体报道，拟投入数亿欧元，部分用于租用德国电信 AI 云算力。"
-    },
-    {
-     "title": "SemiAnalysis：2027 年全球数据中心新增容量将超 50GW、在建约 60GW，今年迄今已签约近 1 万亿美元不可撤销租约，短缺或转向内存与芯片",
-     "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
-     "source": "SemiAnalysis",
-     "date": "2026-10-19",
-     "summary": "报告反驳 Altimeter 的 Brad Gerstner 关于 2027 年仅建成约 25GW 的判断，称前 40 大园区已有超 24GW 处于施工后期、多数将在 2027 年交付；美国超大规模云厂商自建开工量呈抛物线上升，Meta、AWS、微软、谷歌、英伟达、AMD、Anthropic、OpenAI 均在寻求吉瓦级租约。模块化设计把施工周期压到 10 个月内，表后自建电源基本缓解电力瓶颈，2027–28 年内存与逻辑芯片可能成为头号约束。"
-    },
-    {
-     "title": "彭博：Nscale 与 Anthropic 洽谈约 450 亿美元新算力协议，为西弗吉尼亚 Monarch 园区第二栋 460MW Vera Rubin 机房",
-     "url": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
-     "source": "Reuters / Bloomberg",
-     "date": "2026-10-19",
-     "summary": "据彭博援引知情人士，英伟达支持的 Nscale 正与 Anthropic 谈判第二份价值约 450 亿美元的算力租赁协议；8 月双方已签下首份 450 亿美元合同。Anthropic 还拥有园区第三栋建筑的优先购买权，细节仍可能变化。同一报道称部分投资者敦促 Anthropic 下调 IPO 估值目标；双方均未回应，路透未能独立核实。"
-    },
-    {
-     "title": "路透：英伟达拿下 Modal CPU 订单，Modal 首次引入 Vera CPU 托管智能体，早期测试称智能体任务量翻倍",
-     "url": "https://www.investing.com/news/stock-market-news/nvidia-wins-fastgrowing-ai-startup-modal-for-new-central-processors-4957898",
-     "source": "Reuters",
-     "date": "2026-10-19",
-     "summary": "此前完全依赖英特尔与 AMD 处理器的 AI 云公司 Modal 表示，将用英伟达新款 Vera CPU 承载长时运行的智能体任务，测试中完成量约为现有 x86 方案的两倍；但仍将与英特尔、AMD 混合部署。英伟达预计本财年 Vera 销售额至少 200 亿美元，OpenAI、Anthropic、甲骨文与 Perplexity 也计划采用。"
-    },
-    {
-     "title": "AI 代码审查公司 Greptile 完成 5000 万美元 B 轮融资，Menlo Ventures 领投、估值 7.5 亿美元",
-     "url": "https://www.greptile.com/blog/series-b",
-     "source": "Greptile",
-     "date": "2026-10-19",
-     "summary": "Jump Trading、Wing、Benchmark、YC 等参投，Deedy Das 加入董事会。Greptile 称每天审查并测试 GitHub 上超过 1% 的新开 PR，客户包括英伟达、Coinbase、Decagon、Vanta，定位为多款编码智能体之上的独立代码验证层，目标是让关键系统也能自动合并复杂改动。"
-    },
-    {
-     "title": "Amnon Shashua 新公司 doubleAI 发布首个“代码执行模型”Maxwell：在 CPU/GPU 上实时优化程序机器指令并形式化验证，A 轮融资 2 亿美元、估值超 10 亿美元",
-     "url": "https://www.calcalistech.com/ctechnews/article/sk11xpc73ge",
-     "source": "Calcalist Ctech",
-     "date": "2026-10-19",
-     "summary": "Mobileye 创始人 Shashua 的 doubleAI 结束隐身：A 轮由 Lightspeed 与 Bessemer 联合领投，Dell Technologies Capital、英伟达等参投，团队约 40 人。Maxwell 持续分析运行中的程序、硬件与数据，在不改源码的前提下重写底层指令，并对每项优化做数学验证以保证行为不变；公司称真实负载中数据管线提速 38 倍以上、推理内核提速 4.5 倍以上（未经独立验证），按为客户节省的算力成本收费，现开放早期访问。"
-    }
-   ]
-  },
-  {
-   "id": "research",
-   "name": "研究与论文",
-   "icon": "📄",
-   "items": [
-    {
-     "title": "OR-License：用真实付费运筹咨询项目（合同总额 368 万美元）评测 LLM 智能体，最强 Claude Code 配置严格可行率 88.39%，部署调整质量 0.87 仍不及专家",
-     "url": "https://arxiv.org/abs/2610.24087",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-20",
-     "summary": "基准含 10 个工业场景的 31 个实例，保留原始客户需求、数据与交付格式，并用客户模拟器 ORSim 只披露业务事实、不提供运筹专业知识。11 个前沿模型在编码智能体 harness 下，部分在条件目标质量上超过专家方案，但没有一个在部署调整质量（DAQ，不可行交付记 0）上追平专家；研究链完成率仅 24%–45%，主要失败在问题建模与实现。今日登上 Hugging Face 每日论文榜。"
-    },
-    {
-     "title": "《柳叶刀·数字健康》：AI 仅凭一张面部照片即可估算年龄并预测癌症患者生存风险，得分最高组更可能在 90 天内死亡",
-     "url": "https://www.ithome.com/1/015/079.htm",
-     "source": "IT之家（转引彭博社）",
-     "date": "2026-10-20",
-     "summary": "研究用超过 4000 万张人脸图像和 3 万多名癌症患者照片训练，年龄估算误差约 5 岁，能把患者可靠地分为高、低风险两组，且在不同年龄、种族、性别和癌种中均有效；算法主要关注鼻梁与眼下区域。作者之一、麻省总医院布莱根的 Raymond Mak 称不会用来拒绝治疗；萨里大学教授 Miroslaw Bober 认为尚不能用于临床，需对照医生判断做更多测试。"
-    },
-    {
-     "title": "UCSD 提出 ACT3D：VLM 像人一样逐帧“走动观察”3D 场景再作答，强化学习后六项 3D 基准平均 53.2%，较 Qwen 基座提升 22.0%，超过 Gemini 3.6 Flash",
-     "url": "https://arxiv.org/abs/2610.21783",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-20",
-     "summary": "论文《Learning to Think and Explore in 3D World》保留 VLM 原生单图输入，把 3D 表示作为可交互环境：模型可移动、转向视角后再回答问题。先做轨迹监督微调，再用以答案正确性为主的奖励做 RL，不直接监督探索动作。ACT3D 输入帧数比现有开源 3D 方法少 50–70%，在未见领域较监督初始化平均提升 5.9%。"
-    },
-    {
-     "title": "HexaShell：让编码智能体直接“写代码开机器人”，以 Codex + GPT-6-Astra 在 RoboDojo 全部 42 项任务上取得 39.7% 成功率、48.0 进度分，刷新榜单 SOTA",
-     "url": "https://arxiv.org/abs/2610.23479",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-20",
-     "summary": "HexaFuture 团队提出“薄 harness”：只把智能体命令翻译成双臂机器人动作，智能体通过三路 RGB 相机与标定信息、用三角测量等方法自写自修工具代码，并在每次失败后读日志定位原因。工具在每任务 10 个布局上构建后冻结，再在 10 个新布局上测试。作者结论：瓶颈在于接触操作而非推理。该文为 HF 日榜 10 月 19 日最高票论文（约 285 票）。"
-    },
-    {
-     "title": "State World Models：把“规则执行”与“视频渲染”分离，Stateful Harness 维护隐藏世界状态，在 WorldState-Bench 上把冻结视频模型的规则符合率从 32% 提到 92%",
-     "url": "https://arxiv.org/abs/2610.26811",
-     "source": "arXiv",
-     "date": "2026-10-19",
-     "summary": "现有世界模型多专注镜头移动，难以处理结果取决于画面外隐藏状态的动作。作者提出 Stateful Harness：按既定规则演化世界状态，用冻结的视频模型渲染每个事件，再用生成片段回写状态，并以可编辑 3D 场景预览提供空间与镜头引导。新基准 WorldState-Bench 含 50 组反事实孪生样例；11 个视频后端在仅给规则时最好只有 32% 的样例两边都正确，MiniMax-H3 明确结局后为 64%，完整 harness 达 92%。"
-    },
-    {
-     "title": "LEV：用“循环层”代替生成 token 让决策模型按题目难度加深思考，2.6B 模型在 JevBench 上从 1 轮 63.2% 升至 4 轮 76.2%",
-     "url": "https://arxiv.org/abs/2610.20951",
-     "source": "arXiv / Lehigh University",
-     "date": "2026-10-19",
-     "summary": "Lehigh 大学等基于原生循环预训练骨干（Ouro、Nanbeige4.2）构建 System 1.5 决策模型，每轮循环后用共享指针头读出选项，一个检查点可在任意深度作答；以无标注请求拟合的停止器按需决定深度，节省 15%–24% 计算、精度损失不到 1 个点；50ms 以内 1.4B/3B 模型比同延迟稠密模型与级联高 5.4–8.8 个点。代码与模型已开源。"
-    },
-    {
-     "title": "北大与蚂蚁国际发布 BizBench（BizAgentBench）：基于全球支付公司真实流程的 50 个长程业务任务，Claude Opus 5 严格成功率 64.0%、GPT-6 Sol 61.3%",
-     "url": "https://arxiv.org/abs/2610.20424",
-     "source": "arXiv / Hugging Face Papers",
-     "date": "2026-10-19",
-     "summary": "环境含 789 份知识文档与 601 个可发现业务工具，混有过时或相互冲突的规则；确定性检查同时评估目标达成、过程合规（如先授权后执行、全程不跌破备付金下限）与副作用。GPT-6 Sol 三次全部成功的任务仅 40%；Qwen3.8-27B 目标达成 42.0% 但严格成功仅 32.7%；DeepSeek-V4.1-Flash 平均每次 191.3 次工具调用，比参考执行多约 70%。"
-    },
-    {
-     "title": "英伟达在欧洲首台百亿亿次超算 JUPITER 上用 8192 张 GH200 完成 104 量子比特容错量子计算模拟，验证可省 90% 物理比特的“魔法态培养”",
-     "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
-     "source": "NVIDIA Newsroom",
-     "date": "2026-10-19",
-     "summary": "在 GTC Berlin 期间发布：英伟达与于利希超算中心称这是迄今最大规模、细节最完整的容错量子处理器模拟，纳入相干相位误差与三能级泄漏等真实噪声，验证从 distance-3 色码生长到 distance-7 混合码的魔法态培养协议；借助 cuQuantum 与 CUDA-Q，模拟周期由数周缩至数天。"
-    }
-   ]
-  },
-  {
-   "id": "opensource",
-   "name": "开源与工具",
-   "icon": "🛠️",
-   "items": [
-    {
-     "title": "Video Rebirth 开源 H3 HyperFlow：基于 MiniMax H3 的无数据流自蒸馏 LoRA，把视频生成从 49 步压到 8 步、约提速 3 倍，音画同步生成",
-     "url": "https://huggingface.co/videorebirth/hyperflow",
-     "source": "Hugging Face / GitHub",
-     "date": "2026-10-20",
-     "summary": "HyperFlow 为约 2.8GB 的 LoRA，基于 diffusers Modular Pipeline，使用固定 sigma 网格与双时间条件，支持文生音视频、首尾帧与参考图生成等工作流。代码以 Apache-2.0 开源（github.com/Video-Rebirth/hyperflow），权重受 MiniMax H3 社区许可约束，含地域限制。"
-    },
-    {
-     "title": "IBM 开源 Torch-Spyre：以 PyTorch PrivateUse1 + Inductor 后端接入 Spyre 加速器，可直接运行 Hugging Face 与 vLLM 上数千个模型",
-     "url": "https://research.ibm.com/publications/integrating-the-ibm-spyre-accelerator",
-     "source": "IBM Research",
-     "date": "2026-10-20",
-     "summary": "IBM 将在 PyTorch Conference 2026 介绍 Torch-Spyre 进展：Spyre 为 32 核数据流 AI 加速器，项目实现设备专属张量布局与面向片上暂存的分块优化，并向上游 PyTorch 回馈改动，便于其他树外加速器深度集成。"
-    },
-    {
-     "title": "蚂蚁百灵开源 Ming-3.0 语音模型家族共 5 款：0.5B TTS 在 Artificial Analysis 可控语音榜开源第一，另含 126B（6.5B 激活）音频理解模型与方言 ASR",
-     "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
-     "source": "Hugging Face / inclusionAI",
-     "date": "2026-10-19",
-     "summary": "三大系列：Ming-3.0-tts（0.5B 文本设计音色与情绪/笑声等副语言控制，7 种语言；Tiny 7.9B-A1.3B 长篇语音）、Ming-3.0-audio（Flash 126B-A6.5B 长录音摘要、语音问答与工具调用；Tiny 9.3B-A2.7B）、Ming-3.0-asr-tiny（方言口音与热词上下文识别，四类平均错误率 4.41%）。权重上架 Hugging Face 与 ModelScope，SGLang、vLLM 首日支持。"
-    },
-    {
-     "title": "中国电信星辰 AGI 实验室开源意图理解模型 Xing4.0-29B-Intent：29B MoE（4B 激活），同时做意图分类与参数抽取",
-     "url": "https://huggingface.co/XingChen-AGI/Xing4.0-29B-Intent",
-     "source": "Hugging Face / 智东西",
-     "date": "2026-10-19",
-     "summary": "模型以统一 Schema（category+args JSON）覆盖实体、关系、事件抽取与口语理解，端到端延迟低于 150ms。官方称零样本冷启动 Micro-F1 达 70.27，较 Jev 最优配置高 12.62 个百分点，48 个公开数据集统一评测总分 58（均为官方数据）。同步开源 275.3 万条 SFT 语料与推理 SDK，Apache-2.0 许可。"
-    },
-    {
-     "title": "岩山科技岩芯矩阵联合港科大、CMU 开源 EdgeRock-4B：256K 上下文 KV Cache 固定 72MiB、较源模型减少 99.1%，单卡吞吐达 6.42 倍",
-     "url": "https://huggingface.co/rockmatrix-ai/EdgeRock",
-     "source": "Hugging Face / 量子位",
-     "date": "2026-10-19",
-     "summary": "EdgeRock-4B 基于 Qwen3.5-4B 改造，用循环状态 + 1024 token 局部窗口 + “记忆岩锚”（Rock Memory Anchors）固定历史内存；单张 80GB Hopper 卡 512 路并发输出 12124 tokens/s，AIME 2024–2026 平均 pass@1 82.9%，支持文本与图像推理，权重与推理代码已开源。"
-    },
-    {
-     "title": "亚马逊发布 TorchNeuron：现有 PyTorch 代码只改一项配置即可原生跑在 AWS Trainium2/3 上，10 月 20 日 PyTorch 大会开源",
-     "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
-     "source": "About Amazon",
-     "date": "2026-10-19",
-     "summary": "TorchNeuron 通过 PyTorch 自带的新硬件注册机制接入 Trainium，开发者现有的测试、调试与扩展工具无需修改即可使用；官方演示同一训练脚本在常规芯片与 Trainium 上学习曲线一致。将在 PyTorch Conference North America 以开源许可发布，Cartesia 等语音、机器人、世界模型、药物发现公司已在使用。"
-    },
-    {
-     "title": "开源 AI 模组工具 NPCTalk：让《GTA 5》NPC 用 AI 克隆原声实时无脚本对话，MIT 许可，借助 Claude Code 开发",
-     "url": "https://www.ithome.com/1/014/627.htm",
-     "source": "IT之家 / GitHub",
-     "date": "2026-10-19",
-     "summary": "NPCTalk 由 Universal Modder 开发：Nemotron ASR 识别语音、Cerebras 上的 Qwen 3.8 27B 实时生成台词、Fish Audio Drama 3 克隆配音，NPC 还能配合动作回应；按键通话延迟约 1.15–2.2 秒。开发经验已封装为可复用的智能体技能集，兼容 Claude Code、Codex、Cursor、Gemini CLI，目前仅在《GTA 5》旧版单人模式演示，可玩模组预计下周发布，运行云端服务需付费。项目仓库 github.com/christos-antono/NPCTalk。"
-    },
-    {
-     "title": "Anthropic 官方开源 Claude Code 插件目录 claude-plugins-official：集中托管高质量插件，Apache-2.0，日榜约 +1175 星",
-     "url": "https://github.com/anthropics/claude-plugins-official",
-     "source": "GitHub / Anthropic",
-     "date": "2026-10-19",
-     "summary": "anthropics/claude-plugins-official 为 Anthropic 维护的 Claude Code 高质量插件官方目录，文档指向 code.claude.com/docs/en/plugins；仓库约 4.3 万星、Apache-2.0，今日 GitHub Trending 日榜上榜（约 +1,175 星），话题含 claude-code、mcp、skills。"
-    }
-   ]
-  },
-  {
-   "id": "policy",
-   "name": "政策与监管",
-   "icon": "⚖️",
-   "items": [
-    {
-     "title": "加拿大四大新闻机构 Postmedia、Torstar、《环球邮报》与加拿大通讯社在安大略起诉 Anthropic：指控其抓取新闻训练 Claude、绕过付费墙，索赔每件作品最高 2 万加元",
-     "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205",
-     "source": "CBC News / The Canadian Press",
-     "date": "2026-10-20",
-     "summary": "诉状于 10 月 6 日提交安大略高等法院，指控 Anthropic 违反网站服务条款、规避技术保护措施，未经许可抓取内容开发并运营 Claude，并在响应用户提问时持续抓取，构成侵权与不当得利；原告寻求永久禁令及惩罚性赔偿。同一批机构 2024 年曾联合 CBC 起诉 OpenAI，至今未和解。Anthropic 尚未回应，指控未经法院证实。"
-    },
-    {
-     "title": "黄仁勋在伦敦：AI 发展不能“急刹车”，但必须装“安全带”——以更聪明的安全标准、监测与事故防范约束 AI，英伟达承诺五年投入 2.5 亿美元支持英国 AI 安全研究",
-     "url": "https://www.ithome.com/1/015/127.htm",
-     "source": "IT之家（转引 Android Headline）",
-     "date": "2026-10-20",
-     "summary": "黄仁勋把 AI 比作电网、供水等关键基础设施，反对简单禁止或繁重监管，主张建立聪明的安全标准；称常与研究人员交流风险监控和安全协议，并提出英国可作为中美等各方开展 AI 安全对话的中立平台。对于数据中心延期、AI 公司上市推迟等担忧，他称是快速扩张中的“成长阵痛”。"
-    },
-    {
-     "title": "纽约市长曼达尼：联邦在 AI 监管上“完全失职”，呼吁纽约人拒绝“AI 不可避免”的叙事、追究 AI 公司责任",
-     "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "Zohran Mamdani 在 AI Now Institute 主办的 People’s AI Assembly 上与演员 Ilana Glazer 对谈，称 AI 的快速铺开并非不可避免，批评把 AI 讨论框定为对华“军备竞赛”而忽视人文关切。他上月已下令禁止小学和初中使用 AI，并在夏季推出要求房源照片/视频披露 AI 生成的政策。"
-    },
-    {
-     "title": "The Verge/CNBC：涉嫌在 OpenAI 会议室安装窃听设备的员工 Abdulrahman Alfozan，被指 2025–2026 年间与一名沙特王室成员“频繁”联系",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1013714/openai-staffer-accused-of-planting-bug-was-allegedly-in-frequent-communication-with-a-saudi-royal",
-     "source": "The Verge / CNBC",
-     "date": "2026-10-20",
-     "summary": "据 CNBC 发现的法庭文件，Alfozan 通过 WhatsApp 与这名未具名王室成员保持联系，对方曾告诉他沙特正在启动一项人工智能计划并希望他加入；他在 10 月 5 日联系过对方，数日后因涉嫌在 OpenAI 会议室安装窃听设备被捕。"
-    },
-    {
-     "title": "IFP 报告：美国前沿 AI 领先中国约 6.5 个月，若动用现有行政权限遏制对抗性蒸馏、远程算力访问与芯片走私，到 2027 年底领先可大致翻倍",
-     "url": "https://ifp.org/how-to-increase-americas-ai-lead-over-china/",
-     "source": "Institute for Progress",
-     "date": "2026-10-19",
-     "summary": "Tim Fist、Georgia Adamson、Konstantin Pilz 估算：中国到 2026 年底可获约 460 万 H100 当量算力、2027 年底约 880 万，其中远程访问海外数据中心约占可限制部分的一半；对抗性蒸馏约夺回一半领先优势（无蒸馏时 16 倍算力优势对应约 13 个月领先）。建议包括为反蒸馏协作设立反垄断安全港、限制中国企业远程使用海外训练集群、强化尽调防走私、收紧现可合法出口芯片与 HBM 管控，合计约可增加 6.6 个月领先。"
-    },
-    {
-     "title": "新泽西州众议院公共安全委员会通过 A-5607 聊天机器人用户保护法案：把聊天机器人视为产品适用产品责任，禁止出售聊天记录，每次违规罚款 5000 美元",
-     "url": "https://www.insidernj.com/assembly-committee-passes-chatbot-user-protection-bill/",
-     "source": "Insider NJ",
-     "date": "2026-10-19",
-     "summary": "法案要求聊天机器人提供方未经用户明确同意不得处理输入以外的个人数据、不得出售聊天记录、保存期不超过两年，须每月评估对用户的风险并按州检察长规则缓解；州检察长可提起民事诉讼，受害用户可索赔实际损失或每次违规 5000 美元（取高者）。委员会以多数票通过，一名共和党议员反对、一名弃权。"
-    },
-    {
-     "title": "TechCrunch：Hugging Face 首席政策官 Irene Solaiman 称“嵌入式第三方评估员”并非简单解药——评测需可复现、可横向比较，且应覆盖模型+harness+智能体整体",
-     "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-     "source": "TechCrunch",
-     "date": "2026-10-19",
-     "summary": "在 TechCrunch Disrupt 上，Solaiman 指出评测是仍在演进的科学，基准很快失效，谁有资格做哪类任务的评估员缺乏标准化；开放权重对复现至关重要。报道提到 Anthropic 聘请埃森哲作为首个评估方引发争议，并指出更好的 harness 可能让较弱模型胜过前沿模型。"
-    },
-    {
-     "title": "新泽西州众议院委员会审议四项 AI 法案：AI 内容标识、生成式平台涉罪责任、个人姓名肖像声音权，以及要求前沿模型开发者向州检察长披露安全流程",
-     "url": "https://newjerseymonitor.com/2026/10/19/nj-ai-regulations-safety/",
-     "source": "New Jersey Monitor",
-     "date": "2026-10-19",
-     "summary": "听证未表决。Meta 政策总监主张大模型开发者不应为下游用户滥用担责以保护开源；普林斯顿科技政策诊所等呼吁强监管并防止监管俘获。标识法案拟按每次违规每日 5000 美元罚款，商界担忧中小企业负担；前沿模型法案还允许检察长直接或委托第三方审计大型 AI 公司。"
-    }
-   ]
-  },
-  {
-   "id": "china",
-   "name": "国内 AI 动态",
-   "icon": "🇨🇳",
-   "items": [
-    {
-     "title": "无人配送车公司新石器完成近 4 亿美元 E 轮融资，博裕投资与国家人工智能产业投资基金领投，创今年国内自动驾驶最大单笔融资",
-     "url": "https://www.ithome.com/1/015/217.htm",
-     "source": "IT之家",
-     "date": "2026-10-20",
-     "summary": "新石器（Neolix）宣布完成 E 轮近 4 亿美元（约 26.8 亿元人民币）融资，官方称由博裕投资与某国家级基金联合领投，据界面新闻该国家级基金为国家人工智能产业投资基金。公司累计融资已超百亿元人民币，新资金将用于全球区域服务中枢布局，以及加大端到端大模型数据训练闭环投入、提升无人驾驶安全等级并降低全生命周期运维成本。"
-    },
-    {
-     "title": "自变量发布具身仿真评测基准 X2Real：仿真与真机任务成功率相关性 0.96、进度分相关性 0.99，44 个任务覆盖推理与操作能力",
-     "url": "https://www.ithome.com/1/015/177.htm",
-     "source": "IT之家",
-     "date": "2026-10-20",
-     "summary": "X2Real 以可信性、有效性、客观性为原则：对 Franka、ArtiXon Arm-6A、ARX R5、Quanta X1 等本体做与真机对齐的标定，实现毫米级轨迹一致；10 类 44 个任务另含堆积木、汉诺塔等挑战任务；训练数据（近 300 小时）与评测环境严格隔离并多维随机化；基于英伟达 Isaac Lab-Arena 的 Mana 生态由智能体自动出题、判分与补题，统一评测协议支持在线评测。"
-    },
-    {
-     "title": "The Information：DeepSeek 与华为联合设计 AI 芯片，华为工程师驻场，DeepSeek 最早今年底起用昇腾 950DT 做模型训练，华为 2027 年 Q1 的 960DT 将优先供给 DeepSeek",
-     "url": "https://www.investing.com/news/stock-market-news/deepseek-teams-up-with-huawei-to-challenge-nvidia-4958123",
-     "source": "Investing.com / The Information",
-     "date": "2026-10-20",
-     "summary": "据 The Information，华为工程师进驻 DeepSeek 办公室，把模型计算与芯片间数据传输方面的反馈纳入芯片设计；DeepSeek 也在用开源编程语言 TileLang 降低对 CUDA 的依赖，上月已发布适配昇腾 950 的版本。报道援引 Epoch AI 称英伟达 B300 原始算力约为昇腾 950 的 7 倍，训练前沿模型可能需上万颗华为芯片连续运行数周；DeepSeek 仍在寻求英伟达先进芯片。"
-    },
-    {
-     "title": "首届全球具身智能应用创新挑战赛暨 2026 中国机器人大赛在杭州闭幕：2000 多支队伍、近 5000 名选手真机比拼，宇树、达摩院等 50 家企业提供 500 多个实习岗位",
-     "url": "https://www.qbitai.com/2026/10/504199.html",
-     "source": "量子位",
-     "date": "2026-10-19",
-     "summary": "赛事依托国家具身智能应用中试基地，覆盖自动分拣、服务、医疗、农业、水下机器人与无人机，以及柔性分拣、空地协同、居家服务、灵巧操作等具身任务，共决出 59 项冠军；冠军队获“实习金卡”可免试进入生态企业实习。"
-    },
-    {
-     "title": "量子位：北京通用人工智能研究院孵化的通衍灵智押注“递归自进化个性化 AI”，以 Personal LoRA 沉淀个人与企业专属能力",
-     "url": "https://www.qbitai.com/2026/10/504294.html",
-     "source": "量子位",
-     "date": "2026-10-19",
-     "summary": "通衍灵智在共享基座之上为个人、项目、企业训练轻量 Personal LoRA，由 Evaluator 筛选反馈再增量更新，不达标即回滚；配套训推并行（TIP）与 Paged LoRA 显存管理。阶段测试用 Qwen2.5-72B 与 8 张 H800，在 LoRA 请求占比 1%–30% 时延迟占优，占比升至 50% 时性能退化；公司称完整自动化闭环仍在研发中。"
-    },
-    {
-     "title": "铭芯启睿完成超 4 亿元 A 轮融资：前 Graphcore 总裁卢涛出任 CEO，启动面向大模型推理的第一代 LPU 研发",
-     "url": "https://wallstreetcn.com/articles/3783927",
-     "source": "华尔街见闻",
-     "date": "2026-10-19",
-     "summary": "本轮由博原资本领投，博世创投、米哈游、兆易创新等跟投，小米战投等老股东加注，资金用于 RRAM 阻变存储产业化与 LPU 研发。卢涛称第一代 LPU 不采用 RRAM，目标支持数万亿参数完整模型、单用户每秒 1000 Token（为研发目标，尚无实测）；首代 1Gb RRAM 芯片“泰山一号”已流片、仍在验证。"
-    },
-    {
-     "title": "商汤大装置 CTO 宣善明：日均 6 万亿 Token 服务背后，用 PD 分离 + 国产/高端 GPU 异构调度，同等旗舰卡下整体吞吐最高提至 5 倍",
-     "url": "https://www.qbitai.com/2026/10/504188.html",
-     "source": "量子位",
-     "date": "2026-10-19",
-     "summary": "在 CSDI Summit 上，宣善明介绍商汤在临港 AIDC 建成万卡级异构推理集群：国产算力承担计算密集的 Prefill，高带宽 GPU 承担 Decode，经 KV Cache 传输衔接，并支持节点角色动态切换与高端算力补位；下一步探索跨数据中心乃至跨地域的 PD 分离与 AF 分离。5 倍吞吐为特定测试配置下的数据。"
-    },
-    {
-     "title": "“中国博通”众星微首秀：12 款互连芯片量产、累计出货超 80 万颗，发布 PCIe 6.0 Switch、800G 多协议 AI 网卡与多模 RAID 芯片",
-     "url": "https://www.qbitai.com/2026/10/504225.html",
-     "source": "量子位",
-     "date": "2026-10-19",
-     "summary": "量子位报道，无锡众星微成立 6 年后首次集中发布：网卡、存储卡与 Switch 芯片等 12 款芯片已量产、累计出货超 80 万颗。新品 PCIe 6.0 Switch 最多 144 通道、百纳秒级时延并支持 CXL 内存池化；800G 多协议 AI NIC 支持线速转发、微秒级时延，面向大规模 AI 集群；多模 RAID 芯片支持 SAS/SATA/PCIe 5.0 并内置硬件加密。"
-    }
-   ]
-  },
-  {
-   "id": "github",
-   "name": "GitHub 热门 AI 项目",
-   "icon": "⭐",
-   "items": [
-    {
-     "title": "anthropics/claude-code",
-     "url": "https://github.com/anthropics/claude-code",
-     "source": "GitHub",
-     "stars": 152730,
-     "stars_week": null,
-     "language": "TypeScript",
-     "date": "2026-10-20",
-     "summary": "Anthropic 官方终端智能体编程工具：理解代码库，以自然语言执行日常任务、解释复杂代码并处理 git 工作流。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +167 星，累计约 15.3 万星。"
-    },
-    {
-     "title": "Comfy-Org/ComfyUI",
-     "url": "https://github.com/Comfy-Org/ComfyUI",
-     "source": "GitHub",
-     "stars": 139938,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-19",
-     "summary": "模块化的扩散模型图形界面、API 与后端，以节点图方式搭建图像/视频等生成工作流，并自带本地推理引擎。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +1,011 星，累计约 14.0 万星。",
-     "id": "f34c24127709c365beae977b62bacf2ff26f70f8",
-     "module": "github",
-     "module_name": "GitHub 热门 AI 项目",
-     "first_seen": "2026-10-18T20:30:00+08:00"
-    },
-    {
-     "title": "anomalyco/opencode",
-     "url": "https://github.com/anomalyco/opencode",
-     "source": "GitHub",
-     "stars": 217990,
-     "stars_week": null,
-     "language": "TypeScript",
-     "date": "2026-10-19",
-     "summary": "开源编码智能体，可在终端中调用多家模型完成代码阅读、修改与执行任务。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +1,311 星，累计约 21.8 万星。"
-    },
-    {
-     "title": "akitaonrails/ai-memory",
-     "url": "https://github.com/akitaonrails/ai-memory",
-     "source": "GitHub",
-     "stars": 11498,
-     "stars_week": null,
-     "language": "Rust",
-     "date": "2026-10-19",
-     "summary": "面向编码智能体 CLI 的长期记忆方案，便于在不同厂商智能体之间交接上下文，MIT 许可。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +666 星，累计约 1.1 万星。"
-    },
-    {
-     "title": "stablyai/orca",
-     "url": "https://github.com/stablyai/orca",
-     "source": "GitHub",
-     "stars": 98518,
-     "stars_week": null,
-     "language": "TypeScript",
-     "date": "2026-10-19",
-     "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +1,590 星，累计约 9.8 万星。"
-    },
-    {
-     "title": "MadsLorentzen/ai-job-search",
-     "url": "https://github.com/MadsLorentzen/ai-job-search",
-     "source": "GitHub",
-     "stars": 57863,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-19",
-     "summary": "基于 Claude Code 的本地 AI 求职框架：评估职位、定制简历与求职信等，全流程在本机运行。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +3,856 星，累计约 5.7 万星。"
-    },
-    {
-     "title": "HKUDS/CLI-Anything",
-     "url": "https://github.com/HKUDS/CLI-Anything",
-     "source": "GitHub",
-     "stars": 55358,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-19",
-     "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +606 星，累计约 5.5 万星。",
-     "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
-     "module": "github",
-     "module_name": "GitHub 热门 AI 项目",
-     "first_seen": "2026-10-16T19:35:00+08:00"
-    },
-    {
-     "title": "ruvnet/ruflo",
-     "url": "https://github.com/ruvnet/ruflo",
-     "source": "GitHub",
-     "stars": 77315,
-     "stars_week": null,
-     "language": "TypeScript",
-     "date": "2026-10-19",
-     "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
-     "why": "今日 GitHub Trending 日榜上榜，当日约 +564 星，累计约 7.7 万星。",
-     "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
-     "module": "github",
-     "module_name": "GitHub 热门 AI 项目",
-     "first_seen": "2026-10-15T20:32:02+08:00"
-    }
-   ]
-  },
-  {
-   "id": "x",
-   "name": "X 重要动态",
-   "icon": "𝕏",
-   "items": [
-    {
-     "title": "@ManlingLi_",
-     "url": "https://x.com/ManlingLi_/status/2112307226224292176",
-     "source": "@ManlingLi_",
-     "date": "2026-10-20",
-     "summary": "Manling Li 发布 Embodied First Exam（EFE）：一行代码即可让编码智能体在 31 个仿真套件、44 种机器人上的 1090 个具身任务中接受测试，覆盖空间约束谜题、多机器人协作的“奥运项目”与实时评测，用于系统回答 GPT-6 Astra 等模型能否胜任机器人任务。",
-     "metrics": {
-      "likes": 329,
-      "reposts": 64,
-      "views": 27675
-     }
-    },
-    {
-     "title": "@Polymarket",
-     "url": "https://x.com/Polymarket/status/2112330215875547422",
-     "source": "@Polymarket",
-     "date": "2026-10-20",
-     "summary": "Polymarket 快讯：据报道 Waymo 计划大规模扩张 Robotaxi 车队，到 2027 年底规模扩大 5 倍至 2 万辆（消息源为 Semafor）。",
-     "metrics": {
-      "likes": 481,
-      "reposts": 30,
-      "views": 71100
-     }
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2112374494803452036",
-     "source": "@Reuters",
-     "date": "2026-10-20",
-     "summary": "路透：Anthropic 与马斯克就如何让公众分享 AI 繁荣红利提出截然不同的蓝图——Anthropic 周末承诺把 5% 股份注入“公共利益基金”，这一分歧可能影响 AI 财富如何惠及大众。",
-     "metrics": {
-      "likes": 8,
-      "reposts": 5,
-      "views": 19949
-     }
-    },
-    {
-     "title": "@testingcatalog",
-     "url": "https://x.com/testingcatalog/status/2112334786794528884",
-     "source": "@testingcatalog",
-     "date": "2026-10-20",
-     "summary": "TestingCatalog：OpenAI Platform 上线“Decisions”API 测试场，可用 Predicate、Choice、Score 三种模式试用 OpenAI 新发布的决策模型，直接返回概率而非生成文本。",
-     "metrics": {
-      "likes": 89,
-      "reposts": 5,
-      "views": 7445
-     }
-    },
-    {
-     "title": "@ArtificialAnlys",
-     "url": "https://x.com/ArtificialAnlys/status/2112364868020105323",
-     "source": "@ArtificialAnlys",
-     "date": "2026-10-20",
-     "summary": "Artificial Analysis：蚂蚁集团 Ming-3.0-tts 成为其可控语音 TTS 竞技场开源权重第一，并在发音鲁棒性榜并列第一，与 Fish Audio Drama 3 Preview 持平、领先 Eleven v4。",
-     "metrics": {
-      "likes": 28,
-      "reposts": 1,
-      "views": 3686
-     }
-    },
-    {
-     "title": "@kimmonismus",
-     "url": "https://x.com/kimmonismus/status/2112242007062233122",
-     "source": "@kimmonismus",
-     "date": "2026-10-20",
-     "summary": "Chubby 汇总：除 Anthropic 新模型外，谷歌据报正开发 Argon 的升级版 Gemini 4 Carbon，开发者称 Gemini 在视觉任务上仍尤为强势；OpenAI 据报准备在未来几周推出能力更强的 Terra 模型。",
-     "metrics": {
-      "likes": 513,
-      "reposts": 33,
-      "views": 27976
-     }
-    },
-    {
-     "title": "@OpenAI",
-     "url": "https://x.com/OpenAI/status/2112310345863930168",
-     "source": "@OpenAI",
-     "date": "2026-10-20",
-     "summary": "OpenAI：最新模型进展显著增强在 COBOL、Fortran、Visual Basic 等低资源编程语言中构建与迁移软件的能力，这些语言支撑着银行、政府与企业依赖的关键系统。",
-     "metrics": {
-      "likes": 3027,
-      "reposts": 205,
-      "views": 270931
-     }
-    },
-    {
-     "title": "@DeItaone",
-     "url": "https://x.com/DeItaone/status/2112325583879258160",
-     "source": "@DeItaone",
-     "date": "2026-10-20",
-     "summary": "Walter Bloomberg 快讯转引路透：OpenAI 正赶在 Anthropic 11 月 IPO 前融资约 300 亿美元，估值或超 1.4 万亿美元，软银与 MGX 在潜在投资方之列，OpenAI 称年化收入已达 500 亿美元。",
-     "metrics": {
-      "likes": 281,
-      "reposts": 35,
-      "views": 82950
-     }
-    }
-   ]
-  }
- ]
+  ]
 }
