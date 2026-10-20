@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T22:31:00+08:00",
+ "updated": "2026-10-20T23:31:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "Figma 首届印度 Config 大会新增 20 家 MCP 合作伙伴（含 Linear、Notion、Mistral、Meta Muse、OpenCode 等），联合创始人 Dylan Field 称 MCP“并不完美”、更有利于前沿实验室",
+     "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+     "source": "TechCrunch",
+     "date": "2026-10-20",
+     "summary": "据 TechCrunch，Field 在媒体沟通会上表示 MCP 还有很大改进空间，Figma 不愿完全开放是因为通过 MCP 暴露的数据越多、被滥用的可能越高。此前他曾在 X 上质疑 Anthropic 作为 MCP 创建方并未通过 MCP 开放 artifacts 等云端资源，并称“非对称的上下文共享”问题被忽视；他随后表示 Figma 计划支持开源工具 Pi。"
+    },
     {
      "title": "Adobe Lightroom 移动版上线生成式 AI“睁眼”快捷操作：检测到闭眼时一键把眼睛“打开”，并参考图库中同一人的其他照片匹配眼睛颜色、大小与形状",
      "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
@@ -55,13 +62,6 @@
      "source": "The Verge",
      "date": "2026-10-20",
      "summary": "据 The Verge，谷歌 AI 笔记应用 Gemini Notebook 现在会根据用户上传的资料先建议幻灯片或视频的主题，并在开始生成前让用户确认格式、视觉风格和覆盖范围；新增“Review”开关后，还可在最终渲染前审阅完整大纲。"
-    },
-    {
-     "title": "Tavus 发布实时数字人视频扩散模型 Falcon：逐 latent 自回归流式生成 720p，音频到视频平均延迟 430ms",
-     "url": "https://www.tavus.io/blog/falcon",
-     "source": "Tavus",
-     "date": "2026-10-20",
-     "summary": "Falcon 仅以音频和流式文本提示为条件，可在对话中实时切换表情、手势等非语言行为；在 B200 上平均音频到视频延迟 430ms，比最快基线 AvatarForcing 低约 50%。经 DMD2 少步蒸馏、Teacher Forcing 与改进版 Self-Forcing 三阶段训练，团队称在自建对话测试集上 FID、DOVER、THEval 优于 LiveTalk、LiveAvatar 等开源基线（厂商自评）。"
     }
    ]
   },
@@ -70,6 +70,20 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "前 OpenAI 研究负责人 Bob McGrew 创办的制造业 AI 公司 Arda 首次公开：融资 2.3 亿美元、估值 15 亿美元，Altimeter、Accel 与 Khosla 领投，已与 Anduril 合作部署",
+     "url": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
+     "source": "CNBC",
+     "date": "2026-10-20",
+     "summary": "据 CNBC 独家报道，Arda 开发面向制造工程师的界面与智能体，McGrew 称其“为制造工程师做的事，就像 Claude 或 Cursor 为程序员做的事”，可在设计变更后更快重建产线自动化。公司混用自研模型、开源模型与部分前沿模型，联合创始人包括 Adept 联合创始人 Augustus Odena 及多名前 Palantir 工程师，机器人是下一步产品方向。"
+    },
+    {
+     "title": "AI 智能体沙箱云 Daytona 完成 6000 万美元 B 轮融资、估值 10 亿美元，FirstMark Growth 领投，Patrick Collison、Tobi Lütke、Aravind Srinivas 等跟投",
+     "url": "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud",
+     "source": "Daytona",
+     "date": "2026-10-20",
+     "summary": "Daytona 定位“智能体执行云”，为智能体提供毫秒级启动、可暂停保留状态、可分叉的计算环境，同时支持 Linux、Windows、macOS 与 GPU 沙箱；累计融资 9100 万美元，高通创投、三星 Next、Okta Ventures 为战略投资方。公司称今年 1 月以来营收增长约 25 倍，平均月度净收入留存约 135%，客户包括 Meta、Cohere、Writer、n8n、Postman 等。"
+    },
     {
      "title": "MIT 教授 Pulkit Agrawal 与前 DeepMind 研究员 Tuomas Haarnoja 创办的机器人公司 Eka 完成 1.5 亿美元 A 轮融资，投后估值 14.5 亿美元，a16z 与 F-Prime 领投",
      "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
@@ -106,25 +120,11 @@
      "summary": "RTX PRO 5500 是工作站显卡，性能不及数据中心旗舰，但仍在美国出口管制允许对华销售之列；B300 禁售中国，H200 需逐案审批。知情人士称单卡约 1.14 万美元（约 8.5 万元），英伟达 2027 年全球产能不超过 300 万块，而来自中国客户的订单已超 600 万块。英伟达发言人批评“过时的美国出口管制”与中国对美国进口的限制；字节、阿里、腾讯未回应。"
     },
     {
-     "title": "亚马逊宣布 2027 年在德国投资逾 160 亿欧元：其中 48 亿欧元用于扩建 AWS 法兰克福云与 AI 基础设施，并在柏林开设第二座机器人与 AI 研究实验室",
-     "url": "https://www.aboutamazon.com/company-news/amazon-germany-investment",
-     "source": "Amazon",
-     "date": "2026-10-20",
-     "summary": "亚马逊 10 月 20 日在德国联邦政府主办的“Invest in Germany”峰会上宣布该计划（约 180 亿美元），覆盖数据中心与 AI 基础设施、Amazon Leo 卫星互联网、物流扩张与 Prime Video 本土制作；亚马逊称 2010 年以来已在德累计投资超 1000 亿欧元、创造 4 万多个长期岗位。德国经济部长赖歇称高性能数据中心是数字经济基础，德国有望在工业 AI 领域领先。"
-    },
-    {
-     "title": "韩国 AI 云与数据中心公司 Elice 科斯达克上市首日暴跌约 30%，IPO 募资 2011 亿韩元，市场对 AI 基建回报的疑虑升温",
-     "url": "https://www.cnbc.com/2026/10/20/south-korea-elice-plunges-in-market-debut.html",
-     "source": "CNBC",
-     "date": "2026-10-20",
-     "summary": "Elice 提供 AI 云服务及 AI 教育、企业软件，计划将大部分募资用于便携式模块化数据中心；IPO 于 10 月 6 日定价 9.05 万韩元，早于近期 AI 股抛售，机构认购倍数约 389 倍。分析人士称 AI 基建交易已从“不计成本地建”转向“谁来买单、付多久”；本月澳大利亚 Firmus、AirTrunk 新加坡 REIT 及软银旗下 SB Energy 等数据中心相关 IPO 已搁置或推迟。"
-    },
-    {
-     "title": "会议纪要工具 Otter.ai 从 General Catalyst 客户价值基金获得 3.2 亿美元非稀释性融资，用于企业市场、国际扩张与产品创新",
-     "url": "https://techcrunch.com/2026/10/20/otter-ai-raises-320-million-from-general-catalysts-growth-fund-for-its-meeting-tool/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "General Catalyst 的 Customer Value Fund（CVF）不稀释股权，按营销投入带来的收入获取回报。据 PitchBook，Otter 此前累计股权融资仅 5000 万美元、上一轮在 2021 年；公司去年 ARR 突破 1 亿美元，累计用户从去年的 2500 万增至 4000 万。Otter 正测试会前简报与会中实时问答“Live Assist”，与 Fireflies、Granola、Read AI 等竞争。"
+     "title": "Business Insider 获内部录音与文件：AWS 高管称 AI 业务“严重自由现金流为负”并将持续数年，部分数据中心有空间无电力，英伟达 GB300 机柜被暂存在中转仓库",
+     "url": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+     "source": "Business Insider",
+     "date": "2026-10-19",
+     "summary": "据报道，AWS 9 月内部会议上 CFO John Felton 调侃 AI 基础设施负责人 Prasad Kalyanaraman“让公司自由现金流转负”，后者称预计未来几年仍为负。8 月内部邮件显示亚马逊推出“Early Rack Receipt”流程，预计当月接收约 50 亿美元 GB300 机柜、此后每月约 30 亿美元；亚马逊回应称在部署点附近暂存硬件是标准做法。亚马逊今年资本开支约 2200 亿美元，并预计 2027 年需求仍将超过可用算力。"
     }
    ]
   },
@@ -197,6 +197,13 @@
    "icon": "🛠️",
    "items": [
     {
+     "title": "Hugging Face 开源 Agent Manager：在私有 HF Space 中统一运行 Claude Code、Codex、Gemini CLI、opencode 等编程智能体，可并排协作、共享技能并互相通信，Apache 2.0",
+     "url": "https://github.com/huggingface/agent-manager",
+     "source": "GitHub / Hugging Face",
+     "date": "2026-10-20",
+     "summary": "HF 的 Leandro von Werra 10 月 20 日宣布上线。Agent Manager 以 Docker Space 部署，用挂载在 /data 的私有存储桶保存文件、登录与对话历史；支持按项目分组会话、实时终端与对话阅读器切换、文件浏览编辑、定时提示词、用量与成本查看，智能体可通过本地 API 发现、消息与等待其他会话，还能接入笔记本或远程服务器上的智能体。官方提醒 Space 与存储桶都应设为私有，因为应用本身没有登录机制。"
+    },
+    {
      "title": "Hugging Face 发布 AnyLanguageModel 1.0：可直接替换苹果 Foundation Models 框架的 Swift 库，同一套代码切换系统模型、llama.cpp/MLX/Core ML 本地开源模型与云端服务",
      "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
      "source": "Hugging Face Blog",
@@ -244,13 +251,6 @@
      "source": "IBM Research",
      "date": "2026-10-20",
      "summary": "IBM 将在 PyTorch Conference 2026 介绍 Torch-Spyre 进展：Spyre 为 32 核数据流 AI 加速器，项目实现设备专属张量布局与面向片上暂存的分块优化，并向上游 PyTorch 回馈改动，便于其他树外加速器深度集成。"
-    },
-    {
-     "title": "GoTo 联合 AI Singapore 在 Hugging Face 发布 27B 印尼语模型：基于 Gemma 3，支持印尼语、爪哇语、巽他语、巴厘语、巴塔克托巴语与英语，128K 上下文",
-     "url": "https://technode.global/2026/10/19/goto-releases-27b-indonesian-language-model/",
-     "source": "TechNode Global",
-     "date": "2026-10-19",
-     "summary": "模型于 10 月 19 日巴厘科技周发布，仓库为 GoToCompany/gemma3-27b-cpt-gotoai-v3-instruct，模型卡列明采用 Gemma 许可证。训练数据含媒体合作方与政府网站的印尼语文本，巴塔克语数据与北苏门答腊大学合作。FP16/BF16 推理约需 54–60GB 显存，建议单张 A100 80GB 或两张 L40S。延续 GoTo 与 Indosat 的 Sahabat-AI 开源模型计划。"
     }
    ]
   },
@@ -309,11 +309,11 @@
      "summary": "GMO 互联网集团旗下安全子公司 10 月 19 日在博客披露，其发现 6 台专门针对日本企业的境外攻击服务器均有 Artex 使用痕迹，受害者涉及零售、物流、保险与金融等行业，其中 8 家在 9–10 月披露数据已泄露或可能泄露。Artex 是一款中文 AI 自主渗透测试工具，接入大语言模型后可分析目标、规划入侵路径并调用安全工具；另据 CrowdStrike 分析，韩国金融业自 9 月下旬以来的入侵也使用了 Artex。日本网络安全担当大臣古川俊治 10 月 20 日表示，政府正分析是否存在恶意使用 AI 的情况。"
     },
     {
-     "title": "加拿大四大新闻机构 Postmedia、Torstar、《环球邮报》与加拿大通讯社在安大略起诉 Anthropic：指控其抓取新闻训练 Claude、绕过付费墙，索赔每件作品最高 2 万加元",
-     "url": "https://www.cbc.ca/news/business/anthropic-postmedia-torstar-globe-canadian-press-copyright-lawsuit-9.7387205",
-     "source": "CBC News / The Canadian Press",
-     "date": "2026-10-20",
-     "summary": "诉状于 10 月 6 日提交安大略高等法院，指控 Anthropic 违反网站服务条款、规避技术保护措施，未经许可抓取内容开发并运营 Claude，并在响应用户提问时持续抓取，构成侵权与不当得利；原告寻求永久禁令及惩罚性赔偿。同一批机构 2024 年曾联合 CBC 起诉 OpenAI，至今未和解。Anthropic 尚未回应，指控未经法院证实。"
+     "title": "欧盟《AI 法案》首个协调标准 EN 18286:2026 正式在官方公报引用：AI 质量管理体系标准，高风险 AI 提供者采用即可推定符合第 17 条要求",
+     "url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal",
+     "source": "European Commission",
+     "date": "2026-10-19",
+     "summary": "欧委会通过实施决定 (EU) 2026/2274 发布该标准引用。EN 18286 由 CEN 与 CENELEC 制定，围绕 AI 系统生命周期而非组织构建，可叠加在 ISO/IEC 42001、ISO 9001 或 ISO 13485 等现有体系之上，并允许受监管行业整合管理体系；欧委会称这是高风险 AI 要求适用前的重要里程碑，后续还将发布更多协调标准。"
     }
    ]
   },
@@ -322,6 +322,13 @@
    "name": "国内 AI 动态",
    "icon": "🇨🇳",
    "items": [
+    {
+     "title": "深兰科技旗下深视星影发布影视智能体操作系统 DFAgent：由 JEV System One 决策中枢、DeepBlue Film Model 影视大模型与内容数据飞轮构成，主攻院线长片并签约科幻电影《气候战争》",
+     "url": "https://www.cnfin.com/gs-lb/detail/20261020/4483611_1.html",
+     "source": "新华财经",
+     "date": "2026-10-20",
+     "summary": "据新华财经，DFAgent 10 月 19 日在上海发布，以多角色“数字剧组”智能体覆盖 IP 评估、剧本研判、分镜预可视化、概念资产生成、多层级质检及发行协同等环节，并配套算力调度系统。按三年路线图，深视星影后续将推出国产垂直影视大模型；《气候战争》制片方称委托其制作可加快进度、降低成本。"
+    },
     {
      "title": "腾讯元宝搜索升级并通过腾讯云对外开放：数千亿级索引、13 个行业 157 个权威信源，提供 Skill、MCP、API 三种接入，每月 2000 次免费额度",
      "url": "https://www.geekpark.net/news/372649",
@@ -370,13 +377,6 @@
      "source": "砍柴网",
      "date": "2026-10-20",
      "summary": "Alaya-DFlash2 由可并行起草的草稿模型加并行路径选择器组成，基于 AlayaNeW 智算引擎围绕 GLM-5.3 训练。TP=8、8×H200 单并发时总输出吞吐从 78.95 提升到 236.47 tok/s；4 并发吞吐为原生的 2.24 倍，64 并发提升 44.9%。1k–32k 低熵上下文接受长度 4.74–5.50，均高于 IncoAI-DFlash2 与 RedHat-DSpark，11 类任务中 9 类接受长度最高。"
-    },
-    {
-     "title": "奇瑞全球创新大会发布汽车行业垂域基础大模型 CheryMind，称“为物理 AI 而生”：6 万多名员工每天使用、覆盖 200 多个业务场景",
-     "url": "https://www.c114.net.cn/industry/135359.html",
-     "source": "C114 / IT之家",
-     "date": "2026-10-20",
-     "summary": "据 IT之家现场报道，奇瑞称 CheryMind 已打通 400 多个企业系统，覆盖 700TB 企业知识与 200PB 工程数据，“正在重塑企业运转方式”。同场奇瑞还首发家庭陪伴人形机器人“墨宝”并开启全球预订。"
     }
    ]
   },
@@ -481,6 +481,42 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2112565702552940794",
+     "source": "@OpenAIDevs",
+     "date": "2026-10-20",
+     "summary": "OpenAI 开发者账号推介 ChatGPT 团队任务（team tasks）：可自动化周期性工程工作，例如每周五汇总已上线与受阻事项，队友可审阅结果并修改下次更新的范围，无需一人维护。",
+     "metrics": {
+      "likes": 64,
+      "reposts": 4,
+      "views": 5613
+     }
+    },
+    {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2112560226872230337",
+     "source": "@theinformation",
+     "date": "2026-10-20",
+     "summary": "The Information：CoreWeave 股价一周内下跌约 20%，投资者质疑其高负债的 AI 数据中心融资模式；随着借贷成本攀升，其困境引发对整个 AI 热潮如何融资的担忧。",
+     "metrics": {
+      "likes": 4,
+      "reposts": 0,
+      "views": 1663
+     }
+    },
+    {
+     "title": "@lvwerra",
+     "url": "https://x.com/lvwerra/status/2112556991482610014",
+     "source": "@lvwerra",
+     "date": "2026-10-20",
+     "summary": "Hugging Face 的 Leandro von Werra 宣布 Agent Manager 上线：可跨 Claude Code、Codex、OpenCode 等 harness 编排数十个智能体，智能体之间可通信、自组织完成复杂任务，并持续运行在 HF Spaces 上。",
+     "metrics": {
+      "likes": 17,
+      "reposts": 4,
+      "views": 2272
+     }
+    },
+    {
      "title": "@kimmonismus",
      "url": "https://x.com/kimmonismus/status/2112548663327158783",
      "source": "@kimmonismus",
@@ -538,42 +574,6 @@
       "likes": 9,
       "reposts": 1,
       "views": 1374
-     }
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2112521783656022342",
-     "source": "@Reuters",
-     "date": "2026-10-20",
-     "summary": "路透：韩国数据中心建设商 Elice 上市首日暴跌 30%，在上周 AI 股抛售后再度引发市场对 AI 交易的担忧；Morning Bid 播客解读投资者顾虑。",
-     "metrics": {
-      "likes": 1,
-      "reposts": 1,
-      "views": 11911
-     }
-    },
-    {
-     "title": "@googlecloud",
-     "url": "https://x.com/googlecloud/status/2112484617429114973",
-     "source": "@googlecloud",
-     "date": "2026-10-20",
-     "summary": "谷歌云官方发推宣布“面向政府服务的 Gemini”进入预览：为公共部门工作流提供专用技能、安全连接器和合作伙伴智能体，并内置治理能力。",
-     "metrics": {
-      "likes": 23,
-      "reposts": 3,
-      "views": 4184
-     }
-    },
-    {
-     "title": "@TechCrunch",
-     "url": "https://x.com/TechCrunch/status/2112501351968055302",
-     "source": "@TechCrunch",
-     "date": "2026-10-20",
-     "summary": "TechCrunch 发推报道：会议纪要工具 Otter.ai 宣布从 General Catalyst 客户价值基金（CVF）获得 3.2 亿美元，该基金不稀释股权、按营销投入的成效获取回报。",
-     "metrics": {
-      "likes": 5,
-      "reposts": 0,
-      "views": 5328
      }
     }
    ]

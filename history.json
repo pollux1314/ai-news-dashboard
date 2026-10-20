@@ -1,7 +1,110 @@
 {
- "updated": "2026-10-20T22:31:00+08:00",
- "count": 785,
+ "updated": "2026-10-20T23:31:00+08:00",
+ "count": 795,
  "items": [
+  {
+   "title": "Figma 首届印度 Config 大会新增 20 家 MCP 合作伙伴（含 Linear、Notion、Mistral、Meta Muse、OpenCode 等），联合创始人 Dylan Field 称 MCP“并不完美”、更有利于前沿实验室",
+   "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "据 TechCrunch，Field 在媒体沟通会上表示 MCP 还有很大改进空间，Figma 不愿完全开放是因为通过 MCP 暴露的数据越多、被滥用的可能越高。此前他曾在 X 上质疑 Anthropic 作为 MCP 创建方并未通过 MCP 开放 artifacts 等云端资源，并称“非对称的上下文共享”问题被忽视；他随后表示 Figma 计划支持开源工具 Pi。",
+   "id": "6fce357d7ac50eec9624db9deb75dd25abf63151",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "前 OpenAI 研究负责人 Bob McGrew 创办的制造业 AI 公司 Arda 首次公开：融资 2.3 亿美元、估值 15 亿美元，Altimeter、Accel 与 Khosla 领投，已与 Anduril 合作部署",
+   "url": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
+   "source": "CNBC",
+   "date": "2026-10-20",
+   "summary": "据 CNBC 独家报道，Arda 开发面向制造工程师的界面与智能体，McGrew 称其“为制造工程师做的事，就像 Claude 或 Cursor 为程序员做的事”，可在设计变更后更快重建产线自动化。公司混用自研模型、开源模型与部分前沿模型，联合创始人包括 Adept 联合创始人 Augustus Odena 及多名前 Palantir 工程师，机器人是下一步产品方向。",
+   "id": "5c2af4ed7768bfbb308d3e1ab697418d9a64609b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "AI 智能体沙箱云 Daytona 完成 6000 万美元 B 轮融资、估值 10 亿美元，FirstMark Growth 领投，Patrick Collison、Tobi Lütke、Aravind Srinivas 等跟投",
+   "url": "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud",
+   "source": "Daytona",
+   "date": "2026-10-20",
+   "summary": "Daytona 定位“智能体执行云”，为智能体提供毫秒级启动、可暂停保留状态、可分叉的计算环境，同时支持 Linux、Windows、macOS 与 GPU 沙箱；累计融资 9100 万美元，高通创投、三星 Next、Okta Ventures 为战略投资方。公司称今年 1 月以来营收增长约 25 倍，平均月度净收入留存约 135%，客户包括 Meta、Cohere、Writer、n8n、Postman 等。",
+   "id": "c956b35d6dcf4bb9796c2c2fb6d56a390ae58f5f",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "Hugging Face 开源 Agent Manager：在私有 HF Space 中统一运行 Claude Code、Codex、Gemini CLI、opencode 等编程智能体，可并排协作、共享技能并互相通信，Apache 2.0",
+   "url": "https://github.com/huggingface/agent-manager",
+   "source": "GitHub / Hugging Face",
+   "date": "2026-10-20",
+   "summary": "HF 的 Leandro von Werra 10 月 20 日宣布上线。Agent Manager 以 Docker Space 部署，用挂载在 /data 的私有存储桶保存文件、登录与对话历史；支持按项目分组会话、实时终端与对话阅读器切换、文件浏览编辑、定时提示词、用量与成本查看，智能体可通过本地 API 发现、消息与等待其他会话，还能接入笔记本或远程服务器上的智能体。官方提醒 Space 与存储桶都应设为私有，因为应用本身没有登录机制。",
+   "id": "bf510e482be26c3fd3728438b6d610efce2f7c1c",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "深兰科技旗下深视星影发布影视智能体操作系统 DFAgent：由 JEV System One 决策中枢、DeepBlue Film Model 影视大模型与内容数据飞轮构成，主攻院线长片并签约科幻电影《气候战争》",
+   "url": "https://www.cnfin.com/gs-lb/detail/20261020/4483611_1.html",
+   "source": "新华财经",
+   "date": "2026-10-20",
+   "summary": "据新华财经，DFAgent 10 月 19 日在上海发布，以多角色“数字剧组”智能体覆盖 IP 评估、剧本研判、分镜预可视化、概念资产生成、多层级质检及发行协同等环节，并配套算力调度系统。按三年路线图，深视星影后续将推出国产垂直影视大模型；《气候战争》制片方称委托其制作可加快进度、降低成本。",
+   "id": "f4cde640b7a9625fbf4b96232cf4fa89fc52db85",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "@OpenAIDevs",
+   "url": "https://x.com/OpenAIDevs/status/2112565702552940794",
+   "source": "@OpenAIDevs",
+   "date": "2026-10-20",
+   "summary": "OpenAI 开发者账号推介 ChatGPT 团队任务（team tasks）：可自动化周期性工程工作，例如每周五汇总已上线与受阻事项，队友可审阅结果并修改下次更新的范围，无需一人维护。",
+   "metrics": {
+    "likes": 64,
+    "reposts": 4,
+    "views": 5613
+   },
+   "id": "e21ebac605291bd6cb24d2d2bb07cf88f3b0c095",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112560226872230337",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "The Information：CoreWeave 股价一周内下跌约 20%，投资者质疑其高负债的 AI 数据中心融资模式；随着借贷成本攀升，其困境引发对整个 AI 热潮如何融资的担忧。",
+   "metrics": {
+    "likes": 4,
+    "reposts": 0,
+    "views": 1663
+   },
+   "id": "13d803ef6406770bcb134e1a03d952580a5412e3",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "@lvwerra",
+   "url": "https://x.com/lvwerra/status/2112556991482610014",
+   "source": "@lvwerra",
+   "date": "2026-10-20",
+   "summary": "Hugging Face 的 Leandro von Werra 宣布 Agent Manager 上线：可跨 Claude Code、Codex、OpenCode 等 harness 编排数十个智能体，智能体之间可通信、自组织完成复杂任务，并持续运行在 HF Spaces 上。",
+   "metrics": {
+    "likes": 17,
+    "reposts": 4,
+    "views": 2272
+   },
+   "id": "88bba52bd7bb43c82ff5bb44dc7e0c32e8b9ff62",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
   {
    "title": "Adobe Lightroom 移动版上线生成式 AI“睁眼”快捷操作：检测到闭眼时一键把眼睛“打开”，并参考图库中同一人的其他照片匹配眼睛颜色、大小与形状",
    "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
@@ -1642,6 +1745,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "Business Insider 获内部录音与文件：AWS 高管称 AI 业务“严重自由现金流为负”并将持续数年，部分数据中心有空间无电力，英伟达 GB300 机柜被暂存在中转仓库",
+   "url": "https://www.businessinsider.com/amazon-220-billion-ai-bet-data-centers-spending-challenges-2026-10",
+   "source": "Business Insider",
+   "date": "2026-10-19",
+   "summary": "据报道，AWS 9 月内部会议上 CFO John Felton 调侃 AI 基础设施负责人 Prasad Kalyanaraman“让公司自由现金流转负”，后者称预计未来几年仍为负。8 月内部邮件显示亚马逊推出“Early Rack Receipt”流程，预计当月接收约 50 亿美元 GB300 机柜、此后每月约 30 亿美元；亚马逊回应称在部署点附近暂存硬件是标准做法。亚马逊今年资本开支约 2200 亿美元，并预计 2027 年需求仍将超过可用算力。",
+   "id": "1aae4806d6f0c8f0bc29f04363d918a0c39d6157",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T23:31:00+08:00"
+  },
+  {
+   "title": "欧盟《AI 法案》首个协调标准 EN 18286:2026 正式在官方公报引用：AI 质量管理体系标准，高风险 AI 提供者采用即可推定符合第 17 条要求",
+   "url": "https://digital-strategy.ec.europa.eu/en/library/first-harmonised-standard-supporting-ai-act-published-official-journal",
+   "source": "European Commission",
+   "date": "2026-10-19",
+   "summary": "欧委会通过实施决定 (EU) 2026/2274 发布该标准引用。EN 18286 由 CEN 与 CENELEC 制定，围绕 AI 系统生命周期而非组织构建，可叠加在 ISO/IEC 42001、ISO 9001 或 ISO 13485 等现有体系之上，并允许受监管行业整合管理体系；欧委会称这是高风险 AI 要求适用前的重要里程碑，后续还将发布更多协调标准。",
+   "id": "3f3ef2f516fa4d1c31613ecbfdfaeac4eadf127e",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T23:31:00+08:00"
   },
   {
    "title": "GoTo 联合 AI Singapore 在 Hugging Face 发布 27B 印尼语模型：基于 Gemma 3，支持印尼语、爪哇语、巽他语、巴厘语、巴塔克托巴语与英语，128K 上下文",
