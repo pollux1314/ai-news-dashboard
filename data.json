@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-21T01:35:00+08:00",
+ "updated": "2026-10-21T02:33:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "谷歌 Gemini 推出小企业工具：新增商家专属落地页、营销与财务技能，可连接 Google 商家资料、Ads、Workspace 及 Adobe、Canva、Shopify、Xero 等应用",
+     "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+     "source": "Google Blog",
+     "date": "2026-10-20",
+     "summary": "谷歌称已有数千万小企业主在用 Gemini。新功能允许上传网站、品牌包、字体或配色定义品牌风格，搭配 Nano Banana 2.1 生成风格一致的营销素材并记住该风格；还能把杂乱的表格、收据和采购记录转成财务图表与交互模型。商家落地页、营销与财务技能及新连接应用将在未来几天面向全球所有 Gemini 应用用户陆续推出。"
+    },
     {
      "title": "Zoom 在 Zoomtopia 推出 AI 治理套件：集中式 AI 智能体管理、自定义 AI 护栏，以及实时“深度伪造风险检测”",
      "url": "https://news.zoom.com/zoomtopia-2026-security/",
@@ -55,13 +62,6 @@
      "source": "TechCrunch",
      "date": "2026-10-20",
      "summary": "用户在餐厅页面输入人数与手机号，AI 智能体便代为致电询问等位时间，再以短信告知结果。Yelp AI 助手新增 OpenTable 订座、跨对话记忆偏好、30 天聊天记录、自定义提醒和“去过/想去”清单，下月起推送每周个性化推荐；面向商家推出每月 30 美元的 Smart Lead Reply，可自动回复客户并筛选线索。"
-    },
-    {
-     "title": "Meshy 发布 Meshy Edit：基于自研新模型，圈选 3D 模型区域、一句话描述改动，约一分钟生成新模型且未选中部分保持不变",
-     "url": "https://www.qbitai.com/2026/10/504415.html",
-     "source": "量子位",
-     "date": "2026-10-20",
-     "summary": "Meshy Edit 支持套索整块选区（同时覆盖正侧背面）或画笔微调，可附最多 5 张参考图；每次编辑生成新模型、原模型保留，可直接送切片软件 3D 打印。已向全部注册用户开放，每次消耗 20 积分，支持 Meshy 6 与 Meshy 7.1 高精度模型。Meshy 由胡渊鸣创立，截至 9 月注册用户超 1500 万，ARR 突破 1 亿美元。"
     }
    ]
   },
@@ -70,6 +70,20 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "OpenAI 收购药物研发协同平台 Orchestra Bio：团队与技术并入生命科学模型与工具线 Rosalind，打造协调药物项目的智能体",
+     "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+     "source": "OpenAI",
+     "date": "2026-10-20",
+     "summary": "Orchestra Bio 让科学家和项目负责人把研究与试验的监控、跟踪交给智能体，并在某个环节出问题（如一批生产失败可能推迟临床试验）时识别受影响的活动与时间线、汇总信息并比较应对方案。OpenAI 称将把它与 GPT-Rosalind、Rosalind Workbench 结合，帮助把科学发现更快推进为可上市的疗法；交易金额未披露。"
+    },
+    {
+     "title": "Visa、BILL 与 Billtrust 启动首个可信 AI 智能体 B2B 支付实盘试点：经认证的智能体可端到端登录供应商门户完成已审批的发票付款",
+     "url": "https://investor.visa.com/news/news-details/2026/Visa-BILL-and-Billtrust-Launch-First-Live-Pilot-for-Trusted-AI-Agent-Payments-Between-Buyer-and-Supplier-Platforms/default.aspx",
+     "source": "Visa",
+     "date": "2026-10-20",
+     "summary": "BILL 的付款智能体通过 Visa 可信智能体协议（Trusted Agent Protocol）与智能体目录注册，使用令牌化支付凭证并受买方已批准的付款指令约束；Billtrust 侧据此识别并放行该智能体，可替代验证码等反机器人机制，无需共享门户登录。三方称智能体不做付款决策，只执行已获批准的付款，试点已在处理真实交易。"
+    },
     {
      "title": "Salesforce 宣布以约 56.6 亿美元收购 AI 营销平台 Braze：每股现金 47.50 美元，Braze 股价盘前飙升逾 50%",
      "url": "https://www.cnbc.com/2026/10/20/salesforce-braze-acquisition-deal.html",
@@ -111,20 +125,6 @@
      "source": "CNBC",
      "date": "2026-10-20",
      "summary": "据 CNBC 独家报道，Arda 开发面向制造工程师的界面与智能体，McGrew 称其“为制造工程师做的事，就像 Claude 或 Cursor 为程序员做的事”，可在设计变更后更快重建产线自动化。公司混用自研模型、开源模型与部分前沿模型，联合创始人包括 Adept 联合创始人 Augustus Odena 及多名前 Palantir 工程师，机器人是下一步产品方向。"
-    },
-    {
-     "title": "AI 智能体沙箱云 Daytona 完成 6000 万美元 B 轮融资、估值 10 亿美元，FirstMark Growth 领投，Patrick Collison、Tobi Lütke、Aravind Srinivas 等跟投",
-     "url": "https://www.daytona.io/dotfiles/daytona-raises-60m-series-b-to-build-the-agent-cloud",
-     "source": "Daytona",
-     "date": "2026-10-20",
-     "summary": "Daytona 定位“智能体执行云”，为智能体提供毫秒级启动、可暂停保留状态、可分叉的计算环境，同时支持 Linux、Windows、macOS 与 GPU 沙箱；累计融资 9100 万美元，高通创投、三星 Next、Okta Ventures 为战略投资方。公司称今年 1 月以来营收增长约 25 倍，平均月度净收入留存约 135%，客户包括 Meta、Cohere、Writer、n8n、Postman 等。"
-    },
-    {
-     "title": "MIT 教授 Pulkit Agrawal 与前 DeepMind 研究员 Tuomas Haarnoja 创办的机器人公司 Eka 完成 1.5 亿美元 A 轮融资，投后估值 14.5 亿美元，a16z 与 F-Prime 领投",
-     "url": "https://techcrunch.com/2026/10/20/eka-is-worth-1-45-billion-thanks-to-a-physical-ai-model-that-has-experts-raving/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "Eka Robotics 的操作架构结合力敏夹爪与一种新的深度学习模型。据 TechCrunch，其机械臂每小时可抓取约 1500 件、重量不超过 1 公斤的物品（人类约 600 件），公司称抓取成功率超过 95%。a16z 合伙人 Raghu Raguram 称其在部分任务上已超越人类，预计未来几个月会在更多灵巧操作任务上达到超人水平。"
     }
    ]
   },
@@ -133,6 +133,20 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
+     "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
+     "source": "AI at Meta",
+     "date": "2026-10-20",
+     "summary": "针对多步检索中固定管线或原子工具的局限，RPL 允许模型先广泛检索、处理中间结果再有选择地构建上下文；为解决稀疏奖励下的探索难题，提出“程序变异”：对 RL 采样到的次优程序做语法约束、经执行验证的局部改写并蒸馏回策略。在开放域问答上多跳任务提升尤其明显，语料级推理任务答案 F1 与文档覆盖 F1 均最高，同时显著减少上下文消耗与检索轮数。"
+    },
+    {
+     "title": "IBM Research 发布 ALTK-Evolve：用学到的“行为准则”记忆，让 GPT-4.1 基础 ReAct 智能体在 τ²-bench 零售客服任务 Pass^4 达 67.5%，超过榜单所有条目",
+     "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+     "source": "Hugging Face Blog / IBM Research",
+     "date": "2026-10-20",
+     "summary": "ALTK-Evolve 分析智能体在训练任务上的成功与失败，把经验提炼成简短的行为规则（如如何验证身份）追加到系统提示中，不更新模型权重。IBM 称准则同时提升能力与可靠性，最佳准则量因领域而异，性能提升主要多花 token 而非多轮次，且对前沿模型驱动的智能体同样有效。"
+    },
     {
      "title": "Radical Numerics 发布多模态基因组语言模型 Omnii-1：AI 设计的噬菌体首次在“同情用药”途径下给到人类患者，用于治疗耐药菌感染",
      "url": "https://www.radicalnumerics.ai/blog/omnii-phage",
@@ -174,20 +188,6 @@
      "source": "Anthropic",
      "date": "2026-10-20",
      "summary": "项目与投资研究机构 Citrini Research 合作，检验非专家团队能否借 Claude 解决真实健康问题。研究模型只靠初始提示和 4 次追问完成设计，并在监督下分析数据、生成图表、起草报告；Adaptyv Bio 与 Twist Bioscience 做湿实验，17 个结合体分别结合四种对人类危险的蝎毒神经毒素。Anthropic 强调尚未验证能否在细胞环境中中和毒液，不声称做出了抗蛇毒血清，并公开全部 211 个设计及数据。"
-    },
-    {
-     "title": "CoworkEnv：按能力需求自动合成可执行的“AI 同事”长程训练环境，用其 SFT 后 Qwen3-VL-8B 在 Claw-Eval 平均分从 46.6 提升到 64.1",
-     "url": "https://arxiv.org/abs/2610.24960",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-20",
-     "summary": "框架由工作流需求驱动任务构建，并用程序化校验与反馈修复检查生成的规格与评分逻辑；教师执行轨迹用于监督微调，学生交互产生强化学习所需的 rollout 与奖励，训练出小型 PocketWorker 模型。SFT 在多轮任务上提升 31.9 分，并可迁移到 ClawMark 基准；作者还比较了不同奖励处理与信用分配下的 RL 训练动态。"
-    },
-    {
-     "title": "华盛顿大学、AI2 等提出 World of SWECraft：在由真实相互依赖 Python 包构成的“软件世界”中模拟多智能体协作，累计逾 1 万小时智能体工作，最佳模型使下游效率提升最高 31%",
-     "url": "https://arxiv.org/abs/2610.24061",
-     "source": "arXiv",
-     "date": "2026-10-20",
-     "summary": "框架让智能体以“提升软件效率”为高层目标自主发现任务、与他人协作维护包，通过隐藏的下游依赖包加速幅度集体评估成果，并可调节通信、所有权与资源分配。三个世界、八个模型的实验显示，性能提升随推理算力扩展；多数智能体能通过协作找到有意义的任务，但部分前沿模型会过早停止寻找改进。模拟框架与轨迹已开放。"
     }
    ]
   },
@@ -196,6 +196,13 @@
    "name": "开源与工具",
    "icon": "🛠️",
    "items": [
+    {
+     "title": "蚂蚁百灵开源 Ming-3.0 语音系列五款模型：覆盖语音合成（支持文字描述音色与“导演模式”）、长音频理解与对话、语音识别",
+     "url": "https://www.ithome.com/1/015/117.htm",
+     "source": "IT之家",
+     "date": "2026-10-20",
+     "summary": "Ming-3.0-tts 系列可用文字描述或参考音频设定音色，并能说明台词的情绪变化、重读与节奏；Ming-3.0-audio-flash/tiny 可直接对长音频做转写、总结和观点分析并结构化输出，保留情绪与说话人信息；Ming-3.0-asr-tiny 结合热词与上下文提升识别，已用于阿福、支付宝搜索等业务。模型已上架 Hugging Face 与魔搭，Ling Studio 提供 API。"
+    },
     {
      "title": "llm-d 1.0 发布：红帽、IBM、谷歌主导的 Kubernetes 原生分布式推理栈进入生产就绪，新增多租户 QoS、零停机升级与面向智能体的路由",
      "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
@@ -244,13 +251,6 @@
      "source": "IT之家 / DeepSeek",
      "date": "2026-10-20",
      "summary": "DeepInfer 集成 FlashMLA、DeepGEMM、DeepEP 等自研算子与优化推理引擎，支持 Attention DP/均衡 CP 与 MoE EP+EPLB 并行、DSpark 推测解码与置信度调度验证、SWA bounded replay、异步调度、批不变推理、确定性采样和结构化输出。本次开源版本提供离线推理，目前仅支持 DeepSeek-V4.1-Flash；完整线上服务所需的 KV cache 系统、Prefill/Decode 分离与跨副本负载均衡未包含。DeepSeek 称新模型的推理代码与后续优化也将在此更新；README 注明框架最初主要基于 vLLM 构建。同步开源的 deepseek-recipe 与官方 API 的 token 编解码逻辑对齐。"
-    },
-    {
-     "title": "记忆张量开源“记忆原生”基础模型 MemT-1.0：Flash（288B/17B 激活，基于 DeepSeek-V4-Flash）与 Nano（36B/3B 激活，基于 Qwen3.6）把历史写进固定大小记忆状态，256K 历史下推理提速约 4 倍、存储缩减约 130 倍",
-     "url": "https://huggingface.co/MemTensor/MemT-1.0-Flash",
-     "source": "Hugging Face / 网易智能",
-     "date": "2026-10-20",
-     "summary": "MemT-1.0 在骨干注意力旁加入“原生记忆块”（动态局部记忆 + 可训练超记忆），推理时无需重新读入原始上下文；基于 340 亿 token 两阶段训练。官方称在 11 项记忆基准上 Flash、Nano 分列参数化记忆方法第一、第二（但仍落后强文本记忆系统）；256K 历史下首字延迟约 104–112ms，每会话记忆状态约 40MiB。Nano 引入历史解题经验后 SWE-bench Verified 由 66.07% 升至 69.73%。Flash 权重 MIT 许可。"
     }
    ]
   },
@@ -259,6 +259,13 @@
    "name": "政策与监管",
    "icon": "⚖️",
    "items": [
+    {
+     "title": "Meta 暂停 Muse 对话分享功能：安全公司 Claroc 通过公开 DNS 记录找出 6800 多个分享链接，曝光公司营收、贷款申请、员工日程等隐私内容",
+     "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+     "source": "The Verge",
+     "date": "2026-10-20",
+     "summary": "据 Ars Technica 与 The Verge 报道，Muse 分享链接的主机名由对话标题加随机 ID 构成，链接被打开后会被被动 DNS 服务记录，研究者据此可重建链接并免登录查看数百段对话，其中包括一份与某前沿 AI 实验室负责人保密通话的准备笔记。Meta 发言人称已暂停该功能并评估如何改变链接被发现的方式；此前 ChatGPT、Claude、Grok 的分享对话也曾出现在谷歌搜索中。"
+    },
     {
      "title": "Politico：OpenAI 不再推动对华严格芯片出口管制，国会对华鹰派拟在跛脚鸭会期把限制条款塞进国防授权法案时失去这一行业盟友",
      "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
@@ -307,13 +314,6 @@
      "source": "Gizmodo / The Intercept",
      "date": "2026-10-20",
      "summary": "据国防非营利机构 CFIC 官网公开文件，ARCYBER 10 月 6–8 日举办 ECHOTRIBBLE 线上评估，65 份白皮书中选出 5 家演示、最终 1 家公司获选，将进入工作说明与合同流程；项目目前仍在白皮书/原型阶段。The Intercept 形容其设想“几乎像计算机蠕虫”，在外国网络中隐蔽移动直到找到目标。蒙特利尔大学教授 David Krueger 警告，鉴于当前 AI 的已知失效模式，让自主系统承担“消除威胁”任务“极其危险”。陆军网络司令部未回应置评。"
-    },
-    {
-     "title": "开源编程智能体 OpenCode 遭“大规模蒸馏攻击”：黑客入侵待下线的旧系统，约 1.4% Console 用户存储的 OpenAI、Anthropic、谷歌 API 密钥外泄，部分用户一夜被刷超 1700 美元",
-     "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
-     "source": "TechCrunch / BleepingComputer",
-     "date": "2026-10-20",
-     "summary": "OpenCode 称攻击者借 AI 智能体持续攻击其系统至少 48 小时，最早暴露时间为 10 月 17 日 00:30 UTC，被盗密钥被用于大量调用前沿模型以收集输出、训练其他模型。受影响用户已收到邮件，被要求吊销并更换密钥、检查用量，部分用户的 Google Cloud 项目因“劫持资源”被暂停；OpenCode 表示正与 OpenAI、Anthropic 和谷歌协同处置，并可能为受影响用户报销。联合创始人 Dax Raad 称，改用 OpenAI 的 Daybreak 网络安全模型做防御后局势才趋于稳定。"
     }
    ]
   },
@@ -322,6 +322,13 @@
    "name": "国内 AI 动态",
    "icon": "🇨🇳",
    "items": [
+    {
+     "title": "交通运输部在北外滩国际航运论坛发布首批《水运领域人工智能应用场景指引》，同步公布 2027 年拟建成的十大智能体和十大垂类模型",
+     "url": "https://www.yicai.com/brief/103400431.html",
+     "source": "第一财经",
+     "date": "2026-10-20",
+     "summary": "10 月 20 日 2026 北外滩国际航运论坛在上海开幕。为落实《关于“人工智能+交通运输”的实施意见》、聚焦“一网四化”，交通运输部发布第一批水运领域 AI 应用场景指引（覆盖安全提升、提质增效、绿色转型三方面共 22 个场景），并公布到 2027 年拟建成的十大智能体与十大垂类模型，推动 AI 在港口、航运等水运领域的创新应用。"
+    },
     {
      "title": "国家数据集团有限公司在雄安新区成立：丁薛祥出席揭牌，称组建该央企对把握人工智能发展先机、建设数字中国具有重要意义",
      "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083803.htm",
@@ -370,13 +377,6 @@
      "source": "IT之家",
      "date": "2026-10-20",
      "summary": "MiMo-V2.6 系列于 9 月 22 日发布并开源，包含 Pro 与 Flash 两款原生全模态模型（图像、视频、音频、文本联合理解），小米称其是探索 RSI（递归自我改进）路径的关键一步。API 沿用 V2.5 定价：Flash 每百万 token 输入 1 元/输出 2 元，Pro 3 元/6 元，并提供 99% 缓存折扣。"
-    },
-    {
-     "title": "工信部：600 亿元国家人工智能产业投资基金已投出一批项目，2025 年我国 AI 核心产业规模超 1.2 万亿元，AI 企业超 6600 家",
-     "url": "https://www.caixin.com/2026-10-20/102495228.html",
-     "source": "财新",
-     "date": "2026-10-20",
-     "summary": "工信部科技司司长魏巍在国新办发布会上披露，规模以上制造业企业 AI 技术应用普及率超 30%。财新梳理，该基金已披露的三笔直投均落在头部大模型公司：DeepSeek 首轮出资约 9.8 亿元（投后估值 3500 亿元）、参与月之暗面 F 轮（投后估值 350 亿美元），以及向快手可灵 AI 境内主体投资 14 亿元、持股约 1.14%。"
     }
    ]
   },
@@ -385,6 +385,39 @@
    "name": "GitHub 热门 AI 项目",
    "icon": "⭐",
    "items": [
+    {
+     "title": "VictorTaelin/uniichat",
+     "url": "https://github.com/VictorTaelin/uniichat",
+     "source": "GitHub",
+     "stars": 513,
+     "stars_week": null,
+     "language": "TypeScript",
+     "date": "2026-10-20",
+     "summary": "“永不结束的单一对话”AI 智能体（Apache-2.0）：每条消息被压缩成一行摘要并两两合并成二叉“记忆树”，每次调用看到最多 128KB 的全局视图，智能体可逐层展开回到原文，无需丢弃历史的压缩；可在自己的服务器用自有 API Key 运行。",
+     "why": "10 月 19 日开源，作者称几乎全部由 AI 智能体编写和审查，上线一天多约 500 星，进入 GitHub 新建仓库星标前列。"
+    },
+    {
+     "title": "kitlangton/scrawl",
+     "url": "https://github.com/kitlangton/scrawl",
+     "source": "GitHub",
+     "stars": 561,
+     "stars_week": null,
+     "language": "Rust",
+     "date": "2026-10-20",
+     "summary": "“给智能体看问题而不是描述问题”（MIT）：快捷键录屏，边说边点边画，结束后打包成带标注关键帧的缩略图、时间对齐的转写与交互时间线及结构化清单，供 Claude Code、OpenCode、Codex 等智能体直接读取；支持 macOS 与 Windows 预览版，并提供智能体技能安装。",
+     "why": "10 月 14 日创建，近一周涨至 500+ 星，是本周增长最快的智能体辅助工具之一。"
+    },
+    {
+     "title": "pengchujin/aerial-tv",
+     "url": "https://github.com/pengchujin/aerial-tv",
+     "source": "GitHub",
+     "stars": 491,
+     "stars_week": null,
+     "language": "Kotlin",
+     "date": "2026-10-20",
+     "summary": "面向小米、TCL 等国产电视的开源 Android TV 桌面（MIT）：参照 tvOS 设计，无广告、无推荐流，开机自动接管并带 Apple TV 航拍屏保；README 推荐让编程智能体通过 ADB 帮你安装。",
+     "why": "10 月 20 日创建、当天近 500 星，延续本周“用 Claude Code/Codex 给智能电视去广告”的 GitHub 热潮，是首个针对国产电视的版本。"
+    },
     {
      "title": "llm-d/llm-d",
      "url": "https://github.com/llm-d/llm-d",
@@ -439,39 +472,6 @@
      "date": "2026-10-20",
      "summary": "让 Claude Code 或 Codex 帮老旧 Android TV 提速：提供一个精简无广告的桌面，外加让智能体清理预装应用与广告的提示词，MIT。",
      "why": "作者 Ansub Khan 的做法被 The Verge 专门报道；10 月 18 日创建，累计约 850 星，10 月 20 日仍有提交。"
-    },
-    {
-     "title": "dominikmartn/harp",
-     "url": "https://github.com/dominikmartn/harp",
-     "source": "GitHub",
-     "stars": 178,
-     "stars_week": null,
-     "language": "Rust",
-     "date": "2026-10-20",
-     "summary": "基于开源 Warp 终端的非官方分支，把标签栏换成专为长时间运行编程智能体设计的侧边栏：并排运行多个 Claude Code 与 Codex 会话，标出哪个正在工作、在等你、已完成，支持分组，macOS，AGPL-3.0。",
-     "why": "10 月 20 日刚创建，当天已约 180 星，并在持续提交。"
-    },
-    {
-     "title": "vllm-project/vllm",
-     "url": "https://github.com/vllm-project/vllm",
-     "source": "GitHub",
-     "stars": 94287,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-20",
-     "summary": "高吞吐、省显存的大模型推理与服务引擎，支持 CUDA、AMD、TPU 等硬件及 DeepSeek、Qwen、Kimi、gpt-oss 等主流开源模型，Apache 2.0。",
-     "why": "10 月 20 日登上 GitHub Trending，当日新增约 98 星，累计约 9.4 万星；仓库当天仍在持续提交。"
-    },
-    {
-     "title": "anthropics/knowledge-work-plugins",
-     "url": "https://github.com/anthropics/knowledge-work-plugins",
-     "source": "GitHub",
-     "stars": 30616,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-20",
-     "summary": "Anthropic 官方开源的知识工作者插件库，主要面向 Claude Cowork 使用，提供各类办公与知识工作场景的插件。",
-     "why": "10 月 20 日登上 GitHub Trending，当日新增约 262 星，累计约 3.1 万星；仓库当天仍有更新。"
     }
    ]
   },
@@ -480,6 +480,42 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@OpenAI",
+     "url": "https://x.com/OpenAI/status/2112607347688583586",
+     "source": "@OpenAI",
+     "date": "2026-10-20",
+     "summary": "OpenAI 官宣收购药物研发协同平台 Orchestra Bio，将基于生命科学模型与工具 Rosalind 简化药物研发运营，帮助新疗法更快抵达患者。",
+     "metrics": {
+      "likes": 985,
+      "reposts": 85,
+      "views": 62032
+     }
+    },
+    {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2112597246042603587",
+     "source": "@theinformation",
+     "date": "2026-10-20",
+     "summary": "The Information：奥特曼对员工称，AI 安全的一种路径可能是把最大的几家 AI 实验室合并成一个组织，但 OpenAI 与 Anthropic 都在冲刺 IPO，与对手协调恐怕很难。",
+     "metrics": {
+      "likes": 8,
+      "reposts": 1,
+      "views": 4796
+     }
+    },
+    {
+     "title": "@business",
+     "url": "https://x.com/business/status/2112597259388850456",
+     "source": "@business",
+     "date": "2026-10-20",
+     "summary": "彭博：随着美国各地反对 AI 的声音蔓延，保险公司 Arbol 押注数据中心开发商会购买保单，以弥补许可延误或项目被阻导致的损失。",
+     "metrics": {
+      "likes": 5,
+      "reposts": 2,
+      "views": 15908
+     }
+    },
     {
      "title": "@business",
      "url": "https://x.com/business/status/2112558232489099437",
@@ -538,42 +574,6 @@
       "likes": 21,
       "reposts": 3,
       "views": 3209
-     }
-    },
-    {
-     "title": "@MistralAI",
-     "url": "https://x.com/MistralAI/status/2112574615318876178",
-     "source": "@MistralAI",
-     "date": "2026-10-20",
-     "summary": "Mistral 发布 Voxtral 3：业界领先的转写与语音合成模型，驱动 Mistral 全新的语音智能体 API。",
-     "metrics": {
-      "likes": 357,
-      "reposts": 49,
-      "views": 10824
-     }
-    },
-    {
-     "title": "@perplexity_ai",
-     "url": "https://x.com/perplexity_ai/status/2112571597798461920",
-     "source": "@perplexity_ai",
-     "date": "2026-10-20",
-     "summary": "Perplexity Computer 现可完全在 Mac 本地运行：模型与智能体都在本机，可操作原生应用与本地文件，敏感数据不出设备，已在 Mac 应用上线。",
-     "metrics": {
-      "likes": 167,
-      "reposts": 17,
-      "views": 11401
-     }
-    },
-    {
-     "title": "@ornith_",
-     "url": "https://x.com/ornith_/status/2112553477457268799",
-     "source": "@ornith_",
-     "date": "2026-10-20",
-     "summary": "Ornith 发布 Ornith-1.5-122B：主打“强与快不再取舍”，指令遵循、任务拆解与理解能力更强，推理效率高，以 MIT 许可开放权重。",
-     "metrics": {
-      "likes": 1382,
-      "reposts": 276,
-      "views": 179428
      }
     }
    ]

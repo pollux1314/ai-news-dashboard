@@ -1,7 +1,188 @@
 {
- "updated": "2026-10-21T01:35:00+08:00",
- "count": 831,
+ "updated": "2026-10-21T02:33:00+08:00",
+ "count": 845,
  "items": [
+  {
+   "title": "谷歌 Gemini 推出小企业工具：新增商家专属落地页、营销与财务技能，可连接 Google 商家资料、Ads、Workspace 及 Adobe、Canva、Shopify、Xero 等应用",
+   "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+   "source": "Google Blog",
+   "date": "2026-10-20",
+   "summary": "谷歌称已有数千万小企业主在用 Gemini。新功能允许上传网站、品牌包、字体或配色定义品牌风格，搭配 Nano Banana 2.1 生成风格一致的营销素材并记住该风格；还能把杂乱的表格、收据和采购记录转成财务图表与交互模型。商家落地页、营销与财务技能及新连接应用将在未来几天面向全球所有 Gemini 应用用户陆续推出。",
+   "id": "cbc887d67feaee019cbc714a3d0e083681c86e63",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "OpenAI 收购药物研发协同平台 Orchestra Bio：团队与技术并入生命科学模型与工具线 Rosalind，打造协调药物项目的智能体",
+   "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
+   "source": "OpenAI",
+   "date": "2026-10-20",
+   "summary": "Orchestra Bio 让科学家和项目负责人把研究与试验的监控、跟踪交给智能体，并在某个环节出问题（如一批生产失败可能推迟临床试验）时识别受影响的活动与时间线、汇总信息并比较应对方案。OpenAI 称将把它与 GPT-Rosalind、Rosalind Workbench 结合，帮助把科学发现更快推进为可上市的疗法；交易金额未披露。",
+   "id": "dbaa902542534b3aef2de952931670bbaaa97f74",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "Visa、BILL 与 Billtrust 启动首个可信 AI 智能体 B2B 支付实盘试点：经认证的智能体可端到端登录供应商门户完成已审批的发票付款",
+   "url": "https://investor.visa.com/news/news-details/2026/Visa-BILL-and-Billtrust-Launch-First-Live-Pilot-for-Trusted-AI-Agent-Payments-Between-Buyer-and-Supplier-Platforms/default.aspx",
+   "source": "Visa",
+   "date": "2026-10-20",
+   "summary": "BILL 的付款智能体通过 Visa 可信智能体协议（Trusted Agent Protocol）与智能体目录注册，使用令牌化支付凭证并受买方已批准的付款指令约束；Billtrust 侧据此识别并放行该智能体，可替代验证码等反机器人机制，无需共享门户登录。三方称智能体不做付款决策，只执行已获批准的付款，试点已在处理真实交易。",
+   "id": "7b0400b2a99802a8cad4632c49a3cc27db98dbd5",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
+   "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
+   "source": "AI at Meta",
+   "date": "2026-10-20",
+   "summary": "针对多步检索中固定管线或原子工具的局限，RPL 允许模型先广泛检索、处理中间结果再有选择地构建上下文；为解决稀疏奖励下的探索难题，提出“程序变异”：对 RL 采样到的次优程序做语法约束、经执行验证的局部改写并蒸馏回策略。在开放域问答上多跳任务提升尤其明显，语料级推理任务答案 F1 与文档覆盖 F1 均最高，同时显著减少上下文消耗与检索轮数。",
+   "id": "62bf04ea7632706ea4e24f915a6216631c2ba4a3",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "IBM Research 发布 ALTK-Evolve：用学到的“行为准则”记忆，让 GPT-4.1 基础 ReAct 智能体在 τ²-bench 零售客服任务 Pass^4 达 67.5%，超过榜单所有条目",
+   "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+   "source": "Hugging Face Blog / IBM Research",
+   "date": "2026-10-20",
+   "summary": "ALTK-Evolve 分析智能体在训练任务上的成功与失败，把经验提炼成简短的行为规则（如如何验证身份）追加到系统提示中，不更新模型权重。IBM 称准则同时提升能力与可靠性，最佳准则量因领域而异，性能提升主要多花 token 而非多轮次，且对前沿模型驱动的智能体同样有效。",
+   "id": "94e7f4f5c0e52bb75e66cbfeaab71589104be947",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "蚂蚁百灵开源 Ming-3.0 语音系列五款模型：覆盖语音合成（支持文字描述音色与“导演模式”）、长音频理解与对话、语音识别",
+   "url": "https://www.ithome.com/1/015/117.htm",
+   "source": "IT之家",
+   "date": "2026-10-20",
+   "summary": "Ming-3.0-tts 系列可用文字描述或参考音频设定音色，并能说明台词的情绪变化、重读与节奏；Ming-3.0-audio-flash/tiny 可直接对长音频做转写、总结和观点分析并结构化输出，保留情绪与说话人信息；Ming-3.0-asr-tiny 结合热词与上下文提升识别，已用于阿福、支付宝搜索等业务。模型已上架 Hugging Face 与魔搭，Ling Studio 提供 API。",
+   "id": "9519466b099115beeaf32d8e2946dd421b8d844d",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "Meta 暂停 Muse 对话分享功能：安全公司 Claroc 通过公开 DNS 记录找出 6800 多个分享链接，曝光公司营收、贷款申请、员工日程等隐私内容",
+   "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+   "source": "The Verge",
+   "date": "2026-10-20",
+   "summary": "据 Ars Technica 与 The Verge 报道，Muse 分享链接的主机名由对话标题加随机 ID 构成，链接被打开后会被被动 DNS 服务记录，研究者据此可重建链接并免登录查看数百段对话，其中包括一份与某前沿 AI 实验室负责人保密通话的准备笔记。Meta 发言人称已暂停该功能并评估如何改变链接被发现的方式；此前 ChatGPT、Claude、Grok 的分享对话也曾出现在谷歌搜索中。",
+   "id": "f52190a49967b68da7ad63d8e5297c5a8a841b2d",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "交通运输部在北外滩国际航运论坛发布首批《水运领域人工智能应用场景指引》，同步公布 2027 年拟建成的十大智能体和十大垂类模型",
+   "url": "https://www.yicai.com/brief/103400431.html",
+   "source": "第一财经",
+   "date": "2026-10-20",
+   "summary": "10 月 20 日 2026 北外滩国际航运论坛在上海开幕。为落实《关于“人工智能+交通运输”的实施意见》、聚焦“一网四化”，交通运输部发布第一批水运领域 AI 应用场景指引（覆盖安全提升、提质增效、绿色转型三方面共 22 个场景），并公布到 2027 年拟建成的十大智能体与十大垂类模型，推动 AI 在港口、航运等水运领域的创新应用。",
+   "id": "1bfeb95ea850e1916f43f24d4be92f8698d367b8",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "VictorTaelin/uniichat",
+   "url": "https://github.com/VictorTaelin/uniichat",
+   "source": "GitHub",
+   "stars": 513,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-20",
+   "summary": "“永不结束的单一对话”AI 智能体（Apache-2.0）：每条消息被压缩成一行摘要并两两合并成二叉“记忆树”，每次调用看到最多 128KB 的全局视图，智能体可逐层展开回到原文，无需丢弃历史的压缩；可在自己的服务器用自有 API Key 运行。",
+   "why": "10 月 19 日开源，作者称几乎全部由 AI 智能体编写和审查，上线一天多约 500 星，进入 GitHub 新建仓库星标前列。",
+   "id": "2d7f88e32eabb540cc75c6b33e3cfa9c55d93a16",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "kitlangton/scrawl",
+   "url": "https://github.com/kitlangton/scrawl",
+   "source": "GitHub",
+   "stars": 561,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-20",
+   "summary": "“给智能体看问题而不是描述问题”（MIT）：快捷键录屏，边说边点边画，结束后打包成带标注关键帧的缩略图、时间对齐的转写与交互时间线及结构化清单，供 Claude Code、OpenCode、Codex 等智能体直接读取；支持 macOS 与 Windows 预览版，并提供智能体技能安装。",
+   "why": "10 月 14 日创建，近一周涨至 500+ 星，是本周增长最快的智能体辅助工具之一。",
+   "id": "81c23db71773eedad69478e33889eb51d0efd99a",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "pengchujin/aerial-tv",
+   "url": "https://github.com/pengchujin/aerial-tv",
+   "source": "GitHub",
+   "stars": 491,
+   "stars_week": null,
+   "language": "Kotlin",
+   "date": "2026-10-20",
+   "summary": "面向小米、TCL 等国产电视的开源 Android TV 桌面（MIT）：参照 tvOS 设计，无广告、无推荐流，开机自动接管并带 Apple TV 航拍屏保；README 推荐让编程智能体通过 ADB 帮你安装。",
+   "why": "10 月 20 日创建、当天近 500 星，延续本周“用 Claude Code/Codex 给智能电视去广告”的 GitHub 热潮，是首个针对国产电视的版本。",
+   "id": "e31af640f4c7bceb3b73e07e8c6aca62d17b896d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2112607347688583586",
+   "source": "@OpenAI",
+   "date": "2026-10-20",
+   "summary": "OpenAI 官宣收购药物研发协同平台 Orchestra Bio，将基于生命科学模型与工具 Rosalind 简化药物研发运营，帮助新疗法更快抵达患者。",
+   "metrics": {
+    "likes": 985,
+    "reposts": 85,
+    "views": 62032
+   },
+   "id": "161a4dc6775c4225c8714f58c1745dcbfe912624",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112597246042603587",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "The Information：奥特曼对员工称，AI 安全的一种路径可能是把最大的几家 AI 实验室合并成一个组织，但 OpenAI 与 Anthropic 都在冲刺 IPO，与对手协调恐怕很难。",
+   "metrics": {
+    "likes": 8,
+    "reposts": 1,
+    "views": 4796
+   },
+   "id": "7b379e156a537c8368676d73df792e40045416b8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112597259388850456",
+   "source": "@business",
+   "date": "2026-10-20",
+   "summary": "彭博：随着美国各地反对 AI 的声音蔓延，保险公司 Arbol 押注数据中心开发商会购买保单，以弥补许可延误或项目被阻导致的损失。",
+   "metrics": {
+    "likes": 5,
+    "reposts": 2,
+    "views": 15908
+   },
+   "id": "2f528bcdb661a5adc540bd3a699de975f89b5794",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T02:33:00+08:00"
+  },
   {
    "title": "Zoom 在 Zoomtopia 推出 AI 治理套件：集中式 AI 智能体管理、自定义 AI 护栏，以及实时“深度伪造风险检测”",
    "url": "https://news.zoom.com/zoomtopia-2026-security/",
