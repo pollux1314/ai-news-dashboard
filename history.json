@@ -1,7 +1,144 @@
 {
- "updated": "2026-10-21T06:25:00+08:00",
- "count": 881,
+ "updated": "2026-10-21T07:35:00+08:00",
+ "count": 891,
  "items": [
+  {
+   "title": "集邦咨询：AI 推理需求推高内存，预估 2026 年四季度 DRAM 合约价环比再涨约 20%，涨幅较二季度（约 80%）、三季度（约 40%）放缓",
+   "url": "https://www.ithome.com/1/015/627.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "更大模型、更长上下文与不断增长的 KV 缓存拉动服务器 DRAM 与企业级 SSD 需求，原厂又把产能优先投向 HBM，传统 DRAM 供给更紧。另据报道，英伟达因 HBM 吃紧考虑把 Rubin Ultra 的 HBM 堆叠从 12 层降到 8 层，单颗 GPU 容量约少 33%，但同样颗粒可多支撑约 50% GPU 出货。",
+   "id": "7e88b9c0f69c91731753bf53514300919e8df26b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "法国 AI 企业软件公司 Pigment 完成 2.5 亿美元融资、估值 23 亿美元，Scaleup Europe Fund 领投、英伟达参投，正面挑战微软 Excel 与 PowerPoint",
+   "url": "https://news.bgov.com/capital-markets/nvidia-backed-pigment-nabs-250-million-to-challenge-microsoft",
+   "source": "Bloomberg",
+   "date": "2026-10-20",
+   "summary": "彭博报道，Pigment 用 AI 帮企业做财务预测、生成演示文稿等。本轮除 Scaleup Europe Fund 与英伟达外，还有美日基金 World Innovation Lab 及老股东 Iconiq、IVP、Meritech 参与；黄仁勋上周访法时已宣布这笔投资，公司还计划再引入几家亚洲投资方。",
+   "id": "64b869689dbbd482ebeb2a1cf58ac2c06b96df4d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "SpaceX 与特斯拉董事会各自成立独立董事特别委员会，评估两家公司合并；马斯克称合并“是个好主意”，但并非板上钉钉",
+   "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "马斯克在 SpaceX 三季度财报电话会上透露，委员会应股东要求设立，他作为利益冲突方不参与讨论，双方尚未就交易条款达成一致；特斯拉需获全体股东 50% 赞成票。他称“我们几乎已处在超级智能奇点”，合并可在 AI 软件、机器人、轨道 AI 数据中心 Starmind 及联合造芯项目 Terafab 上协同。",
+   "id": "954ba61da6d3c6862ccaa16948e8c3970ae53a35",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "2026 物理 AI 与世界模型大会在南京开幕：江苏发布物理 AI 与世界模型高质量数据集建设行动计划，苏皖数据标注城市联盟成立，现场签约超 60 亿元",
+   "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxeww0914247.shtml",
+   "source": "上海证券报",
+   "date": "2026-10-20",
+   "summary": "大会称是国内首个聚焦物理 AI 与世界模型的综合性行业大会。两轮重大产业项目签约覆盖具身智能整机与零部件、世界模型与机器人大脑、物理 AI 芯片等，并达成全国首个“物理 AI 与世界模型投资基金”战略合作；江苏上半年 AI 产业营收 2431.13 亿元、同比增 17.32%，累计 92 款大模型完成备案。",
+   "id": "11c4cae1263a9959269113265f216068f29a5772",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "pbakaus/impeccable",
+   "url": "https://github.com/pbakaus/impeccable",
+   "source": "GitHub",
+   "stars": 83820,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-20",
+   "summary": "给 AI 编码智能体用的前端设计规范：1 个 skill、24 条命令（polish、audit、critique、bolder 等）与实时浏览器迭代，外加 61 条确定性检测规则，专门揪出 AI 生成界面的通病（满屏 Inter 字体、紫蓝渐变、卡片套卡片等）；脱胎于 Anthropic 的 frontend-design skill。",
+   "why": "GitHub Trending Rust 日榜第一，当日新增约 593 星，总星数超 8.3 万。",
+   "id": "fa4361846156ed467960d677c72734a959c6327d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "PC2005-cloud/dsh-pet",
+   "url": "https://github.com/PC2005-cloud/dsh-pet",
+   "source": "GitHub",
+   "stars": 3059,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-20",
+   "summary": "住在 DeepSeek Harness 里的桌面宠物插件：一行命令安装，百余个透明动画（打瞌睡、玩魔方、吃火锅等）可漫游屏幕、拖拽甩抛，支持多开；内置 DIY 素材链，可用 AI 视频自制专属宠物。MIT 许可。",
+   "why": "GitHub Trending TypeScript 日榜前列，当日新增约 505 星，是 DeepSeek Harness 插件生态里最火的项目之一。",
+   "id": "b7ade1f0ade5399758333a07007b373ebc40bacb",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "croffasia/itsaplan",
+   "url": "https://github.com/croffasia/itsaplan",
+   "source": "GitHub",
+   "stars": 1631,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-20",
+   "summary": "开源自托管的项目管理与缺陷跟踪工具，定位 Linear / Jira / Plane 替代品，主打让 AI 智能体像队友一样参与规划与交付：全部能力通过 REST API、Webhook 与 MCP 开放。AGPL-3.0。",
+   "why": "登上 GitHub Trending TypeScript 日榜，当日新增约 121 星。",
+   "id": "5f10b82bfa3687b52e01ad9f21e74053a7574e78",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "@kimmonismus",
+   "url": "https://x.com/kimmonismus/status/2112681769787163037",
+   "source": "@kimmonismus",
+   "date": "2026-10-20",
+   "summary": "转述 SpaceX 三季度财报电话会：马斯克目标在 2027 年二季度末上线由 44 万颗英伟达 Vera Rubin 组成的单一训练集群，称其可让 Grok “可能成为最好的模型”；到 2027 年底 AI 算力总规模约 13GW（当年新增约 10GW），并计划 2027 年新增 20GW 电力与散热设施。",
+   "metrics": {
+    "likes": 41,
+    "reposts": 4,
+    "views": 3076
+   },
+   "id": "ff8c62aed0ff9c134b87f4086b5968961ffea1f8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112685328595059124",
+   "source": "@business",
+   "date": "2026-10-20",
+   "summary": "彭博：与微软 Excel、PowerPoint 竞争的法国 AI 公司 Pigment 完成 2.5 亿美元融资，为欧洲明星创业公司挑战美国科技巨头再添弹药。",
+   "metrics": {
+    "likes": 6,
+    "reposts": 3,
+    "views": 8869
+   },
+   "id": "2daf05b115fae6614d5475a1b166bb504ded7cd6",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2112680030664880542",
+   "source": "@TechCrunch",
+   "date": "2026-10-20",
+   "summary": "TechCrunch：SpaceX 与特斯拉董事会成立特别委员会评估合并，马斯克表示喜欢这个主意，但自己不在任何一个由独立董事组成的委员会中。",
+   "metrics": {
+    "likes": 6,
+    "reposts": 1,
+    "views": 5484
+   },
+   "id": "a6c434e73dc719cb023cf735fc7a8d32acb7eb70",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T07:35:00+08:00"
+  },
   {
    "title": "超微电脑预告 2027 财年一季度营收 185–195 亿美元，远超此前 145–155 亿美元指引，主因 AI 平台需求上升；毛利率预计 12.0%–12.5%",
    "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",

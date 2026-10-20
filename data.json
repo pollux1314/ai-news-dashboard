@@ -1,567 +1,582 @@
 {
- "title": "AI 资讯面板",
- "updated": "2026-10-21T06:25:00+08:00",
- "modules": [
-  {
-   "id": "models",
-   "name": "大模型与产品发布",
-   "icon": "🚀",
-   "items": [
+  "title": "AI 资讯面板",
+  "updated": "2026-10-21T07:35:00+08:00",
+  "modules": [
     {
-     "title": "谷歌把“Personal Intelligence with Gemini”带进汽车：Android Auto 今日起上线，可调用 Gmail、日历、地图、YouTube 和搜索记录给出个性化回答，Google Built-in 车型数月内跟进",
-     "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "驾驶者需主动开启，可逐个选择连接哪些谷歌应用并随时关闭。例子包括导航去机场时提醒日历里的航班延误、一次追问同时回答登机口和是否准点。Gemini 去年 11 月进入 Android Auto，Personal Intelligence 今年 3 月在美国推出、目前在全球市场测试。"
+      "id": "models",
+      "name": "大模型与产品发布",
+      "icon": "🚀",
+      "items": [
+        {
+          "title": "谷歌把“Personal Intelligence with Gemini”带进汽车：Android Auto 今日起上线，可调用 Gmail、日历、地图、YouTube 和搜索记录给出个性化回答，Google Built-in 车型数月内跟进",
+          "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "驾驶者需主动开启，可逐个选择连接哪些谷歌应用并随时关闭。例子包括导航去机场时提醒日历里的航班延误、一次追问同时回答登机口和是否准点。Gemini 去年 11 月进入 Android Auto，Personal Intelligence 今年 3 月在美国推出、目前在全球市场测试。"
+        },
+        {
+          "title": "ChatGPT 上线“锁定聊天”（Locked Chats）：敏感对话可用四位 PIN、Face ID 或 Touch ID 上锁，面向 Free 到 Enterprise、Edu 全部套餐逐步推送",
+          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "锁定后的对话移入独立的“Locked Chats”区，不出现在常规历史、置顶和搜索里；开启记忆时该区有一套独立记忆，锁定后的新消息不会写入常规记忆。OpenAI 说明上锁不等于端到端加密，也不改变数据保留期限或“改进模型”设置；重置 PIN 会永久删除所有锁定内容。临时、归档、群聊、分享链接创建的对话等不支持，ChatGPT for Healthcare 暂不提供。"
+        },
+        {
+          "title": "OpenAI API 新增 12 小时提示缓存：共享指令、工具和上下文可缓存更久，请求间隔数小时仍按更低的缓存输入价计费",
+          "url": "https://developers.openai.com/api/docs/changelog",
+          "source": "OpenAI API Changelog",
+          "date": "2026-10-20",
+          "summary": "10 月 20 日更新日志显示，Responses API 可选择 12 小时提示缓存，12 小时缓存写入按输入 token 价格的 2.5 倍计费。OpenAI Devs 称这主要面向全天反复复用上下文的常驻智能体。"
+        },
+        {
+          "title": "谷歌 Gemini 推出小企业工具：新增商家专属落地页、营销与财务技能，可连接 Google 商家资料、Ads、Workspace 及 Adobe、Canva、Shopify、Xero 等应用",
+          "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+          "source": "Google Blog",
+          "date": "2026-10-20",
+          "summary": "谷歌称已有数千万小企业主在用 Gemini。新功能允许上传网站、品牌包、字体或配色定义品牌风格，搭配 Nano Banana 2.1 生成风格一致的营销素材并记住该风格；还能把杂乱的表格、收据和采购记录转成财务图表与交互模型。商家落地页、营销与财务技能及新连接应用将在未来几天面向全球所有 Gemini 应用用户陆续推出。"
+        },
+        {
+          "title": "Zoom 在 Zoomtopia 推出 AI 治理套件：集中式 AI 智能体管理、自定义 AI 护栏，以及实时“深度伪造风险检测”",
+          "url": "https://news.zoom.com/zoomtopia-2026-security/",
+          "source": "Zoom",
+          "date": "2026-10-20",
+          "summary": "Zoom 称 AI 智能体越来越多地接触会议内容与企业系统，管理员需要像管控其他关键系统一样管控 AI：集中式 AI 管理可查看组织内运行的智能体、访问的数据并审计其活动（预计 2026 年 12 月）；自定义 AI 护栏可阻止指定敏感信息出现在 AI 摘要中，并可要求人工审核（预计 2027 年 Q1）；与 Microsoft Purview 的敏感度标签同步已上线。深度伪造风险检测实时分析音视频信号，识别可能在 Zoom 之外被篡改的参会者画面或声音并给出置信度提示，面向招聘面试、客户沟通等场景，预计 12 月推出。"
+        },
+        {
+          "title": "Mistral 发布 Voxtral 3 语音模型家族与语音智能体 SDK：转写模型支持 50+ 语言并号称超越 Whisper、Scribe v2 与 Gemini 3.5 Transcribe，TTS 覆盖 35+ 语言、50+ 方言",
+          "url": "https://mistral.ai/news/voxtral-3",
+          "source": "Mistral AI",
+          "date": "2026-10-20",
+          "summary": "Voxtral Small Transcribe 3 支持说话人分离、上下文偏置与端点检测；4B 的 Mini 版转写价 0.0035 美元/分钟，Realtime 版延迟低于 500ms；Voxtral Speech 3 可按语境调整情绪、语速与重音，每百万字符 13 美元，Pro Voice 用 30 分钟音频复刻声音风格。新 SDK 基于 LiveKit，把听、推理、调工具、说串成单条流式管线，每轮响应不到 1 秒，支持 SIP 与 WebRTC；可走欧盟托管 API 或自部署。Artificial Analysis 称 Small Transcribe 3 位列其语音转文字榜第 3。"
+        },
+        {
+          "title": "Perplexity Computer 新增 Mac 端侧模式：智能体与模型全部在本机运行（Qwen 3.6 或后训练的 PPLX Pro），可离线操作本地应用与文件，建议 36GB 以上内存",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1014400/perplexity-computer-can-now-run-fully-offline-on-mac-but-youll-need-a-lot-of-ram",
+          "source": "The Verge / Perplexity",
+          "date": "2026-10-20",
+          "summary": "据 The Verge，更新后用户可在不把数据传到云端的情况下跨原生 Mac 应用和本地文件执行任务，借助 Apple Silicon 在本机跑模型；需要最新信息或浏览器操作时，也可把部分任务转交云端。功能已在 Perplexity Mac 应用上线。"
+        },
+        {
+          "title": "Figma 首届印度 Config 大会新增 20 家 MCP 合作伙伴（含 Linear、Notion、Mistral、Meta Muse、OpenCode 等），联合创始人 Dylan Field 称 MCP“并不完美”、更有利于前沿实验室",
+          "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "据 TechCrunch，Field 在媒体沟通会上表示 MCP 还有很大改进空间，Figma 不愿完全开放是因为通过 MCP 暴露的数据越多、被滥用的可能越高。此前他曾在 X 上质疑 Anthropic 作为 MCP 创建方并未通过 MCP 开放 artifacts 等云端资源，并称“非对称的上下文共享”问题被忽视；他随后表示 Figma 计划支持开源工具 Pi。"
+        }
+      ]
     },
     {
-     "title": "ChatGPT 上线“锁定聊天”（Locked Chats）：敏感对话可用四位 PIN、Face ID 或 Touch ID 上锁，面向 Free 到 Enterprise、Edu 全部套餐逐步推送",
-     "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "锁定后的对话移入独立的“Locked Chats”区，不出现在常规历史、置顶和搜索里；开启记忆时该区有一套独立记忆，锁定后的新消息不会写入常规记忆。OpenAI 说明上锁不等于端到端加密，也不改变数据保留期限或“改进模型”设置；重置 PIN 会永久删除所有锁定内容。临时、归档、群聊、分享链接创建的对话等不支持，ChatGPT for Healthcare 暂不提供。"
+      "id": "industry",
+      "name": "行业与融资",
+      "icon": "💰",
+      "items": [
+        {
+          "title": "集邦咨询：AI 推理需求推高内存，预估 2026 年四季度 DRAM 合约价环比再涨约 20%，涨幅较二季度（约 80%）、三季度（约 40%）放缓",
+          "url": "https://www.ithome.com/1/015/627.htm",
+          "source": "IT之家",
+          "date": "2026-10-21",
+          "summary": "更大模型、更长上下文与不断增长的 KV 缓存拉动服务器 DRAM 与企业级 SSD 需求，原厂又把产能优先投向 HBM，传统 DRAM 供给更紧。另据报道，英伟达因 HBM 吃紧考虑把 Rubin Ultra 的 HBM 堆叠从 12 层降到 8 层，单颗 GPU 容量约少 33%，但同样颗粒可多支撑约 50% GPU 出货。"
+        },
+        {
+          "title": "法国 AI 企业软件公司 Pigment 完成 2.5 亿美元融资、估值 23 亿美元，Scaleup Europe Fund 领投、英伟达参投，正面挑战微软 Excel 与 PowerPoint",
+          "url": "https://news.bgov.com/capital-markets/nvidia-backed-pigment-nabs-250-million-to-challenge-microsoft",
+          "source": "Bloomberg",
+          "date": "2026-10-20",
+          "summary": "彭博报道，Pigment 用 AI 帮企业做财务预测、生成演示文稿等。本轮除 Scaleup Europe Fund 与英伟达外，还有美日基金 World Innovation Lab 及老股东 Iconiq、IVP、Meritech 参与；黄仁勋上周访法时已宣布这笔投资，公司还计划再引入几家亚洲投资方。"
+        },
+        {
+          "title": "SpaceX 与特斯拉董事会各自成立独立董事特别委员会，评估两家公司合并；马斯克称合并“是个好主意”，但并非板上钉钉",
+          "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "马斯克在 SpaceX 三季度财报电话会上透露，委员会应股东要求设立，他作为利益冲突方不参与讨论，双方尚未就交易条款达成一致；特斯拉需获全体股东 50% 赞成票。他称“我们几乎已处在超级智能奇点”，合并可在 AI 软件、机器人、轨道 AI 数据中心 Starmind 及联合造芯项目 Terafab 上协同。"
+        },
+        {
+          "title": "超微电脑预告 2027 财年一季度营收 185–195 亿美元，远超此前 145–155 亿美元指引，主因 AI 平台需求上升；毛利率预计 12.0%–12.5%",
+          "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
+          "source": "Supermicro",
+          "date": "2026-10-20",
+          "summary": "该季度截至 9 月 30 日，数据为未经审计的初步结果。路透援引 LSEG 数据称分析师平均预期为 152.3 亿美元；毛利率也高于此前 10.4%–10.8% 的指引，公司归因于客户与产品结构。正式财报电话会定于 11 月 3 日。"
+        },
+        {
+          "title": "Hugging Face CEO Delangue 批 Netflix 纪录片《AI Gone Wild》失实：对 7 月 OpenAI 智能体入侵 Hugging Face 事件“极度拟人化、走末日路线”",
+          "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "Delangue 称曾花两个多小时帮剧组纠错，但片子没有提到智能体缺乏隔离与监控、闭源模型安全机制阻碍了防御工作，以及 Hugging Face 用开源模型自卫；他重申完整的智能体轨迹至今未公开，企业须为其智能体行为负责。"
+        },
+        {
+          "title": "WSJ 获泄露 S-1：Anthropic 难从 AWS、谷歌、微软拿到足够算力——三大云厂商日益把它视为竞争对手；云合同潜在支出或超 7500 亿美元",
+          "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
+          "source": "TechCrunch / WSJ",
+          "date": "2026-10-20",
+          "summary": "据《华尔街日报》获得的泄露 S-1 文件，Anthropic 正自租数据中心并与第三方运营商合作，但担心后者“经营历史有限”、可靠性不及超大规模云厂商。文件显示其上半年净亏损 807 亿美元、营收 163 亿美元，两家客户约占五分之一营收；并警告有害 AI 行为造成的损害赔偿可能超过保险覆盖。公司上周告诉潜在投资者第三季度营收已达 168 亿美元、环比增 45%，据报计划 11 月 IPO。"
+        },
+        {
+          "title": "SpaceX 三季度营收 146 亿美元、重回盈利（净利润 44 亿美元）：更名为“Super Intelligence”的 AI 业务营收 75 亿美元、占比 52%，马斯克预计 2027 年底 ARR 达 5000 亿至 1 万亿美元",
+          "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "AI 业务涵盖新近收购的 Cursor 编码工具、Grok 及拥有 1.7GW 算力的新云业务，实现利润 4.31 亿美元（含 Cursor 收购相关 12 亿美元一次性股权激励）。季度资本开支 196 亿美元，CFO 称四季度将投入 350–400 亿美元，用于 Colossus II 与星舰；马斯克称每周有四天在孟菲斯推进 Colossus II，并认为超级智能部署的瓶颈在电力、散热与基础设施而非芯片。"
+        },
+        {
+          "title": "OpenAI 前 Preparedness 负责人 Aleksander Madry 结束“休假”回归，将与首席科学家 Jakub Pachocki 共同应对更强 AI 的安全与安保挑战",
+          "url": "https://www.benzinga.com/markets/private-markets/26/10/62451821/openai-safety-expert-returns-after-months-away-citing-rising-ai-risks",
+          "source": "Benzinga",
+          "date": "2026-10-20",
+          "summary": "Madry 今年 5 月离开 OpenAI，称当时想专注让 AI 更有用，但“我们已进入 AI 进展的不同阶段”，安全与安保必须成为核心优先事项。Pachocki 回应称自己关注 AI 进展的速度与影响应如何指导 OpenAI 及整个领域的战略，是他请 Madry 回来；奥特曼也发文致谢。Madry 此前曾任 MIT 可部署机器学习中心主任。"
+        }
+      ]
     },
     {
-     "title": "OpenAI API 新增 12 小时提示缓存：共享指令、工具和上下文可缓存更久，请求间隔数小时仍按更低的缓存输入价计费",
-     "url": "https://developers.openai.com/api/docs/changelog",
-     "source": "OpenAI API Changelog",
-     "date": "2026-10-20",
-     "summary": "10 月 20 日更新日志显示，Responses API 可选择 12 小时提示缓存，12 小时缓存写入按输入 token 价格的 2.5 倍计费。OpenAI Devs 称这主要面向全天反复复用上下文的常驻智能体。"
+      "id": "research",
+      "name": "研究与论文",
+      "icon": "📄",
+      "items": [
+        {
+          "title": "Safety Mid-Training：在预训练与后训练之间加入“安全中训练”阶段，让安全与通用推理共享推理结构联合习得，平均攻击成功率相对基线降低 72%–81%",
+          "url": "https://arxiv.org/abs/2610.26809",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "作者认为安全对齐若只放在后训练，后续训练不含安全数据时容易退化，且常以牺牲通用能力为代价。方法是给定安全与实用提示，由基座模型生成结构化文档和推理轨迹，再用于中训练，把安全视为一种可学习的能力而非独立目标。"
+        },
+        {
+          "title": "WildAWM（Agent World Model in the Wild）：可扩展合成可控环境与任务来训练通用电脑操作智能体，环境同时支持 GUI、MCP 服务与命令行，全程只用开源模型",
+          "url": "https://arxiv.org/abs/2610.26828",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "针对直接在真实系统中扩展智能体交互学习既难又有安全风险的问题，WildAWM 构建可执行环境，让智能体灵活组合视觉交互、工具调用与代码执行，并处理任务合成中的可解性、难度保持等常见难题，证明无需闭源前沿模型也能生成高质量电脑操作环境。"
+        },
+        {
+          "title": "InfiniDream：VLM 驱动的开放式程序化 3D 世界生成，用“符号约束资产生成”借助现有程序化算法造出新的照片级资产，并保留可编辑性与按种子多样性",
+          "url": "https://arxiv.org/abs/2610.26853",
+          "source": "arXiv / Alaya Lab",
+          "date": "2026-10-20",
+          "summary": "针对 VLM 写代码生成的 3D 资产过于简单、而照片级程序化系统需大量手工开发的问题，InfiniDream 不再受限于预定义工厂与 API，可生成全新资产类型；同时构建端到端文生世界管线，把语义场景规划与程序化资产结合，生成开放式照片级 3D 世界，适用于合成数据与游戏开发。"
+        },
+        {
+          "title": "Manga2Animate：多智能体框架把现有漫画忠实改编成动画——先产出动画脚本与视觉分镜两种中间表示，每步由创作智能体生成、审阅智能体对照原漫画画格把关",
+          "url": "https://arxiv.org/abs/2610.26851",
+          "source": "arXiv / 阳明交通大学",
+          "date": "2026-10-20",
+          "summary": "现有方法要么只通过文字读取漫画、丢失角色与画风，要么把整页直接喂给视频模型导致剧情错误。Manga2Animate 让生成全程以原作为依据，通过表示特定的选择机制与双层反馈逐步细化脚本与分镜后再合成动画，实验与用户研究显示在忠实度上优于基线。"
+        },
+        {
+          "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
+          "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
+          "source": "AI at Meta",
+          "date": "2026-10-20",
+          "summary": "针对多步检索中固定管线或原子工具的局限，RPL 允许模型先广泛检索、处理中间结果再有选择地构建上下文；为解决稀疏奖励下的探索难题，提出“程序变异”：对 RL 采样到的次优程序做语法约束、经执行验证的局部改写并蒸馏回策略。在开放域问答上多跳任务提升尤其明显，语料级推理任务答案 F1 与文档覆盖 F1 均最高，同时显著减少上下文消耗与检索轮数。"
+        },
+        {
+          "title": "IBM Research 发布 ALTK-Evolve：用学到的“行为准则”记忆，让 GPT-4.1 基础 ReAct 智能体在 τ²-bench 零售客服任务 Pass^4 达 67.5%，超过榜单所有条目",
+          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+          "source": "Hugging Face Blog / IBM Research",
+          "date": "2026-10-20",
+          "summary": "ALTK-Evolve 分析智能体在训练任务上的成功与失败，把经验提炼成简短的行为规则（如如何验证身份）追加到系统提示中，不更新模型权重。IBM 称准则同时提升能力与可靠性，最佳准则量因领域而异，性能提升主要多花 token 而非多轮次，且对前沿模型驱动的智能体同样有效。"
+        },
+        {
+          "title": "Radical Numerics 发布多模态基因组语言模型 Omnii-1：AI 设计的噬菌体首次在“同情用药”途径下给到人类患者，用于治疗耐药菌感染",
+          "url": "https://www.radicalnumerics.ai/blog/omnii-phage",
+          "source": "Radical Numerics",
+          "date": "2026-10-20",
+          "summary": "由 Evo/Evo 2 原班人马创立的 Radical Numerics 称，Omnii-1 把 DNA、RNA、蛋白质等 28 类生物数据统一表示；团队针对 T7 噬菌体尾丝蛋白 gp17 生成变体，在 11–15 个氨基酸改动时 69.9% 的设计可成功“重启”，随机对照仅 4.8%。含 AI 设计噬菌体的鸡尾酒在体外清除了患者的耐药菌株，随后在医生主导、受监管的同情用药途径下给药；公司出于隐私未披露疗效，并强调单一病例不能证明安全性或有效性。Omnii 同时被用于生物防御，已与劳伦斯利弗莫尔国家实验室合作。"
+        },
+        {
+          "title": "Ai2 发布 FairStress 公平性基准：300 个双候选人决策场景扩展为 1300 多万测试用例，发现模型在被“说服”时更易为少数群体放弃正确决定",
+          "url": "https://huggingface.co/blog/allenai/fairstress",
+          "source": "Ai2 / Hugging Face",
+          "date": "2026-10-20",
+          "summary": "FairStress 覆盖招聘、医疗、贷款、教育、住房、刑事司法等 29 个领域，除看最终选择外，还用权威、共识、历史劣势等“对抗性前缀”测试模型改变决定的难易度。15 个模型上，隐含身份与显式标签时放弃正确答案的平均差距分别为 6.9 与 9.3 个百分点；Claude Opus 5、GPT-5.5 等前沿模型在难分高下的案例中约 60–65% 选择少数群体候选人，作者称之为“反刻板印象过度矫正”。9 种去偏方法中仅“反事实思维链”在基本保持准确率的同时缩小了不对称；基准将并入 Olmo-eval。"
+        }
+      ]
     },
     {
-     "title": "谷歌 Gemini 推出小企业工具：新增商家专属落地页、营销与财务技能，可连接 Google 商家资料、Ads、Workspace 及 Adobe、Canva、Shopify、Xero 等应用",
-     "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
-     "source": "Google Blog",
-     "date": "2026-10-20",
-     "summary": "谷歌称已有数千万小企业主在用 Gemini。新功能允许上传网站、品牌包、字体或配色定义品牌风格，搭配 Nano Banana 2.1 生成风格一致的营销素材并记住该风格；还能把杂乱的表格、收据和采购记录转成财务图表与交互模型。商家落地页、营销与财务技能及新连接应用将在未来几天面向全球所有 Gemini 应用用户陆续推出。"
+      "id": "opensource",
+      "name": "开源与工具",
+      "icon": "🛠️",
+      "items": [
+        {
+          "title": "EAGLE-4 发布：以 eagle-harness 形式提供的推测解码“灵活草稿模型”，可按批大小、硬件与负载自适应调整解码策略并保持目标模型输出分布，支持 SGLang、vLLM 与 TokenSpeed",
+          "url": "https://pypi.org/project/eagle-harness/",
+          "source": "EAGLE / PyPI",
+          "date": "2026-10-20",
+          "summary": "官方称这是 EAGLE 系列迄今最快版本：在 4 张 NVIDIA B300 上用 TokenSpeed 跑 Qwen3.8-27B（BF16、单请求、T=0）达到 961.6 tokens/s。PyPI 包名 eagle-harness v0.1.0，描述为基于成本模型的动态树推测解码插件；AMD 也发文介绍其在 Instinct GPU 上的运行。"
+        },
+        {
+          "title": "英伟达开源 Cosmos3-H-Dreams：首个基于真实胆囊切除手术录像训练、支持实时运动学控制的生成式手术模拟器，单张 RTX PRO 6000 即可交互运行",
+          "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+          "source": "Hugging Face / NVIDIA",
+          "date": "2026-10-20",
+          "summary": "基于 16B 的 Cosmos3-H-Embodied-Nano，在 CMR Surgical Versius 平台的临床视频与机器人运动学数据上专门化，使用 28 维动作（双臂位姿、夹爪、能量控制等）；通过 Self-Forcing 蒸馏出 4 步与 2 步两个实时学生模型，借助 FlashDreams 流式推理与 FadeMem 缓存压缩支持长时间推演。代码、权重与微调蒸馏教程均已开放；英伟达强调其为研究用模拟器，不用于临床。"
+        },
+        {
+          "title": "Bria 发布并开源 Fibo 2：8B 统一图像生成与编辑模型，全部使用授权数据训练，称在 Artificial Analysis 图像编辑榜位列开源权重第一",
+          "url": "https://docs.bria.ai/whats-new/fibo-2",
+          "source": "Bria AI",
+          "date": "2026-10-20",
+          "summary": "Fibo 2 Generate 与 Edit 权重已上 Hugging Face（如 briaai/Fibo-2.0-dev），Diffusers 首日支持；编辑可一次组合最多 4 张参考图，每次生成都返回结构化提示 VGL 便于复现与微调，新增 12 种画幅共 21 种。Bria 称其编辑效果优于 Ideogram、字节跳动和 Black Forest Labs 的闭源模型，文生图位列开源前二；API 接口不变。"
+        },
+        {
+          "title": "蚂蚁百灵开源 Ming-3.0 语音系列五款模型：覆盖语音合成（支持文字描述音色与“导演模式”）、长音频理解与对话、语音识别",
+          "url": "https://www.ithome.com/1/015/117.htm",
+          "source": "IT之家",
+          "date": "2026-10-20",
+          "summary": "Ming-3.0-tts 系列可用文字描述或参考音频设定音色，并能说明台词的情绪变化、重读与节奏；Ming-3.0-audio-flash/tiny 可直接对长音频做转写、总结和观点分析并结构化输出，保留情绪与说话人信息；Ming-3.0-asr-tiny 结合热词与上下文提升识别，已用于阿福、支付宝搜索等业务。模型已上架 Hugging Face 与魔搭，Ling Studio 提供 API。"
+        },
+        {
+          "title": "llm-d 1.0 发布：红帽、IBM、谷歌主导的 Kubernetes 原生分布式推理栈进入生产就绪，新增多租户 QoS、零停机升级与面向智能体的路由",
+          "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
+          "source": "IBM Research",
+          "date": "2026-10-20",
+          "summary": "在 PyTorch Conference North America 上发布；llm-d 由红帽、IBM、谷歌与 CoreWeave、英伟达去年共同创立，现为 CNCF 沙箱项目，可在 vLLM 或 SGLang 之上提供前缀缓存感知路由、KV 缓存跨 GPU/CPU/存储卸载、预填充/解码分离与宽专家并行。1.0 重点是“第二天运维”：稳定 API、流控与优先级、多轮请求固定到已有缓存的副本。IBM 称在智能体编程负载中前缀路由捕获了 97% 的可复用缓存，并演示自托管同时运行 3000 个软件工程智能体，成本为调用同一开源模型托管服务的 1/5 到 1/10。"
+        },
+        {
+          "title": "Ornith 开源 Ornith-1.5-122B（MIT）：122B MoE，单台 DGX 即可部署并提供移动端量化版，TerminalBench 2.1 得 81.2、CyberGym 80.0",
+          "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
+          "source": "Hugging Face / Ornith",
+          "date": "2026-10-20",
+          "summary": "官方称其“强与快不再取舍”：基准更高、完成更快、输出更短，指令遵循、任务拆解与真实工作场景知识更强，为同等规模开源模型 SOTA。模型卡对比中，TerminalBench 2.1 略低于 Qwen3.8-Flash-Next（83.4）与 DeepSeek-V4-Flash-0731（82.7），CyberGym 则高于两者（78.0/76.7），NL2Repo 51.2。发布帖在 X 上浏览约 18 万次。"
+        },
+        {
+          "title": "Hugging Face 开源 Agent Manager：在私有 HF Space 中统一运行 Claude Code、Codex、Gemini CLI、opencode 等编程智能体，可并排协作、共享技能并互相通信，Apache 2.0",
+          "url": "https://github.com/huggingface/agent-manager",
+          "source": "GitHub / Hugging Face",
+          "date": "2026-10-20",
+          "summary": "HF 的 Leandro von Werra 10 月 20 日宣布上线。Agent Manager 以 Docker Space 部署，用挂载在 /data 的私有存储桶保存文件、登录与对话历史；支持按项目分组会话、实时终端与对话阅读器切换、文件浏览编辑、定时提示词、用量与成本查看，智能体可通过本地 API 发现、消息与等待其他会话，还能接入笔记本或远程服务器上的智能体。官方提醒 Space 与存储桶都应设为私有，因为应用本身没有登录机制。"
+        },
+        {
+          "title": "Hugging Face 发布 AnyLanguageModel 1.0：可直接替换苹果 Foundation Models 框架的 Swift 库，同一套代码切换系统模型、llama.cpp/MLX/Core ML 本地开源模型与云端服务",
+          "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
+          "source": "Hugging Face Blog",
+          "date": "2026-10-20",
+          "summary": "开发者只需把 import FoundationModels 改为 import AnyLanguageModel 即可选择模型与提供方。过去一年新增全提供方的工具调用与引导式生成（含嵌套 @Generable 类型）、图片输入，并在 OS 27 上兼容任何遵循 LanguageModel 协议的模型（含 Core AI 模型）；swift-huggingface 1.0 与 swift-xet 1.0 同步发布，用于加速从 Hub 下载模型。"
+        }
+      ]
     },
     {
-     "title": "Zoom 在 Zoomtopia 推出 AI 治理套件：集中式 AI 智能体管理、自定义 AI 护栏，以及实时“深度伪造风险检测”",
-     "url": "https://news.zoom.com/zoomtopia-2026-security/",
-     "source": "Zoom",
-     "date": "2026-10-20",
-     "summary": "Zoom 称 AI 智能体越来越多地接触会议内容与企业系统，管理员需要像管控其他关键系统一样管控 AI：集中式 AI 管理可查看组织内运行的智能体、访问的数据并审计其活动（预计 2026 年 12 月）；自定义 AI 护栏可阻止指定敏感信息出现在 AI 摘要中，并可要求人工审核（预计 2027 年 Q1）；与 Microsoft Purview 的敏感度标签同步已上线。深度伪造风险检测实时分析音视频信号，识别可能在 Zoom 之外被篡改的参会者画面或声音并给出置信度提示，面向招聘面试、客户沟通等场景，预计 12 月推出。"
+      "id": "policy",
+      "name": "政策与监管",
+      "icon": "⚖️",
+      "items": [
+        {
+          "title": "Semafor：Anthropic 游说国会的联邦 AI 安全法案草案外泄引发反弹，安全倡导者批其力度不够、抢占州法；OpenAI 首席全球事务官 Lehane 暗讽“没有哪家公司该独自制定规则”",
+          "url": "https://www.semafor.com/article/10/20/2026/anthropics-leaked-ai-bill-sparks-backlash",
+          "source": "Semafor",
+          "date": "2026-10-20",
+          "summary": "Anthropic 发言人称草案是其数月来推介的 AI 安全框架的立法版本，其一名高级说客已公开表示将调整草案，以更贴合 AI 进展速度并澄清其在联邦优先于州法上的立场。OpenAI 借机与对手划清界限，Lehane 周一发文称政策须经民主程序、由民选官员主导。"
+        },
+        {
+          "title": "Meta 暂停 Muse 对话分享功能：安全公司 Claroc 通过公开 DNS 记录找出 6800 多个分享链接，曝光公司营收、贷款申请、员工日程等隐私内容",
+          "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
+          "source": "The Verge",
+          "date": "2026-10-20",
+          "summary": "据 Ars Technica 与 The Verge 报道，Muse 分享链接的主机名由对话标题加随机 ID 构成，链接被打开后会被被动 DNS 服务记录，研究者据此可重建链接并免登录查看数百段对话，其中包括一份与某前沿 AI 实验室负责人保密通话的准备笔记。Meta 发言人称已暂停该功能并评估如何改变链接被发现的方式；此前 ChatGPT、Claude、Grok 的分享对话也曾出现在谷歌搜索中。"
+        },
+        {
+          "title": "Politico：OpenAI 不再推动对华严格芯片出口管制，国会对华鹰派拟在跛脚鸭会期把限制条款塞进国防授权法案时失去这一行业盟友",
+          "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
+          "source": "TNW / Politico",
+          "date": "2026-10-20",
+          "summary": "据 Politico 援引国会助手与说客，OpenAI 去年多次公开支持严格限制先进芯片对华销售，如今在相关议题上保持沉默；一名国会助手称“沉默就是在替英伟达干活”，一名说客称“目前没人想挑战总统”。此举被视为利好反对新限制的英伟达，并使 OpenAI 更贴近特朗普政府立场；英伟达今年 2 月完成对 OpenAI 300 亿美元股权投资。OpenAI 发言人称美国实验室在先进芯片上保持大幅领先是关键，有效的出口管制政策是更广泛战略的一部分；Anthropic 则继续支持多项芯片法案。"
+        },
+        {
+          "title": "黄仁勋在柏林与德国总理默茨对谈：欧洲不应过度依赖监管，“行业不能蓬勃发展就没什么可监管的”，主张像监管互联网产品一样管 AI 应用而非底层技术",
+          "url": "https://www.ithome.com/1/015/603.htm",
+          "source": "IT之家 / Business Insider",
+          "date": "2026-10-20",
+          "summary": "据 Business Insider，黄仁勋过去一周先后访问法国、瑞典、英国和德国，为 10 月 20–22 日的 GTC Berlin 预热（主题演讲定于北京时间 10 月 21 日 17:00）。他称安全必须放在首位，但不能只靠监管大棒指望领先，“给德国一个机会，给这个行业一个机会”。默茨回应称完全不监管不对，过严的规则同样不可取；两人都把 AI 视为帮助德国走出经济低迷的可能途径。"
+        },
+        {
+          "title": "图灵奖得主约瑟夫·斯发基斯在上海“可持续全球领导者大会”呼吁建立全球 AI 监管标准：当务之急是治理已有的 AI 系统，警惕大公司借“超级智能”叙事推卸责任",
+          "url": "https://www.ithome.com/1/015/412.htm",
+          "source": "IT之家 / 新浪科技",
+          "date": "2026-10-20",
+          "summary": "2007 年图灵奖得主、Verimag 实验室创始人 Sifakis 认为，当前 AI 系统无法真正理解现实世界并做出安全决策，大模型医学考试成绩好不代表能当医生；AI 自我演进未必向好，已出现风险失控或被操纵的案例。他主张理念相近的国家携手监管 AI、重塑力量平衡，协调技术发展与可行性。"
+        },
+        {
+          "title": "WIRED/Redact：WhatsApp 约 80 个帮助页面源码暴露写给 Meta 客服聊天机器人的隐藏指令，含“不要建议联系数据保护机构或监管方”“用户提及 GDPR/CCPA 时也不引用”",
+          "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+          "source": "WIRED",
+          "date": "2026-10-20",
+          "summary": "隐私公司 Redact 发现约 100 段隐藏文本位于 “HelpContentGalaxyLLMInclude” 代码块中，用户不可见但存在于网页源码，包括“WHAT NOT TO SAY”部分；在用户提及律师、诉讼时，要求不引用服务条款、不作任何责任表态。WhatsApp 发言人称这是给自家支持聊天机器人的指令、因 bug 而显示，已在 WIRED 联系后从所有页面移除；尚不清楚第三方 AI 能否读取、暴露了多久。"
+        },
+        {
+          "title": "美国国务院依《保护美国知识产权法》（PAIPA）制裁陆奇创办的奇绩创坛（MiraclePlus）及其两支基金等共 5 家实体，指其为涉嫌窃取谷歌 AI 基础设施机密的前谷歌工程师 Linwei Ding 所创公司提供种子资金",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft-fact-sheet/",
+          "source": "U.S. Department of State / Bloomberg",
+          "date": "2026-10-20",
+          "summary": "美国国务院 10 月 19 日（美东时间）公布：Linwei Ding 2023 年创办的上海智算科技（Zhisuan）被认定“明知参与或受益于重大商业秘密窃取”，其曾在奇绩创坛创业营中宣称可复刻谷歌的超级智能基础设施技术；奇绩创坛向其提供种子资金并持股，被认定为窃密提供重大支持。被制裁实体还包括奇绩创坛一期、二期基金及致远企业管理中心。OFAC 同步将其列入非 SDN 菜单式制裁名单，并发放截至 2027 年 1 月 19 日的业务清退许可。"
+        },
+        {
+          "title": "中国外交部回应美国国土安全部 DeepSeek 禁令：坚决维护中国企业正当权益，反对泛化国家安全概念、将科技与经贸问题政治化",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/after-us-deepseek-order-china-says-it-will-protect-firms/articleshow/135063801.cms",
+          "source": "Reuters / The Economic Times",
+          "date": "2026-10-20",
+          "summary": "外交部发言人毛宁周二回应记者提问时作出上述表态。此前美国国土安全部公布的命令（7 月 24 日签发、周一公开）要求财政部、国务院、司法部等联邦民用机构从 IT 系统中移除 DeepSeek 产品及基于其模型的第三方服务，并禁止今后采购，国防部不在适用范围内；各机构可在 60 天内书面申请例外或延期。"
+        }
+      ]
     },
     {
-     "title": "Mistral 发布 Voxtral 3 语音模型家族与语音智能体 SDK：转写模型支持 50+ 语言并号称超越 Whisper、Scribe v2 与 Gemini 3.5 Transcribe，TTS 覆盖 35+ 语言、50+ 方言",
-     "url": "https://mistral.ai/news/voxtral-3",
-     "source": "Mistral AI",
-     "date": "2026-10-20",
-     "summary": "Voxtral Small Transcribe 3 支持说话人分离、上下文偏置与端点检测；4B 的 Mini 版转写价 0.0035 美元/分钟，Realtime 版延迟低于 500ms；Voxtral Speech 3 可按语境调整情绪、语速与重音，每百万字符 13 美元，Pro Voice 用 30 分钟音频复刻声音风格。新 SDK 基于 LiveKit，把听、推理、调工具、说串成单条流式管线，每轮响应不到 1 秒，支持 SIP 与 WebRTC；可走欧盟托管 API 或自部署。Artificial Analysis 称 Small Transcribe 3 位列其语音转文字榜第 3。"
+      "id": "china",
+      "name": "国内 AI 动态",
+      "icon": "🇨🇳",
+      "items": [
+        {
+          "title": "2026 物理 AI 与世界模型大会在南京开幕：江苏发布物理 AI 与世界模型高质量数据集建设行动计划，苏皖数据标注城市联盟成立，现场签约超 60 亿元",
+          "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxeww0914247.shtml",
+          "source": "上海证券报",
+          "date": "2026-10-20",
+          "summary": "大会称是国内首个聚焦物理 AI 与世界模型的综合性行业大会。两轮重大产业项目签约覆盖具身智能整机与零部件、世界模型与机器人大脑、物理 AI 芯片等，并达成全国首个“物理 AI 与世界模型投资基金”战略合作；江苏上半年 AI 产业营收 2431.13 亿元、同比增 17.32%，累计 92 款大模型完成备案。"
+        },
+        {
+          "title": "交通运输部在北外滩国际航运论坛发布首批《水运领域人工智能应用场景指引》，同步公布 2027 年拟建成的十大智能体和十大垂类模型",
+          "url": "https://www.yicai.com/brief/103400431.html",
+          "source": "第一财经",
+          "date": "2026-10-20",
+          "summary": "10 月 20 日 2026 北外滩国际航运论坛在上海开幕。为落实《关于“人工智能+交通运输”的实施意见》、聚焦“一网四化”，交通运输部发布第一批水运领域 AI 应用场景指引（覆盖安全提升、提质增效、绿色转型三方面共 22 个场景），并公布到 2027 年拟建成的十大智能体与十大垂类模型，推动 AI 在港口、航运等水运领域的创新应用。"
+        },
+        {
+          "title": "国家数据集团有限公司在雄安新区成立：丁薛祥出席揭牌，称组建该央企对把握人工智能发展先机、建设数字中国具有重要意义",
+          "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083803.htm",
+          "source": "中国政府网 / 新华社",
+          "date": "2026-10-20",
+          "summary": "新华社 10 月 20 日电，国家数据集团成立大会在河北雄安新区举行。丁薛祥要求公司深化数据要素服务、加快数据基础设施建设、加强关键核心技术攻关，在数据领域发挥战略性、引领性、支撑性作用，努力打造世界一流数据科技企业；各有关部门加大支持、相关企业协同合作，形成促进数据产业发展的合力。外媒将其解读为中国把 AI 训练所需的数据资源统筹到一家国资平台。"
+        },
+        {
+          "title": "彭博：智谱 Z.ai 四位联合创始人曾参与由中国通用技术研究院（CGTRI）共同资助的研究项目，英国军情五处称该机构与国家安全部关系密切",
+          "url": "https://qz.com/z-ai-founders-research-cgtri-mi5-spy-agency-102026",
+          "source": "Quartz / Bloomberg",
+          "date": "2026-10-20",
+          "summary": "据彭博，该项目 2018–2021 年执行、获批经费 294 万元，由 CGTRI 与国家自然科学基金共同资助，目标是开发解析社交媒体帖子、识别重要事件并绘制人物关系的 AI 软件；清华教授、智谱联合创始人李涓子为负责人之一，唐杰、许斌与 CEO 张鹏以合著者、共同发明人或软著权人身份出现。军情五处 9 月 30 日的预警未点名智谱；中国驻英使馆称其说法“毫无根据”，智谱未回应置评。智谱今年 1 月在港上市，市值约 320 亿美元。"
+        },
+        {
+          "title": "硬氪：AI 材料研发平台睿质科技完成数千万元天使轮融资，中关村资本领投；核心产品 Archeos 以多智能体串起文献检索、材料设计、计算仿真与报告生成",
+          "url": "https://www.163.com/dy/article/L9M2GN2505118DFD.html",
+          "source": "36氪 / 硬氪",
+          "date": "2026-10-20",
+          "summary": "睿质科技由院士、长江学者团队领衔，面向科研机构与工业企业提供材料计算、性能预测与研发服务，覆盖先进功能陶瓷、合金、新能源材料等领域，中关村科学城公司跟投，新一轮融资已在推进。公司目前结合平台工具与定制化计算服务（如某工业级合金性能预测项目），未来计划把仿真与实验验证结合，与产业客户联合研发，探索技术授权与收益分成。"
+        },
+        {
+          "title": "深兰科技旗下深视星影发布影视智能体操作系统 DFAgent：由 JEV System One 决策中枢、DeepBlue Film Model 影视大模型与内容数据飞轮构成，主攻院线长片并签约科幻电影《气候战争》",
+          "url": "https://www.cnfin.com/gs-lb/detail/20261020/4483611_1.html",
+          "source": "新华财经",
+          "date": "2026-10-20",
+          "summary": "据新华财经，DFAgent 10 月 19 日在上海发布，以多角色“数字剧组”智能体覆盖 IP 评估、剧本研判、分镜预可视化、概念资产生成、多层级质检及发行协同等环节，并配套算力调度系统。按三年路线图，深视星影后续将推出国产垂直影视大模型；《气候战争》制片方称委托其制作可加快进度、降低成本。"
+        },
+        {
+          "title": "腾讯元宝搜索升级并通过腾讯云对外开放：数千亿级索引、13 个行业 157 个权威信源，提供 Skill、MCP、API 三种接入，每月 2000 次免费额度",
+          "url": "https://www.geekpark.net/news/372649",
+          "source": "极客公园",
+          "date": "2026-10-20",
+          "summary": "元宝搜索此前已在腾讯内部规模化验证，日均调用数亿次，支撑 WorkBuddy、ima、腾讯金融科技、腾讯视频等 50 多个业务。此次升级以多源交叉验证抑制幻觉，排序链路引入 Gist Token 压缩以降低延迟与成本，支持千亿级向量实时索引；ima 接入后信源召回提升 10%，腾讯视频场景信息覆盖度扩展 20%。"
+        },
+        {
+          "title": "虎嗅：DeepSeek 新一轮融资进入收官，保底 800 亿元、有望近千亿，投前估值 5000 亿元；梁文锋个人出资约 200 亿元，宁德时代累计 150 亿元成最大外部投资方",
+          "url": "https://www.readaitime.com/news/2026-10-20/2jez3h8z",
+          "source": "读懂AI时代（转载虎嗅）",
+          "date": "2026-10-20",
+          "summary": "报道称本轮“增资不加价”，新老股东对半分额；腾讯出资 100 亿元，网易、京东、砺思、IDG 各 30 亿元，新进股东均为产业资本（石溪资本、中芯聚源、君联、CPE 源峰、吉利），国家 AI 产业投资基金同步参与，红杉、高瓴缺席。文中援引 The Information：2026 年前 7 个月营收 4.75 亿元、API 毛利率 82.9%，但净亏 7.15 亿元、算力投入 110 亿元；资金重点投向乌兰察布 GW 级智算中心（计划部署 16 万颗昇腾 950DT），并计划年底递表、2027 年登陆科创板。融资消息此前已有报道，本文披露更多股东与财务细节。"
+        }
+      ]
     },
     {
-     "title": "Perplexity Computer 新增 Mac 端侧模式：智能体与模型全部在本机运行（Qwen 3.6 或后训练的 PPLX Pro），可离线操作本地应用与文件，建议 36GB 以上内存",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1014400/perplexity-computer-can-now-run-fully-offline-on-mac-but-youll-need-a-lot-of-ram",
-     "source": "The Verge / Perplexity",
-     "date": "2026-10-20",
-     "summary": "据 The Verge，更新后用户可在不把数据传到云端的情况下跨原生 Mac 应用和本地文件执行任务，借助 Apple Silicon 在本机跑模型；需要最新信息或浏览器操作时，也可把部分任务转交云端。功能已在 Perplexity Mac 应用上线。"
+      "id": "github",
+      "name": "GitHub 热门 AI 项目",
+      "icon": "⭐",
+      "items": [
+        {
+          "title": "pbakaus/impeccable",
+          "url": "https://github.com/pbakaus/impeccable",
+          "source": "GitHub",
+          "stars": 83820,
+          "stars_week": null,
+          "language": "Rust",
+          "date": "2026-10-20",
+          "summary": "给 AI 编码智能体用的前端设计规范：1 个 skill、24 条命令（polish、audit、critique、bolder 等）与实时浏览器迭代，外加 61 条确定性检测规则，专门揪出 AI 生成界面的通病（满屏 Inter 字体、紫蓝渐变、卡片套卡片等）；脱胎于 Anthropic 的 frontend-design skill。",
+          "why": "GitHub Trending Rust 日榜第一，当日新增约 593 星，总星数超 8.3 万。"
+        },
+        {
+          "title": "PC2005-cloud/dsh-pet",
+          "url": "https://github.com/PC2005-cloud/dsh-pet",
+          "source": "GitHub",
+          "stars": 3059,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-20",
+          "summary": "住在 DeepSeek Harness 里的桌面宠物插件：一行命令安装，百余个透明动画（打瞌睡、玩魔方、吃火锅等）可漫游屏幕、拖拽甩抛，支持多开；内置 DIY 素材链，可用 AI 视频自制专属宠物。MIT 许可。",
+          "why": "GitHub Trending TypeScript 日榜前列，当日新增约 505 星，是 DeepSeek Harness 插件生态里最火的项目之一。"
+        },
+        {
+          "title": "croffasia/itsaplan",
+          "url": "https://github.com/croffasia/itsaplan",
+          "source": "GitHub",
+          "stars": 1631,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-20",
+          "summary": "开源自托管的项目管理与缺陷跟踪工具，定位 Linear / Jira / Plane 替代品，主打让 AI 智能体像队友一样参与规划与交付：全部能力通过 REST API、Webhook 与 MCP 开放。AGPL-3.0。",
+          "why": "登上 GitHub Trending TypeScript 日榜，当日新增约 121 星。"
+        },
+        {
+          "title": "Gathin23/cleanyourtv",
+          "url": "https://github.com/Gathin23/cleanyourtv",
+          "source": "GitHub",
+          "stars": 11257,
+          "stars_week": null,
+          "language": "Java",
+          "date": "2026-10-20",
+          "summary": "通过 Wi‑Fi 给任意 Android TV / Google TV 去除预装臃肿软件，并换上类 Apple TV 的干净桌面：把仓库里的 PROMPT.md 粘贴给 Claude Code、Codex 或 Gemini CLI，由编码智能体在局域网发现电视、识别该品牌的广告与预装包并逐一询问后处理；无需 root、不卸载任何东西，一行命令即可还原，README 附上百款已验证机型。",
+          "why": "10 月 17 日创建，四天约 1.1 万星，是本周新建仓库星标第一，也是“用 AI 智能体给电视去广告”这波热潮中最火的项目。"
+        },
+        {
+          "title": "soumatheusgomes/editonny",
+          "url": "https://github.com/soumatheusgomes/editonny",
+          "source": "GitHub",
+          "stars": 274,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-20",
+          "summary": "面向 Claude Code 与 Codex 的开源视频剪辑 Skill（MIT）：用自然语言让智能体剪掉停顿和口误、加字幕、修音频、重新构图，并把口播片段转成动态图形场景；转写与渲染全部在本地完成。",
+          "why": "10 月 19 日开源，一天多约 270 星，进入近期新建仓库星标前列。"
+        },
+        {
+          "title": "HeyChengC/wallstreet-explainer",
+          "url": "https://github.com/HeyChengC/wallstreet-explainer",
+          "source": "GitHub",
+          "stars": 310,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-20",
+          "summary": "华尔街风格财经/科技解读短片 Skill：让 Claude Code 等编码智能体自己找真实发布会与新闻素材、抠出人物、把数字做成可视化镜头，按时间线逐帧渲染并自动混音，附 77 秒样片《AI 到底有多烧钱》。",
+          "why": "10 月 18 日开源，两天约 310 星，是近期新建仓库中热度较高的中文 AI 视频生成 Skill。"
+        },
+        {
+          "title": "VictorTaelin/uniichat",
+          "url": "https://github.com/VictorTaelin/uniichat",
+          "source": "GitHub",
+          "stars": 513,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-20",
+          "summary": "“永不结束的单一对话”AI 智能体（Apache-2.0）：每条消息被压缩成一行摘要并两两合并成二叉“记忆树”，每次调用看到最多 128KB 的全局视图，智能体可逐层展开回到原文，无需丢弃历史的压缩；可在自己的服务器用自有 API Key 运行。",
+          "why": "10 月 19 日开源，作者称几乎全部由 AI 智能体编写和审查，上线一天多约 500 星，进入 GitHub 新建仓库星标前列。"
+        },
+        {
+          "title": "kitlangton/scrawl",
+          "url": "https://github.com/kitlangton/scrawl",
+          "source": "GitHub",
+          "stars": 561,
+          "stars_week": null,
+          "language": "Rust",
+          "date": "2026-10-20",
+          "summary": "“给智能体看问题而不是描述问题”（MIT）：快捷键录屏，边说边点边画，结束后打包成带标注关键帧的缩略图、时间对齐的转写与交互时间线及结构化清单，供 Claude Code、OpenCode、Codex 等智能体直接读取；支持 macOS 与 Windows 预览版，并提供智能体技能安装。",
+          "why": "10 月 14 日创建，近一周涨至 500+ 星，是本周增长最快的智能体辅助工具之一。"
+        }
+      ]
     },
     {
-     "title": "Figma 首届印度 Config 大会新增 20 家 MCP 合作伙伴（含 Linear、Notion、Mistral、Meta Muse、OpenCode 等），联合创始人 Dylan Field 称 MCP“并不完美”、更有利于前沿实验室",
-     "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "据 TechCrunch，Field 在媒体沟通会上表示 MCP 还有很大改进空间，Figma 不愿完全开放是因为通过 MCP 暴露的数据越多、被滥用的可能越高。此前他曾在 X 上质疑 Anthropic 作为 MCP 创建方并未通过 MCP 开放 artifacts 等云端资源，并称“非对称的上下文共享”问题被忽视；他随后表示 Figma 计划支持开源工具 Pi。"
+      "id": "x",
+      "name": "X 重要动态",
+      "icon": "𝕏",
+      "items": [
+        {
+          "title": "@kimmonismus",
+          "url": "https://x.com/kimmonismus/status/2112681769787163037",
+          "source": "@kimmonismus",
+          "date": "2026-10-20",
+          "summary": "转述 SpaceX 三季度财报电话会：马斯克目标在 2027 年二季度末上线由 44 万颗英伟达 Vera Rubin 组成的单一训练集群，称其可让 Grok “可能成为最好的模型”；到 2027 年底 AI 算力总规模约 13GW（当年新增约 10GW），并计划 2027 年新增 20GW 电力与散热设施。",
+          "metrics": {
+            "likes": 41,
+            "reposts": 4,
+            "views": 3076
+          }
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2112685328595059124",
+          "source": "@business",
+          "date": "2026-10-20",
+          "summary": "彭博：与微软 Excel、PowerPoint 竞争的法国 AI 公司 Pigment 完成 2.5 亿美元融资，为欧洲明星创业公司挑战美国科技巨头再添弹药。",
+          "metrics": {
+            "likes": 6,
+            "reposts": 3,
+            "views": 8869
+          }
+        },
+        {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2112680030664880542",
+          "source": "@TechCrunch",
+          "date": "2026-10-20",
+          "summary": "TechCrunch：SpaceX 与特斯拉董事会成立特别委员会评估合并，马斯克表示喜欢这个主意，但自己不在任何一个由独立董事组成的委员会中。",
+          "metrics": {
+            "likes": 6,
+            "reposts": 1,
+            "views": 5484
+          }
+        },
+        {
+          "title": "@EagleCorp",
+          "url": "https://x.com/EagleCorp/status/2112660683670323531",
+          "source": "@EagleCorp",
+          "date": "2026-10-20",
+          "summary": "EAGLE-4 发布：从 EAGLE-1 到 EAGLE-3 持续提速，EAGLE-4 是最快的一代，在 Qwen3.8-27B 上达到 961.6 tokens/s（TokenSpeed、BF16、4× B300、TP4、单请求）。",
+          "metrics": {
+            "likes": 122,
+            "reposts": 59,
+            "views": 10942
+          }
+        },
+        {
+          "title": "@theinformation",
+          "url": "https://x.com/theinformation/status/2112660063135445200",
+          "source": "@theinformation",
+          "date": "2026-10-20",
+          "summary": "受访者认为 Meta 的新 AI 收入来源可能要到 2028 年才变得可观；核心广告业务会先在 2027 年通过体验改善带来增量广告收入。",
+          "metrics": {
+            "likes": 1,
+            "reposts": 1,
+            "views": 1740
+          }
+        },
+        {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2112657380064268409",
+          "source": "@TechCrunch",
+          "date": "2026-10-20",
+          "summary": "据报 Anthropic 难以从日益把它视为竞争对手的云厂商处获得足够算力，而其基础设施支出正在 11 月计划 IPO 前急剧膨胀。",
+          "metrics": {
+            "likes": 2,
+            "reposts": 0,
+            "views": 3458
+          }
+        },
+        {
+          "title": "@sama",
+          "url": "https://x.com/sama/status/2112652656602923366",
+          "source": "@sama",
+          "date": "2026-10-20",
+          "summary": "奥特曼感谢 Aleksander Madry 接受邀请回归 OpenAI：“在迈向超级智能的过程中，我们面临的安全与安保挑战极其巨大”，称 Madry 具备出色的技能来应对。",
+          "metrics": {
+            "likes": 831,
+            "reposts": 29,
+            "views": 78665
+          }
+        },
+        {
+          "title": "@aleks_madry",
+          "url": "https://x.com/aleks_madry/status/2112231448103239998",
+          "source": "@aleks_madry",
+          "date": "2026-10-20",
+          "summary": "Madry 宣布重返 OpenAI：原以为的离职“更像一次休假”；AI 进展已进入新阶段，处理好更强 AI 的安全与安保挑战必须成为核心优先事项，他将加入首席科学家 Jakub Pachocki（@merettm）一同推进。",
+          "metrics": {
+            "likes": 1992,
+            "reposts": 69,
+            "views": 325003
+          }
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "industry",
-   "name": "行业与融资",
-   "icon": "💰",
-   "items": [
-    {
-     "title": "超微电脑预告 2027 财年一季度营收 185–195 亿美元，远超此前 145–155 亿美元指引，主因 AI 平台需求上升；毛利率预计 12.0%–12.5%",
-     "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
-     "source": "Supermicro",
-     "date": "2026-10-20",
-     "summary": "该季度截至 9 月 30 日，数据为未经审计的初步结果。路透援引 LSEG 数据称分析师平均预期为 152.3 亿美元；毛利率也高于此前 10.4%–10.8% 的指引，公司归因于客户与产品结构。正式财报电话会定于 11 月 3 日。"
-    },
-    {
-     "title": "Hugging Face CEO Delangue 批 Netflix 纪录片《AI Gone Wild》失实：对 7 月 OpenAI 智能体入侵 Hugging Face 事件“极度拟人化、走末日路线”",
-     "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "Delangue 称曾花两个多小时帮剧组纠错，但片子没有提到智能体缺乏隔离与监控、闭源模型安全机制阻碍了防御工作，以及 Hugging Face 用开源模型自卫；他重申完整的智能体轨迹至今未公开，企业须为其智能体行为负责。"
-    },
-    {
-     "title": "WSJ 获泄露 S-1：Anthropic 难从 AWS、谷歌、微软拿到足够算力——三大云厂商日益把它视为竞争对手；云合同潜在支出或超 7500 亿美元",
-     "url": "https://techcrunch.com/2026/10/20/anthropics-cloud-partnerships-are-getting-messy/",
-     "source": "TechCrunch / WSJ",
-     "date": "2026-10-20",
-     "summary": "据《华尔街日报》获得的泄露 S-1 文件，Anthropic 正自租数据中心并与第三方运营商合作，但担心后者“经营历史有限”、可靠性不及超大规模云厂商。文件显示其上半年净亏损 807 亿美元、营收 163 亿美元，两家客户约占五分之一营收；并警告有害 AI 行为造成的损害赔偿可能超过保险覆盖。公司上周告诉潜在投资者第三季度营收已达 168 亿美元、环比增 45%，据报计划 11 月 IPO。"
-    },
-    {
-     "title": "SpaceX 三季度营收 146 亿美元、重回盈利（净利润 44 亿美元）：更名为“Super Intelligence”的 AI 业务营收 75 亿美元、占比 52%，马斯克预计 2027 年底 ARR 达 5000 亿至 1 万亿美元",
-     "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "AI 业务涵盖新近收购的 Cursor 编码工具、Grok 及拥有 1.7GW 算力的新云业务，实现利润 4.31 亿美元（含 Cursor 收购相关 12 亿美元一次性股权激励）。季度资本开支 196 亿美元，CFO 称四季度将投入 350–400 亿美元，用于 Colossus II 与星舰；马斯克称每周有四天在孟菲斯推进 Colossus II，并认为超级智能部署的瓶颈在电力、散热与基础设施而非芯片。"
-    },
-    {
-     "title": "OpenAI 前 Preparedness 负责人 Aleksander Madry 结束“休假”回归，将与首席科学家 Jakub Pachocki 共同应对更强 AI 的安全与安保挑战",
-     "url": "https://www.benzinga.com/markets/private-markets/26/10/62451821/openai-safety-expert-returns-after-months-away-citing-rising-ai-risks",
-     "source": "Benzinga",
-     "date": "2026-10-20",
-     "summary": "Madry 今年 5 月离开 OpenAI，称当时想专注让 AI 更有用，但“我们已进入 AI 进展的不同阶段”，安全与安保必须成为核心优先事项。Pachocki 回应称自己关注 AI 进展的速度与影响应如何指导 OpenAI 及整个领域的战略，是他请 Madry 回来；奥特曼也发文致谢。Madry 此前曾任 MIT 可部署机器学习中心主任。"
-    },
-    {
-     "title": "彭博：前谷歌 CEO 埃里克·施密特约持有 Anthropic 1% 股份，约为 CEO Dario Amodei（约 2%）的一半",
-     "url": "https://techcrunch.com/2026/10/20/eric-schmidt-reportedly-owns-about-half-as-much-of-anthropic-as-ceo-dario-amodei/",
-     "source": "TechCrunch / Bloomberg",
-     "date": "2026-10-20",
-     "summary": "施密特在 2021 年 A 轮（PitchBook 称当时估值 4.61 亿美元）投入数千万美元。Anthropic 预计年内上市，若按最高约 2 万亿美元估值计算，这笔股份价值约 200 亿美元；施密特其他 AI 投资还包括 Mistral、General Intuition 与 Reflection AI。"
-    },
-    {
-     "title": "万事达开放 Agent Pay for Machines 早期访问：基于开放支付协议 x402 并接入万事达网络，让 AI 智能体在授权预算内按用量购买数字服务，无需单独账户、API Key 或发票",
-     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mastercard-debuts-tool-to-help-ai-agents-purchase-digital-services/",
-     "source": "PYMNTS / Mastercard",
-     "date": "2026-10-20",
-     "summary": "万事达称该工具回答“谁授权智能体花钱、能花多少、花在哪、付给谁”等信任问题，并将在本周 Cloudflare Connect 上演示：营销公司 Hype 给智能体一个蛋白棒推广任务和预算，智能体通过 Discovery Service 找服务商、出方案供审批，完成 9 笔付款、涉及 2 家商户和 1 个预算。"
-    },
-    {
-     "title": "OpenAI 收购药物研发协同平台 Orchestra Bio：团队与技术并入生命科学模型与工具线 Rosalind，打造协调药物项目的智能体",
-     "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
-     "source": "OpenAI",
-     "date": "2026-10-20",
-     "summary": "Orchestra Bio 让科学家和项目负责人把研究与试验的监控、跟踪交给智能体，并在某个环节出问题（如一批生产失败可能推迟临床试验）时识别受影响的活动与时间线、汇总信息并比较应对方案。OpenAI 称将把它与 GPT-Rosalind、Rosalind Workbench 结合，帮助把科学发现更快推进为可上市的疗法；交易金额未披露。"
-    }
-   ]
-  },
-  {
-   "id": "research",
-   "name": "研究与论文",
-   "icon": "📄",
-   "items": [
-    {
-     "title": "Safety Mid-Training：在预训练与后训练之间加入“安全中训练”阶段，让安全与通用推理共享推理结构联合习得，平均攻击成功率相对基线降低 72%–81%",
-     "url": "https://arxiv.org/abs/2610.26809",
-     "source": "arXiv",
-     "date": "2026-10-20",
-     "summary": "作者认为安全对齐若只放在后训练，后续训练不含安全数据时容易退化，且常以牺牲通用能力为代价。方法是给定安全与实用提示，由基座模型生成结构化文档和推理轨迹，再用于中训练，把安全视为一种可学习的能力而非独立目标。"
-    },
-    {
-     "title": "WildAWM（Agent World Model in the Wild）：可扩展合成可控环境与任务来训练通用电脑操作智能体，环境同时支持 GUI、MCP 服务与命令行，全程只用开源模型",
-     "url": "https://arxiv.org/abs/2610.26828",
-     "source": "arXiv",
-     "date": "2026-10-20",
-     "summary": "针对直接在真实系统中扩展智能体交互学习既难又有安全风险的问题，WildAWM 构建可执行环境，让智能体灵活组合视觉交互、工具调用与代码执行，并处理任务合成中的可解性、难度保持等常见难题，证明无需闭源前沿模型也能生成高质量电脑操作环境。"
-    },
-    {
-     "title": "InfiniDream：VLM 驱动的开放式程序化 3D 世界生成，用“符号约束资产生成”借助现有程序化算法造出新的照片级资产，并保留可编辑性与按种子多样性",
-     "url": "https://arxiv.org/abs/2610.26853",
-     "source": "arXiv / Alaya Lab",
-     "date": "2026-10-20",
-     "summary": "针对 VLM 写代码生成的 3D 资产过于简单、而照片级程序化系统需大量手工开发的问题，InfiniDream 不再受限于预定义工厂与 API，可生成全新资产类型；同时构建端到端文生世界管线，把语义场景规划与程序化资产结合，生成开放式照片级 3D 世界，适用于合成数据与游戏开发。"
-    },
-    {
-     "title": "Manga2Animate：多智能体框架把现有漫画忠实改编成动画——先产出动画脚本与视觉分镜两种中间表示，每步由创作智能体生成、审阅智能体对照原漫画画格把关",
-     "url": "https://arxiv.org/abs/2610.26851",
-     "source": "arXiv / 阳明交通大学",
-     "date": "2026-10-20",
-     "summary": "现有方法要么只通过文字读取漫画、丢失角色与画风，要么把整页直接喂给视频模型导致剧情错误。Manga2Animate 让生成全程以原作为依据，通过表示特定的选择机制与双层反馈逐步细化脚本与分镜后再合成动画，实验与用户研究显示在忠实度上优于基线。"
-    },
-    {
-     "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
-     "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
-     "source": "AI at Meta",
-     "date": "2026-10-20",
-     "summary": "针对多步检索中固定管线或原子工具的局限，RPL 允许模型先广泛检索、处理中间结果再有选择地构建上下文；为解决稀疏奖励下的探索难题，提出“程序变异”：对 RL 采样到的次优程序做语法约束、经执行验证的局部改写并蒸馏回策略。在开放域问答上多跳任务提升尤其明显，语料级推理任务答案 F1 与文档覆盖 F1 均最高，同时显著减少上下文消耗与检索轮数。"
-    },
-    {
-     "title": "IBM Research 发布 ALTK-Evolve：用学到的“行为准则”记忆，让 GPT-4.1 基础 ReAct 智能体在 τ²-bench 零售客服任务 Pass^4 达 67.5%，超过榜单所有条目",
-     "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-     "source": "Hugging Face Blog / IBM Research",
-     "date": "2026-10-20",
-     "summary": "ALTK-Evolve 分析智能体在训练任务上的成功与失败，把经验提炼成简短的行为规则（如如何验证身份）追加到系统提示中，不更新模型权重。IBM 称准则同时提升能力与可靠性，最佳准则量因领域而异，性能提升主要多花 token 而非多轮次，且对前沿模型驱动的智能体同样有效。"
-    },
-    {
-     "title": "Radical Numerics 发布多模态基因组语言模型 Omnii-1：AI 设计的噬菌体首次在“同情用药”途径下给到人类患者，用于治疗耐药菌感染",
-     "url": "https://www.radicalnumerics.ai/blog/omnii-phage",
-     "source": "Radical Numerics",
-     "date": "2026-10-20",
-     "summary": "由 Evo/Evo 2 原班人马创立的 Radical Numerics 称，Omnii-1 把 DNA、RNA、蛋白质等 28 类生物数据统一表示；团队针对 T7 噬菌体尾丝蛋白 gp17 生成变体，在 11–15 个氨基酸改动时 69.9% 的设计可成功“重启”，随机对照仅 4.8%。含 AI 设计噬菌体的鸡尾酒在体外清除了患者的耐药菌株，随后在医生主导、受监管的同情用药途径下给药；公司出于隐私未披露疗效，并强调单一病例不能证明安全性或有效性。Omnii 同时被用于生物防御，已与劳伦斯利弗莫尔国家实验室合作。"
-    },
-    {
-     "title": "Ai2 发布 FairStress 公平性基准：300 个双候选人决策场景扩展为 1300 多万测试用例，发现模型在被“说服”时更易为少数群体放弃正确决定",
-     "url": "https://huggingface.co/blog/allenai/fairstress",
-     "source": "Ai2 / Hugging Face",
-     "date": "2026-10-20",
-     "summary": "FairStress 覆盖招聘、医疗、贷款、教育、住房、刑事司法等 29 个领域，除看最终选择外，还用权威、共识、历史劣势等“对抗性前缀”测试模型改变决定的难易度。15 个模型上，隐含身份与显式标签时放弃正确答案的平均差距分别为 6.9 与 9.3 个百分点；Claude Opus 5、GPT-5.5 等前沿模型在难分高下的案例中约 60–65% 选择少数群体候选人，作者称之为“反刻板印象过度矫正”。9 种去偏方法中仅“反事实思维链”在基本保持准确率的同时缩小了不对称；基准将并入 Olmo-eval。"
-    }
-   ]
-  },
-  {
-   "id": "opensource",
-   "name": "开源与工具",
-   "icon": "🛠️",
-   "items": [
-    {
-     "title": "EAGLE-4 发布：以 eagle-harness 形式提供的推测解码“灵活草稿模型”，可按批大小、硬件与负载自适应调整解码策略并保持目标模型输出分布，支持 SGLang、vLLM 与 TokenSpeed",
-     "url": "https://pypi.org/project/eagle-harness/",
-     "source": "EAGLE / PyPI",
-     "date": "2026-10-20",
-     "summary": "官方称这是 EAGLE 系列迄今最快版本：在 4 张 NVIDIA B300 上用 TokenSpeed 跑 Qwen3.8-27B（BF16、单请求、T=0）达到 961.6 tokens/s。PyPI 包名 eagle-harness v0.1.0，描述为基于成本模型的动态树推测解码插件；AMD 也发文介绍其在 Instinct GPU 上的运行。"
-    },
-    {
-     "title": "英伟达开源 Cosmos3-H-Dreams：首个基于真实胆囊切除手术录像训练、支持实时运动学控制的生成式手术模拟器，单张 RTX PRO 6000 即可交互运行",
-     "url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
-     "source": "Hugging Face / NVIDIA",
-     "date": "2026-10-20",
-     "summary": "基于 16B 的 Cosmos3-H-Embodied-Nano，在 CMR Surgical Versius 平台的临床视频与机器人运动学数据上专门化，使用 28 维动作（双臂位姿、夹爪、能量控制等）；通过 Self-Forcing 蒸馏出 4 步与 2 步两个实时学生模型，借助 FlashDreams 流式推理与 FadeMem 缓存压缩支持长时间推演。代码、权重与微调蒸馏教程均已开放；英伟达强调其为研究用模拟器，不用于临床。"
-    },
-    {
-     "title": "Bria 发布并开源 Fibo 2：8B 统一图像生成与编辑模型，全部使用授权数据训练，称在 Artificial Analysis 图像编辑榜位列开源权重第一",
-     "url": "https://docs.bria.ai/whats-new/fibo-2",
-     "source": "Bria AI",
-     "date": "2026-10-20",
-     "summary": "Fibo 2 Generate 与 Edit 权重已上 Hugging Face（如 briaai/Fibo-2.0-dev），Diffusers 首日支持；编辑可一次组合最多 4 张参考图，每次生成都返回结构化提示 VGL 便于复现与微调，新增 12 种画幅共 21 种。Bria 称其编辑效果优于 Ideogram、字节跳动和 Black Forest Labs 的闭源模型，文生图位列开源前二；API 接口不变。"
-    },
-    {
-     "title": "蚂蚁百灵开源 Ming-3.0 语音系列五款模型：覆盖语音合成（支持文字描述音色与“导演模式”）、长音频理解与对话、语音识别",
-     "url": "https://www.ithome.com/1/015/117.htm",
-     "source": "IT之家",
-     "date": "2026-10-20",
-     "summary": "Ming-3.0-tts 系列可用文字描述或参考音频设定音色，并能说明台词的情绪变化、重读与节奏；Ming-3.0-audio-flash/tiny 可直接对长音频做转写、总结和观点分析并结构化输出，保留情绪与说话人信息；Ming-3.0-asr-tiny 结合热词与上下文提升识别，已用于阿福、支付宝搜索等业务。模型已上架 Hugging Face 与魔搭，Ling Studio 提供 API。"
-    },
-    {
-     "title": "llm-d 1.0 发布：红帽、IBM、谷歌主导的 Kubernetes 原生分布式推理栈进入生产就绪，新增多租户 QoS、零停机升级与面向智能体的路由",
-     "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
-     "source": "IBM Research",
-     "date": "2026-10-20",
-     "summary": "在 PyTorch Conference North America 上发布；llm-d 由红帽、IBM、谷歌与 CoreWeave、英伟达去年共同创立，现为 CNCF 沙箱项目，可在 vLLM 或 SGLang 之上提供前缀缓存感知路由、KV 缓存跨 GPU/CPU/存储卸载、预填充/解码分离与宽专家并行。1.0 重点是“第二天运维”：稳定 API、流控与优先级、多轮请求固定到已有缓存的副本。IBM 称在智能体编程负载中前缀路由捕获了 97% 的可复用缓存，并演示自托管同时运行 3000 个软件工程智能体，成本为调用同一开源模型托管服务的 1/5 到 1/10。"
-    },
-    {
-     "title": "Ornith 开源 Ornith-1.5-122B（MIT）：122B MoE，单台 DGX 即可部署并提供移动端量化版，TerminalBench 2.1 得 81.2、CyberGym 80.0",
-     "url": "https://huggingface.co/ornith-ai/Ornith-1.5-122B",
-     "source": "Hugging Face / Ornith",
-     "date": "2026-10-20",
-     "summary": "官方称其“强与快不再取舍”：基准更高、完成更快、输出更短，指令遵循、任务拆解与真实工作场景知识更强，为同等规模开源模型 SOTA。模型卡对比中，TerminalBench 2.1 略低于 Qwen3.8-Flash-Next（83.4）与 DeepSeek-V4-Flash-0731（82.7），CyberGym 则高于两者（78.0/76.7），NL2Repo 51.2。发布帖在 X 上浏览约 18 万次。"
-    },
-    {
-     "title": "Hugging Face 开源 Agent Manager：在私有 HF Space 中统一运行 Claude Code、Codex、Gemini CLI、opencode 等编程智能体，可并排协作、共享技能并互相通信，Apache 2.0",
-     "url": "https://github.com/huggingface/agent-manager",
-     "source": "GitHub / Hugging Face",
-     "date": "2026-10-20",
-     "summary": "HF 的 Leandro von Werra 10 月 20 日宣布上线。Agent Manager 以 Docker Space 部署，用挂载在 /data 的私有存储桶保存文件、登录与对话历史；支持按项目分组会话、实时终端与对话阅读器切换、文件浏览编辑、定时提示词、用量与成本查看，智能体可通过本地 API 发现、消息与等待其他会话，还能接入笔记本或远程服务器上的智能体。官方提醒 Space 与存储桶都应设为私有，因为应用本身没有登录机制。"
-    },
-    {
-     "title": "Hugging Face 发布 AnyLanguageModel 1.0：可直接替换苹果 Foundation Models 框架的 Swift 库，同一套代码切换系统模型、llama.cpp/MLX/Core ML 本地开源模型与云端服务",
-     "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-     "source": "Hugging Face Blog",
-     "date": "2026-10-20",
-     "summary": "开发者只需把 import FoundationModels 改为 import AnyLanguageModel 即可选择模型与提供方。过去一年新增全提供方的工具调用与引导式生成（含嵌套 @Generable 类型）、图片输入，并在 OS 27 上兼容任何遵循 LanguageModel 协议的模型（含 Core AI 模型）；swift-huggingface 1.0 与 swift-xet 1.0 同步发布，用于加速从 Hub 下载模型。"
-    }
-   ]
-  },
-  {
-   "id": "policy",
-   "name": "政策与监管",
-   "icon": "⚖️",
-   "items": [
-    {
-     "title": "Semafor：Anthropic 游说国会的联邦 AI 安全法案草案外泄引发反弹，安全倡导者批其力度不够、抢占州法；OpenAI 首席全球事务官 Lehane 暗讽“没有哪家公司该独自制定规则”",
-     "url": "https://www.semafor.com/article/10/20/2026/anthropics-leaked-ai-bill-sparks-backlash",
-     "source": "Semafor",
-     "date": "2026-10-20",
-     "summary": "Anthropic 发言人称草案是其数月来推介的 AI 安全框架的立法版本，其一名高级说客已公开表示将调整草案，以更贴合 AI 进展速度并澄清其在联邦优先于州法上的立场。OpenAI 借机与对手划清界限，Lehane 周一发文称政策须经民主程序、由民选官员主导。"
-    },
-    {
-     "title": "Meta 暂停 Muse 对话分享功能：安全公司 Claroc 通过公开 DNS 记录找出 6800 多个分享链接，曝光公司营收、贷款申请、员工日程等隐私内容",
-     "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
-     "source": "The Verge",
-     "date": "2026-10-20",
-     "summary": "据 Ars Technica 与 The Verge 报道，Muse 分享链接的主机名由对话标题加随机 ID 构成，链接被打开后会被被动 DNS 服务记录，研究者据此可重建链接并免登录查看数百段对话，其中包括一份与某前沿 AI 实验室负责人保密通话的准备笔记。Meta 发言人称已暂停该功能并评估如何改变链接被发现的方式；此前 ChatGPT、Claude、Grok 的分享对话也曾出现在谷歌搜索中。"
-    },
-    {
-     "title": "Politico：OpenAI 不再推动对华严格芯片出口管制，国会对华鹰派拟在跛脚鸭会期把限制条款塞进国防授权法案时失去这一行业盟友",
-     "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
-     "source": "TNW / Politico",
-     "date": "2026-10-20",
-     "summary": "据 Politico 援引国会助手与说客，OpenAI 去年多次公开支持严格限制先进芯片对华销售，如今在相关议题上保持沉默；一名国会助手称“沉默就是在替英伟达干活”，一名说客称“目前没人想挑战总统”。此举被视为利好反对新限制的英伟达，并使 OpenAI 更贴近特朗普政府立场；英伟达今年 2 月完成对 OpenAI 300 亿美元股权投资。OpenAI 发言人称美国实验室在先进芯片上保持大幅领先是关键，有效的出口管制政策是更广泛战略的一部分；Anthropic 则继续支持多项芯片法案。"
-    },
-    {
-     "title": "黄仁勋在柏林与德国总理默茨对谈：欧洲不应过度依赖监管，“行业不能蓬勃发展就没什么可监管的”，主张像监管互联网产品一样管 AI 应用而非底层技术",
-     "url": "https://www.ithome.com/1/015/603.htm",
-     "source": "IT之家 / Business Insider",
-     "date": "2026-10-20",
-     "summary": "据 Business Insider，黄仁勋过去一周先后访问法国、瑞典、英国和德国，为 10 月 20–22 日的 GTC Berlin 预热（主题演讲定于北京时间 10 月 21 日 17:00）。他称安全必须放在首位，但不能只靠监管大棒指望领先，“给德国一个机会，给这个行业一个机会”。默茨回应称完全不监管不对，过严的规则同样不可取；两人都把 AI 视为帮助德国走出经济低迷的可能途径。"
-    },
-    {
-     "title": "图灵奖得主约瑟夫·斯发基斯在上海“可持续全球领导者大会”呼吁建立全球 AI 监管标准：当务之急是治理已有的 AI 系统，警惕大公司借“超级智能”叙事推卸责任",
-     "url": "https://www.ithome.com/1/015/412.htm",
-     "source": "IT之家 / 新浪科技",
-     "date": "2026-10-20",
-     "summary": "2007 年图灵奖得主、Verimag 实验室创始人 Sifakis 认为，当前 AI 系统无法真正理解现实世界并做出安全决策，大模型医学考试成绩好不代表能当医生；AI 自我演进未必向好，已出现风险失控或被操纵的案例。他主张理念相近的国家携手监管 AI、重塑力量平衡，协调技术发展与可行性。"
-    },
-    {
-     "title": "WIRED/Redact：WhatsApp 约 80 个帮助页面源码暴露写给 Meta 客服聊天机器人的隐藏指令，含“不要建议联系数据保护机构或监管方”“用户提及 GDPR/CCPA 时也不引用”",
-     "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
-     "source": "WIRED",
-     "date": "2026-10-20",
-     "summary": "隐私公司 Redact 发现约 100 段隐藏文本位于 “HelpContentGalaxyLLMInclude” 代码块中，用户不可见但存在于网页源码，包括“WHAT NOT TO SAY”部分；在用户提及律师、诉讼时，要求不引用服务条款、不作任何责任表态。WhatsApp 发言人称这是给自家支持聊天机器人的指令、因 bug 而显示，已在 WIRED 联系后从所有页面移除；尚不清楚第三方 AI 能否读取、暴露了多久。"
-    },
-    {
-     "title": "美国国务院依《保护美国知识产权法》（PAIPA）制裁陆奇创办的奇绩创坛（MiraclePlus）及其两支基金等共 5 家实体，指其为涉嫌窃取谷歌 AI 基础设施机密的前谷歌工程师 Linwei Ding 所创公司提供种子资金",
-     "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft-fact-sheet/",
-     "source": "U.S. Department of State / Bloomberg",
-     "date": "2026-10-20",
-     "summary": "美国国务院 10 月 19 日（美东时间）公布：Linwei Ding 2023 年创办的上海智算科技（Zhisuan）被认定“明知参与或受益于重大商业秘密窃取”，其曾在奇绩创坛创业营中宣称可复刻谷歌的超级智能基础设施技术；奇绩创坛向其提供种子资金并持股，被认定为窃密提供重大支持。被制裁实体还包括奇绩创坛一期、二期基金及致远企业管理中心。OFAC 同步将其列入非 SDN 菜单式制裁名单，并发放截至 2027 年 1 月 19 日的业务清退许可。"
-    },
-    {
-     "title": "中国外交部回应美国国土安全部 DeepSeek 禁令：坚决维护中国企业正当权益，反对泛化国家安全概念、将科技与经贸问题政治化",
-     "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/after-us-deepseek-order-china-says-it-will-protect-firms/articleshow/135063801.cms",
-     "source": "Reuters / The Economic Times",
-     "date": "2026-10-20",
-     "summary": "外交部发言人毛宁周二回应记者提问时作出上述表态。此前美国国土安全部公布的命令（7 月 24 日签发、周一公开）要求财政部、国务院、司法部等联邦民用机构从 IT 系统中移除 DeepSeek 产品及基于其模型的第三方服务，并禁止今后采购，国防部不在适用范围内；各机构可在 60 天内书面申请例外或延期。"
-    }
-   ]
-  },
-  {
-   "id": "china",
-   "name": "国内 AI 动态",
-   "icon": "🇨🇳",
-   "items": [
-    {
-     "title": "交通运输部在北外滩国际航运论坛发布首批《水运领域人工智能应用场景指引》，同步公布 2027 年拟建成的十大智能体和十大垂类模型",
-     "url": "https://www.yicai.com/brief/103400431.html",
-     "source": "第一财经",
-     "date": "2026-10-20",
-     "summary": "10 月 20 日 2026 北外滩国际航运论坛在上海开幕。为落实《关于“人工智能+交通运输”的实施意见》、聚焦“一网四化”，交通运输部发布第一批水运领域 AI 应用场景指引（覆盖安全提升、提质增效、绿色转型三方面共 22 个场景），并公布到 2027 年拟建成的十大智能体与十大垂类模型，推动 AI 在港口、航运等水运领域的创新应用。"
-    },
-    {
-     "title": "国家数据集团有限公司在雄安新区成立：丁薛祥出席揭牌，称组建该央企对把握人工智能发展先机、建设数字中国具有重要意义",
-     "url": "https://www.gov.cn/yaowen/liebiao/202610/content_7083803.htm",
-     "source": "中国政府网 / 新华社",
-     "date": "2026-10-20",
-     "summary": "新华社 10 月 20 日电，国家数据集团成立大会在河北雄安新区举行。丁薛祥要求公司深化数据要素服务、加快数据基础设施建设、加强关键核心技术攻关，在数据领域发挥战略性、引领性、支撑性作用，努力打造世界一流数据科技企业；各有关部门加大支持、相关企业协同合作，形成促进数据产业发展的合力。外媒将其解读为中国把 AI 训练所需的数据资源统筹到一家国资平台。"
-    },
-    {
-     "title": "彭博：智谱 Z.ai 四位联合创始人曾参与由中国通用技术研究院（CGTRI）共同资助的研究项目，英国军情五处称该机构与国家安全部关系密切",
-     "url": "https://qz.com/z-ai-founders-research-cgtri-mi5-spy-agency-102026",
-     "source": "Quartz / Bloomberg",
-     "date": "2026-10-20",
-     "summary": "据彭博，该项目 2018–2021 年执行、获批经费 294 万元，由 CGTRI 与国家自然科学基金共同资助，目标是开发解析社交媒体帖子、识别重要事件并绘制人物关系的 AI 软件；清华教授、智谱联合创始人李涓子为负责人之一，唐杰、许斌与 CEO 张鹏以合著者、共同发明人或软著权人身份出现。军情五处 9 月 30 日的预警未点名智谱；中国驻英使馆称其说法“毫无根据”，智谱未回应置评。智谱今年 1 月在港上市，市值约 320 亿美元。"
-    },
-    {
-     "title": "硬氪：AI 材料研发平台睿质科技完成数千万元天使轮融资，中关村资本领投；核心产品 Archeos 以多智能体串起文献检索、材料设计、计算仿真与报告生成",
-     "url": "https://www.163.com/dy/article/L9M2GN2505118DFD.html",
-     "source": "36氪 / 硬氪",
-     "date": "2026-10-20",
-     "summary": "睿质科技由院士、长江学者团队领衔，面向科研机构与工业企业提供材料计算、性能预测与研发服务，覆盖先进功能陶瓷、合金、新能源材料等领域，中关村科学城公司跟投，新一轮融资已在推进。公司目前结合平台工具与定制化计算服务（如某工业级合金性能预测项目），未来计划把仿真与实验验证结合，与产业客户联合研发，探索技术授权与收益分成。"
-    },
-    {
-     "title": "深兰科技旗下深视星影发布影视智能体操作系统 DFAgent：由 JEV System One 决策中枢、DeepBlue Film Model 影视大模型与内容数据飞轮构成，主攻院线长片并签约科幻电影《气候战争》",
-     "url": "https://www.cnfin.com/gs-lb/detail/20261020/4483611_1.html",
-     "source": "新华财经",
-     "date": "2026-10-20",
-     "summary": "据新华财经，DFAgent 10 月 19 日在上海发布，以多角色“数字剧组”智能体覆盖 IP 评估、剧本研判、分镜预可视化、概念资产生成、多层级质检及发行协同等环节，并配套算力调度系统。按三年路线图，深视星影后续将推出国产垂直影视大模型；《气候战争》制片方称委托其制作可加快进度、降低成本。"
-    },
-    {
-     "title": "腾讯元宝搜索升级并通过腾讯云对外开放：数千亿级索引、13 个行业 157 个权威信源，提供 Skill、MCP、API 三种接入，每月 2000 次免费额度",
-     "url": "https://www.geekpark.net/news/372649",
-     "source": "极客公园",
-     "date": "2026-10-20",
-     "summary": "元宝搜索此前已在腾讯内部规模化验证，日均调用数亿次，支撑 WorkBuddy、ima、腾讯金融科技、腾讯视频等 50 多个业务。此次升级以多源交叉验证抑制幻觉，排序链路引入 Gist Token 压缩以降低延迟与成本，支持千亿级向量实时索引；ima 接入后信源召回提升 10%，腾讯视频场景信息覆盖度扩展 20%。"
-    },
-    {
-     "title": "虎嗅：DeepSeek 新一轮融资进入收官，保底 800 亿元、有望近千亿，投前估值 5000 亿元；梁文锋个人出资约 200 亿元，宁德时代累计 150 亿元成最大外部投资方",
-     "url": "https://www.readaitime.com/news/2026-10-20/2jez3h8z",
-     "source": "读懂AI时代（转载虎嗅）",
-     "date": "2026-10-20",
-     "summary": "报道称本轮“增资不加价”，新老股东对半分额；腾讯出资 100 亿元，网易、京东、砺思、IDG 各 30 亿元，新进股东均为产业资本（石溪资本、中芯聚源、君联、CPE 源峰、吉利），国家 AI 产业投资基金同步参与，红杉、高瓴缺席。文中援引 The Information：2026 年前 7 个月营收 4.75 亿元、API 毛利率 82.9%，但净亏 7.15 亿元、算力投入 110 亿元；资金重点投向乌兰察布 GW 级智算中心（计划部署 16 万颗昇腾 950DT），并计划年底递表、2027 年登陆科创板。融资消息此前已有报道，本文披露更多股东与财务细节。"
-    },
-    {
-     "title": "市场监管总局（国家标准委）发布钢铁行业首批三项人工智能国家标准化指导性技术文件，覆盖应用场景分类、钢铁大模型数据集与服务能力成熟度评估",
-     "url": "https://www.samr.gov.cn/xw/sj/art/2026/art_f0525752113140c88bcbead0c2440ecb.html",
-     "source": "市场监管总局",
-     "date": "2026-10-19",
-     "summary": "三项文件为 GB/Z 224—2026《人工智能 钢铁行业应用场景分类指南》、GB/Z 231—2026《人工智能 钢铁大模型数据集技术要求》与 GB/Z 241—2026《人工智能 钢铁大模型服务能力成熟度评估》，由钢研、宝武、宝信等 50 余家单位联合编制，构建“场景分类—数据集规范—成熟度评估”闭环，推动 AI 赋能钢铁从试点走向规模化落地。"
-    }
-   ]
-  },
-  {
-   "id": "github",
-   "name": "GitHub 热门 AI 项目",
-   "icon": "⭐",
-   "items": [
-    {
-     "title": "Gathin23/cleanyourtv",
-     "url": "https://github.com/Gathin23/cleanyourtv",
-     "source": "GitHub",
-     "stars": 11257,
-     "stars_week": null,
-     "language": "Java",
-     "date": "2026-10-20",
-     "summary": "通过 Wi‑Fi 给任意 Android TV / Google TV 去除预装臃肿软件，并换上类 Apple TV 的干净桌面：把仓库里的 PROMPT.md 粘贴给 Claude Code、Codex 或 Gemini CLI，由编码智能体在局域网发现电视、识别该品牌的广告与预装包并逐一询问后处理；无需 root、不卸载任何东西，一行命令即可还原，README 附上百款已验证机型。",
-     "why": "10 月 17 日创建，四天约 1.1 万星，是本周新建仓库星标第一，也是“用 AI 智能体给电视去广告”这波热潮中最火的项目。"
-    },
-    {
-     "title": "soumatheusgomes/editonny",
-     "url": "https://github.com/soumatheusgomes/editonny",
-     "source": "GitHub",
-     "stars": 274,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-20",
-     "summary": "面向 Claude Code 与 Codex 的开源视频剪辑 Skill（MIT）：用自然语言让智能体剪掉停顿和口误、加字幕、修音频、重新构图，并把口播片段转成动态图形场景；转写与渲染全部在本地完成。",
-     "why": "10 月 19 日开源，一天多约 270 星，进入近期新建仓库星标前列。"
-    },
-    {
-     "title": "HeyChengC/wallstreet-explainer",
-     "url": "https://github.com/HeyChengC/wallstreet-explainer",
-     "source": "GitHub",
-     "stars": 310,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-20",
-     "summary": "华尔街风格财经/科技解读短片 Skill：让 Claude Code 等编码智能体自己找真实发布会与新闻素材、抠出人物、把数字做成可视化镜头，按时间线逐帧渲染并自动混音，附 77 秒样片《AI 到底有多烧钱》。",
-     "why": "10 月 18 日开源，两天约 310 星，是近期新建仓库中热度较高的中文 AI 视频生成 Skill。"
-    },
-    {
-     "title": "VictorTaelin/uniichat",
-     "url": "https://github.com/VictorTaelin/uniichat",
-     "source": "GitHub",
-     "stars": 513,
-     "stars_week": null,
-     "language": "TypeScript",
-     "date": "2026-10-20",
-     "summary": "“永不结束的单一对话”AI 智能体（Apache-2.0）：每条消息被压缩成一行摘要并两两合并成二叉“记忆树”，每次调用看到最多 128KB 的全局视图，智能体可逐层展开回到原文，无需丢弃历史的压缩；可在自己的服务器用自有 API Key 运行。",
-     "why": "10 月 19 日开源，作者称几乎全部由 AI 智能体编写和审查，上线一天多约 500 星，进入 GitHub 新建仓库星标前列。"
-    },
-    {
-     "title": "kitlangton/scrawl",
-     "url": "https://github.com/kitlangton/scrawl",
-     "source": "GitHub",
-     "stars": 561,
-     "stars_week": null,
-     "language": "Rust",
-     "date": "2026-10-20",
-     "summary": "“给智能体看问题而不是描述问题”（MIT）：快捷键录屏，边说边点边画，结束后打包成带标注关键帧的缩略图、时间对齐的转写与交互时间线及结构化清单，供 Claude Code、OpenCode、Codex 等智能体直接读取；支持 macOS 与 Windows 预览版，并提供智能体技能安装。",
-     "why": "10 月 14 日创建，近一周涨至 500+ 星，是本周增长最快的智能体辅助工具之一。"
-    },
-    {
-     "title": "pengchujin/aerial-tv",
-     "url": "https://github.com/pengchujin/aerial-tv",
-     "source": "GitHub",
-     "stars": 491,
-     "stars_week": null,
-     "language": "Kotlin",
-     "date": "2026-10-20",
-     "summary": "面向小米、TCL 等国产电视的开源 Android TV 桌面（MIT）：参照 tvOS 设计，无广告、无推荐流，开机自动接管并带 Apple TV 航拍屏保；README 推荐让编程智能体通过 ADB 帮你安装。",
-     "why": "10 月 20 日创建、当天近 500 星，延续本周“用 Claude Code/Codex 给智能电视去广告”的 GitHub 热潮，是首个针对国产电视的版本。"
-    },
-    {
-     "title": "llm-d/llm-d",
-     "url": "https://github.com/llm-d/llm-d",
-     "source": "GitHub",
-     "stars": 4881,
-     "stars_week": null,
-     "language": "Python",
-     "date": "2026-10-20",
-     "summary": "Kubernetes 原生的分布式 LLM 推理服务栈（Apache-2.0）：在 vLLM/SGLang 之上提供前缀缓存感知路由、分层 KV 缓存、预填充/解码分离、宽专家并行与多租户流控，“任意模型、任意加速器、任意云”。",
-     "why": "10 月 20 日发布 v1.0.0（北京时间 10:30），红帽、IBM、谷歌在 PyTorch 大会上宣布其进入生产就绪，CoreWeave、英伟达、AMD、Hugging Face、Mistral 等参与贡献。"
-    },
-    {
-     "title": "mihirgupta0900/tv-home",
-     "url": "https://github.com/mihirgupta0900/tv-home",
-     "source": "GitHub",
-     "stars": 289,
-     "stars_week": null,
-     "language": "Java",
-     "date": "2026-10-20",
-     "summary": "一条 Claude Code 提示词即可通过 Wi-Fi/ADB 给慢且满是广告的 Android TV 去臃肿（只禁用不卸载、可还原），并装上带轮播自然壁纸的极简 Apple TV 风格桌面；作者在 2GB 内存的 TCL Google TV 上禁用 25 个应用，桌面内存占用从 192MB 降到 83MB。",
-     "why": "10 月 19 日（北京时间）创建约两天近 300 星，属于本周“用编程智能体清理智能电视”热潮中的又一新项目（与 free-my-tv、tv-detox 同类）。"
-    }
-   ]
-  },
-  {
-   "id": "x",
-   "name": "X 重要动态",
-   "icon": "𝕏",
-   "items": [
-    {
-     "title": "@EagleCorp",
-     "url": "https://x.com/EagleCorp/status/2112660683670323531",
-     "source": "@EagleCorp",
-     "date": "2026-10-20",
-     "summary": "EAGLE-4 发布：从 EAGLE-1 到 EAGLE-3 持续提速，EAGLE-4 是最快的一代，在 Qwen3.8-27B 上达到 961.6 tokens/s（TokenSpeed、BF16、4× B300、TP4、单请求）。",
-     "metrics": {
-      "likes": 122,
-      "reposts": 59,
-      "views": 10942
-     }
-    },
-    {
-     "title": "@theinformation",
-     "url": "https://x.com/theinformation/status/2112660063135445200",
-     "source": "@theinformation",
-     "date": "2026-10-20",
-     "summary": "受访者认为 Meta 的新 AI 收入来源可能要到 2028 年才变得可观；核心广告业务会先在 2027 年通过体验改善带来增量广告收入。",
-     "metrics": {
-      "likes": 1,
-      "reposts": 1,
-      "views": 1740
-     }
-    },
-    {
-     "title": "@TechCrunch",
-     "url": "https://x.com/TechCrunch/status/2112657380064268409",
-     "source": "@TechCrunch",
-     "date": "2026-10-20",
-     "summary": "据报 Anthropic 难以从日益把它视为竞争对手的云厂商处获得足够算力，而其基础设施支出正在 11 月计划 IPO 前急剧膨胀。",
-     "metrics": {
-      "likes": 2,
-      "reposts": 0,
-      "views": 3458
-     }
-    },
-    {
-     "title": "@sama",
-     "url": "https://x.com/sama/status/2112652656602923366",
-     "source": "@sama",
-     "date": "2026-10-20",
-     "summary": "奥特曼感谢 Aleksander Madry 接受邀请回归 OpenAI：“在迈向超级智能的过程中，我们面临的安全与安保挑战极其巨大”，称 Madry 具备出色的技能来应对。",
-     "metrics": {
-      "likes": 831,
-      "reposts": 29,
-      "views": 78665
-     }
-    },
-    {
-     "title": "@aleks_madry",
-     "url": "https://x.com/aleks_madry/status/2112231448103239998",
-     "source": "@aleks_madry",
-     "date": "2026-10-20",
-     "summary": "Madry 宣布重返 OpenAI：原以为的离职“更像一次休假”；AI 进展已进入新阶段，处理好更强 AI 的安全与安保挑战必须成为核心优先事项，他将加入首席科学家 Jakub Pachocki（@merettm）一同推进。",
-     "metrics": {
-      "likes": 1992,
-      "reposts": 69,
-      "views": 325003
-     }
-    },
-    {
-     "title": "@TechCrunch",
-     "url": "https://x.com/TechCrunch/status/2112635740584648919",
-     "source": "@TechCrunch",
-     "date": "2026-10-20",
-     "summary": "谷歌把 Gemini 的 Personal Intelligence 功能带进汽车，AI 助手可调用 Gmail、日历、地图、YouTube 等谷歌服务，在驾驶时给出更个性化的回答。"
-    },
-    {
-     "title": "@testingcatalog",
-     "url": "https://x.com/testingcatalog/status/2112638397177372745",
-     "source": "@testingcatalog",
-     "date": "2026-10-20",
-     "summary": "Coco Labs 发布首个设计模型 Vyb：根据品牌官网生成分层、可编辑的营销图，每个元素独立成层，改标题无需重新生成整张设计。"
-    },
-    {
-     "title": "@theinformation",
-     "url": "https://x.com/theinformation/status/2112642550490116297",
-     "source": "@theinformation",
-     "date": "2026-10-20",
-     "summary": "The Information：CoreWeave CEO Mike Intrator 在股价大跌之际发内部备忘录为公司辩护，而借贷成本上升正威胁其为新 AI 数据中心融资的能力。"
-    }
-   ]
-  }
- ]
+  ]
 }
