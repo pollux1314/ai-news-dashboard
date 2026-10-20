@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T10:30:00+08:00",
+ "updated": "2026-10-20T11:30:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -260,6 +260,13 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "黄仁勋在伦敦：AI 发展不能“急刹车”，但必须装“安全带”——以更聪明的安全标准、监测与事故防范约束 AI，英伟达承诺五年投入 2.5 亿美元支持英国 AI 安全研究",
+     "url": "https://www.ithome.com/1/015/127.htm",
+     "source": "IT之家（转引 Android Headline）",
+     "date": "2026-10-20",
+     "summary": "黄仁勋把 AI 比作电网、供水等关键基础设施，反对简单禁止或繁重监管，主张建立聪明的安全标准；称常与研究人员交流风险监控和安全协议，并提出英国可作为中美等各方开展 AI 安全对话的中立平台。对于数据中心延期、AI 公司上市推迟等担忧，他称是快速扩张中的“成长阵痛”。"
+    },
+    {
      "title": "纽约市长曼达尼：联邦在 AI 监管上“完全失职”，呼吁纽约人拒绝“AI 不可避免”的叙事、追究 AI 公司责任",
      "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
      "source": "TechCrunch",
@@ -307,13 +314,6 @@
      "source": "BBC / Reuters",
      "date": "2026-10-19",
      "summary": "据联邦公报周一公布的通知，DHS 认为 DeepSeek 模型存在“多重威胁向量”，政府雇员或供应商使用可能导致敏感数据传往中国，并禁止 DeepSeek 参与联邦合同。命令适用于财政部、国务院、司法部等民用机构，国防部不在其内；相关命令签署于 7 月 24 日、7 月底起已生效，此次为首次公开。"
-    },
-    {
-     "title": "财新：浙江大学多家法学与数字治理机构发布 99 条《人工智能法》学者建议稿——AI 辅助医疗决策需人工复核、消费者可质疑重大自动化决策",
-     "url": "https://www.caixinglobal.com/2026-10-19/zhejiang-university-issues-model-ai-law-as-china-moves-toward-national-legislation-102494706.html",
-     "source": "Caixin Global",
-     "date": "2026-10-19",
-     "summary": "据财新，浙江大学法学与数字治理相关机构联合发布 99 条人工智能法建议稿，要求对 AI 辅助的医疗决策进行人工复核，赋予消费者质疑具有重大影响的自动化决策的权利，并对开发者与提供者施加记录留存义务；司法部此前表示将在 2026 年加快人工智能立法工作，该稿为中国走向国家层面 AI 立法增添新的学者方案。"
     }
    ]
   },
@@ -389,7 +389,7 @@
      "title": "anthropics/claude-code",
      "url": "https://github.com/anthropics/claude-code",
      "source": "GitHub",
-     "stars": 152680,
+     "stars": 152707,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-20",
@@ -400,7 +400,7 @@
      "title": "Comfy-Org/ComfyUI",
      "url": "https://github.com/Comfy-Org/ComfyUI",
      "source": "GitHub",
-     "stars": 139815,
+     "stars": 139874,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -415,7 +415,7 @@
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
      "source": "GitHub",
-     "stars": 217896,
+     "stars": 217941,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -426,7 +426,7 @@
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 11414,
+     "stars": 11462,
      "stars_week": null,
      "language": "Rust",
      "date": "2026-10-19",
@@ -437,7 +437,7 @@
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 98379,
+     "stars": 98439,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -448,7 +448,7 @@
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 57525,
+     "stars": 57704,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -459,7 +459,7 @@
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 55286,
+     "stars": 55328,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -474,7 +474,7 @@
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 77241,
+     "stars": 77291,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -492,6 +492,30 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@Reuters",
+     "url": "https://x.com/Reuters/status/2112374494803452036",
+     "source": "@Reuters",
+     "date": "2026-10-20",
+     "summary": "路透：Anthropic 与马斯克就如何让公众分享 AI 繁荣红利提出截然不同的蓝图——Anthropic 周末承诺把 5% 股份注入“公共利益基金”，这一分歧可能影响 AI 财富如何惠及大众。",
+     "metrics": {
+      "likes": 8,
+      "reposts": 5,
+      "views": 19949
+     }
+    },
+    {
+     "title": "@testingcatalog",
+     "url": "https://x.com/testingcatalog/status/2112334786794528884",
+     "source": "@testingcatalog",
+     "date": "2026-10-20",
+     "summary": "TestingCatalog：OpenAI Platform 上线“Decisions”API 测试场，可用 Predicate、Choice、Score 三种模式试用 OpenAI 新发布的决策模型，直接返回概率而非生成文本。",
+     "metrics": {
+      "likes": 89,
+      "reposts": 5,
+      "views": 7445
+     }
+    },
     {
      "title": "@ArtificialAnlys",
      "url": "https://x.com/ArtificialAnlys/status/2112364868020105323",
@@ -562,30 +586,6 @@
       "likes": 2933,
       "reposts": 226,
       "views": 193522
-     }
-    },
-    {
-     "title": "@AIatMeta",
-     "url": "https://x.com/AIatMeta/status/2112265822274302066",
-     "source": "@AIatMeta",
-     "date": "2026-10-20",
-     "summary": "Meta 发布 Muse Glimmer 技术报告：30B 开放权重模型，专为消费级硬件上的智能体任务打造，4-bit 精度下单张消费级 GPU 即可实用运行，工具调用领先同尺寸开源模型。",
-     "metrics": {
-      "likes": 503,
-      "reposts": 56,
-      "views": 38995
-     }
-    },
-    {
-     "title": "@rauchg",
-     "url": "https://x.com/rauchg/status/2112247046082363821",
-     "source": "@rauchg",
-     "date": "2026-10-20",
-     "summary": "Vercel CEO Guillermo Rauch：开源基于 libfx 的高速 HTML artifact 构建器，把 v0 应对服务器崩溃、LLM 不稳定与函数时限的底层“持久化”能力免费开放给智能体开发者。",
-     "metrics": {
-      "likes": 903,
-      "reposts": 50,
-      "views": 46589
      }
     }
    ]
