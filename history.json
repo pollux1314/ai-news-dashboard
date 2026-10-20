@@ -1,7 +1,99 @@
 {
- "updated": "2026-10-20T15:31:00+08:00",
- "count": 720,
+ "updated": "2026-10-20T16:28:00+08:00",
+ "count": 727,
  "items": [
+  {
+   "title": "阿斯利康与甲骨文启动全球 AI 合作：用 AI 与真实世界数据匹配临床试验患者、监测安全信号，首个项目联手阿布扎比 M42 开展高血压研究",
+   "url": "https://www.channelnewsasia.com/business/astrazeneca-partners-oracle-ai-driven-clinical-trials-6474856",
+   "source": "Reuters / CNA",
+   "date": "2026-10-20",
+   "summary": "据路透，合作将结合阿斯利康的药物研发经验与甲骨文的 AI 和医疗数据能力，用于患者匹配、安全监测与更早诊断，初期聚焦肿瘤、心血管、呼吸、免疫及罕见病。患者招募慢一直是拉长试验周期、推高研发成本的主要瓶颈；阿斯利康正冲刺 2030 年年营收超 800 亿美元目标。",
+   "id": "d806a435ddd6286b1c06543dfc57edab19a17ba3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T16:28:00+08:00"
+  },
+  {
+   "title": "Learning from Fleet Experience：让部署中的机器人机队共享执行经验改进同一策略，按失败情境检索成功轨迹片段做监督、无需额外专家纠正，96 台机器人让手机包装任务成功率从 79.2% 升至 98.3%",
+   "url": "https://arxiv.org/abs/2610.25736",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-20",
+   "summary": "论文提出“集体经验学习”（CEL）：FERT 用机器人执行中的失败上下文，从机队共享的成功经验中检索相关轨迹段作为动作监督；容错异步训练系统 FATS 协调经验收集、策略优化与分发，局部中断也不停摆。在五项真实操作任务上，于未参与数据采集的机器人上各测 120 次，成功率 93.3%–99.2%；单机采集时长固定时，机队越大成功率越高（16→96 台：86.7%→98.3%）。",
+   "id": "3c45dcb78320e7f07f6fc34c2db7cc094370a8f2",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T16:28:00+08:00"
+  },
+  {
+   "title": "记忆张量开源“记忆原生”基础模型 MemT-1.0：Flash（288B/17B 激活，基于 DeepSeek-V4-Flash）与 Nano（36B/3B 激活，基于 Qwen3.6）把历史写进固定大小记忆状态，256K 历史下推理提速约 4 倍、存储缩减约 130 倍",
+   "url": "https://huggingface.co/MemTensor/MemT-1.0-Flash",
+   "source": "Hugging Face / 网易智能",
+   "date": "2026-10-20",
+   "summary": "MemT-1.0 在骨干注意力旁加入“原生记忆块”（动态局部记忆 + 可训练超记忆），推理时无需重新读入原始上下文；基于 340 亿 token 两阶段训练。官方称在 11 项记忆基准上 Flash、Nano 分列参数化记忆方法第一、第二（但仍落后强文本记忆系统）；256K 历史下首字延迟约 104–112ms，每会话记忆状态约 40MiB。Nano 引入历史解题经验后 SWE-bench Verified 由 66.07% 升至 69.73%。Flash 权重 MIT 许可。",
+   "id": "d8b17aea8b10ca1d06d245439470503d9bbd48bc",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T16:28:00+08:00"
+  },
+  {
+   "title": "美国国务院依《保护美国知识产权法》（PAIPA）制裁陆奇创办的奇绩创坛（MiraclePlus）及其两支基金等共 5 家实体，指其为涉嫌窃取谷歌 AI 基础设施机密的前谷歌工程师 Linwei Ding 所创公司提供种子资金",
+   "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft-fact-sheet/",
+   "source": "U.S. Department of State / Bloomberg",
+   "date": "2026-10-20",
+   "summary": "美国国务院 10 月 19 日（美东时间）公布：Linwei Ding 2023 年创办的上海智算科技（Zhisuan）被认定“明知参与或受益于重大商业秘密窃取”，其曾在奇绩创坛创业营中宣称可复刻谷歌的超级智能基础设施技术；奇绩创坛向其提供种子资金并持股，被认定为窃密提供重大支持。被制裁实体还包括奇绩创坛一期、二期基金及致远企业管理中心。OFAC 同步将其列入非 SDN 菜单式制裁名单，并发放截至 2027 年 1 月 19 日的业务清退许可。",
+   "id": "07225baaf305c1725bb45db298df55c8bba1f6b5",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T16:28:00+08:00"
+  },
+  {
+   "title": "@ModelScope2022",
+   "url": "https://x.com/ModelScope2022/status/2112453862351073661",
+   "source": "@ModelScope2022",
+   "date": "2026-10-20",
+   "summary": "魔搭社区官方号推介 MemT-1.0：一个把持久、可演化记忆内置于模型计算中的开放权重模型家族，对话与智能体可复用历史信息而无需重新加载原始上下文，称在参数化记忆方法中领先。",
+   "metrics": {
+    "likes": 6,
+    "reposts": 1,
+    "views": 481
+   },
+   "id": "2f4cd0f2c01ca749f05fc453098c788badb5712e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T16:28:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112447502699933816",
+   "source": "@business",
+   "date": "2026-10-20",
+   "summary": "彭博：华盛顿将前微软 AI 科学家陆奇创办的中国创投机构（奇绩创坛）列入黑名单，理由是其与一家被指窃取谷歌技术的初创公司存在关联。",
+   "metrics": {
+    "likes": 13,
+    "reposts": 5,
+    "views": 15092
+   },
+   "id": "83bdda3cd8d4a7e0d10ade25fd4eebd5618a2b7d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T16:28:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112448778875637849",
+   "source": "@Reuters",
+   "date": "2026-10-20",
+   "summary": "路透快讯：阿斯利康与甲骨文合作推进 AI 驱动的临床试验。",
+   "metrics": {
+    "likes": 6,
+    "reposts": 2,
+    "views": 20470
+   },
+   "id": "579ce9dfeae3e5c51b291ce64f5f4926ea16ed53",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T16:28:00+08:00"
+  },
   {
    "title": "爱沙尼亚网络流量安全公司 Blackwall 完成 1 亿美元 C 轮融资，估值 22 亿美元、较 2025 年翻两番，主打帮网站区分合法 AI 智能体与恶意机器人",
    "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",

@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-20T15:31:00+08:00",
+  "updated": "2026-10-20T16:28:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "阿斯利康与甲骨文启动全球 AI 合作：用 AI 与真实世界数据匹配临床试验患者、监测安全信号，首个项目联手阿布扎比 M42 开展高血压研究",
+          "url": "https://www.channelnewsasia.com/business/astrazeneca-partners-oracle-ai-driven-clinical-trials-6474856",
+          "source": "Reuters / CNA",
+          "date": "2026-10-20",
+          "summary": "据路透，合作将结合阿斯利康的药物研发经验与甲骨文的 AI 和医疗数据能力，用于患者匹配、安全监测与更早诊断，初期聚焦肿瘤、心血管、呼吸、免疫及罕见病。患者招募慢一直是拉长试验周期、推高研发成本的主要瓶颈；阿斯利康正冲刺 2030 年年营收超 800 亿美元目标。"
+        },
+        {
           "title": "爱沙尼亚网络流量安全公司 Blackwall 完成 1 亿美元 C 轮融资，估值 22 亿美元、较 2025 年翻两番，主打帮网站区分合法 AI 智能体与恶意机器人",
           "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
           "source": "TechCrunch",
@@ -118,13 +125,6 @@
           "source": "Reuters / Bloomberg",
           "date": "2026-10-19",
           "summary": "据彭博援引知情人士，英伟达支持的 Nscale 正与 Anthropic 谈判第二份价值约 450 亿美元的算力租赁协议；8 月双方已签下首份 450 亿美元合同。Anthropic 还拥有园区第三栋建筑的优先购买权，细节仍可能变化。同一报道称部分投资者敦促 Anthropic 下调 IPO 估值目标；双方均未回应，路透未能独立核实。"
-        },
-        {
-          "title": "路透：英伟达拿下 Modal CPU 订单，Modal 首次引入 Vera CPU 托管智能体，早期测试称智能体任务量翻倍",
-          "url": "https://www.investing.com/news/stock-market-news/nvidia-wins-fastgrowing-ai-startup-modal-for-new-central-processors-4957898",
-          "source": "Reuters",
-          "date": "2026-10-19",
-          "summary": "此前完全依赖英特尔与 AMD 处理器的 AI 云公司 Modal 表示，将用英伟达新款 Vera CPU 承载长时运行的智能体任务，测试中完成量约为现有 x86 方案的两倍；但仍将与英特尔、AMD 混合部署。英伟达预计本财年 Vera 销售额至少 200 亿美元，OpenAI、Anthropic、甲骨文与 Perplexity 也计划采用。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Learning from Fleet Experience：让部署中的机器人机队共享执行经验改进同一策略，按失败情境检索成功轨迹片段做监督、无需额外专家纠正，96 台机器人让手机包装任务成功率从 79.2% 升至 98.3%",
+          "url": "https://arxiv.org/abs/2610.25736",
+          "source": "arXiv / Hugging Face Daily Papers",
+          "date": "2026-10-20",
+          "summary": "论文提出“集体经验学习”（CEL）：FERT 用机器人执行中的失败上下文，从机队共享的成功经验中检索相关轨迹段作为动作监督；容错异步训练系统 FATS 协调经验收集、策略优化与分发，局部中断也不停摆。在五项真实操作任务上，于未参与数据采集的机器人上各测 120 次，成功率 93.3%–99.2%；单机采集时长固定时，机队越大成功率越高（16→96 台：86.7%→98.3%）。"
+        },
         {
           "title": "浙大与蚂蚁等发布 WorldMemBench：260 个用例系统评测视频世界模型“记忆”，HY-WorldPlay 静态记忆七项全第一但仅 31.7% 能触发指定事件，多次回访记忆持续衰减",
           "url": "https://arxiv.org/abs/2610.19063",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-19",
           "summary": "现有世界模型多专注镜头移动，难以处理结果取决于画面外隐藏状态的动作。作者提出 Stateful Harness：按既定规则演化世界状态，用冻结的视频模型渲染每个事件，再用生成片段回写状态，并以可编辑 3D 场景预览提供空间与镜头引导。新基准 WorldState-Bench 含 50 组反事实孪生样例；11 个视频后端在仅给规则时最好只有 32% 的样例两边都正确，MiniMax-H3 明确结局后为 64%，完整 harness 达 92%。"
-        },
-        {
-          "title": "LEV：用“循环层”代替生成 token 让决策模型按题目难度加深思考，2.6B 模型在 JevBench 上从 1 轮 63.2% 升至 4 轮 76.2%",
-          "url": "https://arxiv.org/abs/2610.20951",
-          "source": "arXiv / Lehigh University",
-          "date": "2026-10-19",
-          "summary": "Lehigh 大学等基于原生循环预训练骨干（Ouro、Nanbeige4.2）构建 System 1.5 决策模型，每轮循环后用共享指针头读出选项，一个检查点可在任意深度作答；以无标注请求拟合的停止器按需决定深度，节省 15%–24% 计算、精度损失不到 1 个点；50ms 以内 1.4B/3B 模型比同延迟稠密模型与级联高 5.4–8.8 个点。代码与模型已开源。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "记忆张量开源“记忆原生”基础模型 MemT-1.0：Flash（288B/17B 激活，基于 DeepSeek-V4-Flash）与 Nano（36B/3B 激活，基于 Qwen3.6）把历史写进固定大小记忆状态，256K 历史下推理提速约 4 倍、存储缩减约 130 倍",
+          "url": "https://huggingface.co/MemTensor/MemT-1.0-Flash",
+          "source": "Hugging Face / 网易智能",
+          "date": "2026-10-20",
+          "summary": "MemT-1.0 在骨干注意力旁加入“原生记忆块”（动态局部记忆 + 可训练超记忆），推理时无需重新读入原始上下文；基于 340 亿 token 两阶段训练。官方称在 11 项记忆基准上 Flash、Nano 分列参数化记忆方法第一、第二（但仍落后强文本记忆系统）；256K 历史下首字延迟约 104–112ms，每会话记忆状态约 40MiB。Nano 引入历史解题经验后 SWE-bench Verified 由 66.07% 升至 69.73%。Flash 权重 MIT 许可。"
+        },
         {
           "title": "Video Rebirth 开源 H3 HyperFlow：基于 MiniMax H3 的无数据流自蒸馏 LoRA，把视频生成从 49 步压到 8 步、约提速 3 倍，音画同步生成",
           "url": "https://huggingface.co/videorebirth/hyperflow",
@@ -244,13 +251,6 @@
           "source": "IT之家 / GitHub",
           "date": "2026-10-19",
           "summary": "NPCTalk 由 Universal Modder 开发：Nemotron ASR 识别语音、Cerebras 上的 Qwen 3.8 27B 实时生成台词、Fish Audio Drama 3 克隆配音，NPC 还能配合动作回应；按键通话延迟约 1.15–2.2 秒。开发经验已封装为可复用的智能体技能集，兼容 Claude Code、Codex、Cursor、Gemini CLI，目前仅在《GTA 5》旧版单人模式演示，可玩模组预计下周发布，运行云端服务需付费。项目仓库 github.com/christos-antono/NPCTalk。"
-        },
-        {
-          "title": "Anthropic 官方开源 Claude Code 插件目录 claude-plugins-official：集中托管高质量插件，Apache-2.0，日榜约 +1175 星",
-          "url": "https://github.com/anthropics/claude-plugins-official",
-          "source": "GitHub / Anthropic",
-          "date": "2026-10-19",
-          "summary": "anthropics/claude-plugins-official 为 Anthropic 维护的 Claude Code 高质量插件官方目录，文档指向 code.claude.com/docs/en/plugins；仓库约 4.3 万星、Apache-2.0，今日 GitHub Trending 日榜上榜（约 +1,175 星），话题含 claude-code、mcp、skills。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "美国国务院依《保护美国知识产权法》（PAIPA）制裁陆奇创办的奇绩创坛（MiraclePlus）及其两支基金等共 5 家实体，指其为涉嫌窃取谷歌 AI 基础设施机密的前谷歌工程师 Linwei Ding 所创公司提供种子资金",
+          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft-fact-sheet/",
+          "source": "U.S. Department of State / Bloomberg",
+          "date": "2026-10-20",
+          "summary": "美国国务院 10 月 19 日（美东时间）公布：Linwei Ding 2023 年创办的上海智算科技（Zhisuan）被认定“明知参与或受益于重大商业秘密窃取”，其曾在奇绩创坛创业营中宣称可复刻谷歌的超级智能基础设施技术；奇绩创坛向其提供种子资金并持股，被认定为窃密提供重大支持。被制裁实体还包括奇绩创坛一期、二期基金及致远企业管理中心。OFAC 同步将其列入非 SDN 菜单式制裁名单，并发放截至 2027 年 1 月 19 日的业务清退许可。"
+        },
         {
           "title": "中国外交部回应美国国土安全部 DeepSeek 禁令：坚决维护中国企业正当权益，反对泛化国家安全概念、将科技与经贸问题政治化",
           "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/after-us-deepseek-order-china-says-it-will-protect-firms/articleshow/135063801.cms",
@@ -307,13 +314,6 @@
           "source": "TechCrunch",
           "date": "2026-10-20",
           "summary": "Zohran Mamdani 在 AI Now Institute 主办的 People’s AI Assembly 上与演员 Ilana Glazer 对谈，称 AI 的快速铺开并非不可避免，批评把 AI 讨论框定为对华“军备竞赛”而忽视人文关切。他上月已下令禁止小学和初中使用 AI，并在夏季推出要求房源照片/视频披露 AI 生成的政策。"
-        },
-        {
-          "title": "The Verge/CNBC：涉嫌在 OpenAI 会议室安装窃听设备的员工 Abdulrahman Alfozan，被指 2025–2026 年间与一名沙特王室成员“频繁”联系",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1013714/openai-staffer-accused-of-planting-bug-was-allegedly-in-frequent-communication-with-a-saudi-royal",
-          "source": "The Verge / CNBC",
-          "date": "2026-10-20",
-          "summary": "据 CNBC 发现的法庭文件，Alfozan 通过 WhatsApp 与这名未具名王室成员保持联系，对方曾告诉他沙特正在启动一项人工智能计划并希望他加入；他在 10 月 5 日联系过对方，数日后因涉嫌在 OpenAI 会议室安装窃听设备被捕。"
         }
       ]
     },
@@ -493,6 +493,42 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@ModelScope2022",
+          "url": "https://x.com/ModelScope2022/status/2112453862351073661",
+          "source": "@ModelScope2022",
+          "date": "2026-10-20",
+          "summary": "魔搭社区官方号推介 MemT-1.0：一个把持久、可演化记忆内置于模型计算中的开放权重模型家族，对话与智能体可复用历史信息而无需重新加载原始上下文，称在参数化记忆方法中领先。",
+          "metrics": {
+            "likes": 6,
+            "reposts": 1,
+            "views": 481
+          }
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2112447502699933816",
+          "source": "@business",
+          "date": "2026-10-20",
+          "summary": "彭博：华盛顿将前微软 AI 科学家陆奇创办的中国创投机构（奇绩创坛）列入黑名单，理由是其与一家被指窃取谷歌技术的初创公司存在关联。",
+          "metrics": {
+            "likes": 13,
+            "reposts": 5,
+            "views": 15092
+          }
+        },
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2112448778875637849",
+          "source": "@Reuters",
+          "date": "2026-10-20",
+          "summary": "路透快讯：阿斯利康与甲骨文合作推进 AI 驱动的临床试验。",
+          "metrics": {
+            "likes": 6,
+            "reposts": 2,
+            "views": 20470
+          }
+        },
+        {
           "title": "@kimmonismus",
           "url": "https://x.com/kimmonismus/status/2112442680651243586",
           "source": "@kimmonismus",
@@ -550,42 +586,6 @@
             "likes": 329,
             "reposts": 64,
             "views": 27675
-          }
-        },
-        {
-          "title": "@Polymarket",
-          "url": "https://x.com/Polymarket/status/2112330215875547422",
-          "source": "@Polymarket",
-          "date": "2026-10-20",
-          "summary": "Polymarket 快讯：据报道 Waymo 计划大规模扩张 Robotaxi 车队，到 2027 年底规模扩大 5 倍至 2 万辆（消息源为 Semafor）。",
-          "metrics": {
-            "likes": 481,
-            "reposts": 30,
-            "views": 71100
-          }
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2112374494803452036",
-          "source": "@Reuters",
-          "date": "2026-10-20",
-          "summary": "路透：Anthropic 与马斯克就如何让公众分享 AI 繁荣红利提出截然不同的蓝图——Anthropic 周末承诺把 5% 股份注入“公共利益基金”，这一分歧可能影响 AI 财富如何惠及大众。",
-          "metrics": {
-            "likes": 8,
-            "reposts": 5,
-            "views": 19949
-          }
-        },
-        {
-          "title": "@testingcatalog",
-          "url": "https://x.com/testingcatalog/status/2112334786794528884",
-          "source": "@testingcatalog",
-          "date": "2026-10-20",
-          "summary": "TestingCatalog：OpenAI Platform 上线“Decisions”API 测试场，可用 Predicate、Choice、Score 三种模式试用 OpenAI 新发布的决策模型，直接返回概率而非生成文本。",
-          "metrics": {
-            "likes": 89,
-            "reposts": 5,
-            "views": 7445
           }
         }
       ]
