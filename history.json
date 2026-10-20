@@ -1,7 +1,72 @@
 {
- "updated": "2026-10-20T13:33:00+08:00",
- "count": 710,
+ "updated": "2026-10-20T14:29:00+08:00",
+ "count": 715,
  "items": [
+  {
+   "title": "The Information：奥特曼向员工阐述 AI 安全的三种“终局”——类 IAEA 国际机构、合并所有实验室的“AI 版 CERN”，以及一家公司强大到可切断所有对手算力的方案",
+   "url": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
+   "source": "The Information",
+   "date": "2026-10-20",
+   "summary": "据两位知情人士，奥特曼上周在内部讨论中列举了业界关于如何安全开发 AI 的三类提议，他似乎倾向于设立类似国际原子能机构、负责执行安全标准的国际组织；第二种是把所有 AI 实验室合并为单一机构；第三种（他并不偏好）是某家开发者获得足够经济实力，剥夺包括潜在危险者在内的所有其他开发者的算力。报道指出，这一表态恰逢特朗普政府搭建首个针对超级智能开发者的监管体系。",
+   "id": "5c8080bc21e0adf39227f96c4c9b75b4dd43a6d6",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T14:29:00+08:00"
+  },
+  {
+   "title": "浙大与蚂蚁等发布 WorldMemBench：260 个用例系统评测视频世界模型“记忆”，HY-WorldPlay 静态记忆七项全第一但仅 31.7% 能触发指定事件，多次回访记忆持续衰减",
+   "url": "https://arxiv.org/abs/2610.19063",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "基准含 200 个静态记忆（人物、物体、环境）与 60 个动态记忆（事件演进、状态保持）用例，用受控镜头离开-回访轨迹对比固定初始参照。9 个模型中无一在全部维度领先：LingBot-World 动态记忆最高（0.808）；从第 1 次到第 3 次回访，物体外观、人物身份等指标平均下降 0.2 以上，切换旋转轴还会带来额外退化。在 LingBot World v2 上，“近期上下文 + 视野相关历史”的检索策略在多数指标上优于全量 KV，并提速约 1.23 倍。",
+   "id": "5fa713cb173ec4642b4b3e49d3f605e734fccc19",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T14:29:00+08:00"
+  },
+  {
+   "title": "开源编程智能体 OpenCode 遭“大规模蒸馏攻击”：黑客入侵待下线的旧系统，约 1.4% Console 用户存储的 OpenAI、Anthropic、谷歌 API 密钥外泄，部分用户一夜被刷超 1700 美元",
+   "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+   "source": "TechCrunch / BleepingComputer",
+   "date": "2026-10-20",
+   "summary": "OpenCode 称攻击者借 AI 智能体持续攻击其系统至少 48 小时，最早暴露时间为 10 月 17 日 00:30 UTC，被盗密钥被用于大量调用前沿模型以收集输出、训练其他模型。受影响用户已收到邮件，被要求吊销并更换密钥、检查用量，部分用户的 Google Cloud 项目因“劫持资源”被暂停；OpenCode 表示正与 OpenAI、Anthropic 和谷歌协同处置，并可能为受影响用户报销。联合创始人 Dax Raad 称，改用 OpenAI 的 Daybreak 网络安全模型做防御后局势才趋于稳定。",
+   "id": "039a84854fb85dd641d6936af9c43340549b490c",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T14:29:00+08:00"
+  },
+  {
+   "title": "@amir",
+   "url": "https://x.com/amir/status/2112331218964693065",
+   "source": "@amir",
+   "date": "2026-10-20",
+   "summary": "The Information 记者 Amir Efrati：独家披露奥特曼内部讨论业界 AI 安全三种方案——“AI 版 IAEA”、“AI 版 CERN / 实验室合并”（即 Demis Hassabis 2017 年的设想）以及“Eliezer 方案”。",
+   "metrics": {
+    "likes": 23,
+    "reposts": 5,
+    "views": 2972
+   },
+   "id": "ac9a08c99b06cd84b0aa4fd8eb158cbffd40d060",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T14:29:00+08:00"
+  },
+  {
+   "title": "@ArtificialAnlys",
+   "url": "https://x.com/ArtificialAnlys/status/2112389514404462613",
+   "source": "@ArtificialAnlys",
+   "date": "2026-10-20",
+   "summary": "Artificial Analysis：蚂蚁集团 Ming-3.0-tts 成为可控音色 TTS 竞技场开源第一（Elo 1069），并以 93.2% 并列发音鲁棒性榜第一，与 Fish Audio Drama 3 Preview 持平、领先 Eleven v4。",
+   "metrics": {
+    "likes": 53,
+    "reposts": 3,
+    "views": 7961
+   },
+   "id": "06c602041808b5330c7d844d87e5ec8b42df8e3d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T14:29:00+08:00"
+  },
   {
    "title": "小红书 Dots 团队提出 DoSA：用可证明的分数上下界提前排除不可能入选 Top-K 的候选，精确保持稀疏注意力选择结果，1M 上下文下 DeepSeek-V3.2 首 token 延迟降约 48%",
    "url": "https://arxiv.org/abs/2610.13990",

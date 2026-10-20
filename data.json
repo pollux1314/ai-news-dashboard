@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-20T13:33:00+08:00",
+  "updated": "2026-10-20T14:29:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "The Information：奥特曼向员工阐述 AI 安全的三种“终局”——类 IAEA 国际机构、合并所有实验室的“AI 版 CERN”，以及一家公司强大到可切断所有对手算力的方案",
+          "url": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
+          "source": "The Information",
+          "date": "2026-10-20",
+          "summary": "据两位知情人士，奥特曼上周在内部讨论中列举了业界关于如何安全开发 AI 的三类提议，他似乎倾向于设立类似国际原子能机构、负责执行安全标准的国际组织；第二种是把所有 AI 实验室合并为单一机构；第三种（他并不偏好）是某家开发者获得足够经济实力，剥夺包括潜在危险者在内的所有其他开发者的算力。报道指出，这一表态恰逢特朗普政府搭建首个针对超级智能开发者的监管体系。"
+        },
+        {
           "title": "Semafor 独家：Waymo 拟用本月新借的 50 亿美元把车队从约 4000 辆扩至年底 8000 辆、2027 年底 2 万辆，规模扩大 5 倍",
           "url": "https://www.semafor.com/article/10/19/2026/waymo-plans-to-quintuple-its-fleet",
           "source": "Semafor",
@@ -118,13 +125,6 @@
           "source": "Greptile",
           "date": "2026-10-19",
           "summary": "Jump Trading、Wing、Benchmark、YC 等参投，Deedy Das 加入董事会。Greptile 称每天审查并测试 GitHub 上超过 1% 的新开 PR，客户包括英伟达、Coinbase、Decagon、Vanta，定位为多款编码智能体之上的独立代码验证层，目标是让关键系统也能自动合并复杂改动。"
-        },
-        {
-          "title": "Amnon Shashua 新公司 doubleAI 发布首个“代码执行模型”Maxwell：在 CPU/GPU 上实时优化程序机器指令并形式化验证，A 轮融资 2 亿美元、估值超 10 亿美元",
-          "url": "https://www.calcalistech.com/ctechnews/article/sk11xpc73ge",
-          "source": "Calcalist Ctech",
-          "date": "2026-10-19",
-          "summary": "Mobileye 创始人 Shashua 的 doubleAI 结束隐身：A 轮由 Lightspeed 与 Bessemer 联合领投，Dell Technologies Capital、英伟达等参投，团队约 40 人。Maxwell 持续分析运行中的程序、硬件与数据，在不改源码的前提下重写底层指令，并对每项优化做数学验证以保证行为不变；公司称真实负载中数据管线提速 38 倍以上、推理内核提速 4.5 倍以上（未经独立验证），按为客户节省的算力成本收费，现开放早期访问。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "浙大与蚂蚁等发布 WorldMemBench：260 个用例系统评测视频世界模型“记忆”，HY-WorldPlay 静态记忆七项全第一但仅 31.7% 能触发指定事件，多次回访记忆持续衰减",
+          "url": "https://arxiv.org/abs/2610.19063",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "基准含 200 个静态记忆（人物、物体、环境）与 60 个动态记忆（事件演进、状态保持）用例，用受控镜头离开-回访轨迹对比固定初始参照。9 个模型中无一在全部维度领先：LingBot-World 动态记忆最高（0.808）；从第 1 次到第 3 次回访，物体外观、人物身份等指标平均下降 0.2 以上，切换旋转轴还会带来额外退化。在 LingBot World v2 上，“近期上下文 + 视野相关历史”的检索策略在多数指标上优于全量 KV，并提速约 1.23 倍。"
+        },
         {
           "title": "小红书 Dots 团队提出 DoSA：用可证明的分数上下界提前排除不可能入选 Top-K 的候选，精确保持稀疏注意力选择结果，1M 上下文下 DeepSeek-V3.2 首 token 延迟降约 48%",
           "url": "https://arxiv.org/abs/2610.13990",
@@ -181,13 +188,6 @@
           "source": "arXiv / Lehigh University",
           "date": "2026-10-19",
           "summary": "Lehigh 大学等基于原生循环预训练骨干（Ouro、Nanbeige4.2）构建 System 1.5 决策模型，每轮循环后用共享指针头读出选项，一个检查点可在任意深度作答；以无标注请求拟合的停止器按需决定深度，节省 15%–24% 计算、精度损失不到 1 个点；50ms 以内 1.4B/3B 模型比同延迟稠密模型与级联高 5.4–8.8 个点。代码与模型已开源。"
-        },
-        {
-          "title": "北大与蚂蚁国际发布 BizBench（BizAgentBench）：基于全球支付公司真实流程的 50 个长程业务任务，Claude Opus 5 严格成功率 64.0%、GPT-6 Sol 61.3%",
-          "url": "https://arxiv.org/abs/2610.20424",
-          "source": "arXiv / Hugging Face Papers",
-          "date": "2026-10-19",
-          "summary": "环境含 789 份知识文档与 601 个可发现业务工具，混有过时或相互冲突的规则；确定性检查同时评估目标达成、过程合规（如先授权后执行、全程不跌破备付金下限）与副作用。GPT-6 Sol 三次全部成功的任务仅 40%；Qwen3.8-27B 目标达成 42.0% 但严格成功仅 32.7%；DeepSeek-V4.1-Flash 平均每次 191.3 次工具调用，比参考执行多约 70%。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "开源编程智能体 OpenCode 遭“大规模蒸馏攻击”：黑客入侵待下线的旧系统，约 1.4% Console 用户存储的 OpenAI、Anthropic、谷歌 API 密钥外泄，部分用户一夜被刷超 1700 美元",
+          "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+          "source": "TechCrunch / BleepingComputer",
+          "date": "2026-10-20",
+          "summary": "OpenCode 称攻击者借 AI 智能体持续攻击其系统至少 48 小时，最早暴露时间为 10 月 17 日 00:30 UTC，被盗密钥被用于大量调用前沿模型以收集输出、训练其他模型。受影响用户已收到邮件，被要求吊销并更换密钥、检查用量，部分用户的 Google Cloud 项目因“劫持资源”被暂停；OpenCode 表示正与 OpenAI、Anthropic 和谷歌协同处置，并可能为受影响用户报销。联合创始人 Dax Raad 称，改用 OpenAI 的 Daybreak 网络安全模型做防御后局势才趋于稳定。"
+        },
+        {
           "title": "日本网络安全公司 GMO 调查：中国关联的 AI 自主渗透智能体 Artex 被用于攻击约 80 家日本企业，8 家已披露数据泄露；该工具此前亦涉韩国金融机构连环入侵",
           "url": "https://www.straitstimes.com/asia/east-asia/security-firm-finds-china-linked-ai-agent-behind-japan-cyberattacks",
           "source": "The Straits Times / 共同社",
@@ -307,13 +314,6 @@
           "source": "Insider NJ",
           "date": "2026-10-19",
           "summary": "法案要求聊天机器人提供方未经用户明确同意不得处理输入以外的个人数据、不得出售聊天记录、保存期不超过两年，须每月评估对用户的风险并按州检察长规则缓解；州检察长可提起民事诉讼，受害用户可索赔实际损失或每次违规 5000 美元（取高者）。委员会以多数票通过，一名共和党议员反对、一名弃权。"
-        },
-        {
-          "title": "TechCrunch：Hugging Face 首席政策官 Irene Solaiman 称“嵌入式第三方评估员”并非简单解药——评测需可复现、可横向比较，且应覆盖模型+harness+智能体整体",
-          "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
-          "source": "TechCrunch",
-          "date": "2026-10-19",
-          "summary": "在 TechCrunch Disrupt 上，Solaiman 指出评测是仍在演进的科学，基准很快失效，谁有资格做哪类任务的评估员缺乏标准化；开放权重对复现至关重要。报道提到 Anthropic 聘请埃森哲作为首个评估方引发争议，并指出更好的 harness 可能让较弱模型胜过前沿模型。"
         }
       ]
     },
@@ -493,6 +493,30 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@amir",
+          "url": "https://x.com/amir/status/2112331218964693065",
+          "source": "@amir",
+          "date": "2026-10-20",
+          "summary": "The Information 记者 Amir Efrati：独家披露奥特曼内部讨论业界 AI 安全三种方案——“AI 版 IAEA”、“AI 版 CERN / 实验室合并”（即 Demis Hassabis 2017 年的设想）以及“Eliezer 方案”。",
+          "metrics": {
+            "likes": 23,
+            "reposts": 5,
+            "views": 2972
+          }
+        },
+        {
+          "title": "@ArtificialAnlys",
+          "url": "https://x.com/ArtificialAnlys/status/2112389514404462613",
+          "source": "@ArtificialAnlys",
+          "date": "2026-10-20",
+          "summary": "Artificial Analysis：蚂蚁集团 Ming-3.0-tts 成为可控音色 TTS 竞技场开源第一（Elo 1069），并以 93.2% 并列发音鲁棒性榜第一，与 Fish Audio Drama 3 Preview 持平、领先 Eleven v4。",
+          "metrics": {
+            "likes": 53,
+            "reposts": 3,
+            "views": 7961
+          }
+        },
+        {
           "title": "@business",
           "url": "https://x.com/business/status/2112411011948925240",
           "source": "@business",
@@ -562,30 +586,6 @@
             "likes": 28,
             "reposts": 1,
             "views": 3686
-          }
-        },
-        {
-          "title": "@kimmonismus",
-          "url": "https://x.com/kimmonismus/status/2112242007062233122",
-          "source": "@kimmonismus",
-          "date": "2026-10-20",
-          "summary": "Chubby 汇总：除 Anthropic 新模型外，谷歌据报正开发 Argon 的升级版 Gemini 4 Carbon，开发者称 Gemini 在视觉任务上仍尤为强势；OpenAI 据报准备在未来几周推出能力更强的 Terra 模型。",
-          "metrics": {
-            "likes": 513,
-            "reposts": 33,
-            "views": 27976
-          }
-        },
-        {
-          "title": "@OpenAI",
-          "url": "https://x.com/OpenAI/status/2112310345863930168",
-          "source": "@OpenAI",
-          "date": "2026-10-20",
-          "summary": "OpenAI：最新模型进展显著增强在 COBOL、Fortran、Visual Basic 等低资源编程语言中构建与迁移软件的能力，这些语言支撑着银行、政府与企业依赖的关键系统。",
-          "metrics": {
-            "likes": 3027,
-            "reposts": 205,
-            "views": 270931
           }
         }
       ]
