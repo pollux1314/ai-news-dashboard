@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-20T08:30:00+08:00",
+ "updated": "2026-10-20T09:30:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "Cloudflare 发布“System One”抽取模型 Clairic 预览：单次前向输出带置信度的类型化数值，不生成 token，称级联流水线比全 LLM 快约 3.2 倍、成本低 49%",
+     "url": "https://blog.cloudflare.com/clairic-extraction-model/",
+     "source": "Cloudflare Blog",
+     "date": "2026-10-20",
+     "summary": "Clairic 以 @cf/cloudflare/clairic 在 Workers AI 上线预览，可从文本与最多 4 张图片中抽取、计算、估计和预测文本片段、数字、日期、列表、分布估计与时间序列预测，并返回 confidence、p_null 与 80% 区间；只按输入计费（每百万输入 token 0.10 美元）。Cloudflare 自测“Clairic→Clef→GLM-5.3”理赔流水线端到端 19.3 秒、对比全 GLM-5.3 的 61.7 秒，成本低 49%；计划后续开放权重。"
+    },
     {
      "title": "Gemini Notebook 新增“共创”流程：生成幻灯片或视频前先基于资料提议主题，并让用户确认格式、视觉风格与范围",
      "url": "https://www.theverge.com/tech/1013962/gemini-notebook-will-now-lay-out-its-plans-before-generating-a-slide-deck-or-video",
@@ -55,13 +62,6 @@
      "source": "TechCrunch",
      "date": "2026-10-19",
      "summary": "Wabi 以消息应用形态运行，用户可为不同任务与长期目标建立多个智能体线程，线程可分享为群聊；连接邮箱后会自动生成初始线程与应用（如健康线程里的减重追踪器、家庭线程里的附近亲子活动）。按聊天单独授权邮箱、日历等数据，他人请求个人信息时全员可见；已通过 SOC 2，目前免费、商业模式未定，覆盖 iOS、Android 与 Mac。"
-    },
-    {
-     "title": "Viggle 发布“物理原生”世界基础模型 JST-2：以持久 3D 原子建模场景、角色与动作，约 1 秒生成可漫游 3D 场景、单次推理成本低于 1 美分",
-     "url": "https://viggle.ai/jst2",
-     "source": "Viggle",
-     "date": "2026-10-19",
-     "summary": "JST-2 不在像素空间学习，而是把世界表示为带 xyz 位置、属性与动力学向量的“物理原生 Token”，可解码为图像或 3D 高斯泼溅；支持最多 64 个视角作为空间上下文逐步扩展世界，角色无需单独绑骨蒙皮即可驱动，动作可由文本或视频生成。官方称在 B200 上约 1 秒出场景（计时不含网络延迟）；场景碰撞与物体交互目前仍靠规则物理，计划由 JST-3 改为学习型动力学。"
     }
    ]
   },
@@ -134,6 +134,20 @@
    "icon": "📄",
    "items": [
     {
+     "title": "LEV：用“循环层”代替生成 token 让决策模型按题目难度加深思考，2.6B 模型在 JevBench 上从 1 轮 63.2% 升至 4 轮 76.2%",
+     "url": "https://arxiv.org/abs/2610.20951",
+     "source": "arXiv / Lehigh University",
+     "date": "2026-10-19",
+     "summary": "Lehigh 大学等基于原生循环预训练骨干（Ouro、Nanbeige4.2）构建 System 1.5 决策模型，每轮循环后用共享指针头读出选项，一个检查点可在任意深度作答；以无标注请求拟合的停止器按需决定深度，节省 15%–24% 计算、精度损失不到 1 个点；50ms 以内 1.4B/3B 模型比同延迟稠密模型与级联高 5.4–8.8 个点。代码与模型已开源。"
+    },
+    {
+     "title": "北大与蚂蚁国际发布 BizBench（BizAgentBench）：基于全球支付公司真实流程的 50 个长程业务任务，Claude Opus 5 严格成功率 64.0%、GPT-6 Sol 61.3%",
+     "url": "https://arxiv.org/abs/2610.20424",
+     "source": "arXiv / Hugging Face Papers",
+     "date": "2026-10-19",
+     "summary": "环境含 789 份知识文档与 601 个可发现业务工具，混有过时或相互冲突的规则；确定性检查同时评估目标达成、过程合规（如先授权后执行、全程不跌破备付金下限）与副作用。GPT-6 Sol 三次全部成功的任务仅 40%；Qwen3.8-27B 目标达成 42.0% 但严格成功仅 32.7%；DeepSeek-V4.1-Flash 平均每次 191.3 次工具调用，比参考执行多约 70%。"
+    },
+    {
      "title": "英伟达在欧洲首台百亿亿次超算 JUPITER 上用 8192 张 GH200 完成 104 量子比特容错量子计算模拟，验证可省 90% 物理比特的“魔法态培养”",
      "url": "https://nvidianews.nvidia.com/news/nvidia-runs-record-simulation-of-fault-tolerant-quantum-computing-at-julich-supercomputing-centre",
      "source": "NVIDIA Newsroom",
@@ -174,20 +188,6 @@
      "source": "Nature",
      "date": "2026-10-19",
      "summary": "三位作者在《自然》发表评论指出：智能不等于意识，大模型的语言流畅性容易诱发拟人化错觉；“合适的计算即足以产生意识”的计算功能主义假设存疑，大脑不只是“肉做的计算机”。他们认为在 AI 上误判有意识（假阳性）远比漏判更可能，因此反对以预防原则赋予 AI 福利或权利。"
-    },
-    {
-     "title": "商汤 SenseNova 等联合报告《GPT-6-Astra 实现具身智能了吗？》：12 项具身基准逼近饱和，但真机部署仍有明显鸿沟",
-     "url": "https://arxiv.org/abs/2610.22471",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-19",
-     "summary": "在允许上下文学习并把步数预算放宽至 10 倍的统一协议下，GPT-6-Astra 在 LIBERO 系列与 SIMPLE 上超 95%，RoboDojo 81.9%、DexJoCo 87.3%。但在 8 种真机平台零样本测试中，刚性抓放 17/18 成功，插头插入 0/11；单个 LIBERO 回合约耗百万 token、近一小时。作者结论：已跨过“具身能力”门槛，尚未达到实用具身智能。"
-    },
-    {
-     "title": "Meta 发布 Muse Glimmer 30B 技术报告：面向消费级硬件的端侧智能体模型，4-bit 量化后单 GPU 可跑",
-     "url": "https://ai.meta.com/research/publications/muse-glimmer-30b-an-on-device-agentic-model/",
-     "source": "AI at Meta",
-     "date": "2026-10-19",
-     "summary": "Muse Glimmer 为 30B 稠密模型并配感知编码器，支持图文输入，训练数据覆盖百余种语言，Apache 2.0 许可。报告称其在工具调用、多步规划与智能体任务完成上领先同量级的 Gemma4-31B 与 Qwen3.6-27B；量化后语言模型不足 20GB，可装入 24–32GB 显存，并附推测解码草稿模型。"
     }
    ]
   },
@@ -267,6 +267,13 @@
      "summary": "据 CNBC 发现的法庭文件，Alfozan 通过 WhatsApp 与这名未具名王室成员保持联系，对方曾告诉他沙特正在启动一项人工智能计划并希望他加入；他在 10 月 5 日联系过对方，数日后因涉嫌在 OpenAI 会议室安装窃听设备被捕。"
     },
     {
+     "title": "新泽西州众议院公共安全委员会通过 A-5607 聊天机器人用户保护法案：把聊天机器人视为产品适用产品责任，禁止出售聊天记录，每次违规罚款 5000 美元",
+     "url": "https://www.insidernj.com/assembly-committee-passes-chatbot-user-protection-bill/",
+     "source": "Insider NJ",
+     "date": "2026-10-19",
+     "summary": "法案要求聊天机器人提供方未经用户明确同意不得处理输入以外的个人数据、不得出售聊天记录、保存期不超过两年，须每月评估对用户的风险并按州检察长规则缓解；州检察长可提起民事诉讼，受害用户可索赔实际损失或每次违规 5000 美元（取高者）。委员会以多数票通过，一名共和党议员反对、一名弃权。"
+    },
+    {
      "title": "TechCrunch：Hugging Face 首席政策官 Irene Solaiman 称“嵌入式第三方评估员”并非简单解药——评测需可复现、可横向比较，且应覆盖模型+harness+智能体整体",
      "url": "https://techcrunch.com/2026/10/19/embedded-ai-evaluators-wont-be-an-easy-solution-hugging-faces-policy-chief-says/",
      "source": "TechCrunch",
@@ -307,13 +314,6 @@
      "source": "MLex",
      "date": "2026-10-19",
      "summary": "据 MLex，印尼副部长 Nezar Patria 周六表示，该部正考虑以部长条例要求 AI 开发者标注 AI 生成内容，并引入元数据等内容溯源措施区分合成视频、图像、音频与真实素材；政府同时在编制 2026–2029 国家 AI 路线图，征集了 400 多个政府机构、产业方与其他相关方意见。"
-    },
-    {
-     "title": "西安雁塔法院：被告用 AI 合成伪造律师通话录音当庭“作证”被识破，判返还多退的 3.36 万元并遭严厉训诫",
-     "url": "https://www.ithome.com/1/014/836.htm",
-     "source": "IT之家 / 央视新闻",
-     "date": "2026-10-19",
-     "summary": "游戏公司向未成年人家长退款时误多转 33627.6 元，对方拒不返还并在庭审中提交一段“律师同意免除返还”的通话录音；经声音比对证实录音非律师本人，被告承认系自行用 AI 合成伪造。法院认定构成不当得利、判决返还本息，因其当庭认错且未造成严重后果，未予罚款或拘留，仅作批评教育与口头训诫。"
     }
    ]
   },
@@ -322,6 +322,13 @@
    "name": "国内 AI 动态",
    "icon": "🇨🇳",
    "items": [
+    {
+     "title": "The Information：DeepSeek 与华为联合设计 AI 芯片，华为工程师驻场，DeepSeek 最早今年底起用昇腾 950DT 做模型训练，华为 2027 年 Q1 的 960DT 将优先供给 DeepSeek",
+     "url": "https://www.investing.com/news/stock-market-news/deepseek-teams-up-with-huawei-to-challenge-nvidia-4958123",
+     "source": "Investing.com / The Information",
+     "date": "2026-10-20",
+     "summary": "据 The Information，华为工程师进驻 DeepSeek 办公室，把模型计算与芯片间数据传输方面的反馈纳入芯片设计；DeepSeek 也在用开源编程语言 TileLang 降低对 CUDA 的依赖，上月已发布适配昇腾 950 的版本。报道援引 Epoch AI 称英伟达 B300 原始算力约为昇腾 950 的 7 倍，训练前沿模型可能需上万颗华为芯片连续运行数周；DeepSeek 仍在寻求英伟达先进芯片。"
+    },
     {
      "title": "首届全球具身智能应用创新挑战赛暨 2026 中国机器人大赛在杭州闭幕：2000 多支队伍、近 5000 名选手真机比拼，宇树、达摩院等 50 家企业提供 500 多个实习岗位",
      "url": "https://www.qbitai.com/2026/10/504199.html",
@@ -370,13 +377,6 @@
      "source": "IT之家",
      "date": "2026-10-19",
      "summary": "海光信息（CPU 与 DCU 协处理器厂商）2026 年第三季度营收 58.56 亿元、同比增长 45.46%，归母净利润 10.48 亿元、增长 37.9%；前三季度累计营收约 149.5 亿元、增长 57.58%。公司称受 AI 产业快速发展与国产替代转向市场驱动带动，国内高端芯片需求持续攀升；经营现金流因加大备货转负。"
-    },
-    {
-     "title": "奇瑞 10 月 20 日办全球创新大会：将发布首个汽车行业垂域大模型、物理 AI 世界模型车规芯片，墨甲家庭陪伴人形机器人“墨宝”全球首发",
-     "url": "https://www.ithome.com/1/014/887.htm",
-     "source": "IT之家",
-     "date": "2026-10-19",
-     "summary": "据 IT之家，奇瑞将于 10 月 20 日在芜湖举办以“Change·改变”为主题的 2026 全球创新大会，展望“瑶光 2035”计划：发布首个汽车行业垂域大模型，并展示专为物理 AI 世界模型设计的车规级芯片；出行领域将亮相原生前装 Robotaxi 与凌霄 eVTOL；具身智能方面，墨甲机器人已在教育、医疗等 100 多个场景常态化上岗，其首款消费级家庭陪伴人形机器人“墨宝”将全球首发并开启预订。"
     }
    ]
   },
@@ -389,7 +389,7 @@
      "title": "anthropics/claude-code",
      "url": "https://github.com/anthropics/claude-code",
      "source": "GitHub",
-     "stars": 152646,
+     "stars": 152664,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-20",
@@ -400,7 +400,7 @@
      "title": "Comfy-Org/ComfyUI",
      "url": "https://github.com/Comfy-Org/ComfyUI",
      "source": "GitHub",
-     "stars": 139713,
+     "stars": 139749,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -415,7 +415,7 @@
      "title": "anomalyco/opencode",
      "url": "https://github.com/anomalyco/opencode",
      "source": "GitHub",
-     "stars": 217797,
+     "stars": 217844,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -426,7 +426,7 @@
      "title": "akitaonrails/ai-memory",
      "url": "https://github.com/akitaonrails/ai-memory",
      "source": "GitHub",
-     "stars": 11338,
+     "stars": 11368,
      "stars_week": null,
      "language": "Rust",
      "date": "2026-10-19",
@@ -437,7 +437,7 @@
      "title": "stablyai/orca",
      "url": "https://github.com/stablyai/orca",
      "source": "GitHub",
-     "stars": 98265,
+     "stars": 98320,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
@@ -448,7 +448,7 @@
      "title": "MadsLorentzen/ai-job-search",
      "url": "https://github.com/MadsLorentzen/ai-job-search",
      "source": "GitHub",
-     "stars": 57223,
+     "stars": 57361,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -459,7 +459,7 @@
      "title": "HKUDS/CLI-Anything",
      "url": "https://github.com/HKUDS/CLI-Anything",
      "source": "GitHub",
-     "stars": 55231,
+     "stars": 55257,
      "stars_week": null,
      "language": "Python",
      "date": "2026-10-19",
@@ -474,7 +474,7 @@
      "title": "ruvnet/ruflo",
      "url": "https://github.com/ruvnet/ruflo",
      "source": "GitHub",
-     "stars": 77179,
+     "stars": 77207,
      "stars_week": null,
      "language": "TypeScript",
      "date": "2026-10-19",
