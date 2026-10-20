@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-20T14:29:00+08:00",
+  "updated": "2026-10-20T15:31:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "爱沙尼亚网络流量安全公司 Blackwall 完成 1 亿美元 C 轮融资，估值 22 亿美元、较 2025 年翻两番，主打帮网站区分合法 AI 智能体与恶意机器人",
+          "url": "https://techcrunch.com/2026/10/20/blackwall-quadruples-valuation-to-2-2b-as-websites-wrangle-an-increasingly-crowded-internet/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "本轮由 AVP 领投，Dawn Capital、MMC Ventures、Tera Ventures 跟投。Blackwall 不直接卖给网站，而是通过主机、托管服务与云厂商以白标方式分发 DDoS 防护、威胁情报、证书管理等工具，并用数字指纹和部署在客户端点的自有 AI 模型识别请求意图，区分真人委派的智能体与恶意爬虫。CEO Nikita Rozenberg 认为未来智能体代用户访问网站和支付时，将需要管理哪些智能体可访问、以何种条件授权付款。资金将用于拓展北美、欧洲、亚太与中东市场。"
+        },
+        {
           "title": "The Information：奥特曼向员工阐述 AI 安全的三种“终局”——类 IAEA 国际机构、合并所有实验室的“AI 版 CERN”，以及一家公司强大到可切断所有对手算力的方案",
           "url": "https://www.theinformation.com/articles/altman-describes-three-endgames-ai-including-one-single-firm-melts-everyone-elses-gpus",
           "source": "The Information",
@@ -118,13 +125,6 @@
           "source": "Reuters",
           "date": "2026-10-19",
           "summary": "此前完全依赖英特尔与 AMD 处理器的 AI 云公司 Modal 表示，将用英伟达新款 Vera CPU 承载长时运行的智能体任务，测试中完成量约为现有 x86 方案的两倍；但仍将与英特尔、AMD 混合部署。英伟达预计本财年 Vera 销售额至少 200 亿美元，OpenAI、Anthropic、甲骨文与 Perplexity 也计划采用。"
-        },
-        {
-          "title": "AI 代码审查公司 Greptile 完成 5000 万美元 B 轮融资，Menlo Ventures 领投、估值 7.5 亿美元",
-          "url": "https://www.greptile.com/blog/series-b",
-          "source": "Greptile",
-          "date": "2026-10-19",
-          "summary": "Jump Trading、Wing、Benchmark、YC 等参投，Deedy Das 加入董事会。Greptile 称每天审查并测试 GitHub 上超过 1% 的新开 PR，客户包括英伟达、Coinbase、Decagon、Vanta，定位为多款编码智能体之上的独立代码验证层，目标是让关键系统也能自动合并复杂改动。"
         }
       ]
     },
@@ -260,6 +260,20 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "中国外交部回应美国国土安全部 DeepSeek 禁令：坚决维护中国企业正当权益，反对泛化国家安全概念、将科技与经贸问题政治化",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/after-us-deepseek-order-china-says-it-will-protect-firms/articleshow/135063801.cms",
+          "source": "Reuters / The Economic Times",
+          "date": "2026-10-20",
+          "summary": "外交部发言人毛宁周二回应记者提问时作出上述表态。此前美国国土安全部公布的命令（7 月 24 日签发、周一公开）要求财政部、国务院、司法部等联邦民用机构从 IT 系统中移除 DeepSeek 产品及基于其模型的第三方服务，并禁止今后采购，国防部不在适用范围内；各机构可在 60 天内书面申请例外或延期。"
+        },
+        {
+          "title": "The Intercept/Gizmodo：美国陆军网络司令部推进智能体网络 C2 框架 ECHOTRIBBLE，要求能在“极少人类监督”下自主穿行目标网络、识别并“消除”威胁，覆盖云端与物理隔离系统",
+          "url": "https://gizmodo.com/documents-reveal-military-plan-for-agentic-ai-that-hacks-u-s-adversaries-2000827957",
+          "source": "Gizmodo / The Intercept",
+          "date": "2026-10-20",
+          "summary": "据国防非营利机构 CFIC 官网公开文件，ARCYBER 10 月 6–8 日举办 ECHOTRIBBLE 线上评估，65 份白皮书中选出 5 家演示、最终 1 家公司获选，将进入工作说明与合同流程；项目目前仍在白皮书/原型阶段。The Intercept 形容其设想“几乎像计算机蠕虫”，在外国网络中隐蔽移动直到找到目标。蒙特利尔大学教授 David Krueger 警告，鉴于当前 AI 的已知失效模式，让自主系统承担“消除威胁”任务“极其危险”。陆军网络司令部未回应置评。"
+        },
+        {
           "title": "开源编程智能体 OpenCode 遭“大规模蒸馏攻击”：黑客入侵待下线的旧系统，约 1.4% Console 用户存储的 OpenAI、Anthropic、谷歌 API 密钥外泄，部分用户一夜被刷超 1700 美元",
           "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
           "source": "TechCrunch / BleepingComputer",
@@ -300,20 +314,6 @@
           "source": "The Verge / CNBC",
           "date": "2026-10-20",
           "summary": "据 CNBC 发现的法庭文件，Alfozan 通过 WhatsApp 与这名未具名王室成员保持联系，对方曾告诉他沙特正在启动一项人工智能计划并希望他加入；他在 10 月 5 日联系过对方，数日后因涉嫌在 OpenAI 会议室安装窃听设备被捕。"
-        },
-        {
-          "title": "IFP 报告：美国前沿 AI 领先中国约 6.5 个月，若动用现有行政权限遏制对抗性蒸馏、远程算力访问与芯片走私，到 2027 年底领先可大致翻倍",
-          "url": "https://ifp.org/how-to-increase-americas-ai-lead-over-china/",
-          "source": "Institute for Progress",
-          "date": "2026-10-19",
-          "summary": "Tim Fist、Georgia Adamson、Konstantin Pilz 估算：中国到 2026 年底可获约 460 万 H100 当量算力、2027 年底约 880 万，其中远程访问海外数据中心约占可限制部分的一半；对抗性蒸馏约夺回一半领先优势（无蒸馏时 16 倍算力优势对应约 13 个月领先）。建议包括为反蒸馏协作设立反垄断安全港、限制中国企业远程使用海外训练集群、强化尽调防走私、收紧现可合法出口芯片与 HBM 管控，合计约可增加 6.6 个月领先。"
-        },
-        {
-          "title": "新泽西州众议院公共安全委员会通过 A-5607 聊天机器人用户保护法案：把聊天机器人视为产品适用产品责任，禁止出售聊天记录，每次违规罚款 5000 美元",
-          "url": "https://www.insidernj.com/assembly-committee-passes-chatbot-user-protection-bill/",
-          "source": "Insider NJ",
-          "date": "2026-10-19",
-          "summary": "法案要求聊天机器人提供方未经用户明确同意不得处理输入以外的个人数据、不得出售聊天记录、保存期不超过两年，须每月评估对用户的风险并按州检察长规则缓解；州检察长可提起民事诉讼，受害用户可索赔实际损失或每次违规 5000 美元（取高者）。委员会以多数票通过，一名共和党议员反对、一名弃权。"
         }
       ]
     },
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "MiniMax 正式发布 M3.1 Flash 并认领匿名模型“Space Bunny”：主打复杂 Agent、电脑操作与软件开发，线上推理提速近 3 倍、API 价格降 50% 以上",
+          "url": "https://www.21jingji.com/article/20261020/herald/ef2ca80c1914e8a13b36ac22835a70e2.html",
+          "source": "21经济网 / 每日经济新闻",
+          "date": "2026-10-20",
+          "summary": "M3.1 Flash 采用更激进的稀疏结构，日常输出速度 200+ TPS（P50 约 170+ TPS），Agentic 任务综合成本约为前代三成；官方称 DeepSWE v1.1 达 73.7%、AutomationBench-AA 62.8%，OSWorld V2 61.7 分、Agents' Last Exam 29.6 分均居国产模型首位（厂商自测）。API 定价为每百万 tokens 输入 1 元、输出 4 元、缓存读取 0.1 元；距 DeepSeek V4.1-Flash-1017 更新仅 72 小时，MiniMax 还预告 Pro 版本即将到来。"
+        },
         {
           "title": "清华、原力灵机与极寰时代开源世界动作模型 LoopWAM：用部署中的成功、次优与失败轨迹闭环自提升，登顶真机榜 RoboChallenge Table30 V2，全程用阿里云国产 PPU 训练",
           "url": "https://github.com/loop-wam/LoopWAM",
@@ -370,13 +377,6 @@
           "source": "华尔街见闻",
           "date": "2026-10-19",
           "summary": "本轮由博原资本领投，博世创投、米哈游、兆易创新等跟投，小米战投等老股东加注，资金用于 RRAM 阻变存储产业化与 LPU 研发。卢涛称第一代 LPU 不采用 RRAM，目标支持数万亿参数完整模型、单用户每秒 1000 Token（为研发目标，尚无实测）；首代 1Gb RRAM 芯片“泰山一号”已流片、仍在验证。"
-        },
-        {
-          "title": "商汤大装置 CTO 宣善明：日均 6 万亿 Token 服务背后，用 PD 分离 + 国产/高端 GPU 异构调度，同等旗舰卡下整体吞吐最高提至 5 倍",
-          "url": "https://www.qbitai.com/2026/10/504188.html",
-          "source": "量子位",
-          "date": "2026-10-19",
-          "summary": "在 CSDI Summit 上，宣善明介绍商汤在临港 AIDC 建成万卡级异构推理集群：国产算力承担计算密集的 Prefill，高带宽 GPU 承担 Decode，经 KV Cache 传输衔接，并支持节点角色动态切换与高端算力补位；下一步探索跨数据中心乃至跨地域的 PD 分离与 AF 分离。5 倍吞吐为特定测试配置下的数据。"
         }
       ]
     },
@@ -493,6 +493,18 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@kimmonismus",
+          "url": "https://x.com/kimmonismus/status/2112442680651243586",
+          "source": "@kimmonismus",
+          "date": "2026-10-20",
+          "summary": "传闻帖：有网友发现 OpenAI 新网站源码中藏有“6.5”字样和指向旧金山时间 11 月 1 日上午 10 点的倒计时，恰与 Codex 负责人 Tibo“28 天 Codex”活动第 28 天吻合，推测 GPT-6.5 可能作为压轴发布（未经官方证实）。",
+          "metrics": {
+            "likes": 34,
+            "reposts": 3,
+            "views": 1788
+          }
+        },
+        {
           "title": "@amir",
           "url": "https://x.com/amir/status/2112331218964693065",
           "source": "@amir",
@@ -574,18 +586,6 @@
             "likes": 89,
             "reposts": 5,
             "views": 7445
-          }
-        },
-        {
-          "title": "@ArtificialAnlys",
-          "url": "https://x.com/ArtificialAnlys/status/2112364868020105323",
-          "source": "@ArtificialAnlys",
-          "date": "2026-10-20",
-          "summary": "Artificial Analysis：蚂蚁集团 Ming-3.0-tts 成为其可控语音 TTS 竞技场开源权重第一，并在发音鲁棒性榜并列第一，与 Fish Audio Drama 3 Preview 持平、领先 Eleven v4。",
-          "metrics": {
-            "likes": 28,
-            "reposts": 1,
-            "views": 3686
           }
         }
       ]
