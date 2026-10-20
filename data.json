@@ -1,12 +1,26 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-21T02:33:00+08:00",
+ "updated": "2026-10-21T03:30:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "ChatGPT 上线“锁定聊天”（Locked Chats）：敏感对话可用四位 PIN、Face ID 或 Touch ID 上锁，面向 Free 到 Enterprise、Edu 全部套餐逐步推送",
+     "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+     "source": "TechCrunch",
+     "date": "2026-10-20",
+     "summary": "锁定后的对话移入独立的“Locked Chats”区，不出现在常规历史、置顶和搜索里；开启记忆时该区有一套独立记忆，锁定后的新消息不会写入常规记忆。OpenAI 说明上锁不等于端到端加密，也不改变数据保留期限或“改进模型”设置；重置 PIN 会永久删除所有锁定内容。临时、归档、群聊、分享链接创建的对话等不支持，ChatGPT for Healthcare 暂不提供。"
+    },
+    {
+     "title": "OpenAI API 新增 12 小时提示缓存：共享指令、工具和上下文可缓存更久，请求间隔数小时仍按更低的缓存输入价计费",
+     "url": "https://developers.openai.com/api/docs/changelog",
+     "source": "OpenAI API Changelog",
+     "date": "2026-10-20",
+     "summary": "10 月 20 日更新日志显示，Responses API 可选择 12 小时提示缓存，12 小时缓存写入按输入 token 价格的 2.5 倍计费。OpenAI Devs 称这主要面向全天反复复用上下文的常驻智能体。"
+    },
     {
      "title": "谷歌 Gemini 推出小企业工具：新增商家专属落地页、营销与财务技能，可连接 Google 商家资料、Ads、Workspace 及 Adobe、Canva、Shopify、Xero 等应用",
      "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
@@ -48,20 +62,6 @@
      "source": "The Verge",
      "date": "2026-10-20",
      "summary": "据 The Verge，iOS、iPadOS 与 Android 版 Lightroom 检测到人物闭眼时会自动在图上显示 Open Eyes 快捷操作图标。与 Photoshop Elements 从另一张照片拼接眼睛不同，新功能用生成式 AI 让替换的眼睛匹配光线与姿态。免费版用户可试用两次，之后需订阅含更多 AI 积分的 Creative Cloud 方案。"
-    },
-    {
-     "title": "谷歌云发布“面向政府服务的 Gemini”预览版：为美国联邦、州与地方机构提供政务专用技能、系统连接器与合作伙伴智能体，密苏里州与美国卫生与公众服务部已在使用",
-     "url": "https://www.googlecloudpresscorner.com/2026-10-20-Google-Public-Sector-Launches-Gemini-for-Government-Services",
-     "source": "Google Cloud Press Corner",
-     "date": "2026-10-20",
-     "summary": "Google Public Sector 在 2026 公共部门峰会上推出该智能体方案，是继法律版、金融服务版之后的又一行业套件。它预置法规解读、采购与供应商资质评估等技能，可连接 Google Workspace、SharePoint、Outlook 365、Salesforce、ServiceNow 及 eCFR/Federal Register 等政府系统，回答附带精确到页码段落的出处；埃森哲联邦服务、德勤、SAIC 等为合作伙伴。机构现有身份与访问控制自动继承，数据留在机构云边界内。"
-    },
-    {
-     "title": "Yelp 推出 AI 语音代打电话功能“Check for Me”：替用户致电餐厅询问排队时长并短信回传，AI 助手同时接入 OpenTable 订座并能记住偏好",
-     "url": "https://techcrunch.com/2026/10/20/yelp-can-now-call-on-your-behalf-to-check-wait-times-at-a-restaurant/",
-     "source": "TechCrunch",
-     "date": "2026-10-20",
-     "summary": "用户在餐厅页面输入人数与手机号，AI 智能体便代为致电询问等位时间，再以短信告知结果。Yelp AI 助手新增 OpenTable 订座、跨对话记忆偏好、30 天聊天记录、自定义提醒和“去过/想去”清单，下月起推送每周个性化推荐；面向商家推出每月 30 美元的 Smart Lead Reply，可自动回复客户并筛选线索。"
     }
    ]
   },
@@ -134,6 +134,20 @@
    "icon": "📄",
    "items": [
     {
+     "title": "Holi-World：从人类第一视角经验构建“整体世界智能”，自动把录像转成连接场景结构、物体状态与交互历史的世界记录，训练出 HOLIWORLD-VL-4B",
+     "url": "https://arxiv.org/abs/2610.26549",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-19",
+     "summary": "Ropedia 团队提出覆盖采集、世界表示、自动数据构建、模型学习与独立评测的一体化体系：HOLIWORLD-Foundry 结合静态与动态感知自动生成世界记录，HOLIWORLD-Data 从约 100 个自采场景整理出约 8 万条问答用于训练 4B 视觉语言模型，并以独立人工标注构建 HOLIWORLD-Bench；在 ScanNet、ScanNet++、Aria Digital Twin 等上表现强劲。10 月 20 日 HF 每日论文点赞约 100。"
+    },
+    {
+     "title": "ScaleNav：用互联网第一视角视频预训练语言条件局部导航，学习“靠近目标时画面如何变化”再对齐到机器人动作，OVON 单视角成功率 86.5%",
+     "url": "https://arxiv.org/abs/2610.25690",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-19",
+     "summary": "统一的世界-动作框架分三阶段训练：先在网络视频上做指令条件的视频预训练，再用带动作标签的仿真数据学习可执行动作块，最后联合微调。在单视角 Short-Horizon OVON 上成功率 86.5%，在作者的 HabitatGS-LN 基准上达 94.9%，均超过对比基线，并在真实机器人上部署评测。"
+    },
+    {
      "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
      "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
      "source": "AI at Meta",
@@ -174,20 +188,6 @@
      "source": "arXiv / Hugging Face Daily Papers",
      "date": "2026-10-20",
      "summary": "候选 harness 用 LLM 生成的测试评估，无需真值或官方测试；专门的智能体诊断执行轨迹、按不同性能—成本优先级规划改动并实现成候选，再用归一化加权平方距离挑出三档供下一轮迭代。实验覆盖 Terminal-Bench 2、SWE-Bench Pro 与 ProgramBench，GLM-5.2+Claude Code 组合下优势同样成立，代码已开源。"
-    },
-    {
-     "title": "美团 LongCat 提出 Interlock：把长程任务表示为带类型的“完成图”来合成训练任务，用自身通过的轨迹微调 Qwen3.6 后 AutomationBench 通过率 +4.0–4.5 点、JobBench +3.2–6.6 分",
-     "url": "https://arxiv.org/abs/2610.19686",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-20",
-     "summary": "作者指出智能体常常“局部正确但任务没做完”。Interlock 用依据边连接公开证据与决策、用耦合超边施加跨组件联合约束、用实现边把决策连到所有必需的下游效果，再编译成可重置工作区、公开请求与评分细则，并做来源覆盖与公开输入两道审查；agent-as-judge 检查产物、跑校验脚本，只保留满足全部必选要求的轨迹。在 Harvey LAB 上细则通过率也提升 3.9–4.2 个百分点。"
-    },
-    {
-     "title": "Anthropic：内部研究模型在 Claude Science 中约 64 小时基本自主地设计针对蝎毒神经毒素的蛋白小结合体，生成 31.8 万个设计，211 个送实验室测试后 17 个达标",
-     "url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
-     "source": "Anthropic",
-     "date": "2026-10-20",
-     "summary": "项目与投资研究机构 Citrini Research 合作，检验非专家团队能否借 Claude 解决真实健康问题。研究模型只靠初始提示和 4 次追问完成设计，并在监督下分析数据、生成图表、起草报告；Adaptyv Bio 与 Twist Bioscience 做湿实验，17 个结合体分别结合四种对人类危险的蝎毒神经毒素。Anthropic 强调尚未验证能否在细胞环境中中和毒液，不声称做出了抗蛇毒血清，并公开全部 211 个设计及数据。"
     }
    ]
   },
@@ -196,6 +196,13 @@
    "name": "开源与工具",
    "icon": "🛠️",
    "items": [
+    {
+     "title": "Bria 发布并开源 Fibo 2：8B 统一图像生成与编辑模型，全部使用授权数据训练，称在 Artificial Analysis 图像编辑榜位列开源权重第一",
+     "url": "https://docs.bria.ai/whats-new/fibo-2",
+     "source": "Bria AI",
+     "date": "2026-10-20",
+     "summary": "Fibo 2 Generate 与 Edit 权重已上 Hugging Face（如 briaai/Fibo-2.0-dev），Diffusers 首日支持；编辑可一次组合最多 4 张参考图，每次生成都返回结构化提示 VGL 便于复现与微调，新增 12 种画幅共 21 种。Bria 称其编辑效果优于 Ideogram、字节跳动和 Black Forest Labs 的闭源模型，文生图位列开源前二；API 接口不变。"
+    },
     {
      "title": "蚂蚁百灵开源 Ming-3.0 语音系列五款模型：覆盖语音合成（支持文字描述音色与“导演模式”）、长音频理解与对话、语音识别",
      "url": "https://www.ithome.com/1/015/117.htm",
@@ -244,13 +251,6 @@
      "source": "arXiv / Google & Meta",
      "date": "2026-10-20",
      "summary": "技术报告介绍 TorchTPU 的“eager/编译混合”架构：通过 eager 执行优化、torch.compile 集成与原生硬件加速，在推理与训练上提供与业界相当的性能，降低 PyTorch 用户迁移 TPU 的门槛。此前一天亚马逊也推出 TorchNeuron 让 PyTorch 原生跑在 Trainium 上，云厂商自研芯片正争相打通 PyTorch 生态。"
-    },
-    {
-     "title": "DeepSeek 全面开源内部推理框架 DeepInfer（Apache 2.0）：支撑 V4.1 Flash 线上大规模服务，兼容英伟达 SM100 与华为昇腾 950，同步开源 deepseek-recipe 编解码组件",
-     "url": "https://www.ithome.com/1/015/429.htm",
-     "source": "IT之家 / DeepSeek",
-     "date": "2026-10-20",
-     "summary": "DeepInfer 集成 FlashMLA、DeepGEMM、DeepEP 等自研算子与优化推理引擎，支持 Attention DP/均衡 CP 与 MoE EP+EPLB 并行、DSpark 推测解码与置信度调度验证、SWA bounded replay、异步调度、批不变推理、确定性采样和结构化输出。本次开源版本提供离线推理，目前仅支持 DeepSeek-V4.1-Flash；完整线上服务所需的 KV cache 系统、Prefill/Decode 分离与跨副本负载均衡未包含。DeepSeek 称新模型的推理代码与后续优化也将在此更新；README 注明框架最初主要基于 vLLM 构建。同步开源的 deepseek-recipe 与官方 API 的 token 编解码逻辑对齐。"
     }
    ]
   },
@@ -259,6 +259,13 @@
    "name": "政策与监管",
    "icon": "⚖️",
    "items": [
+    {
+     "title": "Semafor：Anthropic 游说国会的联邦 AI 安全法案草案外泄引发反弹，安全倡导者批其力度不够、抢占州法；OpenAI 首席全球事务官 Lehane 暗讽“没有哪家公司该独自制定规则”",
+     "url": "https://www.semafor.com/article/10/20/2026/anthropics-leaked-ai-bill-sparks-backlash",
+     "source": "Semafor",
+     "date": "2026-10-20",
+     "summary": "Anthropic 发言人称草案是其数月来推介的 AI 安全框架的立法版本，其一名高级说客已公开表示将调整草案，以更贴合 AI 进展速度并澄清其在联邦优先于州法上的立场。OpenAI 借机与对手划清界限，Lehane 周一发文称政策须经民主程序、由民选官员主导。"
+    },
     {
      "title": "Meta 暂停 Muse 对话分享功能：安全公司 Claroc 通过公开 DNS 记录找出 6800 多个分享链接，曝光公司营收、贷款申请、员工日程等隐私内容",
      "url": "https://www.theverge.com/tech/1014627/meta-muse-ai-sharing-ai-chats",
@@ -307,13 +314,6 @@
      "source": "Reuters / The Economic Times",
      "date": "2026-10-20",
      "summary": "外交部发言人毛宁周二回应记者提问时作出上述表态。此前美国国土安全部公布的命令（7 月 24 日签发、周一公开）要求财政部、国务院、司法部等联邦民用机构从 IT 系统中移除 DeepSeek 产品及基于其模型的第三方服务，并禁止今后采购，国防部不在适用范围内；各机构可在 60 天内书面申请例外或延期。"
-    },
-    {
-     "title": "The Intercept/Gizmodo：美国陆军网络司令部推进智能体网络 C2 框架 ECHOTRIBBLE，要求能在“极少人类监督”下自主穿行目标网络、识别并“消除”威胁，覆盖云端与物理隔离系统",
-     "url": "https://gizmodo.com/documents-reveal-military-plan-for-agentic-ai-that-hacks-u-s-adversaries-2000827957",
-     "source": "Gizmodo / The Intercept",
-     "date": "2026-10-20",
-     "summary": "据国防非营利机构 CFIC 官网公开文件，ARCYBER 10 月 6–8 日举办 ECHOTRIBBLE 线上评估，65 份白皮书中选出 5 家演示、最终 1 家公司获选，将进入工作说明与合同流程；项目目前仍在白皮书/原型阶段。The Intercept 形容其设想“几乎像计算机蠕虫”，在外国网络中隐蔽移动直到找到目标。蒙特利尔大学教授 David Krueger 警告，鉴于当前 AI 的已知失效模式，让自主系统承担“消除威胁”任务“极其危险”。陆军网络司令部未回应置评。"
     }
    ]
   },
@@ -385,6 +385,17 @@
    "name": "GitHub 热门 AI 项目",
    "icon": "⭐",
    "items": [
+    {
+     "title": "HeyChengC/wallstreet-explainer",
+     "url": "https://github.com/HeyChengC/wallstreet-explainer",
+     "source": "GitHub",
+     "stars": 310,
+     "stars_week": null,
+     "language": "Python",
+     "date": "2026-10-20",
+     "summary": "华尔街风格财经/科技解读短片 Skill：让 Claude Code 等编码智能体自己找真实发布会与新闻素材、抠出人物、把数字做成可视化镜头，按时间线逐帧渲染并自动混音，附 77 秒样片《AI 到底有多烧钱》。",
+     "why": "10 月 18 日开源，两天约 310 星，是近期新建仓库中热度较高的中文 AI 视频生成 Skill。"
+    },
     {
      "title": "VictorTaelin/uniichat",
      "url": "https://github.com/VictorTaelin/uniichat",
@@ -461,17 +472,6 @@
      "date": "2026-10-20",
      "summary": "用 Claude Code 构建的开源无广告电视桌面，支持 Google TV、LG 与 Samsung 电视：常用应用置顶、每小时从已装应用里推热门内容、天气与行情卡片，无需 root，一键恢复原厂桌面，MIT。",
      "why": "10 月 19 日创建，一天多即约 1200 星；“用编程智能体给智能电视去广告”是本周热门话题（The Verge、IT之家均有报道），仓库 10 月 20 日仍在更新。"
-    },
-    {
-     "title": "Ansub/tv-detox",
-     "url": "https://github.com/Ansub/tv-detox",
-     "source": "GitHub",
-     "stars": 849,
-     "stars_week": null,
-     "language": "Java",
-     "date": "2026-10-20",
-     "summary": "让 Claude Code 或 Codex 帮老旧 Android TV 提速：提供一个精简无广告的桌面，外加让智能体清理预装应用与广告的提示词，MIT。",
-     "why": "作者 Ansub Khan 的做法被 The Verge 专门报道；10 月 18 日创建，累计约 850 星，10 月 20 日仍有提交。"
     }
    ]
   },
@@ -480,6 +480,42 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2112603916076781778",
+     "source": "@OpenAIDevs",
+     "date": "2026-10-20",
+     "summary": "OpenAI 开发者账号宣布 API 可选 12 小时提示缓存：常驻智能体全天复用上下文，请求间隔数小时也能按更低的缓存输入价计费。",
+     "metrics": {
+      "likes": 1104,
+      "reposts": 39,
+      "views": 63592
+     }
+    },
+    {
+     "title": "@testingcatalog",
+     "url": "https://x.com/testingcatalog/status/2112605106642600283",
+     "source": "@testingcatalog",
+     "date": "2026-10-20",
+     "summary": "ChatGPT 锁定聊天开始向 Free、Go、Plus、Pro、Business、Enterprise、Edu 推送：网页和桌面端用 PIN，移动端可用 Face ID、Touch ID 或设备解锁。",
+     "metrics": {
+      "likes": 248,
+      "reposts": 4,
+      "views": 11508
+     }
+    },
+    {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2112612337932812694",
+     "source": "@theinformation",
+     "date": "2026-10-20",
+     "summary": "The Information：奥特曼称 OpenAI 需要弄清 AI 何时强大到无法安全开发或发布，内部代号“pacing 2.0”的工作将为可持续自我改进的 AI 系统设定界限。",
+     "metrics": {
+      "likes": 3,
+      "reposts": 0,
+      "views": 1923
+     }
+    },
     {
      "title": "@OpenAI",
      "url": "https://x.com/OpenAI/status/2112607347688583586",
@@ -538,42 +574,6 @@
       "likes": 32,
       "reposts": 7,
       "views": 780
-     }
-    },
-    {
-     "title": "@AnthropicAI",
-     "url": "https://x.com/AnthropicAI/status/2112579251555721573",
-     "source": "@AnthropicAI",
-     "date": "2026-10-20",
-     "summary": "Anthropic 科学博客新文：用 Claude 设计针对蝎毒神经毒素的蛋白结合体——蝎子每年蜇伤约 120 万人，抗蛇毒血清常常昂贵或短缺，Claude 朝新疗法迈出了早期一步。",
-     "metrics": {
-      "likes": 2321,
-      "reposts": 184,
-      "views": 144752
-     }
-    },
-    {
-     "title": "@allen_ai",
-     "url": "https://x.com/allen_ai/status/2112587238961803746",
-     "source": "@allen_ai",
-     "date": "2026-10-20",
-     "summary": "Ai2 推出 FairStress：测试人口统计公平性不止看最终答案，还看模型多容易改变一个有充分依据的决定、以及如何解释自己的选择。",
-     "metrics": {
-      "likes": 8,
-      "reposts": 3,
-      "views": 739
-     }
-    },
-    {
-     "title": "@RedHat",
-     "url": "https://x.com/RedHat/status/2112514674528813448",
-     "source": "@RedHat",
-     "date": "2026-10-20",
-     "summary": "红帽：llm-d 1.0 为生产负载带来多租户服务质量、零停机滚动升级与前缀缓存感知路由，帮助扩展分布式推理并控制 AI 服务成本。",
-     "metrics": {
-      "likes": 21,
-      "reposts": 3,
-      "views": 3209
      }
     }
    ]

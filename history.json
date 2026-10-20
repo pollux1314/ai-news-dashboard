@@ -1,7 +1,114 @@
 {
- "updated": "2026-10-21T02:33:00+08:00",
- "count": 845,
+ "updated": "2026-10-21T03:30:00+08:00",
+ "count": 855,
  "items": [
+  {
+   "title": "ChatGPT 上线“锁定聊天”（Locked Chats）：敏感对话可用四位 PIN、Face ID 或 Touch ID 上锁，面向 Free 到 Enterprise、Edu 全部套餐逐步推送",
+   "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "锁定后的对话移入独立的“Locked Chats”区，不出现在常规历史、置顶和搜索里；开启记忆时该区有一套独立记忆，锁定后的新消息不会写入常规记忆。OpenAI 说明上锁不等于端到端加密，也不改变数据保留期限或“改进模型”设置；重置 PIN 会永久删除所有锁定内容。临时、归档、群聊、分享链接创建的对话等不支持，ChatGPT for Healthcare 暂不提供。",
+   "id": "6f64ba14f44d2e04ccf9ece7bb9a1c16a362ceae",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "OpenAI API 新增 12 小时提示缓存：共享指令、工具和上下文可缓存更久，请求间隔数小时仍按更低的缓存输入价计费",
+   "url": "https://developers.openai.com/api/docs/changelog",
+   "source": "OpenAI API Changelog",
+   "date": "2026-10-20",
+   "summary": "10 月 20 日更新日志显示，Responses API 可选择 12 小时提示缓存，12 小时缓存写入按输入 token 价格的 2.5 倍计费。OpenAI Devs 称这主要面向全天反复复用上下文的常驻智能体。",
+   "id": "337afc339ead3cd20d75e452dff34fef176cb910",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "Bria 发布并开源 Fibo 2：8B 统一图像生成与编辑模型，全部使用授权数据训练，称在 Artificial Analysis 图像编辑榜位列开源权重第一",
+   "url": "https://docs.bria.ai/whats-new/fibo-2",
+   "source": "Bria AI",
+   "date": "2026-10-20",
+   "summary": "Fibo 2 Generate 与 Edit 权重已上 Hugging Face（如 briaai/Fibo-2.0-dev），Diffusers 首日支持；编辑可一次组合最多 4 张参考图，每次生成都返回结构化提示 VGL 便于复现与微调，新增 12 种画幅共 21 种。Bria 称其编辑效果优于 Ideogram、字节跳动和 Black Forest Labs 的闭源模型，文生图位列开源前二；API 接口不变。",
+   "id": "fd2fa98fc88ee4e35b9388bff0103f59445fccdf",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "Semafor：Anthropic 游说国会的联邦 AI 安全法案草案外泄引发反弹，安全倡导者批其力度不够、抢占州法；OpenAI 首席全球事务官 Lehane 暗讽“没有哪家公司该独自制定规则”",
+   "url": "https://www.semafor.com/article/10/20/2026/anthropics-leaked-ai-bill-sparks-backlash",
+   "source": "Semafor",
+   "date": "2026-10-20",
+   "summary": "Anthropic 发言人称草案是其数月来推介的 AI 安全框架的立法版本，其一名高级说客已公开表示将调整草案，以更贴合 AI 进展速度并澄清其在联邦优先于州法上的立场。OpenAI 借机与对手划清界限，Lehane 周一发文称政策须经民主程序、由民选官员主导。",
+   "id": "c42646dd03d2145745832bbd8d5e8c320638a843",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "HeyChengC/wallstreet-explainer",
+   "url": "https://github.com/HeyChengC/wallstreet-explainer",
+   "source": "GitHub",
+   "stars": 310,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-20",
+   "summary": "华尔街风格财经/科技解读短片 Skill：让 Claude Code 等编码智能体自己找真实发布会与新闻素材、抠出人物、把数字做成可视化镜头，按时间线逐帧渲染并自动混音，附 77 秒样片《AI 到底有多烧钱》。",
+   "why": "10 月 18 日开源，两天约 310 星，是近期新建仓库中热度较高的中文 AI 视频生成 Skill。",
+   "id": "9e405476ac4a6d0463a0bd5d770be072a8dcc912",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "@OpenAIDevs",
+   "url": "https://x.com/OpenAIDevs/status/2112603916076781778",
+   "source": "@OpenAIDevs",
+   "date": "2026-10-20",
+   "summary": "OpenAI 开发者账号宣布 API 可选 12 小时提示缓存：常驻智能体全天复用上下文，请求间隔数小时也能按更低的缓存输入价计费。",
+   "metrics": {
+    "likes": 1104,
+    "reposts": 39,
+    "views": 63592
+   },
+   "id": "286ddd704e58166f4626420d44a067dd21def4c1",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112605106642600283",
+   "source": "@testingcatalog",
+   "date": "2026-10-20",
+   "summary": "ChatGPT 锁定聊天开始向 Free、Go、Plus、Pro、Business、Enterprise、Edu 推送：网页和桌面端用 PIN，移动端可用 Face ID、Touch ID 或设备解锁。",
+   "metrics": {
+    "likes": 248,
+    "reposts": 4,
+    "views": 11508
+   },
+   "id": "79ebbe15a5c59f21b60f2033233cfce22ce83431",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112612337932812694",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "The Information：奥特曼称 OpenAI 需要弄清 AI 何时强大到无法安全开发或发布，内部代号“pacing 2.0”的工作将为可持续自我改进的 AI 系统设定界限。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 0,
+    "views": 1923
+   },
+   "id": "575e8be058908e9bc912045dea8cd5226599e4c5",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
   {
    "title": "谷歌 Gemini 推出小企业工具：新增商家专属落地页、营销与财务技能，可连接 Google 商家资料、Ads、Workspace 及 Adobe、Canva、Shopify、Xero 等应用",
    "url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
@@ -2396,6 +2503,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "Holi-World：从人类第一视角经验构建“整体世界智能”，自动把录像转成连接场景结构、物体状态与交互历史的世界记录，训练出 HOLIWORLD-VL-4B",
+   "url": "https://arxiv.org/abs/2610.26549",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-19",
+   "summary": "Ropedia 团队提出覆盖采集、世界表示、自动数据构建、模型学习与独立评测的一体化体系：HOLIWORLD-Foundry 结合静态与动态感知自动生成世界记录，HOLIWORLD-Data 从约 100 个自采场景整理出约 8 万条问答用于训练 4B 视觉语言模型，并以独立人工标注构建 HOLIWORLD-Bench；在 ScanNet、ScanNet++、Aria Digital Twin 等上表现强劲。10 月 20 日 HF 每日论文点赞约 100。",
+   "id": "68f576e89bb2d0b6196123650792dfaf2267ef7f",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T03:30:00+08:00"
+  },
+  {
+   "title": "ScaleNav：用互联网第一视角视频预训练语言条件局部导航，学习“靠近目标时画面如何变化”再对齐到机器人动作，OVON 单视角成功率 86.5%",
+   "url": "https://arxiv.org/abs/2610.25690",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-19",
+   "summary": "统一的世界-动作框架分三阶段训练：先在网络视频上做指令条件的视频预训练，再用带动作标签的仿真数据学习可执行动作块，最后联合微调。在单视角 Short-Horizon OVON 上成功率 86.5%，在作者的 HabitatGS-LN 基准上达 94.9%，均超过对比基线，并在真实机器人上部署评测。",
+   "id": "d9e21b93aaa1d565a5f5879fe1aec2d9f8ec6371",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T03:30:00+08:00"
   },
   {
    "title": "Business Insider 获内部录音与文件：AWS 高管称 AI 业务“严重自由现金流为负”并将持续数年，部分数据中心有空间无电力，英伟达 GB300 机柜被暂存在中转仓库",
