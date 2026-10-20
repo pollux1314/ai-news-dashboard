@@ -1,7 +1,62 @@
 {
- "updated": "2026-10-21T03:27:00+08:00",
- "count": 855,
+ "updated": "2026-10-21T04:31:00+08:00",
+ "count": 861,
  "items": [
+  {
+   "title": "谷歌把“Personal Intelligence with Gemini”带进汽车：Android Auto 今日起上线，可调用 Gmail、日历、地图、YouTube 和搜索记录给出个性化回答，Google Built-in 车型数月内跟进",
+   "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "驾驶者需主动开启，可逐个选择连接哪些谷歌应用并随时关闭。例子包括导航去机场时提醒日历里的航班延误、一次追问同时回答登机口和是否准点。Gemini 去年 11 月进入 Android Auto，Personal Intelligence 今年 3 月在美国推出、目前在全球市场测试。",
+   "id": "1935d2cf4e2ef2c32afbca05fc566dbdea2c9cd4",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T04:31:00+08:00"
+  },
+  {
+   "title": "万事达开放 Agent Pay for Machines 早期访问：基于开放支付协议 x402 并接入万事达网络，让 AI 智能体在授权预算内按用量购买数字服务，无需单独账户、API Key 或发票",
+   "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mastercard-debuts-tool-to-help-ai-agents-purchase-digital-services/",
+   "source": "PYMNTS / Mastercard",
+   "date": "2026-10-20",
+   "summary": "万事达称该工具回答“谁授权智能体花钱、能花多少、花在哪、付给谁”等信任问题，并将在本周 Cloudflare Connect 上演示：营销公司 Hype 给智能体一个蛋白棒推广任务和预算，智能体通过 Discovery Service 找服务商、出方案供审批，完成 9 笔付款、涉及 2 家商户和 1 个预算。",
+   "id": "fc3a67eb9f79b2d565ece1bdf118524d8a924041",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T04:31:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2112635740584648919",
+   "source": "@TechCrunch",
+   "date": "2026-10-20",
+   "summary": "谷歌把 Gemini 的 Personal Intelligence 功能带进汽车，AI 助手可调用 Gmail、日历、地图、YouTube 等谷歌服务，在驾驶时给出更个性化的回答。",
+   "id": "4882f8d4476a384efa97b0b8c04dd9296cfd2d1a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T04:31:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112638397177372745",
+   "source": "@testingcatalog",
+   "date": "2026-10-20",
+   "summary": "Coco Labs 发布首个设计模型 Vyb：根据品牌官网生成分层、可编辑的营销图，每个元素独立成层，改标题无需重新生成整张设计。",
+   "id": "4aff4b5692bdd313598fd5ee13e66dfdf21d1e13",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T04:31:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112642550490116297",
+   "source": "@theinformation",
+   "date": "2026-10-20",
+   "summary": "The Information：CoreWeave CEO Mike Intrator 在股价大跌之际发内部备忘录为公司辩护，而借贷成本上升正威胁其为新 AI 数据中心融资的能力。",
+   "id": "935cf2aea67a85d1b8aecd8dcd301570774e0fdb",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T04:31:00+08:00"
+  },
   {
    "title": "ChatGPT 上线“锁定聊天”（Locked Chats）：敏感对话可用四位 PIN、Face ID 或 Touch ID 上锁，面向 Free 到 Enterprise、Edu 全部套餐逐步推送",
    "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
@@ -2503,6 +2558,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "MemT-1.0：把记忆内化为模型计算的“记忆原生”基础模型，基于 Gated DeltaNet-2 与 Mixture-of-Storage，128K 历史下推理提速约 1.86 倍、持久存储较完整 KV 缓存降低 66 倍",
+   "url": "https://arxiv.org/abs/2610.26825",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-19",
+   "summary": "在 Metis 基础上用轮内 token 级稳定记忆更新，并以 Mixture-of-Storage 扩展原生记忆容量；经继续预训练和后训练（34B tokens）发布 MemT-1.0-Nano 与 Flash。平均优于参数化记忆基线、与检索增强方法相当并基本保持通用能力，内化程序性经验后智能体任务成功率提升。",
+   "id": "74d5169d802b5769b1af39f1e83bea28787d3c7a",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T04:31:00+08:00"
   },
   {
    "title": "Holi-World：从人类第一视角经验构建“整体世界智能”，自动把录像转成连接场景结构、物体状态与交互历史的世界记录，训练出 HOLIWORLD-VL-4B",

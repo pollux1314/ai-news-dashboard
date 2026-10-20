@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-21T03:27:00+08:00",
+ "updated": "2026-10-21T04:31:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "谷歌把“Personal Intelligence with Gemini”带进汽车：Android Auto 今日起上线，可调用 Gmail、日历、地图、YouTube 和搜索记录给出个性化回答，Google Built-in 车型数月内跟进",
+     "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
+     "source": "TechCrunch",
+     "date": "2026-10-20",
+     "summary": "驾驶者需主动开启，可逐个选择连接哪些谷歌应用并随时关闭。例子包括导航去机场时提醒日历里的航班延误、一次追问同时回答登机口和是否准点。Gemini 去年 11 月进入 Android Auto，Personal Intelligence 今年 3 月在美国推出、目前在全球市场测试。"
+    },
     {
      "title": "ChatGPT 上线“锁定聊天”（Locked Chats）：敏感对话可用四位 PIN、Face ID 或 Touch ID 上锁，面向 Free 到 Enterprise、Edu 全部套餐逐步推送",
      "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
@@ -55,13 +62,6 @@
      "source": "TechCrunch",
      "date": "2026-10-20",
      "summary": "据 TechCrunch，Field 在媒体沟通会上表示 MCP 还有很大改进空间，Figma 不愿完全开放是因为通过 MCP 暴露的数据越多、被滥用的可能越高。此前他曾在 X 上质疑 Anthropic 作为 MCP 创建方并未通过 MCP 开放 artifacts 等云端资源，并称“非对称的上下文共享”问题被忽视；他随后表示 Figma 计划支持开源工具 Pi。"
-    },
-    {
-     "title": "Adobe Lightroom 移动版上线生成式 AI“睁眼”快捷操作：检测到闭眼时一键把眼睛“打开”，并参考图库中同一人的其他照片匹配眼睛颜色、大小与形状",
-     "url": "https://www.theverge.com/tech/1014246/adobe-lightroom-mobile-ai-quick-action-open-eyes-closed-blink-repair",
-     "source": "The Verge",
-     "date": "2026-10-20",
-     "summary": "据 The Verge，iOS、iPadOS 与 Android 版 Lightroom 检测到人物闭眼时会自动在图上显示 Open Eyes 快捷操作图标。与 Photoshop Elements 从另一张照片拼接眼睛不同，新功能用生成式 AI 让替换的眼睛匹配光线与姿态。免费版用户可试用两次，之后需订阅含更多 AI 积分的 Creative Cloud 方案。"
     }
    ]
   },
@@ -70,6 +70,13 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "万事达开放 Agent Pay for Machines 早期访问：基于开放支付协议 x402 并接入万事达网络，让 AI 智能体在授权预算内按用量购买数字服务，无需单独账户、API Key 或发票",
+     "url": "https://www.pymnts.com/news/artificial-intelligence/2026/mastercard-debuts-tool-to-help-ai-agents-purchase-digital-services/",
+     "source": "PYMNTS / Mastercard",
+     "date": "2026-10-20",
+     "summary": "万事达称该工具回答“谁授权智能体花钱、能花多少、花在哪、付给谁”等信任问题，并将在本周 Cloudflare Connect 上演示：营销公司 Hype 给智能体一个蛋白棒推广任务和预算，智能体通过 Discovery Service 找服务商、出方案供审批，完成 9 笔付款、涉及 2 家商户和 1 个预算。"
+    },
     {
      "title": "OpenAI 收购药物研发协同平台 Orchestra Bio：团队与技术并入生命科学模型与工具线 Rosalind，打造协调药物项目的智能体",
      "url": "https://openai.com/index/openai-to-acquire-orchestra-bio",
@@ -118,13 +125,6 @@
      "source": "TechCrunch",
      "date": "2026-10-20",
      "summary": "本轮由 Onto Ventures 与 Climactic 领投。传感器约折叠 iPhone 大小，用不锈钢螺钉接入形成层，每英亩只需几枚，单价几十美元，远低于动辄上千美元的现有设备；数据经低功耗无线网络上传，由云端 Bombadil 解读后回传给种植者调整灌溉与施肥。公司称可在增产的同时节水 20% 以上。"
-    },
-    {
-     "title": "前 OpenAI 研究负责人 Bob McGrew 创办的制造业 AI 公司 Arda 首次公开：融资 2.3 亿美元、估值 15 亿美元，Altimeter、Accel 与 Khosla 领投，已与 Anduril 合作部署",
-     "url": "https://www.cnbc.com/2026/10/20/ex-openai-executive-builds-1point5-billion-ai-manufacturing-startup-arda.html",
-     "source": "CNBC",
-     "date": "2026-10-20",
-     "summary": "据 CNBC 独家报道，Arda 开发面向制造工程师的界面与智能体，McGrew 称其“为制造工程师做的事，就像 Claude 或 Cursor 为程序员做的事”，可在设计变更后更快重建产线自动化。公司混用自研模型、开源模型与部分前沿模型，联合创始人包括 Adept 联合创始人 Augustus Odena 及多名前 Palantir 工程师，机器人是下一步产品方向。"
     }
    ]
   },
@@ -133,20 +133,6 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
-    {
-     "title": "Holi-World：从人类第一视角经验构建“整体世界智能”，自动把录像转成连接场景结构、物体状态与交互历史的世界记录，训练出 HOLIWORLD-VL-4B",
-     "url": "https://arxiv.org/abs/2610.26549",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-19",
-     "summary": "Ropedia 团队提出覆盖采集、世界表示、自动数据构建、模型学习与独立评测的一体化体系：HOLIWORLD-Foundry 结合静态与动态感知自动生成世界记录，HOLIWORLD-Data 从约 100 个自采场景整理出约 8 万条问答用于训练 4B 视觉语言模型，并以独立人工标注构建 HOLIWORLD-Bench；在 ScanNet、ScanNet++、Aria Digital Twin 等上表现强劲。10 月 20 日 HF 每日论文点赞约 100。"
-    },
-    {
-     "title": "ScaleNav：用互联网第一视角视频预训练语言条件局部导航，学习“靠近目标时画面如何变化”再对齐到机器人动作，OVON 单视角成功率 86.5%",
-     "url": "https://arxiv.org/abs/2610.25690",
-     "source": "arXiv / Hugging Face Daily Papers",
-     "date": "2026-10-19",
-     "summary": "统一的世界-动作框架分三阶段训练：先在网络视频上做指令条件的视频预训练，再用带动作标签的仿真数据学习可执行动作块，最后联合微调。在单视角 Short-Horizon OVON 上成功率 86.5%，在作者的 HabitatGS-LN 基准上达 94.9%，均超过对比基线，并在真实机器人上部署评测。"
-    },
     {
      "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
      "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
@@ -188,6 +174,20 @@
      "source": "arXiv / Hugging Face Daily Papers",
      "date": "2026-10-20",
      "summary": "候选 harness 用 LLM 生成的测试评估，无需真值或官方测试；专门的智能体诊断执行轨迹、按不同性能—成本优先级规划改动并实现成候选，再用归一化加权平方距离挑出三档供下一轮迭代。实验覆盖 Terminal-Bench 2、SWE-Bench Pro 与 ProgramBench，GLM-5.2+Claude Code 组合下优势同样成立，代码已开源。"
+    },
+    {
+     "title": "MemT-1.0：把记忆内化为模型计算的“记忆原生”基础模型，基于 Gated DeltaNet-2 与 Mixture-of-Storage，128K 历史下推理提速约 1.86 倍、持久存储较完整 KV 缓存降低 66 倍",
+     "url": "https://arxiv.org/abs/2610.26825",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-19",
+     "summary": "在 Metis 基础上用轮内 token 级稳定记忆更新，并以 Mixture-of-Storage 扩展原生记忆容量；经继续预训练和后训练（34B tokens）发布 MemT-1.0-Nano 与 Flash。平均优于参数化记忆基线、与检索增强方法相当并基本保持通用能力，内化程序性经验后智能体任务成功率提升。"
+    },
+    {
+     "title": "Holi-World：从人类第一视角经验构建“整体世界智能”，自动把录像转成连接场景结构、物体状态与交互历史的世界记录，训练出 HOLIWORLD-VL-4B",
+     "url": "https://arxiv.org/abs/2610.26549",
+     "source": "arXiv / Hugging Face Daily Papers",
+     "date": "2026-10-19",
+     "summary": "Ropedia 团队提出覆盖采集、世界表示、自动数据构建、模型学习与独立评测的一体化体系：HOLIWORLD-Foundry 结合静态与动态感知自动生成世界记录，HOLIWORLD-Data 从约 100 个自采场景整理出约 8 万条问答用于训练 4B 视觉语言模型，并以独立人工标注构建 HOLIWORLD-Bench；在 ScanNet、ScanNet++、Aria Digital Twin 等上表现强劲。10 月 20 日 HF 每日论文点赞约 100。"
     }
    ]
   },
@@ -481,6 +481,27 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@TechCrunch",
+     "url": "https://x.com/TechCrunch/status/2112635740584648919",
+     "source": "@TechCrunch",
+     "date": "2026-10-20",
+     "summary": "谷歌把 Gemini 的 Personal Intelligence 功能带进汽车，AI 助手可调用 Gmail、日历、地图、YouTube 等谷歌服务，在驾驶时给出更个性化的回答。"
+    },
+    {
+     "title": "@testingcatalog",
+     "url": "https://x.com/testingcatalog/status/2112638397177372745",
+     "source": "@testingcatalog",
+     "date": "2026-10-20",
+     "summary": "Coco Labs 发布首个设计模型 Vyb：根据品牌官网生成分层、可编辑的营销图，每个元素独立成层，改标题无需重新生成整张设计。"
+    },
+    {
+     "title": "@theinformation",
+     "url": "https://x.com/theinformation/status/2112642550490116297",
+     "source": "@theinformation",
+     "date": "2026-10-20",
+     "summary": "The Information：CoreWeave CEO Mike Intrator 在股价大跌之际发内部备忘录为公司辩护，而借贷成本上升正威胁其为新 AI 数据中心融资的能力。"
+    },
+    {
      "title": "@OpenAIDevs",
      "url": "https://x.com/OpenAIDevs/status/2112603916076781778",
      "source": "@OpenAIDevs",
@@ -538,42 +559,6 @@
       "likes": 8,
       "reposts": 1,
       "views": 4796
-     }
-    },
-    {
-     "title": "@business",
-     "url": "https://x.com/business/status/2112597259388850456",
-     "source": "@business",
-     "date": "2026-10-20",
-     "summary": "彭博：随着美国各地反对 AI 的声音蔓延，保险公司 Arbol 押注数据中心开发商会购买保单，以弥补许可延误或项目被阻导致的损失。",
-     "metrics": {
-      "likes": 5,
-      "reposts": 2,
-      "views": 15908
-     }
-    },
-    {
-     "title": "@business",
-     "url": "https://x.com/business/status/2112558232489099437",
-     "source": "@business",
-     "date": "2026-10-20",
-     "summary": "彭博：Salesforce 同意以近 57 亿美元企业价值收购 AI 营销平台 Braze。",
-     "metrics": {
-      "likes": 51,
-      "reposts": 8,
-      "views": 29088
-     }
-    },
-    {
-     "title": "@RadicalNumerics",
-     "url": "https://x.com/RadicalNumerics/status/2112581706305962435",
-     "source": "@RadicalNumerics",
-     "date": "2026-10-20",
-     "summary": "Radical Numerics 发布 Omnii-1——“我们迄今最强大的基因组语言模型”，其设计的噬菌体已首次用于人类患者。",
-     "metrics": {
-      "likes": 32,
-      "reposts": 7,
-      "views": 780
      }
     }
    ]
