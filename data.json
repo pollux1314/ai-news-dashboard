@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-20T16:28:00+08:00",
+  "updated": "2026-10-20T17:45:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -113,18 +113,18 @@
           "summary": "在柏林首届“Invest in Germany”峰会上，德国经济部与研究部同英伟达签署意向声明，推动面向机器人、自动驾驶、工厂仿真与制造的物理 AI 模型，目标是把工业 AI 系统性推向大规模应用。默茨呼吁中小企业开放工业数据，黄仁勋称 AI 只会增强而非取代德国工程能力。联邦政府暂未公布投资额，据 tagesschau 援引媒体报道，拟投入数亿欧元，部分用于租用德国电信 AI 云算力。"
         },
         {
+          "title": "Gartner 调查 2002 名 CIO：仅 13% 称企业已从 AI 获得显著或变革性价值，AI 用例成功率仍约五分之一",
+          "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-survey-finds-only-13-percent-of-cios-say-their-enterprise-has-realized-significant-or-transformational-value-from-ai",
+          "source": "Gartner",
+          "date": "2026-10-19",
+          "summary": "Gartner 在奥兰多 IT Symposium/Xpo 发布 2027 CIO 议程调查（2026 年 5–7 月）：设有“试点不转生产”与“放弃已上线低价值项目”止损规则的组织，成为“先锋”的可能性分别高 2.3 倍和 2.6 倍，但仅 31% 与 17% 的 CIO 已建立此类规则；58% 的 CIO 称 AI 降本压力上升，51% 预计 AI 会推高技术总拥有成本；仅 4% 有面向人机协作的岗位重设计划，40% 预计 2027 年 IT 人员将增加。"
+        },
+        {
           "title": "SemiAnalysis：2027 年全球数据中心新增容量将超 50GW、在建约 60GW，今年迄今已签约近 1 万亿美元不可撤销租约，短缺或转向内存与芯片",
           "url": "https://newsletter.semianalysis.com/p/datacenters-2027-the-year-of-acceleration",
           "source": "SemiAnalysis",
           "date": "2026-10-19",
           "summary": "报告反驳 Altimeter 的 Brad Gerstner 关于 2027 年仅建成约 25GW 的判断，称前 40 大园区已有超 24GW 处于施工后期、多数将在 2027 年交付；美国超大规模云厂商自建开工量呈抛物线上升，Meta、AWS、微软、谷歌、英伟达、AMD、Anthropic、OpenAI 均在寻求吉瓦级租约。模块化设计把施工周期压到 10 个月内，表后自建电源基本缓解电力瓶颈，2027–28 年内存与逻辑芯片可能成为头号约束。"
-        },
-        {
-          "title": "彭博：Nscale 与 Anthropic 洽谈约 450 亿美元新算力协议，为西弗吉尼亚 Monarch 园区第二栋 460MW Vera Rubin 机房",
-          "url": "https://www.investing.com/news/stock-market-news/nscale-anthropic-in-talks-for-45-billion-cloud-computing-deal-bloomberg-news-reports-4958188",
-          "source": "Reuters / Bloomberg",
-          "date": "2026-10-19",
-          "summary": "据彭博援引知情人士，英伟达支持的 Nscale 正与 Anthropic 谈判第二份价值约 450 亿美元的算力租赁协议；8 月双方已签下首份 450 亿美元合同。Anthropic 还拥有园区第三栋建筑的优先购买权，细节仍可能变化。同一报道称部分投资者敦促 Anthropic 下调 IPO 估值目标；双方均未回应，路透未能独立核实。"
         }
       ]
     },
@@ -133,6 +133,27 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "斯坦福李飞飞、吴佳俊等提出 Halcyon：不做语言预训练、从零训练早融合自回归文生图模型，1.6B 版以 1/275 预训练算力超越 JiT-T2I-XXL",
+          "url": "https://arxiv.org/abs/2610.26863",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "Halcyon 系列完全在 1 亿图文对数据集 GPIC 上从零预训练：0.52B 版以 18.2 倍更少的预训练算力超过 LlamaGen-XL/8（gFD 48.0 vs 63.3），1.6B 版以 275 倍更少算力超过 JiT-T2I-XXL/8++（35.3 vs 41.0）。对照实验显示纯文本预训练并不能提升文生图效果；用图生文监督替代 caption dropout 后还可同时学会图像描述。代码与模型已公开（与 Radical Numerics 合作）。"
+        },
+        {
+          "title": "xLSTM 团队（Sepp Hochreiter 等）提出 KronLSTM：以“Kronecker Delta Rule”只沿单一方向修正记忆矩阵，长上下文表现常优于 Gated DeltaNet 系列",
+          "url": "https://arxiv.org/abs/2610.26834",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "KronLSTM 在 xLSTM 家族中加入“最小侵入式”记忆修正机制，降低对已存信息的干扰；论文证明其记忆动态收敛到稳态分布、记忆矩阵期望范数始终有界，无需额外归一化与稳定化。实验称其与现有线性注意力架构相当或更优，长上下文基准优势尤其明显；代码与模型已在 GitHub 与 Hugging Face（NX-AI）开源。"
+        },
+        {
+          "title": "UCLA 等提出 OpenVLHarness：为多模态模型搭建“能力层+持久多模态记忆”的工具调用框架，22 项基准上比无工具基线平均提升 9.7–12.6 分",
+          "url": "https://arxiv.org/abs/2610.26860",
+          "source": "arXiv / Hugging Face Daily Papers",
+          "date": "2026-10-20",
+          "summary": "作者发现单纯增加基座模型推理预算收益有限，于是用任务级工具接口+证据渲染统一接入异构后端，并把图像、结构化数据与网页引用作为可寻址产物持久保存，配合代码接口对存储数据做组合计算。在 8 个开源与闭源骨干上评测：Qwen3-VL-8B +11.2、Kimi K3 +9.7、GPT-6 Astra +9.9；当日 Hugging Face 每日论文榜第三。"
+        },
         {
           "title": "Learning from Fleet Experience：让部署中的机器人机队共享执行经验改进同一策略，按失败情境检索成功轨迹片段做监督、无需额外专家纠正，96 台机器人让手机包装任务成功率从 79.2% 升至 98.3%",
           "url": "https://arxiv.org/abs/2610.25736",
@@ -167,27 +188,6 @@
           "source": "IT之家（转引彭博社）",
           "date": "2026-10-20",
           "summary": "研究用超过 4000 万张人脸图像和 3 万多名癌症患者照片训练，年龄估算误差约 5 岁，能把患者可靠地分为高、低风险两组，且在不同年龄、种族、性别和癌种中均有效；算法主要关注鼻梁与眼下区域。作者之一、麻省总医院布莱根的 Raymond Mak 称不会用来拒绝治疗；萨里大学教授 Miroslaw Bober 认为尚不能用于临床，需对照医生判断做更多测试。"
-        },
-        {
-          "title": "UCSD 提出 ACT3D：VLM 像人一样逐帧“走动观察”3D 场景再作答，强化学习后六项 3D 基准平均 53.2%，较 Qwen 基座提升 22.0%，超过 Gemini 3.6 Flash",
-          "url": "https://arxiv.org/abs/2610.21783",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-20",
-          "summary": "论文《Learning to Think and Explore in 3D World》保留 VLM 原生单图输入，把 3D 表示作为可交互环境：模型可移动、转向视角后再回答问题。先做轨迹监督微调，再用以答案正确性为主的奖励做 RL，不直接监督探索动作。ACT3D 输入帧数比现有开源 3D 方法少 50–70%，在未见领域较监督初始化平均提升 5.9%。"
-        },
-        {
-          "title": "HexaShell：让编码智能体直接“写代码开机器人”，以 Codex + GPT-6-Astra 在 RoboDojo 全部 42 项任务上取得 39.7% 成功率、48.0 进度分，刷新榜单 SOTA",
-          "url": "https://arxiv.org/abs/2610.23479",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-20",
-          "summary": "HexaFuture 团队提出“薄 harness”：只把智能体命令翻译成双臂机器人动作，智能体通过三路 RGB 相机与标定信息、用三角测量等方法自写自修工具代码，并在每次失败后读日志定位原因。工具在每任务 10 个布局上构建后冻结，再在 10 个新布局上测试。作者结论：瓶颈在于接触操作而非推理。该文为 HF 日榜 10 月 19 日最高票论文（约 285 票）。"
-        },
-        {
-          "title": "State World Models：把“规则执行”与“视频渲染”分离，Stateful Harness 维护隐藏世界状态，在 WorldState-Bench 上把冻结视频模型的规则符合率从 32% 提到 92%",
-          "url": "https://arxiv.org/abs/2610.26811",
-          "source": "arXiv",
-          "date": "2026-10-19",
-          "summary": "现有世界模型多专注镜头移动，难以处理结果取决于画面外隐藏状态的动作。作者提出 Stateful Harness：按既定规则演化世界状态，用冻结的视频模型渲染每个事件，再用生成片段回写状态，并以可编辑 3D 场景预览提供空间与镜头引导。新基准 WorldState-Bench 含 50 组反事实孪生样例；11 个视频后端在仅给规则时最好只有 32% 的样例两边都正确，MiniMax-H3 明确结局后为 64%，完整 harness 达 92%。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "DeepSeek 全面开源内部推理框架 DeepInfer（Apache 2.0）：支撑 V4.1 Flash 线上大规模服务，兼容英伟达 SM100 与华为昇腾 950，同步开源 deepseek-recipe 编解码组件",
+          "url": "https://www.ithome.com/1/015/429.htm",
+          "source": "IT之家 / DeepSeek",
+          "date": "2026-10-20",
+          "summary": "DeepInfer 集成 FlashMLA、DeepGEMM、DeepEP 等自研算子与优化推理引擎，支持 Attention DP/均衡 CP 与 MoE EP+EPLB 并行、DSpark 推测解码与置信度调度验证、SWA bounded replay、异步调度、批不变推理、确定性采样和结构化输出。本次开源版本提供离线推理，目前仅支持 DeepSeek-V4.1-Flash；完整线上服务所需的 KV cache 系统、Prefill/Decode 分离与跨副本负载均衡未包含。DeepSeek 称新模型的推理代码与后续优化也将在此更新；README 注明框架最初主要基于 vLLM 构建。同步开源的 deepseek-recipe 与官方 API 的 token 编解码逻辑对齐。"
+        },
         {
           "title": "记忆张量开源“记忆原生”基础模型 MemT-1.0：Flash（288B/17B 激活，基于 DeepSeek-V4-Flash）与 Nano（36B/3B 激活，基于 Qwen3.6）把历史写进固定大小记忆状态，256K 历史下推理提速约 4 倍、存储缩减约 130 倍",
           "url": "https://huggingface.co/MemTensor/MemT-1.0-Flash",
@@ -244,13 +251,6 @@
           "source": "About Amazon",
           "date": "2026-10-19",
           "summary": "TorchNeuron 通过 PyTorch 自带的新硬件注册机制接入 Trainium，开发者现有的测试、调试与扩展工具无需修改即可使用；官方演示同一训练脚本在常规芯片与 Trainium 上学习曲线一致。将在 PyTorch Conference North America 以开源许可发布，Cartesia 等语音、机器人、世界模型、药物发现公司已在使用。"
-        },
-        {
-          "title": "开源 AI 模组工具 NPCTalk：让《GTA 5》NPC 用 AI 克隆原声实时无脚本对话，MIT 许可，借助 Claude Code 开发",
-          "url": "https://www.ithome.com/1/014/627.htm",
-          "source": "IT之家 / GitHub",
-          "date": "2026-10-19",
-          "summary": "NPCTalk 由 Universal Modder 开发：Nemotron ASR 识别语音、Cerebras 上的 Qwen 3.8 27B 实时生成台词、Fish Audio Drama 3 克隆配音，NPC 还能配合动作回应；按键通话延迟约 1.15–2.2 秒。开发经验已封装为可复用的智能体技能集，兼容 Claude Code、Codex、Cursor、Gemini CLI，目前仅在《GTA 5》旧版单人模式演示，可玩模组预计下周发布，运行云端服务需付费。项目仓库 github.com/christos-antono/NPCTalk。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "WIRED/Redact：WhatsApp 约 80 个帮助页面源码暴露写给 Meta 客服聊天机器人的隐藏指令，含“不要建议联系数据保护机构或监管方”“用户提及 GDPR/CCPA 时也不引用”",
+          "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+          "source": "WIRED",
+          "date": "2026-10-20",
+          "summary": "隐私公司 Redact 发现约 100 段隐藏文本位于 “HelpContentGalaxyLLMInclude” 代码块中，用户不可见但存在于网页源码，包括“WHAT NOT TO SAY”部分；在用户提及律师、诉讼时，要求不引用服务条款、不作任何责任表态。WhatsApp 发言人称这是给自家支持聊天机器人的指令、因 bug 而显示，已在 WIRED 联系后从所有页面移除；尚不清楚第三方 AI 能否读取、暴露了多久。"
+        },
         {
           "title": "美国国务院依《保护美国知识产权法》（PAIPA）制裁陆奇创办的奇绩创坛（MiraclePlus）及其两支基金等共 5 家实体，指其为涉嫌窃取谷歌 AI 基础设施机密的前谷歌工程师 Linwei Ding 所创公司提供种子资金",
           "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft-fact-sheet/",
@@ -307,13 +314,6 @@
           "source": "IT之家（转引 Android Headline）",
           "date": "2026-10-20",
           "summary": "黄仁勋把 AI 比作电网、供水等关键基础设施，反对简单禁止或繁重监管，主张建立聪明的安全标准；称常与研究人员交流风险监控和安全协议，并提出英国可作为中美等各方开展 AI 安全对话的中立平台。对于数据中心延期、AI 公司上市推迟等担忧，他称是快速扩张中的“成长阵痛”。"
-        },
-        {
-          "title": "纽约市长曼达尼：联邦在 AI 监管上“完全失职”，呼吁纽约人拒绝“AI 不可避免”的叙事、追究 AI 公司责任",
-          "url": "https://techcrunch.com/2026/10/19/mamdani-says-feds-have-abdicated-on-ai-urges-new-yorkers-to-push-back/",
-          "source": "TechCrunch",
-          "date": "2026-10-20",
-          "summary": "Zohran Mamdani 在 AI Now Institute 主办的 People’s AI Assembly 上与演员 Ilana Glazer 对谈，称 AI 的快速铺开并非不可避免，批评把 AI 讨论框定为对华“军备竞赛”而忽视人文关切。他上月已下令禁止小学和初中使用 AI，并在夏季推出要求房源照片/视频披露 AI 生成的政策。"
         }
       ]
     },
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "奇瑞全球创新大会发布汽车行业垂域基础大模型 CheryMind，称“为物理 AI 而生”：6 万多名员工每天使用、覆盖 200 多个业务场景",
+          "url": "https://www.c114.net.cn/industry/135359.html",
+          "source": "C114 / IT之家",
+          "date": "2026-10-20",
+          "summary": "据 IT之家现场报道，奇瑞称 CheryMind 已打通 400 多个企业系统，覆盖 700TB 企业知识与 200PB 工程数据，“正在重塑企业运转方式”。同场奇瑞还首发家庭陪伴人形机器人“墨宝”并开启全球预订。"
+        },
         {
           "title": "MiniMax 正式发布 M3.1 Flash 并认领匿名模型“Space Bunny”：主打复杂 Agent、电脑操作与软件开发，线上推理提速近 3 倍、API 价格降 50% 以上",
           "url": "https://www.21jingji.com/article/20261020/herald/ef2ca80c1914e8a13b36ac22835a70e2.html",
@@ -370,13 +377,6 @@
           "source": "量子位",
           "date": "2026-10-19",
           "summary": "通衍灵智在共享基座之上为个人、项目、企业训练轻量 Personal LoRA，由 Evaluator 筛选反馈再增量更新，不达标即回滚；配套训推并行（TIP）与 Paged LoRA 显存管理。阶段测试用 Qwen2.5-72B 与 8 张 H800，在 LoRA 请求占比 1%–30% 时延迟占优，占比升至 50% 时性能退化；公司称完整自动化闭环仍在研发中。"
-        },
-        {
-          "title": "铭芯启睿完成超 4 亿元 A 轮融资：前 Graphcore 总裁卢涛出任 CEO，启动面向大模型推理的第一代 LPU 研发",
-          "url": "https://wallstreetcn.com/articles/3783927",
-          "source": "华尔街见闻",
-          "date": "2026-10-19",
-          "summary": "本轮由博原资本领投，博世创投、米哈游、兆易创新等跟投，小米战投等老股东加注，资金用于 RRAM 阻变存储产业化与 LPU 研发。卢涛称第一代 LPU 不采用 RRAM，目标支持数万亿参数完整模型、单用户每秒 1000 Token（为研发目标，尚无实测）；首代 1Gb RRAM 芯片“泰山一号”已流片、仍在验证。"
         }
       ]
     },
@@ -385,6 +385,17 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "deepseek-ai/DeepInfer",
+          "url": "https://github.com/deepseek-ai/DeepInfer",
+          "source": "GitHub",
+          "stars": 1955,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-20",
+          "summary": "DeepSeek 官方高性能大规模推理框架，支撑其生产服务：集成 FlashMLA/DeepGEMM/DeepEP/TileLang 算子，支持 MoE EP+EPLB、DSpark 推测解码、SWA bounded replay、批不变推理与结构化输出，可在英伟达 SM100 与华为昇腾 950 上运行 DeepSeek-V4.1-Flash。",
+          "why": "DeepSeek 10 月 20 日下午官宣开源（Apache 2.0），截至约 17:30（UTC+8）已约 1955 星、140 个 fork。"
+        },
         {
           "title": "anthropics/claude-code",
           "url": "https://github.com/anthropics/claude-code",
@@ -469,21 +480,6 @@
           "module": "github",
           "module_name": "GitHub 热门 AI 项目",
           "first_seen": "2026-10-16T19:35:00+08:00"
-        },
-        {
-          "title": "ruvnet/ruflo",
-          "url": "https://github.com/ruvnet/ruflo",
-          "source": "GitHub",
-          "stars": 77315,
-          "stars_week": null,
-          "language": "TypeScript",
-          "date": "2026-10-19",
-          "summary": "多智能体 swarm / harness：自适应记忆、联邦与向量 RAG，原生对接 Claude Code、Codex、Hermes 等，MIT 许可。",
-          "why": "今日 GitHub Trending 日榜上榜，当日约 +564 星，累计约 7.7 万星。",
-          "id": "c289dc3d991e222b970344c35cf58dc3763342a2",
-          "module": "github",
-          "module_name": "GitHub 热门 AI 项目",
-          "first_seen": "2026-10-15T20:32:02+08:00"
         }
       ]
     },
@@ -492,6 +488,18 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@deepseek_ai",
+          "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+          "source": "@deepseek_ai",
+          "date": "2026-10-20",
+          "summary": "DeepSeek 官方发推宣布内部推理框架 DeepInfer 全面开源，称其以高吞吐、低延迟支撑 DeepSeek-V4.1-Flash 的大规模服务，希望帮助社区降低算力成本与能耗；后续推文介绍同步开源的 deepseek-recipe，并称“开放模型、开放算子、开放推理”。",
+          "metrics": {
+            "likes": 38,
+            "reposts": 7,
+            "views": 5755
+          }
+        },
         {
           "title": "@ModelScope2022",
           "url": "https://x.com/ModelScope2022/status/2112453862351073661",
@@ -574,18 +582,6 @@
             "likes": 4,
             "reposts": 2,
             "views": 11832
-          }
-        },
-        {
-          "title": "@ManlingLi_",
-          "url": "https://x.com/ManlingLi_/status/2112307226224292176",
-          "source": "@ManlingLi_",
-          "date": "2026-10-20",
-          "summary": "Manling Li 发布 Embodied First Exam（EFE）：一行代码即可让编码智能体在 31 个仿真套件、44 种机器人上的 1090 个具身任务中接受测试，覆盖空间约束谜题、多机器人协作的“奥运项目”与实时评测，用于系统回答 GPT-6 Astra 等模型能否胜任机器人任务。",
-          "metrics": {
-            "likes": 329,
-            "reposts": 64,
-            "views": 27675
           }
         }
       ]

@@ -1,7 +1,104 @@
 {
- "updated": "2026-10-20T16:28:00+08:00",
- "count": 727,
+ "updated": "2026-10-20T17:45:00+08:00",
+ "count": 736,
  "items": [
+  {
+   "title": "斯坦福李飞飞、吴佳俊等提出 Halcyon：不做语言预训练、从零训练早融合自回归文生图模型，1.6B 版以 1/275 预训练算力超越 JiT-T2I-XXL",
+   "url": "https://arxiv.org/abs/2610.26863",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "Halcyon 系列完全在 1 亿图文对数据集 GPIC 上从零预训练：0.52B 版以 18.2 倍更少的预训练算力超过 LlamaGen-XL/8（gFD 48.0 vs 63.3），1.6B 版以 275 倍更少算力超过 JiT-T2I-XXL/8++（35.3 vs 41.0）。对照实验显示纯文本预训练并不能提升文生图效果；用图生文监督替代 caption dropout 后还可同时学会图像描述。代码与模型已公开（与 Radical Numerics 合作）。",
+   "id": "af3f00449bf8492df027ab5765f67718d3bcb9e2",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
+  {
+   "title": "xLSTM 团队（Sepp Hochreiter 等）提出 KronLSTM：以“Kronecker Delta Rule”只沿单一方向修正记忆矩阵，长上下文表现常优于 Gated DeltaNet 系列",
+   "url": "https://arxiv.org/abs/2610.26834",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "KronLSTM 在 xLSTM 家族中加入“最小侵入式”记忆修正机制，降低对已存信息的干扰；论文证明其记忆动态收敛到稳态分布、记忆矩阵期望范数始终有界，无需额外归一化与稳定化。实验称其与现有线性注意力架构相当或更优，长上下文基准优势尤其明显；代码与模型已在 GitHub 与 Hugging Face（NX-AI）开源。",
+   "id": "3a96c6bc03ad57607f6c63bac6511e5170120a33",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
+  {
+   "title": "UCLA 等提出 OpenVLHarness：为多模态模型搭建“能力层+持久多模态记忆”的工具调用框架，22 项基准上比无工具基线平均提升 9.7–12.6 分",
+   "url": "https://arxiv.org/abs/2610.26860",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-20",
+   "summary": "作者发现单纯增加基座模型推理预算收益有限，于是用任务级工具接口+证据渲染统一接入异构后端，并把图像、结构化数据与网页引用作为可寻址产物持久保存，配合代码接口对存储数据做组合计算。在 8 个开源与闭源骨干上评测：Qwen3-VL-8B +11.2、Kimi K3 +9.7、GPT-6 Astra +9.9；当日 Hugging Face 每日论文榜第三。",
+   "id": "747852054eef062b8fae91d9cd72d759d93f1c04",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
+  {
+   "title": "DeepSeek 全面开源内部推理框架 DeepInfer（Apache 2.0）：支撑 V4.1 Flash 线上大规模服务，兼容英伟达 SM100 与华为昇腾 950，同步开源 deepseek-recipe 编解码组件",
+   "url": "https://www.ithome.com/1/015/429.htm",
+   "source": "IT之家 / DeepSeek",
+   "date": "2026-10-20",
+   "summary": "DeepInfer 集成 FlashMLA、DeepGEMM、DeepEP 等自研算子与优化推理引擎，支持 Attention DP/均衡 CP 与 MoE EP+EPLB 并行、DSpark 推测解码与置信度调度验证、SWA bounded replay、异步调度、批不变推理、确定性采样和结构化输出。本次开源版本提供离线推理，目前仅支持 DeepSeek-V4.1-Flash；完整线上服务所需的 KV cache 系统、Prefill/Decode 分离与跨副本负载均衡未包含。DeepSeek 称新模型的推理代码与后续优化也将在此更新；README 注明框架最初主要基于 vLLM 构建。同步开源的 deepseek-recipe 与官方 API 的 token 编解码逻辑对齐。",
+   "id": "150d3eda5e7ea7368701317aaa463d2715ec86e0",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
+  {
+   "title": "WIRED/Redact：WhatsApp 约 80 个帮助页面源码暴露写给 Meta 客服聊天机器人的隐藏指令，含“不要建议联系数据保护机构或监管方”“用户提及 GDPR/CCPA 时也不引用”",
+   "url": "https://www.wired.com/story/whatsapp-help-pages-leaked-hidden-instructions-for-a-meta-chatbot/",
+   "source": "WIRED",
+   "date": "2026-10-20",
+   "summary": "隐私公司 Redact 发现约 100 段隐藏文本位于 “HelpContentGalaxyLLMInclude” 代码块中，用户不可见但存在于网页源码，包括“WHAT NOT TO SAY”部分；在用户提及律师、诉讼时，要求不引用服务条款、不作任何责任表态。WhatsApp 发言人称这是给自家支持聊天机器人的指令、因 bug 而显示，已在 WIRED 联系后从所有页面移除；尚不清楚第三方 AI 能否读取、暴露了多久。",
+   "id": "e2fcb8500593abfc2e1c45e44d290e917b7f85a9",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
+  {
+   "title": "奇瑞全球创新大会发布汽车行业垂域基础大模型 CheryMind，称“为物理 AI 而生”：6 万多名员工每天使用、覆盖 200 多个业务场景",
+   "url": "https://www.c114.net.cn/industry/135359.html",
+   "source": "C114 / IT之家",
+   "date": "2026-10-20",
+   "summary": "据 IT之家现场报道，奇瑞称 CheryMind 已打通 400 多个企业系统，覆盖 700TB 企业知识与 200PB 工程数据，“正在重塑企业运转方式”。同场奇瑞还首发家庭陪伴人形机器人“墨宝”并开启全球预订。",
+   "id": "bbb2b77cb782d088a0fc686e19de6121201753a8",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
+  {
+   "title": "deepseek-ai/DeepInfer",
+   "url": "https://github.com/deepseek-ai/DeepInfer",
+   "source": "GitHub",
+   "stars": 1955,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-20",
+   "summary": "DeepSeek 官方高性能大规模推理框架，支撑其生产服务：集成 FlashMLA/DeepGEMM/DeepEP/TileLang 算子，支持 MoE EP+EPLB、DSpark 推测解码、SWA bounded replay、批不变推理与结构化输出，可在英伟达 SM100 与华为昇腾 950 上运行 DeepSeek-V4.1-Flash。",
+   "why": "DeepSeek 10 月 20 日下午官宣开源（Apache 2.0），截至约 17:30（UTC+8）已约 1955 星、140 个 fork。",
+   "id": "79e072c528493212dadbe0626496c7bede00d5c2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
+  {
+   "title": "@deepseek_ai",
+   "url": "https://x.com/deepseek_ai/status/2112476496283775135",
+   "source": "@deepseek_ai",
+   "date": "2026-10-20",
+   "summary": "DeepSeek 官方发推宣布内部推理框架 DeepInfer 全面开源，称其以高吞吐、低延迟支撑 DeepSeek-V4.1-Flash 的大规模服务，希望帮助社区降低算力成本与能耗；后续推文介绍同步开源的 deepseek-recipe，并称“开放模型、开放算子、开放推理”。",
+   "metrics": {
+    "likes": 38,
+    "reposts": 7,
+    "views": 5755
+   },
+   "id": "ae868a7e9e33a53b27c23842a67de55ceda4ed2a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T17:45:00+08:00"
+  },
   {
    "title": "阿斯利康与甲骨文启动全球 AI 合作：用 AI 与真实世界数据匹配临床试验患者、监测安全信号，首个项目联手阿布扎比 M42 开展高血压研究",
    "url": "https://www.channelnewsasia.com/business/astrazeneca-partners-oracle-ai-driven-clinical-trials-6474856",
@@ -950,6 +1047,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "Gartner 调查 2002 名 CIO：仅 13% 称企业已从 AI 获得显著或变革性价值，AI 用例成功率仍约五分之一",
+   "url": "https://www.gartner.com/en/newsroom/press-releases/2026-10-19-gartner-survey-finds-only-13-percent-of-cios-say-their-enterprise-has-realized-significant-or-transformational-value-from-ai",
+   "source": "Gartner",
+   "date": "2026-10-19",
+   "summary": "Gartner 在奥兰多 IT Symposium/Xpo 发布 2027 CIO 议程调查（2026 年 5–7 月）：设有“试点不转生产”与“放弃已上线低价值项目”止损规则的组织，成为“先锋”的可能性分别高 2.3 倍和 2.6 倍，但仅 31% 与 17% 的 CIO 已建立此类规则；58% 的 CIO 称 AI 降本压力上升，51% 预计 AI 会推高技术总拥有成本；仅 4% 有面向人机协作的岗位重设计划，40% 预计 2027 年 IT 人员将增加。",
+   "id": "1b0c17081ba0e34e12413d8a7651f3ddbbe201f7",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-20T17:45:00+08:00"
   },
   {
    "title": "SemiAnalysis：2027 年全球数据中心新增容量将超 50GW、在建约 60GW，今年迄今已签约近 1 万亿美元不可撤销租约，短缺或转向内存与芯片",
