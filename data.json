@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-20T17:45:00+08:00",
+  "updated": "2026-10-20T18:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,20 @@
       "icon": "📄",
       "items": [
         {
+          "title": "EgoXperience：第一视角视频全栈重建范式，自动标注引擎产出 50 小时 EgoX-Data-6M，EgoX 单次前向即可在统一世界坐标系下联合重建相机、场景、手与物体",
+          "url": "https://arxiv.org/abs/2610.26625",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "EgoX-Engine 把几何校验的物体跟踪与基于 SLAM 的世界对齐结合，为相机、场景、手和物体提供一致监督；数据覆盖室内外任务驱动的操作与移动，并带秒级任务描述，另选 1 小时作为 EgoX-Bench。给定单目第一视角视频与首帧物体掩码，EgoX 实现度量尺度联合重建，在场景估计等多项任务上达到 SOTA。今日 Hugging Face 每日论文榜前列。"
+        },
+        {
+          "title": "Self-HPO：让编程智能体交替优化“驾驭层”与策略模型、由策略自己分析失败并提出新 harness，Qwen3.5-35B-A3B 平均解决率从 57.8% 提升到 64.8%",
+          "url": "https://arxiv.org/abs/2610.22791",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "每轮先由当前策略分析自身失败、提出候选 harness（H 步），再在选定 harness 下用强化学习更新策略（P 步），训练中识别的难题构成下一轮 harness 搜索集。三项编程基准上均优于只优化 harness 或只优化策略的基线，且两者联合增益大于各自增益之和，并可泛化到分布外场景。今日登上 Hugging Face 每日论文榜。"
+        },
+        {
           "title": "斯坦福李飞飞、吴佳俊等提出 Halcyon：不做语言预训练、从零训练早融合自回归文生图模型，1.6B 版以 1/275 预训练算力超越 JiT-T2I-XXL",
           "url": "https://arxiv.org/abs/2610.26863",
           "source": "arXiv",
@@ -174,20 +188,6 @@
           "source": "arXiv / 机器之心",
           "date": "2026-10-20",
           "summary": "DSA 类稀疏注意力中，负责打分筛选的索引器（Indexer）在约 1M token 上下文下占预填充时间 73%–91%。DoSA 保留原始评分函数，仅用少量索引头构造保守上界，与种子候选得到的门槛下界比较，约 97% 的候选被安全过滤，其余仍用全部索引头精确打分。GLM-5.2 完整 Indexer 相对 SGLang 加速 1.12–2.74 倍；端到端首 token 延迟 Dots3-Note-preview、GLM-5.2、DeepSeek-V3.2 分别降低约 37%、46%、48%。代码已开源（github.com/llm-sys/dosa-sglang）。"
-        },
-        {
-          "title": "OR-License：用真实付费运筹咨询项目（合同总额 368 万美元）评测 LLM 智能体，最强 Claude Code 配置严格可行率 88.39%，部署调整质量 0.87 仍不及专家",
-          "url": "https://arxiv.org/abs/2610.24087",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-20",
-          "summary": "基准含 10 个工业场景的 31 个实例，保留原始客户需求、数据与交付格式，并用客户模拟器 ORSim 只披露业务事实、不提供运筹专业知识。11 个前沿模型在编码智能体 harness 下，部分在条件目标质量上超过专家方案，但没有一个在部署调整质量（DAQ，不可行交付记 0）上追平专家；研究链完成率仅 24%–45%，主要失败在问题建模与实现。今日登上 Hugging Face 每日论文榜。"
-        },
-        {
-          "title": "《柳叶刀·数字健康》：AI 仅凭一张面部照片即可估算年龄并预测癌症患者生存风险，得分最高组更可能在 90 天内死亡",
-          "url": "https://www.ithome.com/1/015/079.htm",
-          "source": "IT之家（转引彭博社）",
-          "date": "2026-10-20",
-          "summary": "研究用超过 4000 万张人脸图像和 3 万多名癌症患者照片训练，年龄估算误差约 5 岁，能把患者可靠地分为高、低风险两组，且在不同年龄、种族、性别和癌种中均有效；算法主要关注鼻梁与眼下区域。作者之一、麻省总医院布莱根的 Raymond Mak 称不会用来拒绝治疗；萨里大学教授 Miroslaw Bober 认为尚不能用于临床，需对照医生判断做更多测试。"
         }
       ]
     },
@@ -225,6 +225,13 @@
           "summary": "IBM 将在 PyTorch Conference 2026 介绍 Torch-Spyre 进展：Spyre 为 32 核数据流 AI 加速器，项目实现设备专属张量布局与面向片上暂存的分块优化，并向上游 PyTorch 回馈改动，便于其他树外加速器深度集成。"
         },
         {
+          "title": "GoTo 联合 AI Singapore 在 Hugging Face 发布 27B 印尼语模型：基于 Gemma 3，支持印尼语、爪哇语、巽他语、巴厘语、巴塔克托巴语与英语，128K 上下文",
+          "url": "https://technode.global/2026/10/19/goto-releases-27b-indonesian-language-model/",
+          "source": "TechNode Global",
+          "date": "2026-10-19",
+          "summary": "模型于 10 月 19 日巴厘科技周发布，仓库为 GoToCompany/gemma3-27b-cpt-gotoai-v3-instruct，模型卡列明采用 Gemma 许可证。训练数据含媒体合作方与政府网站的印尼语文本，巴塔克语数据与北苏门答腊大学合作。FP16/BF16 推理约需 54–60GB 显存，建议单张 A100 80GB 或两张 L40S。延续 GoTo 与 Indosat 的 Sahabat-AI 开源模型计划。"
+        },
+        {
           "title": "蚂蚁百灵开源 Ming-3.0 语音模型家族共 5 款：0.5B TTS 在 Artificial Analysis 可控语音榜开源第一，另含 126B（6.5B 激活）音频理解模型与方言 ASR",
           "url": "https://huggingface.co/inclusionAI/Ming-3.0-tts-0.5B",
           "source": "Hugging Face / inclusionAI",
@@ -244,13 +251,6 @@
           "source": "Hugging Face / 量子位",
           "date": "2026-10-19",
           "summary": "EdgeRock-4B 基于 Qwen3.5-4B 改造，用循环状态 + 1024 token 局部窗口 + “记忆岩锚”（Rock Memory Anchors）固定历史内存；单张 80GB Hopper 卡 512 路并发输出 12124 tokens/s，AIME 2024–2026 平均 pass@1 82.9%，支持文本与图像推理，权重与推理代码已开源。"
-        },
-        {
-          "title": "亚马逊发布 TorchNeuron：现有 PyTorch 代码只改一项配置即可原生跑在 AWS Trainium2/3 上，10 月 20 日 PyTorch 大会开源",
-          "url": "https://www.aboutamazon.com/news/innovation-at-amazon/torchneuron-pytorch-aws-trainium-chips-ai",
-          "source": "About Amazon",
-          "date": "2026-10-19",
-          "summary": "TorchNeuron 通过 PyTorch 自带的新硬件注册机制接入 Trainium，开发者现有的测试、调试与扩展工具无需修改即可使用；官方演示同一训练脚本在常规芯片与 Trainium 上学习曲线一致。将在 PyTorch Conference North America 以开源许可发布，Cartesia 等语音、机器人、世界模型、药物发现公司已在使用。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "九章云极发布 GLM-5.3 推测解码加速方案 Alaya-DFlash2：8×H200 单并发解码速度约 288 tok/s、为原生自回归的 3.41 倍，32k 长上下文接受长度保持 5.3 以上",
+          "url": "https://news.ikanchai.com/2026/1020/669791.shtml",
+          "source": "砍柴网",
+          "date": "2026-10-20",
+          "summary": "Alaya-DFlash2 由可并行起草的草稿模型加并行路径选择器组成，基于 AlayaNeW 智算引擎围绕 GLM-5.3 训练。TP=8、8×H200 单并发时总输出吞吐从 78.95 提升到 236.47 tok/s；4 并发吞吐为原生的 2.24 倍，64 并发提升 44.9%。1k–32k 低熵上下文接受长度 4.74–5.50，均高于 IncoAI-DFlash2 与 RedHat-DSpark，11 类任务中 9 类接受长度最高。"
+        },
+        {
           "title": "奇瑞全球创新大会发布汽车行业垂域基础大模型 CheryMind，称“为物理 AI 而生”：6 万多名员工每天使用、覆盖 200 多个业务场景",
           "url": "https://www.c114.net.cn/industry/135359.html",
           "source": "C114 / IT之家",
@@ -370,13 +377,6 @@
           "source": "量子位",
           "date": "2026-10-19",
           "summary": "赛事依托国家具身智能应用中试基地，覆盖自动分拣、服务、医疗、农业、水下机器人与无人机，以及柔性分拣、空地协同、居家服务、灵巧操作等具身任务，共决出 59 项冠军；冠军队获“实习金卡”可免试进入生态企业实习。"
-        },
-        {
-          "title": "量子位：北京通用人工智能研究院孵化的通衍灵智押注“递归自进化个性化 AI”，以 Personal LoRA 沉淀个人与企业专属能力",
-          "url": "https://www.qbitai.com/2026/10/504294.html",
-          "source": "量子位",
-          "date": "2026-10-19",
-          "summary": "通衍灵智在共享基座之上为个人、项目、企业训练轻量 Personal LoRA，由 Evaluator 筛选反馈再增量更新，不达标即回滚；配套训推并行（TIP）与 Paged LoRA 显存管理。阶段测试用 Qwen2.5-72B 与 8 张 H800，在 LoRA 请求占比 1%–30% 时延迟占优，占比升至 50% 时性能退化；公司称完整自动化闭环仍在研发中。"
         }
       ]
     },
@@ -385,6 +385,17 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "vercel-labs/fx0",
+          "url": "https://github.com/vercel-labs/fx0",
+          "source": "GitHub",
+          "stars": 225,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-20",
+          "summary": "Vercel Labs 基于 libfx 打造的轻量设计智能体：用自然语言描述页面，智能体把它写成单个 HTML 文件。",
+          "why": "10 月 20 日（UTC+8）新建，约一天获 225 星，是近几天新建 AI 仓库星标增速前列。"
+        },
         {
           "title": "deepseek-ai/DeepInfer",
           "url": "https://github.com/deepseek-ai/DeepInfer",
@@ -406,6 +417,17 @@
           "date": "2026-10-20",
           "summary": "Anthropic 官方终端智能体编程工具：理解代码库，以自然语言执行日常任务、解释复杂代码并处理 git 工作流。",
           "why": "今日 GitHub Trending 日榜上榜，当日约 +167 星，累计约 15.3 万星。"
+        },
+        {
+          "title": "finereli/whatsapp-mcp",
+          "url": "https://github.com/finereli/whatsapp-mcp",
+          "source": "GitHub",
+          "stars": 302,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-19",
+          "summary": "只读 MCP 服务器，让 AI 智能体搜索和阅读你自己的 WhatsApp 消息，运行在 Cloudflare Workers 上。",
+          "why": "10 月 19 日新建、已约 302 星，曾登上 Hacker News 首页。"
         },
         {
           "title": "Comfy-Org/ComfyUI",
@@ -454,32 +476,6 @@
           "date": "2026-10-19",
           "summary": "多智能体工作台：可在桌面/移动/远程运行时编排 Grok Bot、Claude Code 等编程智能体，使用自有订阅，MIT 许可。",
           "why": "今日 GitHub Trending 日榜上榜，当日约 +1,590 星，累计约 9.8 万星。"
-        },
-        {
-          "title": "MadsLorentzen/ai-job-search",
-          "url": "https://github.com/MadsLorentzen/ai-job-search",
-          "source": "GitHub",
-          "stars": 57863,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-19",
-          "summary": "基于 Claude Code 的本地 AI 求职框架：评估职位、定制简历与求职信等，全流程在本机运行。",
-          "why": "今日 GitHub Trending 日榜上榜，当日约 +3,856 星，累计约 5.7 万星。"
-        },
-        {
-          "title": "HKUDS/CLI-Anything",
-          "url": "https://github.com/HKUDS/CLI-Anything",
-          "source": "GitHub",
-          "stars": 55358,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-19",
-          "summary": "港大团队开源：让各类软件变为智能体可调用的 CLI 原生接口，配套 CLI-Hub，Apache 2.0。",
-          "why": "今日 GitHub Trending 日榜上榜，当日约 +606 星，累计约 5.5 万星。",
-          "id": "6096cc3a83ecce402b3936c5c56c1a09bfae4930",
-          "module": "github",
-          "module_name": "GitHub 热门 AI 项目",
-          "first_seen": "2026-10-16T19:35:00+08:00"
         }
       ]
     },
@@ -488,6 +484,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2112439951501521376",
+          "source": "@TechCrunch",
+          "date": "2026-10-20",
+          "summary": "TechCrunch 发推报道：Blackwall 以 22 亿美元估值完成 1 亿美元融资，继续打造帮助网站应对日益增长的机器人与 AI 流量的安全过滤工具。",
+          "metrics": {
+            "likes": 21,
+            "reposts": 3,
+            "views": 13691
+          }
+        },
+        {
+          "title": "@testingcatalog",
+          "url": "https://x.com/testingcatalog/status/2112458715223732309",
+          "source": "@testingcatalog",
+          "date": "2026-10-20",
+          "summary": "TestingCatalog 10 月 20 日 AI 日报：ChatGPT Slides 已支持 Pro、Business 与 Enterprise 用户实时协作编辑、评论和幻灯片内直接修改；OpenAI 平台新增 Decisions API 试验场等。",
+          "metrics": {
+            "likes": 67,
+            "reposts": 4,
+            "views": 6346
+          }
+        },
         {
           "title": "@deepseek_ai",
           "url": "https://x.com/deepseek_ai/status/2112476496283775135",
@@ -558,30 +578,6 @@
             "likes": 23,
             "reposts": 5,
             "views": 2972
-          }
-        },
-        {
-          "title": "@ArtificialAnlys",
-          "url": "https://x.com/ArtificialAnlys/status/2112389514404462613",
-          "source": "@ArtificialAnlys",
-          "date": "2026-10-20",
-          "summary": "Artificial Analysis：蚂蚁集团 Ming-3.0-tts 成为可控音色 TTS 竞技场开源第一（Elo 1069），并以 93.2% 并列发音鲁棒性榜第一，与 Fish Audio Drama 3 Preview 持平、领先 Eleven v4。",
-          "metrics": {
-            "likes": 53,
-            "reposts": 3,
-            "views": 7961
-          }
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2112411011948925240",
-          "source": "@business",
-          "date": "2026-10-20",
-          "summary": "彭博：近期入侵多家日本大企业的黑客使用了一款中国开发的 AI 工具，据东京一家网络安全公司称，该工具与上月韩国多家银行遭入侵事件有关。",
-          "metrics": {
-            "likes": 4,
-            "reposts": 2,
-            "views": 11832
           }
         }
       ]

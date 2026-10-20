@@ -1,7 +1,87 @@
 {
- "updated": "2026-10-20T17:45:00+08:00",
- "count": 736,
+ "updated": "2026-10-20T18:40:00+08:00",
+ "count": 744,
  "items": [
+  {
+   "title": "EgoXperience：第一视角视频全栈重建范式，自动标注引擎产出 50 小时 EgoX-Data-6M，EgoX 单次前向即可在统一世界坐标系下联合重建相机、场景、手与物体",
+   "url": "https://arxiv.org/abs/2610.26625",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "EgoX-Engine 把几何校验的物体跟踪与基于 SLAM 的世界对齐结合，为相机、场景、手和物体提供一致监督；数据覆盖室内外任务驱动的操作与移动，并带秒级任务描述，另选 1 小时作为 EgoX-Bench。给定单目第一视角视频与首帧物体掩码，EgoX 实现度量尺度联合重建，在场景估计等多项任务上达到 SOTA。今日 Hugging Face 每日论文榜前列。",
+   "id": "d2a625dc473cfffa8546ac6b83d95b5d6ec60286",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T18:40:00+08:00"
+  },
+  {
+   "title": "Self-HPO：让编程智能体交替优化“驾驭层”与策略模型、由策略自己分析失败并提出新 harness，Qwen3.5-35B-A3B 平均解决率从 57.8% 提升到 64.8%",
+   "url": "https://arxiv.org/abs/2610.22791",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "每轮先由当前策略分析自身失败、提出候选 harness（H 步），再在选定 harness 下用强化学习更新策略（P 步），训练中识别的难题构成下一轮 harness 搜索集。三项编程基准上均优于只优化 harness 或只优化策略的基线，且两者联合增益大于各自增益之和，并可泛化到分布外场景。今日登上 Hugging Face 每日论文榜。",
+   "id": "f9a2d4f27a572e5e228aacbc6850de30df0f4ad9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-20T18:40:00+08:00"
+  },
+  {
+   "title": "九章云极发布 GLM-5.3 推测解码加速方案 Alaya-DFlash2：8×H200 单并发解码速度约 288 tok/s、为原生自回归的 3.41 倍，32k 长上下文接受长度保持 5.3 以上",
+   "url": "https://news.ikanchai.com/2026/1020/669791.shtml",
+   "source": "砍柴网",
+   "date": "2026-10-20",
+   "summary": "Alaya-DFlash2 由可并行起草的草稿模型加并行路径选择器组成，基于 AlayaNeW 智算引擎围绕 GLM-5.3 训练。TP=8、8×H200 单并发时总输出吞吐从 78.95 提升到 236.47 tok/s；4 并发吞吐为原生的 2.24 倍，64 并发提升 44.9%。1k–32k 低熵上下文接受长度 4.74–5.50，均高于 IncoAI-DFlash2 与 RedHat-DSpark，11 类任务中 9 类接受长度最高。",
+   "id": "cb23bdc5a2303d6ddd6645c8488297c0a156167f",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-20T18:40:00+08:00"
+  },
+  {
+   "title": "vercel-labs/fx0",
+   "url": "https://github.com/vercel-labs/fx0",
+   "source": "GitHub",
+   "stars": 225,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-20",
+   "summary": "Vercel Labs 基于 libfx 打造的轻量设计智能体：用自然语言描述页面，智能体把它写成单个 HTML 文件。",
+   "why": "10 月 20 日（UTC+8）新建，约一天获 225 星，是近几天新建 AI 仓库星标增速前列。",
+   "id": "777f23ad5fb4db08850939229a732e3e72bcff5d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T18:40:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2112439951501521376",
+   "source": "@TechCrunch",
+   "date": "2026-10-20",
+   "summary": "TechCrunch 发推报道：Blackwall 以 22 亿美元估值完成 1 亿美元融资，继续打造帮助网站应对日益增长的机器人与 AI 流量的安全过滤工具。",
+   "metrics": {
+    "likes": 21,
+    "reposts": 3,
+    "views": 13691
+   },
+   "id": "c58ba884a3e32ab0e500cd5718ac7e3e67b81822",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T18:40:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112458715223732309",
+   "source": "@testingcatalog",
+   "date": "2026-10-20",
+   "summary": "TestingCatalog 10 月 20 日 AI 日报：ChatGPT Slides 已支持 Pro、Business 与 Enterprise 用户实时协作编辑、评论和幻灯片内直接修改；OpenAI 平台新增 Decisions API 试验场等。",
+   "metrics": {
+    "likes": 67,
+    "reposts": 4,
+    "views": 6346
+   },
+   "id": "3ebf9fad2f2acb97ac5f53c62092980b84bdb23b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-20T18:40:00+08:00"
+  },
   {
    "title": "斯坦福李飞飞、吴佳俊等提出 Halcyon：不做语言预训练、从零训练早融合自回归文生图模型，1.6B 版以 1/275 预训练算力超越 JiT-T2I-XXL",
    "url": "https://arxiv.org/abs/2610.26863",
@@ -1047,6 +1127,32 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "GoTo 联合 AI Singapore 在 Hugging Face 发布 27B 印尼语模型：基于 Gemma 3，支持印尼语、爪哇语、巽他语、巴厘语、巴塔克托巴语与英语，128K 上下文",
+   "url": "https://technode.global/2026/10/19/goto-releases-27b-indonesian-language-model/",
+   "source": "TechNode Global",
+   "date": "2026-10-19",
+   "summary": "模型于 10 月 19 日巴厘科技周发布，仓库为 GoToCompany/gemma3-27b-cpt-gotoai-v3-instruct，模型卡列明采用 Gemma 许可证。训练数据含媒体合作方与政府网站的印尼语文本，巴塔克语数据与北苏门答腊大学合作。FP16/BF16 推理约需 54–60GB 显存，建议单张 A100 80GB 或两张 L40S。延续 GoTo 与 Indosat 的 Sahabat-AI 开源模型计划。",
+   "id": "b98c4890fc8d24e7e93a1a5e3b5e4ca69d0e180f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-20T18:40:00+08:00"
+  },
+  {
+   "title": "finereli/whatsapp-mcp",
+   "url": "https://github.com/finereli/whatsapp-mcp",
+   "source": "GitHub",
+   "stars": 302,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-19",
+   "summary": "只读 MCP 服务器，让 AI 智能体搜索和阅读你自己的 WhatsApp 消息，运行在 Cloudflare Workers 上。",
+   "why": "10 月 19 日新建、已约 302 星，曾登上 Hacker News 首页。",
+   "id": "6f2aca72a3fc44028770d46b0d493aca4fa94bdc",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-20T18:40:00+08:00"
   },
   {
    "title": "Gartner 调查 2002 名 CIO：仅 13% 称企业已从 AI 获得显著或变革性价值，AI 用例成功率仍约五分之一",
