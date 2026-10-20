@@ -267,13 +267,6 @@
      "summary": "据 Politico 援引国会助手与说客，OpenAI 去年多次公开支持严格限制先进芯片对华销售，如今在相关议题上保持沉默；一名国会助手称“沉默就是在替英伟达干活”，一名说客称“目前没人想挑战总统”。此举被视为利好反对新限制的英伟达，并使 OpenAI 更贴近特朗普政府立场；英伟达今年 2 月完成对 OpenAI 300 亿美元股权投资。OpenAI 发言人称美国实验室在先进芯片上保持大幅领先是关键，有效的出口管制政策是更广泛战略的一部分；Anthropic 则继续支持多项芯片法案。"
     },
     {
-     "title": "德国亚琛地区法院沿用慕尼黑判例裁定谷歌须为 AI Mode 生成的虚假陈述担责：AI 把另一名教授的性侵指控错安到一位主任医师身上",
-     "url": "https://the-decoder.com/two-german-courts-now-hold-google-liable-for-what-its-ai-overviews-say/",
-     "source": "The Decoder",
-     "date": "2026-10-18",
-     "summary": "亚琛法院 9 月 24 日发出临时禁令（案号 8 O 268/26），认定 AI 生成的答案是谷歌自身的陈述而非对第三方内容的链接，谷歌作为“妨害人”须停止传播三项虚假说法，违者每次最高罚 25 万欧元；裁定尚未生效，谷歌可提出异议。The Decoder 获悉，谷歌此前就 5 月慕尼黑第一地区法院同类判决宣布上诉，后以和解告终，因此至今没有上级法院审查这一法理；若该观点站稳，德国 AI 搜索的商业模式与出版商权利都可能受到影响。"
-    },
-    {
      "title": "黄仁勋在柏林与德国总理默茨对谈：欧洲不应过度依赖监管，“行业不能蓬勃发展就没什么可监管的”，主张像监管互联网产品一样管 AI 应用而非底层技术",
      "url": "https://www.ithome.com/1/015/603.htm",
      "source": "IT之家 / Business Insider",
@@ -314,6 +307,13 @@
      "source": "Gizmodo / The Intercept",
      "date": "2026-10-20",
      "summary": "据国防非营利机构 CFIC 官网公开文件，ARCYBER 10 月 6–8 日举办 ECHOTRIBBLE 线上评估，65 份白皮书中选出 5 家演示、最终 1 家公司获选，将进入工作说明与合同流程；项目目前仍在白皮书/原型阶段。The Intercept 形容其设想“几乎像计算机蠕虫”，在外国网络中隐蔽移动直到找到目标。蒙特利尔大学教授 David Krueger 警告，鉴于当前 AI 的已知失效模式，让自主系统承担“消除威胁”任务“极其危险”。陆军网络司令部未回应置评。"
+    },
+    {
+     "title": "开源编程智能体 OpenCode 遭“大规模蒸馏攻击”：黑客入侵待下线的旧系统，约 1.4% Console 用户存储的 OpenAI、Anthropic、谷歌 API 密钥外泄，部分用户一夜被刷超 1700 美元",
+     "url": "https://techcrunch.com/2026/10/19/hackers-hit-ai-coding-tool-opencode-running-up-charges-on-users-ai-accounts/",
+     "source": "TechCrunch / BleepingComputer",
+     "date": "2026-10-20",
+     "summary": "OpenCode 称攻击者借 AI 智能体持续攻击其系统至少 48 小时，最早暴露时间为 10 月 17 日 00:30 UTC，被盗密钥被用于大量调用前沿模型以收集输出、训练其他模型。受影响用户已收到邮件，被要求吊销并更换密钥、检查用量，部分用户的 Google Cloud 项目因“劫持资源”被暂停；OpenCode 表示正与 OpenAI、Anthropic 和谷歌协同处置，并可能为受影响用户报销。联合创始人 Dax Raad 称，改用 OpenAI 的 Daybreak 网络安全模型做防御后局势才趋于稳定。"
     }
    ]
   },
