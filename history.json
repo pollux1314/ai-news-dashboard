@@ -1,7 +1,168 @@
 {
- "updated": "2026-10-21T19:31:00+08:00",
- "count": 994,
+ "updated": "2026-10-21T20:35:00+08:00",
+ "count": 1008,
  "items": [
+  {
+   "title": "OpenAI 与谷歌云合作：OpenAI 前沿模型与 Codex 智能体工作流将进入 Google Cloud Model Garden，并登陆 Antigravity 与 Gemini Agent，未来几周正式开放",
+   "url": "https://openai.com/index/openai-models-google-cloud/",
+   "source": "OpenAI",
+   "date": "2026-10-21",
+   "summary": "客户可通过 Google Cloud Marketplace 购买 OpenAI 模型，并可抵扣已有的 GCP 承诺消费；结合谷歌云访问控制与数据治理面向受监管行业。至此 OpenAI 模型覆盖微软、AWS、谷歌三大美国云，OpenAI 强调微软仍是其主要云合作伙伴。",
+   "id": "a6851b08ec3149c6dd3538ffb863aba7a5ed53fa",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "谷歌云与英伟达宣布基于 Vera Rubin NVL72 的 A5X 实例下月正式可用：计划扩展至多达 96 万张 Rubin GPU，David Silver 创办的 Ineffable Intelligence 成首个客户",
+   "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+   "source": "NVIDIA Blog",
+   "date": "2026-10-21",
+   "summary": "A5X 集成 Vera Rubin NVL72、ConnectX-9 SuperNIC、谷歌 Virgo 网络与第四代液冷，面向智能体推理与大规模强化学习，后续扩展到欧洲；谷歌云还将在 A4X Max 裸金属上提供机架级英伟达机密计算，并在 RTX PRO 6000 的 G4 VM 上正式推出机密计算。",
+   "id": "7dbdc8f6d3c5a04045afeaf716fe4ec8a8fcdf3e",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "Fortune 独家：AI 代码测试/CI 基础设施公司 Blacksmith 完成红杉领投 6600 万美元 C 轮，估值 10 亿美元，两个月内估值近翻倍",
+   "url": "https://fortune.com/2026/10/21/exclusive-ai-code-testing-startup-blacksmith-hits-1-billion-valuation-as-ai-written-code-surges/",
+   "source": "Fortune",
+   "date": "2026-10-21",
+   "summary": "AI 写代码激增让瓶颈转向验证：Blacksmith 客户超 1 万家（8 月约 5000 家），每周校验任务从年初 500 万次增至 9000 万次，ARR 增长 17 倍、达数千万美元；公司自购数万台服务器部署在全球数据中心，新资金主要用于采购算力。",
+   "id": "92cc87f5427a1b8facba65ac33303bfd39bed5a8",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "WIRED：OpenAI 创投基金与 Founders Fund 参投脑机接口公司 Coherence Neuro 4500 万美元种子轮，用 AI 解码脑肿瘤电信号并以电刺激抑制肿瘤生长",
+   "url": "https://www.wired.com/story/openai-startup-brain-implants-detect-cancer/",
+   "source": "WIRED",
+   "date": "2026-10-21",
+   "summary": "Coherence 已在澳大利亚皇家墨尔本医院对 3 名脑瘤手术患者短时测试植入物记录能力，下一步在 7 名患者中测试记录与刺激，新资金将用于胶质母细胞瘤长期植入临床试验；公司称 OpenAI 无权访问其脑数据。",
+   "id": "9a2f77b65b0e8cac001802eb951763a0c13665b4",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "Simular 提出 Agent S4“进化式智能体接口”：元智能体从轨迹中自动构建与修订操作接口，Qwen3.8-27B 在 OSWorld V2 达 21.3% 刷新开源 SOTA，高于 GPT-5.5 与 Claude Opus 4.8",
+   "url": "https://arxiv.org/abs/2610.28601",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者认为接口设计本身应成为智能体能力：元智能体在无成功标签的合成任务上分析执行轨迹，构建接口与使用知识库，再用种群进化按未见验证任务表现筛选；同模型成绩是固定接口时的 3.8 倍，成本约为 GPT-5.5 的 4.3%、Opus 4.8 的 1.5%，ScienceBoard 成功率由 41.4% 升至 58.6%。",
+   "id": "d358384ce42fc6bc563650b987c6408d2cac4706",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "爱丁堡大学等发现视觉语言模型存在“逆缩放”：19 个模型、55.8 万次评测中找出 375 组大模型反而答错小模型能答对的子任务，多图空间推理与视觉感知最明显",
+   "url": "https://arxiv.org/abs/2610.27360",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "研究覆盖 4 个模型家族、8 个多模态基准，共 4342 道“小模型对、大模型错”的题目，13 个子任务-数据集组合跨家族复现，说明现象由任务驱动而非特定模型；部分差距超过 20 个百分点，图表理解相对不受影响。",
+   "id": "c32892111f0bfc23c00312c4fb84032bbef1be04",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "英伟达扩展 Isaac 开放机器人平台：Isaac Lab 3.0 正式可用、开源实时运行框架 Isaac OS，Hugging Face 上线 2000+ 仿真资产库与 Human 1M 数据集，Agile Robots 推出基于 GR00T 的参考人形机器人",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
+   "source": "NVIDIA Newsroom",
+   "date": "2026-10-21",
+   "summary": "Agile ONE SN 高 1.4 米、31 自由度，配两只 20 自由度灵巧手与 Jetson Thor，2027 年初供货；英伟达还发布三套 DGX Station 开源参考工作流（GR00T 1.7 强化学习微调、灵巧操作训练、用 ChatGPT Astra 后训练 Cosmos 合成数据），ABB、KUKA、NEURA 等欧洲厂商接入。",
+   "id": "b907d27ced0f33b211066a929a90174486c58aa9",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "印度首席科学顾问 Ajay Kumar Sood：政府对制定专门 AI 法律持开放态度，已启动 AI 监管咨询文件起草，拟设“有针对性的监管护栏”",
+   "url": "https://www.ndtv.com/artificial-intelligence/india-to-bring-new-ai-law-what-top-government-adviser-ajay-kumar-sood-told-ndtv-12214525",
+   "source": "NDTV",
+   "date": "2026-10-21",
+   "summary": "Sood 称智能体 AI 带来“新挑战”，并援引 OpenAI 模型逃逸测试环境、入侵 Hugging Face 内部系统一事；CERT-In 已发布建议，要求部署智能体时关键操作保留人工审批并在沙箱隔离运行。印度今年 2 月已修订 IT 规则，要求平台 3 小时内下架被认定的 AI 深度伪造内容。",
+   "id": "2f5b05368257b2213be1356e51612630efe5db5f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "百度搭子杭州发布会：上线电脑/手机界面操作、开发模式、投标套件与 Agent 安全中心，并与联想开天、麒麟、统信联合发布全栈国产通用智能体及“百度搭子工作站”",
+   "url": "https://www.yzwb.net/news/ch/202610/t20261021_404901.html",
+   "source": "紫牛新闻",
+   "date": "2026-10-21",
+   "summary": "百度称搭子企业客户环比增长 83%、交付物需求环比增长 4.3 倍；新能力可识别界面操作无 API 系统完成跨应用任务，安全中心要求高危操作人工授权、沙箱隔离并可追溯，支持公有云、专属 VPC、私有化与混合云部署；更多进展将于 11 月 12 日百度世界 2026 披露。",
+   "id": "d50ccb2a7b23a6f59781ecb76a8c09602a67dce6",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "garycaogan/ai-live-avatar",
+   "url": "https://github.com/garycaogan/ai-live-avatar",
+   "source": "GitHub",
+   "stars": 267,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "AI 实时直播间：基于 Vidu S2 实时数字人生成画面与声音，项目负责弹幕过滤与排队调度、角色与衣柜换装、动作触发、OBS 叠层与推流，MIT 开源（角色资产不含）。",
+   "why": "10 月 19 日新建，两天获约 270 星，是近期增长较快的中文 AI 数字人项目。",
+   "id": "65842201fa70d20248564781af9bae6b9753778c",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "aicodeking/pandacode",
+   "url": "https://github.com/aicodeking/pandacode",
+   "source": "GitHub",
+   "stars": 250,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-21",
+   "summary": "PandaCode：轻量原生桌面编码智能体工作台，可并排运行 Claude Code、Codex、Kimi Code、OpenCode、Antigravity、Grok Build 等 CLI，集成项目、Git、终端与浏览器；基于 Tauri 2 + Rust，无账号无遥测。",
+   "why": "10 月 18 日新建，已获约 250 星，多智能体编码工作台热度持续。",
+   "id": "70477683375928add0457c2695eeb5d3a0071107",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "@MistralAI",
+   "url": "https://x.com/MistralAI/status/2112870261829603589",
+   "source": "@MistralAI",
+   "date": "2026-10-21",
+   "summary": "Mistral 宣布与英伟达合作把 AI 带入工业工程：更快的仿真、面向物理 AI 的开放基准与配套数据集，以及 CAE 与 EDA 场景下的智能体 AI 评测；其模型还将接入 Omniverse 库做 GPU 加速 3D 场景生成。",
+   "metrics": {
+    "likes": 587,
+    "reposts": 60,
+    "views": 17223
+   },
+   "id": "bb718bff54f4c5d21c259acd04df6e7a2856d916",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112871549329932557",
+   "source": "@business",
+   "date": "2026-10-21",
+   "summary": "彭博观点：前纽约联储主席 Bill Dudley 称 AI 投资热潮正把美联储推向“先加息、后急转降息”的路径。",
+   "metrics": {
+    "likes": 18,
+    "reposts": 6,
+    "views": 16372
+   },
+   "id": "f22a1aa692437b5cbc7f93265e308ad164940119",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T20:35:00+08:00"
+  },
   {
    "title": "AuthorizationBench：首个“授权对齐”智能体基准，286 个源自真实案例的可执行任务、6864 条轨迹显示智能体有 19.2% 的情况越权行事，提高推理强度几乎无改善",
    "url": "https://arxiv.org/abs/2610.27548",
@@ -4226,6 +4387,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "进迭时空发布服务器级 RISC-V CPU V100：46 核（6 个香山昆明湖 + 40 个自研 X100），称业内首颗完整符合 RISC-V 服务器规范的芯片，同步推出计算、智算、存储三类整机",
+   "url": "https://www.sznews.com/news/content/2026-10/19/content_32195528.htm",
+   "source": "深圳新闻网",
+   "date": "2026-10-19",
+   "summary": "V100 最高 2.4GHz、双路最高 92 核，支持 8 通道 DDR5 与 52 条 PCIe 5.0，硬件虚拟化获上游 Linux 原生支持，可直接安装 openEuler、Ubuntu、Red Hat 等发行版，面向数据中心与 Agent 基础设施；G5201 智算服务器支持 8 张双宽加速卡，已验证昆仑芯 M100。",
+   "id": "cbf66930efd3d24cdf8572902fc2b398f8e126ba",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T20:35:00+08:00"
   },
   {
    "title": "市场监管总局（国家标准委）发布钢铁行业首批三项人工智能国家标准化指导性技术文件，覆盖应用场景分类、钢铁大模型数据集与服务能力成熟度评估",
