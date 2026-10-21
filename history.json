@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-21T11:45:00+08:00",
+ "updated": "2026-10-21T11:30:00+08:00",
  "count": 923,
  "items": [
   {
@@ -15,7 +15,7 @@
    "id": "b1b56e3e70bd7d63fedcd4e6d4530fac38e87cac",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "AgriciDaniel/claude-seo",
@@ -30,7 +30,7 @@
    "id": "117d2cb5f38ac92cd1847dee375ec1daf579a2ff",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "@DarioAmodei",
@@ -46,7 +46,7 @@
    "id": "6cc110bb51e603c85539c1af0ad3224925be23a8",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "humans& 发布首个模型 Ampersand v0.1：定位“协作者”模型，用长周期社交模拟训练，帮助个人与群体达成长期目标，今起通过 Agents API 开放、无需排队",
@@ -148,7 +148,7 @@
    "id": "b287e312f13533c7ef55e88d9368084fa65cc123",
    "module": "models",
    "module_name": "大模型与产品发布",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "Azure DevOps 插件登陆 Microsoft Copilot：可在 Copilot Chat、Cowork 与 Code 中直接管理工作项、PR、测试计划与流水线，内置分拣 Bug、把需求拆成史诗/特性/用户故事的技能",
@@ -159,7 +159,7 @@
    "id": "3321a08b60af53865463d9f023f996396cb54fb2",
    "module": "models",
    "module_name": "大模型与产品发布",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "推理云 General Compute 与 Positron AI 合作：采购 Atlas 推理系统并承诺采购下一代 Titan（基于自研 Asimov 芯片），2027 年一季度起向客户提供",
@@ -170,7 +170,7 @@
    "id": "ccba6840e28b5a1adba13496816a67dd80241dfb",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "Sage-A1.5：35B MoE 智能体模型，强调“能力组合”——子智能体并行协作与任务委派、进度核查与证据验证式的自我纠偏，并把能力延伸到开放式科学探索",
@@ -181,7 +181,7 @@
    "id": "063c5fe3763740d643794e3580ea800d269548b5",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "New Scientist：逾千名数学家加入“人类数学家协会”（AHM），承诺不为 AI 公司工作、不用聊天机器人写论文，其中一部分进一步承诺研究中完全不用 AI",
@@ -192,7 +192,7 @@
    "id": "081295709fccdeeeaf190162dda023cd775b6360",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "英伟达 GEAR 实验室开源 Flora 模型套件：把机器人与人类第一视角视频自动标注为带时间戳的动作指令、过程奖励与失败原因，称成本约为 GPT-6 Astra 的 1/125",
@@ -203,7 +203,7 @@
    "id": "e5f40dbd6f9fc686ceb42c2a8bf7471becce8818",
    "module": "opensource",
    "module_name": "开源与工具",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "工信部印发《“人工智能+软件”专项行动实施方案》：到 2028 年智能编程工具推广覆盖 2 万家规上软件企业，实施 100 项智能化技改、打造 100 个智能体软件标杆应用",
@@ -214,7 +214,7 @@
    "id": "eb30380b750f8a634cf0be3aa67c0496f9907aba",
    "module": "policy",
    "module_name": "政策与监管",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "工信部：正研究起草新一代智能制造政策措施，推动 AI 与制造业全链条融合，将梯度培育智能工厂并“稳妥开展工业智能体研发与应用验证”",
@@ -225,7 +225,7 @@
    "id": "b9b0272bb54ee3661441e942eeb948b6cadaa1b1",
    "module": "policy",
    "module_name": "政策与监管",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "字节 Seed 模型评测负责人、零一万物联合创始人黄文灏离职，加入字节约两年，消息称下一步或创业",
@@ -236,7 +236,7 @@
    "id": "40745fad58d609c8bb7aff188e4e68dc758f9915",
    "module": "china",
    "module_name": "国内 AI 动态",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "@yunzeman",
@@ -252,7 +252,7 @@
    "id": "6346ef3ce9bf4dcef86e5b42ab406026af1a52d9",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-21T11:45:00+08:00"
+   "first_seen": "2026-10-21T11:30:00+08:00"
   },
   {
    "title": "澳大利亚数据中心商 NEXTDC 因墨尔本公众反对导致数据中心供电延误，暂停全部新开发项目并下调营收预期",
