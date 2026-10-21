@@ -1,7 +1,202 @@
 {
- "updated": "2026-10-21T17:32:00+08:00",
- "count": 973,
+ "updated": "2026-10-21T18:29:00+08:00",
+ "count": 989,
  "items": [
+  {
+   "title": "英伟达 GTC Berlin 扩充开放模型家族：新增结构化数据基础模型 Kumo、Cosmos 3.5 世界模型、Alpamayo 2 Edge 车端推理模型、Nemotron Retriever 及量子计算模型 Ising",
+   "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
+   "source": "NVIDIA Blog",
+   "date": "2026-10-21",
+   "summary": "英伟达把这批开放模型定位为欧洲“主权智能”的底座，让企业用本地数据定制、部署在自己掌控的基础设施上。Kumo 隶属新的 Agent Knowledge Foundation，含面向关系/表格预测、预测与异常检测的 Kumo Structured 模型和开源库栈 Kumo Engine，Coinbase、Databricks、DoorDash、Revolut 等首批试用；Cosmos 新增后训练与优化工具及驾驶/操作仿真检查点；Nemotron Retriever 覆盖嵌入、重排与文档解析，Black Forest Labs、H Company、Mistral 等欧洲伙伴参与 Nemotron 联盟。",
+   "id": "be11c18d48ff6273522b94859f1486ce46f7d96d",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "英伟达发布 DSX POD：由合作伙伴在工厂内把 Vera Rubin AI 工厂整体装进模块化集装箱并预先验证，现场部署时间从约 6 个月缩短到最快 14 天，2027 年初交付",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385267/0/en/nvidia-introduces-dsx-pod-ai-factories-to-accelerate-europe-s-infrastructure-deployment.html",
+   "source": "NVIDIA / GlobeNewswire",
+   "date": "2026-10-21",
+   "summary": "计算、网络、布线、机架级供电与液冷都在工厂完成集成和功能验证，运到已备好电力、冷却与网络的场地即可接入。参与方包括 Anduril、Bull、Crusoe、戴尔、HPE、联想、富士康、广达、施耐德电气、Vertiv、纬创等。英伟达同日公布 DSX 平台欧洲进展：闭环液冷加干冷器可让设施冷却用水接近零，DSX MaxLPS 软件可用约少 30% 的电力产出同等 token，CoreWeave、Google Cloud、Lambda、Nebius、Nscale 等正在评估。",
+   "id": "3e8e69f83d8dcf92301a49cff7beb6a66fcb2159",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "Bolt 选用英伟达 Alpamayo 自动驾驶软件栈推进欧洲 Robotaxi：计划在欧洲部署至少 2.5 万辆基于 Hyperion 平台、具备 L4 能力的未来 Lucid 车型，2027 年起在马德里采集路测数据",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385334/0/en/european-mobility-leaders-build-safe-vehicles-and-robotaxi-fleets-on-nvidia-hyperion.html",
+   "source": "NVIDIA / GlobeNewswire",
+   "date": "2026-10-21",
+   "summary": "GTC Berlin 上，英伟达称大众商用车 ID. Buzz AD、Einride 自动驾驶卡车也基于 Hyperion，沃尔沃采用 Hyperion 与 Alpamayo Stack，奔驰与英伟达合作的 MB.DRIVE ASSIST PRO 城市点到点辅助驾驶即将在德国获批。英伟达还推出 Halos SAFE 安全评估框架（dSPACE、TÜV 莱茵等参与）、2B 参数车端推理模型 Alpamayo 2 Edge（跑在 DRIVE AGX Thor 上，10Hz），以及 2027 年初开放的 Alpamayo Agentic Factory 蓝图；Bolt 的测试仍需监管批准，德国为后续优先市场。",
+   "id": "8da9c808a90d0c13cea9a321b1646e3eff0d0282",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "戴尔 CEO 迈克尔·戴尔：手握约 950 亿美元未交付 AI 服务器订单、创历史新高，瓶颈在内存，预计 2027 年短缺进一步恶化，2029–2030 年才有显著新增产能",
+   "url": "https://www.ithome.com/1/015/654.htm",
+   "source": "IT之家（援引《华尔街日报》）",
+   "date": "2026-10-21",
+   "summary": "他在接受《华尔街日报》采访时表示，AI 加速芯片消耗大量 HBM，配套服务器仍依赖传统 DRAM，新建内存厂约需四年。这一判断与美光（2027–2028 年供应更紧）和 SK 海力士（短缺持续至 2030 年）的说法一致；戴尔应对方式是临近组装再采购 DRAM 并签长期供货协议，去年底已把 PC 提价 15%–20%。",
+   "id": "52f2ae1157786ea34f7e294c65670b24907b4bc9",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "韩媒：英伟达下一代 Groq LPU 推理芯片拟改用 TSV 工艺 3D 堆叠 DRAM，放弃当前的大容量 SRAM 方案",
+   "url": "https://www.ithome.com/1/015/760.htm",
+   "source": "IT之家（援引 ZDNET Korea）",
+   "date": "2026-10-21",
+   "summary": "现款 Groq LPU 依靠片上大 SRAM 实现快速解码，但 SRAM 容量小、先进制程的密度收益有限，在大模型支持与芯片迭代上存在局限。同样走大 SRAM 路线的 Cerebras 此前也已预告 CS-6 将首次 3D 垂直集成 DRAM。该消息为媒体报道，英伟达未置评。",
+   "id": "3e4202fc0ec1fe92d89278f1fbeddf1c334f26a3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "“记忆越多、智能体越差”：印第安纳大学指出经验记忆中的“错误再生产”——存下来的规则/技能一旦有错，会经执行与再抽象循环反复复现，提出“反持久化”记忆设计",
+   "url": "https://arxiv.org/abs/2610.27406",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者发现，智能体把从轨迹中归纳的规则、摘要与技能长期保存再复用时，错误不仅被直接检索复用，还会塑造新的执行轨迹、再被抽象成新知识，从而远超原始错误的存续时间。Anti-Persistence 只累积原始轨迹与结果，按需临时合成任务指导、用后即弃，由自适应选择器依据过往结果决定是否以及如何合成。跨多个基准与骨干模型，它取得最高的留出集成功率与最低的平均 LLM 调用成本。",
+   "id": "01b0f1822cff1af9813c7deee24caa50e126cdea",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "通义 Qwen-Character 团队提出 HarnessRL：让训练“外壳”与策略共同进化，按奖励失效原因动态调整任务采样、rollout 引导与评分细则，开放式 RL 提升约 3 分并减半训练步数",
+   "url": "https://arxiv.org/abs/2610.26426",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "论文指出基于 rubric 的开放式强化学习常出现两类失效：分数塌缩到全高或全低的“无区分度奖励”，以及分高不等于回答好的“虚假奖励”。HarnessRL 维护训练期记忆，演化器把每次奖励失效归因到相应接口，再由提议者与“即时评审”循环生成更新，评审须在当前冻结策略上实测有效才接受。在新构建的医疗、科学、写作、角色扮演、指令遵循五领域 Rubric-Mix-10k 上，4B 与 9B 模型均比最强基线高 2.8–3.1 分，代码与数据已开源。",
+   "id": "8a4c2ef238e342ea5aef727c68bf8a7023c11ad3",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "S-Agent 2.0：给通用编码智能体（可接 Codex、Claude Code）配命令行 3D 感知工具包与持久场景记忆做空间推理，Qwen3.8-27B 在 MMSI-Bench / ReVSI 上分别提升 13.9 / 20.5 分",
+   "url": "https://arxiv.org/abs/2610.28354",
+   "source": "Hugging Face Daily Papers / arXiv",
+   "date": "2026-10-21",
+   "summary": "Ropedia 团队认为空间推理的短板常在“工具读数到结论”之间：工具给出了正确证据，模型却得不出正确答案。S-Agent 2.0 围绕“闭合证据环”设计接口——获取场景证据、写入持久场景记忆、用自然空间语言解释每次读数。开源骨干下达到 MMSI-Bench 66.5、ReVSI 82.3，超过同骨干的专用系统 SpatialClaw（62.6、74.5）；配 Gemini-3.8-Flash 达 74.1 与 90.5，且随骨干变强，工具增益衰减明显小于对手。",
+   "id": "8438a24305e43c268abb038dae40be0713524a39",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "商汤开源具身智能评测与自我改进框架 SenseNova-RoboRSI，并推出 27B 机器人“大脑”模型 RoboRSI-27B-Preview，称完成具身任务成本约为 GPT-6-Astra 的 1/50",
+   "url": "https://pandaily.com/sensetime-sensenova-roborsi-open-source-embodied-ai-harness-27b-preview",
+   "source": "Pandaily",
+   "date": "2026-10-21",
+   "summary": "框架（Apache 2.0）把每个仿真基准及依赖打包为独立 Docker 镜像，经统一 HTTP API 提供环境交互与原生评分，可用配置文件端到端跑评测，并以执行轨迹与反馈递归改进 Harness。27B 模型把验证过的交互经验写入权重以减少试错，商汤自测 RoboDojo 得分 26.13、任务成功率 20.83%，LIBERO-Pro 超 90，RoboCasa365 成功率从 26.0% 提至 46.5% 且 token 用量降 73%。GitHub 仓库显示权重页面已建，发布路线图仍在推进，成绩均未经独立验证。",
+   "id": "074e6b695807eb3efa49a727c87ddfdb70b92176",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "韩国《AI 基本法》修订案通过：政府资助项目中构建或产出的 AI 训练数据须接入国家 AI 数据平台 AI Hub 对外提供，明年 4 月施行，政企共投数据披露范围与商业秘密豁免标准仍待细则",
+   "url": "https://www.digitaltoday.co.kr/en/view/117235/mandatory-disclosure-of-ai-training-data-from-government-backed-projects-raises-questions-over-detailed-criteria",
+   "source": "Digital Today",
+   "date": "2026-10-21",
+   "summary": "修订案 10 月 1 日经国会全体会议通过、10 月 13 日获内阁批准，旨在避免政府预算构建的数据被个别机构或企业独占。项目方可以商业秘密、个人信息、版权或国家安全为由，与科技部长协商后排除提供。争议焦点是“自主 AI 基础模型”等政企共投项目中，企业自费获取或再加工的数据是否也须公开；科技部称年内拿出施行令草案。",
+   "id": "62674c19685fb4d097b35eda8cb25a3a2a6ec4ee",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "摩洛哥首设人工智能部：国王任命前竞争委员会主席 Ahmed Rahhou 为人工智能、数字化转型与行政改革部长，但 AI 框架法与专门司局仍未落地",
+   "url": "https://innovation-village.com/morocco-appoints-first-ai-minister-as-it-pushes-to-build-a-10-billion-ai-economy/",
+   "source": "Innovation Village",
+   "date": "2026-10-21",
+   "summary": "新部门由原数字转型部长级代表职位升格为完整部级，10 月 19 日完成交接。前任留下的 Morocco AI 2030 路线图目标是到 2030 年为 GDP 增加约 100 亿美元、创造 5 万个 AI 相关岗位、培训 20 万人，并包括与 Mistral AI 共建研发实验室和主权 AI 市场。新政府 2026–2031 施政纲领承诺制定安全负责任的 AI 框架，但未给出时间表。",
+   "id": "f901e1f8d5171de123a18cb93329e5512f5db6de",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "36氪：物理空间智能基础设施公司「乙太科技」连续完成种子轮及天使轮、累计超亿元，华为哈勃、智元、自变量、高瓴等投资，打造为具身智能与世界模型服务的“物理空间引擎”",
+   "url": "https://www.163.com/dy/article/L9OPE7HN05118DFD.html",
+   "source": "36氪 / 网易",
+   "date": "2026-10-21",
+   "summary": "公司成立于 2025 年 12 月，创始人兼 CEO 杨叶青曾任 HTC VIVE Chief of Staff 及中国区元宇宙事业部负责人。其引擎分输入、核心能力、空间资产、平台与应用五层，把现实空间持续“编译”为可计算、可编辑、带物理约束与交互属性的空间资产；现阶段优先采集人类双手交互数据，称精度可达亚毫米级。公司强调不做世界模型的生成，而是做其底层基础设施，已在机器人与世界模型领域开展合作。",
+   "id": "43a1f98307e7a8adea670a8a12a4fb541d3b8ffe",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "shy3130/tick-stock-panel",
+   "url": "https://github.com/shy3130/tick-stock-panel",
+   "source": "GitHub",
+   "stars": 6204,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "TSP：自托管、零运维的 A 股“自建策略 + 监控 + 回测”量化工作台，用 LLM 驱动策略定制、个股分析与复盘，可接入第三方数据源（FastAPI + DuckDB/Polars + React，MIT 许可）。",
+   "why": "今日登上 GitHub Trending Python 日榜，总星数约 6200、fork 近 1500。",
+   "id": "8d6edd0c89456a5363543437e7571727a1610a89",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "@nvidia",
+   "url": "https://x.com/nvidia/status/2112847277282721888",
+   "source": "@nvidia",
+   "date": "2026-10-21",
+   "summary": "英伟达：黄仁勋在 GTC Berlin 发布 OpenShell 参考架构，帮助企业为 AI 智能体划定边界、并在越界时将其叫停。",
+   "metrics": {
+    "likes": 73,
+    "reposts": 10,
+    "views": 11168
+   },
+   "id": "b9af6aa9518dc8534ee0cf3c78efa3a93e5c953b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "@NVIDIAAI",
+   "url": "https://x.com/NVIDIAAI/status/2112847569827348804",
+   "source": "@NVIDIAAI",
+   "date": "2026-10-21",
+   "summary": "NVIDIA AI：GTC Berlin 发布更多开放模型，帮助欧洲团队用自有数据、在自控基础设施上构建专用智能体、训练机器人与设计蛋白质。",
+   "metrics": {
+    "likes": 48,
+    "reposts": 5,
+    "views": 2866
+   },
+   "id": "a9c7873b19d96dc9663b703a3c3e3c5c93200e83",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112849355090559438",
+   "source": "@testingcatalog",
+   "date": "2026-10-21",
+   "summary": "TestingCatalog：英伟达推出 OpenShell 参考架构和 DSX POD，在已备好的场地部署 AI 工厂从 6 个月缩短到 14 天。",
+   "metrics": {
+    "likes": 15,
+    "reposts": 1,
+    "views": 1672
+   },
+   "id": "92d3502c8a7a31ada891a5202bfb6bb8546f0cce",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T18:29:00+08:00"
+  },
   {
    "title": "Tether 领投 AI 智能体支付基础设施公司 Mural 1500 万美元 A 轮融资，累计融资达 2800 万美元，押注“智能体金融”",
    "url": "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural",
