@@ -1,7 +1,115 @@
 {
- "updated": "2026-10-22T00:30:00+08:00",
- "count": 1066,
+ "updated": "2026-10-22T01:40:00+08:00",
+ "count": 1078,
  "items": [
+  {
+   "title": "Asymptote-Labs/agent-beacon",
+   "url": "https://github.com/Asymptote-Labs/agent-beacon",
+   "source": "GitHub",
+   "stars": 2360,
+   "stars_week": null,
+   "language": "Go",
+   "date": "2026-10-22",
+   "summary": "给编程智能体的“自改进记忆层”：采集 Claude Code、Cursor、Codex、OpenCode 等 20 多种 Harness 的会话历史，把有效工作流、纠错与调试模式沉淀成可复用知识供后续智能体调用，MIT 许可，可用 Homebrew 安装。",
+   "why": "今日登上 GitHub Trending Go 日榜（单日约 +447 星），总星数约 2400。",
+   "id": "b10ff880275a6594f8cf89154fbd694446ec5345",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "lyogavin/airllm",
+   "url": "https://github.com/lyogavin/airllm",
+   "source": "GitHub",
+   "stars": 40113,
+   "stars_week": null,
+   "language": "Jupyter Notebook",
+   "date": "2026-10-22",
+   "summary": "逐层加载权重的低显存推理库：无需量化、蒸馏或剪枝，称可在 4GB 显存单卡跑 70B 模型、不到 4GB 跑 2.8T 的 Kimi K3、约 12GB 跑 DeepSeek-V3；9 月起新增训练支持，Qwen3.8-Flash-Next（125B）6GB 内可训练，Apache 2.0。",
+   "why": "今日登上 GitHub Trending Jupyter Notebook 日榜（单日约 +386 星），总星数破 4 万。",
+   "id": "26149269af1e40c4a59769ff25c55b55dbc1b7ee",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "openai/codex",
+   "url": "https://github.com/openai/codex",
+   "source": "GitHub",
+   "stars": 130288,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-22",
+   "summary": "OpenAI 官方终端编程智能体 Codex CLI（Rust 实现），Apache 2.0；10 月 21 日刚发布 0.164.0-alpha.9 预发布版。",
+   "why": "今日登上 GitHub Trending Rust 日榜（单日约 +538 星）；同日 OpenAI 还发布 Codex 技能帮开发者自查网站是否受 php2shell 漏洞影响。",
+   "id": "a53af4b5fcbbb54cc4616be3c385d80d214c1845",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "multica-ai/multica",
+   "url": "https://github.com/multica-ai/multica",
+   "source": "GitHub",
+   "stars": 53436,
+   "stars_week": null,
+   "language": "Go",
+   "date": "2026-10-22",
+   "summary": "开源可自托管的人机协作平台，目标是让人类与 AI 智能体像一个团队一样分工协作。",
+   "why": "今日登上 GitHub Trending Go 日榜（单日约 +120 星），总星数逾 5.3 万，10 月 21 日仍在持续提交。",
+   "id": "d3e15fd66da7c2df86e6192781ed7a22aa2e9424",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2112946750264676743",
+   "source": "@AnthropicAI",
+   "date": "2026-10-22",
+   "summary": "实验物理学家、哈佛前理学院院长 Christopher Stubbs 加入 Anthropic 长期利益信托，他也曾就国家安全与军控向美国政府提供咨询。",
+   "metrics": {
+    "likes": 675,
+    "reposts": 42,
+    "views": 56330
+   },
+   "id": "69d42802db9b2d37b3d2e28465cd3346e7798395",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "@MSFTResearch",
+   "url": "https://x.com/MSFTResearch/status/2112939825804243012",
+   "source": "@MSFTResearch",
+   "date": "2026-10-22",
+   "summary": "微软研究院：新研究解决了困扰数十年的 KLS 猜想，扫除理解科学计算中常用随机算法效率的一大障碍。",
+   "metrics": {
+    "likes": 9,
+    "reposts": 1,
+    "views": 1857
+   },
+   "id": "7bc27c5ac08205bdf5dc9fe667245946570422c0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "@alexeheath",
+   "url": "https://x.com/alexeheath/status/2112937498305564789",
+   "source": "@alexeheath",
+   "date": "2026-10-22",
+   "summary": "Sources 播客专访皮查伊：“连谷歌都拿不到足够算力”，谈 Gemini 4 Argon 早期反响、DeepMind 领导层调整、个人智能体计划、自由现金流转负与 AI 基建风险，以及太空数据中心、Waymo 扩张等。",
+   "metrics": {
+    "likes": 47,
+    "reposts": 2,
+    "views": 21888
+   },
+   "id": "c63c5531a0ae5ef02f50cba8fc1ea6492d8ee684",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
   {
    "title": "Panniantong/Agent-Reach",
    "url": "https://github.com/Panniantong/Agent-Reach",
@@ -93,6 +201,61 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "Anthropic 长期利益信托（LTBT）新增受托人：哈佛前理学院院长、实验物理学家 Christopher Stubbs 加入，该信托有权任命 Anthropic 董事会多数席位",
+   "url": "https://www.anthropic.com/news/christopher-stubbs-joins-long-term-benefit-trust",
+   "source": "Anthropic",
+   "date": "2026-10-21",
+   "summary": "Stubbs 1998 年作为 High-Z 超新星搜寻团队成员参与发现宇宙加速膨胀，曾任鲁宾天文台首任项目科学家，也是为美国政府提供国防与技术咨询的 JASON 成员，近来撰文讨论模型对同一问题给出不同答案时如何保证 AI 辅助研究可复现。他是信托首位物理学家，与主席 Neil Buddy Shah、国安专家 Richard Fontaine 及前美联储主席伯南克共事；受托人独立于公司管理层与投资者，就 AI 风险与社会影响等关键决策向董事会提供建议。",
+   "id": "b12d9d8f20127ff65254e97c85104a407eed79b1",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "微软研究院宣布解决 31 年未决的 KLS 猜想：研究员张心之与 Zhao Song 在人类主导的多智能体搜索中探索约 100 条路线，证明对数凹分布的 KLS 常数有与维度无关的上界",
+   "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+   "source": "Microsoft Research / arXiv 2610.01447",
+   "date": "2026-10-21",
+   "summary": "KLS 猜想 1995 年提出，问高维对数凹分布中“最佳平面切割”是否总与任意形状的最佳切割只差一个常数，决定了高维随机游走采样的效率。作者先借 AI 智能体在高阶张量计算中得到新判据，再递归反复套用并证明误差累积有界，10 月 4 日版论文完成证明。同日另有专家团队独立给出完整证明，第三份证明及 Lean 4 形式化随后出现。微软称 AI 负责探索候选思路、推导与内部校验，数学方向与最终论证由研究者完成；用相近 token 预算让多款前沿模型无引导端到端求解则未能成功。",
+   "id": "2ed826e28d2308dd5b2a061ecc00f755984e1b58",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "Épi：可跨会话持续推进的自改进科研智能体，产出 120 项数学纪录（含 n 皇后常数区间收窄约 84 倍），并证明 Cohn-Elkies 线性规划界在 10、11 维不可能取到",
+   "url": "https://arxiv.org/abs/2610.24944",
+   "source": "arXiv / Hugging Face Daily Papers（BakeLab）",
+   "date": "2026-10-21",
+   "summary": "Épi 结合持久研究历史、分层记忆、分支探索与独立评审，实验跨模型会话运行并由固定验证器评判，共得到 20 项数值界纪录与 100 项构造纪录，四次 Feigenbaum 吸引子维数的严格区间收窄逾 360 万倍，并给出 Tuza 猜想某类分裂图情形的计算机辅助证明。轻量配置 Épi-turbo 面向车辆路径、排产等运筹求解器开发，在 30 个 FrontierOR 任务上用相同模型与推理强度，总分比 Codex 高 5.4%、成本仅其 64%。",
+   "id": "569b99be4ee78261f4e16cf384fe9a792296a4dd",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "腾讯 HarnessAdapt-RL：强化学习中同时训练策略与进化 Harness，9B 模型在 SWE-bench Verified/Multilingual/Pro 上 pass@1 比 GRPO 分别高 9.8、12.6、6.4 个百分点",
+   "url": "https://arxiv.org/abs/2610.28069",
+   "source": "arXiv / Hugging Face Daily Papers（Tencent）",
+   "date": "2026-10-21",
+   "summary": "冻结的教师模型针对有缺陷的修复策略生成任务级“机制技能”，另一教师针对跨任务反复出现的交互问题进化工具与钩子，只有在不降低通过率或可训练率时才保留改动。结果优于使用人工设计 OpenHands Harness 的 GRPO；技能在评测时移除后增益仍保留，而部署时拿掉进化出的工具与钩子最多损失 7.7 个百分点，训练产物实为“模型+Harness”组合。",
+   "id": "5b7900d29ae1ae2b91793b4730239e8fde94c391",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T01:40:00+08:00"
+  },
+  {
+   "title": "英伟达开源 Nemotron 3.5 检索模型家族：Embed 8B/1B（含 NVFP4 版）、Rerank 8B 与 631M 文档解析模型 Parse，分别登顶 ViDoRe v3.1 稠密检索、重排序榜与 ParseBench 十亿参数以下榜",
+   "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
+   "source": "Hugging Face 博客（NVIDIA）",
+   "date": "2026-10-21",
+   "summary": "Embed 8B 在 ViDoRe v3.1 得 61.17 nDCG@10，比上代 VL 1B 高 8.94 分，可检索含表格、图表、示意图的文档图像，文本检索评测覆盖 34 种语言；加上 Rerank 后智能体每次查询 token 成本降约 14%。Parse 以 72.7–75.2 分配合 10.5–16.1 页/秒（单张 H100）三档可选。模型可商用，权重、数据与微调配方已上 Hugging Face，并可经 NIM、Baseten、DeepInfra、OpenRouter 等部署；Perplexity、Turbopuffer、Elastic 等参与了早期评测。",
+   "id": "b0632526cd32e3d13be969afa18a0fb4f7ebb615",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T01:40:00+08:00"
   },
   {
    "title": "IBM 发布 Granite Speech 5.0 语音模型系列：新 2B 语音语言模型在 Open ASR 榜英文平均 WER 5.06% 居开源第二，470M Turbo CTC 升级多语种、RTFx 达 19870，Apache 2.0 开源",
@@ -1150,11 +1313,11 @@
    "first_seen": "2026-10-21T17:24:00+08:00"
   },
   {
-   "title": "RiseHarness：模型权重不变、只迭代进化智能体“外壳”（harness），专攻“同配置下时成时败”的长程终端任务，提升成功率与可靠性",
+   "title": "腾讯混元 RiseHarness：模型权重不动、只迭代进化终端智能体 Harness，专攻“同配置下时成时败”的任务，用成功轨迹对照分析失败并借鉴其他 Harness 框架的实现",
    "url": "https://arxiv.org/abs/2610.27435",
-   "source": "Hugging Face Daily Papers / arXiv",
+   "source": "arXiv / Hugging Face Daily Papers（Tencent Hunyuan）",
    "date": "2026-10-21",
-   "summary": "作者指出长程终端智能体常“一次能做成、多次跑不稳”，随机错误会沿动作与上下文传播。RiseHarness 以同一任务的成功轨迹为参照分析失败轨迹，结合运行时监控采集的 harness 内部轨迹，用“Harness Handbook”把证据关联到 harness 行为与源码，再检索其他 harness 框架的相关实现作为设计参考；候选改动经行为检查与重复评测，有实测增益的版本进入下一轮。论文把“特定模型”作为 harness 适配单元，并测试向未见基准迁移。HF 每日论文页标注为腾讯混元（Tencent Hunyuan）。",
+   "summary": "作者指出长程终端智能体常常一次能做对、重复运行却不稳定。RiseHarness 把智能体轨迹与运行时监控得到的 Harness 内部追踪结合，分析模型动作与命令执行、反馈、上下文管理和完成判断的交互，用“Harness 手册”把证据关联到具体机制与源码；候选改动经行为检查与重复评测，有实测增益的版本进入下一轮，并验证了向同模型未见基准的迁移。",
    "id": "55b1930c6bc3f8afd762f0ba3d82444c8a265445",
    "module": "research",
    "module_name": "研究与论文",
