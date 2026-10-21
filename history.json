@@ -1,7 +1,268 @@
 {
- "updated": "2026-10-21T22:29:00+08:00",
- "count": 1032,
+ "updated": "2026-10-21T23:36:00+08:00",
+ "count": 1052,
  "items": [
+  {
+   "title": "谷歌把对话式 Gemini 导航带到 Apple CarPlay：美国用户今起可在 Google Maps 中与 Gemini 语音对话，支持多步提问与沿途找地点，全球陆续推送",
+   "url": "https://www.theverge.com/transportation/1015281/gemini-ai-apple-carplay-voice-google-maps",
+   "source": "The Verge",
+   "date": "2026-10-21",
+   "summary": "在去年先登陆 Android Auto 后，谷歌用近 12 个月把 Gemini 导航带到 CarPlay：可点车机屏上 Google Maps 的 Gemini 图标，例如先问推荐景点再让它避开收费路段导航过去，也可用对话方式上报路况。前一天为 Android Auto 宣布的、可调用 Gmail/日历等个人数据的 Personal Intelligence 功能，此次 CarPlay 更新未提及。",
+   "id": "1bbb4f6fc3d142113db098690d7bc86d371bae97",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "英伟达联合 Amkor、IBIDEN、KYEC、三星电机、矽品与欣兴扩产：三年内基板产能提升 2.5 倍，Amkor 先进封装到 2028 年底扩 300% 以上，并预付 11 亿美元支持京元电在美建测试厂",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+   "source": "NVIDIA Newsroom",
+   "date": "2026-10-21",
+   "summary": "黄仁勋称“需求非同寻常，产能才是约束”。三星电机首次进入英伟达基板供应链；IBIDEN 大野工厂获数十亿美元产能预留预付款、目标产能达现有 3 倍；英伟达预计其半导体测试产能 2026 到 2027 年翻倍（美国、台湾、新加坡）；矽品将为共封装光学的光引擎产能到 2027 年中扩 15 倍、2028 年底再翻倍。",
+   "id": "37991df881f884cdb2d48570fafdab6d3b0e71f0",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "英伟达与诺基亚推动电信网络变身“分布式智能平台”：T-Mobile 完成全球首个商用网络 AI-RAN 通话，BT、德国电信、Elisa、Orange 推进试点，欧洲中东非洲 9 家运营商扩建英伟达算力",
+   "url": "https://www.globenewswire.com/news-release/2026/10/21/3385332/0/en/nvidia-nokia-and-leading-telecom-operators-turn-networks-into-distributed-intelligence-platforms.html",
+   "source": "NVIDIA / GlobeNewswire",
+   "date": "2026-10-21",
+   "summary": "诺基亚 CUDA 加速的 anyRAN 软件运行在 NVIDIA Aerial RAN Computer 上，全球已有近 20 家运营商公开 AI-RAN 合作，Elisa 完成欧洲首个 AI-RAN 外场试验、目标 2027 年商用；英伟达新推基于 RTX PRO 6000 的 MGX 2U/4U ARC 配置。诺基亚、思科、TCS、NTT DATA 把 Nemotron 开放模型与 Agent Toolkit 集成进自治网络运维软件。",
+   "id": "70a0570633390ecd96036abb14955b2a90552e79",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "MIT 等发现“任务组合脆弱性”：同一提示里塞多个任务时模型每任务思考 token 显著减少，单独能做对的题合并后错误率大增，Claude Opus 5 也不例外；按脆弱度分组可省 43% token 且不掉精度",
+   "url": "https://arxiv.org/abs/2610.27190",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者（含 Stefanie Jegelka）认为错误增加不能用独立误差累积解释，而是存在“隐式思考预算”：即使总长度远未触及上下文上限，组合后模型分给每个任务的推理也会被压缩，单独求解时需要更长推理链的任务因此更脆弱；反之非脆弱任务单独做时常“想过头”浪费算力。",
+   "id": "6b14cf5ac8c67670de3944899fbb894ba31e19f0",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "Self-Credit：让智能体在 rollout 中自写带引用的总结、标出关键回合，再用组内成功/失败轨迹对比做“组内重缩放”分配信用，Qwen3 8B/32B 在 BrowseComp-Plus 上分别提升 37.0/36.2 分",
+   "url": "https://arxiv.org/abs/2610.28388",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "方法面向稀疏结果奖励的长程智能体 RL：用模型自生成的信用经组内一致/分歧校正去掉“不该得的功劳”，再按权重重设被引用回合的优势值；较最强智能体 RL 基线在 BrowseComp-Plus 高 8.5/5.6 分，在 GAIA、xBench-DeepSearch 上分别高 4.9 和 4.7 分，失败轨迹上的重缩放尤为关键。",
+   "id": "6d6a68bb41cff44ac29657d0df4ad41b9012ee08",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "DecisionPivot：面向路由、护栏与输出校验等“决策模型”的诊断基准，48 个任务 4 万余题，揭示总分仅差 2.6 分的两个 27B 模型在对照组准确率上相差 70.1% vs 44.2%",
+   "url": "https://arxiv.org/abs/2610.28522",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "评测 40 个决策模型与 14 个通用模型，除单题准确率外还看对照组一致性、概率排序、校准与选择性覆盖：Perplexity Decider 在 92.3% 的正负对中把正例排在前面，但两题都答对仅 74.1%；GLM-5.3 在高推理档对照组准确率 93.5%、最低档仅 81.5%。",
+   "id": "d5bc2c69cae12eee826bcbf1a0e446837e236305",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "英伟达 GTC Berlin 本地 AI 更新：DGX Spark 支持最多 8 台组集群（128GB 版合计 1TB 统一内存），联合 Recursive Superintelligence 推出 40B（2.5B 激活）本地编码模型 Recursive Flint，并为 llama.cpp/vLLM 提速",
+   "url": "https://blogs.nvidia.com/blog/local-ai-gtc-rtx-dgx-spark-station-sync/",
+   "source": "NVIDIA Blog",
+   "date": "2026-10-21",
+   "summary": "Recursive Flint 为 Apache 2.0 开放权重 MoE 模型，官方称在 64GB RTX Spark 上超 220 tok/s，并在 SWE-Bench Pro v2、Terminal-Bench 2.1 等智能体编码基准同级领先，由其自动化 AI 研究系统 Eureka Machine 参与打造（截至发稿 Hugging Face 组织页尚未见公开权重）。DGX Spark 64GB 版 10 月 23 日开售；NVIDIA Sync Model Launcher 本月上线、一键拉起模型并接入 OpenCode；llama.cpp 中 Qwen 3.8 Flash Next 的 MTP 推测解码让 RTX PRO 6000 上智能体任务最高提速 1.4 倍，vLLM 中 Qwen3.8 27B 在 DGX Spark 上最高 1.3 倍；Windows 版 DGX Station 12 月推出。",
+   "id": "0b1d731f907edd6fc8c911c219ead23fa9970ce7",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "The Information 独家：黑客组织 CyberCartel 用 Anthropic、SpaceX（Grok）与月之暗面模型驱动的智能体网络，自动化攻击拉美 400 多家金融机构与支付应用，几乎无需人工即窃取密码、客户数据并登入账户",
+   "url": "https://www.benzinga.com/content/62494335/hackers-used-claude-and-grok-fully-automate-attacks-banks",
+   "source": "The Information / Benzinga",
+   "date": "2026-10-21",
+   "summary": "调查来自安全初创公司 Straiker，被称为首批详细记录网络犯罪分子借 AI 模型成功自动化攻破金融机构的报告之一；CyberCartel 长期以恶意软件即服务、浏览器凭据窃取与钓鱼攻击拉美银行用户，此次攻击者绕过了模型的安全护栏。",
+   "id": "f2c4a97bf0c40a500ae8c7310b239b143d75d7bd",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "美众议员 Shontel Brown 提出《防范 AI 欺骗保障选举法案》：AI 生成的竞选与投票信息须标“AI 免责声明”或圆圈 AI 标识，由 FTC 执法，并对用 AI 欺骗、阻挠投票者处以罚款或监禁",
+   "url": "https://shontelbrown.house.gov/media/press-releases/brown-introduces-legislation-require-labels-ai-generated-campaign-content",
+   "source": "美国众议院 / Shontel Brown",
+   "date": "2026-10-21",
+   "summary": "法案覆盖联邦、州与地方竞选内容，已有 30 名众议员联署，获 NAACP 等支持。新闻稿援引《纽约时报》称今年选举季已有逾 1.3 亿美元 AI 生成广告，卫斯理大学分析显示 69% 含 AI 内容的广告没有披露；FTC 还须开展公众教育并向国会报告标识效果。",
+   "id": "5109ee656270ef9728e375cba387d3002133e69c",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "美参议员 Peters 与 Lankford 再次提出《透明自动化治理法案》（TAG Act）：要求 OMB 制定指引，联邦机构用 AI 做高风险决策时须向公众披露，并为受影响者提供申诉与人工复核渠道",
+   "url": "https://insideaipolicy.com/ai-daily-news/sens-peters-and-lankford-reintroduce-government-transparency-bill-critical-ai",
+   "source": "Inside AI Policy",
+   "date": "2026-10-21",
+   "summary": "这是两党参议员对该法案的又一次提交，聚焦政府端 AI 使用透明度，与同日众议院的 AI 竞选内容标识提案、以及近期参议院《AI 标注法案》共同构成中期选举前国会在 AI 透明度上的一波立法动作。",
+   "id": "9e4f2bc6fa3e60636458f92d1d391656025353e2",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "腾讯内测面向少儿与青少年的 AI 互动内容社区“懂了鸭”：一句话生成可拖拽、可模拟的“奇妙卡”，包括 3D 演示、动态课件、互动绘本与轻量游戏，可选 DeepSeek、混元、Kimi、GLM 等模型",
+   "url": "https://www.ithome.com/1/016/145.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "官网 dongleya.qq.com 与微信小程序已上线，目前向亲子用户和一线教师小范围开放；内容按学前到高中四学段及数学、科学、信息科技等学科组织，支持浏览与二次改编。模型列表含 DeepSeek-V4.1-Flash、DeepSeek V4 Pro、Hy3、Hy4 preview、MiniMax M3、Kimi K3、GLM-5.3 等；与豆包爱学的“解题—批改”闭环不同，它主打让教师和家长“造内容”。",
+   "id": "11882c137d2d940842dd430c391b38ce40a7a44c",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "k2-fsa/OmniVoice",
+   "url": "https://github.com/k2-fsa/OmniVoice",
+   "source": "GitHub",
+   "stars": 15381,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "新一代 Kaldi（k2-fsa）团队开源的高质量声音克隆 TTS，支持 600 多种语言，Apache 2.0 许可。",
+   "why": "今日登上 GitHub Trending Python 日榜（单日约 +204 星），总星数约 1.5 万。",
+   "id": "da16f84e21510496b9ca810e027cf9e353528a5b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "usestrix/strix",
+   "url": "https://github.com/usestrix/strix",
+   "source": "GitHub",
+   "stars": 70686,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "Strix：开源 AI 渗透测试智能体，自动发现并协助修复应用漏洞，覆盖红队、漏洞赏金与 CTF 等场景，Apache 2.0。",
+   "why": "PHP 漏洞披露当天 AI 安全工具热度走高，登上 Trending Python 日榜（单日约 +393 星），总星数约 7.1 万。",
+   "id": "9d0f79dbc94561efbd2eb9f3f93268f10295bd1c",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "trycua/cua",
+   "url": "https://github.com/trycua/cua",
+   "source": "GitHub",
+   "stars": 30535,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-21",
+   "summary": "Cua：面向“计算机使用 2.0”的开源基础设施，提供跨 macOS/Windows/Linux 的驱动与沙箱以及基准，用于电脑操作智能体的训练、评测与数据生成，MIT 许可。",
+   "why": "今日登上 GitHub Trending Rust 日榜（单日约 +208 星），总星数约 3.1 万。",
+   "id": "1c712cad4f64174468683d9bdedf09bc377de027",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "tashfeenahmed/freellmapi",
+   "url": "https://github.com/tashfeenahmed/freellmapi",
+   "source": "GitHub",
+   "stars": 38753,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-21",
+   "summary": "把 34 家免费 LLM 提供商、635 个免费模型端点聚合到一个 OpenAI 兼容 /v1 接口，支持智能路由、自动故障转移与密钥加密存储，作者注明仅限个人实验。",
+   "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +684 星），总星数约 3.9 万。",
+   "id": "dc7a66cb784f713084df639d80c30dde470a72c4",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112929453735125037",
+   "source": "@theinformation",
+   "date": "2026-10-21",
+   "summary": "The Information：黑客利用 Anthropic、SpaceX 与月之暗面的 AI 模型，自动化攻击拉美 400 多个金融目标；独家研究显示攻击者绕过 AI 安全护栏，几乎无需人工介入即窃取敏感数据。",
+   "metrics": {
+    "likes": 0,
+    "reposts": 0,
+    "views": 518
+   },
+   "id": "5fec71f200cf3f9bb6b896c45dc77d0c0b6670a7",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2112922632555463126",
+   "source": "@verge",
+   "date": "2026-10-21",
+   "summary": "The Verge：美国 CarPlay 用户现在可以用 Gemini 与 Google Maps 对话。",
+   "metrics": {
+    "likes": 7,
+    "reposts": 1,
+    "views": 5031
+   },
+   "id": "657fd065b4cefdf2333995ce026bf021cf6befcc",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "@nvidia",
+   "url": "https://x.com/nvidia/status/2112920354230296993",
+   "source": "@nvidia",
+   "date": "2026-10-21",
+   "summary": "英伟达：算力需求非同寻常，正与 Amkor、IBIDEN、KYEC、三星电机、矽品、欣兴合作在全球扩充从关键零部件到先进封装与测试的供应能力。",
+   "metrics": {
+    "likes": 98,
+    "reposts": 13,
+    "views": 13023
+   },
+   "id": "37a9d1252f304119f61e5c0b7323bcdb8c5480ee",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "@AndrewCurran_",
+   "url": "https://x.com/AndrewCurran_/status/2112913197774807491",
+   "source": "@AndrewCurran_",
+   "date": "2026-10-21",
+   "summary": "Andrew Curran：OpenAI 称借 GPT-5.6 Sol 发现的 PHP 安全漏洞只是“冰山一角”，还有多项发现待公布。",
+   "metrics": {
+    "likes": 739,
+    "reposts": 92,
+    "views": 39527
+   },
+   "id": "9800223735e7fdb2bc18385b0b7ae94eb221c692",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2112899854569762936",
+   "source": "@OpenAI",
+   "date": "2026-10-21",
+   "summary": "OpenAI：GPT-Rosalind 发现一条药物研发新线索——恢复胆固醇转运能否保护神经元免于退化？与 Perry 综合征相关的 DCTN1 基因在小鼠脑数据中被扰动后，胆固醇相关基因表达上升。",
+   "metrics": {
+    "likes": 2623,
+    "reposts": 265,
+    "views": 214962
+   },
+   "id": "7336f4a93a1208c337666554cb943274063b78ff",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T23:36:00+08:00"
+  },
   {
    "title": "ServiceNow 与英伟达个人长时运行企业智能体 Arc 正式可用：由 ServiceNow Super Intelligence Control Tower 治理、NVIDIA OpenShell 运行时强制执行，可在 RTX Spark 设备本地运行",
    "url": "https://www.zdnet.com/innovation/exclusive-servicenow-and-nvidia-launch-arc-a-new-ai-agent-for-enterprise/",
