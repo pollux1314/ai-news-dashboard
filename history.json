@@ -1,7 +1,34 @@
 {
- "updated": "2026-10-21T13:32:00+08:00",
- "count": 943,
+ "updated": "2026-10-21T14:35:00+08:00",
+ "count": 947,
  "items": [
+  {
+   "title": "Vultr 联合 AMD 在印度金奈部署 20MW AMD Instinct MI355X 超算集群：成为印度最大的 AMD Instinct 部署，面向大模型训练、微调与高吞吐推理",
+   "url": "https://finance.yahoo.com/technology/ai/articles/vultr-amd-expand-global-collaboration-053000713.html",
+   "source": "Business Wire",
+   "date": "2026-10-21",
+   "summary": "Vultr 称这将使其拥有全球两座规模居前的 AMD AI 集群（另一座在美国俄亥俄州斯普林菲尔德），服务 AI 实验室、初创公司、企业与科研机构，强调数据主权、本地驻留与低延迟；集群基于 ROCm 开放软件生态，公司计划 2027 年进一步扩容 MI455X GPU 与 Helios 机架级架构。",
+   "id": "085a24eaf73af07a4dbbf803cb83d97dfaecb482",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T14:35:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112788507190071472",
+   "source": "@Reuters",
+   "date": "2026-10-21",
+   "summary": "路透：特朗普表示，企业应向社区支付“红利”，以让数据中心更受当地欢迎——正值美国多地民众对数据中心选址反对声渐强。",
+   "metrics": {
+    "likes": 8,
+    "reposts": 1,
+    "views": 16777
+   },
+   "id": "c24f3b2a2cd353e5fd6e5b6ea27261df1e5a7e77",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T14:35:00+08:00"
+  },
   {
    "title": "路透独家：三星与 SK 海力士正升级在华工厂生产更先进的 NAND 闪存，以应对长江存储竞争并满足 AI 需求，两家公司称升级与华盛顿密切协商进行",
    "url": "https://live.euronext.com/en/financial-news/exclusive-samsung-sk-hynix-upgrading-china-plants-make-more-advanced-chips-people",
@@ -334,6 +361,28 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "日本数字厅向约 18 万名政府职员推出 AI 智能体环境：政府 AI 平台“源内”上线 Agent Chat，12 月前后再上线可自主写代码、执行命令的“源内工房”，并同步发布治理与安全基准",
+   "url": "https://www.digital.go.jp/en/policies/genai/agent-safety-standard",
+   "source": "日本数字厅",
+   "date": "2026-10-20",
+   "summary": "数字厅称，把相当于 AI 编程智能体级别的环境作为政府共通基盘、向普通行政人员规模化开放属全球首例；新发布的“源内基准”按使用者、管理者、开发者分别规定责任与遵守事项，由日本 AI 安全研究所（AISI）协助制定。两套环境计划约 2027 年 2 月以“源内 OSS Ver. 2.0”开源，供地方政府与企业使用。",
+   "id": "3e58be072c3d1a6f206961a61d8d8b3b4bfb1f44",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T14:35:00+08:00"
+  },
+  {
+   "title": "观察者网：17 岁“天才少年”陈广宇被曝离开 Kimi 后加入 Jeff Dean、Sanjay Ghemawat 等创办的 AI 初创公司 Discovery Loop，本人尚未公开确认",
+   "url": "https://www.guancha.cn/CaiJing/2026_10_20_905103.shtml",
+   "source": "观察者网",
+   "date": "2026-10-20",
+   "summary": "Discovery Loop 由 Jeff Dean、Sanjay Ghemawat、Quoc Le 与 Oriol Vinyals 共同创办，致力于用 AI 自动化机器学习、科学与工程研究、并行运行大量实验。截至报道时陈广宇未公开确认入职，SCMP 等外媒也以“传闻”跟进。",
+   "id": "7df4f561b3854e4dc59d397ae63e4a962728b9cc",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T14:35:00+08:00"
   },
   {
    "title": "ElevenLabs 发布 Eleven Realtime 端到端语音到语音模型：v1 Mini 主打低成本自然对话，v1 Max 面向客服与多步骤工具调用任务，兼容 OpenAI Realtime API",

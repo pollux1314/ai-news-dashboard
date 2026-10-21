@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T13:32:00+08:00",
+  "updated": "2026-10-21T14:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Vultr 联合 AMD 在印度金奈部署 20MW AMD Instinct MI355X 超算集群：成为印度最大的 AMD Instinct 部署，面向大模型训练、微调与高吞吐推理",
+          "url": "https://finance.yahoo.com/technology/ai/articles/vultr-amd-expand-global-collaboration-053000713.html",
+          "source": "Business Wire",
+          "date": "2026-10-21",
+          "summary": "Vultr 称这将使其拥有全球两座规模居前的 AMD AI 集群（另一座在美国俄亥俄州斯普林菲尔德），服务 AI 实验室、初创公司、企业与科研机构，强调数据主权、本地驻留与低延迟；集群基于 ROCm 开放软件生态，公司计划 2027 年进一步扩容 MI455X GPU 与 Helios 机架级架构。"
+        },
+        {
           "title": "路透独家：三星与 SK 海力士正升级在华工厂生产更先进的 NAND 闪存，以应对长江存储竞争并满足 AI 需求，两家公司称升级与华盛顿密切协商进行",
           "url": "https://live.euronext.com/en/financial-news/exclusive-samsung-sk-hynix-upgrading-china-plants-make-more-advanced-chips-people",
           "source": "Reuters（via Euronext）",
@@ -118,13 +125,6 @@
           "source": "Bloomberg",
           "date": "2026-10-20",
           "summary": "亿万富翁对冲基金经理 Ken Griffin 对彭博表示，当前市场几乎可以肯定存在 AI 泡沫；同日超微电脑超预期的初步业绩曾推动 AI 概念股盘后反弹。"
-        },
-        {
-          "title": "法国 AI 企业软件公司 Pigment 完成 2.5 亿美元融资、估值 23 亿美元，Scaleup Europe Fund 领投、英伟达参投，正面挑战微软 Excel 与 PowerPoint",
-          "url": "https://news.bgov.com/capital-markets/nvidia-backed-pigment-nabs-250-million-to-challenge-microsoft",
-          "source": "Bloomberg",
-          "date": "2026-10-20",
-          "summary": "彭博报道，Pigment 用 AI 帮企业做财务预测、生成演示文稿等。本轮除 Scaleup Europe Fund 与英伟达外，还有美日基金 World Innovation Lab 及老股东 Iconiq、IVP、Meritech 参与；黄仁勋上周访法时已宣布这笔投资，公司还计划再引入几家亚洲投资方。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "日本数字厅向约 18 万名政府职员推出 AI 智能体环境：政府 AI 平台“源内”上线 Agent Chat，12 月前后再上线可自主写代码、执行命令的“源内工房”，并同步发布治理与安全基准",
+          "url": "https://www.digital.go.jp/en/policies/genai/agent-safety-standard",
+          "source": "日本数字厅",
+          "date": "2026-10-20",
+          "summary": "数字厅称，把相当于 AI 编程智能体级别的环境作为政府共通基盘、向普通行政人员规模化开放属全球首例；新发布的“源内基准”按使用者、管理者、开发者分别规定责任与遵守事项，由日本 AI 安全研究所（AISI）协助制定。两套环境计划约 2027 年 2 月以“源内 OSS Ver. 2.0”开源，供地方政府与企业使用。"
+        },
+        {
           "title": "路透：美国西部六州联邦土地上至少有 35 宗数据中心相关申请、覆盖逾 2.4 万英亩，其中 17 个为数据中心园区，公众反对声渐强",
           "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N4660UM:0-at-least-17-data-center-campuses-proposed-on-us-public-lands-group-says/",
           "source": "Reuters / TradingView",
@@ -307,13 +314,6 @@
           "source": "The Verge",
           "date": "2026-10-20",
           "summary": "据 Ars Technica 与 The Verge 报道，Muse 分享链接的主机名由对话标题加随机 ID 构成，链接被打开后会被被动 DNS 服务记录，研究者据此可重建链接并免登录查看数百段对话，其中包括一份与某前沿 AI 实验室负责人保密通话的准备笔记。Meta 发言人称已暂停该功能并评估如何改变链接被发现的方式；此前 ChatGPT、Claude、Grok 的分享对话也曾出现在谷歌搜索中。"
-        },
-        {
-          "title": "Politico：OpenAI 不再推动对华严格芯片出口管制，国会对华鹰派拟在跛脚鸭会期把限制条款塞进国防授权法案时失去这一行业盟友",
-          "url": "https://thenextweb.com/news/openai-china-chip-export-controls-retreat-nvidia",
-          "source": "TNW / Politico",
-          "date": "2026-10-20",
-          "summary": "据 Politico 援引国会助手与说客，OpenAI 去年多次公开支持严格限制先进芯片对华销售，如今在相关议题上保持沉默；一名国会助手称“沉默就是在替英伟达干活”，一名说客称“目前没人想挑战总统”。此举被视为利好反对新限制的英伟达，并使 OpenAI 更贴近特朗普政府立场；英伟达今年 2 月完成对 OpenAI 300 亿美元股权投资。OpenAI 发言人称美国实验室在先进芯片上保持大幅领先是关键，有效的出口管制政策是更广泛战略的一部分；Anthropic 则继续支持多项芯片法案。"
         }
       ]
     },
@@ -344,6 +344,13 @@
           "summary": "记者实测 1.2 元“破解教程”无效，4.7 元租到的 10 分钟 Kimi 账号实为第三方“计时工作空间”网页，对话记录对出租方可见；还有卖家以 1.99–99.99 元拆售 220–14000 次调用额度。豆包称订阅只走官方渠道、不存在破解；Kimi 称出租行为违反用户协议。专家提醒密钥可能来自泄露或入侵，部分行为或涉非法经营与侵犯个人信息。"
         },
         {
+          "title": "观察者网：17 岁“天才少年”陈广宇被曝离开 Kimi 后加入 Jeff Dean、Sanjay Ghemawat 等创办的 AI 初创公司 Discovery Loop，本人尚未公开确认",
+          "url": "https://www.guancha.cn/CaiJing/2026_10_20_905103.shtml",
+          "source": "观察者网",
+          "date": "2026-10-20",
+          "summary": "Discovery Loop 由 Jeff Dean、Sanjay Ghemawat、Quoc Le 与 Oriol Vinyals 共同创办，致力于用 AI 自动化机器学习、科学与工程研究、并行运行大量实验。截至报道时陈广宇未公开确认入职，SCMP 等外媒也以“传闻”跟进。"
+        },
+        {
           "title": "字节 Seed 模型评测负责人、零一万物联合创始人黄文灏离职，加入字节约两年，消息称下一步或创业",
           "url": "https://www.21jingji.com/article/20261020/herald/4d220dab0ccf72e0ac7338f42fbcbc6e.html",
           "source": "21经济网",
@@ -370,13 +377,6 @@
           "source": "中国政府网 / 新华社",
           "date": "2026-10-20",
           "summary": "新华社 10 月 20 日电，国家数据集团成立大会在河北雄安新区举行。丁薛祥要求公司深化数据要素服务、加快数据基础设施建设、加强关键核心技术攻关，在数据领域发挥战略性、引领性、支撑性作用，努力打造世界一流数据科技企业；各有关部门加大支持、相关企业协同合作，形成促进数据产业发展的合力。外媒将其解读为中国把 AI 训练所需的数据资源统筹到一家国资平台。"
-        },
-        {
-          "title": "彭博：智谱 Z.ai 四位联合创始人曾参与由中国通用技术研究院（CGTRI）共同资助的研究项目，英国军情五处称该机构与国家安全部关系密切",
-          "url": "https://qz.com/z-ai-founders-research-cgtri-mi5-spy-agency-102026",
-          "source": "Quartz / Bloomberg",
-          "date": "2026-10-20",
-          "summary": "据彭博，该项目 2018–2021 年执行、获批经费 294 万元，由 CGTRI 与国家自然科学基金共同资助，目标是开发解析社交媒体帖子、识别重要事件并绘制人物关系的 AI 软件；清华教授、智谱联合创始人李涓子为负责人之一，唐杰、许斌与 CEO 张鹏以合著者、共同发明人或软著权人身份出现。军情五处 9 月 30 日的预警未点名智谱；中国驻英使馆称其说法“毫无根据”，智谱未回应置评。智谱今年 1 月在港上市，市值约 320 亿美元。"
         }
       ]
     },
@@ -482,6 +482,18 @@
       "items": [
         {
           "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2112788507190071472",
+          "source": "@Reuters",
+          "date": "2026-10-21",
+          "summary": "路透：特朗普表示，企业应向社区支付“红利”，以让数据中心更受当地欢迎——正值美国多地民众对数据中心选址反对声渐强。",
+          "metrics": {
+            "likes": 8,
+            "reposts": 1,
+            "views": 16777
+          }
+        },
+        {
+          "title": "@Reuters",
           "url": "https://x.com/Reuters/status/2112778692703211884",
           "source": "@Reuters",
           "date": "2026-10-21",
@@ -562,18 +574,6 @@
             "likes": 889,
             "reposts": 75,
             "views": 80927
-          }
-        },
-        {
-          "title": "@humansand",
-          "url": "https://x.com/humansand/status/2112674550907552137",
-          "source": "@humansand",
-          "date": "2026-10-21",
-          "summary": "humans& 官宣首个模型 Ampersand：“没有人能独自改变世界”，称在多月模拟中用户与 Ampersand 协作的成果多于使用 Fable。",
-          "metrics": {
-            "likes": 626,
-            "reposts": 83,
-            "views": 72673
           }
         }
       ]
