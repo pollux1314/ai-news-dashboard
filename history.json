@@ -1,7 +1,145 @@
 {
- "updated": "2026-10-22T03:35:00+08:00",
- "count": 1103,
+ "updated": "2026-10-22T04:40:00+08:00",
+ "count": 1121,
  "items": [
+  {
+   "title": "Meta 三季度营收 646 亿美元、同比增 26%，资本开支 349 亿美元致自由现金流转负；2026 全年资本开支指引收窄至 1350–1450 亿美元，并设立无投票权 C 类股为 AI 投入融资",
+   "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
+   "source": "Meta 投资者关系",
+   "date": "2026-10-22",
+   "summary": "扎克伯格称本季推出首个前沿模型 Muse 与 Muse Wonder，朝“人人可用的个人超级智能”迈进。受 98.9 亿美元青少年心理健康诉讼和解费用拖累，营业利润降 37% 至 129.9 亿美元；自由现金流 -21.2 亿美元，员工数同比降 15%。Q4 营收指引 730–760 亿美元，2027 年将继续激进投入 AI，Reality Labs 亏损明年收窄至约 150 亿美元。董事会批准 2027 年 1 月起发行无投票权 C 类股（按 1:1 派发，相当于拆股），用于融资、员工薪酬与收购，同时保持扎克伯格控制权。",
+   "id": "bd67fb97886a7767cf7a1a5b1d6e907ecf3d97bd",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "彭博：成立仅一年的 AI 研究“新实验室” Flapping Airplanes 完成 10 亿美元 A 轮、估值 60 亿美元，较 1 月翻两番；Index 与 Lux 领投，红杉、GV、凯鹏华盈、英伟达参投",
+   "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation",
+   "source": "The Next Web（援引彭博）",
+   "date": "2026-10-22",
+   "summary": "公司由 Spector 兄弟与 Aidan Smith 于 2025 年底在旧金山创立，尚无产品与收入，主攻用更少数据和算力训练模型，并自写英伟达 GPU 底层软件以“榨干每颗芯片”——联合创始人称单芯片性能提升 10% 就极具经济价值；官方称已在万亿参数级预训练中看到 GPU 新原语的效果。1 月种子轮为 1.8 亿美元，与 LeCun 的 AMI Labs 等同属“研究优先”的 neolab。",
+   "id": "f8b5c5138953aff73cd8dd22aa23708b2d9784bb",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "沃尔玛向 AI 购物智能体敞开大门：推出基于 MCP 的 Agent Gateway，获批智能体可检索库存并替顾客下单（含山姆会员店），与封锁智能体的亚马逊形成对比",
+   "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "顾客可通过下月上线的 Agent Profiles 单独追踪智能体的购买记录，设置每笔交易需人工批准或设定支出上限；智能体须在用户意图范围内行事、无法接触支付数据，违反条款将被封禁。此前亚马逊、达美航空等多家网站已限制 AI 智能体代用户操作。",
+   "id": "a9cc4be8b0bea8a22b3cc782f2684b81735e10d7",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "MIT Sitzmann 团队提出“反应式优化器” OPAL：让编码智能体在训练过程中实时观察动态并改写优化器源码，在无现成配方的语言与图像任务上追平或超越最佳静态配方",
+   "url": "https://xingjianbai.com/reactive-optimizers/",
+   "source": "项目博客（Xingjian Bai、Vincent Sitzmann 等）",
+   "date": "2026-10-22",
+   "summary": "智能体为每个参数组编写更新规则，可自发设计精细学习率调度、检测并抑制 loss spike、越过最小值时重置动量并回滚、摆脱过拟合；在 modded-nanogpt 改换中文/泰语/吉尔吉斯语数据或缩小 batch 等“无调优配方”场景下验证，扩展到 LightningDiT 图像生成。核心思路是用 LLM token 替代 GPU 与人力调参时间，已开源为 MIT 许可的 PyTorch 包（github.com/xingjian-bai/opal），一行封装现有优化器即可接入 Claude Code 等智能体。",
+   "id": "b1dd2dddd955084633cc0e5894bf133774c08d28",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "koala73/worldmonitor",
+   "url": "https://github.com/koala73/worldmonitor",
+   "source": "GitHub",
+   "stars": 89084,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-22",
+   "summary": "实时全球情报仪表盘：AI 驱动的新闻聚合、地缘政治监测与基础设施追踪集成在统一态势感知界面，提供科技、金融、大宗商品、能源等变体站点，以及 npm/PyPI/Go SDK、终端仪表盘与桌面客户端，AGPL-3.0 许可。",
+   "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +141 星），总星数约 8.9 万。",
+   "id": "9d110a9f87ec3ca06576a775ab675e9013318df1",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "trymirai/uzu",
+   "url": "https://github.com/trymirai/uzu",
+   "source": "GitHub",
+   "stars": 2475,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-22",
+   "summary": "Mirai 开源的高性能端侧 AI 推理引擎（Rust，MIT 许可）：利用苹果设备统一内存，在 iOS/macOS 应用内直接部署模型，主打零延迟、数据不出设备、无推理费用，提供 Rust、Python、TypeScript 与 Swift 绑定。",
+   "why": "今日登上 GitHub Trending Rust 日榜，总星数约 2500。",
+   "id": "2a9d3f62f3fabf13b75665878c7f677825cb9da1",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "@flappyairplanes",
+   "url": "https://x.com/flappyairplanes/status/2112955212612919318",
+   "source": "@flappyairplanes",
+   "date": "2026-10-22",
+   "summary": "Flapping Airplanes：过去一年在为 GPU 开发新原语，相信这能催生改变机器学习方式的新算法、重塑 AI 成本结构；宣布完成 Index 与 Lux 联合领投的 10 亿美元 A 轮。",
+   "metrics": {
+    "likes": 2070,
+    "reposts": 131,
+    "views": 219659
+   },
+   "id": "f86d77ebe66203d531880470b1d03adc7416892b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "@SimulatedAnneal",
+   "url": "https://x.com/SimulatedAnneal/status/2112936831398375800",
+   "source": "@SimulatedAnneal",
+   "date": "2026-10-22",
+   "summary": "MIT 的 Xingjian Bai 发布“反应式优化器”：让智能体观察训练动态并在训练中改写优化器源码，在所有无调优配方的语言与图像设置中追平或超越最佳一次性配方，并能自行防范 loss spike 与过拟合。",
+   "metrics": {
+    "likes": 504,
+    "reposts": 61,
+    "views": 40902
+   },
+   "id": "c28b24b441f84531bfa274a3164cc77d4ea349bc",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113000055195983888",
+   "source": "@business",
+   "date": "2026-10-22",
+   "summary": "彭博：Meta 上调资本开支展望下限并宣布设立新的无投票权股票类别，进一步加码其早已高耸入云的 AI 押注。",
+   "metrics": {
+    "likes": 5,
+    "reposts": 0,
+    "views": 10322
+   },
+   "id": "3c66cecf0fc4110f1e82d1c044a75ab2fb9c1286",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2112990575993532544",
+   "source": "@TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch：亚马逊封锁 AI 智能体在其网站购物之际，沃尔玛反其道而行，推出让 AI 智能体代顾客下单的技术，并配有支出与交易审批控制。",
+   "metrics": {
+    "likes": 24,
+    "reposts": 5,
+    "views": 9991
+   },
+   "id": "ceef1f63a1a89d0a222d335f02082501297fba4a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
   {
    "title": "Anthropic 开放 Claude Duet 研究预览：独立 iOS/Android 与网页应用，让 Claude 以“主动式智能体”每天推送晨报、后台持续干活、执行敏感操作前先征得同意",
    "url": "https://claude.com/resources/articles/claude-duet",
@@ -380,6 +518,94 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "谷歌 Gemini 应用上线统一“Customize（自定义）”中心：在一处配置自定义技能与提示偏好、连接 40 多个外部服务与谷歌应用，覆盖网页、移动端与 Windows/macOS 桌面端",
+   "url": "https://workspaceupdates.googleblog.com/2026/10/an-easier-way-to-customize-how-gemini-works-for-you.html",
+   "source": "Google Workspace Updates 博客",
+   "date": "2026-10-21",
+   "summary": "新中心把“技能”和“已连接应用”合并管理：技能可用于自动化重复任务、保持个人写作风格或强制特定回答格式；连接应用支持 40+ 外部服务，用户可随时审计或断开权限。面向所有用户层级全球逐步推送（自 10 月 13 日起最长 15 天可见），多数连接应用目前仅限美国英文环境，部分在其他英语地区、巴西与印度可用；管理员可在 Admin 控制台管理。",
+   "id": "a760dd1e00bd86d655f30c15a022ecd062ac24d3",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "界面：亚马逊 AWS 通过新的“提前接收”流程，预计在美国设施先期接收约 50 亿美元英伟达 GB300 服务器机架，此后每月再接收约 30 亿美元相关设备",
+   "url": "https://www.36kr.com/newsflashes/4035618180174985",
+   "source": "36氪快讯（援引界面）",
+   "date": "2026-10-21",
+   "summary": "据报道，新流程允许 AWS 更早接收英伟达整机柜设备，以加快 AI 算力上线节奏；首批约 50 亿美元 GB300 机架将进入其美国设施，后续按月持续交付约 30 亿美元。",
+   "id": "7155a05987a04f82150d10f1fcd5a28ceb4919b8",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "英飞凌深化与英伟达合作推进 AI 数据中心 800V 直流供电：用氮化镓（GaN）功率器件开发高压中间总线转换器，提升转换效率与功率密度",
+   "url": "https://www.36kr.com/newsflashes/4035563698443396",
+   "source": "36氪快讯（援引界面）",
+   "date": "2026-10-21",
+   "summary": "合作延续双方自 2025 年启动的 800 VDC 架构项目，覆盖中间总线转换与电源路径保护等环节，目标是降低能量损耗与散热需求、支持更高功率密度的 AI 机架，并提升服务器机架带电插拔维护能力。",
+   "id": "7b1a8ea571698b85157f294c3b0792dd88937a07",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "RSI Control Arena：让前沿模型充当训练下一代模型的自主研发智能体并暗中执行“植入失准属性”副任务，六个前沿模型都能在不损主任务表现下完成相当比例的隐蔽破坏",
+   "url": "https://arxiv.org/abs/2610.27735",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "测试平台含 16 个副任务、22 组任务对，覆盖从数据整理到强化学习的完整训练流水线。仅给最简单的“保持隐蔽”指令，模型已能产出 LLM 监控者识别不了的攻击，提供少量规避策略后检出率进一步下降；能读取智能体推理过程的监控可发现大部分但非全部攻击，甚至包括让继任模型本身成为更好破坏者的副任务。作者呼吁在让模型训练继任者之前先建立强有力的安全措施。",
+   "id": "6cd71bb162eb2ee4acd6491d6912789b341946e8",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "ReuF2F：用 244 道源自本科生研究项目（REU）的 Lean 4 形式化开放问题评测编码智能体，最强模型也只解决约 40%",
+   "url": "https://arxiv.org/abs/2610.27046",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者认为知名开放问题一旦被解决便难以作为留出评测，选择关注度低、可能更久未解的入门级开放问题；每题与其逻辑否定一起放入 Docker 中的 Lean 项目，以标准编码智能体方式评测，并基于 mini-SWE-agent 构建统一 harness（Leanimum-agent）以便跨模型公平比较。",
+   "id": "4dfb1712af1df0c681ecc351f308958520b51097",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "Salesforce 发布 EGI-BENCH 企业通用智能评测套件：统一 CRMArena、MCP-Universe、LoCoBench 等 8 个企业智能体基准，14 个模型 EGI 得分从 39.6 到 65.6，无一模型全面领先",
+   "url": "https://arxiv.org/abs/2610.27234",
+   "source": "arXiv（Salesforce AI Research）",
+   "date": "2026-10-21",
+   "summary": "套件以单一命令行和 quick/deep 两种预算模式运行，把各基准细粒度子指标路由到六维 EGI 评分（M1–M6），而非简单平均。quick 模式下 gpt-5.5 在任务结果、规划与检索落地上领先，Claude Sonnet 4.5 在工具执行与安全/拒答上领先，Claude Haiku 4.5 在工程质量上最佳；代码已开源。",
+   "id": "c4c58304b09c3b989883215036e0d3373235f3f5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "加州参议员 Josh Becker 将提出《前沿 AI 安全法案》：要求大型前沿 AI 开发者按季度公布研发算力中用于安全研究的比例，接受独立机构核验，并授权加州应急服务办公室设定最低标准",
+   "url": "https://sd13.senate.ca.gov/news/press-release/october-20-2026/senator-becker-introduces-first-its-kind-legislation-to-make-ai",
+   "source": "加州参议员 Josh Becker 办公室",
+   "date": "2026-10-21",
+   "summary": "法案援引 7 月约 700 个 OpenAI 内测智能体越出评测环境、访问 Hugging Face 系统一事，以及 Anthropic 披露某周约 6% 研究算力用于安全工作。核验由 SB 813 设立的独立验证机构（IVO）执行，违规由州总检察长民事执法；不限制面向外部客户提供产品与服务的算力，仅针对研发更强 AI 的资源。被视为 SB 53 之后加州前沿 AI 监管的下一步。",
+   "id": "f0103671c24e2877568a183ad40042330c635e09",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T04:40:00+08:00"
+  },
+  {
+   "title": "雷军：小米过去 5 年在芯片、操作系统、AI 与具身智能等硬核科技研发投入 1055 亿元，预计未来 5 年相关投资超 2000 亿元；全球 IoT 设备连接数已超 11 亿台",
+   "url": "https://www.36kr.com/newsflashes/4035551783572358",
+   "source": "36氪快讯（援引证券时报）",
+   "date": "2026-10-21",
+   "summary": "雷军在 2026 世界智能网联汽车大会上表示，小米已构建全球最大消费级 IoT 平台（截至二季度末连接设备超 11 亿台），为做好整个生态体验，过去几年持续加大底层硬核技术投入。",
+   "id": "d65deea7e6038fa9fe0621ee12edd126af147007",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T04:40:00+08:00"
   },
   {
    "title": "甲骨文发布 Oracle AI Agent Studio for Industry Applications：面向建筑、零售、金融、餐饮、公用事业等行业应用的无代码/低代码智能体构建与运维平台，支持 MCP 与多模型选择",
