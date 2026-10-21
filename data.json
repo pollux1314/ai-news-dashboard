@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T12:26:00+08:00",
+  "updated": "2026-10-21T13:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -8,18 +8,32 @@
       "icon": "🚀",
       "items": [
         {
-          "title": "Sophont 发布首款产品 Holon-S1：从常规 H&E 病理切片预测空间分辨的基因表达、信号通路与生物学程序，称优于 Path2Space 与 DeepSpot-M",
-          "url": "https://sophont.med/blog/holon/",
-          "source": "Sophont Blog",
-          "date": "2026-10-20",
-          "summary": "技术报告称模型以泛癌策略在多种空间转录组平台（含单细胞与 spot 级）上训练，评估覆盖 16 种器官、15 种以上扫描仪及 FFPE/冷冻切片；案例中复现了 GitLab 联合创始人 Sid Sijbrandij 骨肉瘤的分子分析发现（FAP、MDM2 高表达），并在三阴性乳腺癌中找到可预测新辅助化疗反应的 EREG 空间梯度新标志物。目前仅限科研使用，尚未获批用于诊断。"
-        },
-        {
           "title": "humans& 发布首个模型 Ampersand v0.1：定位“协作者”模型，用长周期社交模拟训练，帮助个人与群体达成长期目标，今起通过 Agents API 开放、无需排队",
           "url": "https://ampersand.humansand.ai/blog/",
           "source": "humans& Blog",
           "date": "2026-10-21",
           "summary": "模型卡显示其基于 GLM 5.3（约 744B 总参数、40B 激活的 MoE，100 万 token 上下文），用自家用户模型 Persimmon 做多月级模拟训练。公司称在“长期协作”评测中用户借助 Ampersand 完成的进度超过 Fable 等前沿模型，但交互成本更高（会在用户只想要答案时“说教”），在单独的 Teamwork 测试中 59.1% 也低于 Fable 5.1 与 GPT-6 Astra。API 兼容 OpenAI Agents API，模型 ID 为 ampersand-v0.1。"
+        },
+        {
+          "title": "ElevenLabs 发布 Eleven Realtime 端到端语音到语音模型：v1 Mini 主打低成本自然对话，v1 Max 面向客服与多步骤工具调用任务，兼容 OpenAI Realtime API",
+          "url": "https://elevenlabs.io/blog/realtime",
+          "source": "ElevenLabs Blog",
+          "date": "2026-10-20",
+          "summary": "每个模型本身就是完整语音智能体，省去分别搭配语音识别、轮次判断、LLM 与 TTS 的工程；两款均支持 90 多种语言、可调用 ElevenLabs 库中 17,000 多种音色。已接入 ElevenAgents，开发者只需改端点与模型名即可从 OpenAI Realtime API 迁移；Artificial Analysis 在 Big Bench Audio、Full-Duplex-Bench 与 Speech Agent Arena 上做了独立评测。"
+        },
+        {
+          "title": "Sensor Tower：Meta AI 智能体应用 Muse 上线 40 天美国下载量破 1000 万，成为史上第 12 个达成该里程碑的应用，留存率高于 ChatGPT、Claude 与 Grok",
+          "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "Muse 自 9 月 8 日上线累计下载 1090 万次，其中美国 1020 万；10 月 16 日日活首破 250 万、周环比 +15%。美国 7 日留存 30%、14 日留存 23%，对手平均为 19% 与 16%。Meta 10 月把 39% 的广告投放用于推广 Muse；同期 ChatGPT 首 40 天美国下载为 370 万。"
+        },
+        {
+          "title": "Sophont 发布首款产品 Holon-S1：从常规 H&E 病理切片预测空间分辨的基因表达、信号通路与生物学程序，称优于 Path2Space 与 DeepSpot-M",
+          "url": "https://sophont.med/blog/holon/",
+          "source": "Sophont Blog",
+          "date": "2026-10-20",
+          "summary": "技术报告称模型以泛癌策略在多种空间转录组平台（含单细胞与 spot 级）上训练，评估覆盖 16 种器官、15 种以上扫描仪及 FFPE/冷冻切片；案例中复现了 GitLab 联合创始人 Sid Sijbrandij 骨肉瘤的分子分析发现（FAP、MDM2 高表达），并在三阴性乳腺癌中找到可预测新辅助化疗反应的 EREG 空间梯度新标志物。目前仅限科研使用，尚未获批用于诊断。"
         },
         {
           "title": "微软 OneDrive 大规模 AI 升级：Copilot 可同时分析多份表格生成图表与趋势、整理凌乱文件夹，把文档转成交互式 HTML 报告，并支持以 Markdown 保存可复用的自定义技能",
@@ -48,20 +62,6 @@
           "source": "GlobeNewswire / Yahoo Finance",
           "date": "2026-10-20",
           "summary": "内置“思考框架”先写剧本、对白、分镜与节奏，再用音视频联合注意力在潜空间生成并自动剪辑拼接，跨镜头保持角色与场景一致。公司称成本比同类模型低 50% 以上，但定价、正式基准和第三方验证尚未公布；10 月 20 日起向少量合作方开放，同时推出 100 万美元免费额度申请计划，输出带隐形水印。"
-        },
-        {
-          "title": "谷歌把“Personal Intelligence with Gemini”带进汽车：Android Auto 今日起上线，可调用 Gmail、日历、地图、YouTube 和搜索记录给出个性化回答，Google Built-in 车型数月内跟进",
-          "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
-          "source": "TechCrunch",
-          "date": "2026-10-20",
-          "summary": "驾驶者需主动开启，可逐个选择连接哪些谷歌应用并随时关闭。例子包括导航去机场时提醒日历里的航班延误、一次追问同时回答登机口和是否准点。Gemini 去年 11 月进入 Android Auto，Personal Intelligence 今年 3 月在美国推出、目前在全球市场测试。"
-        },
-        {
-          "title": "ChatGPT 上线“锁定聊天”（Locked Chats）：敏感对话可用四位 PIN、Face ID 或 Touch ID 上锁，面向 Free 到 Enterprise、Edu 全部套餐逐步推送",
-          "url": "https://techcrunch.com/2026/10/20/chatgpt-now-lets-you-lock-your-chats/",
-          "source": "TechCrunch",
-          "date": "2026-10-20",
-          "summary": "锁定后的对话移入独立的“Locked Chats”区，不出现在常规历史、置顶和搜索里；开启记忆时该区有一套独立记忆，锁定后的新消息不会写入常规记忆。OpenAI 说明上锁不等于端到端加密，也不改变数据保留期限或“改进模型”设置；重置 PIN 会永久删除所有锁定内容。临时、归档、群聊、分享链接创建的对话等不支持，ChatGPT for Healthcare 暂不提供。"
         }
       ]
     },
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "路透独家：三星与 SK 海力士正升级在华工厂生产更先进的 NAND 闪存，以应对长江存储竞争并满足 AI 需求，两家公司称升级与华盛顿密切协商进行",
+          "url": "https://live.euronext.com/en/financial-news/exclusive-samsung-sk-hynix-upgrading-china-plants-make-more-advanced-chips-people",
+          "source": "Reuters（via Euronext）",
+          "date": "2026-10-21",
+          "summary": "据四位知情人士，三星西安工厂（约占其全球 NAND 产量四成）内部代号“Monami”项目正转产 286 层 V9 NAND，目标今年 12 月月产 5000 片晶圆、2027 年 12 月提升至 4 万片；SK 海力士大连工厂由 192 层转向 240 层以上。两家需每年向美国申请设备许可，路透未能确认相关许可获批程度。"
+        },
+        {
           "title": "Firmus 签下 Mira Murati 的 Thinking Machines Lab 作为亚洲 AI 云区域锚定客户；另据 The Information，英伟达正洽谈向 IPO 搁浅的 Firmus 投资数亿美元",
           "url": "https://firmus.co/newsroom/firmus-announces-multi-year-partnership-to-accelerate-thinking-machines-lab-s-frontier-ai-development",
           "source": "Firmus Newsroom / The Information",
@@ -78,18 +85,18 @@
           "summary": "根据多年期协议，Thinking Machines Lab 将在 Firmus 基于英伟达 GB300 的 AI Factory 上训练并部署下一代模型，金额未披露；这是 Firmus 本月撤回澳洲大型 IPO 后的首个大单。英伟达已是 Firmus 股东，若追加投资将再次体现其对高负债 neocloud 的托底，也引发“需求依赖供应商融资”的质疑。"
         },
         {
-          "title": "皮查伊接受 Big Technology 专访：谷歌云正为前沿 AI 研发让出算力、牺牲短期收入；Gemini 4 Argon 上线 72 小时处理近 25 万亿 token，约为 Gemini 3 的 3 倍",
-          "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
-          "source": "Big Technology",
-          "date": "2026-10-20",
-          "summary": "皮查伊称算力分配首先保障 Google DeepMind，“现在客户想要 2027 年的算力极其困难”，当前产能取决于 2024 年的决策，全行业都希望有计划的两倍；Argon 上线四周内谷歌内部代码变更（CL）增加 30%、回滚减少约三分之一。他表示 RSI 仍处“智能体与研究员协作”阶段，并主张建立跨行业安全标准与独立评估；太空数据中心项目的 TPU 已入轨，正等待“hello world”。"
-        },
-        {
           "title": "集邦咨询：AI 推理需求推高内存，预估 2026 年四季度 DRAM 合约价环比再涨约 20%，涨幅较二季度（约 80%）、三季度（约 40%）放缓",
           "url": "https://www.ithome.com/1/015/627.htm",
           "source": "IT之家",
           "date": "2026-10-21",
           "summary": "更大模型、更长上下文与不断增长的 KV 缓存拉动服务器 DRAM 与企业级 SSD 需求，原厂又把产能优先投向 HBM，传统 DRAM 供给更紧。另据报道，英伟达因 HBM 吃紧考虑把 Rubin Ultra 的 HBM 堆叠从 12 层降到 8 层，单颗 GPU 容量约少 33%，但同样颗粒可多支撑约 50% GPU 出货。"
+        },
+        {
+          "title": "皮查伊接受 Big Technology 专访：谷歌云正为前沿 AI 研发让出算力、牺牲短期收入；Gemini 4 Argon 上线 72 小时处理近 25 万亿 token，约为 Gemini 3 的 3 倍",
+          "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+          "source": "Big Technology",
+          "date": "2026-10-20",
+          "summary": "皮查伊称算力分配首先保障 Google DeepMind，“现在客户想要 2027 年的算力极其困难”，当前产能取决于 2024 年的决策，全行业都希望有计划的两倍；Argon 上线四周内谷歌内部代码变更（CL）增加 30%、回滚减少约三分之一。他表示 RSI 仍处“智能体与研究员协作”阶段，并主张建立跨行业安全标准与独立评估；太空数据中心项目的 TPU 已入轨，正等待“hello world”。"
         },
         {
           "title": "推理云 General Compute 与 Positron AI 合作：采购 Atlas 推理系统并承诺采购下一代 Titan（基于自研 Asimov 芯片），2027 年一季度起向客户提供",
@@ -118,13 +125,6 @@
           "source": "Bloomberg",
           "date": "2026-10-20",
           "summary": "彭博报道，Pigment 用 AI 帮企业做财务预测、生成演示文稿等。本轮除 Scaleup Europe Fund 与英伟达外，还有美日基金 World Innovation Lab 及老股东 Iconiq、IVP、Meritech 参与；黄仁勋上周访法时已宣布这笔投资，公司还计划再引入几家亚洲投资方。"
-        },
-        {
-          "title": "SpaceX 与特斯拉董事会各自成立独立董事特别委员会，评估两家公司合并；马斯克称合并“是个好主意”，但并非板上钉钉",
-          "url": "https://techcrunch.com/2026/10/20/spacex-and-tesla-boards-form-special-committees-to-review-merger/",
-          "source": "TechCrunch",
-          "date": "2026-10-20",
-          "summary": "马斯克在 SpaceX 三季度财报电话会上透露，委员会应股东要求设立，他作为利益冲突方不参与讨论，双方尚未就交易条款达成一致；特斯拉需获全体股东 50% 赞成票。他称“我们几乎已处在超级智能奇点”，合并可在 AI 软件、机器人、轨道 AI 数据中心 Starmind 及联合造芯项目 Terafab 上协同。"
         }
       ]
     },
@@ -204,6 +204,13 @@
           "summary": "两款模型已上架 Hugging Face，采用允许研究与商用的 Kanana Open License，覆盖通用 VQA、英/韩文 OCR 与文档理解、视觉定位等 9 个领域。Kakao 称不到 1 亿参数的 tiny 版也胜过 4 亿参数以上的海外模型，在视觉定位和韩文 OCR 上优势尤其明显，定位为智能体“电脑操作”的视觉基础。"
         },
         {
+          "title": "GitHub 软件包防火墙（package firewall）公开预览：在终端与上游 npm 源之间拦截恶意包，可按包龄下限、恶意软件与漏洞通告、证明降级、新增安装脚本等策略阻断",
+          "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview/",
+          "source": "GitHub Changelog",
+          "date": "2026-10-20",
+          "summary": "目前仅支持 npm，面向 GitHub Enterprise Cloud（含数据驻留实例）客户；只需把 npm 指向企业专属防火墙注册表地址并携带 GitHub token。预览期免费，正式版将按用量计费；意在把供应链防护前置到安装前的拉包环节。"
+        },
+        {
           "title": "英伟达 GEAR 实验室开源 Flora 模型套件：把机器人与人类第一视角视频自动标注为带时间戳的动作指令、过程奖励与失败原因，称成本约为 GPT-6 Astra 的 1/125",
           "url": "https://research.nvidia.com/labs/gear/flora/",
           "source": "NVIDIA Research",
@@ -244,13 +251,6 @@
           "source": "IT之家",
           "date": "2026-10-20",
           "summary": "Ming-3.0-tts 系列可用文字描述或参考音频设定音色，并能说明台词的情绪变化、重读与节奏；Ming-3.0-audio-flash/tiny 可直接对长音频做转写、总结和观点分析并结构化输出，保留情绪与说话人信息；Ming-3.0-asr-tiny 结合热词与上下文提升识别，已用于阿福、支付宝搜索等业务。模型已上架 Hugging Face 与魔搭，Ling Studio 提供 API。"
-        },
-        {
-          "title": "llm-d 1.0 发布：红帽、IBM、谷歌主导的 Kubernetes 原生分布式推理栈进入生产就绪，新增多租户 QoS、零停机升级与面向智能体的路由",
-          "url": "https://research.ibm.com/blog/llmd-1-0-is-ready-for-production-inference-serving",
-          "source": "IBM Research",
-          "date": "2026-10-20",
-          "summary": "在 PyTorch Conference North America 上发布；llm-d 由红帽、IBM、谷歌与 CoreWeave、英伟达去年共同创立，现为 CNCF 沙箱项目，可在 vLLM 或 SGLang 之上提供前缀缓存感知路由、KV 缓存跨 GPU/CPU/存储卸载、预填充/解码分离与宽专家并行。1.0 重点是“第二天运维”：稳定 API、流控与优先级、多轮请求固定到已有缓存的副本。IBM 称在智能体编程负载中前缀路由捕获了 97% 的可复用缓存，并演示自托管同时运行 3000 个软件工程智能体，成本为调用同一开源模型托管服务的 1/5 到 1/10。"
         }
       ]
     },
@@ -481,6 +481,30 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2112778692703211884",
+          "source": "@Reuters",
+          "date": "2026-10-21",
+          "summary": "路透独家：三星电子与 SK 海力士正升级在华工厂以生产更先进的存储芯片，意在抵御快速成长的中国对手并满足巨大的 AI 需求。",
+          "metrics": {
+            "likes": 0,
+            "reposts": 0,
+            "views": 0
+          }
+        },
+        {
+          "title": "@testingcatalog",
+          "url": "https://x.com/testingcatalog/status/2112778083816140857",
+          "source": "@testingcatalog",
+          "date": "2026-10-21",
+          "summary": "ElevenLabs 发布 Eleven Realtime Max 与 Mini 语音到语音模型：Max 在 Big Bench Audio 得分 98.8%、0.57 秒开口；Mini 针对低成本自然对话优化。",
+          "metrics": {
+            "likes": 6,
+            "reposts": 0,
+            "views": 818
+          }
+        },
+        {
           "title": "@iScienceLuvr",
           "url": "https://x.com/iScienceLuvr/status/2112597012088844407",
           "source": "@iScienceLuvr",
@@ -550,30 +574,6 @@
             "likes": 626,
             "reposts": 83,
             "views": 72673
-          }
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2112730624075161980",
-          "source": "@business",
-          "date": "2026-10-21",
-          "summary": "彭博：英伟达三季度联邦游说支出近 220 万美元，创公司纪录。",
-          "metrics": {
-            "likes": 3,
-            "reposts": 0,
-            "views": 7727
-          }
-        },
-        {
-          "title": "@yunzeman",
-          "url": "https://x.com/yunzeman/status/2112590210840281500",
-          "source": "@yunzeman",
-          "date": "2026-10-20",
-          "summary": "英伟达研究员发布 Flora：开放模型套件“观看”机器人与人类视频，标注发生了什么（带时间戳的指令）以及做得如何（奖励与失败原因），已用于训练 NVIDIA GR00T。",
-          "metrics": {
-            "likes": 117,
-            "reposts": 26,
-            "views": 12825
           }
         }
       ]

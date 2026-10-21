@@ -1,7 +1,50 @@
 {
- "updated": "2026-10-21T12:26:00+08:00",
- "count": 937,
+ "updated": "2026-10-21T13:40:00+08:00",
+ "count": 943,
  "items": [
+  {
+   "title": "路透独家：三星与 SK 海力士正升级在华工厂生产更先进的 NAND 闪存，以应对长江存储竞争并满足 AI 需求，两家公司称升级与华盛顿密切协商进行",
+   "url": "https://live.euronext.com/en/financial-news/exclusive-samsung-sk-hynix-upgrading-china-plants-make-more-advanced-chips-people",
+   "source": "Reuters（via Euronext）",
+   "date": "2026-10-21",
+   "summary": "据四位知情人士，三星西安工厂（约占其全球 NAND 产量四成）内部代号“Monami”项目正转产 286 层 V9 NAND，目标今年 12 月月产 5000 片晶圆、2027 年 12 月提升至 4 万片；SK 海力士大连工厂由 192 层转向 240 层以上。两家需每年向美国申请设备许可，路透未能确认相关许可获批程度。",
+   "id": "2a580a331ae7824153717f2d22df650402e92968",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T13:40:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112778692703211884",
+   "source": "@Reuters",
+   "date": "2026-10-21",
+   "summary": "路透独家：三星电子与 SK 海力士正升级在华工厂以生产更先进的存储芯片，意在抵御快速成长的中国对手并满足巨大的 AI 需求。",
+   "metrics": {
+    "likes": 0,
+    "reposts": 0,
+    "views": 0
+   },
+   "id": "a02cae32fda45407ee82307ae1b14f568651c868",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T13:40:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2112778083816140857",
+   "source": "@testingcatalog",
+   "date": "2026-10-21",
+   "summary": "ElevenLabs 发布 Eleven Realtime Max 与 Mini 语音到语音模型：Max 在 Big Bench Audio 得分 98.8%、0.57 秒开口；Mini 针对低成本自然对话优化。",
+   "metrics": {
+    "likes": 6,
+    "reposts": 0,
+    "views": 818
+   },
+   "id": "9972e55b2302dda8dddc870b90565a13abef5b08",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T13:40:00+08:00"
+  },
   {
    "title": "Firmus 签下 Mira Murati 的 Thinking Machines Lab 作为亚洲 AI 云区域锚定客户；另据 The Information，英伟达正洽谈向 IPO 搁浅的 Firmus 投资数亿美元",
    "url": "https://firmus.co/newsroom/firmus-announces-multi-year-partnership-to-accelerate-thinking-machines-lab-s-frontier-ai-development",
@@ -291,6 +334,39 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "ElevenLabs 发布 Eleven Realtime 端到端语音到语音模型：v1 Mini 主打低成本自然对话，v1 Max 面向客服与多步骤工具调用任务，兼容 OpenAI Realtime API",
+   "url": "https://elevenlabs.io/blog/realtime",
+   "source": "ElevenLabs Blog",
+   "date": "2026-10-20",
+   "summary": "每个模型本身就是完整语音智能体，省去分别搭配语音识别、轮次判断、LLM 与 TTS 的工程；两款均支持 90 多种语言、可调用 ElevenLabs 库中 17,000 多种音色。已接入 ElevenAgents，开发者只需改端点与模型名即可从 OpenAI Realtime API 迁移；Artificial Analysis 在 Big Bench Audio、Full-Duplex-Bench 与 Speech Agent Arena 上做了独立评测。",
+   "id": "a59b63a30499fa0cdac3c585edc96486ad5f8454",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T13:40:00+08:00"
+  },
+  {
+   "title": "Sensor Tower：Meta AI 智能体应用 Muse 上线 40 天美国下载量破 1000 万，成为史上第 12 个达成该里程碑的应用，留存率高于 ChatGPT、Claude 与 Grok",
+   "url": "https://techcrunch.com/2026/10/20/metas-muse-hits-10m-u-s-downloads-in-40-days-a-milestone-reached-by-only-11-other-apps/",
+   "source": "TechCrunch",
+   "date": "2026-10-20",
+   "summary": "Muse 自 9 月 8 日上线累计下载 1090 万次，其中美国 1020 万；10 月 16 日日活首破 250 万、周环比 +15%。美国 7 日留存 30%、14 日留存 23%，对手平均为 19% 与 16%。Meta 10 月把 39% 的广告投放用于推广 Muse；同期 ChatGPT 首 40 天美国下载为 370 万。",
+   "id": "8891282d78b30c77f9a21e3e70c4e3c73ea9f4df",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T13:40:00+08:00"
+  },
+  {
+   "title": "GitHub 软件包防火墙（package firewall）公开预览：在终端与上游 npm 源之间拦截恶意包，可按包龄下限、恶意软件与漏洞通告、证明降级、新增安装脚本等策略阻断",
+   "url": "https://github.blog/changelog/2026-10-20-github-package-firewall-in-public-preview/",
+   "source": "GitHub Changelog",
+   "date": "2026-10-20",
+   "summary": "目前仅支持 npm，面向 GitHub Enterprise Cloud（含数据驻留实例）客户；只需把 npm 指向企业专属防火墙注册表地址并携带 GitHub token。预览期免费，正式版将按用量计费；意在把供应链防护前置到安装前的拉包环节。",
+   "id": "3a0a205bf6e15ba9ffaa848ed88ff746d92cc752",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T13:40:00+08:00"
   },
   {
    "title": "Sophont 发布首款产品 Holon-S1：从常规 H&E 病理切片预测空间分辨的基因表达、信号通路与生物学程序，称优于 Path2Space 与 DeepSpot-M",
