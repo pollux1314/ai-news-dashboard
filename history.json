@@ -1,7 +1,116 @@
 {
- "updated": "2026-10-21T16:35:00+08:00",
- "count": 962,
+ "updated": "2026-10-21T17:24:00+08:00",
+ "count": 973,
  "items": [
+  {
+   "title": "Tether 领投 AI 智能体支付基础设施公司 Mural 1500 万美元 A 轮融资，累计融资达 2800 万美元，押注“智能体金融”",
+   "url": "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural",
+   "source": "CoinDesk",
+   "date": "2026-10-21",
+   "summary": "Mural 由前 Palantir 工程师创立，为金融科技与平台公司提供跨传统银行网络与区块链的账户、支付、身份验证与合规基础设施，客户包括 Deel 与 Opera；North Island Ventures 及老股东跟投。其系统允许企业为 AI 智能体设置交易限额、限制交易对手、对大额支付要求额外审批，以解决自主软件动用资金时的授权与问责问题。Tether CEO Ardoino 称“当智能体开始转移资金，与银行、支付网络和合规系统的连接就变得至关重要”。",
+   "id": "771d8eeea6be3dfd0fad1fc933f120e62b0ab548",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "RiseHarness：模型权重不变、只迭代进化智能体“外壳”（harness），专攻“同配置下时成时败”的长程终端任务，提升成功率与可靠性",
+   "url": "https://arxiv.org/abs/2610.27435",
+   "source": "Hugging Face Daily Papers / arXiv",
+   "date": "2026-10-21",
+   "summary": "作者指出长程终端智能体常“一次能做成、多次跑不稳”，随机错误会沿动作与上下文传播。RiseHarness 以同一任务的成功轨迹为参照分析失败轨迹，结合运行时监控采集的 harness 内部轨迹，用“Harness Handbook”把证据关联到 harness 行为与源码，再检索其他 harness 框架的相关实现作为设计参考；候选改动经行为检查与重复评测，有实测增益的版本进入下一轮。论文把“特定模型”作为 harness 适配单元，并测试向未见基准迁移。HF 每日论文页标注为腾讯混元（Tencent Hunyuan）。",
+   "id": "55b1930c6bc3f8afd762f0ba3d82444c8a265445",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "λ₀：用 500 小时开放世界人类第一视角“移动+操作”数据训练人形机器人全身基础模型，零样本迁移宇树 G1，SIMPLE 成功率 90%、真实任务 62.5%",
+   "url": "https://arxiv.org/abs/2610.18950",
+   "source": "Hugging Face Daily Papers / arXiv",
+   "date": "2026-10-21",
+   "summary": "Lambda-humanoid 团队发布 HumanVerse 数据集，把第一视角视频与同步的身体、手部动作配对；人到人形的管线对齐相机视角与手臂外观，并离线细化动作参考与控制器输入，以减少末端执行误差、保留全身协调。无需目标任务机器人示教即可在宇树 G1 上完成全身操作与长距离移动操作；人类全身数据越多，下游任务进度越好。登上 10 月 21 日 HF 每日论文榜。",
+   "id": "89a80ec03a10009aa09acfe4ee85f662aa004a25",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "CoEvo-RSI：针对递归自我改进智能体中“外壳进化了、模型跟不上”的脑-身错配，让元智能体同时挑选/合并模型检查点与历史 harness 设计，Qwen3.5-9B 仅靠 SFT 在部分任务超过 DeepSeek-V4-Pro",
+   "url": "https://arxiv.org/abs/2610.25078",
+   "source": "Hugging Face Daily Papers / arXiv",
+   "date": "2026-10-21",
+   "summary": "框架基于共享进化档案与执行反馈做“双向历史继承”：一边从历史设计中发展 harness，一边选择或合并模型检查点并在所选 harness 下继续适配，以减少 harness 要求模型未学会的行为、或限制模型已有能力的错配。仅用自身拒绝采样轨迹做 SFT，Qwen3.5-9B 在 TraceElephant 上智能体准确率比 DeepSeek-V4-Pro 高 14.16 个点，在 HomeBench VM 上成功率比 GLM-5.3 高 4.90 个点，覆盖多智能体故障归因、角色感知 Text-to-SQL 与智能家居指令跟随。",
+   "id": "621472105dfc98377bd536789b48e3d10febe0c5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "IDC 首份汽车 AI 座舱市场报告：2026 上半年中国 AI 座舱解决方案市场 7.1 亿元，火山引擎以 45% 份额居首、阿里第二，全年预计 16.6 亿元",
+   "url": "https://www.ithome.com/1/015/980.htm",
+   "source": "IT之家（援引 IDC）",
+   "date": "2026-10-21",
+   "summary": "IDC 在《中国汽车云市场跟踪》中首次把 AI 座舱解决方案作为独立附加市场跟踪，涵盖 AI 开发平台/软件、模型服务 MaaS、AI 应用与 AI 运营服务四层，预计 2030 年达 47.1 亿元、年复合增速近 30%。第二梯队包括百度、科大讯飞与阶跃星辰等；计费以功能套件 License 为主，按 Token 计费的公有云模式为补充，端云协同已成共识，座舱正从“被动应答”转向“主动服务”。",
+   "id": "368308098e4dbb8f9ed61c2c7dc694653948f229",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "宇树科技发布“H2-X 功夫传奇”守护型人形机器人：续航约 8 小时，演示徒手抬汽车、一脚踢凹车门",
+   "url": "https://finance.sina.com.cn/jjxw/2026-10-21/doc-inivynss4838350.shtml",
+   "source": "新浪财经 / IT之家",
+   "date": "2026-10-21",
+   "summary": "宇树将其定位为可当“私人保镖”的守护场景机器人，演示中还从约 4 米高台空翻落地。具体配置与售价暂未公布；作为参照，现款 H2 身高 182cm、31 个自由度、续航约 3 小时，H2-X 续航提升到约 8 小时。",
+   "id": "ee657e4836ed8f4a3752c309f2ad7abdfe6044d8",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "中国电信人工智能研究院（TeleAI）孵化首个市场化企业“伽马智能”在上海徐汇成立，聚焦人形机器人“自进化”与全身模型",
+   "url": "https://www.ithome.com/1/015/807.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "伽马智能（Gamma Robotics）获中电信（上海）人工智能产业私募基金战略投资，中国电信集团 CTO、TeleAI 院长李学龙任科学顾问，白辰甲任创始人兼 CEO，并将与 TeleAI 共建人形机器人实验室。公司将依托中国电信的网络、算力与“智传网（AI Flow）”，让机器人在真实交互中持续学习，形成移动、平衡与操作协同的全身能力，并与云端模型协作共享经验。",
+   "id": "f25eadc451dd5919b561e938f714b068e03a7752",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "@nvidia",
+   "url": "https://x.com/nvidia/status/2112832187351580802",
+   "source": "@nvidia",
+   "date": "2026-10-21",
+   "summary": "英伟达：黄仁勋 GTC Berlin 主题演讲正在柏林 Tempodrom 直播（10 月 21 日 17:00–19:00 UTC+8），聚焦 AI 工厂、开放模型、智能体与物理 AI。",
+   "metrics": {
+    "likes": 94,
+    "reposts": 24,
+    "views": 11860
+   },
+   "id": "ea42af3881b2529e932848b987cbae230e82e9d9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112831310829900244",
+   "source": "@business",
+   "date": "2026-10-21",
+   "summary": "彭博：德意志银行 CEO 称看不到 AI 泡沫——此前亿万富翁 Ken Griffin 警告投资者将遭遇挫折。",
+   "metrics": {
+    "likes": 13,
+    "reposts": 5,
+    "views": 11149
+   },
+   "id": "aaf9714f893398fc4328039fc51632c97e992689",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
   {
    "title": "The Information/福布斯：英伟达为 AI 数据中心提供的担保与各类承诺最高达 1645 亿美元，其中约 1050 亿美元为 OpenAI 俄亥俄园区租约担保，占比约 64%",
    "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backs-164-5-billion-061322658.html",
@@ -524,6 +633,28 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "ThoughtSpot、Nutanix 联合创始人 Ajeet Singh 新公司 Different 走出隐身：获 General Catalyst 领投 4800 万美元种子轮，做端到端运行 B2B 需求生成的 AI 营销系统",
+   "url": "https://www.prnewswire.com/news-releases/different-emerges-from-stealth-with-48m-for-ai-that-runs-demand-generation-for-lean-b2b-marketing-teams-302913497.html",
+   "source": "PR Newswire",
+   "date": "2026-10-20",
+   "summary": "Lightspeed、Together Fund 等参投。Different 在一个闭环中规划营销活动、生成并投放广告、邮件与落地页，并提供答案引擎优化（AEO），基于企业策略、品牌与历史结果的共享记忆持续跨渠道优化，所有内容上线前由营销人员审批；口号是“让 5 人营销团队做 50 人的事”。客户 Descope 称借此识别并重新分配了约 60% 浪费在错误定向上的付费投放。",
+   "id": "ecf29c9c76af7b4d40d44677980ffa2a0c990e27",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T17:24:00+08:00"
+  },
+  {
+   "title": "AMD 与英特尔罕见联手：把各自 x86 CPU 的 PyTorch 优化统一到开源库 oneDNN，并定为 PyTorch 内 x86 加速默认库；AMD 将 ZenDNN 并入 oneDNN 并加入 UXL 基金会指导委员会",
+   "url": "https://newsroom.amd.com/news/amd-intel-collaborate-simplify-ai-development-on-x86-cpus-pytorch/",
+   "source": "AMD Newsroom",
+   "date": "2026-10-20",
+   "summary": "合作由 x86 生态咨询组推动，目标是让开发者通过同一条软件路径在 AMD 与英特尔 CPU 上获得优化的 PyTorch 性能，减少分别适配与重复维护。双方还在合作开发面向 x86 的下一代指令集扩展 AI Compute Extensions（ACE），重点加速矩阵乘法，未来将通过 oneDNN 更新接入 PyTorch。红帽 PyTorch 大使 Stephen Watt 称这是消除生态碎片化的重要一步。",
+   "id": "f975cb55d7d5eea2eb4528ed3edf924c6c9f131f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T17:24:00+08:00"
   },
   {
    "title": "Lafa（Large Flow Language Models）：把连续流匹配语言模型扩展到 8B 参数，从预训练自回归模型改造、不足 300 亿 token 训练，自推测解码吞吐达同等质量自回归模型的 2.54 倍",
