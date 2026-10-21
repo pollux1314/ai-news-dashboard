@@ -1,7 +1,143 @@
 {
- "updated": "2026-10-22T02:45:00+08:00",
- "count": 1083,
+ "updated": "2026-10-22T03:45:00+08:00",
+ "count": 1103,
  "items": [
+  {
+   "title": "Anthropic 开放 Claude Duet 研究预览：独立 iOS/Android 与网页应用，让 Claude 以“主动式智能体”每天推送晨报、后台持续干活、执行敏感操作前先征得同意",
+   "url": "https://claude.com/resources/articles/claude-duet",
+   "source": "Claude 官方博客（Anthropic）",
+   "date": "2026-10-22",
+   "summary": "基于 Claude Opus 5.5 设计，面向专业人士与小企业主：继承 Claude 账户的记忆、技能与连接应用，每隔几小时检查一次邮箱、日历等，只在需要时发消息；自带带浏览器的虚拟机，手机电脑关机也能跑任务；可调用 Claude Marketplace 6000+ 连接器（Gmail、Slack、QuickBooks、Gusto、Shopify 等），通过 Stripe Link 虚拟卡与 Shop Pay 代购。发消息、付款、签署、删除前须用户批准，证券交易与账户间转账即便批准也禁止；另配专门分类器防泄露信用卡号、身份证件等。首批面向美国 Pro/Max 用户候补开放，共享套餐用量。",
+   "id": "292e35e33e7becf5e0952acfd4b807aee40995a9",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "ollama/ollama",
+   "url": "https://github.com/ollama/ollama",
+   "source": "GitHub",
+   "stars": 184181,
+   "stars_week": null,
+   "language": "Go",
+   "date": "2026-10-22",
+   "summary": "本地运行 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等开源模型的主流工具，MIT 许可；最新 v0.40.8-rc0 上架 Recursive 的 40B MoE 编程模型 Flint（Apache 2.0、262K 上下文），v0.40.7 新增 Perplexity 27B 决策模型 pplx-decider 并修复 Responses API 多模型续聊问题。",
+   "why": "今日登上 GitHub Trending Go 日榜（单日约 +437 星），总星数约 18.4 万。",
+   "id": "6af93ea43beb7b950d1f587a395b95d3335813a7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "ItzCrazyKns/Vane",
+   "url": "https://github.com/ItzCrazyKns/Vane",
+   "source": "GitHub",
+   "stars": 37599,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-22",
+   "summary": "开源 AI 问答引擎（类 Perplexity 的自托管 AI 搜索），联网检索后生成带来源的回答，MIT 许可。",
+   "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +107 星），总星数约 3.8 万。",
+   "id": "387a4f6b52173d5de10c0f5e9ef4ecb486d9bdf6",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "zhoushoujianwork/easyeda-agent",
+   "url": "https://github.com/zhoushoujianwork/easyeda-agent",
+   "source": "GitHub",
+   "stars": 768,
+   "stars_week": null,
+   "language": "Go",
+   "date": "2026-10-22",
+   "summary": "嘉立创 EDA 专业版（EasyEDA Pro）自动化：给 AI Harness 装上画板的“手”，提供一套类型化的原理图/PCB 操作，以 CLI、Agent Skill 与 stdio MCP 三种形态接入编程智能体。",
+   "why": "今日登上 GitHub Trending Go 日榜（单日约 +24 星），国产 EDA × 智能体的新尝试。",
+   "id": "76b89512b954335d1a67a5cc89c9c2d535fc71ab",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "@claudeai",
+   "url": "https://x.com/claudeai/status/2112984664256241837",
+   "source": "@claudeai",
+   "date": "2026-10-22",
+   "summary": "Anthropic 开放 Claude Duet 研究预览：Claude 作为主动式智能体，主动告诉你该关注什么、完成交办任务、离开后仍持续工作，并在代你行动前先确认。",
+   "metrics": {
+    "likes": 3910,
+    "reposts": 316,
+    "views": 134481
+   },
+   "id": "ad54858f0793a6e621aeb3af0c0f645630eef483",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "@perplexity_ai",
+   "url": "https://x.com/perplexity_ai/status/2112978260808376411",
+   "source": "@perplexity_ai",
+   "date": "2026-10-22",
+   "summary": "Perplexity 新研究 JOLT：一个模型同时充当教师与学生、教师被训练成给出学生用得上的反馈，在 MATH 上以少 6.5 倍训练 token 追平 GRPO。",
+   "metrics": {
+    "likes": 70,
+    "reposts": 4,
+    "views": 6690
+   },
+   "id": "b92bf401b41aa78ab34f8c9e7da46911d576a5c3",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "@MSFTResearch",
+   "url": "https://x.com/MSFTResearch/status/2112987215496093979",
+   "source": "@MSFTResearch",
+   "date": "2026-10-22",
+   "summary": "微软研究院介绍 Proof-Driven Development（PDD）Kit：面对智能体写的代码越来越多，把开发者意图翻译成形式化规约，再用形式化验证证明代码正确。",
+   "metrics": {
+    "likes": 8,
+    "reposts": 3,
+    "views": 798
+   },
+   "id": "251fe5bd5facc95c187075bb56d80d3443116d7c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "@stripe",
+   "url": "https://x.com/stripe/status/2112980980114030669",
+   "source": "@stripe",
+   "date": "2026-10-22",
+   "summary": "Stripe：用 Stripe Treasury 让智能体搬钱——可自定义智能体权限，支付发票、转账与换汇。",
+   "metrics": {
+    "likes": 24,
+    "reposts": 1,
+    "views": 1965
+   },
+   "id": "1ae5dfef2466aac10d7059c808bffb4b449c27a3",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2112989835111673876",
+   "source": "@theinformation",
+   "date": "2026-10-22",
+   "summary": "The Information：OpenAI 与 Anthropic 面临越来越多限制研究算力以放慢 AI 发展的呼声，可为安全措施争取时间，但将挑战其在打造更强模型竞赛中的关键优势。",
+   "metrics": {
+    "likes": 0,
+    "reposts": 0,
+    "views": 488
+   },
+   "id": "e71d0cc9aaea4c7cd747a4030772454db8d9f574",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
   {
    "title": "Anthropic 发布 2026 年度《公益报告》（Public Benefit Report）：作为公益公司（PBC）首次按五大支柱盘点进展——AI 安全技术问题被解决、安全实践由法律兜底、AI 强化民主与全球稳定、AI 扩大繁荣、AI 收益人人共享",
    "url": "https://www.anthropic.com/public-benefit-charter",
@@ -244,6 +380,116 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "甲骨文发布 Oracle AI Agent Studio for Industry Applications：面向建筑、零售、金融、餐饮、公用事业等行业应用的无代码/低代码智能体构建与运维平台，支持 MCP 与多模型选择",
+   "url": "https://www.oracle.com/news/announcement/oracle-ai-agent-studio-for-industry-applications-helps-accelerate-business-outcomes-2026-10-21/",
+   "source": "Oracle 新闻稿",
+   "date": "2026-10-21",
+   "summary": "在 Fusion 应用版 Agent Studio 基础上扩展到行业应用：提供预置行业智能体、工作流模板与可复用工具，支持自然语言与可视化编排、跨 Oracle 行业应用与 Fusion 应用的多智能体协同、通过 MCP 服务器接入工具，以及上线前测试调试、权限护栏和执行/用量监控；可在 OCI Enterprise AI 中选择模型。计划 12 个月内先在美国上线。",
+   "id": "ef87b71f76c5f35e1d1f740f1bb69bd77e90aca3",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "Stripe 推出 Stripe Treasury for agents：初创公司可让 ChatGPT、Claude 等智能体通过 Stripe MCP 查余额、付发票、账户间转账与换汇，资金流动可设人工审批",
+   "url": "https://stripe.com/newsroom/news/treasury-for-agents",
+   "source": "Stripe 新闻室",
+   "date": "2026-10-21",
+   "summary": "企业可自选智能体能访问哪些账户与数据、只读还是可操作、何时需人工批准；未来几周将支持为智能体设置支出上限，并陆续开放开卡等更多任务。Stripe 称 2025 年年入超百万美元的个体创业者是 2023 年的两倍多，今年二季度经 Stripe Atlas 成立的 C 类公司中 63% 为单人创始。",
+   "id": "5b931e79becf76f056feb6836579a9f698533f8c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "OpenAI 公开 ChatGPT 广告系统架构：用一个后训练前沿 LLM 作“编排器”，以工具调用串起检索、排序、相关性评估与竞价，广告上线不到 200 天年化收入破 10 亿美元",
+   "url": "https://openai.com/index/building-chatgpt-ad-stack",
+   "source": "OpenAI 工程博客",
+   "date": "2026-10-21",
+   "summary": "广告会话跨多轮甚至多次对话保持状态，以理解逐步明确的用户意图；广告选择在独立服务、独立模型与代码中运行，与 ChatGPT 回答生成完全隔离，广告系统故障不影响回答，“不出广告”也是正常结果。用更强模型评估并训练小模型，配合点击/隐藏反馈形成自我改进闭环；团队称 Codex 是快速搭建系统的关键力量。累计超 10 万广告主。",
+   "id": "edef63b51aedc0121d1aea11f9472c530dce47d4",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "路透：瑞典自动驾驶卡车公司 Einride 扩大与英伟达合作，将成为首个部署 Alpamayo 视觉-语言-动作推理模型的货运运营商，2027 年下半年开展实路评估",
+   "url": "https://www.streetinsider.com/Reuters/Einride+expands+Nvidia+partnership+to+deploy+AI+reasoning+model+for+self-driving+trucks/27212755.html",
+   "source": "Reuters（StreetInsider 转载）",
+   "date": "2026-10-21",
+   "summary": "Einride 将用自身商业货运数据适配 Alpamayo，先以“影子模式”与现有驾驶软件及人类司机并行比对决策，以缩短开发周期、更易扩展到新车型与新线路。Einride 9 月已在德国为 Lidl 投入首辆无驾驶室常态化公路运营卡车；英伟达在 GTC 柏林同时展示了奔驰、大众商用车与 Bolt 的 Hyperion 平台应用。",
+   "id": "f59954a4f451fd82b415b3c6277ea24035c567f5",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "Perplexity 提出 JOLT：同一模型兼任“特权教师”与学生、教师按学生可用性受训，在 MATH 上以少 6.5 倍训练 token（少 13 倍生成 token）追平 GRPO 准确率",
+   "url": "https://arxiv.org/abs/2610.10447",
+   "source": "arXiv（Perplexity）",
+   "date": "2026-10-21",
+   "summary": "论文《A Good Self-Teacher Meets the Student Where They Are》指出自蒸馏中带特权信息的教师可能走学生无法复现的捷径，推导出教师蒸馏更新与学生奖励梯度同向的充要条件；JOLT 让教师以结果奖励加向当前学生的 KL 正则训练，学生通过稠密在线蒸馏学习、无需直接奖励。加入学生结果奖励的 JOLT+ 在数学、代码、工具调用与终端任务上超过 GRPO。Perplexity 于 10 月 21 日发文介绍。",
+   "id": "707f3ec62c3eb82e95b30066f161a08c572ff5bd",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "Video-Point Model（VPM）：在多视角视频生成之外联合预测场景持久点的 3D 轨迹，用点监督把各相机画面锚定到同一 3D 运动，并扩展为机器人策略",
+   "url": "https://arxiv.org/abs/2610.28594",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "以多视角视频历史与语言指令为条件，同时预测任意视角未来视频和场景点轨迹；在预训练世界模型上加入相机条件多视角处理与轨迹头，并构建 VPM-Data 仿真语料与 VP-WorldBench 基准。把机器人动作作为生成器的一种 token 模态与未来视频联合去噪，使策略共享 3D 感知表征；点监督同时提升视频保真度与 3D 运动精度。HF 日榜高赞。",
+   "id": "a2a814765ff9900e00e0f89b9121dae1fe04e206",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "“Joints, Camera, Action!”：为任意骨骼绑定同时生成视频与可回放的 3D 动作及相机，独立动作模型经少量交叉注意力接入预训练视频模型",
+   "url": "https://arxiv.org/abs/2610.28632",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者含 Chen Tessler、Gal Chechik、Or Litany 等。动作模型先用纯动作数据学习各种骨骼如何运动，再学习在视频帧中定位每个关节以恢复相机、把 3D 动作放回场景；借助生成式视频编辑把动画资产放入合适场景，结合人类与机器人视频构成近 20 万训练对，解决以往只支持人体骨骼或需从 2D 姿态三角化的问题。",
+   "id": "6bac73ae9245594ae0b4d58b46ffbf42d3dc2c7e",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "红帽与英伟达在 GTC 柏林扩大合作保护自主智能体：把 OpenShell 参考架构原生集成进 Red Hat AI Factory，BlueField 上的 Sentry/DOCA Argus 可在毫秒级隔离被攻破的智能体",
+   "url": "https://www.redhat.com/en/about/press-releases/red-hat-ai-factory-nvidia-accelerates-agentic-ai-security-capabilities-across-open-hybrid-cloud",
+   "source": "Red Hat 新闻稿",
+   "date": "2026-10-21",
+   "summary": "双方是开源智能体沙箱运行时 OpenShell 的主要贡献者，主张“智能体不该自己执法”，把控制放到智能体与宿主机之外：基于 OpenShift 4.22 的 BlueField-3 支持，Argus 从 DPU 独立信任域做主机内存内省；联合推出模型即服务访问控制与 AI 网关参考设计（vLLM、llm-d、Dynamo、NIM），在 vLLM 中联合支持 Nemotron 3.5 Super VL，RHEL for NVIDIA 支持 Vera CPU 并为 Vera Rubin 做 Day 0 适配。",
+   "id": "ab31fb32c3eeecf8c2a26bb7f2678ea7a5220937",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "SentinelOne 发布 Singularity Agentic Detection and Response（ADR）：盘点企业内所有智能体与 MCP 服务器，实时拦截提示注入、凭据外泄与工具投毒，可单独叫停失控智能体",
+   "url": "https://www.sentinelone.com/press/sentinelone-launches-singularity-agentic-detection-and-response-to-stop-rogue-and-malicious-ai-agents-at-machine-speed/",
+   "source": "SentinelOne 新闻稿",
+   "date": "2026-10-21",
+   "summary": "在 OneCon 2026 发布、即日起早期访问：覆盖 Salesforce Agentforce、Copilot Studio、ChatGPT 工作区智能体与 Claude 托管智能体；Agent Traces 写入数据湖，并把智能体事件与传统 EDR 行为整合进同一执行图；提供“意图漂移”检测（所托任务与实际行为的差距）、高风险工具审批流，以及只中止单个智能体而不停整个工作流的隔离能力。",
+   "id": "77f8d93fe05557f8e10bd5e7f0d0630b7a231b8f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T03:45:00+08:00"
+  },
+  {
+   "title": "The Information：AI 安全倡导者推动 OpenAI、Anthropic 限制研发算力——承诺把最低比例算力留给安全监测、另一部分留给客户推理，从而压低训练更强模型的算力占比",
+   "url": "https://www.benzinga.com/content/62497307/openai-anthropic-should-cap-compute-r-d-say-ai-safety-advocates",
+   "source": "The Information（Benzinga 转载）",
+   "date": "2026-10-21",
+   "summary": "报道称业内正热议如何“控速”让安全措施跟上能力：上周奥特曼提出合并各实验室或设立类 IAEA 国际机构等设想；一批安全研究者则认为给研发算力设上限是放慢 AI 发展最有效的手段之一，但这会削弱头部实验室在打造更强模型竞赛中的关键优势。",
+   "id": "9e896ddbecb4ec2ed46cbe923654d4c1911349e8",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T03:45:00+08:00"
   },
   {
    "title": "黄仁勋 GTC 柏林反驳“AI 终结软件”论：智能体干活仍要调用专业工具，软件工具公司将迎来更多使用者，并向提供“软件+擅用软件的智能体”转型",
@@ -1997,6 +2243,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "美国北达科他州议会跨会期 AI 与数据中心委员会推进州 AI 监管草案：要求面向消费者的 AI 披露身份、禁止用 AI 诱导自残暴力，设 7 人 AI 委员会与监管沙盒",
+   "url": "https://mydakotan.com/2026/10/north-dakota-lawmakers-advance-ai-regulation-bill-consider-additional-protections/",
+   "source": "The Dakotan",
+   "date": "2026-10-20",
+   "summary": "草案 27.0359.1000 部分参照得州立法，10 月 20 日获委员会建议提交 2027 年会期审议，执法主要由州总检察长负责，议员讨论是否允许个人提起民事诉讼；另一项针对儿童 AI 聊天机器人（禁止制造情感依赖的操纵手段、身份披露、色情与自残防护）的草案暂缓以便修改。",
+   "id": "4b42729f5c75d9ec1fcdd07498b5ae24420bc2e4",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T03:45:00+08:00"
   },
   {
    "title": "Anthropic 前沿红队：用 Claude 做“攻击面缩减”，在 25 个开源项目（500 万+ 行代码）中发现 493 个问题，其中一处安全配置冲突潜伏 21 年；促成 OpenSSH 把未认证可达代码砍掉约五分之一",
