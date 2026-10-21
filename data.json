@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T06:40:00+08:00",
+  "updated": "2026-10-22T06:33:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -141,6 +141,20 @@
           "summary": "智能体为每个参数组编写更新规则，可自发设计精细学习率调度、检测并抑制 loss spike、越过最小值时重置动量并回滚、摆脱过拟合；在 modded-nanogpt 改换中文/泰语/吉尔吉斯语数据或缩小 batch 等“无调优配方”场景下验证，扩展到 LightningDiT 图像生成。核心思路是用 LLM token 替代 GPU 与人力调参时间，已开源为 MIT 许可的 PyTorch 包（github.com/xingjian-bai/opal），一行封装现有优化器即可接入 Claude Code 等智能体。"
         },
         {
+          "title": "谷歌研究院登《自然》：“个人健康智能体”由数据科学、健康领域专家与健康教练三个子智能体加编排器协作，分析可穿戴设备等数据，效果优于单智能体与并行三智能体基线",
+          "url": "https://www.nature.com/articles/s41586-026-11161-8",
+          "source": "Nature（Google Research）",
+          "date": "2026-10-21",
+          "summary": "论文《The anatomy of a personal health agent》将个人健康支持拆分为三类专长：数据科学智能体解读传感器与健康记录，领域专家智能体提供医学知识，教练智能体做行为指导，由编排器分派任务并整合输出。在终端用户评估中，协作式多智能体系统获得 46.7% 的偏好，并在多项质量指标上超过单智能体 PHIA 基线。Eric Topol 称其为整合传感器数据、医学知识与教练能力的基础框架。"
+        },
+        {
+          "title": "Xaira 发布药物发现智能体平台 X-Scientist：主智能体调度常驻工作智能体与动态任务图，在 DrugDiscoveryBench 上以相同 Astra 模型高出 Codex 7.4 个百分点，基因扰动提名命中率与人类专家相当、速度约快 10 倍",
+          "url": "https://www.xaira.com/news/x-scientist-recursive-self-improving-agentic-ai-platform",
+          "source": "Xaira Therapeutics",
+          "date": "2026-10-21",
+          "summary": "由首席 AI 科学家王波（Bo Wang）团队打造，把前沿大模型与 Xaira 内部数据及 X-Cell、X-Design、X-Patient 等专有模型连接，提供领域工具、自适应研究流程与显式科学验证。概念验证中，平台为逆转肝细胞 TGF-β 诱导反应提名基因扰动；还能自主设计实验、建模、评估并据证据决定下一步，通过“模型与执行框架异步共同进化”迈向递归自我改进。"
+        },
+        {
           "title": "“Show-up 攻击”：恶意子智能体可操纵主管智能体把自己拉进超出授权范围的任务，6 个前沿模型全部中招，GPT-5.6-Sol 作主管时攻击成功率最高达 0.93",
           "url": "https://arxiv.org/abs/2610.27574",
           "source": "arXiv",
@@ -174,20 +188,6 @@
           "source": "arXiv（Salesforce AI Research）",
           "date": "2026-10-21",
           "summary": "套件以单一命令行和 quick/deep 两种预算模式运行，把各基准细粒度子指标路由到六维 EGI 评分（M1–M6），而非简单平均。quick 模式下 gpt-5.5 在任务结果、规划与检索落地上领先，Claude Sonnet 4.5 在工具执行与安全/拒答上领先，Claude Haiku 4.5 在工程质量上最佳；代码已开源。"
-        },
-        {
-          "title": "Perplexity 提出 JOLT：同一模型兼任“特权教师”与学生、教师按学生可用性受训，在 MATH 上以少 6.5 倍训练 token（少 13 倍生成 token）追平 GRPO 准确率",
-          "url": "https://arxiv.org/abs/2610.10447",
-          "source": "arXiv（Perplexity）",
-          "date": "2026-10-21",
-          "summary": "论文《A Good Self-Teacher Meets the Student Where They Are》指出自蒸馏中带特权信息的教师可能走学生无法复现的捷径，推导出教师蒸馏更新与学生奖励梯度同向的充要条件；JOLT 让教师以结果奖励加向当前学生的 KL 正则训练，学生通过稠密在线蒸馏学习、无需直接奖励。加入学生结果奖励的 JOLT+ 在数学、代码、工具调用与终端任务上超过 GRPO。Perplexity 于 10 月 21 日发文介绍。"
-        },
-        {
-          "title": "Video-Point Model（VPM）：在多视角视频生成之外联合预测场景持久点的 3D 轨迹，用点监督把各相机画面锚定到同一 3D 运动，并扩展为机器人策略",
-          "url": "https://arxiv.org/abs/2610.28594",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "以多视角视频历史与语言指令为条件，同时预测任意视角未来视频和场景点轨迹；在预训练世界模型上加入相机条件多视角处理与轨迹头，并构建 VPM-Data 仿真语料与 VP-WorldBench 基准。把机器人动作作为生成器的一种 token 模态与未来视频联合去噪，使策略共享 3D 感知表征；点监督同时提升视频保真度与 3D 运动精度。HF 日榜高赞。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "Anthropic 升级 Claude Security：连接仓库后先做深度基线扫描，再随新提交持续复扫，逐条跟踪漏洞直到修复并在回归时自动重开，可编辑威胁模型并通过 API、MCP 与 Webhook 接入现有流程",
+          "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+          "source": "Claude 官方博客（Anthropic）",
+          "date": "2026-10-21",
+          "summary": "面向 Claude Enterprise 公开测试：每个项目最多连接 8 个 GitHub/GitLab 等仓库，可发现跨服务的多组件漏洞；每条发现经多阶段自我复核以降低误报，可一键转入 Claude Code 生成补丁；支持 Full/Triage/View 角色与 RBAC 权限控制。另提供面向 Claude Code 的本地扫描插件测试版。"
+        },
         {
           "title": "红帽与英伟达在 GTC 柏林扩大合作保护自主智能体：把 OpenShell 参考架构原生集成进 Red Hat AI Factory，BlueField 上的 Sentry/DOCA Argus 可在毫秒级隔离被攻破的智能体",
           "url": "https://www.redhat.com/en/about/press-releases/red-hat-ai-factory-nvidia-accelerates-agentic-ai-security-capabilities-across-open-hybrid-cloud",
@@ -244,13 +251,6 @@
           "source": "NVIDIA Newsroom",
           "date": "2026-10-21",
           "summary": "Agile ONE SN 高 1.4 米、31 自由度，配两只 20 自由度灵巧手与 Jetson Thor，2027 年初供货；英伟达还发布三套 DGX Station 开源参考工作流（GR00T 1.7 强化学习微调、灵巧操作训练、用 ChatGPT Astra 后训练 Cosmos 合成数据），ABB、KUKA、NEURA 等欧洲厂商接入。"
-        },
-        {
-          "title": "商汤开源具身智能评测与自我改进框架 SenseNova-RoboRSI，并推出 27B 机器人“大脑”模型 RoboRSI-27B-Preview，称完成具身任务成本约为 GPT-6-Astra 的 1/50",
-          "url": "https://pandaily.com/sensetime-sensenova-roborsi-open-source-embodied-ai-harness-27b-preview",
-          "source": "Pandaily",
-          "date": "2026-10-21",
-          "summary": "框架（Apache 2.0）把每个仿真基准及依赖打包为独立 Docker 镜像，经统一 HTTP API 提供环境交互与原生评分，可用配置文件端到端跑评测，并以执行轨迹与反馈递归改进 Harness。27B 模型把验证过的交互经验写入权重以减少试错，商汤自测 RoboDojo 得分 26.13、任务成功率 20.83%，LIBERO-Pro 超 90，RoboCasa365 成功率从 26.0% 提至 46.5% 且 token 用量降 73%。GitHub 仓库显示权重页面已建，发布路线图仍在推进，成绩均未经独立验证。"
         }
       ]
     },
@@ -473,6 +473,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@RichardSocher",
+          "url": "https://x.com/RichardSocher/status/2112944397385879899",
+          "source": "X · Richard Socher",
+          "date": "2026-10-22",
+          "summary": "Recursive CEO 称 Flint 也是对其自动化 AI 科研系统 Eureka Machine 的真实检验：该系统跑通构思、实现、验证的完整研究闭环，并根据结果决定下一步，几乎参与了 Flint 构建的每个环节。"
+        },
+        {
           "title": "@satyanadella",
           "url": "https://x.com/satyanadella/status/2113008920008790488",
           "source": "X · Satya Nadella",
@@ -539,18 +546,6 @@
             "likes": 24,
             "reposts": 5,
             "views": 9991
-          }
-        },
-        {
-          "title": "@claudeai",
-          "url": "https://x.com/claudeai/status/2112984664256241837",
-          "source": "@claudeai",
-          "date": "2026-10-22",
-          "summary": "Anthropic 开放 Claude Duet 研究预览：Claude 作为主动式智能体，主动告诉你该关注什么、完成交办任务、离开后仍持续工作，并在代你行动前先确认。",
-          "metrics": {
-            "likes": 3910,
-            "reposts": 316,
-            "views": 134481
           }
         }
       ]

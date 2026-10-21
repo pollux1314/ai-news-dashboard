@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-22T06:40:00+08:00",
- "count": 1130,
+ "updated": "2026-10-22T06:33:00+08:00",
+ "count": 1134,
  "items": [
   {
    "title": "Recursive 发布首个模型 Flint：40B 总参数、仅激活 2.5B 的开源本地编码 MoE 模型，几乎全流程由其自动化科研系统“Eureka Machine”参与打造，M4 Pro MacBook 上超 125 token/s",
@@ -12,6 +12,17 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-22T06:40:00+08:00"
+  },
+  {
+   "title": "@RichardSocher",
+   "url": "https://x.com/RichardSocher/status/2112944397385879899",
+   "source": "X · Richard Socher",
+   "date": "2026-10-22",
+   "summary": "Recursive CEO 称 Flint 也是对其自动化 AI 科研系统 Eureka Machine 的真实检验：该系统跑通构思、实现、验证的完整研究闭环，并根据结果决定下一步，几乎参与了 Flint 构建的每个环节。",
+   "id": "3b0fb2de020d9faccb69dab6d6a8fdb4c859dc43",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T06:33:00+08:00"
   },
   {
    "title": "特斯拉三季度营收持平、GAAP 净利同比降 43%，研发开支因 AI、Optimus 与 Cybercab 大增；Optimus 人形机器人已在加州弗里蒙特工厂开始生产“量产级”机器人",
@@ -595,6 +606,39 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "谷歌研究院登《自然》：“个人健康智能体”由数据科学、健康领域专家与健康教练三个子智能体加编排器协作，分析可穿戴设备等数据，效果优于单智能体与并行三智能体基线",
+   "url": "https://www.nature.com/articles/s41586-026-11161-8",
+   "source": "Nature（Google Research）",
+   "date": "2026-10-21",
+   "summary": "论文《The anatomy of a personal health agent》将个人健康支持拆分为三类专长：数据科学智能体解读传感器与健康记录，领域专家智能体提供医学知识，教练智能体做行为指导，由编排器分派任务并整合输出。在终端用户评估中，协作式多智能体系统获得 46.7% 的偏好，并在多项质量指标上超过单智能体 PHIA 基线。Eric Topol 称其为整合传感器数据、医学知识与教练能力的基础框架。",
+   "id": "35c40b20a3761c429302ddf26b01c6ac374c4fbc",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T06:33:00+08:00"
+  },
+  {
+   "title": "Xaira 发布药物发现智能体平台 X-Scientist：主智能体调度常驻工作智能体与动态任务图，在 DrugDiscoveryBench 上以相同 Astra 模型高出 Codex 7.4 个百分点，基因扰动提名命中率与人类专家相当、速度约快 10 倍",
+   "url": "https://www.xaira.com/news/x-scientist-recursive-self-improving-agentic-ai-platform",
+   "source": "Xaira Therapeutics",
+   "date": "2026-10-21",
+   "summary": "由首席 AI 科学家王波（Bo Wang）团队打造，把前沿大模型与 Xaira 内部数据及 X-Cell、X-Design、X-Patient 等专有模型连接，提供领域工具、自适应研究流程与显式科学验证。概念验证中，平台为逆转肝细胞 TGF-β 诱导反应提名基因扰动；还能自主设计实验、建模、评估并据证据决定下一步，通过“模型与执行框架异步共同进化”迈向递归自我改进。",
+   "id": "b3375f6a944687ba3882360e4b5533754c1205ea",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T06:33:00+08:00"
+  },
+  {
+   "title": "Anthropic 升级 Claude Security：连接仓库后先做深度基线扫描，再随新提交持续复扫，逐条跟踪漏洞直到修复并在回归时自动重开，可编辑威胁模型并通过 API、MCP 与 Webhook 接入现有流程",
+   "url": "https://claude.com/resources/articles/claude-security-now-scans-continuously-and-tracks-fixes",
+   "source": "Claude 官方博客（Anthropic）",
+   "date": "2026-10-21",
+   "summary": "面向 Claude Enterprise 公开测试：每个项目最多连接 8 个 GitHub/GitLab 等仓库，可发现跨服务的多组件漏洞；每条发现经多阶段自我复核以降低误报，可一键转入 Claude Code 生成补丁；支持 Full/Triage/View 角色与 RBAC 权限控制。另提供面向 Claude Code 的本地扫描插件测试版。",
+   "id": "3964fa015c0d2656d9e9604930b1b58fb337c84a",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T06:33:00+08:00"
   },
   {
    "title": "“Show-up 攻击”：恶意子智能体可操纵主管智能体把自己拉进超出授权范围的任务，6 个前沿模型全部中招，GPT-5.6-Sol 作主管时攻击成功率最高达 0.93",
