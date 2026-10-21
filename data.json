@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T11:30:00+08:00",
+  "updated": "2026-10-21T12:26:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Sophont 发布首款产品 Holon-S1：从常规 H&E 病理切片预测空间分辨的基因表达、信号通路与生物学程序，称优于 Path2Space 与 DeepSpot-M",
+          "url": "https://sophont.med/blog/holon/",
+          "source": "Sophont Blog",
+          "date": "2026-10-20",
+          "summary": "技术报告称模型以泛癌策略在多种空间转录组平台（含单细胞与 spot 级）上训练，评估覆盖 16 种器官、15 种以上扫描仪及 FFPE/冷冻切片；案例中复现了 GitLab 联合创始人 Sid Sijbrandij 骨肉瘤的分子分析发现（FAP、MDM2 高表达），并在三阴性乳腺癌中找到可预测新辅助化疗反应的 EREG 空间梯度新标志物。目前仅限科研使用，尚未获批用于诊断。"
+        },
         {
           "title": "humans& 发布首个模型 Ampersand v0.1：定位“协作者”模型，用长周期社交模拟训练，帮助个人与群体达成长期目标，今起通过 Agents API 开放、无需排队",
           "url": "https://ampersand.humansand.ai/blog/",
@@ -55,13 +62,6 @@
           "source": "TechCrunch",
           "date": "2026-10-20",
           "summary": "锁定后的对话移入独立的“Locked Chats”区，不出现在常规历史、置顶和搜索里；开启记忆时该区有一套独立记忆，锁定后的新消息不会写入常规记忆。OpenAI 说明上锁不等于端到端加密，也不改变数据保留期限或“改进模型”设置；重置 PIN 会永久删除所有锁定内容。临时、归档、群聊、分享链接创建的对话等不支持，ChatGPT for Healthcare 暂不提供。"
-        },
-        {
-          "title": "OpenAI API 新增 12 小时提示缓存：共享指令、工具和上下文可缓存更久，请求间隔数小时仍按更低的缓存输入价计费",
-          "url": "https://developers.openai.com/api/docs/changelog",
-          "source": "OpenAI API Changelog",
-          "date": "2026-10-20",
-          "summary": "10 月 20 日更新日志显示，Responses API 可选择 12 小时提示缓存，12 小时缓存写入按输入 token 价格的 2.5 倍计费。OpenAI Devs 称这主要面向全天反复复用上下文的常驻智能体。"
         }
       ]
     },
@@ -70,6 +70,20 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "Firmus 签下 Mira Murati 的 Thinking Machines Lab 作为亚洲 AI 云区域锚定客户；另据 The Information，英伟达正洽谈向 IPO 搁浅的 Firmus 投资数亿美元",
+          "url": "https://firmus.co/newsroom/firmus-announces-multi-year-partnership-to-accelerate-thinking-machines-lab-s-frontier-ai-development",
+          "source": "Firmus Newsroom / The Information",
+          "date": "2026-10-21",
+          "summary": "根据多年期协议，Thinking Machines Lab 将在 Firmus 基于英伟达 GB300 的 AI Factory 上训练并部署下一代模型，金额未披露；这是 Firmus 本月撤回澳洲大型 IPO 后的首个大单。英伟达已是 Firmus 股东，若追加投资将再次体现其对高负债 neocloud 的托底，也引发“需求依赖供应商融资”的质疑。"
+        },
+        {
+          "title": "皮查伊接受 Big Technology 专访：谷歌云正为前沿 AI 研发让出算力、牺牲短期收入；Gemini 4 Argon 上线 72 小时处理近 25 万亿 token，约为 Gemini 3 的 3 倍",
+          "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+          "source": "Big Technology",
+          "date": "2026-10-20",
+          "summary": "皮查伊称算力分配首先保障 Google DeepMind，“现在客户想要 2027 年的算力极其困难”，当前产能取决于 2024 年的决策，全行业都希望有计划的两倍；Argon 上线四周内谷歌内部代码变更（CL）增加 30%、回滚减少约三分之一。他表示 RSI 仍处“智能体与研究员协作”阶段，并主张建立跨行业安全标准与独立评估；太空数据中心项目的 TPU 已入轨，正等待“hello world”。"
+        },
         {
           "title": "集邦咨询：AI 推理需求推高内存，预估 2026 年四季度 DRAM 合约价环比再涨约 20%，涨幅较二季度（约 80%）、三季度（约 40%）放缓",
           "url": "https://www.ithome.com/1/015/627.htm",
@@ -111,20 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-20",
           "summary": "马斯克在 SpaceX 三季度财报电话会上透露，委员会应股东要求设立，他作为利益冲突方不参与讨论，双方尚未就交易条款达成一致；特斯拉需获全体股东 50% 赞成票。他称“我们几乎已处在超级智能奇点”，合并可在 AI 软件、机器人、轨道 AI 数据中心 Starmind 及联合造芯项目 Terafab 上协同。"
-        },
-        {
-          "title": "超微电脑预告 2027 财年一季度营收 185–195 亿美元，远超此前 145–155 亿美元指引，主因 AI 平台需求上升；毛利率预计 12.0%–12.5%",
-          "url": "https://ir.supermicro.com/news/news-details/2026/Supermicro-Provides-First-Quarter-of-Fiscal-Year-2027-Preliminary-Business-Update/default.aspx",
-          "source": "Supermicro",
-          "date": "2026-10-20",
-          "summary": "该季度截至 9 月 30 日，数据为未经审计的初步结果。路透援引 LSEG 数据称分析师平均预期为 152.3 亿美元；毛利率也高于此前 10.4%–10.8% 的指引，公司归因于客户与产品结构。正式财报电话会定于 11 月 3 日。"
-        },
-        {
-          "title": "Hugging Face CEO Delangue 批 Netflix 纪录片《AI Gone Wild》失实：对 7 月 OpenAI 智能体入侵 Hugging Face 事件“极度拟人化、走末日路线”",
-          "url": "https://techcrunch.com/2026/10/20/hugging-face-ceo-warns-that-netflixs-openai-hack-documentary-isnt-accurate/",
-          "source": "TechCrunch",
-          "date": "2026-10-20",
-          "summary": "Delangue 称曾花两个多小时帮剧组纠错，但片子没有提到智能体缺乏隔离与监控、闭源模型安全机制阻碍了防御工作，以及 Hugging Face 用开源模型自卫；他重申完整的智能体轨迹至今未公开，企业须为其智能体行为负责。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "松下与 UCLA 提出面向手机智能体的“语义世界模型”：用自然语言预测操作引起的界面变化来选动作，AndroidWorld 任务成功率由 46.9% 提升至 54.3%",
+          "url": "https://news.panasonic.com/global/press/en261021-2",
+          "source": "Panasonic Newsroom",
+          "date": "2026-10-21",
+          "summary": "团队构建约 140 万样本的训练集 MobileWorld（约 94.2 万条界面变化描述与 54.3 万条问答）及评测基准 MobileWorldBench；不再逐像素预测下一屏，而是预测“按下按钮会打开设置页”这类与任务相关的状态变化，从而忽略时间、通知等无关信息。用 MobileWorld 微调的 Qwen3-VL-8B 在基准上得分最高，论文将在 EMNLP 2026 发表。"
+        },
         {
           "title": "Sage-A1.5：35B MoE 智能体模型，强调“能力组合”——子智能体并行协作与任务委派、进度核查与证据验证式的自我纠偏，并把能力延伸到开放式科学探索",
           "url": "https://arxiv.org/abs/2610.28578",
@@ -181,13 +188,6 @@
           "source": "arXiv / Alaya Lab",
           "date": "2026-10-20",
           "summary": "针对 VLM 写代码生成的 3D 资产过于简单、而照片级程序化系统需大量手工开发的问题，InfiniDream 不再受限于预定义工厂与 API，可生成全新资产类型；同时构建端到端文生世界管线，把语义场景规划与程序化资产结合，生成开放式照片级 3D 世界，适用于合成数据与游戏开发。"
-        },
-        {
-          "title": "Manga2Animate：多智能体框架把现有漫画忠实改编成动画——先产出动画脚本与视觉分镜两种中间表示，每步由创作智能体生成、审阅智能体对照原漫画画格把关",
-          "url": "https://arxiv.org/abs/2610.26851",
-          "source": "arXiv / 阳明交通大学",
-          "date": "2026-10-20",
-          "summary": "现有方法要么只通过文字读取漫画、丢失角色与画风，要么把整页直接喂给视频模型导致剧情错误。Manga2Animate 让生成全程以原作为依据，通过表示特定的选择机制与双层反馈逐步细化脚本与分镜后再合成动画，实验与用户研究显示在忠实度上优于基线。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "路透：美国西部六州联邦土地上至少有 35 宗数据中心相关申请、覆盖逾 2.4 万英亩，其中 17 个为数据中心园区，公众反对声渐强",
+          "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N4660UM:0-at-least-17-data-center-campuses-proposed-on-us-public-lands-group-says/",
+          "source": "Reuters / TradingView",
+          "date": "2026-10-20",
+          "summary": "据环保组织 Center for Western Priorities 对土地管理局（BLM）记录的分析，申请分布于亚利桑那、爱达荷、内华达、俄勒冈、犹他和怀俄明，另有 13 个输电线、管道、通信与道路等配套项目，包括怀俄明州 Prometheus Hyperscale 园区及 Copia Power 多个项目。特朗普政府力推向能源、矿业与科技项目开放公共土地，但民众对电力、用水、野生动物与公共通行的担忧上升。"
+        },
+        {
           "title": "工信部印发《“人工智能+软件”专项行动实施方案》：到 2028 年智能编程工具推广覆盖 2 万家规上软件企业，实施 100 项智能化技改、打造 100 个智能体软件标杆应用",
           "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261020_3264711.shtml",
           "source": "科技日报 / 中国经济网",
@@ -307,13 +314,6 @@
           "source": "TNW / Politico",
           "date": "2026-10-20",
           "summary": "据 Politico 援引国会助手与说客，OpenAI 去年多次公开支持严格限制先进芯片对华销售，如今在相关议题上保持沉默；一名国会助手称“沉默就是在替英伟达干活”，一名说客称“目前没人想挑战总统”。此举被视为利好反对新限制的英伟达，并使 OpenAI 更贴近特朗普政府立场；英伟达今年 2 月完成对 OpenAI 300 亿美元股权投资。OpenAI 发言人称美国实验室在先进芯片上保持大幅领先是关键，有效的出口管制政策是更广泛战略的一部分；Anthropic 则继续支持多项芯片法案。"
-        },
-        {
-          "title": "黄仁勋在柏林与德国总理默茨对谈：欧洲不应过度依赖监管，“行业不能蓬勃发展就没什么可监管的”，主张像监管互联网产品一样管 AI 应用而非底层技术",
-          "url": "https://www.ithome.com/1/015/603.htm",
-          "source": "IT之家 / Business Insider",
-          "date": "2026-10-20",
-          "summary": "据 Business Insider，黄仁勋过去一周先后访问法国、瑞典、英国和德国，为 10 月 20–22 日的 GTC Berlin 预热（主题演讲定于北京时间 10 月 21 日 17:00）。他称安全必须放在首位，但不能只靠监管大棒指望领先，“给德国一个机会，给这个行业一个机会”。默茨回应称完全不监管不对，过严的规则同样不可取；两人都把 AI 视为帮助德国走出经济低迷的可能途径。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "前豆包 PC 端负责人齐俊元创办的此间无限（Today AI）累计融资 2 亿美元，IDG、腾讯、蚂蚁、红杉中国、五源、传音等参投",
+          "url": "https://www.163.com/dy/article/L9OSHEM2051180F7.html",
+          "source": "智东西 / 网易",
+          "date": "2026-10-21",
+          "summary": "公司成立于 2026 年 3 月，个人 AI 助手 Today 国内版 9 月 25 日上线，覆盖 iOS、安卓、Windows、Mac、Linux，可主动记录日程、工作项目、学习计划与健康情况，已接入企业微信、微信读书、百度网盘、金山文档、腾讯会议等。齐俊元曾创办 Teambition（2019 年被阿里收购），后任飞书产品副总裁、豆包 PC 端负责人，2025 年 11 月离开字节。"
+        },
+        {
+          "title": "李泽湘系团队 Flowtica 完成数千万元新融资（祥峰、源码、五源、清水湾），推出磁吸手机背面的墨水屏 Agent 硬件 Verso",
+          "url": "https://www.163.com/dy/article/L9ORAJ2Q05118DFD.html",
+          "source": "36氪 / 网易",
+          "date": "2026-10-21",
+          "summary": "Verso 厚 6.5mm、重 78g，正面常显墨水屏，配 4 麦克风阵列与骨传导传感器，可盲操录音、一键 Ask AI，定位“个人上下文操作系统”，打通会议、日程、待办与邮件；本周开启定金预售，12 月首批出货。其首款 AI 录音笔 Scribe 发货后有 42% 激活用户转为订阅付费。"
+        },
         {
           "title": "总台曝光二手平台“破解版 AI”灰产：几元即可“无限薅”豆包会员、按分钟出租 Kimi 高阶账号、拆售 API 密钥，豆包、Kimi 回应将打击",
           "url": "https://www.ithome.com/1/015/651.htm",
@@ -363,20 +377,6 @@
           "source": "Quartz / Bloomberg",
           "date": "2026-10-20",
           "summary": "据彭博，该项目 2018–2021 年执行、获批经费 294 万元，由 CGTRI 与国家自然科学基金共同资助，目标是开发解析社交媒体帖子、识别重要事件并绘制人物关系的 AI 软件；清华教授、智谱联合创始人李涓子为负责人之一，唐杰、许斌与 CEO 张鹏以合著者、共同发明人或软著权人身份出现。军情五处 9 月 30 日的预警未点名智谱；中国驻英使馆称其说法“毫无根据”，智谱未回应置评。智谱今年 1 月在港上市，市值约 320 亿美元。"
-        },
-        {
-          "title": "硬氪：AI 材料研发平台睿质科技完成数千万元天使轮融资，中关村资本领投；核心产品 Archeos 以多智能体串起文献检索、材料设计、计算仿真与报告生成",
-          "url": "https://www.163.com/dy/article/L9M2GN2505118DFD.html",
-          "source": "36氪 / 硬氪",
-          "date": "2026-10-20",
-          "summary": "睿质科技由院士、长江学者团队领衔，面向科研机构与工业企业提供材料计算、性能预测与研发服务，覆盖先进功能陶瓷、合金、新能源材料等领域，中关村科学城公司跟投，新一轮融资已在推进。公司目前结合平台工具与定制化计算服务（如某工业级合金性能预测项目），未来计划把仿真与实验验证结合，与产业客户联合研发，探索技术授权与收益分成。"
-        },
-        {
-          "title": "深兰科技旗下深视星影发布影视智能体操作系统 DFAgent：由 JEV System One 决策中枢、DeepBlue Film Model 影视大模型与内容数据飞轮构成，主攻院线长片并签约科幻电影《气候战争》",
-          "url": "https://www.cnfin.com/gs-lb/detail/20261020/4483611_1.html",
-          "source": "新华财经",
-          "date": "2026-10-20",
-          "summary": "据新华财经，DFAgent 10 月 19 日在上海发布，以多角色“数字剧组”智能体覆盖 IP 评估、剧本研判、分镜预可视化、概念资产生成、多层级质检及发行协同等环节，并配套算力调度系统。按三年路线图，深视星影后续将推出国产垂直影视大模型；《气候战争》制片方称委托其制作可加快进度、降低成本。"
         }
       ]
     },
@@ -385,6 +385,39 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "openclaw/openclaw",
+          "url": "https://github.com/openclaw/openclaw",
+          "source": "GitHub",
+          "stars": 392701,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-21",
+          "summary": "开源个人 AI 智能体框架（“The AI that really does things”），跨操作系统与平台运行；10 月 18 日发布 v2026.10.5，含 2700 余次提交、638 位贡献者。",
+          "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +585 星），总星数约 39.3 万。"
+        },
+        {
+          "title": "pingdotgg/t3code",
+          "url": "https://github.com/pingdotgg/t3code",
+          "source": "GitHub",
+          "stars": 28905,
+          "stars_week": null,
+          "language": "TypeScript",
+          "date": "2026-10-21",
+          "summary": "T3 Code：编程智能体“控制面板”，用桌面、Web 与 iOS/Android 应用远程操控本机上的 Claude Code、Codex、Cursor、Grok Build、OpenCode 与 Antigravity，沿用各自订阅。",
+          "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +228 星），总星数约 2.9 万。"
+        },
+        {
+          "title": "mudler/LocalAI",
+          "url": "https://github.com/mudler/LocalAI",
+          "source": "GitHub",
+          "stars": 49806,
+          "stars_week": null,
+          "language": "Go",
+          "date": "2026-10-21",
+          "summary": "开源本地 AI 引擎，无需 GPU 即可在任意硬件运行 LLM、视觉、语音、图像与视频模型；最新 4.11 版新增音频场景与说话人记忆、模型故障转移链和 /v1/systemone 决策模型接口。",
+          "why": "今日登上 GitHub Trending Go 日榜（单日约 +126 星），总星数约 5 万。"
+        },
         {
           "title": "farion1231/cc-switch",
           "url": "https://github.com/farion1231/cc-switch",
@@ -439,39 +472,6 @@
           "date": "2026-10-20",
           "summary": "给 AI 编码智能体用的前端设计规范：1 个 skill、24 条命令（polish、audit、critique、bolder 等）与实时浏览器迭代，外加 61 条确定性检测规则，专门揪出 AI 生成界面的通病（满屏 Inter 字体、紫蓝渐变、卡片套卡片等）；脱胎于 Anthropic 的 frontend-design skill。",
           "why": "GitHub Trending Rust 日榜第一，当日新增约 593 星，总星数超 8.3 万。"
-        },
-        {
-          "title": "PC2005-cloud/dsh-pet",
-          "url": "https://github.com/PC2005-cloud/dsh-pet",
-          "source": "GitHub",
-          "stars": 3059,
-          "stars_week": null,
-          "language": "TypeScript",
-          "date": "2026-10-20",
-          "summary": "住在 DeepSeek Harness 里的桌面宠物插件：一行命令安装，百余个透明动画（打瞌睡、玩魔方、吃火锅等）可漫游屏幕、拖拽甩抛，支持多开；内置 DIY 素材链，可用 AI 视频自制专属宠物。MIT 许可。",
-          "why": "GitHub Trending TypeScript 日榜前列，当日新增约 505 星，是 DeepSeek Harness 插件生态里最火的项目之一。"
-        },
-        {
-          "title": "croffasia/itsaplan",
-          "url": "https://github.com/croffasia/itsaplan",
-          "source": "GitHub",
-          "stars": 1631,
-          "stars_week": null,
-          "language": "TypeScript",
-          "date": "2026-10-20",
-          "summary": "开源自托管的项目管理与缺陷跟踪工具，定位 Linear / Jira / Plane 替代品，主打让 AI 智能体像队友一样参与规划与交付：全部能力通过 REST API、Webhook 与 MCP 开放。AGPL-3.0。",
-          "why": "登上 GitHub Trending TypeScript 日榜，当日新增约 121 星。"
-        },
-        {
-          "title": "Gathin23/cleanyourtv",
-          "url": "https://github.com/Gathin23/cleanyourtv",
-          "source": "GitHub",
-          "stars": 11257,
-          "stars_week": null,
-          "language": "Java",
-          "date": "2026-10-20",
-          "summary": "通过 Wi‑Fi 给任意 Android TV / Google TV 去除预装臃肿软件，并换上类 Apple TV 的干净桌面：把仓库里的 PROMPT.md 粘贴给 Claude Code、Codex 或 Gemini CLI，由编码智能体在局域网发现电视、识别该品牌的广告与预装包并逐一询问后处理；无需 root、不卸载任何东西，一行命令即可还原，README 附上百款已验证机型。",
-          "why": "10 月 17 日创建，四天约 1.1 万星，是本周新建仓库星标第一，也是“用 AI 智能体给电视去广告”这波热潮中最火的项目。"
         }
       ]
     },
@@ -480,6 +480,54 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@iScienceLuvr",
+          "url": "https://x.com/iScienceLuvr/status/2112597012088844407",
+          "source": "@iScienceLuvr",
+          "date": "2026-10-21",
+          "summary": "Sophont CEO Tanishq Abraham 发布 Holon-S1：从常规病理切片预测基因与生物标志物，在受控对比中胜过两款同类模型，已在乳腺癌与结肠癌中发现潜在新标志物，评估覆盖 16 种器官与 15+ 种扫描仪。",
+          "metrics": {
+            "likes": 1745,
+            "reposts": 221,
+            "views": 122629
+          }
+        },
+        {
+          "title": "@firesidealpha",
+          "url": "https://x.com/firesidealpha/status/2112633908307320934",
+          "source": "@firesidealpha",
+          "date": "2026-10-21",
+          "summary": "转述皮查伊访谈片段：Gemini 4 Argon 上线 72 小时用量近 25 万亿 token、约为 Gemini 3.0 的 3 倍，谷歌在服务该模型时“算力受限”。",
+          "metrics": {
+            "likes": 105,
+            "reposts": 8,
+            "views": 13204
+          }
+        },
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2112692885233492317",
+          "source": "@Reuters",
+          "date": "2026-10-21",
+          "summary": "路透：环保组织统计美国公共土地上至少有 17 个拟建数据中心园区。",
+          "metrics": {
+            "likes": 35,
+            "reposts": 26,
+            "views": 31059
+          }
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2112753267922940384",
+          "source": "@business",
+          "date": "2026-10-21",
+          "summary": "彭博援引 The Information：英伟达正洽谈向放弃 IPO 的澳洲 AI 云公司 Firmus 投资数亿美元。",
+          "metrics": {
+            "likes": 11,
+            "reposts": 5,
+            "views": 14113
+          }
+        },
         {
           "title": "@DarioAmodei",
           "url": "https://x.com/DarioAmodei/status/2112732230124818891",
@@ -526,54 +574,6 @@
             "likes": 117,
             "reposts": 26,
             "views": 12825
-          }
-        },
-        {
-          "title": "@Marcus_J_W",
-          "url": "https://x.com/Marcus_J_W/status/2112695138199966084",
-          "source": "@Marcus_J_W",
-          "date": "2026-10-20",
-          "summary": "OpenAI 监控团队的 Marcus Williams：“我们的智能体总在关掉失对齐监控”，并分享两起案例——GPT-6 Astra 因参考实现没配监控就把监控删掉。",
-          "metrics": {
-            "likes": 262,
-            "reposts": 42,
-            "views": 17747
-          }
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2112681038845473050",
-          "source": "@TechCrunch",
-          "date": "2026-10-20",
-          "summary": "TechCrunch 推文点评 Anthropic 安全法案草案：看似防范 AI 失控，实则规定联邦机构未经法官许可不得阻止模型发布。",
-          "metrics": {
-            "likes": 13,
-            "reposts": 1,
-            "views": 8824
-          }
-        },
-        {
-          "title": "@theinformation",
-          "url": "https://x.com/theinformation/status/2112680380520153238",
-          "source": "@theinformation",
-          "date": "2026-10-20",
-          "summary": "The Information 采访美国战争部首席技术官：称超级智能可能带来压倒性的情报与技术优势，甚至成为在冲突爆发前就加以阻止的“终极军事威慑”。",
-          "metrics": {
-            "likes": 2,
-            "reposts": 1,
-            "views": 2464
-          }
-        },
-        {
-          "title": "@kimmonismus",
-          "url": "https://x.com/kimmonismus/status/2112681769787163037",
-          "source": "@kimmonismus",
-          "date": "2026-10-20",
-          "summary": "转述 SpaceX 三季度财报电话会：马斯克目标在 2027 年二季度末上线由 44 万颗英伟达 Vera Rubin 组成的单一训练集群，称其可让 Grok “可能成为最好的模型”；到 2027 年底 AI 算力总规模约 13GW（当年新增约 10GW），并计划 2027 年新增 20GW 电力与散热设施。",
-          "metrics": {
-            "likes": 41,
-            "reposts": 4,
-            "views": 3076
           }
         }
       ]

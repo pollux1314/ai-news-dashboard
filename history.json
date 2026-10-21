@@ -1,7 +1,160 @@
 {
- "updated": "2026-10-21T11:30:00+08:00",
- "count": 923,
+ "updated": "2026-10-21T12:26:00+08:00",
+ "count": 937,
  "items": [
+  {
+   "title": "Firmus 签下 Mira Murati 的 Thinking Machines Lab 作为亚洲 AI 云区域锚定客户；另据 The Information，英伟达正洽谈向 IPO 搁浅的 Firmus 投资数亿美元",
+   "url": "https://firmus.co/newsroom/firmus-announces-multi-year-partnership-to-accelerate-thinking-machines-lab-s-frontier-ai-development",
+   "source": "Firmus Newsroom / The Information",
+   "date": "2026-10-21",
+   "summary": "根据多年期协议，Thinking Machines Lab 将在 Firmus 基于英伟达 GB300 的 AI Factory 上训练并部署下一代模型，金额未披露；这是 Firmus 本月撤回澳洲大型 IPO 后的首个大单。英伟达已是 Firmus 股东，若追加投资将再次体现其对高负债 neocloud 的托底，也引发“需求依赖供应商融资”的质疑。",
+   "id": "774b5183a5f775d01e80c5a21364a6746c2a331b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "松下与 UCLA 提出面向手机智能体的“语义世界模型”：用自然语言预测操作引起的界面变化来选动作，AndroidWorld 任务成功率由 46.9% 提升至 54.3%",
+   "url": "https://news.panasonic.com/global/press/en261021-2",
+   "source": "Panasonic Newsroom",
+   "date": "2026-10-21",
+   "summary": "团队构建约 140 万样本的训练集 MobileWorld（约 94.2 万条界面变化描述与 54.3 万条问答）及评测基准 MobileWorldBench；不再逐像素预测下一屏，而是预测“按下按钮会打开设置页”这类与任务相关的状态变化，从而忽略时间、通知等无关信息。用 MobileWorld 微调的 Qwen3-VL-8B 在基准上得分最高，论文将在 EMNLP 2026 发表。",
+   "id": "d696dbce85166bbe380ae7df794047549e04ae75",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "前豆包 PC 端负责人齐俊元创办的此间无限（Today AI）累计融资 2 亿美元，IDG、腾讯、蚂蚁、红杉中国、五源、传音等参投",
+   "url": "https://www.163.com/dy/article/L9OSHEM2051180F7.html",
+   "source": "智东西 / 网易",
+   "date": "2026-10-21",
+   "summary": "公司成立于 2026 年 3 月，个人 AI 助手 Today 国内版 9 月 25 日上线，覆盖 iOS、安卓、Windows、Mac、Linux，可主动记录日程、工作项目、学习计划与健康情况，已接入企业微信、微信读书、百度网盘、金山文档、腾讯会议等。齐俊元曾创办 Teambition（2019 年被阿里收购），后任飞书产品副总裁、豆包 PC 端负责人，2025 年 11 月离开字节。",
+   "id": "a4b65d3c7cdbff57814f3afbe370549928674966",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "李泽湘系团队 Flowtica 完成数千万元新融资（祥峰、源码、五源、清水湾），推出磁吸手机背面的墨水屏 Agent 硬件 Verso",
+   "url": "https://www.163.com/dy/article/L9ORAJ2Q05118DFD.html",
+   "source": "36氪 / 网易",
+   "date": "2026-10-21",
+   "summary": "Verso 厚 6.5mm、重 78g，正面常显墨水屏，配 4 麦克风阵列与骨传导传感器，可盲操录音、一键 Ask AI，定位“个人上下文操作系统”，打通会议、日程、待办与邮件；本周开启定金预售，12 月首批出货。其首款 AI 录音笔 Scribe 发货后有 42% 激活用户转为订阅付费。",
+   "id": "1a1c9dc4ce80e5b57d1483d18f775f83ced7e311",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "openclaw/openclaw",
+   "url": "https://github.com/openclaw/openclaw",
+   "source": "GitHub",
+   "stars": 392701,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-21",
+   "summary": "开源个人 AI 智能体框架（“The AI that really does things”），跨操作系统与平台运行；10 月 18 日发布 v2026.10.5，含 2700 余次提交、638 位贡献者。",
+   "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +585 星），总星数约 39.3 万。",
+   "id": "c6fd25b449cf6dbcf09aff410a9af8049200df98",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "pingdotgg/t3code",
+   "url": "https://github.com/pingdotgg/t3code",
+   "source": "GitHub",
+   "stars": 28905,
+   "stars_week": null,
+   "language": "TypeScript",
+   "date": "2026-10-21",
+   "summary": "T3 Code：编程智能体“控制面板”，用桌面、Web 与 iOS/Android 应用远程操控本机上的 Claude Code、Codex、Cursor、Grok Build、OpenCode 与 Antigravity，沿用各自订阅。",
+   "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +228 星），总星数约 2.9 万。",
+   "id": "025f7fa143318c703d01e6f16d22ce1ba30598f7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "mudler/LocalAI",
+   "url": "https://github.com/mudler/LocalAI",
+   "source": "GitHub",
+   "stars": 49806,
+   "stars_week": null,
+   "language": "Go",
+   "date": "2026-10-21",
+   "summary": "开源本地 AI 引擎，无需 GPU 即可在任意硬件运行 LLM、视觉、语音、图像与视频模型；最新 4.11 版新增音频场景与说话人记忆、模型故障转移链和 /v1/systemone 决策模型接口。",
+   "why": "今日登上 GitHub Trending Go 日榜（单日约 +126 星），总星数约 5 万。",
+   "id": "3e166f225ab05ae313bb5efca3b80f4bfed861b2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "@iScienceLuvr",
+   "url": "https://x.com/iScienceLuvr/status/2112597012088844407",
+   "source": "@iScienceLuvr",
+   "date": "2026-10-21",
+   "summary": "Sophont CEO Tanishq Abraham 发布 Holon-S1：从常规病理切片预测基因与生物标志物，在受控对比中胜过两款同类模型，已在乳腺癌与结肠癌中发现潜在新标志物，评估覆盖 16 种器官与 15+ 种扫描仪。",
+   "metrics": {
+    "likes": 1745,
+    "reposts": 221,
+    "views": 122629
+   },
+   "id": "26e10e9d9b7d06abf70e0b5a2f82410c76c8014c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "@firesidealpha",
+   "url": "https://x.com/firesidealpha/status/2112633908307320934",
+   "source": "@firesidealpha",
+   "date": "2026-10-21",
+   "summary": "转述皮查伊访谈片段：Gemini 4 Argon 上线 72 小时用量近 25 万亿 token、约为 Gemini 3.0 的 3 倍，谷歌在服务该模型时“算力受限”。",
+   "metrics": {
+    "likes": 105,
+    "reposts": 8,
+    "views": 13204
+   },
+   "id": "a1cbfc2f0d337a54593801a2f505c5a36c342b34",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112692885233492317",
+   "source": "@Reuters",
+   "date": "2026-10-21",
+   "summary": "路透：环保组织统计美国公共土地上至少有 17 个拟建数据中心园区。",
+   "metrics": {
+    "likes": 35,
+    "reposts": 26,
+    "views": 31059
+   },
+   "id": "880f2dc80e4eb59c6cdd4b06fd75dc72c7bb4e11",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112753267922940384",
+   "source": "@business",
+   "date": "2026-10-21",
+   "summary": "彭博援引 The Information：英伟达正洽谈向放弃 IPO 的澳洲 AI 云公司 Firmus 投资数亿美元。",
+   "metrics": {
+    "likes": 11,
+    "reposts": 5,
+    "views": 14113
+   },
+   "id": "90ae2aa1ee6df0717ce71ef2af800d825b2d021f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
   {
    "title": "farion1231/cc-switch",
    "url": "https://github.com/farion1231/cc-switch",
@@ -138,6 +291,39 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "Sophont 发布首款产品 Holon-S1：从常规 H&E 病理切片预测空间分辨的基因表达、信号通路与生物学程序，称优于 Path2Space 与 DeepSpot-M",
+   "url": "https://sophont.med/blog/holon/",
+   "source": "Sophont Blog",
+   "date": "2026-10-20",
+   "summary": "技术报告称模型以泛癌策略在多种空间转录组平台（含单细胞与 spot 级）上训练，评估覆盖 16 种器官、15 种以上扫描仪及 FFPE/冷冻切片；案例中复现了 GitLab 联合创始人 Sid Sijbrandij 骨肉瘤的分子分析发现（FAP、MDM2 高表达），并在三阴性乳腺癌中找到可预测新辅助化疗反应的 EREG 空间梯度新标志物。目前仅限科研使用，尚未获批用于诊断。",
+   "id": "2df53766c4be4d50acc44cdff83fe5aa418f6c28",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "皮查伊接受 Big Technology 专访：谷歌云正为前沿 AI 研发让出算力、牺牲短期收入；Gemini 4 Argon 上线 72 小时处理近 25 万亿 token，约为 Gemini 3 的 3 倍",
+   "url": "https://www.bigtechnology.com/p/sundar-pichai-googles-frontier-imperative",
+   "source": "Big Technology",
+   "date": "2026-10-20",
+   "summary": "皮查伊称算力分配首先保障 Google DeepMind，“现在客户想要 2027 年的算力极其困难”，当前产能取决于 2024 年的决策，全行业都希望有计划的两倍；Argon 上线四周内谷歌内部代码变更（CL）增加 30%、回滚减少约三分之一。他表示 RSI 仍处“智能体与研究员协作”阶段，并主张建立跨行业安全标准与独立评估；太空数据中心项目的 TPU 已入轨，正等待“hello world”。",
+   "id": "ece71e98b5a8fa709b39b74bb8c3f790173de019",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T12:26:00+08:00"
+  },
+  {
+   "title": "路透：美国西部六州联邦土地上至少有 35 宗数据中心相关申请、覆盖逾 2.4 万英亩，其中 17 个为数据中心园区，公众反对声渐强",
+   "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L1N4660UM:0-at-least-17-data-center-campuses-proposed-on-us-public-lands-group-says/",
+   "source": "Reuters / TradingView",
+   "date": "2026-10-20",
+   "summary": "据环保组织 Center for Western Priorities 对土地管理局（BLM）记录的分析，申请分布于亚利桑那、爱达荷、内华达、俄勒冈、犹他和怀俄明，另有 13 个输电线、管道、通信与道路等配套项目，包括怀俄明州 Prometheus Hyperscale 园区及 Copia Power 多个项目。特朗普政府力推向能源、矿业与科技项目开放公共土地，但民众对电力、用水、野生动物与公共通行的担忧上升。",
+   "id": "4b34f6e801225c6af19631482d81935c5ac2b2fd",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T12:26:00+08:00"
   },
   {
    "title": "微软 OneDrive 大规模 AI 升级：Copilot 可同时分析多份表格生成图表与趋势、整理凌乱文件夹，把文档转成交互式 HTML 报告，并支持以 Markdown 保存可复用的自定义技能",
