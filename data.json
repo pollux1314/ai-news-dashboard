@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T09:40:00+08:00",
+  "updated": "2026-10-21T10:26:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "humans& 发布首个模型 Ampersand v0.1：定位“协作者”模型，用长周期社交模拟训练，帮助个人与群体达成长期目标，今起通过 Agents API 开放、无需排队",
+          "url": "https://ampersand.humansand.ai/blog/",
+          "source": "humans& Blog",
+          "date": "2026-10-21",
+          "summary": "模型卡显示其基于 GLM 5.3（约 744B 总参数、40B 激活的 MoE，100 万 token 上下文），用自家用户模型 Persimmon 做多月级模拟训练。公司称在“长期协作”评测中用户借助 Ampersand 完成的进度超过 Fable 等前沿模型，但交互成本更高（会在用户只想要答案时“说教”），在单独的 Teamwork 测试中 59.1% 也低于 Fable 5.1 与 GPT-6 Astra。API 兼容 OpenAI Agents API，模型 ID 为 ampersand-v0.1。"
+        },
         {
           "title": "谷歌 Chrome 增强防护升级反诈骗：新增“可疑网站”分级警告，改用服务器端 Gemini 识别假杀毒、假浏览器更新等诈骗页，并在用户复制可疑命令时预警 ClickFix 攻击",
           "url": "https://blog.google/security/our-latest-defenses-against-evolving-web-scams/",
@@ -55,13 +62,6 @@
           "source": "Zoom",
           "date": "2026-10-20",
           "summary": "Zoom 称 AI 智能体越来越多地接触会议内容与企业系统，管理员需要像管控其他关键系统一样管控 AI：集中式 AI 管理可查看组织内运行的智能体、访问的数据并审计其活动（预计 2026 年 12 月）；自定义 AI 护栏可阻止指定敏感信息出现在 AI 摘要中，并可要求人工审核（预计 2027 年 Q1）；与 Microsoft Purview 的敏感度标签同步已上线。深度伪造风险检测实时分析音视频信号，识别可能在 Zoom 之外被篡改的参会者画面或声音并给出置信度提示，面向招聘面试、客户沟通等场景，预计 12 月推出。"
-        },
-        {
-          "title": "Mistral 发布 Voxtral 3 语音模型家族与语音智能体 SDK：转写模型支持 50+ 语言并号称超越 Whisper、Scribe v2 与 Gemini 3.5 Transcribe，TTS 覆盖 35+ 语言、50+ 方言",
-          "url": "https://mistral.ai/news/voxtral-3",
-          "source": "Mistral AI",
-          "date": "2026-10-20",
-          "summary": "Voxtral Small Transcribe 3 支持说话人分离、上下文偏置与端点检测；4B 的 Mini 版转写价 0.0035 美元/分钟，Realtime 版延迟低于 500ms；Voxtral Speech 3 可按语境调整情绪、语速与重音，每百万字符 13 美元，Pro Voice 用 30 分钟音频复刻声音风格。新 SDK 基于 LiveKit，把听、推理、调工具、说串成单条流式管线，每轮响应不到 1 秒，支持 SIP 与 WebRTC；可走欧盟托管 API 或自部署。Artificial Analysis 称 Small Transcribe 3 位列其语音转文字榜第 3。"
         }
       ]
     },
@@ -76,6 +76,20 @@
           "source": "IT之家",
           "date": "2026-10-21",
           "summary": "更大模型、更长上下文与不断增长的 KV 缓存拉动服务器 DRAM 与企业级 SSD 需求，原厂又把产能优先投向 HBM，传统 DRAM 供给更紧。另据报道，英伟达因 HBM 吃紧考虑把 Rubin Ultra 的 HBM 堆叠从 12 层降到 8 层，单颗 GPU 容量约少 33%，但同样颗粒可多支撑约 50% GPU 出货。"
+        },
+        {
+          "title": "澳大利亚数据中心商 NEXTDC 因墨尔本公众反对导致数据中心供电延误，暂停全部新开发项目并下调营收预期",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/nextdc-cuts-outlook-as-public-backlash-delays-data-center-power",
+          "source": "Bloomberg",
+          "date": "2026-10-20",
+          "summary": "彭博报道，NEXTDC 在墨尔本遭遇公众反弹、数据中心电力接入受阻后，宣布暂停所有新开发项目并削减营收展望，反映 AI 数据中心扩张正面临地方电力与社区阻力。"
+        },
+        {
+          "title": "Citadel 创始人 Ken Griffin：投资者“几乎可以肯定”正处于人工智能泡沫之中",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/ken-griffin-says-ai-almost-certainly-in-a-bubble-right-now",
+          "source": "Bloomberg",
+          "date": "2026-10-20",
+          "summary": "亿万富翁对冲基金经理 Ken Griffin 对彭博表示，当前市场几乎可以肯定存在 AI 泡沫；同日超微电脑超预期的初步业绩曾推动 AI 概念股盘后反弹。"
         },
         {
           "title": "法国 AI 企业软件公司 Pigment 完成 2.5 亿美元融资、估值 23 亿美元，Scaleup Europe Fund 领投、英伟达参投，正面挑战微软 Excel 与 PowerPoint",
@@ -111,20 +125,6 @@
           "source": "TechCrunch / WSJ",
           "date": "2026-10-20",
           "summary": "据《华尔街日报》获得的泄露 S-1 文件，Anthropic 正自租数据中心并与第三方运营商合作，但担心后者“经营历史有限”、可靠性不及超大规模云厂商。文件显示其上半年净亏损 807 亿美元、营收 163 亿美元，两家客户约占五分之一营收；并警告有害 AI 行为造成的损害赔偿可能超过保险覆盖。公司上周告诉潜在投资者第三季度营收已达 168 亿美元、环比增 45%，据报计划 11 月 IPO。"
-        },
-        {
-          "title": "SpaceX 三季度营收 146 亿美元、重回盈利（净利润 44 亿美元）：更名为“Super Intelligence”的 AI 业务营收 75 亿美元、占比 52%，马斯克预计 2027 年底 ARR 达 5000 亿至 1 万亿美元",
-          "url": "https://techcrunch.com/2026/10/20/spacexs-ai-business-is-beating-expectations/",
-          "source": "TechCrunch",
-          "date": "2026-10-20",
-          "summary": "AI 业务涵盖新近收购的 Cursor 编码工具、Grok 及拥有 1.7GW 算力的新云业务，实现利润 4.31 亿美元（含 Cursor 收购相关 12 亿美元一次性股权激励）。季度资本开支 196 亿美元，CFO 称四季度将投入 350–400 亿美元，用于 Colossus II 与星舰；马斯克称每周有四天在孟菲斯推进 Colossus II，并认为超级智能部署的瓶颈在电力、散热与基础设施而非芯片。"
-        },
-        {
-          "title": "OpenAI 前 Preparedness 负责人 Aleksander Madry 结束“休假”回归，将与首席科学家 Jakub Pachocki 共同应对更强 AI 的安全与安保挑战",
-          "url": "https://www.benzinga.com/markets/private-markets/26/10/62451821/openai-safety-expert-returns-after-months-away-citing-rising-ai-risks",
-          "source": "Benzinga",
-          "date": "2026-10-20",
-          "summary": "Madry 今年 5 月离开 OpenAI，称当时想专注让 AI 更有用，但“我们已进入 AI 进展的不同阶段”，安全与安保必须成为核心优先事项。Pachocki 回应称自己关注 AI 进展的速度与影响应如何指导 OpenAI 及整个领域的战略，是他请 Madry 回来；奥特曼也发文致谢。Madry 此前曾任 MIT 可部署机器学习中心主任。"
         }
       ]
     },
@@ -204,6 +204,13 @@
           "summary": "两款模型已上架 Hugging Face，采用允许研究与商用的 Kanana Open License，覆盖通用 VQA、英/韩文 OCR 与文档理解、视觉定位等 9 个领域。Kakao 称不到 1 亿参数的 tiny 版也胜过 4 亿参数以上的海外模型，在视觉定位和韩文 OCR 上优势尤其明显，定位为智能体“电脑操作”的视觉基础。"
         },
         {
+          "title": "UCSD Hao AI Lab 与 Nuva Lab 开源 FastH3 Omni：MiniMax H3 的蒸馏加速版，支持文本加最多 9 图、3 段视频、3 段音频参考，一次生成 5–15 秒带同步音频的 24fps 视频",
+          "url": "https://haoailab.com/blogs/fastvideo-omniref-update/",
+          "source": "Hao AI Lab",
+          "date": "2026-10-20",
+          "summary": "仅需 8 次 Transformer 前向（原版 50 次），在 8 张 GB200 上 27 组对照负载端到端延迟降低 5.6–11.9 倍，部分任务在 FastVideo UniServe 上可实时生成 768p 视频；提供 NVFP4 量化权重，可在 RTX 5090、DGX Spark 与 Apple Silicon 本地运行，已支持 ComfyUI。权重与训练代码已上 Hugging Face，遵循 MiniMax-H3 社区许可。"
+        },
+        {
           "title": "EAGLE-4 发布：以 eagle-harness 形式提供的推测解码“灵活草稿模型”，可按批大小、硬件与负载自适应调整解码策略并保持目标模型输出分布，支持 SGLang、vLLM 与 TokenSpeed",
           "url": "https://pypi.org/project/eagle-harness/",
           "source": "EAGLE / PyPI",
@@ -244,13 +251,6 @@
           "source": "Hugging Face / Ornith",
           "date": "2026-10-20",
           "summary": "官方称其“强与快不再取舍”：基准更高、完成更快、输出更短，指令遵循、任务拆解与真实工作场景知识更强，为同等规模开源模型 SOTA。模型卡对比中，TerminalBench 2.1 略低于 Qwen3.8-Flash-Next（83.4）与 DeepSeek-V4-Flash-0731（82.7），CyberGym 则高于两者（78.0/76.7），NL2Repo 51.2。发布帖在 X 上浏览约 18 万次。"
-        },
-        {
-          "title": "Hugging Face 开源 Agent Manager：在私有 HF Space 中统一运行 Claude Code、Codex、Gemini CLI、opencode 等编程智能体，可并排协作、共享技能并互相通信，Apache 2.0",
-          "url": "https://github.com/huggingface/agent-manager",
-          "source": "GitHub / Hugging Face",
-          "date": "2026-10-20",
-          "summary": "HF 的 Leandro von Werra 10 月 20 日宣布上线。Agent Manager 以 Docker Space 部署，用挂载在 /data 的私有存储桶保存文件、登录与对话历史；支持按项目分组会话、实时终端与对话阅读器切换、文件浏览编辑、定时提示词、用量与成本查看，智能体可通过本地 API 发现、消息与等待其他会话，还能接入笔记本或远程服务器上的智能体。官方提醒 Space 与存储桶都应设为私有，因为应用本身没有登录机制。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "彭博：英伟达三季度联邦游说支出近 220 万美元，创公司单季纪录，正值华盛顿围绕 AI 与芯片出口的争论升温",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-20/nvidia-boosts-federal-lobbying-cash-in-q3-while-ai-debates-surge",
+          "source": "Bloomberg",
+          "date": "2026-10-20",
+          "summary": "据彭博援引的游说披露文件，英伟达 2026 年三季度在联邦层面的游说花费接近 220 万美元，为该芯片巨头有记录以来最高单季水平。"
+        },
         {
           "title": "TechCrunch 详解 Anthropic 联邦 AI 安全法案草案：只有可预见且迫近的风险可能致 50 人以上死伤或超 10 亿美元损失时才可拦截模型，且须由商务部向联邦法院申请",
           "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
@@ -307,13 +314,6 @@
           "source": "WIRED",
           "date": "2026-10-20",
           "summary": "隐私公司 Redact 发现约 100 段隐藏文本位于 “HelpContentGalaxyLLMInclude” 代码块中，用户不可见但存在于网页源码，包括“WHAT NOT TO SAY”部分；在用户提及律师、诉讼时，要求不引用服务条款、不作任何责任表态。WhatsApp 发言人称这是给自家支持聊天机器人的指令、因 bug 而显示，已在 WIRED 联系后从所有页面移除；尚不清楚第三方 AI 能否读取、暴露了多久。"
-        },
-        {
-          "title": "美国国务院依《保护美国知识产权法》（PAIPA）制裁陆奇创办的奇绩创坛（MiraclePlus）及其两支基金等共 5 家实体，指其为涉嫌窃取谷歌 AI 基础设施机密的前谷歌工程师 Linwei Ding 所创公司提供种子资金",
-          "url": "https://www.state.gov/releases/office-of-the-spokesman/2026/10/imposing-sanctions-to-protect-americans-from-intellectual-property-theft-fact-sheet/",
-          "source": "U.S. Department of State / Bloomberg",
-          "date": "2026-10-20",
-          "summary": "美国国务院 10 月 19 日（美东时间）公布：Linwei Ding 2023 年创办的上海智算科技（Zhisuan）被认定“明知参与或受益于重大商业秘密窃取”，其曾在奇绩创坛创业营中宣称可复刻谷歌的超级智能基础设施技术；奇绩创坛向其提供种子资金并持股，被认定为窃密提供重大支持。被制裁实体还包括奇绩创坛一期、二期基金及致远企业管理中心。OFAC 同步将其列入非 SDN 菜单式制裁名单，并发放截至 2027 年 1 月 19 日的业务清退许可。"
         }
       ]
     },
@@ -481,6 +481,30 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@humansand",
+          "url": "https://x.com/humansand/status/2112674550907552137",
+          "source": "@humansand",
+          "date": "2026-10-21",
+          "summary": "humans& 官宣首个模型 Ampersand：“没有人能独自改变世界”，称在多月模拟中用户与 Ampersand 协作的成果多于使用 Fable。",
+          "metrics": {
+            "likes": 626,
+            "reposts": 83,
+            "views": 72673
+          }
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2112730624075161980",
+          "source": "@business",
+          "date": "2026-10-21",
+          "summary": "彭博：英伟达三季度联邦游说支出近 220 万美元，创公司纪录。",
+          "metrics": {
+            "likes": 3,
+            "reposts": 0,
+            "views": 7727
+          }
+        },
+        {
           "title": "@Marcus_J_W",
           "url": "https://x.com/Marcus_J_W/status/2112695138199966084",
           "source": "@Marcus_J_W",
@@ -550,30 +574,6 @@
             "likes": 6,
             "reposts": 1,
             "views": 5484
-          }
-        },
-        {
-          "title": "@EagleCorp",
-          "url": "https://x.com/EagleCorp/status/2112660683670323531",
-          "source": "@EagleCorp",
-          "date": "2026-10-20",
-          "summary": "EAGLE-4 发布：从 EAGLE-1 到 EAGLE-3 持续提速，EAGLE-4 是最快的一代，在 Qwen3.8-27B 上达到 961.6 tokens/s（TokenSpeed、BF16、4× B300、TP4、单请求）。",
-          "metrics": {
-            "likes": 122,
-            "reposts": 59,
-            "views": 10942
-          }
-        },
-        {
-          "title": "@theinformation",
-          "url": "https://x.com/theinformation/status/2112660063135445200",
-          "source": "@theinformation",
-          "date": "2026-10-20",
-          "summary": "受访者认为 Meta 的新 AI 收入来源可能要到 2028 年才变得可观；核心广告业务会先在 2027 年通过体验改善带来增量广告收入。",
-          "metrics": {
-            "likes": 1,
-            "reposts": 1,
-            "views": 1740
           }
         }
       ]

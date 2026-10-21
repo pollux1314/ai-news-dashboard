@@ -1,7 +1,50 @@
 {
- "updated": "2026-10-21T09:40:00+08:00",
- "count": 903,
+ "updated": "2026-10-21T10:26:00+08:00",
+ "count": 910,
  "items": [
+  {
+   "title": "humans& 发布首个模型 Ampersand v0.1：定位“协作者”模型，用长周期社交模拟训练，帮助个人与群体达成长期目标，今起通过 Agents API 开放、无需排队",
+   "url": "https://ampersand.humansand.ai/blog/",
+   "source": "humans& Blog",
+   "date": "2026-10-21",
+   "summary": "模型卡显示其基于 GLM 5.3（约 744B 总参数、40B 激活的 MoE，100 万 token 上下文），用自家用户模型 Persimmon 做多月级模拟训练。公司称在“长期协作”评测中用户借助 Ampersand 完成的进度超过 Fable 等前沿模型，但交互成本更高（会在用户只想要答案时“说教”），在单独的 Teamwork 测试中 59.1% 也低于 Fable 5.1 与 GPT-6 Astra。API 兼容 OpenAI Agents API，模型 ID 为 ampersand-v0.1。",
+   "id": "c3bb5211c6c05eef7e96538d1ec565b1ce2ab126",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T10:26:00+08:00"
+  },
+  {
+   "title": "@humansand",
+   "url": "https://x.com/humansand/status/2112674550907552137",
+   "source": "@humansand",
+   "date": "2026-10-21",
+   "summary": "humans& 官宣首个模型 Ampersand：“没有人能独自改变世界”，称在多月模拟中用户与 Ampersand 协作的成果多于使用 Fable。",
+   "metrics": {
+    "likes": 626,
+    "reposts": 83,
+    "views": 72673
+   },
+   "id": "9966091dc1b425ca81e47804c4f32684cc2acb9f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T10:26:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112730624075161980",
+   "source": "@business",
+   "date": "2026-10-21",
+   "summary": "彭博：英伟达三季度联邦游说支出近 220 万美元，创公司纪录。",
+   "metrics": {
+    "likes": 3,
+    "reposts": 0,
+    "views": 7727
+   },
+   "id": "a48d84233c9646ee998af57c07b3af7c0e1915ac",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T10:26:00+08:00"
+  },
   {
    "title": "Kakao 开源两款自研视觉编码器 Kanana-2-vision-encoder（426M 与 98M）：可商用，称在 42 项基准上超过 SigLIP 2、Perception Encoder、AIMv2 与 Qwen3.5-ViT",
    "url": "https://www.mt.co.kr/en/tech/2026/10/21/2026102109295354764",
@@ -49,6 +92,50 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "澳大利亚数据中心商 NEXTDC 因墨尔本公众反对导致数据中心供电延误，暂停全部新开发项目并下调营收预期",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/nextdc-cuts-outlook-as-public-backlash-delays-data-center-power",
+   "source": "Bloomberg",
+   "date": "2026-10-20",
+   "summary": "彭博报道，NEXTDC 在墨尔本遭遇公众反弹、数据中心电力接入受阻后，宣布暂停所有新开发项目并削减营收展望，反映 AI 数据中心扩张正面临地方电力与社区阻力。",
+   "id": "a6b77846d3e1a1fd3341e4c85bf1b4648b999cad",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T10:26:00+08:00"
+  },
+  {
+   "title": "Citadel 创始人 Ken Griffin：投资者“几乎可以肯定”正处于人工智能泡沫之中",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/ken-griffin-says-ai-almost-certainly-in-a-bubble-right-now",
+   "source": "Bloomberg",
+   "date": "2026-10-20",
+   "summary": "亿万富翁对冲基金经理 Ken Griffin 对彭博表示，当前市场几乎可以肯定存在 AI 泡沫；同日超微电脑超预期的初步业绩曾推动 AI 概念股盘后反弹。",
+   "id": "8e40b59a6c9dbd3d2749b1d1584019a181694aef",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T10:26:00+08:00"
+  },
+  {
+   "title": "UCSD Hao AI Lab 与 Nuva Lab 开源 FastH3 Omni：MiniMax H3 的蒸馏加速版，支持文本加最多 9 图、3 段视频、3 段音频参考，一次生成 5–15 秒带同步音频的 24fps 视频",
+   "url": "https://haoailab.com/blogs/fastvideo-omniref-update/",
+   "source": "Hao AI Lab",
+   "date": "2026-10-20",
+   "summary": "仅需 8 次 Transformer 前向（原版 50 次），在 8 张 GB200 上 27 组对照负载端到端延迟降低 5.6–11.9 倍，部分任务在 FastVideo UniServe 上可实时生成 768p 视频；提供 NVFP4 量化权重，可在 RTX 5090、DGX Spark 与 Apple Silicon 本地运行，已支持 ComfyUI。权重与训练代码已上 Hugging Face，遵循 MiniMax-H3 社区许可。",
+   "id": "6ed2b548346b2db13af5dca513dfa77b94d77cad",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T10:26:00+08:00"
+  },
+  {
+   "title": "彭博：英伟达三季度联邦游说支出近 220 万美元，创公司单季纪录，正值华盛顿围绕 AI 与芯片出口的争论升温",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-20/nvidia-boosts-federal-lobbying-cash-in-q3-while-ai-debates-surge",
+   "source": "Bloomberg",
+   "date": "2026-10-20",
+   "summary": "据彭博援引的游说披露文件，英伟达 2026 年三季度在联邦层面的游说花费接近 220 万美元，为该芯片巨头有记录以来最高单季水平。",
+   "id": "08c201372bcd7d9098154fb73295e1ae52703c24",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T10:26:00+08:00"
   },
   {
    "title": "谷歌 Chrome 增强防护升级反诈骗：新增“可疑网站”分级警告，改用服务器端 Gemini 识别假杀毒、假浏览器更新等诈骗页，并在用户复制可疑命令时预警 ClickFix 攻击",
