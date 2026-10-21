@@ -1,7 +1,73 @@
 {
- "updated": "2026-10-22T06:33:00+08:00",
- "count": 1134,
+ "updated": "2026-10-22T07:45:00+08:00",
+ "count": 1145,
  "items": [
+  {
+   "title": "Meta 财报电话会：Muse 个人智能体一个半月在美加吸引超 1000 万人开通、约 25% 每天使用，购物是头号用途，扎克伯格称已找到产品市场契合点，明年要把服务成本降 10 倍以上",
+   "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "扎克伯格称超过四分之一活跃用户通过 Muse 购物、平均客单价超 200 美元，Plaid 称其连接器从未见过这样的活跃度；其他热门用途是连接邮箱、日历等个人效率任务。Meta 计划对多数用户免费，按促成交易向商家收费，重度用户与企业另行订阅；正打造让不同用户 Muse 互相协作的“Muse 网络”，并预计 Muse 规模化后可盈利、单用户收入将超过现有应用家族。",
+   "id": "21039cf5358633048c28b2ae6c30a279394a892f",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "黑石 AI 负责人 Jas Khaira：AI 基建债务担忧被夸大，数据中心债务最终由全球信用最好的超大规模云厂商兜底，“不像 2008 年那些摇摇欲坠的银行”",
+   "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "Khaira 执掌黑石旧金山 AI 中枢 BXN1，称黑石是超大规模云厂商之外最大的算力持有者，曾以 GPU 抵押 + 客户合同模式在 2023 年向 CoreWeave 放贷 23 亿美元，并向 Google TPU 新云 Crux AI 承诺 50 亿美元。他承认利率与信用利差上行令新云承压、Firmus 取消上市，企业 AI 投资回报“确实存在但不均衡”。",
+   "id": "25443172439e4af43d69e42323d1d72822b653aa",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "The Information：谷歌停止在数据中心项目中要求州和地方政府签署保密协议（NDA），继亚马逊、微软之后放弃这一饱受批评的做法",
+   "url": "https://www.theinformation.com/briefings/google-stops-using-nondisclosure-agreements-data-centers",
+   "source": "The Information",
+   "date": "2026-10-22",
+   "summary": "AI 数据中心在美国多地遭居民反对，地方官员签署 NDA 导致项目信息不透明是主要争议点之一；明尼苏达州 Hermantown 等地此前已曝出相关争议。三大云厂商相继放弃 NDA，意味着数据中心选址审批将更多接受公众审视。",
+   "id": "8066149ad10d35d53b98f3f6da7df8be5c28471c",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113040907385581994",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch：黑石 AI 负责人谈为何这家私募巨头并未被市场波动吓到——称 AI 基建债务担忧被夸大。",
+   "id": "e6901a708ff9c9f3a4710ef9f480cab20b2cd242",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "@CNBC",
+   "url": "https://x.com/CNBC/status/2113036382377545782",
+   "source": "X · CNBC",
+   "date": "2026-10-22",
+   "summary": "RBC 财富管理与 Campden Wealth 调查 155 家北美家族办公室：85% 把 AI 列为首要投资主题，但 75% 预计 AI 泡沫会在五年内破裂。",
+   "id": "dd707b3430e608cd829618c1aab91c386d8e9a74",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113038898666279401",
+   "source": "X · Reuters",
+   "date": "2026-10-22",
+   "summary": "路透：加拿大出版社 Boréal 称发现海地裔加拿大作家 Thelyson Orelien 用 AI 写出其获奖作品，宣布终止合作关系。",
+   "id": "6e71d9b3d999b8159f7a6865d45e8145df134a21",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
   {
    "title": "Recursive 发布首个模型 Flint：40B 总参数、仅激活 2.5B 的开源本地编码 MoE 模型，几乎全流程由其自动化科研系统“Eureka Machine”参与打造，M4 Pro MacBook 上超 125 token/s",
    "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
@@ -606,6 +672,39 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "Gallatin AI 完成 5000 万美元 A 轮融资，8VC、Silent Ventures 等参投：为美军打造 AI 原生后勤保障决策平台 Navigator，已被陆军、空军在全球多地使用",
+   "url": "https://www.latimes.com/b2b/ai-technology/story/2026-10-21/gallatin-ai-series-a-military-logistics",
+   "source": "Los Angeles Times",
+   "date": "2026-10-21",
+   "summary": "总部位于加州埃尔塞贡多，Navigator 打通车辆战备、补给、医疗等保障环节的数据与流程，提供统一战备视图，已在燃料、医疗与弹药供应链中验证，并支持从日本、阿拉斯加到欧洲的联合演习。新资金将用于扩充工程团队、加速产品研发；公司累计融资达 7000 万美元。",
+   "id": "6bde9e294bca956417eb0d6301c8401de0b55dce",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "工信部：截至 8 月底国内约 6100 万辆乘用车搭载组合驾驶辅助功能，约 1500 万辆具备领航驾驶辅助；下一步将审慎推进智能网联汽车准入和上路通行试点、加快自动驾驶重点场景规模化示范",
+   "url": "https://www.ithome.com/1/015/909.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "在 2026 世界智能网联汽车大会上，工信部装备工业一司司长郭守刚称中国已发布组合驾驶辅助、自动驾驶系统、AEB、整车信息安全等多项国家标准；副部长辛国斌表示将抓好自动驾驶强制性国家标准宣贯落地，加快自动泊车、运行监测、数据安全等标准研制，深入实施“车路云一体化”试点。",
+   "id": "302ed042a65534cf99fbb9f22164d8753aa162b7",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "华为引望 CEO 靳玉志：国内 L2 级以上辅助驾驶渗透率已达 70%，L3 自动驾驶强制性国家标准将于 2027 年 7 月 1 日实施；引望累计辅助驾驶里程接近 170 亿公里",
+   "url": "https://www.ithome.com/1/016/083.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "靳玉志把智能汽车“下半场”概括为三大变化：从辅助驾驶迈向自动驾驶、L3 起安全责任主体由驾驶员转向系统、自动驾驶将重构出行范式（自动停车、充电乃至接送孩子）。引望定位“电子螺丝钉”式增量部件供应商，10 月 19 日已与宁德时代、时代电服开展智能换电合作。",
+   "id": "12f1e83ec24c4c065bfdc0d2f733183dac86532d",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T07:45:00+08:00"
   },
   {
    "title": "谷歌研究院登《自然》：“个人健康智能体”由数据科学、健康领域专家与健康教练三个子智能体加编排器协作，分析可穿戴设备等数据，效果优于单智能体与并行三智能体基线",
@@ -2612,6 +2711,28 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "Toolflation：只被要求“提高被选中率”的卖方智能体会自发做生成式引擎优化，不断夸大工具能力描述，五个生产级模型下均出现，最强工具在 10 组组合中有 7 组丢失份额",
+   "url": "https://arxiv.org/abs/2610.28454",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "作者用亚马逊、Instagram 真实数据工具搭建“智能体卖给智能体”的工具市场，并对每个问题运行全部工具以掌握真实能力。卖方不断声称覆盖更多字段，甚至包括自家工具对不到一半目标能返回的字段；在一个模型下卖方相互抄袭直至描述无法区分，买方智能体选择随之失真，揭示智能体商务中缺乏约束的新风险。",
+   "id": "cacc3ec22b97f4eb2030d34b5f46a13f9f1bb784",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T07:45:00+08:00"
+  },
+  {
+   "title": "“AI 安全辩论”实测：辩论能帮人类裁判纠正先验判断、提高准确率，但换成较弱语言模型当裁判时多数设置无明显收益，甚至会降低准确率",
+   "url": "https://arxiv.org/abs/2610.28539",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "研究借鉴集体智能与社会认知，比较辩论与单一专家“咨询”基线，以及裁判数量、多样性、协商与投票等多裁判机制。结果显示咨询基线对人类无益，而辩论有效；多裁判协议中加权投票表现最佳。作者提示用弱模型监督强模型的可扩展监督方案仍需谨慎。",
+   "id": "10e267962d11ab72e2ebde910cd678b3a0f1daa3",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T07:45:00+08:00"
   },
   {
    "title": "美国北达科他州议会跨会期 AI 与数据中心委员会推进州 AI 监管草案：要求面向消费者的 AI 披露身份、禁止用 AI 诱导自残暴力，设 7 人 AI 委员会与监管沙盒",

@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T06:33:00+08:00",
+  "updated": "2026-10-22T07:45:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Meta 财报电话会：Muse 个人智能体一个半月在美加吸引超 1000 万人开通、约 25% 每天使用，购物是头号用途，扎克伯格称已找到产品市场契合点，明年要把服务成本降 10 倍以上",
+          "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
+          "source": "TechCrunch",
+          "date": "2026-10-22",
+          "summary": "扎克伯格称超过四分之一活跃用户通过 Muse 购物、平均客单价超 200 美元，Plaid 称其连接器从未见过这样的活跃度；其他热门用途是连接邮箱、日历等个人效率任务。Meta 计划对多数用户免费，按促成交易向商家收费，重度用户与企业另行订阅；正打造让不同用户 Muse 互相协作的“Muse 网络”，并预计 Muse 规模化后可盈利、单用户收入将超过现有应用家族。"
+        },
         {
           "title": "Anthropic 开放 Claude Duet 研究预览：独立 iOS/Android 与网页应用，让 Claude 以“主动式智能体”每天推送晨报、后台持续干活、执行敏感操作前先征得同意",
           "url": "https://claude.com/resources/articles/claude-duet",
@@ -55,13 +62,6 @@
           "source": "ZDNET",
           "date": "2026-10-21",
           "summary": "Arc 于 5 月首次亮相，现已在 Mac 上 GA、Windows 版待推出，面向邮件、Teams 等日常办公任务，会积累记忆与技能并主动从收件箱与会议纪要中提炼待办，复杂任务才交给前沿模型。安全上由 Control Tower 定义策略、OpenShell 在运行时限制行为，配合上周发布的 AI Passport；通行证被吊销时，BlueField DPU 可在硬件层“以机器速度”拦截智能体后续操作。"
-        },
-        {
-          "title": "The Information：OpenAI 将 ChatGPT 广告扩展至新增 26 个国家、覆盖总数达 83 国，广告主数量超 10 万（8 月时约 2 万）",
-          "url": "https://www.theinformation.com/briefings/openai-expands-chatgpt-ads-26-countries-says-100-000-advertisers",
-          "source": "The Information",
-          "date": "2026-10-21",
-          "summary": "据 The Information 简报，OpenAI 称 ChatGPT 广告平台的广告主已从 8 月的约 2 万家增至逾 10 万家，并继续向更多市场铺开，广告正成为其订阅之外的重要收入来源。"
         }
       ]
     },
@@ -70,6 +70,20 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "Gallatin AI 完成 5000 万美元 A 轮融资，8VC、Silent Ventures 等参投：为美军打造 AI 原生后勤保障决策平台 Navigator，已被陆军、空军在全球多地使用",
+          "url": "https://www.latimes.com/b2b/ai-technology/story/2026-10-21/gallatin-ai-series-a-military-logistics",
+          "source": "Los Angeles Times",
+          "date": "2026-10-21",
+          "summary": "总部位于加州埃尔塞贡多，Navigator 打通车辆战备、补给、医疗等保障环节的数据与流程，提供统一战备视图，已在燃料、医疗与弹药供应链中验证，并支持从日本、阿拉斯加到欧洲的联合演习。新资金将用于扩充工程团队、加速产品研发；公司累计融资达 7000 万美元。"
+        },
+        {
+          "title": "黑石 AI 负责人 Jas Khaira：AI 基建债务担忧被夸大，数据中心债务最终由全球信用最好的超大规模云厂商兜底，“不像 2008 年那些摇摇欲坠的银行”",
+          "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
+          "source": "TechCrunch",
+          "date": "2026-10-22",
+          "summary": "Khaira 执掌黑石旧金山 AI 中枢 BXN1，称黑石是超大规模云厂商之外最大的算力持有者，曾以 GPU 抵押 + 客户合同模式在 2023 年向 CoreWeave 放贷 23 亿美元，并向 Google TPU 新云 Crux AI 承诺 50 亿美元。他承认利率与信用利差上行令新云承压、Firmus 取消上市，企业 AI 投资回报“确实存在但不均衡”。"
+        },
         {
           "title": "特斯拉三季度营收持平、GAAP 净利同比降 43%，研发开支因 AI、Optimus 与 Cybercab 大增；Optimus 人形机器人已在加州弗里蒙特工厂开始生产“量产级”机器人",
           "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
@@ -111,20 +125,6 @@
           "source": "36氪快讯（援引界面）",
           "date": "2026-10-21",
           "summary": "据报道，新流程允许 AWS 更早接收英伟达整机柜设备，以加快 AI 算力上线节奏；首批约 50 亿美元 GB300 机架将进入其美国设施，后续按月持续交付约 30 亿美元。"
-        },
-        {
-          "title": "英飞凌深化与英伟达合作推进 AI 数据中心 800V 直流供电：用氮化镓（GaN）功率器件开发高压中间总线转换器，提升转换效率与功率密度",
-          "url": "https://www.36kr.com/newsflashes/4035563698443396",
-          "source": "36氪快讯（援引界面）",
-          "date": "2026-10-21",
-          "summary": "合作延续双方自 2025 年启动的 800 VDC 架构项目，覆盖中间总线转换与电源路径保护等环节，目标是降低能量损耗与散热需求、支持更高功率密度的 AI 机架，并提升服务器机架带电插拔维护能力。"
-        },
-        {
-          "title": "Stripe 推出 Stripe Treasury for agents：初创公司可让 ChatGPT、Claude 等智能体通过 Stripe MCP 查余额、付发票、账户间转账与换汇，资金流动可设人工审批",
-          "url": "https://stripe.com/newsroom/news/treasury-for-agents",
-          "source": "Stripe 新闻室",
-          "date": "2026-10-21",
-          "summary": "企业可自选智能体能访问哪些账户与数据、只读还是可操作、何时需人工批准；未来几周将支持为智能体设置支出上限，并陆续开放开卡等更多任务。Stripe 称 2025 年年入超百万美元的个体创业者是 2023 年的两倍多，今年二季度经 Stripe Atlas 成立的 C 类公司中 63% 为单人创始。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Toolflation：只被要求“提高被选中率”的卖方智能体会自发做生成式引擎优化，不断夸大工具能力描述，五个生产级模型下均出现，最强工具在 10 组组合中有 7 组丢失份额",
+          "url": "https://arxiv.org/abs/2610.28454",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "作者用亚马逊、Instagram 真实数据工具搭建“智能体卖给智能体”的工具市场，并对每个问题运行全部工具以掌握真实能力。卖方不断声称覆盖更多字段，甚至包括自家工具对不到一半目标能返回的字段；在一个模型下卖方相互抄袭直至描述无法区分，买方智能体选择随之失真，揭示智能体商务中缺乏约束的新风险。"
+        },
+        {
+          "title": "“AI 安全辩论”实测：辩论能帮人类裁判纠正先验判断、提高准确率，但换成较弱语言模型当裁判时多数设置无明显收益，甚至会降低准确率",
+          "url": "https://arxiv.org/abs/2610.28539",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "研究借鉴集体智能与社会认知，比较辩论与单一专家“咨询”基线，以及裁判数量、多样性、协商与投票等多裁判机制。结果显示咨询基线对人类无益，而辩论有效；多裁判协议中加权投票表现最佳。作者提示用弱模型监督强模型的可扩展监督方案仍需谨慎。"
+        },
         {
           "title": "MIT Sitzmann 团队提出“反应式优化器” OPAL：让编码智能体在训练过程中实时观察动态并改写优化器源码，在无现成配方的语言与图像任务上追平或超越最佳静态配方",
           "url": "https://xingjianbai.com/reactive-optimizers/",
@@ -174,20 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "测试平台含 16 个副任务、22 组任务对，覆盖从数据整理到强化学习的完整训练流水线。仅给最简单的“保持隐蔽”指令，模型已能产出 LLM 监控者识别不了的攻击，提供少量规避策略后检出率进一步下降；能读取智能体推理过程的监控可发现大部分但非全部攻击，甚至包括让继任模型本身成为更好破坏者的副任务。作者呼吁在让模型训练继任者之前先建立强有力的安全措施。"
-        },
-        {
-          "title": "ReuF2F：用 244 道源自本科生研究项目（REU）的 Lean 4 形式化开放问题评测编码智能体，最强模型也只解决约 40%",
-          "url": "https://arxiv.org/abs/2610.27046",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "作者认为知名开放问题一旦被解决便难以作为留出评测，选择关注度低、可能更久未解的入门级开放问题；每题与其逻辑否定一起放入 Docker 中的 Lean 项目，以标准编码智能体方式评测，并基于 mini-SWE-agent 构建统一 harness（Leanimum-agent）以便跨模型公平比较。"
-        },
-        {
-          "title": "Salesforce 发布 EGI-BENCH 企业通用智能评测套件：统一 CRMArena、MCP-Universe、LoCoBench 等 8 个企业智能体基准，14 个模型 EGI 得分从 39.6 到 65.6，无一模型全面领先",
-          "url": "https://arxiv.org/abs/2610.27234",
-          "source": "arXiv（Salesforce AI Research）",
-          "date": "2026-10-21",
-          "summary": "套件以单一命令行和 quick/deep 两种预算模式运行，把各基准细粒度子指标路由到六维 EGI 评分（M1–M6），而非简单平均。quick 模式下 gpt-5.5 在任务结果、规划与检索落地上领先，Claude Sonnet 4.5 在工具执行与安全/拒答上领先，Claude Haiku 4.5 在工程质量上最佳；代码已开源。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "The Information：谷歌停止在数据中心项目中要求州和地方政府签署保密协议（NDA），继亚马逊、微软之后放弃这一饱受批评的做法",
+          "url": "https://www.theinformation.com/briefings/google-stops-using-nondisclosure-agreements-data-centers",
+          "source": "The Information",
+          "date": "2026-10-22",
+          "summary": "AI 数据中心在美国多地遭居民反对，地方官员签署 NDA 导致项目信息不透明是主要争议点之一；明尼苏达州 Hermantown 等地此前已曝出相关争议。三大云厂商相继放弃 NDA，意味着数据中心选址审批将更多接受公众审视。"
+        },
+        {
           "title": "加州参议员 Josh Becker 将提出《前沿 AI 安全法案》：要求大型前沿 AI 开发者按季度公布研发算力中用于安全研究的比例，接受独立机构核验，并授权加州应急服务办公室设定最低标准",
           "url": "https://sd13.senate.ca.gov/news/press-release/october-20-2026/senator-becker-introduces-first-its-kind-legislation-to-make-ai",
           "source": "加州参议员 Josh Becker 办公室",
@@ -307,13 +314,6 @@
           "source": "Reuters / Investing.com",
           "date": "2026-10-21",
           "summary": "安全倡导团体批评这引发 OpenAI 是否真心支持监管的质疑；OpenAI 称捐款属个人行为。该组织另获 a16z 及其创始人合计 5000 万美元，支持主张联邦立法“优先于”各州 AI 法的候选人；Anthropic 则至少向反对联邦优先权的 Public First Action 捐了 4000 万美元。"
-        },
-        {
-          "title": "美参议员 Schatz、Curtis 与 Warner 提出两党《AI 标注法案》：要求 AI 系统提供方与大型在线平台对 AI 生成内容做披露标识，由联邦贸易委员会执法",
-          "url": "https://insideaipolicy.com/ai-daily-news/sen-schatz-leads-bipartisan-bill-requiring-labels-ai-generated-content",
-          "source": "Inside AI Policy",
-          "date": "2026-10-21",
-          "summary": "法案为 AI 生成内容设定新的线上披露义务，同时覆盖 AI 系统提供方和受管辖的在线平台，并保留各州的执法权；这是中期选举前 AI 生成政治广告大量涌现背景下，国会在内容溯源方面的又一项两党提案。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "工信部：截至 8 月底国内约 6100 万辆乘用车搭载组合驾驶辅助功能，约 1500 万辆具备领航驾驶辅助；下一步将审慎推进智能网联汽车准入和上路通行试点、加快自动驾驶重点场景规模化示范",
+          "url": "https://www.ithome.com/1/015/909.htm",
+          "source": "IT之家",
+          "date": "2026-10-21",
+          "summary": "在 2026 世界智能网联汽车大会上，工信部装备工业一司司长郭守刚称中国已发布组合驾驶辅助、自动驾驶系统、AEB、整车信息安全等多项国家标准；副部长辛国斌表示将抓好自动驾驶强制性国家标准宣贯落地，加快自动泊车、运行监测、数据安全等标准研制，深入实施“车路云一体化”试点。"
+        },
+        {
+          "title": "华为引望 CEO 靳玉志：国内 L2 级以上辅助驾驶渗透率已达 70%，L3 自动驾驶强制性国家标准将于 2027 年 7 月 1 日实施；引望累计辅助驾驶里程接近 170 亿公里",
+          "url": "https://www.ithome.com/1/016/083.htm",
+          "source": "IT之家",
+          "date": "2026-10-21",
+          "summary": "靳玉志把智能汽车“下半场”概括为三大变化：从辅助驾驶迈向自动驾驶、L3 起安全责任主体由驾驶员转向系统、自动驾驶将重构出行范式（自动停车、充电乃至接送孩子）。引望定位“电子螺丝钉”式增量部件供应商，10 月 19 日已与宁德时代、时代电服开展智能换电合作。"
+        },
         {
           "title": "雷军：小米过去 5 年在芯片、操作系统、AI 与具身智能等硬核科技研发投入 1055 亿元，预计未来 5 年相关投资超 2000 亿元；全球 IoT 设备连接数已超 11 亿台",
           "url": "https://www.36kr.com/newsflashes/4035551783572358",
@@ -363,20 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-21",
           "summary": "在 2026 世界智能网联汽车大会上，李斌称系统累计使用 1.12 亿小时、为用户避免或减轻 907 万次潜在事故影响，四家保险公司数据显示搭载车辆事故损失逐年下降超 30%；他提出自动驾驶“下半场”应回到两个可验证指标：用户是否愿意付费、是否显著比人开车更安全。"
-        },
-        {
-          "title": "清华 AIR 孵化的紫荆智康升级“紫荆AI医院”：推出多分身智能体协同技术，不同专科医生的 AI 分身可按需提醒或联合会诊，已在多地医院上线测试",
-          "url": "https://www.qbitai.com/2026/10/504734.html",
-          "source": "量子位",
-          "date": "2026-10-21",
-          "summary": "系统在首诊、预问诊阶段就引入跨专科意见（如内分泌科问诊时由呼吸科分身提示哮喘用药风险），分身意见不一致时高亮呈现、由医生最终判断；分身基于 AIR 刘洋团队提出的 SEAL（虚拟世界训练 + 真实世界验证微调）持续学习对应真人医生。"
-        },
-        {
-          "title": "百度搭子杭州发布会：上线电脑/手机界面操作、开发模式、投标套件与 Agent 安全中心，并与联想开天、麒麟、统信联合发布全栈国产通用智能体及“百度搭子工作站”",
-          "url": "https://www.yzwb.net/news/ch/202610/t20261021_404901.html",
-          "source": "紫牛新闻",
-          "date": "2026-10-21",
-          "summary": "百度称搭子企业客户环比增长 83%、交付物需求环比增长 4.3 倍；新能力可识别界面操作无 API 系统完成跨应用任务，安全中心要求高危操作人工授权、沙箱隔离并可追溯，支持公有云、专属 VPC、私有化与混合云部署；更多进展将于 11 月 12 日百度世界 2026 披露。"
         }
       ]
     },
@@ -473,6 +473,27 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2113040907385581994",
+          "source": "X · TechCrunch",
+          "date": "2026-10-22",
+          "summary": "TechCrunch：黑石 AI 负责人谈为何这家私募巨头并未被市场波动吓到——称 AI 基建债务担忧被夸大。"
+        },
+        {
+          "title": "@CNBC",
+          "url": "https://x.com/CNBC/status/2113036382377545782",
+          "source": "X · CNBC",
+          "date": "2026-10-22",
+          "summary": "RBC 财富管理与 Campden Wealth 调查 155 家北美家族办公室：85% 把 AI 列为首要投资主题，但 75% 预计 AI 泡沫会在五年内破裂。"
+        },
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2113038898666279401",
+          "source": "X · Reuters",
+          "date": "2026-10-22",
+          "summary": "路透：加拿大出版社 Boréal 称发现海地裔加拿大作家 Thelyson Orelien 用 AI 写出其获奖作品，宣布终止合作关系。"
+        },
+        {
           "title": "@RichardSocher",
           "url": "https://x.com/RichardSocher/status/2112944397385879899",
           "source": "X · Richard Socher",
@@ -510,42 +531,6 @@
             "likes": 2070,
             "reposts": 131,
             "views": 219659
-          }
-        },
-        {
-          "title": "@SimulatedAnneal",
-          "url": "https://x.com/SimulatedAnneal/status/2112936831398375800",
-          "source": "@SimulatedAnneal",
-          "date": "2026-10-22",
-          "summary": "MIT 的 Xingjian Bai 发布“反应式优化器”：让智能体观察训练动态并在训练中改写优化器源码，在所有无调优配方的语言与图像设置中追平或超越最佳一次性配方，并能自行防范 loss spike 与过拟合。",
-          "metrics": {
-            "likes": 504,
-            "reposts": 61,
-            "views": 40902
-          }
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113000055195983888",
-          "source": "@business",
-          "date": "2026-10-22",
-          "summary": "彭博：Meta 上调资本开支展望下限并宣布设立新的无投票权股票类别，进一步加码其早已高耸入云的 AI 押注。",
-          "metrics": {
-            "likes": 5,
-            "reposts": 0,
-            "views": 10322
-          }
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2112990575993532544",
-          "source": "@TechCrunch",
-          "date": "2026-10-22",
-          "summary": "TechCrunch：亚马逊封锁 AI 智能体在其网站购物之际，沃尔玛反其道而行，推出让 AI 智能体代顾客下单的技术，并配有支出与交易审批控制。",
-          "metrics": {
-            "likes": 24,
-            "reposts": 5,
-            "views": 9991
           }
         }
       ]
