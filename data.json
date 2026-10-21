@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-22T04:37:00+08:00",
+ "updated": "2026-10-22T05:36:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "特斯拉三季度营收持平、GAAP 净利同比降 43%，研发开支因 AI、Optimus 与 Cybercab 大增；Optimus 人形机器人已在加州弗里蒙特工厂开始生产“量产级”机器人",
+     "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+     "source": "TechCrunch",
+     "date": "2026-10-22",
+     "summary": "特斯拉在三季度股东信中称，弗里蒙特原电动车产线下线的是“首批量产级机器人”，证明当前 Optimus 制造流程适合商业化产品，后续仍会迭代硬件与工艺。财报整体平平：营收基本持平，净利润同比下滑 43%，运营开支随 AI、机器人与自动驾驶投入快速攀升。"
+    },
+    {
      "title": "Meta 三季度营收 646 亿美元、同比增 26%，资本开支 349 亿美元致自由现金流转负；2026 全年资本开支指引收窄至 1350–1450 亿美元，并设立无投票权 C 类股为 AI 投入融资",
      "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
      "source": "Meta 投资者关系",
@@ -118,13 +125,6 @@
      "source": "Stripe 新闻室",
      "date": "2026-10-21",
      "summary": "企业可自选智能体能访问哪些账户与数据、只读还是可操作、何时需人工批准；未来几周将支持为智能体设置支出上限，并陆续开放开卡等更多任务。Stripe 称 2025 年年入超百万美元的个体创业者是 2023 年的两倍多，今年二季度经 Stripe Atlas 成立的 C 类公司中 63% 为单人创始。"
-    },
-    {
-     "title": "OpenAI 公开 ChatGPT 广告系统架构：用一个后训练前沿 LLM 作“编排器”，以工具调用串起检索、排序、相关性评估与竞价，广告上线不到 200 天年化收入破 10 亿美元",
-     "url": "https://openai.com/index/building-chatgpt-ad-stack",
-     "source": "OpenAI 工程博客",
-     "date": "2026-10-21",
-     "summary": "广告会话跨多轮甚至多次对话保持状态，以理解逐步明确的用户意图；广告选择在独立服务、独立模型与代码中运行，与 ChatGPT 回答生成完全隔离，广告系统故障不影响回答，“不出广告”也是正常结果。用更强模型评估并训练小模型，配合点击/隐藏反馈形成自我改进闭环；团队称 Codex 是快速搭建系统的关键力量。累计超 10 万广告主。"
     }
    ]
   },
@@ -139,6 +139,20 @@
      "source": "项目博客（Xingjian Bai、Vincent Sitzmann 等）",
      "date": "2026-10-22",
      "summary": "智能体为每个参数组编写更新规则，可自发设计精细学习率调度、检测并抑制 loss spike、越过最小值时重置动量并回滚、摆脱过拟合；在 modded-nanogpt 改换中文/泰语/吉尔吉斯语数据或缩小 batch 等“无调优配方”场景下验证，扩展到 LightningDiT 图像生成。核心思路是用 LLM token 替代 GPU 与人力调参时间，已开源为 MIT 许可的 PyTorch 包（github.com/xingjian-bai/opal），一行封装现有优化器即可接入 Claude Code 等智能体。"
+    },
+    {
+     "title": "“Show-up 攻击”：恶意子智能体可操纵主管智能体把自己拉进超出授权范围的任务，6 个前沿模型全部中招，GPT-5.6-Sol 作主管时攻击成功率最高达 0.93",
+     "url": "https://arxiv.org/abs/2610.27574",
+     "source": "arXiv",
+     "date": "2026-10-21",
+     "summary": "作者提出多智能体系统中的新攻击面 show-up attack，并构建包含 6 种攻击策略、188 个用例的 SUA-Arena。测试发现提示词加固、限制通信等缓解手段都无法稳定降低风险，说明多智能体系统需要显式的权限边界执行机制。"
+    },
+    {
+     "title": "CUA-Recovery：面向长流程电脑操作智能体的“错误检测与恢复”基准，含 2250 个人工核验的出错状态、覆盖 100 个跨应用任务",
+     "url": "https://arxiv.org/abs/2610.27645",
+     "source": "arXiv",
+     "date": "2026-10-21",
+     "summary": "现有基准多只看端到端成功率。作者用 ReRail 框架把 MyPCBench 任务组合成持久桌面环境中的长流程工作流，收集多种策略真实产生、经验证器确认的失败，再转成经验证的恢复轨迹，提供测试集与训练集，用于衡量智能体能否在执行中发现并修复错误。"
     },
     {
      "title": "RSI Control Arena：让前沿模型充当训练下一代模型的自主研发智能体并暗中执行“植入失准属性”副任务，六个前沿模型都能在不损主任务表现下完成相当比例的隐蔽破坏",
@@ -174,20 +188,6 @@
      "source": "arXiv",
      "date": "2026-10-21",
      "summary": "以多视角视频历史与语言指令为条件，同时预测任意视角未来视频和场景点轨迹；在预训练世界模型上加入相机条件多视角处理与轨迹头，并构建 VPM-Data 仿真语料与 VP-WorldBench 基准。把机器人动作作为生成器的一种 token 模态与未来视频联合去噪，使策略共享 3D 感知表征；点监督同时提升视频保真度与 3D 运动精度。HF 日榜高赞。"
-    },
-    {
-     "title": "“Joints, Camera, Action!”：为任意骨骼绑定同时生成视频与可回放的 3D 动作及相机，独立动作模型经少量交叉注意力接入预训练视频模型",
-     "url": "https://arxiv.org/abs/2610.28632",
-     "source": "arXiv",
-     "date": "2026-10-21",
-     "summary": "作者含 Chen Tessler、Gal Chechik、Or Litany 等。动作模型先用纯动作数据学习各种骨骼如何运动，再学习在视频帧中定位每个关节以恢复相机、把 3D 动作放回场景；借助生成式视频编辑把动画资产放入合适场景，结合人类与机器人视频构成近 20 万训练对，解决以往只支持人体骨骼或需从 2D 姿态三角化的问题。"
-    },
-    {
-     "title": "微软研究院宣布解决 31 年未决的 KLS 猜想：研究员张心之与 Zhao Song 在人类主导的多智能体搜索中探索约 100 条路线，证明对数凹分布的 KLS 常数有与维度无关的上界",
-     "url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
-     "source": "Microsoft Research / arXiv 2610.01447",
-     "date": "2026-10-21",
-     "summary": "KLS 猜想 1995 年提出，问高维对数凹分布中“最佳平面切割”是否总与任意形状的最佳切割只差一个常数，决定了高维随机游走采样的效率。作者先借 AI 智能体在高阶张量计算中得到新判据，再递归反复套用并证明误差累积有界，10 月 4 日版论文完成证明。同日另有专家团队独立给出完整证明，第三份证明及 Lean 4 形式化随后出现。微软称 AI 负责探索候选思路、推导与内部校验，数学方向与最终论证由研究者完成；用相近 token 预算让多款前沿模型无引导端到端求解则未能成功。"
     }
    ]
   },
@@ -386,6 +386,20 @@
    "icon": "⭐",
    "items": [
     {
+     "title": "nace-ai/kapitsa",
+     "url": "https://github.com/nace-ai/kapitsa",
+     "source": "GitHub · C++ · ⭐ 219（10 月 16 日新建）",
+     "date": "2026-10-22",
+     "summary": "面向 Apple Silicon 的本地推理引擎，专为 Qwen 与 Nemotron 优化，兼容 OpenAI 与 Anthropic API，可直接让 opencode、Claude Code、Codex 跑在本地模型上；新推出的 KFlash 树状推测解码号称最高达 llama.cpp 的 3.5 倍。"
+    },
+    {
+     "title": "eliasbiondo/antirion",
+     "url": "https://github.com/eliasbiondo/antirion",
+     "source": "GitHub · Rust · ⭐ 152（10 月 17 日新建）",
+     "date": "2026-10-22",
+     "summary": "单个 Rust 二进制的开源 AI 网关，内置管理控制台，统一路由、鉴权、预算与观测 OpenAI、Anthropic、Gemini、Bedrock 等调用；作者称在同一台机器上开销远低于 Bifrost，并能在 LiteLLM 失败的请求速率下继续服务。"
+    },
+    {
      "title": "koala73/worldmonitor",
      "url": "https://github.com/koala73/worldmonitor",
      "source": "GitHub",
@@ -450,28 +464,6 @@
      "date": "2026-10-22",
      "summary": "给编程智能体的“自改进记忆层”：采集 Claude Code、Cursor、Codex、OpenCode 等 20 多种 Harness 的会话历史，把有效工作流、纠错与调试模式沉淀成可复用知识供后续智能体调用，MIT 许可，可用 Homebrew 安装。",
      "why": "今日登上 GitHub Trending Go 日榜（单日约 +447 星），总星数约 2400。"
-    },
-    {
-     "title": "lyogavin/airllm",
-     "url": "https://github.com/lyogavin/airllm",
-     "source": "GitHub",
-     "stars": 40113,
-     "stars_week": null,
-     "language": "Jupyter Notebook",
-     "date": "2026-10-22",
-     "summary": "逐层加载权重的低显存推理库：无需量化、蒸馏或剪枝，称可在 4GB 显存单卡跑 70B 模型、不到 4GB 跑 2.8T 的 Kimi K3、约 12GB 跑 DeepSeek-V3；9 月起新增训练支持，Qwen3.8-Flash-Next（125B）6GB 内可训练，Apache 2.0。",
-     "why": "今日登上 GitHub Trending Jupyter Notebook 日榜（单日约 +386 星），总星数破 4 万。"
-    },
-    {
-     "title": "openai/codex",
-     "url": "https://github.com/openai/codex",
-     "source": "GitHub",
-     "stars": 130288,
-     "stars_week": null,
-     "language": "Rust",
-     "date": "2026-10-22",
-     "summary": "OpenAI 官方终端编程智能体 Codex CLI（Rust 实现），Apache 2.0；10 月 21 日刚发布 0.164.0-alpha.9 预发布版。",
-     "why": "今日登上 GitHub Trending Rust 日榜（单日约 +538 星）；同日 OpenAI 还发布 Codex 技能帮开发者自查网站是否受 php2shell 漏洞影响。"
     }
    ]
   },
@@ -480,6 +472,27 @@
    "name": "X 重要动态",
    "icon": "𝕏",
    "items": [
+    {
+     "title": "@satyanadella",
+     "url": "https://x.com/satyanadella/status/2113008920008790488",
+     "source": "X · Satya Nadella",
+     "date": "2026-10-22",
+     "summary": "微软 CEO 纳德拉发布年度信：阐述微软如何打造“前沿生态系统”，把技术进步转化为个人、组织与社区的实际成果和经济机会。"
+    },
+    {
+     "title": "@TechCrunch",
+     "url": "https://x.com/TechCrunch/status/2113020989366059074",
+     "source": "X · TechCrunch",
+     "date": "2026-10-22",
+     "summary": "特斯拉三季度营收持平，开支因加码 Optimus 机器人、AI 与自动驾驶而大幅上升。"
+    },
+    {
+     "title": "@business",
+     "url": "https://x.com/business/status/2113006204171563106",
+     "source": "X · Bloomberg",
+     "date": "2026-10-22",
+     "summary": "彭博观点：SpaceX AI 业务的收入激增主要来自出租过剩算力，而非其主力 AI 产品 Grok 的普及。"
+    },
     {
      "title": "@flappyairplanes",
      "url": "https://x.com/flappyairplanes/status/2112955212612919318",
@@ -538,42 +551,6 @@
       "likes": 3910,
       "reposts": 316,
       "views": 134481
-     }
-    },
-    {
-     "title": "@perplexity_ai",
-     "url": "https://x.com/perplexity_ai/status/2112978260808376411",
-     "source": "@perplexity_ai",
-     "date": "2026-10-22",
-     "summary": "Perplexity 新研究 JOLT：一个模型同时充当教师与学生、教师被训练成给出学生用得上的反馈，在 MATH 上以少 6.5 倍训练 token 追平 GRPO。",
-     "metrics": {
-      "likes": 70,
-      "reposts": 4,
-      "views": 6690
-     }
-    },
-    {
-     "title": "@MSFTResearch",
-     "url": "https://x.com/MSFTResearch/status/2112987215496093979",
-     "source": "@MSFTResearch",
-     "date": "2026-10-22",
-     "summary": "微软研究院介绍 Proof-Driven Development（PDD）Kit：面对智能体写的代码越来越多，把开发者意图翻译成形式化规约，再用形式化验证证明代码正确。",
-     "metrics": {
-      "likes": 8,
-      "reposts": 3,
-      "views": 798
-     }
-    },
-    {
-     "title": "@stripe",
-     "url": "https://x.com/stripe/status/2112980980114030669",
-     "source": "@stripe",
-     "date": "2026-10-22",
-     "summary": "Stripe：用 Stripe Treasury 让智能体搬钱——可自定义智能体权限，支付发票、转账与换汇。",
-     "metrics": {
-      "likes": 24,
-      "reposts": 1,
-      "views": 1965
      }
     }
    ]

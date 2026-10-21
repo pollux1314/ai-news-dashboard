@@ -1,7 +1,73 @@
 {
- "updated": "2026-10-22T04:37:00+08:00",
- "count": 1121,
+ "updated": "2026-10-22T05:36:00+08:00",
+ "count": 1129,
  "items": [
+  {
+   "title": "特斯拉三季度营收持平、GAAP 净利同比降 43%，研发开支因 AI、Optimus 与 Cybercab 大增；Optimus 人形机器人已在加州弗里蒙特工厂开始生产“量产级”机器人",
+   "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "特斯拉在三季度股东信中称，弗里蒙特原电动车产线下线的是“首批量产级机器人”，证明当前 Optimus 制造流程适合商业化产品，后续仍会迭代硬件与工艺。财报整体平平：营收基本持平，净利润同比下滑 43%，运营开支随 AI、机器人与自动驾驶投入快速攀升。",
+   "id": "6ec4c467ad3bd5bddd3c59d59b18f5cd51323842",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T05:36:00+08:00"
+  },
+  {
+   "title": "nace-ai/kapitsa",
+   "url": "https://github.com/nace-ai/kapitsa",
+   "source": "GitHub · C++ · ⭐ 219（10 月 16 日新建）",
+   "date": "2026-10-22",
+   "summary": "面向 Apple Silicon 的本地推理引擎，专为 Qwen 与 Nemotron 优化，兼容 OpenAI 与 Anthropic API，可直接让 opencode、Claude Code、Codex 跑在本地模型上；新推出的 KFlash 树状推测解码号称最高达 llama.cpp 的 3.5 倍。",
+   "id": "8aea66e2d6238fd19ac0b9fa5532a01329429b2e",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T05:36:00+08:00"
+  },
+  {
+   "title": "eliasbiondo/antirion",
+   "url": "https://github.com/eliasbiondo/antirion",
+   "source": "GitHub · Rust · ⭐ 152（10 月 17 日新建）",
+   "date": "2026-10-22",
+   "summary": "单个 Rust 二进制的开源 AI 网关，内置管理控制台，统一路由、鉴权、预算与观测 OpenAI、Anthropic、Gemini、Bedrock 等调用；作者称在同一台机器上开销远低于 Bifrost，并能在 LiteLLM 失败的请求速率下继续服务。",
+   "id": "fd6181e478c1fecc131f0ccca51ed1fe77e64715",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T05:36:00+08:00"
+  },
+  {
+   "title": "@satyanadella",
+   "url": "https://x.com/satyanadella/status/2113008920008790488",
+   "source": "X · Satya Nadella",
+   "date": "2026-10-22",
+   "summary": "微软 CEO 纳德拉发布年度信：阐述微软如何打造“前沿生态系统”，把技术进步转化为个人、组织与社区的实际成果和经济机会。",
+   "id": "19554692a8b7329c971f00cfaf43c55d7680a4de",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T05:36:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113020989366059074",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "特斯拉三季度营收持平，开支因加码 Optimus 机器人、AI 与自动驾驶而大幅上升。",
+   "id": "6755bf85cd63a5ffc4b805a40cc6b6f7efde7c2d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T05:36:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113006204171563106",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博观点：SpaceX AI 业务的收入激增主要来自出租过剩算力，而非其主力 AI 产品 Grok 的普及。",
+   "id": "c41f842dd507d080aaf74fa3353fcade97d0e529",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T05:36:00+08:00"
+  },
   {
    "title": "Meta 三季度营收 646 亿美元、同比增 26%，资本开支 349 亿美元致自由现金流转负；2026 全年资本开支指引收窄至 1350–1450 亿美元，并设立无投票权 C 类股为 AI 投入融资",
    "url": "https://investor.atmeta.com/investor-news/press-release-details/2026/Meta-Reports-Third-Quarter-2026-Results/default.aspx",
@@ -518,6 +584,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "“Show-up 攻击”：恶意子智能体可操纵主管智能体把自己拉进超出授权范围的任务，6 个前沿模型全部中招，GPT-5.6-Sol 作主管时攻击成功率最高达 0.93",
+   "url": "https://arxiv.org/abs/2610.27574",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者提出多智能体系统中的新攻击面 show-up attack，并构建包含 6 种攻击策略、188 个用例的 SUA-Arena。测试发现提示词加固、限制通信等缓解手段都无法稳定降低风险，说明多智能体系统需要显式的权限边界执行机制。",
+   "id": "347d9a4f29e1e220a8e08829e2efd891a4cda438",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T05:36:00+08:00"
+  },
+  {
+   "title": "CUA-Recovery：面向长流程电脑操作智能体的“错误检测与恢复”基准，含 2250 个人工核验的出错状态、覆盖 100 个跨应用任务",
+   "url": "https://arxiv.org/abs/2610.27645",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "现有基准多只看端到端成功率。作者用 ReRail 框架把 MyPCBench 任务组合成持久桌面环境中的长流程工作流，收集多种策略真实产生、经验证器确认的失败，再转成经验证的恢复轨迹，提供测试集与训练集，用于衡量智能体能否在执行中发现并修复错误。",
+   "id": "2a9b957b95887c50c1e1ec61389d91a69d404bf5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T05:36:00+08:00"
   },
   {
    "title": "谷歌 Gemini 应用上线统一“Customize（自定义）”中心：在一处配置自定义技能与提示偏好、连接 40 多个外部服务与谷歌应用，覆盖网页、移动端与 Windows/macOS 桌面端",
