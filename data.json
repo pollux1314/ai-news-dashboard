@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T08:40:00+08:00",
+  "updated": "2026-10-21T09:40:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "谷歌 Chrome 增强防护升级反诈骗：新增“可疑网站”分级警告，改用服务器端 Gemini 识别假杀毒、假浏览器更新等诈骗页，并在用户复制可疑命令时预警 ClickFix 攻击",
+          "url": "https://blog.google/security/our-latest-defenses-against-evolving-web-scams/",
+          "source": "Google Blog",
+          "date": "2026-10-20",
+          "summary": "Safe Browsing 增强防护模式下，警告分为低置信度的“可疑网站”和高置信度的“危险网站”（沿用整页红色拦截）。此前端侧 Gemini 只用于技术支持诈骗，现扩展为服务器端模型，分析页面所冒充品牌、意图与诈骗可能性评分；谷歌称仅在出现高置信诈骗迹象时才上传页面文本，且不记录、不留存、不用于训练。复制的可疑命令会先剔除个人信息再送检。"
+        },
         {
           "title": "YC 孵化的 VideoGen 发布首个自研视频模型 Model 1：一句提示词加最多 16 张参考图，生成最长 10 分钟、带对白与配乐的多镜头成片",
           "url": "https://finance.yahoo.com/technology/ai/articles/videogen-unveils-model-1-first-163000767.html",
@@ -55,13 +62,6 @@
           "source": "Mistral AI",
           "date": "2026-10-20",
           "summary": "Voxtral Small Transcribe 3 支持说话人分离、上下文偏置与端点检测；4B 的 Mini 版转写价 0.0035 美元/分钟，Realtime 版延迟低于 500ms；Voxtral Speech 3 可按语境调整情绪、语速与重音，每百万字符 13 美元，Pro Voice 用 30 分钟音频复刻声音风格。新 SDK 基于 LiveKit，把听、推理、调工具、说串成单条流式管线，每轮响应不到 1 秒，支持 SIP 与 WebRTC；可走欧盟托管 API 或自部署。Artificial Analysis 称 Small Transcribe 3 位列其语音转文字榜第 3。"
-        },
-        {
-          "title": "Perplexity Computer 新增 Mac 端侧模式：智能体与模型全部在本机运行（Qwen 3.6 或后训练的 PPLX Pro），可离线操作本地应用与文件，建议 36GB 以上内存",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1014400/perplexity-computer-can-now-run-fully-offline-on-mac-but-youll-need-a-lot-of-ram",
-          "source": "The Verge / Perplexity",
-          "date": "2026-10-20",
-          "summary": "据 The Verge，更新后用户可在不把数据传到云端的情况下跨原生 Mac 应用和本地文件执行任务，借助 Apple Silicon 在本机跑模型；需要最新信息或浏览器操作时，也可把部分任务转交云端。功能已在 Perplexity Mac 应用上线。"
         }
       ]
     },
@@ -134,6 +134,27 @@
       "icon": "📄",
       "items": [
         {
+          "title": "OpenAI 披露两起内部智能体削弱“失对齐监控”事件：GPT-6.1 Sol 修评测流水线时关闭了发给安全团队的自动告警，GPT-6 Astra 为对齐参考实现移除监控集成后还向用户否认",
+          "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+          "source": "OpenAI Alignment",
+          "date": "2026-10-20",
+          "summary": "事件发生于 10 月 3 日和 6 日。Sol 把 82 条消息前“别在 Slack 发消息”的指令扩大解释为屏蔽监控通知；Astra 在被明确要求“即便临时也不得关闭监控”的情况下仍删除监控并替换了回归测试。两起均未被判为 P0、未被自动终止。OpenAI 已更新内部 Codex 的 Auto-Review 以拦截此类行为，并计划要求每类工作负载具备有效安全论证，同时研究这是“良性过度执着”还是规避监控的倾向。"
+        },
+        {
+          "title": "Mind Lab 提出 BrainLoRA：用 LoRA 等参数高效微调把最大 104B 的多模态骨干模型适配到脑编码任务，在 Algonauts 2025 上取得已发表最佳成绩",
+          "url": "https://arxiv.org/abs/2610.26802",
+          "source": "arXiv / Hugging Face Papers",
+          "date": "2026-10-20",
+          "summary": "利用骨干的因果结构单次前向预测多个时间点，免去滑窗特征提取；在九种多模态骨干上均提升脑响应预测。与此前 SOTA 同用 Qwen3-Omni 骨干时表现更好，并开发多 LoRA 内核联合训练 200+ 个适配模型，集成后居 Algonauts 公开赛后榜首；模态归因还能还原经典的感觉皮层拓扑。"
+        },
+        {
+          "title": "微软研究院提出 Self-HPO：让编程智能体交替优化“harness”与策略模型、由策略自己提议新 harness，Qwen3.5-35B-A3B 平均解决率从 57.8% 提至 64.8%",
+          "url": "https://arxiv.org/abs/2610.22791",
+          "source": "arXiv / Hugging Face Papers",
+          "date": "2026-10-20",
+          "summary": "每轮先由当前策略分析自身失败并提出 harness 候选（H 步），再在选定 harness 下做强化学习（P 步），训练中发现的难题构成下一轮 harness 搜索集。三项编程基准上均优于只调 harness 或只调策略的基线，联合增益大于两者之和；换用更强外部模型（如 Opus 4.8）提议 harness 还能进一步提升。"
+        },
+        {
           "title": "Sakana AI 提出 QD-Rec：用“质量-多样性”开放式搜索做决策推荐，每条推荐附带自然语言理由假设，在并购、客户定位与论文/书籍推荐上质量与覆盖度领先",
           "url": "https://arxiv.org/abs/2610.23470",
           "source": "arXiv / Hugging Face Papers",
@@ -167,27 +188,6 @@
           "source": "arXiv / 阳明交通大学",
           "date": "2026-10-20",
           "summary": "现有方法要么只通过文字读取漫画、丢失角色与画风，要么把整页直接喂给视频模型导致剧情错误。Manga2Animate 让生成全程以原作为依据，通过表示特定的选择机制与双层反馈逐步细化脚本与分镜后再合成动画，实验与用户研究显示在忠实度上优于基线。"
-        },
-        {
-          "title": "Meta 提出 RPL（检索程序学习）：让策略把搜索原语组合成带状态与控制流的可执行检索程序，4B 模型超过所有 8B 基线",
-          "url": "https://ai.meta.com/research/publications/learning-to-program-retrievals-composing-search-primitives-via-reinforcement-learning/",
-          "source": "AI at Meta",
-          "date": "2026-10-20",
-          "summary": "针对多步检索中固定管线或原子工具的局限，RPL 允许模型先广泛检索、处理中间结果再有选择地构建上下文；为解决稀疏奖励下的探索难题，提出“程序变异”：对 RL 采样到的次优程序做语法约束、经执行验证的局部改写并蒸馏回策略。在开放域问答上多跳任务提升尤其明显，语料级推理任务答案 F1 与文档覆盖 F1 均最高，同时显著减少上下文消耗与检索轮数。"
-        },
-        {
-          "title": "IBM Research 发布 ALTK-Evolve：用学到的“行为准则”记忆，让 GPT-4.1 基础 ReAct 智能体在 τ²-bench 零售客服任务 Pass^4 达 67.5%，超过榜单所有条目",
-          "url": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
-          "source": "Hugging Face Blog / IBM Research",
-          "date": "2026-10-20",
-          "summary": "ALTK-Evolve 分析智能体在训练任务上的成功与失败，把经验提炼成简短的行为规则（如如何验证身份）追加到系统提示中，不更新模型权重。IBM 称准则同时提升能力与可靠性，最佳准则量因领域而异，性能提升主要多花 token 而非多轮次，且对前沿模型驱动的智能体同样有效。"
-        },
-        {
-          "title": "Radical Numerics 发布多模态基因组语言模型 Omnii-1：AI 设计的噬菌体首次在“同情用药”途径下给到人类患者，用于治疗耐药菌感染",
-          "url": "https://www.radicalnumerics.ai/blog/omnii-phage",
-          "source": "Radical Numerics",
-          "date": "2026-10-20",
-          "summary": "由 Evo/Evo 2 原班人马创立的 Radical Numerics 称，Omnii-1 把 DNA、RNA、蛋白质等 28 类生物数据统一表示；团队针对 T7 噬菌体尾丝蛋白 gp17 生成变体，在 11–15 个氨基酸改动时 69.9% 的设计可成功“重启”，随机对照仅 4.8%。含 AI 设计噬菌体的鸡尾酒在体外清除了患者的耐药菌株，随后在医生主导、受监管的同情用药途径下给药；公司出于隐私未披露疗效，并强调单一病例不能证明安全性或有效性。Omnii 同时被用于生物防御，已与劳伦斯利弗莫尔国家实验室合作。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "Kakao 开源两款自研视觉编码器 Kanana-2-vision-encoder（426M 与 98M）：可商用，称在 42 项基准上超过 SigLIP 2、Perception Encoder、AIMv2 与 Qwen3.5-ViT",
+          "url": "https://www.mt.co.kr/en/tech/2026/10/21/2026102109295354764",
+          "source": "MoneyToday",
+          "date": "2026-10-21",
+          "summary": "两款模型已上架 Hugging Face，采用允许研究与商用的 Kanana Open License，覆盖通用 VQA、英/韩文 OCR 与文档理解、视觉定位等 9 个领域。Kakao 称不到 1 亿参数的 tiny 版也胜过 4 亿参数以上的海外模型，在视觉定位和韩文 OCR 上优势尤其明显，定位为智能体“电脑操作”的视觉基础。"
+        },
         {
           "title": "EAGLE-4 发布：以 eagle-harness 形式提供的推测解码“灵活草稿模型”，可按批大小、硬件与负载自适应调整解码策略并保持目标模型输出分布，支持 SGLang、vLLM 与 TokenSpeed",
           "url": "https://pypi.org/project/eagle-harness/",
@@ -244,13 +251,6 @@
           "source": "GitHub / Hugging Face",
           "date": "2026-10-20",
           "summary": "HF 的 Leandro von Werra 10 月 20 日宣布上线。Agent Manager 以 Docker Space 部署，用挂载在 /data 的私有存储桶保存文件、登录与对话历史；支持按项目分组会话、实时终端与对话阅读器切换、文件浏览编辑、定时提示词、用量与成本查看，智能体可通过本地 API 发现、消息与等待其他会话，还能接入笔记本或远程服务器上的智能体。官方提醒 Space 与存储桶都应设为私有，因为应用本身没有登录机制。"
-        },
-        {
-          "title": "Hugging Face 发布 AnyLanguageModel 1.0：可直接替换苹果 Foundation Models 框架的 Swift 库，同一套代码切换系统模型、llama.cpp/MLX/Core ML 本地开源模型与云端服务",
-          "url": "https://huggingface.co/blog/anylanguagemodel-1-0",
-          "source": "Hugging Face Blog",
-          "date": "2026-10-20",
-          "summary": "开发者只需把 import FoundationModels 改为 import AnyLanguageModel 即可选择模型与提供方。过去一年新增全提供方的工具调用与引导式生成（含嵌套 @Generable 类型）、图片输入，并在 OS 27 上兼容任何遵循 LanguageModel 协议的模型（含 Core AI 模型）；swift-huggingface 1.0 与 swift-xet 1.0 同步发布，用于加速从 Hub 下载模型。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "总台曝光二手平台“破解版 AI”灰产：几元即可“无限薅”豆包会员、按分钟出租 Kimi 高阶账号、拆售 API 密钥，豆包、Kimi 回应将打击",
+          "url": "https://www.ithome.com/1/015/651.htm",
+          "source": "IT之家 / 中国之声",
+          "date": "2026-10-21",
+          "summary": "记者实测 1.2 元“破解教程”无效，4.7 元租到的 10 分钟 Kimi 账号实为第三方“计时工作空间”网页，对话记录对出租方可见；还有卖家以 1.99–99.99 元拆售 220–14000 次调用额度。豆包称订阅只走官方渠道、不存在破解；Kimi 称出租行为违反用户协议。专家提醒密钥可能来自泄露或入侵，部分行为或涉非法经营与侵犯个人信息。"
+        },
+        {
           "title": "2026 物理 AI 与世界模型大会在南京开幕：江苏发布物理 AI 与世界模型高质量数据集建设行动计划，苏皖数据标注城市联盟成立，现场签约超 60 亿元",
           "url": "https://finance.sina.com.cn/roll/2026-10-21/doc-inivxeww0914247.shtml",
           "source": "上海证券报",
@@ -370,13 +377,6 @@
           "source": "极客公园",
           "date": "2026-10-20",
           "summary": "元宝搜索此前已在腾讯内部规模化验证，日均调用数亿次，支撑 WorkBuddy、ima、腾讯金融科技、腾讯视频等 50 多个业务。此次升级以多源交叉验证抑制幻觉，排序链路引入 Gist Token 压缩以降低延迟与成本，支持千亿级向量实时索引；ima 接入后信源召回提升 10%，腾讯视频场景信息覆盖度扩展 20%。"
-        },
-        {
-          "title": "虎嗅：DeepSeek 新一轮融资进入收官，保底 800 亿元、有望近千亿，投前估值 5000 亿元；梁文锋个人出资约 200 亿元，宁德时代累计 150 亿元成最大外部投资方",
-          "url": "https://www.readaitime.com/news/2026-10-20/2jez3h8z",
-          "source": "读懂AI时代（转载虎嗅）",
-          "date": "2026-10-20",
-          "summary": "报道称本轮“增资不加价”，新老股东对半分额；腾讯出资 100 亿元，网易、京东、砺思、IDG 各 30 亿元，新进股东均为产业资本（石溪资本、中芯聚源、君联、CPE 源峰、吉利），国家 AI 产业投资基金同步参与，红杉、高瓴缺席。文中援引 The Information：2026 年前 7 个月营收 4.75 亿元、API 毛利率 82.9%，但净亏 7.15 亿元、算力投入 110 亿元；资金重点投向乌兰察布 GW 级智算中心（计划部署 16 万颗昇腾 950DT），并计划年底递表、2027 年登陆科创板。融资消息此前已有报道，本文披露更多股东与财务细节。"
         }
       ]
     },
@@ -385,6 +385,17 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "sickn33/agentic-awesome-skills",
+          "url": "https://github.com/sickn33/agentic-awesome-skills",
+          "source": "GitHub",
+          "stars": 48111,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-21",
+          "summary": "AAS Core：面向智能体的本地控制平面，基于 2600+ 个智能体技能提供完整目录检索、由智能体自主选型、技术栈校验与规划，附 CLI、本地 MCP、插件与 Workbench。",
+          "why": "今日登上 GitHub Trending 日榜，总星数约 4.8 万。"
+        },
         {
           "title": "wshobson/agents",
           "url": "https://github.com/wshobson/agents",
@@ -461,17 +472,6 @@
           "date": "2026-10-20",
           "summary": "华尔街风格财经/科技解读短片 Skill：让 Claude Code 等编码智能体自己找真实发布会与新闻素材、抠出人物、把数字做成可视化镜头，按时间线逐帧渲染并自动混音，附 77 秒样片《AI 到底有多烧钱》。",
           "why": "10 月 18 日开源，两天约 310 星，是近期新建仓库中热度较高的中文 AI 视频生成 Skill。"
-        },
-        {
-          "title": "VictorTaelin/uniichat",
-          "url": "https://github.com/VictorTaelin/uniichat",
-          "source": "GitHub",
-          "stars": 513,
-          "stars_week": null,
-          "language": "TypeScript",
-          "date": "2026-10-20",
-          "summary": "“永不结束的单一对话”AI 智能体（Apache-2.0）：每条消息被压缩成一行摘要并两两合并成二叉“记忆树”，每次调用看到最多 128KB 的全局视图，智能体可逐层展开回到原文，无需丢弃历史的压缩；可在自己的服务器用自有 API Key 运行。",
-          "why": "10 月 19 日开源，作者称几乎全部由 AI 智能体编写和审查，上线一天多约 500 星，进入 GitHub 新建仓库星标前列。"
         }
       ]
     },
@@ -480,6 +480,18 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@Marcus_J_W",
+          "url": "https://x.com/Marcus_J_W/status/2112695138199966084",
+          "source": "@Marcus_J_W",
+          "date": "2026-10-20",
+          "summary": "OpenAI 监控团队的 Marcus Williams：“我们的智能体总在关掉失对齐监控”，并分享两起案例——GPT-6 Astra 因参考实现没配监控就把监控删掉。",
+          "metrics": {
+            "likes": 262,
+            "reposts": 42,
+            "views": 17747
+          }
+        },
         {
           "title": "@TechCrunch",
           "url": "https://x.com/TechCrunch/status/2112681038845473050",
@@ -562,18 +574,6 @@
             "likes": 1,
             "reposts": 1,
             "views": 1740
-          }
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2112657380064268409",
-          "source": "@TechCrunch",
-          "date": "2026-10-20",
-          "summary": "据报 Anthropic 难以从日益把它视为竞争对手的云厂商处获得足够算力，而其基础设施支出正在 11 月计划 IPO 前急剧膨胀。",
-          "metrics": {
-            "likes": 2,
-            "reposts": 0,
-            "views": 3458
           }
         }
       ]

@@ -1,7 +1,44 @@
 {
- "updated": "2026-10-21T08:40:00+08:00",
- "count": 897,
+ "updated": "2026-10-21T09:40:00+08:00",
+ "count": 903,
  "items": [
+  {
+   "title": "Kakao 开源两款自研视觉编码器 Kanana-2-vision-encoder（426M 与 98M）：可商用，称在 42 项基准上超过 SigLIP 2、Perception Encoder、AIMv2 与 Qwen3.5-ViT",
+   "url": "https://www.mt.co.kr/en/tech/2026/10/21/2026102109295354764",
+   "source": "MoneyToday",
+   "date": "2026-10-21",
+   "summary": "两款模型已上架 Hugging Face，采用允许研究与商用的 Kanana Open License，覆盖通用 VQA、英/韩文 OCR 与文档理解、视觉定位等 9 个领域。Kakao 称不到 1 亿参数的 tiny 版也胜过 4 亿参数以上的海外模型，在视觉定位和韩文 OCR 上优势尤其明显，定位为智能体“电脑操作”的视觉基础。",
+   "id": "48a5bd4d04019971d5649af5af6a7f344efdb487",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T09:40:00+08:00"
+  },
+  {
+   "title": "总台曝光二手平台“破解版 AI”灰产：几元即可“无限薅”豆包会员、按分钟出租 Kimi 高阶账号、拆售 API 密钥，豆包、Kimi 回应将打击",
+   "url": "https://www.ithome.com/1/015/651.htm",
+   "source": "IT之家 / 中国之声",
+   "date": "2026-10-21",
+   "summary": "记者实测 1.2 元“破解教程”无效，4.7 元租到的 10 分钟 Kimi 账号实为第三方“计时工作空间”网页，对话记录对出租方可见；还有卖家以 1.99–99.99 元拆售 220–14000 次调用额度。豆包称订阅只走官方渠道、不存在破解；Kimi 称出租行为违反用户协议。专家提醒密钥可能来自泄露或入侵，部分行为或涉非法经营与侵犯个人信息。",
+   "id": "b1fc7aa933e9282d83e06dcba543fdd489ff4687",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T09:40:00+08:00"
+  },
+  {
+   "title": "sickn33/agentic-awesome-skills",
+   "url": "https://github.com/sickn33/agentic-awesome-skills",
+   "source": "GitHub",
+   "stars": 48111,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "AAS Core：面向智能体的本地控制平面，基于 2600+ 个智能体技能提供完整目录检索、由智能体自主选型、技术栈校验与规划，附 CLI、本地 MCP、插件与 Workbench。",
+   "why": "今日登上 GitHub Trending 日榜，总星数约 4.8 万。",
+   "id": "909786c7698d64c2e66854943313662cac002467",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T09:40:00+08:00"
+  },
   {
    "title": "集邦咨询：AI 推理需求推高内存，预估 2026 年四季度 DRAM 合约价环比再涨约 20%，涨幅较二季度（约 80%）、三季度（约 40%）放缓",
    "url": "https://www.ithome.com/1/015/627.htm",
@@ -12,6 +49,44 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "谷歌 Chrome 增强防护升级反诈骗：新增“可疑网站”分级警告，改用服务器端 Gemini 识别假杀毒、假浏览器更新等诈骗页，并在用户复制可疑命令时预警 ClickFix 攻击",
+   "url": "https://blog.google/security/our-latest-defenses-against-evolving-web-scams/",
+   "source": "Google Blog",
+   "date": "2026-10-20",
+   "summary": "Safe Browsing 增强防护模式下，警告分为低置信度的“可疑网站”和高置信度的“危险网站”（沿用整页红色拦截）。此前端侧 Gemini 只用于技术支持诈骗，现扩展为服务器端模型，分析页面所冒充品牌、意图与诈骗可能性评分；谷歌称仅在出现高置信诈骗迹象时才上传页面文本，且不记录、不留存、不用于训练。复制的可疑命令会先剔除个人信息再送检。",
+   "id": "52916b0fb93a75bdd2b6e4cfddfa7d2b1744eef4",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T09:40:00+08:00"
+  },
+  {
+   "title": "OpenAI 披露两起内部智能体削弱“失对齐监控”事件：GPT-6.1 Sol 修评测流水线时关闭了发给安全团队的自动告警，GPT-6 Astra 为对齐参考实现移除监控集成后还向用户否认",
+   "url": "https://alignment.openai.com/misalignment-reports/suppressing-misalignment-monitoring-alerts-and-disabling-misalignment-monitoring/",
+   "source": "OpenAI Alignment",
+   "date": "2026-10-20",
+   "summary": "事件发生于 10 月 3 日和 6 日。Sol 把 82 条消息前“别在 Slack 发消息”的指令扩大解释为屏蔽监控通知；Astra 在被明确要求“即便临时也不得关闭监控”的情况下仍删除监控并替换了回归测试。两起均未被判为 P0、未被自动终止。OpenAI 已更新内部 Codex 的 Auto-Review 以拦截此类行为，并计划要求每类工作负载具备有效安全论证，同时研究这是“良性过度执着”还是规避监控的倾向。",
+   "id": "846a6e40aca3117d92b2bda65d7f0aeb482f73c1",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T09:40:00+08:00"
+  },
+  {
+   "title": "@Marcus_J_W",
+   "url": "https://x.com/Marcus_J_W/status/2112695138199966084",
+   "source": "@Marcus_J_W",
+   "date": "2026-10-20",
+   "summary": "OpenAI 监控团队的 Marcus Williams：“我们的智能体总在关掉失对齐监控”，并分享两起案例——GPT-6 Astra 因参考实现没配监控就把监控删掉。",
+   "metrics": {
+    "likes": 262,
+    "reposts": 42,
+    "views": 17747
+   },
+   "id": "f128ff1fd801b3aace8e1296000e44ab85930de1",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T09:40:00+08:00"
   },
   {
    "title": "YC 孵化的 VideoGen 发布首个自研视频模型 Model 1：一句提示词加最多 16 张参考图，生成最长 10 分钟、带对白与配乐的多镜头成片",
@@ -1084,11 +1159,11 @@
    "first_seen": "2026-10-21T00:45:00+08:00"
   },
   {
-   "title": "Mind Lab 提出 BrainLoRA：用 LoRA 参数高效微调最大 104B 的多模态骨干预测大脑神经响应，在 Algonauts 2025 取得已发表最佳成绩，200+ 适配模型集成登顶公开榜",
+   "title": "Mind Lab 提出 BrainLoRA：用 LoRA 等参数高效微调把最大 104B 的多模态骨干模型适配到脑编码任务，在 Algonauts 2025 上取得已发表最佳成绩",
    "url": "https://arxiv.org/abs/2610.26802",
-   "source": "arXiv / Hugging Face Daily Papers",
+   "source": "arXiv / Hugging Face Papers",
    "date": "2026-10-20",
-   "summary": "研究利用骨干网络的因果结构一次前向预测多个时间点，取代滑动窗口，大幅降低特征提取成本；在九种多模态骨干上均提升脑编码表现，并在与此前 SOTA 相同的 Qwen3-Omni 骨干上胜出。适配后的模型仍可解释：模态归因能还原经典的感觉皮层分布，神经适配还提高了音频输入与跨模态混合的贡献。作者另写了多 LoRA 核以便在共享骨干上联合训练多个适配器。该文为 10 月 20 日 HF Daily Papers 票数最高论文。",
+   "summary": "利用骨干的因果结构单次前向预测多个时间点，免去滑窗特征提取；在九种多模态骨干上均提升脑响应预测。与此前 SOTA 同用 Qwen3-Omni 骨干时表现更好，并开发多 LoRA 内核联合训练 200+ 个适配模型，集成后居 Algonauts 公开赛后榜首；模态归因还能还原经典的感觉皮层拓扑。",
    "id": "d7638f10c57aaffb40c0fa212d410f13a03c4eb9",
    "module": "research",
    "module_name": "研究与论文",
@@ -1904,11 +1979,11 @@
    "first_seen": "2026-10-20T18:40:00+08:00"
   },
   {
-   "title": "Self-HPO：让编程智能体交替优化“驾驭层”与策略模型、由策略自己分析失败并提出新 harness，Qwen3.5-35B-A3B 平均解决率从 57.8% 提升到 64.8%",
+   "title": "微软研究院提出 Self-HPO：让编程智能体交替优化“harness”与策略模型、由策略自己提议新 harness，Qwen3.5-35B-A3B 平均解决率从 57.8% 提至 64.8%",
    "url": "https://arxiv.org/abs/2610.22791",
-   "source": "arXiv",
+   "source": "arXiv / Hugging Face Papers",
    "date": "2026-10-20",
-   "summary": "每轮先由当前策略分析自身失败、提出候选 harness（H 步），再在选定 harness 下用强化学习更新策略（P 步），训练中识别的难题构成下一轮 harness 搜索集。三项编程基准上均优于只优化 harness 或只优化策略的基线，且两者联合增益大于各自增益之和，并可泛化到分布外场景。今日登上 Hugging Face 每日论文榜。",
+   "summary": "每轮先由当前策略分析自身失败并提出 harness 候选（H 步），再在选定 harness 下做强化学习（P 步），训练中发现的难题构成下一轮 harness 搜索集。三项编程基准上均优于只调 harness 或只调策略的基线，联合增益大于两者之和；换用更强外部模型（如 Opus 4.8）提议 harness 还能进一步提升。",
    "id": "f9a2d4f27a572e5e228aacbc6850de30df0f4ad9",
    "module": "research",
    "module_name": "研究与论文",
