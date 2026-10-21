@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T07:35:00+08:00",
+  "updated": "2026-10-21T08:40:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "YC 孵化的 VideoGen 发布首个自研视频模型 Model 1：一句提示词加最多 16 张参考图，生成最长 10 分钟、带对白与配乐的多镜头成片",
+          "url": "https://finance.yahoo.com/technology/ai/articles/videogen-unveils-model-1-first-163000767.html",
+          "source": "GlobeNewswire / Yahoo Finance",
+          "date": "2026-10-20",
+          "summary": "内置“思考框架”先写剧本、对白、分镜与节奏，再用音视频联合注意力在潜空间生成并自动剪辑拼接，跨镜头保持角色与场景一致。公司称成本比同类模型低 50% 以上，但定价、正式基准和第三方验证尚未公布；10 月 20 日起向少量合作方开放，同时推出 100 万美元免费额度申请计划，输出带隐形水印。"
+        },
         {
           "title": "谷歌把“Personal Intelligence with Gemini”带进汽车：Android Auto 今日起上线，可调用 Gmail、日历、地图、YouTube 和搜索记录给出个性化回答，Google Built-in 车型数月内跟进",
           "url": "https://techcrunch.com/2026/10/20/google-is-bringing-a-more-personal-version-of-its-gemini-ai-assistant-to-your-car/",
@@ -55,13 +62,6 @@
           "source": "The Verge / Perplexity",
           "date": "2026-10-20",
           "summary": "据 The Verge，更新后用户可在不把数据传到云端的情况下跨原生 Mac 应用和本地文件执行任务，借助 Apple Silicon 在本机跑模型；需要最新信息或浏览器操作时，也可把部分任务转交云端。功能已在 Perplexity Mac 应用上线。"
-        },
-        {
-          "title": "Figma 首届印度 Config 大会新增 20 家 MCP 合作伙伴（含 Linear、Notion、Mistral、Meta Muse、OpenCode 等），联合创始人 Dylan Field 称 MCP“并不完美”、更有利于前沿实验室",
-          "url": "https://techcrunch.com/2026/10/20/figma-co-founder-dylan-field-thinks-mcp-is-not-a-perfect-protocol/",
-          "source": "TechCrunch",
-          "date": "2026-10-20",
-          "summary": "据 TechCrunch，Field 在媒体沟通会上表示 MCP 还有很大改进空间，Figma 不愿完全开放是因为通过 MCP 暴露的数据越多、被滥用的可能越高。此前他曾在 X 上质疑 Anthropic 作为 MCP 创建方并未通过 MCP 开放 artifacts 等云端资源，并称“非对称的上下文共享”问题被忽视；他随后表示 Figma 计划支持开源工具 Pi。"
         }
       ]
     },
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "Sakana AI 提出 QD-Rec：用“质量-多样性”开放式搜索做决策推荐，每条推荐附带自然语言理由假设，在并购、客户定位与论文/书籍推荐上质量与覆盖度领先",
+          "url": "https://arxiv.org/abs/2610.23470",
+          "source": "arXiv / Hugging Face Papers",
+          "date": "2026-10-20",
+          "summary": "面向“该收购哪家公司、该瞄准哪类客户”这类高风险决策，与其给单一排序列表，不如给一组多样且理由充分的选项。QD-Rec 用上下文老虎机挑选候选项，用基础模型以存档中的旧推荐为跳板生成新理由，新推荐只有更新颖或优于最近邻时才入档。"
+        },
+        {
           "title": "Safety Mid-Training：在预训练与后训练之间加入“安全中训练”阶段，让安全与通用推理共享推理结构联合习得，平均攻击成功率相对基线降低 72%–81%",
           "url": "https://arxiv.org/abs/2610.26809",
           "source": "arXiv",
@@ -181,13 +188,6 @@
           "source": "Radical Numerics",
           "date": "2026-10-20",
           "summary": "由 Evo/Evo 2 原班人马创立的 Radical Numerics 称，Omnii-1 把 DNA、RNA、蛋白质等 28 类生物数据统一表示；团队针对 T7 噬菌体尾丝蛋白 gp17 生成变体，在 11–15 个氨基酸改动时 69.9% 的设计可成功“重启”，随机对照仅 4.8%。含 AI 设计噬菌体的鸡尾酒在体外清除了患者的耐药菌株，随后在医生主导、受监管的同情用药途径下给药；公司出于隐私未披露疗效，并强调单一病例不能证明安全性或有效性。Omnii 同时被用于生物防御，已与劳伦斯利弗莫尔国家实验室合作。"
-        },
-        {
-          "title": "Ai2 发布 FairStress 公平性基准：300 个双候选人决策场景扩展为 1300 多万测试用例，发现模型在被“说服”时更易为少数群体放弃正确决定",
-          "url": "https://huggingface.co/blog/allenai/fairstress",
-          "source": "Ai2 / Hugging Face",
-          "date": "2026-10-20",
-          "summary": "FairStress 覆盖招聘、医疗、贷款、教育、住房、刑事司法等 29 个领域，除看最终选择外，还用权威、共识、历史劣势等“对抗性前缀”测试模型改变决定的难易度。15 个模型上，隐含身份与显式标签时放弃正确答案的平均差距分别为 6.9 与 9.3 个百分点；Claude Opus 5、GPT-5.5 等前沿模型在难分高下的案例中约 60–65% 选择少数群体候选人，作者称之为“反刻板印象过度矫正”。9 种去偏方法中仅“反事实思维链”在基本保持准确率的同时缩小了不对称；基准将并入 Olmo-eval。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "TechCrunch 详解 Anthropic 联邦 AI 安全法案草案：只有可预见且迫近的风险可能致 50 人以上死伤或超 10 亿美元损失时才可拦截模型，且须由商务部向联邦法院申请",
+          "url": "https://techcrunch.com/2026/10/20/anthropic-pitches-ai-safety-bill-that-may-block-a-model-if-50-people-could-be-killed/",
+          "source": "TechCrunch",
+          "date": "2026-10-20",
+          "summary": "风险须来自生物武器、模型失控或网络攻击；草案禁止其他机构或官员自行叫停模型，并会优先于部分州 AI 法。批评者认为这实际上让政府更难阻止危险模型发布；Anthropic 联邦事务负责人此前表示会修改优先适用条款并重新评估风险阈值。"
+        },
+        {
           "title": "Semafor：Anthropic 游说国会的联邦 AI 安全法案草案外泄引发反弹，安全倡导者批其力度不够、抢占州法；OpenAI 首席全球事务官 Lehane 暗讽“没有哪家公司该独自制定规则”",
           "url": "https://www.semafor.com/article/10/20/2026/anthropics-leaked-ai-bill-sparks-backlash",
           "source": "Semafor",
@@ -307,13 +314,6 @@
           "source": "U.S. Department of State / Bloomberg",
           "date": "2026-10-20",
           "summary": "美国国务院 10 月 19 日（美东时间）公布：Linwei Ding 2023 年创办的上海智算科技（Zhisuan）被认定“明知参与或受益于重大商业秘密窃取”，其曾在奇绩创坛创业营中宣称可复刻谷歌的超级智能基础设施技术；奇绩创坛向其提供种子资金并持股，被认定为窃密提供重大支持。被制裁实体还包括奇绩创坛一期、二期基金及致远企业管理中心。OFAC 同步将其列入非 SDN 菜单式制裁名单，并发放截至 2027 年 1 月 19 日的业务清退许可。"
-        },
-        {
-          "title": "中国外交部回应美国国土安全部 DeepSeek 禁令：坚决维护中国企业正当权益，反对泛化国家安全概念、将科技与经贸问题政治化",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/after-us-deepseek-order-china-says-it-will-protect-firms/articleshow/135063801.cms",
-          "source": "Reuters / The Economic Times",
-          "date": "2026-10-20",
-          "summary": "外交部发言人毛宁周二回应记者提问时作出上述表态。此前美国国土安全部公布的命令（7 月 24 日签发、周一公开）要求财政部、国务院、司法部等联邦民用机构从 IT 系统中移除 DeepSeek 产品及基于其模型的第三方服务，并禁止今后采购，国防部不在适用范围内；各机构可在 60 天内书面申请例外或延期。"
         }
       ]
     },
@@ -385,6 +385,17 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "wshobson/agents",
+          "url": "https://github.com/wshobson/agents",
+          "source": "GitHub",
+          "stars": 41249,
+          "stars_week": null,
+          "language": "Python",
+          "date": "2026-10-20",
+          "summary": "跨工具的智能体插件市场：同一套插件可装进 Claude Code、Codex、Cursor、OpenCode、GitHub Copilot、Google Antigravity 和 Pi 等编程智能体。",
+          "why": "今日登上 GitHub Trending 日榜，总星数约 4.1 万。"
+        },
         {
           "title": "pbakaus/impeccable",
           "url": "https://github.com/pbakaus/impeccable",
@@ -461,17 +472,6 @@
           "date": "2026-10-20",
           "summary": "“永不结束的单一对话”AI 智能体（Apache-2.0）：每条消息被压缩成一行摘要并两两合并成二叉“记忆树”，每次调用看到最多 128KB 的全局视图，智能体可逐层展开回到原文，无需丢弃历史的压缩；可在自己的服务器用自有 API Key 运行。",
           "why": "10 月 19 日开源，作者称几乎全部由 AI 智能体编写和审查，上线一天多约 500 星，进入 GitHub 新建仓库星标前列。"
-        },
-        {
-          "title": "kitlangton/scrawl",
-          "url": "https://github.com/kitlangton/scrawl",
-          "source": "GitHub",
-          "stars": 561,
-          "stars_week": null,
-          "language": "Rust",
-          "date": "2026-10-20",
-          "summary": "“给智能体看问题而不是描述问题”（MIT）：快捷键录屏，边说边点边画，结束后打包成带标注关键帧的缩略图、时间对齐的转写与交互时间线及结构化清单，供 Claude Code、OpenCode、Codex 等智能体直接读取；支持 macOS 与 Windows 预览版，并提供智能体技能安装。",
-          "why": "10 月 14 日创建，近一周涨至 500+ 星，是本周增长最快的智能体辅助工具之一。"
         }
       ]
     },
@@ -480,6 +480,30 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2112681038845473050",
+          "source": "@TechCrunch",
+          "date": "2026-10-20",
+          "summary": "TechCrunch 推文点评 Anthropic 安全法案草案：看似防范 AI 失控，实则规定联邦机构未经法官许可不得阻止模型发布。",
+          "metrics": {
+            "likes": 13,
+            "reposts": 1,
+            "views": 8824
+          }
+        },
+        {
+          "title": "@theinformation",
+          "url": "https://x.com/theinformation/status/2112680380520153238",
+          "source": "@theinformation",
+          "date": "2026-10-20",
+          "summary": "The Information 采访美国战争部首席技术官：称超级智能可能带来压倒性的情报与技术优势，甚至成为在冲突爆发前就加以阻止的“终极军事威慑”。",
+          "metrics": {
+            "likes": 2,
+            "reposts": 1,
+            "views": 2464
+          }
+        },
         {
           "title": "@kimmonismus",
           "url": "https://x.com/kimmonismus/status/2112681769787163037",
@@ -550,30 +574,6 @@
             "likes": 2,
             "reposts": 0,
             "views": 3458
-          }
-        },
-        {
-          "title": "@sama",
-          "url": "https://x.com/sama/status/2112652656602923366",
-          "source": "@sama",
-          "date": "2026-10-20",
-          "summary": "奥特曼感谢 Aleksander Madry 接受邀请回归 OpenAI：“在迈向超级智能的过程中，我们面临的安全与安保挑战极其巨大”，称 Madry 具备出色的技能来应对。",
-          "metrics": {
-            "likes": 831,
-            "reposts": 29,
-            "views": 78665
-          }
-        },
-        {
-          "title": "@aleks_madry",
-          "url": "https://x.com/aleks_madry/status/2112231448103239998",
-          "source": "@aleks_madry",
-          "date": "2026-10-20",
-          "summary": "Madry 宣布重返 OpenAI：原以为的离职“更像一次休假”；AI 进展已进入新阶段，处理好更强 AI 的安全与安保挑战必须成为核心优先事项，他将加入首席科学家 Jakub Pachocki（@merettm）一同推进。",
-          "metrics": {
-            "likes": 1992,
-            "reposts": 69,
-            "views": 325003
           }
         }
       ]
