@@ -1,7 +1,50 @@
 {
- "updated": "2026-10-22T01:40:00+08:00",
- "count": 1078,
+ "updated": "2026-10-22T02:45:00+08:00",
+ "count": 1083,
  "items": [
+  {
+   "title": "Anthropic 发布 2026 年度《公益报告》（Public Benefit Report）：作为公益公司（PBC）首次按五大支柱盘点进展——AI 安全技术问题被解决、安全实践由法律兜底、AI 强化民主与全球稳定、AI 扩大繁荣、AI 收益人人共享",
+   "url": "https://www.anthropic.com/public-benefit-charter",
+   "source": "Anthropic",
+   "date": "2026-10-22",
+   "summary": "Anthropic 称 PBC 身份要求其在股东财务利益与更广泛公共利益之间取得平衡，年度报告用于盘点为公共利益所做的工作及后续计划，并配套整理相关研究、政策与项目记录、称将持续补充。报告发布前几天，公司刚宣布注入 5% 股份设立 Anthropic 公益基金，并为长期利益信托新增受托人。",
+   "id": "51710a64a95fbf4f904c0f19d002327f3de9a68b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T02:45:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2112966949273801086",
+   "source": "@AnthropicAI",
+   "date": "2026-10-22",
+   "summary": "Anthropic 作为公益公司发布年度《公益报告》，按五大支柱盘点为推进公共利益采取的行动。",
+   "metrics": {
+    "likes": 765,
+    "reposts": 70,
+    "views": 45496
+   },
+   "id": "ec1438be50b4e851f16eaf5909a1c5fe521c877e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T02:45:00+08:00"
+  },
+  {
+   "title": "@GoogleDeepMind",
+   "url": "https://x.com/GoogleDeepMind/status/2112974723659247896",
+   "source": "@GoogleDeepMind",
+   "date": "2026-10-22",
+   "summary": "DeepMind 展示 Gemini 4 Argon 合并三个开源数据集，搭出可交互的 3D 人体解剖可视化：可逐层切换、单独查看肌肉、放大观察跳动的心脏。",
+   "metrics": {
+    "likes": 33,
+    "reposts": 3,
+    "views": 4052
+   },
+   "id": "b4342dbc9589d8cd31ab43559509989c32b5236c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T02:45:00+08:00"
+  },
   {
    "title": "Asymptote-Labs/agent-beacon",
    "url": "https://github.com/Asymptote-Labs/agent-beacon",
@@ -201,6 +244,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "黄仁勋 GTC 柏林反驳“AI 终结软件”论：智能体干活仍要调用专业工具，软件工具公司将迎来更多使用者，并向提供“软件+擅用软件的智能体”转型",
+   "url": "https://www.ithome.com/1/016/125.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "黄仁勋以科学家需要实验室、模拟器与求解器为例，称智能体从编程起步，后续将调用流体力学、量子化学与工业设计软件；现场达索系统演示中，设计智能体把高尔夫车门设计改用于途观并调用仿真工具发现振动问题后迭代，最终由工程师审核。演示未给出大规模部署的成本与效率数据。",
+   "id": "a3d7e2f3d8dac16b806ef38e5d3af2b730591bec",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T02:45:00+08:00"
+  },
+  {
+   "title": "华为确认鸿蒙 HarmonyOS 7“小艺 AI 快捷栏”延期：由原定 10 月底推迟至 11 月初按机型分批推送，开启后小艺常驻桌面底部 Dock 栏",
+   "url": "https://www.ithome.com/1/016/144.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "该功能在 9 月 7 日 HarmonyOS 7 发布会上首次剧透，华为客服本月早些时候称 10 月底上线，IT之家再次询问后获答复将推迟到 11 月初；开启后 AI 显示在快捷栏，点击可进入更多 AI 服务。",
+   "id": "18303bfbe87f6b4de704ae1d613361e3a37d11de",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T02:45:00+08:00"
   },
   {
    "title": "Anthropic 长期利益信托（LTBT）新增受托人：哈佛前理学院院长、实验物理学家 Christopher Stubbs 加入，该信托有权任命 Anthropic 董事会多数席位",
