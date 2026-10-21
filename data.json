@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T18:29:00+08:00",
+  "updated": "2026-10-21T19:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,20 @@
       "icon": "📄",
       "items": [
         {
+          "title": "AuthorizationBench：首个“授权对齐”智能体基准，286 个源自真实案例的可执行任务、6864 条轨迹显示智能体有 19.2% 的情况越权行事，提高推理强度几乎无改善",
+          "url": "https://arxiv.org/abs/2610.27548",
+          "source": "arXiv",
+          "date": "2026-10-21",
+          "summary": "研究者指出现有评测只看任务完成或有害后果，会漏掉“未造成传统伤害但超出用户授权”的行为。基准覆盖十个应用领域，在可观察授权内外路径的沙箱中，用 4 个模型、2 档推理强度和 3 种智能体外壳运行；越权率在 24 种配置间介于 10.5% 到 26.6%，且任务完成并不意味着守住授权。"
+        },
+        {
+          "title": "“更强的 AI 突破会加速自身枯竭”：分析 36 年计算机科学 720 万篇论文、7.3 万份评审与 370 万研究者，发现 Transformer 之后领域扩张但注意力急剧收窄",
+          "url": "https://arxiv.org/abs/2610.27296",
+          "source": "arXiv",
+          "date": "2026-10-21",
+          "summary": "论文认为突破依赖多样化的研究注意力，而集体扎堆会耗尽这种多样性：超过一半转换方向的研究者涌入 AI（以中期职业者为主），评审信心在 5 分制上下降整整 1 分；从 AlexNet 到大模型，每次突破都抬高了领域的“想法容量”，但随后想法枯竭更快，结构生物学在冷冻电镜与 AlphaFold 后也出现同样周期。"
+        },
+        {
           "title": "“记忆越多、智能体越差”：印第安纳大学指出经验记忆中的“错误再生产”——存下来的规则/技能一旦有错，会经执行与再抽象循环反复复现，提出“反持久化”记忆设计",
           "url": "https://arxiv.org/abs/2610.27406",
           "source": "arXiv",
@@ -174,20 +188,6 @@
           "source": "Hugging Face Daily Papers / arXiv",
           "date": "2026-10-21",
           "summary": "框架基于共享进化档案与执行反馈做“双向历史继承”：一边从历史设计中发展 harness，一边选择或合并模型检查点并在所选 harness 下继续适配，以减少 harness 要求模型未学会的行为、或限制模型已有能力的错配。仅用自身拒绝采样轨迹做 SFT，Qwen3.5-9B 在 TraceElephant 上智能体准确率比 DeepSeek-V4-Pro 高 14.16 个点，在 HomeBench VM 上成功率比 GLM-5.3 高 4.90 个点，覆盖多智能体故障归因、角色感知 Text-to-SQL 与智能家居指令跟随。"
-        },
-        {
-          "title": "Ropedia W0：首个跨人类与多种机器人本体的第一视角“移动+操作”世界基础模型，用 1 万小时人类第一视角数据与 3000 小时机器人数据训练",
-          "url": "https://arxiv.org/abs/2610.26855",
-          "source": "Hugging Face Daily Papers / arXiv",
-          "date": "2026-10-21",
-          "summary": "团队整理了统一多模态标注的 Xp-Data 数据集，用相机位姿编码移动、用投影骨架编码操作，机器人骨架结合各本体正运动学与大量人工关键点校正，以统一不同本体的异构动作空间；同时发布基于高质量灵巧人形遥操作的长程移动操作基准 Xp-Teleop。登上 10 月 21 日 HF 每日论文榜前列。"
-        },
-        {
-          "title": "南洋理工提出 FocusGUI：让全模态 GUI 智能体每一步只“聚焦”与当前动作相关的截图、音频、视频与设备状态，缓解“连续分心”导致的轨迹漂移",
-          "url": "https://arxiv.org/abs/2610.26203",
-          "source": "Hugging Face Daily Papers / arXiv",
-          "date": "2026-10-21",
-          "summary": "论文指出，GUI 智能体若每步都统一处理完整的多模态上下文，上一步关键的信号会在下一步变成噪声，并随动作反馈不断累积成不可逆的偏航。作者将需求形式化为“聚焦感知”（逐步自适应、动作充分、非侵入），以轻量适配器按每步决策参照动态排序各模态通道并压缩成紧凑潜表示。10 月 21 日 HF 每日论文榜第一。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "生数科技开启 Motubrain 2.0 训练全流程公开直播：持续约半个月，展示具身模型预训练、后训练、Agent 任务执行与递归自我改进（RSI）四个环节，模型即将开源",
+          "url": "https://www.qbitai.com/2026/10/504730.html",
+          "source": "量子位",
+          "date": "2026-10-21",
+          "summary": "继小米 MiMo 负责人罗福莉公开 MiMo-V2.6 强化学习训练进展之后，Physical AI 领域也出现类似尝试。Motubrain 是生数科技为机器人打造的世界动作模型，团队称希望打开具身模型训练“黑盒”，连训练中的失败与调整一并公开；相关研究仍处于探索阶段，效果有待后续评测验证。"
+        },
+        {
           "title": "36氪：物理空间智能基础设施公司「乙太科技」连续完成种子轮及天使轮、累计超亿元，华为哈勃、智元、自变量、高瓴等投资，打造为具身智能与世界模型服务的“物理空间引擎”",
           "url": "https://www.163.com/dy/article/L9OPE7HN05118DFD.html",
           "source": "36氪 / 网易",
@@ -370,13 +377,6 @@
           "source": "智东西 / 网易",
           "date": "2026-10-21",
           "summary": "公司成立于 2026 年 3 月，个人 AI 助手 Today 国内版 9 月 25 日上线，覆盖 iOS、安卓、Windows、Mac、Linux，可主动记录日程、工作项目、学习计划与健康情况，已接入企业微信、微信读书、百度网盘、金山文档、腾讯会议等。齐俊元曾创办 Teambition（2019 年被阿里收购），后任飞书产品副总裁、豆包 PC 端负责人，2025 年 11 月离开字节。"
-        },
-        {
-          "title": "李泽湘系团队 Flowtica 完成数千万元新融资（祥峰、源码、五源、清水湾），推出磁吸手机背面的墨水屏 Agent 硬件 Verso",
-          "url": "https://www.163.com/dy/article/L9ORAJ2Q05118DFD.html",
-          "source": "36氪 / 网易",
-          "date": "2026-10-21",
-          "summary": "Verso 厚 6.5mm、重 78g，正面常显墨水屏，配 4 麦克风阵列与骨传导传感器，可盲操录音、一键 Ask AI，定位“个人上下文操作系统”，打通会议、日程、待办与邮件；本周开启定金预售，12 月首批出货。其首款 AI 录音笔 Scribe 发货后有 42% 激活用户转为订阅付费。"
         }
       ]
     },
@@ -385,6 +385,17 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "strelov1/freehire",
+          "url": "https://github.com/strelov1/freehire",
+          "source": "GitHub",
+          "stars": 1997,
+          "stars_week": null,
+          "language": "Go",
+          "date": "2026-10-21",
+          "summary": "freehire：面向求职者的开源职位搜索引擎，可自托管，聚合抓取职位并结合 LLM（LangChain）处理，技术栈为 Go + SvelteKit + Meilisearch + PostgreSQL，MIT 许可。",
+          "why": "今日登上 GitHub Trending 日榜，总星数约 2000、fork 228。"
+        },
         {
           "title": "shy3130/tick-stock-panel",
           "url": "https://github.com/shy3130/tick-stock-panel",
@@ -461,17 +472,6 @@
           "date": "2026-10-21",
           "summary": "AAS Core：面向智能体的本地控制平面，基于 2600+ 个智能体技能提供完整目录检索、由智能体自主选型、技术栈校验与规划，附 CLI、本地 MCP、插件与 Workbench。",
           "why": "今日登上 GitHub Trending 日榜，总星数约 4.8 万。"
-        },
-        {
-          "title": "wshobson/agents",
-          "url": "https://github.com/wshobson/agents",
-          "source": "GitHub",
-          "stars": 41249,
-          "stars_week": null,
-          "language": "Python",
-          "date": "2026-10-20",
-          "summary": "跨工具的智能体插件市场：同一套插件可装进 Claude Code、Codex、Cursor、OpenCode、GitHub Copilot、Google Antigravity 和 Pi 等编程智能体。",
-          "why": "今日登上 GitHub Trending 日榜，总星数约 4.1 万。"
         }
       ]
     },
@@ -480,6 +480,18 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@NVIDIAAI",
+          "url": "https://x.com/NVIDIAAI/status/2112855959609729106",
+          "source": "@NVIDIAAI",
+          "date": "2026-10-21",
+          "summary": "英伟达 AI 发布黄仁勋 GTC Berlin 片段：“毫无疑问，每家公司都会成为 AI 公司，欧洲将迎来繁荣的 AI 经济。”",
+          "metrics": {
+            "likes": 139,
+            "reposts": 24,
+            "views": 6613
+          }
+        },
         {
           "title": "@nvidia",
           "url": "https://x.com/nvidia/status/2112847277282721888",
@@ -562,18 +574,6 @@
             "likes": 12,
             "reposts": 3,
             "views": 14458
-          }
-        },
-        {
-          "title": "@thsottiaux",
-          "url": "https://x.com/thsottiaux/status/2112712984644784534",
-          "source": "@thsottiaux",
-          "date": "2026-10-21",
-          "summary": "OpenAI Codex 负责人 Tibo：在 API 新增 12 小时缓存之外，Codex 与 Work 的登录用户将获得“永久缓存”——隔数小时甚至数天回到旧对话也保证命中缓存、不再有额外惩罚。",
-          "metrics": {
-            "likes": 11182,
-            "reposts": 530,
-            "views": 1312364
           }
         }
       ]

@@ -1,7 +1,71 @@
 {
- "updated": "2026-10-21T18:29:00+08:00",
- "count": 989,
+ "updated": "2026-10-21T19:40:00+08:00",
+ "count": 994,
  "items": [
+  {
+   "title": "AuthorizationBench：首个“授权对齐”智能体基准，286 个源自真实案例的可执行任务、6864 条轨迹显示智能体有 19.2% 的情况越权行事，提高推理强度几乎无改善",
+   "url": "https://arxiv.org/abs/2610.27548",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "研究者指出现有评测只看任务完成或有害后果，会漏掉“未造成传统伤害但超出用户授权”的行为。基准覆盖十个应用领域，在可观察授权内外路径的沙箱中，用 4 个模型、2 档推理强度和 3 种智能体外壳运行；越权率在 24 种配置间介于 10.5% 到 26.6%，且任务完成并不意味着守住授权。",
+   "id": "c375b9729cc0ee0f1c172caeec4bc8acac561677",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T19:40:00+08:00"
+  },
+  {
+   "title": "“更强的 AI 突破会加速自身枯竭”：分析 36 年计算机科学 720 万篇论文、7.3 万份评审与 370 万研究者，发现 Transformer 之后领域扩张但注意力急剧收窄",
+   "url": "https://arxiv.org/abs/2610.27296",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "论文认为突破依赖多样化的研究注意力，而集体扎堆会耗尽这种多样性：超过一半转换方向的研究者涌入 AI（以中期职业者为主），评审信心在 5 分制上下降整整 1 分；从 AlexNet 到大模型，每次突破都抬高了领域的“想法容量”，但随后想法枯竭更快，结构生物学在冷冻电镜与 AlphaFold 后也出现同样周期。",
+   "id": "e1b9334f23b203fe680a5ddbede6a7485e242645",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T19:40:00+08:00"
+  },
+  {
+   "title": "生数科技开启 Motubrain 2.0 训练全流程公开直播：持续约半个月，展示具身模型预训练、后训练、Agent 任务执行与递归自我改进（RSI）四个环节，模型即将开源",
+   "url": "https://www.qbitai.com/2026/10/504730.html",
+   "source": "量子位",
+   "date": "2026-10-21",
+   "summary": "继小米 MiMo 负责人罗福莉公开 MiMo-V2.6 强化学习训练进展之后，Physical AI 领域也出现类似尝试。Motubrain 是生数科技为机器人打造的世界动作模型，团队称希望打开具身模型训练“黑盒”，连训练中的失败与调整一并公开；相关研究仍处于探索阶段，效果有待后续评测验证。",
+   "id": "28d2f32e754b4e4f5392bff64b4e601add6b915a",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T19:40:00+08:00"
+  },
+  {
+   "title": "strelov1/freehire",
+   "url": "https://github.com/strelov1/freehire",
+   "source": "GitHub",
+   "stars": 1997,
+   "stars_week": null,
+   "language": "Go",
+   "date": "2026-10-21",
+   "summary": "freehire：面向求职者的开源职位搜索引擎，可自托管，聚合抓取职位并结合 LLM（LangChain）处理，技术栈为 Go + SvelteKit + Meilisearch + PostgreSQL，MIT 许可。",
+   "why": "今日登上 GitHub Trending 日榜，总星数约 2000、fork 228。",
+   "id": "e9a49fe684b232bedd00764b912919570fa15fca",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T19:40:00+08:00"
+  },
+  {
+   "title": "@NVIDIAAI",
+   "url": "https://x.com/NVIDIAAI/status/2112855959609729106",
+   "source": "@NVIDIAAI",
+   "date": "2026-10-21",
+   "summary": "英伟达 AI 发布黄仁勋 GTC Berlin 片段：“毫无疑问，每家公司都会成为 AI 公司，欧洲将迎来繁荣的 AI 经济。”",
+   "metrics": {
+    "likes": 139,
+    "reposts": 24,
+    "views": 6613
+   },
+   "id": "fdae865e1b32544444057f5f887667c0b8c1c74c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T19:40:00+08:00"
+  },
   {
    "title": "英伟达 GTC Berlin 扩充开放模型家族：新增结构化数据基础模型 Kumo、Cosmos 3.5 世界模型、Alpamayo 2 Edge 车端推理模型、Nemotron Retriever 及量子计算模型 Ising",
    "url": "https://blogs.nvidia.com/blog/open-models-europe-industry/",
