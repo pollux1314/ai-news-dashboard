@@ -1,7 +1,53 @@
 {
- "updated": "2026-10-21T10:26:00+08:00",
- "count": 910,
+ "updated": "2026-10-21T11:45:00+08:00",
+ "count": 923,
  "items": [
+  {
+   "title": "farion1231/cc-switch",
+   "url": "https://github.com/farion1231/cc-switch",
+   "source": "GitHub",
+   "stars": 146880,
+   "stars_week": null,
+   "language": "Rust",
+   "date": "2026-10-21",
+   "summary": "跨平台桌面一站式助手，统一管理 Claude Code、Codex、OpenCode、OpenClaw、Grok Build 与 Hermes Agent 等编程智能体的供应商配置与切换。",
+   "why": "今日登上 GitHub Trending Rust 日榜（单日约 +507 星），总星数约 14.7 万。",
+   "id": "b1b56e3e70bd7d63fedcd4e6d4530fac38e87cac",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "AgriciDaniel/claude-seo",
+   "url": "https://github.com/AgriciDaniel/claude-seo",
+   "source": "GitHub",
+   "stars": 19484,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "面向 Claude Code 的通用 SEO 技能包：26 个子技能 + 19 个子智能体，覆盖技术 SEO、E-E-A-T、结构化数据、GEO/AEO 与智能体就绪度检查等。",
+   "why": "今日登上 GitHub Trending Python 日榜（单日约 +191 星），总星数约 1.9 万。",
+   "id": "117d2cb5f38ac92cd1847dee375ec1daf579a2ff",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "@DarioAmodei",
+   "url": "https://x.com/DarioAmodei/status/2112732230124818891",
+   "source": "@DarioAmodei",
+   "date": "2026-10-21",
+   "summary": "Anthropic CEO 长文回应安全倡导者 Nathan Calvin 的批评：承认其中部分事例是 Anthropic 的失误，但坚持“向上竞赛”路线，并列举过去一年“商业上代价高昂的安全举措”，如力推 SB53、严格生物安全分类器、Mythos 级模型推迟数月才全面开放等。",
+   "metrics": {
+    "likes": 889,
+    "reposts": 75,
+    "views": 80927
+   },
+   "id": "6cc110bb51e603c85539c1af0ad3224925be23a8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
   {
    "title": "humans& 发布首个模型 Ampersand v0.1：定位“协作者”模型，用长周期社交模拟训练，帮助个人与群体达成长期目标，今起通过 Agents API 开放、无需排队",
    "url": "https://ampersand.humansand.ai/blog/",
@@ -92,6 +138,121 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "微软 OneDrive 大规模 AI 升级：Copilot 可同时分析多份表格生成图表与趋势、整理凌乱文件夹，把文档转成交互式 HTML 报告，并支持以 Markdown 保存可复用的自定义技能",
+   "url": "https://windowsreport.com/microsoft-onedrive-gets-a-massive-ai-upgrade-with-copilot-file-analysis-easier-sharing-and-smarter-photos/",
+   "source": "Windows Report",
+   "date": "2026-10-20",
+   "summary": "在 10 月 20 日 OneDrive + Copilot 线上发布会上公布：新增 Prompt Gallery、HTML 实时预览编辑与 Markdown 协同编辑；照片支持自然语言搜索、AI 编辑与 Copilot 生成幻灯片；同步上限提升至 100 万个项目（8GB 内存设备也可），共享改为每个文件默认一个“Hero Link”。部分功能即日推送，其余未来数月陆续上线，Copilot Search 也将进入 OneDrive 与 SharePoint。",
+   "id": "b287e312f13533c7ef55e88d9368084fa65cc123",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "Azure DevOps 插件登陆 Microsoft Copilot：可在 Copilot Chat、Cowork 与 Code 中直接管理工作项、PR、测试计划与流水线，内置分拣 Bug、把需求拆成史诗/特性/用户故事的技能",
+   "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
+   "source": "Azure DevOps Blog",
+   "date": "2026-10-20",
+   "summary": "微软称该插件可把 Word 需求文档直接转成带关联工作项的特性，或用会议纪要给相关工作项补评论，无需在工具间来回切换；在 Cowork 的“自定义”中搜索 Azure DevOps 安装并连接组织即可使用。评论区有用户反映 Cowork 尚未对所有人开放。",
+   "id": "3321a08b60af53865463d9f023f996396cb54fb2",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "推理云 General Compute 与 Positron AI 合作：采购 Atlas 推理系统并承诺采购下一代 Titan（基于自研 Asimov 芯片），2027 年一季度起向客户提供",
+   "url": "https://www.generalcompute.com/blog/general-compute-positron-ai-partnership",
+   "source": "General Compute Blog",
+   "date": "2026-10-20",
+   "summary": "双方采用分离式推理：GPU 负责提示词预填充，Positron 以内存为先的加速器负责逐 token 生成；Asimov 基于 LPDDR 架构，提供 TB 级内存以容纳更大模型与更长上下文。客户通过 General Compute 获得专属算力，一份合同、统一 SLA，Atlas 将与其现有英伟达集群并行部署。",
+   "id": "ccba6840e28b5a1adba13496816a67dd80241dfb",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "Sage-A1.5：35B MoE 智能体模型，强调“能力组合”——子智能体并行协作与任务委派、进度核查与证据验证式的自我纠偏，并把能力延伸到开放式科学探索",
+   "url": "https://arxiv.org/abs/2610.28578",
+   "source": "arXiv / Hugging Face Papers",
+   "date": "2026-10-20",
+   "summary": "由 InternScience 团队发布，在 A1 基础上让模型不仅解单个任务，还能组织工作、在执行中修订策略：隔离上下文的子智能体并发处理分解任务以减少干扰，识别无效搜索路径后转换方案，并产出可检查的研究工件。论文以多学科科学应用展示能力，今日位居 Hugging Face 每日论文榜前列。",
+   "id": "063c5fe3763740d643794e3580ea800d269548b5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "New Scientist：逾千名数学家加入“人类数学家协会”（AHM），承诺不为 AI 公司工作、不用聊天机器人写论文，其中一部分进一步承诺研究中完全不用 AI",
+   "url": "https://www.newscientist.com/article/2593621-a-thousand-human-mathematicians-pledge-to-shun-ai-in-their-research/",
+   "source": "New Scientist",
+   "date": "2026-10-20",
+   "summary": "AHM 在 OpenAI 本月一次性发布 722 篇数学论文等争议后成立，成员分为不与 AI 公司合作的“素食者”和研究中彻底弃用 AI 的“纯素者”（AHM 官网显示 1008 名成员中 654 人加入无 AI 小组）。耶鲁 Sam Raskin 批评部分学界领导者暗中拿 Anthropic 或 OpenAI 报酬却未披露；协会还设委员会研究防止预印本被 AI 训练抓取及教学变革。",
+   "id": "081295709fccdeeeaf190162dda023cd775b6360",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "英伟达 GEAR 实验室开源 Flora 模型套件：把机器人与人类第一视角视频自动标注为带时间戳的动作指令、过程奖励与失败原因，称成本约为 GPT-6 Astra 的 1/125",
+   "url": "https://research.nvidia.com/labs/gear/flora/",
+   "source": "NVIDIA Research",
+   "date": "2026-10-20",
+   "summary": "套件含 Flora-TempSeg（9B，切分操作片段）、Flora-Captioner（27B，逐段写指令）与 Flora-Rewarder（27B，输出整段成败评分、每 0.5 秒过程质量分与基于评分细则的奖励），权重已上架 Hugging Face，仅限非商业研究用途。英伟达称其已作为 GR00T 的数据引擎，每天标注约 20 万小时视频。",
+   "id": "e5f40dbd6f9fc686ceb42c2a8bf7471becce8818",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "工信部印发《“人工智能+软件”专项行动实施方案》：到 2028 年智能编程工具推广覆盖 2 万家规上软件企业，实施 100 项智能化技改、打造 100 个智能体软件标杆应用",
+   "url": "http://www.ce.cn/xwzx/gnsz/gdxw/202610/t20261020_3264711.shtml",
+   "source": "科技日报 / 中国经济网",
+   "date": "2026-10-20",
+   "summary": "方案还提出孵化 5 个以上重点开源项目，大力发展“模型即服务”“智能体即服务”，推动软件开发由“人工编写”转向“人机协同”；把提升软件领域安全保障列为任务，开发环节以智促安，产品环节强调行为可控、全程可溯。工信部披露截至 2026 年 6 月我国日均词元调用量已突破 500 万亿。",
+   "id": "eb30380b750f8a634cf0be3aa67c0496f9907aba",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "工信部：正研究起草新一代智能制造政策措施，推动 AI 与制造业全链条融合，将梯度培育智能工厂并“稳妥开展工业智能体研发与应用验证”",
+   "url": "http://jjckb.xinhuanet.com/20261020/3db59e9bce1547c99119d9b0be826fcd/c.html",
+   "source": "经济参考报",
+   "date": "2026-10-20",
+   "summary": "工信部总工程师王卫明在 10 月 20 日国新办发布会上表示，将重点做好梯度培育智能工厂、创新发展智能装备、加快智能技术攻关推广、深化智能制造国际合作四方面工作；支持建设高质量工业数据集、开发垂域大模型与工业专用模型，探索工业智能操作系统，围绕智能排产、缺陷检测等场景实施“模数共振行动”。",
+   "id": "b9b0272bb54ee3661441e942eeb948b6cadaa1b1",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "字节 Seed 模型评测负责人、零一万物联合创始人黄文灏离职，加入字节约两年，消息称下一步或创业",
+   "url": "https://www.21jingji.com/article/20261020/herald/4d220dab0ccf72e0ac7338f42fbcbc6e.html",
+   "source": "21经济网",
+   "date": "2026-10-20",
+   "summary": "黄文灏曾任微软亚洲研究院首席研究员、零一万物算法副总裁，主导把 Yi-34B 送上 Hugging Face 开源榜首；2024 年 8 月加入 Seed，后转任模型评测负责人。其离职恰逢 Seed 重组——9 月新设 Pretrain Data 团队、10 月 13 日成立“Model-Alignment & Preparedness”部门；报道称过去一年 Seed 流失近 70 名技术人才。",
+   "id": "40745fad58d609c8bb7aff188e4e68dc758f9915",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T11:45:00+08:00"
+  },
+  {
+   "title": "@yunzeman",
+   "url": "https://x.com/yunzeman/status/2112590210840281500",
+   "source": "@yunzeman",
+   "date": "2026-10-20",
+   "summary": "英伟达研究员发布 Flora：开放模型套件“观看”机器人与人类视频，标注发生了什么（带时间戳的指令）以及做得如何（奖励与失败原因），已用于训练 NVIDIA GR00T。",
+   "metrics": {
+    "likes": 117,
+    "reposts": 26,
+    "views": 12825
+   },
+   "id": "6346ef3ce9bf4dcef86e5b42ab406026af1a52d9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T11:45:00+08:00"
   },
   {
    "title": "澳大利亚数据中心商 NEXTDC 因墨尔本公众反对导致数据中心供电延误，暂停全部新开发项目并下调营收预期",
