@@ -1,7 +1,72 @@
 {
- "updated": "2026-10-21T14:27:00+08:00",
- "count": 947,
+ "updated": "2026-10-21T15:35:00+08:00",
+ "count": 954,
  "items": [
+  {
+   "title": "Épi：可跨会话持续推进研究、靠累积经验自我进化方法的自主科研智能体，产出 120 项数学/构造纪录，并给出 Tuza 猜想一类特殊情形的计算机辅助证明",
+   "url": "https://huggingface.co/papers/2610.24944",
+   "source": "Hugging Face Daily Papers / arXiv",
+   "date": "2026-10-21",
+   "summary": "Épi 结合持久研究历史、分层记忆、分支探索与独立审查，实验跨会话运行并由固定验证器评估：取得 20 项数值界与 100 项构造纪录，如 n 皇后常数区间收窄约 84 倍、四次 Feigenbaum 吸引子维数的严格区间收窄逾 360 万倍，并证明 Cohn-Elkies 线性规划界在 10、11 维不可能达到最优。轻量版 Épi-turbo 在 30 个 FrontierOR 运筹任务上总分比 Codex 高 5.4%，成本仅为其 64%（同底座模型）。",
+   "id": "29c820c4703d0679673177627c47d15eaa4a91c7",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T15:35:00+08:00"
+  },
+  {
+   "title": "SparkLLM 开源端侧模型 Spark-X2.6-4B：架构与 X2.5 相同、仅靠改进后训练增强编码/智能体/长上下文能力，支持 none/low/high 三档思考预算，Apache 2.0",
+   "url": "https://huggingface.co/XHToken/Spark-X2.6-4B",
+   "source": "Hugging Face",
+   "date": "2026-10-21",
+   "summary": "官方称其在同尺寸开源模型中领先，多项基准持平或超过约 9B 模型；高思考档下 BFCL-V4 71.8、MCP-Atlas 62.4、BrowseComp 53.1、SWE Pro 54.3（厂商自测），推理效率与 Qwen3.5-4B、Gemma-E4B 相当或更好。权重同步上架 ModelScope 与 Ollama（ollama run SparkLLM/Spark-X2.6-4B），并提供 vLLM、SGLang 部署指南及 GGUF 版本。",
+   "id": "0043ec56a51a0cf261821c29d20d1b9c0bebb65d",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T15:35:00+08:00"
+  },
+  {
+   "title": "傅利叶执行器团队出身的钟雪岗创办深圳具身智能动力系统公司伊塔动力（YITA），完成超亿元种子及种子+轮融资，经纬创投、商汤国香、建银国际、银河通用、傅利叶等参投",
+   "url": "https://news.pedaily.cn/202610/570575.shtml",
+   "source": "投资界",
+   "date": "2026-10-21",
+   "summary": "公司成立约 5 个月，主打复合行星力控关节、准直驱行星关节模组与七轴仿生力控臂，面向具身模型验证、数据采集与末端执行器集成；称关节传动效率约 83%、成本较谐波方案降约 50%、寿命超 2 万小时。创始人曾主导傅利叶三代 20 余款执行器研发、累计量产近 5 万台，已获头部具身大脑与人形本体企业数千万元合作意向。",
+   "id": "685b21200640c0188bbf2086b9113fb12646f715",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T15:35:00+08:00"
+  },
+  {
+   "title": "@thsottiaux",
+   "url": "https://x.com/thsottiaux/status/2112712984644784534",
+   "source": "@thsottiaux",
+   "date": "2026-10-21",
+   "summary": "OpenAI Codex 负责人 Tibo：在 API 新增 12 小时缓存之外，Codex 与 Work 的登录用户将获得“永久缓存”——隔数小时甚至数天回到旧对话也保证命中缓存、不再有额外惩罚。",
+   "metrics": {
+    "likes": 11182,
+    "reposts": 530,
+    "views": 1312364
+   },
+   "id": "3e6fedc797a080c32c7d4be4a3f0c15e374d8e2a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T15:35:00+08:00"
+  },
+  {
+   "title": "@SparkLLM",
+   "url": "https://x.com/SparkLLM/status/2112614036227408363",
+   "source": "@SparkLLM",
+   "date": "2026-10-21",
+   "summary": "SparkLLM 发布并开源 Spark-X2.6-4B：通过改进后训练强化编码、智能体与长上下文能力，提供 none/low/high 三档思考，已上架 Hugging Face、ModelScope、Ollama，支持 vLLM 与 SGLang。",
+   "metrics": {
+    "likes": 569,
+    "reposts": 61,
+    "views": 24405
+   },
+   "id": "b0c29a601054b7d50d2cc3c44baef65ebb94fcff",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T15:35:00+08:00"
+  },
   {
    "title": "Vultr 联合 AMD 在印度金奈部署 20MW AMD Instinct MI355X 超算集群：成为印度最大的 AMD Instinct 部署，面向大模型训练、微调与高吞吐推理",
    "url": "https://finance.yahoo.com/technology/ai/articles/vultr-amd-expand-global-collaboration-053000713.html",
@@ -361,6 +426,28 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "Lafa（Large Flow Language Models）：把连续流匹配语言模型扩展到 8B 参数，从预训练自回归模型改造、不足 300 亿 token 训练，自推测解码吞吐达同等质量自回归模型的 2.54 倍",
+   "url": "https://arxiv.org/abs/2610.28559",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "Lafa 采用分块流模型：前缀用因果注意力，块内做双向、异步的流生成，可复用前缀缓存并按块并行解码；在 0.5B、7B、8B 规模上，指令遵循、推理与代码质量持平或超过自回归基线，并可蒸馏为一步/少步生成。作者发现流训练反而通过“多 token 预测效应”保留甚至增强原模型能力，据此在单一模型内用自回归方式校验流式草稿，效果优于 MTP 与离散扩散方法。",
+   "id": "5b21354fdfc9b6b8295e455c933fda8d04a96237",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T15:35:00+08:00"
+  },
+  {
+   "title": "Meta 回应出版商反弹：从 10 月 30 日生效的商业服务条款中删去“train（训练）”一词，抓取范围限定为广告与商业产品，但仍拒绝写入尊重 robots.txt 的承诺",
+   "url": "https://arstechnica.com/tech-policy/2026/10/meta-drops-the-word-train-from-its-commercial-tos-after-ai-backlash/",
+   "source": "Ars Technica",
+   "date": "2026-10-20",
+   "summary": "原条款允许 Meta 使用商业主页所链接网站的“任何内容”来“提供、开发、改进、研究、训练”其产品；修订后改为可“定期拉取更新”以开发广告与商业产品。法律专家称“develop（开发）”仍足以涵盖训练、“宽到能开过一辆卡车”；英国新闻媒体协会、欧洲出版商理事会与美国 News/Media Alliance 正敦促监管机构在 10 月 30 日前叫停。",
+   "id": "165cb15531466377d83a5df0238575d7c5d6c4e7",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T15:35:00+08:00"
   },
   {
    "title": "日本数字厅向约 18 万名政府职员推出 AI 智能体环境：政府 AI 平台“源内”上线 Agent Chat，12 月前后再上线可自主写代码、执行命令的“源内工房”，并同步发布治理与安全基准",
