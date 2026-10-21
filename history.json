@@ -1,7 +1,200 @@
 {
- "updated": "2026-10-21T21:31:00+08:00",
- "count": 1015,
+ "updated": "2026-10-21T22:29:00+08:00",
+ "count": 1032,
  "items": [
+  {
+   "title": "ServiceNow 与英伟达个人长时运行企业智能体 Arc 正式可用：由 ServiceNow Super Intelligence Control Tower 治理、NVIDIA OpenShell 运行时强制执行，可在 RTX Spark 设备本地运行",
+   "url": "https://www.zdnet.com/innovation/exclusive-servicenow-and-nvidia-launch-arc-a-new-ai-agent-for-enterprise/",
+   "source": "ZDNET",
+   "date": "2026-10-21",
+   "summary": "Arc 于 5 月首次亮相，现已在 Mac 上 GA、Windows 版待推出，面向邮件、Teams 等日常办公任务，会积累记忆与技能并主动从收件箱与会议纪要中提炼待办，复杂任务才交给前沿模型。安全上由 Control Tower 定义策略、OpenShell 在运行时限制行为，配合上周发布的 AI Passport；通行证被吊销时，BlueField DPU 可在硬件层“以机器速度”拦截智能体后续操作。",
+   "id": "90348f559293d0a2afc66fecbd771ad6fae9ecba",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "The Information：OpenAI 将 ChatGPT 广告扩展至新增 26 个国家、覆盖总数达 83 国，广告主数量超 10 万（8 月时约 2 万）",
+   "url": "https://www.theinformation.com/briefings/openai-expands-chatgpt-ads-26-countries-says-100-000-advertisers",
+   "source": "The Information",
+   "date": "2026-10-21",
+   "summary": "据 The Information 简报，OpenAI 称 ChatGPT 广告平台的广告主已从 8 月的约 2 万家增至逾 10 万家，并继续向更多市场铺开，广告正成为其订阅之外的重要收入来源。",
+   "id": "c9b0ddf847bef10df6fc0b756a744b4ae672ffcf",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "法律 AI 公司 Legora 完成 5.5 亿美元 E 轮融资，投后估值 88 亿美元（3 月 D 轮时为 55.5 亿美元），Atreides 领投，ARR 已超 2 亿美元",
+   "url": "https://www.cityam.com/legora-raises-550-in-funding-to-lead-global-expansion/",
+   "source": "City A.M.",
+   "date": "2026-10-21",
+   "summary": "总部位于斯德哥尔摩的 Legora 为律所与企业法务提供起草与审阅 AI 工具，18 个月内 ARR 从 100 万美元增至 1 亿美元，下一个 1 亿美元用时不到半年。Baron Capital、Capital Research、Fidelity、Glade Brook 为新投资方；资金将用于北美、欧洲与亚太扩张及其智能体操作系统 Legora aOS。",
+   "id": "04ce64de95dcf60a586dbfe02938cece3be4ab58",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "WSJ 专访：DeepMind 联合创始人哈萨比斯把 AGI 预期从“3–5 年”提前到“2–3 年”，称“很快了，我在不断往近处更新”",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015277/google-deepminds-demis-hassabis-thinks-agi-is-two-to-three-years-away",
+   "source": "The Verge（援引《华尔街日报》）",
+   "date": "2026-10-21",
+   "summary": "WSJ 杂志长篇人物稿中，现任 Alphabet 首席科学家、DeepMind 董事长并执掌 Isomorphic Labs 的哈萨比斯把 AGI 定义为具备人脑全部认知能力的系统；今年早些时候他还认为需 3–5 年。他称“赢”意味着帮助人类安全地把 AGI 带入世界、惠及所有人，并以“AI 能否只用 1901 年前知识推出爱因斯坦 1905 年成果”作为检验标准。",
+   "id": "772aba92378c87efabe9e3af3e87259a496e627a",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "OpenAI 牵头协调披露 PHP 两个严重远程代码执行漏洞“php2shell”（CVE-2026-109618/109619）：Calif 借 GPT-5.6 Sol 发现、Wiz 独立发现，波及约 70% 网站，PHP 已发布 8.5.12 等修复版",
+   "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
+   "source": "OpenAI",
+   "date": "2026-10-21",
+   "summary": "漏洞源于请求处理出错（如内存耗尽）时 PHP 使用未完全初始化或已释放的内存，未认证请求即可在应用代码运行前触发，mod_php 风险最高，影响 PHP 5.4 以来所有版本。OpenAI 通过 Patch the Planet 联合维护者、Cloudflare 等用两个月准备修复与 WAF 防护，并与白宫及 CISA 等协调，称其为“近年影响最大的安全问题之一”；同时承诺 10 亿美元补贴 Daybreak 防御访问，并提出 AI 时代关键漏洞响应框架征求意见。芬兰政府已临时关闭部分网站以防范。",
+   "id": "98f9015f36b69acbd130ab9f5275c2bd15a6ef1f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "路透：OpenAI 总裁布罗克曼公开呼吁联邦 AI 安全规则，但其夫妇捐资 2500 万美元的超级 PAC“Leading the Future”正花数百万美元影响至少 48 场国会选举、反对“过度约束”AI 的监管",
+   "url": "https://www.investing.com/news/economy-news/openai-president-urges-ai-safeguards-as-group-he-funds-opposes-regulation-4962263",
+   "source": "Reuters / Investing.com",
+   "date": "2026-10-21",
+   "summary": "安全倡导团体批评这引发 OpenAI 是否真心支持监管的质疑；OpenAI 称捐款属个人行为。该组织另获 a16z 及其创始人合计 5000 万美元，支持主张联邦立法“优先于”各州 AI 法的候选人；Anthropic 则至少向反对联邦优先权的 Public First Action 捐了 4000 万美元。",
+   "id": "f12fec5c6433c574569eb4028df483a5b07ee45b",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "美参议员 Schatz、Curtis 与 Warner 提出两党《AI 标注法案》：要求 AI 系统提供方与大型在线平台对 AI 生成内容做披露标识，由联邦贸易委员会执法",
+   "url": "https://insideaipolicy.com/ai-daily-news/sen-schatz-leads-bipartisan-bill-requiring-labels-ai-generated-content",
+   "source": "Inside AI Policy",
+   "date": "2026-10-21",
+   "summary": "法案为 AI 生成内容设定新的线上披露义务，同时覆盖 AI 系统提供方和受管辖的在线平台，并保留各州的执法权；这是中期选举前 AI 生成政治广告大量涌现背景下，国会在内容溯源方面的又一项两党提案。",
+   "id": "9fd5787f5a0a58c30d0adfe0b5c869b04ffe7091",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "豆包手机助手更新“拒绝操作应用清单”：主动限制对银行、信托、支付、互联网金融、信贷等金融类应用的屏幕自动化操作",
+   "url": "https://www.ithome.com/1/016/108.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "豆包手机助手 9 月推出屏幕自动化操作声明协议（SAEP），让应用开发者声明与图形界面智能体的交互策略；10 月 14 日公示期结束后逐步放开第三方应用操作权限，工行、招行等已声明拒绝。此次在开发者声明之外由平台主动扩大金融类限制，开发者仍可随时申请拒绝、3 个工作日内反馈。",
+   "id": "df900b5e534ba58dbb6bfb2ddd1664108c81ba44",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "蔚来李斌：基于世界模型架构 + 闭环强化学习的智能辅助驾驶已部署超 95 万辆车，累计安全行驶 91.4 亿公里，人车共驾平均安全里程为人驾 8 倍",
+   "url": "https://www.ithome.com/1/016/123.htm",
+   "source": "IT之家",
+   "date": "2026-10-21",
+   "summary": "在 2026 世界智能网联汽车大会上，李斌称系统累计使用 1.12 亿小时、为用户避免或减轻 907 万次潜在事故影响，四家保险公司数据显示搭载车辆事故损失逐年下降超 30%；他提出自动驾驶“下半场”应回到两个可验证指标：用户是否愿意付费、是否显著比人开车更安全。",
+   "id": "4c8e3f9512cc68ac2babf47db0527b6127bb4500",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "NVIDIA/flare-local-inference",
+   "url": "https://github.com/NVIDIA/flare-local-inference",
+   "source": "GitHub",
+   "stars": 386,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "英伟达开源的本地推理服务器 Flare：面向 SM120/SM121 GPU（如 DGX Spark 等工作站与紧凑型设备），针对长对话、编码智能体与反复工具调用优化；构建期用 PyTorch/Transformers/FlashInfer 编译前向并捕获 CUDA Graph，服务期由 Rust 运行时 Helios 脱离 Python 运行，显式规划显存与会话状态（含循环状态与 KV 缓存）。",
+   "why": "10 月 20 日新建、一天多约 390 星，是英伟达官方面向本地智能体推理的新项目。",
+   "id": "ae513783a76795304843695d99fe4600c495434f",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "xiaoyang111222/cn-math-taxonomy",
+   "url": "https://github.com/xiaoyang111222/cn-math-taxonomy",
+   "source": "GitHub",
+   "stars": 1889,
+   "stars_week": null,
+   "language": "Python",
+   "date": "2026-10-21",
+   "summary": "AI 生成初稿的中小学知识图谱与自适应前置诊断：对齐课标与人教版，数学 802 个知识点、英语三学段，附约 6000 道诊断题，答错可沿先修边从高中一路回溯到小学知识点；作者声明尚未经教师审核，CC BY-NC 4.0。",
+   "why": "10 月 18 日新建、三天近 1900 星，是本周最受关注的中文 AI 教育类新仓库之一。",
+   "id": "32ba8cb45ebc0de267c26f07258b7012970b79d4",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "@OpenAI",
+   "url": "https://x.com/OpenAI/status/2112907856018309586",
+   "source": "@OpenAI",
+   "date": "2026-10-21",
+   "summary": "OpenAI：在 Patch the Planet 计划中，OpenAI 模型帮助研究者发现 PHP 严重漏洞；过去两个月牵头协调维护者与安全厂商提前备好修复，称这是“近年影响最大的漏洞之一”，标志着 AI 能发现互联网级影响漏洞的新阶段，也是“防御者窗口”的实例。",
+   "metrics": {
+    "likes": 1353,
+    "reposts": 234,
+    "views": 116374
+   },
+   "id": "34ebf21e50c39f4fe552ec38f8638b35fde02b4b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "@wiz_io",
+   "url": "https://x.com/wiz_io/status/2112899813264277528",
+   "source": "@wiz_io",
+   "date": "2026-10-21",
+   "summary": "Wiz Research：发现 PHP 内核潜伏十年的漏洞 PHP2SHELL，CVSS 9.2，影响约 70% 互联网；后续帖称借助 Wiz Atlas、GPT-5.6 Sol 与 Gemini 4 Argon 等前沿模型，一周内就完成了漏洞挖掘与利用链构造。",
+   "metrics": {
+    "likes": 181,
+    "reposts": 59,
+    "views": 14787
+   },
+   "id": "26c815fb028f40c146bd6fe82ab32438a7ffad5c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "@WSJ",
+   "url": "https://x.com/WSJ/status/2112884628520317426",
+   "source": "@WSJ",
+   "date": "2026-10-21",
+   "summary": "《华尔街日报》推介哈萨比斯人物长文：从神童、AI 先驱到诺奖得主，他的计划一直很简单——第一步解决智能，第二步用它解决其他一切（文中他把 AGI 预期提前到 2–3 年）。",
+   "metrics": {
+    "likes": 63,
+    "reposts": 8,
+    "views": 37658
+   },
+   "id": "8ffd8e4c2d94a19ec1ead5b259b6a1dc5aaff066",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "@Cloudflare",
+   "url": "https://x.com/Cloudflare/status/2112892921842184515",
+   "source": "@Cloudflare",
+   "date": "2026-10-21",
+   "summary": "Cloudflare：近 10 万个 Commerce.com 店铺域名已通过 Cloudflare 上的 WebMCP 为 AI 智能体提供真实购物工具，一次性为所有店铺开启，同时保留每个商家的控制权。",
+   "metrics": {
+    "likes": 41,
+    "reposts": 4,
+    "views": 5472
+   },
+   "id": "132c136f53d0b39b93a4fe88df563eab299b1d75",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
   {
    "title": "OpenAI 联合 PerturbAI 与斯克里普斯研究所用数千个 GPT-Rosalind 智能体并行分析全脑 CRISPR 图谱：32 分钟解读数百万小鼠脑细胞数据，发现神经退行性疾病新线索",
    "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
@@ -1135,6 +1328,28 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "Anthropic 前沿红队：用 Claude 做“攻击面缩减”，在 25 个开源项目（500 万+ 行代码）中发现 493 个问题，其中一处安全配置冲突潜伏 21 年；促成 OpenSSH 把未认证可达代码砍掉约五分之一",
+   "url": "https://www.anthropic.com/research/attack-surface-reduction",
+   "source": "Anthropic",
+   "date": "2026-10-20",
+   "summary": "方法聚焦默认配置可达但无用的代码、配置组合互相削弱安全控制、认证前过早可达三类问题：Claude 盘点 1.7 万多个配置项，发现 162 个未文档化的安全敏感配置组合（94 个会静默关闭安全控制）。OpenSSH 10.4 中约 4500 行实验性 ML-DSA-44 代码即使被禁用也能被未认证客户端触达，修复已进入 10.6；该能力将做成 Claude 技能并入 OSS-Scanner。",
+   "id": "341f11e78b1225e89a5c7957946e426a3a4181b9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T22:29:00+08:00"
+  },
+  {
+   "title": "RoboColiseum 跨模型具身评测：用统一 Agent2Act 框架接入 GPT-6 Astra、GPT-6.1 Sol、Claude Opus 5.5 与 Gemini 4 Argon 控制机器人，Opus 综合第一、Astra 指令跟随与鲁棒性最强",
+   "url": "https://arxiv.org/abs/2610.27865",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "评测覆盖指令跟随、空间推理、通用操作与鲁棒性四个赛道：四个模型指令跟随普遍接近满分、空间推理强，但通用操作得分明显偏低，暴露“理解任务”与“可靠物理执行”之间的差距；组件对比还显示 harness 设计会显著影响成功率、规划成本与执行时间。作者含智元机器人的姚卯青等。",
+   "id": "e637e84df0aa63fb8b267702549ebd67237a8a78",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T22:29:00+08:00"
   },
   {
    "title": "ThoughtSpot、Nutanix 联合创始人 Ajeet Singh 新公司 Different 走出隐身：获 General Catalyst 领投 4800 万美元种子轮，做端到端运行 B2B 需求生成的 AI 营销系统",
