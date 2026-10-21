@@ -1159,11 +1159,11 @@
    "first_seen": "2026-10-21T00:45:00+08:00"
   },
   {
-   "title": "Mind Lab 提出 BrainLoRA：用 LoRA 等参数高效微调把最大 104B 的多模态骨干模型适配到脑编码任务，在 Algonauts 2025 上取得已发表最佳成绩",
+   "title": "Mind Lab 提出 BrainLoRA：用 LoRA 参数高效微调最大 104B 的多模态骨干预测大脑神经响应，在 Algonauts 2025 取得已发表最佳成绩，200+ 适配模型集成登顶公开榜",
    "url": "https://arxiv.org/abs/2610.26802",
-   "source": "arXiv / Hugging Face Papers",
+   "source": "arXiv / Hugging Face Daily Papers",
    "date": "2026-10-20",
-   "summary": "利用骨干的因果结构单次前向预测多个时间点，免去滑窗特征提取；在九种多模态骨干上均提升脑响应预测。与此前 SOTA 同用 Qwen3-Omni 骨干时表现更好，并开发多 LoRA 内核联合训练 200+ 个适配模型，集成后居 Algonauts 公开赛后榜首；模态归因还能还原经典的感觉皮层拓扑。",
+   "summary": "研究利用骨干网络的因果结构一次前向预测多个时间点，取代滑动窗口，大幅降低特征提取成本；在九种多模态骨干上均提升脑编码表现，并在与此前 SOTA 相同的 Qwen3-Omni 骨干上胜出。适配后的模型仍可解释：模态归因能还原经典的感觉皮层分布，神经适配还提高了音频输入与跨模态混合的贡献。作者另写了多 LoRA 核以便在共享骨干上联合训练多个适配器。该文为 10 月 20 日 HF Daily Papers 票数最高论文。",
    "id": "d7638f10c57aaffb40c0fa212d410f13a03c4eb9",
    "module": "research",
    "module_name": "研究与论文",
@@ -1979,11 +1979,11 @@
    "first_seen": "2026-10-20T18:40:00+08:00"
   },
   {
-   "title": "微软研究院提出 Self-HPO：让编程智能体交替优化“harness”与策略模型、由策略自己提议新 harness，Qwen3.5-35B-A3B 平均解决率从 57.8% 提至 64.8%",
+   "title": "Self-HPO：让编程智能体交替优化“驾驭层”与策略模型、由策略自己分析失败并提出新 harness，Qwen3.5-35B-A3B 平均解决率从 57.8% 提升到 64.8%",
    "url": "https://arxiv.org/abs/2610.22791",
-   "source": "arXiv / Hugging Face Papers",
+   "source": "arXiv",
    "date": "2026-10-20",
-   "summary": "每轮先由当前策略分析自身失败并提出 harness 候选（H 步），再在选定 harness 下做强化学习（P 步），训练中发现的难题构成下一轮 harness 搜索集。三项编程基准上均优于只调 harness 或只调策略的基线，联合增益大于两者之和；换用更强外部模型（如 Opus 4.8）提议 harness 还能进一步提升。",
+   "summary": "每轮先由当前策略分析自身失败、提出候选 harness（H 步），再在选定 harness 下用强化学习更新策略（P 步），训练中识别的难题构成下一轮 harness 搜索集。三项编程基准上均优于只优化 harness 或只优化策略的基线，且两者联合增益大于各自增益之和，并可泛化到分布外场景。今日登上 Hugging Face 每日论文榜。",
    "id": "f9a2d4f27a572e5e228aacbc6850de30df0f4ad9",
    "module": "research",
    "module_name": "研究与论文",
