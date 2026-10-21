@@ -1,7 +1,105 @@
 {
- "updated": "2026-10-21T15:35:00+08:00",
- "count": 954,
+ "updated": "2026-10-21T16:40:00+08:00",
+ "count": 962,
  "items": [
+  {
+   "title": "The Information/福布斯：英伟达为 AI 数据中心提供的担保与各类承诺最高达 1645 亿美元，其中约 1050 亿美元为 OpenAI 俄亥俄园区租约担保，占比约 64%",
+   "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-backs-164-5-billion-061322658.html",
+   "source": "Forbes / Yahoo Finance（援引 The Information）",
+   "date": "2026-10-21",
+   "summary": "据英伟达最新季报披露的数字，除 SB Energy 为 OpenAI 建设的俄亥俄园区租金担保外，其余包括承诺购买云厂商卖不出去的算力（约 360 亿美元，如兜底 CoreWeave 到 2032 年 4 月的闲置容量）、直接签约后转租的数据中心租约（约 200 亿美元）和为云厂商租约提供的担保（约 35 亿美元）；另已向 AI 云厂商直接投资或承诺投资逾 70 亿美元。文章指出这是用资产负债表把未来 GPU 需求提前拉入当季，而 CoreWeave 债券承压、Nscale 失去微软站点等显示新型云厂商风险正在累积。",
+   "id": "69858e2a90b7273fed9c022476a62e0564c31589",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
+  {
+   "title": "路透：月之暗面（Moonshot AI）在新加坡招聘销售岗位，显示其正在当地开展业务；其新加坡实体 2023 年 7 月注册、今年 6 月更名为 Novascent",
+   "url": "https://www.straitstimes.com/business/chinas-moonshot-ai-to-operate-in-singapore-jobs-post-shows",
+   "source": "The Straits Times（路透）",
+   "date": "2026-10-21",
+   "summary": "据路透报道，Kimi 开发商月之暗面在 LinkedIn 发布新加坡销售职位，要求具备销售、风投、咨询、产品或工程背景，负责建立可规模化的收入、合作伙伴关系与市场影响力。这是又一家中国大模型公司借道新加坡拓展海外业务的迹象。",
+   "id": "205841713dde1bbfc9437aa8565937f0bcfe2a88",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
+  {
+   "title": "Ropedia W0：首个跨人类与多种机器人本体的第一视角“移动+操作”世界基础模型，用 1 万小时人类第一视角数据与 3000 小时机器人数据训练",
+   "url": "https://arxiv.org/abs/2610.26855",
+   "source": "Hugging Face Daily Papers / arXiv",
+   "date": "2026-10-21",
+   "summary": "团队整理了统一多模态标注的 Xp-Data 数据集，用相机位姿编码移动、用投影骨架编码操作，机器人骨架结合各本体正运动学与大量人工关键点校正，以统一不同本体的异构动作空间；同时发布基于高质量灵巧人形遥操作的长程移动操作基准 Xp-Teleop。登上 10 月 21 日 HF 每日论文榜前列。",
+   "id": "0add838901f30130050b720f23c605d7462f90d6",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
+  {
+   "title": "南洋理工提出 FocusGUI：让全模态 GUI 智能体每一步只“聚焦”与当前动作相关的截图、音频、视频与设备状态，缓解“连续分心”导致的轨迹漂移",
+   "url": "https://arxiv.org/abs/2610.26203",
+   "source": "Hugging Face Daily Papers / arXiv",
+   "date": "2026-10-21",
+   "summary": "论文指出，GUI 智能体若每步都统一处理完整的多模态上下文，上一步关键的信号会在下一步变成噪声，并随动作反馈不断累积成不可逆的偏航。作者将需求形式化为“聚焦感知”（逐步自适应、动作充分、非侵入），以轻量适配器按每步决策参照动态排序各模态通道并压缩成紧凑潜表示。10 月 21 日 HF 每日论文榜第一。",
+   "id": "7b7a3573a40ff6b5e177500162d4c34a41090d89",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
+  {
+   "title": "中国商务部就美国国土安全部 DeepSeek 禁令表示“强烈不满、坚决反对”，称美方无视中美元首共识；外交部亦表示将坚决维护中国企业正当权益",
+   "url": "https://www.nbcnews.com/world/asia/china-defends-deepseek-us-ban-ai-government-systems-rcna604721",
+   "source": "NBC News / AP",
+   "date": "2026-10-21",
+   "summary": "美国国土安全部此前要求联邦民用机构从 IT 系统中移除 DeepSeek 产品及基于其开发的第三方产品与服务，并禁止采购，理由是服务器位于中国、存在数据访问风险。美联社报道，商务部 10 月 20 日晚表态称美方无视中美经贸关系大局；分析人士认为这反映了两国在 AI 领域的深层战略互疑，中方警告可能采取反制措施。",
+   "id": "0083f54f74bfa5f7efb401f37ce6e259e4b0668a",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
+  {
+   "title": "清华系具身智能公司千诀科技发布预测式世界模型 Polibrain：不生成完整未来画面，而在任务相关潜空间预测状态变化，已适配四足、人形、轮式与双臂机器人",
+   "url": "https://www.qbitai.com/2026/10/504653.html",
+   "source": "量子位",
+   "date": "2026-10-21",
+   "summary": "在南京首届物理 AI 与世界模型大会上发布。创始人高海川将 VLA 路线比作“把所有路走一遍”，世界模型则是“先画地图再规划”；Polibrain 把感知、状态理解、行动预测、决策、执行与反馈连成闭环，执行偏离预测时可重新评估任务。底层采用“多项式表征”提取影响任务的关键变量以提升跨场景泛化，公司称其 2025 年与清华在 ICML 发表的隐变量可辨识性研究早于 LeCun 团队相近工作约一年；复杂场景可靠性仍待更完整实测。",
+   "id": "3d52dbe02aa2f46a430c8c2c6d16e3f950e7fffd",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2112816266188591483",
+   "source": "@Reuters",
+   "date": "2026-10-21",
+   "summary": "路透：招聘信息显示中国 AI 公司月之暗面（Moonshot AI）将在新加坡开展业务。",
+   "metrics": {
+    "likes": 5,
+    "reposts": 3,
+    "views": 17891
+   },
+   "id": "9d2f5206f5c7c478d6bd68096b49c06a982c4cad",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2112811603464794299",
+   "source": "@business",
+   "date": "2026-10-21",
+   "summary": "彭博：贝莱德 CEO 拉里·芬克称，随着 AI 需求加速，数据中心建设延误可能推高算力成本并助长通胀。",
+   "metrics": {
+    "likes": 12,
+    "reposts": 3,
+    "views": 14458
+   },
+   "id": "c99816b6edc5e39a54d0a5963f6f5fe82c0f404e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T16:40:00+08:00"
+  },
   {
    "title": "Épi：可跨会话持续推进研究、靠累积经验自我进化方法的自主科研智能体，产出 120 项数学/构造纪录，并给出 Tuza 猜想一类特殊情形的计算机辅助证明",
    "url": "https://huggingface.co/papers/2610.24944",
