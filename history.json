@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-22T05:36:00+08:00",
- "count": 1129,
+ "updated": "2026-10-22T06:40:00+08:00",
+ "count": 1130,
  "items": [
+  {
+   "title": "Recursive 发布首个模型 Flint：40B 总参数、仅激活 2.5B 的开源本地编码 MoE 模型，几乎全流程由其自动化科研系统“Eureka Machine”参与打造，M4 Pro MacBook 上超 125 token/s",
+   "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "由前 Salesforce 首席科学家 Richard Socher 领导、5 月以 46.5 亿美元估值融资 6.5 亿美元出道的 Recursive，称小团队借助 Eureka Machine 在不到四个月内从零训出 Flint，被视为“递归自我改进”的早期公开实验。Flint 以 Apache 2.0 许可在 Hugging Face 免费下载，支持最长 512k 上下文，在 SWE-Bench Verified 等智能体编码基准上领先 50B 以下 MoE 模型，速度约为同级模型两倍；官方提示复杂任务需拆小步并给出更明确指令。",
+   "id": "dc1c99f7973e826c237dab2275e42fb28b713acd",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T06:40:00+08:00"
+  },
   {
    "title": "特斯拉三季度营收持平、GAAP 净利同比降 43%，研发开支因 AI、Optimus 与 Cybercab 大增；Optimus 人形机器人已在加州弗里蒙特工厂开始生产“量产级”机器人",
    "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
