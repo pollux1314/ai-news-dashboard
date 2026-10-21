@@ -1,7 +1,89 @@
 {
- "updated": "2026-10-21T20:35:00+08:00",
- "count": 1008,
+ "updated": "2026-10-21T21:35:00+08:00",
+ "count": 1015,
  "items": [
+  {
+   "title": "OpenAI 联合 PerturbAI 与斯克里普斯研究所用数千个 GPT-Rosalind 智能体并行分析全脑 CRISPR 图谱：32 分钟解读数百万小鼠脑细胞数据，发现神经退行性疾病新线索",
+   "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+   "source": "OpenAI",
+   "date": "2026-10-21",
+   "summary": "OpenAI 称这种“分布式生物推理”中每个智能体负责一个基因扰动，分析细胞响应、检索文献并提出机制解释，汇总成可公开查阅的“推理图谱”；相较单智能体，引用文献从 11 篇增至 700 余篇，盲评专家 75% 情况下更偏好分布式报告。线索包括 Tsc1/Tsc2 在小脑中的差异，以及 DCTN1 与胆固醇代谢、神经退行的潜在关联。",
+   "id": "e3212a9c9359a2093b8bcbbff35d2a716a88d98f",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-21T21:35:00+08:00"
+  },
+  {
+   "title": "TechCrunch：AI CAD 软件公司 Mach9 完成 3400 万美元 A 轮，First Round 与 Bessemer 联合领投；从测绘硬件转型为把激光扫描数据自动转成工程图纸",
+   "url": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
+   "source": "TechCrunch",
+   "date": "2026-10-21",
+   "summary": "Mach9 自研模型把影像与激光点云转成厘米级精度的测绘几何（路缘、标线等），先生成初稿再由工程师修订；私测阶段近 100 家客户、超 2500 个项目，称比 Autodesk、Bentley 等传统软件流程快约 10 倍。",
+   "id": "515279e278771c0f602339f702ba002b1347cf37",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-21T21:35:00+08:00"
+  },
+  {
+   "title": "MMEnterprise-Bench：企业智能体在“不断演化的多模态工作记录”上的问答基准，1613 题覆盖证据推理、冲突消解与不可回答识别，最强模型遇跨源/时间冲突仍明显吃力",
+   "url": "https://huggingface.co/papers/2610.27911",
+   "source": "arXiv / Hugging Face",
+   "date": "2026-10-21",
+   "summary": "题目来自模拟协作项目中被反复分享、修正的文档、聊天与图表；评测 10 个闭源与开源多模态模型发现，加大检索预算或换更大检索器能提高证据召回，但并不稳定转化为更高的答题准确率。",
+   "id": "ba000a1ff14eef3f4ce7d752a18b8fd61ae1f30b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T21:35:00+08:00"
+  },
+  {
+   "title": "“好判断、坏建议”：给 Claude Sonnet 5.5 终端智能体加决策小模型控制器，成本每次尝试反升 19%、通过率不变（均 73%）",
+   "url": "https://huggingface.co/papers/2610.24649",
+   "source": "arXiv / Hugging Face",
+   "date": "2026-10-21",
+   "summary": "预注册研究在 Terminal-Bench 2.1 的 21 个留出任务（315 次试验）上只换控制器：无、规则、Claude Haiku 5.5、决策模型 Jev 与安慰剂。Jev 离线判断“是否完成”排序更好（AUROC 0.78），但校准差，常让智能体复核本已正确的工作，信息量高的决策信号并未变成有用干预。",
+   "id": "cd3e6601c2d3227d58cc93a20098ac15f4018a77",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-21T21:35:00+08:00"
+  },
+  {
+   "title": "英伟达发布 OpenShell 参考架构：以开源 OpenShell 安全运行时为基础，Vera Rubin 跑推理、Vera CPU 跑智能体外壳、BlueField-4 上的 Sentry 做芯片级越界隔离，Anthropic、OpenAI、微软、谷歌云等参与",
+   "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture",
+   "source": "NVIDIA Newsroom",
+   "date": "2026-10-21",
+   "summary": "英伟达称智能体若试图越出软件边界，Sentry 可在毫秒级隔离并叫停；架构支持 Canonical、红帽、Windows 与微软执行容器，并延伸到 RTX Spark、DGX Spark、DGX Station 等边缘设备。黄仁勋：“智能体在 Rubin 上思考、在 Vera 上行动、在 BlueField 上被治理。”",
+   "id": "cf0e97bf97c48193b464397fc7327a873a4c850a",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-21T21:35:00+08:00"
+  },
+  {
+   "title": "清华 AIR 孵化的紫荆智康升级“紫荆AI医院”：推出多分身智能体协同技术，不同专科医生的 AI 分身可按需提醒或联合会诊，已在多地医院上线测试",
+   "url": "https://www.qbitai.com/2026/10/504734.html",
+   "source": "量子位",
+   "date": "2026-10-21",
+   "summary": "系统在首诊、预问诊阶段就引入跨专科意见（如内分泌科问诊时由呼吸科分身提示哮喘用药风险），分身意见不一致时高亮呈现、由医生最终判断；分身基于 AIR 刘洋团队提出的 SEAL（虚拟世界训练 + 真实世界验证微调）持续学习对应真人医生。",
+   "id": "df471a728c3da1acd437393b667004df4b3939fa",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-21T21:35:00+08:00"
+  },
+  {
+   "title": "@nvidia",
+   "url": "https://x.com/nvidia/status/2112882448530800716",
+   "source": "@nvidia",
+   "date": "2026-10-21",
+   "summary": "英伟达：在 GTC Berlin 推出 DSX POD——AI 工厂在交付前完成集成与测试，在已备好的场地最快 14 天即可部署，让 AI 建设者更快用上算力。",
+   "metrics": {
+    "likes": 282,
+    "reposts": 29,
+    "views": 22588
+   },
+   "id": "1be40f63cdc16cc9173d46504d1bdb607608638b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-21T21:35:00+08:00"
+  },
   {
    "title": "OpenAI 与谷歌云合作：OpenAI 前沿模型与 Codex 智能体工作流将进入 Google Cloud Model Garden，并登陆 Antigravity 与 Gemini Agent，未来几周正式开放",
    "url": "https://openai.com/index/openai-models-google-cloud/",

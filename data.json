@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-21T20:35:00+08:00",
+  "updated": "2026-10-21T21:35:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "OpenAI 联合 PerturbAI 与斯克里普斯研究所用数千个 GPT-Rosalind 智能体并行分析全脑 CRISPR 图谱：32 分钟解读数百万小鼠脑细胞数据，发现神经退行性疾病新线索",
+          "url": "https://openai.com/index/scaling-ai-research-for-complex-biological-data/",
+          "source": "OpenAI",
+          "date": "2026-10-21",
+          "summary": "OpenAI 称这种“分布式生物推理”中每个智能体负责一个基因扰动，分析细胞响应、检索文献并提出机制解释，汇总成可公开查阅的“推理图谱”；相较单智能体，引用文献从 11 篇增至 700 余篇，盲评专家 75% 情况下更偏好分布式报告。线索包括 Tsc1/Tsc2 在小脑中的差异，以及 DCTN1 与胆固醇代谢、神经退行的潜在关联。"
+        },
         {
           "title": "OpenAI 与谷歌云合作：OpenAI 前沿模型与 Codex 智能体工作流将进入 Google Cloud Model Garden，并登陆 Antigravity 与 Gemini Agent，未来几周正式开放",
           "url": "https://openai.com/index/openai-models-google-cloud/",
@@ -55,13 +62,6 @@
           "source": "Windows Report",
           "date": "2026-10-20",
           "summary": "在 10 月 20 日 OneDrive + Copilot 线上发布会上公布：新增 Prompt Gallery、HTML 实时预览编辑与 Markdown 协同编辑；照片支持自然语言搜索、AI 编辑与 Copilot 生成幻灯片；同步上限提升至 100 万个项目（8GB 内存设备也可），共享改为每个文件默认一个“Hero Link”。部分功能即日推送，其余未来数月陆续上线，Copilot Search 也将进入 OneDrive 与 SharePoint。"
-        },
-        {
-          "title": "Azure DevOps 插件登陆 Microsoft Copilot：可在 Copilot Chat、Cowork 与 Code 中直接管理工作项、PR、测试计划与流水线，内置分拣 Bug、把需求拆成史诗/特性/用户故事的技能",
-          "url": "https://devblogs.microsoft.com/devops/azure-devops-available-in-microsoft-copilot/",
-          "source": "Azure DevOps Blog",
-          "date": "2026-10-20",
-          "summary": "微软称该插件可把 Word 需求文档直接转成带关联工作项的特性，或用会议纪要给相关工作项补评论，无需在工具间来回切换；在 Cowork 的“自定义”中搜索 Azure DevOps 安装并连接组织即可使用。评论区有用户反映 Cowork 尚未对所有人开放。"
         }
       ]
     },
@@ -70,6 +70,13 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "TechCrunch：AI CAD 软件公司 Mach9 完成 3400 万美元 A 轮，First Round 与 Bessemer 联合领投；从测绘硬件转型为把激光扫描数据自动转成工程图纸",
+          "url": "https://techcrunch.com/2026/10/21/mach9-raises-34m-after-pivoting-to-ai-cad-software/",
+          "source": "TechCrunch",
+          "date": "2026-10-21",
+          "summary": "Mach9 自研模型把影像与激光点云转成厘米级精度的测绘几何（路缘、标线等），先生成初稿再由工程师修订；私测阶段近 100 家客户、超 2500 个项目，称比 Autodesk、Bentley 等传统软件流程快约 10 倍。"
+        },
         {
           "title": "谷歌云与英伟达宣布基于 Vera Rubin NVL72 的 A5X 实例下月正式可用：计划扩展至多达 96 万张 Rubin GPU，David Silver 创办的 Ineffable Intelligence 成首个客户",
           "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
@@ -118,13 +125,6 @@
           "source": "IT之家（援引 ZDNET Korea）",
           "date": "2026-10-21",
           "summary": "现款 Groq LPU 依靠片上大 SRAM 实现快速解码，但 SRAM 容量小、先进制程的密度收益有限，在大模型支持与芯片迭代上存在局限。同样走大 SRAM 路线的 Cerebras 此前也已预告 CS-6 将首次 3D 垂直集成 DRAM。该消息为媒体报道，英伟达未置评。"
-        },
-        {
-          "title": "Tether 领投 AI 智能体支付基础设施公司 Mural 1500 万美元 A 轮融资，累计融资达 2800 万美元，押注“智能体金融”",
-          "url": "https://www.coindesk.com/business/2026/10/21/tether-leads-usd15-million-series-a-for-ai-focused-payment-startup-mural",
-          "source": "CoinDesk",
-          "date": "2026-10-21",
-          "summary": "Mural 由前 Palantir 工程师创立，为金融科技与平台公司提供跨传统银行网络与区块链的账户、支付、身份验证与合规基础设施，客户包括 Deel 与 Opera；North Island Ventures 及老股东跟投。其系统允许企业为 AI 智能体设置交易限额、限制交易对手、对大额支付要求额外审批，以解决自主软件动用资金时的授权与问责问题。Tether CEO Ardoino 称“当智能体开始转移资金，与银行、支付网络和合规系统的连接就变得至关重要”。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "MMEnterprise-Bench：企业智能体在“不断演化的多模态工作记录”上的问答基准，1613 题覆盖证据推理、冲突消解与不可回答识别，最强模型遇跨源/时间冲突仍明显吃力",
+          "url": "https://huggingface.co/papers/2610.27911",
+          "source": "arXiv / Hugging Face",
+          "date": "2026-10-21",
+          "summary": "题目来自模拟协作项目中被反复分享、修正的文档、聊天与图表；评测 10 个闭源与开源多模态模型发现，加大检索预算或换更大检索器能提高证据召回，但并不稳定转化为更高的答题准确率。"
+        },
+        {
+          "title": "“好判断、坏建议”：给 Claude Sonnet 5.5 终端智能体加决策小模型控制器，成本每次尝试反升 19%、通过率不变（均 73%）",
+          "url": "https://huggingface.co/papers/2610.24649",
+          "source": "arXiv / Hugging Face",
+          "date": "2026-10-21",
+          "summary": "预注册研究在 Terminal-Bench 2.1 的 21 个留出任务（315 次试验）上只换控制器：无、规则、Claude Haiku 5.5、决策模型 Jev 与安慰剂。Jev 离线判断“是否完成”排序更好（AUROC 0.78），但校准差，常让智能体复核本已正确的工作，信息量高的决策信号并未变成有用干预。"
+        },
         {
           "title": "Simular 提出 Agent S4“进化式智能体接口”：元智能体从轨迹中自动构建与修订操作接口，Qwen3.8-27B 在 OSWorld V2 达 21.3% 刷新开源 SOTA，高于 GPT-5.5 与 Claude Opus 4.8",
           "url": "https://arxiv.org/abs/2610.28601",
@@ -174,20 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "论文指出基于 rubric 的开放式强化学习常出现两类失效：分数塌缩到全高或全低的“无区分度奖励”，以及分高不等于回答好的“虚假奖励”。HarnessRL 维护训练期记忆，演化器把每次奖励失效归因到相应接口，再由提议者与“即时评审”循环生成更新，评审须在当前冻结策略上实测有效才接受。在新构建的医疗、科学、写作、角色扮演、指令遵循五领域 Rubric-Mix-10k 上，4B 与 9B 模型均比最强基线高 2.8–3.1 分，代码与数据已开源。"
-        },
-        {
-          "title": "S-Agent 2.0：给通用编码智能体（可接 Codex、Claude Code）配命令行 3D 感知工具包与持久场景记忆做空间推理，Qwen3.8-27B 在 MMSI-Bench / ReVSI 上分别提升 13.9 / 20.5 分",
-          "url": "https://arxiv.org/abs/2610.28354",
-          "source": "Hugging Face Daily Papers / arXiv",
-          "date": "2026-10-21",
-          "summary": "Ropedia 团队认为空间推理的短板常在“工具读数到结论”之间：工具给出了正确证据，模型却得不出正确答案。S-Agent 2.0 围绕“闭合证据环”设计接口——获取场景证据、写入持久场景记忆、用自然空间语言解释每次读数。开源骨干下达到 MMSI-Bench 66.5、ReVSI 82.3，超过同骨干的专用系统 SpatialClaw（62.6、74.5）；配 Gemini-3.8-Flash 达 74.1 与 90.5，且随骨干变强，工具增益衰减明显小于对手。"
-        },
-        {
-          "title": "RiseHarness：模型权重不变、只迭代进化智能体“外壳”（harness），专攻“同配置下时成时败”的长程终端任务，提升成功率与可靠性",
-          "url": "https://arxiv.org/abs/2610.27435",
-          "source": "Hugging Face Daily Papers / arXiv",
-          "date": "2026-10-21",
-          "summary": "作者指出长程终端智能体常“一次能做成、多次跑不稳”，随机错误会沿动作与上下文传播。RiseHarness 以同一任务的成功轨迹为参照分析失败轨迹，结合运行时监控采集的 harness 内部轨迹，用“Harness Handbook”把证据关联到 harness 行为与源码，再检索其他 harness 框架的相关实现作为设计参考；候选改动经行为检查与重复评测，有实测增益的版本进入下一轮。论文把“特定模型”作为 harness 适配单元，并测试向未见基准迁移。HF 每日论文页标注为腾讯混元（Tencent Hunyuan）。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "英伟达发布 OpenShell 参考架构：以开源 OpenShell 安全运行时为基础，Vera Rubin 跑推理、Vera CPU 跑智能体外壳、BlueField-4 上的 Sentry 做芯片级越界隔离，Anthropic、OpenAI、微软、谷歌云等参与",
+          "url": "https://nvidianews.nvidia.com/news/openshell-reference-architecture",
+          "source": "NVIDIA Newsroom",
+          "date": "2026-10-21",
+          "summary": "英伟达称智能体若试图越出软件边界，Sentry 可在毫秒级隔离并叫停；架构支持 Canonical、红帽、Windows 与微软执行容器，并延伸到 RTX Spark、DGX Spark、DGX Station 等边缘设备。黄仁勋：“智能体在 Rubin 上思考、在 Vera 上行动、在 BlueField 上被治理。”"
+        },
         {
           "title": "英伟达扩展 Isaac 开放机器人平台：Isaac Lab 3.0 正式可用、开源实时运行框架 Isaac OS，Hugging Face 上线 2000+ 仿真资产库与 Human 1M 数据集，Agile Robots 推出基于 GR00T 的参考人形机器人",
           "url": "https://nvidianews.nvidia.com/news/nvidia-advances-isaac-platform-for-general-purpose-robotics-with-new-reference-humanoid-frameworks-simulation-pipelines-and-data",
@@ -244,13 +251,6 @@
           "source": "NVIDIA Research",
           "date": "2026-10-20",
           "summary": "套件含 Flora-TempSeg（9B，切分操作片段）、Flora-Captioner（27B，逐段写指令）与 Flora-Rewarder（27B，输出整段成败评分、每 0.5 秒过程质量分与基于评分细则的奖励），权重已上架 Hugging Face，仅限非商业研究用途。英伟达称其已作为 GR00T 的数据引擎，每天标注约 20 万小时视频。"
-        },
-        {
-          "title": "UCSD Hao AI Lab 与 Nuva Lab 开源 FastH3 Omni：MiniMax H3 的蒸馏加速版，支持文本加最多 9 图、3 段视频、3 段音频参考，一次生成 5–15 秒带同步音频的 24fps 视频",
-          "url": "https://haoailab.com/blogs/fastvideo-omniref-update/",
-          "source": "Hao AI Lab",
-          "date": "2026-10-20",
-          "summary": "仅需 8 次 Transformer 前向（原版 50 次），在 8 张 GB200 上 27 组对照负载端到端延迟降低 5.6–11.9 倍，部分任务在 FastVideo UniServe 上可实时生成 768p 视频；提供 NVFP4 量化权重，可在 RTX 5090、DGX Spark 与 Apple Silicon 本地运行，已支持 ComfyUI。权重与训练代码已上 Hugging Face，遵循 MiniMax-H3 社区许可。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "清华 AIR 孵化的紫荆智康升级“紫荆AI医院”：推出多分身智能体协同技术，不同专科医生的 AI 分身可按需提醒或联合会诊，已在多地医院上线测试",
+          "url": "https://www.qbitai.com/2026/10/504734.html",
+          "source": "量子位",
+          "date": "2026-10-21",
+          "summary": "系统在首诊、预问诊阶段就引入跨专科意见（如内分泌科问诊时由呼吸科分身提示哮喘用药风险），分身意见不一致时高亮呈现、由医生最终判断；分身基于 AIR 刘洋团队提出的 SEAL（虚拟世界训练 + 真实世界验证微调）持续学习对应真人医生。"
+        },
+        {
           "title": "百度搭子杭州发布会：上线电脑/手机界面操作、开发模式、投标套件与 Agent 安全中心，并与联想开天、麒麟、统信联合发布全栈国产通用智能体及“百度搭子工作站”",
           "url": "https://www.yzwb.net/news/ch/202610/t20261021_404901.html",
           "source": "紫牛新闻",
@@ -370,20 +377,6 @@
           "source": "量子位",
           "date": "2026-10-21",
           "summary": "在南京首届物理 AI 与世界模型大会上发布。创始人高海川将 VLA 路线比作“把所有路走一遍”，世界模型则是“先画地图再规划”；Polibrain 把感知、状态理解、行动预测、决策、执行与反馈连成闭环，执行偏离预测时可重新评估任务。底层采用“多项式表征”提取影响任务的关键变量以提升跨场景泛化，公司称其 2025 年与清华在 ICML 发表的隐变量可辨识性研究早于 LeCun 团队相近工作约一年；复杂场景可靠性仍待更完整实测。"
-        },
-        {
-          "title": "傅利叶执行器团队出身的钟雪岗创办深圳具身智能动力系统公司伊塔动力（YITA），完成超亿元种子及种子+轮融资，经纬创投、商汤国香、建银国际、银河通用、傅利叶等参投",
-          "url": "https://news.pedaily.cn/202610/570575.shtml",
-          "source": "投资界",
-          "date": "2026-10-21",
-          "summary": "公司成立约 5 个月，主打复合行星力控关节、准直驱行星关节模组与七轴仿生力控臂，面向具身模型验证、数据采集与末端执行器集成；称关节传动效率约 83%、成本较谐波方案降约 50%、寿命超 2 万小时。创始人曾主导傅利叶三代 20 余款执行器研发、累计量产近 5 万台，已获头部具身大脑与人形本体企业数千万元合作意向。"
-        },
-        {
-          "title": "进迭时空发布服务器级 RISC-V CPU V100：46 核（6 个香山昆明湖 + 40 个自研 X100），称业内首颗完整符合 RISC-V 服务器规范的芯片，同步推出计算、智算、存储三类整机",
-          "url": "https://www.sznews.com/news/content/2026-10/19/content_32195528.htm",
-          "source": "深圳新闻网",
-          "date": "2026-10-19",
-          "summary": "V100 最高 2.4GHz、双路最高 92 核，支持 8 通道 DDR5 与 52 条 PCIe 5.0，硬件虚拟化获上游 Linux 原生支持，可直接安装 openEuler、Ubuntu、Red Hat 等发行版，面向数据中心与 Agent 基础设施；G5201 智算服务器支持 8 张双宽加速卡，已验证昆仑芯 M100。"
         }
       ]
     },
@@ -488,6 +481,18 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@nvidia",
+          "url": "https://x.com/nvidia/status/2112882448530800716",
+          "source": "@nvidia",
+          "date": "2026-10-21",
+          "summary": "英伟达：在 GTC Berlin 推出 DSX POD——AI 工厂在交付前完成集成与测试，在已备好的场地最快 14 天即可部署，让 AI 建设者更快用上算力。",
+          "metrics": {
+            "likes": 282,
+            "reposts": 29,
+            "views": 22588
+          }
+        },
+        {
           "title": "@MistralAI",
           "url": "https://x.com/MistralAI/status/2112870261829603589",
           "source": "@MistralAI",
@@ -569,18 +574,6 @@
             "likes": 94,
             "reposts": 24,
             "views": 11860
-          }
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2112831310829900244",
-          "source": "@business",
-          "date": "2026-10-21",
-          "summary": "彭博：德意志银行 CEO 称看不到 AI 泡沫——此前亿万富翁 Ken Griffin 警告投资者将遭遇挫折。",
-          "metrics": {
-            "likes": 13,
-            "reposts": 5,
-            "views": 11149
           }
         }
       ]
