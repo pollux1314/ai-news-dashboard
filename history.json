@@ -1,7 +1,84 @@
 {
- "updated": "2026-10-22T21:40:00+08:00",
- "count": 1273,
+ "updated": "2026-10-22T22:40:00+08:00",
+ "count": 1280,
  "items": [
+  {
+   "title": "台湾首次半导体业罢工：美光桃园工会 11 名干部发起 24 小时象征性罢工，要求把营业利润 15% 长期分给员工，并批评美光前一天只与台中工会签约",
+   "url": "https://focustaiwan.tw/business/202610220016",
+   "source": "中央社 Focus Taiwan",
+   "date": "2026-10-22",
+   "summary": "罢工从 10 月 22 日上午 9 点持续到次日 9 点，工会称不为影响生产、但未来可能扩大；10 月 7 日罢工授权投票 2012 人中 1994 人支持。美光台湾董事长卢东晖称与台中工会协议包括与公司盈利挂钩的新季度分红、结构性调薪、增加轮班津贴、多 3 天带薪假并把劳退提拨率从 8% 提到 10%。争议源于 AI 存储景气带来的利润分配（日经亚洲称为台湾首次芯片工人罢工）。",
+   "id": "04a4cd24c0018de64f753fad07fec15f2d9ef7c4",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T22:40:00+08:00"
+  },
+  {
+   "title": "沙特 HUMAIN 与 DataVolt 同 Nebius 签初步框架协议：Nebius 拟成为 NEOM 奥克斯冈 AI 超大园区锚定客户，承接最多 50MW 算力",
+   "url": "https://www.tradingview.com/news/reuters.com,2026-10-22:newsml_Zaw1Ggkss:0-zawya-humain-datavolt-join-forces-with-nebius-for-giga-ai-campus-in-neom/",
+   "source": "Zawya（路透社分发）",
+   "date": "2026-10-22",
+   "summary": "50MW 占一期在建 100MW 的一半（一期规划总计 360MW），距宣布开工仅六周；Nebius 将部署英伟达算力服务其全球 AI 云客户，相关容量预计 2027 年四季度起分阶段投运。",
+   "id": "405f150bed05dc8ac220625f57200074f88f4436",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T22:40:00+08:00"
+  },
+  {
+   "title": "The Verge 实测：AI 购物智能体处处碰壁——亚马逊要求 Meta 把亚马逊从 Muse 中移除，Target 的机器人检测时拦时放，摩根大通拒绝外部智能体访问账户",
+   "url": "https://www.theverge.com/report/1015811/ai-shopping-agents-blocked-amazon-the-realreal-target-meta-muse",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "亚马逊发言人确认已“要求 Meta 移除亚马逊”；作者让 Muse 在 The RealReal 反复把 10 件新品加入购物车占位一整天，显示智能体即便能用也可能挤占真人购物机会。Meta 称 Muse 购买前总会征求许可，The RealReal 表示对第三方智能体保持开放但设防护。",
+   "id": "c24876b37e469f74fa40df8da54c8d8bb0903abe",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T22:40:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113274188974661632",
+   "source": "X · Reuters",
+   "date": "2026-10-22",
+   "summary": "路透社援引报道：三星电机获特斯拉与英伟达共约 28 亿美元（3.7 万亿韩元）芯片投资，用于在世宗建设专供 AI 芯片基板产线，其中英伟达约 2.6 万亿韩元、特斯拉约 1.1 万亿韩元。",
+   "id": "c0e71c8ffb6cf484252fa91752c4c0963c8e8828",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T22:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113249037818229001",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：中国股市进入熊市，自 5 月高点以来市值蒸发 2.4 万亿美元，投资者对中国 AI 公司盈利能力的疑虑与消费长期低迷共同拖累情绪。",
+   "id": "f87db0f387c34387d5f8b20a1e04efe4725d72e2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T22:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113264116169056472",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：Meta 信用风险指标周四创新高、债券下跌，加码资本支出的计划重燃市场对科技巨头将为 AI 基建在已饱和的市场中发行更多债务的担忧。",
+   "id": "8802326f793bcfb9b59f858100e9640eacd887b6",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T22:40:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113257831436587328",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch 转述彭博：DeepSeek 据报融资约 150 亿美元，为中国最大规模融资之一，距美国下令联邦机构移除其技术仅数日。",
+   "id": "337e8fbc176681dabba0860d075271b34ebee177",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T22:40:00+08:00"
+  },
   {
    "title": "沙特 HUMAIN 在英伟达 GTC 柏林扩大合作：规划最多 84MW AI 算力、约 2.7 万张 GPU，其中 50MW Vera Rubin 专供一家未具名美国客户",
    "url": "https://www.thenationalnews.com/future/technology/2026/10/22/saudi-arabias-humain-expands-nvidia-deal-with-84mw-ai-computing-plan/",
