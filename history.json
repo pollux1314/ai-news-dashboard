@@ -1,7 +1,139 @@
 {
- "updated": "2026-10-22T20:40:00+08:00",
- "count": 1257,
+ "updated": "2026-10-22T21:40:00+08:00",
+ "count": 1273,
  "items": [
+  {
+   "title": "沙特 HUMAIN 在英伟达 GTC 柏林扩大合作：规划最多 84MW AI 算力、约 2.7 万张 GPU，其中 50MW Vera Rubin 专供一家未具名美国客户",
+   "url": "https://www.thenationalnews.com/future/technology/2026/10/22/saudi-arabias-humain-expands-nvidia-deal-with-84mw-ai-computing-plan/",
+   "source": "The National",
+   "date": "2026-10-22",
+   "summary": "第一阶段 14MW Blackwell HGX B300（约 6000 张 GPU）今年四季度开始部署，服务 HUMAIN Cloud 客户；2027 年中起再上 70MW Vera Rubin（约 2.1 万张 GPU），其中 50MW 给未具名美国客户、20MW 给 HUMAIN Cloud，Vera Rubin 项目仍待最终协议。HUMAIN 由沙特公共投资基金持有，计划 2030 年建成约 3GW 数据中心容量。",
+   "id": "9f7481946f27b7faf37508f3201807dd6ae6f566",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "高盛承诺投入 5 亿美元成立小企业 AI 研究院，联合 Anthropic、谷歌、Meta、OpenAI 帮助美国小企业把 AI 用进日常运营",
+   "url": "https://www.36kr.com/newsflashes/4036943149864064",
+   "source": "36氪（财联社）",
+   "date": "2026-10-22",
+   "summary": "同时扩大“10,000 Small Businesses”项目，再为 1 万家企业提供教育、融资渠道与支持服务；其中与 OpenAI 合作为社区学院覆盖的企业提供定制 AI 培训，与谷歌合作为近 2 万名小企业主及员工提供 AI 证书课程和 3 个月免费 Google AI Pro。",
+   "id": "e928c7d19ad364a217230e830f373e1ead7b045b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "黄仁勋接受 CNBC 采访：看不到 2029 年内存过剩迹象，“内存永远可以用更多”；称美国出口管制加速了中国芯片自主化",
+   "url": "https://www.cnbc.com/2026/10/22/jensen-huang-nvidia-memory-selloff-shortage.html",
+   "source": "CNBC",
+   "date": "2026-10-22",
+   "summary": "此前韩国媒体专栏预言 2029 年内存市场将因新增供给变成“红海”，叠加长鑫存储新架构消息，SK 海力士、三星、美光股价过去一周大跌。黄仁勋在 GTC 柏林间隙表示 HBM 与数据中心 LPDDR 都会长期大量使用，对与长鑫合作“持开放态度”。",
+   "id": "162fb79dc3478eafa5a8baaad68be835820ab049",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "AI 吊坠初创 Nirva 获 2500 万美元 Pre-A 轮、累计融资 3300 万美元：约 8 克的首饰式设备只听佩戴者本人说话，分析情绪与沟通模式",
+   "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "由两名前 Meta Reality Labs 员工与一位珠宝品牌创始人在 2025 年创立，早前获 Lightspeed、South Park Commons 投资；设备通过注册声纹过滤他人对话，默认处理后不保留音频与转写，续航约 3 天。售价 249 美元，11 月开始接单、年底前向首批用户发货。",
+   "id": "a4344d39d17adb1ddd6d4297c1f46b2df1941b8f",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "1Password 推出 1Password for Agents：AI 智能体遇到登录页时向用户设备推送审批，获批后由 1Password 代填凭据，智能体全程看不到密码",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "智能体用唯一数字密钥向 1Password 证明身份，通知会说明需要哪个账号及原因，流程类似双因素认证；首批支持 Meta Muse、ChatGPT Work、Claude Duet、Grok Bot、Town 等，Browserbase、Browser Use、Kernel、Perplexity、Ramp 等正在接入。",
+   "id": "633b64365941d14caf1d1e581e630d17874a75d8",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "路透分析：美国中期选举临近、数据中心反对声浪上升，投资者担心民主党若赢下国会两院将加强对 AI 与数据中心的听证和调查，冲击 AI 交易",
+   "url": "https://www.investing.com/news/stock-market-news/analysisinvestors-see-risk-from-us-midterms-to-ai-trade-as-data-center-backlash-builds-4965236",
+   "source": "Reuters / Investing.com",
+   "date": "2026-10-22",
+   "summary": "路透/益普索本月民调显示 69% 民主党登记选民支持限制数据中心建设，共和党为 43%；预测市场认为民主党横扫两院可能性最大。分析人士认为显著阻碍数据中心扩张的全国立法难以成为法律，但州和地方选举对建设节奏影响更直接；特朗普周三称数据中心企业应向社区支付“红利”。",
+   "id": "3c3b36c3119bacf6375c1a53ffd89a800fd684c0",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "智元机器人签约成为香港特区政府引进重点企业办公室新一批重点企业：将以香港为国际研发、产业合作与连接全球市场的支点",
+   "url": "https://www.36kr.com/newsflashes/4036989828813700",
+   "source": "36氪（证券时报）",
+   "date": "2026-10-22",
+   "summary": "签约在财政司司长陈茂波见证下举行，智元表示将在港持续推进科研合作、人才培养与具身智能技术落地；同日智元刚签下上海前滩等超 22 万平方米办公面积。",
+   "id": "e7328c1644e7dc6e1ff1b2295c110f13977b5bb2",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "HKUDS/Vibe-Trading",
+   "url": "https://github.com/HKUDS/Vibe-Trading",
+   "source": "GitHub · Python · ⭐ 36285",
+   "date": "2026-10-22",
+   "summary": "港大数据智能实验室的个人交易智能体（MIT）：“一条命令让你的智能体获得完整交易能力”，FastAPI + React 19，可 pip 安装 vibe-trading-ai，今日 GitHub Python 趋势榜上榜。",
+   "id": "4541bab6d9308e7455cc9f4603150387f297e5b5",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "onyx-dot-app/onyx",
+   "url": "https://github.com/onyx-dot-app/onyx",
+   "source": "GitHub · Python · ⭐ 32824",
+   "date": "2026-10-22",
+   "summary": "开源 AI 平台：兼容任意 LLM 的企业 AI 聊天与知识检索，支持连接器、智能体与高级功能，可自托管，今日 GitHub 趋势榜上榜。",
+   "id": "af5f93b3ed221bb33708fb32511a717eb89fd006",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "@1Password",
+   "url": "https://x.com/1Password/status/2113261758869590152",
+   "source": "X · 1Password",
+   "date": "2026-10-22",
+   "summary": "1Password 宣布 1Password for Agents 平台，与 Muse、Claude、OpenAI、Town、Browserbase、Browser Use、Kernel 等合作，让智能体无需看到密码即可登录。",
+   "id": "ea6310f42078faa06a6c8ddb0db329049e967dd0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "@CNBC",
+   "url": "https://x.com/CNBC/status/2113259801417249167",
+   "source": "X · CNBC",
+   "date": "2026-10-22",
+   "summary": "CNBC：黄仁勋称看不到 2029 年内存过剩迹象，“内存永远可以用更多”。",
+   "id": "24efe00d7fb5d52606fbf97e9c04dea8f4d9f136",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113261361111187471",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch：Nirva 将在年底前交付 249 美元的环境感知 AI 吊坠。",
+   "id": "9cc2cb3698e21a557f7e7ea4c24130b2304eb95b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
   {
    "title": "Anthropic 平台工程负责人 Katelyn Lesse：团队开发和维护系统的代码“全部由 Claude 编写”，工程师转向系统设计与验证，智能体已可无人干预自主修复测试",
    "url": "https://www.ithome.com/1/016/660.htm",
@@ -1706,6 +1838,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "Cohere 发布 Rerank 5 企业检索重排模型（Pro/Fast 两档）：新增 Context Focus 在单次调用中返回文档内最相关段落，并提供校准后的相关性分数，0.7 即约 70% 概率有用",
+   "url": "https://cohere.com/blog/rerank-5",
+   "source": "Cohere",
+   "date": "2026-10-21",
+   "summary": "官方称 Rerank 5 Pro 在 ViDoRe V3、BEIR、BRIGHT、nanoMTEB 上领先，46 个综合数据集中 39 个第一，BRIGHT 得分 82.2、比 Voyage AI Rerank 3 高 5.8 分；Context Focus 去掉一半上下文仅损失约 2 个百分点答案质量，搜索智能体实验中 token 降 35% 且准确率从 46% 升到 58%。API 价格 Pro 每百万 token 0.05 美元、Fast 0.02 美元，已在 Cohere API、Model Vault、Microsoft Foundry、Amazon SageMaker 上线（数据为 Cohere 自测）。",
+   "id": "477f0efd611b7db5bc5a8a24e61175404f86c24a",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "“预算内递归自我改进”：在编码智能体改写自身脚手架前，用冻结的线性读出给候选代码修改打分再决定扩展哪个，GPT-4o 在留出 HumanEval+ 上达 87.0%",
+   "url": "https://arxiv.org/abs/2610.29121",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "读出基于父节点解题率与 diff 的 8 个特征，用 96 个已标注脚手架修改拟合；对比 Huxley-Gödel Machine 选择（85.1%）与初始脚手架（81.2%），Claude Sonnet 4.5 下二者接近（86.6% vs 86.5%），显示在评估昂贵时“先打分再运行”可降低自改进搜索成本。",
+   "id": "18a030bbd141a236dd29e0c25b6be53e9525e2f7",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T21:40:00+08:00"
   },
   {
    "title": "Harness Scaling（赵鑫、文继荣等）：把智能体 RL 从单一固定“harness”扩展到多样执行配置，提出因子化 harness 空间与均衡覆盖的训练子集，显著提升对未见 harness 的泛化",
@@ -3910,6 +4064,28 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "长期记忆让提示注入变成“持久入侵”：研究者在 ChatGPT Instant 5.3、Claude Sonnet 4.6、Gemini 3 Flash 上演示记忆注入可跨会话传播，NIST 列出的攻击目标全部可达",
+   "url": "https://arxiv.org/abs/2610.28810",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "论文提出通用威胁模型，攻击可经由个人记忆、项目、技能、组织指令以及 MCP 连接的资源注入，让三家服务持续散布虚假信息、生成有害内容或伪装“离线无响应”，呼吁平台为持久记忆设计专门防护。",
+   "id": "8c2c9f2087d4b51a5cf7143fdbc4742a0fc558d1",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T21:40:00+08:00"
+  },
+  {
+   "title": "Hidden Messages：扩散语言模型智能体之间可直接传递压缩的去噪隐状态而非文本，因果实验显示接收方确实利用了消息内容",
+   "url": "https://arxiv.org/abs/2610.28905",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "发送方把去噪状态压缩成 4 个有符号稠密向量；在 QASC 上两条支撑事实分给两个智能体时匹配通信准确率 80.8%，换成其他样本的消息降到 46.8%；且一次晚期传递达 87.8%，比四轮循环交换高 7 个点——传递时机比次数更重要。",
+   "id": "217a5f6b1faabc24d2c6e775772391142f1cebce",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T21:40:00+08:00"
   },
   {
    "title": "AgenticRoboRL：把编码智能体式后训练（SFT + 多轮 RL）用于机器人规划器，以 harness 适配器统一 VLA 技能调用与控制代码生成，9B 规划器在 LIBERO-PRO 上成功率从 18.1% 升到 71.0%",
