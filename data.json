@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T18:35:00+08:00",
+  "updated": "2026-10-22T19:40:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Hugging Face 发布开源 DNA 语言模型 Carbon-X：可在笔记本本地运行，用自然语言“和 DNA 对话”，询问基因变异对基因活性与健康的影响",
+          "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
+          "source": "WIRED",
+          "date": "2026-10-22",
+          "summary": "与中关村学院、那不勒斯费德里科二世大学合作开发：在现有语言模型基础上把词表扩展为按 6 个碱基读取 DNA，再用约 3000 亿 token 的 DNA 序列、英文文本及 DNA-生物学描述配对数据继续训练；单次可输入约 5 万碱基对，训练数据刻意排除病毒以防滥用。团队称可帮助判断突变是良性还是致病，服务药物与基因疗法研发。"
+        },
         {
           "title": "Mirendil 公布首个预训练模型 Mirendil-Base：1 名研究员指挥 AI 智能体、3.5 个月、全口径算力不到 1000 万美元从零预训出 100B–500B 级编码基座，智能体写了 99% 以上代码",
           "url": "https://mirendil.com/news/pretraining-at-scale-without-a-pretraining-team/",
@@ -55,13 +62,6 @@
           "source": "breken 官网",
           "date": "2026-10-21",
           "summary": "对照组为 Claude Fable 5.1（Claude Code）抓出 37 个、Opus 5.5 抓出 33 个、GPT-6 Astra（Codex CLI）抓出 28 个、Semgrep 9 个；breken 的 76 个中 61 个附带可运行复现，误报 20 个（最佳读代码模型误报 59 个），并可起草修复 PR。数据为公司自测。"
-        },
-        {
-          "title": "Baseten 旗下 Base Labs 推出开源“决策模型” mammoth-1（27B）与 elephant-1（9B）：不生成文本，而是对分类、路由、是/否判断与按评分标准打分等问题直接返回结构化概率，已上线 Baseten Model APIs",
-          "url": "https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-available-on-baseten/",
-          "source": "Baseten 更新日志",
-          "date": "2026-10-21",
-          "summary": "开发者通过新的 System One 接口，在一次请求里对同一段输入提出多个问题（选择题、是否题、有序打分），适合工单路由、内容审核和护栏等高频判断场景。"
         }
       ]
     },
@@ -70,6 +70,20 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "路透社：SAP 首席财务官 Dominik Asam 称客户越来越在意 AI 模型的“出身”，出口管制、数据治理与欧洲主权诉求推动企业追问业务软件里的模型在哪里训练",
+          "url": "https://www.channelnewsasia.com/business/sap-clients-increasingly-worry-about-ai-models-origin-cfo-says-6482146",
+          "source": "Reuters / CNA",
+          "date": "2026-10-22",
+          "summary": "SAP 产品中嵌入了 70 多个第三方模型，部分客户可能拒绝与中国模型相关的组件，部分后台工作可用开放权重模型；为满足政府与国防客户要求，SAP 正寻求接入欧洲、加拿大等地区的模型。"
+        },
+        {
+          "title": "路透社：特斯拉下调资本支出、Meta 发行无投票权股票为 AI 融资后，AI 支出担忧再起，纳指 100 期货跌近 2%，英伟达、英特尔、AMD、美光等芯片股盘前普跌",
+          "url": "https://www.investing.com/news/stock-market-news/nasdaq-futures-drop-over-1-as-ai-worries-resurface-oil-climbs-4965180",
+          "source": "Reuters / Investing.com",
+          "date": "2026-10-22",
+          "summary": "盘前特斯拉跌 5.3%、Meta 跌 1.9%、英伟达跌 2.4%、英特尔跌 5.1%，AMD、高通、Marvell、博通、美光跌 2.9%–5.3%；IBM 上调软件收入指引仍跌 5.7%。布伦特原油涨超 3% 至 112 美元附近，进一步压制风险偏好。"
+        },
         {
           "title": "Axios 独家：摩根士丹利、美国银行、摩根大通、富国等美国大银行发现未经授权的第三方 AI 智能体在客户账户内操作，部分疑似脱离用户指令行事，多家银行开始封锁并改写服务条款",
           "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
@@ -111,20 +125,6 @@
           "source": "Moneycontrol（援引彭博）",
           "date": "2026-10-22",
           "summary": "彭博报道称，诺基亚正借 AI 与云客户的数据中心网络订单（IP 与光网络）推动转型，三季度利润大幅超出分析师预期，被视为其“AI 押注”见效的信号。"
-        },
-        {
-          "title": "德州仪器三季度营收 60.6 亿美元、同比增 28% 超预期，数据中心业务收入同比增约 95%、约占营收 13%，四季度指引好于季节性规律",
-          "url": "https://ph.investing.com/news/stock-market-news/earnings-call-transcript-texas-instruments-tops-q3-2026-forecasts-93CH-2641975",
-          "source": "Investing.com",
-          "date": "2026-10-22",
-          "summary": "调整后每股收益 2.62 美元（预期 2.42 美元），毛利率 64%。CEO Haviv Ilan 称数据中心是“不受季节性影响的强劲长期增长市场”，目前向该市场销售约 1 万个通用料号；还称每台人形机器人中 TI 芯片含量约 500–1000 美元，预计 2027 年机器人领域将大量放量。"
-        },
-        {
-          "title": "彭博：DeepSeek 完成约 1000 亿元人民币（约 150 亿美元）融资，为中国史上最大规模融资之一；洽谈中两度上调目标（500 亿→800 亿→约 1000 亿元），宁德时代与腾讯为最大投资方",
-          "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-22/doc-iniwamip5161974.shtml",
-          "source": "新浪财经 / 智通财经（援引彭博）",
-          "date": "2026-10-22",
-          "summary": "此前虎嗅等报道融资进入收官阶段，本次彭博确认完成。该轮融资为 DeepSeek 科创板 IPO 铺路：公司已聘请中信证券，计划最快 2026 年末递表、2027 年挂牌，高瓴创投原合伙人严文韬 9 月下旬出任 CFO。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "Omnara 推出开源托管智能体平台（Apache-2.0）：定位为 Claude Managed Agents 与 OpenAI Agents API 的自托管替代，可接任意兼容模型并跑在自有机器或沙箱上",
+          "url": "https://docs.omnara.com/introduction",
+          "source": "Omnara",
+          "date": "2026-10-22",
+          "summary": "提供 REST API 控制面，管理持久化智能体的工具、密钥、权限、流式输出与状态；可用 Docker Compose 本地运行，或在自有 VPC 中基于 Postgres、Redis、S3 兼容存储部署，守护进程只需出站连接、无需开放入站端口。"
+        },
+        {
           "title": "SoMark 开源 1.3B 文档解析模型 OXR-1.0：从零预训、后训练引入递归自我改进（RSI）循环，称在 olmOCR-Bench、OmniDocBench、DocParsingBench 三榜第一，表格解析领先明显",
           "url": "https://github.com/SoMarkAI/OXR",
           "source": "GitHub · SoMarkAI",
@@ -244,13 +251,6 @@
           "source": "SentinelOne 新闻稿",
           "date": "2026-10-21",
           "summary": "在 OneCon 2026 发布、即日起早期访问：覆盖 Salesforce Agentforce、Copilot Studio、ChatGPT 工作区智能体与 Claude 托管智能体；Agent Traces 写入数据湖，并把智能体事件与传统 EDR 行为整合进同一执行图；提供“意图漂移”检测（所托任务与实际行为的差距）、高风险工具审批流，以及只中止单个智能体而不停整个工作流的隔离能力。"
-        },
-        {
-          "title": "英伟达开源 Nemotron 3.5 检索模型家族：Embed 8B/1B（含 NVFP4 版）、Rerank 8B 与 631M 文档解析模型 Parse，分别登顶 ViDoRe v3.1 稠密检索、重排序榜与 ParseBench 十亿参数以下榜",
-          "url": "https://huggingface.co/blog/nvidia/nemotron-retriever-world-class-agentic-retrieval",
-          "source": "Hugging Face 博客（NVIDIA）",
-          "date": "2026-10-21",
-          "summary": "Embed 8B 在 ViDoRe v3.1 得 61.17 nDCG@10，比上代 VL 1B 高 8.94 分，可检索含表格、图表、示意图的文档图像，文本检索评测覆盖 34 种语言；加上 Rerank 后智能体每次查询 token 成本降约 14%。Parse 以 72.7–75.2 分配合 10.5–16.1 页/秒（单张 H100）三档可选。模型可商用，权重、数据与微调配方已上 Hugging Face，并可经 NIM、Baseten、DeepInfra、OpenRouter 等部署；Perplexity、Turbopuffer、Elastic 等参与了早期评测。"
         }
       ]
     },
@@ -386,6 +386,20 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "Zafer-Liu/claude-super-sidebar",
+          "url": "https://github.com/Zafer-Liu/claude-super-sidebar",
+          "source": "GitHub · JavaScript · ⭐ 82（10 月 20 日新建）",
+          "date": "2026-10-22",
+          "summary": "为 Claude Code 与 Codex 提供可视化侧边栏（Apache-2.0）：展示智能体树、实时运行状态与对话任务流，方便同时盯多个编码智能体。"
+        },
+        {
+          "title": "h9-tec/ai-roadmap-2026",
+          "url": "https://github.com/h9-tec/ai-roadmap-2026",
+          "source": "GitHub · ⭐ 95（10 月 21 日新建）",
+          "date": "2026-10-22",
+          "summary": "面向初学者的 2026 AI 学习路线：按基础、LLM 工程、智能体、评测、生产部署分层，每层附经核验的免费资源和一个小项目。"
+        },
+        {
           "title": "C4rohan/Lampline",
           "url": "https://github.com/C4rohan/Lampline",
           "source": "GitHub · Python · ⭐ 107（10 月 19 日新建）",
@@ -426,20 +440,6 @@
           "source": "GitHub · TypeScript · ⭐ 90（10 月 20 日新建）",
           "date": "2026-10-22",
           "summary": "OpenBots：四个由自研开放模型 Agnes 2.5 Pro 驱动的开源 AI 智能体，可联网搜索、阅读网页、在沙箱跑代码、调用 API，并能代付服务费用与注册账号；可在浏览器使用或整套本地部署，MIT 许可。"
-        },
-        {
-          "title": "migasrias2/geckobox",
-          "url": "https://github.com/migasrias2/geckobox",
-          "source": "GitHub · TypeScript · ⭐ 67（10 月 20 日新建）",
-          "date": "2026-10-22",
-          "summary": "把 Claude Code、Codex 等编码智能体放到你指定的任意电脑（本机沙箱、SSH 主机、Docker 或 Cua 沙箱）上运行，并可同时跨多台机器跑任务；无中继直连、免账号、不限会话与时长，MIT 许可，对标 Cua Spaces。"
-        },
-        {
-          "title": "keegan0521/CinderVM",
-          "url": "https://github.com/keegan0521/CinderVM",
-          "source": "GitHub · Rust · ⭐ 65（10 月 21 日新建）",
-          "date": "2026-10-22",
-          "summary": "面向智能体执行的确定性字节码虚拟机：字节码运行前先校验，整台机器状态可快照，长时运行可按哈希链日志精确重放与跨进程恢复。"
         }
       ]
     },
@@ -448,6 +448,27 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2113216369877541233",
+          "source": "X · Reuters",
+          "date": "2026-10-22",
+          "summary": "路透：SAP 首席财务官称客户越来越担心 AI 模型的来源地。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113225107980132864",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "彭博：随着市场对 AI 情绪大幅摇摆，“AI 股怎么走、苹果就反着走”成了最可靠的交易之一，苹果被视为 AI 对冲。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113223932132086125",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "彭博：AI 交易失速叠加油价上涨，股市下滑。"
+        },
         {
           "title": "@Reuters",
           "url": "https://x.com/Reuters/status/2113211285596738028",
@@ -482,27 +503,6 @@
           "source": "X · CNBC",
           "date": "2026-10-22",
           "summary": "CNBC：巴克莱将在 AI 提效计划中削减 5000 个岗位。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113174800390574553",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博：软银集团市值有望较 6 月峰值腰斩，借贷成本上升令投资者担忧其巨额 AI 投资的可持续性。"
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2113173538379010546",
-          "source": "X · Reuters",
-          "date": "2026-10-22",
-          "summary": "路透社：尽管面临联邦调查，特斯拉仍计划在年底前开始销售 Cybercab 自动驾驶出租车。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113167250127548426",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博：诺基亚三季度利润超出分析师预期，AI 基础设施投资激增带动数据中心网络设备需求上升。"
         }
       ]
     }
