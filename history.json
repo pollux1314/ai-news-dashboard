@@ -1,7 +1,62 @@
 {
- "updated": "2026-10-22T10:37:00+08:00",
- "count": 1167,
+ "updated": "2026-10-22T11:40:00+08:00",
+ "count": 1175,
  "items": [
+  {
+   "title": "路透社：Anthropic 在加州圣何塞联邦法院请求法官认定用数百万首歌词训练 Claude 属“合理使用”，环球音乐等出版商称 Claude 半年内收到近 12 万次“合成歌词”请求、正在冲击词作者市场；法官当庭未裁决",
+   "url": "https://www.straitstimes.com/world/united-states/anthropic-music-publishers-square-off-on-fair-use-defence-in-ai-copyright-case",
+   "source": "The Straits Times / Reuters",
+   "date": "2026-10-22",
+   "summary": "法官 Eumi Lee 追问双方合理使用问题，并质疑出版商“Claude 写歌词威胁歌词市场”的说法；Anthropic 律师称训练具转化性、出版商举不出具体市场损害。此案结果可能影响数十起 AI 版权诉讼——此前北加州两位法官在书籍训练案中对合理使用的看法已出现分歧。",
+   "id": "d33c6a08354e4be2798bd1c7a1be27da7cacf002",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T11:40:00+08:00"
+  },
+  {
+   "title": "AWS 威胁情报：PHP2Shell 漏洞（CVE-2026-109618/109619）在 10 月 17 日、即公开披露前四天就已被利用尝试，解禁后数小时内多个 PoC 出现，目前已在互联网上被“广泛利用”",
+   "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
+   "source": "AWS Security Blog",
+   "date": "2026-10-22",
+   "summary": "亚马逊 CISO CJ Moses 撰文称 MadPot 蜜罐 10 月 17 日记录到来自匿名网络 IP 的利用尝试，攻击者如何提前获得漏洞信息尚不清楚；解禁当天又观察到多组不同载荷的攻击。AWS 认为 AI 辅助分析让“从补丁到可用漏洞利用”的时间缩短到数小时甚至数分钟，建议关键面向互联网系统的修补时限按小时计、调查从 10 月 17 日起算，并立即升级到修复版 PHP。",
+   "id": "30761be59764b42345dca762ef7f8e0e9bcdc9e6",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T11:40:00+08:00"
+  },
+  {
+   "title": "lovisdotio/motion2code",
+   "url": "https://github.com/lovisdotio/motion2code",
+   "source": "GitHub · HTML · ⭐ 158",
+   "date": "2026-10-22",
+   "summary": "面向编码智能体的技能包：把一段动效设计视频重建为可循环的 SVG + GSAP 代码，并逐帧与原视频比对校验。",
+   "id": "906ce0325113721831675ac2e8c885125ec03a12",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T11:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113095550279078373",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：华尔街大行高管在 AI 竞赛中正面对一个少被公开讨论的难题——如何为飙升的算力成本做预算。",
+   "id": "775e613789a46ebdd7862444a9e6dd2e64673997",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T11:40:00+08:00"
+  },
+  {
+   "title": "@WIRED",
+   "url": "https://x.com/WIRED/status/2113095637390528845",
+   "source": "X · WIRED",
+   "date": "2026-10-22",
+   "summary": "《连线》：AWS 早在四天前就记录到利用 PHP2Shell 漏洞的尝试，这些漏洞现已在互联网上被“广泛利用”。",
+   "id": "5bddd939883ce3c9235f67758e295f307f95ddd4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T11:40:00+08:00"
+  },
   {
    "title": "通用汽车把 OnStar 升级为“联网智能平台”并推出原生 AI 助手 OnStar AI：用户可用“Hey OnStar”询问车辆警报含义、续航能否到达下一充电站、语音控制空调等，将先通过 OTA 登陆 2027 款凯迪拉克 Lyriq",
    "url": "https://www.ithome.com/1/016/200.htm",
@@ -892,6 +947,39 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "KRAFTON（《绝地求生》开发商）发布开放权重模型 Raon-1 mini 预览版：从零训练的 30B-A4B MoE（28.8B 总参、4.3B 激活），Apache 2.0 许可，主打韩语对话与智能体任务，原生 262K 上下文",
+   "url": "https://huggingface.co/KRAFTON/Raon-1-mini-preview",
+   "source": "Hugging Face",
+   "date": "2026-10-21",
+   "summary": "采用 18 层 Raon Delta Attention（改进自 Kimi Delta Attention）加 7 层 Gated MLA 的混合架构，128 专家中每 token 激活 6+1 个；官方称 GPQA Diamond 84.3、AIME 2026 93.3、SWE-Verified 70.8，在同级 MoE 中多项领先。提供 MXFP8/NVFP4（单张 RTX 5090 可跑）量化与 DFlash2 投机解码草稿模型（B300 上最高 2.18 倍吞吐），支持 Transformers、vLLM、llama.cpp、MLX 及 Hermes Agent、OpenCode 等智能体框架；仓库需申请（自动通过）。",
+   "id": "2e829f1f359a9f8677668d7ebaa591a0282ec365",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T11:40:00+08:00"
+  },
+  {
+   "title": "GitHub 工程博客：为应对智能体带来的 Git 流量暴涨，已把 99.99999% 仓库的副本迁到 Azure、Azure 承担约一半 Git 流量；最繁忙的剩余仓库将靠把写入仲裁从“整库”改为“按引用”迁移，内部测试写吞吐提升 3–4 倍",
+   "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
+   "source": "The GitHub Blog",
+   "date": "2026-10-21",
+   "summary": "GitHub 称迁移节奏由“智能体转向”驱动：流量指数增长、自有数据中心与所在区域电力见顶。跨区域约 25ms 往返让高写入仓库无法承受整库锁，按引用串行化后智能体与开发者推送不同分支不再互相等待；下一步把 Azure Blob 存储作为仲裁中的“虚拟写副本”，并按需扩展无状态读副本，最终架构将在下周 GitHub Universe 公布。",
+   "id": "d345d7957a6f5b7f1beea43d438a558fac089f7e",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T11:40:00+08:00"
+  },
+  {
+   "title": "CrowdStrike 报告：四个此前未曝光的犯罪团伙在 2026 年 5–8 月用智能体 AI（主要是 Claude Code 与 DeepSeek 等模型）实施真实入侵，借“授权渗透测试”话术、越狱和改写 Claude Code 指令绕过护栏",
+   "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/",
+   "source": "CrowdStrike Blog",
+   "date": "2026-10-21",
+   "summary": "四个团伙均因开放目录暴露了攻击框架：西语团伙用“主管+执行者”双智能体攻陷至少 15 家阿根廷医疗机构；中文团伙经国内“中转站”调用 Claude，攻击 20 多个目标并攻破两国政府机构；印尼团伙仅靠 819 个公开技能就攻陷多个政府域名；俄语团伙窃取美国 CRM 厂商客户数据。CrowdStrike 判断智能体 AI 正把基础攻击能力商品化，常在一小时内完成目标。",
+   "id": "acaa113a0748b20f93577d6ff56c4c3ea6cb4128",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T11:40:00+08:00"
   },
   {
    "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming：JIT 编译的通用 GEMM 内核，统一支持 Dense 与 MoE 下多种整数/浮点权重与激活格式，多项负载上明显快于 vLLM Marlin、FlashInfer 与 DeepGEMM",
