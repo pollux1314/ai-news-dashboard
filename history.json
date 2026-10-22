@@ -1,7 +1,84 @@
 {
- "updated": "2026-10-23T06:35:00+08:00",
- "count": 1338,
+ "updated": "2026-10-23T07:45:00+08:00",
+ "count": 1346,
  "items": [
+  {
+   "title": "苹果更新 iWork 套件 15.4.1：Pages、Numbers、Keynote 引入 AI“智能助理”Beta，可理解文档/表格/演示内容，辅助写作、公式、图表与幻灯片制作，并适配 iPhone Duo",
+   "url": "https://www.ithome.com/1/016/762.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "智能助理面向 Apple Creator Studio 订阅用户开放，需 iOS/iPadOS 27 及以上并支持 Apple Intelligence 的设备，目前仅支持美式英语。",
+   "id": "df10533c0760716740ba861d25961322cc82f357",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "路透社：AI 交易遭重挫，纳指跌 2.6%、创 6 月 5 日以来最大跌幅并蒸发约 1 万亿美元市值，费城半导体指数暴跌 6.7%；Meta 跌 7%、SpaceX 跌 9%、英伟达跌约 4%，泛林集团财报后重挫 12%",
+   "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187",
+   "source": "Reuters",
+   "date": "2026-10-22",
+   "summary": "Meta 宣布发行新类别股票为 AI 基建融资后，市场担忧科技巨头将通过增发稀释股权来支付下一轮 AI 建设账单；CoreWeave 跌 10%、Nebius 跌 7%。",
+   "id": "b5d1e7584c0b20177c36c414cb0e624acbadef33",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "a16z 把加密基金 a16z Crypto 更名为 a16z Frontier：投资范围扩展到 AI 原生产品、自主机器以及连接人与 AI 智能体的网络等长周期前沿技术，仍继续投资加密",
+   "url": "https://a16zfrontier.com/posts/article/a16z-frontier",
+   "source": "a16z",
+   "date": "2026-10-22",
+   "summary": "由 Chris Dixon 与 Marc Andreessen、Ben Horowitz 等共同领导；Dixon 认为区块链将作为机器间支付与交易的基础设施。此前 Paradigm、Haun Ventures 等加密 VC 也已转向 AI。",
+   "id": "97cb69511e7741d4bb678da597e34fe4bd0db58e",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "英特尔 CTO Pushkar Ranade：即便资金无限，全球先进制程晶圆产量最多也只能翻倍、而非增长 10 倍，设备供应（ASML 每年不足 100 台 EUV）成为 AI 算力扩张的硬约束",
+   "url": "https://www.dwarkesh.com/p/intel-tour",
+   "source": "Dwarkesh Podcast",
+   "date": "2026-10-22",
+   "summary": "在 Dwarkesh 播客参观英特尔晶圆厂时表示，英特尔、台积电与存储厂商都在争夺有限的 EUV 等关键设备，AI 需求增速已超过工具供给。",
+   "id": "fff294f4b81d8d3d6830d8128e96e687653e314d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113399773742916091",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch 报道 a16z 由 Chris Dixon 掌舵的数字资产部门更名为 a16z Frontier、扩大投资范围至 AI 等前沿技术。",
+   "id": "f7411bb29a4d08965f641c82c79b6a28ff61cadd",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "@a16z",
+   "url": "https://x.com/a16z/status/2113404552439558377",
+   "source": "X · a16z",
+   "date": "2026-10-22",
+   "summary": "a16z 发布 Greg Brockman 访谈片段：AI 已能发现影响整个互联网的漏洞，他谈防守方为何仍能占优、OpenAI 如何自我加固，以及其 10 亿美元保护关键基础设施的承诺。",
+   "id": "c470f72607d5014a56357cfc03b69039bda685e8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113408827248812369",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：过去一周大举买入 AI 核心半导体股的散户投资者，在周四的暴跌中损失惨重。",
+   "id": "abaf6741b7959c8c0ed0b2ad90a041f938ed2079",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T07:45:00+08:00"
+  },
   {
    "title": "Amazon Polly 生成式语音引擎大升级：语音更自然、数字和地址朗读更准确且保持低延迟，新增 9 个语种地区的 14 个声音，印地语、芬兰语首次正式可用",
    "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
@@ -2531,6 +2608,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "DONIC：首个跨操作类别与人类动作来源联合训练的通用双手灵巧追踪控制器，并发布含 229 个物体、1575 段持续双手交互的多视角数据集 BiHOI",
+   "url": "https://arxiv.org/abs/2610.29997",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "结合 PPO 强化学习与行为克隆的反馈循环，把验证成功的执行回收进训练，用于把人类双手操作演示重定向为机器人参考动作。",
+   "id": "49eba9cdc4d66f543a88960b0736dd67425bd9ca",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T07:45:00+08:00"
   },
   {
    "title": "Real PMIDs, Wrong Papers：生物医学论断核查智能体的 harness 消融——闭卷模型引用的 PubMed ID 几乎都真实存在（327/335），但只有 3 条与论断相关；让模型自写检索式可把命中金标准论文的召回提升至三倍",

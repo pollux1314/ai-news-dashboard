@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T06:35:00+08:00",
+  "updated": "2026-10-23T07:45:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "苹果更新 iWork 套件 15.4.1：Pages、Numbers、Keynote 引入 AI“智能助理”Beta，可理解文档/表格/演示内容，辅助写作、公式、图表与幻灯片制作，并适配 iPhone Duo",
+          "url": "https://www.ithome.com/1/016/762.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "智能助理面向 Apple Creator Studio 订阅用户开放，需 iOS/iPadOS 27 及以上并支持 Apple Intelligence 的设备，目前仅支持美式英语。"
+        },
         {
           "title": "Amazon Polly 生成式语音引擎大升级：语音更自然、数字和地址朗读更准确且保持低延迟，新增 9 个语种地区的 14 个声音，印地语、芬兰语首次正式可用",
           "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
@@ -55,13 +62,6 @@
           "source": "Mirendil",
           "date": "2026-10-22",
           "summary": "前 Anthropic/DeepMind 研究员 Behnam Neyshabur 创办的 RSI 方向实验室 Mirendil 称，训练基础设施、架构、数据管线均从空仓库由智能体搭建，只用公开数据、无蒸馏与合成数据；自家留出代码 BPB 平均 0.222，优于 GLM-5.3、DeepSeek-V4-Pro-Base、Nemotron-550B-Base，仅次于 Kimi-K3。更大的 Base-Large（500B–2T）已训 80%、Base-XL（2T–10T）训 19%，目前尚未开放权重，已开始后训练（暂无独立评测）。"
-        },
-        {
-          "title": "科大讯飞 1024 开发者节发布讯飞星火 X2.6 端云一体大模型：293B 总参、30B 激活的 MoE，上下文扩至 1M，官方称为唯一全程用国产算力训练的主流模型，代码与智能体能力达业界一流",
-          "url": "https://www.ithome.com/1/016/403.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "刘庆峰称星火 X2.6 率先突破国产芯片长程任务训练效率瓶颈，采用适配国产平台的长程任务动态并行训练，并基于国产异构算力做分布式推理；同时首发端云一体协同架构。API 限时定价输入 0.9 元/百万 tokens、缓存命中 0.08 元、输出 3.6 元，现已在星火官网开放试用（此前已开源的 X2.6-4B 端侧模型同场正式发布）。"
         }
       ]
     },
@@ -70,6 +70,27 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "路透社：AI 交易遭重挫，纳指跌 2.6%、创 6 月 5 日以来最大跌幅并蒸发约 1 万亿美元市值，费城半导体指数暴跌 6.7%；Meta 跌 7%、SpaceX 跌 9%、英伟达跌约 4%，泛林集团财报后重挫 12%",
+          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187",
+          "source": "Reuters",
+          "date": "2026-10-22",
+          "summary": "Meta 宣布发行新类别股票为 AI 基建融资后，市场担忧科技巨头将通过增发稀释股权来支付下一轮 AI 建设账单；CoreWeave 跌 10%、Nebius 跌 7%。"
+        },
+        {
+          "title": "a16z 把加密基金 a16z Crypto 更名为 a16z Frontier：投资范围扩展到 AI 原生产品、自主机器以及连接人与 AI 智能体的网络等长周期前沿技术，仍继续投资加密",
+          "url": "https://a16zfrontier.com/posts/article/a16z-frontier",
+          "source": "a16z",
+          "date": "2026-10-22",
+          "summary": "由 Chris Dixon 与 Marc Andreessen、Ben Horowitz 等共同领导；Dixon 认为区块链将作为机器间支付与交易的基础设施。此前 Paradigm、Haun Ventures 等加密 VC 也已转向 AI。"
+        },
+        {
+          "title": "英特尔 CTO Pushkar Ranade：即便资金无限，全球先进制程晶圆产量最多也只能翻倍、而非增长 10 倍，设备供应（ASML 每年不足 100 台 EUV）成为 AI 算力扩张的硬约束",
+          "url": "https://www.dwarkesh.com/p/intel-tour",
+          "source": "Dwarkesh Podcast",
+          "date": "2026-10-22",
+          "summary": "在 Dwarkesh 播客参观英特尔晶圆厂时表示，英特尔、台积电与存储厂商都在争夺有限的 EUV 等关键设备，AI 需求增速已超过工具供给。"
+        },
         {
           "title": "TechCrunch：OpenAI 正推进新一轮约 300 亿美元融资、估值约 1.25 万亿美元，赶在 IPO 之前；若成行将成为史上估值最高的私营公司",
           "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
@@ -104,27 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-22",
           "summary": "Spotify 三季度月活 7.88 亿、营收近 50 亿欧元；Söderström 认为智能体擅长替人做“杂务”，而娱乐恰恰相反，“没人会让智能体帮你总结一首歌”；他强调 Spotify 不向合作方发送用户数据，由自家“品味模型”解析智能体请求并选择播放内容。"
-        },
-        {
-          "title": "印度第五大 IT 服务商 Tech Mahindra 与 SpaceXSI 合作：把 Grok Build 引入应用现代化与软件工程服务，帮企业改造遗留系统、加速软件交付",
-          "url": "https://www.channelnewsasia.com/business/indias-tech-mahindra-partners-spacexsi-ai-powered-software-development-6483071",
-          "source": "Reuters / CNA",
-          "date": "2026-10-22",
-          "summary": "路透社称这是印度 IT 巨头首次与 SpaceX 旗下 AI 部门合作（Tech Mahindra 此前已与谷歌 Gemini、微软有类似协议）；双方将面向科技、电信、银行金融、制造、医疗和零售等行业联合拓展客户，并设立认证与赋能项目。"
-        },
-        {
-          "title": "SpaceX Super Intelligence 推出 Grok 合作伙伴网络：分为帮企业落地 Grok 的“转型伙伴”和开发插件集成的“市场伙伴”，早期阶段已有 130 多家公司参与",
-          "url": "https://x.ai/news/partnernetworkannouncement",
-          "source": "SpaceXSI",
-          "date": "2026-10-22",
-          "summary": "首批伙伴包括贝恩、Databricks、英伟达、Snowflake、Galatiq 等；已通过“前线部署工程师”认证项目在 30 多家机构培训工程师。Bloomberg 报道称 Apollo 也在合作名单中，此举旨在推动 Grok 的企业采用。"
-        },
-        {
-          "title": "Uber 把 ChatGPT Work 推广到全球约 3 万名员工：此前 1000 人试点中约 80% 是非工程师，用于运营数据分析、培训材料本地化和个人交互式看板",
-          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "Uber 工程副总裁 Sumanth Sukumar 称将跟踪员工使用方式与效果再决定更大范围的 AI 部署，未披露花费；OpenAI 同步发布官方公告，继续扩张企业业务与 Anthropic 竞争。"
         }
       ]
     },
@@ -146,6 +146,13 @@
           "source": "Google DeepMind",
           "date": "2026-10-22",
           "summary": "模型以 AlphaEarth Foundations 嵌入为关键输入、用约 170 万个标注点训练；在 9000 多个随机样点的专家核验中森林类型判对 90%、森林与非森林区分 95%，优于其他全球森林图。可识别天然林被砍后改种人工林这类从太空难以看出的变化，为欧盟零毁林法规（EUDR）提供基线，数据以开放许可在 Earth Engine 免费提供，论文发表于 Scientific Data。"
+        },
+        {
+          "title": "DONIC：首个跨操作类别与人类动作来源联合训练的通用双手灵巧追踪控制器，并发布含 229 个物体、1575 段持续双手交互的多视角数据集 BiHOI",
+          "url": "https://arxiv.org/abs/2610.29997",
+          "source": "arXiv",
+          "date": "2026-10-21",
+          "summary": "结合 PPO 强化学习与行为克隆的反馈循环，把验证成功的执行回收进训练，用于把人类双手操作演示重定向为机器人参考动作。"
         },
         {
           "title": "Real PMIDs, Wrong Papers：生物医学论断核查智能体的 harness 消融——闭卷模型引用的 PubMed ID 几乎都真实存在（327/335），但只有 3 条与论断相关；让模型自写检索式可把命中金标准论文的召回提升至三倍",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "训练时以伙伴的真实想法监督这些潜在 token，测试时由各智能体自行生成并作为思考与行动的条件；改用文本推理则性能下降，且可泛化到训练未见的模型家族（含闭源 GPT-5.4）。"
-        },
-        {
-          "title": "VeriEvolve“评估器优先”的智能体进化：先从任务说明合成可执行评估器作为适应度信号再优化工作流，MCPMark 文件系统 30 个任务上 GLM-5.2 外部验证成功数由 6 升至 18",
-          "url": "https://arxiv.org/abs/2610.29005",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "每轮进化冻结评估器，轮次之间把强弱运行的终态转成反事实测试用例来修订评估器；30 个评估器在生成的 141 个挑战状态上全部一致，Claude 成功数从 27/30 升至 30/30。"
         }
       ]
     },
@@ -449,6 +449,27 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2113399773742916091",
+          "source": "X · TechCrunch",
+          "date": "2026-10-22",
+          "summary": "TechCrunch 报道 a16z 由 Chris Dixon 掌舵的数字资产部门更名为 a16z Frontier、扩大投资范围至 AI 等前沿技术。"
+        },
+        {
+          "title": "@a16z",
+          "url": "https://x.com/a16z/status/2113404552439558377",
+          "source": "X · a16z",
+          "date": "2026-10-22",
+          "summary": "a16z 发布 Greg Brockman 访谈片段：AI 已能发现影响整个互联网的漏洞，他谈防守方为何仍能占优、OpenAI 如何自我加固，以及其 10 亿美元保护关键基础设施的承诺。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113408827248812369",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "彭博：过去一周大举买入 AI 核心半导体股的散户投资者，在周四的暴跌中损失惨重。"
+        },
+        {
           "title": "@AnthropicAI",
           "url": "https://x.com/AnthropicAI/status/2113390212911083894",
           "source": "X · Anthropic",
@@ -482,27 +503,6 @@
           "source": "X · OpenAIDevs",
           "date": "2026-10-22",
           "summary": "OpenAI 开发者账号宣布 Decisions API 正式可用：无需生成完整回复即可对文本和图片做分类、评估输入并决定下一步，帮助构建更快、更省钱的应用和智能体。"
-        },
-        {
-          "title": "@allen_ai",
-          "url": "https://x.com/allen_ai/status/2113298265928020126",
-          "source": "X · allen_ai",
-          "date": "2026-10-22",
-          "summary": "Ai2 宣布 OlmoEarth v1.3：为地球上每个 10 米像素预计算的 SOTA 卫星嵌入，并推出可在浏览器中探索和定制地图的新工具。"
-        },
-        {
-          "title": "@GoogleDeepMind",
-          "url": "https://x.com/GoogleDeepMind/status/2113278710795153785",
-          "source": "X · GoogleDeepMind",
-          "date": "2026-10-22",
-          "summary": "DeepMind 发布 Forest Typology（ForTy）：10 米分辨率区分天然林、人工林与农业林地，用于识别毁林、保护最重要的森林。"
-        },
-        {
-          "title": "@AntLingAGI",
-          "url": "https://x.com/AntLingAGI/status/2113293431435149349",
-          "source": "X · AntLingAGI",
-          "date": "2026-10-22",
-          "summary": "蚂蚁百灵宣布正式开源 Ling-3.0-flash-Sante：124B 总参、5.1B 激活的医疗增强 MoE 模型，称在专业医疗任务上领先同尺寸模型。"
         }
       ]
     }
