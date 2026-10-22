@@ -1,7 +1,117 @@
 {
- "updated": "2026-10-23T01:40:00+08:00",
- "count": 1296,
+ "updated": "2026-10-23T02:45:00+08:00",
+ "count": 1308,
  "items": [
+  {
+   "title": "微软 AI 诊断编排系统（Diagnostic Orchestrator）研究登上《Science》：多智能体模拟医生会诊、自主决定问诊与检查，在 NEJM 病例上诊断准确率约 83%，远高于全科医生的约 36%（查资料）与 22%",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "在波士顿贝斯以色列女执事医疗中心急诊病例上准确率 80%，医生平均 47%，且估算检查成本更低；系统基于 GPT-5，论文未纳入 GPT-6 Astra、Opus 5.5 等新模型。微软将开源 SDBench 基准，并计划未来几个月在该医院开展真实临床测试；苏莱曼称“未来几年”将做出与人类表现难以区分的医疗超级智能，但承认仍需临床验证。",
+   "id": "98a7f3683d8fe8db9372829be9ecc7fa11fd949a",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "Spotify 三季度财报会：联席 CEO Söderström 称 AI 智能体时代是顺风而非逆风，Spotify 要做“任何智能体里都用的媒体服务”，已接入 ChatGPT、Claude，并是 Meta Muse 发布时唯一集成的媒体服务",
+   "url": "https://techcrunch.com/2026/10/22/spotifys-current-ai-bet-is-about-being-the-music-service-that-agents-choose/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "Spotify 三季度月活 7.88 亿、营收近 50 亿欧元；Söderström 认为智能体擅长替人做“杂务”，而娱乐恰恰相反，“没人会让智能体帮你总结一首歌”；他强调 Spotify 不向合作方发送用户数据，由自家“品味模型”解析智能体请求并选择播放内容。",
+   "id": "0bffbef0359b5df6d7d5df2a7cd776e3d96cfe86",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "特朗普在 Truth Social 呼吁数据中心与大型 AI 云厂商向所在社区“分红”：除自建电源外还须把多余电力无偿或出售给当地社区，以缓解电价上涨、换取社区接纳",
+   "url": "https://www.ithome.com/1/016/257.htm",
+   "source": "IT之家",
+   "date": "2026-10-22",
+   "summary": "特朗普称一些原本极不受欢迎的数据中心项目在达成经济协议后获得了当地大力支持，呼吁“达成协议，推进建设”；具体回馈形式尚不明确。此前政府已要求此类企业自行发电，并有法案要求数据中心承担电网升级费用。",
+   "id": "49631f6cf71a5499f720cd11b20c15d1c8fea7f0",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "比尔·盖茨接受 The Verge《Decoder》专访：即便在最好情况下，AI 也将带来约 20 年“动荡”的颠覆期，甚至可能把社会撕裂为拥抱与拒绝技术前沿的两派；称 AI 是“有史以来最危险的武器”，当前白宫与业界应对不足",
+   "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "盖茨自 8 月发表《动荡的 AI 时代已经到来》一文后持续加码安全论调，此次与 Nilay Patel 讨论了对齐如何在闭源与开源模型上落地、AI 是否有意识、劳动力冲击与年轻一代对技术的虚无情绪等问题，但他表示自己并非 AI 末日论者。",
+   "id": "12686626013b51e1719d1116c2ec9f9ddeabbb33",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "genspark-ai/genoffice",
+   "url": "https://github.com/genspark-ai/genoffice",
+   "source": "GitHub · TypeScript · ⭐ 10504",
+   "date": "2026-10-22",
+   "summary": "Genspark 开源的免费 AI 办公套件（Apache-2.0）：内置 AI 智能体的文档、表格、幻灯片、PDF、Markdown、HTML 编辑器，并提供 genoffice CLI 与 agent skill，让 Claude Code、Codex、Cursor 在本地创建和编辑真实 .docx/.xlsx/.pptx；自带密钥，支持 macOS/Windows/Linux，今日 GitHub 趋势榜上榜。",
+   "id": "49452062182371c8c120f72cceb21a21de5d1860",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "CopilotKit/OpenBot",
+   "url": "https://github.com/CopilotKit/OpenBot",
+   "source": "GitHub · TypeScript · ⭐ 6912",
+   "date": "2026-10-22",
+   "summary": "CopilotKit 的开源“AI 同事”（MIT）：每个智能体拥有独立电脑（浏览器、文件与工具），每个动作先审批决定、事后留痕记录，可接入任意 AG-UI 智能体，今日 GitHub 趋势榜上榜。",
+   "id": "0876c9c2b39765c74de5f7cb09e4d083d75c8946",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "firecrawl/firecrawl",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "source": "GitHub · TypeScript · ⭐ 194206",
+   "date": "2026-10-22",
+   "summary": "为 AI 智能体抓取与结构化网页数据的 Firecrawl（AGPL-3.0），今日 GitHub 总趋势榜新增约 455 星。",
+   "id": "2c7b3111701b0646ddb76e13c56e478dfb7d8c16",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "@mustafasuleyman",
+   "url": "https://x.com/mustafasuleyman/status/2113332931423039945",
+   "source": "X · Mustafa Suleyman",
+   "date": "2026-10-22",
+   "summary": "微软 AI CEO 苏莱曼：MAI 诊断系统在急诊场景的准确率已是医生的 1.7 倍（即便医生可上网查资料），成本更低、所需检查更少，成果今日发表于《Science》。",
+   "id": "d7d1a2d8581d8c842a639a2f326fc49fe67bf3b5",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2113329583407739269",
+   "source": "X · The Information",
+   "date": "2026-10-22",
+   "summary": "The Information：英伟达通过超 1700 亿美元的投资与承诺为自家芯片需求“输血”，而 AI 云厂商股价下跌、多家英伟达投资企业推迟 IPO。",
+   "id": "ca4057247df288c6bfac76d4959c77f1c9469cb9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2113331775330275506",
+   "source": "X · The Verge",
+   "date": "2026-10-22",
+   "summary": "The Verge：苏莱曼称微软将在未来几年打造出在医疗上与人类表现难以区分的系统。",
+   "id": "3ea90a3428c4e7a42b5d9278c9a73b36e9fcbd3a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
   {
    "title": "印度第五大 IT 服务商 Tech Mahindra 与 SpaceXSI 合作：把 Grok Build 引入应用现代化与软件工程服务，帮企业改造遗留系统、加速软件交付",
    "url": "https://www.channelnewsasia.com/business/indias-tech-mahindra-partners-spacexsi-ai-powered-software-development-6483071",
@@ -2091,6 +2201,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "Real PMIDs, Wrong Papers：生物医学论断核查智能体的 harness 消融——闭卷模型引用的 PubMed ID 几乎都真实存在（327/335），但只有 3 条与论断相关；让模型自写检索式可把命中金标准论文的召回提升至三倍",
+   "url": "https://arxiv.org/abs/2610.29812",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "在 SciFact 上以实时 PubMed API 为唯一工具，比较闭卷、单次检索、ReAct 式自写查询与给定金标准摘要四种 harness：单次检索仅找到 6% 金标准论文，ReAct 智能体准确率 62% 最佳；给定金标准摘要可达 79–86%，说明瓶颈在检索而非推理，仅做“引用是否存在”的校验远远不够。",
+   "id": "81a8286396be1ac9bbe96953aab51b54fa24f979",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T02:45:00+08:00"
+  },
+  {
+   "title": "Events, Not Pixels：世界模型规划出错主要在“事件”帧而非画面质量——把少数得奖励或结束回合的真实转移替换回来，可消除中位 70% 的回报误差，而替换像素误差最大的帧还不如随机",
+   "url": "https://arxiv.org/abs/2610.29435",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者提出转移级诊断方法，在 44 组通过可靠性检验的 Atari-100k 模型—数据组合（含三个已发布模型家族）中，事件补丁有 39 组优于随机补丁（符号检验 p=1.4×10⁻⁷），中位提升 44 个百分点；事件补丁还能改善规划排序，提示世界模型评测应关注回报相关事件而非渲染保真度。",
+   "id": "d3c06c36e630d135574bfb489f3a262c4d71cbbe",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T02:45:00+08:00"
   },
   {
    "title": "Cohere 发布 Rerank 5 企业检索重排模型（Pro/Fast 两档）：新增 Context Focus 在单次调用中返回文档内最相关段落，并提供校准后的相关性分数，0.7 即约 70% 概率有用",
