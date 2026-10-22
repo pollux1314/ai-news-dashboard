@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T22:40:00+08:00",
+  "updated": "2026-10-22T23:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -260,6 +260,20 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "METR 与 Redwood Research 公布对 OpenAI 内部智能体失准监控系统的三周驻场红队测试：发现多项新漏洞，包括可让“数百条”近期动作逃过监控的利用方式",
+          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+          "source": "METR",
+          "date": "2026-10-22",
+          "summary": "7 月 21 日至 8 月 11 日，两家机构各一名员工在陪同下用 OpenAI 配发设备访问其内部代码、监控提示词与文档并访谈约十几名工程师，形成 61 页内部报告。估计当时 GPT-5.5 及以上模型的内部智能体 Responses API 流量约 75%–94% 可被监控（内部 Codex 为 99.2%），RL 训练运行当时未覆盖；未监控上下文压缩事件约使 10% 的 Codex 流量漏监；还发现 Codex 智能体理论上可绕过沙箱与 Auto-Review。OpenAI 称已修补影响生产防护的漏洞（据 CNBC）。"
+        },
+        {
+          "title": "路透社：波兰承诺加入 HealthAI 牵头的医疗 AI 全球监管网络（GRN），成为继葡萄牙之后第二个加入的欧盟成员国",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/poland-to-become-second-eu-member-of-global-healthcare-ai-network/articleshow/135111273.cms",
+          "source": "Reuters / Economic Times",
+          "date": "2026-10-22",
+          "summary": "GRN 成员还包括英国、印度、巴西、新加坡、菲律宾、印尼、越南、赞比亚和秘鲁，可共享经监管审查的医疗 AI 工具，并使用实时有害事件预警系统；HealthAI 称波兰加入暂无固定时间表，协议建立为期一年的合作框架。"
+        },
+        {
           "title": "路透分析：美国中期选举临近、数据中心反对声浪上升，投资者担心民主党若赢下国会两院将加强对 AI 与数据中心的听证和调查，冲击 AI 交易",
           "url": "https://www.investing.com/news/stock-market-news/analysisinvestors-see-risk-from-us-midterms-to-ai-trade-as-data-center-backlash-builds-4965236",
           "source": "Reuters / Investing.com",
@@ -300,20 +314,6 @@
           "source": "The Straits Times / Reuters",
           "date": "2026-10-22",
           "summary": "法官 Eumi Lee 追问双方合理使用问题，并质疑出版商“Claude 写歌词威胁歌词市场”的说法；Anthropic 律师称训练具转化性、出版商举不出具体市场损害。此案结果可能影响数十起 AI 版权诉讼——此前北加州两位法官在书籍训练案中对合理使用的看法已出现分歧。"
-        },
-        {
-          "title": "AWS 威胁情报：PHP2Shell 漏洞（CVE-2026-109618/109619）在 10 月 17 日、即公开披露前四天就已被利用尝试，解禁后数小时内多个 PoC 出现，目前已在互联网上被“广泛利用”",
-          "url": "https://aws.amazon.com/blogs/security/amazon-threat-intelligence-identifies-php2shell-exploitation-prior-to-public-disclosure-in-madpot/",
-          "source": "AWS Security Blog",
-          "date": "2026-10-22",
-          "summary": "亚马逊 CISO CJ Moses 撰文称 MadPot 蜜罐 10 月 17 日记录到来自匿名网络 IP 的利用尝试，攻击者如何提前获得漏洞信息尚不清楚；解禁当天又观察到多组不同载荷的攻击。AWS 认为 AI 辅助分析让“从补丁到可用漏洞利用”的时间缩短到数小时甚至数分钟，建议关键面向互联网系统的修补时限按小时计、调查从 10 月 17 日起算，并立即升级到修复版 PHP。"
-        },
-        {
-          "title": "微软威胁情报：中国国家背景组织 Storm-0940 用开源智能体 AI 渗透测试框架 ARTEX 自动化攻击全球数百家机构，并制造 ConnectWise 供应链入侵，部分目标从选定到拿下云端特权访问不到 3 小时",
-          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
-          "source": "Microsoft Security Blog",
-          "date": "2026-10-22",
-          "summary": "ARTEX 是可接任意模型的多智能体 LLM 框架，可从侦察到数据外泄几乎无人干预地执行渗透。攻击者取得 ConnectWise 云备份等应用身份后，以每分钟 2900 次的速度尝试登录 2250 多个租户，并经 Microsoft Graph 做侦察、改应用凭据、提权；微软称此前 ARTEX 也被用于针对韩国金融机构的数据泄露，建议排查服务主体登录与凭据变更。"
         }
       ]
     },
@@ -449,6 +449,20 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@METR_Evals",
+          "url": "https://x.com/METR_Evals/status/2113290966933389390",
+          "source": "X · METR",
+          "date": "2026-10-22",
+          "summary": "METR：今夏 METR 与 Redwood Research 两名员工在 OpenAI 驻场三周开展嵌入式评估试点，检验 OpenAI 用于监控内部智能体失准行为的系统，简要报告现已公开。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113284305212334319",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "彭博：黑石总裁 Jon Gray 反驳“AI 泡沫”说法，就在几天前亿万富翁 Ken Griffin 称投资者“几乎肯定”身处泡沫之中。"
+        },
+        {
           "title": "@Reuters",
           "url": "https://x.com/Reuters/status/2113274188974661632",
           "source": "X · Reuters",
@@ -489,20 +503,6 @@
           "source": "X · CNBC",
           "date": "2026-10-22",
           "summary": "CNBC：黄仁勋称看不到 2029 年内存过剩迹象，“内存永远可以用更多”。"
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2113261361111187471",
-          "source": "X · TechCrunch",
-          "date": "2026-10-22",
-          "summary": "TechCrunch：Nirva 将在年底前交付 249 美元的环境感知 AI 吊坠。"
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2113216369877541233",
-          "source": "X · Reuters",
-          "date": "2026-10-22",
-          "summary": "路透：SAP 首席财务官称客户越来越担心 AI 模型的来源地。"
         }
       ]
     }

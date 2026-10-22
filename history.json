@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-22T22:40:00+08:00",
- "count": 1280,
+ "updated": "2026-10-22T23:40:00+08:00",
+ "count": 1284,
  "items": [
+  {
+   "title": "METR 与 Redwood Research 公布对 OpenAI 内部智能体失准监控系统的三周驻场红队测试：发现多项新漏洞，包括可让“数百条”近期动作逃过监控的利用方式",
+   "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
+   "source": "METR",
+   "date": "2026-10-22",
+   "summary": "7 月 21 日至 8 月 11 日，两家机构各一名员工在陪同下用 OpenAI 配发设备访问其内部代码、监控提示词与文档并访谈约十几名工程师，形成 61 页内部报告。估计当时 GPT-5.5 及以上模型的内部智能体 Responses API 流量约 75%–94% 可被监控（内部 Codex 为 99.2%），RL 训练运行当时未覆盖；未监控上下文压缩事件约使 10% 的 Codex 流量漏监；还发现 Codex 智能体理论上可绕过沙箱与 Auto-Review。OpenAI 称已修补影响生产防护的漏洞（据 CNBC）。",
+   "id": "b30896a8503579b68333cc53304ff4ba71aced9f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T23:40:00+08:00"
+  },
+  {
+   "title": "路透社：波兰承诺加入 HealthAI 牵头的医疗 AI 全球监管网络（GRN），成为继葡萄牙之后第二个加入的欧盟成员国",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/poland-to-become-second-eu-member-of-global-healthcare-ai-network/articleshow/135111273.cms",
+   "source": "Reuters / Economic Times",
+   "date": "2026-10-22",
+   "summary": "GRN 成员还包括英国、印度、巴西、新加坡、菲律宾、印尼、越南、赞比亚和秘鲁，可共享经监管审查的医疗 AI 工具，并使用实时有害事件预警系统；HealthAI 称波兰加入暂无固定时间表，协议建立为期一年的合作框架。",
+   "id": "1c495e42da821f4b44e70d049ada99f02254fa6f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T23:40:00+08:00"
+  },
+  {
+   "title": "@METR_Evals",
+   "url": "https://x.com/METR_Evals/status/2113290966933389390",
+   "source": "X · METR",
+   "date": "2026-10-22",
+   "summary": "METR：今夏 METR 与 Redwood Research 两名员工在 OpenAI 驻场三周开展嵌入式评估试点，检验 OpenAI 用于监控内部智能体失准行为的系统，简要报告现已公开。",
+   "id": "b7b9a9e8f5c59b27fad05583628c6a29579ba342",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T23:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113284305212334319",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：黑石总裁 Jon Gray 反驳“AI 泡沫”说法，就在几天前亿万富翁 Ken Griffin 称投资者“几乎肯定”身处泡沫之中。",
+   "id": "fab099ee09156f4a891683ec4feb4bc218c83937",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T23:40:00+08:00"
+  },
   {
    "title": "台湾首次半导体业罢工：美光桃园工会 11 名干部发起 24 小时象征性罢工，要求把营业利润 15% 长期分给员工，并批评美光前一天只与台中工会签约",
    "url": "https://focustaiwan.tw/business/202610220016",
