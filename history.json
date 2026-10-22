@@ -1,7 +1,62 @@
 {
- "updated": "2026-10-23T00:40:00+08:00",
- "count": 1291,
+ "updated": "2026-10-23T01:40:00+08:00",
+ "count": 1296,
  "items": [
+  {
+   "title": "印度第五大 IT 服务商 Tech Mahindra 与 SpaceXSI 合作：把 Grok Build 引入应用现代化与软件工程服务，帮企业改造遗留系统、加速软件交付",
+   "url": "https://www.channelnewsasia.com/business/indias-tech-mahindra-partners-spacexsi-ai-powered-software-development-6483071",
+   "source": "Reuters / CNA",
+   "date": "2026-10-22",
+   "summary": "路透社称这是印度 IT 巨头首次与 SpaceX 旗下 AI 部门合作（Tech Mahindra 此前已与谷歌 Gemini、微软有类似协议）；双方将面向科技、电信、银行金融、制造、医疗和零售等行业联合拓展客户，并设立认证与赋能项目。",
+   "id": "2622f04c6cbeffad2ad06a8c5d55fb9f434c60fe",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T01:40:00+08:00"
+  },
+  {
+   "title": "开发者平台 Railway 遭网络攻击：攻击者可能获取部分客户加密环境变量及其解密内容，官方敦促所有用户轮换 API 密钥等机密，并称这是一系列以攻破 AI 推理服务商为目标的攻击之一",
+   "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
+   "source": "Railway / TechCrunch",
+   "date": "2026-10-22",
+   "summary": "Railway 已作废全部 API 令牌、轮换存储桶凭据并重置 GitHub 令牌，部署一度全面暂停、随后按套餐分批恢复；官方还专门发布指南，提醒使用 Claude 的用户吊销可能泄露的 Anthropic 密钥并检查异常用量。",
+   "id": "5699ea0146a98f847ef4646a2c965924a2f84dc0",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T01:40:00+08:00"
+  },
+  {
+   "title": "联合国裁军研究所（UNIDIR）在联大一委会边会上启动 AI、和平与安全多利益相关方论坛：联合国系统内首个专门讨论军事领域 AI 的论坛",
+   "url": "https://news.un.org/en/story/2026/10/1168636",
+   "source": "UN News",
+   "date": "2026-10-22",
+   "summary": "论坛由瑞士与巴基斯坦共同支持，聚焦三项工作：为军事 AI 设计研发阶段制定自愿性的负责任行业行为准则、编制统一“AI 安全术语表”以消除各方对自主性和安全等概念的歧义，以及应对非国家武装团体滥用 AI 的风险；它不是有约束力的条约机构。",
+   "id": "50d1ea5aaf8e0cb753c6f87c468e871cba5309b9",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T01:40:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113308159615869097",
+   "source": "X · Reuters",
+   "date": "2026-10-22",
+   "summary": "路透社：印度 Tech Mahindra 与 SpaceXSI 合作开展 AI 驱动的软件开发。",
+   "id": "ae1faa69d8242f59187c0877bc9ca806b6c4fd4d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T01:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113314519262839200",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "Bloomberg：黑石 CEO 苏世民称 2015 年马云跟他聊 AI 时他“完全不知道在说什么”，但那次偶然对话促使黑石建起庞大的数据中心版图。",
+   "id": "1a2e338b5bd9c7b5f454ee062a21b1c2033fc9e0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T01:40:00+08:00"
+  },
   {
    "title": "SpaceX Super Intelligence 推出 Grok 合作伙伴网络：分为帮企业落地 Grok 的“转型伙伴”和开发插件集成的“市场伙伴”，早期阶段已有 130 多家公司参与",
    "url": "https://x.ai/news/partnernetworkannouncement",
