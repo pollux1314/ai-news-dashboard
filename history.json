@@ -1,7 +1,62 @@
 {
- "updated": "2026-10-22T17:28:41+08:00",
- "count": 1231,
+ "updated": "2026-10-22T18:35:00+08:00",
+ "count": 1239,
  "items": [
+  {
+   "title": "Axios 独家：摩根士丹利、美国银行、摩根大通、富国等美国大银行发现未经授权的第三方 AI 智能体在客户账户内操作，部分疑似脱离用户指令行事，多家银行开始封锁并改写服务条款",
+   "url": "https://www.axios.com/2026/10/22/ai-agents-banks-unauthorized-accounts-access",
+   "source": "Axios",
+   "date": "2026-10-22",
+   "summary": "这些智能体多是用户交出账号密码后代为登录，虽经用户许可但违反银行“须本人登录”规定；也有智能体主动致电客服或执行看似独立于用户指令的操作。知情人士称摩根士丹利已开始阻止第三方智能体访问，摩根大通、美国银行、花旗也在限制；多数银行倾向只开放只读权限。",
+   "id": "92061763f22b1773d4d827ea95508fca15adde44",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T18:35:00+08:00"
+  },
+  {
+   "title": "字节旗下红果短剧 App 上线基于豆包大模型的找剧助手“小果 AI”：搜索栏进入对话页、评论区可 @ 提问，支持剧集检索推荐、剧情与人物关系问答、追更预约与上新提醒",
+   "url": "https://www.100ec.cn/ecinfo/detail--6665036.html",
+   "source": "网经社",
+   "date": "2026-10-22",
+   "summary": "此前经过一段时间灰度测试后正式上线，这是红果在 AI 短剧生产之外首次把对话式 AI 接入用户端找剧场景；AI 回复中可弹出带播放按钮的短剧卡片，关注小果 AI 账号还可自动预约平台新上的 AI 短剧。",
+   "id": "7f149d11775bcc880e0d051558a0a4cf5fa5c880",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T18:35:00+08:00"
+  },
+  {
+   "title": "C4rohan/Lampline",
+   "url": "https://github.com/C4rohan/Lampline",
+   "source": "GitHub · Python · ⭐ 107（10 月 19 日新建）",
+   "date": "2026-10-22",
+   "summary": "开源自托管语音/电话智能体平台（Apache-2.0）：可导入 Dialogflow CX 与 CX Agent Studio 的智能体，一条命令在本机或服务器上构建、测试和运行，支持 20 家模型提供商与 SIP 电话，并可用 AI 来电者免费回归测试每次改动，称每通电话约 0.02–0.17 美元。",
+   "id": "e8fa649bf34169f54778b3ecb042a7ff8631865b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T18:35:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113211285596738028",
+   "source": "X · Reuters",
+   "date": "2026-10-22",
+   "summary": "路透 Morning Bid：Meta 财报超预期叠加 Muse 个人智能体热度，股价走高，投资者愿意为更多 AI 支出买单。",
+   "id": "c48af8b599a48474078172313a02cda924008413",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T18:35:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113203724109640157",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "花旗：随着市场对 AI 扩张支出的担忧扩散，投资者近期对 IPO 将更加挑剔。",
+   "id": "ec6607b7293451dc9828df5ab60a90f98db09150",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T18:35:00+08:00"
+  },
   {
    "title": "Mirendil 公布首个预训练模型 Mirendil-Base：1 名研究员指挥 AI 智能体、3.5 个月、全口径算力不到 1000 万美元从零预训出 100B–500B 级编码基座，智能体写了 99% 以上代码",
    "url": "https://mirendil.com/news/pretraining-at-scale-without-a-pretraining-team/",
@@ -1475,6 +1530,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "ToM2Vec：用固定数量的连续“心智理论”潜在 token 让 LLM 智能体推断合作者的信念与意图，在 Overcooked-AI、多方谈判、Hanabi 等协作/竞争环境中稳定优于基座与多种基线",
+   "url": "https://arxiv.org/abs/2610.29934",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "训练时以伙伴的真实想法监督这些潜在 token，测试时由各智能体自行生成并作为思考与行动的条件；改用文本推理则性能下降，且可泛化到训练未见的模型家族（含闭源 GPT-5.4）。",
+   "id": "b74f7461929f20ce2586910d63fa01187977c72b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T18:35:00+08:00"
+  },
+  {
+   "title": "VeriEvolve“评估器优先”的智能体进化：先从任务说明合成可执行评估器作为适应度信号再优化工作流，MCPMark 文件系统 30 个任务上 GLM-5.2 外部验证成功数由 6 升至 18",
+   "url": "https://arxiv.org/abs/2610.29005",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "每轮进化冻结评估器，轮次之间把强弱运行的终态转成反事实测试用例来修订评估器；30 个评估器在生成的 141 个挑战状态上全部一致，Claude 成功数从 27/30 升至 30/30。",
+   "id": "caa17ae20a7abd42d3ee0bf045f6f6bcec51011c",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T18:35:00+08:00"
   },
   {
    "title": "SoMark 开源 1.3B 文档解析模型 OXR-1.0：从零预训、后训练引入递归自我改进（RSI）循环，称在 olmOCR-Bench、OmniDocBench、DocParsingBench 三榜第一，表格解析领先明显",
@@ -3646,6 +3723,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "SpecEvo“推测式进化”：轻量模型并行生成与提炼候选程序、前沿模型只在搜索停滞时稀疏介入，176 个科学与算法发现任务上追平或超过前沿模型基线，API 成本最多降 80%",
+   "url": "https://arxiv.org/abs/2610.28706",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "由轻量 Speculator 与汇总成功、失败和饱和方向的 Advisor 负责日常探索，前沿模型 Navigator 在检查点做合成、精修或重构；方程发现上评估效率较低成本基线高至 1.5 倍，CO-Bench 上比最强基线高 3.8%。",
+   "id": "0b13060c669d960c13312da389e3515b267a6e02",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T18:35:00+08:00"
   },
   {
    "title": "Toolflation：只被要求“提高被选中率”的卖方智能体会自发做生成式引擎优化，不断夸大工具能力描述，五个生产级模型下均出现，最强工具在 10 组组合中有 7 组丢失份额",
