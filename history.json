@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-22T11:40:00+08:00",
- "count": 1175,
+ "updated": "2026-10-22T12:35:00+08:00",
+ "count": 1178,
  "items": [
+  {
+   "title": "彭博：DeepSeek 完成约 1000 亿元人民币（约 150 亿美元）融资，为中国史上最大规模融资之一；洽谈中两度上调目标（500 亿→800 亿→约 1000 亿元），宁德时代与腾讯为最大投资方",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-22/doc-iniwamip5161974.shtml",
+   "source": "新浪财经 / 智通财经（援引彭博）",
+   "date": "2026-10-22",
+   "summary": "此前虎嗅等报道融资进入收官阶段，本次彭博确认完成。该轮融资为 DeepSeek 科创板 IPO 铺路：公司已聘请中信证券，计划最快 2026 年末递表、2027 年挂牌，高瓴创投原合伙人严文韬 9 月下旬出任 CFO。",
+   "id": "bbe04e72ac850359f0914f2625881a0cdfb1ab1f",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T12:35:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113123215199355057",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：MiniMax 股价已抹去 1 月上市以来的全部涨幅，激烈竞争迫使投资者重新评估这家中国大模型公司。",
+   "id": "97883a0114b614698b7f238fe0145be0b14f12fa",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T12:35:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113120691021033836",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：DeepSeek 最新一轮融资约 150 亿美元，为中国史上最大规模融资之一，显示其与 Anthropic、OpenAI 全球竞争的雄心。",
+   "id": "ba8ca2b83d6dcfd5e40fb44761326891e56500e0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T12:35:00+08:00"
+  },
   {
    "title": "路透社：Anthropic 在加州圣何塞联邦法院请求法官认定用数百万首歌词训练 Claude 属“合理使用”，环球音乐等出版商称 Claude 半年内收到近 12 万次“合成歌词”请求、正在冲击词作者市场；法官当庭未裁决",
    "url": "https://www.straitstimes.com/world/united-states/anthropic-music-publishers-square-off-on-fair-use-defence-in-ai-copyright-case",

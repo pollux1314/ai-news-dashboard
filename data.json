@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-22T11:40:00+08:00",
+ "updated": "2026-10-22T12:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "彭博：DeepSeek 完成约 1000 亿元人民币（约 150 亿美元）融资，为中国史上最大规模融资之一；洽谈中两度上调目标（500 亿→800 亿→约 1000 亿元），宁德时代与腾讯为最大投资方",
+     "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-22/doc-iniwamip5161974.shtml",
+     "source": "新浪财经 / 智通财经（援引彭博）",
+     "date": "2026-10-22",
+     "summary": "此前虎嗅等报道融资进入收官阶段，本次彭博确认完成。该轮融资为 DeepSeek 科创板 IPO 铺路：公司已聘请中信证券，计划最快 2026 年末递表、2027 年挂牌，高瓴创投原合伙人严文韬 9 月下旬出任 CFO。"
+    },
+    {
      "title": "特斯拉财报电话会：车主私家车预计 2027 年二季度起可接入特斯拉自动驾驶出租车车队；三季度北美超 75% 新车买家选购 FSD（监督版），环比提升近 20 个百分点",
      "url": "https://www.ithome.com/1/016/209.htm",
      "source": "IT之家",
@@ -118,13 +125,6 @@
      "source": "The Next Web（援引彭博）",
      "date": "2026-10-22",
      "summary": "公司由 Spector 兄弟与 Aidan Smith 于 2025 年底在旧金山创立，尚无产品与收入，主攻用更少数据和算力训练模型，并自写英伟达 GPU 底层软件以“榨干每颗芯片”——联合创始人称单芯片性能提升 10% 就极具经济价值；官方称已在万亿参数级预训练中看到 GPU 新原语的效果。1 月种子轮为 1.8 亿美元，与 LeCun 的 AMI Labs 等同属“研究优先”的 neolab。"
-    },
-    {
-     "title": "沃尔玛向 AI 购物智能体敞开大门：推出基于 MCP 的 Agent Gateway，获批智能体可检索库存并替顾客下单（含山姆会员店），与封锁智能体的亚马逊形成对比",
-     "url": "https://techcrunch.com/2026/10/21/while-amazon-blocks-ai-agents-walmart-rolls-out-the-welcome-mat/",
-     "source": "TechCrunch",
-     "date": "2026-10-22",
-     "summary": "顾客可通过下月上线的 Agent Profiles 单独追踪智能体的购买记录，设置每笔交易需人工批准或设定支出上限；智能体须在用户意图范围内行事、无法接触支付数据，违反条款将被封禁。此前亚马逊、达美航空等多家网站已限制 AI 智能体代用户操作。"
     }
    ]
   },
@@ -458,6 +458,20 @@
    "items": [
     {
      "title": "@business",
+     "url": "https://x.com/business/status/2113123215199355057",
+     "source": "X · Bloomberg",
+     "date": "2026-10-22",
+     "summary": "彭博：MiniMax 股价已抹去 1 月上市以来的全部涨幅，激烈竞争迫使投资者重新评估这家中国大模型公司。"
+    },
+    {
+     "title": "@business",
+     "url": "https://x.com/business/status/2113120691021033836",
+     "source": "X · Bloomberg",
+     "date": "2026-10-22",
+     "summary": "彭博：DeepSeek 最新一轮融资约 150 亿美元，为中国史上最大规模融资之一，显示其与 Anthropic、OpenAI 全球竞争的雄心。"
+    },
+    {
+     "title": "@business",
      "url": "https://x.com/business/status/2113095550279078373",
      "source": "X · Bloomberg",
      "date": "2026-10-22",
@@ -497,20 +511,6 @@
      "source": "X · Reuters",
      "date": "2026-10-22",
      "summary": "路透社：Meta 把 Muse 智能体置于 AI 战略核心，并计划发行新类别股票为相关投资提供资金。"
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2113076621599195281",
-     "source": "X · Reuters",
-     "date": "2026-10-22",
-     "summary": "路透社：借助 AI 发现的 PHP 严重漏洞曝光后，欧洲等地部分政府网站已下线，网络安全记者 Raphael Satter 解读原因。"
-    },
-    {
-     "title": "@TechCrunch",
-     "url": "https://x.com/TechCrunch/status/2113039898198315354",
-     "source": "X · TechCrunch",
-     "date": "2026-10-22",
-     "summary": "TechCrunch：Meta 计划推出新的股票安排（无投票权 C 类股）为其在 AI 模型与服务上的大规模投入融资。"
     }
    ]
   }
