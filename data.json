@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T05:30:00+08:00",
+  "updated": "2026-10-23T06:35:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Amazon Polly 生成式语音引擎大升级：语音更自然、数字和地址朗读更准确且保持低延迟，新增 9 个语种地区的 14 个声音，印地语、芬兰语首次正式可用",
+          "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+          "source": "AWS",
+          "date": "2026-10-22",
+          "summary": "AWS 称这是“即插即用”的升级，现有生成式声音原地升级，无需改代码、不涨价，已在生产环境全面可用。"
+        },
         {
           "title": "Meta 修复 Muse 分享链接泄露问题并恢复分享：此前被公开 DNS 记录暴露的“artifact”分享页已全部换新网址，旧链接失效",
           "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
@@ -55,13 +62,6 @@
           "source": "IT之家",
           "date": "2026-10-22",
           "summary": "刘庆峰称星火 X2.6 率先突破国产芯片长程任务训练效率瓶颈，采用适配国产平台的长程任务动态并行训练，并基于国产异构算力做分布式推理；同时首发端云一体协同架构。API 限时定价输入 0.9 元/百万 tokens、缓存命中 0.08 元、输出 3.6 元，现已在星火官网开放试用（此前已开源的 X2.6-4B 端侧模型同场正式发布）。"
-        },
-        {
-          "title": "通用汽车把 OnStar 升级为“联网智能平台”并推出原生 AI 助手 OnStar AI：用户可用“Hey OnStar”询问车辆警报含义、续航能否到达下一充电站、语音控制空调等，将先通过 OTA 登陆 2027 款凯迪拉克 Lyriq",
-          "url": "https://www.ithome.com/1/016/200.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "助手结合实时车辆数据、用户授权的上下文与通用汽车车辆知识库给出个性化建议，计划结合天气、路况与数字日历主动提供出行建议；需人工时仍可转接 OnStar 顾问，气囊触发等紧急情况仍由人工联系救援。通用计划 2027 年推出统一 OnStar 手机应用取代各品牌独立应用，OnStar 目前在 22 个市场有超 1200 万订阅用户。"
         }
       ]
     },
@@ -70,6 +70,13 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "TechCrunch：OpenAI 正推进新一轮约 300 亿美元融资、估值约 1.25 万亿美元，赶在 IPO 之前；若成行将成为史上估值最高的私营公司",
+          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+          "source": "TechCrunch",
+          "date": "2026-10-22",
+          "summary": "此前路透报道 OpenAI 正赶在 Anthropic 11 月 IPO 前融资约 300 亿美元；TechCrunch 最新报道给出的估值约为 1.25 万亿美元，高于其 3 月 8520 亿美元的估值。"
+        },
         {
           "title": "西部数据 2027 财年一季度营收 43.8 亿美元、同比增 55%，受云与 AI 存储需求推动；季度股息上调 17%，预计下季营收约 51 亿美元",
           "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results",
@@ -118,13 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-22",
           "summary": "Uber 工程副总裁 Sumanth Sukumar 称将跟踪员工使用方式与效果再决定更大范围的 AI 部署，未披露花费；OpenAI 同步发布官方公告，继续扩张企业业务与 Anthropic 竞争。"
-        },
-        {
-          "title": "台湾首次半导体业罢工：美光桃园工会 11 名干部发起 24 小时象征性罢工，要求把营业利润 15% 长期分给员工，并批评美光前一天只与台中工会签约",
-          "url": "https://focustaiwan.tw/business/202610220016",
-          "source": "中央社 Focus Taiwan",
-          "date": "2026-10-22",
-          "summary": "罢工从 10 月 22 日上午 9 点持续到次日 9 点，工会称不为影响生产、但未来可能扩大；10 月 7 日罢工授权投票 2012 人中 1994 人支持。美光台湾董事长卢东晖称与台中工会协议包括与公司盈利挂钩的新季度分红、结构性调薪、增加轮班津贴、多 3 天带薪假并把劳退提拨率从 8% 提到 10%。争议源于 AI 存储景气带来的利润分配（日经亚洲称为台湾首次芯片工人罢工）。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Anthropic Frontier Red Team 联合 Theorem 用 Claude 大规模做形式化验证：在 100 多个真实开源库的 RISC-V 汇编层面证明安全属性，并发现多年未被测出的漏洞",
+          "url": "https://www.anthropic.com/research/formal-verification",
+          "source": "Anthropic",
+          "date": "2026-10-22",
+          "summary": "Anthropic 称这是首个用 AI 在汇编层面对生产软件做大规模形式化验证的尝试：基于 Theorem 的 RISC-V 指令与 Linux 进程语义生成规格，由 Claude 编写证明、Rocq 内核检查；撰写证明过程中 Claude 还找到了经数万亿次测试仍未暴露的漏洞。部分证明与添加项目用的 Claude skill 已在 GitHub 开源，Anthropic 预计形式化验证将成为安全软件开发的必要环节。"
+        },
         {
           "title": "Google DeepMind 联合 WRI、IIASA 发布全球 10 米森林类型图 ForTy 2020：区分原始林、天然更新林、人工林、速生用材林、经济林木与其他土地，并给出 2017–2025 逐年变化",
           "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "每轮进化冻结评估器，轮次之间把强弱运行的终态转成反事实测试用例来修订评估器；30 个评估器在生成的 141 个挑战状态上全部一致，Claude 成功数从 27/30 升至 30/30。"
-        },
-        {
-          "title": "长期记忆让提示注入变成“持久入侵”：研究者在 ChatGPT Instant 5.3、Claude Sonnet 4.6、Gemini 3 Flash 上演示记忆注入可跨会话传播，NIST 列出的攻击目标全部可达",
-          "url": "https://arxiv.org/abs/2610.28810",
-          "source": "arXiv",
-          "date": "2026-10-20",
-          "summary": "论文提出通用威胁模型，攻击可经由个人记忆、项目、技能、组织指令以及 MCP 连接的资源注入，让三家服务持续散布虚假信息、生成有害内容或伪装“离线无响应”，呼吁平台为持久记忆设计专门防护。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "Amazon SageMaker AI 无服务器模型定制新增 training sessions（正式可用）：开发者自己写后训练循环（自定义损失、奖励信号、多轮强化学习），GPU 分配、分布式执行、故障恢复与检查点由 SageMaker 托管",
+          "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+          "source": "AWS",
+          "date": "2026-10-22",
+          "summary": "AWS 同日发布多项无需管理 GPU 的模型定制新方式，training sessions API 让团队在不自建集群的情况下做定制化后训练与 RL。"
+        },
         {
           "title": "Claude API 发布 2023 年以来首个新 API 版本 2026-10-21：移除 temperature/top_p/top_k 参数、Admin API 多处字段改名，新版 SDK 与 CLI 默认使用新版本",
           "url": "https://platform.claude.com/docs/en/api/versioning",
@@ -244,13 +251,6 @@
           "source": "Omnara",
           "date": "2026-10-22",
           "summary": "提供 REST API 控制面，管理持久化智能体的工具、密钥、权限、流式输出与状态；可用 Docker Compose 本地运行，或在自有 VPC 中基于 Postgres、Redis、S3 兼容存储部署，守护进程只需出站连接、无需开放入站端口。"
-        },
-        {
-          "title": "SoMark 开源 1.3B 文档解析模型 OXR-1.0：从零预训、后训练引入递归自我改进（RSI）循环，称在 olmOCR-Bench、OmniDocBench、DocParsingBench 三榜第一，表格解析领先明显",
-          "url": "https://github.com/SoMarkAI/OXR",
-          "source": "GitHub · SoMarkAI",
-          "date": "2026-10-21",
-          "summary": "把 PDF 与文档图片转成带版面坐标与阅读顺序的 Markdown/JSON，识别公式、表格、化学方程式与结构式、代码块等 13 类元素；首次把版面分析模块独立为可插拔组件，可替换为自定义版面模型；权重已上架 Hugging Face 与魔搭，提供免费 API 与在线 Demo。"
         }
       ]
     },
@@ -323,6 +323,20 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "海关总署：今年 1-8 月我国手术机器人出口 6.72 亿元、同比增长 272.92%，广东机器人出口总额全国第一，上海手术机器人出口全国第一",
+          "url": "https://www.ithome.com/1/016/738.htm",
+          "source": "IT之家（央视财经）",
+          "date": "2026-10-22",
+          "summary": "在海关统计的 13 个机器人品类中，智能仿生机器人出口 11.68 亿元排在手术机器人之前，清洁机器人占出口总额约七成；广东前 8 个月机器人出口 147.18 亿元。弗若斯特沙利文预计中国手术机器人市场将从 2026 年 224.5 亿元增至 2030 年 708.5 亿元。"
+        },
+        {
+          "title": "极米推出“记得”系列 AI 记忆硬件：AI 记忆手环 L1（手环/吊坠两用）与 17.9g 的 AI 记忆眼镜 G1 上架，全天候录音并自动整理纪要与待办",
+          "url": "https://www.ithome.com/1/016/753.htm",
+          "source": "IT之家",
+          "date": "2026-10-22",
+          "summary": "手环支持基于个人记忆的 AI 对话、到点提醒，原始音频用完即删、记忆加密存于手机，综合续航 2–5 天；售价暂未公布。"
+        },
+        {
           "title": "蚂蚁百灵开源医疗增强 MoE 模型 Ling-3.0-flash-Sante：124B 总参数、每 token 仅激活 5.1B，256K 上下文，称在同尺寸模型中专业医疗任务领先",
           "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
           "source": "Hugging Face · inclusionAI",
@@ -363,20 +377,6 @@
           "source": "网经社",
           "date": "2026-10-22",
           "summary": "此前经过一段时间灰度测试后正式上线，这是红果在 AI 短剧生产之外首次把对话式 AI 接入用户端找剧场景；AI 回复中可弹出带播放按钮的短剧卡片，关注小果 AI 账号还可自动预约平台新上的 AI 短剧。"
-        },
-        {
-          "title": "字节火山引擎启动 Seedance 2.5 4K 视频模型首批企业试用：与作品绑定、定向供应全球 20 家工作室与导演，最早下月有卫视 S 级 IP 播出",
-          "url": "https://www.ithome.com/1/016/329.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "4K 版被称为 Seedance 2.5 这一代最强模型，除画面细节外主打更细腻的人物表演与更精细的参考生成、编辑一致性，瞄准大银幕高端影视需求，目前在用的 20 部作品中还有全球大 IP 电影；公开页面暂未开放 4K 申请入口。"
-        },
-        {
-          "title": "蚂蚁数科发布决策模型 LingDT-Decision-1.0（4B/27B）：面向客服、风控、金融等结构化决策，称较通用大模型 Token 消耗降超 90%、响应快 10 倍，首创原生多选与按序决策",
-          "url": "https://news.aibase.com/zh/news/31800",
-          "source": "AIbase",
-          "date": "2026-10-22",
-          "summary": "官方称在 23 项开源评测基准上，27B 版本综合评分超过 Microsoft-Decision-1、Jev1.13.0、Fastino/GLiDE 等决策模型，为同参数量最高准确率；多选任务上 4B 与 27B 均领先 16 个对比模型。模型已上线蚂蚁数科 DTMaaS 平台，开发者可限时免费体验。"
         }
       ]
     },
@@ -449,6 +449,20 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@AnthropicAI",
+          "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+          "source": "X · Anthropic",
+          "date": "2026-10-22",
+          "summary": "Anthropic 在 Frontier Red Team 博客发布用 Claude 大规模形式化验证软件的研究：形式化验证可证明代码不含特定类别漏洞，过去只适用于小代码库或需大量专家时间。"
+        },
+        {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2113392228085182672",
+          "source": "X · TechCrunch",
+          "date": "2026-10-22",
+          "summary": "TechCrunch：OpenAI 若在本轮融资中拿到超 1 万亿美元估值，将创下私营公司估值纪录。"
+        },
+        {
           "title": "@business",
           "url": "https://x.com/business/status/2113378118090035693",
           "source": "X · Bloomberg",
@@ -489,20 +503,6 @@
           "source": "X · AntLingAGI",
           "date": "2026-10-22",
           "summary": "蚂蚁百灵宣布正式开源 Ling-3.0-flash-Sante：124B 总参、5.1B 激活的医疗增强 MoE 模型，称在专业医疗任务上领先同尺寸模型。"
-        },
-        {
-          "title": "@ClaudeDevs",
-          "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
-          "source": "X · ClaudeDevs",
-          "date": "2026-10-22",
-          "summary": "Anthropic 官方开发者账号宣布把 Agent Skills 捐给 Agentic AI Foundation（与 MCP 同一归宿）：原有技能照常可用、许可证不变，不加入 AAIF 也能使用和贡献。"
-        },
-        {
-          "title": "@bcherny",
-          "url": "https://x.com/bcherny/status/2113333859907747871",
-          "source": "X · Boris Cherny",
-          "date": "2026-10-22",
-          "summary": "Claude Code 负责人 Boris Cherny：Agent Skills 起初只是 Claude Code 里的一个实验，如今已被业界广泛采用，因此决定捐给 AAIF、与 MCP 并列。"
         }
       ]
     }

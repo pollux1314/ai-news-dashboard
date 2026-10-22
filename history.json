@@ -1,7 +1,95 @@
 {
- "updated": "2026-10-23T05:30:00+08:00",
- "count": 1330,
+ "updated": "2026-10-23T06:35:00+08:00",
+ "count": 1338,
  "items": [
+  {
+   "title": "Amazon Polly 生成式语音引擎大升级：语音更自然、数字和地址朗读更准确且保持低延迟，新增 9 个语种地区的 14 个声音，印地语、芬兰语首次正式可用",
+   "url": "https://aws.amazon.com/blogs/machine-learning/amazon-polly-delivers-a-major-upgrade-to-its-generative-engine/",
+   "source": "AWS",
+   "date": "2026-10-22",
+   "summary": "AWS 称这是“即插即用”的升级，现有生成式声音原地升级，无需改代码、不涨价，已在生产环境全面可用。",
+   "id": "bb00f30901ceeb0e8e9e6378118d96b91ac4845a",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
+  {
+   "title": "TechCrunch：OpenAI 正推进新一轮约 300 亿美元融资、估值约 1.25 万亿美元，赶在 IPO 之前；若成行将成为史上估值最高的私营公司",
+   "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "此前路透报道 OpenAI 正赶在 Anthropic 11 月 IPO 前融资约 300 亿美元；TechCrunch 最新报道给出的估值约为 1.25 万亿美元，高于其 3 月 8520 亿美元的估值。",
+   "id": "d73c3fbf5a8b67dc1d22ca06d8927bb1c1990571",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
+  {
+   "title": "Anthropic Frontier Red Team 联合 Theorem 用 Claude 大规模做形式化验证：在 100 多个真实开源库的 RISC-V 汇编层面证明安全属性，并发现多年未被测出的漏洞",
+   "url": "https://www.anthropic.com/research/formal-verification",
+   "source": "Anthropic",
+   "date": "2026-10-22",
+   "summary": "Anthropic 称这是首个用 AI 在汇编层面对生产软件做大规模形式化验证的尝试：基于 Theorem 的 RISC-V 指令与 Linux 进程语义生成规格，由 Claude 编写证明、Rocq 内核检查；撰写证明过程中 Claude 还找到了经数万亿次测试仍未暴露的漏洞。部分证明与添加项目用的 Claude skill 已在 GitHub 开源，Anthropic 预计形式化验证将成为安全软件开发的必要环节。",
+   "id": "1360bd8eb5a8e67e4ab18c0f5a157bdb371ed6d2",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
+  {
+   "title": "Amazon SageMaker AI 无服务器模型定制新增 training sessions（正式可用）：开发者自己写后训练循环（自定义损失、奖励信号、多轮强化学习），GPU 分配、分布式执行、故障恢复与检查点由 SageMaker 托管",
+   "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
+   "source": "AWS",
+   "date": "2026-10-22",
+   "summary": "AWS 同日发布多项无需管理 GPU 的模型定制新方式，training sessions API 让团队在不自建集群的情况下做定制化后训练与 RL。",
+   "id": "f70f2a2dbc3bc9ce36070a8c3d44d40311aebeda",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
+  {
+   "title": "海关总署：今年 1-8 月我国手术机器人出口 6.72 亿元、同比增长 272.92%，广东机器人出口总额全国第一，上海手术机器人出口全国第一",
+   "url": "https://www.ithome.com/1/016/738.htm",
+   "source": "IT之家（央视财经）",
+   "date": "2026-10-22",
+   "summary": "在海关统计的 13 个机器人品类中，智能仿生机器人出口 11.68 亿元排在手术机器人之前，清洁机器人占出口总额约七成；广东前 8 个月机器人出口 147.18 亿元。弗若斯特沙利文预计中国手术机器人市场将从 2026 年 224.5 亿元增至 2030 年 708.5 亿元。",
+   "id": "36ac80125b7167b843e350ea8fa55162da9ec438",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
+  {
+   "title": "极米推出“记得”系列 AI 记忆硬件：AI 记忆手环 L1（手环/吊坠两用）与 17.9g 的 AI 记忆眼镜 G1 上架，全天候录音并自动整理纪要与待办",
+   "url": "https://www.ithome.com/1/016/753.htm",
+   "source": "IT之家",
+   "date": "2026-10-22",
+   "summary": "手环支持基于个人记忆的 AI 对话、到点提醒，原始音频用完即删、记忆加密存于手机，综合续航 2–5 天；售价暂未公布。",
+   "id": "a90ae4fe91b4a17aa1042f84ad1df7fc67a3b809",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI",
+   "url": "https://x.com/AnthropicAI/status/2113390212911083894",
+   "source": "X · Anthropic",
+   "date": "2026-10-22",
+   "summary": "Anthropic 在 Frontier Red Team 博客发布用 Claude 大规模形式化验证软件的研究：形式化验证可证明代码不含特定类别漏洞，过去只适用于小代码库或需大量专家时间。",
+   "id": "27392338b6b82228b38d87b51430fb41d708a961",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113392228085182672",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch：OpenAI 若在本轮融资中拿到超 1 万亿美元估值，将创下私营公司估值纪录。",
+   "id": "4b4d1b174c1ba24131a3cc3824e95762462236eb",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T06:35:00+08:00"
+  },
   {
    "title": "Meta 修复 Muse 分享链接泄露问题并恢复分享：此前被公开 DNS 记录暴露的“artifact”分享页已全部换新网址，旧链接失效",
    "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
