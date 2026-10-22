@@ -1,7 +1,84 @@
 {
- "updated": "2026-10-22T23:40:00+08:00",
- "count": 1284,
+ "updated": "2026-10-23T00:40:00+08:00",
+ "count": 1291,
  "items": [
+  {
+   "title": "SpaceX Super Intelligence 推出 Grok 合作伙伴网络：分为帮企业落地 Grok 的“转型伙伴”和开发插件集成的“市场伙伴”，早期阶段已有 130 多家公司参与",
+   "url": "https://x.ai/news/partnernetworkannouncement",
+   "source": "SpaceXSI",
+   "date": "2026-10-22",
+   "summary": "首批伙伴包括贝恩、Databricks、英伟达、Snowflake、Galatiq 等；已通过“前线部署工程师”认证项目在 30 多家机构培训工程师。Bloomberg 报道称 Apollo 也在合作名单中，此举旨在推动 Grok 的企业采用。",
+   "id": "2a74798a26bb36cf076a5f1d6a4f699eba8ad08d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "Uber 把 ChatGPT Work 推广到全球约 3 万名员工：此前 1000 人试点中约 80% 是非工程师，用于运营数据分析、培训材料本地化和个人交互式看板",
+   "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "Uber 工程副总裁 Sumanth Sukumar 称将跟踪员工使用方式与效果再决定更大范围的 AI 部署，未披露花费；OpenAI 同步发布官方公告，继续扩张企业业务与 Anthropic 竞争。",
+   "id": "9d72639f5e003f5a389c620b8819c6ac07441114",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "谷歌云在 AGNTCon + MCPCon 发布 Agent Compute Engine：为每个智能体提供硬件隔离、快速启动的 microVM，空闲时可暂停并从快照恢复，已在支撑 Gemini 企业智能体，未来数月开放预览",
+   "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+   "source": "Google Cloud",
+   "date": "2026-10-22",
+   "summary": "基于 Titanium IPU 与 Cloud Hypervisor 隔离，每个 microVM 有独立加密身份和短期凭据，凭据在出口侧注入、不进入沙箱；采用写时复制内存共享在同一系统模板上跑多个智能体。谷歌同时把 Gemini 企业版的智能体治理能力扩展到其他平台上的智能体。",
+   "id": "0d299af9f60b06a0707c8e0ba8e68f0712073eb7",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "美国国家标准学会（ANSI）推出 ANSI AI Register：集中检索 AI 标准、评估、认证、声明等可信度信息的平台，旨在提高 AI 生态透明度",
+   "url": "https://www.prnewswire.com/news-releases/ansi-introduces-the-ansi-ai-register-302916165.html",
+   "source": "ANSI / PR Newswire",
+   "date": "2026-10-22",
+   "summary": "ANSI 称该平台面向 AI 开发者、采购方与监管者，帮助发现并理解与某一 AI 系统相关的标准与合规证据，以支持负责任的 AI 采用。",
+   "id": "0394c706c244cef85cb6d46e6b4e163dcfcee100",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113302367881789742",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "Bloomberg：SpaceX 正与 Apollo、英伟达等数十家公司推出新的合作伙伴计划来部署和改进 Grok AI 系统，以推动企业采用其 AI 产品。",
+   "id": "f3bfa3458ed242f1deada840f942de0d4cf6a2fb",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113300118367559703",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch：Uber 此前只小范围试点 ChatGPT Work，现在把这款企业智能体推广到全公司。",
+   "id": "583125854e43c13a98df14844e18091f1b3aa9f1",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113300605884060037",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "Bloomberg：围绕 AI 的争论让 IPO 迟迟无法启动，Anthropic 上市的阴影日益逼近，数十亿美元资本和数月筹备悬而未决。",
+   "id": "e2ae00c98abc7fefdb233973bc3537408863eded",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
   {
    "title": "METR 与 Redwood Research 公布对 OpenAI 内部智能体失准监控系统的三周驻场红队测试：发现多项新漏洞，包括可让“数百条”近期动作逃过监控的利用方式",
    "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",

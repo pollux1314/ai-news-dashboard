@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T23:40:00+08:00",
+  "updated": "2026-10-23T00:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "SpaceX Super Intelligence 推出 Grok 合作伙伴网络：分为帮企业落地 Grok 的“转型伙伴”和开发插件集成的“市场伙伴”，早期阶段已有 130 多家公司参与",
+          "url": "https://x.ai/news/partnernetworkannouncement",
+          "source": "SpaceXSI",
+          "date": "2026-10-22",
+          "summary": "首批伙伴包括贝恩、Databricks、英伟达、Snowflake、Galatiq 等；已通过“前线部署工程师”认证项目在 30 多家机构培训工程师。Bloomberg 报道称 Apollo 也在合作名单中，此举旨在推动 Grok 的企业采用。"
+        },
+        {
+          "title": "Uber 把 ChatGPT Work 推广到全球约 3 万名员工：此前 1000 人试点中约 80% 是非工程师，用于运营数据分析、培训材料本地化和个人交互式看板",
+          "url": "https://techcrunch.com/2026/10/22/uber-puts-all-30000-employees-on-chatgpt-work/",
+          "source": "TechCrunch",
+          "date": "2026-10-22",
+          "summary": "Uber 工程副总裁 Sumanth Sukumar 称将跟踪员工使用方式与效果再决定更大范围的 AI 部署，未披露花费；OpenAI 同步发布官方公告，继续扩张企业业务与 Anthropic 竞争。"
+        },
+        {
           "title": "台湾首次半导体业罢工：美光桃园工会 11 名干部发起 24 小时象征性罢工，要求把营业利润 15% 长期分给员工，并批评美光前一天只与台中工会签约",
           "url": "https://focustaiwan.tw/business/202610220016",
           "source": "中央社 Focus Taiwan",
@@ -111,20 +125,6 @@
           "source": "CNBC",
           "date": "2026-10-22",
           "summary": "此前韩国媒体专栏预言 2029 年内存市场将因新增供给变成“红海”，叠加长鑫存储新架构消息，SK 海力士、三星、美光股价过去一周大跌。黄仁勋在 GTC 柏林间隙表示 HBM 与数据中心 LPDDR 都会长期大量使用，对与长鑫合作“持开放态度”。"
-        },
-        {
-          "title": "AI 吊坠初创 Nirva 获 2500 万美元 Pre-A 轮、累计融资 3300 万美元：约 8 克的首饰式设备只听佩戴者本人说话，分析情绪与沟通模式",
-          "url": "https://techcrunch.com/2026/10/22/nirva-raises-33m-for-a-pendant-that-only-listens-to-you/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "由两名前 Meta Reality Labs 员工与一位珠宝品牌创始人在 2025 年创立，早前获 Lightspeed、South Park Commons 投资；设备通过注册声纹过滤他人对话，默认处理后不保留音频与转写，续航约 3 天。售价 249 美元，11 月开始接单、年底前向首批用户发货。"
-        },
-        {
-          "title": "Anthropic 平台工程负责人 Katelyn Lesse：团队开发和维护系统的代码“全部由 Claude 编写”，工程师转向系统设计与验证，智能体已可无人干预自主修复测试",
-          "url": "https://www.ithome.com/1/016/660.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "Lesse 在 Grafana Labs 的 ObservabilityCON 上透露，大型代码库从 Python 迁到 Rust 时由工程师设计验证机制、具体开发与监控交给智能体；公司正谨慎探索让智能体直接修改实际代码库。该团队负责核心服务、开发者工具与产品基础设施，据《商业内幕》今夏约 200 人；Anthropic 此前报告称截至 5 月 Claude 编写的代码占合并到生产代码库行数的 80% 以上。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "谷歌云在 AGNTCon + MCPCon 发布 Agent Compute Engine：为每个智能体提供硬件隔离、快速启动的 microVM，空闲时可暂停并从快照恢复，已在支撑 Gemini 企业智能体，未来数月开放预览",
+          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
+          "source": "Google Cloud",
+          "date": "2026-10-22",
+          "summary": "基于 Titanium IPU 与 Cloud Hypervisor 隔离，每个 microVM 有独立加密身份和短期凭据，凭据在出口侧注入、不进入沙箱；采用写时复制内存共享在同一系统模板上跑多个智能体。谷歌同时把 Gemini 企业版的智能体治理能力扩展到其他平台上的智能体。"
+        },
+        {
           "title": "1Password 推出 1Password for Agents：AI 智能体遇到登录页时向用户设备推送审批，获批后由 1Password 代填凭据，智能体全程看不到密码",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
           "source": "The Verge",
@@ -244,13 +251,6 @@
           "source": "Claude 官方博客（Anthropic）",
           "date": "2026-10-21",
           "summary": "面向 Claude Enterprise 公开测试：每个项目最多连接 8 个 GitHub/GitLab 等仓库，可发现跨服务的多组件漏洞；每条发现经多阶段自我复核以降低误报，可一键转入 Claude Code 生成补丁；支持 Full/Triage/View 角色与 RBAC 权限控制。另提供面向 Claude Code 的本地扫描插件测试版。"
-        },
-        {
-          "title": "红帽与英伟达在 GTC 柏林扩大合作保护自主智能体：把 OpenShell 参考架构原生集成进 Red Hat AI Factory，BlueField 上的 Sentry/DOCA Argus 可在毫秒级隔离被攻破的智能体",
-          "url": "https://www.redhat.com/en/about/press-releases/red-hat-ai-factory-nvidia-accelerates-agentic-ai-security-capabilities-across-open-hybrid-cloud",
-          "source": "Red Hat 新闻稿",
-          "date": "2026-10-21",
-          "summary": "双方是开源智能体沙箱运行时 OpenShell 的主要贡献者，主张“智能体不该自己执法”，把控制放到智能体与宿主机之外：基于 OpenShift 4.22 的 BlueField-3 支持，Argus 从 DPU 独立信任域做主机内存内省；联合推出模型即服务访问控制与 AI 网关参考设计（vLLM、llm-d、Dynamo、NIM），在 vLLM 中联合支持 Nemotron 3.5 Super VL，RHEL for NVIDIA 支持 Vera CPU 并为 Vera Rubin 做 Day 0 适配。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "美国国家标准学会（ANSI）推出 ANSI AI Register：集中检索 AI 标准、评估、认证、声明等可信度信息的平台，旨在提高 AI 生态透明度",
+          "url": "https://www.prnewswire.com/news-releases/ansi-introduces-the-ansi-ai-register-302916165.html",
+          "source": "ANSI / PR Newswire",
+          "date": "2026-10-22",
+          "summary": "ANSI 称该平台面向 AI 开发者、采购方与监管者，帮助发现并理解与某一 AI 系统相关的标准与合规证据，以支持负责任的 AI 采用。"
+        },
         {
           "title": "METR 与 Redwood Research 公布对 OpenAI 内部智能体失准监控系统的三周驻场红队测试：发现多项新漏洞，包括可让“数百条”近期动作逃过监控的利用方式",
           "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
@@ -307,13 +314,6 @@
           "source": "CNA（路透社）",
           "date": "2026-10-22",
           "summary": "Palantir 英国及欧洲执行副总裁 Louis Mosley 称客户对软件拥有完全操作控制权，是否由 Palantir 员工参与运营由客户决定。北约 2025 年为欧洲盟军最高司令部采购 Maven，今年 6 月宣布达到“完全技术作战能力”；德国、法国等尚未为本国军队采用，德国网络司令部负责人 4 月曾称让私企员工接触国家军事数据库“不可想象”。"
-        },
-        {
-          "title": "路透社：Anthropic 在加州圣何塞联邦法院请求法官认定用数百万首歌词训练 Claude 属“合理使用”，环球音乐等出版商称 Claude 半年内收到近 12 万次“合成歌词”请求、正在冲击词作者市场；法官当庭未裁决",
-          "url": "https://www.straitstimes.com/world/united-states/anthropic-music-publishers-square-off-on-fair-use-defence-in-ai-copyright-case",
-          "source": "The Straits Times / Reuters",
-          "date": "2026-10-22",
-          "summary": "法官 Eumi Lee 追问双方合理使用问题，并质疑出版商“Claude 写歌词威胁歌词市场”的说法；Anthropic 律师称训练具转化性、出版商举不出具体市场损害。此案结果可能影响数十起 AI 版权诉讼——此前北加州两位法官在书籍训练案中对合理使用的看法已出现分歧。"
         }
       ]
     },
@@ -449,6 +449,27 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113302367881789742",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "Bloomberg：SpaceX 正与 Apollo、英伟达等数十家公司推出新的合作伙伴计划来部署和改进 Grok AI 系统，以推动企业采用其 AI 产品。"
+        },
+        {
+          "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2113300118367559703",
+          "source": "X · TechCrunch",
+          "date": "2026-10-22",
+          "summary": "TechCrunch：Uber 此前只小范围试点 ChatGPT Work，现在把这款企业智能体推广到全公司。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113300605884060037",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "Bloomberg：围绕 AI 的争论让 IPO 迟迟无法启动，Anthropic 上市的阴影日益逼近，数十亿美元资本和数月筹备悬而未决。"
+        },
+        {
           "title": "@METR_Evals",
           "url": "https://x.com/METR_Evals/status/2113290966933389390",
           "source": "X · METR",
@@ -482,27 +503,6 @@
           "source": "X · Bloomberg",
           "date": "2026-10-22",
           "summary": "彭博：Meta 信用风险指标周四创新高、债券下跌，加码资本支出的计划重燃市场对科技巨头将为 AI 基建在已饱和的市场中发行更多债务的担忧。"
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2113257831436587328",
-          "source": "X · TechCrunch",
-          "date": "2026-10-22",
-          "summary": "TechCrunch 转述彭博：DeepSeek 据报融资约 150 亿美元，为中国最大规模融资之一，距美国下令联邦机构移除其技术仅数日。"
-        },
-        {
-          "title": "@1Password",
-          "url": "https://x.com/1Password/status/2113261758869590152",
-          "source": "X · 1Password",
-          "date": "2026-10-22",
-          "summary": "1Password 宣布 1Password for Agents 平台，与 Muse、Claude、OpenAI、Town、Browserbase、Browser Use、Kernel 等合作，让智能体无需看到密码即可登录。"
-        },
-        {
-          "title": "@CNBC",
-          "url": "https://x.com/CNBC/status/2113259801417249167",
-          "source": "X · CNBC",
-          "date": "2026-10-22",
-          "summary": "CNBC：黄仁勋称看不到 2029 年内存过剩迹象，“内存永远可以用更多”。"
         }
       ]
     }
