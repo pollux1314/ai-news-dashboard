@@ -1,7 +1,139 @@
 {
- "updated": "2026-10-22T16:35:15+08:00",
- "count": 1217,
+ "updated": "2026-10-22T17:45:00+08:00",
+ "count": 1231,
  "items": [
+  {
+   "title": "Mirendil 公布首个预训练模型 Mirendil-Base：1 名研究员指挥 AI 智能体、3.5 个月、全口径算力不到 1000 万美元从零预训出 100B–500B 级编码基座，智能体写了 99% 以上代码",
+   "url": "https://mirendil.com/news/pretraining-at-scale-without-a-pretraining-team/",
+   "source": "Mirendil",
+   "date": "2026-10-22",
+   "summary": "前 Anthropic/DeepMind 研究员 Behnam Neyshabur 创办的 RSI 方向实验室 Mirendil 称，训练基础设施、架构、数据管线均从空仓库由智能体搭建，只用公开数据、无蒸馏与合成数据；自家留出代码 BPB 平均 0.222，优于 GLM-5.3、DeepSeek-V4-Pro-Base、Nemotron-550B-Base，仅次于 Kimi-K3。更大的 Base-Large（500B–2T）已训 80%、Base-XL（2T–10T）训 19%，目前尚未开放权重，已开始后训练（暂无独立评测）。",
+   "id": "c8c1e45e53fb34a48d086d916826e470d8f0b7e9",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "日经平均收跌 1713 点（-2.65%）至 62907 点、创 7 月 30 日以来新低：Meta 财报显示巨额 AI 投资拖累财务，引发东京电子、软银等“AI 卖铲股”抛售",
+   "url": "https://www.nikkei.com/article/DGXZQOFL220O0TS6A021C2000000/",
+   "source": "日本经济新闻",
+   "date": "2026-10-22",
+   "summary": "Meta 三季度营收超预期，但资本开支激增致自由现金流转负，市场担忧 AI 基建投资能否在 2027 年后持续，前一日因 SpaceX 财报走强的 AI 与半导体股遭集中获利了结；共同社称日元因避险买盘一度升至 156 区间。",
+   "id": "d22c8ca333120e9bc0d3c8f81bf3f40b190d8cec",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "法美初创 Reduck 获 300 万美元前种子轮、Daphni 领投：Reduck MCP 让 AI 智能体调用预制浏览器自动化脚本操作无 API 网站，称可让智能体提速、降本约 3 倍",
+   "url": "https://tech.eu/2026/10/22/reduck-secures-3m-to-make-web-automation-faster-for-ai-agents/",
+   "source": "Tech.eu",
+   "date": "2026-10-22",
+   "summary": "脚本库已覆盖 250 多个网站、1200 多个可直接运行的自动化脚本（如批量下载供应商发票、LinkedIn 市场调研），并在开发能自主创建与维护脚本的智能体系统；后续将推出面向开发者的产品，对接保险、医疗等专用门户与内部 CRM。",
+   "id": "66b646f8f5de0c71819c107c4a373eb6b31f11c3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "Cache Engineering for Agents（清华 NICS-EFC）：让智能体直接用 drop/repos 操作控制自身 KV 缓存而非裁剪摘要上下文，配套 AKV 推理引擎，平均成本降 27.7%、得分升 1.7 分",
+   "url": "https://arxiv.org/abs/2610.28577",
+   "source": "arXiv · 2610.28577",
+   "date": "2026-10-22",
+   "summary": "传统“上下文工程”改写前缀会令后续缓存失效、需重新 prefill；作者提出“缓存工程”，并指出相同 token 序列可能对应不同缓存状态、前缀匹配不足以保证复用正确，因此协同设计了基于 SGLang、对外无状态的 AKV 引擎：吞吐最高 1.2 倍、P95 延迟提速 1.5 倍，缓存策略经递归自我改进再省 7.1%。代码已开源（thu-nics/AKV）。",
+   "id": "e1a68b9af98c3bf6946a9c104bf644370a90bfb5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "UCSB 等构建“AI 研究团队”自主搜索线性注意力架构：不同学科背景、各自保留私有研究史的 AI 研究员共享实验证据并按预算自适应分配机会，1.3B 规模发现的架构超过 GDN2",
+   "url": "https://arxiv.org/abs/2610.28887",
+   "source": "arXiv · 2610.28887",
+   "date": "2026-10-22",
+   "summary": "在语言建模、常识推理与合成/真实检索任务上均优于 Gated DeltaNet-2；消融显示去掉学科背景会过早停滞、去掉私有历史即使共享同样证据也进展更少、均匀选人不如自适应分配，作者认为持续自主发现不仅取决于更强的智能体，还取决于“谁来探索、记住什么、算力如何分配”。",
+   "id": "1cc9e8737f337450b960cc43d41b3f0221c194c9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "Qwen-Audio-3.1-ASR 技术报告：阿里通义新一代语音识别模型家族，新增说话人分离转写与通用音频理解，支持 30 种语言与 16 种汉语方言",
+   "url": "https://arxiv.org/abs/2610.28711",
+   "source": "arXiv · 2610.28711",
+   "date": "2026-10-22",
+   "summary": "在 3.0 基础上提升识别准确率，保留历史上下文、分层热词与原生转写润色等指令控制能力；说话人分离输出带标签与时间戳并处理重叠语音，通用音频理解覆盖音频/语音/音乐描述、时间定位、声音事件检测与音频问答；提供异步文件、低延迟流式、交互语音输入与非流式等多个部署变体。",
+   "id": "aa6645f7e9e09e465e988189b63b0e68d39564e4",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "意大利 AI 法实施令 D.Lgs. 179/2026 于 10 月 23 日生效：招聘、考核、处分、解雇等人事决定不得完全交由自动化处理，违规解雇无效，员工有权要求解释 AI 在决策中的作用",
+   "url": "https://blog.pwc.it/ia-cosa-cambia-23-ottobre/",
+   "source": "PwC Italia",
+   "date": "2026-10-22",
+   "summary": "该法令 10 月 7 日通过，用于衔接欧盟《AI 法案》：第 41 条要求最终决定由能独立评估算法结果的自然人作出（简历初筛等仍可自动化）；AI 对工作组织、节奏与安全的影响须纳入职业风险评估；并指定国家网络安全局（ACN）与数字意大利局（AgID）为 AI 法案主管机构。",
+   "id": "e55468a4e16ac87a57b5209a44c85f11c4873de1",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "字节火山引擎启动 Seedance 2.5 4K 视频模型首批企业试用：与作品绑定、定向供应全球 20 家工作室与导演，最早下月有卫视 S 级 IP 播出",
+   "url": "https://www.ithome.com/1/016/329.htm",
+   "source": "IT之家",
+   "date": "2026-10-22",
+   "summary": "4K 版被称为 Seedance 2.5 这一代最强模型，除画面细节外主打更细腻的人物表演与更精细的参考生成、编辑一致性，瞄准大银幕高端影视需求，目前在用的 20 部作品中还有全球大 IP 电影；公开页面暂未开放 4K 申请入口。",
+   "id": "e4cc65ab4e7ee1bbf6ca2fdd71e89f5e881e340b",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "renjiegod/dyt-ashare-cli",
+   "url": "https://github.com/renjiegod/dyt-ashare-cli",
+   "source": "GitHub · Rust · ⭐ 301（10 月 20 日新建）",
+   "date": "2026-10-22",
+   "summary": "DYT CN：面向量化研究与 AI Agent 的 A 股历史分钟数据命令行工具 dytcn（MIT），可查询分钟 K 线、确认数据覆盖并下载研究数据集，附带供智能体调用的 Agent Skills，游客额度内免 API Key 试用（更长历史与批量下载为付费服务）。",
+   "id": "96660a7c0b0203c7bf77759f1ef9dd8832ff8fbe",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "y0usaf/pi-ampersand",
+   "url": "https://github.com/y0usaf/pi-ampersand",
+   "source": "GitHub · TypeScript · ⭐ 93（10 月 21 日新建）",
+   "date": "2026-10-22",
+   "summary": "让 humans& 的协作者模型 Ampersand 旁听 pi 编码智能体会话、只在有价值时发言的插件：只看双方对话文本、不看工具调用与文件改动，不能执行操作；/amp on/off 控制，消息以“AI observer”标签进入记录并会被 pi 模型下一轮看到。",
+   "id": "3d3635e2d7a321f4718ca63e61ea08b8ec35103f",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "@bneyshabur",
+   "url": "https://x.com/bneyshabur/status/2112941025862008949",
+   "source": "X · Behnam Neyshabur",
+   "date": "2026-10-22",
+   "summary": "Mirendil 创始人：正式亮相不到 4 个月，迎来里程碑——“没有预训练团队的规模化预训练”，使命是攻克递归自我改进并让前沿 AI 研发民主化（帖子获 1100+ 赞、17 万浏览）。",
+   "id": "d070bb26dc9fd83f9d1dd5110c0bf0ae4ae2eaf3",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "@nikkei",
+   "url": "https://x.com/nikkei/status/2113158375466778816",
+   "source": "X · 日本经济新闻",
+   "date": "2026-10-22",
+   "summary": "日经：日经平均收跌 1713 点，Meta 财务隐忧引发“AI 卖铲股”抛售。",
+   "id": "05e7420b63c3f9bc454bc4b5a003f6ebb5cbab9a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
   {
    "title": "巴克莱银行计划今年裁员约 5000 人、约占员工总数 5%，随全业务线推广 AI，开发等支持岗位成裁员重灾区",
    "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
@@ -1343,6 +1475,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "SoMark 开源 1.3B 文档解析模型 OXR-1.0：从零预训、后训练引入递归自我改进（RSI）循环，称在 olmOCR-Bench、OmniDocBench、DocParsingBench 三榜第一，表格解析领先明显",
+   "url": "https://github.com/SoMarkAI/OXR",
+   "source": "GitHub · SoMarkAI",
+   "date": "2026-10-21",
+   "summary": "把 PDF 与文档图片转成带版面坐标与阅读顺序的 Markdown/JSON，识别公式、表格、化学方程式与结构式、代码块等 13 类元素；首次把版面分析模块独立为可插拔组件，可替换为自定义版面模型；权重已上架 Hugging Face 与魔搭，提供免费 API 与在线 Demo。",
+   "id": "393b016579f58b099796dd0e99458bd1711677ac",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T17:45:00+08:00"
+  },
+  {
+   "title": "奇瑞旗下墨甲机器人在芜湖发布 0.9 米家庭陪伴人形机器人“墨宝”并开启全球预订：22 自由度，自研 MoAgent 具身智能体采用快慢双脑，支持 16 路任务并行",
+   "url": "https://www.prnasia.com/story/552626-1.shtml",
+   "source": "美通社",
+   "date": "2026-10-21",
+   "summary": "墨宝面向“一家三代”提供识物问答、英语互动、陪聊与提醒，以 FaceID 关联分层长期记忆，中断响应不到 0.2 秒；首批 35 位天使用户获一年免费使用权，整机售价未公布。墨甲称全球销量已超 3000 台、进入 60 多个国家和地区，计划首批布局 300 家全球体验中心并打造“甲天下”租赁品牌。",
+   "id": "e7d029eec1f03f98645e040a6ebcd6c8bc1a4eab",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T17:45:00+08:00"
   },
   {
    "title": "LiteLLM 发布管线遭入侵：恶意 1.107.0 版于 10 月 21 日在 PyPI 上线约 2 小时，Docker Hub/GHCR 的 v1.107.0、latest、main-stable 等标签也被替换，植入随 Python 启动即运行的凭证窃取器与远控后门",
