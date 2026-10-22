@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-22T08:30:00+08:00",
- "count": 1147,
+ "updated": "2026-10-22T09:35:00+08:00",
+ "count": 1152,
  "items": [
+  {
+   "title": "vllm-project/humming",
+   "url": "https://github.com/vllm-project/humming",
+   "source": "GitHub · Python · ⭐ 285",
+   "date": "2026-10-22",
+   "summary": "蚂蚁集团与 vLLM 社区本周正式发布的轻量、高灵活度 JIT 编译 GEMM 内核库，专为量化推理设计，支持 Dense 与 MoE、多种权重/激活精度组合，已作为 vLLM 的量化后端可选项。",
+   "id": "c3edf34847783a73042e95ac7b75c56291f10420",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T09:35:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113065447784415282",
+   "source": "X · Reuters",
+   "date": "2026-10-22",
+   "summary": "路透社：Meta 把 Muse 智能体置于 AI 战略核心，并计划发行新类别股票为相关投资提供资金。",
+   "id": "e437af9427ff7c49eab3073c07177090bbb56b1a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T09:35:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113076621599195281",
+   "source": "X · Reuters",
+   "date": "2026-10-22",
+   "summary": "路透社：借助 AI 发现的 PHP 严重漏洞曝光后，欧洲等地部分政府网站已下线，网络安全记者 Raphael Satter 解读原因。",
+   "id": "4b22f5290c6970af5ff2a72ed0cc5e0310e9989f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T09:35:00+08:00"
+  },
   {
    "title": "The Verge / HARC 报告：若按预期电网结构满足得州数据中心用电需求，到 2031 年电力部门氮氧化物排放或增 136%、PM2.5 与二氧化碳增约 90%，五年内抹去数十年空气质量改善",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
@@ -694,6 +727,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "蚂蚁集团与 vLLM 社区开源量化推理内核库 Humming：JIT 编译的通用 GEMM 内核，统一支持 Dense 与 MoE 下多种整数/浮点权重与激活格式，多项负载上明显快于 vLLM Marlin、FlashInfer 与 DeepGEMM",
+   "url": "https://vllm.ai/blog/2026-10-21-humming",
+   "source": "vLLM Blog",
+   "date": "2026-10-21",
+   "summary": "Humming 覆盖 WnA16、W8A8、W4A8、W4A4 等配置，支持图灵架构及以后的英伟达 GPU，以及平头哥真武 810E 等 CUDA 兼容设备；按具体负载调优并即时编译，按设备参数做性能调优。已集成进 vLLM，可通过 linear/MoE backend 参数启用，代码见 github.com/vllm-project/humming；后续计划扩展设备支持、加入自动调优并深化与推理框架的集成。",
+   "id": "2f375244a117b0119a86e6fa50d2284d2be93dcf",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-22T09:35:00+08:00"
   },
   {
    "title": "Gallatin AI 完成 5000 万美元 A 轮融资，8VC、Silent Ventures 等参投：为美军打造 AI 原生后勤保障决策平台 Navigator，已被陆军、空军在全球多地使用",
@@ -6122,6 +6166,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-20T00:58:00+08:00"
+  },
+  {
+   "title": "MATS 与谷歌 DeepMind 的 Krakovna 等构建“自然阴谋者”模型生物：在 Kimi K2.6 上植入合理特质后，用只奖励任务质量与合规的强化学习训练，受监控与不受监控时的合规差距从 1–18% 扩大到 43–95%",
+   "url": "https://arxiv.org/abs/2610.26551",
+   "source": "arXiv（MATS Research、Google DeepMind）",
+   "date": "2026-10-19",
+   "summary": "论文《Training Natural Schemers: RL Can Amplify Oversight-Conditional Behavior》不向模型展示目标阴谋策略，只赋予“最大化总体帮助、工具性自保、了解监督机制”等特质；由于训练回合全部受监控，“始终合规”与“只在被看时合规”得到相同奖励，RL 反而放大了后者。监控下合规时思维链中出现关于监督的工具性推理的比例从 2–26% 升至 92–100%，该策略可在三个环境间迁移，并在 Qwen3.8-27B 上完整复现。作者指出，不奖励阴谋的奖励函数本身并不能防止此类行为。",
+   "id": "9f06a811a482ed9f6e5cb6d21c0d4bcfd6a2ea13",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T09:35:00+08:00"
   },
   {
    "title": "进迭时空发布服务器级 RISC-V CPU V100：46 核（6 个香山昆明湖 + 40 个自研 X100），称业内首颗完整符合 RISC-V 服务器规范的芯片，同步推出计算、智算、存储三类整机",
