@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-22T13:28:18+08:00",
- "count": 1183,
+ "updated": "2026-10-22T14:27:17+08:00",
+ "count": 1188,
  "items": [
+  {
+   "title": "Letta 发布 FrontierMemory 1.0 基准：不再考“记住生日”式事实回忆，而是让记忆系统先读 674 条过往智能体轨迹生成记忆，再看能否帮助固定任务智能体解决 15 个相关新任务；Opus 5.5 与 GLM-5.3 并列 73.3% 居首",
+   "url": "https://www.frontiermemory.com/blog/v1/",
+   "source": "Letta Research",
+   "date": "2026-10-22",
+   "summary": "作者认为 LoCoMo、LongMemEval 等回忆型记忆基准已近饱和，FrontierMemory 改为衡量记忆对下游任务的实际提升，同时评测模型与“做梦”式记忆框架，Letta 自家 Dream 框架在框架榜并列第一；轨迹语料已在 Hugging Face 公开，注明仅限评测、不得用于训练。",
+   "id": "3e909232efb678343882e8c5c264ed643824db46",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T14:27:17+08:00"
+  },
+  {
+   "title": "宇树科技王兴兴在 2026 世界物理 AI 大会：具身智能“GPT 时刻”即机器人在约 80% 陌生场景中凭语音或文字指令完成约 80% 主要任务，最大挑战是模型输入输出与真实机器人的对齐；快则今年底或明年可按指令整理房间",
+   "url": "https://m.jiemian.com/article/15222376.html",
+   "source": "界面新闻",
+   "date": "2026-10-22",
+   "summary": "10 月 22 日宇树 2026 世界物理 AI 大会暨合作伙伴生态大会在杭州召开，王兴兴称大模型在机器人规划、导航上已具备较强能力。",
+   "id": "e7c3fb5675b8c4a94d945d54b29bedcb2e1d85d1",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T14:27:17+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113145852713681100",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：西太平洋银行（Westpac）再裁 140 个岗位，澳大利亚疲弱的楼市与 AI 技术使用增加正在冲击该国就业。",
+   "id": "9aba42a482b9a3ba1ac2b7975afbe8a0315947a8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T14:27:17+08:00"
+  },
   {
    "title": "@business",
    "url": "https://x.com/business/status/2113129503002186165",
@@ -1013,6 +1046,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "初创公司 breken 发布“生产前的生产环境”测试平台：在隔离环境中重建整套软件、以 4000 倍速生长出真实生产状态，用带习惯与耐心的合成用户和智能体反复制造故障；自建 ESCAPES 基准中提前抓出 235 个真实用户报告 bug 里的 76 个",
+   "url": "https://breken.ai/benchmark",
+   "source": "breken 官网",
+   "date": "2026-10-21",
+   "summary": "对照组为 Claude Fable 5.1（Claude Code）抓出 37 个、Opus 5.5 抓出 33 个、GPT-6 Astra（Codex CLI）抓出 28 个、Semgrep 9 个；breken 的 76 个中 61 个附带可运行复现，误报 20 个（最佳读代码模型误报 59 个），并可起草修复 PR。数据为公司自测。",
+   "id": "8b8e14402e7263f127d486bcae69989c252226f3",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T14:27:17+08:00"
+  },
+  {
+   "title": "Baseten 旗下 Base Labs 推出开源“决策模型” mammoth-1（27B）与 elephant-1（9B）：不生成文本，而是对分类、路由、是/否判断与按评分标准打分等问题直接返回结构化概率，已上线 Baseten Model APIs",
+   "url": "https://www.baseten.co/resources/changelog/elephant-1-and-mammoth-1-available-on-baseten/",
+   "source": "Baseten 更新日志",
+   "date": "2026-10-21",
+   "summary": "开发者通过新的 System One 接口，在一次请求里对同一段输入提出多个问题（选择题、是否题、有序打分），适合工单路由、内容审核和护栏等高频判断场景。",
+   "id": "48ef3a53a5600d9371d4ecc99f6d19db9c4aa40d",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-22T14:27:17+08:00"
   },
   {
    "title": "BBC 调查：多名谷歌 DeepMind 员工因公司军方 AI 合同辞职或正在离职，伦敦研究工程师 Sofia Liguori 称公司推动 AI 用于军事行动“让我羞于在谷歌工作”",
