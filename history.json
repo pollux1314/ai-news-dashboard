@@ -1,7 +1,84 @@
 {
- "updated": "2026-10-22T19:40:00+08:00",
- "count": 1248,
+ "updated": "2026-10-22T20:40:00+08:00",
+ "count": 1257,
  "items": [
+  {
+   "title": "Anthropic 平台工程负责人 Katelyn Lesse：团队开发和维护系统的代码“全部由 Claude 编写”，工程师转向系统设计与验证，智能体已可无人干预自主修复测试",
+   "url": "https://www.ithome.com/1/016/660.htm",
+   "source": "IT之家",
+   "date": "2026-10-22",
+   "summary": "Lesse 在 Grafana Labs 的 ObservabilityCON 上透露，大型代码库从 Python 迁到 Rust 时由工程师设计验证机制、具体开发与监控交给智能体；公司正谨慎探索让智能体直接修改实际代码库。该团队负责核心服务、开发者工具与产品基础设施，据《商业内幕》今夏约 200 人；Anthropic 此前报告称截至 5 月 Claude 编写的代码占合并到生产代码库行数的 80% 以上。",
+   "id": "ad7d6d2eb3e6ca3fa43aab120ebc0aa0d5f62d10",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-22T20:40:00+08:00"
+  },
+  {
+   "title": "路透社：IMF 与 OECD 官员警告 AI 可能扩大贫富国家差距——发展中经济体、小企业和年轻员工若缺电力、数字基础设施与技能将被落下",
+   "url": "https://www.channelnewsasia.com/business/imf-oecd-warn-ai-could-widen-rich-poor-country-divide-6482296",
+   "source": "CNA（路透社）",
+   "date": "2026-10-22",
+   "summary": "IMF 财政事务部副主任 Dabla-Norris 称有效采用 AI 中期可使全球年增长最多提高 0.5 个百分点，但“迄今总体生产率证据要少得多”，入门级员工尤其脆弱；OECD 首席经济学家 Scarpetta 称 AI 可使成员国年生产率增长提高 0.4–1.2 个百分点，但企业核心职能应用有限，“暴露度与实际使用之间差距很大”。IMF 估计全球约 40% 岗位暴露于 AI。",
+   "id": "77aaa1573c8cedb1eec6bd319eba17bd194d8125",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T20:40:00+08:00"
+  },
+  {
+   "title": "小鹏第二代 VLA 大模型升级时序理解与未来行为预测并端侧落地人形机器人 IRON：每 0.2 秒按眼前画面重新推理一次、预测 6 秒内动作变化，可应对握手、击掌中途“变招”",
+   "url": "https://www.ithome.com/1/016/667.htm",
+   "source": "IT之家",
+   "date": "2026-10-22",
+   "summary": "小鹏称 IRON 与人握手、碰拳、击掌时不是识别一次手势再执行整套动作，而是持续观察、实时判断并调整，让“看到什么”与“身体怎么动”形成实时闭环；IRON 与小鹏汽车共用同一物理 AI 基座。小鹏计划 2026 年底实现人形机器人量产、2027 年上半年开启交付，先落地门店、商场等商业场景。",
+   "id": "fc62b110b8310a876d6b883c5d2d9f03a4e02d4b",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T20:40:00+08:00"
+  },
+  {
+   "title": "米哈游崩坏 AI 团队联合清华、北大、国科大、港大、新国立开源 GameScaling 游戏智能体模型：基于 Qwen3.5 视觉语言模型用键鼠游戏数据继续预训练，发布 0.8B–27B 共 8 个检查点",
+   "url": "https://www.ithome.com/1/016/575.htm",
+   "source": "IT之家",
+   "date": "2026-10-22",
+   "summary": "模型读取当前及此前游戏画面与操作记录，输出后续键盘鼠标指令，每次调用生成约 200 毫秒的操作序列（6 个 33 毫秒步骤）；覆盖《我的世界》采矿合成打僵尸、《毁灭战士》战斗寻路与密室解谜。S1 仅用《我的世界》数据，S3 为多游戏混合，均用 1600 小时游戏数据；0.8B/2B/9B 可单卡部署，27B 需两卡，代码与权重 Apache 2.0（论文 arXiv 2610.28698）。",
+   "id": "cc24ced0e7fb69140b96c4e4c4868bf38cf6bbb6",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T20:40:00+08:00"
+  },
+  {
+   "title": "THUSI-Lab/GameScaling",
+   "url": "https://github.com/THUSI-Lab/GameScaling",
+   "source": "GitHub · Python · ⭐ 131",
+   "date": "2026-10-22",
+   "summary": "米哈游与清华等开源的游戏具身智能体模型仓库（Apache-2.0）：0.8B–27B 共 8 个检查点，看游戏画面输出键鼠操作，含推理客户端、提示模板、动作解析与 vLLM 部署示例。",
+   "id": "c27fd6525e92e130c3cca8e0dbe1670bd61b71a2",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T20:40:00+08:00"
+  },
+  {
+   "title": "qianshuixia/shrimpreel",
+   "url": "https://github.com/qianshuixia/shrimpreel",
+   "source": "GitHub · TypeScript · ⭐ 182（10 月 20 日新建）",
+   "date": "2026-10-22",
+   "summary": "“一张照片 → 按爆款模板生成 AI 视频”SaaS 站点开源模板（MIT）：每个热门关键词一站，基于 Cloudflare Workers + D1/R2/KV/Queues、TanStack Start + Hono，fal.ai 生成视频，含 Google 登录、积分包与管理后台。",
+   "id": "fbbd35f9ce32a36cb3eb4b228474141bc5d83d4b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T20:40:00+08:00"
+  },
+  {
+   "title": "Monopoly0024/simple-checker-v1",
+   "url": "https://github.com/Monopoly0024/simple-checker-v1",
+   "source": "GitHub · Python · ⭐ 124（10 月 21 日新建）",
+   "date": "2026-10-22",
+   "summary": "Codex 技能：把代码拆解为功能板块，用彩色流程图和运行证据复核功能是否真正实现，辅助 AI 写代码与迭代时自查。",
+   "id": "17621ce1cc8380b14d30b8a77e03b545addf1abe",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-22T20:40:00+08:00"
+  },
   {
    "title": "Hugging Face 发布开源 DNA 语言模型 Carbon-X：可在笔记本本地运行，用自然语言“和 DNA 对话”，询问基因变异对基因活性与健康的影响",
    "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
@@ -1629,6 +1706,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "Harness Scaling（赵鑫、文继荣等）：把智能体 RL 从单一固定“harness”扩展到多样执行配置，提出因子化 harness 空间与均衡覆盖的训练子集，显著提升对未见 harness 的泛化",
+   "url": "https://arxiv.org/abs/2610.29458",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者指出只在一种 harness 中做 RL 会导致专门化、跨配置迁移差；跨 harness 训练在多个基准、模型规模与 RL 算法上都提升对未见白盒配置的泛化，且用结构化白盒变化训练的模型迁移到未见外部黑盒 harness 时，优于在单一复杂黑盒 harness 中训练的模型，提出 harness 多样性是智能体 RL 的新扩展维度。",
+   "id": "545344abca8f8e3b1f82c74a86d3fd9e9466211c",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T20:40:00+08:00"
   },
   {
    "title": "ToM2Vec：用固定数量的连续“心智理论”潜在 token 让 LLM 智能体推断合作者的信念与意图，在 Overcooked-AI、多方谈判、Hanabi 等协作/竞争环境中稳定优于基座与多种基线",
@@ -3822,6 +3910,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "AgenticRoboRL：把编码智能体式后训练（SFT + 多轮 RL）用于机器人规划器，以 harness 适配器统一 VLA 技能调用与控制代码生成，9B 规划器在 LIBERO-PRO 上成功率从 18.1% 升到 71.0%",
+   "url": "https://arxiv.org/abs/2610.28589",
+   "source": "arXiv",
+   "date": "2026-10-20",
+   "summary": "无需外部记忆即接近带外部记忆的 Codex（GPT-5.5）的 72.1%；作者认为现有智能体机器人系统依赖闭源强模型做规划且不提升规划器自身能力，后训练是有效路径，将开源框架与训练好的规划器检查点。",
+   "id": "4b94bfe19b181444282e9d47baf1e87a66a31aae",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-22T20:40:00+08:00"
   },
   {
    "title": "SpecEvo“推测式进化”：轻量模型并行生成与提炼候选程序、前沿模型只在搜索停滞时稀疏介入，176 个科学与算法发现任务上追平或超过前沿模型基线，API 成本最多降 80%",

@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T19:40:00+08:00",
+  "updated": "2026-10-22T20:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Anthropic 平台工程负责人 Katelyn Lesse：团队开发和维护系统的代码“全部由 Claude 编写”，工程师转向系统设计与验证，智能体已可无人干预自主修复测试",
+          "url": "https://www.ithome.com/1/016/660.htm",
+          "source": "IT之家",
+          "date": "2026-10-22",
+          "summary": "Lesse 在 Grafana Labs 的 ObservabilityCON 上透露，大型代码库从 Python 迁到 Rust 时由工程师设计验证机制、具体开发与监控交给智能体；公司正谨慎探索让智能体直接修改实际代码库。该团队负责核心服务、开发者工具与产品基础设施，据《商业内幕》今夏约 200 人；Anthropic 此前报告称截至 5 月 Claude 编写的代码占合并到生产代码库行数的 80% 以上。"
+        },
+        {
           "title": "路透社：SAP 首席财务官 Dominik Asam 称客户越来越在意 AI 模型的“出身”，出口管制、数据治理与欧洲主权诉求推动企业追问业务软件里的模型在哪里训练",
           "url": "https://www.channelnewsasia.com/business/sap-clients-increasingly-worry-about-ai-models-origin-cfo-says-6482146",
           "source": "Reuters / CNA",
@@ -118,13 +125,6 @@
           "source": "36氪（界面）",
           "date": "2026-10-22",
           "summary": "LG 集团旗下零部件公司 LG Innotek 宣布与英伟达合作，把自家摄像头、激光雷达与雷达融合感知技术与英伟达 Holoscan Sensor Bridge 平台结合，让传感器数据直接送入 GPU，面向机器人与物理 AI 场景。"
-        },
-        {
-          "title": "诺基亚三季度可比营业利润 6.05 亿欧元、远超约 4.54 亿欧元的预期，AI 数据中心对网络设备的需求激增推动其摆脱传统电信业务依赖",
-          "url": "https://www.moneycontrol.com/news/business/earnings/nokia-s-ai-bet-pays-off-q3-profit-beats-estimates-as-data-centre-demand-surges-14057370.html",
-          "source": "Moneycontrol（援引彭博）",
-          "date": "2026-10-22",
-          "summary": "彭博报道称，诺基亚正借 AI 与云客户的数据中心网络订单（IP 与光网络）推动转型，三季度利润大幅超出分析师预期，被视为其“AI 押注”见效的信号。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Harness Scaling（赵鑫、文继荣等）：把智能体 RL 从单一固定“harness”扩展到多样执行配置，提出因子化 harness 空间与均衡覆盖的训练子集，显著提升对未见 harness 的泛化",
+          "url": "https://arxiv.org/abs/2610.29458",
+          "source": "arXiv",
+          "date": "2026-10-21",
+          "summary": "作者指出只在一种 harness 中做 RL 会导致专门化、跨配置迁移差；跨 harness 训练在多个基准、模型规模与 RL 算法上都提升对未见白盒配置的泛化，且用结构化白盒变化训练的模型迁移到未见外部黑盒 harness 时，优于在单一复杂黑盒 harness 中训练的模型，提出 harness 多样性是智能体 RL 的新扩展维度。"
+        },
+        {
+          "title": "AgenticRoboRL：把编码智能体式后训练（SFT + 多轮 RL）用于机器人规划器，以 harness 适配器统一 VLA 技能调用与控制代码生成，9B 规划器在 LIBERO-PRO 上成功率从 18.1% 升到 71.0%",
+          "url": "https://arxiv.org/abs/2610.28589",
+          "source": "arXiv",
+          "date": "2026-10-20",
+          "summary": "无需外部记忆即接近带外部记忆的 Codex（GPT-5.5）的 72.1%；作者认为现有智能体机器人系统依赖闭源强模型做规划且不提升规划器自身能力，后训练是有效路径，将开源框架与训练好的规划器检查点。"
+        },
         {
           "title": "ToM2Vec：用固定数量的连续“心智理论”潜在 token 让 LLM 智能体推断合作者的信念与意图，在 Overcooked-AI、多方谈判、Hanabi 等协作/竞争环境中稳定优于基座与多种基线",
           "url": "https://arxiv.org/abs/2610.29934",
@@ -174,20 +188,6 @@
           "source": "arXiv · 2610.28711",
           "date": "2026-10-22",
           "summary": "在 3.0 基础上提升识别准确率，保留历史上下文、分层热词与原生转写润色等指令控制能力；说话人分离输出带标签与时间戳并处理重叠语音，通用音频理解覆盖音频/语音/音乐描述、时间定位、声音事件检测与音频问答；提供异步文件、低延迟流式、交互语音输入与非流式等多个部署变体。"
-        },
-        {
-          "title": "FrontierCS 2：48 个开放式计算机科学研发任务——从论文代码中删去其贡献、让智能体在真实仓库里重做，12 个智能体中 Claude Opus 5.5 最佳也仅 58% 通过，16 个任务无一通过",
-          "url": "https://arxiv.org/abs/2610.29932",
-          "source": "arXiv",
-          "date": "2026-10-22",
-          "summary": "任务覆盖机器学习系统、高性能计算、数据库、安全与机器人等 13 个领域，评测器、保留测试集与人类参考实现均对智能体不可见，按最终测试集与原作者代码对比打分；作者指出多数在综合分上超过参考的提交仍在某些指标或负载上不达标，另有 100 多个私有任务待公布。"
-        },
-        {
-          "title": "Quant-Arena：在真实 A 股数据上端到端评测 LLM 智能体做量化研究——只用 2022–2023 年反馈、冻结策略后在封存的 2024 年检验，九个前沿模型中 GPT-6 Astra 最高，但无一跑赢等权市场",
-          "url": "https://arxiv.org/abs/2610.30113",
-          "source": "arXiv",
-          "date": "2026-10-22",
-          "summary": "模型需自行构造特征与选股打分代码，由考虑交易约束、成本与模拟订单簿冲击的现金账户评估器打分，得分以实现超额收益为主、辅以信号质量与特征多样性；基准与公开排行榜接受任意模型或智能体框架提交。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "路透社：IMF 与 OECD 官员警告 AI 可能扩大贫富国家差距——发展中经济体、小企业和年轻员工若缺电力、数字基础设施与技能将被落下",
+          "url": "https://www.channelnewsasia.com/business/imf-oecd-warn-ai-could-widen-rich-poor-country-divide-6482296",
+          "source": "CNA（路透社）",
+          "date": "2026-10-22",
+          "summary": "IMF 财政事务部副主任 Dabla-Norris 称有效采用 AI 中期可使全球年增长最多提高 0.5 个百分点，但“迄今总体生产率证据要少得多”，入门级员工尤其脆弱；OECD 首席经济学家 Scarpetta 称 AI 可使成员国年生产率增长提高 0.4–1.2 个百分点，但企业核心职能应用有限，“暴露度与实际使用之间差距很大”。IMF 估计全球约 40% 岗位暴露于 AI。"
+        },
+        {
           "title": "意大利 AI 法实施令 D.Lgs. 179/2026 于 10 月 23 日生效：招聘、考核、处分、解雇等人事决定不得完全交由自动化处理，违规解雇无效，员工有权要求解释 AI 在决策中的作用",
           "url": "https://blog.pwc.it/ia-cosa-cambia-23-ottobre/",
           "source": "PwC Italia",
@@ -307,13 +314,6 @@
           "source": "36氪",
           "date": "2026-10-22",
           "summary": "规划提出加快 AI 在产品研发、设计仿真、中试验证、生产运营等全环节落地，提升过程管理、分析预测与决策执行的智能化水平，发展智能原生的基础产品；同时提出加快制造业中试平台建设，目标到 2030 年产业基础薄弱问题明显缓解。"
-        },
-        {
-          "title": "The Verge / HARC 报告：若按预期电网结构满足得州数据中心用电需求，到 2031 年电力部门氮氧化物排放或增 136%、PM2.5 与二氧化碳增约 90%，五年内抹去数十年空气质量改善",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
-          "source": "The Verge",
-          "date": "2026-10-22",
-          "summary": "休斯敦高等研究中心（HARC）测算，得州至少 288 个数据中心项目在规划中；若数据中心采用现场天然气发电，氮氧化物排放可能高出数倍，即便接入电网并配套风光的“净零”情景下排放也会上升。研究者呼吁把数据中心当作工业设施，按同等排放标准监管。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "小鹏第二代 VLA 大模型升级时序理解与未来行为预测并端侧落地人形机器人 IRON：每 0.2 秒按眼前画面重新推理一次、预测 6 秒内动作变化，可应对握手、击掌中途“变招”",
+          "url": "https://www.ithome.com/1/016/667.htm",
+          "source": "IT之家",
+          "date": "2026-10-22",
+          "summary": "小鹏称 IRON 与人握手、碰拳、击掌时不是识别一次手势再执行整套动作，而是持续观察、实时判断并调整，让“看到什么”与“身体怎么动”形成实时闭环；IRON 与小鹏汽车共用同一物理 AI 基座。小鹏计划 2026 年底实现人形机器人量产、2027 年上半年开启交付，先落地门店、商场等商业场景。"
+        },
+        {
+          "title": "米哈游崩坏 AI 团队联合清华、北大、国科大、港大、新国立开源 GameScaling 游戏智能体模型：基于 Qwen3.5 视觉语言模型用键鼠游戏数据继续预训练，发布 0.8B–27B 共 8 个检查点",
+          "url": "https://www.ithome.com/1/016/575.htm",
+          "source": "IT之家",
+          "date": "2026-10-22",
+          "summary": "模型读取当前及此前游戏画面与操作记录，输出后续键盘鼠标指令，每次调用生成约 200 毫秒的操作序列（6 个 33 毫秒步骤）；覆盖《我的世界》采矿合成打僵尸、《毁灭战士》战斗寻路与密室解谜。S1 仅用《我的世界》数据，S3 为多游戏混合，均用 1600 小时游戏数据；0.8B/2B/9B 可单卡部署，27B 需两卡，代码与权重 Apache 2.0（论文 arXiv 2610.28698）。"
+        },
         {
           "title": "字节旗下红果短剧 App 上线基于豆包大模型的找剧助手“小果 AI”：搜索栏进入对话页、评论区可 @ 提问，支持剧集检索推荐、剧情与人物关系问答、追更预约与上新提醒",
           "url": "https://www.100ec.cn/ecinfo/detail--6665036.html",
@@ -363,20 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-22",
           "summary": "在 1024 开发者节上，官方用电影片段演示了对声音内容、背景与说话人性别的识别；产品支持中英文任意切换与说话人实时识别。讯飞同时发布“AI 录音环”硬件：4+1 环麦阵列，宣称综合识别准确率超 96%，2 小时录音转写仅需 2 分钟。"
-        },
-        {
-          "title": "宇树科技王兴兴在 2026 世界物理 AI 大会：具身智能“GPT 时刻”即机器人在约 80% 陌生场景中凭语音或文字指令完成约 80% 主要任务，最大挑战是模型输入输出与真实机器人的对齐；快则今年底或明年可按指令整理房间",
-          "url": "https://m.jiemian.com/article/15222376.html",
-          "source": "界面新闻",
-          "date": "2026-10-22",
-          "summary": "10 月 22 日宇树 2026 世界物理 AI 大会暨合作伙伴生态大会在杭州召开，王兴兴称大模型在机器人规划、导航上已具备较强能力。"
-        },
-        {
-          "title": "无界动力发布并开源 MWA™-Phoenix 隐空间世界模型基座：端侧 7B 完整预训练模型，称在 LIBERO-Plus、LIBERO-Pro、RoboCasa GR1、RoboTwin 2.0 等六项具身评测与真机榜领先",
-          "url": "https://finance.sina.com.cn/roll/2026-10-22/doc-iniwaezr5192315.shtml",
-          "source": "新浪科技",
-          "date": "2026-10-22",
-          "summary": "同时发布把运动与接触共同纳入动作学习的 Phoenix-ILA，以及交互式仿真世界模型 Phoenix-PhysCanvas，让模型部署前在云端仿真中自我进化，以支撑真实环境实时部署与精细操作；公司称已累计超 20 万小时多模态数据，正进行更大规模训练。"
         }
       ]
     },
@@ -385,6 +385,27 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "THUSI-Lab/GameScaling",
+          "url": "https://github.com/THUSI-Lab/GameScaling",
+          "source": "GitHub · Python · ⭐ 131",
+          "date": "2026-10-22",
+          "summary": "米哈游与清华等开源的游戏具身智能体模型仓库（Apache-2.0）：0.8B–27B 共 8 个检查点，看游戏画面输出键鼠操作，含推理客户端、提示模板、动作解析与 vLLM 部署示例。"
+        },
+        {
+          "title": "qianshuixia/shrimpreel",
+          "url": "https://github.com/qianshuixia/shrimpreel",
+          "source": "GitHub · TypeScript · ⭐ 182（10 月 20 日新建）",
+          "date": "2026-10-22",
+          "summary": "“一张照片 → 按爆款模板生成 AI 视频”SaaS 站点开源模板（MIT）：每个热门关键词一站，基于 Cloudflare Workers + D1/R2/KV/Queues、TanStack Start + Hono，fal.ai 生成视频，含 Google 登录、积分包与管理后台。"
+        },
+        {
+          "title": "Monopoly0024/simple-checker-v1",
+          "url": "https://github.com/Monopoly0024/simple-checker-v1",
+          "source": "GitHub · Python · ⭐ 124（10 月 21 日新建）",
+          "date": "2026-10-22",
+          "summary": "Codex 技能：把代码拆解为功能板块，用彩色流程图和运行证据复核功能是否真正实现，辅助 AI 写代码与迭代时自查。"
+        },
         {
           "title": "Zafer-Liu/claude-super-sidebar",
           "url": "https://github.com/Zafer-Liu/claude-super-sidebar",
@@ -419,27 +440,6 @@
           "source": "GitHub · TypeScript · ⭐ 93（10 月 21 日新建）",
           "date": "2026-10-22",
           "summary": "让 humans& 的协作者模型 Ampersand 旁听 pi 编码智能体会话、只在有价值时发言的插件：只看双方对话文本、不看工具调用与文件改动，不能执行操作；/amp on/off 控制，消息以“AI observer”标签进入记录并会被 pi 模型下一轮看到。"
-        },
-        {
-          "title": "xingjian-bai/opal",
-          "url": "https://github.com/xingjian-bai/opal",
-          "source": "GitHub · Python · ⭐ 110（10 月 21 日新建）",
-          "date": "2026-10-22",
-          "summary": "OPAL（OPtimizer with an Agent in the Loop）“反应式优化器”：一行包装 PyTorch 优化器，训练过程中由 Claude Code 定期读取运行指标、重写优化器程序（更新规则、学习率与调度、动量、预条件、梯度裁剪、防 loss 尖峰等）与分析程序；智能体不改动模型、数据与评估，未改动前与原始训练逐位一致，支持成本上限与预估。"
-        },
-        {
-          "title": "hugohe3/ppt-master",
-          "url": "https://github.com/hugohe3/ppt-master",
-          "source": "GitHub · Python · ⭐ 6.6万（本周 +3270）",
-          "date": "2026-10-22",
-          "summary": "PPT Master：让 AI 把文档或主题生成真正原生的 PowerPoint——原生形状、转场与动画，按需生成数据驱动的图表和表格，可用演讲者备注生成音频旁白，并支持套用自有 .pptx 模板；MIT 许可，本周登上 GitHub 周榜。"
-        },
-        {
-          "title": "abcampbel/open-bots",
-          "url": "https://github.com/abcampbel/open-bots",
-          "source": "GitHub · TypeScript · ⭐ 90（10 月 20 日新建）",
-          "date": "2026-10-22",
-          "summary": "OpenBots：四个由自研开放模型 Agnes 2.5 Pro 驱动的开源 AI 智能体，可联网搜索、阅读网页、在沙箱跑代码、调用 API，并能代付服务费用与注册账号；可在浏览器使用或整套本地部署，MIT 许可。"
         }
       ]
     },
