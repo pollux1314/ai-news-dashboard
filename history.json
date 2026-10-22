@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-22T07:36:00+08:00",
- "count": 1145,
+ "updated": "2026-10-22T08:30:00+08:00",
+ "count": 1147,
  "items": [
+  {
+   "title": "The Verge / HARC 报告：若按预期电网结构满足得州数据中心用电需求，到 2031 年电力部门氮氧化物排放或增 136%、PM2.5 与二氧化碳增约 90%，五年内抹去数十年空气质量改善",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "休斯敦高等研究中心（HARC）测算，得州至少 288 个数据中心项目在规划中；若数据中心采用现场天然气发电，氮氧化物排放可能高出数倍，即便接入电网并配套风光的“净零”情景下排放也会上升。研究者呼吁把数据中心当作工业设施，按同等排放标准监管。",
+   "id": "eaa3fbf80042951ca996d82560b814a61a7170a0",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T08:30:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113039898198315354",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch：Meta 计划推出新的股票安排（无投票权 C 类股）为其在 AI 模型与服务上的大规模投入融资。",
+   "id": "797dc8d54a8d0170b1bf7f81b1a50932dc16884a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T08:30:00+08:00"
+  },
   {
    "title": "Meta 财报电话会：Muse 个人智能体一个半月在美加吸引超 1000 万人开通、约 25% 每天使用，购物是头号用途，扎克伯格称已找到产品市场契合点，明年要把服务成本降 10 倍以上",
    "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",

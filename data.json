@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T07:36:00+08:00",
+  "updated": "2026-10-22T08:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "The Verge / HARC 报告：若按预期电网结构满足得州数据中心用电需求，到 2031 年电力部门氮氧化物排放或增 136%、PM2.5 与二氧化碳增约 90%，五年内抹去数十年空气质量改善",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
+          "source": "The Verge",
+          "date": "2026-10-22",
+          "summary": "休斯敦高等研究中心（HARC）测算，得州至少 288 个数据中心项目在规划中；若数据中心采用现场天然气发电，氮氧化物排放可能高出数倍，即便接入电网并配套风光的“净零”情景下排放也会上升。研究者呼吁把数据中心当作工业设施，按同等排放标准监管。"
+        },
+        {
           "title": "The Information：谷歌停止在数据中心项目中要求州和地方政府签署保密协议（NDA），继亚马逊、微软之后放弃这一饱受批评的做法",
           "url": "https://www.theinformation.com/briefings/google-stops-using-nondisclosure-agreements-data-centers",
           "source": "The Information",
@@ -307,13 +314,6 @@
           "source": "Inside AI Policy",
           "date": "2026-10-21",
           "summary": "这是两党参议员对该法案的又一次提交，聚焦政府端 AI 使用透明度，与同日众议院的 AI 竞选内容标识提案、以及近期参议院《AI 标注法案》共同构成中期选举前国会在 AI 透明度上的一波立法动作。"
-        },
-        {
-          "title": "路透：OpenAI 总裁布罗克曼公开呼吁联邦 AI 安全规则，但其夫妇捐资 2500 万美元的超级 PAC“Leading the Future”正花数百万美元影响至少 48 场国会选举、反对“过度约束”AI 的监管",
-          "url": "https://www.investing.com/news/economy-news/openai-president-urges-ai-safeguards-as-group-he-funds-opposes-regulation-4962263",
-          "source": "Reuters / Investing.com",
-          "date": "2026-10-21",
-          "summary": "安全倡导团体批评这引发 OpenAI 是否真心支持监管的质疑；OpenAI 称捐款属个人行为。该组织另获 a16z 及其创始人合计 5000 万美元，支持主张联邦立法“优先于”各州 AI 法的候选人；Anthropic 则至少向反对联邦优先权的 Public First Action 捐了 4000 万美元。"
         }
       ]
     },
@@ -474,6 +474,13 @@
       "items": [
         {
           "title": "@TechCrunch",
+          "url": "https://x.com/TechCrunch/status/2113039898198315354",
+          "source": "X · TechCrunch",
+          "date": "2026-10-22",
+          "summary": "TechCrunch：Meta 计划推出新的股票安排（无投票权 C 类股）为其在 AI 模型与服务上的大规模投入融资。"
+        },
+        {
+          "title": "@TechCrunch",
           "url": "https://x.com/TechCrunch/status/2113040907385581994",
           "source": "X · TechCrunch",
           "date": "2026-10-22",
@@ -520,18 +527,6 @@
           "source": "X · Bloomberg",
           "date": "2026-10-22",
           "summary": "彭博观点：SpaceX AI 业务的收入激增主要来自出租过剩算力，而非其主力 AI 产品 Grok 的普及。"
-        },
-        {
-          "title": "@flappyairplanes",
-          "url": "https://x.com/flappyairplanes/status/2112955212612919318",
-          "source": "@flappyairplanes",
-          "date": "2026-10-22",
-          "summary": "Flapping Airplanes：过去一年在为 GPU 开发新原语，相信这能催生改变机器学习方式的新算法、重塑 AI 成本结构；宣布完成 Index 与 Lux 联合领投的 10 亿美元 A 轮。",
-          "metrics": {
-            "likes": 2070,
-            "reposts": 131,
-            "views": 219659
-          }
         }
       ]
     }
