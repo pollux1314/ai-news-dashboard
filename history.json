@@ -1,7 +1,73 @@
 {
- "updated": "2026-10-23T02:45:00+08:00",
- "count": 1308,
+ "updated": "2026-10-23T03:23:00+08:00",
+ "count": 1314,
  "items": [
+  {
+   "title": "Canva 发布首个自研图像生成模型 Canva Craft：先“规划”元素空间关系、比例与文字信息再生成，最高 2K 分辨率、30 种画幅，主打文字清晰和局部精准编辑",
+   "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "模型用 Canva 模板库中人工设计的海报、社媒图、演示文稿、信息图等训练而非照片，生成结果可经 Canva Magic 转为分层可编辑设计；已向所有用户在 Dream Lab 开放，并将上线 Canva API、通过 Canva MCP 接入 ChatGPT 和 Gemini；Leonardo.ai 团队参与研发，更便宜的 Craft-fast 与 Craft-ultrafast 版本即将推出。",
+   "id": "afbb328c263f52ce8eb1ed296a1223513e2845a4",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T03:23:00+08:00"
+  },
+  {
+   "title": "高盛研究：若 AI 带来 15% 的生产率提升，约 9% 的美国劳动者（约 1500 万人）将在约十年转型期内被迫换岗，高于此前 6%–7% 的估计",
+   "url": "https://fortune.com/2026/10/22/goldman-sachs-forecast-how-many-jobs-lost-to-ai-9-percent/",
+   "source": "Fortune",
+   "date": "2026-10-22",
+   "summary": "高盛经济学家 Joseph Briggs 称 AI 目前已让科技、管理咨询、平面设计等行业每月就业增长少约 1 万–1.5 万个岗位，冲击主要落在白领和入门级岗位；预计失业率最多因此上升约 0.6 个百分点，几年后随新职业出现而回落。Fortune 指出这波冲击可能要到下一次经济衰退时才集中显现。",
+   "id": "97cbad310b8ea6568bb685aa59b90e59b6fe95e3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T03:23:00+08:00"
+  },
+  {
+   "title": "Anthropic 把 Agent Skills 开放标准捐给 Linux 基金会旗下 Agentic AI Foundation（AAIF）：已有 70 多个智能体平台集成、累计发布 100 万个技能、安装近 2.8 亿次",
+   "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+   "source": "Anthropic",
+   "date": "2026-10-22",
+   "summary": "移交 Agent Skills 名称与标识、GitHub 组织和 agentskills.io 域名，由 Anthropic、谷歌、OpenAI、微软等公司工程师组成技术指导委员会维护，首要路线图为版本化发布、正式提案流程与技能安全指南。AAIF 同日在 AGNTCon + MCPCon 宣布另收录 OpenAI 的 Open Responses、Hugging Face 的 OpenEnv 和阿里巴巴的 OpenSandbox，项目总数一年内由 3 个增至 10 个。",
+   "id": "86405d6d1e9fb8559f0d3e78eba555777c29c5d8",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T03:23:00+08:00"
+  },
+  {
+   "title": "@ClaudeDevs",
+   "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
+   "source": "X · ClaudeDevs",
+   "date": "2026-10-22",
+   "summary": "Anthropic 官方开发者账号宣布把 Agent Skills 捐给 Agentic AI Foundation（与 MCP 同一归宿）：原有技能照常可用、许可证不变，不加入 AAIF 也能使用和贡献。",
+   "id": "462ff3d970c58de50a4f57af30d0d34c15aa65fc",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T03:23:00+08:00"
+  },
+  {
+   "title": "@bcherny",
+   "url": "https://x.com/bcherny/status/2113333859907747871",
+   "source": "X · Boris Cherny",
+   "date": "2026-10-22",
+   "summary": "Claude Code 负责人 Boris Cherny：Agent Skills 起初只是 Claude Code 里的一个实验，如今已被业界广泛采用，因此决定捐给 AAIF、与 MCP 并列。",
+   "id": "c0bb7f2b3ead0372442c008701aa30e6e5221293",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T03:23:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113345419002470754",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch：Canva 向所有用户开放自研图像模型 Canva Craft，称性能更好、可定制性更强且成本更低。",
+   "id": "66cc5f01b63992251eb61fcaf15b687962bde643",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T03:23:00+08:00"
+  },
   {
    "title": "微软 AI 诊断编排系统（Diagnostic Orchestrator）研究登上《Science》：多智能体模拟医生会诊、自主决定问诊与检查，在 NEJM 病例上诊断准确率约 83%，远高于全科医生的约 36%（查资料）与 22%",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
