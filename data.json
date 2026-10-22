@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T15:35:29+08:00",
+  "updated": "2026-10-22T16:35:15+08:00",
   "modules": [
     {
       "id": "models",
@@ -29,18 +29,18 @@
           "summary": "扎克伯格称超过四分之一活跃用户通过 Muse 购物、平均客单价超 200 美元，Plaid 称其连接器从未见过这样的活跃度；其他热门用途是连接邮箱、日历等个人效率任务。Meta 计划对多数用户免费，按促成交易向商家收费，重度用户与企业另行订阅；正打造让不同用户 Muse 互相协作的“Muse 网络”，并预计 Muse 规模化后可盈利、单用户收入将超过现有应用家族。"
         },
         {
-          "title": "Anthropic 开放 Claude Duet 研究预览：独立 iOS/Android 与网页应用，让 Claude 以“主动式智能体”每天推送晨报、后台持续干活、执行敏感操作前先征得同意",
-          "url": "https://claude.com/resources/articles/claude-duet",
-          "source": "Claude 官方博客（Anthropic）",
-          "date": "2026-10-22",
-          "summary": "基于 Claude Opus 5.5 设计，面向专业人士与小企业主：继承 Claude 账户的记忆、技能与连接应用，每隔几小时检查一次邮箱、日历等，只在需要时发消息；自带带浏览器的虚拟机，手机电脑关机也能跑任务；可调用 Claude Marketplace 6000+ 连接器（Gmail、Slack、QuickBooks、Gusto、Shopify 等），通过 Stripe Link 虚拟卡与 Shop Pay 代购。发消息、付款、签署、删除前须用户批准，证券交易与账户间转账即便批准也禁止；另配专门分类器防泄露信用卡号、身份证件等。首批面向美国 Pro/Max 用户候补开放，共享套餐用量。"
-        },
-        {
           "title": "Recursive 发布首个模型 Flint：40B 总参数、仅激活 2.5B 的开源本地编码 MoE 模型，几乎全流程由其自动化科研系统“Eureka Machine”参与打造，M4 Pro MacBook 上超 125 token/s",
           "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
           "source": "TechCrunch",
           "date": "2026-10-22",
           "summary": "由前 Salesforce 首席科学家 Richard Socher 领导、5 月以 46.5 亿美元估值融资 6.5 亿美元出道的 Recursive，称小团队借助 Eureka Machine 在不到四个月内从零训出 Flint，被视为“递归自我改进”的早期公开实验。Flint 以 Apache 2.0 许可在 Hugging Face 免费下载，支持最长 512k 上下文，在 SWE-Bench Verified 等智能体编码基准上领先 50B 以下 MoE 模型，速度约为同级模型两倍；官方提示复杂任务需拆小步并给出更明确指令。"
+        },
+        {
+          "title": "Anthropic 开放 Claude Duet 研究预览：独立 iOS/Android 与网页应用，让 Claude 以“主动式智能体”每天推送晨报、后台持续干活、执行敏感操作前先征得同意",
+          "url": "https://claude.com/resources/articles/claude-duet",
+          "source": "Claude 官方博客（Anthropic）",
+          "date": "2026-10-22",
+          "summary": "基于 Claude Opus 5.5 设计，面向专业人士与小企业主：继承 Claude 账户的记忆、技能与连接应用，每隔几小时检查一次邮箱、日历等，只在需要时发消息；自带带浏览器的虚拟机，手机电脑关机也能跑任务；可调用 Claude Marketplace 6000+ 连接器（Gmail、Slack、QuickBooks、Gusto、Shopify 等），通过 Stripe Link 虚拟卡与 Shop Pay 代购。发消息、付款、签署、删除前须用户批准，证券交易与账户间转账即便批准也禁止；另配专门分类器防泄露信用卡号、身份证件等。首批面向美国 Pro/Max 用户候补开放，共享套餐用量。"
         },
         {
           "title": "初创公司 breken 发布“生产前的生产环境”测试平台：在隔离环境中重建整套软件、以 4000 倍速生长出真实生产状态，用带习惯与耐心的合成用户和智能体反复制造故障；自建 ESCAPES 基准中提前抓出 235 个真实用户报告 bug 里的 76 个",
@@ -70,6 +70,20 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "巴克莱银行计划今年裁员约 5000 人、约占员工总数 5%，随全业务线推广 AI，开发等支持岗位成裁员重灾区",
+          "url": "https://www.cnbc.com/2026/10/22/barclays-ai-jobs-cuts.html",
+          "source": "CNBC",
+          "date": "2026-10-22",
+          "summary": "巴克莱随三季报宣布借助 AI 与技术提效削减约 5000 个全职岗位，约六成集中在支持部门；三季度税前利润 23 亿英镑、同比增 12% 但不及预期，营收增 3% 至 74 亿英镑。该行三季度已计提 2.01 亿英镑结构性成本，四季度预计再计提约 3 亿英镑。"
+        },
+        {
+          "title": "LG Innotek 与英伟达合作开发面向物理 AI 与机器人的感知方案：前者提供摄像头模组、激光雷达与雷达融合感知，英伟达贡献 Holoscan Sensor Bridge 实现传感器与 GPU 数据直连",
+          "url": "https://www.36kr.com/newsflashes/4036731209733252",
+          "source": "36氪（界面）",
+          "date": "2026-10-22",
+          "summary": "LG 集团旗下零部件公司 LG Innotek 宣布与英伟达合作，把自家摄像头、激光雷达与雷达融合感知技术与英伟达 Holoscan Sensor Bridge 平台结合，让传感器数据直接送入 GPU，面向机器人与物理 AI 场景。"
+        },
         {
           "title": "诺基亚三季度可比营业利润 6.05 亿欧元、远超约 4.54 亿欧元的预期，AI 数据中心对网络设备的需求激增推动其摆脱传统电信业务依赖",
           "url": "https://www.moneycontrol.com/news/business/earnings/nokia-s-ai-bet-pays-off-q3-profit-beats-estimates-as-data-centre-demand-surges-14057370.html",
@@ -111,20 +125,6 @@
           "source": "IT之家",
           "date": "2026-10-22",
           "summary": "西门子医疗 CEO 孟天齐称三大方向分别是：在治疗规划中由智能体评估方案、执行计算并与临床医生互动；用患者特异性数字孪生在放疗开始前测试治疗场景；以及让肿瘤团队在治疗过程中更好应对患者状况变化。合作建立在其新近推出的 Accela 系统基础上。"
-        },
-        {
-          "title": "黑石 AI 负责人 Jas Khaira：AI 基建债务担忧被夸大，数据中心债务最终由全球信用最好的超大规模云厂商兜底，“不像 2008 年那些摇摇欲坠的银行”",
-          "url": "https://techcrunch.com/2026/10/21/blackstones-jas-khaira-says-fears-over-ai-buildout-debt-are-overblown/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "Khaira 执掌黑石旧金山 AI 中枢 BXN1，称黑石是超大规模云厂商之外最大的算力持有者，曾以 GPU 抵押 + 客户合同模式在 2023 年向 CoreWeave 放贷 23 亿美元，并向 Google TPU 新云 Crux AI 承诺 50 亿美元。他承认利率与信用利差上行令新云承压、Firmus 取消上市，企业 AI 投资回报“确实存在但不均衡”。"
-        },
-        {
-          "title": "特斯拉三季度营收持平、GAAP 净利同比降 43%，研发开支因 AI、Optimus 与 Cybercab 大增；Optimus 人形机器人已在加州弗里蒙特工厂开始生产“量产级”机器人",
-          "url": "https://techcrunch.com/2026/10/21/tesla-stars-optimus-robot-production-in-california-as-profit-falls-43/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "特斯拉在三季度股东信中称，弗里蒙特原电动车产线下线的是“首批量产级机器人”，证明当前 Optimus 制造流程适合商业化产品，后续仍会迭代硬件与工艺。财报整体平平：营收基本持平，净利润同比下滑 43%，运营开支随 AI、机器人与自动驾驶投入快速攀升。"
         }
       ]
     },
@@ -133,6 +133,27 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "FrontierCS 2：48 个开放式计算机科学研发任务——从论文代码中删去其贡献、让智能体在真实仓库里重做，12 个智能体中 Claude Opus 5.5 最佳也仅 58% 通过，16 个任务无一通过",
+          "url": "https://arxiv.org/abs/2610.29932",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "任务覆盖机器学习系统、高性能计算、数据库、安全与机器人等 13 个领域，评测器、保留测试集与人类参考实现均对智能体不可见，按最终测试集与原作者代码对比打分；作者指出多数在综合分上超过参考的提交仍在某些指标或负载上不达标，另有 100 多个私有任务待公布。"
+        },
+        {
+          "title": "Quant-Arena：在真实 A 股数据上端到端评测 LLM 智能体做量化研究——只用 2022–2023 年反馈、冻结策略后在封存的 2024 年检验，九个前沿模型中 GPT-6 Astra 最高，但无一跑赢等权市场",
+          "url": "https://arxiv.org/abs/2610.30113",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "模型需自行构造特征与选股打分代码，由考虑交易约束、成本与模拟订单簿冲击的现金账户评估器打分，得分以实现超额收益为主、辅以信号质量与特征多样性；基准与公开排行榜接受任意模型或智能体框架提交。"
+        },
+        {
+          "title": "MemoryTax“智能体记忆的苦涩教训”：模型够强时，Mem0、Zep 等预先设计的记忆系统不如让编码智能体直接搜原始历史——Claude Opus 5.5 下 Pi 智能体以不到全上下文一半的成本答对 99%",
+          "url": "https://arxiv.org/abs/2610.29823",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "在一段 419 轮、152 题的 LoCoMo 对话上比较全上下文、BM25、Mem0、Zep 与 Pi/Codex/Claude Code 三种编码智能体（分别配 GPT-4o-mini、GPT-6 Luna、Claude Opus 5.5）：Mem0 只在弱模型下胜过全上下文，且仅构建记忆的成本就超过一次全上下文推理；记忆质量上限由写入模型决定。作者强调这是单对话、单次运行的小规模研究。"
+        },
         {
           "title": "GenXR-Bench：首个评测编码智能体开发交互式 XR 应用的端到端基准，含 112 个专家任务，10 个模型中最强配置 Pass@1 也仅 50.9%",
           "url": "https://arxiv.org/abs/2610.29014",
@@ -167,27 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-22",
           "summary": "轨迹分析发现三类反复出现的短板：对新颖性判断失准、资源利用不足、迅速陷入局部工程调参。加入研究构思、实验管理与定时检查清单等轻量插件技能后，Claude Opus 提升从 10.4% 升至 20.1%、Codex 从 4.4% 升至 8.1%，干预也更多样、更贴近领域；没有运行被判定学术不端。"
-        },
-        {
-          "title": "RegretBench：编码智能体缺乏“备份意识”——六个前沿模型平均完成 86.1% 的任务，却只在 15.2% 的“后悔时刻”前先做备份；作者提出插件式备份层 BackUpper，每任务仅约 0.014 美元",
-          "url": "https://arxiv.org/abs/2610.28934",
-          "source": "arXiv",
-          "date": "2026-10-22",
-          "summary": "基准含 205 个可执行任务，取材自用户在 X、GitHub、Stack Overflow 上明确后悔没保存状态的真实案例。BackUpper 在每次工具调用前检查并保存将被修改的状态，结合规则表与轻量子智能体，覆盖全部后悔时刻动作、恢复状态与原状平均相似度 92.2%，token 消耗比主智能体自行备份少 7 倍。"
-        },
-        {
-          "title": "“拒绝迁移失败”：文本里会拒绝的有害请求，换成工具调用场景后 10%–52% 会变成不安全的工具调用；残差流中的拒绝方向在工具场景下减弱，且能预测不安全调用（AUC 0.76–0.86）",
-          "url": "https://arxiv.org/abs/2610.28982",
-          "source": "arXiv",
-          "date": "2026-10-22",
-          "summary": "作者构建 2304 条覆盖四个领域的三元组提示（纯文本、标准工具、对抗性工具框架），用 20 种预定义禁止动作评估五个模型。激活修补恢复拒绝信号只能阻止部分不安全调用，且主要靠抑制工具使用；沿拒绝方向强力引导虽几乎消除不安全调用，但也压制正常工具使用、降低输出质量，说明仅做文本拒绝评测不足以保障智能体安全。"
-        },
-        {
-          "title": "MIT Sitzmann 团队提出“反应式优化器” OPAL：让编码智能体在训练过程中实时观察动态并改写优化器源码，在无现成配方的语言与图像任务上追平或超越最佳静态配方",
-          "url": "https://xingjianbai.com/reactive-optimizers/",
-          "source": "项目博客（Xingjian Bai、Vincent Sitzmann 等）",
-          "date": "2026-10-22",
-          "summary": "智能体为每个参数组编写更新规则，可自发设计精细学习率调度、检测并抑制 loss spike、越过最小值时重置动量并回滚、摆脱过拟合；在 modded-nanogpt 改换中文/泰语/吉尔吉斯语数据或缩小 batch 等“无调优配方”场景下验证，扩展到 LightningDiT 图像生成。核心思路是用 LLM token 替代 GPU 与人力调参时间，已开源为 MIT 许可的 PyTorch 包（github.com/xingjian-bai/opal），一行封装现有优化器即可接入 Claude Code 等智能体。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "LiteLLM 发布管线遭入侵：恶意 1.107.0 版于 10 月 21 日在 PyPI 上线约 2 小时，Docker Hub/GHCR 的 v1.107.0、latest、main-stable 等标签也被替换，植入随 Python 启动即运行的凭证窃取器与远控后门",
+          "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
+          "source": "LiteLLM 官方博客",
+          "date": "2026-10-21",
+          "summary": "官方称恶意包 11:39–13:23 UTC 在 PyPI 可下载，Docker 镜像 11:46–14:20 UTC 受影响，已全部下架；GitHub 源码标签未被篡改，恶意产物由攻击者控制的仓库构建，企业私有版不受影响。payload 为 cook.pth、cook.py、sitecustomize.py，窃取云、开发者、AI 工具与 LiteLLM 代理凭证。建议固定到 1.106.2、按 digest 拉取镜像，受影响环境视为已失陷并轮换所有可达凭证。JFrog 称这是 LiteLLM 今年第二次被劫持。"
+        },
         {
           "title": "GitHub 工程博客：为应对智能体带来的 Git 流量暴涨，已把 99.99999% 仓库的副本迁到 Azure、Azure 承担约一半 Git 流量；最繁忙的剩余仓库将靠把写入仲裁从“整库”改为“按引用”迁移，内部测试写吞吐提升 3–4 倍",
           "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
@@ -244,13 +251,6 @@
           "source": "NVIDIA Blog",
           "date": "2026-10-21",
           "summary": "Recursive Flint 为 Apache 2.0 开放权重 MoE 模型，官方称在 64GB RTX Spark 上超 220 tok/s，并在 SWE-Bench Pro v2、Terminal-Bench 2.1 等智能体编码基准同级领先，由其自动化 AI 研究系统 Eureka Machine 参与打造（截至发稿 Hugging Face 组织页尚未见公开权重）。DGX Spark 64GB 版 10 月 23 日开售；NVIDIA Sync Model Launcher 本月上线、一键拉起模型并接入 OpenCode；llama.cpp 中 Qwen 3.8 Flash Next 的 MTP 推测解码让 RTX PRO 6000 上智能体任务最高提速 1.4 倍，vLLM 中 Qwen3.8 27B 在 DGX Spark 上最高 1.3 倍；Windows 版 DGX Station 12 月推出。"
-        },
-        {
-          "title": "OpenAI 牵头协调披露 PHP 两个严重远程代码执行漏洞“php2shell”（CVE-2026-109618/109619）：Calif 借 GPT-5.6 Sol 发现、Wiz 独立发现，波及约 70% 网站，PHP 已发布 8.5.12 等修复版",
-          "url": "https://openai.com/index/coordinated-disclosure-of-critical-vulnerabilities/",
-          "source": "OpenAI",
-          "date": "2026-10-21",
-          "summary": "漏洞源于请求处理出错（如内存耗尽）时 PHP 使用未完全初始化或已释放的内存，未认证请求即可在应用代码运行前触发，mod_php 风险最高，影响 PHP 5.4 以来所有版本。OpenAI 通过 Patch the Planet 联合维护者、Cloudflare 等用两个月准备修复与 WAF 防护，并与白宫及 CISA 等协调，称其为“近年影响最大的安全问题之一”；同时承诺 10 亿美元补贴 Daybreak 防御访问，并提出 AI 时代关键漏洞响应框架征求意见。芬兰政府已临时关闭部分网站以防范。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "商务部副部长蒋成华：“十五五”时期将积极引领数字等新兴领域国际规则制定，推动打造开放型人工智能生态，与各国共同构建人工智能国际经贸规则",
+          "url": "https://www.36kr.com/newsflashes/4036720321909633",
+          "source": "36氪（证券时报）",
+          "date": "2026-10-22",
+          "summary": "在国新办新闻发布会上，蒋成华表示数字鸿沟、发展赤字、安全泛化已成为世界性难题，中国将坚定维护以世贸组织为核心的多边贸易体制、扩大高标准自贸区网络，并在数字、绿色等领域积极引领规则制定，推动开放型 AI 生态与 AI 国际经贸规则建设。"
+        },
         {
           "title": "路透社：Palantir 称北约所用 Maven 智能系统军事 AI 平台“没有关闭开关”，公司与美国政府都无法远程停用，试图打消欧洲在星链受限风波后对依赖美国技术的担忧",
           "url": "https://www.channelnewsasia.com/business/palantir-says-it-cannot-shut-nato-ai-system-europeans-fear-us-tech-dependence-6481646",
@@ -307,13 +314,6 @@
           "source": "The Information",
           "date": "2026-10-22",
           "summary": "AI 数据中心在美国多地遭居民反对，地方官员签署 NDA 导致项目信息不透明是主要争议点之一；明尼苏达州 Hermantown 等地此前已曝出相关争议。三大云厂商相继放弃 NDA，意味着数据中心选址审批将更多接受公众审视。"
-        },
-        {
-          "title": "OpenAI 更新使用政策（11 月 20 日生效）：模型路由器、AI 网关等直接提供 OpenAI 模型访问的服务须先经 OpenAI 审核批准，托管与转售伙伴须维持同等安全措施并协同执法",
-          "url": "https://openai.com/index/broad-access-through-consistent-standards",
-          "source": "OpenAI",
-          "date": "2026-10-21",
-          "summary": "OpenAI 称随着 GPT-6 Astra 等模型能力增强，要让防护措施在直连与经合作伙伴访问时保持一致：合作方须调查潜在违规并采取行动。还将与客户推出 SafetyID，在调查滥用时区分终端用户而不让 OpenAI 获知其身份，并承诺按记录在案的行为与风险作出相称的执法决定。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "蚂蚁数科发布决策模型 LingDT-Decision-1.0（4B/27B）：面向客服、风控、金融等结构化决策，称较通用大模型 Token 消耗降超 90%、响应快 10 倍，首创原生多选与按序决策",
+          "url": "https://news.aibase.com/zh/news/31800",
+          "source": "AIbase",
+          "date": "2026-10-22",
+          "summary": "官方称在 23 项开源评测基准上，27B 版本综合评分超过 Microsoft-Decision-1、Jev1.13.0、Fastino/GLiDE 等决策模型，为同参数量最高准确率；多选任务上 4B 与 27B 均领先 16 个对比模型。模型已上线蚂蚁数科 DTMaaS 平台，开发者可限时免费体验。"
+        },
+        {
+          "title": "智元机器人签约陆家嘴集团前滩源、前滩尚和御桥智慧谷超 22 万平方米办公面积，年租金约 3.5 亿元，刷新上海办公楼租赁最大单笔纪录",
+          "url": "https://www.ithome.com/1/016/502.htm",
+          "source": "IT之家（科创板日报）",
+          "date": "2026-10-22",
+          "summary": "接近智元的知情人士确认租赁信息属实，规模约为此前纪录（鹰角网络约 9 万平方米）的 2.4 倍。智元 9 月第 2 万台具身机器人下线，Counterpoint 数据显示其 2026 上半年人形机器人出货 9700 台、全球第一；据报道其新一轮 10–15 亿元融资接近收尾，估值约 500 亿元。"
+        },
         {
           "title": "科大讯飞首发星火语音基座大模型 SparkAudio 1.0：集成翻译、语音识别与语义理解，支持实时说话人分离、环境与情绪识别，已在讯飞输入法 16.0、讯飞听见、办公本与翻译机全面上线",
           "url": "https://www.ithome.com/1/016/445.htm",
@@ -363,20 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-21",
           "summary": "靳玉志把智能汽车“下半场”概括为三大变化：从辅助驾驶迈向自动驾驶、L3 起安全责任主体由驾驶员转向系统、自动驾驶将重构出行范式（自动停车、充电乃至接送孩子）。引望定位“电子螺丝钉”式增量部件供应商，10 月 19 日已与宁德时代、时代电服开展智能换电合作。"
-        },
-        {
-          "title": "雷军：小米过去 5 年在芯片、操作系统、AI 与具身智能等硬核科技研发投入 1055 亿元，预计未来 5 年相关投资超 2000 亿元；全球 IoT 设备连接数已超 11 亿台",
-          "url": "https://www.36kr.com/newsflashes/4035551783572358",
-          "source": "36氪快讯（援引证券时报）",
-          "date": "2026-10-21",
-          "summary": "雷军在 2026 世界智能网联汽车大会上表示，小米已构建全球最大消费级 IoT 平台（截至二季度末连接设备超 11 亿台），为做好整个生态体验，过去几年持续加大底层硬核技术投入。"
-        },
-        {
-          "title": "华为确认鸿蒙 HarmonyOS 7“小艺 AI 快捷栏”延期：由原定 10 月底推迟至 11 月初按机型分批推送，开启后小艺常驻桌面底部 Dock 栏",
-          "url": "https://www.ithome.com/1/016/144.htm",
-          "source": "IT之家",
-          "date": "2026-10-21",
-          "summary": "该功能在 9 月 7 日 HarmonyOS 7 发布会上首次剧透，华为客服本月早些时候称 10 月底上线，IT之家再次询问后获答复将推迟到 11 月初；开启后 AI 显示在快捷栏，点击可进入更多 AI 服务。"
         }
       ]
     },
@@ -385,6 +385,20 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "xingjian-bai/opal",
+          "url": "https://github.com/xingjian-bai/opal",
+          "source": "GitHub · Python · ⭐ 110（10 月 21 日新建）",
+          "date": "2026-10-22",
+          "summary": "OPAL（OPtimizer with an Agent in the Loop）“反应式优化器”：一行包装 PyTorch 优化器，训练过程中由 Claude Code 定期读取运行指标、重写优化器程序（更新规则、学习率与调度、动量、预条件、梯度裁剪、防 loss 尖峰等）与分析程序；智能体不改动模型、数据与评估，未改动前与原始训练逐位一致，支持成本上限与预估。"
+        },
+        {
+          "title": "hugohe3/ppt-master",
+          "url": "https://github.com/hugohe3/ppt-master",
+          "source": "GitHub · Python · ⭐ 6.6万（本周 +3270）",
+          "date": "2026-10-22",
+          "summary": "PPT Master：让 AI 把文档或主题生成真正原生的 PowerPoint——原生形状、转场与动画，按需生成数据驱动的图表和表格，可用演讲者备注生成音频旁白，并支持套用自有 .pptx 模板；MIT 许可，本周登上 GitHub 周榜。"
+        },
         {
           "title": "abcampbel/open-bots",
           "url": "https://github.com/abcampbel/open-bots",
@@ -426,20 +440,6 @@
           "source": "GitHub · TypeScript · ⭐ 96",
           "date": "2026-10-22",
           "summary": "告诉编码智能体哪些依赖在其训练截止后发生了变化：对比类型定义与更新日志，把简短变更说明写进智能体上下文，减少按过时 API 写代码。"
-        },
-        {
-          "title": "vllm-project/humming",
-          "url": "https://github.com/vllm-project/humming",
-          "source": "GitHub · Python · ⭐ 285",
-          "date": "2026-10-22",
-          "summary": "蚂蚁集团与 vLLM 社区本周正式发布的轻量、高灵活度 JIT 编译 GEMM 内核库，专为量化推理设计，支持 Dense 与 MoE、多种权重/激活精度组合，已作为 vLLM 的量化后端可选项。"
-        },
-        {
-          "title": "nace-ai/kapitsa",
-          "url": "https://github.com/nace-ai/kapitsa",
-          "source": "GitHub · C++ · ⭐ 219（10 月 16 日新建）",
-          "date": "2026-10-22",
-          "summary": "面向 Apple Silicon 的本地推理引擎，专为 Qwen 与 Nemotron 优化，兼容 OpenAI 与 Anthropic API，可直接让 opencode、Claude Code、Codex 跑在本地模型上；新推出的 KFlash 树状推测解码号称最高达 llama.cpp 的 3.5 倍。"
         }
       ]
     },
@@ -448,6 +448,27 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@CNBC",
+          "url": "https://x.com/CNBC/status/2113174362857611531",
+          "source": "X · CNBC",
+          "date": "2026-10-22",
+          "summary": "CNBC：巴克莱将在 AI 提效计划中削减 5000 个岗位。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113174800390574553",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "彭博：软银集团市值有望较 6 月峰值腰斩，借贷成本上升令投资者担忧其巨额 AI 投资的可持续性。"
+        },
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2113173538379010546",
+          "source": "X · Reuters",
+          "date": "2026-10-22",
+          "summary": "路透社：尽管面临联邦调查，特斯拉仍计划在年底前开始销售 Cybercab 自动驾驶出租车。"
+        },
         {
           "title": "@business",
           "url": "https://x.com/business/status/2113167250127548426",
@@ -482,27 +503,6 @@
           "source": "X · Bloomberg",
           "date": "2026-10-22",
           "summary": "彭博：以 AI 指数闻名的初创公司 Silicon Data 计划推出基于 AI token 支出的产品。"
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2113128241007370707",
-          "source": "X · Reuters",
-          "date": "2026-10-22",
-          "summary": "路透社：Meta 把 Muse 智能体置于 AI 战略核心，并计划发行新类别股票为 AI 投资提供资金。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113125733866361045",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博：韩国新云服务商 Elice 股价连续第二天上涨、升破 IPO 发行价，显示尽管行业支出激增，投资者仍看好 AI 交易。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113123215199355057",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博：MiniMax 股价已抹去 1 月上市以来的全部涨幅，激烈竞争迫使投资者重新评估这家中国大模型公司。"
         }
       ]
     }
