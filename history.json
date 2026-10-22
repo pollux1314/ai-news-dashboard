@@ -1,7 +1,62 @@
 {
- "updated": "2026-10-23T04:32:00+08:00",
- "count": 1325,
+ "updated": "2026-10-23T05:30:00+08:00",
+ "count": 1330,
  "items": [
+  {
+   "title": "Meta 修复 Muse 分享链接泄露问题并恢复分享：此前被公开 DNS 记录暴露的“artifact”分享页已全部换新网址，旧链接失效",
+   "url": "https://www.theverge.com/tech/1017066/meta-muse-sharing-back-on-artifiacts",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "安全公司 Claroc 本周报告可通过被动 DNS 查到 6800 多个 Muse 分享页，含公司营收复盘、贷款申请等敏感内容，Meta 随即暂停分享。Meta 的 David Singleton 在 X 上称问题出在文档、图片等 artifact 的网址设计而非对话分享，现已修复；修复前分享过的 artifact 已换新网址，访问旧链接会提示向分享者索取新链接。",
+   "id": "afeec198fbf511f78421872165f1c10686134b27",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T05:30:00+08:00"
+  },
+  {
+   "title": "西部数据 2027 财年一季度营收 43.8 亿美元、同比增 55%，受云与 AI 存储需求推动；季度股息上调 17%，预计下季营收约 51 亿美元",
+   "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results",
+   "source": "Western Digital",
+   "date": "2026-10-22",
+   "summary": "非 GAAP 毛利率与营业利润率分别升至 58.1% 和 49.1%，公司将增长归因于出货 EB 数增加与价格改善；季度股息升至每股 0.175 美元。下季营收指引 51 亿美元（±1 亿），意味同比增长约 66%–72%。财报发布前 AI 与芯片股领跌纳指，盘后涨幅一度被 AI 板块抛售抹去。",
+   "id": "876d3d4128603dcc14137950e71c2462e0e076fa",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T05:30:00+08:00"
+  },
+  {
+   "title": "Rivian 收购英国世界模型初创公司 Third Dimension：用 AI 把图片与视频变成逼真 3D 世界，加速其辅助驾驶与为 Uber 供应的 Robotaxi 自动驾驶研发",
+   "url": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "交易条款未披露。Third Dimension 2024 年成立、获 700 万美元种子轮，15 人团队将并入 James Philbin 领导的 Rivian 自动驾驶与 AI 团队，并扩建伦敦 AI 中心。Rivian 每天从用户车队收到 40 多万段驾驶数据，希望结合该技术构建贴近真实世界的仿真器，无需等待罕见长尾场景出现即可训练和验证。",
+   "id": "ec73a13041d61d2bba8b0b2d5aff5f6874070714",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T05:30:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113378118090035693",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：西部数据业绩指引好于预期并上调股息，凸显 AI 热潮带动的数据存储强劲需求。",
+   "id": "4c03e08670d323c3c15d0556b49d341d70d2fcb3",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T05:30:00+08:00"
+  },
+  {
+   "title": "@TechCrunch",
+   "url": "https://x.com/TechCrunch/status/2113377127437390073",
+   "source": "X · TechCrunch",
+   "date": "2026-10-22",
+   "summary": "TechCrunch 报道 Rivian 收购世界模型初创公司 Third Dimension 以加速自动驾驶研发，交易条款未披露。",
+   "id": "853dbfd2221c2f289e118aef06ab3c47cb73c290",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T05:30:00+08:00"
+  },
   {
    "title": "OpenAI Decisions API 正式全面开放：基于 GPT-6 Luna 专做有限选项的“决策”问题（分类、路由、下一步动作），比经 Responses API 调用 Luna 快至多 10 倍",
    "url": "https://openai.com/index/decisions-api/",
