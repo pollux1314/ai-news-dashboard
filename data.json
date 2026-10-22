@@ -1,12 +1,19 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-23T03:23:00+08:00",
+ "updated": "2026-10-23T04:32:00+08:00",
  "modules": [
   {
    "id": "models",
    "name": "大模型与产品发布",
    "icon": "🚀",
    "items": [
+    {
+     "title": "OpenAI Decisions API 正式全面开放：基于 GPT-6 Luna 专做有限选项的“决策”问题（分类、路由、下一步动作），比经 Responses API 调用 Luna 快至多 10 倍",
+     "url": "https://openai.com/index/decisions-api/",
+     "source": "OpenAI",
+     "date": "2026-10-22",
+     "summary": "公测以来新增 GPT-Live 原生集成、提示缓存、美国/欧盟推理驻留，支持原生 JSON 输入、在题目中附图，单请求最多 400 个问题（翻倍）；Box、Datadog、Ramp、Sierra、Speak 等早期客户称提速 3–40 倍。TechCrunch 指出这是 OpenAI 对 TypeSafe Jev 等“决策模型”的正面竞争，但在 AIM 与 Artificial Analysis 决策榜上分列第 8 与第 14。"
+    },
     {
      "title": "Canva 发布首个自研图像生成模型 Canva Craft：先“规划”元素空间关系、比例与文字信息再生成，最高 2K 分辨率、30 种画幅，主打文字清晰和局部精准编辑",
      "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
@@ -20,13 +27,6 @@
      "source": "The Verge",
      "date": "2026-10-22",
      "summary": "在波士顿贝斯以色列女执事医疗中心急诊病例上准确率 80%，医生平均 47%，且估算检查成本更低；系统基于 GPT-5，论文未纳入 GPT-6 Astra、Opus 5.5 等新模型。微软将开源 SDBench 基准，并计划未来几个月在该医院开展真实临床测试；苏莱曼称“未来几年”将做出与人类表现难以区分的医疗超级智能，但承认仍需临床验证。"
-    },
-    {
-     "title": "Cohere 发布 Rerank 5 企业检索重排模型（Pro/Fast 两档）：新增 Context Focus 在单次调用中返回文档内最相关段落，并提供校准后的相关性分数，0.7 即约 70% 概率有用",
-     "url": "https://cohere.com/blog/rerank-5",
-     "source": "Cohere",
-     "date": "2026-10-21",
-     "summary": "官方称 Rerank 5 Pro 在 ViDoRe V3、BEIR、BRIGHT、nanoMTEB 上领先，46 个综合数据集中 39 个第一，BRIGHT 得分 82.2、比 Voyage AI Rerank 3 高 5.8 分；Context Focus 去掉一半上下文仅损失约 2 个百分点答案质量，搜索智能体实验中 token 降 35% 且准确率从 46% 升到 58%。API 价格 Pro 每百万 token 0.05 美元、Fast 0.02 美元，已在 Cohere API、Model Vault、Microsoft Foundry、Amazon SageMaker 上线（数据为 Cohere 自测）。"
     },
     {
      "title": "Hugging Face 发布开源 DNA 语言模型 Carbon-X：可在笔记本本地运行，用自然语言“和 DNA 对话”，询问基因变异对基因活性与健康的影响",
@@ -134,6 +134,13 @@
    "icon": "📄",
    "items": [
     {
+     "title": "Google DeepMind 联合 WRI、IIASA 发布全球 10 米森林类型图 ForTy 2020：区分原始林、天然更新林、人工林、速生用材林、经济林木与其他土地，并给出 2017–2025 逐年变化",
+     "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+     "source": "Google DeepMind",
+     "date": "2026-10-22",
+     "summary": "模型以 AlphaEarth Foundations 嵌入为关键输入、用约 170 万个标注点训练；在 9000 多个随机样点的专家核验中森林类型判对 90%、森林与非森林区分 95%，优于其他全球森林图。可识别天然林被砍后改种人工林这类从太空难以看出的变化，为欧盟零毁林法规（EUDR）提供基线，数据以开放许可在 Earth Engine 免费提供，论文发表于 Scientific Data。"
+    },
+    {
      "title": "Real PMIDs, Wrong Papers：生物医学论断核查智能体的 harness 消融——闭卷模型引用的 PubMed ID 几乎都真实存在（327/335），但只有 3 条与论断相关；让模型自写检索式可把命中金标准论文的召回提升至三倍",
      "url": "https://arxiv.org/abs/2610.29812",
      "source": "arXiv",
@@ -181,13 +188,6 @@
      "source": "arXiv",
      "date": "2026-10-20",
      "summary": "论文提出通用威胁模型，攻击可经由个人记忆、项目、技能、组织指令以及 MCP 连接的资源注入，让三家服务持续散布虚假信息、生成有害内容或伪装“离线无响应”，呼吁平台为持久记忆设计专门防护。"
-    },
-    {
-     "title": "Hidden Messages：扩散语言模型智能体之间可直接传递压缩的去噪隐状态而非文本，因果实验显示接收方确实利用了消息内容",
-     "url": "https://arxiv.org/abs/2610.28905",
-     "source": "arXiv",
-     "date": "2026-10-20",
-     "summary": "发送方把去噪状态压缩成 4 个有符号稠密向量；在 QASC 上两条支撑事实分给两个智能体时匹配通信准确率 80.8%，换成其他样本的消息降到 46.8%；且一次晚期传递达 87.8%，比四轮循环交换高 7 个点——传递时机比次数更重要。"
     }
    ]
   },
@@ -196,6 +196,20 @@
    "name": "开源与工具",
    "icon": "🛠️",
    "items": [
+    {
+     "title": "Claude API 发布 2023 年以来首个新 API 版本 2026-10-21：移除 temperature/top_p/top_k 参数、Admin API 多处字段改名，新版 SDK 与 CLI 默认使用新版本",
+     "url": "https://platform.claude.com/docs/en/api/versioning",
+     "source": "Claude Docs",
+     "date": "2026-10-22",
+     "summary": "新版本已在 Claude API、AWS 上的 Claude Platform、Microsoft Foundry 和 Google Cloud 可用（Bedrock 上限 Claude 4.7 及以后模型）；在 assistant 消息中直接放 document 块等写法将返回 400。旧版 2023-06-01 不弃用，Anthropic 表示今后会更频繁发布版本，让开发者在新模型要求前处理破坏性变更，并提供迁移指南。"
+    },
+    {
+     "title": "Ai2 发布 OlmoEarth v1.3 卫星嵌入模型：预计算全球每 10 米像素的年度嵌入（128/64 维），在与 AlphaEarth、Tessera v2 的 27 项评测中 20 项第一",
+     "url": "https://allenai.org/blog/olmoearth-v1-3",
+     "source": "Ai2",
+     "date": "2026-10-22",
+     "summary": "读取一年的 Sentinel-1/2 与 Landsat 时间序列，嵌入托管在 Source Cooperative，2023–2025 年全球覆盖、2017–2022 年部分国家并持续回填；配套免登录的 OlmoEarth Embeddings Explorer，可点选相似地点或标几个点现场训练小分类器并导出 GeoTIFF。模型权重、预训练数据和代码全部开放，训练 GPU 时长仅为 v1.2 的约 53%。"
+    },
     {
      "title": "Anthropic 把 Agent Skills 开放标准捐给 Linux 基金会旗下 Agentic AI Foundation（AAIF）：已有 70 多个智能体平台集成、累计发布 100 万个技能、安装近 2.8 亿次",
      "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
@@ -237,20 +251,6 @@
      "source": "GitHub · SoMarkAI",
      "date": "2026-10-21",
      "summary": "把 PDF 与文档图片转成带版面坐标与阅读顺序的 Markdown/JSON，识别公式、表格、化学方程式与结构式、代码块等 13 类元素；首次把版面分析模块独立为可插拔组件，可替换为自定义版面模型；权重已上架 Hugging Face 与魔搭，提供免费 API 与在线 Demo。"
-    },
-    {
-     "title": "LiteLLM 发布管线遭入侵：恶意 1.107.0 版于 10 月 21 日在 PyPI 上线约 2 小时，Docker Hub/GHCR 的 v1.107.0、latest、main-stable 等标签也被替换，植入随 Python 启动即运行的凭证窃取器与远控后门",
-     "url": "https://docs.litellm.ai/blog/security-incident-oct-21-2026",
-     "source": "LiteLLM 官方博客",
-     "date": "2026-10-21",
-     "summary": "官方称恶意包 11:39–13:23 UTC 在 PyPI 可下载，Docker 镜像 11:46–14:20 UTC 受影响，已全部下架；GitHub 源码标签未被篡改，恶意产物由攻击者控制的仓库构建，企业私有版不受影响。payload 为 cook.pth、cook.py、sitecustomize.py，窃取云、开发者、AI 工具与 LiteLLM 代理凭证。建议固定到 1.106.2、按 digest 拉取镜像，受影响环境视为已失陷并轮换所有可达凭证。JFrog 称这是 LiteLLM 今年第二次被劫持。"
-    },
-    {
-     "title": "GitHub 工程博客：为应对智能体带来的 Git 流量暴涨，已把 99.99999% 仓库的副本迁到 Azure、Azure 承担约一半 Git 流量；最繁忙的剩余仓库将靠把写入仲裁从“整库”改为“按引用”迁移，内部测试写吞吐提升 3–4 倍",
-     "url": "https://github.blog/engineering/architecture-optimization/the-bridge-to-agent-scale-git-infrastructure/",
-     "source": "The GitHub Blog",
-     "date": "2026-10-21",
-     "summary": "GitHub 称迁移节奏由“智能体转向”驱动：流量指数增长、自有数据中心与所在区域电力见顶。跨区域约 25ms 往返让高写入仓库无法承受整库锁，按引用串行化后智能体与开发者推送不同分支不再互相等待；下一步把 Azure Blob 存储作为仲裁中的“虚拟写副本”，并按需扩展无状态读副本，最终架构将在下周 GitHub Universe 公布。"
     }
    ]
   },
@@ -259,6 +259,13 @@
    "name": "政策与监管",
    "icon": "⚖️",
    "items": [
+    {
+     "title": "路透社：开放网络运动（Movement for an Open Web）向欧盟委员会和英国 CMA 投诉，要求暂停 Meta 10 月 30 日生效的新商业条款，称其赋予 Meta 无限使用出版商与广告主内容做 AI 的权利",
+     "url": "https://www.investing.com/news/stock-market-news/publishers-advertisers-call-eu-uk-antitrust-regulators-to-suspend-metas-new-commercial-terms-4966669",
+     "source": "Reuters",
+     "date": "2026-10-22",
+     "summary": "该组织成员包括数字广告主与出版商，已申请临时措施，称企业别无选择只能使用 Meta 服务、无法选择退出；Meta 回应称整合后的爬取条款只适用于广告与商业产品、不改变爬虫行为，网站仍可用 robots.txt 表达偏好。英国 CMA 表示已与 Meta 会面并正“紧急讨论”下一步。"
+    },
     {
      "title": "特朗普在 Truth Social 呼吁数据中心与大型 AI 云厂商向所在社区“分红”：除自建电源外还须把多余电力无偿或出售给当地社区，以缓解电价上涨、换取社区接纳",
      "url": "https://www.ithome.com/1/016/257.htm",
@@ -307,13 +314,6 @@
      "source": "Reuters / Investing.com",
      "date": "2026-10-22",
      "summary": "路透/益普索本月民调显示 69% 民主党登记选民支持限制数据中心建设，共和党为 43%；预测市场认为民主党横扫两院可能性最大。分析人士认为显著阻碍数据中心扩张的全国立法难以成为法律，但州和地方选举对建设节奏影响更直接；特朗普周三称数据中心企业应向社区支付“红利”。"
-    },
-    {
-     "title": "路透社：IMF 与 OECD 官员警告 AI 可能扩大贫富国家差距——发展中经济体、小企业和年轻员工若缺电力、数字基础设施与技能将被落下",
-     "url": "https://www.channelnewsasia.com/business/imf-oecd-warn-ai-could-widen-rich-poor-country-divide-6482296",
-     "source": "CNA（路透社）",
-     "date": "2026-10-22",
-     "summary": "IMF 财政事务部副主任 Dabla-Norris 称有效采用 AI 中期可使全球年增长最多提高 0.5 个百分点，但“迄今总体生产率证据要少得多”，入门级员工尤其脆弱；OECD 首席经济学家 Scarpetta 称 AI 可使成员国年生产率增长提高 0.4–1.2 个百分点，但企业核心职能应用有限，“暴露度与实际使用之间差距很大”。IMF 估计全球约 40% 岗位暴露于 AI。"
     }
    ]
   },
@@ -322,6 +322,20 @@
    "name": "国内 AI 动态",
    "icon": "🇨🇳",
    "items": [
+    {
+     "title": "蚂蚁百灵开源医疗增强 MoE 模型 Ling-3.0-flash-Sante：124B 总参数、每 token 仅激活 5.1B，256K 上下文，称在同尺寸模型中专业医疗任务领先",
+     "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
+     "source": "Hugging Face · inclusionAI",
+     "date": "2026-10-22",
+     "summary": "基于 Ling-3.0-flash 增强，面向医疗问答、证据检索、深度研究与工具调用工作流，权重已上 Hugging Face 与 ModelScope，OpenRouter、Vercel AI Gateway 提供免费调用；官方强调其不是医疗诊断设备，临床高风险用途须由专业人员审核。"
+    },
+    {
+     "title": "腾讯混元提出 WorkForge：从专家工作流自动构建带程序化与语义双重验证的长时程办公智能体训练环境，已达 1.67 万个、覆盖 40 个专业领域和 60 种文件类型",
+     "url": "https://huggingface.co/papers/2610.04906",
+     "source": "Hugging Face Papers",
+     "date": "2026-10-22",
+     "summary": "框架先生成真实工作区、提取可核查事实，再据此生成任务、解法计划与验证器，并收集带评分的交互轨迹用于后训练；论文报告 Qwen3.5-35B-A3B-Base 经训练后 GDPVal 从 45.5 升至 73.6、APEX 从 5.0 升至 21.3。"
+    },
     {
      "title": "智元机器人签约成为香港特区政府引进重点企业办公室新一批重点企业：将以香港为国际研发、产业合作与连接全球市场的支点",
      "url": "https://www.36kr.com/newsflashes/4036989828813700",
@@ -358,25 +372,11 @@
      "summary": "4K 版被称为 Seedance 2.5 这一代最强模型，除画面细节外主打更细腻的人物表演与更精细的参考生成、编辑一致性，瞄准大银幕高端影视需求，目前在用的 20 部作品中还有全球大 IP 电影；公开页面暂未开放 4K 申请入口。"
     },
     {
-     "title": "奇瑞旗下墨甲机器人在芜湖发布 0.9 米家庭陪伴人形机器人“墨宝”并开启全球预订：22 自由度，自研 MoAgent 具身智能体采用快慢双脑，支持 16 路任务并行",
-     "url": "https://www.prnasia.com/story/552626-1.shtml",
-     "source": "美通社",
-     "date": "2026-10-21",
-     "summary": "墨宝面向“一家三代”提供识物问答、英语互动、陪聊与提醒，以 FaceID 关联分层长期记忆，中断响应不到 0.2 秒；首批 35 位天使用户获一年免费使用权，整机售价未公布。墨甲称全球销量已超 3000 台、进入 60 多个国家和地区，计划首批布局 300 家全球体验中心并打造“甲天下”租赁品牌。"
-    },
-    {
      "title": "蚂蚁数科发布决策模型 LingDT-Decision-1.0（4B/27B）：面向客服、风控、金融等结构化决策，称较通用大模型 Token 消耗降超 90%、响应快 10 倍，首创原生多选与按序决策",
      "url": "https://news.aibase.com/zh/news/31800",
      "source": "AIbase",
      "date": "2026-10-22",
      "summary": "官方称在 23 项开源评测基准上，27B 版本综合评分超过 Microsoft-Decision-1、Jev1.13.0、Fastino/GLiDE 等决策模型，为同参数量最高准确率；多选任务上 4B 与 27B 均领先 16 个对比模型。模型已上线蚂蚁数科 DTMaaS 平台，开发者可限时免费体验。"
-    },
-    {
-     "title": "智元机器人签约陆家嘴集团前滩源、前滩尚和御桥智慧谷超 22 万平方米办公面积，年租金约 3.5 亿元，刷新上海办公楼租赁最大单笔纪录",
-     "url": "https://www.ithome.com/1/016/502.htm",
-     "source": "IT之家（科创板日报）",
-     "date": "2026-10-22",
-     "summary": "接近智元的知情人士确认租赁信息属实，规模约为此前纪录（鹰角网络约 9 万平方米）的 2.4 倍。智元 9 月第 2 万台具身机器人下线，Counterpoint 数据显示其 2026 上半年人形机器人出货 9700 台、全球第一；据报道其新一轮 10–15 亿元融资接近收尾，估值约 500 亿元。"
     }
    ]
   },
@@ -449,6 +449,34 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@OpenAIDevs",
+     "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
+     "source": "X · OpenAIDevs",
+     "date": "2026-10-22",
+     "summary": "OpenAI 开发者账号宣布 Decisions API 正式可用：无需生成完整回复即可对文本和图片做分类、评估输入并决定下一步，帮助构建更快、更省钱的应用和智能体。"
+    },
+    {
+     "title": "@allen_ai",
+     "url": "https://x.com/allen_ai/status/2113298265928020126",
+     "source": "X · allen_ai",
+     "date": "2026-10-22",
+     "summary": "Ai2 宣布 OlmoEarth v1.3：为地球上每个 10 米像素预计算的 SOTA 卫星嵌入，并推出可在浏览器中探索和定制地图的新工具。"
+    },
+    {
+     "title": "@GoogleDeepMind",
+     "url": "https://x.com/GoogleDeepMind/status/2113278710795153785",
+     "source": "X · GoogleDeepMind",
+     "date": "2026-10-22",
+     "summary": "DeepMind 发布 Forest Typology（ForTy）：10 米分辨率区分天然林、人工林与农业林地，用于识别毁林、保护最重要的森林。"
+    },
+    {
+     "title": "@AntLingAGI",
+     "url": "https://x.com/AntLingAGI/status/2113293431435149349",
+     "source": "X · AntLingAGI",
+     "date": "2026-10-22",
+     "summary": "蚂蚁百灵宣布正式开源 Ling-3.0-flash-Sante：124B 总参、5.1B 激活的医疗增强 MoE 模型，称在专业医疗任务上领先同尺寸模型。"
+    },
+    {
      "title": "@ClaudeDevs",
      "url": "https://x.com/ClaudeDevs/status/2113328526413996100",
      "source": "X · ClaudeDevs",
@@ -475,34 +503,6 @@
      "source": "X · Mustafa Suleyman",
      "date": "2026-10-22",
      "summary": "微软 AI CEO 苏莱曼：MAI 诊断系统在急诊场景的准确率已是医生的 1.7 倍（即便医生可上网查资料），成本更低、所需检查更少，成果今日发表于《Science》。"
-    },
-    {
-     "title": "@theinformation",
-     "url": "https://x.com/theinformation/status/2113329583407739269",
-     "source": "X · The Information",
-     "date": "2026-10-22",
-     "summary": "The Information：英伟达通过超 1700 亿美元的投资与承诺为自家芯片需求“输血”，而 AI 云厂商股价下跌、多家英伟达投资企业推迟 IPO。"
-    },
-    {
-     "title": "@verge",
-     "url": "https://x.com/verge/status/2113331775330275506",
-     "source": "X · The Verge",
-     "date": "2026-10-22",
-     "summary": "The Verge：苏莱曼称微软将在未来几年打造出在医疗上与人类表现难以区分的系统。"
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2113308159615869097",
-     "source": "X · Reuters",
-     "date": "2026-10-22",
-     "summary": "路透社：印度 Tech Mahindra 与 SpaceXSI 合作开展 AI 驱动的软件开发。"
-    },
-    {
-     "title": "@business",
-     "url": "https://x.com/business/status/2113314519262839200",
-     "source": "X · Bloomberg",
-     "date": "2026-10-22",
-     "summary": "Bloomberg：黑石 CEO 苏世民称 2015 年马云跟他聊 AI 时他“完全不知道在说什么”，但那次偶然对话促使黑石建起庞大的数据中心版图。"
     }
    ]
   }

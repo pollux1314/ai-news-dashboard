@@ -1,7 +1,128 @@
 {
- "updated": "2026-10-23T03:23:00+08:00",
- "count": 1314,
+ "updated": "2026-10-23T04:32:00+08:00",
+ "count": 1325,
  "items": [
+  {
+   "title": "OpenAI Decisions API 正式全面开放：基于 GPT-6 Luna 专做有限选项的“决策”问题（分类、路由、下一步动作），比经 Responses API 调用 Luna 快至多 10 倍",
+   "url": "https://openai.com/index/decisions-api/",
+   "source": "OpenAI",
+   "date": "2026-10-22",
+   "summary": "公测以来新增 GPT-Live 原生集成、提示缓存、美国/欧盟推理驻留，支持原生 JSON 输入、在题目中附图，单请求最多 400 个问题（翻倍）；Box、Datadog、Ramp、Sierra、Speak 等早期客户称提速 3–40 倍。TechCrunch 指出这是 OpenAI 对 TypeSafe Jev 等“决策模型”的正面竞争，但在 AIM 与 Artificial Analysis 决策榜上分列第 8 与第 14。",
+   "id": "67471405e6161298d94fadf75c19ef980c7e5824",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "Google DeepMind 联合 WRI、IIASA 发布全球 10 米森林类型图 ForTy 2020：区分原始林、天然更新林、人工林、速生用材林、经济林木与其他土地，并给出 2017–2025 逐年变化",
+   "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
+   "source": "Google DeepMind",
+   "date": "2026-10-22",
+   "summary": "模型以 AlphaEarth Foundations 嵌入为关键输入、用约 170 万个标注点训练；在 9000 多个随机样点的专家核验中森林类型判对 90%、森林与非森林区分 95%，优于其他全球森林图。可识别天然林被砍后改种人工林这类从太空难以看出的变化，为欧盟零毁林法规（EUDR）提供基线，数据以开放许可在 Earth Engine 免费提供，论文发表于 Scientific Data。",
+   "id": "e66e9796ba6be5e940b3ea5f9d80a20aa79b004c",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "Claude API 发布 2023 年以来首个新 API 版本 2026-10-21：移除 temperature/top_p/top_k 参数、Admin API 多处字段改名，新版 SDK 与 CLI 默认使用新版本",
+   "url": "https://platform.claude.com/docs/en/api/versioning",
+   "source": "Claude Docs",
+   "date": "2026-10-22",
+   "summary": "新版本已在 Claude API、AWS 上的 Claude Platform、Microsoft Foundry 和 Google Cloud 可用（Bedrock 上限 Claude 4.7 及以后模型）；在 assistant 消息中直接放 document 块等写法将返回 400。旧版 2023-06-01 不弃用，Anthropic 表示今后会更频繁发布版本，让开发者在新模型要求前处理破坏性变更，并提供迁移指南。",
+   "id": "94c27f6390cab86b4a2b3636dbac1cbe27d53a8f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "Ai2 发布 OlmoEarth v1.3 卫星嵌入模型：预计算全球每 10 米像素的年度嵌入（128/64 维），在与 AlphaEarth、Tessera v2 的 27 项评测中 20 项第一",
+   "url": "https://allenai.org/blog/olmoearth-v1-3",
+   "source": "Ai2",
+   "date": "2026-10-22",
+   "summary": "读取一年的 Sentinel-1/2 与 Landsat 时间序列，嵌入托管在 Source Cooperative，2023–2025 年全球覆盖、2017–2022 年部分国家并持续回填；配套免登录的 OlmoEarth Embeddings Explorer，可点选相似地点或标几个点现场训练小分类器并导出 GeoTIFF。模型权重、预训练数据和代码全部开放，训练 GPU 时长仅为 v1.2 的约 53%。",
+   "id": "fd1fd66f68eb30a1983233d242ca417bb8c30637",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "路透社：开放网络运动（Movement for an Open Web）向欧盟委员会和英国 CMA 投诉，要求暂停 Meta 10 月 30 日生效的新商业条款，称其赋予 Meta 无限使用出版商与广告主内容做 AI 的权利",
+   "url": "https://www.investing.com/news/stock-market-news/publishers-advertisers-call-eu-uk-antitrust-regulators-to-suspend-metas-new-commercial-terms-4966669",
+   "source": "Reuters",
+   "date": "2026-10-22",
+   "summary": "该组织成员包括数字广告主与出版商，已申请临时措施，称企业别无选择只能使用 Meta 服务、无法选择退出；Meta 回应称整合后的爬取条款只适用于广告与商业产品、不改变爬虫行为，网站仍可用 robots.txt 表达偏好。英国 CMA 表示已与 Meta 会面并正“紧急讨论”下一步。",
+   "id": "4a5d13cefd25b186212e5ab1390698d6090623bb",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "蚂蚁百灵开源医疗增强 MoE 模型 Ling-3.0-flash-Sante：124B 总参数、每 token 仅激活 5.1B，256K 上下文，称在同尺寸模型中专业医疗任务领先",
+   "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
+   "source": "Hugging Face · inclusionAI",
+   "date": "2026-10-22",
+   "summary": "基于 Ling-3.0-flash 增强，面向医疗问答、证据检索、深度研究与工具调用工作流，权重已上 Hugging Face 与 ModelScope，OpenRouter、Vercel AI Gateway 提供免费调用；官方强调其不是医疗诊断设备，临床高风险用途须由专业人员审核。",
+   "id": "59685b5e2320a303a14e000745e1f0bd87580d78",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "腾讯混元提出 WorkForge：从专家工作流自动构建带程序化与语义双重验证的长时程办公智能体训练环境，已达 1.67 万个、覆盖 40 个专业领域和 60 种文件类型",
+   "url": "https://huggingface.co/papers/2610.04906",
+   "source": "Hugging Face Papers",
+   "date": "2026-10-22",
+   "summary": "框架先生成真实工作区、提取可核查事实，再据此生成任务、解法计划与验证器，并收集带评分的交互轨迹用于后训练；论文报告 Qwen3.5-35B-A3B-Base 经训练后 GDPVal 从 45.5 升至 73.6、APEX 从 5.0 升至 21.3。",
+   "id": "3eef800a223138fef5dbfc906216300f05c645bb",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "@OpenAIDevs",
+   "url": "https://x.com/OpenAIDevs/status/2113346642787086538",
+   "source": "X · OpenAIDevs",
+   "date": "2026-10-22",
+   "summary": "OpenAI 开发者账号宣布 Decisions API 正式可用：无需生成完整回复即可对文本和图片做分类、评估输入并决定下一步，帮助构建更快、更省钱的应用和智能体。",
+   "id": "14ca4a0df82df739b319fa09768eba83bfd7ff1d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "@allen_ai",
+   "url": "https://x.com/allen_ai/status/2113298265928020126",
+   "source": "X · allen_ai",
+   "date": "2026-10-22",
+   "summary": "Ai2 宣布 OlmoEarth v1.3：为地球上每个 10 米像素预计算的 SOTA 卫星嵌入，并推出可在浏览器中探索和定制地图的新工具。",
+   "id": "abaf7d4fa0abc3d26ac6d9603941b0826a89738e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "@GoogleDeepMind",
+   "url": "https://x.com/GoogleDeepMind/status/2113278710795153785",
+   "source": "X · GoogleDeepMind",
+   "date": "2026-10-22",
+   "summary": "DeepMind 发布 Forest Typology（ForTy）：10 米分辨率区分天然林、人工林与农业林地，用于识别毁林、保护最重要的森林。",
+   "id": "6dc2df3f1bf8a16feebaa7ce5c47ab562880ac77",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
+  {
+   "title": "@AntLingAGI",
+   "url": "https://x.com/AntLingAGI/status/2113293431435149349",
+   "source": "X · AntLingAGI",
+   "date": "2026-10-22",
+   "summary": "蚂蚁百灵宣布正式开源 Ling-3.0-flash-Sante：124B 总参、5.1B 激活的医疗增强 MoE 模型，称在专业医疗任务上领先同尺寸模型。",
+   "id": "346862a40ff4ff2cedb65139f58af7ab675ff876",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T04:32:00+08:00"
+  },
   {
    "title": "Canva 发布首个自研图像生成模型 Canva Craft：先“规划”元素空间关系、比例与文字信息再生成，最高 2K 分辨率、30 种画幅，主打文字清晰和局部精准编辑",
    "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
