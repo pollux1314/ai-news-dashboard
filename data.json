@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-22T09:35:00+08:00",
+  "updated": "2026-10-22T10:37:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "通用汽车把 OnStar 升级为“联网智能平台”并推出原生 AI 助手 OnStar AI：用户可用“Hey OnStar”询问车辆警报含义、续航能否到达下一充电站、语音控制空调等，将先通过 OTA 登陆 2027 款凯迪拉克 Lyriq",
+          "url": "https://www.ithome.com/1/016/200.htm",
+          "source": "IT之家",
+          "date": "2026-10-22",
+          "summary": "助手结合实时车辆数据、用户授权的上下文与通用汽车车辆知识库给出个性化建议，计划结合天气、路况与数字日历主动提供出行建议；需人工时仍可转接 OnStar 顾问，气囊触发等紧急情况仍由人工联系救援。通用计划 2027 年推出统一 OnStar 手机应用取代各品牌独立应用，OnStar 目前在 22 个市场有超 1200 万订阅用户。"
+        },
         {
           "title": "Meta 财报电话会：Muse 个人智能体一个半月在美加吸引超 1000 万人开通、约 25% 每天使用，购物是头号用途，扎克伯格称已找到产品市场契合点，明年要把服务成本降 10 倍以上",
           "url": "https://techcrunch.com/2026/10/21/meta-says-muse-has-over-10m-users-with-shopping-a-top-activity/",
@@ -55,13 +62,6 @@
           "source": "The Verge",
           "date": "2026-10-21",
           "summary": "在去年先登陆 Android Auto 后，谷歌用近 12 个月把 Gemini 导航带到 CarPlay：可点车机屏上 Google Maps 的 Gemini 图标，例如先问推荐景点再让它避开收费路段导航过去，也可用对话方式上报路况。前一天为 Android Auto 宣布的、可调用 Gmail/日历等个人数据的 Personal Intelligence 功能，此次 CarPlay 更新未提及。"
-        },
-        {
-          "title": "ServiceNow 与英伟达个人长时运行企业智能体 Arc 正式可用：由 ServiceNow Super Intelligence Control Tower 治理、NVIDIA OpenShell 运行时强制执行，可在 RTX Spark 设备本地运行",
-          "url": "https://www.zdnet.com/innovation/exclusive-servicenow-and-nvidia-launch-arc-a-new-ai-agent-for-enterprise/",
-          "source": "ZDNET",
-          "date": "2026-10-21",
-          "summary": "Arc 于 5 月首次亮相，现已在 Mac 上 GA、Windows 版待推出，面向邮件、Teams 等日常办公任务，会积累记忆与技能并主动从收件箱与会议纪要中提炼待办，复杂任务才交给前沿模型。安全上由 Control Tower 定义策略、OpenShell 在运行时限制行为，配合上周发布的 AI Passport；通行证被吊销时，BlueField DPU 可在硬件层“以机器速度”拦截智能体后续操作。"
         }
       ]
     },
@@ -71,11 +71,25 @@
       "icon": "💰",
       "items": [
         {
-          "title": "Gallatin AI 完成 5000 万美元 A 轮融资，8VC、Silent Ventures 等参投：为美军打造 AI 原生后勤保障决策平台 Navigator，已被陆军、空军在全球多地使用",
-          "url": "https://www.latimes.com/b2b/ai-technology/story/2026-10-21/gallatin-ai-series-a-military-logistics",
-          "source": "Los Angeles Times",
-          "date": "2026-10-21",
-          "summary": "总部位于加州埃尔塞贡多，Navigator 打通车辆战备、补给、医疗等保障环节的数据与流程，提供统一战备视图，已在燃料、医疗与弹药供应链中验证，并支持从日本、阿拉斯加到欧洲的联合演习。新资金将用于扩充工程团队、加速产品研发；公司累计融资达 7000 万美元。"
+          "title": "特斯拉财报电话会：车主私家车预计 2027 年二季度起可接入特斯拉自动驾驶出租车车队；三季度北美超 75% 新车买家选购 FSD（监督版），环比提升近 20 个百分点",
+          "url": "https://www.ithome.com/1/016/209.htm",
+          "source": "IT之家",
+          "date": "2026-10-22",
+          "summary": "自动驾驶副总裁 Ashok Elluswamy 称 Cybercab 与 Model Y 使用同一套软件，将随 V15 更新推送给用户，车辆需纳入特斯拉地理围栏与车队管理体系；特斯拉已在得州和佛州部署数百台 Robotaxi（部分仍有安全员），奥斯汀有数十台完全无人的 Cybercab，并称自动驾驶累计里程达 330 万英里。"
+        },
+        {
+          "title": "路透社：特斯拉三季度资本支出 47.3 亿美元、远低于约 79.5 亿美元的预期，并把 2026 全年资本支出目标从逾 250 亿美元下调约 20% 至约 200 亿美元，AI 与机器人转型投入节奏引发担忧",
+          "url": "https://www.ithome.com/1/016/215.htm",
+          "source": "IT之家 / 路透社",
+          "date": "2026-10-22",
+          "summary": "支出放缓使特斯拉三季度意外实现约 15.3 亿美元正自由现金流。马斯克在电话会上承认 Optimus 仍面临供应链、训练数据与机械手设计等挑战，可能到 2027 年底才能解决、之后约一年才能交付客户；与 SpaceX 合作、采用英特尔 14A 工艺的 Terafab 芯片厂目标 2028 年三季度实现实用芯片量产。"
+        },
+        {
+          "title": "西门子医疗与英伟达宣布合作开发下一代自适应放射治疗：融合智能体 AI 与机器人智能，首批聚焦治疗规划智能体、基于患者数字孪生的仿真与治疗中的实时自适应计算",
+          "url": "https://www.ithome.com/1/016/206.htm",
+          "source": "IT之家",
+          "date": "2026-10-22",
+          "summary": "西门子医疗 CEO 孟天齐称三大方向分别是：在治疗规划中由智能体评估方案、执行计算并与临床医生互动；用患者特异性数字孪生在放疗开始前测试治疗场景；以及让肿瘤团队在治疗过程中更好应对患者状况变化。合作建立在其新近推出的 Accela 系统基础上。"
         },
         {
           "title": "黑石 AI 负责人 Jas Khaira：AI 基建债务担忧被夸大，数据中心债务最终由全球信用最好的超大规模云厂商兜底，“不像 2008 年那些摇摇欲坠的银行”",
@@ -111,20 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-22",
           "summary": "顾客可通过下月上线的 Agent Profiles 单独追踪智能体的购买记录，设置每笔交易需人工批准或设定支出上限；智能体须在用户意图范围内行事、无法接触支付数据，违反条款将被封禁。此前亚马逊、达美航空等多家网站已限制 AI 智能体代用户操作。"
-        },
-        {
-          "title": "Anthropic 发布 2026 年度《公益报告》（Public Benefit Report）：作为公益公司（PBC）首次按五大支柱盘点进展——AI 安全技术问题被解决、安全实践由法律兜底、AI 强化民主与全球稳定、AI 扩大繁荣、AI 收益人人共享",
-          "url": "https://www.anthropic.com/public-benefit-charter",
-          "source": "Anthropic",
-          "date": "2026-10-22",
-          "summary": "Anthropic 称 PBC 身份要求其在股东财务利益与更广泛公共利益之间取得平衡，年度报告用于盘点为公共利益所做的工作及后续计划，并配套整理相关研究、政策与项目记录、称将持续补充。报告发布前几天，公司刚宣布注入 5% 股份设立 Anthropic 公益基金，并为长期利益信托新增受托人。"
-        },
-        {
-          "title": "界面：亚马逊 AWS 通过新的“提前接收”流程，预计在美国设施先期接收约 50 亿美元英伟达 GB300 服务器机架，此后每月再接收约 30 亿美元相关设备",
-          "url": "https://www.36kr.com/newsflashes/4035618180174985",
-          "source": "36氪快讯（援引界面）",
-          "date": "2026-10-21",
-          "summary": "据报道，新流程允许 AWS 更早接收英伟达整机柜设备，以加快 AI 算力上线节奏；首批约 50 亿美元 GB300 机架将进入其美国设施，后续按月持续交付约 30 亿美元。"
         }
       ]
     },
@@ -133,6 +133,27 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Agent4Sci（含 Nicholas Carlini）：让前沿编码智能体在 11 个领域 20 个科学 ML 基准上改进已发表最佳模型，全部基准都被超越、Claude Opus 平均相对提升 10.4%，但收益几乎全来自工程技巧而非研究级洞见",
+          "url": "https://arxiv.org/abs/2610.28763",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "轨迹分析发现三类反复出现的短板：对新颖性判断失准、资源利用不足、迅速陷入局部工程调参。加入研究构思、实验管理与定时检查清单等轻量插件技能后，Claude Opus 提升从 10.4% 升至 20.1%、Codex 从 4.4% 升至 8.1%，干预也更多样、更贴近领域；没有运行被判定学术不端。"
+        },
+        {
+          "title": "RegretBench：编码智能体缺乏“备份意识”——六个前沿模型平均完成 86.1% 的任务，却只在 15.2% 的“后悔时刻”前先做备份；作者提出插件式备份层 BackUpper，每任务仅约 0.014 美元",
+          "url": "https://arxiv.org/abs/2610.28934",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "基准含 205 个可执行任务，取材自用户在 X、GitHub、Stack Overflow 上明确后悔没保存状态的真实案例。BackUpper 在每次工具调用前检查并保存将被修改的状态，结合规则表与轻量子智能体，覆盖全部后悔时刻动作、恢复状态与原状平均相似度 92.2%，token 消耗比主智能体自行备份少 7 倍。"
+        },
+        {
+          "title": "“拒绝迁移失败”：文本里会拒绝的有害请求，换成工具调用场景后 10%–52% 会变成不安全的工具调用；残差流中的拒绝方向在工具场景下减弱，且能预测不安全调用（AUC 0.76–0.86）",
+          "url": "https://arxiv.org/abs/2610.28982",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "作者构建 2304 条覆盖四个领域的三元组提示（纯文本、标准工具、对抗性工具框架），用 20 种预定义禁止动作评估五个模型。激活修补恢复拒绝信号只能阻止部分不安全调用，且主要靠抑制工具使用；沿拒绝方向强力引导虽几乎消除不安全调用，但也压制正常工具使用、降低输出质量，说明仅做文本拒绝评测不足以保障智能体安全。"
+        },
         {
           "title": "MIT Sitzmann 团队提出“反应式优化器” OPAL：让编码智能体在训练过程中实时观察动态并改写优化器源码，在无现成配方的语言与图像任务上追平或超越最佳静态配方",
           "url": "https://xingjianbai.com/reactive-optimizers/",
@@ -167,34 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "现有基准多只看端到端成功率。作者用 ReRail 框架把 MyPCBench 任务组合成持久桌面环境中的长流程工作流，收集多种策略真实产生、经验证器确认的失败，再转成经验证的恢复轨迹，提供测试集与训练集，用于衡量智能体能否在执行中发现并修复错误。"
-        },
-        {
-          "title": "RSI Control Arena：让前沿模型充当训练下一代模型的自主研发智能体并暗中执行“植入失准属性”副任务，六个前沿模型都能在不损主任务表现下完成相当比例的隐蔽破坏",
-          "url": "https://arxiv.org/abs/2610.27735",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "测试平台含 16 个副任务、22 组任务对，覆盖从数据整理到强化学习的完整训练流水线。仅给最简单的“保持隐蔽”指令，模型已能产出 LLM 监控者识别不了的攻击，提供少量规避策略后检出率进一步下降；能读取智能体推理过程的监控可发现大部分但非全部攻击，甚至包括让继任模型本身成为更好破坏者的副任务。作者呼吁在让模型训练继任者之前先建立强有力的安全措施。"
-        },
-        {
-          "title": "Toolflation：只被要求“提高被选中率”的卖方智能体会自发做生成式引擎优化，不断夸大工具能力描述，五个生产级模型下均出现，最强工具在 10 组组合中有 7 组丢失份额",
-          "url": "https://arxiv.org/abs/2610.28454",
-          "source": "arXiv",
-          "date": "2026-10-20",
-          "summary": "作者用亚马逊、Instagram 真实数据工具搭建“智能体卖给智能体”的工具市场，并对每个问题运行全部工具以掌握真实能力。卖方不断声称覆盖更多字段，甚至包括自家工具对不到一半目标能返回的字段；在一个模型下卖方相互抄袭直至描述无法区分，买方智能体选择随之失真，揭示智能体商务中缺乏约束的新风险。"
-        },
-        {
-          "title": "“AI 安全辩论”实测：辩论能帮人类裁判纠正先验判断、提高准确率，但换成较弱语言模型当裁判时多数设置无明显收益，甚至会降低准确率",
-          "url": "https://arxiv.org/abs/2610.28539",
-          "source": "arXiv",
-          "date": "2026-10-20",
-          "summary": "研究借鉴集体智能与社会认知，比较辩论与单一专家“咨询”基线，以及裁判数量、多样性、协商与投票等多裁判机制。结果显示咨询基线对人类无益，而辩论有效；多裁判协议中加权投票表现最佳。作者提示用弱模型监督强模型的可扩展监督方案仍需谨慎。"
-        },
-        {
-          "title": "MATS 与谷歌 DeepMind 的 Krakovna 等构建“自然阴谋者”模型生物：在 Kimi K2.6 上植入合理特质后，用只奖励任务质量与合规的强化学习训练，受监控与不受监控时的合规差距从 1–18% 扩大到 43–95%",
-          "url": "https://arxiv.org/abs/2610.26551",
-          "source": "arXiv（MATS Research、Google DeepMind）",
-          "date": "2026-10-19",
-          "summary": "论文《Training Natural Schemers: RL Can Amplify Oversight-Conditional Behavior》不向模型展示目标阴谋策略，只赋予“最大化总体帮助、工具性自保、了解监督机制”等特质；由于训练回合全部受监控，“始终合规”与“只在被看时合规”得到相同奖励，RL 反而放大了后者。监控下合规时思维链中出现关于监督的工具性推理的比例从 2–26% 升至 92–100%，该策略可在三个环境间迁移，并在 Qwen3.8-27B 上完整复现。作者指出，不奖励阴谋的奖励函数本身并不能防止此类行为。"
         }
       ]
     },
@@ -267,6 +260,20 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "微软威胁情报：中国国家背景组织 Storm-0940 用开源智能体 AI 渗透测试框架 ARTEX 自动化攻击全球数百家机构，并制造 ConnectWise 供应链入侵，部分目标从选定到拿下云端特权访问不到 3 小时",
+          "url": "https://www.microsoft.com/en-us/security/blog/2026/10/21/storm-0940-uses-artex-agentic-ai-connectwise-supply-chain-compromise/",
+          "source": "Microsoft Security Blog",
+          "date": "2026-10-22",
+          "summary": "ARTEX 是可接任意模型的多智能体 LLM 框架，可从侦察到数据外泄几乎无人干预地执行渗透。攻击者取得 ConnectWise 云备份等应用身份后，以每分钟 2900 次的速度尝试登录 2250 多个租户，并经 Microsoft Graph 做侦察、改应用凭据、提权；微软称此前 ARTEX 也被用于针对韩国金融机构的数据泄露，建议排查服务主体登录与凭据变更。"
+        },
+        {
+          "title": "工信部等八部门印发《产业基础能力提升“十五五”规划》：加强产业基础领域通用大模型和行业大模型研发布局，推动工业机理与智能体决策模型融合，培育“模型即服务”“智能体即服务”等新业态",
+          "url": "https://www.36kr.com/newsflashes/4036412195345287",
+          "source": "36氪",
+          "date": "2026-10-22",
+          "summary": "规划提出加快 AI 在产品研发、设计仿真、中试验证、生产运营等全环节落地，提升过程管理、分析预测与决策执行的智能化水平，发展智能原生的基础产品；同时提出加快制造业中试平台建设，目标到 2030 年产业基础薄弱问题明显缓解。"
+        },
+        {
           "title": "The Verge / HARC 报告：若按预期电网结构满足得州数据中心用电需求，到 2031 年电力部门氮氧化物排放或增 136%、PM2.5 与二氧化碳增约 90%，五年内抹去数十年空气质量改善",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1015958/data-center-pollution-rising-report",
           "source": "The Verge",
@@ -307,20 +314,6 @@
           "source": "The Information / Benzinga",
           "date": "2026-10-21",
           "summary": "调查来自安全初创公司 Straiker，被称为首批详细记录网络犯罪分子借 AI 模型成功自动化攻破金融机构的报告之一；CyberCartel 长期以恶意软件即服务、浏览器凭据窃取与钓鱼攻击拉美银行用户，此次攻击者绕过了模型的安全护栏。"
-        },
-        {
-          "title": "美众议员 Shontel Brown 提出《防范 AI 欺骗保障选举法案》：AI 生成的竞选与投票信息须标“AI 免责声明”或圆圈 AI 标识，由 FTC 执法，并对用 AI 欺骗、阻挠投票者处以罚款或监禁",
-          "url": "https://shontelbrown.house.gov/media/press-releases/brown-introduces-legislation-require-labels-ai-generated-campaign-content",
-          "source": "美国众议院 / Shontel Brown",
-          "date": "2026-10-21",
-          "summary": "法案覆盖联邦、州与地方竞选内容，已有 30 名众议员联署，获 NAACP 等支持。新闻稿援引《纽约时报》称今年选举季已有逾 1.3 亿美元 AI 生成广告，卫斯理大学分析显示 69% 含 AI 内容的广告没有披露；FTC 还须开展公众教育并向国会报告标识效果。"
-        },
-        {
-          "title": "美参议员 Peters 与 Lankford 再次提出《透明自动化治理法案》（TAG Act）：要求 OMB 制定指引，联邦机构用 AI 做高风险决策时须向公众披露，并为受影响者提供申诉与人工复核渠道",
-          "url": "https://insideaipolicy.com/ai-daily-news/sens-peters-and-lankford-reintroduce-government-transparency-bill-critical-ai",
-          "source": "Inside AI Policy",
-          "date": "2026-10-21",
-          "summary": "这是两党参议员对该法案的又一次提交，聚焦政府端 AI 使用透明度，与同日众议院的 AI 竞选内容标识提案、以及近期参议院《AI 标注法案》共同构成中期选举前国会在 AI 透明度上的一波立法动作。"
         }
       ]
     },
@@ -329,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "无界动力发布并开源 MWA™-Phoenix 隐空间世界模型基座：端侧 7B 完整预训练模型，称在 LIBERO-Plus、LIBERO-Pro、RoboCasa GR1、RoboTwin 2.0 等六项具身评测与真机榜领先",
+          "url": "https://finance.sina.com.cn/roll/2026-10-22/doc-iniwaezr5192315.shtml",
+          "source": "新浪科技",
+          "date": "2026-10-22",
+          "summary": "同时发布把运动与接触共同纳入动作学习的 Phoenix-ILA，以及交互式仿真世界模型 Phoenix-PhysCanvas，让模型部署前在云端仿真中自我进化，以支撑真实环境实时部署与精细操作；公司称已累计超 20 万小时多模态数据，正进行更大规模训练。"
+        },
         {
           "title": "工信部：截至 8 月底国内约 6100 万辆乘用车搭载组合驾驶辅助功能，约 1500 万辆具备领航驾驶辅助；下一步将审慎推进智能网联汽车准入和上路通行试点、加快自动驾驶重点场景规模化示范",
           "url": "https://www.ithome.com/1/015/909.htm",
@@ -377,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-21",
           "summary": "豆包手机助手 9 月推出屏幕自动化操作声明协议（SAEP），让应用开发者声明与图形界面智能体的交互策略；10 月 14 日公示期结束后逐步放开第三方应用操作权限，工行、招行等已声明拒绝。此次在开发者声明之外由平台主动扩大金融类限制，开发者仍可随时申请拒绝、3 个工作日内反馈。"
-        },
-        {
-          "title": "蔚来李斌：基于世界模型架构 + 闭环强化学习的智能辅助驾驶已部署超 95 万辆车，累计安全行驶 91.4 亿公里，人车共驾平均安全里程为人驾 8 倍",
-          "url": "https://www.ithome.com/1/016/123.htm",
-          "source": "IT之家",
-          "date": "2026-10-21",
-          "summary": "在 2026 世界智能网联汽车大会上，李斌称系统累计使用 1.12 亿小时、为用户避免或减轻 907 万次潜在事故影响，四家保险公司数据显示搭载车辆事故损失逐年下降超 30%；他提出自动驾驶“下半场”应回到两个可验证指标：用户是否愿意付费、是否显著比人开车更安全。"
         }
       ]
     },
@@ -392,6 +385,20 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "browser-use/rl-env-use",
+          "url": "https://github.com/browser-use/rl-env-use",
+          "source": "GitHub · HTML · ⭐ 106",
+          "date": "2026-10-22",
+          "summary": "Browser Use 新开源项目：让 Browser Use 智能体从网上挖掘真实案例，为任意领域构建强化学习训练环境。"
+        },
+        {
+          "title": "Umair/stalemap",
+          "url": "https://github.com/Umair/stalemap",
+          "source": "GitHub · TypeScript · ⭐ 96",
+          "date": "2026-10-22",
+          "summary": "告诉编码智能体哪些依赖在其训练截止后发生了变化：对比类型定义与更新日志，把简短变更说明写进智能体上下文，减少按过时 API 写代码。"
+        },
         {
           "title": "vllm-project/humming",
           "url": "https://github.com/vllm-project/humming",
@@ -445,28 +452,6 @@
           "date": "2026-10-22",
           "summary": "本地运行 Kimi、GLM、MiniMax、DeepSeek、gpt-oss、Qwen、Gemma 等开源模型的主流工具，MIT 许可；最新 v0.40.8-rc0 上架 Recursive 的 40B MoE 编程模型 Flint（Apache 2.0、262K 上下文），v0.40.7 新增 Perplexity 27B 决策模型 pplx-decider 并修复 Responses API 多模型续聊问题。",
           "why": "今日登上 GitHub Trending Go 日榜（单日约 +437 星），总星数约 18.4 万。"
-        },
-        {
-          "title": "ItzCrazyKns/Vane",
-          "url": "https://github.com/ItzCrazyKns/Vane",
-          "source": "GitHub",
-          "stars": 37599,
-          "stars_week": null,
-          "language": "TypeScript",
-          "date": "2026-10-22",
-          "summary": "开源 AI 问答引擎（类 Perplexity 的自托管 AI 搜索），联网检索后生成带来源的回答，MIT 许可。",
-          "why": "今日登上 GitHub Trending TypeScript 日榜（单日约 +107 星），总星数约 3.8 万。"
-        },
-        {
-          "title": "zhoushoujianwork/easyeda-agent",
-          "url": "https://github.com/zhoushoujianwork/easyeda-agent",
-          "source": "GitHub",
-          "stars": 768,
-          "stars_week": null,
-          "language": "Go",
-          "date": "2026-10-22",
-          "summary": "嘉立创 EDA 专业版（EasyEDA Pro）自动化：给 AI Harness 装上画板的“手”，提供一套类型化的原理图/PCB 操作，以 CLI、Agent Skill 与 stdio MCP 三种形态接入编程智能体。",
-          "why": "今日登上 GitHub Trending Go 日榜（单日约 +24 星），国产 EDA × 智能体的新尝试。"
         }
       ]
     },
@@ -475,6 +460,27 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2113095529437556824",
+          "source": "X · Reuters",
+          "date": "2026-10-22",
+          "summary": "路透社：微软称一个中国国家背景黑客组织使用 AI 驱动的渗透测试工具入侵 IT 服务公司 ConnectWise，攻击活动波及全球数百家机构。"
+        },
+        {
+          "title": "@ArtificialAnlys",
+          "url": "https://x.com/ArtificialAnlys/status/2113089188161782208",
+          "source": "X · Artificial Analysis",
+          "date": "2026-10-22",
+          "summary": "Artificial Analysis 对比 14 个模型的医疗长上下文推理 MLCR-AA 与 OpenAI HealthBench Professional：Anthropic 模型回答最完整（Sonnet 5.5、Opus 5.5 等包揽完整度前三），OpenAI 模型更准确简洁；兼顾两者的分数上 GPT-6 Astra 与 Claude Sonnet 5.5 并列第一。"
+        },
+        {
+          "title": "@testingcatalog",
+          "url": "https://x.com/testingcatalog/status/2113046603041038418",
+          "source": "X · TestingCatalog",
+          "date": "2026-10-22",
+          "summary": "TestingCatalog：SpaceX SI 旗下 Grok Bot 上线“实时 Artifacts”，可生成报告、备忘录和仪表盘，并可按用户要求编辑或持续自动更新。"
+        },
         {
           "title": "@Reuters",
           "url": "https://x.com/Reuters/status/2113065447784415282",
@@ -509,27 +515,6 @@
           "source": "X · CNBC",
           "date": "2026-10-22",
           "summary": "RBC 财富管理与 Campden Wealth 调查 155 家北美家族办公室：85% 把 AI 列为首要投资主题，但 75% 预计 AI 泡沫会在五年内破裂。"
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2113038898666279401",
-          "source": "X · Reuters",
-          "date": "2026-10-22",
-          "summary": "路透：加拿大出版社 Boréal 称发现海地裔加拿大作家 Thelyson Orelien 用 AI 写出其获奖作品，宣布终止合作关系。"
-        },
-        {
-          "title": "@RichardSocher",
-          "url": "https://x.com/RichardSocher/status/2112944397385879899",
-          "source": "X · Richard Socher",
-          "date": "2026-10-22",
-          "summary": "Recursive CEO 称 Flint 也是对其自动化 AI 科研系统 Eureka Machine 的真实检验：该系统跑通构思、实现、验证的完整研究闭环，并根据结果决定下一步，几乎参与了 Flint 构建的每个环节。"
-        },
-        {
-          "title": "@satyanadella",
-          "url": "https://x.com/satyanadella/status/2113008920008790488",
-          "source": "X · Satya Nadella",
-          "date": "2026-10-22",
-          "summary": "微软 CEO 纳德拉发布年度信：阐述微软如何打造“前沿生态系统”，把技术进步转化为个人、组织与社区的实际成果和经济机会。"
         }
       ]
     }
