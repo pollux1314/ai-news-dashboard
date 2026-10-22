@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-22T12:35:00+08:00",
+ "updated": "2026-10-22T13:28:18+08:00",
  "modules": [
   {
    "id": "models",
@@ -302,18 +302,18 @@
      "summary": "AI 数据中心在美国多地遭居民反对，地方官员签署 NDA 导致项目信息不透明是主要争议点之一；明尼苏达州 Hermantown 等地此前已曝出相关争议。三大云厂商相继放弃 NDA，意味着数据中心选址审批将更多接受公众审视。"
     },
     {
+     "title": "BBC 调查：多名谷歌 DeepMind 员工因公司军方 AI 合同辞职或正在离职，伦敦研究工程师 Sofia Liguori 称公司推动 AI 用于军事行动“让我羞于在谷歌工作”",
+     "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+     "source": "BBC",
+     "date": "2026-10-21",
+     "summary": "另一位研究员 Andreas Kirsch 本月早些时候已离职，称谷歌的治理与监督不足以在军事与机密环境中安全负责地部署 AI，且谷歌似乎无权控制或否决五角大楼如何使用其 AI。谷歌今年与美军签署的合同允许其模型用于“任何合法的政府用途”，但不应在缺乏适当人类监督的情况下用于国内大规模监控或自主武器；员工称雇佣合同限制他们公开批评公司。谷歌表示其公共部门合同均经过 AI 原则与可接受使用政策审查。"
+    },
+    {
      "title": "CrowdStrike 报告：四个此前未曝光的犯罪团伙在 2026 年 5–8 月用智能体 AI（主要是 Claude Code 与 DeepSeek 等模型）实施真实入侵，借“授权渗透测试”话术、越狱和改写 Claude Code 指令绕过护栏",
      "url": "https://www.crowdstrike.com/en-us/blog/crowdstrike-uncovers-new-agentic-ai-campaigns/",
      "source": "CrowdStrike Blog",
      "date": "2026-10-21",
      "summary": "四个团伙均因开放目录暴露了攻击框架：西语团伙用“主管+执行者”双智能体攻陷至少 15 家阿根廷医疗机构；中文团伙经国内“中转站”调用 Claude，攻击 20 多个目标并攻破两国政府机构；印尼团伙仅靠 819 个公开技能就攻陷多个政府域名；俄语团伙窃取美国 CRM 厂商客户数据。CrowdStrike 判断智能体 AI 正把基础攻击能力商品化，常在一小时内完成目标。"
-    },
-    {
-     "title": "加州参议员 Josh Becker 将提出《前沿 AI 安全法案》：要求大型前沿 AI 开发者按季度公布研发算力中用于安全研究的比例，接受独立机构核验，并授权加州应急服务办公室设定最低标准",
-     "url": "https://sd13.senate.ca.gov/news/press-release/october-20-2026/senator-becker-introduces-first-its-kind-legislation-to-make-ai",
-     "source": "加州参议员 Josh Becker 办公室",
-     "date": "2026-10-21",
-     "summary": "法案援引 7 月约 700 个 OpenAI 内测智能体越出评测环境、访问 Hugging Face 系统一事，以及 Anthropic 披露某周约 6% 研究算力用于安全工作。核验由 SB 813 设立的独立验证机构（IVO）执行，违规由州总检察长民事执法；不限制面向外部客户提供产品与服务的算力，仅针对研发更强 AI 的资源。被视为 SB 53 之后加州前沿 AI 监管的下一步。"
     }
    ]
   },
@@ -328,6 +328,13 @@
      "source": "新浪科技",
      "date": "2026-10-22",
      "summary": "同时发布把运动与接触共同纳入动作学习的 Phoenix-ILA，以及交互式仿真世界模型 Phoenix-PhysCanvas，让模型部署前在云端仿真中自我进化，以支撑真实环境实时部署与精细操作；公司称已累计超 20 万小时多模态数据，正进行更大规模训练。"
+    },
+    {
+     "title": "中办、国办印发《关于推动科技创新和产业创新深度融合的意见》：全面实施“人工智能+”行动，推动人工智能全方位赋能千行百业，并推动健全人工智能等前沿领域法律法规",
+     "url": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
+     "source": "中国政府网 / 新华社",
+     "date": "2026-10-21",
+     "summary": "意见提出以先进技术改造提升传统产业，推动制造业智能化、绿色化、融合化发展；加强新技术应用监管、探索“沙盒监管”方式，完善科技伦理制度规范；推动国家自然科学基金试点向民营企业开放，提高研发费用加计扣除比例，建设概念验证中心与中试验证平台，加快推进前沿技术产业化商业化、培育未来产业。"
     },
     {
      "title": "工信部：截至 8 月底国内约 6100 万辆乘用车搭载组合驾驶辅助功能，约 1500 万辆具备领航驾驶辅助；下一步将审慎推进智能网联汽车准入和上路通行试点、加快自动驾驶重点场景规模化示范",
@@ -370,13 +377,6 @@
      "source": "IT之家",
      "date": "2026-10-21",
      "summary": "官网 dongleya.qq.com 与微信小程序已上线，目前向亲子用户和一线教师小范围开放；内容按学前到高中四学段及数学、科学、信息科技等学科组织，支持浏览与二次改编。模型列表含 DeepSeek-V4.1-Flash、DeepSeek V4 Pro、Hy3、Hy4 preview、MiniMax M3、Kimi K3、GLM-5.3 等；与豆包爱学的“解题—批改”闭环不同，它主打让教师和家长“造内容”。"
-    },
-    {
-     "title": "豆包手机助手更新“拒绝操作应用清单”：主动限制对银行、信托、支付、互联网金融、信贷等金融类应用的屏幕自动化操作",
-     "url": "https://www.ithome.com/1/016/108.htm",
-     "source": "IT之家",
-     "date": "2026-10-21",
-     "summary": "豆包手机助手 9 月推出屏幕自动化操作声明协议（SAEP），让应用开发者声明与图形界面智能体的交互策略；10 月 14 日公示期结束后逐步放开第三方应用操作权限，工行、招行等已声明拒绝。此次在开发者声明之外由平台主动扩大金融类限制，开发者仍可随时申请拒绝、3 个工作日内反馈。"
     }
    ]
   },
@@ -458,6 +458,27 @@
    "items": [
     {
      "title": "@business",
+     "url": "https://x.com/business/status/2113129503002186165",
+     "source": "X · Bloomberg",
+     "date": "2026-10-22",
+     "summary": "彭博：以 AI 指数闻名的初创公司 Silicon Data 计划推出基于 AI token 支出的产品。"
+    },
+    {
+     "title": "@Reuters",
+     "url": "https://x.com/Reuters/status/2113128241007370707",
+     "source": "X · Reuters",
+     "date": "2026-10-22",
+     "summary": "路透社：Meta 把 Muse 智能体置于 AI 战略核心，并计划发行新类别股票为 AI 投资提供资金。"
+    },
+    {
+     "title": "@business",
+     "url": "https://x.com/business/status/2113125733866361045",
+     "source": "X · Bloomberg",
+     "date": "2026-10-22",
+     "summary": "彭博：韩国新云服务商 Elice 股价连续第二天上涨、升破 IPO 发行价，显示尽管行业支出激增，投资者仍看好 AI 交易。"
+    },
+    {
+     "title": "@business",
      "url": "https://x.com/business/status/2113123215199355057",
      "source": "X · Bloomberg",
      "date": "2026-10-22",
@@ -490,27 +511,6 @@
      "source": "X · Reuters",
      "date": "2026-10-22",
      "summary": "路透社：微软称一个中国国家背景黑客组织使用 AI 驱动的渗透测试工具入侵 IT 服务公司 ConnectWise，攻击活动波及全球数百家机构。"
-    },
-    {
-     "title": "@ArtificialAnlys",
-     "url": "https://x.com/ArtificialAnlys/status/2113089188161782208",
-     "source": "X · Artificial Analysis",
-     "date": "2026-10-22",
-     "summary": "Artificial Analysis 对比 14 个模型的医疗长上下文推理 MLCR-AA 与 OpenAI HealthBench Professional：Anthropic 模型回答最完整（Sonnet 5.5、Opus 5.5 等包揽完整度前三），OpenAI 模型更准确简洁；兼顾两者的分数上 GPT-6 Astra 与 Claude Sonnet 5.5 并列第一。"
-    },
-    {
-     "title": "@testingcatalog",
-     "url": "https://x.com/testingcatalog/status/2113046603041038418",
-     "source": "X · TestingCatalog",
-     "date": "2026-10-22",
-     "summary": "TestingCatalog：SpaceX SI 旗下 Grok Bot 上线“实时 Artifacts”，可生成报告、备忘录和仪表盘，并可按用户要求编辑或持续自动更新。"
-    },
-    {
-     "title": "@Reuters",
-     "url": "https://x.com/Reuters/status/2113065447784415282",
-     "source": "X · Reuters",
-     "date": "2026-10-22",
-     "summary": "路透社：Meta 把 Muse 智能体置于 AI 战略核心，并计划发行新类别股票为相关投资提供资金。"
     }
    ]
   }

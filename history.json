@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-22T12:35:00+08:00",
- "count": 1178,
+ "updated": "2026-10-22T13:28:18+08:00",
+ "count": 1183,
  "items": [
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113129503002186165",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：以 AI 指数闻名的初创公司 Silicon Data 计划推出基于 AI token 支出的产品。",
+   "id": "cd799291092d951989710f235923d4eaa9fb3c2c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T13:28:18+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113128241007370707",
+   "source": "X · Reuters",
+   "date": "2026-10-22",
+   "summary": "路透社：Meta 把 Muse 智能体置于 AI 战略核心，并计划发行新类别股票为 AI 投资提供资金。",
+   "id": "44e8a27fbe4f38b1dd085e43b9325f7bc500eee2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T13:28:18+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113125733866361045",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博：韩国新云服务商 Elice 股价连续第二天上涨、升破 IPO 发行价，显示尽管行业支出激增，投资者仍看好 AI 交易。",
+   "id": "046b05aa6bb43e3cd6a6de9e78d9dddbaa2e59b6",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-22T13:28:18+08:00"
+  },
   {
    "title": "彭博：DeepSeek 完成约 1000 亿元人民币（约 150 亿美元）融资，为中国史上最大规模融资之一；洽谈中两度上调目标（500 亿→800 亿→约 1000 亿元），宁德时代与腾讯为最大投资方",
    "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-22/doc-iniwamip5161974.shtml",
@@ -980,6 +1013,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "BBC 调查：多名谷歌 DeepMind 员工因公司军方 AI 合同辞职或正在离职，伦敦研究工程师 Sofia Liguori 称公司推动 AI 用于军事行动“让我羞于在谷歌工作”",
+   "url": "https://www.bbc.com/news/articles/cmreyvepnv0po",
+   "source": "BBC",
+   "date": "2026-10-21",
+   "summary": "另一位研究员 Andreas Kirsch 本月早些时候已离职，称谷歌的治理与监督不足以在军事与机密环境中安全负责地部署 AI，且谷歌似乎无权控制或否决五角大楼如何使用其 AI。谷歌今年与美军签署的合同允许其模型用于“任何合法的政府用途”，但不应在缺乏适当人类监督的情况下用于国内大规模监控或自主武器；员工称雇佣合同限制他们公开批评公司。谷歌表示其公共部门合同均经过 AI 原则与可接受使用政策审查。",
+   "id": "eb0f1c4495dc1cfc6088bc4aabc63ff1bedafe04",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-22T13:28:18+08:00"
+  },
+  {
+   "title": "中办、国办印发《关于推动科技创新和产业创新深度融合的意见》：全面实施“人工智能+”行动，推动人工智能全方位赋能千行百业，并推动健全人工智能等前沿领域法律法规",
+   "url": "https://www.gov.cn/zhengce/202610/content_7083930.htm",
+   "source": "中国政府网 / 新华社",
+   "date": "2026-10-21",
+   "summary": "意见提出以先进技术改造提升传统产业，推动制造业智能化、绿色化、融合化发展；加强新技术应用监管、探索“沙盒监管”方式，完善科技伦理制度规范；推动国家自然科学基金试点向民营企业开放，提高研发费用加计扣除比例，建设概念验证中心与中试验证平台，加快推进前沿技术产业化商业化、培育未来产业。",
+   "id": "60fbfaa11a2205efcd7106320866b55df9732634",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-22T13:28:18+08:00"
   },
   {
    "title": "KRAFTON（《绝地求生》开发商）发布开放权重模型 Raon-1 mini 预览版：从零训练的 30B-A4B MoE（28.8B 总参、4.3B 激活），Apache 2.0 许可，主打韩语对话与智能体任务，原生 262K 上下文",
