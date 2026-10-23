@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T11:40:00+08:00",
+  "updated": "2026-10-23T12:25:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "微软低调测试 Win11 AI 应用 Project Pantheon（测试名 Context Vault）：不自动截屏的“回顾”替代品，只保存用户主动选择的网页、文件、截图、文本与音视频，作为可检索、可向 AI 提问的“第二大脑”",
+          "url": "https://www.ithome.com/1/016/873.htm",
+          "source": "IT之家 / Windows Latest",
+          "date": "2026-10-23",
+          "summary": "旨在规避 Recall 自动截屏引发的隐私争议，内容可按主题归类整理。"
+        },
         {
           "title": "苹果更新 iWork 套件 15.4.1：Pages、Numbers、Keynote 引入 AI“智能助理”Beta，可理解文档/表格/演示内容，辅助写作、公式、图表与幻灯片制作，并适配 iPhone Duo",
           "url": "https://www.ithome.com/1/016/762.htm",
@@ -55,13 +62,6 @@
           "source": "The Verge",
           "date": "2026-10-22",
           "summary": "在波士顿贝斯以色列女执事医疗中心急诊病例上准确率 80%，医生平均 47%，且估算检查成本更低；系统基于 GPT-5，论文未纳入 GPT-6 Astra、Opus 5.5 等新模型。微软将开源 SDBench 基准，并计划未来几个月在该医院开展真实临床测试；苏莱曼称“未来几年”将做出与人类表现难以区分的医疗超级智能，但承认仍需临床验证。"
-        },
-        {
-          "title": "Hugging Face 发布开源 DNA 语言模型 Carbon-X：可在笔记本本地运行，用自然语言“和 DNA 对话”，询问基因变异对基因活性与健康的影响",
-          "url": "https://www.wired.com/story/hugging-face-new-ai-biology-model-chat-with-dna/",
-          "source": "WIRED",
-          "date": "2026-10-22",
-          "summary": "与中关村学院、那不勒斯费德里科二世大学合作开发：在现有语言模型基础上把词表扩展为按 6 个碱基读取 DNA，再用约 3000 亿 token 的 DNA 序列、英文文本及 DNA-生物学描述配对数据继续训练；单次可输入约 5 万碱基对，训练数据刻意排除病毒以防滥用。团队称可帮助判断突变是良性还是致病，服务药物与基因疗法研发。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "阿里 Qoder 支持 Linux ARM64 与龙芯 LoongArch64 平台，适配统信 UOS、银河麒麟等国产桌面系统",
+          "url": "https://www.ithome.com/1/016/927.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "国际版与中国版同步支持，可在国产系统上调用工具、操作文件并让多个智能体协作；此前已适配鸿蒙 PC 与鸿蒙移动端。"
+        },
+        {
           "title": "MiniMax 开源 M3.1 Flash 模型权重：428B 总参数 / 23B 激活的原生多模态 MoE，1M 上下文，全模型稀疏注意力 + 量化感知训练（路由专家 W4A4）",
           "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
           "source": "Hugging Face · MiniMax",
@@ -244,13 +251,6 @@
           "source": "Railway / TechCrunch",
           "date": "2026-10-22",
           "summary": "Railway 已作废全部 API 令牌、轮换存储桶凭据并重置 GitHub 令牌，部署一度全面暂停、随后按套餐分批恢复；官方还专门发布指南，提醒使用 Claude 的用户吊销可能泄露的 Anthropic 密钥并检查异常用量。"
-        },
-        {
-          "title": "谷歌云在 AGNTCon + MCPCon 发布 Agent Compute Engine：为每个智能体提供硬件隔离、快速启动的 microVM，空闲时可暂停并从快照恢复，已在支撑 Gemini 企业智能体，未来数月开放预览",
-          "url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance",
-          "source": "Google Cloud",
-          "date": "2026-10-22",
-          "summary": "基于 Titanium IPU 与 Cloud Hypervisor 隔离，每个 microVM 有独立加密身份和短期凭据，凭据在出口侧注入、不进入沙箱；采用写时复制内存共享在同一系统模板上跑多个智能体。谷歌同时把 Gemini 企业版的智能体治理能力扩展到其他平台上的智能体。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "佛罗里达州总检察长 Uthmeier 提出《安全屏幕法案》（Safe Screens Act）：要求应用商店与 AI 聊天机器人核验年龄并获家长同意，禁止向未成年人提供模拟陪伴、诱导自残、生成色情或冒充真人的聊天机器人功能",
+          "url": "https://thecapitolist.com/uthmeier-proposes-safe-screens-act-to-expand-online-protections-for-minors/",
+          "source": "The Capitolist",
+          "date": "2026-10-22",
+          "summary": "14–17 岁社交媒体账户设夜间与上课时段静默、每日 2 小时上限，默认关闭自动播放和无限滚动；违规每次最高罚 5 万美元，需经州议会立法通过。"
+        },
         {
           "title": "宾夕法尼亚州长夏皮罗签署《AI 欺骗性广告法》（SB 806）：广告使用 AI 合成内容须清晰显著披露，60 天后生效",
           "url": "https://www.wpxi.com/news/local/law-requiring-advertisers-disclose-when-they-are-using-ai-passes-pennsylvania/BYUPMQRUHFB27GXBLVHFXPZEKE/",
@@ -307,13 +314,6 @@
           "source": "UN News",
           "date": "2026-10-22",
           "summary": "论坛由瑞士与巴基斯坦共同支持，聚焦三项工作：为军事 AI 设计研发阶段制定自愿性的负责任行业行为准则、编制统一“AI 安全术语表”以消除各方对自主性和安全等概念的歧义，以及应对非国家武装团体滥用 AI 的风险；它不是有约束力的条约机构。"
-        },
-        {
-          "title": "美国国家标准学会（ANSI）推出 ANSI AI Register：集中检索 AI 标准、评估、认证、声明等可信度信息的平台，旨在提高 AI 生态透明度",
-          "url": "https://www.prnewswire.com/news-releases/ansi-introduces-the-ansi-ai-register-302916165.html",
-          "source": "ANSI / PR Newswire",
-          "date": "2026-10-22",
-          "summary": "ANSI 称该平台面向 AI 开发者、采购方与监管者，帮助发现并理解与某一 AI 系统相关的标准与合规证据，以支持负责任的 AI 采用。"
         }
       ]
     },
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "中国信通院等发布《大模型词元服务性能监测报告（2026 年）》：国内大模型归一化均价由 2025 下半年 6.8 元涨至 13.46 元、近乎翻倍，8 月平均输出速度 78.23 token/秒、较 2025 年翻倍",
+          "url": "https://www.ithome.com/1/016/876.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "2026 年 6 月国内日均词元消耗约 500 万亿、为 2025 年 12 月近 4 倍；国外典型模型 TPS 约 112.82 仍领先，监测模型中 1M 上下文占比 47.8%。"
+        },
         {
           "title": "商务部：前三季度重点平台智能眼镜销售额增长 1.1 倍，外骨骼助力器增长 46.4%，具身智能机器人增长 22.6%",
           "url": "https://www.ithome.com/1/016/821.htm",
@@ -370,13 +377,6 @@
           "source": "Hugging Face Papers",
           "date": "2026-10-22",
           "summary": "框架先生成真实工作区、提取可核查事实，再据此生成任务、解法计划与验证器，并收集带评分的交互轨迹用于后训练；论文报告 Qwen3.5-35B-A3B-Base 经训练后 GDPVal 从 45.5 升至 73.6、APEX 从 5.0 升至 21.3。"
-        },
-        {
-          "title": "智元机器人签约成为香港特区政府引进重点企业办公室新一批重点企业：将以香港为国际研发、产业合作与连接全球市场的支点",
-          "url": "https://www.36kr.com/newsflashes/4036989828813700",
-          "source": "36氪（证券时报）",
-          "date": "2026-10-22",
-          "summary": "签约在财政司司长陈茂波见证下举行，智元表示将在港持续推进科研合作、人才培养与具身智能技术落地；同日智元刚签下上海前滩等超 22 万平方米办公面积。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2113475529546367071",
+          "source": "X · Reuters",
+          "date": "2026-10-23",
+          "summary": "佛罗里达州总检察长提出法案，限制青少年使用社交媒体和 AI 功能。"
+        },
+        {
           "title": "@business",
           "url": "https://x.com/business/status/2113466700536385804",
           "source": "X · Bloomberg",
@@ -496,13 +503,6 @@
           "source": "X · The Information",
           "date": "2026-10-22",
           "summary": "要求通过限制 OpenAI、Anthropic 研究人员可用算力来放缓 AI 发展的呼声正在增多。"
-        },
-        {
-          "title": "@theinformation",
-          "url": "https://x.com/theinformation/status/2113382463560929287",
-          "source": "X · The Information",
-          "date": "2026-10-22",
-          "summary": "中国开源模型能力快速追赶，正在缩短网络安全防御方的应对窗口。"
         }
       ]
     }
