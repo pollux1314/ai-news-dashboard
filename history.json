@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-23T07:45:00+08:00",
- "count": 1346,
+ "updated": "2026-10-23T08:40:00+08:00",
+ "count": 1351,
  "items": [
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2113423209215443023",
+   "source": "X · The Verge",
+   "date": "2026-10-23",
+   "summary": "The Verge：Etsy 发布新的 AI 政策等调整，要求商品首图必须是未经编辑的照片。",
+   "id": "0f0aefd5312f8b76a19faabb67c22b22b9837154",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T08:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113423928320213175",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "彭博：澳大利亚主要城市周边规划中的数据中心超过四分之三面临电网吃紧与地方反对风险，威胁其成为亚太 AI 枢纽的雄心。",
+   "id": "948c22a33f1834204c6fc2386316c69b60efde48",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T08:40:00+08:00"
+  },
   {
    "title": "苹果更新 iWork 套件 15.4.1：Pages、Numbers、Keynote 引入 AI“智能助理”Beta，可理解文档/表格/演示内容，辅助写作、公式、图表与幻灯片制作，并适配 iPhone Duo",
    "url": "https://www.ithome.com/1/016/762.htm",
@@ -12,6 +34,39 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "The Browser Company 宣布 12 月 22 日关停 Arc 浏览器：即日起停止新注册，11 月 23 日起 Arc Search 移动端的 AI 功能与登录同步下线，团队全面转向 AI 浏览器 Dia",
+   "url": "https://www.theverge.com/tech/1016832/arc-browser-shutting-down",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "12 月 22 日起 macOS/Windows 版 Arc 无法使用、账号停用并在 30 天内删除个人数据；用户可一键把 Spaces、标签页、书签、密码等导入 Dia，官方称安全团队已全部转向 Dia。",
+   "id": "d4eb83c1100b228f799fd4738cbc6c0a251d7aab",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T08:40:00+08:00"
+  },
+  {
+   "title": "SpaceX 与特斯拉在季度 SEC 文件中正式确认各自成立独立董事特别委员会，探讨“深化关系”乃至业务合并；马斯克称合并有助于超级智能软件、芯片与 Terafab 合作",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-spcx-boards-confirm-special-223448287.html",
+   "source": "Yahoo Finance / Reuters",
+   "date": "2026-10-22",
+   "summary": "文件称不保证达成交易；路透社报道 SpaceX 披露合并需控股股东马斯克批准。两家公司计划合建约 168 亿美元的 Terafab AI 芯片工厂，目标 2027 年上半年出首颗测试芯片、2028 年三季度量产。",
+   "id": "f495e0ccaf7a5c786cf86b6ebd52208152c1698c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T08:40:00+08:00"
+  },
+  {
+   "title": "第一财经/玉渊谭天：《禁止出口限制出口技术目录》征求意见后，DeepSeek、MiniMax 已完成登记手续，并完成开源和海外授权使用",
+   "url": "https://www.yicai.com/news/103405081.html",
+   "source": "第一财经",
+   "date": "2026-10-22",
+   "summary": "目录拟新增大模型、智能体、算力集群等 23 项 AI 技术；文章称商务部答问对“什么不管”解释更多，核心是划定边界而非单纯限制 AI 技术出海。",
+   "id": "f584c530dcc39c94a1bc5c7745a3485ae73dbe6b",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T08:40:00+08:00"
   },
   {
    "title": "路透社：AI 交易遭重挫，纳指跌 2.6%、创 6 月 5 日以来最大跌幅并蒸发约 1 万亿美元市值，费城半导体指数暴跌 6.7%；Meta 跌 7%、SpaceX 跌 9%、英伟达跌约 4%，泛林集团财报后重挫 12%",
