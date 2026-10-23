@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-23T15:36:00+08:00",
- "count": 1403,
+ "updated": "2026-10-23T16:40:00+08:00",
+ "count": 1408,
  "items": [
+  {
+   "title": "英伟达与 TCV 入股 AI 视频创企 Higgsfield：作为 8 月 B 轮（4 亿美元、估值 54 亿美元）的追加，资金用于全球算力基础设施与招聘",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
+   "source": "Bloomberg",
+   "date": "2026-10-23",
+   "summary": "Higgsfield 由前 Snap 高管创办、总部旧金山，工程团队主要在哈萨克斯坦，消息随黄仁勋访问哈萨克斯坦公布；注册用户超 4000 万，追加金额与最新估值未披露。",
+   "id": "ac85dcc9cd03f2b8e07e6d6db6243411fed0aeed",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T16:40:00+08:00"
+  },
+  {
+   "title": "联想杨元庆：未来 80% 的 Token 将在终端和边缘侧生成，每个人都需要一台家用服务器或自己的 AI 中心，很多设备将由智能体而非人直接使用",
+   "url": "https://www.ithome.com/1/017/074.htm",
+   "source": "IT之家 / 新浪科技",
+   "date": "2026-10-23",
+   "summary": "杨元庆在内部领导力培训中称，大模型进入万亿参数、Token 用量持续扩大，提升计算效率、降低 Token 成本是 AI 规模化普及的关键；联想一财季全球 AI PC 份额达 25.1%。",
+   "id": "64f8fb86000abe4c4c5355780c1326f0c402694a",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T16:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113540985388929500",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "彭博：前 Snap 高管创办的 AI 视频创企 Higgsfield 获英伟达与 TCV 投资，用于全球基础设施与招聘。",
+   "id": "9718931b8bccee08db4d82d9cc74310af0ba2a7c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T16:40:00+08:00"
+  },
+  {
+   "title": "@JasonDClinton",
+   "url": "https://x.com/JasonDClinton/status/2113325263157395456",
+   "source": "X · Jason D. Clinton（Anthropic 副 CISO）",
+   "date": "2026-10-23",
+   "summary": "过去 4 天网络安全形势已很糟，接下来还会更糟才会好转；呼吁安全负责人立即找董事会要资源补“基础防护”而非 AI，“需要坚持约 18 个月”。帖子浏览量超 270 万。",
+   "id": "bd3ac45d3269d520badc9953da01077bd9af8f95",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T16:40:00+08:00"
+  },
   {
    "title": "Meta 个人 AI 智能体 Muse 登陆日本：北美以外首个市场，iOS/Android 与 muse.ai 同步上线，基础功能免费、订阅 2,799 日元/月起",
    "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
@@ -353,6 +397,17 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "哈佛 Gary King 与 Steven Worthington：AI 撰写的论文评审已在各项指标上全面胜过高水平人类专家评审——134 组盲评中前期刊编辑 87% 更偏好 AI 评审",
+   "url": "https://gking.harvard.edu/peerless/",
+   "source": "Harvard IQSS / Gary King",
+   "date": "2026-10-22",
+   "summary": "论文《AI Article Reviews Dominate Human Peer Reviews at Their Best》以哈佛 rapidPeer 的付费双盲人类评审为对照，AI 评审错误论断率约为人类的三分之一且无捏造引用，作者并讨论了对期刊评审政策的影响。",
+   "id": "2491668482f2db3e5acc54b9c68c6b30343214eb",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T16:40:00+08:00"
   },
   {
    "title": "OpenAI 与美国独立社区银行家协会 ICBA 结盟：通过 Daybreak for Frontline Defenders 为社区银行提供补贴的前沿 AI 网络防御能力与培训",

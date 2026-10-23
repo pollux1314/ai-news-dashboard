@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T15:36:00+08:00",
+  "updated": "2026-10-23T16:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "英伟达与 TCV 入股 AI 视频创企 Higgsfield：作为 8 月 B 轮（4 亿美元、估值 54 亿美元）的追加，资金用于全球算力基础设施与招聘",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
+          "source": "Bloomberg",
+          "date": "2026-10-23",
+          "summary": "Higgsfield 由前 Snap 高管创办、总部旧金山，工程团队主要在哈萨克斯坦，消息随黄仁勋访问哈萨克斯坦公布；注册用户超 4000 万，追加金额与最新估值未披露。"
+        },
+        {
           "title": "inDrive 联合小马智行与英伟达签署合作备忘录：计划 2027 年上半年在哈萨克斯坦首都阿斯塔纳测试 Robotaxi",
           "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
           "source": "TechCrunch",
@@ -118,13 +125,6 @@
           "source": "Cadence",
           "date": "2026-10-22",
           "summary": "整合 Cadence OnCloud、Vera/Grace 系统、Millennium M2000 Blackwell 超算与 Reality 数字孪生，服务欧洲半导体与 AI 基础设施设计。"
-        },
-        {
-          "title": "SpaceX 与特斯拉在季度 SEC 文件中正式确认各自成立独立董事特别委员会，探讨“深化关系”乃至业务合并；马斯克称合并有助于超级智能软件、芯片与 Terafab 合作",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-spcx-boards-confirm-special-223448287.html",
-          "source": "Yahoo Finance / Reuters",
-          "date": "2026-10-22",
-          "summary": "文件称不保证达成交易；路透社报道 SpaceX 披露合并需控股股东马斯克批准。两家公司计划合建约 168 亿美元的 Terafab AI 芯片工厂，目标 2027 年上半年出首颗测试芯片、2028 年三季度量产。"
         }
       ]
     },
@@ -146,6 +146,13 @@
           "source": "arXiv / Hugging Face Daily Papers",
           "date": "2026-10-23",
           "summary": "作者发现主流分层 MoE 中不同层的专家存储内容高度相似、冗余明显，于是提出可在各层间共享的 Meta Expert。对比显示其参数冗余更低、交叉熵更低、下游准确率更高；理论分析认为共享专家为隐藏状态提供了更灵活的残差通路，提升信息检索效率。该文为 10 月 23 日 HF Daily Papers 票数最高论文。"
+        },
+        {
+          "title": "哈佛 Gary King 与 Steven Worthington：AI 撰写的论文评审已在各项指标上全面胜过高水平人类专家评审——134 组盲评中前期刊编辑 87% 更偏好 AI 评审",
+          "url": "https://gking.harvard.edu/peerless/",
+          "source": "Harvard IQSS / Gary King",
+          "date": "2026-10-22",
+          "summary": "论文《AI Article Reviews Dominate Human Peer Reviews at Their Best》以哈佛 rapidPeer 的付费双盲人类评审为对照，AI 评审错误论断率约为人类的三分之一且无捏造引用，作者并讨论了对期刊评审政策的影响。"
         },
         {
           "title": "arXiv：测试评分型编程智能体基准存在“规格-判卷缺口”——测试依赖任务描述从未写明的常量名、模块路径或确切报错信息",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-22",
           "summary": "覆盖 19 个子类，用 Omni-ARTs 评分树细粒度评估，测评 18 种智能体配置。"
-        },
-        {
-          "title": "Anthropic Frontier Red Team 联合 Theorem 用 Claude 大规模做形式化验证：在 100 多个真实开源库的 RISC-V 汇编层面证明安全属性，并发现多年未被测出的漏洞",
-          "url": "https://www.anthropic.com/research/formal-verification",
-          "source": "Anthropic",
-          "date": "2026-10-22",
-          "summary": "Anthropic 称这是首个用 AI 在汇编层面对生产软件做大规模形式化验证的尝试：基于 Theorem 的 RISC-V 指令与 Linux 进程语义生成规格，由 Claude 编写证明、Rocq 内核检查；撰写证明过程中 Claude 还找到了经数万亿次测试仍未暴露的漏洞。部分证明与添加项目用的 Claude skill 已在 GitHub 开源，Anthropic 预计形式化验证将成为安全软件开发的必要环节。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "联想杨元庆：未来 80% 的 Token 将在终端和边缘侧生成，每个人都需要一台家用服务器或自己的 AI 中心，很多设备将由智能体而非人直接使用",
+          "url": "https://www.ithome.com/1/017/074.htm",
+          "source": "IT之家 / 新浪科技",
+          "date": "2026-10-23",
+          "summary": "杨元庆在内部领导力培训中称，大模型进入万亿参数、Token 用量持续扩大，提升计算效率、降低 Token 成本是 AI 规模化普及的关键；联想一财季全球 AI PC 份额达 25.1%。"
+        },
+        {
           "title": "上海 9 月出口创历史新高：服务器、集成电路、光收发模块等 7 类 AI 相关产品前三季度出口 4152.8 亿元、同比增 70.3%",
           "url": "https://www.yicai.com/news/103405993.html",
           "source": "第一财经",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-22",
           "summary": "手环支持基于个人记忆的 AI 对话、到点提醒，原始音频用完即删、记忆加密存于手机，综合续航 2–5 天；售价暂未公布。"
-        },
-        {
-          "title": "蚂蚁百灵开源医疗增强 MoE 模型 Ling-3.0-flash-Sante：124B 总参数、每 token 仅激活 5.1B，256K 上下文，称在同尺寸模型中专业医疗任务领先",
-          "url": "https://huggingface.co/inclusionAI/Ling-3.0-flash-Sante",
-          "source": "Hugging Face · inclusionAI",
-          "date": "2026-10-22",
-          "summary": "基于 Ling-3.0-flash 增强，面向医疗问答、证据检索、深度研究与工具调用工作流，权重已上 Hugging Face 与 ModelScope，OpenRouter、Vercel AI Gateway 提供免费调用；官方强调其不是医疗诊断设备，临床高风险用途须由专业人员审核。"
         }
       ]
     },
@@ -449,6 +449,20 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113540985388929500",
+          "source": "X · Bloomberg",
+          "date": "2026-10-23",
+          "summary": "彭博：前 Snap 高管创办的 AI 视频创企 Higgsfield 获英伟达与 TCV 投资，用于全球基础设施与招聘。"
+        },
+        {
+          "title": "@JasonDClinton",
+          "url": "https://x.com/JasonDClinton/status/2113325263157395456",
+          "source": "X · Jason D. Clinton（Anthropic 副 CISO）",
+          "date": "2026-10-23",
+          "summary": "过去 4 天网络安全形势已很糟，接下来还会更糟才会好转；呼吁安全负责人立即找董事会要资源补“基础防护”而非 AI，“需要坚持约 18 个月”。帖子浏览量超 270 万。"
+        },
+        {
           "title": "@alexandr_wang",
           "url": "https://x.com/alexandr_wang/status/2113430642440736859",
           "source": "X · Alexandr Wang",
@@ -489,20 +503,6 @@
           "source": "X · Artificial Analysis",
           "date": "2026-10-23",
           "summary": "Artificial Analysis 发布 Coding Agent Index v2.0：用 Cognition 的 FrontierCode v1.1 替换 DeepSWE、修订 SWE-Atlas-QnA 评分，Claude Code + Claude Opus 5.5 以 61.7 分居首；21 个可比配置中 20 个分数下降，均值由 54.8 降至 47.4。"
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2113475529546367071",
-          "source": "X · Reuters",
-          "date": "2026-10-23",
-          "summary": "佛罗里达州总检察长提出法案，限制青少年使用社交媒体和 AI 功能。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113466700536385804",
-          "source": "X · Bloomberg",
-          "date": "2026-10-23",
-          "summary": "SK Hyper 正与大型科技公司和金融投资者洽谈，为设想中的 3500 亿美元数据中心建设筹资。"
         }
       ]
     }
