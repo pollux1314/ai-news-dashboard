@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-23T10:30:00+08:00",
- "count": 1373,
+ "updated": "2026-10-23T11:40:00+08:00",
+ "count": 1378,
  "items": [
+  {
+   "title": "彭博：SK 集团数据中心子公司 SK Hyper 正与大型科技公司及金融投资者洽谈融资，为其设想中的 3500 亿美元数据中心建设计划筹资",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/sk-data-center-arm-in-talks-to-fund-350-billion-ai-buildout",
+   "source": "Bloomberg",
+   "date": "2026-10-23",
+   "summary": "据彭博，SK Hyper 此举是加入全球 AI 基础设施建设热潮，尽管市场对未来需求存在担忧。同日 SK 海力士因股东与监管反对，撤回旗下 NAND/SSD 子公司 Solidigm 的美国上市计划。",
+   "id": "38ee38f8d18964f98f3fddd294456ee135a4242d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T11:40:00+08:00"
+  },
+  {
+   "title": "arXiv Meta Expert：跨层共享专家的 MoE 架构——在激活量与专家粒度不变时，只用 70–80% 的专家即可追平普通 MoE 的效果",
+   "url": "https://arxiv.org/abs/2610.27598",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-23",
+   "summary": "作者发现主流分层 MoE 中不同层的专家存储内容高度相似、冗余明显，于是提出可在各层间共享的 Meta Expert。对比显示其参数冗余更低、交叉熵更低、下游准确率更高；理论分析认为共享专家为隐藏状态提供了更灵活的残差通路，提升信息检索效率。该文为 10 月 23 日 HF Daily Papers 票数最高论文。",
+   "id": "6f9f14af2aaa321b31bf04ed4902b2a5f4ebb5f7",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T11:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113466700536385804",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "SK Hyper 正与大型科技公司和金融投资者洽谈，为设想中的 3500 亿美元数据中心建设筹资。",
+   "id": "ddead7b1be81ac3e7fd759cfd93d086183cd1c3b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T11:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113460418551099605",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "中国 AI 大模型开发商股票遭遇持续抛售，竞争日趋激烈，明年还有更多同行上市的压力。",
+   "id": "67c7ae59c7e039ff180260c2ac6c6a61b7ff6cbe",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T11:40:00+08:00"
+  },
   {
    "title": "TrendForce：智能体 AI 推高 CPU/加速器配比，服务器 CPU 出货 2026 年增 31%、2027 年增超 40%，Arm 阵营份额 2027 年升至约 30%",
    "url": "https://www.ithome.com/1/016/801.htm",
@@ -100,6 +144,17 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "arXiv：复杂的智能体记忆真的必要吗？朴素 RAG（原始历史稠密检索 + 重排）在 7 个基准-模型组合中 6 个排第一，领先最强智能体记忆系统 0.13–5.53 分",
+   "url": "https://arxiv.org/abs/2610.30755",
+   "source": "arXiv / Hugging Face Daily Papers",
+   "date": "2026-10-22",
+   "summary": "研究在 LoCoMo、LongMemEval、MEME 与 MemoryAgentBench 上对比 Raw-RAG 与各类带改写、结构化组织或学习式检索的记忆系统。分析发现原始历史对必要证据的覆盖更高，可弥补利用率偏低；即便完整访问改写后的记忆库，准确率仍不及原始证据，作者主张保留原始信息并把朴素 RAG 作为必备基线。",
+   "id": "4903ec6a22ba3a944e969b0b995bfc07a2114d99",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T11:40:00+08:00"
   },
   {
    "title": "前 OpenAI 科学负责人 Kevin Weil 创办 Warp Sciences：融资 2.15 亿美元、估值 8.65 亿美元，用机器人自动化药物发现湿实验",

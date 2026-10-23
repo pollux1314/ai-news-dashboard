@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T10:30:00+08:00",
+  "updated": "2026-10-23T11:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "彭博：SK 集团数据中心子公司 SK Hyper 正与大型科技公司及金融投资者洽谈融资，为其设想中的 3500 亿美元数据中心建设计划筹资",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/sk-data-center-arm-in-talks-to-fund-350-billion-ai-buildout",
+          "source": "Bloomberg",
+          "date": "2026-10-23",
+          "summary": "据彭博，SK Hyper 此举是加入全球 AI 基础设施建设热潮，尽管市场对未来需求存在担忧。同日 SK 海力士因股东与监管反对，撤回旗下 NAND/SSD 子公司 Solidigm 的美国上市计划。"
+        },
+        {
           "title": "TrendForce：智能体 AI 推高 CPU/加速器配比，服务器 CPU 出货 2026 年增 31%、2027 年增超 40%，Arm 阵营份额 2027 年升至约 30%",
           "url": "https://www.ithome.com/1/016/801.htm",
           "source": "IT之家 / TrendForce",
@@ -118,13 +125,6 @@
           "source": "Dwarkesh Podcast",
           "date": "2026-10-22",
           "summary": "在 Dwarkesh 播客参观英特尔晶圆厂时表示，英特尔、台积电与存储厂商都在争夺有限的 EUV 等关键设备，AI 需求增速已超过工具供给。"
-        },
-        {
-          "title": "TechCrunch：OpenAI 正推进新一轮约 300 亿美元融资、估值约 1.25 万亿美元，赶在 IPO 之前；若成行将成为史上估值最高的私营公司",
-          "url": "https://techcrunch.com/2026/10/22/openai-working-on-new-30b-raise-at-1-25t-valuation-ahead-of-ipo/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "此前路透报道 OpenAI 正赶在 Anthropic 11 月 IPO 前融资约 300 亿美元；TechCrunch 最新报道给出的估值约为 1.25 万亿美元，高于其 3 月 8520 亿美元的估值。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "arXiv Meta Expert：跨层共享专家的 MoE 架构——在激活量与专家粒度不变时，只用 70–80% 的专家即可追平普通 MoE 的效果",
+          "url": "https://arxiv.org/abs/2610.27598",
+          "source": "arXiv / Hugging Face Daily Papers",
+          "date": "2026-10-23",
+          "summary": "作者发现主流分层 MoE 中不同层的专家存储内容高度相似、冗余明显，于是提出可在各层间共享的 Meta Expert。对比显示其参数冗余更低、交叉熵更低、下游准确率更高；理论分析认为共享专家为隐藏状态提供了更灵活的残差通路，提升信息检索效率。该文为 10 月 23 日 HF Daily Papers 票数最高论文。"
+        },
+        {
+          "title": "arXiv：复杂的智能体记忆真的必要吗？朴素 RAG（原始历史稠密检索 + 重排）在 7 个基准-模型组合中 6 个排第一，领先最强智能体记忆系统 0.13–5.53 分",
+          "url": "https://arxiv.org/abs/2610.30755",
+          "source": "arXiv / Hugging Face Daily Papers",
+          "date": "2026-10-22",
+          "summary": "研究在 LoCoMo、LongMemEval、MEME 与 MemoryAgentBench 上对比 Raw-RAG 与各类带改写、结构化组织或学习式检索的记忆系统。分析发现原始历史对必要证据的覆盖更高，可弥补利用率偏低；即便完整访问改写后的记忆库，准确率仍不及原始证据，作者主张保留原始信息并把朴素 RAG 作为必备基线。"
+        },
         {
           "title": "arXiv：网络拓扑决定 LLM 群体的共识与脆弱性——稀疏网络使共识慢至 12 倍，占据枢纽节点仅需 3% 即可推翻约定",
           "url": "https://arxiv.org/abs/2610.31165",
@@ -174,20 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "作者预先声明三条假设并开源 LASAGNA 评测框架，用于受控比较 RAG 流水线各环节。"
-        },
-        {
-          "title": "PACE：线性注意力模型循环状态的后训练 4 比特量化方法——每隔几个 token 才取整一次并按通道对齐编码，无需微调即可在 4 比特下保持精度，让同一加速器并发更多序列",
-          "url": "https://arxiv.org/abs/2610.29545",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "研究发现 gated-delta 状态中的大数值集中在少数列上，据此做通道对齐编码以减少累积误差。"
-        },
-        {
-          "title": "DONIC：首个跨操作类别与人类动作来源联合训练的通用双手灵巧追踪控制器，并发布含 229 个物体、1575 段持续双手交互的多视角数据集 BiHOI",
-          "url": "https://arxiv.org/abs/2610.29997",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "结合 PPO 强化学习与行为克隆的反馈循环，把验证成功的执行回收进训练，用于把人类双手操作演示重定向为机器人参考动作。"
         }
       ]
     },
@@ -449,6 +449,20 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113466700536385804",
+          "source": "X · Bloomberg",
+          "date": "2026-10-23",
+          "summary": "SK Hyper 正与大型科技公司和金融投资者洽谈，为设想中的 3500 亿美元数据中心建设筹资。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113460418551099605",
+          "source": "X · Bloomberg",
+          "date": "2026-10-23",
+          "summary": "中国 AI 大模型开发商股票遭遇持续抛售，竞争日趋激烈，明年还有更多同行上市的压力。"
+        },
+        {
           "title": "@MiniMax_AI",
           "url": "https://x.com/MiniMax_AI/status/2113452026902589732",
           "source": "X · MiniMax",
@@ -489,20 +503,6 @@
           "source": "X · The Information",
           "date": "2026-10-22",
           "summary": "中国开源模型能力快速追赶，正在缩短网络安全防御方的应对窗口。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113418509061337185",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博 Big Take：Meta 高达 8250 亿美元的 AI 建设计划让投资者紧张，但微软、Alphabet 和亚马逊的情况可能不同。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113415122882285642",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博观点：中国会在让世界依赖其廉价 AI 后“断供”吗？作者认为暂时不会，但北京正在提醒世界它有这个能力。"
         }
       ]
     }
