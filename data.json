@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T13:31:00+08:00",
+  "updated": "2026-10-23T14:40:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "谷歌云正式上线 Anthropic 托管版 Claude（Claude Models on Google Cloud, Anthropic managed）：首日即可用 Claude 最新模型及 Managed Agents、Skills、代码执行等平台功能，用 Google Cloud IAM 鉴权、计费并抵扣承诺消费",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+          "source": "Google Cloud Blog",
+          "date": "2026-10-23",
+          "summary": "与原有谷歌托管选项并存：Anthropic 托管版由 Anthropic 担任数据处理方，谷歌托管版继续提供 VPC-SC、CMEK 与数据驻留；两者价格相同。此前一天 OpenAI 模型与 Codex 刚宣布进入 Model Garden。"
+        },
         {
           "title": "微软低调测试 Win11 AI 应用 Project Pantheon（测试名 Context Vault）：不自动截屏的“回顾”替代品，只保存用户主动选择的网页、文件、截图、文本与音视频，作为可检索、可向 AI 提问的“第二大脑”",
           "url": "https://www.ithome.com/1/016/873.htm",
@@ -260,6 +267,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "新墨西哥州法官判令 Meta 支付 250 亿美元民事罚款：陪审团认定其在 Cambridge Analytica 数据泄露等问题上误导用户、违反州《不公平行为法》逾 4300 万次，为该公司史上最大单州判罚",
+          "url": "https://www.nbcnews.com/tech/tech-news/meta-ordered-pay-25-billion-new-mexico-consumers-data-privacy-rcna604864",
+          "source": "NBC News / Reuters",
+          "date": "2026-10-22",
+          "summary": "法官认为按州法可罚逾 2190 亿美元但降至 250 亿美元，款项拨给州教育系统；Meta 曾主张上限 34.5 亿美元，预计将上诉。"
+        },
+        {
           "title": "佛罗里达州总检察长 Uthmeier 提出《安全屏幕法案》（Safe Screens Act）：要求应用商店与 AI 聊天机器人核验年龄并获家长同意，禁止向未成年人提供模拟陪伴、诱导自残、生成色情或冒充真人的聊天机器人功能",
           "url": "https://thecapitolist.com/uthmeier-proposes-safe-screens-act-to-expand-online-protections-for-minors/",
           "source": "The Capitolist",
@@ -448,6 +462,20 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@claudeai",
+          "url": "https://x.com/claudeai/status/2113380122468454765",
+          "source": "X · Claude",
+          "date": "2026-10-23",
+          "summary": "Claude 官方：Claude Models on Google Cloud（Anthropic 托管）正式 GA，可在谷歌云上用 IAM 凭证、计费与承诺抵扣获得完整 Claude 平台功能。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113510770910601517",
+          "source": "X · Bloomberg",
+          "date": "2026-10-23",
+          "summary": "彭博 Big Take：为跟上对手，华尔街高频交易公司不得不加入 AI 算力竞赛，投入数十亿美元仍难保成功。"
+        },
         {
           "title": "@testingcatalog",
           "url": "https://x.com/testingcatalog/status/2113501787005337991",

@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-23T13:31:00+08:00",
- "count": 1389,
+ "updated": "2026-10-23T14:40:00+08:00",
+ "count": 1393,
  "items": [
+  {
+   "title": "谷歌云正式上线 Anthropic 托管版 Claude（Claude Models on Google Cloud, Anthropic managed）：首日即可用 Claude 最新模型及 Managed Agents、Skills、代码执行等平台功能，用 Google Cloud IAM 鉴权、计费并抵扣承诺消费",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
+   "source": "Google Cloud Blog",
+   "date": "2026-10-23",
+   "summary": "与原有谷歌托管选项并存：Anthropic 托管版由 Anthropic 担任数据处理方，谷歌托管版继续提供 VPC-SC、CMEK 与数据驻留；两者价格相同。此前一天 OpenAI 模型与 Codex 刚宣布进入 Model Garden。",
+   "id": "8bd04de0c2572f60ac9de206d756142df7502bfe",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-23T14:40:00+08:00"
+  },
+  {
+   "title": "@claudeai",
+   "url": "https://x.com/claudeai/status/2113380122468454765",
+   "source": "X · Claude",
+   "date": "2026-10-23",
+   "summary": "Claude 官方：Claude Models on Google Cloud（Anthropic 托管）正式 GA，可在谷歌云上用 IAM 凭证、计费与承诺抵扣获得完整 Claude 平台功能。",
+   "id": "8b3ac6d52f30a5903edda615c8228a72f29a8b38",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T14:40:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113510770910601517",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "彭博 Big Take：为跟上对手，华尔街高频交易公司不得不加入 AI 算力竞赛，投入数十亿美元仍难保成功。",
+   "id": "c92f1c0fe084803bd178aa39291a1d7f9061fdb4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T14:40:00+08:00"
+  },
   {
    "title": "inDrive 联合小马智行与英伟达签署合作备忘录：计划 2027 年上半年在哈萨克斯坦首都阿斯塔纳测试 Robotaxi",
    "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
@@ -232,6 +265,17 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "新墨西哥州法官判令 Meta 支付 250 亿美元民事罚款：陪审团认定其在 Cambridge Analytica 数据泄露等问题上误导用户、违反州《不公平行为法》逾 4300 万次，为该公司史上最大单州判罚",
+   "url": "https://www.nbcnews.com/tech/tech-news/meta-ordered-pay-25-billion-new-mexico-consumers-data-privacy-rcna604864",
+   "source": "NBC News / Reuters",
+   "date": "2026-10-22",
+   "summary": "法官认为按州法可罚逾 2190 亿美元但降至 250 亿美元，款项拨给州教育系统；Meta 曾主张上限 34.5 亿美元，预计将上诉。",
+   "id": "8b75fb31d86ed782b242b160d730766fbc1e72c6",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T14:40:00+08:00"
   },
   {
    "title": "arXiv：测试评分型编程智能体基准存在“规格-判卷缺口”——测试依赖任务描述从未写明的常量名、模块路径或确切报错信息",
