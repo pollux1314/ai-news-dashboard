@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T06:45:00+08:00",
- "count": 1532,
+ "updated": "2026-10-24T07:34:00+08:00",
+ "count": 1537,
  "items": [
   {
    "title": "wesbos/3d-model-anything",
@@ -34,6 +34,61 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "Wayve、Stellantis 与英伟达联合法国政府宣布在法国部署自动驾驶汽车：Stellantis L4-Ready 平台 + Wayve AI Driver + NVIDIA Halos OS/Hyperion",
+   "url": "https://wayve.ai/press/wayve-stellantis-nvidia-collaborate-on-deployment-across-france/",
+   "source": "Wayve",
+   "date": "2026-10-23",
+   "summary": "合作在巴黎“自动驾驶汽车论坛”（Assises du Véhicule Autonome）上公布，目标以法国为基地打造从芯片到整车的自动驾驶产业链并推广至欧盟；法国交通部长 Tabarot 表示将调整监管框架，在严格安全与数据主权要求下加速从试点走向实际部署。",
+   "id": "12358f7c10d5a6e31a2419491b680aa2686da0f1",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T07:34:00+08:00"
+  },
+  {
+   "title": "彭博：SpaceX 400 亿美元表外 AI 债务融资受市场动荡拖累：拟通过特殊目的载体购买英伟达芯片，最高风险档收益率或达约 8.3%",
+   "url": "https://news.bloombergtax.com/financial-accounting/spacex-40-billion-off-balance-sheet-debt-snarled-by-ai-turmoil",
+   "source": "Bloomberg",
+   "date": "2026-10-23",
+   "summary": "该结构由 Apollo 与高盛牵头，旨在把债务留在资产负债表外以保住投资级评级；近期 AI 板块抛售推高行业借贷成本，使定价谈判复杂化，芯片担保的较安全档收益率约 7.75%，均比 SpaceX 现有债券高出一个百分点以上。",
+   "id": "338cb364d779b96e500f0208e5b3e55f7a183733",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T07:34:00+08:00"
+  },
+  {
+   "title": "OpenAI 红队智能体在 Brotli 压缩库中发现无需认证的远程代码执行漏洞 CVE-2026-111497（高危），Node.js 已发布 22.23.4/24.22.1/26.12.1 修复",
+   "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
+   "source": "Node.js / OpenAI",
+   "date": "2026-10-23",
+   "summary": "漏洞源于 Brotli 解码器把非法块切换误判为“需要更多输入”，导致向 8 字节内部缓冲区越界写入；凡用 node:zlib 解压攻击者可控 Brotli 数据的应用都可能被崩溃、泄露内存或执行代码。由 OpenAI Codex Security 报告，是其前沿模型训练环境高算力红队行动的发现之一，Bun、Envoy 等同样内置 Brotli。",
+   "id": "e31bf18aa91a4628a3cc17e713329c6ebb65ab63",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-24T07:34:00+08:00"
+  },
+  {
+   "title": "@business：SpaceX 为 AI 基建敲定 400 亿美元表外债务结构的努力，受近期市场动荡推高行业借贷成本影响而受阻",
+   "url": "https://x.com/business/status/2113773722079223855",
+   "source": "X",
+   "date": "2026-10-23",
+   "summary": "彭博称市场动荡推高了整个板块的借贷成本，令价格谈判复杂化。",
+   "id": "68135a25a06adf830333b9544582a8dff4382481",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T07:34:00+08:00"
+  },
+  {
+   "title": "@OpenAI：红队演练中还发现了广泛部署的压缩库 Brotli 中的未认证远程代码执行漏洞，Node.js、Bun、Envoy 等均内置该库",
+   "url": "https://x.com/OpenAI/status/2113766354386084338",
+   "source": "X",
+   "date": "2026-10-23",
+   "summary": "OpenAI 称此为其加固前沿模型训练环境、动用最强模型做红队测试时发现的开源软件漏洞之一，已协调上游修复。",
+   "id": "3130243d7b873a797df1bf25ca473a21b7d8149f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T07:34:00+08:00"
   },
   {
    "title": "黄仁勋 GTC Berlin 演示走红：Hugging Face 旗下 Pollen Robotics 开源小机器人 Microduck 次日预订量破 2 万台，有望成今年圣诞爆款",
