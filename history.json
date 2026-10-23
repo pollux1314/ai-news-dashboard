@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-23T12:25:00+08:00",
- "count": 1383,
+ "updated": "2026-10-23T13:31:00+08:00",
+ "count": 1389,
  "items": [
+  {
+   "title": "inDrive 联合小马智行与英伟达签署合作备忘录：计划 2027 年上半年在哈萨克斯坦首都阿斯塔纳测试 Robotaxi",
+   "url": "https://techcrunch.com/2026/10/22/uber-rival-indrive-eyes-2027-robotaxi-tests-in-central-asia-with-pony-ai-and-nvidia/",
+   "source": "TechCrunch",
+   "date": "2026-10-23",
+   "summary": "小马智行提供第七代 Robotaxi，英伟达提供 Hyperion 平台与 Halos 安全系统；初期配安全员，目标全无人；小马智行计划 2026 年底在全球 20 多个城市运营超 3500 辆。",
+   "id": "94cd4ca5fb66dd5df4e339a9b358cea49c1c342f",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T13:31:00+08:00"
+  },
+  {
+   "title": "BerriAI/litellm",
+   "url": "https://github.com/BerriAI/litellm",
+   "source": "GitHub · Python · ⭐ 61862",
+   "date": "2026-10-23",
+   "summary": "AI 网关：Rust 内核 + Python SDK，以 OpenAI（或原生）格式调用 100+ 家 LLM API，内置成本追踪、护栏、负载均衡与日志，今日 Python 趋势榜 +107 星。",
+   "id": "e2820020cd6d32b258f6f4536b58e81fe49dc5e8",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T13:31:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2113501787005337991",
+   "source": "X · TestingCatalog",
+   "date": "2026-10-23",
+   "summary": "TestingCatalog：Kimi 官方账号发布预告视频，Kimi K3.1 即将发布；此前疑似 K3.1 的模型已在 Arena 测试且表现出色。",
+   "id": "e36a897bc623dca3de9b55acf67edfe08662f7ca",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T13:31:00+08:00"
+  },
+  {
+   "title": "@ArtificialAnlys",
+   "url": "https://x.com/ArtificialAnlys/status/2113424551396934134",
+   "source": "X · Artificial Analysis",
+   "date": "2026-10-23",
+   "summary": "Artificial Analysis 发布 Coding Agent Index v2.0：用 Cognition 的 FrontierCode v1.1 替换 DeepSWE、修订 SWE-Atlas-QnA 评分，Claude Code + Claude Opus 5.5 以 61.7 分居首；21 个可比配置中 20 个分数下降，均值由 54.8 降至 47.4。",
+   "id": "68bff3d3bc858396a45b5b4f59b9b3ee751291d9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T13:31:00+08:00"
+  },
   {
    "title": "微软低调测试 Win11 AI 应用 Project Pantheon（测试名 Context Vault）：不自动截屏的“回顾”替代品，只保存用户主动选择的网页、文件、截图、文本与音视频，作为可检索、可向 AI 提问的“第二大脑”",
    "url": "https://www.ithome.com/1/016/873.htm",
@@ -188,6 +232,28 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "arXiv：测试评分型编程智能体基准存在“规格-判卷缺口”——测试依赖任务描述从未写明的常量名、模块路径或确切报错信息",
+   "url": "https://arxiv.org/abs/2610.30635",
+   "source": "arXiv",
+   "date": "2026-10-22",
+   "summary": "在 SWE-Milestone 上 98 个里程碑中 25 个含此类依赖，相关单元失败率 80.6%（对照 48.4%）；排行榜整体排名稳健，但会偏向复现上游命名的智能体；规格来自发布说明或 LLM 摘要的基准受影响任务达三分之一以上。",
+   "id": "12d1817baa9bdc23ca51bb67b7564dfd0ba980d3",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T13:31:00+08:00"
+  },
+  {
+   "title": "IQuest-Q1 技术报告：320B 总参数 / 15B 激活的开源 MoE 智能体编码基座模型，面向命令行（CLI）智能体场景",
+   "url": "https://arxiv.org/abs/2610.30949",
+   "source": "arXiv / IQuestLab",
+   "date": "2026-10-22",
+   "summary": "三阶段训练：结合 Stable SplitNorm、Muon 与 muP 的稳定预训练（第二阶段提高代码配比）、细粒度中期训练与渐进扩展上下文、多脚手架多版本后训练（SFT + 领域 RL + MOPD），并用模型合并融合不同专家与检查点。",
+   "id": "52e7416894ce73de7fcb4c061b5780ff86f973cb",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T13:31:00+08:00"
   },
   {
    "title": "佛罗里达州总检察长 Uthmeier 提出《安全屏幕法案》（Safe Screens Act）：要求应用商店与 AI 聊天机器人核验年龄并获家长同意，禁止向未成年人提供模拟陪伴、诱导自残、生成色情或冒充真人的聊天机器人功能",
