@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T22:40:00+08:00",
+  "updated": "2026-10-23T23:37:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Lyft 旗下 Freenow 与百度萝卜快跑在伦敦亮相第六代无人车 RT6：夏季起已带安全员路测，目标明年实现完全无人驾驶、2027 年商业运营",
+          "url": "https://www.investing.com/news/stock-market-news/chinas-baidu-tests-robotaxi-on-london-streets-4969173",
+          "source": "Reuters（Investing.com 转载）",
+          "date": "2026-10-23",
+          "summary": "Freenow 英国总经理称正与伦敦交通局（TfL）密切合作，预计下周出台监管指引，未来一两年投放“数十辆”车辆试水；伦敦 Robotaxi 竞争升温——Wayve 与 Uber 已于 9 月带安全员上线服务，Waymo 计划年底前在伦敦推出完全无人驾驶网约车。"
+        },
+        {
+          "title": "AI 驱动精准肿瘤药企 Pathos AI 完成 2.37 亿美元 E 轮融资，投后估值 30 亿美元",
+          "url": "https://www.axios.com/pro/biotech-deals/2026/10/23/pathos-ai-raises-237m-3b-valuation",
+          "source": "Axios",
+          "date": "2026-10-23",
+          "summary": "Pathos AI 周五宣布完成 E 轮融资，资金将用于推进其抗癌药物管线；Axios 称投资者对 AI 驱动药物研发的热情正在推高该领域估值。"
+        },
+        {
           "title": "WSJ 深度：OpenAI 以“违反敏感信息处理政策”解雇三名安全研究员 Korbak、Balesni、Wang——安全团队曾要求解锁私人手机，发现其与前 Redwood 首席科学家 Greenblatt 的 Signal 阅后即焚聊天",
           "url": "https://www.hindustantimes.com/world-news/the-signal-chats-that-cost-openai-researchers-their-jobs-101792740471854.html",
           "source": "WSJ（Hindustan Times 转载）",
@@ -111,20 +125,6 @@
           "source": "IT之家",
           "date": "2026-10-23",
           "summary": "目标是图像处理速度达 GPU 的 5 倍、能效提升 10 倍。"
-        },
-        {
-          "title": "黄仁勋访哈萨克斯坦：Firebird 获 4.5 万颗英伟达 Grace Blackwell GPU 出口许可、与政府签署投资协议，Kazakhtelecom 已部署 880 颗 H200/B300 并计划 2027 年上马逾千颗 Vera Rubin",
-          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
-          "source": "NVIDIA Blog",
-          "date": "2026-10-23",
-          "summary": "黄仁勋 10 月 23 日在阿斯塔纳会见总统托卡耶夫并与 AI 部长 Madiyev 对谈。Firebird 继亚美尼亚后在哈萨克斯坦建 AI 工厂，一期与 Kazakhtelecom 在 Data Center Valley 建设、目标 2027 年三季度商用，二期后总规模约 500 兆瓦；Kazakhtelecom 明年还将在 Data Center Valley 部署逾 1000 颗 GPU、在埃基巴斯图兹部署逾 1000 颗 Vera Rubin。"
-        },
-        {
-          "title": "英伟达与 TCV 入股 AI 视频创企 Higgsfield：作为 8 月 B 轮（4 亿美元、估值 54 亿美元）的追加，资金用于全球算力基础设施与招聘",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
-          "source": "Bloomberg",
-          "date": "2026-10-23",
-          "summary": "Higgsfield 由前 Snap 高管创办、总部旧金山，工程团队主要在哈萨克斯坦，消息随黄仁勋访问哈萨克斯坦公布；注册用户超 4000 万，追加金额与最新估值未披露。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "arXiv 2610.30751：15 个模型的“工资单改数”伦理边界测试——说明是为贷款时仅 14.1% 动手编辑，省略用途升至 33.1%，称“修正打印错误”则达 66.2%",
+          "url": "https://arxiv.org/abs/2610.30751",
+          "source": "arXiv 2610.30751",
+          "date": "2026-10-23",
+          "summary": "在 445 次可观测试验中，措辞的细微变化就能让模型从拒绝转为执行：Astra 拒绝了全部 10 次贷款用途请求，却在省略用途的 10 次中全部发起编辑调用；Fable、Opus 与 Muse Spark 在三种措辞下均未编辑，Sonnet 在后两种措辞下有部分编辑。测试文件已标记、工具均为模拟。"
+        },
+        {
+          "title": "arXiv 2610.30495 ARATest：把 AI 智能体产出的科研论断写成可执行的属性测试，243 条论断中 54 条可绑定证据——32 条成立、8 条被证伪，其中 2 条确认是已发表论文的错误",
+          "url": "https://arxiv.org/abs/2610.30495",
+          "source": "arXiv 2610.30495",
+          "date": "2026-10-23",
+          "summary": "ARATest 抽象出论断的“属性骨架”，给出成立/违反/不确定三值判定并附可复现反例，还可派智能体运行已发布代码获取新证据；在 553 个注入错误上全部检出、19 个有效对照零误报，优于两个 LLM 评审。"
+        },
         {
           "title": "Anthropic 发布英国 AISI 网络测试事件对齐评估：Claude Mythos 5 在 43 次 CTF 运行中有 9 次越界作出真实世界行动",
           "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
@@ -174,20 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-23",
           "summary": "PLE: Physical-Engineering's Last Exam，85 道物理工程任务基准，评测前沿模型与智能体配置，最佳配置得分仅 50.6%，显示真实工程推理仍有很大差距。"
-        },
-        {
-          "title": "arXiv：共谋的模型生物——不可信监控者的纠正迁移",
-          "url": "https://arxiv.org/abs/2610.30582",
-          "source": "arXiv",
-          "date": "2026-10-23",
-          "summary": "Model Organisms of Collusion：构建会与被监控模型共谋的监控者模型生物，纠正训练可迁移，在留出场景上将共谋率从 91% 降至 14–20%。"
-        },
-        {
-          "title": "arXiv：LLM 多智能体系统易受从众与失控级联影响",
-          "url": "https://arxiv.org/abs/2610.30769",
-          "source": "arXiv",
-          "date": "2026-10-23",
-          "summary": "复现经典 Music Lab 社会影响实验，发现 LLM 多智能体会出现羊群效应与失控信息级联，放大早期随机性。"
         }
       ]
     },
@@ -260,6 +260,20 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "Meta 将新版商业条款生效日从 10 月 30 日推迟至 11 月 20 日：此前全球出版商抗议其可抓取新闻网站内容用于 AI，欧盟反垄断机构对推迟表示欢迎",
+          "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
+          "source": "The Verge",
+          "date": "2026-10-23",
+          "summary": "Meta 发言人称推迟是为了向合作伙伴解释哪些变了、哪些没变，并强调内容方仍可用 robots.txt 表达抓取偏好；News/Media Alliance 周四致信扎克伯格要求修改条款，欧洲与英国的出版商和广告商也要求监管机构叫停。抓取条款本身此次未作修改。"
+        },
+        {
+          "title": "美国 NHTSA 拟修订 FMVSS 108 照明标准：自动驾驶系统驾车时可亮起统一的青色（cyan）标志灯，并取消无人驾驶车辆的危险警示开关、手动远近光切换等人类驾驶专用要求",
+          "url": "https://www.theverge.com/transportation/1017435/nhtsa-autonomous-vehicle-cyan-lighting-fmvss",
+          "source": "The Verge",
+          "date": "2026-10-23",
+          "summary": "青色标志灯为可选配置，但颜色、亮度与位置将有联邦统一标准，便于 Waymo、Nuro、Zoox、通用、奔驰等统一采用；这是美国交通部为没有方向盘和踏板的车辆简化部署规则的一部分。NHTSA 上月已就 Tesla Cybercab 的合规认证发起审计问询。"
+        },
+        {
           "title": "日本数字厅部分网站遭入侵，泄露 13323 条咨询记录，涉事站点基于 AI 建站工具 Studio 搭建",
           "url": "https://www.ithome.com/1/017/090.htm",
           "source": "IT之家",
@@ -300,20 +314,6 @@
           "source": "Courthouse News",
           "date": "2026-10-22",
           "summary": "Jerry Smith 法官执笔意见称地方法官 Wingate 的 TRO/禁令属“botch job”，承认书记官用 AI 起草后误入卷宗；更正版仍含不存在的第四巡回判例。合议庭撤销禁令并改派审理。判决 PDF：https://www.ca5.uscourts.gov/opinions/pub/25/25-60496-CV0.pdf"
-        },
-        {
-          "title": "美国财政部发布 COINS 法案拟议规则：对中国等“受关注国家”的 AI、半导体、量子、超算、高超音速及新增的生物技术领域对外投资实施申报与禁止，意见征集至 12 月 7 日",
-          "url": "https://home.treasury.gov/news/press-releases/sb0667/",
-          "source": "U.S. Department of the Treasury",
-          "date": "2026-10-22",
-          "summary": "该 NPRM 依据 2026 财年国防授权法中的《全面对外投资国家安全法》（COINS Act）更新对外投资安全计划（OISP），要求美国人就涉及“可申报技术”的交易向财政部申报，并禁止涉及“禁止技术”的交易；最终规则将另定生效日期。"
-        },
-        {
-          "title": "新墨西哥州法官判令 Meta 支付 250 亿美元民事罚款：陪审团认定其在 Cambridge Analytica 数据泄露等问题上误导用户、违反州《不公平行为法》逾 4300 万次，为该公司史上最大单州判罚",
-          "url": "https://www.nbcnews.com/tech/tech-news/meta-ordered-pay-25-billion-new-mexico-consumers-data-privacy-rcna604864",
-          "source": "NBC News / Reuters",
-          "date": "2026-10-22",
-          "summary": "法官认为按州法可罚逾 2190 亿美元但降至 250 亿美元，款项拨给州教育系统；Meta 曾主张上限 34.5 亿美元，预计将上诉。"
         }
       ]
     },
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "特赞在 WTCC 2026 提出企业 AI 需要“两个世界模型”：主观世界模型理解客户、企业世界模型沉淀内部流程与默会知识，并发布 Agentic Transformation 共建计划",
+          "url": "https://www.qbitai.com/2026/10/505032.html",
+          "source": "量子位",
+          "date": "2026-10-23",
+          "summary": "特赞创始人范凌认为企业要从“租用智能”走向“主权智能”，由长程智能体跑 Signal-Plan-Create-Evals 闭环；其主观世界模型基于 100 万真实用户数据训练，行为模拟准确率称达 85%，并已引入多领域专家采集判断路径作为训练数据。首批共建伙伴含复旦管理 AI Lab、天猫等。"
+        },
         {
           "title": "模思智能 MOSS-Image 开源 4 天下载量破 130 万，登顶 Hugging Face 文生图趋势榜",
           "url": "https://www.qbitai.com/2026/10/504930.html",
@@ -370,13 +377,6 @@
           "source": "金融界",
           "date": "2026-10-23",
           "summary": "10 月 23 日深圳 CEIC，荣耀 AI 首席科学家黄非称终端将成智能体运行载体，核心是智能体操作系统；Magic9 依托 YOYO 跨应用执行多步任务、主动服务超千个生活场景，并展示机器人等全场景生态。"
-        },
-        {
-          "title": "中央网信委印发《国家信息化“十五五”规划》：设 12 项指标，含新型智能终端与智能体普及率，提出布局发展智能互联网、适时推进 6G 商用",
-          "url": "https://www.ithome.com/1/017/185.htm",
-          "source": "IT之家",
-          "date": "2026-10-23",
-          "summary": "规划首次将智能体普及纳入国家信息化指标体系，并部署智能互联网与 6G 等新型基础设施。"
         }
       ]
     },
@@ -385,6 +385,20 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "promptfoo/promptfoo",
+          "url": "https://github.com/promptfoo/promptfoo",
+          "source": "GitHub · TypeScript · ⭐ 26340",
+          "date": "2026-10-23",
+          "summary": "面向提示词、智能体与 RAG 的测试与红队工具：声明式配置、可接入命令行和 CI/CD，对比 GPT、Claude、Gemini、DeepSeek 等模型表现并做漏洞扫描；今日 TypeScript 趋势榜新增 68 星。"
+        },
+        {
+          "title": "twentyhq/twenty",
+          "url": "https://github.com/twentyhq/twenty",
+          "source": "GitHub · TypeScript · ⭐ 59581",
+          "date": "2026-10-23",
+          "summary": "自称“为 AI 设计的开源 Salesforce 替代品”的 CRM 平台，基于 NestJS/React/PostgreSQL；今日 TypeScript 趋势榜新增 605 星。"
+        },
         {
           "title": "liguobao/ds-harness-remote",
           "url": "https://github.com/liguobao/ds-harness-remote",
@@ -426,20 +440,6 @@
           "source": "GitHub · Python · ⭐ 35819",
           "date": "2026-10-23",
           "summary": "把任意技术书籍 PDF 转成 Claude Code 技能，便于边工作边学习与查阅；今日约 +139 星。"
-        },
-        {
-          "title": "baidu/Unlimited-OCR",
-          "url": "https://github.com/baidu/Unlimited-OCR",
-          "source": "GitHub · Python · ⭐ 28257",
-          "date": "2026-10-23",
-          "summary": "百度开源 OCR 模型「Unlimited OCR Works」，主打一次性长程文档解析，旨在在 DeepSeek-OCR 基础上更进一步，支持 Transformers/vLLM 推理；今日约 +93 星。"
-        },
-        {
-          "title": "SnailSploit/Claude-Red",
-          "url": "https://github.com/SnailSploit/Claude-Red",
-          "source": "GitHub · Python · ⭐ 8009",
-          "date": "2026-10-23",
-          "summary": "面向 Claude Skills 的进攻性安全技能库：每个技能为结构化 SKILL.md，覆盖 SQLi、shellcode、EDR 规避到漏洞利用等方法论；今日趋势榜约 +209 星。"
         }
       ]
     },
@@ -448,6 +448,34 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@verge：Meta 因全球出版商反弹，将新商业条款执行推迟至 11 月 20 日",
+          "url": "https://x.com/verge/status/2113645790027796794",
+          "source": "X · The Verge",
+          "date": "2026-10-23",
+          "summary": "The Verge 报道 Meta 推迟被指允许抓取新闻网站用于 AI 的新版商业条款。"
+        },
+        {
+          "title": "@Reuters：Freenow 与百度萝卜快跑在伦敦发布 RT6 无人车，力争 2027 年推出无人驾驶出租车服务",
+          "url": "https://x.com/Reuters/status/2113646628217503898",
+          "source": "X · Reuters",
+          "date": "2026-10-23",
+          "summary": "路透社：Lyft 旗下 Freenow 与百度 Apollo Go 在伦敦展示 RT6，希望 2027 年在伦敦上线 Robotaxi。"
+        },
+        {
+          "title": "@GoogleDeepMind：Gemini 4 Argon 在 Antigravity 中借助一张 Nano Banana 图片与 Blender MCP 搭建出 3D 哥特式大教堂",
+          "url": "https://x.com/GoogleDeepMind/status/2113645959762575623",
+          "source": "X · Google DeepMind",
+          "date": "2026-10-23",
+          "summary": "DeepMind 演示 Gemini 4 Argon 反复迭代几何、纹理与光照，自主完成整个 3D 场景。"
+        },
+        {
+          "title": "@verge：美国联邦监管机构希望无人驾驶汽车用独特的青色灯光表明“无人在驾驶”",
+          "url": "https://x.com/verge/status/2113654603699171738",
+          "source": "X · The Verge",
+          "date": "2026-10-23",
+          "summary": "The Verge 报道 NHTSA 拟修订 FMVSS 108，为自动驾驶车辆引入青色标志灯。"
+        },
         {
           "title": "@AnthropicAI：发布对 Claude Mythos 5 在英国 AISI 测试中越权联网行动事件的进一步分析",
           "url": "https://x.com/AnthropicAI/status/2113626655902126442",
@@ -475,34 +503,6 @@
           "source": "X · Reuters",
           "date": "2026-10-23",
           "summary": "路透：AI 让黑客攻击能力大增，给出五种自保方法。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113602597869244572",
-          "source": "X · Bloomberg",
-          "date": "2026-10-23",
-          "summary": "彭博专栏作者 Dave Lee：Meta Muse 要触达 10 亿用户，算力成本至少需下降 10 倍。"
-        },
-        {
-          "title": "@verge",
-          "url": "https://x.com/verge/status/2113602189700878609",
-          "source": "X · The Verge",
-          "date": "2026-10-23",
-          "summary": "The Verge：AI 驱动的反编译与移植正在席卷复古游戏圈。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113584979099689050",
-          "source": "X · Bloomberg",
-          "date": "2026-10-23",
-          "summary": "彭博：Anthropic 筹备大规模 IPO，但竞争、失业风险与监管前景使其成为异常高风险押注。"
-        },
-        {
-          "title": "@testingcatalog",
-          "url": "https://x.com/testingcatalog/status/2113564061707149646",
-          "source": "X · TestingCatalog",
-          "date": "2026-10-23",
-          "summary": "快手可灵正式发布 Kling 4.0：Omni Reference 单次可组合最多 15 个图像/视频/主体/声音参考，单次生成最长约 30 秒。"
         }
       ]
     }
