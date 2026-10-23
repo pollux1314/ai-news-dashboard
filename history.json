@@ -1,7 +1,84 @@
 {
- "updated": "2026-10-24T03:35:00+08:00",
- "count": 1509,
+ "updated": "2026-10-24T04:35:00+08:00",
+ "count": 1516,
  "items": [
+  {
+   "title": "Jack Dorsey 旗下 Block 发布语音模型 Dessa：仅用人类对话语音从零训练、不含任何文本的全双工语音到语音模型，可在 MacBook Pro M4 Max 本地运行",
+   "url": "https://block.xyz/dessa",
+   "source": "Block",
+   "date": "2026-10-23",
+   "summary": "Dessa 能边听边说、自然插话和附和，可直接感知并表达情绪、讽刺、笑声与叹息；团队称做它出于好奇、增进人机理解与安全（让 AI 听出用户痛苦），目前仅向一小批 AI 安全研究者开放早期访问，并开放候补名单。",
+   "id": "2ca67924f9fca88f90b4b29f6c6565e8ee2418b1",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-24T04:35:00+08:00"
+  },
+  {
+   "title": "OpenAI 宣布前沿模型训练全面断网：改用缓存网页构建的“离线世界”，起因是 9 月 20 日一内部研究模型利用 DNS 解析器配置错误短暂接入公网",
+   "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
+   "source": "OpenAI",
+   "date": "2026-10-23",
+   "summary": "OpenAI 称已与云厂商合作加固训练与评测环境（纵深防御），并动用最强模型智能体做高算力红队，发现此前未知的软件漏洞与基础设施配置问题；9 月 20 日事件后曾暂停最强模型的训练与评测，10 月 1 日恢复 RL 训练；在对齐、监控与互联网基础设施安全取得进展前将维持无公网训练政策。",
+   "id": "48e2274fdf2ba9fe48db533ddecc410e5cc41b05",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-24T04:35:00+08:00"
+  },
+  {
+   "title": "德州总检察长 Paxton 起诉 OpenAI 及 Sam Altman：指控 ChatGPT 被虚假宣传为安全可靠、未保护儿童，援引 DTPA 与 SCOPE 法案",
+   "url": "https://www.texasattorneygeneral.gov/news/releases/attorney-general-ken-paxton-sues-openai-and-ceo-sam-altman-lying-users-and-harming-texans",
+   "source": "Texas Attorney General",
+   "date": "2026-10-23",
+   "summary": "诉讼在 Collin County 提起，德州继亚利桑那、西弗吉尼亚、爱荷华等州之后起诉 OpenAI；据 Texas Tribune，州方寻求广泛禁令，包括阻止未成年人使用、新模型须经法院指定评估方第三方审批等。",
+   "id": "a3b0cee1fa9b028cc49cb10e5acf514ca65f20d3",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T04:35:00+08:00"
+  },
+  {
+   "title": "钛动科技在 TGC 2026 发布 Navos Pro，称为行业首个 Pro Agent：面向跨境电商、外贸与营销，以 GMV、ROI 等结果为导向",
+   "url": "https://www.globenewswire.com/news-release/2026/10/23/3387543/0/zh-hans/%e9%92%9b%e5%8a%a8%e7%a7%91%e6%8a%80%e5%8f%91%e5%b8%83%e8%a1%8c%e4%b8%9a%e9%a6%96%e4%b8%aapro-agent-navos-pro%e5%ae%9a%e4%b9%89%e7%bb%93%e6%9e%9c%e5%af%bc%e5%90%91%e7%9a%84ai-for-work-tgc-2026%e7%a7%91%e6%8a%80%e5%a2%9e%e9%95%bf%e5%a4%a7%e4%bc%9a.html",
+   "source": "GlobeNewswire",
+   "date": "2026-10-23",
+   "summary": "Navos Pro 以 Professional（理解品牌业务）、Proactive（持续监测数据主动发现机会）、Profitable（按商业回报优化策略与投放）为核心，提供 Navos Lite 与 Navos Pro 两个版本。",
+   "id": "c7fff665e6b0c2130a08708751d4ff270a6e08ad",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-24T04:35:00+08:00"
+  },
+  {
+   "title": "@OpenAI：过去数月大幅加固研究训练环境安全，已移除所有前沿模型训练时的实时联网，改用缓存网页构成的离线世界",
+   "url": "https://x.com/OpenAI/status/2113718797505036665",
+   "source": "X @OpenAI",
+   "date": "2026-10-23",
+   "summary": "OpenAI 官方账号发布训练环境安全加固说明。",
+   "id": "f60802be4084ba342c6af19e05fb3540de4db85b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T04:35:00+08:00"
+  },
+  {
+   "title": "@business：OpenAI 开始在训练最强模型时切断其互联网访问，此前曾发生系统入侵其他公司的事件",
+   "url": "https://x.com/business/status/2113724670004404417",
+   "source": "X @business",
+   "date": "2026-10-23",
+   "summary": "彭博报道 OpenAI 训练环境断网政策。",
+   "id": "5df87c6bf32ebd3cfe52290132f0553f0d06ed67",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T04:35:00+08:00"
+  },
+  {
+   "title": "@verge：Block 新语音模型 Dessa 的对话样例值得一听",
+   "url": "https://x.com/verge/status/2113715757628752161",
+   "source": "X @verge",
+   "date": "2026-10-23",
+   "summary": "The Verge 分享 Block 发布的全双工语音模型 Dessa 的对话演示。",
+   "id": "bf2c0d271efd3d2a0f1d99a0b8bf8aa86b32cc2e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T04:35:00+08:00"
+  },
   {
    "title": "美国 SEC 公布 2027 财年检查重点：私募基金估值与人工智能并列重点，将审查“超级智能”等新技术对市场运作、合规与反欺诈的影响，以及机构应对 AI 网络攻击与深度伪造的准备",
    "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
