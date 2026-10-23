@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T16:27:00+08:00",
+  "updated": "2026-10-23T17:23:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "黄仁勋访哈萨克斯坦：Firebird 获 4.5 万颗英伟达 Grace Blackwell GPU 出口许可、与政府签署投资协议，Kazakhtelecom 已部署 880 颗 H200/B300 并计划 2027 年上马逾千颗 Vera Rubin",
+          "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+          "source": "NVIDIA Blog",
+          "date": "2026-10-23",
+          "summary": "黄仁勋 10 月 23 日在阿斯塔纳会见总统托卡耶夫并与 AI 部长 Madiyev 对谈。Firebird 继亚美尼亚后在哈萨克斯坦建 AI 工厂，一期与 Kazakhtelecom 在 Data Center Valley 建设、目标 2027 年三季度商用，二期后总规模约 500 兆瓦；Kazakhtelecom 明年还将在 Data Center Valley 部署逾 1000 颗 GPU、在埃基巴斯图兹部署逾 1000 颗 Vera Rubin。"
+        },
+        {
           "title": "英伟达与 TCV 入股 AI 视频创企 Higgsfield：作为 8 月 B 轮（4 亿美元、估值 54 亿美元）的追加，资金用于全球算力基础设施与招聘",
           "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
           "source": "Bloomberg",
@@ -118,13 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-22",
           "summary": "Lightspeed 领投，IVP、Mayfield、Lux、Premji、Menlo 跟投；化学家佩戴摄像头与传感手套示教机器人合成测试化合物，目标把外包给药明康德等中国 CRO 的工作回流美国。"
-        },
-        {
-          "title": "Cadence 联合英伟达在慕尼黑推出欧洲首个主权 AI 芯片/系统与 AI 工厂设计平台，数据全程留在欧盟",
-          "url": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unveils-europes-first-sovereign-ai-platform-for.html",
-          "source": "Cadence",
-          "date": "2026-10-22",
-          "summary": "整合 Cadence OnCloud、Vera/Grace 系统、Millennium M2000 Blackwell 超算与 Reality 数字孪生，服务欧洲半导体与 AI 基础设施设计。"
         }
       ]
     },
@@ -133,6 +133,27 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Anthropic 公开征集生命科学“客座研究员”：PI 团队可与 Anthropic 研究员合作 8–12 周，免费使用 Claude 模型与工具攻关因果人类生物学、药物发现等问题，成果开源",
+          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+          "source": "Anthropic",
+          "date": "2026-10-22",
+          "summary": "面向高校、非营利与政府实验室，方向涵盖结构与计算分子生物学、药物化学、临床科学等；申请开放约 14 天，研究者保留数据与后续研究权利，Anthropic 不索取其数据。"
+        },
+        {
+          "title": "arXiv：推理模型里的“wait”是继承而非 RL 发明——零 RL 几乎不会自创该词，它随中期训练或推理轨迹微调数据进入模型",
+          "url": "https://arxiv.org/abs/2610.30882",
+          "source": "arXiv · Hugging Face Daily Papers",
+          "date": "2026-10-22",
+          "summary": "论文《Inherited, Not Invented》追踪开源模型训练历程中“wait”的出现：在基座不含该词时 RL 仍能大幅提升 MATH-500 而“wait”几乎不出现；OLMo-3 在中期训练引入该词，已含该词的基座经 RL-Zero 配方会被放大，而无 KL 的 GRPO 则不会。"
+        },
+        {
+          "title": "微信视觉团队 WeVisOne-VL：统一目标级与像素级感知的视觉语言模型，检测、指代定位、计数、OCR、分割与抠图一体，30 余项基准领先",
+          "url": "https://arxiv.org/abs/2610.31329",
+          "source": "arXiv · Hugging Face Daily Papers",
+          "date": "2026-10-22",
+          "summary": "通过特殊 <OBJ> token 把轻量像素解码器接入 VLM，以结构化下一 token 预测输出点、框、掩码与 alpha 遮罩；三阶段课程 SFT 加多任务 RL 训练，并对目标不存在的查询保持稳健拒答。"
+        },
         {
           "title": "OpenDS-World：在真实开放网络中评测深度搜索，12 个前沿模型最佳仅 39.0%，人类在 1000 次尝试中仅 21.1%",
           "url": "https://arxiv.org/abs/2610.30181",
@@ -167,27 +188,6 @@
           "source": "arXiv / IQuestLab",
           "date": "2026-10-22",
           "summary": "三阶段训练：结合 Stable SplitNorm、Muon 与 muP 的稳定预训练（第二阶段提高代码配比）、细粒度中期训练与渐进扩展上下文、多脚手架多版本后训练（SFT + 领域 RL + MOPD），并用模型合并融合不同专家与检查点。"
-        },
-        {
-          "title": "arXiv：复杂的智能体记忆真的必要吗？朴素 RAG（原始历史稠密检索 + 重排）在 7 个基准-模型组合中 6 个排第一，领先最强智能体记忆系统 0.13–5.53 分",
-          "url": "https://arxiv.org/abs/2610.30755",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-22",
-          "summary": "研究在 LoCoMo、LongMemEval、MEME 与 MemoryAgentBench 上对比 Raw-RAG 与各类带改写、结构化组织或学习式检索的记忆系统。分析发现原始历史对必要证据的覆盖更高，可弥补利用率偏低；即便完整访问改写后的记忆库，准确率仍不及原始证据，作者主张保留原始信息并把朴素 RAG 作为必备基线。"
-        },
-        {
-          "title": "arXiv：网络拓扑决定 LLM 群体的共识与脆弱性——稀疏网络使共识慢至 12 倍，占据枢纽节点仅需 3% 即可推翻约定",
-          "url": "https://arxiv.org/abs/2610.31165",
-          "source": "arXiv",
-          "date": "2026-10-22",
-          "summary": "基于四种 LLM 构建 10^3–10^5 个智能体的命名博弈；推翻约定所需临界规模中位数：枢纽 3%、随机 16%、低度节点 35%。"
-        },
-        {
-          "title": "arXiv OmniDR-Bench：首个以视频为中心的深度研究报告生成基准，50 个中英任务、6414 条原子评分标准",
-          "url": "https://arxiv.org/abs/2610.31158",
-          "source": "arXiv",
-          "date": "2026-10-22",
-          "summary": "覆盖 19 个子类，用 Omni-ARTs 评分树细粒度评估，测评 18 种智能体配置。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "Meta 联合 Paradigm、Andromeda 发起 Muse Spark Open 内核挑战赛：优化 GPU 内核与 SGLang 推理服务、比拼谁跑得最快，奖金总额 10 万美元",
+          "url": "https://openkernelchallenge.dev/",
+          "source": "Muse Spark Open Kernel Challenge",
+          "date": "2026-10-23",
+          "summary": "内核赛 10 月 22 日至 11 月 4 日（太平洋时间），在 H200 上与 SGLang 内核同条件对比，题目含 MoE W4A16、注意力解码、BF16 投影等；11 月 5–19 日为服务赛，在 8×H200 节点上修改 SGLang 服务多轮智能体编码负载。第一名 5 万美元加签名 H200，优胜者或获 Meta 面试机会。"
+        },
         {
           "title": "阿里 Qoder 支持 Linux ARM64 与龙芯 LoongArch64 平台，适配统信 UOS、银河麒麟等国产桌面系统",
           "url": "https://www.ithome.com/1/016/927.htm",
@@ -244,13 +251,6 @@
           "source": "Anthropic",
           "date": "2026-10-22",
           "summary": "移交 Agent Skills 名称与标识、GitHub 组织和 agentskills.io 域名，由 Anthropic、谷歌、OpenAI、微软等公司工程师组成技术指导委员会维护，首要路线图为版本化发布、正式提案流程与技能安全指南。AAIF 同日在 AGNTCon + MCPCon 宣布另收录 OpenAI 的 Open Responses、Hugging Face 的 OpenEnv 和阿里巴巴的 OpenSandbox，项目总数一年内由 3 个增至 10 个。"
-        },
-        {
-          "title": "开发者平台 Railway 遭网络攻击：攻击者可能获取部分客户加密环境变量及其解密内容，官方敦促所有用户轮换 API 密钥等机密，并称这是一系列以攻破 AI 推理服务商为目标的攻击之一",
-          "url": "https://blog.railway.com/p/security-disclosure-wednesday-october-21st",
-          "source": "Railway / TechCrunch",
-          "date": "2026-10-22",
-          "summary": "Railway 已作废全部 API 令牌、轮换存储桶凭据并重置 GitHub 令牌，部署一度全面暂停、随后按套餐分批恢复；官方还专门发布指南，提醒使用 Claude 的用户吊销可能泄露的 Anthropic 密钥并检查异常用量。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "美国财政部发布 COINS 法案拟议规则：对中国等“受关注国家”的 AI、半导体、量子、超算、高超音速及新增的生物技术领域对外投资实施申报与禁止，意见征集至 12 月 7 日",
+          "url": "https://home.treasury.gov/news/press-releases/sb0667/",
+          "source": "U.S. Department of the Treasury",
+          "date": "2026-10-22",
+          "summary": "该 NPRM 依据 2026 财年国防授权法中的《全面对外投资国家安全法》（COINS Act）更新对外投资安全计划（OISP），要求美国人就涉及“可申报技术”的交易向财政部申报，并禁止涉及“禁止技术”的交易；最终规则将另定生效日期。"
+        },
         {
           "title": "OpenAI 与波兰国家研究院 NASK 签署 AI 安全合作协议：与波兰 AI 安全研究所共同评估前沿模型、识别漏洞、强化防护",
           "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
@@ -307,13 +314,6 @@
           "source": "Reuters",
           "date": "2026-10-22",
           "summary": "该组织成员包括数字广告主与出版商，已申请临时措施，称企业别无选择只能使用 Meta 服务、无法选择退出；Meta 回应称整合后的爬取条款只适用于广告与商业产品、不改变爬虫行为，网站仍可用 robots.txt 表达偏好。英国 CMA 表示已与 Meta 会面并正“紧急讨论”下一步。"
-        },
-        {
-          "title": "特朗普在 Truth Social 呼吁数据中心与大型 AI 云厂商向所在社区“分红”：除自建电源外还须把多余电力无偿或出售给当地社区，以缓解电价上涨、换取社区接纳",
-          "url": "https://www.ithome.com/1/016/257.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "特朗普称一些原本极不受欢迎的数据中心项目在达成经济协议后获得了当地大力支持，呼吁“达成协议，推进建设”；具体回馈形式尚不明确。此前政府已要求此类企业自行发电，并有法案要求数据中心承担电网升级费用。"
         }
       ]
     },
@@ -449,6 +449,20 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@bot",
+          "url": "https://x.com/bot/status/2113393684209176718",
+          "source": "X · Grok Bot",
+          "date": "2026-10-23",
+          "summary": "Grok Bot 现可调用手机上的日历、提醒事项、通讯录等应用，iOS 与 Android 正在推送；马斯克转发称“Grok Bot now integrates with your phone apps”。"
+        },
+        {
+          "title": "@danielgross",
+          "url": "https://x.com/danielgross/status/2113351902402613558",
+          "source": "X · Daniel Gross",
+          "date": "2026-10-23",
+          "summary": "宣布 10 万美元挑战赛，看谁能让 Meta Muse Spark Open 跑得最快（openkernelchallenge.dev）；Alexandr Wang 转发助推。"
+        },
+        {
           "title": "@business",
           "url": "https://x.com/business/status/2113540985388929500",
           "source": "X · Bloomberg",
@@ -489,20 +503,6 @@
           "source": "X · Bloomberg",
           "date": "2026-10-23",
           "summary": "彭博 Big Take：为跟上对手，华尔街高频交易公司不得不加入 AI 算力竞赛，投入数十亿美元仍难保成功。"
-        },
-        {
-          "title": "@testingcatalog",
-          "url": "https://x.com/testingcatalog/status/2113501787005337991",
-          "source": "X · TestingCatalog",
-          "date": "2026-10-23",
-          "summary": "TestingCatalog：Kimi 官方账号发布预告视频，Kimi K3.1 即将发布；此前疑似 K3.1 的模型已在 Arena 测试且表现出色。"
-        },
-        {
-          "title": "@ArtificialAnlys",
-          "url": "https://x.com/ArtificialAnlys/status/2113424551396934134",
-          "source": "X · Artificial Analysis",
-          "date": "2026-10-23",
-          "summary": "Artificial Analysis 发布 Coding Agent Index v2.0：用 Cognition 的 FrontierCode v1.1 替换 DeepSWE、修订 SWE-Atlas-QnA 评分，Claude Code + Claude Opus 5.5 以 61.7 分居首；21 个可比配置中 20 个分数下降，均值由 54.8 降至 47.4。"
         }
       ]
     }

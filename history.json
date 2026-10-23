@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-23T16:27:00+08:00",
- "count": 1408,
+ "updated": "2026-10-23T17:23:00+08:00",
+ "count": 1416,
  "items": [
+  {
+   "title": "黄仁勋访哈萨克斯坦：Firebird 获 4.5 万颗英伟达 Grace Blackwell GPU 出口许可、与政府签署投资协议，Kazakhtelecom 已部署 880 颗 H200/B300 并计划 2027 年上马逾千颗 Vera Rubin",
+   "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
+   "source": "NVIDIA Blog",
+   "date": "2026-10-23",
+   "summary": "黄仁勋 10 月 23 日在阿斯塔纳会见总统托卡耶夫并与 AI 部长 Madiyev 对谈。Firebird 继亚美尼亚后在哈萨克斯坦建 AI 工厂，一期与 Kazakhtelecom 在 Data Center Valley 建设、目标 2027 年三季度商用，二期后总规模约 500 兆瓦；Kazakhtelecom 明年还将在 Data Center Valley 部署逾 1000 颗 GPU、在埃基巴斯图兹部署逾 1000 颗 Vera Rubin。",
+   "id": "b21a97b1b273636b694d2ad7f23f995806779425",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T17:23:00+08:00"
+  },
+  {
+   "title": "Meta 联合 Paradigm、Andromeda 发起 Muse Spark Open 内核挑战赛：优化 GPU 内核与 SGLang 推理服务、比拼谁跑得最快，奖金总额 10 万美元",
+   "url": "https://openkernelchallenge.dev/",
+   "source": "Muse Spark Open Kernel Challenge",
+   "date": "2026-10-23",
+   "summary": "内核赛 10 月 22 日至 11 月 4 日（太平洋时间），在 H200 上与 SGLang 内核同条件对比，题目含 MoE W4A16、注意力解码、BF16 投影等；11 月 5–19 日为服务赛，在 8×H200 节点上修改 SGLang 服务多轮智能体编码负载。第一名 5 万美元加签名 H200，优胜者或获 Meta 面试机会。",
+   "id": "5edcd611d04b5c5679596310e40acc48fb2076b4",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T17:23:00+08:00"
+  },
+  {
+   "title": "@bot",
+   "url": "https://x.com/bot/status/2113393684209176718",
+   "source": "X · Grok Bot",
+   "date": "2026-10-23",
+   "summary": "Grok Bot 现可调用手机上的日历、提醒事项、通讯录等应用，iOS 与 Android 正在推送；马斯克转发称“Grok Bot now integrates with your phone apps”。",
+   "id": "1f06907d79a6590a855c59f7285559c02df122ba",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T17:23:00+08:00"
+  },
+  {
+   "title": "@danielgross",
+   "url": "https://x.com/danielgross/status/2113351902402613558",
+   "source": "X · Daniel Gross",
+   "date": "2026-10-23",
+   "summary": "宣布 10 万美元挑战赛，看谁能让 Meta Muse Spark Open 跑得最快（openkernelchallenge.dev）；Alexandr Wang 转发助推。",
+   "id": "3a86fa83b7915de1f5eda5bb23ede1a52cb8d371",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T17:23:00+08:00"
+  },
   {
    "title": "英伟达与 TCV 入股 AI 视频创企 Higgsfield：作为 8 月 B 轮（4 亿美元、估值 54 亿美元）的追加，资金用于全球算力基础设施与招聘",
    "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
@@ -397,6 +441,50 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "Anthropic 公开征集生命科学“客座研究员”：PI 团队可与 Anthropic 研究员合作 8–12 周，免费使用 Claude 模型与工具攻关因果人类生物学、药物发现等问题，成果开源",
+   "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+   "source": "Anthropic",
+   "date": "2026-10-22",
+   "summary": "面向高校、非营利与政府实验室，方向涵盖结构与计算分子生物学、药物化学、临床科学等；申请开放约 14 天，研究者保留数据与后续研究权利，Anthropic 不索取其数据。",
+   "id": "98d45c75b11c937cbf9d2c2a5d2617aed3828255",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T17:23:00+08:00"
+  },
+  {
+   "title": "arXiv：推理模型里的“wait”是继承而非 RL 发明——零 RL 几乎不会自创该词，它随中期训练或推理轨迹微调数据进入模型",
+   "url": "https://arxiv.org/abs/2610.30882",
+   "source": "arXiv · Hugging Face Daily Papers",
+   "date": "2026-10-22",
+   "summary": "论文《Inherited, Not Invented》追踪开源模型训练历程中“wait”的出现：在基座不含该词时 RL 仍能大幅提升 MATH-500 而“wait”几乎不出现；OLMo-3 在中期训练引入该词，已含该词的基座经 RL-Zero 配方会被放大，而无 KL 的 GRPO 则不会。",
+   "id": "809aec55ffbc1da650e651ad14446dec2d949d8a",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T17:23:00+08:00"
+  },
+  {
+   "title": "微信视觉团队 WeVisOne-VL：统一目标级与像素级感知的视觉语言模型，检测、指代定位、计数、OCR、分割与抠图一体，30 余项基准领先",
+   "url": "https://arxiv.org/abs/2610.31329",
+   "source": "arXiv · Hugging Face Daily Papers",
+   "date": "2026-10-22",
+   "summary": "通过特殊 <OBJ> token 把轻量像素解码器接入 VLM，以结构化下一 token 预测输出点、框、掩码与 alpha 遮罩；三阶段课程 SFT 加多任务 RL 训练，并对目标不存在的查询保持稳健拒答。",
+   "id": "33b8e42d42aed3646de7c2d9eaaccd25e1c03565",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T17:23:00+08:00"
+  },
+  {
+   "title": "美国财政部发布 COINS 法案拟议规则：对中国等“受关注国家”的 AI、半导体、量子、超算、高超音速及新增的生物技术领域对外投资实施申报与禁止，意见征集至 12 月 7 日",
+   "url": "https://home.treasury.gov/news/press-releases/sb0667/",
+   "source": "U.S. Department of the Treasury",
+   "date": "2026-10-22",
+   "summary": "该 NPRM 依据 2026 财年国防授权法中的《全面对外投资国家安全法》（COINS Act）更新对外投资安全计划（OISP），要求美国人就涉及“可申报技术”的交易向财政部申报，并禁止涉及“禁止技术”的交易；最终规则将另定生效日期。",
+   "id": "3a78982b2299bf4e4241fe581e375b3a84f4d8ea",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T17:23:00+08:00"
   },
   {
    "title": "哈佛 Gary King 与 Steven Worthington：AI 撰写的论文评审已在各项指标上全面胜过高水平人类专家评审——134 组盲评中前期刊编辑 87% 更偏好 AI 评审",
