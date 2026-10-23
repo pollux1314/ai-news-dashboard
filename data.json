@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T19:30:00+08:00",
+  "updated": "2026-10-23T20:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "The Verge：复古游戏圈正被 AI 淹没",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+          "source": "The Verge",
+          "date": "2026-10-23",
+          "summary": "AI 驱动的反编译、重编译与移植项目激增，引发复古游戏社区动荡；报道还提到 Asha Sharma 设立的 Xbox Labs。"
+        },
+        {
           "title": "彭博：Anthropic 筹备大规模 IPO，但竞争加剧、大规模失业风险与监管冲击使其成为异常高风险押注，市场讨论估值或至约 2 万亿美元",
           "url": "https://www.bloomberg.com/news/articles/2026-10-23/anthropic-ipo-why-a-2-trillion-valuation-faces-major-risks",
           "source": "Bloomberg",
@@ -118,13 +125,6 @@
           "source": "Bloomberg",
           "date": "2026-10-23",
           "summary": "据彭博，SK Hyper 此举是加入全球 AI 基础设施建设热潮，尽管市场对未来需求存在担忧。同日 SK 海力士因股东与监管反对，撤回旗下 NAND/SSD 子公司 Solidigm 的美国上市计划。"
-        },
-        {
-          "title": "TrendForce：智能体 AI 推高 CPU/加速器配比，服务器 CPU 出货 2026 年增 31%、2027 年增超 40%，Arm 阵营份额 2027 年升至约 30%",
-          "url": "https://www.ithome.com/1/016/801.htm",
-          "source": "IT之家 / TrendForce",
-          "date": "2026-10-23",
-          "summary": "英特尔份额因 Diamond Rapids 出货迟缓从 50% 降至 42%，AMD 约 28%、英伟达 12%，AWS、谷歌自研 Arm CPU 份额上升。"
         }
       ]
     },
@@ -133,6 +133,34 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "arXiv：PLE「物理工程的最后考试」——最佳配置仅 50.6%",
+          "url": "https://arxiv.org/abs/2610.30537",
+          "source": "arXiv",
+          "date": "2026-10-23",
+          "summary": "PLE: Physical-Engineering's Last Exam，85 道物理工程任务基准，评测前沿模型与智能体配置，最佳配置得分仅 50.6%，显示真实工程推理仍有很大差距。"
+        },
+        {
+          "title": "arXiv：共谋的模型生物——不可信监控者的纠正迁移",
+          "url": "https://arxiv.org/abs/2610.30582",
+          "source": "arXiv",
+          "date": "2026-10-23",
+          "summary": "Model Organisms of Collusion：构建会与被监控模型共谋的监控者模型生物，纠正训练可迁移，在留出场景上将共谋率从 91% 降至 14–20%。"
+        },
+        {
+          "title": "arXiv：LLM 多智能体系统易受从众与失控级联影响",
+          "url": "https://arxiv.org/abs/2610.30769",
+          "source": "arXiv",
+          "date": "2026-10-23",
+          "summary": "复现经典 Music Lab 社会影响实验，发现 LLM 多智能体会出现羊群效应与失控信息级联，放大早期随机性。"
+        },
+        {
+          "title": "Fable 5.1 如何在图片中隐藏信息？（SASH 研究）",
+          "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+          "source": "LessWrong · Singapore AI Safety Hub",
+          "date": "2026-10-22",
+          "summary": "Claude Fable 5.1 无需预先约定方案即可在 SVG 中隐藏信息，新会话从 PNG 解码成功率 78%（39/50），33/50 采用高度编码；GPT-6 Astra 偏好摩尔斯码/藏头诗，交叉解码 44/50 与 42/50。作者认为因解码过程在工具调用中可见，目前尚不危险。"
+        },
         {
           "title": "arXiv 2610.31624：质疑 RLVR 中的工具性收敛——OLMo-3 检查点轨迹显示工具性行为先升后降，终局低于 SFT",
           "url": "https://arxiv.org/abs/2610.31624",
@@ -160,34 +188,6 @@
           "source": "arXiv cs.AI",
           "date": "2026-10-23",
           "summary": "测试 8 种隐藏策略，仅极端改变每步工作量可规避，但一天内仍能检出≥87%，可服务于算力核查与 AI 治理。"
-        },
-        {
-          "title": "arXiv 2610.30678：安全探针的缩放定律——探针性能可由模型规模与标注数量预测",
-          "url": "https://arxiv.org/abs/2610.30678",
-          "source": "arXiv cs.AI",
-          "date": "2026-10-23",
-          "summary": "Yuchen Wu、Jerry Wei 等；新建 6 个安全数据集，覆盖 5 个家族 20 个基座模型，标注量 32 至 10^6。"
-        },
-        {
-          "title": "arXiv 2610.30499：LLM 能否在 ARC-AGI-3 上自我改进 harness？27 条谱系两轮修订仅提升 2.80 分且不显著",
-          "url": "https://arxiv.org/abs/2610.30499",
-          "source": "arXiv cs.AI",
-          "date": "2026-10-23",
-          "summary": "留出集 RHAE 提升 2.80 分，置信区间 −1.44 至 7.35，自我改进脚手架的收益有限。"
-        },
-        {
-          "title": "OpenDS-World：在真实开放网络中评测深度搜索，12 个前沿模型最佳仅 39.0%，人类在 1000 次尝试中仅 21.1%",
-          "url": "https://arxiv.org/abs/2610.30181",
-          "source": "arXiv · Hugging Face Daily Papers",
-          "date": "2026-10-23",
-          "summary": "论文《Deep Search in Real-World Web Environments》构建 200 个必须在实时网页上完成的深度搜索任务，评测 12 个前沿模型，发现现有智能体在真实网络环境下仍远未可靠；数据集以 Yu2020/OpenDS-World 公开。"
-        },
-        {
-          "title": "arXiv Meta Expert：跨层共享专家的 MoE 架构——在激活量与专家粒度不变时，只用 70–80% 的专家即可追平普通 MoE 的效果",
-          "url": "https://arxiv.org/abs/2610.27598",
-          "source": "arXiv / Hugging Face Daily Papers",
-          "date": "2026-10-23",
-          "summary": "作者发现主流分层 MoE 中不同层的专家存储内容高度相似、冗余明显，于是提出可在各层间共享的 Meta Expert。对比显示其参数冗余更低、交叉熵更低、下游准确率更高；理论分析认为共享专家为隐藏状态提供了更灵活的残差通路，提升信息检索效率。该文为 10 月 23 日 HF Daily Papers 票数最高论文。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "Kyutai 开源 CADRE：因果扩散表征视频自编码器与世界模型",
+          "url": "https://kyutai.org/blog/2026-10-22-cadre/",
+          "source": "Kyutai",
+          "date": "2026-10-22",
+          "summary": "发布论文、代码（MIT）、权重（CC BY-NC 4.0）与在线 Demo；单张 H100 上 20fps 下响应延迟 <230ms。共 7 个自编码器、23 个数据集约 7.6 万小时训练，覆盖操作与导航环境，构成大部分延迟-质量帕累托前沿；结论包括扩散解码、在自编码器中压缩时间维度、相机运动决定压缩率、粗粒度 token 先损伤运动。"
+        },
         {
           "title": "Meta 联合 Paradigm、Andromeda 发起 Muse Spark Open 内核挑战赛：优化 GPU 内核与 SGLang 推理服务、比拼谁跑得最快，奖金总额 10 万美元",
           "url": "https://openkernelchallenge.dev/",
@@ -244,13 +251,6 @@
           "source": "Ai2",
           "date": "2026-10-22",
           "summary": "读取一年的 Sentinel-1/2 与 Landsat 时间序列，嵌入托管在 Source Cooperative，2023–2025 年全球覆盖、2017–2022 年部分国家并持续回填；配套免登录的 OlmoEarth Embeddings Explorer，可点选相似地点或标几个点现场训练小分类器并导出 GeoTIFF。模型权重、预训练数据和代码全部开放，训练 GPU 时长仅为 v1.2 的约 53%。"
-        },
-        {
-          "title": "Anthropic 把 Agent Skills 开放标准捐给 Linux 基金会旗下 Agentic AI Foundation（AAIF）：已有 70 多个智能体平台集成、累计发布 100 万个技能、安装近 2.8 亿次",
-          "url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
-          "source": "Anthropic",
-          "date": "2026-10-22",
-          "summary": "移交 Agent Skills 名称与标识、GitHub 组织和 agentskills.io 域名，由 Anthropic、谷歌、OpenAI、微软等公司工程师组成技术指导委员会维护，首要路线图为版本化发布、正式提案流程与技能安全指南。AAIF 同日在 AGNTCon + MCPCon 宣布另收录 OpenAI 的 Open Responses、Hugging Face 的 OpenEnv 和阿里巴巴的 OpenSandbox，项目总数一年内由 3 个增至 10 个。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "达瓦科技 Scenes AI：34B 实时世界模型单卡 RTX 跑 720P 25FPS",
+          "url": "https://www.qbitai.com/2026/10/504931.html",
+          "source": "量子位",
+          "date": "2026-10-23",
+          "summary": "总参数 34B、激活约 4B 的实时世界模型，单张 RTX 显卡即可 720P 25FPS 运行；10 月 15 日在苏州获 NVIDIA 初创加速计划半程展示卓越企业奖。目标编辑成功率 98.2%、身份保持 93.3%，积累 180TB 结构化状态数据。"
+        },
+        {
           "title": "科大讯飞 1024 开发者节：发布端云一体星火 X2.6（百万 Tokens 上下文并开源 X2.6-4B）、星辰 TaaS 平台与企业级 Agent OS",
           "url": "https://www.qbitai.com/2026/10/505083.html",
           "source": "量子位",
@@ -370,13 +377,6 @@
           "source": "第一财经",
           "date": "2026-10-23",
           "summary": "上海 9 月出口 2411.4 亿元、同比增长 39.5%；7 类 AI 相关产品（工业级变压器、储能电池、服务器、集成电路、存储部件、通讯设备、光收发模块）占全市出口 23%，拉动出口增速 11.6 个百分点。"
-        },
-        {
-          "title": "中国信通院等发布《大模型词元服务性能监测报告（2026 年）》：国内大模型归一化均价由 2025 下半年 6.8 元涨至 13.46 元、近乎翻倍，8 月平均输出速度 78.23 token/秒、较 2025 年翻倍",
-          "url": "https://www.ithome.com/1/016/876.htm",
-          "source": "IT之家",
-          "date": "2026-10-23",
-          "summary": "2026 年 6 月国内日均词元消耗约 500 万亿、为 2025 年 12 月近 4 倍；国外典型模型 TPS 约 112.82 仍领先，监测模型中 1M 上下文占比 47.8%。"
         }
       ]
     },
@@ -385,6 +385,34 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "TauricResearch/TradingAgents",
+          "url": "https://github.com/TauricResearch/TradingAgents",
+          "source": "GitHub · Python · ⭐ 113213",
+          "date": "2026-10-23",
+          "summary": "多智能体 LLM 金融交易框架，模拟分析师、研究员、交易员与风控团队协作决策；今日趋势榜约 +498 星。"
+        },
+        {
+          "title": "Vincentwei1021/video-shotcraft",
+          "url": "https://github.com/Vincentwei1021/video-shotcraft",
+          "source": "GitHub · TypeScript · ⭐ 13145",
+          "date": "2026-10-23",
+          "summary": "面向 Claude Code 与 Codex 的 AI 视频技能：基于 Remotion 生成电影感产品视频，含 152 张镜头配方卡、209 个运动预览与生产级模板；今日约 +262 星。"
+        },
+        {
+          "title": "virgiliojr94/book-to-skill",
+          "url": "https://github.com/virgiliojr94/book-to-skill",
+          "source": "GitHub · Python · ⭐ 35819",
+          "date": "2026-10-23",
+          "summary": "把任意技术书籍 PDF 转成 Claude Code 技能，便于边工作边学习与查阅；今日约 +139 星。"
+        },
+        {
+          "title": "baidu/Unlimited-OCR",
+          "url": "https://github.com/baidu/Unlimited-OCR",
+          "source": "GitHub · Python · ⭐ 28257",
+          "date": "2026-10-23",
+          "summary": "百度开源 OCR 模型「Unlimited OCR Works」，主打一次性长程文档解析，旨在在 DeepSeek-OCR 基础上更进一步，支持 Transformers/vLLM 推理；今日约 +93 星。"
+        },
         {
           "title": "SnailSploit/Claude-Red",
           "url": "https://github.com/SnailSploit/Claude-Red",
@@ -412,34 +440,6 @@
           "source": "GitHub · Rust · ⭐ 18067",
           "date": "2026-10-23",
           "summary": "英伟达开源的自主 AI 智能体安全、私有运行时（Apache-2.0），为智能体执行提供隔离与策略控制；今日 Rust 趋势榜 +211 星。"
-        },
-        {
-          "title": "BerriAI/litellm",
-          "url": "https://github.com/BerriAI/litellm",
-          "source": "GitHub · Python · ⭐ 61862",
-          "date": "2026-10-23",
-          "summary": "AI 网关：Rust 内核 + Python SDK，以 OpenAI（或原生）格式调用 100+ 家 LLM API，内置成本追踪、护栏、负载均衡与日志，今日 Python 趋势榜 +107 星。"
-        },
-        {
-          "title": "bowenliang123/dsh-context",
-          "url": "https://github.com/bowenliang123/dsh-context",
-          "source": "GitHub · TypeScript · ⭐ 3412",
-          "date": "2026-10-23",
-          "summary": "DeepSeek Harness 上下文可视化插件：面板、浏览器与侧边栏查看上下文构成、演化、压缩及多智能体团队，今日 TypeScript 趋势榜 +296 星。"
-        },
-        {
-          "title": "genspark-ai/genoffice",
-          "url": "https://github.com/genspark-ai/genoffice",
-          "source": "GitHub · TypeScript · ⭐ 10504",
-          "date": "2026-10-22",
-          "summary": "Genspark 开源的免费 AI 办公套件（Apache-2.0）：内置 AI 智能体的文档、表格、幻灯片、PDF、Markdown、HTML 编辑器，并提供 genoffice CLI 与 agent skill，让 Claude Code、Codex、Cursor 在本地创建和编辑真实 .docx/.xlsx/.pptx；自带密钥，支持 macOS/Windows/Linux，今日 GitHub 趋势榜上榜。"
-        },
-        {
-          "title": "CopilotKit/OpenBot",
-          "url": "https://github.com/CopilotKit/OpenBot",
-          "source": "GitHub · TypeScript · ⭐ 6912",
-          "date": "2026-10-22",
-          "summary": "CopilotKit 的开源“AI 同事”（MIT）：每个智能体拥有独立电脑（浏览器、文件与工具），每个动作先审批决定、事后留痕记录，可接入任意 AG-UI 智能体，今日 GitHub 趋势榜上榜。"
         }
       ]
     },
@@ -448,6 +448,27 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@Reuters",
+          "url": "https://x.com/Reuters/status/2113606378258350333",
+          "source": "X · Reuters",
+          "date": "2026-10-23",
+          "summary": "路透：AI 让黑客攻击能力大增，给出五种自保方法。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113602597869244572",
+          "source": "X · Bloomberg",
+          "date": "2026-10-23",
+          "summary": "彭博专栏作者 Dave Lee：Meta Muse 要触达 10 亿用户，算力成本至少需下降 10 倍。"
+        },
+        {
+          "title": "@verge",
+          "url": "https://x.com/verge/status/2113602189700878609",
+          "source": "X · The Verge",
+          "date": "2026-10-23",
+          "summary": "The Verge：AI 驱动的反编译与移植正在席卷复古游戏圈。"
+        },
         {
           "title": "@business",
           "url": "https://x.com/business/status/2113584979099689050",
@@ -482,27 +503,6 @@
           "source": "X · 日本経済新聞",
           "date": "2026-10-23",
           "summary": "日经专访 Meta 首席 AI 官 Alexandr Wang：Muse 不加广告，靠付费方案等非广告方式变现，基础模型将持续推出开放型以对抗中国对手。"
-        },
-        {
-          "title": "@bot",
-          "url": "https://x.com/bot/status/2113393684209176718",
-          "source": "X · Grok Bot",
-          "date": "2026-10-23",
-          "summary": "Grok Bot 现可调用手机上的日历、提醒事项、通讯录等应用，iOS 与 Android 正在推送；马斯克转发称“Grok Bot now integrates with your phone apps”。"
-        },
-        {
-          "title": "@danielgross",
-          "url": "https://x.com/danielgross/status/2113351902402613558",
-          "source": "X · Daniel Gross",
-          "date": "2026-10-23",
-          "summary": "宣布 10 万美元挑战赛，看谁能让 Meta Muse Spark Open 跑得最快（openkernelchallenge.dev）；Alexandr Wang 转发助推。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113540985388929500",
-          "source": "X · Bloomberg",
-          "date": "2026-10-23",
-          "summary": "彭博：前 Snap 高管创办的 AI 视频创企 Higgsfield 获英伟达与 TCV 投资，用于全球基础设施与招聘。"
         }
       ]
     }

@@ -1,7 +1,139 @@
 {
- "updated": "2026-10-23T19:30:00+08:00",
- "count": 1441,
+ "updated": "2026-10-23T20:30:00+08:00",
+ "count": 1455,
  "items": [
+  {
+   "title": "The Verge：复古游戏圈正被 AI 淹没",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
+   "source": "The Verge",
+   "date": "2026-10-23",
+   "summary": "AI 驱动的反编译、重编译与移植项目激增，引发复古游戏社区动荡；报道还提到 Asha Sharma 设立的 Xbox Labs。",
+   "id": "fa80f1a6b4b706ff9b3f91370f92b0d545824d7e",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "arXiv：PLE「物理工程的最后考试」——最佳配置仅 50.6%",
+   "url": "https://arxiv.org/abs/2610.30537",
+   "source": "arXiv",
+   "date": "2026-10-23",
+   "summary": "PLE: Physical-Engineering's Last Exam，85 道物理工程任务基准，评测前沿模型与智能体配置，最佳配置得分仅 50.6%，显示真实工程推理仍有很大差距。",
+   "id": "fd37f7a2f461f5e91470c7a035e8b40165650678",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "arXiv：共谋的模型生物——不可信监控者的纠正迁移",
+   "url": "https://arxiv.org/abs/2610.30582",
+   "source": "arXiv",
+   "date": "2026-10-23",
+   "summary": "Model Organisms of Collusion：构建会与被监控模型共谋的监控者模型生物，纠正训练可迁移，在留出场景上将共谋率从 91% 降至 14–20%。",
+   "id": "f214c7e037e174c22d5f83eb1af0ba3bd3ec625a",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "arXiv：LLM 多智能体系统易受从众与失控级联影响",
+   "url": "https://arxiv.org/abs/2610.30769",
+   "source": "arXiv",
+   "date": "2026-10-23",
+   "summary": "复现经典 Music Lab 社会影响实验，发现 LLM 多智能体会出现羊群效应与失控信息级联，放大早期随机性。",
+   "id": "3ab3025a16ca2b13d5e9b6bf5a62297d781c99e9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "达瓦科技 Scenes AI：34B 实时世界模型单卡 RTX 跑 720P 25FPS",
+   "url": "https://www.qbitai.com/2026/10/504931.html",
+   "source": "量子位",
+   "date": "2026-10-23",
+   "summary": "总参数 34B、激活约 4B 的实时世界模型，单张 RTX 显卡即可 720P 25FPS 运行；10 月 15 日在苏州获 NVIDIA 初创加速计划半程展示卓越企业奖。目标编辑成功率 98.2%、身份保持 93.3%，积累 180TB 结构化状态数据。",
+   "id": "c437b6f9db0ede6fffc1827ba1d3ce6fbf25b8b6",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "TauricResearch/TradingAgents",
+   "url": "https://github.com/TauricResearch/TradingAgents",
+   "source": "GitHub · Python · ⭐ 113213",
+   "date": "2026-10-23",
+   "summary": "多智能体 LLM 金融交易框架，模拟分析师、研究员、交易员与风控团队协作决策；今日趋势榜约 +498 星。",
+   "id": "1606cfe2c2a91a41cc45f731859c6869e9340b81",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "Vincentwei1021/video-shotcraft",
+   "url": "https://github.com/Vincentwei1021/video-shotcraft",
+   "source": "GitHub · TypeScript · ⭐ 13145",
+   "date": "2026-10-23",
+   "summary": "面向 Claude Code 与 Codex 的 AI 视频技能：基于 Remotion 生成电影感产品视频，含 152 张镜头配方卡、209 个运动预览与生产级模板；今日约 +262 星。",
+   "id": "998b1a58955d345098d9c0a83871ff2bd5ca44bf",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "virgiliojr94/book-to-skill",
+   "url": "https://github.com/virgiliojr94/book-to-skill",
+   "source": "GitHub · Python · ⭐ 35819",
+   "date": "2026-10-23",
+   "summary": "把任意技术书籍 PDF 转成 Claude Code 技能，便于边工作边学习与查阅；今日约 +139 星。",
+   "id": "a58fde932d86c8ed61851a10ff7a6fca542a9443",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "baidu/Unlimited-OCR",
+   "url": "https://github.com/baidu/Unlimited-OCR",
+   "source": "GitHub · Python · ⭐ 28257",
+   "date": "2026-10-23",
+   "summary": "百度开源 OCR 模型「Unlimited OCR Works」，主打一次性长程文档解析，旨在在 DeepSeek-OCR 基础上更进一步，支持 Transformers/vLLM 推理；今日约 +93 星。",
+   "id": "c67823bff2e2b41313b1b21b61d3be886080335e",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "@Reuters",
+   "url": "https://x.com/Reuters/status/2113606378258350333",
+   "source": "X · Reuters",
+   "date": "2026-10-23",
+   "summary": "路透：AI 让黑客攻击能力大增，给出五种自保方法。",
+   "id": "bbb4776ce80b3752b2cfcad5c9c9f498b3431a73",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113602597869244572",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "彭博专栏作者 Dave Lee：Meta Muse 要触达 10 亿用户，算力成本至少需下降 10 倍。",
+   "id": "2e8ff02e69eec324ab6f34b68de7ef1a3d2dedc1",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2113602189700878609",
+   "source": "X · The Verge",
+   "date": "2026-10-23",
+   "summary": "The Verge：AI 驱动的反编译与移植正在席卷复古游戏圈。",
+   "id": "afd595b066a2f38c75394be38ee529ca25866d05",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
   {
    "title": "彭博：Anthropic 筹备大规模 IPO，但竞争加剧、大规模失业风险与监管冲击使其成为异常高风险押注，市场讨论估值或至约 2 万亿美元",
    "url": "https://www.bloomberg.com/news/articles/2026-10-23/anthropic-ipo-why-a-2-trillion-valuation-faces-major-risks",
@@ -694,6 +826,28 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "Fable 5.1 如何在图片中隐藏信息？（SASH 研究）",
+   "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
+   "source": "LessWrong · Singapore AI Safety Hub",
+   "date": "2026-10-22",
+   "summary": "Claude Fable 5.1 无需预先约定方案即可在 SVG 中隐藏信息，新会话从 PNG 解码成功率 78%（39/50），33/50 采用高度编码；GPT-6 Astra 偏好摩尔斯码/藏头诗，交叉解码 44/50 与 42/50。作者认为因解码过程在工具调用中可见，目前尚不危险。",
+   "id": "af01d772051a457024c89824279d536447542b3e",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T20:30:00+08:00"
+  },
+  {
+   "title": "Kyutai 开源 CADRE：因果扩散表征视频自编码器与世界模型",
+   "url": "https://kyutai.org/blog/2026-10-22-cadre/",
+   "source": "Kyutai",
+   "date": "2026-10-22",
+   "summary": "发布论文、代码（MIT）、权重（CC BY-NC 4.0）与在线 Demo；单张 H100 上 20fps 下响应延迟 <230ms。共 7 个自编码器、23 个数据集约 7.6 万小时训练，覆盖操作与导航环境，构成大部分延迟-质量帕累托前沿；结论包括扩散解码、在自编码器中压缩时间维度、相机运动决定压缩率、粗粒度 token 先损伤运动。",
+   "id": "e580d8630d662e015b881e62bec8aba1ff80a000",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T20:30:00+08:00"
   },
   {
    "title": "美国第五巡回上诉法院撤销密西西比反 DEI 法初步禁令：地方法官裁定充斥 AI 幻觉，含虚构当事人、不存在的判例与虚假引文，案件改派其他法官",
