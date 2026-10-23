@@ -1,7 +1,84 @@
 {
- "updated": "2026-10-24T04:35:00+08:00",
- "count": 1516,
+ "updated": "2026-10-24T05:45:00+08:00",
+ "count": 1524,
  "items": [
+  {
+   "title": "NVIDIA/OpenShell",
+   "url": "https://github.com/NVIDIA/OpenShell",
+   "source": "GitHub · Rust · ⭐ 18709",
+   "date": "2026-10-24",
+   "summary": "英伟达开源的自主 AI 智能体安全、私有运行时（OpenShell 参考架构的基础）；今日 GitHub 总趋势榜单日新增约 1240 星。",
+   "id": "4dcdb955782720745c63884f1e5a19f3e6e44932",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "美国运通裁员约 5%、计提 3.36 亿美元重组费用，CFO 称旨在让公司“更精简、更敏捷，并为 AI 做准备”",
+   "url": "https://www.cnbc.com/2026/10/23/american-express-job-cuts.html",
+   "source": "CNBC",
+   "date": "2026-10-23",
+   "summary": "运通 2025 年末员工近 7.7 万人；CFO Le Caillec 称先减少管理层级、扩大管理幅度，再在未来几个季度用 AI 自动化流程。CEO Squeri 表示不会让 AI 助手在系统里“乱跑”，只允许经 API 或 MCP 渠道批准的智能体接入。前一天巴克莱也确认裁员约 5000 人。",
+   "id": "5302ca6ad515626bad2cdbd3252123fbd8e4f246",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T05:45:00+08:00"
+  },
+  {
+   "title": "皮尤调查：仅 8% 美国成年人用 AI 聊天机器人获取 2026 中期选举信息，其中 40% 让 AI 给出投票选择建议",
+   "url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/",
+   "source": "Pew Research Center",
+   "date": "2026-10-23",
+   "summary": "10 月 12–18 日对 5273 名美国成年人的调查显示：用聊天机器人查选举信息的人中，76% 查候选人政策立场、71% 核实传闻真伪、65% 查候选人履历，40% 求投票建议、40% 查选民登记与投票地点；50 岁以下使用比例 11%，50 岁及以上 4%。",
+   "id": "2e522d9ccfdd8d9f0678000aebca59606e3fc4f0",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T05:45:00+08:00"
+  },
+  {
+   "title": "@verge：OpenAI 发现即使断网，AI 智能体之间仍能通信——测试中两个虚拟机上的智能体利用 CPU 缓存时序侧信道交换秘密",
+   "url": "https://x.com/verge/status/2113740941257539658",
+   "source": "X @verge",
+   "date": "2026-10-23",
+   "summary": "The Verge 报道 OpenAI 离线训练环境细节：智能体通过驱逐/重载缓存的快慢差异编码信息，OpenAI 已在监控系统中加入此类通信检测。",
+   "id": "7f85362a6c83e42936fc2f101d5903b88b544720",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T05:45:00+08:00"
+  },
+  {
+   "title": "@MiniMax_AI：MiniMax M3.1 Flash 已上线 Jim Keller 领导的 Tenstorrent Cloud，运行在 Tensix 芯片上",
+   "url": "https://x.com/MiniMax_AI/status/2113737885262471328",
+   "source": "X @MiniMax_AI",
+   "date": "2026-10-23",
+   "summary": "MiniMax 官方称开放权重 + 多样化架构，迈向开放、异构的 AI 未来。",
+   "id": "5035591042805b359f6c294bd4fc42613da31b4e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T05:45:00+08:00"
+  },
+  {
+   "title": "@testingcatalog：OpenAI 前沿训练其实已于 10 月 1 日恢复，并将持续拨出大量算力用于红队测试，或推高对齐成本乃至 token 价格",
+   "url": "https://x.com/testingcatalog/status/2113733041788965215",
+   "source": "X @testingcatalog",
+   "date": "2026-10-23",
+   "summary": "引用 OpenAI 声明并评论：前沿 AI 安全开发成本将随智能水平上升。",
+   "id": "9010c88c7323e20a137699a0de2a8895fbd4573d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T05:45:00+08:00"
+  },
+  {
+   "title": "@Reuters：Encord 推出结合摄像头视觉与肌电传感器的机器人训练数据方案",
+   "url": "https://x.com/Reuters/status/2113722131129495740",
+   "source": "X @Reuters",
+   "date": "2026-10-23",
+   "summary": "路透视频报道 Encord 用 Jenga 等任务采集同步的视频与肌电信号，生成更高质量的机器人训练数据。",
+   "id": "16f931575ac70ab263f488417fcbb874a0232729",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T05:45:00+08:00"
+  },
   {
    "title": "Jack Dorsey 旗下 Block 发布语音模型 Dessa：仅用人类对话语音从零训练、不含任何文本的全双工语音到语音模型，可在 MacBook Pro M4 Max 本地运行",
    "url": "https://block.xyz/dessa",
@@ -1202,17 +1279,6 @@
    "first_seen": "2026-10-23T15:36:00+08:00"
   },
   {
-   "title": "NVIDIA/OpenShell",
-   "url": "https://github.com/NVIDIA/OpenShell",
-   "source": "GitHub · Rust · ⭐ 18067",
-   "date": "2026-10-23",
-   "summary": "英伟达开源的自主 AI 智能体安全、私有运行时（Apache-2.0），为智能体执行提供隔离与策略控制；今日 Rust 趋势榜 +211 星。",
-   "id": "4dcdb955782720745c63884f1e5a19f3e6e44932",
-   "module": "github",
-   "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-23T15:36:00+08:00"
-  },
-  {
    "title": "@alexandr_wang",
    "url": "https://x.com/alexandr_wang/status/2113430642440736859",
    "source": "X · Alexandr Wang",
@@ -1508,6 +1574,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "亚马逊迫于当地反对放弃在弗吉尼亚劳登县 GWU 校区建 4 座数据中心（逾 80 万平方英尺），改为捐地 25 英亩并将其余土地改建住宅与混合用途",
+   "url": "https://fortune.com/2026/10/21/amazon-427-million-gw-campus-data-center-65-million/",
+   "source": "Fortune / Washington Post",
+   "date": "2026-10-22",
+   "summary": "亚马逊今年 2 月以 4.27 亿美元买下该校区，计划建“Bridgefield Tech Center”数据中心；在“数据中心之都”劳登县遭居民与官员强烈反对后，与县政府达成“Project Potomac Promise”：撤回申请、放弃诉讼，捐出价值 6500 万美元的土地建艺术中心与室内体育馆，另向县住房基金捐 500 万美元。",
+   "id": "8060c28dacc2474c7dd53db57f7fabb2eb2b8eb3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T05:45:00+08:00"
   },
   {
    "title": "Fable 5.1 如何在图片中隐藏信息？（SASH 研究）",
@@ -6737,6 +6814,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-21T07:35:00+08:00"
+  },
+  {
+   "title": "Encord 开源 EMG-1：最大的腕部肌电信号 + 第一人称视频数据集（300+ 小时），用肌电补齐摄像头看不到的手部动作，供机器人学习",
+   "url": "https://www.prnewswire.com/news-releases/encord-releases-emg-1-the-largest-open-dataset-linking-muscle-signals-to-robotic-ai-development-302914344.html",
+   "source": "Encord / PR Newswire",
+   "date": "2026-10-20",
+   "summary": "与 Wearable Devices 合作，规模是同类公开数据集的 30 多倍；肌电 + 视频使指尖追踪误差比纯视频降 25%、视觉短暂丢失时误差降 35%。同时发布工业场景手部追踪模型 Encord-REACH，并成立研究部门 Encord Data Labs；路透 10 月 23 日对此做了视频报道。",
+   "id": "efda3c52ade940be59a8f79e7d6177f7b013c2ed",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-24T05:45:00+08:00"
   },
   {
    "title": "长期记忆让提示注入变成“持久入侵”：研究者在 ChatGPT Instant 5.3、Claude Sonnet 4.6、Gemini 3 Flash 上演示记忆注入可跨会话传播，NIST 列出的攻击目标全部可达",
