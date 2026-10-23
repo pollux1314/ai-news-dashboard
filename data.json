@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T17:23:00+08:00",
+  "updated": "2026-10-23T18:32:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Anthropic 与英国私募 Hg 达成协议，成立独立的欧洲 AI 咨询公司，向企业派驻 AI 顾问与工程师，预计年底前在伦敦、柏林启动",
+          "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4",
+          "source": "Financial Times",
+          "date": "2026-10-23",
+          "summary": "据 FT，Anthropic 直接出资、Hg 通过旗下基金投资，新公司将帮助欧洲企业（含 Hg 投资组合公司）开发 AI 产品与推进落地，直接与传统咨询公司竞争。"
+        },
+        {
+          "title": "日本 LSTC、北海道大学、富士胶片、GE 医疗与 imec 在 NEDO 项目下联合研发 2nm 低功耗医学影像 AI 推理芯片，先基于 IBM Spyre 开发",
+          "url": "https://www.ithome.com/1/017/106.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "目标是图像处理速度达 GPU 的 5 倍、能效提升 10 倍。"
+        },
+        {
           "title": "黄仁勋访哈萨克斯坦：Firebird 获 4.5 万颗英伟达 Grace Blackwell GPU 出口许可、与政府签署投资协议，Kazakhtelecom 已部署 880 颗 H200/B300 并计划 2027 年上马逾千颗 Vera Rubin",
           "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
           "source": "NVIDIA Blog",
@@ -106,25 +120,11 @@
           "summary": "英特尔份额因 Diamond Rapids 出货迟缓从 50% 降至 42%，AMD 约 28%、英伟达 12%，AWS、谷歌自研 Arm CPU 份额上升。"
         },
         {
-          "title": "OpenAI 与美国独立社区银行家协会 ICBA 结盟：通过 Daybreak for Frontline Defenders 为社区银行提供补贴的前沿 AI 网络防御能力与培训",
-          "url": "https://www.icba.org/w/icba-openai-announce-strategic-alliance",
-          "source": "ICBA",
+          "title": "Epic 宣布 11 月 12-15 日举办 AI MegaJam：每队最多 5 人加不限数量 AI 智能体，用 Unreal/UEFN 开发，奖金 6.5 万美元另加最高 5 万美元资助",
+          "url": "https://www.pcgamer.com/software/ai/epic-announces-game-jam-where-you-have-to-use-ai/",
+          "source": "PC Gamer",
           "date": "2026-10-22",
-          "summary": "符合条件的 ICBA 会员社区银行可申请补贴接入 OpenAI Daybreak，用于授权范围内的漏洞发现与验证、威胁调查、修复和安全测试，并获得 OpenAI 专家培训与同业学习资源；准入需审批。"
-        },
-        {
-          "title": "卫报：谷歌为建数据中心在芬兰 Muhos 违规砍伐约 330 公顷、约 25 万棵树，当局叫停施工待环评，警方介入调查",
-          "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/22/finland-google-felling-trees-datacentre",
-          "source": "The Guardian",
-          "date": "2026-10-22",
-          "summary": "芬兰当局要求谷歌在完成环境影响评估前暂停 Muhos 数据中心场地工程，警方已就违规砍伐展开调查；谷歌致歉并表示计划重新种植约 130 公顷林地。"
-        },
-        {
-          "title": "前 OpenAI 科学负责人 Kevin Weil 创办 Warp Sciences：融资 2.15 亿美元、估值 8.65 亿美元，用机器人自动化药物发现湿实验",
-          "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "Lightspeed 领投，IVP、Mayfield、Lux、Premji、Menlo 跟投；化学家佩戴摄像头与传感手套示教机器人合成测试化合物，目标把外包给药明康德等中国 CRO 的工作回流美国。"
+          "summary": "活动最初要求必须使用 AI，遭开发者批评后 Epic 撤回强制规定。"
         }
       ]
     },
@@ -134,25 +134,32 @@
       "icon": "📄",
       "items": [
         {
-          "title": "Anthropic 公开征集生命科学“客座研究员”：PI 团队可与 Anthropic 研究员合作 8–12 周，免费使用 Claude 模型与工具攻关因果人类生物学、药物发现等问题，成果开源",
-          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-          "source": "Anthropic",
-          "date": "2026-10-22",
-          "summary": "面向高校、非营利与政府实验室，方向涵盖结构与计算分子生物学、药物化学、临床科学等；申请开放约 14 天，研究者保留数据与后续研究权利，Anthropic 不索取其数据。"
+          "title": "arXiv 2610.30277：人机协同发现循环攻克 Lehmer 问题，“广义 Boyd 算法”在 2000 以内所有偶数次构造出低于 Boyd 极限的不可约多项式",
+          "url": "https://arxiv.org/abs/2610.30277",
+          "source": "arXiv cs.AI",
+          "date": "2026-10-23",
+          "summary": "Chervonyi、Gukov、Thang Luong 等；改进 6 个已发表值，占据 99.6% 已知最佳记录。"
         },
         {
-          "title": "arXiv：推理模型里的“wait”是继承而非 RL 发明——零 RL 几乎不会自创该词，它随中期训练或推理轨迹微调数据进入模型",
-          "url": "https://arxiv.org/abs/2610.30882",
-          "source": "arXiv · Hugging Face Daily Papers",
-          "date": "2026-10-22",
-          "summary": "论文《Inherited, Not Invented》追踪开源模型训练历程中“wait”的出现：在基座不含该词时 RL 仍能大幅提升 MATH-500 而“wait”几乎不出现；OLMo-3 在中期训练引入该词，已含该词的基座经 RL-Zero 配方会被放大，而无 KL 的 GRPO 则不会。"
+          "title": "arXiv 2610.30182：用数据中心电力曲线与 Viterbi 跟踪检测 AI 训练任务，2Hz 以上电表可在 1% 误报下检出≥96% 训练",
+          "url": "https://arxiv.org/abs/2610.30182",
+          "source": "arXiv cs.AI",
+          "date": "2026-10-23",
+          "summary": "测试 8 种隐藏策略，仅极端改变每步工作量可规避，但一天内仍能检出≥87%，可服务于算力核查与 AI 治理。"
         },
         {
-          "title": "微信视觉团队 WeVisOne-VL：统一目标级与像素级感知的视觉语言模型，检测、指代定位、计数、OCR、分割与抠图一体，30 余项基准领先",
-          "url": "https://arxiv.org/abs/2610.31329",
-          "source": "arXiv · Hugging Face Daily Papers",
-          "date": "2026-10-22",
-          "summary": "通过特殊 <OBJ> token 把轻量像素解码器接入 VLM，以结构化下一 token 预测输出点、框、掩码与 alpha 遮罩；三阶段课程 SFT 加多任务 RL 训练，并对目标不存在的查询保持稳健拒答。"
+          "title": "arXiv 2610.30678：安全探针的缩放定律——探针性能可由模型规模与标注数量预测",
+          "url": "https://arxiv.org/abs/2610.30678",
+          "source": "arXiv cs.AI",
+          "date": "2026-10-23",
+          "summary": "Yuchen Wu、Jerry Wei 等；新建 6 个安全数据集，覆盖 5 个家族 20 个基座模型，标注量 32 至 10^6。"
+        },
+        {
+          "title": "arXiv 2610.30499：LLM 能否在 ARC-AGI-3 上自我改进 harness？27 条谱系两轮修订仅提升 2.80 分且不显著",
+          "url": "https://arxiv.org/abs/2610.30499",
+          "source": "arXiv cs.AI",
+          "date": "2026-10-23",
+          "summary": "留出集 RHAE 提升 2.80 分，置信区间 −1.44 至 7.35，自我改进脚手架的收益有限。"
         },
         {
           "title": "OpenDS-World：在真实开放网络中评测深度搜索，12 个前沿模型最佳仅 39.0%，人类在 1000 次尝试中仅 21.1%",
@@ -169,25 +176,18 @@
           "summary": "作者发现主流分层 MoE 中不同层的专家存储内容高度相似、冗余明显，于是提出可在各层间共享的 Meta Expert。对比显示其参数冗余更低、交叉熵更低、下游准确率更高；理论分析认为共享专家为隐藏状态提供了更灵活的残差通路，提升信息检索效率。该文为 10 月 23 日 HF Daily Papers 票数最高论文。"
         },
         {
-          "title": "哈佛 Gary King 与 Steven Worthington：AI 撰写的论文评审已在各项指标上全面胜过高水平人类专家评审——134 组盲评中前期刊编辑 87% 更偏好 AI 评审",
-          "url": "https://gking.harvard.edu/peerless/",
-          "source": "Harvard IQSS / Gary King",
+          "title": "Anthropic 公开征集生命科学“客座研究员”：PI 团队可与 Anthropic 研究员合作 8–12 周，免费使用 Claude 模型与工具攻关因果人类生物学、药物发现等问题，成果开源",
+          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
+          "source": "Anthropic",
           "date": "2026-10-22",
-          "summary": "论文《AI Article Reviews Dominate Human Peer Reviews at Their Best》以哈佛 rapidPeer 的付费双盲人类评审为对照，AI 评审错误论断率约为人类的三分之一且无捏造引用，作者并讨论了对期刊评审政策的影响。"
+          "summary": "面向高校、非营利与政府实验室，方向涵盖结构与计算分子生物学、药物化学、临床科学等；申请开放约 14 天，研究者保留数据与后续研究权利，Anthropic 不索取其数据。"
         },
         {
-          "title": "arXiv：测试评分型编程智能体基准存在“规格-判卷缺口”——测试依赖任务描述从未写明的常量名、模块路径或确切报错信息",
-          "url": "https://arxiv.org/abs/2610.30635",
-          "source": "arXiv",
+          "title": "arXiv：推理模型里的“wait”是继承而非 RL 发明——零 RL 几乎不会自创该词，它随中期训练或推理轨迹微调数据进入模型",
+          "url": "https://arxiv.org/abs/2610.30882",
+          "source": "arXiv · Hugging Face Daily Papers",
           "date": "2026-10-22",
-          "summary": "在 SWE-Milestone 上 98 个里程碑中 25 个含此类依赖，相关单元失败率 80.6%（对照 48.4%）；排行榜整体排名稳健，但会偏向复现上游命名的智能体；规格来自发布说明或 LLM 摘要的基准受影响任务达三分之一以上。"
-        },
-        {
-          "title": "IQuest-Q1 技术报告：320B 总参数 / 15B 激活的开源 MoE 智能体编码基座模型，面向命令行（CLI）智能体场景",
-          "url": "https://arxiv.org/abs/2610.30949",
-          "source": "arXiv / IQuestLab",
-          "date": "2026-10-22",
-          "summary": "三阶段训练：结合 Stable SplitNorm、Muon 与 muP 的稳定预训练（第二阶段提高代码配比）、细粒度中期训练与渐进扩展上下文、多脚手架多版本后训练（SFT + 领域 RL + MOPD），并用模型合并融合不同专家与检查点。"
+          "summary": "论文《Inherited, Not Invented》追踪开源模型训练历程中“wait”的出现：在基座不含该词时 RL 仍能大幅提升 MATH-500 而“wait”几乎不出现；OLMo-3 在中期训练引入该词，已含该词的基座经 RL-Zero 配方会被放大，而无 KL 的 GRPO 则不会。"
         }
       ]
     },
@@ -260,11 +260,18 @@
       "icon": "⚖️",
       "items": [
         {
-          "title": "美国财政部发布 COINS 法案拟议规则：对中国等“受关注国家”的 AI、半导体、量子、超算、高超音速及新增的生物技术领域对外投资实施申报与禁止，意见征集至 12 月 7 日",
-          "url": "https://home.treasury.gov/news/press-releases/sb0667/",
-          "source": "U.S. Department of the Treasury",
-          "date": "2026-10-22",
-          "summary": "该 NPRM 依据 2026 财年国防授权法中的《全面对外投资国家安全法》（COINS Act）更新对外投资安全计划（OISP），要求美国人就涉及“可申报技术”的交易向财政部申报，并禁止涉及“禁止技术”的交易；最终规则将另定生效日期。"
+          "title": "国务院办公厅印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》：6 方面 18 项任务，培育 AI 新职业、减缓 AI 对就业的替代冲击",
+          "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719857.shtml",
+          "source": "中国新闻网",
+          "date": "2026-10-23",
+          "summary": "意见提出审慎把握劳动密集型行业 AI 应用节奏，鼓励探索失业缓冲期制度，支持建设人工智能就业研究中心，推动形成就业友好型发展方式。"
+        },
+        {
+          "title": "美国商务部拟向 4 家企业提供最高 3.89 亿美元 CHIPS 研发资助并持有少数股权，含 Vertical Semiconductor 面向 AI 数据中心机架的垂直 GaN 器件",
+          "url": "https://www.ithome.com/1/017/171.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "Helion 1.75 亿、Commonwealth Fusion 8500 万、Vertical Semiconductor 7300 万、Sibelco 5600 万美元；政府将以少数股权形式参与。"
         },
         {
           "title": "OpenAI 与波兰国家研究院 NASK 签署 AI 安全合作协议：与波兰 AI 安全研究所共同评估前沿模型、识别漏洞、强化防护",
@@ -272,6 +279,13 @@
           "source": "OpenAI",
           "date": "2026-10-23",
           "summary": "NASK 旗下 AI 安全研究中心（波兰 AISI）将与 OpenAI 开展安全、安保与技术研究合作；此前 NASK 下属 CERT Polska 已通过 Daybreak 借助 OpenAI 模型发现 6 个 MikroTik RouterOS 漏洞。OpenAI 同时呼吁美国与各国合作制定前沿 AI 国际技术标准。"
+        },
+        {
+          "title": "美国财政部发布 COINS 法案拟议规则：对中国等“受关注国家”的 AI、半导体、量子、超算、高超音速及新增的生物技术领域对外投资实施申报与禁止，意见征集至 12 月 7 日",
+          "url": "https://home.treasury.gov/news/press-releases/sb0667/",
+          "source": "U.S. Department of the Treasury",
+          "date": "2026-10-22",
+          "summary": "该 NPRM 依据 2026 财年国防授权法中的《全面对外投资国家安全法》（COINS Act）更新对外投资安全计划（OISP），要求美国人就涉及“可申报技术”的交易向财政部申报，并禁止涉及“禁止技术”的交易；最终规则将另定生效日期。"
         },
         {
           "title": "新墨西哥州法官判令 Meta 支付 250 亿美元民事罚款：陪审团认定其在 Cambridge Analytica 数据泄露等问题上误导用户、违反州《不公平行为法》逾 4300 万次，为该公司史上最大单州判罚",
@@ -300,20 +314,6 @@
           "source": "StateScoop",
           "date": "2026-10-22",
           "summary": "10 月 20 日信函支持纽森 9 月行政令，希望其成为约束所有前沿开发者的行业规则，可在下一立法会期审议。"
-        },
-        {
-          "title": "The Verge/Nieman Lab：Meta 虽从新商业条款中删去“train（训练）”一词，法律专家称修订版仍允许其抓取企业账户“关联”网站内容并用于“开发广告与商业产品”，不足以排除用新闻网站训练 AI",
-          "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
-          "source": "The Verge",
-          "date": "2026-10-22",
-          "summary": "条款 10 月 30 日生效且无退出选项；康奈尔法学教授 Grimmelmann 称“develop…business products”的措辞“宽到能开过一辆卡车”，Meta 则重申会尊重 robots.txt。"
-        },
-        {
-          "title": "路透社：开放网络运动（Movement for an Open Web）向欧盟委员会和英国 CMA 投诉，要求暂停 Meta 10 月 30 日生效的新商业条款，称其赋予 Meta 无限使用出版商与广告主内容做 AI 的权利",
-          "url": "https://www.investing.com/news/stock-market-news/publishers-advertisers-call-eu-uk-antitrust-regulators-to-suspend-metas-new-commercial-terms-4966669",
-          "source": "Reuters",
-          "date": "2026-10-22",
-          "summary": "该组织成员包括数字广告主与出版商，已申请临时措施，称企业别无选择只能使用 Meta 服务、无法选择退出；Meta 回应称整合后的爬取条款只适用于广告与商业产品、不改变爬虫行为，网站仍可用 robots.txt 表达偏好。英国 CMA 表示已与 Meta 会面并正“紧急讨论”下一步。"
         }
       ]
     },
@@ -322,6 +322,27 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "中央网信委印发《国家信息化“十五五”规划》：设 12 项指标，含新型智能终端与智能体普及率，提出布局发展智能互联网、适时推进 6G 商用",
+          "url": "https://www.ithome.com/1/017/185.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "规划首次将智能体普及纳入国家信息化指标体系，并部署智能互联网与 6G 等新型基础设施。"
+        },
+        {
+          "title": "国内首部获公映许可的 AI 全流程院线长片《三星堆：未来往事》上映：博纳出品、生数科技 Vidu 提供技术支持，首日票房超 12.5 万元",
+          "url": "https://www.ithome.com/1/017/123.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "影片时长 100 分钟，生成基础图像超 120 万张，涉及 17 个专业岗位、近百人参与制作。"
+        },
+        {
+          "title": "存算一体 AI 芯片公司亿铸科技完成超 10 亿元融资，主打基于 3D DRAM 的通用存算一体大算力芯片",
+          "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-23/doc-iniwffek8172383.shtml",
+          "source": "新浪财经",
+          "date": "2026-10-23",
+          "summary": "融资将用于存算一体 AI 芯片研发与量产推进。"
+        },
         {
           "title": "联想杨元庆：未来 80% 的 Token 将在终端和边缘侧生成，每个人都需要一台家用服务器或自己的 AI 中心，很多设备将由智能体而非人直接使用",
           "url": "https://www.ithome.com/1/017/074.htm",
@@ -356,27 +377,6 @@
           "source": "IT之家 / 讯飞医疗",
           "date": "2026-10-22",
           "summary": "诊疗助理病历生成合理率提升至 85%；智医助理覆盖 31 省 828 区县、7.7 万家基层机构，累计 AI 辅诊建议超 12 亿次。"
-        },
-        {
-          "title": "第一财经/玉渊谭天：《禁止出口限制出口技术目录》征求意见后，DeepSeek、MiniMax 已完成登记手续，并完成开源和海外授权使用",
-          "url": "https://www.yicai.com/news/103405081.html",
-          "source": "第一财经",
-          "date": "2026-10-22",
-          "summary": "目录拟新增大模型、智能体、算力集群等 23 项 AI 技术；文章称商务部答问对“什么不管”解释更多，核心是划定边界而非单纯限制 AI 技术出海。"
-        },
-        {
-          "title": "海关总署：今年 1-8 月我国手术机器人出口 6.72 亿元、同比增长 272.92%，广东机器人出口总额全国第一，上海手术机器人出口全国第一",
-          "url": "https://www.ithome.com/1/016/738.htm",
-          "source": "IT之家（央视财经）",
-          "date": "2026-10-22",
-          "summary": "在海关统计的 13 个机器人品类中，智能仿生机器人出口 11.68 亿元排在手术机器人之前，清洁机器人占出口总额约七成；广东前 8 个月机器人出口 147.18 亿元。弗若斯特沙利文预计中国手术机器人市场将从 2026 年 224.5 亿元增至 2030 年 708.5 亿元。"
-        },
-        {
-          "title": "极米推出“记得”系列 AI 记忆硬件：AI 记忆手环 L1（手环/吊坠两用）与 17.9g 的 AI 记忆眼镜 G1 上架，全天候录音并自动整理纪要与待办",
-          "url": "https://www.ithome.com/1/016/753.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "手环支持基于个人记忆的 AI 对话、到点提醒，原始音频用完即删、记忆加密存于手机，综合续航 2–5 天；售价暂未公布。"
         }
       ]
     },
@@ -449,6 +449,20 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@FT",
+          "url": "https://x.com/FT/status/2113560478433640773",
+          "source": "X · Financial Times",
+          "date": "2026-10-23",
+          "summary": "FT：Anthropic 与英国收购集团 Hg 达成协议，成立新公司为企业提供 AI 部署咨询。"
+        },
+        {
+          "title": "@nikkei",
+          "url": "https://x.com/nikkei/status/2113550308932489412",
+          "source": "X · 日本経済新聞",
+          "date": "2026-10-23",
+          "summary": "日经专访 Meta 首席 AI 官 Alexandr Wang：Muse 不加广告，靠付费方案等非广告方式变现，基础模型将持续推出开放型以对抗中国对手。"
+        },
+        {
           "title": "@bot",
           "url": "https://x.com/bot/status/2113393684209176718",
           "source": "X · Grok Bot",
@@ -489,20 +503,6 @@
           "source": "X · Claude",
           "date": "2026-10-23",
           "summary": "从下周起，Claude 网页、桌面和移动端在 Pro、Max、Team 套餐中默认以 auto mode 运行：不再逐步请求批准，由自动检查拦截高风险操作，可随时切回手动模式。"
-        },
-        {
-          "title": "@claudeai",
-          "url": "https://x.com/claudeai/status/2113380122468454765",
-          "source": "X · Claude",
-          "date": "2026-10-23",
-          "summary": "Claude 官方：Claude Models on Google Cloud（Anthropic 托管）正式 GA，可在谷歌云上用 IAM 凭证、计费与承诺抵扣获得完整 Claude 平台功能。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113510770910601517",
-          "source": "X · Bloomberg",
-          "date": "2026-10-23",
-          "summary": "彭博 Big Take：为跟上对手，华尔街高频交易公司不得不加入 AI 算力竞赛，投入数十亿美元仍难保成功。"
         }
       ]
     }

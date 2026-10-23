@@ -1,7 +1,150 @@
 {
- "updated": "2026-10-23T17:23:00+08:00",
- "count": 1416,
+ "updated": "2026-10-23T18:32:00+08:00",
+ "count": 1430,
  "items": [
+  {
+   "title": "Anthropic 与英国私募 Hg 达成协议，成立独立的欧洲 AI 咨询公司，向企业派驻 AI 顾问与工程师，预计年底前在伦敦、柏林启动",
+   "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4",
+   "source": "Financial Times",
+   "date": "2026-10-23",
+   "summary": "据 FT，Anthropic 直接出资、Hg 通过旗下基金投资，新公司将帮助欧洲企业（含 Hg 投资组合公司）开发 AI 产品与推进落地，直接与传统咨询公司竞争。",
+   "id": "bbe71121cb8d8abd9166bfa0fc6273ef08aa4223",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "日本 LSTC、北海道大学、富士胶片、GE 医疗与 imec 在 NEDO 项目下联合研发 2nm 低功耗医学影像 AI 推理芯片，先基于 IBM Spyre 开发",
+   "url": "https://www.ithome.com/1/017/106.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "目标是图像处理速度达 GPU 的 5 倍、能效提升 10 倍。",
+   "id": "944b1c9d483b380654af1c0b7fce0091d2a24b27",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.30277：人机协同发现循环攻克 Lehmer 问题，“广义 Boyd 算法”在 2000 以内所有偶数次构造出低于 Boyd 极限的不可约多项式",
+   "url": "https://arxiv.org/abs/2610.30277",
+   "source": "arXiv cs.AI",
+   "date": "2026-10-23",
+   "summary": "Chervonyi、Gukov、Thang Luong 等；改进 6 个已发表值，占据 99.6% 已知最佳记录。",
+   "id": "a84de6356142f95f5fd84d0fda00c70095c0ba42",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.30182：用数据中心电力曲线与 Viterbi 跟踪检测 AI 训练任务，2Hz 以上电表可在 1% 误报下检出≥96% 训练",
+   "url": "https://arxiv.org/abs/2610.30182",
+   "source": "arXiv cs.AI",
+   "date": "2026-10-23",
+   "summary": "测试 8 种隐藏策略，仅极端改变每步工作量可规避，但一天内仍能检出≥87%，可服务于算力核查与 AI 治理。",
+   "id": "13eed581480dabd9db960d7facf8ca23f2dd834f",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.30678：安全探针的缩放定律——探针性能可由模型规模与标注数量预测",
+   "url": "https://arxiv.org/abs/2610.30678",
+   "source": "arXiv cs.AI",
+   "date": "2026-10-23",
+   "summary": "Yuchen Wu、Jerry Wei 等；新建 6 个安全数据集，覆盖 5 个家族 20 个基座模型，标注量 32 至 10^6。",
+   "id": "2c1bdf5ae58f5b414ed9d3bbe2f962fdca6dd2c5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.30499：LLM 能否在 ARC-AGI-3 上自我改进 harness？27 条谱系两轮修订仅提升 2.80 分且不显著",
+   "url": "https://arxiv.org/abs/2610.30499",
+   "source": "arXiv cs.AI",
+   "date": "2026-10-23",
+   "summary": "留出集 RHAE 提升 2.80 分，置信区间 −1.44 至 7.35，自我改进脚手架的收益有限。",
+   "id": "b8584c45b55542af132105644e571aa63c125fff",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "国务院办公厅印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》：6 方面 18 项任务，培育 AI 新职业、减缓 AI 对就业的替代冲击",
+   "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719857.shtml",
+   "source": "中国新闻网",
+   "date": "2026-10-23",
+   "summary": "意见提出审慎把握劳动密集型行业 AI 应用节奏，鼓励探索失业缓冲期制度，支持建设人工智能就业研究中心，推动形成就业友好型发展方式。",
+   "id": "84b87d212336b0a2cc78b1f62015c30aed11ecb5",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "美国商务部拟向 4 家企业提供最高 3.89 亿美元 CHIPS 研发资助并持有少数股权，含 Vertical Semiconductor 面向 AI 数据中心机架的垂直 GaN 器件",
+   "url": "https://www.ithome.com/1/017/171.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "Helion 1.75 亿、Commonwealth Fusion 8500 万、Vertical Semiconductor 7300 万、Sibelco 5600 万美元；政府将以少数股权形式参与。",
+   "id": "96e076fcc0ffa4a486db1f88a21b3ca5f4ecd6d1",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "中央网信委印发《国家信息化“十五五”规划》：设 12 项指标，含新型智能终端与智能体普及率，提出布局发展智能互联网、适时推进 6G 商用",
+   "url": "https://www.ithome.com/1/017/185.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "规划首次将智能体普及纳入国家信息化指标体系，并部署智能互联网与 6G 等新型基础设施。",
+   "id": "44ea97c1e233878ed8531c9988e9651b5ee72e1b",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "国内首部获公映许可的 AI 全流程院线长片《三星堆：未来往事》上映：博纳出品、生数科技 Vidu 提供技术支持，首日票房超 12.5 万元",
+   "url": "https://www.ithome.com/1/017/123.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "影片时长 100 分钟，生成基础图像超 120 万张，涉及 17 个专业岗位、近百人参与制作。",
+   "id": "80a7646d6dd9122b71a7c6e15d067f48e8f9994d",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "存算一体 AI 芯片公司亿铸科技完成超 10 亿元融资，主打基于 3D DRAM 的通用存算一体大算力芯片",
+   "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-23/doc-iniwffek8172383.shtml",
+   "source": "新浪财经",
+   "date": "2026-10-23",
+   "summary": "融资将用于存算一体 AI 芯片研发与量产推进。",
+   "id": "6e803ee50454e1cce33b860f782f7f52fc3b487e",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "@FT",
+   "url": "https://x.com/FT/status/2113560478433640773",
+   "source": "X · Financial Times",
+   "date": "2026-10-23",
+   "summary": "FT：Anthropic 与英国收购集团 Hg 达成协议，成立新公司为企业提供 AI 部署咨询。",
+   "id": "34c9f52aa296fbe76b1466ee66e078c9d1eb662a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
+  {
+   "title": "@nikkei",
+   "url": "https://x.com/nikkei/status/2113550308932489412",
+   "source": "X · 日本経済新聞",
+   "date": "2026-10-23",
+   "summary": "日经专访 Meta 首席 AI 官 Alexandr Wang：Muse 不加广告，靠付费方案等非广告方式变现，基础模型将持续推出开放型以对抗中国对手。",
+   "id": "2d1041f1a5dbc0a1ca3575347a8522a1258988dc",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T18:32:00+08:00"
+  },
   {
    "title": "黄仁勋访哈萨克斯坦：Firebird 获 4.5 万颗英伟达 Grace Blackwell GPU 出口许可、与政府签署投资协议，Kazakhtelecom 已部署 880 颗 H200/B300 并计划 2027 年上马逾千颗 Vera Rubin",
    "url": "https://blogs.nvidia.com/blog/kazakhstan-ai-compute-ecosystem/",
@@ -441,6 +584,17 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "Epic 宣布 11 月 12-15 日举办 AI MegaJam：每队最多 5 人加不限数量 AI 智能体，用 Unreal/UEFN 开发，奖金 6.5 万美元另加最高 5 万美元资助",
+   "url": "https://www.pcgamer.com/software/ai/epic-announces-game-jam-where-you-have-to-use-ai/",
+   "source": "PC Gamer",
+   "date": "2026-10-22",
+   "summary": "活动最初要求必须使用 AI，遭开发者批评后 Epic 撤回强制规定。",
+   "id": "6d992547497dd383b0f0b7dde10c15b2c9e020b1",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T18:32:00+08:00"
   },
   {
    "title": "Anthropic 公开征集生命科学“客座研究员”：PI 团队可与 Anthropic 研究员合作 8–12 周，免费使用 Claude 模型与工具攻关因果人类生物学、药物发现等问题，成果开源",
