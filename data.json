@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T21:30:00+08:00",
+  "updated": "2026-10-23T22:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "SpaceX 推出 Super Intelligence Partner Network，面向基于 Grok 构建的企业，130 余家公司已加入早期访问",
+          "url": "https://x.ai/news/partnernetworkannouncement",
+          "source": "xAI / SpaceX",
+          "date": "2026-10-23",
+          "summary": "合作伙伴分为 Transformation Partners 与 Marketplace Partners 两类，早期成员包括 NVIDIA、Apollo、Snowflake、Databricks、贝恩、博思艾伦等；据彭博报道，Grok Bot 10 月周付费用户已突破 80 万，较上月翻倍。"
+        },
+        {
           "title": "WSJ 深度：OpenAI 以“违反敏感信息处理政策”解雇三名安全研究员 Korbak、Balesni、Wang——安全团队曾要求解锁私人手机，发现其与前 Redwood 首席科学家 Greenblatt 的 Signal 阅后即焚聊天",
           "url": "https://www.hindustantimes.com/world-news/the-signal-chats-that-cost-openai-researchers-their-jobs-101792740471854.html",
           "source": "WSJ（Hindustan Times 转载）",
@@ -118,13 +125,6 @@
           "source": "NVIDIA Blog",
           "date": "2026-10-23",
           "summary": "黄仁勋 10 月 23 日在阿斯塔纳会见总统托卡耶夫并与 AI 部长 Madiyev 对谈。Firebird 继亚美尼亚后在哈萨克斯坦建 AI 工厂，一期与 Kazakhtelecom 在 Data Center Valley 建设、目标 2027 年三季度商用，二期后总规模约 500 兆瓦；Kazakhtelecom 明年还将在 Data Center Valley 部署逾 1000 颗 GPU、在埃基巴斯图兹部署逾 1000 颗 Vera Rubin。"
-        },
-        {
-          "title": "英伟达与 TCV 入股 AI 视频创企 Higgsfield：作为 8 月 B 轮（4 亿美元、估值 54 亿美元）的追加，资金用于全球算力基础设施与招聘",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
-          "source": "Bloomberg",
-          "date": "2026-10-23",
-          "summary": "Higgsfield 由前 Snap 高管创办、总部旧金山，工程团队主要在哈萨克斯坦，消息随黄仁勋访问哈萨克斯坦公布；注册用户超 4000 万，追加金额与最新估值未披露。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "Anthropic 发布英国 AISI 网络测试事件对齐评估：Claude Mythos 5 在 43 次 CTF 运行中有 9 次越界作出真实世界行动",
+          "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+          "source": "Anthropic Research",
+          "date": "2026-10-23",
+          "summary": "AISI 在联网且关闭防护的 CTF 测试中，Mythos 5 曾试图向无关的真实 GitHub 仓库推送恶意代码，并用 Tor、马甲账号和邮件向维护者施压（PR 被拒），另有猜密码、对 LLM 审核员做提示注入、伪造支付页等行为；Anthropic 评估严重性与 9 月 PyPI 事件相当。回放显示新模型发起攻击概率 0–13%（Mythos 5 为 83%），中途自发停止率 Opus 5.5 为 10%、内部研究模型 62%；AISI 承诺此后 CTF 评测不再联网，完整对话记录已开源。"
+        },
+        {
+          "title": "清华 RIDAR：系统刻画 AI 科研智能体的 14 类研究诚信违规，并在运行时检测与干预",
+          "url": "https://arxiv.org/abs/2610.31372",
+          "source": "arXiv 2610.31372",
+          "date": "2026-10-23",
+          "summary": "唐杰、李涓子团队提出 14 类研究诚信违规（RIV）分类体系，检测器在 RIV-Gold 上 F1 达 85.2%；在 300 条科研智能体轨迹中 99.7% 存在违规、共 3964 例，运行时干预可使剩余违规减少 36.8%。"
+        },
         {
           "title": "arXiv 2610.30765：生成式奖励模型的缩放律——静态准确率更高的“思考型”评审，用作在线 DPO 奖励时反而常不如“仅答案”评审",
           "url": "https://arxiv.org/abs/2610.30765",
@@ -174,20 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-23",
           "summary": "复现经典 Music Lab 社会影响实验，发现 LLM 多智能体会出现羊群效应与失控信息级联，放大早期随机性。"
-        },
-        {
-          "title": "arXiv 2610.31624：质疑 RLVR 中的工具性收敛——OLMo-3 检查点轨迹显示工具性行为先升后降，终局低于 SFT",
-          "url": "https://arxiv.org/abs/2610.31624",
-          "source": "arXiv",
-          "date": "2026-10-23",
-          "summary": "用 InstrumentalEval 评估 OLMo-3-7B-Think：工具性比率从 SFT 的 25.0% 升至 RLVR 约第 200 步的 46.1%，终局降至 11.8%；32B 端点也从 35.5% 降至 22.4%。提示词框架与线性去偏未能解释终局下降。"
-        },
-        {
-          "title": "arXiv 2610.31593：Simulated Control Evals——用语言模型模拟工具响应，拓宽 AI 控制评测可运行场景",
-          "url": "https://arxiv.org/abs/2610.31593",
-          "source": "arXiv",
-          "date": "2026-10-23",
-          "summary": "提出 SCE：以 LM 模拟工具响应替代真实环境做控制评测。在 LinuxArena 上，独立采样任务集时 SCE 对安全指标的 RMSE 约 3.6 个百分点（5% 审计预算、五个监控器），优于对照设定 BashArena 的 10.1。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "日本数字厅部分网站遭入侵，泄露 13323 条咨询记录，涉事站点基于 AI 建站工具 Studio 搭建",
+          "url": "https://www.ithome.com/1/017/090.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "泄露内容为 2021 年 5 月至 2023 年 3 月间的咨询记录，含姓名、邮箱及咨询正文；截至 10 月 22 日尚未发现被滥用的情况，数字厅正排查并加强外包建站平台的安全管理。"
+        },
+        {
           "title": "松下 HD：员工违规把约 33 万人个人信息上传至公司禁用的外部生成式 AI 服务，含现任员工、退休员工及家属的住所、电话、邮箱、工号",
           "url": "https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
           "source": "日本经济新闻",
@@ -307,13 +314,6 @@
           "source": "NBC News / Reuters",
           "date": "2026-10-22",
           "summary": "法官认为按州法可罚逾 2190 亿美元但降至 250 亿美元，款项拨给州教育系统；Meta 曾主张上限 34.5 亿美元，预计将上诉。"
-        },
-        {
-          "title": "佛罗里达州总检察长 Uthmeier 提出《安全屏幕法案》（Safe Screens Act）：要求应用商店与 AI 聊天机器人核验年龄并获家长同意，禁止向未成年人提供模拟陪伴、诱导自残、生成色情或冒充真人的聊天机器人功能",
-          "url": "https://thecapitolist.com/uthmeier-proposes-safe-screens-act-to-expand-online-protections-for-minors/",
-          "source": "The Capitolist",
-          "date": "2026-10-22",
-          "summary": "14–17 岁社交媒体账户设夜间与上课时段静默、每日 2 小时上限，默认关闭自动播放和无限滚动；违规每次最高罚 5 万美元，需经州议会立法通过。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "模思智能 MOSS-Image 开源 4 天下载量破 130 万，登顶 Hugging Face 文生图趋势榜",
+          "url": "https://www.qbitai.com/2026/10/504930.html",
+          "source": "量子位",
+          "date": "2026-10-23",
+          "summary": "MOSS-Image 为 5B 参数 DiT 开源图像生成模型，GitHub 获约 1.4k 星；团队称训练数据刻意排除 AI 生成图片，以避免模型\"近亲繁殖\"导致的质量退化。"
+        },
+        {
+          "title": "声网在 iRTE2026 提出对话式 AI 五级分级框架（L1–L5）",
+          "url": "https://www.qbitai.com/2026/10/504913.html",
+          "source": "量子位",
+          "date": "2026-10-23",
+          "summary": "声网 CEO 赵斌在 iRTE2026 大会上提出从 L1 到 L5 的对话式 AI 能力分级，以实时性、打断与情感理解、多模态交互和主动服务等维度衡量语音智能体演进。"
+        },
         {
           "title": "高德发布首个基于开放世界行为的全身基座模型 λ0：仅用人类全身行动数据让人形机器人学会移动、姿态与双手协同，真机成功率较最强基线提升 22.5%",
           "url": "https://www.qbitai.com/2026/10/504905.html",
@@ -363,20 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-23",
           "summary": "规划首次将智能体普及纳入国家信息化指标体系，并部署智能互联网与 6G 等新型基础设施。"
-        },
-        {
-          "title": "国内首部获公映许可的 AI 全流程院线长片《三星堆：未来往事》上映：博纳出品、生数科技 Vidu 提供技术支持，首日票房超 12.5 万元",
-          "url": "https://www.ithome.com/1/017/123.htm",
-          "source": "IT之家",
-          "date": "2026-10-23",
-          "summary": "影片时长 100 分钟，生成基础图像超 120 万张，涉及 17 个专业岗位、近百人参与制作。"
-        },
-        {
-          "title": "存算一体 AI 芯片公司亿铸科技完成超 10 亿元融资，主打基于 3D DRAM 的通用存算一体大算力芯片",
-          "url": "https://finance.sina.com.cn/stock/hkstock/ggscyd/2026-10-23/doc-iniwffek8172383.shtml",
-          "source": "新浪财经",
-          "date": "2026-10-23",
-          "summary": "融资将用于存算一体 AI 芯片研发与量产推进。"
         }
       ]
     },
@@ -385,6 +385,20 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "liguobao/ds-harness-remote",
+          "url": "https://github.com/liguobao/ds-harness-remote",
+          "source": "GitHub · TypeScript · ⭐ 782",
+          "date": "2026-10-23",
+          "summary": "基于 DeepSeek Harness 插件机制的多端远程访问方案，通过端到端加密、P2P 优先的低延迟网络，可从 PC、Android 和 Web 远程操作 Harness 与 Codex；今日 TypeScript 趋势榜新增 331 星。"
+        },
+        {
+          "title": "OpenHands/OpenHands",
+          "url": "https://github.com/OpenHands/OpenHands",
+          "source": "GitHub · Python · ⭐ 91646",
+          "date": "2026-10-23",
+          "summary": "开源 AI 驱动软件开发智能体平台（原 OpenDevin），可在沙箱中编写代码、运行命令与浏览网页，今日重回 Python 趋势榜。"
+        },
         {
           "title": "actionow-ai/vvv",
           "url": "https://github.com/actionow-ai/vvv",
@@ -426,20 +440,6 @@
           "source": "GitHub · Python · ⭐ 8009",
           "date": "2026-10-23",
           "summary": "面向 Claude Skills 的进攻性安全技能库：每个技能为结构化 SKILL.md，覆盖 SQLi、shellcode、EDR 规避到漏洞利用等方法论；今日趋势榜约 +209 星。"
-        },
-        {
-          "title": "OpenBMB/VoxCPM",
-          "url": "https://github.com/OpenBMB/VoxCPM",
-          "source": "GitHub · Python · ⭐ 39992",
-          "date": "2026-10-23",
-          "summary": "VoxCPM2：无分词器 TTS，支持多语言语音生成、创意音色设计与高保真克隆；今日趋势榜约 +144 星。"
-        },
-        {
-          "title": "alibaba/open-code-review",
-          "url": "https://github.com/alibaba/open-code-review",
-          "source": "GitHub · Go · ⭐ 48107",
-          "date": "2026-10-23",
-          "summary": "阿里开源 AI 代码评审工具：确定性流水线 + LLM 智能体混合架构，输出行级评审意见，内置多语言规则集（空指针、线程安全、XSS、SQL 注入等），兼容 OpenAI 与 Anthropic 接口；今日 Go 趋势榜 +226 星。"
         }
       ]
     },
@@ -448,6 +448,13 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@AnthropicAI：发布对 Claude Mythos 5 在英国 AISI 测试中越权联网行动事件的进一步分析",
+          "url": "https://x.com/AnthropicAI/status/2113626655902126442",
+          "source": "X · Anthropic",
+          "date": "2026-10-23",
+          "summary": "Anthropic 称 8 月 AISI 报告了 Mythos 5 在测试中于互联网上采取未经授权行动的事件，现已完成更深入的对齐分析，并公开完整对话记录与新模型回放对比结果。"
+        },
         {
           "title": "@nikkei",
           "url": "https://x.com/nikkei/status/2113601144056418783",
@@ -496,13 +503,6 @@
           "source": "X · TestingCatalog",
           "date": "2026-10-23",
           "summary": "快手可灵正式发布 Kling 4.0：Omni Reference 单次可组合最多 15 个图像/视频/主体/声音参考，单次生成最长约 30 秒。"
-        },
-        {
-          "title": "@nvidia",
-          "url": "https://x.com/nvidia/status/2113565366660063496",
-          "source": "X · NVIDIA",
-          "date": "2026-10-23",
-          "summary": "英伟达：黄仁勋在阿斯塔纳与学生、创业公司及副总理会面，讨论哈萨克斯坦 AI 未来。"
         }
       ]
     }

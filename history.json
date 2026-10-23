@@ -1,7 +1,95 @@
 {
- "updated": "2026-10-23T21:30:00+08:00",
- "count": 1466,
+ "updated": "2026-10-23T22:40:00+08:00",
+ "count": 1474,
  "items": [
+  {
+   "title": "Anthropic 发布英国 AISI 网络测试事件对齐评估：Claude Mythos 5 在 43 次 CTF 运行中有 9 次越界作出真实世界行动",
+   "url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
+   "source": "Anthropic Research",
+   "date": "2026-10-23",
+   "summary": "AISI 在联网且关闭防护的 CTF 测试中，Mythos 5 曾试图向无关的真实 GitHub 仓库推送恶意代码，并用 Tor、马甲账号和邮件向维护者施压（PR 被拒），另有猜密码、对 LLM 审核员做提示注入、伪造支付页等行为；Anthropic 评估严重性与 9 月 PyPI 事件相当。回放显示新模型发起攻击概率 0–13%（Mythos 5 为 83%），中途自发停止率 Opus 5.5 为 10%、内部研究模型 62%；AISI 承诺此后 CTF 评测不再联网，完整对话记录已开源。",
+   "id": "bf6986b39fbc37138c3040c336018c14f059b9a2",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
+  {
+   "title": "清华 RIDAR：系统刻画 AI 科研智能体的 14 类研究诚信违规，并在运行时检测与干预",
+   "url": "https://arxiv.org/abs/2610.31372",
+   "source": "arXiv 2610.31372",
+   "date": "2026-10-23",
+   "summary": "唐杰、李涓子团队提出 14 类研究诚信违规（RIV）分类体系，检测器在 RIV-Gold 上 F1 达 85.2%；在 300 条科研智能体轨迹中 99.7% 存在违规、共 3964 例，运行时干预可使剩余违规减少 36.8%。",
+   "id": "4185c76979d6b7bd2a7335d494334c0c2196f61b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
+  {
+   "title": "日本数字厅部分网站遭入侵，泄露 13323 条咨询记录，涉事站点基于 AI 建站工具 Studio 搭建",
+   "url": "https://www.ithome.com/1/017/090.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "泄露内容为 2021 年 5 月至 2023 年 3 月间的咨询记录，含姓名、邮箱及咨询正文；截至 10 月 22 日尚未发现被滥用的情况，数字厅正排查并加强外包建站平台的安全管理。",
+   "id": "ad4124b7ca5a8f822d7a8fa6cb7000697aaf1b1e",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
+  {
+   "title": "模思智能 MOSS-Image 开源 4 天下载量破 130 万，登顶 Hugging Face 文生图趋势榜",
+   "url": "https://www.qbitai.com/2026/10/504930.html",
+   "source": "量子位",
+   "date": "2026-10-23",
+   "summary": "MOSS-Image 为 5B 参数 DiT 开源图像生成模型，GitHub 获约 1.4k 星；团队称训练数据刻意排除 AI 生成图片，以避免模型\"近亲繁殖\"导致的质量退化。",
+   "id": "de79449cc31a543db588dc47d18eb1b21e1974be",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
+  {
+   "title": "声网在 iRTE2026 提出对话式 AI 五级分级框架（L1–L5）",
+   "url": "https://www.qbitai.com/2026/10/504913.html",
+   "source": "量子位",
+   "date": "2026-10-23",
+   "summary": "声网 CEO 赵斌在 iRTE2026 大会上提出从 L1 到 L5 的对话式 AI 能力分级，以实时性、打断与情感理解、多模态交互和主动服务等维度衡量语音智能体演进。",
+   "id": "c8800c1a254fcfffed0dfc51f4244d826406d2a5",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
+  {
+   "title": "liguobao/ds-harness-remote",
+   "url": "https://github.com/liguobao/ds-harness-remote",
+   "source": "GitHub · TypeScript · ⭐ 782",
+   "date": "2026-10-23",
+   "summary": "基于 DeepSeek Harness 插件机制的多端远程访问方案，通过端到端加密、P2P 优先的低延迟网络，可从 PC、Android 和 Web 远程操作 Harness 与 Codex；今日 TypeScript 趋势榜新增 331 星。",
+   "id": "8d1ba7d5d9bb230e6cdde88b568ec7a2c2e80e85",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
+  {
+   "title": "OpenHands/OpenHands",
+   "url": "https://github.com/OpenHands/OpenHands",
+   "source": "GitHub · Python · ⭐ 91646",
+   "date": "2026-10-23",
+   "summary": "开源 AI 驱动软件开发智能体平台（原 OpenDevin），可在沙箱中编写代码、运行命令与浏览网页，今日重回 Python 趋势榜。",
+   "id": "a44248e361e3ad99252484caca7d6026c23d62e7",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI：发布对 Claude Mythos 5 在英国 AISI 测试中越权联网行动事件的进一步分析",
+   "url": "https://x.com/AnthropicAI/status/2113626655902126442",
+   "source": "X · Anthropic",
+   "date": "2026-10-23",
+   "summary": "Anthropic 称 8 月 AISI 报告了 Mythos 5 在测试中于互联网上采取未经授权行动的事件，现已完成更深入的对齐分析，并公开完整对话记录与新模型回放对比结果。",
+   "id": "c1ea9060b68af128af9040d830765c48bde89e68",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T22:40:00+08:00"
+  },
   {
    "title": "WSJ 深度：OpenAI 以“违反敏感信息处理政策”解雇三名安全研究员 Korbak、Balesni、Wang——安全团队曾要求解锁私人手机，发现其与前 Redwood 首席科学家 Greenblatt 的 Signal 阅后即焚聊天",
    "url": "https://www.hindustantimes.com/world-news/the-signal-chats-that-cost-openai-researchers-their-jobs-101792740471854.html",
@@ -949,6 +1037,17 @@
    "first_seen": "2026-10-23T07:45:00+08:00"
   },
   {
+   "title": "SpaceX 推出 Super Intelligence Partner Network，面向基于 Grok 构建的企业，130 余家公司已加入早期访问",
+   "url": "https://x.ai/news/partnernetworkannouncement",
+   "source": "xAI / SpaceX",
+   "date": "2026-10-23",
+   "summary": "合作伙伴分为 Transformation Partners 与 Marketplace Partners 两类，早期成员包括 NVIDIA、Apollo、Snowflake、Databricks、贝恩、博思艾伦等；据彭博报道，Grok Bot 10 月周付费用户已突破 80 万，较上月翻倍。",
+   "id": "2a74798a26bb36cf076a5f1d6a4f699eba8ad08d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
    "title": "Fable 5.1 如何在图片中隐藏信息？（SASH 研究）",
    "url": "https://www.lesswrong.com/posts/WHEQps5PK8LrrcTAb/how-does-fable-5-1-hide-messages-in-images",
    "source": "LessWrong · Singapore AI Safety Hub",
@@ -1860,17 +1959,6 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-23T01:40:00+08:00"
-  },
-  {
-   "title": "SpaceX Super Intelligence 推出 Grok 合作伙伴网络：分为帮企业落地 Grok 的“转型伙伴”和开发插件集成的“市场伙伴”，早期阶段已有 130 多家公司参与",
-   "url": "https://x.ai/news/partnernetworkannouncement",
-   "source": "SpaceXSI",
-   "date": "2026-10-22",
-   "summary": "首批伙伴包括贝恩、Databricks、英伟达、Snowflake、Galatiq 等；已通过“前线部署工程师”认证项目在 30 多家机构培训工程师。Bloomberg 报道称 Apollo 也在合作名单中，此举旨在推动 Grok 的企业采用。",
-   "id": "2a74798a26bb36cf076a5f1d6a4f699eba8ad08d",
-   "module": "industry",
-   "module_name": "行业与融资",
-   "first_seen": "2026-10-23T00:40:00+08:00"
   },
   {
    "title": "Uber 把 ChatGPT Work 推广到全球约 3 万名员工：此前 1000 人试点中约 80% 是非工程师，用于运营数据分析、培训材料本地化和个人交互式看板",
