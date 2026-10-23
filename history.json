@@ -1,7 +1,128 @@
 {
- "updated": "2026-10-23T20:30:00+08:00",
- "count": 1455,
+ "updated": "2026-10-23T21:30:00+08:00",
+ "count": 1466,
  "items": [
+  {
+   "title": "WSJ 深度：OpenAI 以“违反敏感信息处理政策”解雇三名安全研究员 Korbak、Balesni、Wang——安全团队曾要求解锁私人手机，发现其与前 Redwood 首席科学家 Greenblatt 的 Signal 阅后即焚聊天",
+   "url": "https://www.hindustantimes.com/world-news/the-signal-chats-that-cost-openai-researchers-their-jobs-101792740471854.html",
+   "source": "WSJ（Hindustan Times 转载）",
+   "date": "2026-10-23",
+   "summary": "OpenAI 怀疑三人向外部安全研究员泄露模型内部架构设计，称解雇“并非因提出安全担忧”；三人否认泄密，称从未收到书面说明，并担心此事成为 OpenAI 关闭第三方监督渠道的借口。三人此前曾推动业界承诺不采用让人类无法查看模型“思维链草稿”的不透明架构。OpenAI 称即将宣布与多家第三方安全机构的合作。",
+   "id": "173739ff6e3bb9e00944c8b9e977ea52c2609c96",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "The Verge：用户借 Claude Code 等 AI 编程工具“氛围编程”改造智能电视——cleanyourtv、tv-detox、dumbtv 等项目去广告、去臃肿、屏蔽 ACR 追踪",
+   "url": "https://www.theverge.com/tech/1016116/vibe-coding-tv-os",
+   "source": "The Verge",
+   "date": "2026-10-23",
+   "summary": "多个 vibe coding 的电视去臃肿项目在周末爆火，主要面向 Android/Google TV（TCL、海信、索尼等），通过开发者模式与 ADB 实现、无需 root 且可逆；不少用户还让 AI 生成自定义启动器。也有人用 Claude 改三星电视导致变砖。文章认为这反映用户对电视广告与数据追踪的不满。",
+   "id": "d28dfc1dfecb048ace2505b50d14699fd756b7ed",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.30765：生成式奖励模型的缩放律——静态准确率更高的“思考型”评审，用作在线 DPO 奖励时反而常不如“仅答案”评审",
+   "url": "https://arxiv.org/abs/2610.30765",
+   "source": "arXiv 2610.30765",
+   "date": "2026-10-23",
+   "summary": "在创意写作任务上用 Qwen3 0.6B–14B 奖励模型做在线偏好提供者：GRPO 训练的 Thinking 评审静态 Gold 准确率更高，但在 8 组对照中有 7 组，SFT 训练的 Answer-Only 评审带出的策略 Elo 更高；奖励模型容量（甚至大于策略模型）收益显著。",
+   "id": "e9611e08938a541fc4685a64a78d1204cd11849a",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.30727：“忠实”的潜在有害意图监控器，在相同误报率下并不比模型自身的拒答行为更好",
+   "url": "https://arxiv.org/abs/2610.30727",
+   "source": "arXiv 2610.30727",
+   "date": "2026-10-23",
+   "summary": "在 15 个指令微调 LLM、38 种基于激活的读取器上，用改写、劝说框架与越狱包装构造分布外提示进行测试，与 TF-IDF、句向量分类器、独立安全分类器及模型拒答对比，质疑 Latent Guard 类激活监控能在模型“照做”时独立捕获有害意图的说法。",
+   "id": "e8f86ef2ec5af08ce4caf9ec64421ea3b3a6de7a",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.30631：ChronoEvo 基准——LLM 能识别医学指南修订却常不能真正采纳，“识别-采纳”差距达 32 个百分点",
+   "url": "https://arxiv.org/abs/2610.30631",
+   "source": "arXiv 2610.30631",
+   "date": "2026-10-23",
+   "summary": "包含 1709 条、12 类临床指南推荐级修订。主模型 90.8% 回答识别出修订，但仅 58.5% 完全采纳新指南；该差距在 14 个模型中普遍存在，经两名临床医生对 300 条回答复核差距达 40.3 个百分点，推荐强度与适用人群变化最易保留过时建议。",
+   "id": "18e52e76e9aabdc44e6606552d4211137e47d1fc",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "松下 HD：员工违规把约 33 万人个人信息上传至公司禁用的外部生成式 AI 服务，含现任员工、退休员工及家属的住所、电话、邮箱、工号",
+   "url": "https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
+   "source": "日本经济新闻",
+   "date": "2026-10-23",
+   "summary": "非外部入侵，而是人事系统项目成员 9 月下旬违反内部规定上传数据，涉及现任员工约 7.5 万、家属约 5.5 万、1978 年以来离职员工约 17.8 万等。松下已于 9 月 29 日报告日本个人信息保护委员会，称未发现数据公开或滥用，所用服务已关闭训练数据功能，数据将于 10 月 25 日后彻底删除。",
+   "id": "4b33eff0c4254cfe52ba2456cdb0a6980a9ec157",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "高德发布首个基于开放世界行为的全身基座模型 λ0：仅用人类全身行动数据让人形机器人学会移动、姿态与双手协同，真机成功率较最强基线提升 22.5%",
+   "url": "https://www.qbitai.com/2026/10/504905.html",
+   "source": "量子位",
+   "date": "2026-10-23",
+   "summary": "由高德与阿里 ATH 事业群联合完成，采用“无本体全身数据采集”，采集者佩戴消费级设备随走随采，单条示范用时由约 100 秒降至 29 秒；构建 500 小时 HumanVerse-500 数据集，7 项全身协调任务可零样本迁移到真机，并开源硬件配置代码与数据样例（arXiv 2610.18950）。",
+   "id": "644d536da240866e30c3116b13897647324e5b76",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "寒武纪三季度营收 35.31 亿元、同比增 104.47%，归母净利润 14.04 亿元、同比增 147.74%；前三季度累计营收 95.26 亿元",
+   "url": "https://www.ithome.com/1/017/198.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "扣非净利润 13.58 亿元、同比增 168.13%，三季度研发投入 5.23 亿元；公司称受益于 AI 行业算力需求持续攀升、产品竞争力提升。经营现金流为 -8368 万元。",
+   "id": "2b908b66908fd55623c43e650bbd94be868ed5bb",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "actionow-ai/vvv",
+   "url": "https://github.com/actionow-ai/vvv",
+   "source": "GitHub · Python · ⭐ 214",
+   "date": "2026-10-23",
+   "summary": "“做一次视频模板、跨编程智能体复用”：可编辑的 Remotion 视频模板加 Agent Skill，适配 Claude Code、Codex 等 25+ 智能体；10 月 22 日新建，已获 200+ 星。",
+   "id": "e1c26a7e81702b8a37da2892b78c134704b939c0",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "@nikkei",
+   "url": "https://x.com/nikkei/status/2113601144056418783",
+   "source": "X · 日本経済新聞",
+   "date": "2026-10-23",
+   "summary": "日经：松下 HD 员工把约 33 万人的员工及家属个人信息上传至公司禁用的生成式 AI 服务。",
+   "id": "2214533f2635fc01dd5ff3da9f7bf1b85c1b094b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
+  {
+   "title": "@verge",
+   "url": "https://x.com/verge/status/2113620068924051544",
+   "source": "X · The Verge",
+   "date": "2026-10-23",
+   "summary": "The Verge：受够电视广告与数据追踪的用户，正借 AI vibe coding 自己动手改造电视系统。",
+   "id": "e215483c71381013978140d672ec2750e7060aa6",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T21:30:00+08:00"
+  },
   {
    "title": "The Verge：复古游戏圈正被 AI 淹没",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1015430/ai-retro-games-decomp-recomp-port",
