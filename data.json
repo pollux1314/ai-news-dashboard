@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T14:40:00+08:00",
+  "updated": "2026-10-23T15:36:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Meta 个人 AI 智能体 Muse 登陆日本：北美以外首个市场，iOS/Android 与 muse.ai 同步上线，基础功能免费、订阅 2,799 日元/月起",
+          "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
+          "source": "Meta Newsroom",
+          "date": "2026-10-23",
+          "summary": "Meta 宣布 Muse 在日本正式上线，这是其首次进入北美以外市场；计划接入 Mercari、Money Forward ME、チケットぴあ 等本地服务。每位用户的 Muse 运行在独立的 Muse Secure VM 中，由 Sentinel 智能体监督，发送邮件、购买等操作前会先征得用户确认。"
+        },
         {
           "title": "谷歌云正式上线 Anthropic 托管版 Claude（Claude Models on Google Cloud, Anthropic managed）：首日即可用 Claude 最新模型及 Managed Agents、Skills、代码执行等平台功能，用 Google Cloud IAM 鉴权、计费并抵扣承诺消费",
           "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
@@ -55,20 +62,6 @@
           "source": "OpenAI",
           "date": "2026-10-22",
           "summary": "公测以来新增 GPT-Live 原生集成、提示缓存、美国/欧盟推理驻留，支持原生 JSON 输入、在题目中附图，单请求最多 400 个问题（翻倍）；Box、Datadog、Ramp、Sierra、Speak 等早期客户称提速 3–40 倍。TechCrunch 指出这是 OpenAI 对 TypeSafe Jev 等“决策模型”的正面竞争，但在 AIM 与 Artificial Analysis 决策榜上分列第 8 与第 14。"
-        },
-        {
-          "title": "Canva 发布首个自研图像生成模型 Canva Craft：先“规划”元素空间关系、比例与文字信息再生成，最高 2K 分辨率、30 种画幅，主打文字清晰和局部精准编辑",
-          "url": "https://techcrunch.com/2026/10/22/canva-releases-its-first-image-generation-model/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "模型用 Canva 模板库中人工设计的海报、社媒图、演示文稿、信息图等训练而非照片，生成结果可经 Canva Magic 转为分层可编辑设计；已向所有用户在 Dream Lab 开放，并将上线 Canva API、通过 Canva MCP 接入 ChatGPT 和 Gemini；Leonardo.ai 团队参与研发，更便宜的 Craft-fast 与 Craft-ultrafast 版本即将推出。"
-        },
-        {
-          "title": "微软 AI 诊断编排系统（Diagnostic Orchestrator）研究登上《Science》：多智能体模拟医生会诊、自主决定问诊与检查，在 NEJM 病例上诊断准确率约 83%，远高于全科医生的约 36%（查资料）与 22%",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1016690/suleyman-microsoft-diagnostic-orchestrator-science-medical-superintelligence",
-          "source": "The Verge",
-          "date": "2026-10-22",
-          "summary": "在波士顿贝斯以色列女执事医疗中心急诊病例上准确率 80%，医生平均 47%，且估算检查成本更低；系统基于 GPT-5，论文未纳入 GPT-6 Astra、Opus 5.5 等新模型。微软将开源 SDBench 基准，并计划未来几个月在该医院开展真实临床测试；苏莱曼称“未来几年”将做出与人类表现难以区分的医疗超级智能，但承认仍需临床验证。"
         }
       ]
     },
@@ -99,6 +92,20 @@
           "summary": "英特尔份额因 Diamond Rapids 出货迟缓从 50% 降至 42%，AMD 约 28%、英伟达 12%，AWS、谷歌自研 Arm CPU 份额上升。"
         },
         {
+          "title": "OpenAI 与美国独立社区银行家协会 ICBA 结盟：通过 Daybreak for Frontline Defenders 为社区银行提供补贴的前沿 AI 网络防御能力与培训",
+          "url": "https://www.icba.org/w/icba-openai-announce-strategic-alliance",
+          "source": "ICBA",
+          "date": "2026-10-22",
+          "summary": "符合条件的 ICBA 会员社区银行可申请补贴接入 OpenAI Daybreak，用于授权范围内的漏洞发现与验证、威胁调查、修复和安全测试，并获得 OpenAI 专家培训与同业学习资源；准入需审批。"
+        },
+        {
+          "title": "卫报：谷歌为建数据中心在芬兰 Muhos 违规砍伐约 330 公顷、约 25 万棵树，当局叫停施工待环评，警方介入调查",
+          "url": "https://www.theguardian.com/environment/ng-interactive/2026/oct/22/finland-google-felling-trees-datacentre",
+          "source": "The Guardian",
+          "date": "2026-10-22",
+          "summary": "芬兰当局要求谷歌在完成环境影响评估前暂停 Muhos 数据中心场地工程，警方已就违规砍伐展开调查；谷歌致歉并表示计划重新种植约 130 公顷林地。"
+        },
+        {
           "title": "前 OpenAI 科学负责人 Kevin Weil 创办 Warp Sciences：融资 2.15 亿美元、估值 8.65 亿美元，用机器人自动化药物发现湿实验",
           "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
           "source": "TechCrunch",
@@ -118,20 +125,6 @@
           "source": "Yahoo Finance / Reuters",
           "date": "2026-10-22",
           "summary": "文件称不保证达成交易；路透社报道 SpaceX 披露合并需控股股东马斯克批准。两家公司计划合建约 168 亿美元的 Terafab AI 芯片工厂，目标 2027 年上半年出首颗测试芯片、2028 年三季度量产。"
-        },
-        {
-          "title": "路透社：AI 交易遭重挫，纳指跌 2.6%、创 6 月 5 日以来最大跌幅并蒸发约 1 万亿美元市值，费城半导体指数暴跌 6.7%；Meta 跌 7%、SpaceX 跌 9%、英伟达跌约 4%，泛林集团财报后重挫 12%",
-          "url": "https://www.investing.com/news/economy-news/steep-bill-for-ai-buildout-punishes-meta-other-tech-favorites-4967187",
-          "source": "Reuters",
-          "date": "2026-10-22",
-          "summary": "Meta 宣布发行新类别股票为 AI 基建融资后，市场担忧科技巨头将通过增发稀释股权来支付下一轮 AI 建设账单；CoreWeave 跌 10%、Nebius 跌 7%。"
-        },
-        {
-          "title": "a16z 把加密基金 a16z Crypto 更名为 a16z Frontier：投资范围扩展到 AI 原生产品、自主机器以及连接人与 AI 智能体的网络等长周期前沿技术，仍继续投资加密",
-          "url": "https://a16zfrontier.com/posts/article/a16z-frontier",
-          "source": "a16z",
-          "date": "2026-10-22",
-          "summary": "由 Chris Dixon 与 Marc Andreessen、Ben Horowitz 等共同领导；Dixon 认为区块链将作为机器间支付与交易的基础设施。此前 Paradigm、Haun Ventures 等加密 VC 也已转向 AI。"
         }
       ]
     },
@@ -140,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "OpenDS-World：在真实开放网络中评测深度搜索，12 个前沿模型最佳仅 39.0%，人类在 1000 次尝试中仅 21.1%",
+          "url": "https://arxiv.org/abs/2610.30181",
+          "source": "arXiv · Hugging Face Daily Papers",
+          "date": "2026-10-23",
+          "summary": "论文《Deep Search in Real-World Web Environments》构建 200 个必须在实时网页上完成的深度搜索任务，评测 12 个前沿模型，发现现有智能体在真实网络环境下仍远未可靠；数据集以 Yu2020/OpenDS-World 公开。"
+        },
         {
           "title": "arXiv Meta Expert：跨层共享专家的 MoE 架构——在激活量与专家粒度不变时，只用 70–80% 的专家即可追平普通 MoE 的效果",
           "url": "https://arxiv.org/abs/2610.27598",
@@ -188,13 +188,6 @@
           "source": "Anthropic",
           "date": "2026-10-22",
           "summary": "Anthropic 称这是首个用 AI 在汇编层面对生产软件做大规模形式化验证的尝试：基于 Theorem 的 RISC-V 指令与 Linux 进程语义生成规格，由 Claude 编写证明、Rocq 内核检查；撰写证明过程中 Claude 还找到了经数万亿次测试仍未暴露的漏洞。部分证明与添加项目用的 Claude skill 已在 GitHub 开源，Anthropic 预计形式化验证将成为安全软件开发的必要环节。"
-        },
-        {
-          "title": "Google DeepMind 联合 WRI、IIASA 发布全球 10 米森林类型图 ForTy 2020：区分原始林、天然更新林、人工林、速生用材林、经济林木与其他土地，并给出 2017–2025 逐年变化",
-          "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
-          "source": "Google DeepMind",
-          "date": "2026-10-22",
-          "summary": "模型以 AlphaEarth Foundations 嵌入为关键输入、用约 170 万个标注点训练；在 9000 多个随机样点的专家核验中森林类型判对 90%、森林与非森林区分 95%，优于其他全球森林图。可识别天然林被砍后改种人工林这类从太空难以看出的变化，为欧盟零毁林法规（EUDR）提供基线，数据以开放许可在 Earth Engine 免费提供，论文发表于 Scientific Data。"
         }
       ]
     },
@@ -267,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "OpenAI 与波兰国家研究院 NASK 签署 AI 安全合作协议：与波兰 AI 安全研究所共同评估前沿模型、识别漏洞、强化防护",
+          "url": "https://openai.com/index/openai-nask-ai-safety-security-partnership",
+          "source": "OpenAI",
+          "date": "2026-10-23",
+          "summary": "NASK 旗下 AI 安全研究中心（波兰 AISI）将与 OpenAI 开展安全、安保与技术研究合作；此前 NASK 下属 CERT Polska 已通过 Daybreak 借助 OpenAI 模型发现 6 个 MikroTik RouterOS 漏洞。OpenAI 同时呼吁美国与各国合作制定前沿 AI 国际技术标准。"
+        },
+        {
           "title": "新墨西哥州法官判令 Meta 支付 250 亿美元民事罚款：陪审团认定其在 Cambridge Analytica 数据泄露等问题上误导用户、违反州《不公平行为法》逾 4300 万次，为该公司史上最大单州判罚",
           "url": "https://www.nbcnews.com/tech/tech-news/meta-ordered-pay-25-billion-new-mexico-consumers-data-privacy-rcna604864",
           "source": "NBC News / Reuters",
@@ -314,20 +314,6 @@
           "source": "IT之家",
           "date": "2026-10-22",
           "summary": "特朗普称一些原本极不受欢迎的数据中心项目在达成经济协议后获得了当地大力支持，呼吁“达成协议，推进建设”；具体回馈形式尚不明确。此前政府已要求此类企业自行发电，并有法案要求数据中心承担电网升级费用。"
-        },
-        {
-          "title": "比尔·盖茨接受 The Verge《Decoder》专访：即便在最好情况下，AI 也将带来约 20 年“动荡”的颠覆期，甚至可能把社会撕裂为拥抱与拒绝技术前沿的两派；称 AI 是“有史以来最危险的武器”，当前白宫与业界应对不足",
-          "url": "https://www.theverge.com/podcast/1015408/bill-gates-ai-interview-microsoft-openai-anthropic-risk-policy-regulation",
-          "source": "The Verge",
-          "date": "2026-10-22",
-          "summary": "盖茨自 8 月发表《动荡的 AI 时代已经到来》一文后持续加码安全论调，此次与 Nilay Patel 讨论了对齐如何在闭源与开源模型上落地、AI 是否有意识、劳动力冲击与年轻一代对技术的虚无情绪等问题，但他表示自己并非 AI 末日论者。"
-        },
-        {
-          "title": "联合国裁军研究所（UNIDIR）在联大一委会边会上启动 AI、和平与安全多利益相关方论坛：联合国系统内首个专门讨论军事领域 AI 的论坛",
-          "url": "https://news.un.org/en/story/2026/10/1168636",
-          "source": "UN News",
-          "date": "2026-10-22",
-          "summary": "论坛由瑞士与巴基斯坦共同支持，聚焦三项工作：为军事 AI 设计研发阶段制定自愿性的负责任行业行为准则、编制统一“AI 安全术语表”以消除各方对自主性和安全等概念的歧义，以及应对非国家武装团体滥用 AI 的风险；它不是有约束力的条约机构。"
         }
       ]
     },
@@ -336,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "上海 9 月出口创历史新高：服务器、集成电路、光收发模块等 7 类 AI 相关产品前三季度出口 4152.8 亿元、同比增 70.3%",
+          "url": "https://www.yicai.com/news/103405993.html",
+          "source": "第一财经",
+          "date": "2026-10-23",
+          "summary": "上海 9 月出口 2411.4 亿元、同比增长 39.5%；7 类 AI 相关产品（工业级变压器、储能电池、服务器、集成电路、存储部件、通讯设备、光收发模块）占全市出口 23%，拉动出口增速 11.6 个百分点。"
+        },
         {
           "title": "中国信通院等发布《大模型词元服务性能监测报告（2026 年）》：国内大模型归一化均价由 2025 下半年 6.8 元涨至 13.46 元、近乎翻倍，8 月平均输出速度 78.23 token/秒、较 2025 年翻倍",
           "url": "https://www.ithome.com/1/016/876.htm",
@@ -384,13 +377,6 @@
           "source": "Hugging Face · inclusionAI",
           "date": "2026-10-22",
           "summary": "基于 Ling-3.0-flash 增强，面向医疗问答、证据检索、深度研究与工具调用工作流，权重已上 Hugging Face 与 ModelScope，OpenRouter、Vercel AI Gateway 提供免费调用；官方强调其不是医疗诊断设备，临床高风险用途须由专业人员审核。"
-        },
-        {
-          "title": "腾讯混元提出 WorkForge：从专家工作流自动构建带程序化与语义双重验证的长时程办公智能体训练环境，已达 1.67 万个、覆盖 40 个专业领域和 60 种文件类型",
-          "url": "https://huggingface.co/papers/2610.04906",
-          "source": "Hugging Face Papers",
-          "date": "2026-10-22",
-          "summary": "框架先生成真实工作区、提取可核查事实，再据此生成任务、解法计划与验证器，并收集带评分的交互轨迹用于后训练；论文报告 Qwen3.5-35B-A3B-Base 经训练后 GDPVal 从 45.5 升至 73.6、APEX 从 5.0 升至 21.3。"
         }
       ]
     },
@@ -399,6 +385,20 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "alibaba/open-code-review",
+          "url": "https://github.com/alibaba/open-code-review",
+          "source": "GitHub · Go · ⭐ 48107",
+          "date": "2026-10-23",
+          "summary": "阿里开源 AI 代码评审工具：确定性流水线 + LLM 智能体混合架构，输出行级评审意见，内置多语言规则集（空指针、线程安全、XSS、SQL 注入等），兼容 OpenAI 与 Anthropic 接口；今日 Go 趋势榜 +226 星。"
+        },
+        {
+          "title": "NVIDIA/OpenShell",
+          "url": "https://github.com/NVIDIA/OpenShell",
+          "source": "GitHub · Rust · ⭐ 18067",
+          "date": "2026-10-23",
+          "summary": "英伟达开源的自主 AI 智能体安全、私有运行时（Apache-2.0），为智能体执行提供隔离与策略控制；今日 Rust 趋势榜 +211 星。"
+        },
         {
           "title": "BerriAI/litellm",
           "url": "https://github.com/BerriAI/litellm",
@@ -440,20 +440,6 @@
           "source": "GitHub · Python · ⭐ 36285",
           "date": "2026-10-22",
           "summary": "港大数据智能实验室的个人交易智能体（MIT）：“一条命令让你的智能体获得完整交易能力”，FastAPI + React 19，可 pip 安装 vibe-trading-ai，今日 GitHub Python 趋势榜上榜。"
-        },
-        {
-          "title": "onyx-dot-app/onyx",
-          "url": "https://github.com/onyx-dot-app/onyx",
-          "source": "GitHub · Python · ⭐ 32824",
-          "date": "2026-10-22",
-          "summary": "开源 AI 平台：兼容任意 LLM 的企业 AI 聊天与知识检索，支持连接器、智能体与高级功能，可自托管，今日 GitHub 趋势榜上榜。"
-        },
-        {
-          "title": "THUSI-Lab/GameScaling",
-          "url": "https://github.com/THUSI-Lab/GameScaling",
-          "source": "GitHub · Python · ⭐ 131",
-          "date": "2026-10-22",
-          "summary": "米哈游与清华等开源的游戏具身智能体模型仓库（Apache-2.0）：0.8B–27B 共 8 个检查点，看游戏画面输出键鼠操作，含推理客户端、提示模板、动作解析与 vLLM 部署示例。"
         }
       ]
     },
@@ -462,6 +448,20 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@alexandr_wang",
+          "url": "https://x.com/alexandr_wang/status/2113430642440736859",
+          "source": "X · Alexandr Wang",
+          "date": "2026-10-23",
+          "summary": "Meta 首席 AI 官宣布 Muse 今日在日本上线，已可在各大应用商店下载。"
+        },
+        {
+          "title": "@claudeai",
+          "url": "https://x.com/claudeai/status/2113360845409583307",
+          "source": "X · Claude",
+          "date": "2026-10-23",
+          "summary": "从下周起，Claude 网页、桌面和移动端在 Pro、Max、Team 套餐中默认以 auto mode 运行：不再逐步请求批准，由自动检查拦截高风险操作，可随时切回手动模式。"
+        },
         {
           "title": "@claudeai",
           "url": "https://x.com/claudeai/status/2113380122468454765",
@@ -503,34 +503,6 @@
           "source": "X · Bloomberg",
           "date": "2026-10-23",
           "summary": "SK Hyper 正与大型科技公司和金融投资者洽谈，为设想中的 3500 亿美元数据中心建设筹资。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113460418551099605",
-          "source": "X · Bloomberg",
-          "date": "2026-10-23",
-          "summary": "中国 AI 大模型开发商股票遭遇持续抛售，竞争日趋激烈，明年还有更多同行上市的压力。"
-        },
-        {
-          "title": "@MiniMax_AI",
-          "url": "https://x.com/MiniMax_AI/status/2113452026902589732",
-          "source": "X · MiniMax",
-          "date": "2026-10-23",
-          "summary": "宣布 MiniMax M3.1 Flash 权重开源，Together AI 等为首日合作伙伴。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113450375827042528",
-          "source": "X · Bloomberg",
-          "date": "2026-10-23",
-          "summary": "彭博 Big Take：华尔街高频交易公司被迫卷入 AI 算力竞赛，但投入未必换来成功。"
-        },
-        {
-          "title": "@verge",
-          "url": "https://x.com/verge/status/2113423209215443023",
-          "source": "X · The Verge",
-          "date": "2026-10-23",
-          "summary": "The Verge：Etsy 发布新的 AI 政策等调整，要求商品首图必须是未经编辑的照片。"
         }
       ]
     }
