@@ -1,7 +1,73 @@
 {
- "updated": "2026-10-23T09:27:00+08:00",
- "count": 1357,
+ "updated": "2026-10-23T10:30:00+08:00",
+ "count": 1373,
  "items": [
+  {
+   "title": "TrendForce：智能体 AI 推高 CPU/加速器配比，服务器 CPU 出货 2026 年增 31%、2027 年增超 40%，Arm 阵营份额 2027 年升至约 30%",
+   "url": "https://www.ithome.com/1/016/801.htm",
+   "source": "IT之家 / TrendForce",
+   "date": "2026-10-23",
+   "summary": "英特尔份额因 Diamond Rapids 出货迟缓从 50% 降至 42%，AMD 约 28%、英伟达 12%，AWS、谷歌自研 Arm CPU 份额上升。",
+   "id": "6694f4fb2551dac18777a4758fc8f3554f9531ef",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "MiniMax 开源 M3.1 Flash 模型权重：428B 总参数 / 23B 激活的原生多模态 MoE，1M 上下文，全模型稀疏注意力 + 量化感知训练（路由专家 W4A4）",
+   "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+   "source": "Hugging Face · MiniMax",
+   "date": "2026-10-23",
+   "summary": "10 月 19 日上线后 72 小时真实用户处理超 100 万亿 Token；DeepSWE v1.1 73.7%、OSWorld 2.0 61.7、CyberGym 82.2；华为昇腾、平头哥、昆仑芯、摩尔线程、英伟达、AMD 及 Together、Fireworks、vLLM、SGLang 等首日接入。",
+   "id": "bf04d12d42270af3bfdd0fc2193cb02f99844609",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "商务部：前三季度重点平台智能眼镜销售额增长 1.1 倍，外骨骼助力器增长 46.4%，具身智能机器人增长 22.6%",
+   "url": "https://www.ithome.com/1/016/821.htm",
+   "source": "IT之家 / 商务部",
+   "date": "2026-10-23",
+   "summary": "商务部消费促进司介绍前三季度消费市场，绿色、智能、健康消费需求旺盛；前三季度社零总额增长 1.1%。",
+   "id": "85374bac8b6f651e367abe01b857f4042640787c",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "bowenliang123/dsh-context",
+   "url": "https://github.com/bowenliang123/dsh-context",
+   "source": "GitHub · TypeScript · ⭐ 3412",
+   "date": "2026-10-23",
+   "summary": "DeepSeek Harness 上下文可视化插件：面板、浏览器与侧边栏查看上下文构成、演化、压缩及多智能体团队，今日 TypeScript 趋势榜 +296 星。",
+   "id": "f650f6051b6f57b8dd1ff1799e22d50e455b118d",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "@MiniMax_AI",
+   "url": "https://x.com/MiniMax_AI/status/2113452026902589732",
+   "source": "X · MiniMax",
+   "date": "2026-10-23",
+   "summary": "宣布 MiniMax M3.1 Flash 权重开源，Together AI 等为首日合作伙伴。",
+   "id": "ceb07a8cf375eae1d4dbfa1b66994396c7496b19",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113450375827042528",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "彭博 Big Take：华尔街高频交易公司被迫卷入 AI 算力竞赛，但投入未必换来成功。",
+   "id": "4e7b2c592eaf23605b65cdca4da933919711ce65",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
   {
    "title": "@verge",
    "url": "https://x.com/verge/status/2113423209215443023",
@@ -34,6 +100,105 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "前 OpenAI 科学负责人 Kevin Weil 创办 Warp Sciences：融资 2.15 亿美元、估值 8.65 亿美元，用机器人自动化药物发现湿实验",
+   "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+   "source": "TechCrunch",
+   "date": "2026-10-22",
+   "summary": "Lightspeed 领投，IVP、Mayfield、Lux、Premji、Menlo 跟投；化学家佩戴摄像头与传感手套示教机器人合成测试化合物，目标把外包给药明康德等中国 CRO 的工作回流美国。",
+   "id": "430a4b9b34f9b759c155f081c737cb0a89b324db",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "Cadence 联合英伟达在慕尼黑推出欧洲首个主权 AI 芯片/系统与 AI 工厂设计平台，数据全程留在欧盟",
+   "url": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unveils-europes-first-sovereign-ai-platform-for.html",
+   "source": "Cadence",
+   "date": "2026-10-22",
+   "summary": "整合 Cadence OnCloud、Vera/Grace 系统、Millennium M2000 Blackwell 超算与 Reality 数字孪生，服务欧洲半导体与 AI 基础设施设计。",
+   "id": "2be671f59dcc566f4079f0c498714d000ffcb4d4",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "arXiv：网络拓扑决定 LLM 群体的共识与脆弱性——稀疏网络使共识慢至 12 倍，占据枢纽节点仅需 3% 即可推翻约定",
+   "url": "https://arxiv.org/abs/2610.31165",
+   "source": "arXiv",
+   "date": "2026-10-22",
+   "summary": "基于四种 LLM 构建 10^3–10^5 个智能体的命名博弈；推翻约定所需临界规模中位数：枢纽 3%、随机 16%、低度节点 35%。",
+   "id": "d152ddcd7c76e04df4eb47b605425c49dba8ebb0",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "arXiv OmniDR-Bench：首个以视频为中心的深度研究报告生成基准，50 个中英任务、6414 条原子评分标准",
+   "url": "https://arxiv.org/abs/2610.31158",
+   "source": "arXiv",
+   "date": "2026-10-22",
+   "summary": "覆盖 19 个子类，用 Omni-ARTs 评分树细粒度评估，测评 18 种智能体配置。",
+   "id": "20311f3738bbf4a43f7357b2d9ad923b88332992",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "宾夕法尼亚州长夏皮罗签署《AI 欺骗性广告法》（SB 806）：广告使用 AI 合成内容须清晰显著披露，60 天后生效",
+   "url": "https://www.wpxi.com/news/local/law-requiring-advertisers-disclose-when-they-are-using-ai-passes-pennsylvania/BYUPMQRUHFB27GXBLVHFXPZEKE/",
+   "source": "WPXI",
+   "date": "2026-10-22",
+   "summary": "披露须在首次呈现时同媒介展示，并在技术可行范围内难以移除；两党支持通过。",
+   "id": "ac4a114319ef41fd172a68539556e909e36969a8",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "OpenAI 致信加州州长纽森，建议修订 SB 53：训练期监控危险行为、加强网络安全、事件通知、关停控制与独立审计",
+   "url": "https://statescoop.com/openai-urges-newsom-to-strengthen-californias-ai-safety-law-with-additional-safeguards/",
+   "source": "StateScoop",
+   "date": "2026-10-22",
+   "summary": "10 月 20 日信函支持纽森 9 月行政令，希望其成为约束所有前沿开发者的行业规则，可在下一立法会期审议。",
+   "id": "d0520b75d9a50afdf5f5d88122e3e9dcc62c78e2",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "讯飞医疗星火医疗大模型 V3.7 升级：语音、影像、语义多模态融合，MedBench 5.0 获 99.6 分",
+   "url": "https://www.ithome.com/1/016/830.htm",
+   "source": "IT之家 / 讯飞医疗",
+   "date": "2026-10-22",
+   "summary": "诊疗助理病历生成合理率提升至 85%；智医助理覆盖 31 省 828 区县、7.7 万家基层机构，累计 AI 辅诊建议超 12 亿次。",
+   "id": "2a1b8c1c89a96b4c3c88b1c56cbdfe95814f9529",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2113367298543075482",
+   "source": "X · The Information",
+   "date": "2026-10-22",
+   "summary": "要求通过限制 OpenAI、Anthropic 研究人员可用算力来放缓 AI 发展的呼声正在增多。",
+   "id": "fa2614c389b74121497145d22df38deaa26a65dd",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T10:30:00+08:00"
+  },
+  {
+   "title": "@theinformation",
+   "url": "https://x.com/theinformation/status/2113382463560929287",
+   "source": "X · The Information",
+   "date": "2026-10-22",
+   "summary": "中国开源模型能力快速追赶，正在缩短网络安全防御方的应对窗口。",
+   "id": "d3b5b8eace033e1df99b83a456937cf4bc1d85a4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T10:30:00+08:00"
   },
   {
    "title": "微软与 Hugging Face 开源 ThinkingBox-Training：把“检查数据库最终状态”的可执行评测变成强化学习奖励，Qwen3.8-27B 仅 50 步 GRPO 平均成功率从 51.7% 升至 60.8%",
@@ -2707,6 +2872,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "Google Research 在 JAMA Network Open 发表 AI 盲扫超声孕周评估研究：基层人员用低成本探头即达专家水平（MAE 4.18 vs 4.48 天）",
+   "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+   "source": "Google Research",
+   "date": "2026-10-21",
+   "summary": "385 名受试者，芝加哥 4.10 天、内罗毕 4.27 天且无需本地调参；仅经简短培训的卫生工作者使用 Clarius 便携探头完成盲扫。",
+   "id": "2de1f3f85cd444cfa67c2c1fe966cf60ea7a3b19",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T10:30:00+08:00"
   },
   {
    "title": "RAG 可组合性研究（LASAGNA）：在 8 个基准、5K–20 万文档语料上测试 450 种配置，发现单独有效的 RAG 技术组合后增益并不叠加，检索质量与回答忠实度偏好的设计也不一致",

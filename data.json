@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T09:27:00+08:00",
+  "updated": "2026-10-23T10:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,27 @@
       "icon": "💰",
       "items": [
         {
+          "title": "TrendForce：智能体 AI 推高 CPU/加速器配比，服务器 CPU 出货 2026 年增 31%、2027 年增超 40%，Arm 阵营份额 2027 年升至约 30%",
+          "url": "https://www.ithome.com/1/016/801.htm",
+          "source": "IT之家 / TrendForce",
+          "date": "2026-10-23",
+          "summary": "英特尔份额因 Diamond Rapids 出货迟缓从 50% 降至 42%，AMD 约 28%、英伟达 12%，AWS、谷歌自研 Arm CPU 份额上升。"
+        },
+        {
+          "title": "前 OpenAI 科学负责人 Kevin Weil 创办 Warp Sciences：融资 2.15 亿美元、估值 8.65 亿美元，用机器人自动化药物发现湿实验",
+          "url": "https://techcrunch.com/2026/10/22/former-openai-science-lead-launches-warp-science-to-automate-wet-labs-with-robots/",
+          "source": "TechCrunch",
+          "date": "2026-10-22",
+          "summary": "Lightspeed 领投，IVP、Mayfield、Lux、Premji、Menlo 跟投；化学家佩戴摄像头与传感手套示教机器人合成测试化合物，目标把外包给药明康德等中国 CRO 的工作回流美国。"
+        },
+        {
+          "title": "Cadence 联合英伟达在慕尼黑推出欧洲首个主权 AI 芯片/系统与 AI 工厂设计平台，数据全程留在欧盟",
+          "url": "https://www.cadence.com/en_US/home/company/newsroom/press-releases/pr/2026/cadence-unveils-europes-first-sovereign-ai-platform-for.html",
+          "source": "Cadence",
+          "date": "2026-10-22",
+          "summary": "整合 Cadence OnCloud、Vera/Grace 系统、Millennium M2000 Blackwell 超算与 Reality 数字孪生，服务欧洲半导体与 AI 基础设施设计。"
+        },
+        {
           "title": "SpaceX 与特斯拉在季度 SEC 文件中正式确认各自成立独立董事特别委员会，探讨“深化关系”乃至业务合并；马斯克称合并有助于超级智能软件、芯片与 Terafab 合作",
           "url": "https://finance.yahoo.com/markets/stocks/articles/tsla-spcx-boards-confirm-special-223448287.html",
           "source": "Yahoo Finance / Reuters",
@@ -104,27 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-22",
           "summary": "此前路透报道 OpenAI 正赶在 Anthropic 11 月 IPO 前融资约 300 亿美元；TechCrunch 最新报道给出的估值约为 1.25 万亿美元，高于其 3 月 8520 亿美元的估值。"
-        },
-        {
-          "title": "西部数据 2027 财年一季度营收 43.8 亿美元、同比增 55%，受云与 AI 存储需求推动；季度股息上调 17%，预计下季营收约 51 亿美元",
-          "url": "https://www.westerndigital.com/company/newsroom/press-releases/2026/2026-10-22-wd-reports-fiscal-first-quarter-2027-financial-results",
-          "source": "Western Digital",
-          "date": "2026-10-22",
-          "summary": "非 GAAP 毛利率与营业利润率分别升至 58.1% 和 49.1%，公司将增长归因于出货 EB 数增加与价格改善；季度股息升至每股 0.175 美元。下季营收指引 51 亿美元（±1 亿），意味同比增长约 66%–72%。财报发布前 AI 与芯片股领跌纳指，盘后涨幅一度被 AI 板块抛售抹去。"
-        },
-        {
-          "title": "Rivian 收购英国世界模型初创公司 Third Dimension：用 AI 把图片与视频变成逼真 3D 世界，加速其辅助驾驶与为 Uber 供应的 Robotaxi 自动驾驶研发",
-          "url": "https://techcrunch.com/2026/10/22/rivian-buys-world-model-startup-to-accelerate-self-driving-ambitions/",
-          "source": "TechCrunch",
-          "date": "2026-10-22",
-          "summary": "交易条款未披露。Third Dimension 2024 年成立、获 700 万美元种子轮，15 人团队将并入 James Philbin 领导的 Rivian 自动驾驶与 AI 团队，并扩建伦敦 AI 中心。Rivian 每天从用户车队收到 40 多万段驾驶数据，希望结合该技术构建贴近真实世界的仿真器，无需等待罕见长尾场景出现即可训练和验证。"
-        },
-        {
-          "title": "高盛研究：若 AI 带来 15% 的生产率提升，约 9% 的美国劳动者（约 1500 万人）将在约十年转型期内被迫换岗，高于此前 6%–7% 的估计",
-          "url": "https://fortune.com/2026/10/22/goldman-sachs-forecast-how-many-jobs-lost-to-ai-9-percent/",
-          "source": "Fortune",
-          "date": "2026-10-22",
-          "summary": "高盛经济学家 Joseph Briggs 称 AI 目前已让科技、管理咨询、平面设计等行业每月就业增长少约 1 万–1.5 万个岗位，冲击主要落在白领和入门级岗位；预计失业率最多因此上升约 0.6 个百分点，几年后随新职业出现而回落。Fortune 指出这波冲击可能要到下一次经济衰退时才集中显现。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "arXiv：网络拓扑决定 LLM 群体的共识与脆弱性——稀疏网络使共识慢至 12 倍，占据枢纽节点仅需 3% 即可推翻约定",
+          "url": "https://arxiv.org/abs/2610.31165",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "基于四种 LLM 构建 10^3–10^5 个智能体的命名博弈；推翻约定所需临界规模中位数：枢纽 3%、随机 16%、低度节点 35%。"
+        },
+        {
+          "title": "arXiv OmniDR-Bench：首个以视频为中心的深度研究报告生成基准，50 个中英任务、6414 条原子评分标准",
+          "url": "https://arxiv.org/abs/2610.31158",
+          "source": "arXiv",
+          "date": "2026-10-22",
+          "summary": "覆盖 19 个子类，用 Omni-ARTs 评分树细粒度评估，测评 18 种智能体配置。"
+        },
         {
           "title": "Anthropic Frontier Red Team 联合 Theorem 用 Claude 大规模做形式化验证：在 100 多个真实开源库的 RISC-V 汇编层面证明安全属性，并发现多年未被测出的漏洞",
           "url": "https://www.anthropic.com/research/formal-verification",
@@ -146,6 +160,13 @@
           "source": "Google DeepMind",
           "date": "2026-10-22",
           "summary": "模型以 AlphaEarth Foundations 嵌入为关键输入、用约 170 万个标注点训练；在 9000 多个随机样点的专家核验中森林类型判对 90%、森林与非森林区分 95%，优于其他全球森林图。可识别天然林被砍后改种人工林这类从太空难以看出的变化，为欧盟零毁林法规（EUDR）提供基线，数据以开放许可在 Earth Engine 免费提供，论文发表于 Scientific Data。"
+        },
+        {
+          "title": "Google Research 在 JAMA Network Open 发表 AI 盲扫超声孕周评估研究：基层人员用低成本探头即达专家水平（MAE 4.18 vs 4.48 天）",
+          "url": "https://research.google/blog/empowering-frontline-maternal-care-with-ai-assisted-ultrasound/",
+          "source": "Google Research",
+          "date": "2026-10-21",
+          "summary": "385 名受试者，芝加哥 4.10 天、内罗毕 4.27 天且无需本地调参；仅经简短培训的卫生工作者使用 Clarius 便携探头完成盲扫。"
         },
         {
           "title": "RAG 可组合性研究（LASAGNA）：在 8 个基准、5K–20 万文档语料上测试 450 种配置，发现单独有效的 RAG 技术组合后增益并不叠加，检索质量与回答忠实度偏好的设计也不一致",
@@ -167,27 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "结合 PPO 强化学习与行为克隆的反馈循环，把验证成功的执行回收进训练，用于把人类双手操作演示重定向为机器人参考动作。"
-        },
-        {
-          "title": "Real PMIDs, Wrong Papers：生物医学论断核查智能体的 harness 消融——闭卷模型引用的 PubMed ID 几乎都真实存在（327/335），但只有 3 条与论断相关；让模型自写检索式可把命中金标准论文的召回提升至三倍",
-          "url": "https://arxiv.org/abs/2610.29812",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "在 SciFact 上以实时 PubMed API 为唯一工具，比较闭卷、单次检索、ReAct 式自写查询与给定金标准摘要四种 harness：单次检索仅找到 6% 金标准论文，ReAct 智能体准确率 62% 最佳；给定金标准摘要可达 79–86%，说明瓶颈在检索而非推理，仅做“引用是否存在”的校验远远不够。"
-        },
-        {
-          "title": "Events, Not Pixels：世界模型规划出错主要在“事件”帧而非画面质量——把少数得奖励或结束回合的真实转移替换回来，可消除中位 70% 的回报误差，而替换像素误差最大的帧还不如随机",
-          "url": "https://arxiv.org/abs/2610.29435",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "作者提出转移级诊断方法，在 44 组通过可靠性检验的 Atari-100k 模型—数据组合（含三个已发布模型家族）中，事件补丁有 39 组优于随机补丁（符号检验 p=1.4×10⁻⁷），中位提升 44 个百分点；事件补丁还能改善规划排序，提示世界模型评测应关注回报相关事件而非渲染保真度。"
-        },
-        {
-          "title": "“预算内递归自我改进”：在编码智能体改写自身脚手架前，用冻结的线性读出给候选代码修改打分再决定扩展哪个，GPT-4o 在留出 HumanEval+ 上达 87.0%",
-          "url": "https://arxiv.org/abs/2610.29121",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "读出基于父节点解题率与 diff 的 8 个特征，用 96 个已标注脚手架修改拟合；对比 Huxley-Gödel Machine 选择（85.1%）与初始脚手架（81.2%），Claude Sonnet 4.5 下二者接近（86.6% vs 86.5%），显示在评估昂贵时“先打分再运行”可降低自改进搜索成本。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "MiniMax 开源 M3.1 Flash 模型权重：428B 总参数 / 23B 激活的原生多模态 MoE，1M 上下文，全模型稀疏注意力 + 量化感知训练（路由专家 W4A4）",
+          "url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+          "source": "Hugging Face · MiniMax",
+          "date": "2026-10-23",
+          "summary": "10 月 19 日上线后 72 小时真实用户处理超 100 万亿 Token；DeepSWE v1.1 73.7%、OSWorld 2.0 61.7、CyberGym 82.2；华为昇腾、平头哥、昆仑芯、摩尔线程、英伟达、AMD 及 Together、Fireworks、vLLM、SGLang 等首日接入。"
+        },
         {
           "title": "微软与 Hugging Face 开源 ThinkingBox-Training：把“检查数据库最终状态”的可执行评测变成强化学习奖励，Qwen3.8-27B 仅 50 步 GRPO 平均成功率从 51.7% 升至 60.8%",
           "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
@@ -244,13 +251,6 @@
           "source": "Google Cloud",
           "date": "2026-10-22",
           "summary": "基于 Titanium IPU 与 Cloud Hypervisor 隔离，每个 microVM 有独立加密身份和短期凭据，凭据在出口侧注入、不进入沙箱；采用写时复制内存共享在同一系统模板上跑多个智能体。谷歌同时把 Gemini 企业版的智能体治理能力扩展到其他平台上的智能体。"
-        },
-        {
-          "title": "1Password 推出 1Password for Agents：AI 智能体遇到登录页时向用户设备推送审批，获批后由 1Password 代填凭据，智能体全程看不到密码",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1016399/1password-ai-agent-password-sign-in",
-          "source": "The Verge",
-          "date": "2026-10-22",
-          "summary": "智能体用唯一数字密钥向 1Password 证明身份，通知会说明需要哪个账号及原因，流程类似双因素认证；首批支持 Meta Muse、ChatGPT Work、Claude Duet、Grok Bot、Town 等，Browserbase、Browser Use、Kernel、Perplexity、Ramp 等正在接入。"
         }
       ]
     },
@@ -259,6 +259,20 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "宾夕法尼亚州长夏皮罗签署《AI 欺骗性广告法》（SB 806）：广告使用 AI 合成内容须清晰显著披露，60 天后生效",
+          "url": "https://www.wpxi.com/news/local/law-requiring-advertisers-disclose-when-they-are-using-ai-passes-pennsylvania/BYUPMQRUHFB27GXBLVHFXPZEKE/",
+          "source": "WPXI",
+          "date": "2026-10-22",
+          "summary": "披露须在首次呈现时同媒介展示，并在技术可行范围内难以移除；两党支持通过。"
+        },
+        {
+          "title": "OpenAI 致信加州州长纽森，建议修订 SB 53：训练期监控危险行为、加强网络安全、事件通知、关停控制与独立审计",
+          "url": "https://statescoop.com/openai-urges-newsom-to-strengthen-californias-ai-safety-law-with-additional-safeguards/",
+          "source": "StateScoop",
+          "date": "2026-10-22",
+          "summary": "10 月 20 日信函支持纽森 9 月行政令，希望其成为约束所有前沿开发者的行业规则，可在下一立法会期审议。"
+        },
         {
           "title": "The Verge/Nieman Lab：Meta 虽从新商业条款中删去“train（训练）”一词，法律专家称修订版仍允许其抓取企业账户“关联”网站内容并用于“开发广告与商业产品”，不足以排除用新闻网站训练 AI",
           "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
@@ -300,20 +314,6 @@
           "source": "ANSI / PR Newswire",
           "date": "2026-10-22",
           "summary": "ANSI 称该平台面向 AI 开发者、采购方与监管者，帮助发现并理解与某一 AI 系统相关的标准与合规证据，以支持负责任的 AI 采用。"
-        },
-        {
-          "title": "METR 与 Redwood Research 公布对 OpenAI 内部智能体失准监控系统的三周驻场红队测试：发现多项新漏洞，包括可让“数百条”近期动作逃过监控的利用方式",
-          "url": "https://metr.org/blog/2026-10-22-red-teaming-openai-agent-monitoring/",
-          "source": "METR",
-          "date": "2026-10-22",
-          "summary": "7 月 21 日至 8 月 11 日，两家机构各一名员工在陪同下用 OpenAI 配发设备访问其内部代码、监控提示词与文档并访谈约十几名工程师，形成 61 页内部报告。估计当时 GPT-5.5 及以上模型的内部智能体 Responses API 流量约 75%–94% 可被监控（内部 Codex 为 99.2%），RL 训练运行当时未覆盖；未监控上下文压缩事件约使 10% 的 Codex 流量漏监；还发现 Codex 智能体理论上可绕过沙箱与 Auto-Review。OpenAI 称已修补影响生产防护的漏洞（据 CNBC）。"
-        },
-        {
-          "title": "路透社：波兰承诺加入 HealthAI 牵头的医疗 AI 全球监管网络（GRN），成为继葡萄牙之后第二个加入的欧盟成员国",
-          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/poland-to-become-second-eu-member-of-global-healthcare-ai-network/articleshow/135111273.cms",
-          "source": "Reuters / Economic Times",
-          "date": "2026-10-22",
-          "summary": "GRN 成员还包括英国、印度、巴西、新加坡、菲律宾、印尼、越南、赞比亚和秘鲁，可共享经监管审查的医疗 AI 工具，并使用实时有害事件预警系统；HealthAI 称波兰加入暂无固定时间表，协议建立为期一年的合作框架。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "商务部：前三季度重点平台智能眼镜销售额增长 1.1 倍，外骨骼助力器增长 46.4%，具身智能机器人增长 22.6%",
+          "url": "https://www.ithome.com/1/016/821.htm",
+          "source": "IT之家 / 商务部",
+          "date": "2026-10-23",
+          "summary": "商务部消费促进司介绍前三季度消费市场，绿色、智能、健康消费需求旺盛；前三季度社零总额增长 1.1%。"
+        },
+        {
+          "title": "讯飞医疗星火医疗大模型 V3.7 升级：语音、影像、语义多模态融合，MedBench 5.0 获 99.6 分",
+          "url": "https://www.ithome.com/1/016/830.htm",
+          "source": "IT之家 / 讯飞医疗",
+          "date": "2026-10-22",
+          "summary": "诊疗助理病历生成合理率提升至 85%；智医助理覆盖 31 省 828 区县、7.7 万家基层机构，累计 AI 辅诊建议超 12 亿次。"
+        },
         {
           "title": "第一财经/玉渊谭天：《禁止出口限制出口技术目录》征求意见后，DeepSeek、MiniMax 已完成登记手续，并完成开源和海外授权使用",
           "url": "https://www.yicai.com/news/103405081.html",
@@ -363,20 +377,6 @@
           "source": "36氪（证券时报）",
           "date": "2026-10-22",
           "summary": "签约在财政司司长陈茂波见证下举行，智元表示将在港持续推进科研合作、人才培养与具身智能技术落地；同日智元刚签下上海前滩等超 22 万平方米办公面积。"
-        },
-        {
-          "title": "小鹏第二代 VLA 大模型升级时序理解与未来行为预测并端侧落地人形机器人 IRON：每 0.2 秒按眼前画面重新推理一次、预测 6 秒内动作变化，可应对握手、击掌中途“变招”",
-          "url": "https://www.ithome.com/1/016/667.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "小鹏称 IRON 与人握手、碰拳、击掌时不是识别一次手势再执行整套动作，而是持续观察、实时判断并调整，让“看到什么”与“身体怎么动”形成实时闭环；IRON 与小鹏汽车共用同一物理 AI 基座。小鹏计划 2026 年底实现人形机器人量产、2027 年上半年开启交付，先落地门店、商场等商业场景。"
-        },
-        {
-          "title": "米哈游崩坏 AI 团队联合清华、北大、国科大、港大、新国立开源 GameScaling 游戏智能体模型：基于 Qwen3.5 视觉语言模型用键鼠游戏数据继续预训练，发布 0.8B–27B 共 8 个检查点",
-          "url": "https://www.ithome.com/1/016/575.htm",
-          "source": "IT之家",
-          "date": "2026-10-22",
-          "summary": "模型读取当前及此前游戏画面与操作记录，输出后续键盘鼠标指令，每次调用生成约 200 毫秒的操作序列（6 个 33 毫秒步骤）；覆盖《我的世界》采矿合成打僵尸、《毁灭战士》战斗寻路与密室解谜。S1 仅用《我的世界》数据，S3 为多游戏混合，均用 1600 小时游戏数据；0.8B/2B/9B 可单卡部署，27B 需两卡，代码与权重 Apache 2.0（论文 arXiv 2610.28698）。"
         }
       ]
     },
@@ -385,6 +385,13 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "bowenliang123/dsh-context",
+          "url": "https://github.com/bowenliang123/dsh-context",
+          "source": "GitHub · TypeScript · ⭐ 3412",
+          "date": "2026-10-23",
+          "summary": "DeepSeek Harness 上下文可视化插件：面板、浏览器与侧边栏查看上下文构成、演化、压缩及多智能体团队，今日 TypeScript 趋势榜 +296 星。"
+        },
         {
           "title": "genspark-ai/genoffice",
           "url": "https://github.com/genspark-ai/genoffice",
@@ -433,13 +440,6 @@
           "source": "GitHub · TypeScript · ⭐ 182（10 月 20 日新建）",
           "date": "2026-10-22",
           "summary": "“一张照片 → 按爆款模板生成 AI 视频”SaaS 站点开源模板（MIT）：每个热门关键词一站，基于 Cloudflare Workers + D1/R2/KV/Queues、TanStack Start + Hono，fal.ai 生成视频，含 Google 登录、积分包与管理后台。"
-        },
-        {
-          "title": "Monopoly0024/simple-checker-v1",
-          "url": "https://github.com/Monopoly0024/simple-checker-v1",
-          "source": "GitHub · Python · ⭐ 124（10 月 21 日新建）",
-          "date": "2026-10-22",
-          "summary": "Codex 技能：把代码拆解为功能板块，用彩色流程图和运行证据复核功能是否真正实现，辅助 AI 写代码与迭代时自查。"
         }
       ]
     },
@@ -448,6 +448,20 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@MiniMax_AI",
+          "url": "https://x.com/MiniMax_AI/status/2113452026902589732",
+          "source": "X · MiniMax",
+          "date": "2026-10-23",
+          "summary": "宣布 MiniMax M3.1 Flash 权重开源，Together AI 等为首日合作伙伴。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113450375827042528",
+          "source": "X · Bloomberg",
+          "date": "2026-10-23",
+          "summary": "彭博 Big Take：华尔街高频交易公司被迫卷入 AI 算力竞赛，但投入未必换来成功。"
+        },
         {
           "title": "@verge",
           "url": "https://x.com/verge/status/2113423209215443023",
@@ -463,6 +477,20 @@
           "summary": "彭博：澳大利亚主要城市周边规划中的数据中心超过四分之三面临电网吃紧与地方反对风险，威胁其成为亚太 AI 枢纽的雄心。"
         },
         {
+          "title": "@theinformation",
+          "url": "https://x.com/theinformation/status/2113367298543075482",
+          "source": "X · The Information",
+          "date": "2026-10-22",
+          "summary": "要求通过限制 OpenAI、Anthropic 研究人员可用算力来放缓 AI 发展的呼声正在增多。"
+        },
+        {
+          "title": "@theinformation",
+          "url": "https://x.com/theinformation/status/2113382463560929287",
+          "source": "X · The Information",
+          "date": "2026-10-22",
+          "summary": "中国开源模型能力快速追赶，正在缩短网络安全防御方的应对窗口。"
+        },
+        {
           "title": "@business",
           "url": "https://x.com/business/status/2113418509061337185",
           "source": "X · Bloomberg",
@@ -475,34 +503,6 @@
           "source": "X · Bloomberg",
           "date": "2026-10-22",
           "summary": "彭博观点：中国会在让世界依赖其廉价 AI 后“断供”吗？作者认为暂时不会，但北京正在提醒世界它有这个能力。"
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2113399773742916091",
-          "source": "X · TechCrunch",
-          "date": "2026-10-22",
-          "summary": "TechCrunch 报道 a16z 由 Chris Dixon 掌舵的数字资产部门更名为 a16z Frontier、扩大投资范围至 AI 等前沿技术。"
-        },
-        {
-          "title": "@a16z",
-          "url": "https://x.com/a16z/status/2113404552439558377",
-          "source": "X · a16z",
-          "date": "2026-10-22",
-          "summary": "a16z 发布 Greg Brockman 访谈片段：AI 已能发现影响整个互联网的漏洞，他谈防守方为何仍能占优、OpenAI 如何自我加固，以及其 10 亿美元保护关键基础设施的承诺。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113408827248812369",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博：过去一周大举买入 AI 核心半导体股的散户投资者，在周四的暴跌中损失惨重。"
-        },
-        {
-          "title": "@AnthropicAI",
-          "url": "https://x.com/AnthropicAI/status/2113390212911083894",
-          "source": "X · Anthropic",
-          "date": "2026-10-22",
-          "summary": "Anthropic 在 Frontier Red Team 博客发布用 Claude 大规模形式化验证软件的研究：形式化验证可证明代码不含特定类别漏洞，过去只适用于小代码库或需大量专家时间。"
         }
       ]
     }
