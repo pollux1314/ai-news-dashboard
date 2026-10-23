@@ -1,7 +1,117 @@
 {
- "updated": "2026-10-23T18:32:00+08:00",
- "count": 1430,
+ "updated": "2026-10-23T19:30:00+08:00",
+ "count": 1441,
  "items": [
+  {
+   "title": "彭博：Anthropic 筹备大规模 IPO，但竞争加剧、大规模失业风险与监管冲击使其成为异常高风险押注，市场讨论估值或至约 2 万亿美元",
+   "url": "https://www.bloomberg.com/news/articles/2026-10-23/anthropic-ipo-why-a-2-trillion-valuation-faces-major-risks",
+   "source": "Bloomberg",
+   "date": "2026-10-23",
+   "summary": "彭博分析称 Anthropic 向投资者的叙事本身即以“技术可能威胁就业乃至人类”为起点；激烈竞争、失业与全面监管前景叠加，使这场有望创纪录的 AI IPO 对投资者而言风险结构不同寻常。",
+   "id": "4542fe23b1de2cd6e8f9dda55b75f10869d55514",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.31624：质疑 RLVR 中的工具性收敛——OLMo-3 检查点轨迹显示工具性行为先升后降，终局低于 SFT",
+   "url": "https://arxiv.org/abs/2610.31624",
+   "source": "arXiv",
+   "date": "2026-10-23",
+   "summary": "用 InstrumentalEval 评估 OLMo-3-7B-Think：工具性比率从 SFT 的 25.0% 升至 RLVR 约第 200 步的 46.1%，终局降至 11.8%；32B 端点也从 35.5% 降至 22.4%。提示词框架与线性去偏未能解释终局下降。",
+   "id": "68259bbe1bea028e9f4f11fcbe638d5eb531cb55",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "arXiv 2610.31593：Simulated Control Evals——用语言模型模拟工具响应，拓宽 AI 控制评测可运行场景",
+   "url": "https://arxiv.org/abs/2610.31593",
+   "source": "arXiv",
+   "date": "2026-10-23",
+   "summary": "提出 SCE：以 LM 模拟工具响应替代真实环境做控制评测。在 LinuxArena 上，独立采样任务集时 SCE 对安全指标的 RMSE 约 3.6 个百分点（5% 审计预算、五个监控器），优于对照设定 BashArena 的 10.1。",
+   "id": "97e37cc8feba42b5f80b7b394cf393fdd6ced4e9",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "科大讯飞 1024 开发者节：发布端云一体星火 X2.6（百万 Tokens 上下文并开源 X2.6-4B）、星辰 TaaS 平台与企业级 Agent OS",
+   "url": "https://www.qbitai.com/2026/10/505083.html",
+   "source": "量子位",
+   "date": "2026-10-23",
+   "summary": "刘庆峰发布星火 X2.6 与端云路由协同（路由准确率提至 96.1%）；首次推出星辰 TaaS（从 MaaS 到行业方案全链路）及 Agent OS（与 APA 协同，称跨系统协同效率提升 90%）。同步发布 SparkAudio 1.0 等。",
+   "id": "0a636c3d051e1fbbe2a069aa45aa823ab5eef874",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "荣耀亮相 CEIC：Magic9 系列作为搭载系统级 Agent Harness 的 AI 智能体手机展出，YOYO 综合任务准确率称达 91.8%",
+   "url": "https://finance.jrj.com.cn/2026/10/23124158834099.shtml",
+   "source": "金融界",
+   "date": "2026-10-23",
+   "summary": "10 月 23 日深圳 CEIC，荣耀 AI 首席科学家黄非称终端将成智能体运行载体，核心是智能体操作系统；Magic9 依托 YOYO 跨应用执行多步任务、主动服务超千个生活场景，并展示机器人等全场景生态。",
+   "id": "356b98b33cb5c405eb4f679176ef2d37ee9c7896",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "SnailSploit/Claude-Red",
+   "url": "https://github.com/SnailSploit/Claude-Red",
+   "source": "GitHub · Python · ⭐ 8009",
+   "date": "2026-10-23",
+   "summary": "面向 Claude Skills 的进攻性安全技能库：每个技能为结构化 SKILL.md，覆盖 SQLi、shellcode、EDR 规避到漏洞利用等方法论；今日趋势榜约 +209 星。",
+   "id": "983f23e99302862c6c2d096dc494f5ab1b1a97e4",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "OpenBMB/VoxCPM",
+   "url": "https://github.com/OpenBMB/VoxCPM",
+   "source": "GitHub · Python · ⭐ 39992",
+   "date": "2026-10-23",
+   "summary": "VoxCPM2：无分词器 TTS，支持多语言语音生成、创意音色设计与高保真克隆；今日趋势榜约 +144 星。",
+   "id": "0d88eaa1830b5f5119b854718441aa33e86a80a8",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113584979099689050",
+   "source": "X · Bloomberg",
+   "date": "2026-10-23",
+   "summary": "彭博：Anthropic 筹备大规模 IPO，但竞争、失业风险与监管前景使其成为异常高风险押注。",
+   "id": "8b03f227d5bc3bd018613a9c3c2b4b6413ef076a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "@testingcatalog",
+   "url": "https://x.com/testingcatalog/status/2113564061707149646",
+   "source": "X · TestingCatalog",
+   "date": "2026-10-23",
+   "summary": "快手可灵正式发布 Kling 4.0：Omni Reference 单次可组合最多 15 个图像/视频/主体/声音参考，单次生成最长约 30 秒。",
+   "id": "ac54cfa54816f0c333825c7a7893ec45aa8fa349",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
+  {
+   "title": "@nvidia",
+   "url": "https://x.com/nvidia/status/2113565366660063496",
+   "source": "X · NVIDIA",
+   "date": "2026-10-23",
+   "summary": "英伟达：黄仁勋在阿斯塔纳与学生、创业公司及副总理会面，讨论哈萨克斯坦 AI 未来。",
+   "id": "3b5c6fd667b31909c85011d037403b2a2fd45c39",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T19:30:00+08:00"
+  },
   {
    "title": "Anthropic 与英国私募 Hg 达成协议，成立独立的欧洲 AI 咨询公司，向企业派驻 AI 顾问与工程师，预计年底前在伦敦、柏林启动",
    "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4",
@@ -584,6 +694,17 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "美国第五巡回上诉法院撤销密西西比反 DEI 法初步禁令：地方法官裁定充斥 AI 幻觉，含虚构当事人、不存在的判例与虚假引文，案件改派其他法官",
+   "url": "https://www.courthousenews.com/fifth-circuit-castigates-ai-rulings-in-school-diversity-policy-case/",
+   "source": "Courthouse News",
+   "date": "2026-10-22",
+   "summary": "Jerry Smith 法官执笔意见称地方法官 Wingate 的 TRO/禁令属“botch job”，承认书记官用 AI 起草后误入卷宗；更正版仍含不存在的第四巡回判例。合议庭撤销禁令并改派审理。判决 PDF：https://www.ca5.uscourts.gov/opinions/pub/25/25-60496-CV0.pdf",
+   "id": "76efd6a26140eeff197b69b6d06e823b00215204",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T19:30:00+08:00"
   },
   {
    "title": "Epic 宣布 11 月 12-15 日举办 AI MegaJam：每队最多 5 人加不限数量 AI 智能体，用 Unreal/UEFN 开发，奖金 6.5 万美元另加最高 5 万美元资助",

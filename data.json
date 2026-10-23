@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T18:32:00+08:00",
+  "updated": "2026-10-23T19:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "彭博：Anthropic 筹备大规模 IPO，但竞争加剧、大规模失业风险与监管冲击使其成为异常高风险押注，市场讨论估值或至约 2 万亿美元",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/anthropic-ipo-why-a-2-trillion-valuation-faces-major-risks",
+          "source": "Bloomberg",
+          "date": "2026-10-23",
+          "summary": "彭博分析称 Anthropic 向投资者的叙事本身即以“技术可能威胁就业乃至人类”为起点；激烈竞争、失业与全面监管前景叠加，使这场有望创纪录的 AI IPO 对投资者而言风险结构不同寻常。"
+        },
+        {
           "title": "Anthropic 与英国私募 Hg 达成协议，成立独立的欧洲 AI 咨询公司，向企业派驻 AI 顾问与工程师，预计年底前在伦敦、柏林启动",
           "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4",
           "source": "Financial Times",
@@ -118,13 +125,6 @@
           "source": "IT之家 / TrendForce",
           "date": "2026-10-23",
           "summary": "英特尔份额因 Diamond Rapids 出货迟缓从 50% 降至 42%，AMD 约 28%、英伟达 12%，AWS、谷歌自研 Arm CPU 份额上升。"
-        },
-        {
-          "title": "Epic 宣布 11 月 12-15 日举办 AI MegaJam：每队最多 5 人加不限数量 AI 智能体，用 Unreal/UEFN 开发，奖金 6.5 万美元另加最高 5 万美元资助",
-          "url": "https://www.pcgamer.com/software/ai/epic-announces-game-jam-where-you-have-to-use-ai/",
-          "source": "PC Gamer",
-          "date": "2026-10-22",
-          "summary": "活动最初要求必须使用 AI，遭开发者批评后 Epic 撤回强制规定。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "arXiv 2610.31624：质疑 RLVR 中的工具性收敛——OLMo-3 检查点轨迹显示工具性行为先升后降，终局低于 SFT",
+          "url": "https://arxiv.org/abs/2610.31624",
+          "source": "arXiv",
+          "date": "2026-10-23",
+          "summary": "用 InstrumentalEval 评估 OLMo-3-7B-Think：工具性比率从 SFT 的 25.0% 升至 RLVR 约第 200 步的 46.1%，终局降至 11.8%；32B 端点也从 35.5% 降至 22.4%。提示词框架与线性去偏未能解释终局下降。"
+        },
+        {
+          "title": "arXiv 2610.31593：Simulated Control Evals——用语言模型模拟工具响应，拓宽 AI 控制评测可运行场景",
+          "url": "https://arxiv.org/abs/2610.31593",
+          "source": "arXiv",
+          "date": "2026-10-23",
+          "summary": "提出 SCE：以 LM 模拟工具响应替代真实环境做控制评测。在 LinuxArena 上，独立采样任务集时 SCE 对安全指标的 RMSE 约 3.6 个百分点（5% 审计预算、五个监控器），优于对照设定 BashArena 的 10.1。"
+        },
         {
           "title": "arXiv 2610.30277：人机协同发现循环攻克 Lehmer 问题，“广义 Boyd 算法”在 2000 以内所有偶数次构造出低于 Boyd 极限的不可约多项式",
           "url": "https://arxiv.org/abs/2610.30277",
@@ -174,20 +188,6 @@
           "source": "arXiv / Hugging Face Daily Papers",
           "date": "2026-10-23",
           "summary": "作者发现主流分层 MoE 中不同层的专家存储内容高度相似、冗余明显，于是提出可在各层间共享的 Meta Expert。对比显示其参数冗余更低、交叉熵更低、下游准确率更高；理论分析认为共享专家为隐藏状态提供了更灵活的残差通路，提升信息检索效率。该文为 10 月 23 日 HF Daily Papers 票数最高论文。"
-        },
-        {
-          "title": "Anthropic 公开征集生命科学“客座研究员”：PI 团队可与 Anthropic 研究员合作 8–12 周，免费使用 Claude 模型与工具攻关因果人类生物学、药物发现等问题，成果开源",
-          "url": "https://www.anthropic.com/news/open-call-guest-investigators-life-sciences",
-          "source": "Anthropic",
-          "date": "2026-10-22",
-          "summary": "面向高校、非营利与政府实验室，方向涵盖结构与计算分子生物学、药物化学、临床科学等；申请开放约 14 天，研究者保留数据与后续研究权利，Anthropic 不索取其数据。"
-        },
-        {
-          "title": "arXiv：推理模型里的“wait”是继承而非 RL 发明——零 RL 几乎不会自创该词，它随中期训练或推理轨迹微调数据进入模型",
-          "url": "https://arxiv.org/abs/2610.30882",
-          "source": "arXiv · Hugging Face Daily Papers",
-          "date": "2026-10-22",
-          "summary": "论文《Inherited, Not Invented》追踪开源模型训练历程中“wait”的出现：在基座不含该词时 RL 仍能大幅提升 MATH-500 而“wait”几乎不出现；OLMo-3 在中期训练引入该词，已含该词的基座经 RL-Zero 配方会被放大，而无 KL 的 GRPO 则不会。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "美国第五巡回上诉法院撤销密西西比反 DEI 法初步禁令：地方法官裁定充斥 AI 幻觉，含虚构当事人、不存在的判例与虚假引文，案件改派其他法官",
+          "url": "https://www.courthousenews.com/fifth-circuit-castigates-ai-rulings-in-school-diversity-policy-case/",
+          "source": "Courthouse News",
+          "date": "2026-10-22",
+          "summary": "Jerry Smith 法官执笔意见称地方法官 Wingate 的 TRO/禁令属“botch job”，承认书记官用 AI 起草后误入卷宗；更正版仍含不存在的第四巡回判例。合议庭撤销禁令并改派审理。判决 PDF：https://www.ca5.uscourts.gov/opinions/pub/25/25-60496-CV0.pdf"
+        },
+        {
           "title": "国务院办公厅印发《关于适应人工智能技术发展助力构建就业友好型发展方式的意见》：6 方面 18 项任务，培育 AI 新职业、减缓 AI 对就业的替代冲击",
           "url": "https://www.chinanews.com.cn/gn/2026/10-23/10719857.shtml",
           "source": "中国新闻网",
@@ -307,13 +314,6 @@
           "source": "WPXI",
           "date": "2026-10-22",
           "summary": "披露须在首次呈现时同媒介展示，并在技术可行范围内难以移除；两党支持通过。"
-        },
-        {
-          "title": "OpenAI 致信加州州长纽森，建议修订 SB 53：训练期监控危险行为、加强网络安全、事件通知、关停控制与独立审计",
-          "url": "https://statescoop.com/openai-urges-newsom-to-strengthen-californias-ai-safety-law-with-additional-safeguards/",
-          "source": "StateScoop",
-          "date": "2026-10-22",
-          "summary": "10 月 20 日信函支持纽森 9 月行政令，希望其成为约束所有前沿开发者的行业规则，可在下一立法会期审议。"
         }
       ]
     },
@@ -322,6 +322,20 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "科大讯飞 1024 开发者节：发布端云一体星火 X2.6（百万 Tokens 上下文并开源 X2.6-4B）、星辰 TaaS 平台与企业级 Agent OS",
+          "url": "https://www.qbitai.com/2026/10/505083.html",
+          "source": "量子位",
+          "date": "2026-10-23",
+          "summary": "刘庆峰发布星火 X2.6 与端云路由协同（路由准确率提至 96.1%）；首次推出星辰 TaaS（从 MaaS 到行业方案全链路）及 Agent OS（与 APA 协同，称跨系统协同效率提升 90%）。同步发布 SparkAudio 1.0 等。"
+        },
+        {
+          "title": "荣耀亮相 CEIC：Magic9 系列作为搭载系统级 Agent Harness 的 AI 智能体手机展出，YOYO 综合任务准确率称达 91.8%",
+          "url": "https://finance.jrj.com.cn/2026/10/23124158834099.shtml",
+          "source": "金融界",
+          "date": "2026-10-23",
+          "summary": "10 月 23 日深圳 CEIC，荣耀 AI 首席科学家黄非称终端将成智能体运行载体，核心是智能体操作系统；Magic9 依托 YOYO 跨应用执行多步任务、主动服务超千个生活场景，并展示机器人等全场景生态。"
+        },
         {
           "title": "中央网信委印发《国家信息化“十五五”规划》：设 12 项指标，含新型智能终端与智能体普及率，提出布局发展智能互联网、适时推进 6G 商用",
           "url": "https://www.ithome.com/1/017/185.htm",
@@ -363,20 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-23",
           "summary": "2026 年 6 月国内日均词元消耗约 500 万亿、为 2025 年 12 月近 4 倍；国外典型模型 TPS 约 112.82 仍领先，监测模型中 1M 上下文占比 47.8%。"
-        },
-        {
-          "title": "商务部：前三季度重点平台智能眼镜销售额增长 1.1 倍，外骨骼助力器增长 46.4%，具身智能机器人增长 22.6%",
-          "url": "https://www.ithome.com/1/016/821.htm",
-          "source": "IT之家 / 商务部",
-          "date": "2026-10-23",
-          "summary": "商务部消费促进司介绍前三季度消费市场，绿色、智能、健康消费需求旺盛；前三季度社零总额增长 1.1%。"
-        },
-        {
-          "title": "讯飞医疗星火医疗大模型 V3.7 升级：语音、影像、语义多模态融合，MedBench 5.0 获 99.6 分",
-          "url": "https://www.ithome.com/1/016/830.htm",
-          "source": "IT之家 / 讯飞医疗",
-          "date": "2026-10-22",
-          "summary": "诊疗助理病历生成合理率提升至 85%；智医助理覆盖 31 省 828 区县、7.7 万家基层机构，累计 AI 辅诊建议超 12 亿次。"
         }
       ]
     },
@@ -385,6 +385,20 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "SnailSploit/Claude-Red",
+          "url": "https://github.com/SnailSploit/Claude-Red",
+          "source": "GitHub · Python · ⭐ 8009",
+          "date": "2026-10-23",
+          "summary": "面向 Claude Skills 的进攻性安全技能库：每个技能为结构化 SKILL.md，覆盖 SQLi、shellcode、EDR 规避到漏洞利用等方法论；今日趋势榜约 +209 星。"
+        },
+        {
+          "title": "OpenBMB/VoxCPM",
+          "url": "https://github.com/OpenBMB/VoxCPM",
+          "source": "GitHub · Python · ⭐ 39992",
+          "date": "2026-10-23",
+          "summary": "VoxCPM2：无分词器 TTS，支持多语言语音生成、创意音色设计与高保真克隆；今日趋势榜约 +144 星。"
+        },
         {
           "title": "alibaba/open-code-review",
           "url": "https://github.com/alibaba/open-code-review",
@@ -426,20 +440,6 @@
           "source": "GitHub · TypeScript · ⭐ 6912",
           "date": "2026-10-22",
           "summary": "CopilotKit 的开源“AI 同事”（MIT）：每个智能体拥有独立电脑（浏览器、文件与工具），每个动作先审批决定、事后留痕记录，可接入任意 AG-UI 智能体，今日 GitHub 趋势榜上榜。"
-        },
-        {
-          "title": "firecrawl/firecrawl",
-          "url": "https://github.com/firecrawl/firecrawl",
-          "source": "GitHub · TypeScript · ⭐ 194206",
-          "date": "2026-10-22",
-          "summary": "为 AI 智能体抓取与结构化网页数据的 Firecrawl（AGPL-3.0），今日 GitHub 总趋势榜新增约 455 星。"
-        },
-        {
-          "title": "HKUDS/Vibe-Trading",
-          "url": "https://github.com/HKUDS/Vibe-Trading",
-          "source": "GitHub · Python · ⭐ 36285",
-          "date": "2026-10-22",
-          "summary": "港大数据智能实验室的个人交易智能体（MIT）：“一条命令让你的智能体获得完整交易能力”，FastAPI + React 19，可 pip 安装 vibe-trading-ai，今日 GitHub Python 趋势榜上榜。"
         }
       ]
     },
@@ -448,6 +448,27 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113584979099689050",
+          "source": "X · Bloomberg",
+          "date": "2026-10-23",
+          "summary": "彭博：Anthropic 筹备大规模 IPO，但竞争、失业风险与监管前景使其成为异常高风险押注。"
+        },
+        {
+          "title": "@testingcatalog",
+          "url": "https://x.com/testingcatalog/status/2113564061707149646",
+          "source": "X · TestingCatalog",
+          "date": "2026-10-23",
+          "summary": "快手可灵正式发布 Kling 4.0：Omni Reference 单次可组合最多 15 个图像/视频/主体/声音参考，单次生成最长约 30 秒。"
+        },
+        {
+          "title": "@nvidia",
+          "url": "https://x.com/nvidia/status/2113565366660063496",
+          "source": "X · NVIDIA",
+          "date": "2026-10-23",
+          "summary": "英伟达：黄仁勋在阿斯塔纳与学生、创业公司及副总理会面，讨论哈萨克斯坦 AI 未来。"
+        },
         {
           "title": "@FT",
           "url": "https://x.com/FT/status/2113560478433640773",
@@ -482,27 +503,6 @@
           "source": "X · Bloomberg",
           "date": "2026-10-23",
           "summary": "彭博：前 Snap 高管创办的 AI 视频创企 Higgsfield 获英伟达与 TCV 投资，用于全球基础设施与招聘。"
-        },
-        {
-          "title": "@JasonDClinton",
-          "url": "https://x.com/JasonDClinton/status/2113325263157395456",
-          "source": "X · Jason D. Clinton（Anthropic 副 CISO）",
-          "date": "2026-10-23",
-          "summary": "过去 4 天网络安全形势已很糟，接下来还会更糟才会好转；呼吁安全负责人立即找董事会要资源补“基础防护”而非 AI，“需要坚持约 18 个月”。帖子浏览量超 270 万。"
-        },
-        {
-          "title": "@alexandr_wang",
-          "url": "https://x.com/alexandr_wang/status/2113430642440736859",
-          "source": "X · Alexandr Wang",
-          "date": "2026-10-23",
-          "summary": "Meta 首席 AI 官宣布 Muse 今日在日本上线，已可在各大应用商店下载。"
-        },
-        {
-          "title": "@claudeai",
-          "url": "https://x.com/claudeai/status/2113360845409583307",
-          "source": "X · Claude",
-          "date": "2026-10-23",
-          "summary": "从下周起，Claude 网页、桌面和移动端在 Pro、Max、Team 套餐中默认以 auto mode 运行：不再逐步请求批准，由自动检查拦截高风险操作，可随时切回手动模式。"
         }
       ]
     }
