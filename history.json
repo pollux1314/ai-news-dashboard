@@ -1,7 +1,150 @@
 {
- "updated": "2026-10-24T00:35:00+08:00",
- "count": 1490,
+ "updated": "2026-10-24T01:45:00+08:00",
+ "count": 1503,
  "items": [
+  {
+   "title": "月之暗面发布 Kimi K3.1 Pro：2.8T 总参/104B 激活 MoE、1M 上下文多模态，Terminal-Bench 4.0 达 65.7%，11 月 4 日前开源权重",
+   "url": "https://kimi.ai/blog/kimi-k3-1-pro",
+   "source": "Kimi 官方博客",
+   "date": "2026-10-23",
+   "summary": "K3.1 Pro 在 Terminal-Bench 4.0 得分 65.7%（GPT-6 Astra 58.2%、Claude Opus 5.5 66.4%），BenchCAD 工具版 92.7%，断言级幻觉率由 23.4% 降至 8.3%；已上线 Kimi.ai、Kimi Work、Kimi Code 与 API（kimi-k3.1-pro 及快 2–3 倍的 highspeed 版）。开源版移除了网络攻防数据（xdev-bench-hard 81.0% vs 未移除 90.5%）。",
+   "id": "3599c9715bbbe9051121fa1de35b5d0f615a6aac",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "彭博数据：Anthropic 9650 亿美元估值下早期投资者账面暴涨，Iconiq 60 亿美元投资增值至 170 亿，Spark 7500 万美元变 70 亿",
+   "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+   "source": "TechCrunch",
+   "date": "2026-10-23",
+   "summary": "据彭博测算，Eric Schmidt 约 1% 持股价值约 100 亿美元，Menlo 持股约 140 亿美元，红杉 30 亿美元约换得 1% 股份；Anthropic 正筹备 IPO。",
+   "id": "3eff9c59371bf8649501d6c726f81fe1c60bb74b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "美国财长贝森特：AI 不会重演互联网泡沫，“这可不是 Pets.com”，未见系统性问题",
+   "url": "https://www.ithome.com/1/016/795.htm",
+   "source": "IT之家（援引 FT）",
+   "date": "2026-10-23",
+   "summary": "贝森特 10 月 21 日在摩根大通与罗宾汉基金会活动上接受桥水 CEO Nir Bar Dea 访谈时称，AI 投资热潮与 2000 年互联网泡沫不同，看不到“系统性问题”。",
+   "id": "302392793281e006a6418e5ca4979f4bd7fb1f03",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "路透：AT&T 与 T-Mobile 收紧 AI 护栏，完全自治网络仍需数年",
+   "url": "https://www.channelnewsasia.com/business/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-6487386",
+   "source": "CNA（路透）",
+   "date": "2026-10-23",
+   "summary": "T-Mobile CTO John Saw 称正加大监控投入；AT&T CTO Jeremy Legg 表示第三方 AI 智能体是行业难题，AT&T 正核验智能体是否代表合法客户。T-Mobile 自组织网络在冬季风暴 Fern 中 1 小时内恢复 66% 用户。",
+   "id": "404b092e0ca0c30b8920a267d661ff0eef495f29",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "arXiv：Who Is Sycophantic to Whom? 用户对伪造事实的 AI 助手几乎不降信任，测验得分从 7.4 跌至 2.9",
+   "url": "https://arxiv.org/abs/2610.31579",
+   "source": "arXiv",
+   "date": "2026-10-23",
+   "summary": "32 名参与者与伪造 0–100% 事实的 GPT-5-mini 助手交互，约 65% 的错误信息被采纳，置信度判别 AUROC 从 0.70 跌至随机水平，而信任度几乎不变。",
+   "id": "e6f78de1a5e16ef8e53081e92295c2090ef54f9e",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "arXiv：Trion-1，首个统一序列、结构与语言的蛋白质多模态扩散大模型",
+   "url": "https://arxiv.org/abs/2610.31215",
+   "source": "arXiv",
+   "date": "2026-10-23",
+   "summary": "覆盖 6 类任务，单样本折叠 TM-score 超过 0.8，相当于现有模型采样 200 次的效果。",
+   "id": "1c98510c663a557cc4dbabcb345eaa47289b441d",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "The Verge：谷歌隐私政策更新，接入 Personal Intelligence/AI 模式的 Gmail、Photos、Drive 数据可能用于个性化广告",
+   "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+   "source": "The Verge",
+   "date": "2026-10-23",
+   "summary": "谷歌 10 月 16 日起在隐私政策中新增例外：用户连接到 Personal Intelligence 或 AI 模式的 Gmail、Photos、Drive 数据可用于广告个性化，敏感类别除外，用户可在设置中断开连接。",
+   "id": "55f38e2b0de99dcec02bd5e181d20522fbd198b1",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "ai-dynamo/dynamo",
+   "url": "https://github.com/ai-dynamo/dynamo",
+   "source": "GitHub · Rust · ⭐ 8373",
+   "date": "2026-10-23",
+   "summary": "NVIDIA 开源的数据中心级分布式推理服务框架，支持分离式 prefill/decode 与 KV 缓存感知路由；本周登上 GitHub 趋势榜。",
+   "id": "2b87f6c2803dc241c51fdb2f98f38394847defea",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "agentgateway/agentgateway",
+   "url": "https://github.com/agentgateway/agentgateway",
+   "source": "GitHub · Rust · ⭐ 5526",
+   "date": "2026-10-23",
+   "summary": "面向 AI 智能体与 MCP 服务器的新一代代理网关，提供连接、安全与可观测能力；登上 GitHub 趋势榜。",
+   "id": "a0d758f560c1ff05fefeedfb07f0be690bf35d19",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "ZSeven-W/openpencil",
+   "url": "https://github.com/ZSeven-W/openpencil",
+   "source": "GitHub · Rust · ⭐ 6437",
+   "date": "2026-10-23",
+   "summary": "开源 AI 原生矢量设计工具，支持并发智能体团队与 Design-as-Code，可在画布上用提示词直接生成 UI；登上 GitHub 趋势榜。",
+   "id": "909aab01f7102fd9edbcfa4ecd92392b4b8be5e8",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "anomalyco/hex",
+   "url": "https://github.com/anomalyco/hex",
+   "source": "GitHub · Rust · ⭐ 552",
+   "date": "2026-10-23",
+   "summary": "本地优先的 macOS 语音听写工具：按住快捷键说话即可粘贴到任意应用，原生 Rust 与端侧语音识别，提供 Linux 测试版；登上 GitHub 趋势榜。",
+   "id": "0f4537518a872dde2535897797aefd8258c49858",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "@Kimi_Moonshot：正式发布 Kimi K3.1 Pro，已上线 Kimi 全线产品与 API",
+   "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
+   "source": "X @Kimi_Moonshot",
+   "date": "2026-10-23",
+   "summary": "官方发布帖获 1.3k+ 赞；强调长程编码、智能体与幻觉率大幅下降，开源权重将于 11 月 4 日前发布。",
+   "id": "f9a7df7dfb991ea6be9380efb2ba48f0ed4868de",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
+  {
+   "title": "@verge：谷歌称可能使用 Gmail 与 Google Photos 数据定向投放广告",
+   "url": "https://x.com/verge/status/2113675757545500769",
+   "source": "X @verge",
+   "date": "2026-10-23",
+   "summary": "涉及接入 Personal Intelligence/AI 模式的个人数据，敏感类别除外。",
+   "id": "29ea1a7562249d739a228d3ca2210d5dcb895136",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T01:45:00+08:00"
+  },
   {
    "title": "General Reasoning 提出 RLCR（集体奖励强化学习）并发布 120B 长程推理模型 Avalon-M1-Mini：把多个智能体当作一家“组织”共享留言板与工作区联合训练，自发形成层级分工并雇佣验证者",
    "url": "https://www.gr.inc/releases/avalon-m1",

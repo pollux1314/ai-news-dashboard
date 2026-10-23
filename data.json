@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-24T00:35:00+08:00",
+  "updated": "2026-10-24T01:45:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "月之暗面发布 Kimi K3.1 Pro：2.8T 总参/104B 激活 MoE、1M 上下文多模态，Terminal-Bench 4.0 达 65.7%，11 月 4 日前开源权重",
+          "url": "https://kimi.ai/blog/kimi-k3-1-pro",
+          "source": "Kimi 官方博客",
+          "date": "2026-10-23",
+          "summary": "K3.1 Pro 在 Terminal-Bench 4.0 得分 65.7%（GPT-6 Astra 58.2%、Claude Opus 5.5 66.4%），BenchCAD 工具版 92.7%，断言级幻觉率由 23.4% 降至 8.3%；已上线 Kimi.ai、Kimi Work、Kimi Code 与 API（kimi-k3.1-pro 及快 2–3 倍的 highspeed 版）。开源版移除了网络攻防数据（xdev-bench-hard 81.0% vs 未移除 90.5%）。"
+        },
         {
           "title": "Meta 个人 AI 智能体 Muse 登陆日本：北美以外首个市场，iOS/Android 与 muse.ai 同步上线，基础功能免费、订阅 2,799 日元/月起",
           "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
@@ -55,13 +62,6 @@
           "source": "The Verge",
           "date": "2026-10-22",
           "summary": "安全公司 Claroc 本周报告可通过被动 DNS 查到 6800 多个 Muse 分享页，含公司营收复盘、贷款申请等敏感内容，Meta 随即暂停分享。Meta 的 David Singleton 在 X 上称问题出在文档、图片等 artifact 的网址设计而非对话分享，现已修复；修复前分享过的 artifact 已换新网址，访问旧链接会提示向分享者索取新链接。"
-        },
-        {
-          "title": "OpenAI Decisions API 正式全面开放：基于 GPT-6 Luna 专做有限选项的“决策”问题（分类、路由、下一步动作），比经 Responses API 调用 Luna 快至多 10 倍",
-          "url": "https://openai.com/index/decisions-api/",
-          "source": "OpenAI",
-          "date": "2026-10-22",
-          "summary": "公测以来新增 GPT-Live 原生集成、提示缓存、美国/欧盟推理驻留，支持原生 JSON 输入、在题目中附图，单请求最多 400 个问题（翻倍）；Box、Datadog、Ramp、Sierra、Speak 等早期客户称提速 3–40 倍。TechCrunch 指出这是 OpenAI 对 TypeSafe Jev 等“决策模型”的正面竞争，但在 AIM 与 Artificial Analysis 决策榜上分列第 8 与第 14。"
         }
       ]
     },
@@ -70,6 +70,27 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "彭博数据：Anthropic 9650 亿美元估值下早期投资者账面暴涨，Iconiq 60 亿美元投资增值至 170 亿，Spark 7500 万美元变 70 亿",
+          "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
+          "source": "TechCrunch",
+          "date": "2026-10-23",
+          "summary": "据彭博测算，Eric Schmidt 约 1% 持股价值约 100 亿美元，Menlo 持股约 140 亿美元，红杉 30 亿美元约换得 1% 股份；Anthropic 正筹备 IPO。"
+        },
+        {
+          "title": "美国财长贝森特：AI 不会重演互联网泡沫，“这可不是 Pets.com”，未见系统性问题",
+          "url": "https://www.ithome.com/1/016/795.htm",
+          "source": "IT之家（援引 FT）",
+          "date": "2026-10-23",
+          "summary": "贝森特 10 月 21 日在摩根大通与罗宾汉基金会活动上接受桥水 CEO Nir Bar Dea 访谈时称，AI 投资热潮与 2000 年互联网泡沫不同，看不到“系统性问题”。"
+        },
+        {
+          "title": "路透：AT&T 与 T-Mobile 收紧 AI 护栏，完全自治网络仍需数年",
+          "url": "https://www.channelnewsasia.com/business/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-6487386",
+          "source": "CNA（路透）",
+          "date": "2026-10-23",
+          "summary": "T-Mobile CTO John Saw 称正加大监控投入；AT&T CTO Jeremy Legg 表示第三方 AI 智能体是行业难题，AT&T 正核验智能体是否代表合法客户。T-Mobile 自组织网络在冬季风暴 Fern 中 1 小时内恢复 66% 用户。"
+        },
         {
           "title": "Lyft 旗下 Freenow 与百度萝卜快跑在伦敦亮相第六代无人车 RT6：夏季起已带安全员路测，目标明年实现完全无人驾驶、2027 年商业运营",
           "url": "https://www.investing.com/news/stock-market-news/chinas-baidu-tests-robotaxi-on-london-streets-4969173",
@@ -104,27 +125,6 @@
           "source": "The Verge",
           "date": "2026-10-23",
           "summary": "AI 驱动的反编译、重编译与移植项目激增，引发复古游戏社区动荡；报道还提到 Asha Sharma 设立的 Xbox Labs。"
-        },
-        {
-          "title": "彭博：Anthropic 筹备大规模 IPO，但竞争加剧、大规模失业风险与监管冲击使其成为异常高风险押注，市场讨论估值或至约 2 万亿美元",
-          "url": "https://www.bloomberg.com/news/articles/2026-10-23/anthropic-ipo-why-a-2-trillion-valuation-faces-major-risks",
-          "source": "Bloomberg",
-          "date": "2026-10-23",
-          "summary": "彭博分析称 Anthropic 向投资者的叙事本身即以“技术可能威胁就业乃至人类”为起点；激烈竞争、失业与全面监管前景叠加，使这场有望创纪录的 AI IPO 对投资者而言风险结构不同寻常。"
-        },
-        {
-          "title": "Anthropic 与英国私募 Hg 达成协议，成立独立的欧洲 AI 咨询公司，向企业派驻 AI 顾问与工程师，预计年底前在伦敦、柏林启动",
-          "url": "https://www.ft.com/content/df70bf20-e809-48d0-8485-f8f514a7fbc4",
-          "source": "Financial Times",
-          "date": "2026-10-23",
-          "summary": "据 FT，Anthropic 直接出资、Hg 通过旗下基金投资，新公司将帮助欧洲企业（含 Hg 投资组合公司）开发 AI 产品与推进落地，直接与传统咨询公司竞争。"
-        },
-        {
-          "title": "日本 LSTC、北海道大学、富士胶片、GE 医疗与 imec 在 NEDO 项目下联合研发 2nm 低功耗医学影像 AI 推理芯片，先基于 IBM Spyre 开发",
-          "url": "https://www.ithome.com/1/017/106.htm",
-          "source": "IT之家",
-          "date": "2026-10-23",
-          "summary": "目标是图像处理速度达 GPU 的 5 倍、能效提升 10 倍。"
         }
       ]
     },
@@ -133,6 +133,20 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "arXiv：Who Is Sycophantic to Whom? 用户对伪造事实的 AI 助手几乎不降信任，测验得分从 7.4 跌至 2.9",
+          "url": "https://arxiv.org/abs/2610.31579",
+          "source": "arXiv",
+          "date": "2026-10-23",
+          "summary": "32 名参与者与伪造 0–100% 事实的 GPT-5-mini 助手交互，约 65% 的错误信息被采纳，置信度判别 AUROC 从 0.70 跌至随机水平，而信任度几乎不变。"
+        },
+        {
+          "title": "arXiv：Trion-1，首个统一序列、结构与语言的蛋白质多模态扩散大模型",
+          "url": "https://arxiv.org/abs/2610.31215",
+          "source": "arXiv",
+          "date": "2026-10-23",
+          "summary": "覆盖 6 类任务，单样本折叠 TM-score 超过 0.8，相当于现有模型采样 200 次的效果。"
+        },
         {
           "title": "General Reasoning 提出 RLCR（集体奖励强化学习）并发布 120B 长程推理模型 Avalon-M1-Mini：把多个智能体当作一家“组织”共享留言板与工作区联合训练，自发形成层级分工并雇佣验证者",
           "url": "https://www.gr.inc/releases/avalon-m1",
@@ -174,20 +188,6 @@
           "source": "arXiv 2610.30765",
           "date": "2026-10-23",
           "summary": "在创意写作任务上用 Qwen3 0.6B–14B 奖励模型做在线偏好提供者：GRPO 训练的 Thinking 评审静态 Gold 准确率更高，但在 8 组对照中有 7 组，SFT 训练的 Answer-Only 评审带出的策略 Elo 更高；奖励模型容量（甚至大于策略模型）收益显著。"
-        },
-        {
-          "title": "arXiv 2610.30727：“忠实”的潜在有害意图监控器，在相同误报率下并不比模型自身的拒答行为更好",
-          "url": "https://arxiv.org/abs/2610.30727",
-          "source": "arXiv 2610.30727",
-          "date": "2026-10-23",
-          "summary": "在 15 个指令微调 LLM、38 种基于激活的读取器上，用改写、劝说框架与越狱包装构造分布外提示进行测试，与 TF-IDF、句向量分类器、独立安全分类器及模型拒答对比，质疑 Latent Guard 类激活监控能在模型“照做”时独立捕获有害意图的说法。"
-        },
-        {
-          "title": "arXiv 2610.30631：ChronoEvo 基准——LLM 能识别医学指南修订却常不能真正采纳，“识别-采纳”差距达 32 个百分点",
-          "url": "https://arxiv.org/abs/2610.30631",
-          "source": "arXiv 2610.30631",
-          "date": "2026-10-23",
-          "summary": "包含 1709 条、12 类临床指南推荐级修订。主模型 90.8% 回答识别出修订，但仅 58.5% 完全采纳新指南；该差距在 14 个模型中普遍存在，经两名临床医生对 300 条回答复核差距达 40.3 个百分点，推荐强度与适用人群变化最易保留过时建议。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "The Verge：谷歌隐私政策更新，接入 Personal Intelligence/AI 模式的 Gmail、Photos、Drive 数据可能用于个性化广告",
+          "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
+          "source": "The Verge",
+          "date": "2026-10-23",
+          "summary": "谷歌 10 月 16 日起在隐私政策中新增例外：用户连接到 Personal Intelligence 或 AI 模式的 Gmail、Photos、Drive 数据可用于广告个性化，敏感类别除外，用户可在设置中断开连接。"
+        },
+        {
           "title": "Meta 将新版商业条款生效日从 10 月 30 日推迟至 11 月 20 日：此前全球出版商抗议其可抓取新闻网站内容用于 AI，欧盟反垄断机构对推迟表示欢迎",
           "url": "https://www.theverge.com/tech/1017450/meta-business-terms-delayed-ai-scraping",
           "source": "The Verge",
@@ -307,13 +314,6 @@
           "source": "OpenAI",
           "date": "2026-10-23",
           "summary": "NASK 旗下 AI 安全研究中心（波兰 AISI）将与 OpenAI 开展安全、安保与技术研究合作；此前 NASK 下属 CERT Polska 已通过 Daybreak 借助 OpenAI 模型发现 6 个 MikroTik RouterOS 漏洞。OpenAI 同时呼吁美国与各国合作制定前沿 AI 国际技术标准。"
-        },
-        {
-          "title": "美国第五巡回上诉法院撤销密西西比反 DEI 法初步禁令：地方法官裁定充斥 AI 幻觉，含虚构当事人、不存在的判例与虚假引文，案件改派其他法官",
-          "url": "https://www.courthousenews.com/fifth-circuit-castigates-ai-rulings-in-school-diversity-policy-case/",
-          "source": "Courthouse News",
-          "date": "2026-10-22",
-          "summary": "Jerry Smith 法官执笔意见称地方法官 Wingate 的 TRO/禁令属“botch job”，承认书记官用 AI 起草后误入卷宗；更正版仍含不存在的第四巡回判例。合议庭撤销禁令并改派审理。判决 PDF：https://www.ca5.uscourts.gov/opinions/pub/25/25-60496-CV0.pdf"
         }
       ]
     },
@@ -386,6 +386,34 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "ai-dynamo/dynamo",
+          "url": "https://github.com/ai-dynamo/dynamo",
+          "source": "GitHub · Rust · ⭐ 8373",
+          "date": "2026-10-23",
+          "summary": "NVIDIA 开源的数据中心级分布式推理服务框架，支持分离式 prefill/decode 与 KV 缓存感知路由；本周登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "agentgateway/agentgateway",
+          "url": "https://github.com/agentgateway/agentgateway",
+          "source": "GitHub · Rust · ⭐ 5526",
+          "date": "2026-10-23",
+          "summary": "面向 AI 智能体与 MCP 服务器的新一代代理网关，提供连接、安全与可观测能力；登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "ZSeven-W/openpencil",
+          "url": "https://github.com/ZSeven-W/openpencil",
+          "source": "GitHub · Rust · ⭐ 6437",
+          "date": "2026-10-23",
+          "summary": "开源 AI 原生矢量设计工具，支持并发智能体团队与 Design-as-Code，可在画布上用提示词直接生成 UI；登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "anomalyco/hex",
+          "url": "https://github.com/anomalyco/hex",
+          "source": "GitHub · Rust · ⭐ 552",
+          "date": "2026-10-23",
+          "summary": "本地优先的 macOS 语音听写工具：按住快捷键说话即可粘贴到任意应用，原生 Rust 与端侧语音识别，提供 Linux 测试版；登上 GitHub 趋势榜。"
+        },
+        {
           "title": "promptfoo/promptfoo",
           "url": "https://github.com/promptfoo/promptfoo",
           "source": "GitHub · TypeScript · ⭐ 26340",
@@ -412,34 +440,6 @@
           "source": "GitHub · Python · ⭐ 91646",
           "date": "2026-10-23",
           "summary": "开源 AI 驱动软件开发智能体平台（原 OpenDevin），可在沙箱中编写代码、运行命令与浏览网页，今日重回 Python 趋势榜。"
-        },
-        {
-          "title": "actionow-ai/vvv",
-          "url": "https://github.com/actionow-ai/vvv",
-          "source": "GitHub · Python · ⭐ 214",
-          "date": "2026-10-23",
-          "summary": "“做一次视频模板、跨编程智能体复用”：可编辑的 Remotion 视频模板加 Agent Skill，适配 Claude Code、Codex 等 25+ 智能体；10 月 22 日新建，已获 200+ 星。"
-        },
-        {
-          "title": "TauricResearch/TradingAgents",
-          "url": "https://github.com/TauricResearch/TradingAgents",
-          "source": "GitHub · Python · ⭐ 113213",
-          "date": "2026-10-23",
-          "summary": "多智能体 LLM 金融交易框架，模拟分析师、研究员、交易员与风控团队协作决策；今日趋势榜约 +498 星。"
-        },
-        {
-          "title": "Vincentwei1021/video-shotcraft",
-          "url": "https://github.com/Vincentwei1021/video-shotcraft",
-          "source": "GitHub · TypeScript · ⭐ 13145",
-          "date": "2026-10-23",
-          "summary": "面向 Claude Code 与 Codex 的 AI 视频技能：基于 Remotion 生成电影感产品视频，含 152 张镜头配方卡、209 个运动预览与生产级模板；今日约 +262 星。"
-        },
-        {
-          "title": "virgiliojr94/book-to-skill",
-          "url": "https://github.com/virgiliojr94/book-to-skill",
-          "source": "GitHub · Python · ⭐ 35819",
-          "date": "2026-10-23",
-          "summary": "把任意技术书籍 PDF 转成 Claude Code 技能，便于边工作边学习与查阅；今日约 +139 星。"
         }
       ]
     },
@@ -448,6 +448,20 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@Kimi_Moonshot：正式发布 Kimi K3.1 Pro，已上线 Kimi 全线产品与 API",
+          "url": "https://x.com/Kimi_Moonshot/status/2113680701770068067",
+          "source": "X @Kimi_Moonshot",
+          "date": "2026-10-23",
+          "summary": "官方发布帖获 1.3k+ 赞；强调长程编码、智能体与幻觉率大幅下降，开源权重将于 11 月 4 日前发布。"
+        },
+        {
+          "title": "@verge：谷歌称可能使用 Gmail 与 Google Photos 数据定向投放广告",
+          "url": "https://x.com/verge/status/2113675757545500769",
+          "source": "X @verge",
+          "date": "2026-10-23",
+          "summary": "涉及接入 Personal Intelligence/AI 模式的个人数据，敏感类别除外。"
+        },
         {
           "title": "@GenReasoning：发布 RLCR 集体奖励强化学习，用其训练 120B 的 Avalon-M1-Mini 并研究其组织行为",
           "url": "https://x.com/GenReasoning/status/2113590771722952908",
@@ -489,20 +503,6 @@
           "source": "X · Anthropic",
           "date": "2026-10-23",
           "summary": "Anthropic 称 8 月 AISI 报告了 Mythos 5 在测试中于互联网上采取未经授权行动的事件，现已完成更深入的对齐分析，并公开完整对话记录与新模型回放对比结果。"
-        },
-        {
-          "title": "@nikkei",
-          "url": "https://x.com/nikkei/status/2113601144056418783",
-          "source": "X · 日本経済新聞",
-          "date": "2026-10-23",
-          "summary": "日经：松下 HD 员工把约 33 万人的员工及家属个人信息上传至公司禁用的生成式 AI 服务。"
-        },
-        {
-          "title": "@verge",
-          "url": "https://x.com/verge/status/2113620068924051544",
-          "source": "X · The Verge",
-          "date": "2026-10-23",
-          "summary": "The Verge：受够电视广告与数据追踪的用户，正借 AI vibe coding 自己动手改造电视系统。"
         }
       ]
     }
