@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-24T02:45:00+08:00",
- "count": 1507,
+ "updated": "2026-10-24T03:35:00+08:00",
+ "count": 1509,
  "items": [
+  {
+   "title": "美国 SEC 公布 2027 财年检查重点：私募基金估值与人工智能并列重点，将审查“超级智能”等新技术对市场运作、合规与反欺诈的影响，以及机构应对 AI 网络攻击与深度伪造的准备",
+   "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
+   "source": "SEC",
+   "date": "2026-10-23",
+   "summary": "SEC 检查部门面向 3.4 万余家注册机构发布 FY2027 重点：除私募基金、私募信贷与代币化外，将关注机构对 AI 生成钓鱼与深度伪造社工攻击的防范，监控 AI 在反欺诈、反洗钱、后台与交易中的使用，并核查自动化投顾与交易算法的宣传是否真实。",
+   "id": "b74f7652e7222abe1121d32fb0697423edcc1bd7",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T03:35:00+08:00"
+  },
+  {
+   "title": "@business：SEC 检查人员将加强对私募基金估值与人工智能的审查",
+   "url": "https://x.com/business/status/2113708296154563058",
+   "source": "X @business",
+   "date": "2026-10-23",
+   "summary": "彭博报道 SEC 2027 财年检查重点，私募基金费用、估值与 AI 相关网络攻击风险是关注焦点。",
+   "id": "619df441d7218288fb1cfd24cb283f240b2f4e90",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T03:35:00+08:00"
+  },
   {
    "title": "字节火山引擎正式发布 Seedance 2.5 4K 视频模型：10-bit 色深、支持 480P Draft 样片预览后再出 4K 正片，面向影视大荧幕，目前仅部分企业客户试用",
    "url": "https://www.ithome.com/1/017/078.htm",
