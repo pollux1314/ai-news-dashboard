@@ -71,13 +71,6 @@
       "icon": "💰",
       "items": [
         {
-          "title": "SpaceX 推出 Super Intelligence Partner Network，面向基于 Grok 构建的企业，130 余家公司已加入早期访问",
-          "url": "https://x.ai/news/partnernetworkannouncement",
-          "source": "xAI / SpaceX",
-          "date": "2026-10-23",
-          "summary": "合作伙伴分为 Transformation Partners 与 Marketplace Partners 两类，早期成员包括 NVIDIA、Apollo、Snowflake、Databricks、贝恩、博思艾伦等；据彭博报道，Grok Bot 10 月周付费用户已突破 80 万，较上月翻倍。"
-        },
-        {
           "title": "WSJ 深度：OpenAI 以“违反敏感信息处理政策”解雇三名安全研究员 Korbak、Balesni、Wang——安全团队曾要求解锁私人手机，发现其与前 Redwood 首席科学家 Greenblatt 的 Signal 阅后即焚聊天",
           "url": "https://www.hindustantimes.com/world-news/the-signal-chats-that-cost-openai-researchers-their-jobs-101792740471854.html",
           "source": "WSJ（Hindustan Times 转载）",
@@ -125,6 +118,13 @@
           "source": "NVIDIA Blog",
           "date": "2026-10-23",
           "summary": "黄仁勋 10 月 23 日在阿斯塔纳会见总统托卡耶夫并与 AI 部长 Madiyev 对谈。Firebird 继亚美尼亚后在哈萨克斯坦建 AI 工厂，一期与 Kazakhtelecom 在 Data Center Valley 建设、目标 2027 年三季度商用，二期后总规模约 500 兆瓦；Kazakhtelecom 明年还将在 Data Center Valley 部署逾 1000 颗 GPU、在埃基巴斯图兹部署逾 1000 颗 Vera Rubin。"
+        },
+        {
+          "title": "英伟达与 TCV 入股 AI 视频创企 Higgsfield：作为 8 月 B 轮（4 亿美元、估值 54 亿美元）的追加，资金用于全球算力基础设施与招聘",
+          "url": "https://www.bloomberg.com/news/articles/2026-10-23/nvidia-tcv-invest-in-ai-video-startup-higgsfield-in-series-b-extension",
+          "source": "Bloomberg",
+          "date": "2026-10-23",
+          "summary": "Higgsfield 由前 Snap 高管创办、总部旧金山，工程团队主要在哈萨克斯坦，消息随黄仁勋访问哈萨克斯坦公布；注册用户超 4000 万，追加金额与最新估值未披露。"
         }
       ]
     },
