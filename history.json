@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-23T08:40:00+08:00",
- "count": 1351,
+ "updated": "2026-10-23T09:27:00+08:00",
+ "count": 1357,
  "items": [
   {
    "title": "@verge",
@@ -34,6 +34,50 @@
    "module": "models",
    "module_name": "大模型与产品发布",
    "first_seen": "2026-10-23T07:45:00+08:00"
+  },
+  {
+   "title": "微软与 Hugging Face 开源 ThinkingBox-Training：把“检查数据库最终状态”的可执行评测变成强化学习奖励，Qwen3.8-27B 仅 50 步 GRPO 平均成功率从 51.7% 升至 60.8%",
+   "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+   "source": "Hugging Face 博客",
+   "date": "2026-10-22",
+   "summary": "20 次尝试全部成功的任务从 38 个增至 107 个；训练栈已在 GitHub 开放，并可通过 OpenEnv 评测检查点。",
+   "id": "95eb6975ad2450494f977e3b3b02ec023bf4f2c5",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-23T09:27:00+08:00"
+  },
+  {
+   "title": "The Verge/Nieman Lab：Meta 虽从新商业条款中删去“train（训练）”一词，法律专家称修订版仍允许其抓取企业账户“关联”网站内容并用于“开发广告与商业产品”，不足以排除用新闻网站训练 AI",
+   "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+   "source": "The Verge",
+   "date": "2026-10-22",
+   "summary": "条款 10 月 30 日生效且无退出选项；康奈尔法学教授 Grimmelmann 称“develop…business products”的措辞“宽到能开过一辆卡车”，Meta 则重申会尊重 robots.txt。",
+   "id": "29a87826b845358b4bac1374829cefcd55b6e106",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-23T09:27:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113418509061337185",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博 Big Take：Meta 高达 8250 亿美元的 AI 建设计划让投资者紧张，但微软、Alphabet 和亚马逊的情况可能不同。",
+   "id": "f96aa9397dc3467b6c412280fb036c2e73573a1f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T09:27:00+08:00"
+  },
+  {
+   "title": "@business",
+   "url": "https://x.com/business/status/2113415122882285642",
+   "source": "X · Bloomberg",
+   "date": "2026-10-22",
+   "summary": "彭博观点：中国会在让世界依赖其廉价 AI 后“断供”吗？作者认为暂时不会，但北京正在提醒世界它有这个能力。",
+   "id": "661043066956efca3caa5f8e50848b839f039802",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-23T09:27:00+08:00"
   },
   {
    "title": "The Browser Company 宣布 12 月 22 日关停 Arc 浏览器：即日起停止新注册，11 月 23 日起 Arc Search 移动端的 AI 功能与登录同步下线，团队全面转向 AI 浏览器 Dia",
@@ -2663,6 +2707,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-22T00:30:00+08:00"
+  },
+  {
+   "title": "RAG 可组合性研究（LASAGNA）：在 8 个基准、5K–20 万文档语料上测试 450 种配置，发现单独有效的 RAG 技术组合后增益并不叠加，检索质量与回答忠实度偏好的设计也不一致",
+   "url": "https://arxiv.org/abs/2610.29722",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "作者预先声明三条假设并开源 LASAGNA 评测框架，用于受控比较 RAG 流水线各环节。",
+   "id": "d33ccf89dda077150943392e1c4800b403ae281c",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T09:27:00+08:00"
+  },
+  {
+   "title": "PACE：线性注意力模型循环状态的后训练 4 比特量化方法——每隔几个 token 才取整一次并按通道对齐编码，无需微调即可在 4 比特下保持精度，让同一加速器并发更多序列",
+   "url": "https://arxiv.org/abs/2610.29545",
+   "source": "arXiv",
+   "date": "2026-10-21",
+   "summary": "研究发现 gated-delta 状态中的大数值集中在少数列上，据此做通道对齐编码以减少累积误差。",
+   "id": "ebacfb9913538efda200830a2b6334d48aa0b075",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-23T09:27:00+08:00"
   },
   {
    "title": "DONIC：首个跨操作类别与人类动作来源联合训练的通用双手灵巧追踪控制器，并发布含 229 个物体、1575 段持续双手交互的多视角数据集 BiHOI",

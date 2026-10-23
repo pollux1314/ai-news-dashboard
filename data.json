@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T08:40:00+08:00",
+  "updated": "2026-10-23T09:27:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -148,6 +148,20 @@
           "summary": "模型以 AlphaEarth Foundations 嵌入为关键输入、用约 170 万个标注点训练；在 9000 多个随机样点的专家核验中森林类型判对 90%、森林与非森林区分 95%，优于其他全球森林图。可识别天然林被砍后改种人工林这类从太空难以看出的变化，为欧盟零毁林法规（EUDR）提供基线，数据以开放许可在 Earth Engine 免费提供，论文发表于 Scientific Data。"
         },
         {
+          "title": "RAG 可组合性研究（LASAGNA）：在 8 个基准、5K–20 万文档语料上测试 450 种配置，发现单独有效的 RAG 技术组合后增益并不叠加，检索质量与回答忠实度偏好的设计也不一致",
+          "url": "https://arxiv.org/abs/2610.29722",
+          "source": "arXiv",
+          "date": "2026-10-21",
+          "summary": "作者预先声明三条假设并开源 LASAGNA 评测框架，用于受控比较 RAG 流水线各环节。"
+        },
+        {
+          "title": "PACE：线性注意力模型循环状态的后训练 4 比特量化方法——每隔几个 token 才取整一次并按通道对齐编码，无需微调即可在 4 比特下保持精度，让同一加速器并发更多序列",
+          "url": "https://arxiv.org/abs/2610.29545",
+          "source": "arXiv",
+          "date": "2026-10-21",
+          "summary": "研究发现 gated-delta 状态中的大数值集中在少数列上，据此做通道对齐编码以减少累积误差。"
+        },
+        {
           "title": "DONIC：首个跨操作类别与人类动作来源联合训练的通用双手灵巧追踪控制器，并发布含 229 个物体、1575 段持续双手交互的多视角数据集 BiHOI",
           "url": "https://arxiv.org/abs/2610.29997",
           "source": "arXiv",
@@ -174,20 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-21",
           "summary": "读出基于父节点解题率与 diff 的 8 个特征，用 96 个已标注脚手架修改拟合；对比 Huxley-Gödel Machine 选择（85.1%）与初始脚手架（81.2%），Claude Sonnet 4.5 下二者接近（86.6% vs 86.5%），显示在评估昂贵时“先打分再运行”可降低自改进搜索成本。"
-        },
-        {
-          "title": "Harness Scaling（赵鑫、文继荣等）：把智能体 RL 从单一固定“harness”扩展到多样执行配置，提出因子化 harness 空间与均衡覆盖的训练子集，显著提升对未见 harness 的泛化",
-          "url": "https://arxiv.org/abs/2610.29458",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "作者指出只在一种 harness 中做 RL 会导致专门化、跨配置迁移差；跨 harness 训练在多个基准、模型规模与 RL 算法上都提升对未见白盒配置的泛化，且用结构化白盒变化训练的模型迁移到未见外部黑盒 harness 时，优于在单一复杂黑盒 harness 中训练的模型，提出 harness 多样性是智能体 RL 的新扩展维度。"
-        },
-        {
-          "title": "ToM2Vec：用固定数量的连续“心智理论”潜在 token 让 LLM 智能体推断合作者的信念与意图，在 Overcooked-AI、多方谈判、Hanabi 等协作/竞争环境中稳定优于基座与多种基线",
-          "url": "https://arxiv.org/abs/2610.29934",
-          "source": "arXiv",
-          "date": "2026-10-21",
-          "summary": "训练时以伙伴的真实想法监督这些潜在 token，测试时由各智能体自行生成并作为思考与行动的条件；改用文本推理则性能下降，且可泛化到训练未见的模型家族（含闭源 GPT-5.4）。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "微软与 Hugging Face 开源 ThinkingBox-Training：把“检查数据库最终状态”的可执行评测变成强化学习奖励，Qwen3.8-27B 仅 50 步 GRPO 平均成功率从 51.7% 升至 60.8%",
+          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
+          "source": "Hugging Face 博客",
+          "date": "2026-10-22",
+          "summary": "20 次尝试全部成功的任务从 38 个增至 107 个；训练栈已在 GitHub 开放，并可通过 OpenEnv 评测检查点。"
+        },
         {
           "title": "Amazon SageMaker AI 无服务器模型定制新增 training sessions（正式可用）：开发者自己写后训练循环（自定义损失、奖励信号、多轮强化学习），GPU 分配、分布式执行、故障恢复与检查点由 SageMaker 托管",
           "url": "https://aws.amazon.com/blogs/machine-learning/announcing-new-ways-to-customize-models-with-sagemaker-ai-without-managing-gpus/",
@@ -244,13 +251,6 @@
           "source": "The Verge",
           "date": "2026-10-22",
           "summary": "智能体用唯一数字密钥向 1Password 证明身份，通知会说明需要哪个账号及原因，流程类似双因素认证；首批支持 Meta Muse、ChatGPT Work、Claude Duet、Grok Bot、Town 等，Browserbase、Browser Use、Kernel、Perplexity、Ramp 等正在接入。"
-        },
-        {
-          "title": "Omnara 推出开源托管智能体平台（Apache-2.0）：定位为 Claude Managed Agents 与 OpenAI Agents API 的自托管替代，可接任意兼容模型并跑在自有机器或沙箱上",
-          "url": "https://docs.omnara.com/introduction",
-          "source": "Omnara",
-          "date": "2026-10-22",
-          "summary": "提供 REST API 控制面，管理持久化智能体的工具、密钥、权限、流式输出与状态；可用 Docker Compose 本地运行，或在自有 VPC 中基于 Postgres、Redis、S3 兼容存储部署，守护进程只需出站连接、无需开放入站端口。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "The Verge/Nieman Lab：Meta 虽从新商业条款中删去“train（训练）”一词，法律专家称修订版仍允许其抓取企业账户“关联”网站内容并用于“开发广告与商业产品”，不足以排除用新闻网站训练 AI",
+          "url": "https://www.theverge.com/tech/1017082/meta-terms-update-ai-training-concerns",
+          "source": "The Verge",
+          "date": "2026-10-22",
+          "summary": "条款 10 月 30 日生效且无退出选项；康奈尔法学教授 Grimmelmann 称“develop…business products”的措辞“宽到能开过一辆卡车”，Meta 则重申会尊重 robots.txt。"
+        },
         {
           "title": "路透社：开放网络运动（Movement for an Open Web）向欧盟委员会和英国 CMA 投诉，要求暂停 Meta 10 月 30 日生效的新商业条款，称其赋予 Meta 无限使用出版商与广告主内容做 AI 的权利",
           "url": "https://www.investing.com/news/stock-market-news/publishers-advertisers-call-eu-uk-antitrust-regulators-to-suspend-metas-new-commercial-terms-4966669",
@@ -307,13 +314,6 @@
           "source": "Reuters / Economic Times",
           "date": "2026-10-22",
           "summary": "GRN 成员还包括英国、印度、巴西、新加坡、菲律宾、印尼、越南、赞比亚和秘鲁，可共享经监管审查的医疗 AI 工具，并使用实时有害事件预警系统；HealthAI 称波兰加入暂无固定时间表，协议建立为期一年的合作框架。"
-        },
-        {
-          "title": "路透分析：美国中期选举临近、数据中心反对声浪上升，投资者担心民主党若赢下国会两院将加强对 AI 与数据中心的听证和调查，冲击 AI 交易",
-          "url": "https://www.investing.com/news/stock-market-news/analysisinvestors-see-risk-from-us-midterms-to-ai-trade-as-data-center-backlash-builds-4965236",
-          "source": "Reuters / Investing.com",
-          "date": "2026-10-22",
-          "summary": "路透/益普索本月民调显示 69% 民主党登记选民支持限制数据中心建设，共和党为 43%；预测市场认为民主党横扫两院可能性最大。分析人士认为显著阻碍数据中心扩张的全国立法难以成为法律，但州和地方选举对建设节奏影响更直接；特朗普周三称数据中心企业应向社区支付“红利”。"
         }
       ]
     },
@@ -463,6 +463,20 @@
           "summary": "彭博：澳大利亚主要城市周边规划中的数据中心超过四分之三面临电网吃紧与地方反对风险，威胁其成为亚太 AI 枢纽的雄心。"
         },
         {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113418509061337185",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "彭博 Big Take：Meta 高达 8250 亿美元的 AI 建设计划让投资者紧张，但微软、Alphabet 和亚马逊的情况可能不同。"
+        },
+        {
+          "title": "@business",
+          "url": "https://x.com/business/status/2113415122882285642",
+          "source": "X · Bloomberg",
+          "date": "2026-10-22",
+          "summary": "彭博观点：中国会在让世界依赖其廉价 AI 后“断供”吗？作者认为暂时不会，但北京正在提醒世界它有这个能力。"
+        },
+        {
           "title": "@TechCrunch",
           "url": "https://x.com/TechCrunch/status/2113399773742916091",
           "source": "X · TechCrunch",
@@ -489,20 +503,6 @@
           "source": "X · Anthropic",
           "date": "2026-10-22",
           "summary": "Anthropic 在 Frontier Red Team 博客发布用 Claude 大规模形式化验证软件的研究：形式化验证可证明代码不含特定类别漏洞，过去只适用于小代码库或需大量专家时间。"
-        },
-        {
-          "title": "@TechCrunch",
-          "url": "https://x.com/TechCrunch/status/2113392228085182672",
-          "source": "X · TechCrunch",
-          "date": "2026-10-22",
-          "summary": "TechCrunch：OpenAI 若在本轮融资中拿到超 1 万亿美元估值，将创下私营公司估值纪录。"
-        },
-        {
-          "title": "@business",
-          "url": "https://x.com/business/status/2113378118090035693",
-          "source": "X · Bloomberg",
-          "date": "2026-10-22",
-          "summary": "彭博：西部数据业绩指引好于预期并上调股息，凸显 AI 热潮带动的数据存储强劲需求。"
         }
       ]
     }
