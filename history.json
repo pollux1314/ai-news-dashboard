@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-24T01:45:00+08:00",
- "count": 1503,
+ "updated": "2026-10-24T02:45:00+08:00",
+ "count": 1507,
  "items": [
+  {
+   "title": "字节火山引擎正式发布 Seedance 2.5 4K 视频模型：10-bit 色深、支持 480P Draft 样片预览后再出 4K 正片，面向影视大荧幕，目前仅部分企业客户试用",
+   "url": "https://www.ithome.com/1/017/078.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "火山引擎称 Seedance 2.5 4K 经专项训练更充分学习人物表情、细微动作与画面细节，是 Seedance 2.5 这一代最强模型；参考生成与视频编辑时能更好保持素材画质、色彩与小字清晰度，部分海内外影视制作、后期公司已试用，后续或逐步扩大开放。",
+   "id": "0d6a0317ed7ecdddc16a65a4784b3fc4ae46da77",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-24T02:45:00+08:00"
+  },
+  {
+   "title": "@cursor_ai：Cursor 现在可以控制你的电脑，智能体能操作 iOS 模拟器等桌面应用来测试自己构建的功能",
+   "url": "https://x.com/cursor_ai/status/2113661506634305834",
+   "source": "X @cursor_ai",
+   "date": "2026-10-23",
+   "summary": "Cursor 官方宣布 Computer Use 能力：智能体可点击、输入并驱动桌面应用，在编写代码后自行验证。",
+   "id": "f200b4e74b3b8d1d323f401f1fb6feb24071dc31",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T02:45:00+08:00"
+  },
+  {
+   "title": "@testingcatalog：Kimi K3.1 Pro 登上 WebDev Arena 第 8 名，Kimi 在 AI 实验室总榜升至第 4",
+   "url": "https://x.com/testingcatalog/status/2113689808132309335",
+   "source": "X @testingcatalog",
+   "date": "2026-10-23",
+   "summary": "TestingCatalog 报道月之暗面新旗舰 K3.1 Pro 在 WebDev Arena 的排名。",
+   "id": "68bcbf24575d69b75e2119d85cf9e16628588f5d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T02:45:00+08:00"
+  },
+  {
+   "title": "@testingcatalog：字节发布 Seedance 2.5 4K，10-bit 色深带来更丰富色彩层次，可先用 480P Draft 低成本预览再放大到 4K",
+   "url": "https://x.com/testingcatalog/status/2113667822132027903",
+   "source": "X @testingcatalog",
+   "date": "2026-10-23",
+   "summary": "与火山引擎官方发布的 Seedance 2.5 4K 信息一致。",
+   "id": "1e16eb143f103d3525a48e3ebe4e9da5ee452c2d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T02:45:00+08:00"
+  },
   {
    "title": "月之暗面发布 Kimi K3.1 Pro：2.8T 总参/104B 激活 MoE、1M 上下文多模态，Terminal-Bench 4.0 达 65.7%，11 月 4 日前开源权重",
    "url": "https://kimi.ai/blog/kimi-k3-1-pro",
