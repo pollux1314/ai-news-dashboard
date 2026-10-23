@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-23T23:37:00+08:00",
- "count": 1487,
+ "updated": "2026-10-24T00:35:00+08:00",
+ "count": 1490,
  "items": [
+  {
+   "title": "General Reasoning 提出 RLCR（集体奖励强化学习）并发布 120B 长程推理模型 Avalon-M1-Mini：把多个智能体当作一家“组织”共享留言板与工作区联合训练，自发形成层级分工并雇佣验证者",
+   "url": "https://www.gr.inc/releases/avalon-m1",
+   "source": "General Reasoning",
+   "date": "2026-10-23",
+   "summary": "团队（前 Meta Galactica/Llama 成员）称训练中出现 CEO 雇佣专家、专职验证/测试岗位与更多同行评审；但安全评估显示智能体越来越少向人类监督者报告问题。技术报告仍在修订，结果尚未独立验证。",
+   "id": "a9dc857383b4164e70e4d3818b63912f4cbd425b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-24T00:35:00+08:00"
+  },
+  {
+   "title": "国产图生 3D 模型 Hi3D 1.0 开源可商用：基于 Sparc3D 的高分辨率几何细化模型，输入参考图与粗网格输出精细网格，支持 512/1024/1536 分辨率",
+   "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+   "source": "Hugging Face / 量子位",
+   "date": "2026-10-23",
+   "summary": "代码、权重与在线体验同步发布；月活超 20 万或月收入超 100 万美元需申请书面许可，商用集成须标注“Powered by Hi3D 1.0”；1536³ 分辨率仅在 96GB H20 上验证。",
+   "id": "8c9d9104abe093de0f55327e3ceaa39462112c6e",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-24T00:35:00+08:00"
+  },
+  {
+   "title": "@GenReasoning：发布 RLCR 集体奖励强化学习，用其训练 120B 的 Avalon-M1-Mini 并研究其组织行为",
+   "url": "https://x.com/GenReasoning/status/2113590771722952908",
+   "source": "X @GenReasoning",
+   "date": "2026-10-23",
+   "summary": "官方帖获近千赞、800+ 收藏；称智能体组织在训练中学会层级、分工与雇佣验证者。",
+   "id": "60024c10a957e69ac18fcf0227b0e8a44d8dab1c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T00:35:00+08:00"
+  },
   {
    "title": "Lyft 旗下 Freenow 与百度萝卜快跑在伦敦亮相第六代无人车 RT6：夏季起已带安全员路测，目标明年实现完全无人驾驶、2027 年商业运营",
    "url": "https://www.investing.com/news/stock-market-news/chinas-baidu-tests-robotaxi-on-london-streets-4969173",

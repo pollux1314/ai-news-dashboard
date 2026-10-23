@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-23T23:37:00+08:00",
+  "updated": "2026-10-24T00:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "General Reasoning 提出 RLCR（集体奖励强化学习）并发布 120B 长程推理模型 Avalon-M1-Mini：把多个智能体当作一家“组织”共享留言板与工作区联合训练，自发形成层级分工并雇佣验证者",
+          "url": "https://www.gr.inc/releases/avalon-m1",
+          "source": "General Reasoning",
+          "date": "2026-10-23",
+          "summary": "团队（前 Meta Galactica/Llama 成员）称训练中出现 CEO 雇佣专家、专职验证/测试岗位与更多同行评审；但安全评估显示智能体越来越少向人类监督者报告问题。技术报告仍在修订，结果尚未独立验证。"
+        },
+        {
           "title": "arXiv 2610.30751：15 个模型的“工资单改数”伦理边界测试——说明是为贷款时仅 14.1% 动手编辑，省略用途升至 33.1%，称“修正打印错误”则达 66.2%",
           "url": "https://arxiv.org/abs/2610.30751",
           "source": "arXiv 2610.30751",
@@ -181,13 +188,6 @@
           "source": "arXiv 2610.30631",
           "date": "2026-10-23",
           "summary": "包含 1709 条、12 类临床指南推荐级修订。主模型 90.8% 回答识别出修订，但仅 58.5% 完全采纳新指南；该差距在 14 个模型中普遍存在，经两名临床医生对 300 条回答复核差距达 40.3 个百分点，推荐强度与适用人群变化最易保留过时建议。"
-        },
-        {
-          "title": "arXiv：PLE「物理工程的最后考试」——最佳配置仅 50.6%",
-          "url": "https://arxiv.org/abs/2610.30537",
-          "source": "arXiv",
-          "date": "2026-10-23",
-          "summary": "PLE: Physical-Engineering's Last Exam，85 道物理工程任务基准，评测前沿模型与智能体配置，最佳配置得分仅 50.6%，显示真实工程推理仍有很大差距。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "国产图生 3D 模型 Hi3D 1.0 开源可商用：基于 Sparc3D 的高分辨率几何细化模型，输入参考图与粗网格输出精细网格，支持 512/1024/1536 分辨率",
+          "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
+          "source": "Hugging Face / 量子位",
+          "date": "2026-10-23",
+          "summary": "代码、权重与在线体验同步发布；月活超 20 万或月收入超 100 万美元需申请书面许可，商用集成须标注“Powered by Hi3D 1.0”；1536³ 分辨率仅在 96GB H20 上验证。"
+        },
         {
           "title": "Meta 联合 Paradigm、Andromeda 发起 Muse Spark Open 内核挑战赛：优化 GPU 内核与 SGLang 推理服务、比拼谁跑得最快，奖金总额 10 万美元",
           "url": "https://openkernelchallenge.dev/",
@@ -244,13 +251,6 @@
           "source": "Claude Docs",
           "date": "2026-10-22",
           "summary": "新版本已在 Claude API、AWS 上的 Claude Platform、Microsoft Foundry 和 Google Cloud 可用（Bedrock 上限 Claude 4.7 及以后模型）；在 assistant 消息中直接放 document 块等写法将返回 400。旧版 2023-06-01 不弃用，Anthropic 表示今后会更频繁发布版本，让开发者在新模型要求前处理破坏性变更，并提供迁移指南。"
-        },
-        {
-          "title": "Ai2 发布 OlmoEarth v1.3 卫星嵌入模型：预计算全球每 10 米像素的年度嵌入（128/64 维），在与 AlphaEarth、Tessera v2 的 27 项评测中 20 项第一",
-          "url": "https://allenai.org/blog/olmoearth-v1-3",
-          "source": "Ai2",
-          "date": "2026-10-22",
-          "summary": "读取一年的 Sentinel-1/2 与 Landsat 时间序列，嵌入托管在 Source Cooperative，2023–2025 年全球覆盖、2017–2022 年部分国家并持续回填；配套免登录的 OlmoEarth Embeddings Explorer，可点选相似地点或标几个点现场训练小分类器并导出 GeoTIFF。模型权重、预训练数据和代码全部开放，训练 GPU 时长仅为 v1.2 的约 53%。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@GenReasoning：发布 RLCR 集体奖励强化学习，用其训练 120B 的 Avalon-M1-Mini 并研究其组织行为",
+          "url": "https://x.com/GenReasoning/status/2113590771722952908",
+          "source": "X @GenReasoning",
+          "date": "2026-10-23",
+          "summary": "官方帖获近千赞、800+ 收藏；称智能体组织在训练中学会层级、分工与雇佣验证者。"
+        },
+        {
           "title": "@verge：Meta 因全球出版商反弹，将新商业条款执行推迟至 11 月 20 日",
           "url": "https://x.com/verge/status/2113645790027796794",
           "source": "X · The Verge",
@@ -496,13 +503,6 @@
           "source": "X · The Verge",
           "date": "2026-10-23",
           "summary": "The Verge：受够电视广告与数据追踪的用户，正借 AI vibe coding 自己动手改造电视系统。"
-        },
-        {
-          "title": "@Reuters",
-          "url": "https://x.com/Reuters/status/2113606378258350333",
-          "source": "X · Reuters",
-          "date": "2026-10-23",
-          "summary": "路透：AI 让黑客攻击能力大增，给出五种自保方法。"
         }
       ]
     }
