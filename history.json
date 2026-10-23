@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-24T05:45:00+08:00",
- "count": 1524,
+ "updated": "2026-10-24T06:45:00+08:00",
+ "count": 1532,
  "items": [
+  {
+   "title": "wesbos/3d-model-anything",
+   "url": "https://github.com/wesbos/3d-model-anything",
+   "source": "GitHub · Swift · ⭐ 1038",
+   "date": "2026-10-24",
+   "summary": "Wes Bos 开源：用 iPhone LiDAR 与照片采集房间，再由 AI 编码智能体按 scan-to-threejs 技能逐步测量、建模并做相机对比，重建可编辑的 Three.js 室内场景；10 月 21 日创建，三天破千星。",
+   "id": "e3bc7a2070c416fd614347654777aaa83b072f43",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T06:45:00+08:00"
+  },
+  {
+   "title": "rossark0/rossark-motion-skill",
+   "url": "https://github.com/rossark0/rossark-motion-skill",
+   "source": "GitHub · Swift · ⭐ 381",
+   "date": "2026-10-24",
+   "summary": "Claude Code 等智能体用的动画技能：把任意 SVG/手绘变成 60fps 有“生命感”的动画（呼吸、眨眼、重心转移），解决智能体动画生硬、逐姿态停顿的问题；10 月 22 日创建。",
+   "id": "a7c15a9b2fb3e4b7fdc7d0dfc7ee3f5564766004",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T06:45:00+08:00"
+  },
   {
    "title": "NVIDIA/OpenShell",
    "url": "https://github.com/NVIDIA/OpenShell",
@@ -12,6 +34,72 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "黄仁勋 GTC Berlin 演示走红：Hugging Face 旗下 Pollen Robotics 开源小机器人 Microduck 次日预订量破 2 万台，有望成今年圣诞爆款",
+   "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
+   "source": "TechCrunch",
+   "date": "2026-10-23",
+   "summary": "Microduck 可按语音指令坐下、“装睡”、翻跟头，基础动作在英伟达技术栈的仿真中训练后迁移到实体，用户可自训新动作并分享；Clem Delangue 称其或成年度最畅销机器人，预计圣诞前交付。这是 Hugging Face 继 Reachy Mini 之后的第二款机器人（英伟达已于 9 月收购 Hugging Face）。",
+   "id": "f782f2bc9618a50438a75518ee763fad39efbfe0",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T06:45:00+08:00"
+  },
+  {
+   "title": "arXiv：Agent Mosaic——LLM 智能体会把多份文档拼合成机密“马赛克”结论，GPT-5.6 Sol 在良性提问下仍有 7.08% 回答泄露禁止的组合信息",
+   "url": "https://arxiv.org/abs/2610.30418",
+   "source": "arXiv / Hugging Face Papers",
+   "date": "2026-10-23",
+   "summary": "USC 团队用 30 个网络安全、医疗、军事合成案例生成 10800 个模拟回答与 1440 个真实开源智能体框架回答，真实框架泄露率更高；加上可见密级标头和明确聚合规则后泄露率大幅下降，但模拟中仍有约 32% 的回答存在不安全披露。",
+   "id": "11ca1ce21569a130ebd142639810b7e898e52e67",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-24T06:45:00+08:00"
+  },
+  {
+   "title": "arXiv：Toward Recursive Self-Improvement in Physical AI——系统梳理机器人领域的递归自我改进路径：从提升能力到改进“产生能力的过程”",
+   "url": "https://arxiv.org/abs/2610.29677",
+   "source": "arXiv / Hugging Face Papers",
+   "date": "2026-10-23",
+   "summary": "论文指出数字智能体可靠改写代码+可执行测试实现 RSI，而物理世界需在部分可观测、试错昂贵、工况变化且后果可能不可逆的条件下学习；文章分析物理经验何时能强化改进机制本身，以及收益得以持续传递的条件。",
+   "id": "e0b3f193ab163fc754b12668078ff634933502ad",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-24T06:45:00+08:00"
+  },
+  {
+   "title": "@TechCrunch：黄仁勋台上的 Microduck 机器人会跺脚、发 R2D2 声、按语音指令坐下、装睡和翻跟头，预订已超 2 万台",
+   "url": "https://x.com/TechCrunch/status/2113753599603806314",
+   "source": "X @TechCrunch",
+   "date": "2026-10-23",
+   "summary": "TechCrunch 推介其报道：Hugging Face/Pollen Robotics 的开源机器人 Microduck 因 GTC Berlin 演示走红。",
+   "id": "61b28813bc5e4b81ba2ed245739e7fd45c3656f2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T06:45:00+08:00"
+  },
+  {
+   "title": "@testingcatalog：SpaceXSI 的 Grok Bot 上线 Vault，可存储登录凭据、联系人与信用卡信息，移动端与桌面端逐步推送",
+   "url": "https://x.com/testingcatalog/status/2113752209217474575",
+   "source": "X @testingcatalog",
+   "date": "2026-10-23",
+   "summary": "保存的信息在设置中新的 Vault 标签页管理，为智能体代用户登录、填表与购物铺路。",
+   "id": "643dd5812c504b4d23fc2e88895348e0fb711e2f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T06:45:00+08:00"
+  },
+  {
+   "title": "@testingcatalog：Mubit 推出让团队为重复性任务训练自有小模型的平台，并发布开放模型与新基准",
+   "url": "https://x.com/testingcatalog/status/2113748441608106460",
+   "source": "X @testingcatalog",
+   "date": "2026-10-23",
+   "summary": "Mubit 作为代理 Base URL 挡在 OpenAI、Anthropic 或 Gemini API 前，根据智能体任务轨迹训练专属小模型；创始人称“你和竞争对手用同一个 AI，它应该是你自己的”。",
+   "id": "30ea7ab29e8c503c099f413fb09fc4b28b10076c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T06:45:00+08:00"
   },
   {
    "title": "美国运通裁员约 5%、计提 3.36 亿美元重组费用，CFO 称旨在让公司“更精简、更敏捷，并为 AI 做准备”",
