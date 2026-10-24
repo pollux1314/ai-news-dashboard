@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T03:30:00+08:00",
+  "updated": "2026-10-25T04:35:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "谷歌把 Gemini Notebook（原 NotebookLM）接入 Gemini 应用成为 Connected App：在对话中输入 @Gemini Notebook 即可创建/编辑/删除笔记本、增删来源并基于笔记本内容问答",
+          "url": "https://workspaceupdates.googleblog.com/2026/10/take-actions-on-your-notebooks-from-Gemini-Notebook-directly-in-the-Gemini-app.html",
+          "source": "Google Workspace Updates / Android Authority",
+          "date": "2026-10-24",
+          "summary": "Gemini 也可根据提示自动判断何时调用该应用；面向全部 Workspace 客户、Workspace Individual 订阅者与个人谷歌账号立即可用，全球默认开启（欧洲经济区默认关闭），可在 Gemini 设置的 Connected Apps 中管理，管理员可通过 Gemini 与 Gemini Notebook 访问设置控制。"
+        },
         {
           "title": "IT之家实测：Claude 升级付款页面出现中国大陆及港澳台地区选项，并可绑定中国银联卡；但 Anthropic 官方支持地区名单仍不含中国大陆",
           "url": "https://www.ithome.com/1/017/490.htm",
@@ -55,13 +62,6 @@
           "source": "IT之家 / Windows Latest",
           "date": "2026-10-23",
           "summary": "旨在规避 Recall 自动截屏引发的隐私争议，内容可按主题归类整理。"
-        },
-        {
-          "title": "苹果更新 iWork 套件 15.4.1：Pages、Numbers、Keynote 引入 AI“智能助理”Beta，可理解文档/表格/演示内容，辅助写作、公式、图表与幻灯片制作，并适配 iPhone Duo",
-          "url": "https://www.ithome.com/1/016/762.htm",
-          "source": "IT之家",
-          "date": "2026-10-23",
-          "summary": "智能助理面向 Apple Creator Studio 订阅用户开放，需 iOS/iPadOS 27 及以上并支持 Apple Intelligence 的设备，目前仅支持美式英语。"
         }
       ]
     },

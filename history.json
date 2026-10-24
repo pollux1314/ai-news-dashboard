@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-25T03:30:00+08:00",
- "count": 1602,
+ "updated": "2026-10-25T04:35:00+08:00",
+ "count": 1603,
  "items": [
+  {
+   "title": "谷歌把 Gemini Notebook（原 NotebookLM）接入 Gemini 应用成为 Connected App：在对话中输入 @Gemini Notebook 即可创建/编辑/删除笔记本、增删来源并基于笔记本内容问答",
+   "url": "https://workspaceupdates.googleblog.com/2026/10/take-actions-on-your-notebooks-from-Gemini-Notebook-directly-in-the-Gemini-app.html",
+   "source": "Google Workspace Updates / Android Authority",
+   "date": "2026-10-24",
+   "summary": "Gemini 也可根据提示自动判断何时调用该应用；面向全部 Workspace 客户、Workspace Individual 订阅者与个人谷歌账号立即可用，全球默认开启（欧洲经济区默认关闭），可在 Gemini 设置的 Connected Apps 中管理，管理员可通过 Gemini 与 Gemini Notebook 访问设置控制。",
+   "id": "d8a2ae9fce7cf44fe7948eab02c56d91a6d64352",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-25T04:35:00+08:00"
+  },
   {
    "title": "Apollo 首席经济学家 Torsten Slok：AI 至今未给科技行业以外的美国企业带来任何财务回报——七巨头人均营收与利润率上升，标普 493 两项均持平，也看不到生产率提升迹象",
    "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
