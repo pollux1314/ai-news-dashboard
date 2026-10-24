@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-24T12:40:00+08:00",
- "count": 1565,
+ "updated": "2026-10-24T13:28:00+08:00",
+ "count": 1571,
  "items": [
+  {
+   "title": "hydro-project/infinity",
+   "url": "https://github.com/hydro-project/infinity",
+   "source": "GitHub · Rust · ⭐ 22",
+   "date": "2026-10-24",
+   "summary": "AWS 与 UC Berkeley Hydro 项目开源的智能体运行时与工具协议（Apache 2.0）：智能体在等待工具时“休眠”为纯数据，下一条消息到达再唤醒，同一代码可跑在本地常驻进程或无服务器平台；10 月 23 日随 AWS 博客正式发布。",
+   "id": "02efed61c1d77014b72163b2666f7dcb1361d973",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T13:28:00+08:00"
+  },
+  {
+   "title": "@business：彭博专栏称 AI 产业若成功，引发的岗位流失可能抹去数千亿美元养老金资金流",
+   "url": "https://x.com/business/status/2113854260169298071",
+   "source": "X @business",
+   "date": "2026-10-24",
+   "summary": "链接至彭博 Merryn Talks Money 通讯，讨论 AI 成功反而可能深度冲击市场的风险。",
+   "id": "cc3c760b6ef06f133210a0e38691a23d472136a2",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T13:28:00+08:00"
+  },
+  {
+   "title": "@clare_liguori：AWS 的 @ShadajL 在 AGNTCon 发布 Infinity，智能体运行时默认“缩容到零”",
+   "url": "https://x.com/clare_liguori/status/2113752461295182182",
+   "source": "X @clare_liguori",
+   "date": "2026-10-24",
+   "summary": "帖子指出智能体大部分时间都在等推理、工具调用和输入，Infinity 通过挂起与恢复消除空闲开销。",
+   "id": "4e1e7736f459380f9b0190ace9926fcb7b2d8b53",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T13:28:00+08:00"
+  },
   {
    "title": "CuboiLeo/SuperMimic-Reproduced",
    "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
@@ -199,6 +232,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "AWS 与 UC Berkeley 开源智能体运行时 Infinity（Apache 2.0，Rust）：工具调用时挂起智能体、结果到达再恢复，8GB 树莓派 5 可容纳约 7.5 万个并发智能体",
+   "url": "https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/",
+   "source": "AWS Open Source Blog",
+   "date": "2026-10-23",
+   "summary": "Infinity 属于 Hydro 项目，借鉴无栈协程把每次工具调用当作 await 点：保存对话后挂起，空闲智能体不占任务、栈或连接，约 100KB/个；可在 Lambda+SQS+Aurora DSQL 等无服务器平台上缩容到零，并用“合成工具调用”投递异步事件、实现智能体间通信。目前为早期研究版本。",
+   "id": "2bb93defa1f0f26fca9cffa6495efdc54582cf7f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-24T13:28:00+08:00"
+  },
+  {
+   "title": "智谱就 GLM Coding Plan“降智”问题发补偿通知：向受影响用户发放额度重置卡，并预告新模型发布后再赠一次额度重置机会",
+   "url": "https://finance.jrj.com.cn/2026/10/23104958831510.shtml",
+   "source": "金融界",
+   "date": "2026-10-23",
+   "summary": "重置卡可将已消耗额度恢复至满额并刷新重置周期；外界推测新模型即传闻中的 GLM-5.5（未获官方确认）。中信建投研报认为四季度国产模型将密集迭代，GLM-5.5、M3 Pro、K3.1 等值得期待。",
+   "id": "c5345ceabe24c024d2203151a5d401b6bf39f1d7",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-24T13:28:00+08:00"
   },
   {
    "title": "英伟达开源 Nemotron 3.5 Bolt E4B 4GB：基于 Gemma 4 E4B 后训练的对话智能体小模型，约 4GB 即可本地运行，质量较上代提升约 40%",
@@ -1981,6 +2036,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "英伟达发布 AI 工厂 AIOps 平台 Minerva：把 GPU、网络、存储、调度器与工作负载遥测汇入知识图谱，用 AI 做异常检测、根因分析与修复",
+   "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+   "source": "NVIDIA Blog",
+   "date": "2026-10-22",
+   "summary": "英伟达称 Minerva 用于提升 AI 工厂的在线率、有效产出与 token 产量，并内置自然语言助手；IREN 已在使用，Aolani、Bitdeer AI、IBM、Jio、Lambda、Quake AI 与特斯拉计划部署。",
+   "id": "06769efcf6f4425c7b79677b91b8ec28e98a807a",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T13:28:00+08:00"
   },
   {
    "title": "黄仁勋在 GTC Berlin 抨击“AI 毁灭人类”论：称其是捏造的、博眼球的“廉价”说法，呼吁以“负责任的乐观”全速发展 AI",
