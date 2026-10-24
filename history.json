@@ -1,7 +1,73 @@
 {
- "updated": "2026-10-24T10:35:00+08:00",
- "count": 1548,
+ "updated": "2026-10-24T11:45:00+08:00",
+ "count": 1556,
  "items": [
+  {
+   "title": "Jassy：推理成本需降到约 1/10，AWS 2026 年算力基本售罄",
+   "url": "https://www.ithome.com/1/017/313.htm",
+   "source": "IT之家（a16z 访谈）",
+   "date": "2026-10-24",
+   "summary": "亚马逊 CEO 称企业软件全面 AI 化需推理成本降一个数量级；2026 年算力基本售罄、2027 年大部分已被预订，2028 年也已售出大量；资本开支约 2200 亿美元，Trainium 性价比高 30–40%，未来收入承诺超 2250 亿美元。",
+   "id": "f2274f0d9600777b5229865b506d785f32af7271",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T11:45:00+08:00"
+  },
+  {
+   "title": "悉尼男子向 Claude 透露托儿所枪击计划后被捕",
+   "url": "https://www.ithome.com/1/017/325.htm",
+   "source": "IT之家（援引《悉尼先驱晨报》）",
+   "date": "2026-10-24",
+   "summary": "29 岁男子与 Claude 对话称想袭击 Westfield 附近托儿所，聊天内容引起国际刑警组织注意，10 月 18 日被捕并被控利用通信服务威胁骚扰；国际刑警如何获取记录尚不清楚，辩方称只是发泄。",
+   "id": "d4ce90a961005bc2e680f1c4df397bfd86a51b9d",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T11:45:00+08:00"
+  },
+  {
+   "title": "腾讯混元开源交互式视频世界模型 Hy-Nomas",
+   "url": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
+   "source": "GitHub · Tencent-Hunyuan",
+   "date": "2026-10-24",
+   "summary": "支持自由文本指令与相机轨迹控制的分段自回归世界生成，跨片段 KV 记忆保持长时一致；8 步蒸馏推理，可 LoRA 适配机器人等领域，INT8/FP8+offload 可在单张 RTX 4090 运行；Apache-2.0，权重与 Hy-Nomas-Bench 已上 Hugging Face。",
+   "id": "9ac65d7c11f93499500808dd28d5da3afe32855c",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-24T11:45:00+08:00"
+  },
+  {
+   "title": "@amasad：欢迎 Chroma 团队为 Agent 提供上下文与记忆",
+   "url": "https://x.com/amasad/status/2113736007111827606",
+   "source": "X @amasad",
+   "date": "2026-10-24",
+   "summary": "Replit CEO 确认收购 Chroma，称将帮助 Agent 获得上下文与长期记忆能力。",
+   "id": "43fc4ba3f58481a597d10db938a9c1b4bab8ecb9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T11:45:00+08:00"
+  },
+  {
+   "title": "@trychroma：Chroma 加入 Replit",
+   "url": "https://x.com/trychroma/status/2113677289334706274",
+   "source": "X @trychroma",
+   "date": "2026-10-24",
+   "summary": "Chroma 官方宣布加入 Replit，开源 ChromaDB 继续维护，Chroma Cloud 将在 60 天内下线。",
+   "id": "cc95a8b36c0e7fc0566150d6c17696d8d08f49d7",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T11:45:00+08:00"
+  },
+  {
+   "title": "@TencentHunyuan：开源自由交互视频世界模型 Hy-Nomas",
+   "url": "https://x.com/TencentHunyuan/status/2113676827114053892",
+   "source": "X @TencentHunyuan",
+   "date": "2026-10-24",
+   "summary": "腾讯混元发布 Hy-Nomas，支持文本与相机轨迹交互、长时世界记忆、面向机器人的轻量 LoRA 适配，并针对消费级 GPU 优化推理。",
+   "id": "0a3ad11b4c04729fc410c7dcb63750546ebc6f55",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T11:45:00+08:00"
+  },
   {
    "title": "Meta 收购 AI 数据分析平台 Sundial：由前 Meta 产品设计副总裁 Julie Zhuo 与前 Instagram 数据分析负责人 Chandra Narayanan 创立，可用自然语言向企业数据提问",
    "url": "https://www.ithome.com/1/017/294.htm",
@@ -100,6 +166,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "Chroma 宣布加入 Replit，开源 ChromaDB 继续 Apache 2.0",
+   "url": "https://www.trychroma.com/blog/chroma-joins-replit",
+   "source": "Chroma Blog",
+   "date": "2026-10-23",
+   "summary": "向量数据库 Chroma 签署最终协议并入 Replit，打造“自动驾驶公司的上下文层”；Chroma Cloud 60 天内关停（11/22 停写、12/22 停读）；ChromaDB（月下载 600 万、约 3 万星）继续开源并释出更多私有仓库代码。",
+   "id": "fb353d8094ac5df1e8c403398ab7b44ff602bfbe",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-24T11:45:00+08:00"
+  },
+  {
+   "title": "欧盟理事会通过 GDPR 88bis：AI 处理个人数据可援引“合法利益”",
+   "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
+   "source": "noyb",
+   "date": "2026-10-23",
+   "summary": "理事会在“数字综合法案”立场中加入第 88bis 条，为 AI 场景下处理个人数据提供宽泛的合法利益依据，仅保留第 21 条反对权；noyb/Schrems 批评为“数字征用”，仍需与议会三方谈判。",
+   "id": "180401db5aeda38dc0f642f9ad1a59a023f78b86",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T11:45:00+08:00"
   },
   {
    "title": "Google Research 在 IDWeek 2026 分享 AI 结核病筛查落地进展：与南非 Nexus AI 合作的胸片筛查工具已在 6 国约 40 家医疗机构使用，单张胸片 45 秒出结果",
