@@ -1,7 +1,62 @@
 {
- "updated": "2026-10-24T19:31:00+08:00",
- "count": 1586,
+ "updated": "2026-10-24T20:34:00+08:00",
+ "count": 1592,
  "items": [
+  {
+   "title": "IT之家实测：Claude 升级付款页面出现中国大陆及港澳台地区选项，并可绑定中国银联卡；但 Anthropic 官方支持地区名单仍不含中国大陆",
+   "url": "https://www.ithome.com/1/017/490.htm",
+   "source": "IT之家",
+   "date": "2026-10-24",
+   "summary": "有用户称此前被永久封禁的 Claude 账号可提交申诉、个别申诉成功（IT之家未能核实）；IT之家提醒付款页出现中国选项不等于 Anthropic 已开放相关地区服务，官方帮助中心仍要求用户位于受支持地区。本月初 Claude 网页端已新增简体与繁体中文界面。",
+   "id": "2a7c0291dd34720262be02c2e11dc393ec1bd68e",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-24T20:34:00+08:00"
+  },
+  {
+   "title": "CNBC：英伟达“AI 金主”角色迎来首次大考——新云股本月普跌逾 30%，其表外 AI 云担保约 360 亿美元，另为 OpenAI 俄亥俄园区提供最高 1050 亿美元担保",
+   "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+   "source": "CNBC",
+   "date": "2026-10-24",
+   "summary": "CoreWeave、Nebius、IREN 10 月跌幅均超 30%，CoreWeave CDS 利差突破 11%；英伟达 8 月财报列示逾 5000 亿美元表外承诺，并向资管机构提供最高 1250 亿美元 GPU 融资残值担保，New Constructs 估算其表外负债净现值超 1530 亿美元。英伟达股价 10 月累跌 7.6%，黄仁勋仍称新云需求“爆表”，缺的是营运资金；英伟达拒绝置评。",
+   "id": "1241b200041c07abf60ad40710a1e32313189db3",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T20:34:00+08:00"
+  },
+  {
+   "title": "字节 AI 应用再整合：剪映团队旗下 AI 短剧创作平台小云雀并入即梦，保留独立入口，运营改由即梦运营与市场负责人陈欣然负责",
+   "url": "https://www.yicai.com/news/103407879.html",
+   "source": "第一财经 / 36氪",
+   "date": "2026-10-24",
+   "summary": "此次调整以资源整合为主，即梦已接入小云雀短剧能力，产品团队不变。小云雀今年 3 月上线短剧 Agent，可上传最多 10 万字剧本一键生成成片、搭载 Seedance 2.0；即梦 2024 年 5 月推出，两者功能重叠，均出自剪映团队。",
+   "id": "507d0d75e779f92e4ec312b6bc82ad3db802336d",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-24T20:34:00+08:00"
+  },
+  {
+   "title": "makecindy/cindy",
+   "url": "https://github.com/makecindy/cindy",
+   "source": "GitHub · TypeScript · ⭐ 3770",
+   "date": "2026-10-24",
+   "summary": "“想到，就能做到”——开源、开箱即用的 AI 智能体应用（Apache-2.0），覆盖 macOS/Windows（Electron）与 iOS/Android（React Native），可对接 Claude Code、Codex；今日 GitHub 趋势榜单日新增约 470 星。",
+   "id": "7c213e5a7519af560aa7fa0eff7a3034a28a07a6",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-24T20:34:00+08:00"
+  },
+  {
+   "title": "@CNBC：英伟达作为 AI 融资方的角色在新云股遭重挫之际迎来首次大考",
+   "url": "https://x.com/CNBC/status/2113950151492485305",
+   "source": "X @CNBC",
+   "date": "2026-10-24",
+   "summary": "链接 CNBC 报道：英伟达从卖芯片转向为模型公司、数据中心和新云提供投资与担保，CoreWeave 等新云股价与债券同步承压，投资者担忧其承担的 AI 基建风险过大。",
+   "id": "4ec11a97418935ae8e8d4ddcd24aa74d2e9a0d78",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T20:34:00+08:00"
+  },
   {
    "title": "Nutlope/hallmark",
    "url": "https://github.com/Nutlope/hallmark",
@@ -342,6 +397,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "SK 海力士以市场波动为由撤回旗下 Solidigm 美国 IPO 计划，AI 基础设施交易本周承压：新云暴跌、Meta/英伟达/甲骨文 CDS 利差创纪录",
+   "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+   "source": "CNBC",
+   "date": "2026-10-23",
+   "summary": "Solidigm 为数据中心 NAND/SSD 厂商，2021 年购自英特尔；SK 海力士称鉴于市场状况与股价走势终止 IPO 评估。CNBC 指出 Meta 三季度自由现金流转负逾 20 亿美元、五年期 CDS 超 124 基点，英伟达 126 基点、甲骨文 343 基点均创纪录；Gartner 预测到 2030 年 80% 新云公司将停业或被并购。",
+   "id": "8b2cc1f3b31682b28f20f7589b6fca00848d4195",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T20:34:00+08:00"
   },
   {
    "title": "瑞典政府办公厅封锁 ChatGPT 与 Claude：员工工作电脑不再可访问，要求改用经批准的 Microsoft Copilot 等工具",

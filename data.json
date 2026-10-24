@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-24T19:31:00+08:00",
+  "updated": "2026-10-24T20:34:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "IT之家实测：Claude 升级付款页面出现中国大陆及港澳台地区选项，并可绑定中国银联卡；但 Anthropic 官方支持地区名单仍不含中国大陆",
+          "url": "https://www.ithome.com/1/017/490.htm",
+          "source": "IT之家",
+          "date": "2026-10-24",
+          "summary": "有用户称此前被永久封禁的 Claude 账号可提交申诉、个别申诉成功（IT之家未能核实）；IT之家提醒付款页出现中国选项不等于 Anthropic 已开放相关地区服务，官方帮助中心仍要求用户位于受支持地区。本月初 Claude 网页端已新增简体与繁体中文界面。"
+        },
         {
           "title": "Jack Dorsey 旗下 Block 发布语音模型 Dessa：仅用人类对话语音从零训练、不含任何文本的全双工语音到语音模型，可在 MacBook Pro M4 Max 本地运行",
           "url": "https://block.xyz/dessa",
@@ -55,20 +62,6 @@
           "source": "IT之家",
           "date": "2026-10-23",
           "summary": "智能助理面向 Apple Creator Studio 订阅用户开放，需 iOS/iPadOS 27 及以上并支持 Apple Intelligence 的设备，目前仅支持美式英语。"
-        },
-        {
-          "title": "Replit 推出 Monitoring Agent：给每个已发布应用配一个“自主值班工程师”，读取生产日志与指标排查错误、变慢和部署失败，验证修复后可自动重新发布",
-          "url": "https://replit.com/blog/replit-monitoring-agent",
-          "source": "Replit Blog",
-          "date": "2026-10-22",
-          "summary": "监控告警、Auto-fix 与 Auto-republish 是三个独立开关：只开 Auto-fix 时智能体会排查并准备经验证的修复、邮件汇报，需用户自行发布；开启实验性的 Auto-republish 后才会自动部署到生产。功能基于今年早些时候的 App Monitoring，运行会计入 Agent 用量费用；Replit 未公布修复成功率。"
-        },
-        {
-          "title": "Cohere 推出 Model Vault 机密计算公测：推理在 CPU+GPU 硬件可信执行环境中运行，提示词、文档与回复全程加密，连 Cohere 和云运营方也看不到明文",
-          "url": "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault",
-          "source": "Cohere",
-          "date": "2026-10-22",
-          "summary": "基于微软 Azure 上的 NVIDIA H100 机密计算，保护“使用中的数据”；请求在客户端经 OHTTP 代理端到端加密、仅在通过远程证明的环境内解密，客户可在发送数据前用密码学方式验证软硬件环境。公测支持 Embed、Rerank、Parse、Compass、North Mini Code 与 Cohere Transcribe 等模型，测试期对设计合作伙伴免费。"
         }
       ]
     },
@@ -77,6 +70,20 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "CNBC：英伟达“AI 金主”角色迎来首次大考——新云股本月普跌逾 30%，其表外 AI 云担保约 360 亿美元，另为 OpenAI 俄亥俄园区提供最高 1050 亿美元担保",
+          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
+          "source": "CNBC",
+          "date": "2026-10-24",
+          "summary": "CoreWeave、Nebius、IREN 10 月跌幅均超 30%，CoreWeave CDS 利差突破 11%；英伟达 8 月财报列示逾 5000 亿美元表外承诺，并向资管机构提供最高 1250 亿美元 GPU 融资残值担保，New Constructs 估算其表外负债净现值超 1530 亿美元。英伟达股价 10 月累跌 7.6%，黄仁勋仍称新云需求“爆表”，缺的是营运资金；英伟达拒绝置评。"
+        },
+        {
+          "title": "SK 海力士以市场波动为由撤回旗下 Solidigm 美国 IPO 计划，AI 基础设施交易本周承压：新云暴跌、Meta/英伟达/甲骨文 CDS 利差创纪录",
+          "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+          "source": "CNBC",
+          "date": "2026-10-23",
+          "summary": "Solidigm 为数据中心 NAND/SSD 厂商，2021 年购自英特尔；SK 海力士称鉴于市场状况与股价走势终止 IPO 评估。CNBC 指出 Meta 三季度自由现金流转负逾 20 亿美元、五年期 CDS 超 124 基点，英伟达 126 基点、甲骨文 343 基点均创纪录；Gartner 预测到 2030 年 80% 新云公司将停业或被并购。"
+        },
         {
           "title": "皮查伊：距离 AI 完全自主改进自身的“最终状态”还很远，但谷歌研究人员已在模型研发各环节与自我改进循环协同工作",
           "url": "https://www.ithome.com/1/017/290.htm",
@@ -118,27 +125,6 @@
           "source": "Gizmodo",
           "date": "2026-10-23",
           "summary": "Altman 在 View From The Top 访谈中称网络安全问题“仍未被组织领导者、国家和个人认真对待”，并表示在数学推理等窄领域“已经有了超级智能”；OpenAI 此前承诺 6 个月内提供 10 亿美元补贴的 Daybreak 防御访问。"
-        },
-        {
-          "title": "路透：美股周五收低但科技股企稳，为 AI 交易动荡的一周收尾——纳指微跌 0.21%、标普科技板块涨 0.35%，下周 Alphabet、微软、亚马逊财报的资本支出指引成焦点",
-          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-set-open-lower-130848087.html",
-          "source": "Reuters / Yahoo Finance",
-          "date": "2026-10-23",
-          "summary": "道指跌 1.23%、标普 500 跌 0.52%；纳指前一日刚创 6 月以来最大单日跌幅。Man Group 首席策略师 Kristina Hooper 称 AI 交易仍受质疑余波影响，明年 AI 数据中心投入可能低于预期。全周标普跌 0.5%、纳指跌 0.7%。"
-        },
-        {
-          "title": "Wayve、Stellantis 与英伟达联合法国政府宣布在法国部署自动驾驶汽车：Stellantis L4-Ready 平台 + Wayve AI Driver + NVIDIA Halos OS/Hyperion",
-          "url": "https://wayve.ai/press/wayve-stellantis-nvidia-collaborate-on-deployment-across-france/",
-          "source": "Wayve",
-          "date": "2026-10-23",
-          "summary": "合作在巴黎“自动驾驶汽车论坛”（Assises du Véhicule Autonome）上公布，目标以法国为基地打造从芯片到整车的自动驾驶产业链并推广至欧盟；法国交通部长 Tabarot 表示将调整监管框架，在严格安全与数据主权要求下加速从试点走向实际部署。"
-        },
-        {
-          "title": "The Verge：Claude 并没有发明蝎毒抗毒血清——Citrini Research 与 Anthropic 合作的实验只做到蛋白结合体筛选，专家称离真正药物还很远",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
-          "source": "The Verge",
-          "date": "2026-10-22",
-          "summary": "Anthropic 为投研机构 Citrini 放开生物安全限制并提供未发布模型，约 64 小时生成近 32 万个候选、筛至 211 个设计，外部实验室测试中 17 个结合了 5 种毒素中的 4 种，但无一结合多种毒素，也未验证能否中和毒素；丹麦技术大学等专家称“结合是容易的部分，难的是变成药物”，结果“被炒作”。"
         }
       ]
     },
@@ -337,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "字节 AI 应用再整合：剪映团队旗下 AI 短剧创作平台小云雀并入即梦，保留独立入口，运营改由即梦运营与市场负责人陈欣然负责",
+          "url": "https://www.yicai.com/news/103407879.html",
+          "source": "第一财经 / 36氪",
+          "date": "2026-10-24",
+          "summary": "此次调整以资源整合为主，即梦已接入小云雀短剧能力，产品团队不变。小云雀今年 3 月上线短剧 Agent，可上传最多 10 万字剧本一键生成成片、搭载 Seedance 2.0；即梦 2024 年 5 月推出，两者功能重叠，均出自剪映团队。"
+        },
+        {
           "title": "腾讯 WorkBuddy 接入 Kimi K3.1 Pro 及 Highspeed 高速版：支持 100 万上下文，因资源紧张现阶段优先向企业旗舰版与个人订阅用户开放",
           "url": "https://www.ithome.com/1/017/412.htm",
           "source": "IT之家",
@@ -384,13 +377,6 @@
           "source": "量子位",
           "date": "2026-10-23",
           "summary": "特赞创始人范凌认为企业要从“租用智能”走向“主权智能”，由长程智能体跑 Signal-Plan-Create-Evals 闭环；其主观世界模型基于 100 万真实用户数据训练，行为模拟准确率称达 85%，并已引入多领域专家采集判断路径作为训练数据。首批共建伙伴含复旦管理 AI Lab、天猫等。"
-        },
-        {
-          "title": "模思智能 MOSS-Image 开源 4 天下载量破 130 万，登顶 Hugging Face 文生图趋势榜",
-          "url": "https://www.qbitai.com/2026/10/504930.html",
-          "source": "量子位",
-          "date": "2026-10-23",
-          "summary": "MOSS-Image 为 5B 参数 DiT 开源图像生成模型，GitHub 获约 1.4k 星；团队称训练数据刻意排除 AI 生成图片，以避免模型\"近亲繁殖\"导致的质量退化。"
         }
       ]
     },
@@ -399,6 +385,13 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "makecindy/cindy",
+          "url": "https://github.com/makecindy/cindy",
+          "source": "GitHub · TypeScript · ⭐ 3770",
+          "date": "2026-10-24",
+          "summary": "“想到，就能做到”——开源、开箱即用的 AI 智能体应用（Apache-2.0），覆盖 macOS/Windows（Electron）与 iOS/Android（React Native），可对接 Claude Code、Codex；今日 GitHub 趋势榜单日新增约 470 星。"
+        },
         {
           "title": "Nutlope/hallmark",
           "url": "https://github.com/Nutlope/hallmark",
@@ -447,13 +440,6 @@
           "source": "GitHub · Rust · ⭐ 18709",
           "date": "2026-10-24",
           "summary": "英伟达开源的自主 AI 智能体安全、私有运行时（OpenShell 参考架构的基础）；今日 GitHub 总趋势榜单日新增约 1240 星。"
-        },
-        {
-          "title": "ai-dynamo/dynamo",
-          "url": "https://github.com/ai-dynamo/dynamo",
-          "source": "GitHub · Rust · ⭐ 8373",
-          "date": "2026-10-23",
-          "summary": "NVIDIA 开源的数据中心级分布式推理服务框架，支持分离式 prefill/decode 与 KV 缓存感知路由；本周登上 GitHub 趋势榜。"
         }
       ]
     },
@@ -462,6 +448,13 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@CNBC：英伟达作为 AI 融资方的角色在新云股遭重挫之际迎来首次大考",
+          "url": "https://x.com/CNBC/status/2113950151492485305",
+          "source": "X @CNBC",
+          "date": "2026-10-24",
+          "summary": "链接 CNBC 报道：英伟达从卖芯片转向为模型公司、数据中心和新云提供投资与担保，CoreWeave 等新云股价与债券同步承压，投资者担忧其承担的 AI 基建风险过大。"
+        },
         {
           "title": "@Reuters：Breakingviews 播客讨论新云（neocloud）股票与无担保债近期双双遭抛售，AI 基础设施“管道裂缝”是否会进一步拖累 Anthropic 放缓的增长",
           "url": "https://x.com/Reuters/status/2113910887081717901",
@@ -510,20 +503,6 @@
           "source": "X @ArtificialAnlys",
           "date": "2026-10-24",
           "summary": "智能指数 39 分；62 层中 46 层用 2048 token 滑动窗口注意力，1M 上下文 KV 缓存减约 75%。英伟达调优的 SGLang 配置较首周方案吞吐提升 1.6–1.8 倍，AMD MI355X 约 7000 万 token/s/MW，约为 B200 的 0.9 倍。"
-        },
-        {
-          "title": "@amasad：欢迎 Chroma 团队为 Agent 提供上下文与记忆",
-          "url": "https://x.com/amasad/status/2113736007111827606",
-          "source": "X @amasad",
-          "date": "2026-10-24",
-          "summary": "Replit CEO 确认收购 Chroma，称将帮助 Agent 获得上下文与长期记忆能力。"
-        },
-        {
-          "title": "@perplexitydevs：Decider for Mac 上线，可在 Mac 本地无 API Key 运行 4B 决策模型 pplx-decider-flash-v1.2",
-          "url": "https://x.com/perplexitydevs/status/2113400672238616800",
-          "source": "X @perplexitydevs",
-          "date": "2026-10-22",
-          "summary": "对文本或图片提问即可在本机返回概率结果；据 @testingcatalog，模型占用约 5.8GB 空间、需要 16GB 内存，在本地提供决策 API。"
         }
       ]
     }
