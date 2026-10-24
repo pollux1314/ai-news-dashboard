@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-24T17:25:00+08:00",
- "count": 1578,
+ "updated": "2026-10-24T18:35:00+08:00",
+ "count": 1581,
  "items": [
+  {
+   "title": "皮查伊：距离 AI 完全自主改进自身的“最终状态”还很远，但谷歌研究人员已在模型研发各环节与自我改进循环协同工作",
+   "url": "https://www.ithome.com/1/017/290.htm",
+   "source": "IT之家（援引《商业内幕》）",
+   "date": "2026-10-24",
+   "summary": "皮查伊预计明年会有进一步进展；他称统计“AI 生成代码占比”已无意义，因为每段代码都深受 AI 影响（4 月曾披露新增代码 75% 由 AI 生成），谷歌因故障回滚软件的次数减少了三分之一，Gemini 4 Argon 将帮助处理更复杂的编程难题。",
+   "id": "c64eac541d708cccb149fe042d1d256c936d80f1",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T18:35:00+08:00"
+  },
+  {
+   "title": "宫本茂获日本文化勋章后谈生成式 AI：AI 承担的制作工作越多，创作者自身的想法就越重要，“人类设计师始终会有用武之地”",
+   "url": "https://www.ithome.com/1/017/344.htm",
+   "source": "IT之家（援引 VGC）",
+   "date": "2026-10-24",
+   "summary": "宫本茂把生成式 AI 比作从打字机到文字处理机的工具变革，认为它会让设计师真正的个人能力显现；他提醒开发门槛降低后，有人可能沉浸于制作的满足感而误以为做出了好作品。任天堂尚未公开确认是否在开发中使用 AI。",
+   "id": "748b1251503eabcf351147ad967867e1b77a72f6",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T18:35:00+08:00"
+  },
+  {
+   "title": "腾讯 WorkBuddy 接入 Kimi K3.1 Pro 及 Highspeed 高速版：支持 100 万上下文，因资源紧张现阶段优先向企业旗舰版与个人订阅用户开放",
+   "url": "https://www.ithome.com/1/017/412.htm",
+   "source": "IT之家",
+   "date": "2026-10-24",
+   "summary": "高速版同等智能、输出速度约 2–3 倍；K3.1 Pro 为月之暗面迄今最强 3 万亿级参数模型，大幅加码强化学习算力，Terminal-Bench 4.0 得分 65.7%，BenchCAD 工具版 92.7%，OfficeQA Pro v2 与 SpreadsheetBench v2 分别为 64.4 与 36.3（SoTA）。",
+   "id": "a111de819e17f50dbfa9723b7a5fd5fef4bd91a5",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-24T18:35:00+08:00"
+  },
   {
    "title": "@Reuters：Breakingviews 播客讨论新云（neocloud）股票与无担保债近期双双遭抛售，AI 基础设施“管道裂缝”是否会进一步拖累 Anthropic 放缓的增长",
    "url": "https://x.com/Reuters/status/2113910887081717901",
