@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-24T08:35:00+08:00",
+ "updated": "2026-10-24T09:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,20 @@
    "icon": "💰",
    "items": [
     {
+     "title": "标普全球评级：因地方反对、暂停令与项目取消，美国数据中心项目面临信用评级下调风险，已追踪 146 个延期或取消项目、约四分之三与当地抵制有关",
+     "url": "https://news.bloomberglaw.com/artificial-intelligence/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
+     "source": "Bloomberg Law / S&P Global Ratings",
+     "date": "2026-10-23",
+     "summary": "S&P 分析师 Chris Mooney 等在周五报告中称，电网容量限制、环境可持续性担忧与分区调整导致的延期“可能加大数据中心项目信用的下行压力”，重点分析了纽约、德州、宾州、伊利诺伊与亚利桑那的暂停令。"
+    },
+    {
+     "title": "Sam Altman 在斯坦福商学院称“我不再认为我们能修补所有漏洞”：前沿模型将发现硬件级缺陷，需要用 AI 构建新的防御体系",
+     "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
+     "source": "Gizmodo",
+     "date": "2026-10-23",
+     "summary": "Altman 在 View From The Top 访谈中称网络安全问题“仍未被组织领导者、国家和个人认真对待”，并表示在数学推理等窄领域“已经有了超级智能”；OpenAI 此前承诺 6 个月内提供 10 亿美元补贴的 Daybreak 防御访问。"
+    },
+    {
      "title": "路透：美股周五收低但科技股企稳，为 AI 交易动荡的一周收尾——纳指微跌 0.21%、标普科技板块涨 0.35%，下周 Alphabet、微软、亚马逊财报的资本支出指引成焦点",
      "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-set-open-lower-130848087.html",
      "source": "Reuters / Yahoo Finance",
@@ -111,20 +125,6 @@
      "source": "TechCrunch",
      "date": "2026-10-23",
      "summary": "据彭博测算，Eric Schmidt 约 1% 持股价值约 100 亿美元，Menlo 持股约 140 亿美元，红杉 30 亿美元约换得 1% 股份；Anthropic 正筹备 IPO。"
-    },
-    {
-     "title": "美国财长贝森特：AI 不会重演互联网泡沫，“这可不是 Pets.com”，未见系统性问题",
-     "url": "https://www.ithome.com/1/016/795.htm",
-     "source": "IT之家（援引 FT）",
-     "date": "2026-10-23",
-     "summary": "贝森特 10 月 21 日在摩根大通与罗宾汉基金会活动上接受桥水 CEO Nir Bar Dea 访谈时称，AI 投资热潮与 2000 年互联网泡沫不同，看不到“系统性问题”。"
-    },
-    {
-     "title": "路透：AT&T 与 T-Mobile 收紧 AI 护栏，完全自治网络仍需数年",
-     "url": "https://www.channelnewsasia.com/business/att-t-mobile-tighten-ai-guardrails-autonomous-networks-remain-years-away-6487386",
-     "source": "CNA（路透）",
-     "date": "2026-10-23",
-     "summary": "T-Mobile CTO John Saw 称正加大监控投入；AT&T CTO Jeremy Legg 表示第三方 AI 智能体是行业难题，AT&T 正核验智能体是否代表合法客户。T-Mobile 自组织网络在冬季风暴 Fern 中 1 小时内恢复 66% 用户。"
     }
    ]
   },
@@ -260,6 +260,13 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "英国宣布设立全球首个 AI 生物安全实验室（AIBL）：政府出资 1 亿英镑，OpenAI 与 Anthropic 各承诺最高 1 亿英镑算力与模型额度，谷歌 DeepMind、Basecamp Research 参与研究合作",
+     "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
+     "source": "GOV.UK / Cabinet Office",
+     "date": "2026-10-24",
+     "summary": "AIBL 隶属英国国家 AI 生物安全计划，总规模最高 3 亿英镑，首期聚焦生物威胁早期发现与加速疫苗、疗法等医学对策研发；OpenAI 通过 Rosalind Biodefense 计划提供可信访问，DeepMind 将开放前沿 Gemini 与专用科学模型。BBC 称同一预算还将向 AI 安全研究所（AISI）追加 1.2 亿英镑。"
+    },
+    {
      "title": "皮尤调查：仅 8% 美国成年人用 AI 聊天机器人获取 2026 中期选举信息，其中 40% 让 AI 给出投票选择建议",
      "url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/",
      "source": "Pew Research Center",
@@ -307,13 +314,6 @@
      "source": "IT之家",
      "date": "2026-10-23",
      "summary": "泄露内容为 2021 年 5 月至 2023 年 3 月间的咨询记录，含姓名、邮箱及咨询正文；截至 10 月 22 日尚未发现被滥用的情况，数字厅正排查并加强外包建站平台的安全管理。"
-    },
-    {
-     "title": "松下 HD：员工违规把约 33 万人个人信息上传至公司禁用的外部生成式 AI 服务，含现任员工、退休员工及家属的住所、电话、邮箱、工号",
-     "url": "https://www.nikkei.com/article/DGXZQOUF237Z60T21C26A0000000/",
-     "source": "日本经济新闻",
-     "date": "2026-10-23",
-     "summary": "非外部入侵，而是人事系统项目成员 9 月下旬违反内部规定上传数据，涉及现任员工约 7.5 万、家属约 5.5 万、1978 年以来离职员工约 17.8 万等。松下已于 9 月 29 日报告日本个人信息保护委员会，称未发现数据公开或滥用，所用服务已关闭训练数据功能，数据将于 10 月 25 日后彻底删除。"
     }
    ]
   },
@@ -449,6 +449,20 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@business：英国宣布 1 亿英镑（1.34 亿美元）设立 AI 生物安全实验室，获 OpenAI、Anthropic 与谷歌 DeepMind 支持",
+     "url": "https://x.com/business/status/2113795118519955730",
+     "source": "X",
+     "date": "2026-10-24",
+     "summary": "彭博官方账号称这是英国提升理解与应对 AI 风险能力的一揽子措施之一。"
+    },
+    {
+     "title": "@business：标普称因公众反对引发的暂停令和取消，数据中心面临潜在信用评级下调",
+     "url": "https://x.com/business/status/2113791343906508906",
+     "source": "X",
+     "date": "2026-10-24",
+     "summary": "彭博官方账号转述 S&P Global Ratings 周五报告。"
+    },
+    {
      "title": "@Reuters：美股收低，科技股企稳，为驱动市场的 AI 交易动荡一周收尾",
      "url": "https://x.com/Reuters/status/2113785039196414297",
      "source": "X",
@@ -489,20 +503,6 @@
      "source": "X @testingcatalog",
      "date": "2026-10-23",
      "summary": "Mubit 作为代理 Base URL 挡在 OpenAI、Anthropic 或 Gemini API 前，根据智能体任务轨迹训练专属小模型；创始人称“你和竞争对手用同一个 AI，它应该是你自己的”。"
-    },
-    {
-     "title": "@verge：OpenAI 发现即使断网，AI 智能体之间仍能通信——测试中两个虚拟机上的智能体利用 CPU 缓存时序侧信道交换秘密",
-     "url": "https://x.com/verge/status/2113740941257539658",
-     "source": "X @verge",
-     "date": "2026-10-23",
-     "summary": "The Verge 报道 OpenAI 离线训练环境细节：智能体通过驱逐/重载缓存的快慢差异编码信息，OpenAI 已在监控系统中加入此类通信检测。"
-    },
-    {
-     "title": "@MiniMax_AI：MiniMax M3.1 Flash 已上线 Jim Keller 领导的 Tenstorrent Cloud，运行在 Tensix 芯片上",
-     "url": "https://x.com/MiniMax_AI/status/2113737885262471328",
-     "source": "X @MiniMax_AI",
-     "date": "2026-10-23",
-     "summary": "MiniMax 官方称开放权重 + 多样化架构，迈向开放、异构的 AI 未来。"
     }
    ]
   }

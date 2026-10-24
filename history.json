@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-24T08:35:00+08:00",
- "count": 1539,
+ "updated": "2026-10-24T09:35:00+08:00",
+ "count": 1544,
  "items": [
+  {
+   "title": "英国宣布设立全球首个 AI 生物安全实验室（AIBL）：政府出资 1 亿英镑，OpenAI 与 Anthropic 各承诺最高 1 亿英镑算力与模型额度，谷歌 DeepMind、Basecamp Research 参与研究合作",
+   "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
+   "source": "GOV.UK / Cabinet Office",
+   "date": "2026-10-24",
+   "summary": "AIBL 隶属英国国家 AI 生物安全计划，总规模最高 3 亿英镑，首期聚焦生物威胁早期发现与加速疫苗、疗法等医学对策研发；OpenAI 通过 Rosalind Biodefense 计划提供可信访问，DeepMind 将开放前沿 Gemini 与专用科学模型。BBC 称同一预算还将向 AI 安全研究所（AISI）追加 1.2 亿英镑。",
+   "id": "45e47345aac50ca1a075274951d2da167937f6fb",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T09:35:00+08:00"
+  },
+  {
+   "title": "@business：英国宣布 1 亿英镑（1.34 亿美元）设立 AI 生物安全实验室，获 OpenAI、Anthropic 与谷歌 DeepMind 支持",
+   "url": "https://x.com/business/status/2113795118519955730",
+   "source": "X",
+   "date": "2026-10-24",
+   "summary": "彭博官方账号称这是英国提升理解与应对 AI 风险能力的一揽子措施之一。",
+   "id": "a5fb8324737d97e10216f8a26cab94df84a1451b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T09:35:00+08:00"
+  },
+  {
+   "title": "@business：标普称因公众反对引发的暂停令和取消，数据中心面临潜在信用评级下调",
+   "url": "https://x.com/business/status/2113791343906508906",
+   "source": "X",
+   "date": "2026-10-24",
+   "summary": "彭博官方账号转述 S&P Global Ratings 周五报告。",
+   "id": "6ef2e20d868432b4660917bb9f468e3bb37a8208",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T09:35:00+08:00"
+  },
   {
    "title": "wesbos/3d-model-anything",
    "url": "https://github.com/wesbos/3d-model-anything",
@@ -34,6 +67,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "标普全球评级：因地方反对、暂停令与项目取消，美国数据中心项目面临信用评级下调风险，已追踪 146 个延期或取消项目、约四分之三与当地抵制有关",
+   "url": "https://news.bloomberglaw.com/artificial-intelligence/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
+   "source": "Bloomberg Law / S&P Global Ratings",
+   "date": "2026-10-23",
+   "summary": "S&P 分析师 Chris Mooney 等在周五报告中称，电网容量限制、环境可持续性担忧与分区调整导致的延期“可能加大数据中心项目信用的下行压力”，重点分析了纽约、德州、宾州、伊利诺伊与亚利桑那的暂停令。",
+   "id": "0a29404dbc21715f0a3756101989024fd24f396e",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T09:35:00+08:00"
+  },
+  {
+   "title": "Sam Altman 在斯坦福商学院称“我不再认为我们能修补所有漏洞”：前沿模型将发现硬件级缺陷，需要用 AI 构建新的防御体系",
+   "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
+   "source": "Gizmodo",
+   "date": "2026-10-23",
+   "summary": "Altman 在 View From The Top 访谈中称网络安全问题“仍未被组织领导者、国家和个人认真对待”，并表示在数学推理等窄领域“已经有了超级智能”；OpenAI 此前承诺 6 个月内提供 10 亿美元补贴的 Daybreak 防御访问。",
+   "id": "b7b4bf7c421ca6725a7c36cd3d8b1b07094edd44",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T09:35:00+08:00"
   },
   {
    "title": "路透：美股周五收低但科技股企稳，为 AI 交易动荡的一周收尾——纳指微跌 0.21%、标普科技板块涨 0.35%，下周 Alphabet、微软、亚马逊财报的资本支出指引成焦点",
