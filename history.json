@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-24T16:33:00+08:00",
- "count": 1576,
+ "updated": "2026-10-24T17:35:00+08:00",
+ "count": 1578,
  "items": [
+  {
+   "title": "@Reuters：Breakingviews 播客讨论新云（neocloud）股票与无担保债近期双双遭抛售，AI 基础设施“管道裂缝”是否会进一步拖累 Anthropic 放缓的增长",
+   "url": "https://x.com/Reuters/status/2113910887081717901",
+   "source": "X @Reuters",
+   "date": "2026-10-24",
+   "summary": "路透 Viewsroom 播客中，Breakingviews 专栏作者辩论新云板块的股债下跌能否被控制，以及 AI 算力供应链的信用风险对 Anthropic 增长前景的影响。",
+   "id": "fad84e7886e4c4ed92d330fc3c3eddf701d95bf7",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T17:35:00+08:00"
+  },
   {
    "title": "StartLux（原点星辉）开源决策模型专用推理引擎 Prism：只算 A–Z 选项的输出层、共享上下文的“森林式”批处理与 int8 计算，单张 H200 最高较原方案提速 5.3 倍且输出逐位一致",
    "url": "https://pandaily.com/startlux-prism-open-source-decision-model-inference-engine-h200-int8-bit-exact",
@@ -276,6 +287,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "瑞典政府办公厅封锁 ChatGPT 与 Claude：员工工作电脑不再可访问，要求改用经批准的 Microsoft Copilot 等工具",
+   "url": "https://computersweden.se/article/4239687/regeringskansliet-sparrar-chat-gpt-och-claude.html",
+   "source": "Computer Sweden（援引瑞典电台 Ekot）",
+   "date": "2026-10-23",
+   "summary": "数字化主管 Mikael Wettercrantz 在内网称使用未签协议的 AI 服务可能影响信息安全；办公厅同时加强了 Copilot 安全配置，此前已限制 DeepSeek。据 Ekot，瑞典税务局与国家机构管理局也已实施类似封锁，执行局正在评估；部分员工仍可通过内部自建 AI 助手平台使用 ChatGPT 和 Claude。",
+   "id": "fa462cef6e568775cd189ebc9464606a2db46d08",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-24T17:35:00+08:00"
   },
   {
    "title": "AWS 与 UC Berkeley 开源智能体运行时 Infinity（Apache 2.0，Rust）：工具调用时挂起智能体、结果到达再恢复，8GB 树莓派 5 可容纳约 7.5 万个并发智能体",
