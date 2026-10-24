@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-24T07:34:00+08:00",
- "count": 1537,
+ "updated": "2026-10-24T08:35:00+08:00",
+ "count": 1539,
  "items": [
   {
    "title": "wesbos/3d-model-anything",
@@ -34,6 +34,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "路透：美股周五收低但科技股企稳，为 AI 交易动荡的一周收尾——纳指微跌 0.21%、标普科技板块涨 0.35%，下周 Alphabet、微软、亚马逊财报的资本支出指引成焦点",
+   "url": "https://finance.yahoo.com/markets/stocks/articles/wall-st-set-open-lower-130848087.html",
+   "source": "Reuters / Yahoo Finance",
+   "date": "2026-10-23",
+   "summary": "道指跌 1.23%、标普 500 跌 0.52%；纳指前一日刚创 6 月以来最大单日跌幅。Man Group 首席策略师 Kristina Hooper 称 AI 交易仍受质疑余波影响，明年 AI 数据中心投入可能低于预期。全周标普跌 0.5%、纳指跌 0.7%。",
+   "id": "eb0dbd7d61790bc1cbcb9dfb8f3a6b53ca116bc7",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-24T08:35:00+08:00"
+  },
+  {
+   "title": "@Reuters：美股收低，科技股企稳，为驱动市场的 AI 交易动荡一周收尾",
+   "url": "https://x.com/Reuters/status/2113785039196414297",
+   "source": "X",
+   "date": "2026-10-23",
+   "summary": "路透官方账号发布周五收盘快讯：主要指数收低，科技股在前一日重挫后企稳。",
+   "id": "2306c5bcf16f54761c3212718ac4302191ae127c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T08:35:00+08:00"
   },
   {
    "title": "Wayve、Stellantis 与英伟达联合法国政府宣布在法国部署自动驾驶汽车：Stellantis L4-Ready 平台 + Wayve AI Driver + NVIDIA Halos OS/Hyperion",
