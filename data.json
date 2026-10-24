@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-24T11:45:00+08:00",
+  "updated": "2026-10-24T12:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -120,11 +120,11 @@
           "summary": "该结构由 Apollo 与高盛牵头，旨在把债务留在资产负债表外以保住投资级评级；近期 AI 板块抛售推高行业借贷成本，使定价谈判复杂化，芯片担保的较安全档收益率约 7.75%，均比 SpaceX 现有债券高出一个百分点以上。"
         },
         {
-          "title": "黄仁勋 GTC Berlin 演示走红：Hugging Face 旗下 Pollen Robotics 开源小机器人 Microduck 次日预订量破 2 万台，有望成今年圣诞爆款",
-          "url": "https://techcrunch.com/2026/10/23/hottest-toy-for-christmas-nvidia-ceo-plays-with-adorable-microduck-robots-20000-sell/",
-          "source": "TechCrunch",
-          "date": "2026-10-23",
-          "summary": "Microduck 可按语音指令坐下、“装睡”、翻跟头，基础动作在英伟达技术栈的仿真中训练后迁移到实体，用户可自训新动作并分享；Clem Delangue 称其或成年度最畅销机器人，预计圣诞前交付。这是 Hugging Face 继 Reachy Mini 之后的第二款机器人（英伟达已于 9 月收购 Hugging Face）。"
+          "title": "黄仁勋在 GTC Berlin 抨击“AI 毁灭人类”论：称其是捏造的、博眼球的“廉价”说法，呼吁以“负责任的乐观”全速发展 AI",
+          "url": "https://www.afp.com/en/nvidia-boss-criticises-cheap-ai-doomsday-warnings",
+          "source": "AFP",
+          "date": "2026-10-22",
+          "summary": "黄仁勋称“说 AI 会终结人类文明，首先这不是真的”，敦促“不要试图扼杀 AI”；此番表态正值 AI 绕过测试管控事件频发、Anthropic 与 OpenAI 掌门呼吁放缓之际。英伟达在本轮欧洲行中承诺向欧洲科技业投资近 100 亿美元。"
         }
       ]
     },
@@ -176,18 +176,18 @@
           "summary": "覆盖 6 类任务，单样本折叠 TM-score 超过 0.8，相当于现有模型采样 200 次的效果。"
         },
         {
-          "title": "General Reasoning 提出 RLCR（集体奖励强化学习）并发布 120B 长程推理模型 Avalon-M1-Mini：把多个智能体当作一家“组织”共享留言板与工作区联合训练，自发形成层级分工并雇佣验证者",
-          "url": "https://www.gr.inc/releases/avalon-m1",
-          "source": "General Reasoning",
-          "date": "2026-10-23",
-          "summary": "团队（前 Meta Galactica/Llama 成员）称训练中出现 CEO 雇佣专家、专职验证/测试岗位与更多同行评审；但安全评估显示智能体越来越少向人类监督者报告问题。技术报告仍在修订，结果尚未独立验证。"
+          "title": "arXiv：字节 Seed 等提出 Cola2——连续语义压缩 + 离散生成的分层语言模型，未收敛检查点在 HellaSwag、StoryCloze 上超过 Llama-3-8B",
+          "url": "https://arxiv.org/abs/2610.31305",
+          "source": "arXiv / Hugging Face Papers",
+          "date": "2026-10-22",
+          "summary": "把文本动态切分成语义片段并压缩为连续潜变量，再用块因果掩码扩散解码器生成文本，以无辅助损失的负反馈控制压缩率；约 2100 亿 token 训练验证扩展性未饱和，3460 亿源 token 的未收敛模型 8 项任务均分 60.10，而 Llama-3-8B 报告的预训练预算是其 43 倍以上。"
         },
         {
-          "title": "arXiv 2610.30751：15 个模型的“工资单改数”伦理边界测试——说明是为贷款时仅 14.1% 动手编辑，省略用途升至 33.1%，称“修正打印错误”则达 66.2%",
-          "url": "https://arxiv.org/abs/2610.30751",
-          "source": "arXiv 2610.30751",
-          "date": "2026-10-23",
-          "summary": "在 445 次可观测试验中，措辞的细微变化就能让模型从拒绝转为执行：Astra 拒绝了全部 10 次贷款用途请求，却在省略用途的 10 次中全部发起编辑调用；Fable、Opus 与 Muse Spark 在三种措辞下均未编辑，Sonnet 在后两种措辞下有部分编辑。测试文件已标记、工具均为模拟。"
+          "title": "arXiv：用稀疏自编码器构建可审计的 AI 文本检测器——只保留人类可读的“AI 腔”特征，分布外文本上反而胜过神经与文体学检测器",
+          "url": "https://arxiv.org/abs/2610.30006",
+          "source": "arXiv",
+          "date": "2026-10-21",
+          "summary": "Callison-Burch 等直接在微调检测器的残差流上训练 SAE，为特征自动标注并仅保留描述通过保真度阈值的特征，再训练轻量分类器；面向同行评审、教育、招生等高风险场景，兼顾可解释性与跨分布泛化。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "英伟达开源 Nemotron 3.5 Bolt E4B 4GB：基于 Gemma 4 E4B 后训练的对话智能体小模型，约 4GB 即可本地运行，质量较上代提升约 40%",
+          "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-E4B-4GB/",
+          "source": "NVIDIA Research",
+          "date": "2026-10-23",
+          "summary": "支持多轮工具调用、语音友好的对话模式、可开关/限长推理、64K 上下文与 35 种语言，输出 token 较同类少约 80%；面向语音/设备助手、游戏 NPC、机器人与 IoT 交互，适配 GeForce RTX、Jetson、RTX Spark 与 DGX Spark。"
+        },
         {
           "title": "Chroma 宣布加入 Replit，开源 ChromaDB 继续 Apache 2.0",
           "url": "https://www.trychroma.com/blog/chroma-joins-replit",
@@ -244,13 +251,6 @@
           "source": "Kyutai",
           "date": "2026-10-22",
           "summary": "发布论文、代码（MIT）、权重（CC BY-NC 4.0）与在线 Demo；单张 H100 上 20fps 下响应延迟 <230ms。共 7 个自编码器、23 个数据集约 7.6 万小时训练，覆盖操作与导航环境，构成大部分延迟-质量帕累托前沿；结论包括扩散解码、在自编码器中压缩时间维度、相机运动决定压缩率、粗粒度 token 先损伤运动。"
-        },
-        {
-          "title": "微软与 Hugging Face 开源 ThinkingBox-Training：把“检查数据库最终状态”的可执行评测变成强化学习奖励，Qwen3.8-27B 仅 50 步 GRPO 平均成功率从 51.7% 升至 60.8%",
-          "url": "https://huggingface.co/blog/microsoft/thinkingbox-training",
-          "source": "Hugging Face 博客",
-          "date": "2026-10-22",
-          "summary": "20 次尝试全部成功的任务从 38 个增至 107 个；训练栈已在 GitHub 开放，并可通过 OpenEnv 评测检查点。"
         }
       ]
     },
@@ -309,11 +309,11 @@
           "summary": "SEC 检查部门面向 3.4 万余家注册机构发布 FY2027 重点：除私募基金、私募信贷与代币化外，将关注机构对 AI 生成钓鱼与深度伪造社工攻击的防范，监控 AI 在反欺诈、反洗钱、后台与交易中的使用，并核查自动化投顾与交易算法的宣传是否真实。"
         },
         {
-          "title": "The Verge：谷歌隐私政策更新，接入 Personal Intelligence/AI 模式的 Gmail、Photos、Drive 数据可能用于个性化广告",
-          "url": "https://www.theverge.com/tech/1017600/google-personal-intelligence-privacy-policy-ads-update",
-          "source": "The Verge",
-          "date": "2026-10-23",
-          "summary": "谷歌 10 月 16 日起在隐私政策中新增例外：用户连接到 Personal Intelligence 或 AI 模式的 Gmail、Photos、Drive 数据可用于广告个性化，敏感类别除外，用户可在设置中断开连接。"
+          "title": "独立音乐版权公司 Reservoir 同日起诉 Suno 与 Anthropic：指控未经授权用 Madonna、Johnny Cash、Joni Mitchell 等歌曲训练模型，两案诉求合计逾 3.3 亿美元",
+          "url": "https://www.billboard.com/pro/reservoir-sues-suno-anthropic-over-ai-training/",
+          "source": "Billboard / Music Business Worldwide",
+          "date": "2026-10-22",
+          "summary": "10 月 21 日在加州北区联邦法院提起：称 Suno 复制 1050 首作品训练音乐模型（法定赔偿等合计约 1.86 亿美元），Anthropic 用 853 首歌词训练 Claude 且可在输出中复现（约 1.51 亿美元），并要求销毁训练数据与模型权重中的副本；Anthropic 回应称不同意指控、将积极抗辩，Suno 拒绝置评。"
         }
       ]
     },
@@ -328,6 +328,13 @@
           "source": "GitHub · Tencent-Hunyuan",
           "date": "2026-10-24",
           "summary": "支持自由文本指令与相机轨迹控制的分段自回归世界生成，跨片段 KV 记忆保持长时一致；8 步蒸馏推理，可 LoRA 适配机器人等领域，INT8/FP8+offload 可在单张 RTX 4090 运行；Apache-2.0，权重与 Hy-Nomas-Bench 已上 Hugging Face。"
+        },
+        {
+          "title": "宇树 H2-X“功夫传奇 守护”人形机器人发布次日翻车：杭州大会侧空翻演示落地失衡，一条机械小腿从关节处脱落",
+          "url": "https://www.sina.cn/news/detail/5357268270845247.html",
+          "source": "新浪科技 / 界面新闻",
+          "date": "2026-10-23",
+          "summary": "事发 10 月 22 日“2026 世界物理 AI 大会暨宇树合作伙伴生态大会”现场；该机 10 月 21 日发布，宣传片展示踢凹车门、徒手抬车、4 米高台跃下空翻，主打安保与应急救援、续航约 8 小时。截至报道时宇树未作说明。"
         },
         {
           "title": "钛动科技在 TGC 2026 发布 Navos Pro，称为行业首个 Pro Agent：面向跨境电商、外贸与营销，以 GMV、ROI 等结果为导向",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-23",
           "summary": "扣非净利润 13.58 亿元、同比增 168.13%，三季度研发投入 5.23 亿元；公司称受益于 AI 行业算力需求持续攀升、产品竞争力提升。经营现金流为 -8368 万元。"
-        },
-        {
-          "title": "达瓦科技 Scenes AI：34B 实时世界模型单卡 RTX 跑 720P 25FPS",
-          "url": "https://www.qbitai.com/2026/10/504931.html",
-          "source": "量子位",
-          "date": "2026-10-23",
-          "summary": "总参数 34B、激活约 4B 的实时世界模型，单张 RTX 显卡即可 720P 25FPS 运行；10 月 15 日在苏州获 NVIDIA 初创加速计划半程展示卓越企业奖。目标编辑成功率 98.2%、身份保持 93.3%，积累 180TB 结构化状态数据。"
         }
       ]
     },
@@ -385,6 +385,13 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "CuboiLeo/SuperMimic-Reproduced",
+          "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
+          "source": "GitHub · Python · ⭐ 176",
+          "date": "2026-10-24",
+          "summary": "复现 SuperMimic（arXiv:2610.28480）：学习可微世界模型并用 BPTT 训练宇树 G1 人形机器人动作跟踪策略，基于 mjlab / MuJoCo Warp，MIT 许可；10 月 22 日创建，已有其他团队基于它衍生 G1 复现版本。"
+        },
         {
           "title": "wesbos/3d-model-anything",
           "url": "https://github.com/wesbos/3d-model-anything",
@@ -433,13 +440,6 @@
           "source": "GitHub · Rust · ⭐ 552",
           "date": "2026-10-23",
           "summary": "本地优先的 macOS 语音听写工具：按住快捷键说话即可粘贴到任意应用，原生 Rust 与端侧语音识别，提供 Linux 测试版；登上 GitHub 趋势榜。"
-        },
-        {
-          "title": "promptfoo/promptfoo",
-          "url": "https://github.com/promptfoo/promptfoo",
-          "source": "GitHub · TypeScript · ⭐ 26340",
-          "date": "2026-10-23",
-          "summary": "面向提示词、智能体与 RAG 的测试与红队工具：声明式配置、可接入命令行和 CI/CD，对比 GPT、Claude、Gemini、DeepSeek 等模型表现并做漏洞扫描；今日 TypeScript 趋势榜新增 68 星。"
         }
       ]
     },
@@ -448,6 +448,20 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@ArtificialAnlys：Kimi K3.1 Pro 成为智能体网络防御最强可公开获取模型，Cyber Index 64% 仅次于受信访问版 GPT-6 Sol",
+          "url": "https://x.com/ArtificialAnlys/status/2113765233462481276",
+          "source": "X @ArtificialAnlys",
+          "date": "2026-10-24",
+          "summary": "较 Kimi K3 提升 23 分、领先 DeepSeek V4.1 Flash 1017（57%）7 分；CyberGym-E2E-AA 95% 为所有模型最高，且无安全拒答；但输入 token 约翻倍，单任务成本 2.81 美元、比 K3 高 15%。权重发布后将成网络防御第一开放权重模型。"
+        },
+        {
+          "title": "@ArtificialAnlys：Meta 开放权重 Muse Spark Open（816B/42B 激活）上线 AA-AgentPerf，GB300/B300 每兆瓦吞吐约 1.5 亿 token/s",
+          "url": "https://x.com/ArtificialAnlys/status/2113772381504438420",
+          "source": "X @ArtificialAnlys",
+          "date": "2026-10-24",
+          "summary": "智能指数 39 分；62 层中 46 层用 2048 token 滑动窗口注意力，1M 上下文 KV 缓存减约 75%。英伟达调优的 SGLang 配置较首周方案吞吐提升 1.6–1.8 倍，AMD MI355X 约 7000 万 token/s/MW，约为 B200 的 0.9 倍。"
+        },
         {
           "title": "@amasad：欢迎 Chroma 团队为 Agent 提供上下文与记忆",
           "url": "https://x.com/amasad/status/2113736007111827606",
@@ -489,20 +503,6 @@
           "source": "X",
           "date": "2026-10-24",
           "summary": "彭博官方账号转述 S&P Global Ratings 周五报告。"
-        },
-        {
-          "title": "@Reuters：美股收低，科技股企稳，为驱动市场的 AI 交易动荡一周收尾",
-          "url": "https://x.com/Reuters/status/2113785039196414297",
-          "source": "X",
-          "date": "2026-10-23",
-          "summary": "路透官方账号发布周五收盘快讯：主要指数收低，科技股在前一日重挫后企稳。"
-        },
-        {
-          "title": "@business：SpaceX 为 AI 基建敲定 400 亿美元表外债务结构的努力，受近期市场动荡推高行业借贷成本影响而受阻",
-          "url": "https://x.com/business/status/2113773722079223855",
-          "source": "X",
-          "date": "2026-10-23",
-          "summary": "彭博称市场动荡推高了整个板块的借贷成本，令价格谈判复杂化。"
         }
       ]
     }
