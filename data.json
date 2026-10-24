@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-24T14:28:00+08:00",
+  "updated": "2026-10-24T15:28:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "蚂蚁百灵开源全双工音视频交互系统 Realtime-Venus：含 9B Omni 音视频模型与 9B Audio 音频模型，边说边听、可主动响应并在后台异步委派任务",
+          "url": "https://huggingface.co/inclusionAI/Realtime-Venus",
+          "source": "Hugging Face / inclusionAI",
+          "date": "2026-10-24",
+          "summary": "由蚂蚁 Venus 团队与清华大学推出，Omni 基于 MiniCPM-o 4.5 改造，能持续观看与收听并自行决定何时开口，区分附和、打断与纠正；配套 Realtime-Venus-Harness 运行时在对话不中断的情况下执行后台任务并把结果带回同一对话，另支持免训练长视频记忆，Apache-2.0 开源。"
+        },
+        {
           "title": "腾讯混元开源交互式视频世界模型 Hy-Nomas",
           "url": "https://github.com/Tencent-Hunyuan/Hy-Nomas",
           "source": "GitHub · Tencent-Hunyuan",
@@ -370,13 +377,6 @@
           "source": "量子位",
           "date": "2026-10-23",
           "summary": "声网 CEO 赵斌在 iRTE2026 大会上提出从 L1 到 L5 的对话式 AI 能力分级，以实时性、打断与情感理解、多模态交互和主动服务等维度衡量语音智能体演进。"
-        },
-        {
-          "title": "高德发布首个基于开放世界行为的全身基座模型 λ0：仅用人类全身行动数据让人形机器人学会移动、姿态与双手协同，真机成功率较最强基线提升 22.5%",
-          "url": "https://www.qbitai.com/2026/10/504905.html",
-          "source": "量子位",
-          "date": "2026-10-23",
-          "summary": "由高德与阿里 ATH 事业群联合完成，采用“无本体全身数据采集”，采集者佩戴消费级设备随走随采，单条示范用时由约 100 秒降至 29 秒；构建 500 小时 HumanVerse-500 数据集，7 项全身协调任务可零样本迁移到真机，并开源硬件配置代码与数据样例（arXiv 2610.18950）。"
         }
       ]
     },

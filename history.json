@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-24T14:28:00+08:00",
- "count": 1572,
+ "updated": "2026-10-24T15:28:00+08:00",
+ "count": 1573,
  "items": [
+  {
+   "title": "蚂蚁百灵开源全双工音视频交互系统 Realtime-Venus：含 9B Omni 音视频模型与 9B Audio 音频模型，边说边听、可主动响应并在后台异步委派任务",
+   "url": "https://huggingface.co/inclusionAI/Realtime-Venus",
+   "source": "Hugging Face / inclusionAI",
+   "date": "2026-10-24",
+   "summary": "由蚂蚁 Venus 团队与清华大学推出，Omni 基于 MiniCPM-o 4.5 改造，能持续观看与收听并自行决定何时开口，区分附和、打断与纠正；配套 Realtime-Venus-Harness 运行时在对话不中断的情况下执行后台任务并把结果带回同一对话，另支持免训练长视频记忆，Apache-2.0 开源。",
+   "id": "791560d6a5ed4ea9f3ab7304edb2502613ea4c3e",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-24T15:28:00+08:00"
+  },
   {
    "title": "@imagine：Grok Imagine 发布 AI 生成《奥德赛》系列第 1 集",
    "url": "https://x.com/imagine/status/2113712964419063911",
