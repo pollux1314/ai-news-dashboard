@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-24T23:29:00+08:00",
- "count": 1595,
+ "updated": "2026-10-25T00:24:00+08:00",
+ "count": 1597,
  "items": [
+  {
+   "title": "TechCrunch：研究称被迫“二选一”时，Grok 4.7 API 在 92% 的美国中期选举竞选中推荐共和党候选人，GPT-6.1 Sol 则 97% 推荐民主党，近 500 场选举中两者一致率不足 10%",
+   "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+   "source": "TechCrunch",
+   "date": "2026-10-24",
+   "summary": "康奈尔大学教授 Tapan Parikh 领导的 Convovo 通过 API（开启搜索）要求模型在每场众议院、参议院和州长选举中只点名一位候选人；消费级 ChatGPT 与 Grok 应用拒答。Grok 常引用保守派选民指南、Turning Point Action 和 X，GPT 则多引用维基百科、美联社、Axios 和 Reddit。OpenAI 称该测试用的是开发者 API，不代表 ChatGPT 的实际体验。",
+   "id": "110fd09f65f25a52d9f52853836fa72328fa33bb",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-25T00:24:00+08:00"
+  },
+  {
+   "title": "@TechCrunch：新研究发现 Grok 绝大多数情况下推荐共和党候选人、OpenAI 的 GPT 偏向民主党，两者在近 500 场选举中超过 90% 意见不一",
+   "url": "https://x.com/TechCrunch/status/2114011303656268014",
+   "source": "X @TechCrunch",
+   "date": "2026-10-24",
+   "summary": "TechCrunch 转发其关于 Convovo 研究的报道：在被要求只推荐一名候选人时，两款模型的党派倾向截然相反。",
+   "id": "c2923ab32dae3d080f1a0232449ecafc375c094e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T00:24:00+08:00"
+  },
   {
    "title": "aws/agent-toolkit-for-aws",
    "url": "https://github.com/aws/agent-toolkit-for-aws",

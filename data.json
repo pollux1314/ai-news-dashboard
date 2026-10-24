@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-24T23:29:00+08:00",
+  "updated": "2026-10-25T00:24:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "TechCrunch：研究称被迫“二选一”时，Grok 4.7 API 在 92% 的美国中期选举竞选中推荐共和党候选人，GPT-6.1 Sol 则 97% 推荐民主党，近 500 场选举中两者一致率不足 10%",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
+          "source": "TechCrunch",
+          "date": "2026-10-24",
+          "summary": "康奈尔大学教授 Tapan Parikh 领导的 Convovo 通过 API（开启搜索）要求模型在每场众议院、参议院和州长选举中只点名一位候选人；消费级 ChatGPT 与 Grok 应用拒答。Grok 常引用保守派选民指南、Turning Point Action 和 X，GPT 则多引用维基百科、美联社、Axios 和 Reddit。OpenAI 称该测试用的是开发者 API，不代表 ChatGPT 的实际体验。"
+        },
+        {
           "title": "悉尼男子向 Claude 透露托儿所枪击计划后被捕",
           "url": "https://www.ithome.com/1/017/325.htm",
           "source": "IT之家（援引《悉尼先驱晨报》）",
@@ -307,13 +314,6 @@
           "source": "Texas Attorney General",
           "date": "2026-10-23",
           "summary": "诉讼在 Collin County 提起，德州继亚利桑那、西弗吉尼亚、爱荷华等州之后起诉 OpenAI；据 Texas Tribune，州方寻求广泛禁令，包括阻止未成年人使用、新模型须经法院指定评估方第三方审批等。"
-        },
-        {
-          "title": "美国 SEC 公布 2027 财年检查重点：私募基金估值与人工智能并列重点，将审查“超级智能”等新技术对市场运作、合规与反欺诈的影响，以及机构应对 AI 网络攻击与深度伪造的准备",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities",
-          "source": "SEC",
-          "date": "2026-10-23",
-          "summary": "SEC 检查部门面向 3.4 万余家注册机构发布 FY2027 重点：除私募基金、私募信贷与代币化外，将关注机构对 AI 生成钓鱼与深度伪造社工攻击的防范，监控 AI 在反欺诈、反洗钱、后台与交易中的使用，并核查自动化投顾与交易算法的宣传是否真实。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@TechCrunch：新研究发现 Grok 绝大多数情况下推荐共和党候选人、OpenAI 的 GPT 偏向民主党，两者在近 500 场选举中超过 90% 意见不一",
+          "url": "https://x.com/TechCrunch/status/2114011303656268014",
+          "source": "X @TechCrunch",
+          "date": "2026-10-24",
+          "summary": "TechCrunch 转发其关于 Convovo 研究的报道：在被要求只推荐一名候选人时，两款模型的党派倾向截然相反。"
+        },
+        {
           "title": "@CNBC：英伟达作为 AI 融资方的角色在新云股遭重挫之际迎来首次大考",
           "url": "https://x.com/CNBC/status/2113950151492485305",
           "source": "X @CNBC",
@@ -496,13 +503,6 @@
           "source": "X @ArtificialAnlys",
           "date": "2026-10-24",
           "summary": "较 Kimi K3 提升 23 分、领先 DeepSeek V4.1 Flash 1017（57%）7 分；CyberGym-E2E-AA 95% 为所有模型最高，且无安全拒答；但输入 token 约翻倍，单任务成本 2.81 美元、比 K3 高 15%。权重发布后将成网络防御第一开放权重模型。"
-        },
-        {
-          "title": "@ArtificialAnlys：Meta 开放权重 Muse Spark Open（816B/42B 激活）上线 AA-AgentPerf，GB300/B300 每兆瓦吞吐约 1.5 亿 token/s",
-          "url": "https://x.com/ArtificialAnlys/status/2113772381504438420",
-          "source": "X @ArtificialAnlys",
-          "date": "2026-10-24",
-          "summary": "智能指数 39 分；62 层中 46 层用 2048 token 滑动窗口注意力，1M 上下文 KV 缓存减约 75%。英伟达调优的 SGLang 配置较首周方案吞吐提升 1.6–1.8 倍，AMD MI355X 约 7000 万 token/s/MW，约为 B200 的 0.9 倍。"
         }
       ]
     }
