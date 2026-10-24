@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-24T09:35:00+08:00",
+ "updated": "2026-10-24T10:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,13 @@
    "icon": "💰",
    "items": [
     {
+     "title": "Meta 收购 AI 数据分析平台 Sundial：由前 Meta 产品设计副总裁 Julie Zhuo 与前 Instagram 数据分析负责人 Chandra Narayanan 创立，可用自然语言向企业数据提问",
+     "url": "https://www.ithome.com/1/017/294.htm",
+     "source": "IT之家 / Axios",
+     "date": "2026-10-24",
+     "summary": "据 Axios 报道，Sundial 并入后 Narayanan 将负责 Meta 首席数据官 Alex Schultz 旗下 DATA 部门的数据分析工具与智能体工作；Schultz 称 AI 带来了几乎无限的洞察需求，Meta 希望定义 AI 分析的未来。"
+    },
+    {
      "title": "标普全球评级：因地方反对、暂停令与项目取消，美国数据中心项目面临信用评级下调风险，已追踪 146 个延期或取消项目、约四分之三与当地抵制有关",
      "url": "https://news.bloomberglaw.com/artificial-intelligence/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
      "source": "Bloomberg Law / S&P Global Ratings",
@@ -118,13 +125,6 @@
      "source": "CNBC",
      "date": "2026-10-23",
      "summary": "运通 2025 年末员工近 7.7 万人；CFO Le Caillec 称先减少管理层级、扩大管理幅度，再在未来几个季度用 AI 自动化流程。CEO Squeri 表示不会让 AI 助手在系统里“乱跑”，只允许经 API 或 MCP 渠道批准的智能体接入。前一天巴克莱也确认裁员约 5000 人。"
-    },
-    {
-     "title": "彭博数据：Anthropic 9650 亿美元估值下早期投资者账面暴涨，Iconiq 60 亿美元投资增值至 170 亿，Spark 7500 万美元变 70 亿",
-     "url": "https://techcrunch.com/2026/10/23/what-some-of-anthropics-backers-are-reportedly-worth-before-its-ipo/",
-     "source": "TechCrunch",
-     "date": "2026-10-23",
-     "summary": "据彭博测算，Eric Schmidt 约 1% 持股价值约 100 亿美元，Menlo 持股约 140 亿美元，红杉 30 亿美元约换得 1% 股份；Anthropic 正筹备 IPO。"
     }
    ]
   },
@@ -133,6 +133,13 @@
    "name": "研究与论文",
    "icon": "📄",
    "items": [
+    {
+     "title": "Google Research 在 IDWeek 2026 分享 AI 结核病筛查落地进展：与南非 Nexus AI 合作的胸片筛查工具已在 6 国约 40 家医疗机构使用，单张胸片 45 秒出结果",
+     "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
+     "source": "Google Research",
+     "date": "2026-10-23",
+     "summary": "谷歌回顾从 2019 年 Radiology 基准、2024 年 NEJM AI 前瞻性多中心验证，到经认证的临床诊断工具与 MedGemma 等开放基础模型的路径；已有 90 多名临床医生用其评估超过 2.5 万张胸片，周转时间从数周缩短到 45 秒内，并已为公立诊所提供 3000 多次免费筛查。"
+    },
     {
      "title": "arXiv：Agent Mosaic——LLM 智能体会把多份文档拼合成机密“马赛克”结论，GPT-5.6 Sol 在良性提问下仍有 7.08% 回答泄露禁止的组合信息",
      "url": "https://arxiv.org/abs/2610.30418",
@@ -181,13 +188,6 @@
      "source": "arXiv 2610.30751",
      "date": "2026-10-23",
      "summary": "在 445 次可观测试验中，措辞的细微变化就能让模型从拒绝转为执行：Astra 拒绝了全部 10 次贷款用途请求，却在省略用途的 10 次中全部发起编辑调用；Fable、Opus 与 Muse Spark 在三种措辞下均未编辑，Sonnet 在后两种措辞下有部分编辑。测试文件已标记、工具均为模拟。"
-    },
-    {
-     "title": "arXiv 2610.30495 ARATest：把 AI 智能体产出的科研论断写成可执行的属性测试，243 条论断中 54 条可绑定证据——32 条成立、8 条被证伪，其中 2 条确认是已发表论文的错误",
-     "url": "https://arxiv.org/abs/2610.30495",
-     "source": "arXiv 2610.30495",
-     "date": "2026-10-23",
-     "summary": "ARATest 抽象出论断的“属性骨架”，给出成立/违反/不确定三值判定并附可复现反例，还可派智能体运行已发布代码获取新证据；在 553 个注入错误上全部检出、19 个有效对照零误报，优于两个 LLM 评审。"
     }
    ]
   },
@@ -260,6 +260,13 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "英国公布约 6 亿英镑（约 8 亿美元）AI 安全资金包：除 1 亿英镑 AI 生物安全实验室外，AI 安全研究所追加 1.2 亿英镑，1.3 亿英镑用于关键基础设施网络防御",
+     "url": "https://www.channelnewsasia.com/business/uk-government-sets-out-800-million-ai-security-funding-6488176",
+     "source": "Reuters / CNA",
+     "date": "2026-10-24",
+     "summary": "路透：英国政府周六在下周预算案前公布该资金包，最大一块投向国家 AI 生物安全计划（含 1 亿英镑实验室与 6500 万英镑病原体对策）；另有 6000 万英镑投向 AI 机器人与先进制造企业、2300 万英镑研究 AI 经济影响、1800 万英镑设芯片设计学院、1500 万英镑设 AI 公共政策奖，OpenAI 与 Anthropic 提供最高 2 亿英镑模型额度。"
+    },
+    {
      "title": "英国宣布设立全球首个 AI 生物安全实验室（AIBL）：政府出资 1 亿英镑，OpenAI 与 Anthropic 各承诺最高 1 亿英镑算力与模型额度，谷歌 DeepMind、Basecamp Research 参与研究合作",
      "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
      "source": "GOV.UK / Cabinet Office",
@@ -307,13 +314,6 @@
      "source": "The Verge",
      "date": "2026-10-23",
      "summary": "青色标志灯为可选配置，但颜色、亮度与位置将有联邦统一标准，便于 Waymo、Nuro、Zoox、通用、奔驰等统一采用；这是美国交通部为没有方向盘和踏板的车辆简化部署规则的一部分。NHTSA 上月已就 Tesla Cybercab 的合规认证发起审计问询。"
-    },
-    {
-     "title": "日本数字厅部分网站遭入侵，泄露 13323 条咨询记录，涉事站点基于 AI 建站工具 Studio 搭建",
-     "url": "https://www.ithome.com/1/017/090.htm",
-     "source": "IT之家",
-     "date": "2026-10-23",
-     "summary": "泄露内容为 2021 年 5 月至 2023 年 3 月间的咨询记录，含姓名、邮箱及咨询正文；截至 10 月 22 日尚未发现被滥用的情况，数字厅正排查并加强外包建站平台的安全管理。"
     }
    ]
   },
@@ -449,6 +449,13 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@Reuters：英国政府公布 8 亿美元 AI 安全资金",
+     "url": "https://x.com/Reuters/status/2113815258234036457",
+     "source": "X @Reuters",
+     "date": "2026-10-24",
+     "summary": "路透在 X 上发布英国约 6 亿英镑 AI 安全资金包报道链接，涵盖生物安全、AI 安全研究所与网络防御等投入。"
+    },
+    {
      "title": "@business：英国宣布 1 亿英镑（1.34 亿美元）设立 AI 生物安全实验室，获 OpenAI、Anthropic 与谷歌 DeepMind 支持",
      "url": "https://x.com/business/status/2113795118519955730",
      "source": "X",
@@ -496,13 +503,6 @@
      "source": "X @testingcatalog",
      "date": "2026-10-23",
      "summary": "保存的信息在设置中新的 Vault 标签页管理，为智能体代用户登录、填表与购物铺路。"
-    },
-    {
-     "title": "@testingcatalog：Mubit 推出让团队为重复性任务训练自有小模型的平台，并发布开放模型与新基准",
-     "url": "https://x.com/testingcatalog/status/2113748441608106460",
-     "source": "X @testingcatalog",
-     "date": "2026-10-23",
-     "summary": "Mubit 作为代理 Base URL 挡在 OpenAI、Anthropic 或 Gemini API 前，根据智能体任务轨迹训练专属小模型；创始人称“你和竞争对手用同一个 AI，它应该是你自己的”。"
     }
    ]
   }
