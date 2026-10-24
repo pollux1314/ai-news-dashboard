@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-24T13:28:00+08:00",
- "count": 1571,
+ "updated": "2026-10-24T14:28:00+08:00",
+ "count": 1572,
  "items": [
+  {
+   "title": "@imagine：Grok Imagine 发布 AI 生成《奥德赛》系列第 1 集",
+   "url": "https://x.com/imagine/status/2113712964419063911",
+   "source": "X @imagine",
+   "date": "2026-10-24",
+   "summary": "xAI 旗下 Grok Imagine 官方账号发布用 Grok Imagine 制作的《奥德赛》系列第 1 集，与 Wonder Studios 及导演 Dev Walker 合作；马斯克转发称“Odyssey with Grok Imagine”，帖子获约 4,500 赞、31 万次浏览。",
+   "id": "eec73feb16bd0f715ca1884a4012b47e98e1c2a3",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T14:28:00+08:00"
+  },
   {
    "title": "hydro-project/infinity",
    "url": "https://github.com/hydro-project/infinity",
