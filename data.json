@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-24T21:28:00+08:00",
+  "updated": "2026-10-24T23:29:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -386,6 +386,13 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "aws/agent-toolkit-for-aws",
+          "url": "https://github.com/aws/agent-toolkit-for-aws",
+          "source": "GitHub · Python · ⭐ 3017",
+          "date": "2026-10-24",
+          "summary": "AWS 官方维护的智能体工具包（Apache-2.0）：汇集 AWS 支持的 MCP 服务器、技能（skills）与插件，帮助 AI 编程智能体在 AWS 上构建、部署和运维应用；今日登上 GitHub 趋势榜。"
+        },
+        {
           "title": "makecindy/cindy",
           "url": "https://github.com/makecindy/cindy",
           "source": "GitHub · TypeScript · ⭐ 3770",
@@ -433,13 +440,6 @@
           "source": "GitHub · Swift · ⭐ 381",
           "date": "2026-10-24",
           "summary": "Claude Code 等智能体用的动画技能：把任意 SVG/手绘变成 60fps 有“生命感”的动画（呼吸、眨眼、重心转移），解决智能体动画生硬、逐姿态停顿的问题；10 月 22 日创建。"
-        },
-        {
-          "title": "NVIDIA/OpenShell",
-          "url": "https://github.com/NVIDIA/OpenShell",
-          "source": "GitHub · Rust · ⭐ 18709",
-          "date": "2026-10-24",
-          "summary": "英伟达开源的自主 AI 智能体安全、私有运行时（OpenShell 参考架构的基础）；今日 GitHub 总趋势榜单日新增约 1240 星。"
         }
       ]
     },
