@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-25T06:35:00+08:00",
- "count": 1607,
+ "updated": "2026-10-25T07:30:00+08:00",
+ "count": 1609,
  "items": [
+  {
+   "title": "The Information：OpenAI 低价攻势见效——HR 软件公司 Rippling 数百名工程师的编码工作中，Anthropic 模型占比从 5 月的 57% 降至 18%，OpenAI 从 16% 升至 52%",
+   "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
+   "source": "The Information",
+   "date": "2026-10-24",
+   "summary": "Rippling CEO Parker Conrad 称切换原因是为削减成本、OpenAI 更便宜；报道认为 Anthropic 的高毛利正成为 OpenAI 抢客的机会，但路由工具让工作负载可随时切回。",
+   "id": "9247607daab7ce61f488f7b0f0decc8f771c7bdd",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-25T07:30:00+08:00"
+  },
+  {
+   "title": "@kimmonismus：OpenAI 正以大幅折扣从 Anthropic 手中抢走 Rippling、Replit 等公司的编码负载，可能加深自身亏损；但 Anthropic 在 OpenRouter 重夺领先说明更好的模型能迅速赢回用户",
+   "url": "https://x.com/kimmonismus/status/2114066987995349180",
+   "source": "X @kimmonismus",
+   "date": "2026-10-24",
+   "summary": "该帖获近 300 赞、1.7 万次浏览，引发“价格战取代榜单战”的讨论。",
+   "id": "b5d021a840ad65cf857698ad084f1b9a179bfefc",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T07:30:00+08:00"
+  },
   {
    "title": "google-gemini/gemini-cli",
    "url": "https://github.com/google-gemini/gemini-cli",

@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T06:35:00+08:00",
+  "updated": "2026-10-25T07:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "The Information：OpenAI 低价攻势见效——HR 软件公司 Rippling 数百名工程师的编码工作中，Anthropic 模型占比从 5 月的 57% 降至 18%，OpenAI 从 16% 升至 52%",
+          "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
+          "source": "The Information",
+          "date": "2026-10-24",
+          "summary": "Rippling CEO Parker Conrad 称切换原因是为削减成本、OpenAI 更便宜；报道认为 Anthropic 的高毛利正成为 OpenAI 抢客的机会，但路由工具让工作负载可随时切回。"
+        },
+        {
           "title": "The Information：Replit 已把大部分 AI 支出从 Anthropic 转向 OpenAI——Anthropic 取消折扣后，OpenAI 以 30% 以上折扣拿下每年超 1 亿美元的合同",
           "url": "https://www.techmeme.com/261024/p8",
           "source": "The Information / Techmeme",
@@ -118,13 +125,6 @@
           "source": "IT之家 / Axios",
           "date": "2026-10-24",
           "summary": "据 Axios 报道，Sundial 并入后 Narayanan 将负责 Meta 首席数据官 Alex Schultz 旗下 DATA 部门的数据分析工具与智能体工作；Schultz 称 AI 带来了几乎无限的洞察需求，Meta 希望定义 AI 分析的未来。"
-        },
-        {
-          "title": "《纽约时报》调查 AI 私校 Alpha School：宣称用 AI 让学生“两小时学两倍”，内部数据显示仅 42% 的 K-8 学生在数学和阅读上同时达到 2 倍进度",
-          "url": "https://www.nytimes.com/2026/10/23/us/alpha-school-ai-education-parents.html",
-          "source": "The New York Times",
-          "date": "2026-10-23",
-          "summary": "基于约 400 名学生 2025 年秋至 2026 年初的数据：75% 的学生进度不低于全国平均，中位成绩处于全美第 87（数学）/89（阅读）百分位，但约一半学生数学未达 2 倍目标；数学基础较弱的学生仅 37% 达标。Alpha 正把其软件推向公立学区。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@kimmonismus：OpenAI 正以大幅折扣从 Anthropic 手中抢走 Rippling、Replit 等公司的编码负载，可能加深自身亏损；但 Anthropic 在 OpenRouter 重夺领先说明更好的模型能迅速赢回用户",
+          "url": "https://x.com/kimmonismus/status/2114066987995349180",
+          "source": "X @kimmonismus",
+          "date": "2026-10-24",
+          "summary": "该帖获近 300 赞、1.7 万次浏览，引发“价格战取代榜单战”的讨论。"
+        },
+        {
           "title": "@theinformation：Salesforce 计划要求客户登记外部 AI 智能体并监控其对 Salesforce 系统的调用，客户正在观望其定价",
           "url": "https://x.com/theinformation/status/2114115763380338703",
           "source": "X @theinformation",
@@ -496,13 +503,6 @@
           "source": "X @Reuters",
           "date": "2026-10-24",
           "summary": "路透报道：月之暗面发布 Kimi K3.1 Pro 时称已从训练语料和强化学习环境中移除网络攻防相关数据，内部网络攻防基准得分 81.0%（未做限制版本为 90.5%），并表示“不希望发布会推进网络能力绝对前沿的开放权重”；权重计划 11 月 4 日前发布。"
-        },
-        {
-          "title": "@imagine：Grok Imagine 发布 AI 生成《奥德赛》系列第 1 集",
-          "url": "https://x.com/imagine/status/2113712964419063911",
-          "source": "X @imagine",
-          "date": "2026-10-24",
-          "summary": "xAI 旗下 Grok Imagine 官方账号发布用 Grok Imagine 制作的《奥德赛》系列第 1 集，与 Wonder Studios 及导演 Dev Walker 合作；马斯克转发称“Odyssey with Grok Imagine”，帖子获约 4,500 赞、31 万次浏览。"
         }
       ]
     }
