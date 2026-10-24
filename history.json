@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-25T04:35:00+08:00",
- "count": 1603,
+ "updated": "2026-10-25T05:30:00+08:00",
+ "count": 1605,
  "items": [
+  {
+   "title": "The Information：Replit 已把大部分 AI 支出从 Anthropic 转向 OpenAI——Anthropic 取消折扣后，OpenAI 以 30% 以上折扣拿下每年超 1 亿美元的合同",
+   "url": "https://www.techmeme.com/261024/p8",
+   "source": "The Information / Techmeme",
+   "date": "2026-10-24",
+   "summary": "报道称这一转变折射出 Anthropic 的毛利压力与 OpenAI 的抢客机会；此前 Replit CEO Amjad Masad 已在 TechCrunch Disrupt 上表示 OpenAI 模型成为 Replit Agent 默认选项，但用户仍可选用 Claude。",
+   "id": "885e36bec4c35df91ae679555bdd955074f9b5ae",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-25T05:30:00+08:00"
+  },
+  {
+   "title": "@theinformation：AI 电影初创公司 Utopai Studios 以 10 亿美元估值融资 6000 万美元，已收到最高 30 亿美元估值的报价",
+   "url": "https://x.com/theinformation/status/2114099638735175706",
+   "source": "X @theinformation",
+   "date": "2026-10-24",
+   "summary": "该公司计划明年在院线上映三部长片。",
+   "id": "b866ac54ebfb7cf0ecc366ec06589d14188a5a2c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T05:30:00+08:00"
+  },
   {
    "title": "谷歌把 Gemini Notebook（原 NotebookLM）接入 Gemini 应用成为 Connected App：在对话中输入 @Gemini Notebook 即可创建/编辑/删除笔记本、增删来源并基于笔记本内容问答",
    "url": "https://workspaceupdates.googleblog.com/2026/10/take-actions-on-your-notebooks-from-Gemini-Notebook-directly-in-the-Gemini-app.html",

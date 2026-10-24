@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T04:35:00+08:00",
+  "updated": "2026-10-25T05:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "The Information：Replit 已把大部分 AI 支出从 Anthropic 转向 OpenAI——Anthropic 取消折扣后，OpenAI 以 30% 以上折扣拿下每年超 1 亿美元的合同",
+          "url": "https://www.techmeme.com/261024/p8",
+          "source": "The Information / Techmeme",
+          "date": "2026-10-24",
+          "summary": "报道称这一转变折射出 Anthropic 的毛利压力与 OpenAI 的抢客机会；此前 Replit CEO Amjad Masad 已在 TechCrunch Disrupt 上表示 OpenAI 模型成为 Replit Agent 默认选项，但用户仍可选用 Claude。"
+        },
+        {
           "title": "Apollo 首席经济学家 Torsten Slok：AI 至今未给科技行业以外的美国企业带来任何财务回报——七巨头人均营收与利润率上升，标普 493 两项均持平，也看不到生产率提升迹象",
           "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
           "source": "Apollo The Daily Spark",
@@ -118,13 +125,6 @@
           "source": "The New York Times",
           "date": "2026-10-23",
           "summary": "基于约 400 名学生 2025 年秋至 2026 年初的数据：75% 的学生进度不低于全国平均，中位成绩处于全美第 87（数学）/89（阅读）百分位，但约一半学生数学未达 2 倍目标；数学基础较弱的学生仅 37% 达标。Alpha 正把其软件推向公立学区。"
-        },
-        {
-          "title": "SK 海力士以市场波动为由撤回旗下 Solidigm 美国 IPO 计划，AI 基础设施交易本周承压：新云暴跌、Meta/英伟达/甲骨文 CDS 利差创纪录",
-          "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-          "source": "CNBC",
-          "date": "2026-10-23",
-          "summary": "Solidigm 为数据中心 NAND/SSD 厂商，2021 年购自英特尔；SK 海力士称鉴于市场状况与股价走势终止 IPO 评估。CNBC 指出 Meta 三季度自由现金流转负逾 20 亿美元、五年期 CDS 超 124 基点，英伟达 126 基点、甲骨文 343 基点均创纪录；Gartner 预测到 2030 年 80% 新云公司将停业或被并购。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@theinformation：AI 电影初创公司 Utopai Studios 以 10 亿美元估值融资 6000 万美元，已收到最高 30 亿美元估值的报价",
+          "url": "https://x.com/theinformation/status/2114099638735175706",
+          "source": "X @theinformation",
+          "date": "2026-10-24",
+          "summary": "该公司计划明年在院线上映三部长片。"
+        },
+        {
           "title": "@GaryMarcus：引用 Apollo 首席经济学家 Slok 报告称“支持 AI 的正面论据每天都在变弱”——AI 未给科技行业以外的企业带来财务回报",
           "url": "https://x.com/GaryMarcus/status/2114041475604332851",
           "source": "X @GaryMarcus",
@@ -496,13 +503,6 @@
           "source": "X @business",
           "date": "2026-10-24",
           "summary": "链接至彭博 Merryn Talks Money 通讯，讨论 AI 成功反而可能深度冲击市场的风险。"
-        },
-        {
-          "title": "@clare_liguori：AWS 的 @ShadajL 在 AGNTCon 发布 Infinity，智能体运行时默认“缩容到零”",
-          "url": "https://x.com/clare_liguori/status/2113752461295182182",
-          "source": "X @clare_liguori",
-          "date": "2026-10-24",
-          "summary": "帖子指出智能体大部分时间都在等推理、工具调用和输入，Infinity 通过挂起与恢复消除空闲开销。"
         }
       ]
     }
