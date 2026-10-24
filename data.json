@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-24T18:26:00+08:00",
+  "updated": "2026-10-24T19:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -62,6 +62,13 @@
           "source": "Replit Blog",
           "date": "2026-10-22",
           "summary": "监控告警、Auto-fix 与 Auto-republish 是三个独立开关：只开 Auto-fix 时智能体会排查并准备经验证的修复、邮件汇报，需用户自行发布；开启实验性的 Auto-republish 后才会自动部署到生产。功能基于今年早些时候的 App Monitoring，运行会计入 Agent 用量费用；Replit 未公布修复成功率。"
+        },
+        {
+          "title": "Cohere 推出 Model Vault 机密计算公测：推理在 CPU+GPU 硬件可信执行环境中运行，提示词、文档与回复全程加密，连 Cohere 和云运营方也看不到明文",
+          "url": "https://cohere.com/blog/introducing-confidential-computing-on-cohere-model-vault",
+          "source": "Cohere",
+          "date": "2026-10-22",
+          "summary": "基于微软 Azure 上的 NVIDIA H100 机密计算，保护“使用中的数据”；请求在客户端经 OHTTP 代理端到端加密、仅在通过远程证明的环境内解密，客户可在发送数据前用密码学方式验证软硬件环境。公测支持 Embed、Rerank、Parse、Compass、North Mini Code 与 Cohere Transcribe 等模型，测试期对设计合作伙伴免费。"
         }
       ]
     },
@@ -125,6 +132,13 @@
           "source": "Wayve",
           "date": "2026-10-23",
           "summary": "合作在巴黎“自动驾驶汽车论坛”（Assises du Véhicule Autonome）上公布，目标以法国为基地打造从芯片到整车的自动驾驶产业链并推广至欧盟；法国交通部长 Tabarot 表示将调整监管框架，在严格安全与数据主权要求下加速从试点走向实际部署。"
+        },
+        {
+          "title": "The Verge：Claude 并没有发明蝎毒抗毒血清——Citrini Research 与 Anthropic 合作的实验只做到蛋白结合体筛选，专家称离真正药物还很远",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1016443/anthropic-claude-citrini-vibecoding-scorpion-antivenom",
+          "source": "The Verge",
+          "date": "2026-10-22",
+          "summary": "Anthropic 为投研机构 Citrini 放开生物安全限制并提供未发布模型，约 64 小时生成近 32 万个候选、筛至 211 个设计，外部实验室测试中 17 个结合了 5 种毒素中的 4 种，但无一结合多种毒素，也未验证能否中和毒素；丹麦技术大学等专家称“结合是容易的部分，难的是变成药物”，结果“被炒作”。"
         }
       ]
     },
@@ -386,6 +400,20 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "Nutlope/hallmark",
+          "url": "https://github.com/Nutlope/hallmark",
+          "source": "GitHub · CSS · ⭐ 31.5k",
+          "date": "2026-10-24",
+          "summary": "面向 Claude Code、Cursor 与 Codex 的“反 AI 糊弄”设计技能（skill），让编程智能体产出的界面摆脱千篇一律的 AI 味；今日 GitHub 趋势榜单日新增约 570 星。"
+        },
+        {
+          "title": "pollen-robotics/microduck",
+          "url": "https://github.com/pollen-robotics/microduck",
+          "source": "GitHub · Rust · ⭐ 10.6k",
+          "date": "2026-10-24",
+          "summary": "Hugging Face 旗下 Pollen Robotics 的开源双足小鸭机器人，黄仁勋在 GTC Berlin 台上演示后走红、预订破 2 万台；今日 GitHub 趋势榜单日新增约 420 星。"
+        },
+        {
           "title": "hydro-project/infinity",
           "url": "https://github.com/hydro-project/infinity",
           "source": "GitHub · Rust · ⭐ 22",
@@ -426,20 +454,6 @@
           "source": "GitHub · Rust · ⭐ 8373",
           "date": "2026-10-23",
           "summary": "NVIDIA 开源的数据中心级分布式推理服务框架，支持分离式 prefill/decode 与 KV 缓存感知路由；本周登上 GitHub 趋势榜。"
-        },
-        {
-          "title": "agentgateway/agentgateway",
-          "url": "https://github.com/agentgateway/agentgateway",
-          "source": "GitHub · Rust · ⭐ 5526",
-          "date": "2026-10-23",
-          "summary": "面向 AI 智能体与 MCP 服务器的新一代代理网关，提供连接、安全与可观测能力；登上 GitHub 趋势榜。"
-        },
-        {
-          "title": "ZSeven-W/openpencil",
-          "url": "https://github.com/ZSeven-W/openpencil",
-          "source": "GitHub · Rust · ⭐ 6437",
-          "date": "2026-10-23",
-          "summary": "开源 AI 原生矢量设计工具，支持并发智能体团队与 Design-as-Code，可在画布上用提示词直接生成 UI；登上 GitHub 趋势榜。"
         }
       ]
     },
@@ -503,6 +517,13 @@
           "source": "X @amasad",
           "date": "2026-10-24",
           "summary": "Replit CEO 确认收购 Chroma，称将帮助 Agent 获得上下文与长期记忆能力。"
+        },
+        {
+          "title": "@perplexitydevs：Decider for Mac 上线，可在 Mac 本地无 API Key 运行 4B 决策模型 pplx-decider-flash-v1.2",
+          "url": "https://x.com/perplexitydevs/status/2113400672238616800",
+          "source": "X @perplexitydevs",
+          "date": "2026-10-22",
+          "summary": "对文本或图片提问即可在本机返回概率结果；据 @testingcatalog，模型占用约 5.8GB 空间、需要 16GB 内存，在本地提供决策 API。"
         }
       ]
     }
