@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-24T15:28:00+08:00",
- "count": 1573,
+ "updated": "2026-10-24T16:33:00+08:00",
+ "count": 1576,
  "items": [
+  {
+   "title": "StartLux（原点星辉）开源决策模型专用推理引擎 Prism：只算 A–Z 选项的输出层、共享上下文的“森林式”批处理与 int8 计算，单张 H200 最高较原方案提速 5.3 倍且输出逐位一致",
+   "url": "https://pandaily.com/startlux-prism-open-source-decision-model-inference-engine-h200-int8-bit-exact",
+   "source": "Pandaily / GitHub StartLuxLabs",
+   "date": "2026-10-24",
+   "summary": "代码 10 月 22 日在 GitHub（StartLuxLabs/StartLux-Prism）开源，面向 StartLux-Decision 决策模型。官方实测：单个短问题 19ms（原 53.1ms），同一材料三问最高提速 5.3 倍；JevBench 231 题平均 41ms，对比 SGLang 75.6ms、vLLM 112.7ms；int8 版准确率 92.94%，与 BF16 的 92.97% 基本持平，16.55GB 压缩版可跑在单张 32GB RTX 5090 上。数据均为厂商自测。",
+   "id": "d0e34efb90c29027ac2541f1499452594184757f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-24T16:33:00+08:00"
+  },
+  {
+   "title": "@Reuters：月之暗面在新 Kimi 模型中削弱黑客攻击能力，应对 AI 驱动网络攻击担忧",
+   "url": "https://x.com/Reuters/status/2113884474098295077",
+   "source": "X @Reuters",
+   "date": "2026-10-24",
+   "summary": "路透报道：月之暗面发布 Kimi K3.1 Pro 时称已从训练语料和强化学习环境中移除网络攻防相关数据，内部网络攻防基准得分 81.0%（未做限制版本为 90.5%），并表示“不希望发布会推进网络能力绝对前沿的开放权重”；权重计划 11 月 4 日前发布。",
+   "id": "df1bfdf811c70de0c320d73fd3ec4d94affb41a8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-24T16:33:00+08:00"
+  },
   {
    "title": "蚂蚁百灵开源全双工音视频交互系统 Realtime-Venus：含 9B Omni 音视频模型与 9B Audio 音频模型，边说边听、可主动响应并在后台异步委派任务",
    "url": "https://huggingface.co/inclusionAI/Realtime-Venus",
@@ -2058,6 +2080,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "Replit 推出 Monitoring Agent：给每个已发布应用配一个“自主值班工程师”，读取生产日志与指标排查错误、变慢和部署失败，验证修复后可自动重新发布",
+   "url": "https://replit.com/blog/replit-monitoring-agent",
+   "source": "Replit Blog",
+   "date": "2026-10-22",
+   "summary": "监控告警、Auto-fix 与 Auto-republish 是三个独立开关：只开 Auto-fix 时智能体会排查并准备经验证的修复、邮件汇报，需用户自行发布；开启实验性的 Auto-republish 后才会自动部署到生产。功能基于今年早些时候的 App Monitoring，运行会计入 Agent 用量费用；Replit 未公布修复成功率。",
+   "id": "ed34adaea5428d456fcbdc9cde5b6014a99a7e7a",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-24T16:33:00+08:00"
   },
   {
    "title": "英伟达发布 AI 工厂 AIOps 平台 Minerva：把 GPU、网络、存储、调度器与工作负载遥测汇入知识图谱，用 AI 做异常检测、根因分析与修复",
