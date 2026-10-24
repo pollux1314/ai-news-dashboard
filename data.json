@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T05:30:00+08:00",
+  "updated": "2026-10-25T06:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -386,6 +386,13 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "google-gemini/gemini-cli",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "source": "GitHub · TypeScript · ⭐ 107996",
+          "date": "2026-10-24",
+          "summary": "谷歌官方开源的终端 AI 智能体 Gemini CLI，把 Gemini 直接带进命令行；持续每日发布 nightly 版本（10 月 24 日 v0.67.0-nightly 修复请求取消后的续流处理、IDE 工作区相对路径解析等），今日登上 GitHub 趋势榜。"
+        },
+        {
           "title": "vectorize-io/hindsight",
           "url": "https://github.com/vectorize-io/hindsight",
           "source": "GitHub · Python · ⭐ 53402",
@@ -433,13 +440,6 @@
           "source": "GitHub · Python · ⭐ 176",
           "date": "2026-10-24",
           "summary": "复现 SuperMimic（arXiv:2610.28480）：学习可微世界模型并用 BPTT 训练宇树 G1 人形机器人动作跟踪策略，基于 mjlab / MuJoCo Warp，MIT 许可；10 月 22 日创建，已有其他团队基于它衍生 G1 复现版本。"
-        },
-        {
-          "title": "wesbos/3d-model-anything",
-          "url": "https://github.com/wesbos/3d-model-anything",
-          "source": "GitHub · Swift · ⭐ 1038",
-          "date": "2026-10-24",
-          "summary": "Wes Bos 开源：用 iPhone LiDAR 与照片采集房间，再由 AI 编码智能体按 scan-to-threejs 技能逐步测量、建模并做相机对比，重建可编辑的 Three.js 室内场景；10 月 21 日创建，三天破千星。"
         }
       ]
     },
@@ -448,6 +448,13 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@theinformation：Salesforce 计划要求客户登记外部 AI 智能体并监控其对 Salesforce 系统的调用，客户正在观望其定价",
+          "url": "https://x.com/theinformation/status/2114115763380338703",
+          "source": "X @theinformation",
+          "date": "2026-10-24",
+          "summary": "The Information 应用 AI 记者 Laura Bratton 解读：核心问题是客户用自己的 AI 智能体访问 Salesforce 时是否还要付费。"
+        },
         {
           "title": "@theinformation：AI 电影初创公司 Utopai Studios 以 10 亿美元估值融资 6000 万美元，已收到最高 30 亿美元估值的报价",
           "url": "https://x.com/theinformation/status/2114099638735175706",
@@ -496,13 +503,6 @@
           "source": "X @imagine",
           "date": "2026-10-24",
           "summary": "xAI 旗下 Grok Imagine 官方账号发布用 Grok Imagine 制作的《奥德赛》系列第 1 集，与 Wonder Studios 及导演 Dev Walker 合作；马斯克转发称“Odyssey with Grok Imagine”，帖子获约 4,500 赞、31 万次浏览。"
-        },
-        {
-          "title": "@business：彭博专栏称 AI 产业若成功，引发的岗位流失可能抹去数千亿美元养老金资金流",
-          "url": "https://x.com/business/status/2113854260169298071",
-          "source": "X @business",
-          "date": "2026-10-24",
-          "summary": "链接至彭博 Merryn Talks Money 通讯，讨论 AI 成功反而可能深度冲击市场的风险。"
         }
       ]
     }

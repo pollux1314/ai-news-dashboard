@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-25T05:30:00+08:00",
- "count": 1605,
+ "updated": "2026-10-25T06:35:00+08:00",
+ "count": 1607,
  "items": [
+  {
+   "title": "google-gemini/gemini-cli",
+   "url": "https://github.com/google-gemini/gemini-cli",
+   "source": "GitHub · TypeScript · ⭐ 107996",
+   "date": "2026-10-24",
+   "summary": "谷歌官方开源的终端 AI 智能体 Gemini CLI，把 Gemini 直接带进命令行；持续每日发布 nightly 版本（10 月 24 日 v0.67.0-nightly 修复请求取消后的续流处理、IDE 工作区相对路径解析等），今日登上 GitHub 趋势榜。",
+   "id": "9ad5ce51a9979f8cdcea79c971a00e192bd7d3de",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-25T06:35:00+08:00"
+  },
+  {
+   "title": "@theinformation：Salesforce 计划要求客户登记外部 AI 智能体并监控其对 Salesforce 系统的调用，客户正在观望其定价",
+   "url": "https://x.com/theinformation/status/2114115763380338703",
+   "source": "X @theinformation",
+   "date": "2026-10-24",
+   "summary": "The Information 应用 AI 记者 Laura Bratton 解读：核心问题是客户用自己的 AI 智能体访问 Salesforce 时是否还要付费。",
+   "id": "41b4b4121e7ad49dae858f7a7fa92a2c02632553",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T06:35:00+08:00"
+  },
   {
    "title": "The Information：Replit 已把大部分 AI 支出从 Anthropic 转向 OpenAI——Anthropic 取消折扣后，OpenAI 以 30% 以上折扣拿下每年超 1 亿美元的合同",
    "url": "https://www.techmeme.com/261024/p8",
