@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-25T02:30:00+08:00",
- "count": 1598,
+ "updated": "2026-10-25T03:30:00+08:00",
+ "count": 1602,
  "items": [
+  {
+   "title": "Apollo 首席经济学家 Torsten Slok：AI 至今未给科技行业以外的美国企业带来任何财务回报——七巨头人均营收与利润率上升，标普 493 两项均持平，也看不到生产率提升迹象",
+   "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+   "source": "Apollo The Daily Spark",
+   "date": "2026-10-24",
+   "summary": "Slok 在 10 月 24 日的报告中称，缺乏利润回报的主流企业正在收缩，开始把 token 支出视为拖累利润率的成本中心而非增长来源；token 支出增长主要集中在风投支持的公司，主流企业“不需要最新模型、也不愿为其付费”。他认为 AI 的成败将取决于标普 493 而非七巨头；数据来源包括彭博、旧金山联储 TFP 与 Ramp AI Index。",
+   "id": "074b7d5e1602db74c1fe6fb1c2ecbd9316e0e876",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-25T03:30:00+08:00"
+  },
+  {
+   "title": "vectorize-io/hindsight",
+   "url": "https://github.com/vectorize-io/hindsight",
+   "source": "GitHub · Python · ⭐ 53402",
+   "date": "2026-10-24",
+   "summary": "Hindsight：“会学习的智能体记忆”（MIT）。为 AI 智能体提供可保留、检索与反思的长期记忆服务，10 月 13 日发布 v1.0、21 日发布 v1.1.0（新增 webhook 事件投递 ID、服务端按调用选择 LLM 与凭据等）；今日登上 GitHub Python 趋势榜，单日新增约 340 星。",
+   "id": "4260c244130cf5323fa64b0b786b4c68bfe96f65",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-25T03:30:00+08:00"
+  },
+  {
+   "title": "@GaryMarcus：引用 Apollo 首席经济学家 Slok 报告称“支持 AI 的正面论据每天都在变弱”——AI 未给科技行业以外的企业带来财务回报",
+   "url": "https://x.com/GaryMarcus/status/2114041475604332851",
+   "source": "X @GaryMarcus",
+   "date": "2026-10-24",
+   "summary": "Marcus 摘录 Slok 原文：标普 493 人均营收与利润率持平、无生产率提升，主流企业开始把 token 支出视为成本中心、不愿为最新模型付费；该帖获 200 多赞、50 余次转发。",
+   "id": "1633a4a1ef23c9865d37fead0eeb4e23b883bbdf",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T03:30:00+08:00"
+  },
   {
    "title": "TechCrunch：研究称被迫“二选一”时，Grok 4.7 API 在 92% 的美国中期选举竞选中推荐共和党候选人，GPT-6.1 Sol 则 97% 推荐民主党，近 500 场选举中两者一致率不足 10%",
    "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
@@ -2289,6 +2322,17 @@
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-23T00:40:00+08:00"
+  },
+  {
+   "title": "Anthropic 发布智能体构建指南：建议把多余子智能体“折叠”回主智能体循环，用按需加载的 Skills 与工具搜索替代路由/规划/领域子智能体，并开源迁移工具包 single-agent-loop-kit",
+   "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+   "source": "Claude by Anthropic",
+   "date": "2026-10-22",
+   "summary": "Anthropic 应用 AI 团队称在多个企业部署对比中，“单智能体 + Skills”在质量上常优于单一大提示词和子智能体设计，成本与延迟更低，一家客户运行时间约快 2 倍；子智能体仍适用于上下文膨胀、需并行的独立任务或工具选择困难等场景。迁移工具包（GitHub anthropics/single-agent-loop-kit，Apache-2.0）串联 build-eval、prompt-audit、hillclimb、cost-optimize 等 Claude API 技能；该文 10 月 24 日在 X 上广泛传播。",
+   "id": "6d403bbe93797ac55897f6127bcf34faed1e6f30",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-25T03:30:00+08:00"
   },
   {
    "title": "Cohere 推出 Model Vault 机密计算公测：推理在 CPU+GPU 硬件可信执行环境中运行，提示词、文档与回复全程加密，连 Cohere 和云运营方也看不到明文",

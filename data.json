@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T02:30:00+08:00",
+  "updated": "2026-10-25T03:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Apollo 首席经济学家 Torsten Slok：AI 至今未给科技行业以外的美国企业带来任何财务回报——七巨头人均营收与利润率上升，标普 493 两项均持平，也看不到生产率提升迹象",
+          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
+          "source": "Apollo The Daily Spark",
+          "date": "2026-10-24",
+          "summary": "Slok 在 10 月 24 日的报告中称，缺乏利润回报的主流企业正在收缩，开始把 token 支出视为拖累利润率的成本中心而非增长来源；token 支出增长主要集中在风投支持的公司，主流企业“不需要最新模型、也不愿为其付费”。他认为 AI 的成败将取决于标普 493 而非七巨头；数据来源包括彭博、旧金山联储 TFP 与 Ramp AI Index。"
+        },
+        {
           "title": "CNBC：英伟达“AI 金主”角色迎来首次大考——新云股本月普跌逾 30%，其表外 AI 云担保约 360 亿美元，另为 OpenAI 俄亥俄园区提供最高 1050 亿美元担保",
           "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
           "source": "CNBC",
@@ -118,13 +125,6 @@
           "source": "CNBC",
           "date": "2026-10-23",
           "summary": "Solidigm 为数据中心 NAND/SSD 厂商，2021 年购自英特尔；SK 海力士称鉴于市场状况与股价走势终止 IPO 评估。CNBC 指出 Meta 三季度自由现金流转负逾 20 亿美元、五年期 CDS 超 124 基点，英伟达 126 基点、甲骨文 343 基点均创纪录；Gartner 预测到 2030 年 80% 新云公司将停业或被并购。"
-        },
-        {
-          "title": "标普全球评级：因地方反对、暂停令与项目取消，美国数据中心项目面临信用评级下调风险，已追踪 146 个延期或取消项目、约四分之三与当地抵制有关",
-          "url": "https://news.bloomberglaw.com/artificial-intelligence/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
-          "source": "Bloomberg Law / S&P Global Ratings",
-          "date": "2026-10-23",
-          "summary": "S&P 分析师 Chris Mooney 等在周五报告中称，电网容量限制、环境可持续性担忧与分区调整导致的延期“可能加大数据中心项目信用的下行压力”，重点分析了纽约、德州、宾州、伊利诺伊与亚利桑那的暂停令。"
         }
       ]
     },
@@ -246,11 +246,11 @@
           "summary": "内核赛 10 月 22 日至 11 月 4 日（太平洋时间），在 H200 上与 SGLang 内核同条件对比，题目含 MoE W4A16、注意力解码、BF16 投影等；11 月 5–19 日为服务赛，在 8×H200 节点上修改 SGLang 服务多轮智能体编码负载。第一名 5 万美元加签名 H200，优胜者或获 Meta 面试机会。"
         },
         {
-          "title": "阿里 Qoder 支持 Linux ARM64 与龙芯 LoongArch64 平台，适配统信 UOS、银河麒麟等国产桌面系统",
-          "url": "https://www.ithome.com/1/016/927.htm",
-          "source": "IT之家",
-          "date": "2026-10-23",
-          "summary": "国际版与中国版同步支持，可在国产系统上调用工具、操作文件并让多个智能体协作；此前已适配鸿蒙 PC 与鸿蒙移动端。"
+          "title": "Anthropic 发布智能体构建指南：建议把多余子智能体“折叠”回主智能体循环，用按需加载的 Skills 与工具搜索替代路由/规划/领域子智能体，并开源迁移工具包 single-agent-loop-kit",
+          "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
+          "source": "Claude by Anthropic",
+          "date": "2026-10-22",
+          "summary": "Anthropic 应用 AI 团队称在多个企业部署对比中，“单智能体 + Skills”在质量上常优于单一大提示词和子智能体设计，成本与延迟更低，一家客户运行时间约快 2 倍；子智能体仍适用于上下文膨胀、需并行的独立任务或工具选择困难等场景。迁移工具包（GitHub anthropics/single-agent-loop-kit，Apache-2.0）串联 build-eval、prompt-audit、hillclimb、cost-optimize 等 Claude API 技能；该文 10 月 24 日在 X 上广泛传播。"
         }
       ]
     },
@@ -386,6 +386,13 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "source": "GitHub · Python · ⭐ 53402",
+          "date": "2026-10-24",
+          "summary": "Hindsight：“会学习的智能体记忆”（MIT）。为 AI 智能体提供可保留、检索与反思的长期记忆服务，10 月 13 日发布 v1.0、21 日发布 v1.1.0（新增 webhook 事件投递 ID、服务端按调用选择 LLM 与凭据等）；今日登上 GitHub Python 趋势榜，单日新增约 340 星。"
+        },
+        {
           "title": "aws/agent-toolkit-for-aws",
           "url": "https://github.com/aws/agent-toolkit-for-aws",
           "source": "GitHub · Python · ⭐ 3017",
@@ -433,13 +440,6 @@
           "source": "GitHub · Swift · ⭐ 1038",
           "date": "2026-10-24",
           "summary": "Wes Bos 开源：用 iPhone LiDAR 与照片采集房间，再由 AI 编码智能体按 scan-to-threejs 技能逐步测量、建模并做相机对比，重建可编辑的 Three.js 室内场景；10 月 21 日创建，三天破千星。"
-        },
-        {
-          "title": "rossark0/rossark-motion-skill",
-          "url": "https://github.com/rossark0/rossark-motion-skill",
-          "source": "GitHub · Swift · ⭐ 381",
-          "date": "2026-10-24",
-          "summary": "Claude Code 等智能体用的动画技能：把任意 SVG/手绘变成 60fps 有“生命感”的动画（呼吸、眨眼、重心转移），解决智能体动画生硬、逐姿态停顿的问题；10 月 22 日创建。"
         }
       ]
     },
@@ -448,6 +448,13 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@GaryMarcus：引用 Apollo 首席经济学家 Slok 报告称“支持 AI 的正面论据每天都在变弱”——AI 未给科技行业以外的企业带来财务回报",
+          "url": "https://x.com/GaryMarcus/status/2114041475604332851",
+          "source": "X @GaryMarcus",
+          "date": "2026-10-24",
+          "summary": "Marcus 摘录 Slok 原文：标普 493 人均营收与利润率持平、无生产率提升，主流企业开始把 token 支出视为成本中心、不愿为最新模型付费；该帖获 200 多赞、50 余次转发。"
+        },
         {
           "title": "@TechCrunch：新研究发现 Grok 绝大多数情况下推荐共和党候选人、OpenAI 的 GPT 偏向民主党，两者在近 500 场选举中超过 90% 意见不一",
           "url": "https://x.com/TechCrunch/status/2114011303656268014",
@@ -496,13 +503,6 @@
           "source": "X @clare_liguori",
           "date": "2026-10-24",
           "summary": "帖子指出智能体大部分时间都在等推理、工具调用和输入，Infinity 通过挂起与恢复消除空闲开销。"
-        },
-        {
-          "title": "@ArtificialAnlys：Kimi K3.1 Pro 成为智能体网络防御最强可公开获取模型，Cyber Index 64% 仅次于受信访问版 GPT-6 Sol",
-          "url": "https://x.com/ArtificialAnlys/status/2113765233462481276",
-          "source": "X @ArtificialAnlys",
-          "date": "2026-10-24",
-          "summary": "较 Kimi K3 提升 23 分、领先 DeepSeek V4.1 Flash 1017（57%）7 分；CyberGym-E2E-AA 95% 为所有模型最高，且无安全拒答；但输入 token 约翻倍，单任务成本 2.81 美元、比 K3 高 15%。权重发布后将成网络防御第一开放权重模型。"
         }
       ]
     }
