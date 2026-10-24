@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T00:24:00+08:00",
+  "updated": "2026-10-25T02:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -78,13 +78,6 @@
           "summary": "CoreWeave、Nebius、IREN 10 月跌幅均超 30%，CoreWeave CDS 利差突破 11%；英伟达 8 月财报列示逾 5000 亿美元表外承诺，并向资管机构提供最高 1250 亿美元 GPU 融资残值担保，New Constructs 估算其表外负债净现值超 1530 亿美元。英伟达股价 10 月累跌 7.6%，黄仁勋仍称新云需求“爆表”，缺的是营运资金；英伟达拒绝置评。"
         },
         {
-          "title": "SK 海力士以市场波动为由撤回旗下 Solidigm 美国 IPO 计划，AI 基础设施交易本周承压：新云暴跌、Meta/英伟达/甲骨文 CDS 利差创纪录",
-          "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
-          "source": "CNBC",
-          "date": "2026-10-23",
-          "summary": "Solidigm 为数据中心 NAND/SSD 厂商，2021 年购自英特尔；SK 海力士称鉴于市场状况与股价走势终止 IPO 评估。CNBC 指出 Meta 三季度自由现金流转负逾 20 亿美元、五年期 CDS 超 124 基点，英伟达 126 基点、甲骨文 343 基点均创纪录；Gartner 预测到 2030 年 80% 新云公司将停业或被并购。"
-        },
-        {
           "title": "皮查伊：距离 AI 完全自主改进自身的“最终状态”还很远，但谷歌研究人员已在模型研发各环节与自我改进循环协同工作",
           "url": "https://www.ithome.com/1/017/290.htm",
           "source": "IT之家（援引《商业内幕》）",
@@ -113,18 +106,25 @@
           "summary": "据 Axios 报道，Sundial 并入后 Narayanan 将负责 Meta 首席数据官 Alex Schultz 旗下 DATA 部门的数据分析工具与智能体工作；Schultz 称 AI 带来了几乎无限的洞察需求，Meta 希望定义 AI 分析的未来。"
         },
         {
+          "title": "《纽约时报》调查 AI 私校 Alpha School：宣称用 AI 让学生“两小时学两倍”，内部数据显示仅 42% 的 K-8 学生在数学和阅读上同时达到 2 倍进度",
+          "url": "https://www.nytimes.com/2026/10/23/us/alpha-school-ai-education-parents.html",
+          "source": "The New York Times",
+          "date": "2026-10-23",
+          "summary": "基于约 400 名学生 2025 年秋至 2026 年初的数据：75% 的学生进度不低于全国平均，中位成绩处于全美第 87（数学）/89（阅读）百分位，但约一半学生数学未达 2 倍目标；数学基础较弱的学生仅 37% 达标。Alpha 正把其软件推向公立学区。"
+        },
+        {
+          "title": "SK 海力士以市场波动为由撤回旗下 Solidigm 美国 IPO 计划，AI 基础设施交易本周承压：新云暴跌、Meta/英伟达/甲骨文 CDS 利差创纪录",
+          "url": "https://www.cnbc.com/2026/10/23/ai-turmoil-neoclouds-struggle-credit-risks-jump-solidigm-pulls-ipo.html",
+          "source": "CNBC",
+          "date": "2026-10-23",
+          "summary": "Solidigm 为数据中心 NAND/SSD 厂商，2021 年购自英特尔；SK 海力士称鉴于市场状况与股价走势终止 IPO 评估。CNBC 指出 Meta 三季度自由现金流转负逾 20 亿美元、五年期 CDS 超 124 基点，英伟达 126 基点、甲骨文 343 基点均创纪录；Gartner 预测到 2030 年 80% 新云公司将停业或被并购。"
+        },
+        {
           "title": "标普全球评级：因地方反对、暂停令与项目取消，美国数据中心项目面临信用评级下调风险，已追踪 146 个延期或取消项目、约四分之三与当地抵制有关",
           "url": "https://news.bloomberglaw.com/artificial-intelligence/data-centers-face-downgrade-risk-amid-local-pushback-s-p-says",
           "source": "Bloomberg Law / S&P Global Ratings",
           "date": "2026-10-23",
           "summary": "S&P 分析师 Chris Mooney 等在周五报告中称，电网容量限制、环境可持续性担忧与分区调整导致的延期“可能加大数据中心项目信用的下行压力”，重点分析了纽约、德州、宾州、伊利诺伊与亚利桑那的暂停令。"
-        },
-        {
-          "title": "Sam Altman 在斯坦福商学院称“我不再认为我们能修补所有漏洞”：前沿模型将发现硬件级缺陷，需要用 AI 构建新的防御体系",
-          "url": "https://gizmodo.com/sam-altman-i-no-longer-think-were-gonna-be-able-to-just-patch-all-the-bugs-2000829947",
-          "source": "Gizmodo",
-          "date": "2026-10-23",
-          "summary": "Altman 在 View From The Top 访谈中称网络安全问题“仍未被组织领导者、国家和个人认真对待”，并表示在数学推理等窄领域“已经有了超级智能”；OpenAI 此前承诺 6 个月内提供 10 亿美元补贴的 Daybreak 防御访问。"
         }
       ]
     },

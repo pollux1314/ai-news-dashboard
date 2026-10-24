@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T00:24:00+08:00",
- "count": 1597,
+ "updated": "2026-10-25T02:30:00+08:00",
+ "count": 1598,
  "items": [
   {
    "title": "TechCrunch：研究称被迫“二选一”时，Grok 4.7 API 在 92% 的美国中期选举竞选中推荐共和党候选人，GPT-6.1 Sol 则 97% 推荐民主党，近 500 场选举中两者一致率不足 10%",
@@ -441,6 +441,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "《纽约时报》调查 AI 私校 Alpha School：宣称用 AI 让学生“两小时学两倍”，内部数据显示仅 42% 的 K-8 学生在数学和阅读上同时达到 2 倍进度",
+   "url": "https://www.nytimes.com/2026/10/23/us/alpha-school-ai-education-parents.html",
+   "source": "The New York Times",
+   "date": "2026-10-23",
+   "summary": "基于约 400 名学生 2025 年秋至 2026 年初的数据：75% 的学生进度不低于全国平均，中位成绩处于全美第 87（数学）/89（阅读）百分位，但约一半学生数学未达 2 倍目标；数学基础较弱的学生仅 37% 达标。Alpha 正把其软件推向公立学区。",
+   "id": "8cd12c6f96680bfc5883d1d6b51761eaa982ca79",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-25T02:30:00+08:00"
   },
   {
    "title": "中国移动牵头的国家人工智能应用中试基地（制造领域汽车方向）发布业内首个汽车行业 AI 基座，即日起面向全行业开放共享",
