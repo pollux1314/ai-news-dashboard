@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T15:30:00+08:00",
- "count": 1621,
+ "updated": "2026-10-25T16:30:00+08:00",
+ "count": 1622,
  "items": [
   {
    "title": "@deedydas：开源模型推理服务商正井喷，很快就能做到月收入 100 万美元——即便按需租用 B300（约 8 美元/GPU·小时），GLM 5.3、Kimi K3、DeepSeek 4.1 Flash/Pro 等开源模型的吞吐也能让单卡每小时收入明显高于成本",
@@ -23,6 +23,17 @@
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-25T12:40:00+08:00"
+  },
+  {
+   "title": "@trq212：Claude Code 核心工程师 Thariq Shihipar 宣布离开 Anthropic——称在 Claude Code 工作一年多，见证其规模远超想象",
+   "url": "https://x.com/trq212/status/2113844051938054167",
+   "source": "X @trq212",
+   "date": "2026-10-24",
+   "summary": "Thariq 表示仍深爱 Anthropic、认同其使命与“向上竞争”的理念，离职后打算先休息；该帖已获约 2.9 万赞、480 万次浏览，众多开发者与业内人士留言致谢。",
+   "id": "572d1db872efc7c39367f55e97734247bf47bf72",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T16:30:00+08:00"
   },
   {
    "title": "微软研究院开源去中心化多智能体编程框架 Agensh：无中央编排器，可扩展到 1,024 个智能体协作同一代码库，pandoc 任务通过率从单智能体 33.89% 升至 55.06%",
