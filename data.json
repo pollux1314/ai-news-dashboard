@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T12:40:00+08:00",
+  "updated": "2026-10-25T13:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "微软研究院开源去中心化多智能体编程框架 Agensh：无中央编排器，可扩展到 1,024 个智能体协作同一代码库，pandoc 任务通过率从单智能体 33.89% 升至 55.06%",
+          "url": "https://github.com/microsoft/Agensh",
+          "source": "GitHub microsoft/Agensh / arXiv 2609.26781",
+          "date": "2026-10-24",
+          "summary": "智能体自主认领子任务、共享发现、验证并异步合并，借助 Gitea 共享仓库、Mattermost 消息与共享上下文协作；在 ProgramBench 五个最难任务上用 GPT-5.6-sol，从 1 到 128 个智能体平均通过率由 19.31% 升至 28.78%；MIT 许可，附 Docker Compose 复现脚本，未披露大规模运行的 token 成本。"
+        },
+        {
           "title": "StartLux（原点星辉）开源决策模型专用推理引擎 Prism：只算 A–Z 选项的输出层、共享上下文的“森林式”批处理与 int8 计算，单张 H200 最高较原方案提速 5.3 倍且输出逐位一致",
           "url": "https://pandaily.com/startlux-prism-open-source-decision-model-inference-engine-h200-int8-bit-exact",
           "source": "Pandaily / GitHub StartLuxLabs",
@@ -244,13 +251,6 @@
           "source": "Hugging Face / 量子位",
           "date": "2026-10-23",
           "summary": "代码、权重与在线体验同步发布；月活超 20 万或月收入超 100 万美元需申请书面许可，商用集成须标注“Powered by Hi3D 1.0”；1536³ 分辨率仅在 96GB H20 上验证。"
-        },
-        {
-          "title": "Meta 联合 Paradigm、Andromeda 发起 Muse Spark Open 内核挑战赛：优化 GPU 内核与 SGLang 推理服务、比拼谁跑得最快，奖金总额 10 万美元",
-          "url": "https://openkernelchallenge.dev/",
-          "source": "Muse Spark Open Kernel Challenge",
-          "date": "2026-10-23",
-          "summary": "内核赛 10 月 22 日至 11 月 4 日（太平洋时间），在 H200 上与 SGLang 内核同条件对比，题目含 MoE W4A16、注意力解码、BF16 投影等；11 月 5–19 日为服务赛，在 8×H200 节点上修改 SGLang 服务多轮智能体编码负载。第一名 5 万美元加签名 H200，优胜者或获 Meta 面试机会。"
         }
       ]
     },

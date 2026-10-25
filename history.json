@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T12:40:00+08:00",
- "count": 1618,
+ "updated": "2026-10-25T13:30:00+08:00",
+ "count": 1619,
  "items": [
   {
    "title": "IBM Research（ISWC 2026）：用知识图谱承载智能体的对话记忆，结合命令式与生成式计算，让回答透明、可溯源且更确定",
@@ -12,6 +12,17 @@
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-25T12:40:00+08:00"
+  },
+  {
+   "title": "微软研究院开源去中心化多智能体编程框架 Agensh：无中央编排器，可扩展到 1,024 个智能体协作同一代码库，pandoc 任务通过率从单智能体 33.89% 升至 55.06%",
+   "url": "https://github.com/microsoft/Agensh",
+   "source": "GitHub microsoft/Agensh / arXiv 2609.26781",
+   "date": "2026-10-24",
+   "summary": "智能体自主认领子任务、共享发现、验证并异步合并，借助 Gitea 共享仓库、Mattermost 消息与共享上下文协作；在 ProgramBench 五个最难任务上用 GPT-5.6-sol，从 1 到 128 个智能体平均通过率由 19.31% 升至 28.78%；MIT 许可，附 Docker Compose 复现脚本，未披露大规模运行的 token 成本。",
+   "id": "0ebb7a0aebf46211918e9c6f932ba9c62a163a13",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-25T13:30:00+08:00"
   },
   {
    "title": "@theinformation：Datadog 对云安全初创公司 Upwind 近 40 亿美元的报价，相当于其年经常性收入约 80 倍，凸显 AI 相关网络安全工具的火热需求",
