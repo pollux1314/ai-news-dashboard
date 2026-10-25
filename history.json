@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T22:30:00+08:00",
- "count": 1627,
+ "updated": "2026-10-25T23:35:00+08:00",
+ "count": 1628,
  "items": [
   {
    "title": "马来西亚总理安瓦尔：软银孙正义选定砂拉越古晋与马来半岛，计划投入 500 亿美元用于 AI、新技术与数据中心项目，为区域内最大投资之一",
@@ -694,6 +694,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "数据库研究者郝相鹏开源 Rust B 树库 bbtree：代码全部由多家厂商的 LLM 编写并交叉审查，单线程比 std BTreeMap 快 5 倍、96 线程比 crossbeam-skiplist 快 12 倍，内存省 30%",
+   "url": "https://github.com/XiangpengHao/bbtree",
+   "source": "GitHub XiangpengHao/bbtree / Xiangpeng's blog",
+   "date": "2026-10-23",
+   "summary": "unsync::BBTreeMap 可直接替换 std 的 BTreeMap/BTreeSet，零依赖、支持 no_std；作者称由他把控每项设计并对正确性负责，另用模糊测试、Verus 形式化验证与确定性模拟测试保障正确性。作者曾开发在微软生产环境运行的 Bf-Tree，该项目本周在 X 上引发“LLM 写代码”讨论。",
+   "id": "67adc2b4c9069803a18131c23300e1649f1e58d8",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-25T23:35:00+08:00"
   },
   {
    "title": "路透：七名网络安全专家称 AI 发现的软件漏洞几乎必然引发更多类似本周 PHP 漏洞导致全球政府网站下线的事件；VulnCheck 数据显示 AI 推动漏洞发现数量同比翻倍",

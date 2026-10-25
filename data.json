@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T22:30:00+08:00",
+  "updated": "2026-10-25T23:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -211,6 +211,13 @@
           "summary": "代码 10 月 22 日在 GitHub（StartLuxLabs/StartLux-Prism）开源，面向 StartLux-Decision 决策模型。官方实测：单个短问题 19ms（原 53.1ms），同一材料三问最高提速 5.3 倍；JevBench 231 题平均 41ms，对比 SGLang 75.6ms、vLLM 112.7ms；int8 版准确率 92.94%，与 BF16 的 92.97% 基本持平，16.55GB 压缩版可跑在单张 32GB RTX 5090 上。数据均为厂商自测。"
         },
         {
+          "title": "数据库研究者郝相鹏开源 Rust B 树库 bbtree：代码全部由多家厂商的 LLM 编写并交叉审查，单线程比 std BTreeMap 快 5 倍、96 线程比 crossbeam-skiplist 快 12 倍，内存省 30%",
+          "url": "https://github.com/XiangpengHao/bbtree",
+          "source": "GitHub XiangpengHao/bbtree / Xiangpeng's blog",
+          "date": "2026-10-23",
+          "summary": "unsync::BBTreeMap 可直接替换 std 的 BTreeMap/BTreeSet，零依赖、支持 no_std；作者称由他把控每项设计并对正确性负责，另用模糊测试、Verus 形式化验证与确定性模拟测试保障正确性。作者曾开发在微软生产环境运行的 Bf-Tree，该项目本周在 X 上引发“LLM 写代码”讨论。"
+        },
+        {
           "title": "英伟达发布 RTX Remix 1.6：用 ComfyUI 集成 2.0 取代旧版 AI Tools 生成纹理与网格，新增无界面 Toolkit 与模组智能体技能，并推出《我的世界》Java 版 Beta 模组",
           "url": "https://docs.omniverse.nvidia.com/kit/docs/rtx_remix/latest/docs/changelog/remix-releasenotes.html",
           "source": "NVIDIA RTX Remix 发布说明",
@@ -244,13 +251,6 @@
           "source": "Node.js / OpenAI",
           "date": "2026-10-23",
           "summary": "漏洞源于 Brotli 解码器把非法块切换误判为“需要更多输入”，导致向 8 字节内部缓冲区越界写入；凡用 node:zlib 解压攻击者可控 Brotli 数据的应用都可能被崩溃、泄露内存或执行代码。由 OpenAI Codex Security 报告，是其前沿模型训练环境高算力红队行动的发现之一，Bun、Envoy 等同样内置 Brotli。"
-        },
-        {
-          "title": "国产图生 3D 模型 Hi3D 1.0 开源可商用：基于 Sparc3D 的高分辨率几何细化模型，输入参考图与粗网格输出精细网格，支持 512/1024/1536 分辨率",
-          "url": "https://huggingface.co/hi3d-official/Hi3Dv1.0",
-          "source": "Hugging Face / 量子位",
-          "date": "2026-10-23",
-          "summary": "代码、权重与在线体验同步发布；月活超 20 万或月收入超 100 万美元需申请书面许可，商用集成须标注“Powered by Hi3D 1.0”；1536³ 分辨率仅在 96GB H20 上验证。"
         }
       ]
     },
