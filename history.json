@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T20:40:00+08:00",
- "count": 1626,
+ "updated": "2026-10-25T21:30:00+08:00",
+ "count": 1627,
  "items": [
   {
    "title": "马来西亚总理安瓦尔：软银孙正义选定砂拉越古晋与马来半岛，计划投入 500 亿美元用于 AI、新技术与数据中心项目，为区域内最大投资之一",
@@ -694,6 +694,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "路透：七名网络安全专家称 AI 发现的软件漏洞几乎必然引发更多类似本周 PHP 漏洞导致全球政府网站下线的事件；VulnCheck 数据显示 AI 推动漏洞发现数量同比翻倍",
+   "url": "https://www.channelnewsasia.com/business/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-6486016",
+   "source": "Reuters / CNA",
+   "date": "2026-10-23",
+   "summary": "Cloudflare CEO Matthew Prince 称已知悉其他关键软件中还存在一批严重漏洞，预计“未来几年每周都会感觉天要塌下来”；VulnCheck 研究员 Patrick Garrity 指出同一周还曝出 Node.js、Plex 漏洞及 LiteLLM、Railway 入侵等事件，面向互联网的系统将迎来更多“消防演练”。",
+   "id": "8b2465a6f9e6b7c061bd0ba3e2972e9b0c48b096",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-25T21:30:00+08:00"
   },
   {
    "title": "猫王版权方起诉 Anthropic：Authentic Brands Group 指控 Claude 未经许可用 274 首猫王歌曲训练，按每首 15 万美元索赔约 4100 万美元",

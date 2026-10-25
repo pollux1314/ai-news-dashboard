@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T20:40:00+08:00",
+  "updated": "2026-10-25T21:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -288,6 +288,13 @@
           "summary": "AIBL 隶属英国国家 AI 生物安全计划，总规模最高 3 亿英镑，首期聚焦生物威胁早期发现与加速疫苗、疗法等医学对策研发；OpenAI 通过 Rosalind Biodefense 计划提供可信访问，DeepMind 将开放前沿 Gemini 与专用科学模型。BBC 称同一预算还将向 AI 安全研究所（AISI）追加 1.2 亿英镑。"
         },
         {
+          "title": "路透：七名网络安全专家称 AI 发现的软件漏洞几乎必然引发更多类似本周 PHP 漏洞导致全球政府网站下线的事件；VulnCheck 数据显示 AI 推动漏洞发现数量同比翻倍",
+          "url": "https://www.channelnewsasia.com/business/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-6486016",
+          "source": "Reuters / CNA",
+          "date": "2026-10-23",
+          "summary": "Cloudflare CEO Matthew Prince 称已知悉其他关键软件中还存在一批严重漏洞，预计“未来几年每周都会感觉天要塌下来”；VulnCheck 研究员 Patrick Garrity 指出同一周还曝出 Node.js、Plex 漏洞及 LiteLLM、Railway 入侵等事件，面向互联网的系统将迎来更多“消防演练”。"
+        },
+        {
           "title": "猫王版权方起诉 Anthropic：Authentic Brands Group 指控 Claude 未经许可用 274 首猫王歌曲训练，按每首 15 万美元索赔约 4100 万美元",
           "url": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
           "source": "Billboard / Rolling Stone",
@@ -307,13 +314,6 @@
           "source": "noyb",
           "date": "2026-10-23",
           "summary": "理事会在“数字综合法案”立场中加入第 88bis 条，为 AI 场景下处理个人数据提供宽泛的合法利益依据，仅保留第 21 条反对权；noyb/Schrems 批评为“数字征用”，仍需与议会三方谈判。"
-        },
-        {
-          "title": "皮尤调查：仅 8% 美国成年人用 AI 聊天机器人获取 2026 中期选举信息，其中 40% 让 AI 给出投票选择建议",
-          "url": "https://www.pewresearch.org/short-reads/2026/10/23/few-americans-say-they-are-asking-ai-chatbots-for-2026-election-information/",
-          "source": "Pew Research Center",
-          "date": "2026-10-23",
-          "summary": "10 月 12–18 日对 5273 名美国成年人的调查显示：用聊天机器人查选举信息的人中，76% 查候选人政策立场、71% 核实传闻真伪、65% 查候选人履历，40% 求投票建议、40% 查选民登记与投票地点；50 岁以下使用比例 11%，50 岁及以上 4%。"
         }
       ]
     },
