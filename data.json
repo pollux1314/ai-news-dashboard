@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T07:30:00+08:00",
+  "updated": "2026-10-25T09:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "决策模型初创 TypeSafe AI 披露数据泄露：其 Jev 模型为所有客户生成过的全部“noul”输出（0–1 概率决策）遭未授权泄露，CEO Diogo Almeida 在 X 上自曝并附上泄露数据链接",
+          "url": "https://startupfortune.com/typesafe-ai-admits-a-leak-exposed-every-customers-jev-model-output/",
+          "source": "Startup Fortune",
+          "date": "2026-10-24",
+          "summary": "Jev 是 TypeSafe 9 月推出的“System One”决策模型，已被大量用于编码智能体、反欺诈与分类管线；开发者 Wes Bos 等确认自己的输出在其中。公司尚未发布技术复盘、未说明根因与受影响客户数。"
+        },
+        {
           "title": "The Information：OpenAI 低价攻势见效——HR 软件公司 Rippling 数百名工程师的编码工作中，Anthropic 模型占比从 5 月的 57% 降至 18%，OpenAI 从 16% 升至 52%",
           "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
           "source": "The Information",
@@ -118,13 +125,6 @@
           "source": "IT之家（a16z 访谈）",
           "date": "2026-10-24",
           "summary": "亚马逊 CEO 称企业软件全面 AI 化需推理成本降一个数量级；2026 年算力基本售罄、2027 年大部分已被预订，2028 年也已售出大量；资本开支约 2200 亿美元，Trainium 性价比高 30–40%，未来收入承诺超 2250 亿美元。"
-        },
-        {
-          "title": "Meta 收购 AI 数据分析平台 Sundial：由前 Meta 产品设计副总裁 Julie Zhuo 与前 Instagram 数据分析负责人 Chandra Narayanan 创立，可用自然语言向企业数据提问",
-          "url": "https://www.ithome.com/1/017/294.htm",
-          "source": "IT之家 / Axios",
-          "date": "2026-10-24",
-          "summary": "据 Axios 报道，Sundial 并入后 Narayanan 将负责 Meta 首席数据官 Alex Schultz 旗下 DATA 部门的数据分析工具与智能体工作；Schultz 称 AI 带来了几乎无限的洞察需求，Meta 希望定义 AI 分析的未来。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@CompleteSkeptic（TypeSafe AI CEO Diogo Almeida）：周五晚 6:49 获悉“所有客户 noul 输出”遭大规模未授权泄露，为最大化透明度直接贴出泄露链接",
+          "url": "https://x.com/CompleteSkeptic/status/2113810106177773587",
+          "source": "X @CompleteSkeptic",
+          "date": "2026-10-24",
+          "summary": "该帖浏览近 100 万、获 5500+ 赞、400+ 回复，有用户在其中找到自己的数据，也有人吐槽公司名里带着“safe”。"
+        },
+        {
           "title": "@kimmonismus：OpenAI 正以大幅折扣从 Anthropic 手中抢走 Rippling、Replit 等公司的编码负载，可能加深自身亏损；但 Anthropic 在 OpenRouter 重夺领先说明更好的模型能迅速赢回用户",
           "url": "https://x.com/kimmonismus/status/2114066987995349180",
           "source": "X @kimmonismus",
@@ -496,13 +503,6 @@
           "source": "X @Reuters",
           "date": "2026-10-24",
           "summary": "路透 Viewsroom 播客中，Breakingviews 专栏作者辩论新云板块的股债下跌能否被控制，以及 AI 算力供应链的信用风险对 Anthropic 增长前景的影响。"
-        },
-        {
-          "title": "@Reuters：月之暗面在新 Kimi 模型中削弱黑客攻击能力，应对 AI 驱动网络攻击担忧",
-          "url": "https://x.com/Reuters/status/2113884474098295077",
-          "source": "X @Reuters",
-          "date": "2026-10-24",
-          "summary": "路透报道：月之暗面发布 Kimi K3.1 Pro 时称已从训练语料和强化学习环境中移除网络攻防相关数据，内部网络攻防基准得分 81.0%（未做限制版本为 90.5%），并表示“不希望发布会推进网络能力绝对前沿的开放权重”；权重计划 11 月 4 日前发布。"
         }
       ]
     }

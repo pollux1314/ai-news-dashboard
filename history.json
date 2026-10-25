@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-25T07:30:00+08:00",
- "count": 1609,
+ "updated": "2026-10-25T09:35:00+08:00",
+ "count": 1611,
  "items": [
+  {
+   "title": "决策模型初创 TypeSafe AI 披露数据泄露：其 Jev 模型为所有客户生成过的全部“noul”输出（0–1 概率决策）遭未授权泄露，CEO Diogo Almeida 在 X 上自曝并附上泄露数据链接",
+   "url": "https://startupfortune.com/typesafe-ai-admits-a-leak-exposed-every-customers-jev-model-output/",
+   "source": "Startup Fortune",
+   "date": "2026-10-24",
+   "summary": "Jev 是 TypeSafe 9 月推出的“System One”决策模型，已被大量用于编码智能体、反欺诈与分类管线；开发者 Wes Bos 等确认自己的输出在其中。公司尚未发布技术复盘、未说明根因与受影响客户数。",
+   "id": "418beb20b242f863cb5266fa2ae8d7593047f000",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-25T09:35:00+08:00"
+  },
+  {
+   "title": "@CompleteSkeptic（TypeSafe AI CEO Diogo Almeida）：周五晚 6:49 获悉“所有客户 noul 输出”遭大规模未授权泄露，为最大化透明度直接贴出泄露链接",
+   "url": "https://x.com/CompleteSkeptic/status/2113810106177773587",
+   "source": "X @CompleteSkeptic",
+   "date": "2026-10-24",
+   "summary": "该帖浏览近 100 万、获 5500+ 赞、400+ 回复，有用户在其中找到自己的数据，也有人吐槽公司名里带着“safe”。",
+   "id": "3d20621eb1244c9f5d0413b8cfd6e9e5afa6412f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T09:35:00+08:00"
+  },
   {
    "title": "The Information：OpenAI 低价攻势见效——HR 软件公司 Rippling 数百名工程师的编码工作中，Anthropic 模型占比从 5 月的 57% 降至 18%，OpenAI 从 16% 升至 52%",
    "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
