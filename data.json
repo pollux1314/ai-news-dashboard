@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T05:40:00+08:00",
+  "updated": "2026-10-26T06:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "清华丁宁团队发布跨本体灵巧操作仿真基准 HandsOn：66 项人工验证任务、1.8 万条人类示范，最佳训练策略 Core-50 成功率仅 29.1%，GPT-6 零样本控制仅 5.2%",
+          "url": "https://arxiv.org/abs/2610.26765",
+          "source": "arXiv 2610.26765 / 新浪财经",
+          "date": "2026-10-25",
+          "summary": "清华联合北邮、北大与 NatureWill 推出，支持 5 种机械臂、6 种灵巧手、约 200 种刚体/铰接/可变形资产；Core-50 用于示范学习评测，Transfer-16 测试资产迁移、技能组合与可变形物体（训练策略成功率均接近 0）。工具使用与精密装配几乎未解决（2–3%），代码与数据集已开源。"
+        },
+        {
           "title": "IBM Research（ISWC 2026）：用知识图谱承载智能体的对话记忆，结合命令式与生成式计算，让回答透明、可溯源且更确定",
           "url": "https://research.ibm.com/publications/transparent-traceable-deterministic-agentic-memory-via-knowledge-graphs",
           "source": "IBM Research",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-23",
           "summary": "32 名参与者与伪造 0–100% 事实的 GPT-5-mini 助手交互，约 65% 的错误信息被采纳，置信度判别 AUROC 从 0.70 跌至随机水平，而信任度几乎不变。"
-        },
-        {
-          "title": "arXiv：Trion-1，首个统一序列、结构与语言的蛋白质多模态扩散大模型",
-          "url": "https://arxiv.org/abs/2610.31215",
-          "source": "arXiv",
-          "date": "2026-10-23",
-          "summary": "覆盖 6 类任务，单样本折叠 TM-score 超过 0.8，相当于现有模型采样 200 次的效果。"
         }
       ]
     },
