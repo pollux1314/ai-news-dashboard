@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T03:30:00+08:00",
+  "updated": "2026-10-26T04:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "国际电信联盟副秘书长 Lamanauskas：AI 正形成“机会鸿沟”，非洲与拉美合计仅占全球数据中心容量 3.3%，到 2030 年弥合数字基础设施缺口需约 2.8 万亿美元投资",
+          "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns",
+          "source": "Al Jazeera",
+          "date": "2026-10-25",
+          "summary": "他在多哈 UNCTAD 世界投资论坛间隙接受采访称，发达国家约 29% 的劳动年龄人口使用生成式 AI，发展中国家仅 16%；全球仍有 22 亿人无法上网，AI 鸿沟可能加深各国社会经济不平等。"
+        },
+        {
           "title": "马来西亚总理安瓦尔：软银孙正义选定砂拉越古晋与马来半岛，计划投入 500 亿美元用于 AI、新技术与数据中心项目，为区域内最大投资之一",
           "url": "https://www.businesstimes.com.sg/international/softbanks-son-plans-us50-billion-malaysia-tech-outlay-anwar-ibrahim",
           "source": "Bloomberg / The Business Times",
@@ -118,13 +125,6 @@
           "source": "IT之家（援引《商业内幕》）",
           "date": "2026-10-24",
           "summary": "皮查伊预计明年会有进一步进展；他称统计“AI 生成代码占比”已无意义，因为每段代码都深受 AI 影响（4 月曾披露新增代码 75% 由 AI 生成），谷歌因故障回滚软件的次数减少了三分之一，Gemini 4 Argon 将帮助处理更复杂的编程难题。"
-        },
-        {
-          "title": "宫本茂获日本文化勋章后谈生成式 AI：AI 承担的制作工作越多，创作者自身的想法就越重要，“人类设计师始终会有用武之地”",
-          "url": "https://www.ithome.com/1/017/344.htm",
-          "source": "IT之家（援引 VGC）",
-          "date": "2026-10-24",
-          "summary": "宫本茂把生成式 AI 比作从打字机到文字处理机的工具变革，认为它会让设计师真正的个人能力显现；他提醒开发门槛降低后，有人可能沉浸于制作的满足感而误以为做出了好作品。任天堂尚未公开确认是否在开发中使用 AI。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "美联社：美国主导的 Pax Silica 与中国发起的世界人工智能合作组织（WAICO）形成两大 AI 阵营，各国自由选择的窗口正在收窄",
+          "url": "https://apnews.com/article/china-us-ai-blocs-9974a3e5dc955a93935d131a4aeb8886",
+          "source": "AP / The Washington Post",
+          "date": "2026-10-25",
+          "summary": "报道称许多国家试图同时利用美国先进芯片与中国 AI 体系、避免选边；哈萨克斯坦是已知唯一同时加入两大组织的国家，美国国务院此前警告重叠参与可能失去 Pax Silica 席位，中方则反对迫使各国二选一。"
+        },
+        {
           "title": "TechCrunch：研究称被迫“二选一”时，Grok 4.7 API 在 92% 的美国中期选举竞选中推荐共和党候选人，GPT-6.1 Sol 则 97% 推荐民主党，近 500 场选举中两者一致率不足 10%",
           "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
           "source": "TechCrunch",
@@ -307,13 +314,6 @@
           "source": "Computer Sweden（援引瑞典电台 Ekot）",
           "date": "2026-10-23",
           "summary": "数字化主管 Mikael Wettercrantz 在内网称使用未签协议的 AI 服务可能影响信息安全；办公厅同时加强了 Copilot 安全配置，此前已限制 DeepSeek。据 Ekot，瑞典税务局与国家机构管理局也已实施类似封锁，执行局正在评估；部分员工仍可通过内部自建 AI 助手平台使用 ChatGPT 和 Claude。"
-        },
-        {
-          "title": "欧盟理事会通过 GDPR 88bis：AI 处理个人数据可援引“合法利益”",
-          "url": "https://noyb.eu/en/ai-eu-member-states-approve-digital-expropriation-europeans-ai-companies",
-          "source": "noyb",
-          "date": "2026-10-23",
-          "summary": "理事会在“数字综合法案”立场中加入第 88bis 条，为 AI 场景下处理个人数据提供宽泛的合法利益依据，仅保留第 21 条反对权；noyb/Schrems 批评为“数字征用”，仍需与议会三方谈判。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
+          "url": "https://x.com/Kimi_Moonshot/status/2114450610724708492",
+          "source": "X @Kimi_Moonshot",
+          "date": "2026-10-26",
+          "summary": "Kimi 官方称限流与不必要的额度消耗是自身问题、本应更早修复；用量低于 25% 的用户直接清零，额度条将于太平洋时间当天结束前更新；同时调整套餐参数，减少不必要的子智能体调用与输出长度，让额度更耐用。此前 K3.1 Pro 发布后大量用户抱怨会员额度不够用。"
+        },
+        {
           "title": "@deedydas：开源模型推理服务商正井喷，很快就能做到月收入 100 万美元——即便按需租用 B300（约 8 美元/GPU·小时），GLM 5.3、Kimi K3、DeepSeek 4.1 Flash/Pro 等开源模型的吞吐也能让单卡每小时收入明显高于成本",
           "url": "https://x.com/deedydas/status/2114195317860266432",
           "source": "X @deedydas",
@@ -496,13 +503,6 @@
           "source": "X @kimmonismus",
           "date": "2026-10-24",
           "summary": "该帖获近 300 赞、1.7 万次浏览，引发“价格战取代榜单战”的讨论。"
-        },
-        {
-          "title": "@theinformation：Salesforce 计划要求客户登记外部 AI 智能体并监控其对 Salesforce 系统的调用，客户正在观望其定价",
-          "url": "https://x.com/theinformation/status/2114115763380338703",
-          "source": "X @theinformation",
-          "date": "2026-10-24",
-          "summary": "The Information 应用 AI 记者 Laura Bratton 解读：核心问题是客户用自己的 AI 智能体访问 Salesforce 时是否还要付费。"
         }
       ]
     }

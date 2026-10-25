@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-26T03:30:00+08:00",
- "count": 1629,
+ "updated": "2026-10-26T04:40:00+08:00",
+ "count": 1632,
  "items": [
+  {
+   "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
+   "url": "https://x.com/Kimi_Moonshot/status/2114450610724708492",
+   "source": "X @Kimi_Moonshot",
+   "date": "2026-10-26",
+   "summary": "Kimi 官方称限流与不必要的额度消耗是自身问题、本应更早修复；用量低于 25% 的用户直接清零，额度条将于太平洋时间当天结束前更新；同时调整套餐参数，减少不必要的子智能体调用与输出长度，让额度更耐用。此前 K3.1 Pro 发布后大量用户抱怨会员额度不够用。",
+   "id": "6a50c25e72925c674373fd209470e40473b686a7",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-26T04:40:00+08:00"
+  },
+  {
+   "title": "国际电信联盟副秘书长 Lamanauskas：AI 正形成“机会鸿沟”，非洲与拉美合计仅占全球数据中心容量 3.3%，到 2030 年弥合数字基础设施缺口需约 2.8 万亿美元投资",
+   "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns",
+   "source": "Al Jazeera",
+   "date": "2026-10-25",
+   "summary": "他在多哈 UNCTAD 世界投资论坛间隙接受采访称，发达国家约 29% 的劳动年龄人口使用生成式 AI，发展中国家仅 16%；全球仍有 22 亿人无法上网，AI 鸿沟可能加深各国社会经济不平等。",
+   "id": "a7105b58db6269ab6034eb9b40f92fa55ef63c7d",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T04:40:00+08:00"
+  },
+  {
+   "title": "美联社：美国主导的 Pax Silica 与中国发起的世界人工智能合作组织（WAICO）形成两大 AI 阵营，各国自由选择的窗口正在收窄",
+   "url": "https://apnews.com/article/china-us-ai-blocs-9974a3e5dc955a93935d131a4aeb8886",
+   "source": "AP / The Washington Post",
+   "date": "2026-10-25",
+   "summary": "报道称许多国家试图同时利用美国先进芯片与中国 AI 体系、避免选边；哈萨克斯坦是已知唯一同时加入两大组织的国家，美国国务院此前警告重叠参与可能失去 Pax Silica 席位，中方则反对迫使各国二选一。",
+   "id": "c540be561f037bd62eb367c3d9eb0ed11141cba0",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-26T04:40:00+08:00"
+  },
   {
    "title": "马来西亚总理安瓦尔：软银孙正义选定砂拉越古晋与马来半岛，计划投入 500 亿美元用于 AI、新技术与数据中心项目，为区域内最大投资之一",
    "url": "https://www.businesstimes.com.sg/international/softbanks-son-plans-us50-billion-malaysia-tech-outlay-anwar-ibrahim",
