@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T16:30:00+08:00",
+  "updated": "2026-10-25T17:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -456,6 +456,13 @@
           "summary": "Deedy Das 贴出推理服务商的粗略单位经济账，称一大批新推理服务商正快速冲到每月 100 万美元营收；X 上的讨论提到 inference.net、DeepInfra 等新玩家借 OpenRouter 等网关快速扩张，也有人担心同质化与成本上升。"
         },
         {
+          "title": "@amorriscode：Claude Code 桌面版创建者 Anthony Morris 宣布离开 Anthropic——与 Thariq Shihipar 前后脚离职，一天内 Claude Code 团队两位核心成员相继出走",
+          "url": "https://x.com/amorriscode/status/2113972174524674247",
+          "source": "X @amorriscode",
+          "date": "2026-10-24",
+          "summary": "Morris 称 10 月 23 日是他在 Anthropic 的最后一天，“创建桌面版 Claude Code 是因为相信人人都能成为构建者”，感谢社区的每个功能请求与 bug 反馈；未透露去向。该帖约 85 万次浏览、8500 赞，正值 Anthropic 据报 11 月中旬 IPO 前夕。"
+        },
+        {
           "title": "@trq212：Claude Code 核心工程师 Thariq Shihipar 宣布离开 Anthropic——称在 Claude Code 工作一年多，见证其规模远超想象",
           "url": "https://x.com/trq212/status/2113844051938054167",
           "source": "X @trq212",
@@ -496,13 +503,6 @@
           "source": "X @theinformation",
           "date": "2026-10-24",
           "summary": "The Information 应用 AI 记者 Laura Bratton 解读：核心问题是客户用自己的 AI 智能体访问 Salesforce 时是否还要付费。"
-        },
-        {
-          "title": "@theinformation：AI 电影初创公司 Utopai Studios 以 10 亿美元估值融资 6000 万美元，已收到最高 30 亿美元估值的报价",
-          "url": "https://x.com/theinformation/status/2114099638735175706",
-          "source": "X @theinformation",
-          "date": "2026-10-24",
-          "summary": "该公司计划明年在院线上映三部长片。"
         }
       ]
     }

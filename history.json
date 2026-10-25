@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T16:30:00+08:00",
- "count": 1622,
+ "updated": "2026-10-25T17:30:00+08:00",
+ "count": 1623,
  "items": [
   {
    "title": "@deedydas：开源模型推理服务商正井喷，很快就能做到月收入 100 万美元——即便按需租用 B300（约 8 美元/GPU·小时），GLM 5.3、Kimi K3、DeepSeek 4.1 Flash/Pro 等开源模型的吞吐也能让单卡每小时收入明显高于成本",
@@ -23,6 +23,17 @@
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-25T12:40:00+08:00"
+  },
+  {
+   "title": "@amorriscode：Claude Code 桌面版创建者 Anthony Morris 宣布离开 Anthropic——与 Thariq Shihipar 前后脚离职，一天内 Claude Code 团队两位核心成员相继出走",
+   "url": "https://x.com/amorriscode/status/2113972174524674247",
+   "source": "X @amorriscode",
+   "date": "2026-10-24",
+   "summary": "Morris 称 10 月 23 日是他在 Anthropic 的最后一天，“创建桌面版 Claude Code 是因为相信人人都能成为构建者”，感谢社区的每个功能请求与 bug 反馈；未透露去向。该帖约 85 万次浏览、8500 赞，正值 Anthropic 据报 11 月中旬 IPO 前夕。",
+   "id": "476b626666e98de2bc2d2e40afeb060a07b466bd",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T17:30:00+08:00"
   },
   {
    "title": "@trq212：Claude Code 核心工程师 Thariq Shihipar 宣布离开 Anthropic——称在 Claude Code 工作一年多，见证其规模远超想象",
