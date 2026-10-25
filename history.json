@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-25T14:30:00+08:00",
- "count": 1620,
+ "updated": "2026-10-25T15:30:00+08:00",
+ "count": 1621,
  "items": [
+  {
+   "title": "@deedydas：开源模型推理服务商正井喷，很快就能做到月收入 100 万美元——即便按需租用 B300（约 8 美元/GPU·小时），GLM 5.3、Kimi K3、DeepSeek 4.1 Flash/Pro 等开源模型的吞吐也能让单卡每小时收入明显高于成本",
+   "url": "https://x.com/deedydas/status/2114195317860266432",
+   "source": "X @deedydas",
+   "date": "2026-10-25",
+   "summary": "Deedy Das 贴出推理服务商的粗略单位经济账，称一大批新推理服务商正快速冲到每月 100 万美元营收；X 上的讨论提到 inference.net、DeepInfra 等新玩家借 OpenRouter 等网关快速扩张，也有人担心同质化与成本上升。",
+   "id": "8e37bb42ff6e5722591fb3534dd0bc1bbbcfa651",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T15:30:00+08:00"
+  },
   {
    "title": "IBM Research（ISWC 2026）：用知识图谱承载智能体的对话记忆，结合命令式与生成式计算，让回答透明、可溯源且更确定",
    "url": "https://research.ibm.com/publications/transparent-traceable-deterministic-agentic-memory-via-knowledge-graphs",

@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T14:30:00+08:00",
+  "updated": "2026-10-25T15:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@deedydas：开源模型推理服务商正井喷，很快就能做到月收入 100 万美元——即便按需租用 B300（约 8 美元/GPU·小时），GLM 5.3、Kimi K3、DeepSeek 4.1 Flash/Pro 等开源模型的吞吐也能让单卡每小时收入明显高于成本",
+          "url": "https://x.com/deedydas/status/2114195317860266432",
+          "source": "X @deedydas",
+          "date": "2026-10-25",
+          "summary": "Deedy Das 贴出推理服务商的粗略单位经济账，称一大批新推理服务商正快速冲到每月 100 万美元营收；X 上的讨论提到 inference.net、DeepInfra 等新玩家借 OpenRouter 等网关快速扩张，也有人担心同质化与成本上升。"
+        },
+        {
           "title": "@theinformation：Datadog 对云安全初创公司 Upwind 近 40 亿美元的报价，相当于其年经常性收入约 80 倍，凸显 AI 相关网络安全工具的火热需求",
           "url": "https://x.com/theinformation/status/2114069452874518712",
           "source": "X @theinformation",
@@ -496,13 +503,6 @@
           "source": "X @GaryMarcus",
           "date": "2026-10-24",
           "summary": "Marcus 摘录 Slok 原文：标普 493 人均营收与利润率持平、无生产率提升，主流企业开始把 token 支出视为成本中心、不愿为最新模型付费；该帖获 200 多赞、50 余次转发。"
-        },
-        {
-          "title": "@TechCrunch：新研究发现 Grok 绝大多数情况下推荐共和党候选人、OpenAI 的 GPT 偏向民主党，两者在近 500 场选举中超过 90% 意见不一",
-          "url": "https://x.com/TechCrunch/status/2114011303656268014",
-          "source": "X @TechCrunch",
-          "date": "2026-10-24",
-          "summary": "TechCrunch 转发其关于 Convovo 研究的报道：在被要求只推荐一名候选人时，两款模型的党派倾向截然相反。"
         }
       ]
     }
