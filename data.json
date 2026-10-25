@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T19:30:00+08:00",
+  "updated": "2026-10-25T20:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "马来西亚总理安瓦尔：软银孙正义选定砂拉越古晋与马来半岛，计划投入 500 亿美元用于 AI、新技术与数据中心项目，为区域内最大投资之一",
+          "url": "https://www.businesstimes.com.sg/international/softbanks-son-plans-us50-billion-malaysia-tech-outlay-anwar-ibrahim",
+          "source": "Bloomberg / The Business Times",
+          "date": "2026-10-25",
+          "summary": "安瓦尔 10 月 24 日在马六甲演讲中透露，周二与孙正义视频会议时获悉该计划；未披露具体项目与时间表，软银暂未回应。软银本月已与合作方签署框架协议，探索在砂拉越发展 AI 基础设施；马来西亚 2021 年至 2026 上半年已吸引约 940 亿美元数据中心相关投资。"
+        },
+        {
           "title": "决策模型初创 TypeSafe AI 披露数据泄露：其 Jev 模型为所有客户生成过的全部“noul”输出（0–1 概率决策）遭未授权泄露，CEO Diogo Almeida 在 X 上自曝并附上泄露数据链接",
           "url": "https://startupfortune.com/typesafe-ai-admits-a-leak-exposed-every-customers-jev-model-output/",
           "source": "Startup Fortune",
@@ -118,13 +125,6 @@
           "source": "IT之家（援引 VGC）",
           "date": "2026-10-24",
           "summary": "宫本茂把生成式 AI 比作从打字机到文字处理机的工具变革，认为它会让设计师真正的个人能力显现；他提醒开发门槛降低后，有人可能沉浸于制作的满足感而误以为做出了好作品。任天堂尚未公开确认是否在开发中使用 AI。"
-        },
-        {
-          "title": "Jassy：推理成本需降到约 1/10，AWS 2026 年算力基本售罄",
-          "url": "https://www.ithome.com/1/017/313.htm",
-          "source": "IT之家（a16z 访谈）",
-          "date": "2026-10-24",
-          "summary": "亚马逊 CEO 称企业软件全面 AI 化需推理成本降一个数量级；2026 年算力基本售罄、2027 年大部分已被预订，2028 年也已售出大量；资本开支约 2200 亿美元，Trainium 性价比高 30–40%，未来收入承诺超 2250 亿美元。"
         }
       ]
     },
@@ -386,6 +386,13 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "source": "GitHub · TypeScript · ⭐ 1142",
+          "date": "2026-10-25",
+          "summary": "JetBrains 开源的轻量 AI 编程 IDE：基于 pi 智能体做 vibe coding，可按用户工作方式自我定制，支持智能体技能与规格驱动开发（spec-driven），今日登上 GitHub 趋势榜。"
+        },
+        {
           "title": "google-gemini/gemini-cli",
           "url": "https://github.com/google-gemini/gemini-cli",
           "source": "GitHub · TypeScript · ⭐ 107996",
@@ -433,13 +440,6 @@
           "source": "GitHub · Rust · ⭐ 22",
           "date": "2026-10-24",
           "summary": "AWS 与 UC Berkeley Hydro 项目开源的智能体运行时与工具协议（Apache 2.0）：智能体在等待工具时“休眠”为纯数据，下一条消息到达再唤醒，同一代码可跑在本地常驻进程或无服务器平台；10 月 23 日随 AWS 博客正式发布。"
-        },
-        {
-          "title": "CuboiLeo/SuperMimic-Reproduced",
-          "url": "https://github.com/CuboiLeo/SuperMimic-Reproduced",
-          "source": "GitHub · Python · ⭐ 176",
-          "date": "2026-10-24",
-          "summary": "复现 SuperMimic（arXiv:2610.28480）：学习可微世界模型并用 BPTT 训练宇树 G1 人形机器人动作跟踪策略，基于 mjlab / MuJoCo Warp，MIT 许可；10 月 22 日创建，已有其他团队基于它衍生 G1 复现版本。"
         }
       ]
     },
