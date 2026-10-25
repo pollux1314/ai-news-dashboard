@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T02:30:00+08:00",
+  "updated": "2026-10-26T03:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -20,6 +20,13 @@
           "source": "IT之家",
           "date": "2026-10-24",
           "summary": "有用户称此前被永久封禁的 Claude 账号可提交申诉、个别申诉成功（IT之家未能核实）；IT之家提醒付款页出现中国选项不等于 Anthropic 已开放相关地区服务，官方帮助中心仍要求用户位于受支持地区。本月初 Claude 网页端已新增简体与繁体中文界面。"
+        },
+        {
+          "title": "OpenAI Agents API 上线定时自动化（Scheduled Automations）：可用 cron 表达式加时区周期性触发，或指定时间单次运行，任务可新建会话或续接已有会话",
+          "url": "https://community.openai.com/t/introducing-scheduled-automations-to-the-agents-api/1409223",
+          "source": "OpenAI 开发者社区 / OpenAI API 文档",
+          "date": "2026-10-23",
+          "summary": "为智能体启用 automations 工具后，它还能按自然语言请求自行创建、更新或删除日程；每次触发都会记录为可查询的 invocation。"
         },
         {
           "title": "Jack Dorsey 旗下 Block 发布语音模型 Dessa：仅用人类对话语音从零训练、不含任何文本的全双工语音到语音模型，可在 MacBook Pro M4 Max 本地运行",
@@ -55,13 +62,6 @@
           "source": "Google Cloud Blog",
           "date": "2026-10-23",
           "summary": "与原有谷歌托管选项并存：Anthropic 托管版由 Anthropic 担任数据处理方，谷歌托管版继续提供 VPC-SC、CMEK 与数据驻留；两者价格相同。此前一天 OpenAI 模型与 Codex 刚宣布进入 Model Garden。"
-        },
-        {
-          "title": "微软低调测试 Win11 AI 应用 Project Pantheon（测试名 Context Vault）：不自动截屏的“回顾”替代品，只保存用户主动选择的网页、文件、截图、文本与音视频，作为可检索、可向 AI 提问的“第二大脑”",
-          "url": "https://www.ithome.com/1/016/873.htm",
-          "source": "IT之家 / Windows Latest",
-          "date": "2026-10-23",
-          "summary": "旨在规避 Recall 自动截屏引发的隐私争议，内容可按主题归类整理。"
         }
       ]
     },

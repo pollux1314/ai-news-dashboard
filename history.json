@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T02:30:00+08:00",
- "count": 1628,
+ "updated": "2026-10-26T03:30:00+08:00",
+ "count": 1629,
  "items": [
   {
    "title": "马来西亚总理安瓦尔：软银孙正义选定砂拉越古晋与马来半岛，计划投入 500 亿美元用于 AI、新技术与数据中心项目，为区域内最大投资之一",
@@ -694,6 +694,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "OpenAI Agents API 上线定时自动化（Scheduled Automations）：可用 cron 表达式加时区周期性触发，或指定时间单次运行，任务可新建会话或续接已有会话",
+   "url": "https://community.openai.com/t/introducing-scheduled-automations-to-the-agents-api/1409223",
+   "source": "OpenAI 开发者社区 / OpenAI API 文档",
+   "date": "2026-10-23",
+   "summary": "为智能体启用 automations 工具后，它还能按自然语言请求自行创建、更新或删除日程；每次触发都会记录为可查询的 invocation。",
+   "id": "675bc7cc1612b8a57c831e101d541365e9b05ce4",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-26T03:30:00+08:00"
   },
   {
    "title": "数据库研究者郝相鹏开源 Rust B 树库 bbtree：代码全部由多家厂商的 LLM 编写并交叉审查，单线程比 std BTreeMap 快 5 倍、96 线程比 crossbeam-skiplist 快 12 倍，内存省 30%",
