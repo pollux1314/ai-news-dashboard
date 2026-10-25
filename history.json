@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-25T10:40:00+08:00",
- "count": 1613,
+ "updated": "2026-10-25T11:40:00+08:00",
+ "count": 1615,
  "items": [
+  {
+   "title": "@0x0SojalSec：Claude 似乎不再能“逆向一切”（REA）——在多起用 Claude 逆向三星电视固件、揪出数据采集服务的案例走红后，Anthropic 疑似悄悄收紧逆向工程相关请求",
+   "url": "https://x.com/0x0SojalSec/status/2113751276320399694",
+   "source": "X @0x0SojalSec",
+   "date": "2026-10-24",
+   "summary": "该帖浏览约 77 万、获 1.1 万+ 赞；用户反馈 REA（开源逆向工程 MCP 工具）相关任务频繁在回答中途触发安全拦截，作者随后又称 OpenAI 也封禁了逆向自家三星电视的用户。Anthropic 尚未就是否刻意调整作出确认。",
+   "id": "258f96f0850fddabd15e6b34e8298c0ca60cef0d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-25T11:40:00+08:00"
+  },
   {
    "title": "山东大学研究：编程智能体的 Harness 几乎不影响通过率，却能让同模型同任务的单任务成本相差最多 3 倍",
    "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
@@ -584,6 +595,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "港交所推出人工智能指数与半导体指数：AI 指数追踪 40 家港股 AI 产业链公司，半导体指数追踪 30 家最大半导体相关港股，并授权南方基金在内地发行跟踪 AI 指数的 ETF",
+   "url": "https://www.hkex.com.hk/News/News-Release/2026/261023news?sc_lang=zh-HK",
+   "source": "香港交易所 / 中新网 / 路透",
+   "date": "2026-10-23",
+   "summary": "AI 指数覆盖芯片设计、数据中心、AI 基础设施、AI 模型、软件与实体应用五层架构，按基本面筛选并聚焦 AI 研发与资本开支投入大的公司，每季度调整；两大指数均纳入中芯国际、联想、小米、英诺赛科、中际旭创、壁仞科技、天数智芯等，指数由 Solactive 计算。",
+   "id": "e10bf97c6b84e423ecf27c723497a22953987b7b",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-25T11:40:00+08:00"
   },
   {
    "title": "彭博：人形机器人公司松延动力（Noetix Robotics）已秘密向港交所递交上市申请，拟募资数亿美元、最快 2027 年挂牌；公司未回应",
