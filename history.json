@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-25T13:30:00+08:00",
- "count": 1619,
+ "updated": "2026-10-25T14:30:00+08:00",
+ "count": 1620,
  "items": [
   {
    "title": "IBM Research（ISWC 2026）：用知识图谱承载智能体的对话记忆，结合命令式与生成式计算，让回答透明、可溯源且更确定",
@@ -628,6 +628,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "猫王版权方起诉 Anthropic：Authentic Brands Group 指控 Claude 未经许可用 274 首猫王歌曲训练，按每首 15 万美元索赔约 4100 万美元",
+   "url": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
+   "source": "Billboard / Rolling Stone",
+   "date": "2026-10-23",
+   "summary": "诉讼于 10 月 23 日（周五）提起，涉及《Can't Help Falling in Love》《Don't Be Cruel》等；起诉书称即便 Anthropic 此前被诉后加了护栏，Claude 在被要求“为现代听众重制”歌曲时仍输出与原曲高度接近的内容。这是首批由个人艺人版权方直接起诉 AI 公司的重大案件之一，Anthropic 此前已被环球音乐出版、Round Hill 等起诉。",
+   "id": "8311c642d8db9e60d0c64a976213a3e2e6219e18",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-25T14:30:00+08:00"
   },
   {
    "title": "英伟达发布 RTX Remix 1.6：用 ComfyUI 集成 2.0 取代旧版 AI Tools 生成纹理与网格，新增无界面 Toolkit 与模组智能体技能，并推出《我的世界》Java 版 Beta 模组",
