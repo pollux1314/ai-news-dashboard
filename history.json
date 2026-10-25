@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-25T09:35:00+08:00",
- "count": 1611,
+ "updated": "2026-10-25T10:40:00+08:00",
+ "count": 1613,
  "items": [
+  {
+   "title": "山东大学研究：编程智能体的 Harness 几乎不影响通过率，却能让同模型同任务的单任务成本相差最多 3 倍",
+   "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
+   "source": "The Decoder / arXiv 2610.04433",
+   "date": "2026-10-24",
+   "summary": "论文《What Does a Harness Buy? Tokens, Mostly》用 Claude Code、mini-SWE-agent、OpenCode 三种生产级 Harness 跑五个模型的 SWE-bench Verified：447 题上最重的 Claude Code 与最轻的 mini-SWE-agent 通过率相差在 5 个百分点内；45 道难题上换 Harness 翻转的题目比例（13%）与同配置重跑相同。成本差主要来自每步重发的系统提示与工具定义前缀（Claude Code 约 16k token，OpenCode 约 7k，mini-SWE-agent 不足 1k）及步数。",
+   "id": "8a6d4d230e715b2b3b70028ebf4db5ec5c5b5bdf",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-25T10:40:00+08:00"
+  },
   {
    "title": "决策模型初创 TypeSafe AI 披露数据泄露：其 Jev 模型为所有客户生成过的全部“noul”输出（0–1 概率决策）遭未授权泄露，CEO Diogo Almeida 在 X 上自曝并附上泄露数据链接",
    "url": "https://startupfortune.com/typesafe-ai-admits-a-leak-exposed-every-customers-jev-model-output/",
@@ -573,6 +584,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "彭博：人形机器人公司松延动力（Noetix Robotics）已秘密向港交所递交上市申请，拟募资数亿美元、最快 2027 年挂牌；公司未回应",
+   "url": "https://www.zaobao.com.sg/news/china/story20261023-9884446",
+   "source": "联合早报 / 彭博 / 科创板日报",
+   "date": "2026-10-23",
+   "summary": "松延动力成立于 2023 年 9 月，总部北京，今年 3 月完成宁德时代旗下晨道资本领投的约 10 亿元 B 轮融资。科创板日报指出，监管提高机器人企业 IPO 门槛后具身智能资本动作仍密集，但部分投资人已对同质化与技术进展存疑而放缓出手。",
+   "id": "2c6dadaae1879d23e8182924bc4f566c24814cf3",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-25T10:40:00+08:00"
   },
   {
    "title": "《纽约时报》调查 AI 私校 Alpha School：宣称用 AI 让学生“两小时学两倍”，内部数据显示仅 42% 的 K-8 学生在数学和阅读上同时达到 2 倍进度",
