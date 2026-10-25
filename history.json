@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T04:40:00+08:00",
- "count": 1632,
+ "updated": "2026-10-26T05:40:00+08:00",
+ "count": 1634,
  "items": [
   {
    "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
@@ -12,6 +12,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-26T04:40:00+08:00"
+  },
+  {
+   "title": "MCP 官方参考服务器发布 v2.1.0 安全更新：一次修补 filesystem、everything、fetch 三个服务器共 8 个漏洞，含符号链接 TOCTOU 写出越界、跨源调用工具与 IDNA/NAT64 SSRF 绕过",
+   "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+   "source": "GitHub · modelcontextprotocol/servers",
+   "date": "2026-10-25",
+   "summary": "建议将 @modelcontextprotocol/server-filesystem 与 server-everything 升级到 2.0.1、mcp-server-fetch 升级到 2026.10.24；由于 npm 包从日期版本改为语义化版本，包管理器会把 2.0.1 视为更低版本、不会自动提示升级，需显式指定版本安装。Windows 上 filesystem 写入越界问题仅部分修复。",
+   "id": "7a30f2ea5b89c55c9f2bb0a4db535efd3b357f1b",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-26T05:40:00+08:00"
+  },
+  {
+   "title": "Kimi Code 2.3.2 改为默认单智能体：不再主动派生子智能体，Agent Swarm 只有用户开启 swarm 模式（/swarm）才会启动，kimi -p 与 Zed 等 ACP 客户端中不再可用",
+   "url": "https://github.com/MoonshotAI/kimi-code/releases",
+   "source": "GitHub · MoonshotAI/kimi-code",
+   "date": "2026-10-25",
+   "summary": "如需委派，需在消息、AGENTS.md、技能或已开启的多智能体模式中明确要求。此次调整与月之暗面就 K3.1 Pro 订阅额度异常消耗致歉、减少不必要子智能体调用的表态一致。",
+   "id": "f2dd06f9d85405a8f8b07c94ed04c2190cc1737e",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-26T05:40:00+08:00"
   },
   {
    "title": "国际电信联盟副秘书长 Lamanauskas：AI 正形成“机会鸿沟”，非洲与拉美合计仅占全球数据中心容量 3.3%，到 2030 年弥合数字基础设施缺口需约 2.8 万亿美元投资",

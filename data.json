@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T04:40:00+08:00",
+  "updated": "2026-10-26T05:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -197,6 +197,20 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "MCP 官方参考服务器发布 v2.1.0 安全更新：一次修补 filesystem、everything、fetch 三个服务器共 8 个漏洞，含符号链接 TOCTOU 写出越界、跨源调用工具与 IDNA/NAT64 SSRF 绕过",
+          "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
+          "source": "GitHub · modelcontextprotocol/servers",
+          "date": "2026-10-25",
+          "summary": "建议将 @modelcontextprotocol/server-filesystem 与 server-everything 升级到 2.0.1、mcp-server-fetch 升级到 2026.10.24；由于 npm 包从日期版本改为语义化版本，包管理器会把 2.0.1 视为更低版本、不会自动提示升级，需显式指定版本安装。Windows 上 filesystem 写入越界问题仅部分修复。"
+        },
+        {
+          "title": "Kimi Code 2.3.2 改为默认单智能体：不再主动派生子智能体，Agent Swarm 只有用户开启 swarm 模式（/swarm）才会启动，kimi -p 与 Zed 等 ACP 客户端中不再可用",
+          "url": "https://github.com/MoonshotAI/kimi-code/releases",
+          "source": "GitHub · MoonshotAI/kimi-code",
+          "date": "2026-10-25",
+          "summary": "如需委派，需在消息、AGENTS.md、技能或已开启的多智能体模式中明确要求。此次调整与月之暗面就 K3.1 Pro 订阅额度异常消耗致歉、减少不必要子智能体调用的表态一致。"
+        },
+        {
           "title": "微软研究院开源去中心化多智能体编程框架 Agensh：无中央编排器，可扩展到 1,024 个智能体协作同一代码库，pandoc 任务通过率从单智能体 33.89% 升至 55.06%",
           "url": "https://github.com/microsoft/Agensh",
           "source": "GitHub microsoft/Agensh / arXiv 2609.26781",
@@ -237,20 +251,6 @@
           "source": "NVIDIA Research",
           "date": "2026-10-23",
           "summary": "支持多轮工具调用、语音友好的对话模式、可开关/限长推理、64K 上下文与 35 种语言，输出 token 较同类少约 80%；面向语音/设备助手、游戏 NPC、机器人与 IoT 交互，适配 GeForce RTX、Jetson、RTX Spark 与 DGX Spark。"
-        },
-        {
-          "title": "Chroma 宣布加入 Replit，开源 ChromaDB 继续 Apache 2.0",
-          "url": "https://www.trychroma.com/blog/chroma-joins-replit",
-          "source": "Chroma Blog",
-          "date": "2026-10-23",
-          "summary": "向量数据库 Chroma 签署最终协议并入 Replit，打造“自动驾驶公司的上下文层”；Chroma Cloud 60 天内关停（11/22 停写、12/22 停读）；ChromaDB（月下载 600 万、约 3 万星）继续开源并释出更多私有仓库代码。"
-        },
-        {
-          "title": "OpenAI 红队智能体在 Brotli 压缩库中发现无需认证的远程代码执行漏洞 CVE-2026-111497（高危），Node.js 已发布 22.23.4/24.22.1/26.12.1 修复",
-          "url": "https://nodejs.org/en/blog/vulnerability/october-2026-security-releases",
-          "source": "Node.js / OpenAI",
-          "date": "2026-10-23",
-          "summary": "漏洞源于 Brotli 解码器把非法块切换误判为“需要更多输入”，导致向 8 字节内部缓冲区越界写入；凡用 node:zlib 解压攻击者可控 Brotli 数据的应用都可能被崩溃、泄露内存或执行代码。由 OpenAI Codex Security 报告，是其前沿模型训练环境高算力红队行动的发现之一，Bun、Envoy 等同样内置 Brotli。"
         }
       ]
     },
