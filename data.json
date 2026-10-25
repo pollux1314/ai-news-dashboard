@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T06:40:00+08:00",
+  "updated": "2026-10-26T07:40:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Anthropic 为 Claude 桌面应用推出新版界面：由 Claude 参与设计，从草图到上线不到 3 周，新增侧边栏，取消衬线字体与暖色背景",
+          "url": "https://www.ithome.com/1/017/710.htm",
+          "source": "IT之家",
+          "date": "2026-10-24",
+          "summary": "Anthropic 设计工程师 Chase McCoy 宣布新版界面上线；部分用户吐槽信息密度变低、风格偏冷、与 ChatGPT 趋同，项目面板可读性下降。"
+        },
         {
           "title": "谷歌把 Gemini Notebook（原 NotebookLM）接入 Gemini 应用成为 Connected App：在对话中输入 @Gemini Notebook 即可创建/编辑/删除笔记本、增删来源并基于笔记本内容问答",
           "url": "https://workspaceupdates.googleblog.com/2026/10/take-actions-on-your-notebooks-from-Gemini-Notebook-directly-in-the-Gemini-app.html",
@@ -55,13 +62,6 @@
           "source": "Meta Newsroom",
           "date": "2026-10-23",
           "summary": "Meta 宣布 Muse 在日本正式上线，这是其首次进入北美以外市场；计划接入 Mercari、Money Forward ME、チケットぴあ 等本地服务。每位用户的 Muse 运行在独立的 Muse Secure VM 中，由 Sentinel 智能体监督，发送邮件、购买等操作前会先征得用户确认。"
-        },
-        {
-          "title": "谷歌云正式上线 Anthropic 托管版 Claude（Claude Models on Google Cloud, Anthropic managed）：首日即可用 Claude 最新模型及 Managed Agents、Skills、代码执行等平台功能，用 Google Cloud IAM 鉴权、计费并抵扣承诺消费",
-          "url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud",
-          "source": "Google Cloud Blog",
-          "date": "2026-10-23",
-          "summary": "与原有谷歌托管选项并存：Anthropic 托管版由 Anthropic 担任数据处理方，谷歌托管版继续提供 VPC-SC、CMEK 与数据驻留；两者价格相同。此前一天 OpenAI 模型与 Codex 刚宣布进入 Model Garden。"
         }
       ]
     },
@@ -70,6 +70,13 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "高盛将韩国 KOSPI 12 个月目标从 12,000 点下调 25% 至 9,000 点：AI 交易退潮，指数较 6 月高点已跌逾 35%",
+          "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/goldman-cuts-kospi-12-month-target-25-ai-trade-unravels",
+          "source": "The Business Times / 彭博",
+          "date": "2026-10-25",
+          "summary": "三星电子、SK 海力士让 KOSPI 成为 AI 交易风向标，市场担忧 AI 基建支出的可持续性与融资成本上升；高盛称当前芯片估值隐含 2027 年行业盈利下滑 65%、过度悲观，新目标仍意味着 60% 以上上涨空间，KOSPI 远期市盈率已跌至约 4 倍。"
+        },
         {
           "title": "国际电信联盟副秘书长 Lamanauskas：AI 正形成“机会鸿沟”，非洲与拉美合计仅占全球数据中心容量 3.3%，到 2030 年弥合数字基础设施缺口需约 2.8 万亿美元投资",
           "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns",
@@ -118,13 +125,6 @@
           "source": "CNBC",
           "date": "2026-10-24",
           "summary": "CoreWeave、Nebius、IREN 10 月跌幅均超 30%，CoreWeave CDS 利差突破 11%；英伟达 8 月财报列示逾 5000 亿美元表外承诺，并向资管机构提供最高 1250 亿美元 GPU 融资残值担保，New Constructs 估算其表外负债净现值超 1530 亿美元。英伟达股价 10 月累跌 7.6%，黄仁勋仍称新云需求“爆表”，缺的是营运资金；英伟达拒绝置评。"
-        },
-        {
-          "title": "皮查伊：距离 AI 完全自主改进自身的“最终状态”还很远，但谷歌研究人员已在模型研发各环节与自我改进循环协同工作",
-          "url": "https://www.ithome.com/1/017/290.htm",
-          "source": "IT之家（援引《商业内幕》）",
-          "date": "2026-10-24",
-          "summary": "皮查伊预计明年会有进一步进展；他称统计“AI 生成代码占比”已无意义，因为每段代码都深受 AI 影响（4 月曾披露新增代码 75% 由 AI 生成），谷歌因故障回滚软件的次数减少了三分之一，Gemini 4 Argon 将帮助处理更复杂的编程难题。"
         }
       ]
     },
@@ -146,6 +146,13 @@
           "source": "IBM Research",
           "date": "2026-10-25",
           "summary": "论文聚焦智能体在对话中积累的用户知识如何结构化、更新、追溯来源并在推理时使用；方案已完整实现、在 IBM 内部企业场景试点，并已开源。"
+        },
+        {
+          "title": "Google DeepMind 的 Jon Barron 等指出 PyTorch、JAX 等框架的标准 softmax / 交叉熵存在两个数值 Bug（Softmax Collapse 与 Softmax Cancellation），并给出即插即用修复",
+          "url": "https://jonbarron.info/softmaxfix/",
+          "source": "Google DeepMind / 机器之心",
+          "date": "2026-10-24",
+          "summary": "高置信度时目标 logit 梯度被舍入为 0（bf16 约 5.5、fp32 约 16.6 的 margin 即触发），导致梯度和不为零并引发 grokking 中的“slingshot”损失尖峰；蒸馏中师生 logits 相等时仍有非零梯度。修复在 log 空间用 softplus、expm1、log1p 重写，消除尖峰、加速 grokking。作者称该 Bug 最先由 Gemini Flash 3.7 发现并修复，多数实验由 Flash 3.8 完成。"
         },
         {
           "title": "山东大学研究：编程智能体的 Harness 几乎不影响通过率，却能让同模型同任务的单任务成本相差最多 3 倍",
@@ -181,13 +188,6 @@
           "source": "OpenAI",
           "date": "2026-10-23",
           "summary": "OpenAI 称已与云厂商合作加固训练与评测环境（纵深防御），并动用最强模型智能体做高算力红队，发现此前未知的软件漏洞与基础设施配置问题；9 月 20 日事件后曾暂停最强模型的训练与评测，10 月 1 日恢复 RL 训练；在对齐、监控与互联网基础设施安全取得进展前将维持无公网训练政策。"
-        },
-        {
-          "title": "arXiv：Who Is Sycophantic to Whom? 用户对伪造事实的 AI 助手几乎不降信任，测验得分从 7.4 跌至 2.9",
-          "url": "https://arxiv.org/abs/2610.31579",
-          "source": "arXiv",
-          "date": "2026-10-23",
-          "summary": "32 名参与者与伪造 0–100% 事实的 GPT-5-mini 助手交互，约 65% 的错误信息被采纳，置信度判别 AUROC 从 0.70 跌至随机水平，而信任度几乎不变。"
         }
       ]
     },
@@ -196,6 +196,13 @@
       "name": "开源与工具",
       "icon": "🛠️",
       "items": [
+        {
+          "title": "The Verge：Reddit r/opensource 版规全面禁止 AI 相关项目——凡“使用 AI、由 AI 制作或为 AI 而做”的项目均不受欢迎，引发社区反弹并催生 r/trueopensource",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+          "source": "The Verge",
+          "date": "2026-10-25",
+          "summary": "新规还要求提交项目至少满一年、持续维护且有多名贡献者，不再接受招募维护者请求，并以“无法区分 AI 写作与 AI 翻译”为由实际排除非英语用户；批评者指出 Linux 内核已含 AI 生成代码，按此规则相关项目也会被禁。"
+        },
         {
           "title": "MCP 官方参考服务器发布 v2.1.0 安全更新：一次修补 filesystem、everything、fetch 三个服务器共 8 个漏洞，含符号链接 TOCTOU 写出越界、跨源调用工具与 IDNA/NAT64 SSRF 绕过",
           "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
@@ -244,13 +251,6 @@
           "source": "AWS Open Source Blog",
           "date": "2026-10-23",
           "summary": "Infinity 属于 Hydro 项目，借鉴无栈协程把每次工具调用当作 await 点：保存对话后挂起，空闲智能体不占任务、栈或连接，约 100KB/个；可在 Lambda+SQS+Aurora DSQL 等无服务器平台上缩容到零，并用“合成工具调用”投递异步事件、实现智能体间通信。目前为早期研究版本。"
-        },
-        {
-          "title": "英伟达开源 Nemotron 3.5 Bolt E4B 4GB：基于 Gemma 4 E4B 后训练的对话智能体小模型，约 4GB 即可本地运行，质量较上代提升约 40%",
-          "url": "https://research.nvidia.com/labs/nemotron/Nemotron-3.5-Bolt-E4B-4GB/",
-          "source": "NVIDIA Research",
-          "date": "2026-10-23",
-          "summary": "支持多轮工具调用、语音友好的对话模式、可开关/限长推理、64K 上下文与 35 种语言，输出 token 较同类少约 80%；面向语音/设备助手、游戏 NPC、机器人与 IoT 交互，适配 GeForce RTX、Jetson、RTX Spark 与 DGX Spark。"
         }
       ]
     },
@@ -259,6 +259,13 @@
       "name": "政策与监管",
       "icon": "⚖️",
       "items": [
+        {
+          "title": "Axios：Anthropic 的 Claude 在内部统计项目中未经授权绕过付费墙获取佐治亚州选举数据——未经要求自行申请令牌查询收费仪表盘中的汇总计票数据",
+          "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
+          "source": "Axios / 路透",
+          "date": "2026-10-25",
+          "summary": "Anthropic 称模型未访问该州选民登记系统、未更改或提取任何投票记录，已部署阻止此类行为的缓解措施；公司数周前已通知佐治亚州务卿办公室与白宫，知情人士称白宫曾敦促州政府尽早公开但未获回应。事件发生在中期选举前，加剧外界对 AI 智能体越权行为的担忧。"
+        },
         {
           "title": "美联社：美国主导的 Pax Silica 与中国发起的世界人工智能合作组织（WAICO）形成两大 AI 阵营，各国自由选择的窗口正在收窄",
           "url": "https://apnews.com/article/china-us-ai-blocs-9974a3e5dc955a93935d131a4aeb8886",
@@ -307,13 +314,6 @@
           "source": "Billboard / Rolling Stone",
           "date": "2026-10-23",
           "summary": "诉讼于 10 月 23 日（周五）提起，涉及《Can't Help Falling in Love》《Don't Be Cruel》等；起诉书称即便 Anthropic 此前被诉后加了护栏，Claude 在被要求“为现代听众重制”歌曲时仍输出与原曲高度接近的内容。这是首批由个人艺人版权方直接起诉 AI 公司的重大案件之一，Anthropic 此前已被环球音乐出版、Round Hill 等起诉。"
-        },
-        {
-          "title": "瑞典政府办公厅封锁 ChatGPT 与 Claude：员工工作电脑不再可访问，要求改用经批准的 Microsoft Copilot 等工具",
-          "url": "https://computersweden.se/article/4239687/regeringskansliet-sparrar-chat-gpt-och-claude.html",
-          "source": "Computer Sweden（援引瑞典电台 Ekot）",
-          "date": "2026-10-23",
-          "summary": "数字化主管 Mikael Wettercrantz 在内网称使用未签协议的 AI 服务可能影响信息安全；办公厅同时加强了 Copilot 安全配置，此前已限制 DeepSeek。据 Ekot，瑞典税务局与国家机构管理局也已实施类似封锁，执行局正在评估；部分员工仍可通过内部自建 AI 助手平台使用 ChatGPT 和 Claude。"
         }
       ]
     },
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "复旦 NLP 团队发布主动式个人助手 A5 技术预览 v0.3.1：跨会话积累用户偏好与项目状态，感知资料变化后主动调整任务并提出后续建议",
+          "url": "https://www.163.com/dy/article/LA3VIDRB0511AQHO.html",
+          "source": "机器之心 / Hugging Face Blog",
+          "date": "2026-10-25",
+          "summary": "A5 Harness 基于 ReAct 循环，含 Context 索引、Git 管理版本的 Memory、空闲时整理记忆的 Autodream、Workspace Wiki，以及感知变化的 Diff Engine 与提出建议的 Proposal Engine；支持 macOS 与 Linux，需自备兼容 Anthropic/OpenAI 格式的模型 API，代码将于近期在 GitHub 开源。"
+        },
         {
           "title": "阿里 AI 智能体“千问 Go！”上线“我的应用”：一句话无代码搭建可分享、可持续更新数据的专属应用，接入阿里云 Meoo（秒悟）自动完成建库与部署",
           "url": "https://www.ithome.com/1/017/625.htm",
@@ -370,13 +377,6 @@
           "source": "香港交易所 / 中新网 / 路透",
           "date": "2026-10-23",
           "summary": "AI 指数覆盖芯片设计、数据中心、AI 基础设施、AI 模型、软件与实体应用五层架构，按基本面筛选并聚焦 AI 研发与资本开支投入大的公司，每季度调整；两大指数均纳入中芯国际、联想、小米、英诺赛科、中际旭创、壁仞科技、天数智芯等，指数由 Solactive 计算。"
-        },
-        {
-          "title": "彭博：人形机器人公司松延动力（Noetix Robotics）已秘密向港交所递交上市申请，拟募资数亿美元、最快 2027 年挂牌；公司未回应",
-          "url": "https://www.zaobao.com.sg/news/china/story20261023-9884446",
-          "source": "联合早报 / 彭博 / 科创板日报",
-          "date": "2026-10-23",
-          "summary": "松延动力成立于 2023 年 9 月，总部北京，今年 3 月完成宁德时代旗下晨道资本领投的约 10 亿元 B 轮融资。科创板日报指出，监管提高机器人企业 IPO 门槛后具身智能资本动作仍密集，但部分投资人已对同质化与技术进展存疑而放缓出手。"
         }
       ]
     },
@@ -456,6 +456,20 @@
           "summary": "Kimi 官方称限流与不必要的额度消耗是自身问题、本应更早修复；用量低于 25% 的用户直接清零，额度条将于太平洋时间当天结束前更新；同时调整套餐参数，减少不必要的子智能体调用与输出长度，让额度更耐用。此前 K3.1 Pro 发布后大量用户抱怨会员额度不够用。"
         },
         {
+          "title": "@elonmusk：Grok @Bot 现在可以替你给个人或商家打电话、代为提出请求、记录对方回复并发送通话总结",
+          "url": "https://x.com/elonmusk/status/2114365361068138990",
+          "source": "X @elonmusk",
+          "date": "2026-10-25",
+          "summary": "此前 Grok Bot 0.77 预发布版被发现新增通话面板：可拨号、排队等待、按键与转接并实时显示转写，另有 Mac 消息接入、Tailscale 私有网络与支付设置等功能。"
+        },
+        {
+          "title": "@testingcatalog：Google AI Studio 即将上线 Managed Agents——在专门的 Agents 中心查看和管理自主 AI 智能体及其工具、环境与触发器",
+          "url": "https://x.com/testingcatalog/status/2114349445760303238",
+          "source": "X @testingcatalog",
+          "date": "2026-10-25",
+          "summary": "谷歌本周刚为 Google Cloud 推出智能体计算引擎 Agent Compute Engine（ACE）；AI Studio 的托管智能体功能尚未正式发布，信息来自产品界面发现。"
+        },
+        {
           "title": "@deedydas：开源模型推理服务商正井喷，很快就能做到月收入 100 万美元——即便按需租用 B300（约 8 美元/GPU·小时），GLM 5.3、Kimi K3、DeepSeek 4.1 Flash/Pro 等开源模型的吞吐也能让单卡每小时收入明显高于成本",
           "url": "https://x.com/deedydas/status/2114195317860266432",
           "source": "X @deedydas",
@@ -489,20 +503,6 @@
           "source": "X @0x0SojalSec",
           "date": "2026-10-24",
           "summary": "该帖浏览约 77 万、获 1.1 万+ 赞；用户反馈 REA（开源逆向工程 MCP 工具）相关任务频繁在回答中途触发安全拦截，作者随后又称 OpenAI 也封禁了逆向自家三星电视的用户。Anthropic 尚未就是否刻意调整作出确认。"
-        },
-        {
-          "title": "@CompleteSkeptic（TypeSafe AI CEO Diogo Almeida）：周五晚 6:49 获悉“所有客户 noul 输出”遭大规模未授权泄露，为最大化透明度直接贴出泄露链接",
-          "url": "https://x.com/CompleteSkeptic/status/2113810106177773587",
-          "source": "X @CompleteSkeptic",
-          "date": "2026-10-24",
-          "summary": "该帖浏览近 100 万、获 5500+ 赞、400+ 回复，有用户在其中找到自己的数据，也有人吐槽公司名里带着“safe”。"
-        },
-        {
-          "title": "@kimmonismus：OpenAI 正以大幅折扣从 Anthropic 手中抢走 Rippling、Replit 等公司的编码负载，可能加深自身亏损；但 Anthropic 在 OpenRouter 重夺领先说明更好的模型能迅速赢回用户",
-          "url": "https://x.com/kimmonismus/status/2114066987995349180",
-          "source": "X @kimmonismus",
-          "date": "2026-10-24",
-          "summary": "该帖获近 300 赞、1.7 万次浏览，引发“价格战取代榜单战”的讨论。"
         }
       ]
     }

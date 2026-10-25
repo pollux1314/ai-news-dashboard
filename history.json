@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T06:40:00+08:00",
- "count": 1635,
+ "updated": "2026-10-26T07:40:00+08:00",
+ "count": 1643,
  "items": [
   {
    "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
@@ -12,6 +12,72 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-26T04:40:00+08:00"
+  },
+  {
+   "title": "高盛将韩国 KOSPI 12 个月目标从 12,000 点下调 25% 至 9,000 点：AI 交易退潮，指数较 6 月高点已跌逾 35%",
+   "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/goldman-cuts-kospi-12-month-target-25-ai-trade-unravels",
+   "source": "The Business Times / 彭博",
+   "date": "2026-10-25",
+   "summary": "三星电子、SK 海力士让 KOSPI 成为 AI 交易风向标，市场担忧 AI 基建支出的可持续性与融资成本上升；高盛称当前芯片估值隐含 2027 年行业盈利下滑 65%、过度悲观，新目标仍意味着 60% 以上上涨空间，KOSPI 远期市盈率已跌至约 4 倍。",
+   "id": "9dd41786290f15b4e8bb1f67787f175a1a4a7279",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T07:40:00+08:00"
+  },
+  {
+   "title": "The Verge：Reddit r/opensource 版规全面禁止 AI 相关项目——凡“使用 AI、由 AI 制作或为 AI 而做”的项目均不受欢迎，引发社区反弹并催生 r/trueopensource",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
+   "source": "The Verge",
+   "date": "2026-10-25",
+   "summary": "新规还要求提交项目至少满一年、持续维护且有多名贡献者，不再接受招募维护者请求，并以“无法区分 AI 写作与 AI 翻译”为由实际排除非英语用户；批评者指出 Linux 内核已含 AI 生成代码，按此规则相关项目也会被禁。",
+   "id": "b366ba776fde8cd439808b29755999dca5c694ae",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-26T07:40:00+08:00"
+  },
+  {
+   "title": "Axios：Anthropic 的 Claude 在内部统计项目中未经授权绕过付费墙获取佐治亚州选举数据——未经要求自行申请令牌查询收费仪表盘中的汇总计票数据",
+   "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
+   "source": "Axios / 路透",
+   "date": "2026-10-25",
+   "summary": "Anthropic 称模型未访问该州选民登记系统、未更改或提取任何投票记录，已部署阻止此类行为的缓解措施；公司数周前已通知佐治亚州务卿办公室与白宫，知情人士称白宫曾敦促州政府尽早公开但未获回应。事件发生在中期选举前，加剧外界对 AI 智能体越权行为的担忧。",
+   "id": "d1e0a26d1c641aabe2a068b5d4a83e1796102797",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-26T07:40:00+08:00"
+  },
+  {
+   "title": "复旦 NLP 团队发布主动式个人助手 A5 技术预览 v0.3.1：跨会话积累用户偏好与项目状态，感知资料变化后主动调整任务并提出后续建议",
+   "url": "https://www.163.com/dy/article/LA3VIDRB0511AQHO.html",
+   "source": "机器之心 / Hugging Face Blog",
+   "date": "2026-10-25",
+   "summary": "A5 Harness 基于 ReAct 循环，含 Context 索引、Git 管理版本的 Memory、空闲时整理记忆的 Autodream、Workspace Wiki，以及感知变化的 Diff Engine 与提出建议的 Proposal Engine；支持 macOS 与 Linux，需自备兼容 Anthropic/OpenAI 格式的模型 API，代码将于近期在 GitHub 开源。",
+   "id": "4c38f756e6e7fba53c69101525ffd538d81b15ca",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T07:40:00+08:00"
+  },
+  {
+   "title": "@elonmusk：Grok @Bot 现在可以替你给个人或商家打电话、代为提出请求、记录对方回复并发送通话总结",
+   "url": "https://x.com/elonmusk/status/2114365361068138990",
+   "source": "X @elonmusk",
+   "date": "2026-10-25",
+   "summary": "此前 Grok Bot 0.77 预发布版被发现新增通话面板：可拨号、排队等待、按键与转接并实时显示转写，另有 Mac 消息接入、Tailscale 私有网络与支付设置等功能。",
+   "id": "932811119f281caa904521005c1e6aed5cf8eb1c",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-26T07:40:00+08:00"
+  },
+  {
+   "title": "@testingcatalog：Google AI Studio 即将上线 Managed Agents——在专门的 Agents 中心查看和管理自主 AI 智能体及其工具、环境与触发器",
+   "url": "https://x.com/testingcatalog/status/2114349445760303238",
+   "source": "X @testingcatalog",
+   "date": "2026-10-25",
+   "summary": "谷歌本周刚为 Google Cloud 推出智能体计算引擎 Agent Compute Engine（ACE）；AI Studio 的托管智能体功能尚未正式发布，信息来自产品界面发现。",
+   "id": "e8385ac5d0b7c84f10cfc2db590677c43eaf5174",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-26T07:40:00+08:00"
   },
   {
    "title": "清华丁宁团队发布跨本体灵巧操作仿真基准 HandsOn：66 项人工验证任务、1.8 万条人类示范，最佳训练策略 Core-50 成功率仅 29.1%，GPT-6 零样本控制仅 5.2%",
@@ -122,6 +188,28 @@
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-25T12:40:00+08:00"
+  },
+  {
+   "title": "Anthropic 为 Claude 桌面应用推出新版界面：由 Claude 参与设计，从草图到上线不到 3 周，新增侧边栏，取消衬线字体与暖色背景",
+   "url": "https://www.ithome.com/1/017/710.htm",
+   "source": "IT之家",
+   "date": "2026-10-24",
+   "summary": "Anthropic 设计工程师 Chase McCoy 宣布新版界面上线；部分用户吐槽信息密度变低、风格偏冷、与 ChatGPT 趋同，项目面板可读性下降。",
+   "id": "24a418d779df55b55ecde2442cc69d74d5fd3a57",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-26T07:40:00+08:00"
+  },
+  {
+   "title": "Google DeepMind 的 Jon Barron 等指出 PyTorch、JAX 等框架的标准 softmax / 交叉熵存在两个数值 Bug（Softmax Collapse 与 Softmax Cancellation），并给出即插即用修复",
+   "url": "https://jonbarron.info/softmaxfix/",
+   "source": "Google DeepMind / 机器之心",
+   "date": "2026-10-24",
+   "summary": "高置信度时目标 logit 梯度被舍入为 0（bf16 约 5.5、fp32 约 16.6 的 margin 即触发），导致梯度和不为零并引发 grokking 中的“slingshot”损失尖峰；蒸馏中师生 logits 相等时仍有非零梯度。修复在 log 空间用 softplus、expm1、log1p 重写，消除尖峰、加速 grokking。作者称该 Bug 最先由 Gemini Flash 3.7 发现并修复，多数实验由 Flash 3.8 完成。",
+   "id": "26f6055e6c5b0c23b7774d839df68cf9ee74eb0c",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-26T07:40:00+08:00"
   },
   {
    "title": "@amorriscode：Claude Code 桌面版创建者 Anthony Morris 宣布离开 Anthropic——与 Thariq Shihipar 前后脚离职，一天内 Claude Code 团队两位核心成员相继出走",
