@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-25T11:40:00+08:00",
+  "updated": "2026-10-25T12:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "IBM Research（ISWC 2026）：用知识图谱承载智能体的对话记忆，结合命令式与生成式计算，让回答透明、可溯源且更确定",
+          "url": "https://research.ibm.com/publications/transparent-traceable-deterministic-agentic-memory-via-knowledge-graphs",
+          "source": "IBM Research",
+          "date": "2026-10-25",
+          "summary": "论文聚焦智能体在对话中积累的用户知识如何结构化、更新、追溯来源并在推理时使用；方案已完整实现、在 IBM 内部企业场景试点，并已开源。"
+        },
+        {
           "title": "山东大学研究：编程智能体的 Harness 几乎不影响通过率，却能让同模型同任务的单任务成本相差最多 3 倍",
           "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
           "source": "The Decoder / arXiv 2610.04433",
@@ -181,13 +188,6 @@
           "source": "arXiv",
           "date": "2026-10-23",
           "summary": "覆盖 6 类任务，单样本折叠 TM-score 超过 0.8，相当于现有模型采样 200 次的效果。"
-        },
-        {
-          "title": "arXiv：字节 Seed 等提出 Cola2——连续语义压缩 + 离散生成的分层语言模型，未收敛检查点在 HellaSwag、StoryCloze 上超过 Llama-3-8B",
-          "url": "https://arxiv.org/abs/2610.31305",
-          "source": "arXiv / Hugging Face Papers",
-          "date": "2026-10-22",
-          "summary": "把文本动态切分成语义片段并压缩为连续潜变量，再用块因果掩码扩散解码器生成文本，以无辅助损失的负反馈控制压缩率；约 2100 亿 token 训练验证扩展性未饱和，3460 亿源 token 的未收敛模型 8 项任务均分 60.10，而 Llama-3-8B 报告的预训练预算是其 43 倍以上。"
         }
       ]
     },
@@ -202,6 +202,13 @@
           "source": "Pandaily / GitHub StartLuxLabs",
           "date": "2026-10-24",
           "summary": "代码 10 月 22 日在 GitHub（StartLuxLabs/StartLux-Prism）开源，面向 StartLux-Decision 决策模型。官方实测：单个短问题 19ms（原 53.1ms），同一材料三问最高提速 5.3 倍；JevBench 231 题平均 41ms，对比 SGLang 75.6ms、vLLM 112.7ms；int8 版准确率 92.94%，与 BF16 的 92.97% 基本持平，16.55GB 压缩版可跑在单张 32GB RTX 5090 上。数据均为厂商自测。"
+        },
+        {
+          "title": "英伟达发布 RTX Remix 1.6：用 ComfyUI 集成 2.0 取代旧版 AI Tools 生成纹理与网格，新增无界面 Toolkit 与模组智能体技能，并推出《我的世界》Java 版 Beta 模组",
+          "url": "https://docs.omniverse.nvidia.com/kit/docs/rtx_remix/latest/docs/changelog/remix-releasenotes.html",
+          "source": "NVIDIA RTX Remix 发布说明",
+          "date": "2026-10-23",
+          "summary": "渲染侧加入 DLSS 3D 引导神经渲染与多帧生成、原生支持 Windows on ARM；MCP 服务改为默认 Streamable HTTP（http://127.0.0.1:18014/mcp），原 SSE 端点的客户端配置需迁移；GitHub 发行包版本为 1.6.1。"
         },
         {
           "title": "AWS 与 UC Berkeley 开源智能体运行时 Infinity（Apache 2.0，Rust）：工具调用时挂起智能体、结果到达再恢复，8GB 树莓派 5 可容纳约 7.5 万个并发智能体",
@@ -244,13 +251,6 @@
           "source": "Muse Spark Open Kernel Challenge",
           "date": "2026-10-23",
           "summary": "内核赛 10 月 22 日至 11 月 4 日（太平洋时间），在 H200 上与 SGLang 内核同条件对比，题目含 MoE W4A16、注意力解码、BF16 投影等；11 月 5–19 日为服务赛，在 8×H200 节点上修改 SGLang 服务多轮智能体编码负载。第一名 5 万美元加签名 H200，优胜者或获 Meta 面试机会。"
-        },
-        {
-          "title": "Anthropic 发布智能体构建指南：建议把多余子智能体“折叠”回主智能体循环，用按需加载的 Skills 与工具搜索替代路由/规划/领域子智能体，并开源迁移工具包 single-agent-loop-kit",
-          "url": "https://claude.com/resources/articles/building-agents-when-to-fold-subagents-into-your-main-agent-loop",
-          "source": "Claude by Anthropic",
-          "date": "2026-10-22",
-          "summary": "Anthropic 应用 AI 团队称在多个企业部署对比中，“单智能体 + Skills”在质量上常优于单一大提示词和子智能体设计，成本与延迟更低，一家客户运行时间约快 2 倍；子智能体仍适用于上下文膨胀、需并行的独立任务或工具选择困难等场景。迁移工具包（GitHub anthropics/single-agent-loop-kit，Apache-2.0）串联 build-eval、prompt-audit、hillclimb、cost-optimize 等 Claude API 技能；该文 10 月 24 日在 X 上广泛传播。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@theinformation：Datadog 对云安全初创公司 Upwind 近 40 亿美元的报价，相当于其年经常性收入约 80 倍，凸显 AI 相关网络安全工具的火热需求",
+          "url": "https://x.com/theinformation/status/2114069452874518712",
+          "source": "X @theinformation",
+          "date": "2026-10-24",
+          "summary": "同一时段 The Information 还发帖称 Thoma Bravo 计划在一年内再做一笔与其 63 亿美元收购 Varonis 规模相当的网络安全交易，押注 AI 安全需求上升。"
+        },
+        {
           "title": "@0x0SojalSec：Claude 似乎不再能“逆向一切”（REA）——在多起用 Claude 逆向三星电视固件、揪出数据采集服务的案例走红后，Anthropic 疑似悄悄收紧逆向工程相关请求",
           "url": "https://x.com/0x0SojalSec/status/2113751276320399694",
           "source": "X @0x0SojalSec",
@@ -496,13 +503,6 @@
           "source": "X @TechCrunch",
           "date": "2026-10-24",
           "summary": "TechCrunch 转发其关于 Convovo 研究的报道：在被要求只推荐一名候选人时，两款模型的党派倾向截然相反。"
-        },
-        {
-          "title": "@CNBC：英伟达作为 AI 融资方的角色在新云股遭重挫之际迎来首次大考",
-          "url": "https://x.com/CNBC/status/2113950151492485305",
-          "source": "X @CNBC",
-          "date": "2026-10-24",
-          "summary": "链接 CNBC 报道：英伟达从卖芯片转向为模型公司、数据中心和新云提供投资与担保，CoreWeave 等新云股价与债券同步承压，投资者担忧其承担的 AI 基建风险过大。"
         }
       ]
     }
