@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-26T16:35:00+08:00",
- "count": 1663,
+ "updated": "2026-10-26T17:35:00+08:00",
+ "count": 1664,
  "items": [
+  {
+   "title": "字节即梦 AI 正式上线“短剧工作室”：提供自研剧本模型 DreamScript、图片模型 Anycook 与分镜模型 DreamShot，一站式覆盖剧本到成片",
+   "url": "https://www.yicai.com/news/103409213.html",
+   "source": "第一财经",
+   "date": "2026-10-26",
+   "summary": "整合剧本整理、角色与场景管理、分镜生成、视频制作及后期调整全流程，部分功能来自此前并入即梦的小云雀短剧 Agent 并做了升级。",
+   "id": "c3d4c843e0b0f15407f799129ddaac64541b6026",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T17:35:00+08:00"
+  },
   {
    "title": "利默里克大学 189 人实验：知识工作者更信任拟人形象 AI 智能体，但女性形象“Johanna”获分配的“薪酬”显著低于男性“Johan”",
    "url": "https://www.ithome.com/1/017/937.htm",

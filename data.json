@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T16:35:00+08:00",
+  "updated": "2026-10-26T17:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "字节即梦 AI 正式上线“短剧工作室”：提供自研剧本模型 DreamScript、图片模型 Anycook 与分镜模型 DreamShot，一站式覆盖剧本到成片",
+          "url": "https://www.yicai.com/news/103409213.html",
+          "source": "第一财经",
+          "date": "2026-10-26",
+          "summary": "整合剧本整理、角色与场景管理、分镜生成、视频制作及后期调整全流程，部分功能来自此前并入即梦的小云雀短剧 Agent 并做了升级。"
+        },
+        {
           "title": "智元发布安规级重载具身机器人精灵 G2 Max：单臂负载 20kg、双臂额定 40kg（峰值 50kg），已在多条产线运行",
           "url": "https://www.ithome.com/1/017/951.htm",
           "source": "IT之家",
@@ -370,13 +377,6 @@
           "source": "机器之心 / Hugging Face Blog",
           "date": "2026-10-25",
           "summary": "A5 Harness 基于 ReAct 循环，含 Context 索引、Git 管理版本的 Memory、空闲时整理记忆的 Autodream、Workspace Wiki，以及感知变化的 Diff Engine 与提出建议的 Proposal Engine；支持 macOS 与 Linux，需自备兼容 Anthropic/OpenAI 格式的模型 API，代码将于近期在 GitHub 开源。"
-        },
-        {
-          "title": "阿里 AI 智能体“千问 Go！”上线“我的应用”：一句话无代码搭建可分享、可持续更新数据的专属应用，接入阿里云 Meoo（秒悟）自动完成建库与部署",
-          "url": "https://www.ithome.com/1/017/625.htm",
-          "source": "IT之家",
-          "date": "2026-10-25",
-          "summary": "结合千问 Go 云端 Pro 能力，授权后可调用用户在淘宝、高德、大麦、夸克网盘等平台的个人数据生成个性化工具（如把大麦历史订单做成电子票根册）；“我的应用”与可操作云手机、云电脑的云端 Pro 目前均为邀测。"
         }
       ]
     },
