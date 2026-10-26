@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-26T09:30:00+08:00",
- "count": 1646,
+ "updated": "2026-10-26T10:40:00+08:00",
+ "count": 1649,
  "items": [
+  {
+   "title": "黄仁勋提出英伟达 AI 智能体全套软件授权费约每块 GPU 每年 2,000 美元：英伟达押注软件订阅收入，但未说明适用范围及与 AI Enterprise（每 GPU 每年 4,500 美元）的关系",
+   "url": "https://www.ithome.com/1/017/764.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "黄仁勋 10 月 22 日在柏林 GTC 谈及该定价，称软件授权将成为重要业务；按 500 万块 GPU 测算年入约 100 亿美元，但英伟达未确认是否为统一标准价。",
+   "id": "e6cc85303c3cf6627045eed6ed1a683abe760109",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T10:40:00+08:00"
+  },
+  {
+   "title": "@theo：Gemini 在智能体任务中的幻觉率“超现实”——一次运行中凭空引用 72 行文件的第 173 行、编造 IP 地址、脚本参数和函数导出，称其在超 80% 的评审运行中出现幻觉",
+   "url": "https://x.com/theo/status/2114483219538296946",
+   "source": "X",
+   "date": "2026-10-26",
+   "summary": "t3.gg 创始人 Theo 称 Gemini 是技术栈中的“隐患”；多位开发者附和，Google DeepMind 工程师请他提供提示词与提交记录以便排查。",
+   "id": "f7d96922abbecbc0723b4ee4f918938a11fe522d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-26T10:40:00+08:00"
+  },
   {
    "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
    "url": "https://x.com/Kimi_Moonshot/status/2114450610724708492",
@@ -12,6 +34,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-26T04:40:00+08:00"
+  },
+  {
+   "title": "Nanbeige 开源 Nanbeige4.3-33B：33B 稠密 Apache 2.0 智能体编程模型，Terminal-Bench 2.1 得 80.9（Qwen3.8-27B 为 73.0），DeepSWE 65.5，将作为教师模型蒸馏 Nanbeige4.3-3B",
+   "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+   "source": "Hugging Face",
+   "date": "2026-10-25",
+   "summary": "官方自报成绩，与 Qwen3.8-27B、Muse-Glimmer-30B、Gemma4-31B 对比，在多数智能体编程与办公基准领先，但 SWE-Bench Pro、GDPval 略逊 Qwen3.8-27B。",
+   "id": "7deb0a380978d16fbf3a3fc4a69b89bcb42e1e6c",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-26T10:40:00+08:00"
   },
   {
    "title": "无问芯穹与三体宇宙联合发布“智子 Agent 1.0”：以《三体》中 637 号小宇宙管理员智子为原型的角色智能体，支持多轮对话、世界观知识调用与跨会话记忆",

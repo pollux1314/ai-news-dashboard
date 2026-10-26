@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T09:30:00+08:00",
+  "updated": "2026-10-26T10:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "黄仁勋提出英伟达 AI 智能体全套软件授权费约每块 GPU 每年 2,000 美元：英伟达押注软件订阅收入，但未说明适用范围及与 AI Enterprise（每 GPU 每年 4,500 美元）的关系",
+          "url": "https://www.ithome.com/1/017/764.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "黄仁勋 10 月 22 日在柏林 GTC 谈及该定价，称软件授权将成为重要业务；按 500 万块 GPU 测算年入约 100 亿美元，但英伟达未确认是否为统一标准价。"
+        },
+        {
           "title": "高盛将韩国 KOSPI 12 个月目标从 12,000 点下调 25% 至 9,000 点：AI 交易退潮，指数较 6 月高点已跌逾 35%",
           "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/goldman-cuts-kospi-12-month-target-25-ai-trade-unravels",
           "source": "The Business Times / 彭博",
@@ -118,13 +125,6 @@
           "source": "Apollo The Daily Spark",
           "date": "2026-10-24",
           "summary": "Slok 在 10 月 24 日的报告中称，缺乏利润回报的主流企业正在收缩，开始把 token 支出视为拖累利润率的成本中心而非增长来源；token 支出增长主要集中在风投支持的公司，主流企业“不需要最新模型、也不愿为其付费”。他认为 AI 的成败将取决于标普 493 而非七巨头；数据来源包括彭博、旧金山联储 TFP 与 Ramp AI Index。"
-        },
-        {
-          "title": "CNBC：英伟达“AI 金主”角色迎来首次大考——新云股本月普跌逾 30%，其表外 AI 云担保约 360 亿美元，另为 OpenAI 俄亥俄园区提供最高 1050 亿美元担保",
-          "url": "https://www.cnbc.com/2026/10/24/nvidias-role-as-ai-financier-faces-first-big-test-as-neoclouds-take-market-hit.html",
-          "source": "CNBC",
-          "date": "2026-10-24",
-          "summary": "CoreWeave、Nebius、IREN 10 月跌幅均超 30%，CoreWeave CDS 利差突破 11%；英伟达 8 月财报列示逾 5000 亿美元表外承诺，并向资管机构提供最高 1250 亿美元 GPU 融资残值担保，New Constructs 估算其表外负债净现值超 1530 亿美元。英伟达股价 10 月累跌 7.6%，黄仁勋仍称新云需求“爆表”，缺的是营运资金；英伟达拒绝置评。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "Nanbeige 开源 Nanbeige4.3-33B：33B 稠密 Apache 2.0 智能体编程模型，Terminal-Bench 2.1 得 80.9（Qwen3.8-27B 为 73.0），DeepSWE 65.5，将作为教师模型蒸馏 Nanbeige4.3-3B",
+          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+          "source": "Hugging Face",
+          "date": "2026-10-25",
+          "summary": "官方自报成绩，与 Qwen3.8-27B、Muse-Glimmer-30B、Gemma4-31B 对比，在多数智能体编程与办公基准领先，但 SWE-Bench Pro、GDPval 略逊 Qwen3.8-27B。"
+        },
+        {
           "title": "The Verge：Reddit r/opensource 版规全面禁止 AI 相关项目——凡“使用 AI、由 AI 制作或为 AI 而做”的项目均不受欢迎，引发社区反弹并催生 r/trueopensource",
           "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
           "source": "The Verge",
@@ -244,13 +251,6 @@
           "source": "NVIDIA RTX Remix 发布说明",
           "date": "2026-10-23",
           "summary": "渲染侧加入 DLSS 3D 引导神经渲染与多帧生成、原生支持 Windows on ARM；MCP 服务改为默认 Streamable HTTP（http://127.0.0.1:18014/mcp），原 SSE 端点的客户端配置需迁移；GitHub 发行包版本为 1.6.1。"
-        },
-        {
-          "title": "AWS 与 UC Berkeley 开源智能体运行时 Infinity（Apache 2.0，Rust）：工具调用时挂起智能体、结果到达再恢复，8GB 树莓派 5 可容纳约 7.5 万个并发智能体",
-          "url": "https://aws.amazon.com/blogs/opensource/introducing-infinity-a-runtime-for-extreme-agent-concurrency/",
-          "source": "AWS Open Source Blog",
-          "date": "2026-10-23",
-          "summary": "Infinity 属于 Hydro 项目，借鉴无栈协程把每次工具调用当作 await 点：保存对话后挂起，空闲智能体不占任务、栈或连接，约 100KB/个；可在 Lambda+SQS+Aurora DSQL 等无服务器平台上缩容到零，并用“合成工具调用”投递异步事件、实现智能体间通信。目前为早期研究版本。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@theo：Gemini 在智能体任务中的幻觉率“超现实”——一次运行中凭空引用 72 行文件的第 173 行、编造 IP 地址、脚本参数和函数导出，称其在超 80% 的评审运行中出现幻觉",
+          "url": "https://x.com/theo/status/2114483219538296946",
+          "source": "X",
+          "date": "2026-10-26",
+          "summary": "t3.gg 创始人 Theo 称 Gemini 是技术栈中的“隐患”；多位开发者附和，Google DeepMind 工程师请他提供提示词与提交记录以便排查。"
+        },
+        {
           "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
           "url": "https://x.com/Kimi_Moonshot/status/2114450610724708492",
           "source": "X @Kimi_Moonshot",
@@ -496,13 +503,6 @@
           "source": "X @theinformation",
           "date": "2026-10-24",
           "summary": "同一时段 The Information 还发帖称 Thoma Bravo 计划在一年内再做一笔与其 63 亿美元收购 Varonis 规模相当的网络安全交易，押注 AI 安全需求上升。"
-        },
-        {
-          "title": "@0x0SojalSec：Claude 似乎不再能“逆向一切”（REA）——在多起用 Claude 逆向三星电视固件、揪出数据采集服务的案例走红后，Anthropic 疑似悄悄收紧逆向工程相关请求",
-          "url": "https://x.com/0x0SojalSec/status/2113751276320399694",
-          "source": "X @0x0SojalSec",
-          "date": "2026-10-24",
-          "summary": "该帖浏览约 77 万、获 1.1 万+ 赞；用户反馈 REA（开源逆向工程 MCP 工具）相关任务频繁在回答中途触发安全拦截，作者随后又称 OpenAI 也封禁了逆向自家三星电视的用户。Anthropic 尚未就是否刻意调整作出确认。"
         }
       ]
     }
