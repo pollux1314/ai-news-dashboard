@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T10:40:00+08:00",
+  "updated": "2026-10-26T11:35:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "HTC 公布口袋 AI 互动伴侣 VIVEE：抚摸、拍打、转动都会互动回应，可聊天、玩游戏并逐渐养成个性，预售价 99.99 美元",
+          "url": "https://www.ithome.com/1/017/794.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "60×60×50mm、114g，配 OLED 屏、全天续航、IPX4 防水，麦克风与扬声器带硬件开关；HTC 承诺用户个人信息不会用于训练 AI 模型。"
+        },
         {
           "title": "Anthropic 为 Claude 桌面应用推出新版界面：由 Claude 参与设计，从草图到上线不到 3 周，新增侧边栏，取消衬线字体与暖色背景",
           "url": "https://www.ithome.com/1/017/710.htm",
@@ -55,13 +62,6 @@
           "source": "Kimi 官方博客",
           "date": "2026-10-23",
           "summary": "K3.1 Pro 在 Terminal-Bench 4.0 得分 65.7%（GPT-6 Astra 58.2%、Claude Opus 5.5 66.4%），BenchCAD 工具版 92.7%，断言级幻觉率由 23.4% 降至 8.3%；已上线 Kimi.ai、Kimi Work、Kimi Code 与 API（kimi-k3.1-pro 及快 2–3 倍的 highspeed 版）。开源版移除了网络攻防数据（xdev-bench-hard 81.0% vs 未移除 90.5%）。"
-        },
-        {
-          "title": "Meta 个人 AI 智能体 Muse 登陆日本：北美以外首个市场，iOS/Android 与 muse.ai 同步上线，基础功能免费、订阅 2,799 日元/月起",
-          "url": "https://about.fb.com/ja/news/2026/10/muse-personal-ai-agent-launches-in-japan/",
-          "source": "Meta Newsroom",
-          "date": "2026-10-23",
-          "summary": "Meta 宣布 Muse 在日本正式上线，这是其首次进入北美以外市场；计划接入 Mercari、Money Forward ME、チケットぴあ 等本地服务。每位用户的 Muse 运行在独立的 Muse Secure VM 中，由 Sentinel 智能体监督，发送邮件、购买等操作前会先征得用户确认。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@elonmusk：过去几周债务市场几乎已对所有缺乏独立于 AI 数据中心之外可观收入的公司关闭融资通道；SpaceX 已为 GPU 完成 400 亿美元债务融资，因其拥有投资级评级及星链与发射业务",
+          "url": "https://x.com/elonmusk/status/2114434646914068862",
+          "source": "X",
+          "date": "2026-10-26",
+          "summary": "回复 Chamath 的帖子，超 700 万次浏览、2.9 万赞；此前彭博称 SpaceX 这笔 400 亿美元表外 AI 债务融资受市场动荡拖累。"
+        },
+        {
           "title": "@theo：Gemini 在智能体任务中的幻觉率“超现实”——一次运行中凭空引用 72 行文件的第 173 行、编造 IP 地址、脚本参数和函数导出，称其在超 80% 的评审运行中出现幻觉",
           "url": "https://x.com/theo/status/2114483219538296946",
           "source": "X",
@@ -496,13 +503,6 @@
           "source": "X @trq212",
           "date": "2026-10-24",
           "summary": "Thariq 表示仍深爱 Anthropic、认同其使命与“向上竞争”的理念，离职后打算先休息；该帖已获约 2.9 万赞、480 万次浏览，众多开发者与业内人士留言致谢。"
-        },
-        {
-          "title": "@theinformation：Datadog 对云安全初创公司 Upwind 近 40 亿美元的报价，相当于其年经常性收入约 80 倍，凸显 AI 相关网络安全工具的火热需求",
-          "url": "https://x.com/theinformation/status/2114069452874518712",
-          "source": "X @theinformation",
-          "date": "2026-10-24",
-          "summary": "同一时段 The Information 还发帖称 Thoma Bravo 计划在一年内再做一笔与其 63 亿美元收购 Varonis 规模相当的网络安全交易，押注 AI 安全需求上升。"
         }
       ]
     }
