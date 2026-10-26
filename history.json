@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-26T17:35:00+08:00",
- "count": 1664,
+ "updated": "2026-10-26T18:40:00+08:00",
+ "count": 1666,
  "items": [
+  {
+   "title": "SWI Group 旗下 SWI Compute 结束隐身：手握欧美 3.6GW 电力容量、已订购约 10 亿美元英伟达系统，首座英国剑桥 AI 工厂一期 30MW、近 7000 颗 Rubin GPU",
+   "url": "https://www.prnewswire.com/news-releases/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe-302918810.html",
+   "source": "PR Newswire",
+   "date": "2026-10-26",
+   "summary": "剑桥园区规划扩至 530MW，目标 2029 年在欧洲建成 2.3GW 英伟达 AI 工厂容量，预计 2027 年底上线；首个客户为一家美国 AI 推理平台。",
+   "id": "6b054b3fd2114a90fdb70104cbf38b59e911453b",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T18:40:00+08:00"
+  },
+  {
+   "title": "Counterpoint：预计 2030 年全球人形机器人 AI 加速器累计出货破 100 万台、2026–2030 年 CAGR 达 144%，英伟达主导 GPU 市场，高通、特斯拉、小鹏等 ASIC 阵营崛起",
+   "url": "https://www.ithome.com/0/018/075.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "英伟达与智元、宇树、优必选、Figure 等深度合作；高通已与 Neura、Figure 等达成设计合作；地瓜机器人 RDK S100 强化国产算力生态。",
+   "id": "d012c858644d137b11f05ae264d708e3406928da",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T18:40:00+08:00"
+  },
   {
    "title": "字节即梦 AI 正式上线“短剧工作室”：提供自研剧本模型 DreamScript、图片模型 Anycook 与分镜模型 DreamShot，一站式覆盖剧本到成片",
    "url": "https://www.yicai.com/news/103409213.html",

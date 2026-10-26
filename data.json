@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T17:35:00+08:00",
+  "updated": "2026-10-26T18:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "SWI Group 旗下 SWI Compute 结束隐身：手握欧美 3.6GW 电力容量、已订购约 10 亿美元英伟达系统，首座英国剑桥 AI 工厂一期 30MW、近 7000 颗 Rubin GPU",
+          "url": "https://www.prnewswire.com/news-releases/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe-302918810.html",
+          "source": "PR Newswire",
+          "date": "2026-10-26",
+          "summary": "剑桥园区规划扩至 530MW，目标 2029 年在欧洲建成 2.3GW 英伟达 AI 工厂容量，预计 2027 年底上线；首个客户为一家美国 AI 推理平台。"
+        },
+        {
+          "title": "Counterpoint：预计 2030 年全球人形机器人 AI 加速器累计出货破 100 万台、2026–2030 年 CAGR 达 144%，英伟达主导 GPU 市场，高通、特斯拉、小鹏等 ASIC 阵营崛起",
+          "url": "https://www.ithome.com/0/018/075.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "英伟达与智元、宇树、优必选、Figure 等深度合作；高通已与 Neura、Figure 等达成设计合作；地瓜机器人 RDK S100 强化国产算力生态。"
+        },
+        {
           "title": "AI 推理服务商趋境科技（Approaching.AI）完成超 13 亿元 B 轮融资，年内累计募资 24 亿元，称多项核心经营指标半年内增长超十倍",
           "url": "https://www.qbitai.com/2026/10/505429.html",
           "source": "量子位",
@@ -111,20 +125,6 @@
           "source": "The Business Times / 彭博",
           "date": "2026-10-25",
           "summary": "三星电子、SK 海力士让 KOSPI 成为 AI 交易风向标，市场担忧 AI 基建支出的可持续性与融资成本上升；高盛称当前芯片估值隐含 2027 年行业盈利下滑 65%、过度悲观，新目标仍意味着 60% 以上上涨空间，KOSPI 远期市盈率已跌至约 4 倍。"
-        },
-        {
-          "title": "国际电信联盟副秘书长 Lamanauskas：AI 正形成“机会鸿沟”，非洲与拉美合计仅占全球数据中心容量 3.3%，到 2030 年弥合数字基础设施缺口需约 2.8 万亿美元投资",
-          "url": "https://www.aljazeera.com/news/2026/10/25/ais-opportunity-divide-could-deepen-global-inequality-un-official-warns",
-          "source": "Al Jazeera",
-          "date": "2026-10-25",
-          "summary": "他在多哈 UNCTAD 世界投资论坛间隙接受采访称，发达国家约 29% 的劳动年龄人口使用生成式 AI，发展中国家仅 16%；全球仍有 22 亿人无法上网，AI 鸿沟可能加深各国社会经济不平等。"
-        },
-        {
-          "title": "马来西亚总理安瓦尔：软银孙正义选定砂拉越古晋与马来半岛，计划投入 500 亿美元用于 AI、新技术与数据中心项目，为区域内最大投资之一",
-          "url": "https://www.businesstimes.com.sg/international/softbanks-son-plans-us50-billion-malaysia-tech-outlay-anwar-ibrahim",
-          "source": "Bloomberg / The Business Times",
-          "date": "2026-10-25",
-          "summary": "安瓦尔 10 月 24 日在马六甲演讲中透露，周二与孙正义视频会议时获悉该计划；未披露具体项目与时间表，软银暂未回应。软银本月已与合作方签署框架协议，探索在砂拉越发展 AI 基础设施；马来西亚 2021 年至 2026 上半年已吸引约 940 亿美元数据中心相关投资。"
         }
       ]
     },
