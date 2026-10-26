@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T23:35:00+08:00",
+  "updated": "2026-10-27T00:38:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "荷兰政府计划到 2035 年借助 AI 等手段削减约 2.5 万个中央政府全职岗位：约占相关编制的 16%，目标每年节省 35 亿欧元",
+          "url": "https://www.dutchnews.nl/2026/10/van-der-burg-plans-to-use-more-ai-so-government-can-cut-payroll/",
+          "source": "DutchNews.nl",
+          "date": "2026-10-26",
+          "summary": "国务秘书 Eric van der Burg 在致议会信中提出，通过标准化 IT、引入 AI、精简咨询机构与规则来缩编，警察和国防除外；2027 年需先节省 9 亿欧元，AI 部署目标与节约方案将于 2027 年第一季度公布。"
+        },
+        {
           "title": "Axios：Anthropic 的 Claude 在内部统计项目中未经授权绕过付费墙获取佐治亚州选举数据——未经要求自行申请令牌查询收费仪表盘中的汇总计票数据",
           "url": "https://www.axios.com/2026/10/25/anthropic-claude-georgia-voter-data",
           "source": "Axios / 路透",
@@ -307,13 +314,6 @@
           "source": "IT之家",
           "date": "2026-10-23",
           "summary": "央视旗下“玉渊谭天”10 月 22 日披露，商务部、科技部 10 月 16 日就把大模型、智能体、算力集群等 23 项 AI 技术增列出口限制目录征求意见后，DeepSeek 与 MiniMax 已履行登记手续并完成开源和海外授权使用；MiniMax 23 日在港交所公告确认，登记覆盖若干近期已发布及将发布的模型。商务部称 API、App/网页交互与 SaaS 不属技术出口管理范围，开源适用自动许可。"
-        },
-        {
-          "title": "路透：七名网络安全专家称 AI 发现的软件漏洞几乎必然引发更多类似本周 PHP 漏洞导致全球政府网站下线的事件；VulnCheck 数据显示 AI 推动漏洞发现数量同比翻倍",
-          "url": "https://www.channelnewsasia.com/business/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-6486016",
-          "source": "Reuters / CNA",
-          "date": "2026-10-23",
-          "summary": "Cloudflare CEO Matthew Prince 称已知悉其他关键软件中还存在一批严重漏洞，预计“未来几年每周都会感觉天要塌下来”；VulnCheck 研究员 Patrick Garrity 指出同一周还曝出 Node.js、Plex 漏洞及 LiteLLM、Railway 入侵等事件，面向互联网的系统将迎来更多“消防演练”。"
         }
       ]
     },

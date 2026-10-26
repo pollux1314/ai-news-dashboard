@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-26T23:35:00+08:00",
- "count": 1675,
+ "updated": "2026-10-27T00:38:00+08:00",
+ "count": 1676,
  "items": [
+  {
+   "title": "荷兰政府计划到 2035 年借助 AI 等手段削减约 2.5 万个中央政府全职岗位：约占相关编制的 16%，目标每年节省 35 亿欧元",
+   "url": "https://www.dutchnews.nl/2026/10/van-der-burg-plans-to-use-more-ai-so-government-can-cut-payroll/",
+   "source": "DutchNews.nl",
+   "date": "2026-10-26",
+   "summary": "国务秘书 Eric van der Burg 在致议会信中提出，通过标准化 IT、引入 AI、精简咨询机构与规则来缩编，警察和国防除外；2027 年需先节省 9 亿欧元，AI 部署目标与节约方案将于 2027 年第一季度公布。",
+   "id": "8a346be2fe7ae823ea18f46a8b0df24fe71f6f1f",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T00:38:00+08:00"
+  },
   {
    "title": "量子位：拿不出模型的 Neolab 开始转售 GPU——Dealroom 统计全球 29 家典型 AI 新兴实验室累计融资 230 亿美元，推出商业化产品的不到 35%",
    "url": "https://www.qbitai.com/2026/10/505478.html",
