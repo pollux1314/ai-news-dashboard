@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T21:40:00+08:00",
+  "updated": "2026-10-26T22:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "腾讯混元开源同声传译大模型 Hy-SimulMT：中英语音到语音边听边译、支持实时音色克隆，实测响应约 3 秒（人类专业译员平均 4–5 秒）",
+          "url": "https://www.ithome.com/1/018/168.htm",
+          "source": "IT之家 / Tencent-Hunyuan GitHub",
+          "date": "2026-10-26",
+          "summary": "官方称在长音频评测集 RealSI 上以最低延迟取得开源同传模型最佳效果、超过多数商用同传 API；在与 6 位 CATTI 一/二级同传专家的对比中翻译质量得分更高、时延更低。已在 GitHub（Tencent-Hunyuan/Hy-SimulMT）、Hugging Face 与 ModelScope 开源，并在腾讯 Hy 翻译 App 免费首发。"
+        },
+        {
           "title": "小米技术委孵化的开源 AI 桌面硬件 HachimoDock 亮相：自制成本约 150 元，集成桌宠、语音操控电脑端 Agent 与智能家居联动",
           "url": "https://www.ithome.com/1/017/842.htm",
           "source": "IT之家",
@@ -244,13 +251,6 @@
           "source": "Pandaily / GitHub StartLuxLabs",
           "date": "2026-10-24",
           "summary": "代码 10 月 22 日在 GitHub（StartLuxLabs/StartLux-Prism）开源，面向 StartLux-Decision 决策模型。官方实测：单个短问题 19ms（原 53.1ms），同一材料三问最高提速 5.3 倍；JevBench 231 题平均 41ms，对比 SGLang 75.6ms、vLLM 112.7ms；int8 版准确率 92.94%，与 BF16 的 92.97% 基本持平，16.55GB 压缩版可跑在单张 32GB RTX 5090 上。数据均为厂商自测。"
-        },
-        {
-          "title": "数据库研究者郝相鹏开源 Rust B 树库 bbtree：代码全部由多家厂商的 LLM 编写并交叉审查，单线程比 std BTreeMap 快 5 倍、96 线程比 crossbeam-skiplist 快 12 倍，内存省 30%",
-          "url": "https://github.com/XiangpengHao/bbtree",
-          "source": "GitHub XiangpengHao/bbtree / Xiangpeng's blog",
-          "date": "2026-10-23",
-          "summary": "unsync::BBTreeMap 可直接替换 std 的 BTreeMap/BTreeSet，零依赖、支持 no_std；作者称由他把控每项设计并对正确性负责，另用模糊测试、Verus 形式化验证与确定性模拟测试保障正确性。作者曾开发在微软生产环境运行的 Bf-Tree，该项目本周在 X 上引发“LLM 写代码”讨论。"
         }
       ]
     },
