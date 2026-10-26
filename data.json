@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T08:26:00+08:00",
+  "updated": "2026-10-26T09:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -302,18 +302,18 @@
           "summary": "AIBL 隶属英国国家 AI 生物安全计划，总规模最高 3 亿英镑，首期聚焦生物威胁早期发现与加速疫苗、疗法等医学对策研发；OpenAI 通过 Rosalind Biodefense 计划提供可信访问，DeepMind 将开放前沿 Gemini 与专用科学模型。BBC 称同一预算还将向 AI 安全研究所（AISI）追加 1.2 亿英镑。"
         },
         {
+          "title": "DeepSeek、MiniMax 完成商务部技术出口登记：获准将模型开源及海外授权使用，为中国拟管制 23 项 AI 技术出口后首批",
+          "url": "https://www.ithome.com/1/016/796.htm",
+          "source": "IT之家",
+          "date": "2026-10-23",
+          "summary": "央视旗下“玉渊谭天”10 月 22 日披露，商务部、科技部 10 月 16 日就把大模型、智能体、算力集群等 23 项 AI 技术增列出口限制目录征求意见后，DeepSeek 与 MiniMax 已履行登记手续并完成开源和海外授权使用；MiniMax 23 日在港交所公告确认，登记覆盖若干近期已发布及将发布的模型。商务部称 API、App/网页交互与 SaaS 不属技术出口管理范围，开源适用自动许可。"
+        },
+        {
           "title": "路透：七名网络安全专家称 AI 发现的软件漏洞几乎必然引发更多类似本周 PHP 漏洞导致全球政府网站下线的事件；VulnCheck 数据显示 AI 推动漏洞发现数量同比翻倍",
           "url": "https://www.channelnewsasia.com/business/ai-discovered-bugs-may-soon-trigger-fresh-disruptions-cyber-experts-say-6486016",
           "source": "Reuters / CNA",
           "date": "2026-10-23",
           "summary": "Cloudflare CEO Matthew Prince 称已知悉其他关键软件中还存在一批严重漏洞，预计“未来几年每周都会感觉天要塌下来”；VulnCheck 研究员 Patrick Garrity 指出同一周还曝出 Node.js、Plex 漏洞及 LiteLLM、Railway 入侵等事件，面向互联网的系统将迎来更多“消防演练”。"
-        },
-        {
-          "title": "猫王版权方起诉 Anthropic：Authentic Brands Group 指控 Claude 未经许可用 274 首猫王歌曲训练，按每首 15 万美元索赔约 4100 万美元",
-          "url": "https://www.billboard.com/pro/elvis-presley-estate-sues-suno-anthropic/",
-          "source": "Billboard / Rolling Stone",
-          "date": "2026-10-23",
-          "summary": "诉讼于 10 月 23 日（周五）提起，涉及《Can't Help Falling in Love》《Don't Be Cruel》等；起诉书称即便 Anthropic 此前被诉后加了护栏，Claude 在被要求“为现代听众重制”歌曲时仍输出与原曲高度接近的内容。这是首批由个人艺人版权方直接起诉 AI 公司的重大案件之一，Anthropic 此前已被环球音乐出版、Round Hill 等起诉。"
         }
       ]
     },

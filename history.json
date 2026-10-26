@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T08:26:00+08:00",
- "count": 1645,
+ "updated": "2026-10-26T09:30:00+08:00",
+ "count": 1646,
  "items": [
   {
    "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
@@ -870,6 +870,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-23T15:36:00+08:00"
+  },
+  {
+   "title": "DeepSeek、MiniMax 完成商务部技术出口登记：获准将模型开源及海外授权使用，为中国拟管制 23 项 AI 技术出口后首批",
+   "url": "https://www.ithome.com/1/016/796.htm",
+   "source": "IT之家",
+   "date": "2026-10-23",
+   "summary": "央视旗下“玉渊谭天”10 月 22 日披露，商务部、科技部 10 月 16 日就把大模型、智能体、算力集群等 23 项 AI 技术增列出口限制目录征求意见后，DeepSeek 与 MiniMax 已履行登记手续并完成开源和海外授权使用；MiniMax 23 日在港交所公告确认，登记覆盖若干近期已发布及将发布的模型。商务部称 API、App/网页交互与 SaaS 不属技术出口管理范围，开源适用自动许可。",
+   "id": "3a9ba3eb3eeb50902f1425b3c86420f58479cbf7",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-26T09:30:00+08:00"
   },
   {
    "title": "OpenAI Agents API 上线定时自动化（Scheduled Automations）：可用 cron 表达式加时区周期性触发，或指定时间单次运行，任务可新建会话或续接已有会话",
