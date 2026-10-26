@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-27T02:28:00+08:00",
- "count": 1680,
+ "updated": "2026-10-27T03:30:00+08:00",
+ "count": 1682,
  "items": [
+  {
+   "title": "Replit 发文预言 2030 年底所有《财富》500 强都将成为“自动驾驶公司”：人定目标、担责，智能体在公司可控的“Agent Habitat”里执行工作",
+   "url": "https://replit.com/blog/rise-of-self-driving-company",
+   "source": "Replit",
+   "date": "2026-10-26",
+   "summary": "Replit 称如今多数智能体运行在聊天窗口、个人账户和临时脚本里，权限与行为无人管控；它主张企业为智能体建立受治理的运行环境，统一控制访问、规定何时需人工审批、限制错误影响，并沉淀人对智能体的纠正与工作流。Replit 此前称内部工程师代码产出近乎翻三倍。",
+   "id": "f6c7de22a7ee3badb3d4de442315ec5b8ad930d9",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T03:30:00+08:00"
+  },
+  {
+   "title": "前 DOGE 成员创办的安全初创公司 Cathedral 称其 AI 智能体不到 12 小时攻入 Anthropic 内部系统：借第三方业务软件漏洞拿到会议纪要、薪酬与 offer 信息及内部 Slack 消息",
+   "url": "https://gizmodo.com/former-doge-staffers-new-startup-claims-it-hacked-anthropic-2000830560",
+   "source": "Gizmodo / 华盛顿邮报",
+   "date": "2026-10-26",
+   "summary": "据《华盛顿邮报》看到的报告草稿，此次测试属于 Anthropic 外部漏洞奖励计划。Anthropic 确认对方进入了“有限的”销售、人力与 IT 系统，涉及部分客户和合作伙伴的商务联系信息及基础账户记录，但未触及 Claude 用户对话、源代码或模型权重；Anthropic 称监控当天发现并切断访问，并指责 Cathedral 未完整披露其活动、违反计划规则，已向联邦官员通报。",
+   "id": "3f31ce0c1f902681776e6affc1fbd279fc355ca2",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T03:30:00+08:00"
+  },
   {
    "title": "OpenAI 发布 GPT-6.1 Terra：主打快速、低价的电脑操作（computer use）与视觉推理，API 标准价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%",
    "url": "https://openai.com/index/introducing-gpt-6-1-terra/",

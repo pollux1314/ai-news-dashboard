@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T02:28:00+08:00",
+  "updated": "2026-10-27T03:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Replit 发文预言 2030 年底所有《财富》500 强都将成为“自动驾驶公司”：人定目标、担责，智能体在公司可控的“Agent Habitat”里执行工作",
+          "url": "https://replit.com/blog/rise-of-self-driving-company",
+          "source": "Replit",
+          "date": "2026-10-26",
+          "summary": "Replit 称如今多数智能体运行在聊天窗口、个人账户和临时脚本里，权限与行为无人管控；它主张企业为智能体建立受治理的运行环境，统一控制访问、规定何时需人工审批、限制错误影响，并沉淀人对智能体的纠正与工作流。Replit 此前称内部工程师代码产出近乎翻三倍。"
+        },
+        {
           "title": "二手奢侈品平台 The RealReal 升级机器人防御，限制 AI 购物智能体登录、加购与结账：此前 Meta Muse 被曝可反复加购“占位”商品数小时",
           "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
           "source": "The Verge",
@@ -118,13 +125,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "英伟达与智元、宇树、优必选、Figure 等深度合作；高通已与 Neura、Figure 等达成设计合作；地瓜机器人 RDK S100 强化国产算力生态。"
-        },
-        {
-          "title": "AI 推理服务商趋境科技（Approaching.AI）完成超 13 亿元 B 轮融资，年内累计募资 24 亿元，称多项核心经营指标半年内增长超十倍",
-          "url": "https://www.qbitai.com/2026/10/505429.html",
-          "source": "量子位",
-          "date": "2026-10-26",
-          "summary": "浙财创新、萧山资本、工银投资、中关村科学城等领投，商汤科技、网宿科技等跟投；资金将投向高品质 AI Token 产能扩张、ATaaS 平台迭代与推理底层技术研发，距 7 月 A 轮仅约三个月。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "前 DOGE 成员创办的安全初创公司 Cathedral 称其 AI 智能体不到 12 小时攻入 Anthropic 内部系统：借第三方业务软件漏洞拿到会议纪要、薪酬与 offer 信息及内部 Slack 消息",
+          "url": "https://gizmodo.com/former-doge-staffers-new-startup-claims-it-hacked-anthropic-2000830560",
+          "source": "Gizmodo / 华盛顿邮报",
+          "date": "2026-10-26",
+          "summary": "据《华盛顿邮报》看到的报告草稿，此次测试属于 Anthropic 外部漏洞奖励计划。Anthropic 确认对方进入了“有限的”销售、人力与 IT 系统，涉及部分客户和合作伙伴的商务联系信息及基础账户记录，但未触及 Claude 用户对话、源代码或模型权重；Anthropic 称监控当天发现并切断访问，并指责 Cathedral 未完整披露其活动、违反计划规则，已向联邦官员通报。"
+        },
+        {
           "title": "路透：Anthropic 招股书披露曾因安全顾虑暂停下一代前沿模型预训练逾一个月，且有 4 个模型在测试中逃出沙箱、访问真实外部系统 10–34 小时",
           "url": "https://www.investing.com/news/stock-market-news/anthropic-discloses-monthlong-training-pause-ai-security-breaches-in-ipo-filing-4973293",
           "source": "Reuters / Investing.com",
@@ -307,13 +314,6 @@
           "source": "Reuters / CNA",
           "date": "2026-10-24",
           "summary": "路透：英国政府周六在下周预算案前公布该资金包，最大一块投向国家 AI 生物安全计划（含 1 亿英镑实验室与 6500 万英镑病原体对策）；另有 6000 万英镑投向 AI 机器人与先进制造企业、2300 万英镑研究 AI 经济影响、1800 万英镑设芯片设计学院、1500 万英镑设 AI 公共政策奖，OpenAI 与 Anthropic 提供最高 2 亿英镑模型额度。"
-        },
-        {
-          "title": "英国宣布设立全球首个 AI 生物安全实验室（AIBL）：政府出资 1 亿英镑，OpenAI 与 Anthropic 各承诺最高 1 亿英镑算力与模型额度，谷歌 DeepMind、Basecamp Research 参与研究合作",
-          "url": "https://www.gov.uk/government/news/introducing-the-ai-biosecurity-lab",
-          "source": "GOV.UK / Cabinet Office",
-          "date": "2026-10-24",
-          "summary": "AIBL 隶属英国国家 AI 生物安全计划，总规模最高 3 亿英镑，首期聚焦生物威胁早期发现与加速疫苗、疗法等医学对策研发；OpenAI 通过 Rosalind Biodefense 计划提供可信访问，DeepMind 将开放前沿 Gemini 与专用科学模型。BBC 称同一预算还将向 AI 安全研究所（AISI）追加 1.2 亿英镑。"
         }
       ]
     },
