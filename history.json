@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-27T00:38:00+08:00",
- "count": 1676,
+ "updated": "2026-10-27T01:36:00+08:00",
+ "count": 1677,
  "items": [
+  {
+   "title": "二手奢侈品平台 The RealReal 升级机器人防御，限制 AI 购物智能体登录、加购与结账：此前 Meta Muse 被曝可反复加购“占位”商品数小时",
+   "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+   "source": "The Verge",
+   "date": "2026-10-26",
+   "summary": "CTO Luke Friang 称已处理 The Verge 报道的 Muse 用例，新配置让所有智能体都更难登录、加入购物车和结账，但仍可展示商品并引导用户到商品页；Meta 称购物是 Muse 最常见用途，美国 40 天下载量达 1000 万。",
+   "id": "2500a6aad8741c76ba702f1a804cc675b74805eb",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T01:36:00+08:00"
+  },
   {
    "title": "荷兰政府计划到 2035 年借助 AI 等手段削减约 2.5 万个中央政府全职岗位：约占相关编制的 16%，目标每年节省 35 亿欧元",
    "url": "https://www.dutchnews.nl/2026/10/van-der-burg-plans-to-use-more-ai-so-government-can-cut-payroll/",

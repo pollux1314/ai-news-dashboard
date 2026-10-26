@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T00:38:00+08:00",
+  "updated": "2026-10-27T01:36:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "二手奢侈品平台 The RealReal 升级机器人防御，限制 AI 购物智能体登录、加购与结账：此前 Meta Muse 被曝可反复加购“占位”商品数小时",
+          "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
+          "source": "The Verge",
+          "date": "2026-10-26",
+          "summary": "CTO Luke Friang 称已处理 The Verge 报道的 Muse 用例，新配置让所有智能体都更难登录、加入购物车和结账，但仍可展示商品并引导用户到商品页；Meta 称购物是 Muse 最常见用途，美国 40 天下载量达 1000 万。"
+        },
+        {
           "title": "量子位：拿不出模型的 Neolab 开始转售 GPU——Dealroom 统计全球 29 家典型 AI 新兴实验室累计融资 230 亿美元，推出商业化产品的不到 35%",
           "url": "https://www.qbitai.com/2026/10/505478.html",
           "source": "量子位",
@@ -118,13 +125,6 @@
           "source": "量子位",
           "date": "2026-10-26",
           "summary": "浙财创新、萧山资本、工银投资、中关村科学城等领投，商汤科技、网宿科技等跟投；资金将投向高品质 AI Token 产能扩张、ATaaS 平台迭代与推理底层技术研发，距 7 月 A 轮仅约三个月。"
-        },
-        {
-          "title": "AI 交易降温：两只挂钩 SK 海力士 ADR 的 Tradr 美股杠杆 ETF（SKHA 2 倍多、SKHN 2 倍空）上市仅三个月将于 11 月 12 日左右清盘",
-          "url": "https://www.ithome.com/1/017/896.htm",
-          "source": "IT之家（援引彭博）",
-          "date": "2026-10-26",
-          "summary": "SK 海力士首尔股价较历史高点已跌 56%，做空 ETF 上市以来跌 42%，两只产品总资产较峰值缩水超六成、合计仅约 130 万美元；韩国监管已收紧杠杆产品规则。"
         }
       ]
     },
