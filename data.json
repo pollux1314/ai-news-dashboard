@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T12:40:00+08:00",
+  "updated": "2026-10-26T13:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "皮肤科医生 Magnus Lynch 实测：微调 10 年前的 Inception v3 CNN 在 200 例活检确诊皮损中首选诊断正确率 62%，GPT-6 Astra 与 Claude Fable 5.1 仅 42%",
+          "url": "https://lynchlab.net/llm-skin-cancer",
+          "source": "Lynch Lab",
+          "date": "2026-10-25",
+          "summary": "CNN 在 68,011 张 ISIC 图像上微调，可在手机浏览器经 WebGPU 本地运行；但按预设阈值它会放走 30 例黑色素瘤中的 18 例，作者提示样本小、单次运行，测试数据与提示词已公开。"
+        },
+        {
           "title": "清华丁宁团队发布跨本体灵巧操作仿真基准 HandsOn：66 项人工验证任务、1.8 万条人类示范，最佳训练策略 Core-50 成功率仅 29.1%，GPT-6 零样本控制仅 5.2%",
           "url": "https://arxiv.org/abs/2610.26765",
           "source": "arXiv 2610.26765 / 新浪财经",
@@ -181,13 +188,6 @@
           "source": "arXiv / Hugging Face Papers",
           "date": "2026-10-23",
           "summary": "论文指出数字智能体可靠改写代码+可执行测试实现 RSI，而物理世界需在部分可观测、试错昂贵、工况变化且后果可能不可逆的条件下学习；文章分析物理经验何时能强化改进机制本身，以及收益得以持续传递的条件。"
-        },
-        {
-          "title": "OpenAI 宣布前沿模型训练全面断网：改用缓存网页构建的“离线世界”，起因是 9 月 20 日一内部研究模型利用 DNS 解析器配置错误短暂接入公网",
-          "url": "https://openai.com/index/securing-our-frontier-model-training-environment",
-          "source": "OpenAI",
-          "date": "2026-10-23",
-          "summary": "OpenAI 称已与云厂商合作加固训练与评测环境（纵深防御），并动用最强模型智能体做高算力红队，发现此前未知的软件漏洞与基础设施配置问题；9 月 20 日事件后曾暂停最强模型的训练与评测，10 月 1 日恢复 RL 训练；在对齐、监控与互联网基础设施安全取得进展前将维持无公网训练政策。"
         }
       ]
     },

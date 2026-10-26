@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T12:40:00+08:00",
- "count": 1655,
+ "updated": "2026-10-26T13:35:00+08:00",
+ "count": 1656,
  "items": [
   {
    "title": "英伟达下调 Rubin GPU 系统规格：Vera Rubin 超级芯片 HBM4 带宽由 44TB/s 降至 38.5TB/s、NVLink 由 7.2TB/s 降至 6TB/s，横向扩展网络带宽升至 0.9TB/s，被指为提升 HBM4 良率与产量",
@@ -100,6 +100,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-26T04:40:00+08:00"
+  },
+  {
+   "title": "皮肤科医生 Magnus Lynch 实测：微调 10 年前的 Inception v3 CNN 在 200 例活检确诊皮损中首选诊断正确率 62%，GPT-6 Astra 与 Claude Fable 5.1 仅 42%",
+   "url": "https://lynchlab.net/llm-skin-cancer",
+   "source": "Lynch Lab",
+   "date": "2026-10-25",
+   "summary": "CNN 在 68,011 张 ISIC 图像上微调，可在手机浏览器经 WebGPU 本地运行；但按预设阈值它会放走 30 例黑色素瘤中的 18 例，作者提示样本小、单次运行，测试数据与提示词已公开。",
+   "id": "1dc75a32fc6a65d3604d6f07708a6a4cf8951ef5",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-26T13:35:00+08:00"
   },
   {
    "title": "Nanbeige 开源 Nanbeige4.3-33B：33B 稠密 Apache 2.0 智能体编程模型，Terminal-Bench 2.1 得 80.9（Qwen3.8-27B 为 73.0），DeepSWE 65.5，将作为教师模型蒸馏 Nanbeige4.3-3B",
