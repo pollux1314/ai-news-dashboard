@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-26T18:40:00+08:00",
- "count": 1667,
+ "updated": "2026-10-26T19:35:00+08:00",
+ "count": 1669,
  "items": [
+  {
+   "title": "韩媒：三星电子、SK 海力士计划 2027 年 Q2 全面量产并向英伟达出货 8Hi HBM4，英伟达拟在 Rubin 与 Rubin Ultra 中采用 8 层堆叠以优化供应",
+   "url": "https://www.ithome.com/1/018/125.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "据 ZDNET Korea，两家原厂当前主产 12Hi HBM4；英伟达 2026Q3 已就 8Hi 供应与原厂磋商，HGX Vera Rubin NVL8 与 HGX Rubin NVL8 规格已调整为系统合计 2TB HBM4，对应 8Hi 32GB 堆栈。",
+   "id": "5b9ad3cde12d19a156c380398f19c36311380f95",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T19:35:00+08:00"
+  },
+  {
+   "title": "首部三体宇宙授权 AI 互动影游《三体：审判前夜》上架 Steam：故事设定在“古筝行动”前夕，玩家潜入 ETO 总部“审判日号”执行营救任务",
+   "url": "https://www.ithome.com/1/018/038.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "由 Timeline 开发、发售日期待定，首支预告已公开；单人剧情冒险，时长超 300 分钟，含多条剧情分支与多个结局。",
+   "id": "87d5dc395a9a4d125c607828d10ac76833b4ad22",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T19:35:00+08:00"
+  },
   {
    "title": "SWI Group 旗下 SWI Compute 结束隐身：手握欧美 3.6GW 电力容量、已订购约 10 亿美元英伟达系统，首座英国剑桥 AI 工厂一期 30MW、近 7000 颗 Rubin GPU",
    "url": "https://www.prnewswire.com/news-releases/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe-302918810.html",

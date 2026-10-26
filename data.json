@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T18:40:00+08:00",
+  "updated": "2026-10-26T19:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "韩媒：三星电子、SK 海力士计划 2027 年 Q2 全面量产并向英伟达出货 8Hi HBM4，英伟达拟在 Rubin 与 Rubin Ultra 中采用 8 层堆叠以优化供应",
+          "url": "https://www.ithome.com/1/018/125.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "据 ZDNET Korea，两家原厂当前主产 12Hi HBM4；英伟达 2026Q3 已就 8Hi 供应与原厂磋商，HGX Vera Rubin NVL8 与 HGX Rubin NVL8 规格已调整为系统合计 2TB HBM4，对应 8Hi 32GB 堆栈。"
+        },
+        {
           "title": "SWI Group 旗下 SWI Compute 结束隐身：手握欧美 3.6GW 电力容量、已订购约 10 亿美元英伟达系统，首座英国剑桥 AI 工厂一期 30MW、近 7000 颗 Rubin GPU",
           "url": "https://www.prnewswire.com/news-releases/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe-302918810.html",
           "source": "PR Newswire",
@@ -118,13 +125,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "黄仁勋 10 月 22 日在柏林 GTC 谈及该定价，称软件授权将成为重要业务；按 500 万块 GPU 测算年入约 100 亿美元，但英伟达未确认是否为统一标准价。"
-        },
-        {
-          "title": "高盛将韩国 KOSPI 12 个月目标从 12,000 点下调 25% 至 9,000 点：AI 交易退潮，指数较 6 月高点已跌逾 35%",
-          "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/goldman-cuts-kospi-12-month-target-25-ai-trade-unravels",
-          "source": "The Business Times / 彭博",
-          "date": "2026-10-25",
-          "summary": "三星电子、SK 海力士让 KOSPI 成为 AI 交易风向标，市场担忧 AI 基建支出的可持续性与融资成本上升；高盛称当前芯片估值隐含 2027 年行业盈利下滑 65%、过度悲观，新目标仍意味着 60% 以上上涨空间，KOSPI 远期市盈率已跌至约 4 倍。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "首部三体宇宙授权 AI 互动影游《三体：审判前夜》上架 Steam：故事设定在“古筝行动”前夕，玩家潜入 ETO 总部“审判日号”执行营救任务",
+          "url": "https://www.ithome.com/1/018/038.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "由 Timeline 开发、发售日期待定，首支预告已公开；单人剧情冒险，时长超 300 分钟，含多条剧情分支与多个结局。"
+        },
+        {
           "title": "字节即梦 AI 正式上线“短剧工作室”：提供自研剧本模型 DreamScript、图片模型 Anycook 与分镜模型 DreamShot，一站式覆盖剧本到成片",
           "url": "https://www.yicai.com/news/103409213.html",
           "source": "第一财经",
@@ -370,13 +377,6 @@
           "source": "扬子晚报",
           "date": "2026-10-25",
           "summary": "双方在“2026 三体日”活动上宣布战略合作，由无问芯穹提供 Agentic Infra 推理底座，让角色智能体保持语气与设定一致，推动国产科幻 IP 智能化。"
-        },
-        {
-          "title": "复旦 NLP 团队发布主动式个人助手 A5 技术预览 v0.3.1：跨会话积累用户偏好与项目状态，感知资料变化后主动调整任务并提出后续建议",
-          "url": "https://www.163.com/dy/article/LA3VIDRB0511AQHO.html",
-          "source": "机器之心 / Hugging Face Blog",
-          "date": "2026-10-25",
-          "summary": "A5 Harness 基于 ReAct 循环，含 Context 索引、Git 管理版本的 Memory、空闲时整理记忆的 Autodream、Workspace Wiki，以及感知变化的 Diff Engine 与提出建议的 Proposal Engine；支持 macOS 与 Linux，需自备兼容 Anthropic/OpenAI 格式的模型 API，代码将于近期在 GitHub 开源。"
         }
       ]
     },
