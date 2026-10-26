@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-26T13:35:00+08:00",
- "count": 1656,
+ "updated": "2026-10-26T14:30:00+08:00",
+ "count": 1658,
  "items": [
+  {
+   "title": "AI 交易降温：两只挂钩 SK 海力士 ADR 的 Tradr 美股杠杆 ETF（SKHA 2 倍多、SKHN 2 倍空）上市仅三个月将于 11 月 12 日左右清盘",
+   "url": "https://www.ithome.com/1/017/896.htm",
+   "source": "IT之家（援引彭博）",
+   "date": "2026-10-26",
+   "summary": "SK 海力士首尔股价较历史高点已跌 56%，做空 ETF 上市以来跌 42%，两只产品总资产较峰值缩水超六成、合计仅约 130 万美元；韩国监管已收紧杠杆产品规则。",
+   "id": "739b5a3186bfceb29634de40b2fd9d72f920bf15",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T14:30:00+08:00"
+  },
+  {
+   "title": "小米技术委孵化的开源 AI 桌面硬件 HachimoDock 亮相：自制成本约 150 元，集成桌宠、语音操控电脑端 Agent 与智能家居联动",
+   "url": "https://www.ithome.com/1/017/842.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "可把语音意图派发给电脑端 Codex、WorkBuddy 等智能体并在屏幕展示任务状态，支持用自然语言现场生成新组件；软件源码、物料清单、结构件模型与装配教程已在 GitHub 公开。",
+   "id": "e4623c14f24c7e30478f5f3821097c46e3006c80",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-26T14:30:00+08:00"
+  },
   {
    "title": "英伟达下调 Rubin GPU 系统规格：Vera Rubin 超级芯片 HBM4 带宽由 44TB/s 降至 38.5TB/s、NVLink 由 7.2TB/s 降至 6TB/s，横向扩展网络带宽升至 0.9TB/s，被指为提升 HBM4 良率与产量",
    "url": "https://www.ithome.com/1/017/812.htm",

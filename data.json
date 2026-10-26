@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T13:35:00+08:00",
+  "updated": "2026-10-26T14:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "AI 交易降温：两只挂钩 SK 海力士 ADR 的 Tradr 美股杠杆 ETF（SKHA 2 倍多、SKHN 2 倍空）上市仅三个月将于 11 月 12 日左右清盘",
+          "url": "https://www.ithome.com/1/017/896.htm",
+          "source": "IT之家（援引彭博）",
+          "date": "2026-10-26",
+          "summary": "SK 海力士首尔股价较历史高点已跌 56%，做空 ETF 上市以来跌 42%，两只产品总资产较峰值缩水超六成、合计仅约 130 万美元；韩国监管已收紧杠杆产品规则。"
+        },
+        {
           "title": "英伟达下调 Rubin GPU 系统规格：Vera Rubin 超级芯片 HBM4 带宽由 44TB/s 降至 38.5TB/s、NVLink 由 7.2TB/s 降至 6TB/s，横向扩展网络带宽升至 0.9TB/s，被指为提升 HBM4 良率与产量",
           "url": "https://www.ithome.com/1/017/812.htm",
           "source": "IT之家",
@@ -118,13 +125,6 @@
           "source": "Startup Fortune",
           "date": "2026-10-24",
           "summary": "Jev 是 TypeSafe 9 月推出的“System One”决策模型，已被大量用于编码智能体、反欺诈与分类管线；开发者 Wes Bos 等确认自己的输出在其中。公司尚未发布技术复盘、未说明根因与受影响客户数。"
-        },
-        {
-          "title": "The Information：OpenAI 低价攻势见效——HR 软件公司 Rippling 数百名工程师的编码工作中，Anthropic 模型占比从 5 月的 57% 降至 18%，OpenAI 从 16% 升至 52%",
-          "url": "https://www.theinformation.com/articles/anthropics-margin-openais-opportunity",
-          "source": "The Information",
-          "date": "2026-10-24",
-          "summary": "Rippling CEO Parker Conrad 称切换原因是为削减成本、OpenAI 更便宜；报道认为 Anthropic 的高毛利正成为 OpenAI 抢客的机会，但路由工具让工作负载可随时切回。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "小米技术委孵化的开源 AI 桌面硬件 HachimoDock 亮相：自制成本约 150 元，集成桌宠、语音操控电脑端 Agent 与智能家居联动",
+          "url": "https://www.ithome.com/1/017/842.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "可把语音意图派发给电脑端 Codex、WorkBuddy 等智能体并在屏幕展示任务状态，支持用自然语言现场生成新组件；软件源码、物料清单、结构件模型与装配教程已在 GitHub 公开。"
+        },
+        {
           "title": "Nanbeige 开源 Nanbeige4.3-33B：33B 稠密 Apache 2.0 智能体编程模型，Terminal-Bench 2.1 得 80.9（Qwen3.8-27B 为 73.0），DeepSWE 65.5，将作为教师模型蒸馏 Nanbeige4.3-3B",
           "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
           "source": "Hugging Face",
@@ -244,13 +251,6 @@
           "source": "GitHub XiangpengHao/bbtree / Xiangpeng's blog",
           "date": "2026-10-23",
           "summary": "unsync::BBTreeMap 可直接替换 std 的 BTreeMap/BTreeSet，零依赖、支持 no_std；作者称由他把控每项设计并对正确性负责，另用模糊测试、Verus 形式化验证与确定性模拟测试保障正确性。作者曾开发在微软生产环境运行的 Bf-Tree，该项目本周在 X 上引发“LLM 写代码”讨论。"
-        },
-        {
-          "title": "英伟达发布 RTX Remix 1.6：用 ComfyUI 集成 2.0 取代旧版 AI Tools 生成纹理与网格，新增无界面 Toolkit 与模组智能体技能，并推出《我的世界》Java 版 Beta 模组",
-          "url": "https://docs.omniverse.nvidia.com/kit/docs/rtx_remix/latest/docs/changelog/remix-releasenotes.html",
-          "source": "NVIDIA RTX Remix 发布说明",
-          "date": "2026-10-23",
-          "summary": "渲染侧加入 DLSS 3D 引导神经渲染与多帧生成、原生支持 Windows on ARM；MCP 服务改为默认 Streamable HTTP（http://127.0.0.1:18014/mcp），原 SSE 端点的客户端配置需迁移；GitHub 发行包版本为 1.6.1。"
         }
       ]
     },
