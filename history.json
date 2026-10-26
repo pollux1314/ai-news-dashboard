@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-27T06:27:00+08:00",
- "count": 1693,
+ "updated": "2026-10-27T07:40:00+08:00",
+ "count": 1696,
  "items": [
+  {
+   "title": "苹果发布 iOS 27.2：Siri AI 新增对话记忆，可回忆过往对话并调取语音留言、信息附件照片、日历参与人等更多个人来源，扩展至法语、日语、韩语、葡萄牙语和西班牙语",
+   "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+   "source": "Apple Newsroom / MacRumors",
+   "date": "2026-10-26",
+   "summary": "27.2 系统更新同步覆盖 iOS、iPadOS、macOS、watchOS 和 visionOS；新增“排除的 App”统一设置控制 Siri 与搜索可访问的应用，照片与 Image Playground 支持 SynthID 水印检测。Siri AI 仍为测试版，需 iPhone 15 Pro 及以上，欧盟与中国大陆暂不可用，繁体中文等语言预计年底前上线。",
+   "id": "42a0e145db67c19320ff175fe184dbebae401a18",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-27T07:40:00+08:00"
+  },
+  {
+   "title": "美银、黑石、花旗、摩根士丹利宣布 630 亿美元融资结构：通过新设 SPV 购买博通 XPU 加速器与网络设备，再租赁给 Anthropic",
+   "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce",
+   "source": "Broadcom / Reuters",
+   "date": "2026-10-26",
+   "summary": "一留置权融资由美银、花旗、大摩安排，黑石独家提供二留置权承诺部分；博通为 SPV 提供与一留置权等额的残值支持（峰值敞口预计 430 亿美元，五年内摊销至零），交付预计 2027 年开始。路透称这是 AI 基建相关规模最大的债务交易之一。",
+   "id": "2cd52dab5cc8e6a8b23c0879214218b6a8346c09",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T07:40:00+08:00"
+  },
+  {
+   "title": "The Verge：Anthropic 招股书承认数据中心日益依赖天然气发电，燃料成本、燃气轮机短缺与气候变暖都被列为经营风险",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+   "source": "The Verge",
+   "date": "2026-10-26",
+   "summary": "S-1 称部分规划数据中心依赖现场燃气轮机供电，超大规模云厂商争抢天然气与管道容量可能推高气价；若监管要求数据中心承担更多电网成本或电力供应受限，可能被迫推迟甚至放弃数据中心项目，进而限制算力扩张。",
+   "id": "96b9f45bb2e6d93364f685f5f6b70b86e32af8a2",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T07:40:00+08:00"
+  },
   {
    "title": "自动驾驶挖掘机公司 Bedrock Robotics 完成 6 亿美元 C 轮融资，估值 41 亿美元：CapitalG 与 Emergence Capital 共同领投，成立仅两年",
    "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
