@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-26T11:35:00+08:00",
- "count": 1651,
+ "updated": "2026-10-26T12:40:00+08:00",
+ "count": 1655,
  "items": [
+  {
+   "title": "英伟达下调 Rubin GPU 系统规格：Vera Rubin 超级芯片 HBM4 带宽由 44TB/s 降至 38.5TB/s、NVLink 由 7.2TB/s 降至 6TB/s，横向扩展网络带宽升至 0.9TB/s，被指为提升 HBM4 良率与产量",
+   "url": "https://www.ithome.com/1/017/812.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "对比英伟达 10 月官方文档与 6 月存档：HGX NVL8 显存从 2.3TB/176TB/s 降至 2TB/130TB/s，NVFP4 与 FP8/FP6 训练算力下调，NVLink Switch 带宽从 28.8TB/s 降至 24TB/s；Vera CPU 内存改为“至多”1.5TB LPDDR5X。",
+   "id": "f5ec44f2a9803acaab934772c8b77c62cd79d963",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T12:40:00+08:00"
+  },
+  {
+   "title": "德国普鲁士电力（PreussenElektra）与英伟达合作，评估在已停运核电站原址改建“AI 工厂”数据中心的可行性",
+   "url": "https://www.ithome.com/1/017/747.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "德国 2023 年关停全部核电站，普鲁士电力负责其中八座的退役拆除；核电站拥有大片工业用地、高容量电网接入与可复用冷却系统，可降低 AI 数据中心前期投资。",
+   "id": "c9cf1f5a0cead45a84969b731a3035edbce7cbb2",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T12:40:00+08:00"
+  },
+  {
+   "title": "小鹏集团 Robotaxi“小鹏悠游”获批广州市智能网联汽车应用示范运营资格，可在广州全域开展 L4 级 Robotaxi 示范运营，目标明年实现无安全员载客",
+   "url": "https://www.ithome.com/1/017/808.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "小鹏今年 1 月获广州 L4 道路测试许可，5 月首台 GX Robotaxi 量产车下线，搭载第二代 VLA 的前装量产车已在广州完成超 2000 次内测订单，并已完成云端接管平台开发。",
+   "id": "40de367b0287eca17a5c8d2e7c264e7c0f2210cf",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T12:40:00+08:00"
+  },
+  {
+   "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：成立仅 4 个月称拿下近 10 亿元订单，如今三四十名员工讨薪，CEO 称联系不上实控人",
+   "url": "https://www.ithome.com/1/017/795.htm",
+   "source": "IT之家（据每日经济新闻）",
+   "date": "2026-10-26",
+   "summary": "南京无境动力成立于 2026 年 2 月，天使轮融资 1.1 亿元，主打物理 AI 与工业四足机器人；员工称自 8 月起被拖欠工资，9、10 月相继停缴公积金与社保，部分员工已申请劳动仲裁。",
+   "id": "954f181fa30bd8ad31f63909a8149c77024040c0",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T12:40:00+08:00"
+  },
   {
    "title": "HTC 公布口袋 AI 互动伴侣 VIVEE：抚摸、拍打、转动都会互动回应，可聊天、玩游戏并逐渐养成个性，预售价 99.99 美元",
    "url": "https://www.ithome.com/1/017/794.htm",

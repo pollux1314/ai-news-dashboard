@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T11:35:00+08:00",
+  "updated": "2026-10-26T12:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "英伟达下调 Rubin GPU 系统规格：Vera Rubin 超级芯片 HBM4 带宽由 44TB/s 降至 38.5TB/s、NVLink 由 7.2TB/s 降至 6TB/s，横向扩展网络带宽升至 0.9TB/s，被指为提升 HBM4 良率与产量",
+          "url": "https://www.ithome.com/1/017/812.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "对比英伟达 10 月官方文档与 6 月存档：HGX NVL8 显存从 2.3TB/176TB/s 降至 2TB/130TB/s，NVFP4 与 FP8/FP6 训练算力下调，NVLink Switch 带宽从 28.8TB/s 降至 24TB/s；Vera CPU 内存改为“至多”1.5TB LPDDR5X。"
+        },
+        {
+          "title": "德国普鲁士电力（PreussenElektra）与英伟达合作，评估在已停运核电站原址改建“AI 工厂”数据中心的可行性",
+          "url": "https://www.ithome.com/1/017/747.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "德国 2023 年关停全部核电站，普鲁士电力负责其中八座的退役拆除；核电站拥有大片工业用地、高容量电网接入与可复用冷却系统，可降低 AI 数据中心前期投资。"
+        },
+        {
           "title": "黄仁勋提出英伟达 AI 智能体全套软件授权费约每块 GPU 每年 2,000 美元：英伟达押注软件订阅收入，但未说明适用范围及与 AI Enterprise（每 GPU 每年 4,500 美元）的关系",
           "url": "https://www.ithome.com/1/017/764.htm",
           "source": "IT之家",
@@ -111,20 +125,6 @@
           "source": "The Information",
           "date": "2026-10-24",
           "summary": "Rippling CEO Parker Conrad 称切换原因是为削减成本、OpenAI 更便宜；报道认为 Anthropic 的高毛利正成为 OpenAI 抢客的机会，但路由工具让工作负载可随时切回。"
-        },
-        {
-          "title": "The Information：Replit 已把大部分 AI 支出从 Anthropic 转向 OpenAI——Anthropic 取消折扣后，OpenAI 以 30% 以上折扣拿下每年超 1 亿美元的合同",
-          "url": "https://www.techmeme.com/261024/p8",
-          "source": "The Information / Techmeme",
-          "date": "2026-10-24",
-          "summary": "报道称这一转变折射出 Anthropic 的毛利压力与 OpenAI 的抢客机会；此前 Replit CEO Amjad Masad 已在 TechCrunch Disrupt 上表示 OpenAI 模型成为 Replit Agent 默认选项，但用户仍可选用 Claude。"
-        },
-        {
-          "title": "Apollo 首席经济学家 Torsten Slok：AI 至今未给科技行业以外的美国企业带来任何财务回报——七巨头人均营收与利润率上升，标普 493 两项均持平，也看不到生产率提升迹象",
-          "url": "https://www.apollo.com/wealth/insights-news/insights/daily-spark/no-signs-of-ai-payoff-outside-the-tech-sector",
-          "source": "Apollo The Daily Spark",
-          "date": "2026-10-24",
-          "summary": "Slok 在 10 月 24 日的报告中称，缺乏利润回报的主流企业正在收缩，开始把 token 支出视为拖累利润率的成本中心而非增长来源；token 支出增长主要集中在风投支持的公司，主流企业“不需要最新模型、也不愿为其付费”。他认为 AI 的成败将取决于标普 493 而非七巨头；数据来源包括彭博、旧金山联储 TFP 与 Ramp AI Index。"
         }
       ]
     },
@@ -323,6 +323,20 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "小鹏集团 Robotaxi“小鹏悠游”获批广州市智能网联汽车应用示范运营资格，可在广州全域开展 L4 级 Robotaxi 示范运营，目标明年实现无安全员载客",
+          "url": "https://www.ithome.com/1/017/808.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "小鹏今年 1 月获广州 L4 道路测试许可，5 月首台 GX Robotaxi 量产车下线，搭载第二代 VLA 的前装量产车已在广州完成超 2000 次内测订单，并已完成云端接管平台开发。"
+        },
+        {
+          "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：成立仅 4 个月称拿下近 10 亿元订单，如今三四十名员工讨薪，CEO 称联系不上实控人",
+          "url": "https://www.ithome.com/1/017/795.htm",
+          "source": "IT之家（据每日经济新闻）",
+          "date": "2026-10-26",
+          "summary": "南京无境动力成立于 2026 年 2 月，天使轮融资 1.1 亿元，主打物理 AI 与工业四足机器人；员工称自 8 月起被拖欠工资，9、10 月相继停缴公积金与社保，部分员工已申请劳动仲裁。"
+        },
+        {
           "title": "无问芯穹与三体宇宙联合发布“智子 Agent 1.0”：以《三体》中 637 号小宇宙管理员智子为原型的角色智能体，支持多轮对话、世界观知识调用与跨会话记忆",
           "url": "https://www.yangtse.com/news/ch/202610/t20261025_406305.html",
           "source": "扬子晚报",
@@ -363,20 +377,6 @@
           "source": "第一财经 / 36氪",
           "date": "2026-10-24",
           "summary": "此次调整以资源整合为主，即梦已接入小云雀短剧能力，产品团队不变。小云雀今年 3 月上线短剧 Agent，可上传最多 10 万字剧本一键生成成片、搭载 Seedance 2.0；即梦 2024 年 5 月推出，两者功能重叠，均出自剪映团队。"
-        },
-        {
-          "title": "腾讯 WorkBuddy 接入 Kimi K3.1 Pro 及 Highspeed 高速版：支持 100 万上下文，因资源紧张现阶段优先向企业旗舰版与个人订阅用户开放",
-          "url": "https://www.ithome.com/1/017/412.htm",
-          "source": "IT之家",
-          "date": "2026-10-24",
-          "summary": "高速版同等智能、输出速度约 2–3 倍；K3.1 Pro 为月之暗面迄今最强 3 万亿级参数模型，大幅加码强化学习算力，Terminal-Bench 4.0 得分 65.7%，BenchCAD 工具版 92.7%，OfficeQA Pro v2 与 SpreadsheetBench v2 分别为 64.4 与 36.3（SoTA）。"
-        },
-        {
-          "title": "蚂蚁百灵开源全双工音视频交互系统 Realtime-Venus：含 9B Omni 音视频模型与 9B Audio 音频模型，边说边听、可主动响应并在后台异步委派任务",
-          "url": "https://huggingface.co/inclusionAI/Realtime-Venus",
-          "source": "Hugging Face / inclusionAI",
-          "date": "2026-10-24",
-          "summary": "由蚂蚁 Venus 团队与清华大学推出，Omni 基于 MiniCPM-o 4.5 改造，能持续观看与收听并自行决定何时开口，区分附和、打断与纠正；配套 Realtime-Venus-Harness 运行时在对话不中断的情况下执行后台任务并把结果带回同一对话，另支持免训练长视频记忆，Apache-2.0 开源。"
         }
       ]
     },
