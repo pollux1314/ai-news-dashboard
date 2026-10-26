@@ -1,7 +1,95 @@
 {
- "updated": "2026-10-27T05:29:00+08:00",
- "count": 1685,
+ "updated": "2026-10-27T06:27:00+08:00",
+ "count": 1693,
  "items": [
+  {
+   "title": "自动驾驶挖掘机公司 Bedrock Robotics 完成 6 亿美元 C 轮融资，估值 41 亿美元：CapitalG 与 Emergence Capital 共同领投，成立仅两年",
+   "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+   "source": "TechCrunch",
+   "date": "2026-10-26",
+   "summary": "Bedrock 为工程车辆提供可改装的自动驾驶套件，两个月前已从试点转入真实工地商用，目前在内华达州水处理厂、德州 Champion Site Prep 土方工地及 Zachry 120 万立方码土建项目上运行；新资金用于扩大工地部署与团队。",
+   "id": "ea61feedd133669d03a6e0c88c96ce782a274b73",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
+  {
+   "title": "Naveen Rao 的 Unconventional AI 收购以色列 AI 推理芯片公司 NeuReality：现金加股票交易，约 40 名工程师加入，冲刺“1000 倍能效”AI 计算",
+   "url": "https://www.neureality.ai/neureality-to-join-unconventional-ai-on-the-path-to-1000x-ai-compute-efficiency/",
+   "source": "NeuReality / 路透",
+   "date": "2026-10-26",
+   "summary": "成立不到一年、估值 45 亿美元的 Unconventional AI 称借助 AI 工具研发进度大幅提前，已做出首颗测试芯片、第二颗接近完成，需要能交付产品的团队；NeuReality 创始团队加入并保留以色列工程中心，交易预计 2026 年 Q4 完成，金额未披露。",
+   "id": "c5389031480bfe4b6fb4b4fc3b64f2739ba45395",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
+  {
+   "title": "OpenAI 宣布其内部模型取得三项科学发现：证明 Sogge 局部光滑猜想（进而推出所有维度的 Kakeya 与 Stein 限制猜想）、证伪“指数时间假设”（ETH）、给出四维 QCD 与 Yang–Mills 存在性的严格证明",
+   "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+   "source": "OpenAI",
+   "date": "2026-10-26",
+   "summary": "数学与计算机结果均已用 Lean 形式化，自然语言证明与 Lean 代码发布在 GitHub openai/math；ETH 证伪由 ETH 提出者 Impagliazzo、Paturi 及 MIT Ryan Williams 牵头外部小组核验，物理结果（含千禧年难题 Yang–Mills 存在性部分）由诺奖得主 David Gross 领衔小组审阅并暂缓公开材料；OpenAI 称不寻求学术署名，待学界独立验证。",
+   "id": "0db83d2728d9db0569c1d04b87e534faa3cd6e3b",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
+  {
+   "title": "可可矩阵 COCO Matrix 发布机器人模型 CO01：用“经验提示”把示范、失败与人类纠正直接放进上下文，无需重训即可上手新任务",
+   "url": "https://www.163.com/dy/article/LA6KH0EP0511AQHO.html",
+   "source": "机器之心",
+   "date": "2026-10-26",
+   "summary": "同一预训练模型下，约 1 分钟的单段示范即可让未见任务平均成功率达 52%（微调达到相近水平需约 180 条示范、9 小时）；保留自身失败历史时五次尝试累计成功率 84%，不保留为 56%；同一套权重还支持深度、分割、光流、人体姿态等感知任务。",
+   "id": "ee3f58900d15f63e718d34d01f543d4d1b140e69",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
+  {
+   "title": "NVIDIA/SkillSpector",
+   "url": "https://github.com/NVIDIA/SkillSpector",
+   "source": "GitHub · Python · ⭐ 22117",
+   "date": "2026-10-26",
+   "summary": "英伟达开源（Apache-2.0）的 AI 智能体技能安全扫描器：在安装 Claude Code、Codex 与 MCP 技能前检测漏洞、恶意模式、提示注入、数据外泄与供应链风险，今日登上 GitHub 趋势榜。",
+   "id": "e30f8dee0b0bb108c2cf44a554cfd974a5900266",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
+  {
+   "title": "nightly-labs/openbot",
+   "url": "https://github.com/nightly-labs/openbot",
+   "source": "GitHub · TypeScript · ⭐ 1415",
+   "date": "2026-10-26",
+   "summary": "本地优先的桌面工作区，用于运行常驻 AI“队友”：为 Codex、Claude、Grok 分配独立工作区、任务队列、文件共享与浏览器控制，并支持智能体之间协作，今日登上 GitHub 趋势榜。",
+   "id": "4341922ec9bb436c9ae33bc4c062ff0557b0bc6b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
+  {
+   "title": "@gdb：OpenAI 总裁 Greg Brockman 宣布三项重大科学发现——分别在数学（调和分析）、计算机科学（复杂度理论）和物理（量子场论）",
+   "url": "https://x.com/gdb/status/2114837059462627533",
+   "source": "X",
+   "date": "2026-10-26",
+   "summary": "帖子发布于北京时间 10 月 27 日 05:50，称“AI 开始帮助我们加深对宇宙的理解”，约 20 分钟内获约 4.8 万次浏览、1,400 余赞。",
+   "id": "3dcec20f223a47e7bdc4323628b70ca70eb6e3f8",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
+  {
+   "title": "@cursor_ai：Cursor 推出 Agent SDK——用代码定义智能体（Markdown 写提示、TypeScript 写工具），可部署到 Cursor 托管基础设施或自托管，内置评测",
+   "url": "https://x.com/cursor_ai/status/2114793714531102901",
+   "source": "X",
+   "date": "2026-10-26",
+   "summary": "这正是 Cursor 自家 Bugbot、Security Reviewer 等托管智能体所用的框架，支持响应 GitHub/GitLab/Bitbucket 等事件与事件回放；帖子约 13 万次浏览、2,000 赞。",
+   "id": "b064b362fc8887a238e602c9d4c0b3147eea4568",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T06:27:00+08:00"
+  },
   {
    "title": "Jeff Dean 投资的 Q Labs 提出 Dust：首个能在 Transformer 预训练上与反向传播正面竞争的零阶优化方法，在每个 token 的激活上独立加噪声形成“虚拟种群”",
    "url": "https://qlabs.sh/research/dust/",

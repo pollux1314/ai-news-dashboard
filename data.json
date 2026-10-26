@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T05:29:00+08:00",
+  "updated": "2026-10-27T06:27:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,20 @@
       "icon": "💰",
       "items": [
         {
+          "title": "自动驾驶挖掘机公司 Bedrock Robotics 完成 6 亿美元 C 轮融资，估值 41 亿美元：CapitalG 与 Emergence Capital 共同领投，成立仅两年",
+          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
+          "source": "TechCrunch",
+          "date": "2026-10-26",
+          "summary": "Bedrock 为工程车辆提供可改装的自动驾驶套件，两个月前已从试点转入真实工地商用，目前在内华达州水处理厂、德州 Champion Site Prep 土方工地及 Zachry 120 万立方码土建项目上运行；新资金用于扩大工地部署与团队。"
+        },
+        {
+          "title": "Naveen Rao 的 Unconventional AI 收购以色列 AI 推理芯片公司 NeuReality：现金加股票交易，约 40 名工程师加入，冲刺“1000 倍能效”AI 计算",
+          "url": "https://www.neureality.ai/neureality-to-join-unconventional-ai-on-the-path-to-1000x-ai-compute-efficiency/",
+          "source": "NeuReality / 路透",
+          "date": "2026-10-26",
+          "summary": "成立不到一年、估值 45 亿美元的 Unconventional AI 称借助 AI 工具研发进度大幅提前，已做出首颗测试芯片、第二颗接近完成，需要能交付产品的团队；NeuReality 创始团队加入并保留以色列工程中心，交易预计 2026 年 Q4 完成，金额未披露。"
+        },
+        {
           "title": "Replit 发文预言 2030 年底所有《财富》500 强都将成为“自动驾驶公司”：人定目标、担责，智能体在公司可控的“Agent Habitat”里执行工作",
           "url": "https://replit.com/blog/rise-of-self-driving-company",
           "source": "Replit",
@@ -111,20 +125,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "据 ZDNET Korea，两家原厂当前主产 12Hi HBM4；英伟达 2026Q3 已就 8Hi 供应与原厂磋商，HGX Vera Rubin NVL8 与 HGX Rubin NVL8 规格已调整为系统合计 2TB HBM4，对应 8Hi 32GB 堆栈。"
-        },
-        {
-          "title": "SWI Group 旗下 SWI Compute 结束隐身：手握欧美 3.6GW 电力容量、已订购约 10 亿美元英伟达系统，首座英国剑桥 AI 工厂一期 30MW、近 7000 颗 Rubin GPU",
-          "url": "https://www.prnewswire.com/news-releases/swi-compute-emerges-from-stealth-to-turn-gigawatts-of-power-into-nvidia-ai-factories-starting-in-europe-302918810.html",
-          "source": "PR Newswire",
-          "date": "2026-10-26",
-          "summary": "剑桥园区规划扩至 530MW，目标 2029 年在欧洲建成 2.3GW 英伟达 AI 工厂容量，预计 2027 年底上线；首个客户为一家美国 AI 推理平台。"
-        },
-        {
-          "title": "Counterpoint：预计 2030 年全球人形机器人 AI 加速器累计出货破 100 万台、2026–2030 年 CAGR 达 144%，英伟达主导 GPU 市场，高通、特斯拉、小鹏等 ASIC 阵营崛起",
-          "url": "https://www.ithome.com/1/018/075.htm",
-          "source": "IT之家",
-          "date": "2026-10-26",
-          "summary": "英伟达与智元、宇树、优必选、Figure 等深度合作；高通已与 Neura、Figure 等达成设计合作；地瓜机器人 RDK S100 强化国产算力生态。"
         }
       ]
     },
@@ -133,6 +133,13 @@
       "name": "研究与论文",
       "icon": "📄",
       "items": [
+        {
+          "title": "OpenAI 宣布其内部模型取得三项科学发现：证明 Sogge 局部光滑猜想（进而推出所有维度的 Kakeya 与 Stein 限制猜想）、证伪“指数时间假设”（ETH）、给出四维 QCD 与 Yang–Mills 存在性的严格证明",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+          "source": "OpenAI",
+          "date": "2026-10-26",
+          "summary": "数学与计算机结果均已用 Lean 形式化，自然语言证明与 Lean 代码发布在 GitHub openai/math；ETH 证伪由 ETH 提出者 Impagliazzo、Paturi 及 MIT Ryan Williams 牵头外部小组核验，物理结果（含千禧年难题 Yang–Mills 存在性部分）由诺奖得主 David Gross 领衔小组审阅并暂缓公开材料；OpenAI 称不寻求学术署名，待学界独立验证。"
+        },
         {
           "title": "Jeff Dean 投资的 Q Labs 提出 Dust：首个能在 Transformer 预训练上与反向传播正面竞争的零阶优化方法，在每个 token 的激活上独立加噪声形成“虚拟种群”",
           "url": "https://qlabs.sh/research/dust/",
@@ -181,13 +188,6 @@
           "source": "The Decoder / arXiv 2610.04433",
           "date": "2026-10-24",
           "summary": "论文《What Does a Harness Buy? Tokens, Mostly》用 Claude Code、mini-SWE-agent、OpenCode 三种生产级 Harness 跑五个模型的 SWE-bench Verified：447 题上最重的 Claude Code 与最轻的 mini-SWE-agent 通过率相差在 5 个百分点内；45 道难题上换 Harness 翻转的题目比例（13%）与同配置重跑相同。成本差主要来自每步重发的系统提示与工具定义前缀（Claude Code 约 16k token，OpenCode 约 7k，mini-SWE-agent 不足 1k）及步数。"
-        },
-        {
-          "title": "Google Research 在 IDWeek 2026 分享 AI 结核病筛查落地进展：与南非 Nexus AI 合作的胸片筛查工具已在 6 国约 40 家医疗机构使用，单张胸片 45 秒出结果",
-          "url": "https://research.google/blog/bringing-foundational-models-to-the-front-lines-of-tb-screening/",
-          "source": "Google Research",
-          "date": "2026-10-23",
-          "summary": "谷歌回顾从 2019 年 Radiology 基准、2024 年 NEJM AI 前瞻性多中心验证，到经认证的临床诊断工具与 MedGemma 等开放基础模型的路径；已有 90 多名临床医生用其评估超过 2.5 万张胸片，周转时间从数周缩短到 45 秒内，并已为公立诊所提供 3000 多次免费筛查。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "可可矩阵 COCO Matrix 发布机器人模型 CO01：用“经验提示”把示范、失败与人类纠正直接放进上下文，无需重训即可上手新任务",
+          "url": "https://www.163.com/dy/article/LA6KH0EP0511AQHO.html",
+          "source": "机器之心",
+          "date": "2026-10-26",
+          "summary": "同一预训练模型下，约 1 分钟的单段示范即可让未见任务平均成功率达 52%（微调达到相近水平需约 180 条示范、9 小时）；保留自身失败历史时五次尝试累计成功率 84%，不保留为 56%；同一套权重还支持深度、分割、光流、人体姿态等感知任务。"
+        },
+        {
           "title": "寒武纪陈天石回应“明年芯片出货超百万颗”传闻：公司从未进行过相关沟通，请以上交所公告为准",
           "url": "https://www.ithome.com/1/018/135.htm",
           "source": "IT之家",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "小鹏今年 1 月获广州 L4 道路测试许可，5 月首台 GX Robotaxi 量产车下线，搭载第二代 VLA 的前装量产车已在广州完成超 2000 次内测订单，并已完成云端接管平台开发。"
-        },
-        {
-          "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：成立仅 4 个月称拿下近 10 亿元订单，如今三四十名员工讨薪，CEO 称联系不上实控人",
-          "url": "https://www.ithome.com/1/017/795.htm",
-          "source": "IT之家（据每日经济新闻）",
-          "date": "2026-10-26",
-          "summary": "南京无境动力成立于 2026 年 2 月，天使轮融资 1.1 亿元，主打物理 AI 与工业四足机器人；员工称自 8 月起被拖欠工资，9、10 月相继停缴公积金与社保，部分员工已申请劳动仲裁。"
         }
       ]
     },
@@ -385,6 +385,20 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "source": "GitHub · Python · ⭐ 22117",
+          "date": "2026-10-26",
+          "summary": "英伟达开源（Apache-2.0）的 AI 智能体技能安全扫描器：在安装 Claude Code、Codex 与 MCP 技能前检测漏洞、恶意模式、提示注入、数据外泄与供应链风险，今日登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "nightly-labs/openbot",
+          "url": "https://github.com/nightly-labs/openbot",
+          "source": "GitHub · TypeScript · ⭐ 1415",
+          "date": "2026-10-26",
+          "summary": "本地优先的桌面工作区，用于运行常驻 AI“队友”：为 Codex、Claude、Grok 分配独立工作区、任务队列、文件共享与浏览器控制，并支持智能体之间协作，今日登上 GitHub 趋势榜。"
+        },
         {
           "title": "JetBrains/thinkrail",
           "url": "https://github.com/JetBrains/thinkrail",
@@ -426,20 +440,6 @@
           "source": "GitHub · CSS · ⭐ 31.5k",
           "date": "2026-10-24",
           "summary": "面向 Claude Code、Cursor 与 Codex 的“反 AI 糊弄”设计技能（skill），让编程智能体产出的界面摆脱千篇一律的 AI 味；今日 GitHub 趋势榜单日新增约 570 星。"
-        },
-        {
-          "title": "pollen-robotics/microduck",
-          "url": "https://github.com/pollen-robotics/microduck",
-          "source": "GitHub · Rust · ⭐ 10.6k",
-          "date": "2026-10-24",
-          "summary": "Hugging Face 旗下 Pollen Robotics 的开源双足小鸭机器人，黄仁勋在 GTC Berlin 台上演示后走红、预订破 2 万台；今日 GitHub 趋势榜单日新增约 420 星。"
-        },
-        {
-          "title": "hydro-project/infinity",
-          "url": "https://github.com/hydro-project/infinity",
-          "source": "GitHub · Rust · ⭐ 22",
-          "date": "2026-10-24",
-          "summary": "AWS 与 UC Berkeley Hydro 项目开源的智能体运行时与工具协议（Apache 2.0）：智能体在等待工具时“休眠”为纯数据，下一条消息到达再唤醒，同一代码可跑在本地常驻进程或无服务器平台；10 月 23 日随 AWS 博客正式发布。"
         }
       ]
     },
@@ -448,6 +448,20 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@gdb：OpenAI 总裁 Greg Brockman 宣布三项重大科学发现——分别在数学（调和分析）、计算机科学（复杂度理论）和物理（量子场论）",
+          "url": "https://x.com/gdb/status/2114837059462627533",
+          "source": "X",
+          "date": "2026-10-26",
+          "summary": "帖子发布于北京时间 10 月 27 日 05:50，称“AI 开始帮助我们加深对宇宙的理解”，约 20 分钟内获约 4.8 万次浏览、1,400 余赞。"
+        },
+        {
+          "title": "@cursor_ai：Cursor 推出 Agent SDK——用代码定义智能体（Markdown 写提示、TypeScript 写工具），可部署到 Cursor 托管基础设施或自托管，内置评测",
+          "url": "https://x.com/cursor_ai/status/2114793714531102901",
+          "source": "X",
+          "date": "2026-10-26",
+          "summary": "这正是 Cursor 自家 Bugbot、Security Reviewer 等托管智能体所用的框架，支持响应 GitHub/GitLab/Bitbucket 等事件与事件回放；帖子约 13 万次浏览、2,000 赞。"
+        },
         {
           "title": "@OpenAI：发布 GPT-6.1 Terra，以更低价格提供快速、能干的电脑操作能力，能理解屏幕内容并跨应用执行操作",
           "url": "https://x.com/OpenAI/status/2114780711664398349",
@@ -489,20 +503,6 @@
           "source": "X @elonmusk",
           "date": "2026-10-25",
           "summary": "此前 Grok Bot 0.77 预发布版被发现新增通话面板：可拨号、排队等待、按键与转接并实时显示转写，另有 Mac 消息接入、Tailscale 私有网络与支付设置等功能。"
-        },
-        {
-          "title": "@testingcatalog：Google AI Studio 即将上线 Managed Agents——在专门的 Agents 中心查看和管理自主 AI 智能体及其工具、环境与触发器",
-          "url": "https://x.com/testingcatalog/status/2114349445760303238",
-          "source": "X @testingcatalog",
-          "date": "2026-10-25",
-          "summary": "谷歌本周刚为 Google Cloud 推出智能体计算引擎 Agent Compute Engine（ACE）；AI Studio 的托管智能体功能尚未正式发布，信息来自产品界面发现。"
-        },
-        {
-          "title": "@deedydas：开源模型推理服务商正井喷，很快就能做到月收入 100 万美元——即便按需租用 B300（约 8 美元/GPU·小时），GLM 5.3、Kimi K3、DeepSeek 4.1 Flash/Pro 等开源模型的吞吐也能让单卡每小时收入明显高于成本",
-          "url": "https://x.com/deedydas/status/2114195317860266432",
-          "source": "X @deedydas",
-          "date": "2026-10-25",
-          "summary": "Deedy Das 贴出推理服务商的粗略单位经济账，称一大批新推理服务商正快速冲到每月 100 万美元营收；X 上的讨论提到 inference.net、DeepInfra 等新玩家借 OpenRouter 等网关快速扩张，也有人担心同质化与成本上升。"
         }
       ]
     }
