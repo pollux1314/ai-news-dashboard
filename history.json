@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-26T18:40:00+08:00",
- "count": 1666,
+ "count": 1667,
  "items": [
   {
    "title": "SWI Group 旗下 SWI Compute 结束隐身：手握欧美 3.6GW 电力容量、已订购约 10 亿美元英伟达系统，首座英国剑桥 AI 工厂一期 30MW、近 7000 颗 Rubin GPU",
@@ -15,11 +15,22 @@
   },
   {
    "title": "Counterpoint：预计 2030 年全球人形机器人 AI 加速器累计出货破 100 万台、2026–2030 年 CAGR 达 144%，英伟达主导 GPU 市场，高通、特斯拉、小鹏等 ASIC 阵营崛起",
-   "url": "https://www.ithome.com/0/018/075.htm",
+   "url": "https://www.ithome.com/1/018/075.htm",
    "source": "IT之家",
    "date": "2026-10-26",
    "summary": "英伟达与智元、宇树、优必选、Figure 等深度合作；高通已与 Neura、Figure 等达成设计合作；地瓜机器人 RDK S100 强化国产算力生态。",
    "id": "d012c858644d137b11f05ae264d708e3406928da",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T18:40:00+08:00"
+  },
+  {
+   "title": "Counterpoint：预计 2030 年全球人形机器人 AI 加速器累计出货破 100 万台、2026–2030 年 CAGR 达 144%，英伟达主导 GPU 市场，高通、特斯拉、小鹏等 ASIC 阵营崛起",
+   "url": "https://www.ithome.com/1/018/075.htm",
+   "source": "IT之家",
+   "date": "2026-10-26",
+   "summary": "英伟达与智元、宇树、优必选、Figure 等深度合作；高通已与 Neura、Figure 等达成设计合作；地瓜机器人 RDK S100 强化国产算力生态。",
+   "id": "a4c3ea5250b18165b5b66f4e1240c6c8c8208535",
    "module": "industry",
    "module_name": "行业与融资",
    "first_seen": "2026-10-26T18:40:00+08:00"
