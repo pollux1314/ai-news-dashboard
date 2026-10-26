@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-26T14:30:00+08:00",
- "count": 1658,
+ "updated": "2026-10-26T15:30:00+08:00",
+ "count": 1660,
  "items": [
+  {
+   "title": "AI 推理服务商趋境科技（Approaching.AI）完成超 13 亿元 B 轮融资，年内累计募资 24 亿元，称多项核心经营指标半年内增长超十倍",
+   "url": "https://www.qbitai.com/2026/10/505429.html",
+   "source": "量子位",
+   "date": "2026-10-26",
+   "summary": "浙财创新、萧山资本、工银投资、中关村科学城等领投，商汤科技、网宿科技等跟投；资金将投向高品质 AI Token 产能扩张、ATaaS 平台迭代与推理底层技术研发，距 7 月 A 轮仅约三个月。",
+   "id": "261b58229402f1721e31e99d3d8844bc34a94047",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T15:30:00+08:00"
+  },
+  {
+   "title": "成立仅 3 个月的深圳具身芯片公司炎曦动力首次亮相，发布具身基座模型 Paimon-0：RoboColiseum 以 0.7754 分居首，通用操作子榜超过 GPT-6 Astra 等通用大模型",
+   "url": "https://www.qbitai.com/2026/10/505186.html",
+   "source": "量子位",
+   "date": "2026-10-26",
+   "summary": "Paimon-0 还在 RoboCasa365（58.1 分）、VLA-Arena（平均成功率 0.73）登顶，并夺得 IROS Workshop 双臂操作挑战赛冠军；公司称方案在公开前已有客户下单。成绩为公司及榜单自报。",
+   "id": "ad05fe666cb1fbf12fa8b44dd8451ed781059280",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T15:30:00+08:00"
+  },
   {
    "title": "AI 交易降温：两只挂钩 SK 海力士 ADR 的 Tradr 美股杠杆 ETF（SKHA 2 倍多、SKHN 2 倍空）上市仅三个月将于 11 月 12 日左右清盘",
    "url": "https://www.ithome.com/1/017/896.htm",
