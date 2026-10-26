@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-26T20:35:00+08:00",
- "count": 1671,
+ "updated": "2026-10-26T21:40:00+08:00",
+ "count": 1673,
  "items": [
+  {
+   "title": "Anthropic 正式向美国 SEC 公开提交 S-1 招股书，拟以代码“ANT”登陆纳斯达克：2026 上半年营收 163 亿美元、净亏损 807 亿美元，发行规模与定价暂未公布",
+   "url": "https://www.anthropic.com/news/s1-sec",
+   "source": "Anthropic",
+   "date": "2026-10-26",
+   "summary": "Anthropic 6 月已秘密递表，本次公开 S-1 由高盛、摩根士丹利牵头；CNBC 称巨额账面亏损主要来自可转换票据公允价值变动，文件还披露将按月向 SpaceX 支付约 31 亿美元获取英伟达 GPU 算力、至 2029 年最高 1,205 亿美元。美联社称其最早下月上市，或超越 SpaceX 6 月 860 亿美元纪录成为史上最大 IPO。",
+   "id": "edf59637f599d673936feb2660654973133b362c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-26T21:40:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI：官方宣布已向美国 SEC 提交与拟议 IPO 相关的 S-1 注册声明",
+   "url": "https://x.com/AnthropicAI/status/2114705042817110293",
+   "source": "X",
+   "date": "2026-10-26",
+   "summary": "帖子发布于北京时间 10 月 26 日 21:05，数小时内获约 27 万次浏览、4,300 余赞；拟在纳斯达克以“ANT”代码上市。",
+   "id": "938904a06ff5f023ff3814265955cd68df382bd4",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-26T21:40:00+08:00"
+  },
   {
    "title": "Meta 宣布至多 950 亿美元股权融资计划为 AI 扩张输血：首期约 350 亿美元（225 亿美元 A 类普通股远期出售 + 125 亿美元强制可转换优先股），后续至多 600 亿美元按市价发行；英伟达、AMD、博通有意各认购至多 50 亿美元",
    "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",

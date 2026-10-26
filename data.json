@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T20:35:00+08:00",
+  "updated": "2026-10-26T21:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "Anthropic 正式向美国 SEC 公开提交 S-1 招股书，拟以代码“ANT”登陆纳斯达克：2026 上半年营收 163 亿美元、净亏损 807 亿美元，发行规模与定价暂未公布",
+          "url": "https://www.anthropic.com/news/s1-sec",
+          "source": "Anthropic",
+          "date": "2026-10-26",
+          "summary": "Anthropic 6 月已秘密递表，本次公开 S-1 由高盛、摩根士丹利牵头；CNBC 称巨额账面亏损主要来自可转换票据公允价值变动，文件还披露将按月向 SpaceX 支付约 31 亿美元获取英伟达 GPU 算力、至 2029 年最高 1,205 亿美元。美联社称其最早下月上市，或超越 SpaceX 6 月 860 亿美元纪录成为史上最大 IPO。"
+        },
+        {
           "title": "Meta 宣布至多 950 亿美元股权融资计划为 AI 扩张输血：首期约 350 亿美元（225 亿美元 A 类普通股远期出售 + 125 亿美元强制可转换优先股），后续至多 600 亿美元按市价发行；英伟达、AMD、博通有意各认购至多 50 亿美元",
           "url": "https://www.cnbc.com/2026/10/26/meta-stock-offering-ai.html",
           "source": "CNBC",
@@ -118,13 +125,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "对比英伟达 10 月官方文档与 6 月存档：HGX NVL8 显存从 2.3TB/176TB/s 降至 2TB/130TB/s，NVFP4 与 FP8/FP6 训练算力下调，NVLink Switch 带宽从 28.8TB/s 降至 24TB/s；Vera CPU 内存改为“至多”1.5TB LPDDR5X。"
-        },
-        {
-          "title": "德国普鲁士电力（PreussenElektra）与英伟达合作，评估在已停运核电站原址改建“AI 工厂”数据中心的可行性",
-          "url": "https://www.ithome.com/1/017/747.htm",
-          "source": "IT之家",
-          "date": "2026-10-26",
-          "summary": "德国 2023 年关停全部核电站，普鲁士电力负责其中八座的退役拆除；核电站拥有大片工业用地、高容量电网接入与可复用冷却系统，可降低 AI 数据中心前期投资。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@AnthropicAI：官方宣布已向美国 SEC 提交与拟议 IPO 相关的 S-1 注册声明",
+          "url": "https://x.com/AnthropicAI/status/2114705042817110293",
+          "source": "X",
+          "date": "2026-10-26",
+          "summary": "帖子发布于北京时间 10 月 26 日 21:05，数小时内获约 27 万次浏览、4,300 余赞；拟在纳斯达克以“ANT”代码上市。"
+        },
+        {
           "title": "@elonmusk：过去几周债务市场几乎已对所有缺乏独立于 AI 数据中心之外可观收入的公司关闭融资通道；SpaceX 已为 GPU 完成 400 亿美元债务融资，因其拥有投资级评级及星链与发射业务",
           "url": "https://x.com/elonmusk/status/2114434646914068862",
           "source": "X",
@@ -496,13 +503,6 @@
           "source": "X @amorriscode",
           "date": "2026-10-24",
           "summary": "Morris 称 10 月 23 日是他在 Anthropic 的最后一天，“创建桌面版 Claude Code 是因为相信人人都能成为构建者”，感谢社区的每个功能请求与 bug 反馈；未透露去向。该帖约 85 万次浏览、8500 赞，正值 Anthropic 据报 11 月中旬 IPO 前夕。"
-        },
-        {
-          "title": "@trq212：Claude Code 核心工程师 Thariq Shihipar 宣布离开 Anthropic——称在 Claude Code 工作一年多，见证其规模远超想象",
-          "url": "https://x.com/trq212/status/2113844051938054167",
-          "source": "X @trq212",
-          "date": "2026-10-24",
-          "summary": "Thariq 表示仍深爱 Anthropic、认同其使命与“向上竞争”的理念，离职后打算先休息；该帖已获约 2.9 万赞、480 万次浏览，众多开发者与业内人士留言致谢。"
         }
       ]
     }
