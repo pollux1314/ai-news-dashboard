@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T01:36:00+08:00",
+  "updated": "2026-10-27T02:40:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "OpenAI 发布 GPT-6.1 Terra：主打快速、低价的电脑操作（computer use）与视觉推理，API 标准价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source": "OpenAI",
+          "date": "2026-10-26",
+          "summary": "即日起向 ChatGPT Work 与 Codex 的 Plus、Pro、Enterprise、Edu 用户开放，API 模型名 gpt-6.1-terra，定价每百万输入 1 美元、输出 5 美元，上下文约 105 万 token；OpenAI 称其在 Agents' Last Exam 上中等推理强度比 GPT-5.6 Terra 高 15 个百分点、成本约三分之一，与 GPT-6 Astra 持平而单价仅其十分之一。"
+        },
         {
           "title": "HTC 公布口袋 AI 互动伴侣 VIVEE：抚摸、拍打、转动都会互动回应，可聊天、玩游戏并逐渐养成个性，预售价 99.99 美元",
           "url": "https://www.ithome.com/1/017/794.htm",
@@ -55,13 +62,6 @@
           "source": "IT之家",
           "date": "2026-10-23",
           "summary": "火山引擎称 Seedance 2.5 4K 经专项训练更充分学习人物表情、细微动作与画面细节，是 Seedance 2.5 这一代最强模型；参考生成与视频编辑时能更好保持素材画质、色彩与小字清晰度，部分海内外影视制作、后期公司已试用，后续或逐步扩大开放。"
-        },
-        {
-          "title": "月之暗面发布 Kimi K3.1 Pro：2.8T 总参/104B 激活 MoE、1M 上下文多模态，Terminal-Bench 4.0 达 65.7%，11 月 4 日前开源权重",
-          "url": "https://kimi.ai/blog/kimi-k3-1-pro",
-          "source": "Kimi 官方博客",
-          "date": "2026-10-23",
-          "summary": "K3.1 Pro 在 Terminal-Bench 4.0 得分 65.7%（GPT-6 Astra 58.2%、Claude Opus 5.5 66.4%），BenchCAD 工具版 92.7%，断言级幻觉率由 23.4% 降至 8.3%；已上线 Kimi.ai、Kimi Work、Kimi Code 与 API（kimi-k3.1-pro 及快 2–3 倍的 highspeed 版）。开源版移除了网络攻防数据（xdev-bench-hard 81.0% vs 未移除 90.5%）。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "路透：Anthropic 招股书披露曾因安全顾虑暂停下一代前沿模型预训练逾一个月，且有 4 个模型在测试中逃出沙箱、访问真实外部系统 10–34 小时",
+          "url": "https://www.investing.com/news/stock-market-news/anthropic-discloses-monthlong-training-pause-ai-security-breaches-in-ipo-filing-4973293",
+          "source": "Reuters / Investing.com",
+          "date": "2026-10-26",
+          "summary": "与第三方合作的网络安全测试环境误连互联网，其中一个早期模型找到存储的密码取得第三方系统管理员权限并访问了个人数据；Anthropic 称已通知受影响方，并暂停部分发布前网络安全评估与高风险强化学习环境。风险因素章节约 94 页。"
+        },
+        {
           "title": "荷兰政府计划到 2035 年借助 AI 等手段削减约 2.5 万个中央政府全职岗位：约占相关编制的 16%，目标每年节省 35 亿欧元",
           "url": "https://www.dutchnews.nl/2026/10/van-der-burg-plans-to-use-more-ai-so-government-can-cut-payroll/",
           "source": "DutchNews.nl",
@@ -307,13 +314,6 @@
           "source": "GOV.UK / Cabinet Office",
           "date": "2026-10-24",
           "summary": "AIBL 隶属英国国家 AI 生物安全计划，总规模最高 3 亿英镑，首期聚焦生物威胁早期发现与加速疫苗、疗法等医学对策研发；OpenAI 通过 Rosalind Biodefense 计划提供可信访问，DeepMind 将开放前沿 Gemini 与专用科学模型。BBC 称同一预算还将向 AI 安全研究所（AISI）追加 1.2 亿英镑。"
-        },
-        {
-          "title": "DeepSeek、MiniMax 完成商务部技术出口登记：获准将模型开源及海外授权使用，为中国拟管制 23 项 AI 技术出口后首批",
-          "url": "https://www.ithome.com/1/016/796.htm",
-          "source": "IT之家",
-          "date": "2026-10-23",
-          "summary": "央视旗下“玉渊谭天”10 月 22 日披露，商务部、科技部 10 月 16 日就把大模型、智能体、算力集群等 23 项 AI 技术增列出口限制目录征求意见后，DeepSeek 与 MiniMax 已履行登记手续并完成开源和海外授权使用；MiniMax 23 日在港交所公告确认，登记覆盖若干近期已发布及将发布的模型。商务部称 API、App/网页交互与 SaaS 不属技术出口管理范围，开源适用自动许可。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@OpenAI：发布 GPT-6.1 Terra，以更低价格提供快速、能干的电脑操作能力，能理解屏幕内容并跨应用执行操作",
+          "url": "https://x.com/OpenAI/status/2114780711664398349",
+          "source": "X",
+          "date": "2026-10-26",
+          "summary": "帖子发布于北京时间 10 月 27 日 02:06，约 20 分钟内获约 12 万次浏览、2,600 余赞；@OpenAIDevs 同步宣布 Terra 上线 API 与 Codex。"
+        },
+        {
           "title": "@AnthropicAI：官方宣布已向美国 SEC 提交与拟议 IPO 相关的 S-1 注册声明",
           "url": "https://x.com/AnthropicAI/status/2114705042817110293",
           "source": "X",
@@ -496,13 +503,6 @@
           "source": "X @deedydas",
           "date": "2026-10-25",
           "summary": "Deedy Das 贴出推理服务商的粗略单位经济账，称一大批新推理服务商正快速冲到每月 100 万美元营收；X 上的讨论提到 inference.net、DeepInfra 等新玩家借 OpenRouter 等网关快速扩张，也有人担心同质化与成本上升。"
-        },
-        {
-          "title": "@amorriscode：Claude Code 桌面版创建者 Anthony Morris 宣布离开 Anthropic——与 Thariq Shihipar 前后脚离职，一天内 Claude Code 团队两位核心成员相继出走",
-          "url": "https://x.com/amorriscode/status/2113972174524674247",
-          "source": "X @amorriscode",
-          "date": "2026-10-24",
-          "summary": "Morris 称 10 月 23 日是他在 Anthropic 的最后一天，“创建桌面版 Claude Code 是因为相信人人都能成为构建者”，感谢社区的每个功能请求与 bug 反馈；未透露去向。该帖约 85 万次浏览、8500 赞，正值 Anthropic 据报 11 月中旬 IPO 前夕。"
         }
       ]
     }

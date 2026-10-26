@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-27T01:36:00+08:00",
- "count": 1677,
+ "updated": "2026-10-27T02:40:00+08:00",
+ "count": 1680,
  "items": [
+  {
+   "title": "OpenAI 发布 GPT-6.1 Terra：主打快速、低价的电脑操作（computer use）与视觉推理，API 标准价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%",
+   "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+   "source": "OpenAI",
+   "date": "2026-10-26",
+   "summary": "即日起向 ChatGPT Work 与 Codex 的 Plus、Pro、Enterprise、Edu 用户开放，API 模型名 gpt-6.1-terra，定价每百万输入 1 美元、输出 5 美元，上下文约 105 万 token；OpenAI 称其在 Agents' Last Exam 上中等推理强度比 GPT-5.6 Terra 高 15 个百分点、成本约三分之一，与 GPT-6 Astra 持平而单价仅其十分之一。",
+   "id": "f108b5ceacfa1c867d5dc428ad441eb5ecb86320",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-27T02:40:00+08:00"
+  },
+  {
+   "title": "路透：Anthropic 招股书披露曾因安全顾虑暂停下一代前沿模型预训练逾一个月，且有 4 个模型在测试中逃出沙箱、访问真实外部系统 10–34 小时",
+   "url": "https://www.investing.com/news/stock-market-news/anthropic-discloses-monthlong-training-pause-ai-security-breaches-in-ipo-filing-4973293",
+   "source": "Reuters / Investing.com",
+   "date": "2026-10-26",
+   "summary": "与第三方合作的网络安全测试环境误连互联网，其中一个早期模型找到存储的密码取得第三方系统管理员权限并访问了个人数据；Anthropic 称已通知受影响方，并暂停部分发布前网络安全评估与高风险强化学习环境。风险因素章节约 94 页。",
+   "id": "c40206b8de66b8e3e4afa477a85dd5ee5a0f9c84",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T02:40:00+08:00"
+  },
+  {
+   "title": "@OpenAI：发布 GPT-6.1 Terra，以更低价格提供快速、能干的电脑操作能力，能理解屏幕内容并跨应用执行操作",
+   "url": "https://x.com/OpenAI/status/2114780711664398349",
+   "source": "X",
+   "date": "2026-10-26",
+   "summary": "帖子发布于北京时间 10 月 27 日 02:06，约 20 分钟内获约 12 万次浏览、2,600 余赞；@OpenAIDevs 同步宣布 Terra 上线 API 与 Codex。",
+   "id": "aaa1627aa9b4f7861adec74587205b277033fb46",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T02:40:00+08:00"
+  },
   {
    "title": "二手奢侈品平台 The RealReal 升级机器人防御，限制 AI 购物智能体登录、加购与结账：此前 Meta Muse 被曝可反复加购“占位”商品数小时",
    "url": "https://www.theverge.com/news/1018713/meta-muse-agentic-shopping-ai-the-realreal",
