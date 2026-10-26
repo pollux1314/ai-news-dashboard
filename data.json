@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T03:30:00+08:00",
+  "updated": "2026-10-27T04:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "前 GitHub CEO Thomas Dohmke 的创业公司 Entire 正式上线面向智能体的 Git 托管平台：用“Trails”取代 PR，每次推送由多个评审智能体打分",
+          "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+          "source": "Entire 官方博客 / The New Stack / The Verge",
+          "date": "2026-10-26",
+          "summary": "Entire 以三大能力切入：Trails 把安全、代码质量、“Slop”等可自定义评测放到页面顶部，每次推送由云端沙箱里的评审智能体独立打分；兼容 Git 的分布式托管（官方称推送最高比 GitHub 快 89 倍）；以及把智能体会话与提示同步进仓库的 Continuous Memory。首发支持私有仓库托管，公开仓库与自托管节点仍在路线图上；公司今年 2 月曾宣布 6000 万美元种子轮。"
+        },
+        {
           "title": "腾讯混元开源同声传译大模型 Hy-SimulMT：中英语音到语音边听边译、支持实时音色克隆，实测响应约 3 秒（人类专业译员平均 4–5 秒）",
           "url": "https://www.ithome.com/1/018/168.htm",
           "source": "IT之家 / Tencent-Hunyuan GitHub",
@@ -244,13 +251,6 @@
           "source": "GitHub microsoft/Agensh / arXiv 2609.26781",
           "date": "2026-10-24",
           "summary": "智能体自主认领子任务、共享发现、验证并异步合并，借助 Gitea 共享仓库、Mattermost 消息与共享上下文协作；在 ProgramBench 五个最难任务上用 GPT-5.6-sol，从 1 到 128 个智能体平均通过率由 19.31% 升至 28.78%；MIT 许可，附 Docker Compose 复现脚本，未披露大规模运行的 token 成本。"
-        },
-        {
-          "title": "StartLux（原点星辉）开源决策模型专用推理引擎 Prism：只算 A–Z 选项的输出层、共享上下文的“森林式”批处理与 int8 计算，单张 H200 最高较原方案提速 5.3 倍且输出逐位一致",
-          "url": "https://pandaily.com/startlux-prism-open-source-decision-model-inference-engine-h200-int8-bit-exact",
-          "source": "Pandaily / GitHub StartLuxLabs",
-          "date": "2026-10-24",
-          "summary": "代码 10 月 22 日在 GitHub（StartLuxLabs/StartLux-Prism）开源，面向 StartLux-Decision 决策模型。官方实测：单个短问题 19ms（原 53.1ms），同一材料三问最高提速 5.3 倍；JevBench 231 题平均 41ms，对比 SGLang 75.6ms、vLLM 112.7ms；int8 版准确率 92.94%，与 BF16 的 92.97% 基本持平，16.55GB 压缩版可跑在单张 32GB RTX 5090 上。数据均为厂商自测。"
         }
       ]
     },

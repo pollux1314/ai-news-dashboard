@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-27T03:30:00+08:00",
- "count": 1682,
+ "updated": "2026-10-27T04:40:00+08:00",
+ "count": 1683,
  "items": [
+  {
+   "title": "前 GitHub CEO Thomas Dohmke 的创业公司 Entire 正式上线面向智能体的 Git 托管平台：用“Trails”取代 PR，每次推送由多个评审智能体打分",
+   "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+   "source": "Entire 官方博客 / The New Stack / The Verge",
+   "date": "2026-10-26",
+   "summary": "Entire 以三大能力切入：Trails 把安全、代码质量、“Slop”等可自定义评测放到页面顶部，每次推送由云端沙箱里的评审智能体独立打分；兼容 Git 的分布式托管（官方称推送最高比 GitHub 快 89 倍）；以及把智能体会话与提示同步进仓库的 Continuous Memory。首发支持私有仓库托管，公开仓库与自托管节点仍在路线图上；公司今年 2 月曾宣布 6000 万美元种子轮。",
+   "id": "2cc0598e6cc3473d207fa4a454c4cb38586341a7",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-27T04:40:00+08:00"
+  },
   {
    "title": "Replit 发文预言 2030 年底所有《财富》500 强都将成为“自动驾驶公司”：人定目标、担责，智能体在公司可控的“Agent Habitat”里执行工作",
    "url": "https://replit.com/blog/rise-of-self-driving-company",
