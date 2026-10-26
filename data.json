@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-26T22:35:00+08:00",
+  "updated": "2026-10-26T23:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "量子位：拿不出模型的 Neolab 开始转售 GPU——Dealroom 统计全球 29 家典型 AI 新兴实验室累计融资 230 亿美元，推出商业化产品的不到 35%",
+          "url": "https://www.qbitai.com/2026/10/505478.html",
+          "source": "量子位",
+          "date": "2026-10-26",
+          "summary": "文章称提前锁定长期算力租约的 Neolab 在 H200 租金一度上涨约 160%、B200 上涨 120% 的现货紧缺下，可通过溢价转租租约、拆分出售闲置 GPU 实例或改跑开源模型卖 token 变现；Modal 创始人预计明年将有一批 Neolab 转型为 Neocloud。"
+        },
+        {
           "title": "Anthropic 正式向美国 SEC 公开提交 S-1 招股书，拟以代码“ANT”登陆纳斯达克：2026 上半年营收 163 亿美元、净亏损 807 亿美元，发行规模与定价暂未公布",
           "url": "https://www.anthropic.com/news/s1-sec",
           "source": "Anthropic",
@@ -118,13 +125,6 @@
           "source": "IT之家（援引彭博）",
           "date": "2026-10-26",
           "summary": "SK 海力士首尔股价较历史高点已跌 56%，做空 ETF 上市以来跌 42%，两只产品总资产较峰值缩水超六成、合计仅约 130 万美元；韩国监管已收紧杠杆产品规则。"
-        },
-        {
-          "title": "英伟达下调 Rubin GPU 系统规格：Vera Rubin 超级芯片 HBM4 带宽由 44TB/s 降至 38.5TB/s、NVLink 由 7.2TB/s 降至 6TB/s，横向扩展网络带宽升至 0.9TB/s，被指为提升 HBM4 良率与产量",
-          "url": "https://www.ithome.com/1/017/812.htm",
-          "source": "IT之家",
-          "date": "2026-10-26",
-          "summary": "对比英伟达 10 月官方文档与 6 月存档：HGX NVL8 显存从 2.3TB/176TB/s 降至 2TB/130TB/s，NVFP4 与 FP8/FP6 训练算力下调，NVLink Switch 带宽从 28.8TB/s 降至 24TB/s；Vera CPU 内存改为“至多”1.5TB LPDDR5X。"
         }
       ]
     },
