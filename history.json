@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-27T04:29:00+08:00",
- "count": 1683,
+ "updated": "2026-10-27T05:35:00+08:00",
+ "count": 1685,
  "items": [
+  {
+   "title": "Jeff Dean 投资的 Q Labs 提出 Dust：首个能在 Transformer 预训练上与反向传播正面竞争的零阶优化方法，在每个 token 的激活上独立加噪声形成“虚拟种群”",
+   "url": "https://qlabs.sh/research/dust/",
+   "source": "Q Labs / 机器之心",
+   "date": "2026-10-26",
+   "summary": "一次前向传播即可并行评估数千个扰动，较权重空间进化策略 EGGROLL 效率高 10³–10⁴ 倍；实验最大到 2.43 亿参数、2000 万 token，大种群下可逼近甚至部分超过反向传播，但计算成本仍远高于反向传播。第三方 SOTAAZ Lab 复现基本成立，换用更好的优化器后反向传播仍明显领先。",
+   "id": "8c6528e580bcaa83299d6e28e1e5e0ee8661c789",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-27T05:35:00+08:00"
+  },
+  {
+   "title": "开源社区解锁英伟达消费级 GPU 被限速的张量算力：RTX 4090 的 FP16/BF16（FP32 累加）张量吞吐从约 165.6 翻倍到 331.6 TFLOPS，无需修改官方驱动",
+   "url": "https://videocardz.com/newz/modders-unlock-hidden-ai-performance-on-nvidia-rtx-20-30-and-40-series-gpus-with-up-to-2x-tensor-throughput",
+   "source": "VideoCardz / 机器之心",
+   "date": "2026-10-26",
+   "summary": "gpu-unlock 系列 Linux 内核模块在官方驱动加载前改写 SM 速率选择寄存器，覆盖 RTX 20/30/40 系；RTX 3090 Ti BF16 矩阵乘从 87.5 升至 157.4 TFLOPS。实际 LLM 预填充提速约 14%–36%，token 生成与游戏基本不变，量化模型无收益，且存在硬件风险。",
+   "id": "1b3cf17920c0365c0f1f35429fc82e3c4ba8076d",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-27T05:35:00+08:00"
+  },
   {
    "title": "前 GitHub CEO Thomas Dohmke 的创业公司 Entire 正式上线面向智能体的 Git 托管平台：用“Trails”取代 PR，每次推送由多个评审智能体打分",
    "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
