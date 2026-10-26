@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-26T07:40:00+08:00",
- "count": 1643,
+ "updated": "2026-10-26T08:35:00+08:00",
+ "count": 1645,
  "items": [
   {
    "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
@@ -12,6 +12,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-26T04:40:00+08:00"
+  },
+  {
+   "title": "无问芯穹与三体宇宙联合发布“智子 Agent 1.0”：以《三体》中 637 号小宇宙管理员智子为原型的角色智能体，支持多轮对话、世界观知识调用与跨会话记忆",
+   "url": "https://www.yangtse.com/news/ch/202610/t20261025_406305.html",
+   "source": "扬子晚报",
+   "date": "2026-10-25",
+   "summary": "双方在“2026 三体日”活动上宣布战略合作，由无问芯穹提供 Agentic Infra 推理底座，让角色智能体保持语气与设定一致，推动国产科幻 IP 智能化。",
+   "id": "d451596e19c07af24b3062b63d36927f23421d05",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T08:35:00+08:00"
   },
   {
    "title": "高盛将韩国 KOSPI 12 个月目标从 12,000 点下调 25% 至 9,000 点：AI 交易退潮，指数较 6 月高点已跌逾 35%",
@@ -188,6 +199,17 @@
    "module": "research",
    "module_name": "研究与论文",
    "first_seen": "2026-10-25T12:40:00+08:00"
+  },
+  {
+   "title": "宇树 Go2 机器狗 AI 语音助手曝 CVSS 9.6 严重漏洞（CVE-2026-115995）：chat_go 组件 set_volume 存在可远程触发的系统命令注入，固件 1.1.11.5 修复",
+   "url": "https://github.com/advisories/GHSA-hr6g-r3r7-8h6f",
+   "source": "GitHub Advisory",
+   "date": "2026-10-24",
+   "summary": "漏洞位于 gpt_thread.py 的音量设置函数，影响 1.1.11.0–1.1.11.4，宇树已确认；同时披露的 CVE-2026-115996 为同组件 WebSocket 客户端未校验 TLS 证书。暂无公开利用代码。",
+   "id": "2effc49de6f76adaf533fa56c214472f59c3e699",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-26T08:35:00+08:00"
   },
   {
    "title": "Anthropic 为 Claude 桌面应用推出新版界面：由 Claude 参与设计，从草图到上线不到 3 周，新增侧边栏，取消衬线字体与暖色背景",
