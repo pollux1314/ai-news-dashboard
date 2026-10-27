@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27T14:28:00+08:00",
- "count": 1712,
+ "updated": "2026-10-27T15:25:00+08:00",
+ "count": 1714,
  "items": [
   {
    "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
@@ -100,6 +100,28 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "英特尔宣布收购量子计算软件公司 Classiq，打造全栈量子计算平台：把 Classiq 的量子算法自动综合平台与英特尔硅自旋量子比特制造结合，预计 2027 年上半年完成交割",
+   "url": "https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum",
+   "source": "Intel 新闻稿 / Calcalist / SiliconANGLE",
+   "date": "2026-10-26",
+   "summary": "英特尔官方未披露价格；Calcalist 报道约 23 亿美元（现金加股票），SiliconANGLE 称约 22 亿美元，为英特尔史上第二大收购。Classiq 平台结合 AI 智能体、高层量子建模语言与设计自动化，客户包括宝马、AT&T，收购后将成为英特尔全球量子计算研发中心。",
+   "id": "2afd018cc0ef2c679563e75c9075c04c5d914901",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T15:25:00+08:00"
+  },
+  {
+   "title": "@arcprize：英伟达 Nemotron 3.5 Super VL 完成 ARC-AGI 官方验证——ARC-AGI-2 得分 1.94%（每任务 0.02 美元）、ARC-AGI-1 得分 22.67%（0.03 美元），是 ARC Prize 首个评测的英伟达模型",
+   "url": "https://x.com/arcprize/status/2114716864832037147",
+   "source": "X · @arcprize",
+   "date": "2026-10-26",
+   "summary": "同日 ARC Prize 还公布 ARC Prize 2026 竞赛 ARC-AGI-3 新高分：Fields Model 的 Yi-Chia Chen 以 71.48% 重回第一，距比赛结束仅剩一周。",
+   "id": "4886e4aa917bdd417da4c587abedb49c69293e95",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T15:25:00+08:00"
   },
   {
    "title": "每经测算 OpenRouter 周榜：DeepSeek V4.1-Flash-1017 单周调用 33.6 万亿 Token 登顶全球、环比增 801%，全球前五均为中国模型",
