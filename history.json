@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T06:30:00+08:00",
+ "updated": "2026-10-28T06:25:00+08:00",
  "count": 1749,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "543233bf7b2526498cd7f7776884bf06a57a297f",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-28T06:30:00+08:00"
+   "first_seen": "2026-10-28T06:25:00+08:00"
   },
   {
    "title": "@AnthropicAI：扩大与美国总务管理局（GSA）的合作，在新的 OneGov 协议下以 4 折优惠向联邦、州、地方、部落及领地政府提供 Claude",
@@ -22,7 +22,7 @@
    "id": "a7c3cd92978215fe71b0793647b4af500a7bee28",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-28T06:30:00+08:00"
+   "first_seen": "2026-10-28T06:25:00+08:00"
   },
   {
    "title": "@AnthropicAI：过去几个月 Anthropic 科学家与六家新药研发机构开展深度研究合作，并已开始自有药物发现工作，总结 Claude 能如何支持药物研发的多个阶段",
@@ -88,7 +88,7 @@
    "id": "e8899bd43794475b98f0076ba7207daa6359a3f5",
    "module": "models",
    "module_name": "大模型与产品发布",
-   "first_seen": "2026-10-28T06:30:00+08:00"
+   "first_seen": "2026-10-28T06:25:00+08:00"
   },
   {
    "title": "美国 GSA 与 Anthropic 扩大 OneGov 协议：联邦、州、地方及部落政府按用量购买 Claude 享 40% 折扣，无最低采购量",
@@ -99,7 +99,7 @@
    "id": "cdc8cbb85799d36a24b36483b819495f8a8dd912",
    "module": "policy",
    "module_name": "政策与监管",
-   "first_seen": "2026-10-28T06:30:00+08:00"
+   "first_seen": "2026-10-28T06:25:00+08:00"
   },
   {
    "title": "Anthropic 披露 Claude 加速药物研发的早期进展：与 BigHat、百时美施贵宝、Divergence Labs、Enveda、Generate Biomedicines、The Column Group 六家机构深度合作，并启动自有药物发现项目",
