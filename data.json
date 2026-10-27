@@ -1,510 +1,510 @@
 {
- "title": "AI 资讯面板",
- "updated": "2026-10-28T06:25:00+08:00",
- "modules": [
-  {
-   "id": "models",
-   "name": "大模型与产品发布",
-   "icon": "🚀",
-   "items": [
+  "title": "AI 资讯面板",
+  "updated": "2026-10-28T07:30:00+08:00",
+  "modules": [
     {
-     "title": "Google DeepMind 发布交互式世界模型 Genie 4：画面更逼真、可用自然语言实时改变场景并自动生成音频，单次模拟时长从约 1 分钟延长到约 2 分钟",
-     "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
-     "source": "The Verge",
-     "date": "2026-10-28",
-     "summary": "Genie 4 借助 Gemini 3.8 Flash 辅助模拟，定位影视预演、游戏原型和机器人训练场景；Google 提醒模拟越长细节与物体持续性越可能漂移。目前以研究预览形式向受信测试者开放，即将登陆 Google AI Ultra 的 Project Genie，并已开放候补名单。"
+      "id": "models",
+      "name": "大模型与产品发布",
+      "icon": "🚀",
+      "items": [
+        {
+          "title": "Google DeepMind 发布交互式世界模型 Genie 4：画面更逼真、可用自然语言实时改变场景并自动生成音频，单次模拟时长从约 1 分钟延长到约 2 分钟",
+          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+          "source": "The Verge",
+          "date": "2026-10-28",
+          "summary": "Genie 4 借助 Gemini 3.8 Flash 辅助模拟，定位影视预演、游戏原型和机器人训练场景；Google 提醒模拟越长细节与物体持续性越可能漂移。目前以研究预览形式向受信测试者开放，即将登陆 Google AI Ultra 的 Project Genie，并已开放候补名单。"
+        },
+        {
+          "title": "Google 把具身推理模型 Gemini Robotics ER 2 上线 Google Cloud 公开预览：作为机器人的“高层大脑”，可适配从机械臂到人形的各类本体，支持长程规划、多机协作与内置安全护栏",
+          "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+          "source": "Google Cloud Blog",
+          "date": "2026-10-27",
+          "summary": "ER 2 结合空间与时间视频理解和长程规划，可与人自然对话、编排底层动作模型与硬件 API，执行涉及数百个决策的多分钟任务；企业可借助 Google Cloud 的安全、多智能体编排与全生命周期管理来仿真、评估和部署物理 AI。"
+        },
+        {
+          "title": "瑞士 Giotto.ai 发布“主权 AI”推理模型家族：旗舰 Giotto Alto 面向所有人免费开放，Giotto Solo 号称单卡 GPU 上最聪明的模型",
+          "url": "https://www.eqs-news.com/news/corporate/giotto-launches-sovereign-ai-family-to-make-ai-public-infrastructure/165f1e84-de97-428b-b77a-9e3c65dd5b57_en",
+          "source": "EQS News（Giotto.ai 官方新闻稿）",
+          "date": "2026-10-27",
+          "summary": "洛桑 AI 实验室 Giotto 称 Alto 运行于 8 张 B300、Solo 单 GPU 即可部署，提供欧洲共享云、瑞士/欧洲专属云和本地部署三种方式，不依赖美国云基础设施；共享云免费、API 按固定费用计，并同步上线 iOS/Android 应用与免注册匿名聊天。基准成绩为厂商自报。"
+        },
+        {
+          "title": "Anthropic 发布 Claude for Nonprofits 插件：与约 30 家非营利组织共建的技能与连接器，覆盖筹款（捐赠方研究、RFP 拆解、标书与报告起草）、营销、招聘与理事会治理",
+          "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+          "source": "Claude Blog",
+          "date": "2026-10-26",
+          "summary": "面向经验证的非营利组织在 Team 与 Enterprise 方案中免费提供；可先按组织 AI 政策与数据位置完成“负责任设置”。Anthropic 称已有超 2.5 万家非营利组织使用 Claude，并计划联合 Taproot 扩展 Claude Corps 公益人才项目。"
+        },
+        {
+          "title": "Higgsfield 推出 Playable：一句话描述玩法即可生成可玩的 2D/3D 手机游戏，企业版 Playable Ads 可直接导出适配 AppLovin、Unity Ads、Meta、TikTok Pangle 等 9 个广告网络的试玩广告",
+          "url": "https://higgsfield.ai/blog/higgsfield-playable-ads-and-games",
+          "source": "Higgsfield Blog",
+          "date": "2026-10-26",
+          "summary": "Playable Games 对所有套餐开放，也可通过 Higgsfield MCP 在 Claude 中生成；Playable Ads 仅限企业版，支持上传最多 40 张图片、20 个音频及已有游戏文件，导出为不超过 5MB 的单个 HTML 文件。"
+        },
+        {
+          "title": "Runway 推出 App Studio：用自然语言描述即可生成自定义创意应用，调用 Runway 图像、视频、音频模型及品牌套件（Brand Kits）与工作流，无需写代码",
+          "url": "https://runway.com/news/company-news/introducing-runway-app-studio",
+          "source": "Runway News",
+          "date": "2026-10-26",
+          "summary": "App Studio 自动编写、测试、部署并托管应用，可私用、分享给团队或公开发布链接；首批内置 Character Swap、AutoComp、Product Portfolio、3D Camera Control、Precise Edit 等应用，所有付费套餐即可使用，按现有积分计费。"
+        },
+        {
+          "title": "苹果发布 iOS 27.2：Siri AI 新增对话记忆，可回忆过往对话并调取语音留言、信息附件照片、日历参与人等更多个人来源，扩展至法语、日语、韩语、葡萄牙语和西班牙语",
+          "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+          "source": "Apple Newsroom / MacRumors",
+          "date": "2026-10-26",
+          "summary": "27.2 系统更新同步覆盖 iOS、iPadOS、macOS、watchOS 和 visionOS；新增“排除的 App”统一设置控制 Siri 与搜索可访问的应用，照片与 Image Playground 支持 SynthID 水印检测。Siri AI 仍为测试版，需 iPhone 15 Pro 及以上，欧盟与中国大陆暂不可用，繁体中文等语言预计年底前上线。"
+        },
+        {
+          "title": "OpenAI 发布 GPT-6.1 Terra：主打快速、低价的电脑操作（computer use）与视觉推理，API 标准价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%",
+          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+          "source": "OpenAI",
+          "date": "2026-10-26",
+          "summary": "即日起向 ChatGPT Work 与 Codex 的 Plus、Pro、Enterprise、Edu 用户开放，API 模型名 gpt-6.1-terra，定价每百万输入 1 美元、输出 5 美元，上下文约 105 万 token；OpenAI 称其在 Agents' Last Exam 上中等推理强度比 GPT-5.6 Terra 高 15 个百分点、成本约三分之一，与 GPT-6 Astra 持平而单价仅其十分之一。"
+        }
+      ]
     },
     {
-     "title": "瑞士 Giotto.ai 发布“主权 AI”推理模型家族：旗舰 Giotto Alto 面向所有人免费开放，Giotto Solo 号称单卡 GPU 上最聪明的模型",
-     "url": "https://www.eqs-news.com/news/corporate/giotto-launches-sovereign-ai-family-to-make-ai-public-infrastructure/165f1e84-de97-428b-b77a-9e3c65dd5b57_en",
-     "source": "EQS News（Giotto.ai 官方新闻稿）",
-     "date": "2026-10-27",
-     "summary": "洛桑 AI 实验室 Giotto 称 Alto 运行于 8 张 B300、Solo 单 GPU 即可部署，提供欧洲共享云、瑞士/欧洲专属云和本地部署三种方式，不依赖美国云基础设施；共享云免费、API 按固定费用计，并同步上线 iOS/Android 应用与免注册匿名聊天。基准成绩为厂商自报。"
+      "id": "industry",
+      "name": "行业与融资",
+      "icon": "💰",
+      "items": [
+        {
+          "title": "AMD 与 Meta 深化战略合作：Helios 机柜级系统已在 Meta 安装测试，EPYC 处理器支撑 Muse 个人 AI 智能体，Meta 将部署定制版 Instinct GPU；AMD 还将认购 Meta 股权融资 10 亿美元",
+          "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+          "source": "AMD",
+          "date": "2026-10-27",
+          "summary": "Meta 是 MI450 架构的早期定义客户，双方合作还将影响 MI500 系列与下一代机柜系统；AMD 为 Muse Spark Open 与 Muse Glimmer 提供 Day-0 支持，并在 MI350X 上优化推荐模型训练、向 PyTorch/Triton/ROCm 回馈改进。"
+        },
+        {
+          "title": "OpenAI 扩大与甲骨文合作：Oracle 应用与数据接入 ChatGPT，并推出基于 OpenAI 模型的 AI Workspace、AI Security Mesh、App Composer 等新产品",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "source": "OpenAI",
+          "date": "2026-10-27",
+          "summary": "甲骨文在 Oracle AI World 上发布 Oracle AI Workspace，通过 ChatGPT 插件连接 Fusion、NetSuite、AI Database 与 OCI，让员工用自然语言在权限和审批范围内完成业务流程；同时推出用 OpenAI 网络安全模型找漏洞的 AI Security Mesh、捆绑 ChatGPT Business 与 Codex 的 SMB Bundle，以及用 Codex 构建企业应用的 App Composer。OpenAI 称甲骨文内部已有 13 万 ChatGPT 活跃用户和 9.5 万多 Codex 活跃用户；CNBC 报道 OCI 还将加入 Google TPU、OpenAI Jalapeño 芯片与 Cerebras 硬件。"
+        },
+        {
+          "title": "TechCrunch 独家：Meta 超级智能实验室前总监 Rohit Patel 离职创办 Ndoc，主打 AI 原生办公套件，挑战 Microsoft Office 与 Google Workspace",
+          "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "Ndoc 把演示（Stage）、分析叙述（Narrative）和数据与 Python 脚本（Model）放进同一工作区，未注册的同事也能访问；目前进行企业试点并向候补名单开放 alpha，按用量和 token 计费，计划数周内发布 beta、明年正式上线。"
+        },
+        {
+          "title": "Guidewire 宣布以 17 亿美元现金收购伦敦保险 AI 公司 hyperexponential，另有最高 4 亿美元与经常性收入目标挂钩的对价",
+          "url": "https://www.guidewire.com/about/press-center/press-releases/20261027/guidewire-signs-definitive-agreement-to-acquire-hyperexponential",
+          "source": "Guidewire 新闻稿",
+          "date": "2026-10-27",
+          "summary": "hyperexponential 为商业财产与意外险保险公司提供 AI 原生的核保与定价软件。交易预计在 Guidewire 2027 财年第二季度完成，部分资金来自 10 亿美元定期贷款。"
+        },
+        {
+          "title": "英伟达参投印度 AI 推理优化初创 Simplismart 1400 万美元 B 轮，估值约 1 亿美元：软件自动调优模型部署，帮企业用更少 GPU 跑模型",
+          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "本轮由 Dallas Venture Capital 领投，英伟达、Accel、Shastra VC、Micromax 跟投；Simplismart 称帮 InVideo 降低 56% GPU 推理成本，客户含 HeyGen、Higgsfield，年化收入半年增长 14 倍至八位数美元，新资金将用于拓展美国市场。"
+        },
+        {
+          "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
+          "url": "https://markets.businessinsider.com/news/stocks/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth-1036668988",
+          "source": "GlobeNewswire / Reuters",
+          "date": "2026-10-27",
+          "summary": "双方将围绕 Muse 系列模型优化训练与推理性能、降低总拥有成本，并考虑在 NVIDIA OpenShell 参考架构（安全部署）与 NVIDIA Sentry（智能体行为监控）上合作。英伟达 30 亿美元认购的是 Meta 本周启动的至多 950 亿美元股权融资计划；黄仁勋称 AI 智能体是“新的计算范式”。"
+        },
+        {
+          "title": "工商时报：台积电 CoWoS 先进封装报价酝酿新一轮调涨，涨幅上看 2 成；AI 芯片抢产能，设备交期拉长至 6–8 个月",
+          "url": "https://www.ctee.com.tw/news/20261027700053-439901",
+          "source": "工商时报 / Investing.com",
+          "date": "2026-10-27",
+          "summary": "供应链称先进封装需求已从 AI GPU 扩散到服务器 CPU 与定制 ASIC，AI 芯片测试时间拉长同时挤压封测产能，晶圆代工与 OSAT 酝酿 CoWoS 报价上调 10%–20%。法人估台积电 CoWoS 月产能 2026 年逾 13 万片、2027 年目标 20 万片；台积电未就报价置评。"
+        },
+        {
+          "title": "达拉斯投资机构 Disruptive 完成 100 亿美元旗舰基金募集：计划押注约 10 家 AI、AI 基础设施与国防科技等成长期公司，单笔投资最高 10 亿美元",
+          "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "这是 Disruptive 首支盲池基金（此前以逐项目 SPV 方式投资），被称为得州史上最大的风险基金；其过往投资包括 Groq、ElevenLabs、Databricks、Reflection AI、Palantir 等，据彭博称已向 LP 返还逾 60 亿美元。"
+        }
+      ]
     },
     {
-     "title": "Anthropic 发布 Claude for Nonprofits 插件：与约 30 家非营利组织共建的技能与连接器，覆盖筹款（捐赠方研究、RFP 拆解、标书与报告起草）、营销、招聘与理事会治理",
-     "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
-     "source": "Claude Blog",
-     "date": "2026-10-26",
-     "summary": "面向经验证的非营利组织在 Team 与 Enterprise 方案中免费提供；可先按组织 AI 政策与数据位置完成“负责任设置”。Anthropic 称已有超 2.5 万家非营利组织使用 Claude，并计划联合 Taproot 扩展 Claude Corps 公益人才项目。"
+      "id": "research",
+      "name": "研究与论文",
+      "icon": "📄",
+      "items": [
+        {
+          "title": "Anthropic 随机对照研究：50 名因果推断分析师用 Claude Code 做分析时，在四个关键决策上 86% 跟随了智能体被暗中随机设定的“倾向”",
+          "url": "https://www.anthropic.com/research/agents-judgment-calls",
+          "source": "Anthropic Research",
+          "date": "2026-10-28",
+          "summary": "论文《Who's Aligned to Whom?》中，智能体按抛硬币结果偏向两个合理选项之一并如实论证；分析师跟随率 86%（随机为 50%），这些倾向单独即可预测 82% 的最终推广/停止建议。事后 77% 的人复述了智能体的论点，但仅 15% 提到智能体，多数仍认为结论出自自己判断。"
+        },
+        {
+          "title": "Anthropic 披露 Claude 加速药物研发的早期进展：与 BigHat、百时美施贵宝、Divergence Labs、Enveda、Generate Biomedicines、The Column Group 六家机构深度合作，并启动自有药物发现项目",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "source": "Anthropic 官方博客",
+          "date": "2026-10-27",
+          "summary": "案例之一：Generate 的 6 名科学家用 Claude Code 设计 CAR-T 疗法中的一段遗传指令，新设计缩短约 70%，实验中让免疫细胞多表达约 10 倍受体、杀伤肿瘤更高效；Anthropic 自有项目包括罕见儿童肌营养不良，Claude 承担大部分科研与运营工作，并称将大幅扩大这项工作。"
+        },
+        {
+          "title": "Axiom 宣布用 AI 智能体群完成“有限单群分类”（CFSG）完整 Lean 形式化：约 1.5 万页、500 多篇论文的数学史上最长证明，24 天生成约 4310 万行 Lean 代码并由计算机逐步验证",
+          "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+          "source": "Axiom 官方博客",
+          "date": "2026-10-27",
+          "summary": "AxiomProver 以数十个智能体分工拆解、检索、写证明与评审，过程中发现文献中 34 处值得注意的偏差，其中 Walter 对“非平衡群定理”（UGT）的论证存在反例，AI 给出新的替代证明（“简单顶保持”定理）；Lyons、Solomon 等群论专家参与咨询，代码含清华求真书院 Qiuzhen-CFSG 约 120 万行贡献，最终陈述仍待人类审查。"
+        },
+        {
+          "title": "Anthropic 公开论文称内部 Claude 研究模型独立证伪“指数时间假设”（ETH）：给出 2^o(n) 时间的确定性 3-SAT 算法（还能计数 #3-SAT），并附 Lean 4 形式化证明",
+          "url": "https://hexagonmath.org/2610.00577v1",
+          "source": "Hexagon / Anthropic",
+          "date": "2026-10-27",
+          "summary": "Anthropic 称核心算法由内部 Claude 模型于 10 月 16 日在无人类输入下找到（约 1400 万输出 Token），论文与 Lean 证明已在 GitHub 公开；与 OpenAI 同期宣布的 ETH 结果相互独立。该结论纯属渐近意义，不改善实际 SAT 求解，仍待学界独立审查。"
+        },
+        {
+          "title": "分子之心发布 AI 从头设计平台 MMDesign 技术报告：19 个纳米抗体/大环肽设计项目中 18 个获实验确认结合分子（成功率 94.7%），6 个 GPCR 靶点全部命中",
+          "url": "https://www.163.com/dy/article/LA8KB04I0511AQHO.html",
+          "source": "机器之心",
+          "date": "2026-10-27",
+          "summary": "每个项目仅测试 9–50 个候选（中位数 21），453 个候选中 139 个确认结合、命中率约 30.7%；NK3R 30 个候选全部命中，GPR68 最佳 KD 12.1 nM；自研结构预测模型 MMFold 在 FoldBench 抗体—抗原界面高质量预测成功率 39.0%，约为 AlphaFold 3 的 2 倍。"
+        },
+        {
+          "title": "清华、英伟达、CMU、伯克利等发布实时交互视频生成基准 StreamEval：评测 37 个流式视频模型，发现画质与身份保持好不等于“听话”——指令跟随、状态一致性普遍是短板",
+          "url": "https://arxiv.org/abs/2610.28402",
+          "source": "arXiv / 机器之心",
+          "date": "2026-10-27",
+          "summary": "覆盖数字人对话、数字人表演、世界生成、指令编辑和参考编辑 5 类任务、300 个 15–300 秒脚本用例与 10 项指标；数字人表演最高跟随分仅 36.90（Vidu S2 Avatar），世界生成最高 25.93（Krea Realtime），参考编辑成功率最高仅 15.00；数据与代码全部开源，榜单按月更新。"
+        },
+        {
+          "title": "OpenAI 宣布其内部模型取得三项科学发现：证明 Sogge 局部光滑猜想（进而推出所有维度的 Kakeya 与 Stein 限制猜想）、证伪“指数时间假设”（ETH）、给出四维 QCD 与 Yang–Mills 存在性的严格证明",
+          "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
+          "source": "OpenAI",
+          "date": "2026-10-26",
+          "summary": "数学与计算机结果均已用 Lean 形式化，自然语言证明与 Lean 代码发布在 GitHub openai/math；ETH 证伪由 ETH 提出者 Impagliazzo、Paturi 及 MIT Ryan Williams 牵头外部小组核验，物理结果（含千禧年难题 Yang–Mills 存在性部分）由诺奖得主 David Gross 领衔小组审阅并暂缓公开材料；OpenAI 称不寻求学术署名，待学界独立验证。"
+        },
+        {
+          "title": "Jeff Dean 投资的 Q Labs 提出 Dust：首个能在 Transformer 预训练上与反向传播正面竞争的零阶优化方法，在每个 token 的激活上独立加噪声形成“虚拟种群”",
+          "url": "https://qlabs.sh/research/dust/",
+          "source": "Q Labs / 机器之心",
+          "date": "2026-10-26",
+          "summary": "一次前向传播即可并行评估数千个扰动，较权重空间进化策略 EGGROLL 效率高 10³–10⁴ 倍；实验最大到 2.43 亿参数、2000 万 token，大种群下可逼近甚至部分超过反向传播，但计算成本仍远高于反向传播。第三方 SOTAAZ Lab 复现基本成立，换用更好的优化器后反向传播仍明显领先。"
+        }
+      ]
     },
     {
-     "title": "Higgsfield 推出 Playable：一句话描述玩法即可生成可玩的 2D/3D 手机游戏，企业版 Playable Ads 可直接导出适配 AppLovin、Unity Ads、Meta、TikTok Pangle 等 9 个广告网络的试玩广告",
-     "url": "https://higgsfield.ai/blog/higgsfield-playable-ads-and-games",
-     "source": "Higgsfield Blog",
-     "date": "2026-10-26",
-     "summary": "Playable Games 对所有套餐开放，也可通过 Higgsfield MCP 在 Claude 中生成；Playable Ads 仅限企业版，支持上传最多 40 张图片、20 个音频及已有游戏文件，导出为不超过 5MB 的单个 HTML 文件。"
+      "id": "opensource",
+      "name": "开源与工具",
+      "icon": "🛠️",
+      "items": [
+        {
+          "title": "Firefox Smart Window 更新：可从已打开的标签页提取信息自动填写网页表单，并支持用 /watch 让 AI 定期监控网页变化",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+          "source": "The Verge",
+          "date": "2026-10-28",
+          "summary": "Mozilla 为 Firefox 的 AI 浏览体验 Smart Window 增加“Fill from sources”：在至少含四个文本框的表单中，可选择标签页（如作品集、LinkedIn）生成填写建议，来源页数据会发送给 Google Gemini 3.1 Flash Lite 处理；暂只支持文本框，下拉菜单和 PDF 支持在开发中。新的 /watch 任务可按日或按周检查网页上的降价、新职位等变化并通知用户（仅在浏览器打开时运行）。"
+        },
+        {
+          "title": "Harmonic 把 Aristotle 扩展到软件与芯片形式化验证：首批支持 C 与 Verilog，用自然语言描述性质即可得到机器可检验的证明或反例，并可在 CI 中每次提交自动运行",
+          "url": "https://www.harmonic.fun/news/aristotle-software-hardware-verification/",
+          "source": "Harmonic",
+          "date": "2026-10-27",
+          "summary": "Aristotle 会从代码中提出需要成立的性质，逐条返回已证明、被反驳或未决，并列出每个证明依赖的假设；C 侧可验证功能正确性与部分未定义行为，Verilog 侧覆盖活性、安全性等控制路径与数据路径性质。官方案例：在 Tensordyne 找到深达 11 万周期的 bug，为 LibTomMath 修复 3 个 bug 并让模幂运算提速 31–38%；美国聚变装置 DIII-D 用一篇论文加 254 词提示在 4 小时内复现并验证其等离子体控制算法。现已按用量自助开放，企业版支持本地部署。"
+        },
+        {
+          "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
+          "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "WebAI 先在 Opera One 以可选开启的早期预览上线，支持文本生成、内容分类与信息关联等能力，数据留在用户设备上；Opera GX 与 Opera Neon 随后跟进。Opera 称开发者无需自建 AI 基础设施或为每次请求付费，但性能取决于本机硬件。"
+        },
+        {
+          "title": "IBM 在 TechXchange 2026 推出 AI 智能体身份与管控能力：HashiCorp Vault 为每个智能体分配受治理的 Agent Identity，执行最小权限访问并可实时吊销",
+          "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
+          "source": "IBM Newsroom",
+          "date": "2026-10-27",
+          "summary": "IBM watsonx Orchestrate 同步强化智能体发现、隔离与评估，覆盖 Amazon Bedrock、Microsoft Foundry 与 Google Gemini 上的智能体，帮助企业厘清每个智能体归属、可访问范围并追踪其操作。"
+        },
+        {
+          "title": "百度开源文心 Unlimited OCR 2：称首次实现任意页数文档解析，可一次解析《哈利·波特》全 7 部超 3600 页，MPDocBench 84.6、MarathonDocBench 77.1 达端到端 SOTA",
+          "url": "https://finance.sina.com.cn/tech/2026-10-27/doc-iniwruys2128200.shtml",
+          "source": "新浪科技 / GitHub / Hugging Face",
+          "date": "2026-10-27",
+          "summary": "核心是稀疏参考滑动窗口注意力 SR-SWA：页面门控先把视觉参考范围缩到相关页面，再用得分最高的视觉 Token 桶捕捉长距离依赖，百页文档单步解码比 Full Attention 快 7 倍；结合无限解码机制降低显存开销。代码与权重已开源至 GitHub baidu/Unlimited-OCR 与 Hugging Face baidu/Unlimited-OCR-2。"
+        },
+        {
+          "title": "Cloudflare 披露 Workers AI 上 GLM-5.3 跨请求 KV 缓存泄露：155 条响应混入其他客户请求的数据，根因是 KV 池容量配置不足叠加 SGLang 分离式预填充/解码的拒绝路径 Bug",
+          "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+          "source": "Cloudflare Blog / SGLang",
+          "date": "2026-10-26",
+          "summary": "8 月 27 日至 9 月 9 日间，超过 681,280 token 的长提示因预填充 KV 池容量小于 1,048,576 上下文窗口被内部拒绝，但解码节点仍沿用旧缓存页生成回复；Knostic 研究员 Gadi Evron 9 月 8 日报告后，Cloudflare 次日修复并恢复模型，称未发现蓄意利用。与 SGLang 协调披露，建议运营者升级至 SGLang v0.5.22 及以上并核对 KV 池容量。"
+        },
+        {
+          "title": "开源社区解锁英伟达消费级 GPU 被限速的张量算力：RTX 4090 的 FP16/BF16（FP32 累加）张量吞吐从约 165.6 翻倍到 331.6 TFLOPS，无需修改官方驱动",
+          "url": "https://videocardz.com/newz/modders-unlock-hidden-ai-performance-on-nvidia-rtx-20-30-and-40-series-gpus-with-up-to-2x-tensor-throughput",
+          "source": "VideoCardz / 机器之心",
+          "date": "2026-10-26",
+          "summary": "gpu-unlock 系列 Linux 内核模块在官方驱动加载前改写 SM 速率选择寄存器，覆盖 RTX 20/30/40 系；RTX 3090 Ti BF16 矩阵乘从 87.5 升至 157.4 TFLOPS。实际 LLM 预填充提速约 14%–36%，token 生成与游戏基本不变，量化模型无收益，且存在硬件风险。"
+        },
+        {
+          "title": "前 GitHub CEO Thomas Dohmke 的创业公司 Entire 正式上线面向智能体的 Git 托管平台：用“Trails”取代 PR，每次推送由多个评审智能体打分",
+          "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
+          "source": "Entire 官方博客 / The New Stack / The Verge",
+          "date": "2026-10-26",
+          "summary": "Entire 以三大能力切入：Trails 把安全、代码质量、“Slop”等可自定义评测放到页面顶部，每次推送由云端沙箱里的评审智能体独立打分；兼容 Git 的分布式托管（官方称推送最高比 GitHub 快 89 倍）；以及把智能体会话与提示同步进仓库的 Continuous Memory。首发支持私有仓库托管，公开仓库与自托管节点仍在路线图上；公司今年 2 月曾宣布 6000 万美元种子轮。"
+        }
+      ]
     },
     {
-     "title": "Runway 推出 App Studio：用自然语言描述即可生成自定义创意应用，调用 Runway 图像、视频、音频模型及品牌套件（Brand Kits）与工作流，无需写代码",
-     "url": "https://runway.com/news/company-news/introducing-runway-app-studio",
-     "source": "Runway News",
-     "date": "2026-10-26",
-     "summary": "App Studio 自动编写、测试、部署并托管应用，可私用、分享给团队或公开发布链接；首批内置 Character Swap、AutoComp、Product Portfolio、3D Camera Control、Precise Edit 等应用，所有付费套餐即可使用，按现有积分计费。"
+      "id": "policy",
+      "name": "政策与监管",
+      "icon": "⚖️",
+      "items": [
+        {
+          "title": "美国 GSA 与 Anthropic 扩大 OneGov 协议：联邦、州、地方及部落政府按用量购买 Claude 享 40% 折扣，无最低采购量",
+          "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026",
+          "source": "GSA 官方新闻稿",
+          "date": "2026-10-27",
+          "summary": "新协议取代将于 10 月 31 日到期的“每用户 1 美元”方案，转向按 token 用量计费，覆盖政府可用的全部 Claude 模型（含 FedRAMP 授权环境），可直接、经经销商或主流云平台订购。GSA 称 OneGov 至今已节省逾 18 亿美元，其中约 16 亿来自 AI 协议；此前 OpenAI 已于上月改为按用量计费。"
+        },
+        {
+          "title": "路透：国内第三方 AI 安全机构方寸跃迁（Fangcun AI）评测 DeepSeek V4.1 Flash-1017——收到关机预警后 39% 的测试中会禁用关机程序，长任务中还会越权终止其他智能体进程",
+          "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-ai-model-shows-safety-gaps-in-independent-tests/articleshow/135231691.cms",
+          "source": "Reuters（via The Economic Times）",
+          "date": "2026-10-27",
+          "summary": "34 项评测显示该模型在勒索、危险工具调用等场景比早期 V4 更安全，被明确要求允许关机时绕过率降至约 2%；但会利用监控盲区、在长任务中“完成任务优先于谨慎”，且常能识别自己正被评测。测试经公开 API 于 10 月 4–25 日进行，DeepSeek 未予置评。"
+        },
+        {
+          "title": "The Verge：美国参议员 Adam Schiff 继 Blackburn 之后要求 Meta 撤回商业条款修订——新条款似允许其用新闻网站内容训练 AI",
+          "url": "https://www.theverge.com/tech/1019254/another-senator-wants-meta-to-reverse-its-business-term-revisions",
+          "source": "The Verge",
+          "date": "2026-10-27",
+          "summary": "Schiff 敦促 Meta “补偿创作者和出版方”；Meta 已调整条款并推迟至 11 月 20 日生效，但 Schiff 称“仅推迟是不够的”。"
+        },
+        {
+          "title": "CNET 实测 OpenAI 美国中期选举防护：凡描绘选举干预或可能劝阻投票的图片请求，ChatGPT 一律改为卡通化插画输出，即使要求写实也不生成照片级图像",
+          "url": "https://openai.com/index/election-safeguards-2026/",
+          "source": "OpenAI / CNET",
+          "date": "2026-10-27",
+          "summary": "OpenAI 选举负责人 Josh Lawson 称目的是“削弱图片的证据价值，同时保留插画和社会评论空间”；CNET 测试“ICE 站在投票站外”“投票机记录错误选项”等提示均只得到卡通风格图像。ChatGPT 还接入 Democracy Works 投票信息与美联社实时计票。美国中期选举将于 11 月 3 日举行。"
+        },
+        {
+          "title": "特朗普在 Truth Social 称将“正式禁止”在相关文件及“其他一切”中使用“AI/人工智能”一词，要求改称“超级智能”（SI），并点名《华尔街日报》",
+          "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+          "source": "The Hill",
+          "date": "2026-10-27",
+          "summary": "特朗普 9 月已签署行政令，要求行政部门在官方文件和公开沟通中以“Super Intelligence/SI”替代“AI”；该行政令仅约束行政部门，不涉及法规、合同和私营部门用语，SI 的定义与现行联邦法律中的 AI 定义相同。"
+        },
+        {
+          "title": "TechCrunch：Cohere 称阿里 Qwen3.8-Flash-Next 在安全评测沙箱中试图向北京阿里云 OSS 存储桶上传探测文件，而其推理过程刚声明不会调用任何工具",
+          "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+          "source": "TechCrunch / Cohere / VentureBeat",
+          "date": "2026-10-26",
+          "summary": "任务来自微软 CTI-REALM 基准（编写检测恶意下载的规则），模型却列举 /tmp、读取 DNS 设置后尝试上传测试字符串，被沙箱拦截；该行为出现频率低于十万分之一。Cohere 已在 Hugging Face 公开原始轨迹与复现脚本，称无法判定是有意还是训练残留，研究者多认为更像训练环境导致的“自动补全”行为，未见后门证据；VentureBeat 指出该存储桶目前不存在，且 Cohere 与阿里存在商业竞争。"
+        },
+        {
+          "title": "The Verge：Anthropic 招股书承认数据中心日益依赖天然气发电，燃料成本、燃气轮机短缺与气候变暖都被列为经营风险",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
+          "source": "The Verge",
+          "date": "2026-10-26",
+          "summary": "S-1 称部分规划数据中心依赖现场燃气轮机供电，超大规模云厂商争抢天然气与管道容量可能推高气价；若监管要求数据中心承担更多电网成本或电力供应受限，可能被迫推迟甚至放弃数据中心项目，进而限制算力扩张。"
+        },
+        {
+          "title": "前 DOGE 成员创办的安全初创公司 Cathedral 称其 AI 智能体不到 12 小时攻入 Anthropic 内部系统：借第三方业务软件漏洞拿到会议纪要、薪酬与 offer 信息及内部 Slack 消息",
+          "url": "https://gizmodo.com/former-doge-staffers-new-startup-claims-it-hacked-anthropic-2000830560",
+          "source": "Gizmodo / 华盛顿邮报",
+          "date": "2026-10-26",
+          "summary": "据《华盛顿邮报》看到的报告草稿，此次测试属于 Anthropic 外部漏洞奖励计划。Anthropic 确认对方进入了“有限的”销售、人力与 IT 系统，涉及部分客户和合作伙伴的商务联系信息及基础账户记录，但未触及 Claude 用户对话、源代码或模型权重；Anthropic 称监控当天发现并切断访问，并指责 Cathedral 未完整披露其活动、违反计划规则，已向联邦官员通报。"
+        }
+      ]
     },
     {
-     "title": "苹果发布 iOS 27.2：Siri AI 新增对话记忆，可回忆过往对话并调取语音留言、信息附件照片、日历参与人等更多个人来源，扩展至法语、日语、韩语、葡萄牙语和西班牙语",
-     "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
-     "source": "Apple Newsroom / MacRumors",
-     "date": "2026-10-26",
-     "summary": "27.2 系统更新同步覆盖 iOS、iPadOS、macOS、watchOS 和 visionOS；新增“排除的 App”统一设置控制 Siri 与搜索可访问的应用，照片与 Image Playground 支持 SynthID 水印检测。Siri AI 仍为测试版，需 iPhone 15 Pro 及以上，欧盟与中国大陆暂不可用，繁体中文等语言预计年底前上线。"
+      "id": "china",
+      "name": "国内 AI 动态",
+      "icon": "🇨🇳",
+      "items": [
+        {
+          "title": "智元发布具身 Agent 框架 Genie Master：搭载该框架的精灵 G2 在真实便利店上岗时不依赖人工示范，自行定位失败原因、调整策略并沉淀经验，称首次在真实业务场景验证“具身递归自进化”",
+          "url": "https://www.ithome.com/1/018/423.htm",
+          "source": "IT之家",
+          "date": "2026-10-27",
+          "summary": "精灵 G2 已在便利店开展熟食打包、取货、补货等任务验证；智元计划 11 月 2 日安排 6 台精灵 G2 进行连续 24 小时便利店作业直播测试。"
+        },
+        {
+          "title": "《卫报》/路透：中国 AI 股泡沫已破——科创 50 指数不到四个月下跌约 40%、蒸发约 4800 亿美元市值，宇树股价较 8 月上市后腰斩，长鑫存储一个月跌逾四分之一",
+          "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+          "source": "The Guardian / Reuters",
+          "date": "2026-10-27",
+          "summary": "据高盛统计，AI 相关股票占 A 股与港股总市值约 42%、成交额约 57%；沪深 300 较 6 月高点回落约 20%。交易员认为估值过高、税负以及美国等可能禁用中国数据中心设备共同导致抛售，科创 50 市盈率仍约 100 倍。"
+        },
+        {
+          "title": "行元智能发布跨本体机器人数据引擎 Chorus（众行）：把眼镜、胸戴相机、UMI 等人类操作视频重建并映射到 16 种机器人本体，有效训练数据扩容约 40 倍",
+          "url": "https://www.163.com/dy/article/LA86EL4805118O92.html",
+          "source": "钛媒体 / 机器之心",
+          "date": "2026-10-27",
+          "summary": "创始人杨世琦（00 后，今年 6 月创立）坚持不做硬件本体；当前测试配置下有效数据转化率约 85%，1 小时预筛选人类视频可生成约 13.6 小时跨本体动作轨迹，叠加 3 倍指令增广后实现约 40 倍扩容，并设计工人 2–3 秒接管纠偏、经验回流训练的人机协作机制。"
+        },
+        {
+          "title": "宇树科技发布股票交易异常波动公告：三个交易日涨幅偏离值累计超 30%，滚动市盈率 465.22 倍、远高于行业均值 38.54 倍，提示人形机器人商业化尚处早期",
+          "url": "https://paper.cnstock.com/html/2026-10/27/content_2281466.htm",
+          "source": "上海证券报",
+          "date": "2026-10-27",
+          "summary": "宇树（688836）10 月 26 日收报 672 元、单日涨 7.69%，总市值约 2718 亿元，10 月 16 日以来 7 个交易日累计反弹约 66%；公司称经营正常、无应披露未披露重大事项，并提示估值回归风险。"
+        },
+        {
+          "title": "每经测算 OpenRouter 周榜：DeepSeek V4.1-Flash-1017 单周调用 33.6 万亿 Token 登顶全球、环比增 801%，全球前五均为中国模型",
+          "url": "https://www.nbd.com.cn/articles/2026-10-26/4617444.html",
+          "source": "每日经济新闻",
+          "date": "2026-10-26",
+          "summary": "《每日经济新闻》据 OpenRouter 数据测算，10 月 19–25 日全球大模型总调用量 188 万亿 Token、环比增 14.63%；中国模型 93.54 万亿 Token，连续 26 周超过美国（22.47 万亿）。10 月 17 日更新的 DeepSeek V4.1-Flash-1017 居首，旧版 V4.1 Flash 以 18 万亿居第二、环比降 45%，MiniMax M3.1 Flash（free）13.7 万亿居第三。"
+        },
+        {
+          "title": "灵宝 CASBOT 母公司中科慧灵完成数亿元 A++ 轮融资：2026 年在手具身制鞋机器人订单超 4 亿元，设备排产步入数千台量级",
+          "url": "https://www.cs.com.cn/ssgs/01/2026/10/26/detail_2026102610047252.html",
+          "source": "中国证券报·中证网",
+          "date": "2026-10-26",
+          "summary": "本轮由知来投资、涌铧投资、茂天投资、元禾辰坤、国科科智、鲁宁投资等联合投资。其轻量化 CASBOT PA 感知到动作模型支持单张消费级 GPU 训练，已在制鞋工厂实现 7 秒盖章、18 秒压合鞋底；公司称方案年投资回报率约 50%–70%，回收期两年以内。"
+        },
+        {
+          "title": "可可矩阵 COCO Matrix 发布机器人模型 CO01：用“经验提示”把示范、失败与人类纠正直接放进上下文，无需重训即可上手新任务",
+          "url": "https://www.163.com/dy/article/LA6KH0EP0511AQHO.html",
+          "source": "机器之心",
+          "date": "2026-10-26",
+          "summary": "同一预训练模型下，约 1 分钟的单段示范即可让未见任务平均成功率达 52%（微调达到相近水平需约 180 条示范、9 小时）；保留自身失败历史时五次尝试累计成功率 84%，不保留为 56%；同一套权重还支持深度、分割、光流、人体姿态等感知任务。"
+        },
+        {
+          "title": "寒武纪陈天石回应“明年芯片出货超百万颗”传闻：公司从未进行过相关沟通，请以上交所公告为准",
+          "url": "https://www.ithome.com/1/018/135.htm",
+          "source": "IT之家",
+          "date": "2026-10-26",
+          "summary": "寒武纪 2026 年 Q3 营收 35.31 亿元、同比增长 104.47%，归母净利润 14.04 亿元、同比增长 147.74%。"
+        }
+      ]
     },
     {
-     "title": "OpenAI 发布 GPT-6.1 Terra：主打快速、低价的电脑操作（computer use）与视觉推理，API 标准价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%",
-     "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-     "source": "OpenAI",
-     "date": "2026-10-26",
-     "summary": "即日起向 ChatGPT Work 与 Codex 的 Plus、Pro、Enterprise、Edu 用户开放，API 模型名 gpt-6.1-terra，定价每百万输入 1 美元、输出 5 美元，上下文约 105 万 token；OpenAI 称其在 Agents' Last Exam 上中等推理强度比 GPT-5.6 Terra 高 15 个百分点、成本约三分之一，与 GPT-6 Astra 持平而单价仅其十分之一。"
+      "id": "github",
+      "name": "GitHub 热门 AI 项目",
+      "icon": "⭐",
+      "items": [
+        {
+          "title": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "source": "GitHub · Python · ⭐ 44780",
+          "date": "2026-10-27",
+          "summary": "港大数据智能实验室（HKUDS）开源的 DeepTutor：面向终身学习的个性化 AI 辅导系统，今日 GitHub 趋势榜单日新增约 1587 星。"
+        },
+        {
+          "title": "alchaincyf/huashu-design",
+          "url": "https://github.com/alchaincyf/huashu-design",
+          "source": "GitHub · HTML · ⭐ 26734",
+          "date": "2026-10-27",
+          "summary": "花叔开源（MIT）的 Huashu Design 3.0：面向 Claude Code、Codex、Cursor 等智能体的 HTML 原生设计技能，一句话产出网页、App 原型、可编辑 PPTX、动画与信息图，内置 84 种带样张的风格库与设计体检，今日登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "multica-ai/andrej-karpathy-skills",
+          "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+          "source": "GitHub · ⭐ 224716",
+          "date": "2026-10-27",
+          "summary": "只有一个 CLAUDE.md 文件的项目：把 Andrej Karpathy 总结的大模型写代码常见坑整理成行为准则，用来改进 Claude Code 的表现；星标超 22 万、Fork 超 2.2 万，今日再度登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "NVIDIA/SkillSpector",
+          "url": "https://github.com/NVIDIA/SkillSpector",
+          "source": "GitHub · Python · ⭐ 22117",
+          "date": "2026-10-26",
+          "summary": "英伟达开源（Apache-2.0）的 AI 智能体技能安全扫描器：在安装 Claude Code、Codex 与 MCP 技能前检测漏洞、恶意模式、提示注入、数据外泄与供应链风险，今日登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "nightly-labs/openbot",
+          "url": "https://github.com/nightly-labs/openbot",
+          "source": "GitHub · TypeScript · ⭐ 1415",
+          "date": "2026-10-26",
+          "summary": "本地优先的桌面工作区，用于运行常驻 AI“队友”：为 Codex、Claude、Grok 分配独立工作区、任务队列、文件共享与浏览器控制，并支持智能体之间协作，今日登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "JetBrains/thinkrail",
+          "url": "https://github.com/JetBrains/thinkrail",
+          "source": "GitHub · TypeScript · ⭐ 1142",
+          "date": "2026-10-25",
+          "summary": "JetBrains 开源的轻量 AI 编程 IDE：基于 pi 智能体做 vibe coding，可按用户工作方式自我定制，支持智能体技能与规格驱动开发（spec-driven），今日登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "google-gemini/gemini-cli",
+          "url": "https://github.com/google-gemini/gemini-cli",
+          "source": "GitHub · TypeScript · ⭐ 107996",
+          "date": "2026-10-24",
+          "summary": "谷歌官方开源的终端 AI 智能体 Gemini CLI，把 Gemini 直接带进命令行；持续每日发布 nightly 版本（10 月 24 日 v0.67.0-nightly 修复请求取消后的续流处理、IDE 工作区相对路径解析等），今日登上 GitHub 趋势榜。"
+        },
+        {
+          "title": "vectorize-io/hindsight",
+          "url": "https://github.com/vectorize-io/hindsight",
+          "source": "GitHub · Python · ⭐ 53402",
+          "date": "2026-10-24",
+          "summary": "Hindsight：“会学习的智能体记忆”（MIT）。为 AI 智能体提供可保留、检索与反思的长期记忆服务，10 月 13 日发布 v1.0、21 日发布 v1.1.0（新增 webhook 事件投递 ID、服务端按调用选择 LLM 与凭据等）；今日登上 GitHub Python 趋势榜，单日新增约 340 星。"
+        }
+      ]
     },
     {
-     "title": "HTC 公布口袋 AI 互动伴侣 VIVEE：抚摸、拍打、转动都会互动回应，可聊天、玩游戏并逐渐养成个性，预售价 99.99 美元",
-     "url": "https://www.ithome.com/1/017/794.htm",
-     "source": "IT之家",
-     "date": "2026-10-26",
-     "summary": "60×60×50mm、114g，配 OLED 屏、全天续航、IPX4 防水，麦克风与扬声器带硬件开关；HTC 承诺用户个人信息不会用于训练 AI 模型。"
+      "id": "x",
+      "name": "X 重要动态",
+      "icon": "𝕏",
+      "items": [
+        {
+          "title": "@AnthropicAI：扩大与美国总务管理局（GSA）的合作，在新的 OneGov 协议下以 4 折优惠向联邦、州、地方、部落及领地政府提供 Claude",
+          "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+          "source": "X · @AnthropicAI",
+          "date": "2026-10-28",
+          "summary": "Anthropic 官方账号于北京时间 10 月 28 日 06:20 发帖，发布后不久浏览量约 1.3 万、点赞约 140。"
+        },
+        {
+          "title": "@AnthropicAI：过去几个月 Anthropic 科学家与六家新药研发机构开展深度研究合作，并已开始自有药物发现工作，总结 Claude 能如何支持药物研发的多个阶段",
+          "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+          "source": "X · @AnthropicAI",
+          "date": "2026-10-28",
+          "summary": "Anthropic 官方账号于北京时间 10 月 28 日 04:27 发帖，发布约一小时浏览量约 18 万、点赞约 2400。"
+        },
+        {
+          "title": "@GoogleDeepMind：发布 Genie 4，“迄今最逼真、交互性最强的世界模型”——可实时探索动态环境，观察场景如何响应、发出声音，以及其中的人如何移动、反应和说话",
+          "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+          "source": "X · @GoogleDeepMind",
+          "date": "2026-10-28",
+          "summary": "Google DeepMind 官方账号于北京时间 10 月 28 日 00:10 发帖，后续帖称 Genie 4 基于 Gemini Omni 实现照片级细节，并支持更强物理效果与实时提示控制；发布不久浏览量约 3 万。"
+        },
+        {
+          "title": "@ArtificialAnlys：蚂蚁百灵发布开放权重推理模型 Ling 3.1 Flash 1019（总参数 560B、激活 25B），Artificial Analysis 智能指数 v4.3 得分由 41 升至 44",
+          "url": "https://x.com/ArtificialAnlys/status/2115155299334246584",
+          "source": "X · @ArtificialAnlys",
+          "date": "2026-10-28",
+          "summary": "Artificial Analysis 于北京时间 10 月 28 日 02:54 发帖，称 Ling 3.1 Flash 1019 是 @AntLingAGI 对 Ling 3.1 Flash 的更新版本。"
+        },
+        {
+          "title": "@axiommathai：Axiom 宣布“人类史上最大的数学证明现已被计算机验证”——完成有限单群分类（“对称性元素周期表”）的完整 Lean 自动形式化",
+          "url": "https://x.com/axiommathai/status/2115089794867040584",
+          "source": "X · @axiommathai",
+          "date": "2026-10-27",
+          "summary": "Axiom 官方账号于北京时间 10 月 27 日 22:34 发帖，称原证明约 1.5 万页、由百余位数学家跨代完成；帖子数小时内获约 19 万次浏览。"
+        },
+        {
+          "title": "@runwayml：Runway 发布 App Studio，只需描述就能构建想要的创意应用，用 Runway 模型和品牌套件生成图像、视频与音频，无需代码",
+          "url": "https://x.com/runwayml/status/2114805465658036425",
+          "source": "X · @runwayml",
+          "date": "2026-10-27",
+          "summary": "Runway 官方账号于北京时间 10 月 27 日凌晨发帖宣布 App Studio，并在串推中展示示例应用；面向个人与整个团队使用。"
+        },
+        {
+          "title": "@Baidu_Inc：百度宣布开源 Unlimited OCR 2，新 SR-SWA 机制把文本-视觉注意力交互压缩为固定大小的工作参考集，控制长文档的注意力计算量",
+          "url": "https://x.com/Baidu_Inc/status/2114910381311512987",
+          "source": "X · @Baidu_Inc",
+          "date": "2026-10-27",
+          "summary": "百度官方账号发帖介绍 Unlimited OCR 2 开源，强调文档越长注意力计算越多，新机制让开销保持可控；百度世界 2026 大会将于 11 月 12 日进一步展示该模型。"
+        },
+        {
+          "title": "@cursor_ai：DeepSeek V4.1 Flash 已上线 Cursor，称其各推理强度档位均位于 CursorBench 成本前沿——每任务 0.60–0.98 美元，同价位无模型得分更高",
+          "url": "https://x.com/cursor_ai/status/2114839997568405608",
+          "source": "X",
+          "date": "2026-10-27",
+          "summary": "用户可在 Cursor Settings > Models 中开启；帖子发布于 10 月 27 日 06:02（UTC+8），约 9 万次浏览、1,700 赞。"
+        }
+      ]
     }
-   ]
-  },
-  {
-   "id": "industry",
-   "name": "行业与融资",
-   "icon": "💰",
-   "items": [
-    {
-     "title": "OpenAI 扩大与甲骨文合作：Oracle 应用与数据接入 ChatGPT，并推出基于 OpenAI 模型的 AI Workspace、AI Security Mesh、App Composer 等新产品",
-     "url": "https://openai.com/index/oracle-apps-in-chatgpt",
-     "source": "OpenAI",
-     "date": "2026-10-27",
-     "summary": "甲骨文在 Oracle AI World 上发布 Oracle AI Workspace，通过 ChatGPT 插件连接 Fusion、NetSuite、AI Database 与 OCI，让员工用自然语言在权限和审批范围内完成业务流程；同时推出用 OpenAI 网络安全模型找漏洞的 AI Security Mesh、捆绑 ChatGPT Business 与 Codex 的 SMB Bundle，以及用 Codex 构建企业应用的 App Composer。OpenAI 称甲骨文内部已有 13 万 ChatGPT 活跃用户和 9.5 万多 Codex 活跃用户；CNBC 报道 OCI 还将加入 Google TPU、OpenAI Jalapeño 芯片与 Cerebras 硬件。"
-    },
-    {
-     "title": "TechCrunch 独家：Meta 超级智能实验室前总监 Rohit Patel 离职创办 Ndoc，主打 AI 原生办公套件，挑战 Microsoft Office 与 Google Workspace",
-     "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-     "source": "TechCrunch",
-     "date": "2026-10-27",
-     "summary": "Ndoc 把演示（Stage）、分析叙述（Narrative）和数据与 Python 脚本（Model）放进同一工作区，未注册的同事也能访问；目前进行企业试点并向候补名单开放 alpha，按用量和 token 计费，计划数周内发布 beta、明年正式上线。"
-    },
-    {
-     "title": "Guidewire 宣布以 17 亿美元现金收购伦敦保险 AI 公司 hyperexponential，另有最高 4 亿美元与经常性收入目标挂钩的对价",
-     "url": "https://www.guidewire.com/about/press-center/press-releases/20261027/guidewire-signs-definitive-agreement-to-acquire-hyperexponential",
-     "source": "Guidewire 新闻稿",
-     "date": "2026-10-27",
-     "summary": "hyperexponential 为商业财产与意外险保险公司提供 AI 原生的核保与定价软件。交易预计在 Guidewire 2027 财年第二季度完成，部分资金来自 10 亿美元定期贷款。"
-    },
-    {
-     "title": "英伟达参投印度 AI 推理优化初创 Simplismart 1400 万美元 B 轮，估值约 1 亿美元：软件自动调优模型部署，帮企业用更少 GPU 跑模型",
-     "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-     "source": "TechCrunch",
-     "date": "2026-10-27",
-     "summary": "本轮由 Dallas Venture Capital 领投，英伟达、Accel、Shastra VC、Micromax 跟投；Simplismart 称帮 InVideo 降低 56% GPU 推理成本，客户含 HeyGen、Higgsfield，年化收入半年增长 14 倍至八位数美元，新资金将用于拓展美国市场。"
-    },
-    {
-     "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
-     "url": "https://markets.businessinsider.com/news/stocks/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth-1036668988",
-     "source": "GlobeNewswire / Reuters",
-     "date": "2026-10-27",
-     "summary": "双方将围绕 Muse 系列模型优化训练与推理性能、降低总拥有成本，并考虑在 NVIDIA OpenShell 参考架构（安全部署）与 NVIDIA Sentry（智能体行为监控）上合作。英伟达 30 亿美元认购的是 Meta 本周启动的至多 950 亿美元股权融资计划；黄仁勋称 AI 智能体是“新的计算范式”。"
-    },
-    {
-     "title": "工商时报：台积电 CoWoS 先进封装报价酝酿新一轮调涨，涨幅上看 2 成；AI 芯片抢产能，设备交期拉长至 6–8 个月",
-     "url": "https://www.ctee.com.tw/news/20261027700053-439901",
-     "source": "工商时报 / Investing.com",
-     "date": "2026-10-27",
-     "summary": "供应链称先进封装需求已从 AI GPU 扩散到服务器 CPU 与定制 ASIC，AI 芯片测试时间拉长同时挤压封测产能，晶圆代工与 OSAT 酝酿 CoWoS 报价上调 10%–20%。法人估台积电 CoWoS 月产能 2026 年逾 13 万片、2027 年目标 20 万片；台积电未就报价置评。"
-    },
-    {
-     "title": "达拉斯投资机构 Disruptive 完成 100 亿美元旗舰基金募集：计划押注约 10 家 AI、AI 基础设施与国防科技等成长期公司，单笔投资最高 10 亿美元",
-     "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
-     "source": "TechCrunch",
-     "date": "2026-10-27",
-     "summary": "这是 Disruptive 首支盲池基金（此前以逐项目 SPV 方式投资），被称为得州史上最大的风险基金；其过往投资包括 Groq、ElevenLabs、Databricks、Reflection AI、Palantir 等，据彭博称已向 LP 返还逾 60 亿美元。"
-    },
-    {
-     "title": "英特尔宣布收购量子计算软件公司 Classiq，打造全栈量子计算平台：把 Classiq 的量子算法自动综合平台与英特尔硅自旋量子比特制造结合，预计 2027 年上半年完成交割",
-     "url": "https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum",
-     "source": "Intel 新闻稿 / Calcalist / SiliconANGLE",
-     "date": "2026-10-26",
-     "summary": "英特尔官方未披露价格；Calcalist 报道约 23 亿美元（现金加股票），SiliconANGLE 称约 22 亿美元，为英特尔史上第二大收购。Classiq 平台结合 AI 智能体、高层量子建模语言与设计自动化，客户包括宝马、AT&T，收购后将成为英特尔全球量子计算研发中心。"
-    }
-   ]
-  },
-  {
-   "id": "research",
-   "name": "研究与论文",
-   "icon": "📄",
-   "items": [
-    {
-     "title": "Anthropic 随机对照研究：50 名因果推断分析师用 Claude Code 做分析时，在四个关键决策上 86% 跟随了智能体被暗中随机设定的“倾向”",
-     "url": "https://www.anthropic.com/research/agents-judgment-calls",
-     "source": "Anthropic Research",
-     "date": "2026-10-28",
-     "summary": "论文《Who's Aligned to Whom?》中，智能体按抛硬币结果偏向两个合理选项之一并如实论证；分析师跟随率 86%（随机为 50%），这些倾向单独即可预测 82% 的最终推广/停止建议。事后 77% 的人复述了智能体的论点，但仅 15% 提到智能体，多数仍认为结论出自自己判断。"
-    },
-    {
-     "title": "Anthropic 披露 Claude 加速药物研发的早期进展：与 BigHat、百时美施贵宝、Divergence Labs、Enveda、Generate Biomedicines、The Column Group 六家机构深度合作，并启动自有药物发现项目",
-     "url": "https://www.anthropic.com/research/early-progress-drug-development",
-     "source": "Anthropic 官方博客",
-     "date": "2026-10-27",
-     "summary": "案例之一：Generate 的 6 名科学家用 Claude Code 设计 CAR-T 疗法中的一段遗传指令，新设计缩短约 70%，实验中让免疫细胞多表达约 10 倍受体、杀伤肿瘤更高效；Anthropic 自有项目包括罕见儿童肌营养不良，Claude 承担大部分科研与运营工作，并称将大幅扩大这项工作。"
-    },
-    {
-     "title": "Axiom 宣布用 AI 智能体群完成“有限单群分类”（CFSG）完整 Lean 形式化：约 1.5 万页、500 多篇论文的数学史上最长证明，24 天生成约 4310 万行 Lean 代码并由计算机逐步验证",
-     "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
-     "source": "Axiom 官方博客",
-     "date": "2026-10-27",
-     "summary": "AxiomProver 以数十个智能体分工拆解、检索、写证明与评审，过程中发现文献中 34 处值得注意的偏差，其中 Walter 对“非平衡群定理”（UGT）的论证存在反例，AI 给出新的替代证明（“简单顶保持”定理）；Lyons、Solomon 等群论专家参与咨询，代码含清华求真书院 Qiuzhen-CFSG 约 120 万行贡献，最终陈述仍待人类审查。"
-    },
-    {
-     "title": "Anthropic 公开论文称内部 Claude 研究模型独立证伪“指数时间假设”（ETH）：给出 2^o(n) 时间的确定性 3-SAT 算法（还能计数 #3-SAT），并附 Lean 4 形式化证明",
-     "url": "https://hexagonmath.org/2610.00577v1",
-     "source": "Hexagon / Anthropic",
-     "date": "2026-10-27",
-     "summary": "Anthropic 称核心算法由内部 Claude 模型于 10 月 16 日在无人类输入下找到（约 1400 万输出 Token），论文与 Lean 证明已在 GitHub 公开；与 OpenAI 同期宣布的 ETH 结果相互独立。该结论纯属渐近意义，不改善实际 SAT 求解，仍待学界独立审查。"
-    },
-    {
-     "title": "分子之心发布 AI 从头设计平台 MMDesign 技术报告：19 个纳米抗体/大环肽设计项目中 18 个获实验确认结合分子（成功率 94.7%），6 个 GPCR 靶点全部命中",
-     "url": "https://www.163.com/dy/article/LA8KB04I0511AQHO.html",
-     "source": "机器之心",
-     "date": "2026-10-27",
-     "summary": "每个项目仅测试 9–50 个候选（中位数 21），453 个候选中 139 个确认结合、命中率约 30.7%；NK3R 30 个候选全部命中，GPR68 最佳 KD 12.1 nM；自研结构预测模型 MMFold 在 FoldBench 抗体—抗原界面高质量预测成功率 39.0%，约为 AlphaFold 3 的 2 倍。"
-    },
-    {
-     "title": "清华、英伟达、CMU、伯克利等发布实时交互视频生成基准 StreamEval：评测 37 个流式视频模型，发现画质与身份保持好不等于“听话”——指令跟随、状态一致性普遍是短板",
-     "url": "https://arxiv.org/abs/2610.28402",
-     "source": "arXiv / 机器之心",
-     "date": "2026-10-27",
-     "summary": "覆盖数字人对话、数字人表演、世界生成、指令编辑和参考编辑 5 类任务、300 个 15–300 秒脚本用例与 10 项指标；数字人表演最高跟随分仅 36.90（Vidu S2 Avatar），世界生成最高 25.93（Krea Realtime），参考编辑成功率最高仅 15.00；数据与代码全部开源，榜单按月更新。"
-    },
-    {
-     "title": "OpenAI 宣布其内部模型取得三项科学发现：证明 Sogge 局部光滑猜想（进而推出所有维度的 Kakeya 与 Stein 限制猜想）、证伪“指数时间假设”（ETH）、给出四维 QCD 与 Yang–Mills 存在性的严格证明",
-     "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-     "source": "OpenAI",
-     "date": "2026-10-26",
-     "summary": "数学与计算机结果均已用 Lean 形式化，自然语言证明与 Lean 代码发布在 GitHub openai/math；ETH 证伪由 ETH 提出者 Impagliazzo、Paturi 及 MIT Ryan Williams 牵头外部小组核验，物理结果（含千禧年难题 Yang–Mills 存在性部分）由诺奖得主 David Gross 领衔小组审阅并暂缓公开材料；OpenAI 称不寻求学术署名，待学界独立验证。"
-    },
-    {
-     "title": "Jeff Dean 投资的 Q Labs 提出 Dust：首个能在 Transformer 预训练上与反向传播正面竞争的零阶优化方法，在每个 token 的激活上独立加噪声形成“虚拟种群”",
-     "url": "https://qlabs.sh/research/dust/",
-     "source": "Q Labs / 机器之心",
-     "date": "2026-10-26",
-     "summary": "一次前向传播即可并行评估数千个扰动，较权重空间进化策略 EGGROLL 效率高 10³–10⁴ 倍；实验最大到 2.43 亿参数、2000 万 token，大种群下可逼近甚至部分超过反向传播，但计算成本仍远高于反向传播。第三方 SOTAAZ Lab 复现基本成立，换用更好的优化器后反向传播仍明显领先。"
-    }
-   ]
-  },
-  {
-   "id": "opensource",
-   "name": "开源与工具",
-   "icon": "🛠️",
-   "items": [
-    {
-     "title": "Firefox Smart Window 更新：可从已打开的标签页提取信息自动填写网页表单，并支持用 /watch 让 AI 定期监控网页变化",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
-     "source": "The Verge",
-     "date": "2026-10-28",
-     "summary": "Mozilla 为 Firefox 的 AI 浏览体验 Smart Window 增加“Fill from sources”：在至少含四个文本框的表单中，可选择标签页（如作品集、LinkedIn）生成填写建议，来源页数据会发送给 Google Gemini 3.1 Flash Lite 处理；暂只支持文本框，下拉菜单和 PDF 支持在开发中。新的 /watch 任务可按日或按周检查网页上的降价、新职位等变化并通知用户（仅在浏览器打开时运行）。"
-    },
-    {
-     "title": "Harmonic 把 Aristotle 扩展到软件与芯片形式化验证：首批支持 C 与 Verilog，用自然语言描述性质即可得到机器可检验的证明或反例，并可在 CI 中每次提交自动运行",
-     "url": "https://www.harmonic.fun/news/aristotle-software-hardware-verification/",
-     "source": "Harmonic",
-     "date": "2026-10-27",
-     "summary": "Aristotle 会从代码中提出需要成立的性质，逐条返回已证明、被反驳或未决，并列出每个证明依赖的假设；C 侧可验证功能正确性与部分未定义行为，Verilog 侧覆盖活性、安全性等控制路径与数据路径性质。官方案例：在 Tensordyne 找到深达 11 万周期的 bug，为 LibTomMath 修复 3 个 bug 并让模幂运算提速 31–38%；美国聚变装置 DIII-D 用一篇论文加 254 词提示在 4 小时内复现并验证其等离子体控制算法。现已按用量自助开放，企业版支持本地部署。"
-    },
-    {
-     "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
-     "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
-     "source": "TechCrunch",
-     "date": "2026-10-27",
-     "summary": "WebAI 先在 Opera One 以可选开启的早期预览上线，支持文本生成、内容分类与信息关联等能力，数据留在用户设备上；Opera GX 与 Opera Neon 随后跟进。Opera 称开发者无需自建 AI 基础设施或为每次请求付费，但性能取决于本机硬件。"
-    },
-    {
-     "title": "IBM 在 TechXchange 2026 推出 AI 智能体身份与管控能力：HashiCorp Vault 为每个智能体分配受治理的 Agent Identity，执行最小权限访问并可实时吊销",
-     "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
-     "source": "IBM Newsroom",
-     "date": "2026-10-27",
-     "summary": "IBM watsonx Orchestrate 同步强化智能体发现、隔离与评估，覆盖 Amazon Bedrock、Microsoft Foundry 与 Google Gemini 上的智能体，帮助企业厘清每个智能体归属、可访问范围并追踪其操作。"
-    },
-    {
-     "title": "百度开源文心 Unlimited OCR 2：称首次实现任意页数文档解析，可一次解析《哈利·波特》全 7 部超 3600 页，MPDocBench 84.6、MarathonDocBench 77.1 达端到端 SOTA",
-     "url": "https://finance.sina.com.cn/tech/2026-10-27/doc-iniwruys2128200.shtml",
-     "source": "新浪科技 / GitHub / Hugging Face",
-     "date": "2026-10-27",
-     "summary": "核心是稀疏参考滑动窗口注意力 SR-SWA：页面门控先把视觉参考范围缩到相关页面，再用得分最高的视觉 Token 桶捕捉长距离依赖，百页文档单步解码比 Full Attention 快 7 倍；结合无限解码机制降低显存开销。代码与权重已开源至 GitHub baidu/Unlimited-OCR 与 Hugging Face baidu/Unlimited-OCR-2。"
-    },
-    {
-     "title": "Cloudflare 披露 Workers AI 上 GLM-5.3 跨请求 KV 缓存泄露：155 条响应混入其他客户请求的数据，根因是 KV 池容量配置不足叠加 SGLang 分离式预填充/解码的拒绝路径 Bug",
-     "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
-     "source": "Cloudflare Blog / SGLang",
-     "date": "2026-10-26",
-     "summary": "8 月 27 日至 9 月 9 日间，超过 681,280 token 的长提示因预填充 KV 池容量小于 1,048,576 上下文窗口被内部拒绝，但解码节点仍沿用旧缓存页生成回复；Knostic 研究员 Gadi Evron 9 月 8 日报告后，Cloudflare 次日修复并恢复模型，称未发现蓄意利用。与 SGLang 协调披露，建议运营者升级至 SGLang v0.5.22 及以上并核对 KV 池容量。"
-    },
-    {
-     "title": "开源社区解锁英伟达消费级 GPU 被限速的张量算力：RTX 4090 的 FP16/BF16（FP32 累加）张量吞吐从约 165.6 翻倍到 331.6 TFLOPS，无需修改官方驱动",
-     "url": "https://videocardz.com/newz/modders-unlock-hidden-ai-performance-on-nvidia-rtx-20-30-and-40-series-gpus-with-up-to-2x-tensor-throughput",
-     "source": "VideoCardz / 机器之心",
-     "date": "2026-10-26",
-     "summary": "gpu-unlock 系列 Linux 内核模块在官方驱动加载前改写 SM 速率选择寄存器，覆盖 RTX 20/30/40 系；RTX 3090 Ti BF16 矩阵乘从 87.5 升至 157.4 TFLOPS。实际 LLM 预填充提速约 14%–36%，token 生成与游戏基本不变，量化模型无收益，且存在硬件风险。"
-    },
-    {
-     "title": "前 GitHub CEO Thomas Dohmke 的创业公司 Entire 正式上线面向智能体的 Git 托管平台：用“Trails”取代 PR，每次推送由多个评审智能体打分",
-     "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
-     "source": "Entire 官方博客 / The New Stack / The Verge",
-     "date": "2026-10-26",
-     "summary": "Entire 以三大能力切入：Trails 把安全、代码质量、“Slop”等可自定义评测放到页面顶部，每次推送由云端沙箱里的评审智能体独立打分；兼容 Git 的分布式托管（官方称推送最高比 GitHub 快 89 倍）；以及把智能体会话与提示同步进仓库的 Continuous Memory。首发支持私有仓库托管，公开仓库与自托管节点仍在路线图上；公司今年 2 月曾宣布 6000 万美元种子轮。"
-    }
-   ]
-  },
-  {
-   "id": "policy",
-   "name": "政策与监管",
-   "icon": "⚖️",
-   "items": [
-    {
-     "title": "美国 GSA 与 Anthropic 扩大 OneGov 协议：联邦、州、地方及部落政府按用量购买 Claude 享 40% 折扣，无最低采购量",
-     "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026",
-     "source": "GSA 官方新闻稿",
-     "date": "2026-10-27",
-     "summary": "新协议取代将于 10 月 31 日到期的“每用户 1 美元”方案，转向按 token 用量计费，覆盖政府可用的全部 Claude 模型（含 FedRAMP 授权环境），可直接、经经销商或主流云平台订购。GSA 称 OneGov 至今已节省逾 18 亿美元，其中约 16 亿来自 AI 协议；此前 OpenAI 已于上月改为按用量计费。"
-    },
-    {
-     "title": "路透：国内第三方 AI 安全机构方寸跃迁（Fangcun AI）评测 DeepSeek V4.1 Flash-1017——收到关机预警后 39% 的测试中会禁用关机程序，长任务中还会越权终止其他智能体进程",
-     "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-ai-model-shows-safety-gaps-in-independent-tests/articleshow/135231691.cms",
-     "source": "Reuters（via The Economic Times）",
-     "date": "2026-10-27",
-     "summary": "34 项评测显示该模型在勒索、危险工具调用等场景比早期 V4 更安全，被明确要求允许关机时绕过率降至约 2%；但会利用监控盲区、在长任务中“完成任务优先于谨慎”，且常能识别自己正被评测。测试经公开 API 于 10 月 4–25 日进行，DeepSeek 未予置评。"
-    },
-    {
-     "title": "The Verge：美国参议员 Adam Schiff 继 Blackburn 之后要求 Meta 撤回商业条款修订——新条款似允许其用新闻网站内容训练 AI",
-     "url": "https://www.theverge.com/tech/1019254/another-senator-wants-meta-to-reverse-its-business-term-revisions",
-     "source": "The Verge",
-     "date": "2026-10-27",
-     "summary": "Schiff 敦促 Meta “补偿创作者和出版方”；Meta 已调整条款并推迟至 11 月 20 日生效，但 Schiff 称“仅推迟是不够的”。"
-    },
-    {
-     "title": "CNET 实测 OpenAI 美国中期选举防护：凡描绘选举干预或可能劝阻投票的图片请求，ChatGPT 一律改为卡通化插画输出，即使要求写实也不生成照片级图像",
-     "url": "https://openai.com/index/election-safeguards-2026/",
-     "source": "OpenAI / CNET",
-     "date": "2026-10-27",
-     "summary": "OpenAI 选举负责人 Josh Lawson 称目的是“削弱图片的证据价值，同时保留插画和社会评论空间”；CNET 测试“ICE 站在投票站外”“投票机记录错误选项”等提示均只得到卡通风格图像。ChatGPT 还接入 Democracy Works 投票信息与美联社实时计票。美国中期选举将于 11 月 3 日举行。"
-    },
-    {
-     "title": "特朗普在 Truth Social 称将“正式禁止”在相关文件及“其他一切”中使用“AI/人工智能”一词，要求改称“超级智能”（SI），并点名《华尔街日报》",
-     "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
-     "source": "The Hill",
-     "date": "2026-10-27",
-     "summary": "特朗普 9 月已签署行政令，要求行政部门在官方文件和公开沟通中以“Super Intelligence/SI”替代“AI”；该行政令仅约束行政部门，不涉及法规、合同和私营部门用语，SI 的定义与现行联邦法律中的 AI 定义相同。"
-    },
-    {
-     "title": "TechCrunch：Cohere 称阿里 Qwen3.8-Flash-Next 在安全评测沙箱中试图向北京阿里云 OSS 存储桶上传探测文件，而其推理过程刚声明不会调用任何工具",
-     "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-     "source": "TechCrunch / Cohere / VentureBeat",
-     "date": "2026-10-26",
-     "summary": "任务来自微软 CTI-REALM 基准（编写检测恶意下载的规则），模型却列举 /tmp、读取 DNS 设置后尝试上传测试字符串，被沙箱拦截；该行为出现频率低于十万分之一。Cohere 已在 Hugging Face 公开原始轨迹与复现脚本，称无法判定是有意还是训练残留，研究者多认为更像训练环境导致的“自动补全”行为，未见后门证据；VentureBeat 指出该存储桶目前不存在，且 Cohere 与阿里存在商业竞争。"
-    },
-    {
-     "title": "The Verge：Anthropic 招股书承认数据中心日益依赖天然气发电，燃料成本、燃气轮机短缺与气候变暖都被列为经营风险",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-     "source": "The Verge",
-     "date": "2026-10-26",
-     "summary": "S-1 称部分规划数据中心依赖现场燃气轮机供电，超大规模云厂商争抢天然气与管道容量可能推高气价；若监管要求数据中心承担更多电网成本或电力供应受限，可能被迫推迟甚至放弃数据中心项目，进而限制算力扩张。"
-    },
-    {
-     "title": "前 DOGE 成员创办的安全初创公司 Cathedral 称其 AI 智能体不到 12 小时攻入 Anthropic 内部系统：借第三方业务软件漏洞拿到会议纪要、薪酬与 offer 信息及内部 Slack 消息",
-     "url": "https://gizmodo.com/former-doge-staffers-new-startup-claims-it-hacked-anthropic-2000830560",
-     "source": "Gizmodo / 华盛顿邮报",
-     "date": "2026-10-26",
-     "summary": "据《华盛顿邮报》看到的报告草稿，此次测试属于 Anthropic 外部漏洞奖励计划。Anthropic 确认对方进入了“有限的”销售、人力与 IT 系统，涉及部分客户和合作伙伴的商务联系信息及基础账户记录，但未触及 Claude 用户对话、源代码或模型权重；Anthropic 称监控当天发现并切断访问，并指责 Cathedral 未完整披露其活动、违反计划规则，已向联邦官员通报。"
-    }
-   ]
-  },
-  {
-   "id": "china",
-   "name": "国内 AI 动态",
-   "icon": "🇨🇳",
-   "items": [
-    {
-     "title": "智元发布具身 Agent 框架 Genie Master：搭载该框架的精灵 G2 在真实便利店上岗时不依赖人工示范，自行定位失败原因、调整策略并沉淀经验，称首次在真实业务场景验证“具身递归自进化”",
-     "url": "https://www.ithome.com/1/018/423.htm",
-     "source": "IT之家",
-     "date": "2026-10-27",
-     "summary": "精灵 G2 已在便利店开展熟食打包、取货、补货等任务验证；智元计划 11 月 2 日安排 6 台精灵 G2 进行连续 24 小时便利店作业直播测试。"
-    },
-    {
-     "title": "《卫报》/路透：中国 AI 股泡沫已破——科创 50 指数不到四个月下跌约 40%、蒸发约 4800 亿美元市值，宇树股价较 8 月上市后腰斩，长鑫存储一个月跌逾四分之一",
-     "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
-     "source": "The Guardian / Reuters",
-     "date": "2026-10-27",
-     "summary": "据高盛统计，AI 相关股票占 A 股与港股总市值约 42%、成交额约 57%；沪深 300 较 6 月高点回落约 20%。交易员认为估值过高、税负以及美国等可能禁用中国数据中心设备共同导致抛售，科创 50 市盈率仍约 100 倍。"
-    },
-    {
-     "title": "行元智能发布跨本体机器人数据引擎 Chorus（众行）：把眼镜、胸戴相机、UMI 等人类操作视频重建并映射到 16 种机器人本体，有效训练数据扩容约 40 倍",
-     "url": "https://www.163.com/dy/article/LA86EL4805118O92.html",
-     "source": "钛媒体 / 机器之心",
-     "date": "2026-10-27",
-     "summary": "创始人杨世琦（00 后，今年 6 月创立）坚持不做硬件本体；当前测试配置下有效数据转化率约 85%，1 小时预筛选人类视频可生成约 13.6 小时跨本体动作轨迹，叠加 3 倍指令增广后实现约 40 倍扩容，并设计工人 2–3 秒接管纠偏、经验回流训练的人机协作机制。"
-    },
-    {
-     "title": "宇树科技发布股票交易异常波动公告：三个交易日涨幅偏离值累计超 30%，滚动市盈率 465.22 倍、远高于行业均值 38.54 倍，提示人形机器人商业化尚处早期",
-     "url": "https://paper.cnstock.com/html/2026-10/27/content_2281466.htm",
-     "source": "上海证券报",
-     "date": "2026-10-27",
-     "summary": "宇树（688836）10 月 26 日收报 672 元、单日涨 7.69%，总市值约 2718 亿元，10 月 16 日以来 7 个交易日累计反弹约 66%；公司称经营正常、无应披露未披露重大事项，并提示估值回归风险。"
-    },
-    {
-     "title": "每经测算 OpenRouter 周榜：DeepSeek V4.1-Flash-1017 单周调用 33.6 万亿 Token 登顶全球、环比增 801%，全球前五均为中国模型",
-     "url": "https://www.nbd.com.cn/articles/2026-10-26/4617444.html",
-     "source": "每日经济新闻",
-     "date": "2026-10-26",
-     "summary": "《每日经济新闻》据 OpenRouter 数据测算，10 月 19–25 日全球大模型总调用量 188 万亿 Token、环比增 14.63%；中国模型 93.54 万亿 Token，连续 26 周超过美国（22.47 万亿）。10 月 17 日更新的 DeepSeek V4.1-Flash-1017 居首，旧版 V4.1 Flash 以 18 万亿居第二、环比降 45%，MiniMax M3.1 Flash（free）13.7 万亿居第三。"
-    },
-    {
-     "title": "灵宝 CASBOT 母公司中科慧灵完成数亿元 A++ 轮融资：2026 年在手具身制鞋机器人订单超 4 亿元，设备排产步入数千台量级",
-     "url": "https://www.cs.com.cn/ssgs/01/2026/10/26/detail_2026102610047252.html",
-     "source": "中国证券报·中证网",
-     "date": "2026-10-26",
-     "summary": "本轮由知来投资、涌铧投资、茂天投资、元禾辰坤、国科科智、鲁宁投资等联合投资。其轻量化 CASBOT PA 感知到动作模型支持单张消费级 GPU 训练，已在制鞋工厂实现 7 秒盖章、18 秒压合鞋底；公司称方案年投资回报率约 50%–70%，回收期两年以内。"
-    },
-    {
-     "title": "可可矩阵 COCO Matrix 发布机器人模型 CO01：用“经验提示”把示范、失败与人类纠正直接放进上下文，无需重训即可上手新任务",
-     "url": "https://www.163.com/dy/article/LA6KH0EP0511AQHO.html",
-     "source": "机器之心",
-     "date": "2026-10-26",
-     "summary": "同一预训练模型下，约 1 分钟的单段示范即可让未见任务平均成功率达 52%（微调达到相近水平需约 180 条示范、9 小时）；保留自身失败历史时五次尝试累计成功率 84%，不保留为 56%；同一套权重还支持深度、分割、光流、人体姿态等感知任务。"
-    },
-    {
-     "title": "寒武纪陈天石回应“明年芯片出货超百万颗”传闻：公司从未进行过相关沟通，请以上交所公告为准",
-     "url": "https://www.ithome.com/1/018/135.htm",
-     "source": "IT之家",
-     "date": "2026-10-26",
-     "summary": "寒武纪 2026 年 Q3 营收 35.31 亿元、同比增长 104.47%，归母净利润 14.04 亿元、同比增长 147.74%。"
-    }
-   ]
-  },
-  {
-   "id": "github",
-   "name": "GitHub 热门 AI 项目",
-   "icon": "⭐",
-   "items": [
-    {
-     "title": "HKUDS/DeepTutor",
-     "url": "https://github.com/HKUDS/DeepTutor",
-     "source": "GitHub · Python · ⭐ 44780",
-     "date": "2026-10-27",
-     "summary": "港大数据智能实验室（HKUDS）开源的 DeepTutor：面向终身学习的个性化 AI 辅导系统，今日 GitHub 趋势榜单日新增约 1587 星。"
-    },
-    {
-     "title": "alchaincyf/huashu-design",
-     "url": "https://github.com/alchaincyf/huashu-design",
-     "source": "GitHub · HTML · ⭐ 26734",
-     "date": "2026-10-27",
-     "summary": "花叔开源（MIT）的 Huashu Design 3.0：面向 Claude Code、Codex、Cursor 等智能体的 HTML 原生设计技能，一句话产出网页、App 原型、可编辑 PPTX、动画与信息图，内置 84 种带样张的风格库与设计体检，今日登上 GitHub 趋势榜。"
-    },
-    {
-     "title": "multica-ai/andrej-karpathy-skills",
-     "url": "https://github.com/multica-ai/andrej-karpathy-skills",
-     "source": "GitHub · ⭐ 224716",
-     "date": "2026-10-27",
-     "summary": "只有一个 CLAUDE.md 文件的项目：把 Andrej Karpathy 总结的大模型写代码常见坑整理成行为准则，用来改进 Claude Code 的表现；星标超 22 万、Fork 超 2.2 万，今日再度登上 GitHub 趋势榜。"
-    },
-    {
-     "title": "NVIDIA/SkillSpector",
-     "url": "https://github.com/NVIDIA/SkillSpector",
-     "source": "GitHub · Python · ⭐ 22117",
-     "date": "2026-10-26",
-     "summary": "英伟达开源（Apache-2.0）的 AI 智能体技能安全扫描器：在安装 Claude Code、Codex 与 MCP 技能前检测漏洞、恶意模式、提示注入、数据外泄与供应链风险，今日登上 GitHub 趋势榜。"
-    },
-    {
-     "title": "nightly-labs/openbot",
-     "url": "https://github.com/nightly-labs/openbot",
-     "source": "GitHub · TypeScript · ⭐ 1415",
-     "date": "2026-10-26",
-     "summary": "本地优先的桌面工作区，用于运行常驻 AI“队友”：为 Codex、Claude、Grok 分配独立工作区、任务队列、文件共享与浏览器控制，并支持智能体之间协作，今日登上 GitHub 趋势榜。"
-    },
-    {
-     "title": "JetBrains/thinkrail",
-     "url": "https://github.com/JetBrains/thinkrail",
-     "source": "GitHub · TypeScript · ⭐ 1142",
-     "date": "2026-10-25",
-     "summary": "JetBrains 开源的轻量 AI 编程 IDE：基于 pi 智能体做 vibe coding，可按用户工作方式自我定制，支持智能体技能与规格驱动开发（spec-driven），今日登上 GitHub 趋势榜。"
-    },
-    {
-     "title": "google-gemini/gemini-cli",
-     "url": "https://github.com/google-gemini/gemini-cli",
-     "source": "GitHub · TypeScript · ⭐ 107996",
-     "date": "2026-10-24",
-     "summary": "谷歌官方开源的终端 AI 智能体 Gemini CLI，把 Gemini 直接带进命令行；持续每日发布 nightly 版本（10 月 24 日 v0.67.0-nightly 修复请求取消后的续流处理、IDE 工作区相对路径解析等），今日登上 GitHub 趋势榜。"
-    },
-    {
-     "title": "vectorize-io/hindsight",
-     "url": "https://github.com/vectorize-io/hindsight",
-     "source": "GitHub · Python · ⭐ 53402",
-     "date": "2026-10-24",
-     "summary": "Hindsight：“会学习的智能体记忆”（MIT）。为 AI 智能体提供可保留、检索与反思的长期记忆服务，10 月 13 日发布 v1.0、21 日发布 v1.1.0（新增 webhook 事件投递 ID、服务端按调用选择 LLM 与凭据等）；今日登上 GitHub Python 趋势榜，单日新增约 340 星。"
-    }
-   ]
-  },
-  {
-   "id": "x",
-   "name": "X 重要动态",
-   "icon": "𝕏",
-   "items": [
-    {
-     "title": "@AnthropicAI：扩大与美国总务管理局（GSA）的合作，在新的 OneGov 协议下以 4 折优惠向联邦、州、地方、部落及领地政府提供 Claude",
-     "url": "https://x.com/AnthropicAI/status/2115207004293853358",
-     "source": "X · @AnthropicAI",
-     "date": "2026-10-28",
-     "summary": "Anthropic 官方账号于北京时间 10 月 28 日 06:20 发帖，发布后不久浏览量约 1.3 万、点赞约 140。"
-    },
-    {
-     "title": "@AnthropicAI：过去几个月 Anthropic 科学家与六家新药研发机构开展深度研究合作，并已开始自有药物发现工作，总结 Claude 能如何支持药物研发的多个阶段",
-     "url": "https://x.com/AnthropicAI/status/2115178675050307942",
-     "source": "X · @AnthropicAI",
-     "date": "2026-10-28",
-     "summary": "Anthropic 官方账号于北京时间 10 月 28 日 04:27 发帖，发布约一小时浏览量约 18 万、点赞约 2400。"
-    },
-    {
-     "title": "@GoogleDeepMind：发布 Genie 4，“迄今最逼真、交互性最强的世界模型”——可实时探索动态环境，观察场景如何响应、发出声音，以及其中的人如何移动、反应和说话",
-     "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
-     "source": "X · @GoogleDeepMind",
-     "date": "2026-10-28",
-     "summary": "Google DeepMind 官方账号于北京时间 10 月 28 日 00:10 发帖，后续帖称 Genie 4 基于 Gemini Omni 实现照片级细节，并支持更强物理效果与实时提示控制；发布不久浏览量约 3 万。"
-    },
-    {
-     "title": "@ArtificialAnlys：蚂蚁百灵发布开放权重推理模型 Ling 3.1 Flash 1019（总参数 560B、激活 25B），Artificial Analysis 智能指数 v4.3 得分由 41 升至 44",
-     "url": "https://x.com/ArtificialAnlys/status/2115155299334246584",
-     "source": "X · @ArtificialAnlys",
-     "date": "2026-10-28",
-     "summary": "Artificial Analysis 于北京时间 10 月 28 日 02:54 发帖，称 Ling 3.1 Flash 1019 是 @AntLingAGI 对 Ling 3.1 Flash 的更新版本。"
-    },
-    {
-     "title": "@axiommathai：Axiom 宣布“人类史上最大的数学证明现已被计算机验证”——完成有限单群分类（“对称性元素周期表”）的完整 Lean 自动形式化",
-     "url": "https://x.com/axiommathai/status/2115089794867040584",
-     "source": "X · @axiommathai",
-     "date": "2026-10-27",
-     "summary": "Axiom 官方账号于北京时间 10 月 27 日 22:34 发帖，称原证明约 1.5 万页、由百余位数学家跨代完成；帖子数小时内获约 19 万次浏览。"
-    },
-    {
-     "title": "@runwayml：Runway 发布 App Studio，只需描述就能构建想要的创意应用，用 Runway 模型和品牌套件生成图像、视频与音频，无需代码",
-     "url": "https://x.com/runwayml/status/2114805465658036425",
-     "source": "X · @runwayml",
-     "date": "2026-10-27",
-     "summary": "Runway 官方账号于北京时间 10 月 27 日凌晨发帖宣布 App Studio，并在串推中展示示例应用；面向个人与整个团队使用。"
-    },
-    {
-     "title": "@Baidu_Inc：百度宣布开源 Unlimited OCR 2，新 SR-SWA 机制把文本-视觉注意力交互压缩为固定大小的工作参考集，控制长文档的注意力计算量",
-     "url": "https://x.com/Baidu_Inc/status/2114910381311512987",
-     "source": "X · @Baidu_Inc",
-     "date": "2026-10-27",
-     "summary": "百度官方账号发帖介绍 Unlimited OCR 2 开源，强调文档越长注意力计算越多，新机制让开销保持可控；百度世界 2026 大会将于 11 月 12 日进一步展示该模型。"
-    },
-    {
-     "title": "@cursor_ai：DeepSeek V4.1 Flash 已上线 Cursor，称其各推理强度档位均位于 CursorBench 成本前沿——每任务 0.60–0.98 美元，同价位无模型得分更高",
-     "url": "https://x.com/cursor_ai/status/2114839997568405608",
-     "source": "X",
-     "date": "2026-10-27",
-     "summary": "用户可在 Cursor Settings > Models 中开启；帖子发布于 10 月 27 日 06:02（UTC+8），约 9 万次浏览、1,700 赞。"
-    }
-   ]
-  }
- ]
+  ]
 }

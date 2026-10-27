@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T06:25:00+08:00",
- "count": 1749,
+ "updated": "2026-10-28T07:30:00+08:00",
+ "count": 1751,
  "items": [
   {
    "title": "Anthropic 随机对照研究：50 名因果推断分析师用 Claude Code 做分析时，在四个关键决策上 86% 跟随了智能体被暗中随机设定的“倾向”",
@@ -78,6 +78,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "Google 把具身推理模型 Gemini Robotics ER 2 上线 Google Cloud 公开预览：作为机器人的“高层大脑”，可适配从机械臂到人形的各类本体，支持长程规划、多机协作与内置安全护栏",
+   "url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud",
+   "source": "Google Cloud Blog",
+   "date": "2026-10-27",
+   "summary": "ER 2 结合空间与时间视频理解和长程规划，可与人自然对话、编排底层动作模型与硬件 API，执行涉及数百个决策的多分钟任务；企业可借助 Google Cloud 的安全、多智能体编排与全生命周期管理来仿真、评估和部署物理 AI。",
+   "id": "e11e908022d21ae503cf27187fb84cecffd65ebe",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-28T07:30:00+08:00"
+  },
+  {
+   "title": "AMD 与 Meta 深化战略合作：Helios 机柜级系统已在 Meta 安装测试，EPYC 处理器支撑 Muse 个人 AI 智能体，Meta 将部署定制版 Instinct GPU；AMD 还将认购 Meta 股权融资 10 亿美元",
+   "url": "https://ir.amd.com/news-events/press-releases/detail/1302/amd-and-meta-advance-strategic-partnership-to-power-metas-superintelligence-infrastructure",
+   "source": "AMD",
+   "date": "2026-10-27",
+   "summary": "Meta 是 MI450 架构的早期定义客户，双方合作还将影响 MI500 系列与下一代机柜系统；AMD 为 Muse Spark Open 与 Muse Glimmer 提供 Day-0 支持，并在 MI350X 上优化推荐模型训练、向 PyTorch/Triton/ROCm 回馈改进。",
+   "id": "f83cc121976df47a5fd75910748530f15046c9cb",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-28T07:30:00+08:00"
   },
   {
    "title": "瑞士 Giotto.ai 发布“主权 AI”推理模型家族：旗舰 Giotto Alto 面向所有人免费开放，Giotto Solo 号称单卡 GPU 上最聪明的模型",
