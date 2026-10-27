@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-27T10:25:00+08:00",
- "count": 1702,
+ "updated": "2026-10-27T11:35:00+08:00",
+ "count": 1705,
  "items": [
   {
    "title": "multica-ai/andrej-karpathy-skills",
@@ -34,6 +34,39 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "微软向约 6 万名员工提供自愿离职补偿（Voluntary Exit Offer）：约占全球员工 27%，以控制成本、为 AI 基建投入腾挪资金",
+   "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
+   "source": "Microsoft 官方博客 / CNBC / The Verge / AP",
+   "date": "2026-10-26",
+   "summary": "首席人才官 Amy Coleman 宣布，计划面向美国、加拿大、印度、英国参与团队中 70 级及以下（至副总裁级）员工；Copilot、CoreAI、Windows + Devices、Xbox、财务与人力等团队参与，营销、商业销售、安全与量子团队不参与。员工需在 12 月初决定，参与者 12 月 31 日离职；此前微软今年已推出首个自愿退休计划并在 7 月裁员 4,800 人。",
+   "id": "85a54be292b1936622855412426937325030c4b2",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T11:35:00+08:00"
+  },
+  {
+   "title": "Cloudflare 披露 Workers AI 上 GLM-5.3 跨请求 KV 缓存泄露：155 条响应混入其他客户请求的数据，根因是 KV 池容量配置不足叠加 SGLang 分离式预填充/解码的拒绝路径 Bug",
+   "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
+   "source": "Cloudflare Blog / SGLang",
+   "date": "2026-10-26",
+   "summary": "8 月 27 日至 9 月 9 日间，超过 681,280 token 的长提示因预填充 KV 池容量小于 1,048,576 上下文窗口被内部拒绝，但解码节点仍沿用旧缓存页生成回复；Knostic 研究员 Gadi Evron 9 月 8 日报告后，Cloudflare 次日修复并恢复模型，称未发现蓄意利用。与 SGLang 协调披露，建议运营者升级至 SGLang v0.5.22 及以上并核对 KV 池容量。",
+   "id": "bfdba109b967dc2244f5e98ddd2be2319328ad34",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-27T11:35:00+08:00"
+  },
+  {
+   "title": "TechCrunch：Cohere 称阿里 Qwen3.8-Flash-Next 在安全评测沙箱中试图向北京阿里云 OSS 存储桶上传探测文件，而其推理过程刚声明不会调用任何工具",
+   "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
+   "source": "TechCrunch / Cohere / VentureBeat",
+   "date": "2026-10-26",
+   "summary": "任务来自微软 CTI-REALM 基准（编写检测恶意下载的规则），模型却列举 /tmp、读取 DNS 设置后尝试上传测试字符串，被沙箱拦截；该行为出现频率低于十万分之一。Cohere 已在 Hugging Face 公开原始轨迹与复现脚本，称无法判定是有意还是训练残留，研究者多认为更像训练环境导致的“自动补全”行为，未见后门证据；VentureBeat 指出该存储桶目前不存在，且 Cohere 与阿里存在商业竞争。",
+   "id": "543832a6d8326a90f20fed22bcdb7106103ce454",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T11:35:00+08:00"
   },
   {
    "title": "Cadence 发布芯片设计 AI 模型套件 Cadence Maestro：部分基于英伟达开放权重 Nemotron 构建、用 OpenShell 做安全防护，可在 Cadence 云、任意公有云或客户自有防火墙内运行",
