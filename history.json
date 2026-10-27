@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T00:40:00+08:00",
+ "updated": "2026-10-28T00:34:00+08:00",
  "count": 1737,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "3513fbe8e95205561274abe5bc9692bd3093a620",
    "module": "models",
    "module_name": "大模型与产品发布",
-   "first_seen": "2026-10-28T00:40:00+08:00"
+   "first_seen": "2026-10-28T00:34:00+08:00"
   },
   {
    "title": "@GoogleDeepMind：发布 Genie 4，“迄今最逼真、交互性最强的世界模型”——可实时探索动态环境，观察场景如何响应、发出声音，以及其中的人如何移动、反应和说话",
@@ -22,7 +22,7 @@
    "id": "c88ebf57d5ca2533ba76b08cad3ddaa8ad9ba5d0",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-28T00:40:00+08:00"
+   "first_seen": "2026-10-28T00:34:00+08:00"
   },
   {
    "title": "TechCrunch 独家：Meta 超级智能实验室前总监 Rohit Patel 离职创办 Ndoc，主打 AI 原生办公套件，挑战 Microsoft Office 与 Google Workspace",
@@ -33,7 +33,7 @@
    "id": "122f4e228239d6c9e1be2e0f0ea9d36c5e86fdbe",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-28T00:40:00+08:00"
+   "first_seen": "2026-10-28T00:34:00+08:00"
   },
   {
    "title": "Guidewire 宣布以 17 亿美元现金收购伦敦保险 AI 公司 hyperexponential，另有最高 4 亿美元与经常性收入目标挂钩的对价",
@@ -44,7 +44,7 @@
    "id": "821b1bfe250ca56d32a0e5eef2aeda9d03d560ba",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-28T00:40:00+08:00"
+   "first_seen": "2026-10-28T00:34:00+08:00"
   },
   {
    "title": "Axiom 宣布用 AI 智能体群完成“有限单群分类”（CFSG）完整 Lean 形式化：约 1.5 万页、500 多篇论文的数学史上最长证明，24 天生成约 4310 万行 Lean 代码并由计算机逐步验证",
