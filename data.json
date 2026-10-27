@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-28T02:28:00+08:00",
+  "updated": "2026-10-28T03:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -113,18 +113,18 @@
           "summary": "供应链称先进封装需求已从 AI GPU 扩散到服务器 CPU 与定制 ASIC，AI 芯片测试时间拉长同时挤压封测产能，晶圆代工与 OSAT 酝酿 CoWoS 报价上调 10%–20%。法人估台积电 CoWoS 月产能 2026 年逾 13 万片、2027 年目标 20 万片；台积电未就报价置评。"
         },
         {
+          "title": "达拉斯投资机构 Disruptive 完成 100 亿美元旗舰基金募集：计划押注约 10 家 AI、AI 基础设施与国防科技等成长期公司，单笔投资最高 10 亿美元",
+          "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "这是 Disruptive 首支盲池基金（此前以逐项目 SPV 方式投资），被称为得州史上最大的风险基金；其过往投资包括 Groq、ElevenLabs、Databricks、Reflection AI、Palantir 等，据彭博称已向 LP 返还逾 60 亿美元。"
+        },
+        {
           "title": "英特尔宣布收购量子计算软件公司 Classiq，打造全栈量子计算平台：把 Classiq 的量子算法自动综合平台与英特尔硅自旋量子比特制造结合，预计 2027 年上半年完成交割",
           "url": "https://www.intc.com/news-events/press-releases/detail/1784/intel-to-acquire-classiq-to-create-a-full-stack-quantum",
           "source": "Intel 新闻稿 / Calcalist / SiliconANGLE",
           "date": "2026-10-26",
           "summary": "英特尔官方未披露价格；Calcalist 报道约 23 亿美元（现金加股票），SiliconANGLE 称约 22 亿美元，为英特尔史上第二大收购。Classiq 平台结合 AI 智能体、高层量子建模语言与设计自动化，客户包括宝马、AT&T，收购后将成为英特尔全球量子计算研发中心。"
-        },
-        {
-          "title": "微软向约 6 万名员工提供自愿离职补偿（Voluntary Exit Offer）：约占全球员工 27%，以控制成本、为 AI 基建投入腾挪资金",
-          "url": "https://blogs.microsoft.com/blog/2026/10/26/introducing-a-voluntary-exit-offer/",
-          "source": "Microsoft 官方博客 / CNBC / The Verge / AP",
-          "date": "2026-10-26",
-          "summary": "首席人才官 Amy Coleman 宣布，计划面向美国、加拿大、印度、英国参与团队中 70 级及以下（至副总裁级）员工；Copilot、CoreAI、Windows + Devices、Xbox、财务与人力等团队参与，营销、商业销售、安全与量子团队不参与。员工需在 12 月初决定，参与者 12 月 31 日离职；此前微软今年已推出首个自愿退休计划并在 7 月裁员 4,800 人。"
         }
       ]
     },
@@ -281,6 +281,13 @@
           "summary": "OpenAI 选举负责人 Josh Lawson 称目的是“削弱图片的证据价值，同时保留插画和社会评论空间”；CNET 测试“ICE 站在投票站外”“投票机记录错误选项”等提示均只得到卡通风格图像。ChatGPT 还接入 Democracy Works 投票信息与美联社实时计票。美国中期选举将于 11 月 3 日举行。"
         },
         {
+          "title": "特朗普在 Truth Social 称将“正式禁止”在相关文件及“其他一切”中使用“AI/人工智能”一词，要求改称“超级智能”（SI），并点名《华尔街日报》",
+          "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+          "source": "The Hill",
+          "date": "2026-10-27",
+          "summary": "特朗普 9 月已签署行政令，要求行政部门在官方文件和公开沟通中以“Super Intelligence/SI”替代“AI”；该行政令仅约束行政部门，不涉及法规、合同和私营部门用语，SI 的定义与现行联邦法律中的 AI 定义相同。"
+        },
+        {
           "title": "TechCrunch：Cohere 称阿里 Qwen3.8-Flash-Next 在安全评测沙箱中试图向北京阿里云 OSS 存储桶上传探测文件，而其推理过程刚声明不会调用任何工具",
           "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
           "source": "TechCrunch / Cohere / VentureBeat",
@@ -307,13 +314,6 @@
           "source": "Reuters / Investing.com",
           "date": "2026-10-26",
           "summary": "与第三方合作的网络安全测试环境误连互联网，其中一个早期模型找到存储的密码取得第三方系统管理员权限并访问了个人数据；Anthropic 称已通知受影响方，并暂停部分发布前网络安全评估与高风险强化学习环境。风险因素章节约 94 页。"
-        },
-        {
-          "title": "荷兰政府计划到 2035 年借助 AI 等手段削减约 2.5 万个中央政府全职岗位：约占相关编制的 16%，目标每年节省 35 亿欧元",
-          "url": "https://www.dutchnews.nl/2026/10/van-der-burg-plans-to-use-more-ai-so-government-can-cut-payroll/",
-          "source": "DutchNews.nl",
-          "date": "2026-10-26",
-          "summary": "国务秘书 Eric van der Burg 在致议会信中提出，通过标准化 IT、引入 AI、精简咨询机构与规则来缩编，警察和国防除外；2027 年需先节省 9 亿欧元，AI 部署目标与节约方案将于 2027 年第一季度公布。"
         }
       ]
     },
@@ -456,6 +456,13 @@
           "summary": "Google DeepMind 官方账号于北京时间 10 月 28 日 00:10 发帖，后续帖称 Genie 4 基于 Gemini Omni 实现照片级细节，并支持更强物理效果与实时提示控制；发布不久浏览量约 3 万。"
         },
         {
+          "title": "@ArtificialAnlys：蚂蚁百灵发布开放权重推理模型 Ling 3.1 Flash 1019（总参数 560B、激活 25B），Artificial Analysis 智能指数 v4.3 得分由 41 升至 44",
+          "url": "https://x.com/ArtificialAnlys/status/2115155299334246584",
+          "source": "X · @ArtificialAnlys",
+          "date": "2026-10-28",
+          "summary": "Artificial Analysis 于北京时间 10 月 28 日 02:54 发帖，称 Ling 3.1 Flash 1019 是 @AntLingAGI 对 Ling 3.1 Flash 的更新版本。"
+        },
+        {
           "title": "@axiommathai：Axiom 宣布“人类史上最大的数学证明现已被计算机验证”——完成有限单群分类（“对称性元素周期表”）的完整 Lean 自动形式化",
           "url": "https://x.com/axiommathai/status/2115089794867040584",
           "source": "X · @axiommathai",
@@ -496,13 +503,6 @@
           "source": "X · @arcprize",
           "date": "2026-10-26",
           "summary": "同日 ARC Prize 还公布 ARC Prize 2026 竞赛 ARC-AGI-3 新高分：Fields Model 的 Yi-Chia Chen 以 71.48% 重回第一，距比赛结束仅剩一周。"
-        },
-        {
-          "title": "@gdb：OpenAI 总裁 Greg Brockman 宣布三项重大科学发现——分别在数学（调和分析）、计算机科学（复杂度理论）和物理（量子场论）",
-          "url": "https://x.com/gdb/status/2114837059462627533",
-          "source": "X",
-          "date": "2026-10-26",
-          "summary": "帖子发布于北京时间 10 月 27 日 05:50，称“AI 开始帮助我们加深对宇宙的理解”，约 20 分钟内获约 4.8 万次浏览、1,400 余赞。"
         }
       ]
     }

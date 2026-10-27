@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-28T02:28:00+08:00",
- "count": 1739,
+ "updated": "2026-10-28T03:40:00+08:00",
+ "count": 1742,
  "items": [
+  {
+   "title": "@ArtificialAnlys：蚂蚁百灵发布开放权重推理模型 Ling 3.1 Flash 1019（总参数 560B、激活 25B），Artificial Analysis 智能指数 v4.3 得分由 41 升至 44",
+   "url": "https://x.com/ArtificialAnlys/status/2115155299334246584",
+   "source": "X · @ArtificialAnlys",
+   "date": "2026-10-28",
+   "summary": "Artificial Analysis 于北京时间 10 月 28 日 02:54 发帖，称 Ling 3.1 Flash 1019 是 @AntLingAGI 对 Ling 3.1 Flash 的更新版本。",
+   "id": "c347242ece45356c7ae98b59b28254f6bf14107b",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T03:40:00+08:00"
+  },
   {
    "title": "Firefox Smart Window 更新：可从已打开的标签页提取信息自动填写网页表单，并支持用 /watch 让 AI 定期监控网页变化",
    "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
@@ -34,6 +45,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "达拉斯投资机构 Disruptive 完成 100 亿美元旗舰基金募集：计划押注约 10 家 AI、AI 基础设施与国防科技等成长期公司，单笔投资最高 10 亿美元",
+   "url": "https://techcrunch.com/2026/10/27/disruptive-raises-10b-fund-to-make-big-bets-on-at-least-10-companies/",
+   "source": "TechCrunch",
+   "date": "2026-10-27",
+   "summary": "这是 Disruptive 首支盲池基金（此前以逐项目 SPV 方式投资），被称为得州史上最大的风险基金；其过往投资包括 Groq、ElevenLabs、Databricks、Reflection AI、Palantir 等，据彭博称已向 LP 返还逾 60 亿美元。",
+   "id": "44543de8094b27f0323c81c6f286bf440e521dc9",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-28T03:40:00+08:00"
+  },
+  {
+   "title": "特朗普在 Truth Social 称将“正式禁止”在相关文件及“其他一切”中使用“AI/人工智能”一词，要求改称“超级智能”（SI），并点名《华尔街日报》",
+   "url": "https://thehill.com/homenews/administration/6175633-trump-bans-artificial-intelligence-term/",
+   "source": "The Hill",
+   "date": "2026-10-27",
+   "summary": "特朗普 9 月已签署行政令，要求行政部门在官方文件和公开沟通中以“Super Intelligence/SI”替代“AI”；该行政令仅约束行政部门，不涉及法规、合同和私营部门用语，SI 的定义与现行联邦法律中的 AI 定义相同。",
+   "id": "f372eff54a5c2b4380d7e1290853acb9cb36f022",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-28T03:40:00+08:00"
   },
   {
    "title": "OpenAI 扩大与甲骨文合作：Oracle 应用与数据接入 ChatGPT，并推出基于 OpenAI 模型的 AI Workspace、AI Security Mesh、App Composer 等新产品",
