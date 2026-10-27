@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-28T00:34:00+08:00",
+  "updated": "2026-10-28T01:34:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "Firefox Smart Window 更新：可从已打开的标签页提取信息自动填写网页表单，并支持用 /watch 让 AI 定期监控网页变化",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+          "source": "The Verge",
+          "date": "2026-10-28",
+          "summary": "Mozilla 为 Firefox 的 AI 浏览体验 Smart Window 增加“Fill from sources”：在至少含四个文本框的表单中，可选择标签页（如作品集、LinkedIn）生成填写建议，来源页数据会发送给 Google Gemini 3.1 Flash Lite 处理；暂只支持文本框，下拉菜单和 PDF 支持在开发中。新的 /watch 任务可按日或按周检查网页上的降价、新职位等变化并通知用户（仅在浏览器打开时运行）。"
+        },
+        {
           "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
           "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
           "source": "TechCrunch",
@@ -244,13 +251,6 @@
           "source": "IT之家 / Tencent-Hunyuan GitHub",
           "date": "2026-10-26",
           "summary": "官方称在长音频评测集 RealSI 上以最低延迟取得开源同传模型最佳效果、超过多数商用同传 API；在与 6 位 CATTI 一/二级同传专家的对比中翻译质量得分更高、时延更低。已在 GitHub（Tencent-Hunyuan/Hy-SimulMT）、Hugging Face 与 ModelScope 开源，并在腾讯 Hy 翻译 App 免费首发。"
-        },
-        {
-          "title": "小米技术委孵化的开源 AI 桌面硬件 HachimoDock 亮相：自制成本约 150 元，集成桌宠、语音操控电脑端 Agent 与智能家居联动",
-          "url": "https://www.ithome.com/1/017/842.htm",
-          "source": "IT之家",
-          "date": "2026-10-26",
-          "summary": "可把语音意图派发给电脑端 Codex、WorkBuddy 等智能体并在屏幕展示任务状态，支持用自然语言现场生成新组件；软件源码、物料清单、结构件模型与装配教程已在 GitHub 公开。"
         }
       ]
     },

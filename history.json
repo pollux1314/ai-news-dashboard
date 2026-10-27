@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-28T00:34:00+08:00",
- "count": 1737,
+ "updated": "2026-10-28T01:34:00+08:00",
+ "count": 1738,
  "items": [
+  {
+   "title": "Firefox Smart Window 更新：可从已打开的标签页提取信息自动填写网页表单，并支持用 /watch 让 AI 定期监控网页变化",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1019551/firefox-smart-window-ai-fill-forms",
+   "source": "The Verge",
+   "date": "2026-10-28",
+   "summary": "Mozilla 为 Firefox 的 AI 浏览体验 Smart Window 增加“Fill from sources”：在至少含四个文本框的表单中，可选择标签页（如作品集、LinkedIn）生成填写建议，来源页数据会发送给 Google Gemini 3.1 Flash Lite 处理；暂只支持文本框，下拉菜单和 PDF 支持在开发中。新的 /watch 任务可按日或按周检查网页上的降价、新职位等变化并通知用户（仅在浏览器打开时运行）。",
+   "id": "abb96e9fdd6f617ed2697d11cee5177b2fcaeb5d",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-28T01:34:00+08:00"
+  },
   {
    "title": "Google DeepMind 发布交互式世界模型 Genie 4：画面更逼真、可用自然语言实时改变场景并自动生成音频，单次模拟时长从约 1 分钟延长到约 2 分钟",
    "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
