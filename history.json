@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T19:32:00+08:00",
+ "updated": "2026-10-27T19:27:00+08:00",
  "count": 1723,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "b007bafd9ff10551e06fcda8694561d2cc5be1c4",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-27T19:32:00+08:00"
+   "first_seen": "2026-10-27T19:27:00+08:00"
   },
   {
    "title": "The Verge：美国参议员 Adam Schiff 继 Blackburn 之后要求 Meta 撤回商业条款修订——新条款似允许其用新闻网站内容训练 AI",
@@ -22,7 +22,7 @@
    "id": "6b27527b0ba64000563639887c6d5b8c768b4ca4",
    "module": "policy",
    "module_name": "政策与监管",
-   "first_seen": "2026-10-27T19:32:00+08:00"
+   "first_seen": "2026-10-27T19:27:00+08:00"
   },
   {
    "title": "HKUDS/DeepTutor",
@@ -33,7 +33,7 @@
    "id": "f9173bb79a9aefe76fd9781bc78573a9f35efe5b",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-27T19:32:00+08:00"
+   "first_seen": "2026-10-27T19:27:00+08:00"
   },
   {
    "title": "清华、英伟达、CMU、伯克利等发布实时交互视频生成基准 StreamEval：评测 37 个流式视频模型，发现画质与身份保持好不等于“听话”——指令跟随、状态一致性普遍是短板",
