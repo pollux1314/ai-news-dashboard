@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-27T11:31:00+08:00",
- "count": 1705,
+ "updated": "2026-10-27T12:40:00+08:00",
+ "count": 1708,
  "items": [
+  {
+   "title": "工商时报：台积电 CoWoS 先进封装报价酝酿新一轮调涨，涨幅上看 2 成；AI 芯片抢产能，设备交期拉长至 6–8 个月",
+   "url": "https://www.ctee.com.tw/news/20261027700053-439901",
+   "source": "工商时报 / Investing.com",
+   "date": "2026-10-27",
+   "summary": "供应链称先进封装需求已从 AI GPU 扩散到服务器 CPU 与定制 ASIC，AI 芯片测试时间拉长同时挤压封测产能，晶圆代工与 OSAT 酝酿 CoWoS 报价上调 10%–20%。法人估台积电 CoWoS 月产能 2026 年逾 13 万片、2027 年目标 20 万片；台积电未就报价置评。",
+   "id": "f7ac5d06e61d5a3283acbab999a31e0819e0ba53",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T12:40:00+08:00"
+  },
+  {
+   "title": "行元智能发布跨本体机器人数据引擎 Chorus（众行）：把眼镜、胸戴相机、UMI 等人类操作视频重建并映射到 16 种机器人本体，有效训练数据扩容约 40 倍",
+   "url": "https://www.163.com/dy/article/LA86EL4805118O92.html",
+   "source": "钛媒体 / 机器之心",
+   "date": "2026-10-27",
+   "summary": "创始人杨世琦（00 后，今年 6 月创立）坚持不做硬件本体；当前测试配置下有效数据转化率约 85%，1 小时预筛选人类视频可生成约 13.6 小时跨本体动作轨迹，叠加 3 倍指令增广后实现约 40 倍扩容，并设计工人 2–3 秒接管纠偏、经验回流训练的人机协作机制。",
+   "id": "ba62d8e789cbcaf5a1ffdea724ec2a9795aa2b0a",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-27T12:40:00+08:00"
+  },
+  {
+   "title": "宇树科技发布股票交易异常波动公告：三个交易日涨幅偏离值累计超 30%，滚动市盈率 465.22 倍、远高于行业均值 38.54 倍，提示人形机器人商业化尚处早期",
+   "url": "https://paper.cnstock.com/html/2026-10/27/content_2281466.htm",
+   "source": "上海证券报",
+   "date": "2026-10-27",
+   "summary": "宇树（688836）10 月 26 日收报 672 元、单日涨 7.69%，总市值约 2718 亿元，10 月 16 日以来 7 个交易日累计反弹约 66%；公司称经营正常、无应披露未披露重大事项，并提示估值回归风险。",
+   "id": "992a4d0f930d2c001f7ceae6ea3b03637ff6c072",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-27T12:40:00+08:00"
+  },
   {
    "title": "multica-ai/andrej-karpathy-skills",
    "url": "https://github.com/multica-ai/andrej-karpathy-skills",
