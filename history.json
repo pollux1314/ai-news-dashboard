@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T22:40:00+08:00",
+ "updated": "2026-10-27T22:36:00+08:00",
  "count": 1731,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "f2743529b56768efbfa74ba4e28d6847cfef37df",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-27T22:40:00+08:00"
+   "first_seen": "2026-10-27T22:36:00+08:00"
   },
   {
    "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
