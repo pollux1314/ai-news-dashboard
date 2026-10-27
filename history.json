@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T03:40:00+08:00",
+ "updated": "2026-10-28T03:30:00+08:00",
  "count": 1742,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "c347242ece45356c7ae98b59b28254f6bf14107b",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-28T03:40:00+08:00"
+   "first_seen": "2026-10-28T03:30:00+08:00"
   },
   {
    "title": "Firefox Smart Window 更新：可从已打开的标签页提取信息自动填写网页表单，并支持用 /watch 让 AI 定期监控网页变化",
@@ -55,7 +55,7 @@
    "id": "44543de8094b27f0323c81c6f286bf440e521dc9",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-28T03:40:00+08:00"
+   "first_seen": "2026-10-28T03:30:00+08:00"
   },
   {
    "title": "特朗普在 Truth Social 称将“正式禁止”在相关文件及“其他一切”中使用“AI/人工智能”一词，要求改称“超级智能”（SI），并点名《华尔街日报》",
@@ -66,7 +66,7 @@
    "id": "f372eff54a5c2b4380d7e1290853acb9cb36f022",
    "module": "policy",
    "module_name": "政策与监管",
-   "first_seen": "2026-10-28T03:40:00+08:00"
+   "first_seen": "2026-10-28T03:30:00+08:00"
   },
   {
    "title": "OpenAI 扩大与甲骨文合作：Oracle 应用与数据接入 ChatGPT，并推出基于 OpenAI 模型的 AI Workspace、AI Security Mesh、App Composer 等新产品",
