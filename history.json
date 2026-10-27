@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-27T08:30:00+08:00",
- "count": 1698,
+ "updated": "2026-10-27T09:34:00+08:00",
+ "count": 1699,
  "items": [
+  {
+   "title": "@cursor_ai：DeepSeek V4.1 Flash 已上线 Cursor，称其各推理强度档位均位于 CursorBench 成本前沿——每任务 0.60–0.98 美元，同价位无模型得分更高",
+   "url": "https://x.com/cursor_ai/status/2114839997568405608",
+   "source": "X",
+   "date": "2026-10-27",
+   "summary": "用户可在 Cursor Settings > Models 中开启；帖子发布于 10 月 27 日 06:02（UTC+8），约 9 万次浏览、1,700 赞。",
+   "id": "4d7c0930f30ae3b67eeff469c5b31bd5e95a616f",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T09:34:00+08:00"
+  },
   {
    "title": "alchaincyf/huashu-design",
    "url": "https://github.com/alchaincyf/huashu-design",
