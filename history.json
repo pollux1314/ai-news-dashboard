@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-27T07:33:00+08:00",
- "count": 1696,
+ "updated": "2026-10-27T08:35:00+08:00",
+ "count": 1698,
  "items": [
+  {
+   "title": "alchaincyf/huashu-design",
+   "url": "https://github.com/alchaincyf/huashu-design",
+   "source": "GitHub · HTML · ⭐ 26734",
+   "date": "2026-10-27",
+   "summary": "花叔开源（MIT）的 Huashu Design 3.0：面向 Claude Code、Codex、Cursor 等智能体的 HTML 原生设计技能，一句话产出网页、App 原型、可编辑 PPTX、动画与信息图，内置 84 种带样张的风格库与设计体检，今日登上 GitHub 趋势榜。",
+   "id": "da293a3ba3da8d47902188b2a1e552fdf050629a",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "灵宝 CASBOT 母公司中科慧灵完成数亿元 A++ 轮融资：2026 年在手具身制鞋机器人订单超 4 亿元，设备排产步入数千台量级",
+   "url": "https://www.cs.com.cn/ssgs/01/2026/10/26/detail_2026102610047252.html",
+   "source": "中国证券报·中证网",
+   "date": "2026-10-26",
+   "summary": "本轮由知来投资、涌铧投资、茂天投资、元禾辰坤、国科科智、鲁宁投资等联合投资。其轻量化 CASBOT PA 感知到动作模型支持单张消费级 GPU 训练，已在制鞋工厂实现 7 秒盖章、18 秒压合鞋底；公司称方案年投资回报率约 50%–70%，回收期两年以内。",
+   "id": "67c0cc915749ca72ab2a8eff59170ab951d308d7",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-27T08:35:00+08:00"
+  },
   {
    "title": "苹果发布 iOS 27.2：Siri AI 新增对话记忆，可回忆过往对话并调取语音留言、信息附件照片、日历参与人等更多个人来源，扩展至法语、日语、韩语、葡萄牙语和西班牙语",
    "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
