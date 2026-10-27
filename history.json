@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-28T04:28:00+08:00",
- "count": 1743,
+ "updated": "2026-10-28T05:30:00+08:00",
+ "count": 1745,
  "items": [
+  {
+   "title": "@AnthropicAI：过去几个月 Anthropic 科学家与六家新药研发机构开展深度研究合作，并已开始自有药物发现工作，总结 Claude 能如何支持药物研发的多个阶段",
+   "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+   "source": "X · @AnthropicAI",
+   "date": "2026-10-28",
+   "summary": "Anthropic 官方账号于北京时间 10 月 28 日 04:27 发帖，发布约一小时浏览量约 18 万、点赞约 2400。",
+   "id": "9cb8ae6ab364ca6d42aa266703254e1de0cc1c73",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T05:30:00+08:00"
+  },
   {
    "title": "@ArtificialAnlys：蚂蚁百灵发布开放权重推理模型 Ling 3.1 Flash 1019（总参数 560B、激活 25B），Artificial Analysis 智能指数 v4.3 得分由 41 升至 44",
    "url": "https://x.com/ArtificialAnlys/status/2115155299334246584",
@@ -45,6 +56,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "Anthropic 披露 Claude 加速药物研发的早期进展：与 BigHat、百时美施贵宝、Divergence Labs、Enveda、Generate Biomedicines、The Column Group 六家机构深度合作，并启动自有药物发现项目",
+   "url": "https://www.anthropic.com/research/early-progress-drug-development",
+   "source": "Anthropic 官方博客",
+   "date": "2026-10-27",
+   "summary": "案例之一：Generate 的 6 名科学家用 Claude Code 设计 CAR-T 疗法中的一段遗传指令，新设计缩短约 70%，实验中让免疫细胞多表达约 10 倍受体、杀伤肿瘤更高效；Anthropic 自有项目包括罕见儿童肌营养不良，Claude 承担大部分科研与运营工作，并称将大幅扩大这项工作。",
+   "id": "fdf27bf9960b1109d4f0b8c8cc98f8977bc59ae6",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-28T05:30:00+08:00"
   },
   {
    "title": "Harmonic 把 Aristotle 扩展到软件与芯片形式化验证：首批支持 C 与 Verilog，用自然语言描述性质即可得到机器可检验的证明或反例，并可在 CI 中每次提交自动运行",

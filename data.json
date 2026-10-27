@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-28T04:28:00+08:00",
+  "updated": "2026-10-28T05:30:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "Anthropic 披露 Claude 加速药物研发的早期进展：与 BigHat、百时美施贵宝、Divergence Labs、Enveda、Generate Biomedicines、The Column Group 六家机构深度合作，并启动自有药物发现项目",
+          "url": "https://www.anthropic.com/research/early-progress-drug-development",
+          "source": "Anthropic 官方博客",
+          "date": "2026-10-27",
+          "summary": "案例之一：Generate 的 6 名科学家用 Claude Code 设计 CAR-T 疗法中的一段遗传指令，新设计缩短约 70%，实验中让免疫细胞多表达约 10 倍受体、杀伤肿瘤更高效；Anthropic 自有项目包括罕见儿童肌营养不良，Claude 承担大部分科研与运营工作，并称将大幅扩大这项工作。"
+        },
+        {
           "title": "Axiom 宣布用 AI 智能体群完成“有限单群分类”（CFSG）完整 Lean 形式化：约 1.5 万页、500 多篇论文的数学史上最长证明，24 天生成约 4310 万行 Lean 代码并由计算机逐步验证",
           "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
           "source": "Axiom 官方博客",
@@ -181,13 +188,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "三个同底层模型的智能体分别以文本窗口、小机器人、拟人形象出现；拟人形象获得更高信任与资源分配，男女版本信任度无显著差异但“薪酬”存在性别差距。论文见 ACM DL。"
-        },
-        {
-          "title": "皮肤科医生 Magnus Lynch 实测：微调 10 年前的 Inception v3 CNN 在 200 例活检确诊皮损中首选诊断正确率 62%，GPT-6 Astra 与 Claude Fable 5.1 仅 42%",
-          "url": "https://lynchlab.net/llm-skin-cancer",
-          "source": "Lynch Lab",
-          "date": "2026-10-25",
-          "summary": "CNN 在 68,011 张 ISIC 图像上微调，可在手机浏览器经 WebGPU 本地运行；但按预设阈值它会放走 30 例黑色素瘤中的 18 例，作者提示样本小、单次运行，测试数据与提示词已公开。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@AnthropicAI：过去几个月 Anthropic 科学家与六家新药研发机构开展深度研究合作，并已开始自有药物发现工作，总结 Claude 能如何支持药物研发的多个阶段",
+          "url": "https://x.com/AnthropicAI/status/2115178675050307942",
+          "source": "X · @AnthropicAI",
+          "date": "2026-10-28",
+          "summary": "Anthropic 官方账号于北京时间 10 月 28 日 04:27 发帖，发布约一小时浏览量约 18 万、点赞约 2400。"
+        },
+        {
           "title": "@GoogleDeepMind：发布 Genie 4，“迄今最逼真、交互性最强的世界模型”——可实时探索动态环境，观察场景如何响应、发出声音，以及其中的人如何移动、反应和说话",
           "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
           "source": "X · @GoogleDeepMind",
@@ -496,13 +503,6 @@
           "source": "X · @FangcunLeap",
           "date": "2026-10-26",
           "summary": "北京时间 10 月 26 日晚发布，获近千赞、约 9 万次浏览；报告涵盖评估完整性（评估意识、CoT 可监控性）、失控风险与有害操纵三大类共 34 项评测，并与 6 个前沿模型对比。"
-        },
-        {
-          "title": "@arcprize：英伟达 Nemotron 3.5 Super VL 完成 ARC-AGI 官方验证——ARC-AGI-2 得分 1.94%（每任务 0.02 美元）、ARC-AGI-1 得分 22.67%（0.03 美元），是 ARC Prize 首个评测的英伟达模型",
-          "url": "https://x.com/arcprize/status/2114716864832037147",
-          "source": "X · @arcprize",
-          "date": "2026-10-26",
-          "summary": "同日 ARC Prize 还公布 ARC Prize 2026 竞赛 ARC-AGI-3 新高分：Fields Model 的 Yi-Chia Chen 以 71.48% 重回第一，距比赛结束仅剩一周。"
         }
       ]
     }
