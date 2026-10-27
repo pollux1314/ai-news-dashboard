@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-27T15:25:00+08:00",
- "count": 1714,
+ "updated": "2026-10-27T16:32:00+08:00",
+ "count": 1716,
  "items": [
+  {
+   "title": "CNET 实测 OpenAI 美国中期选举防护：凡描绘选举干预或可能劝阻投票的图片请求，ChatGPT 一律改为卡通化插画输出，即使要求写实也不生成照片级图像",
+   "url": "https://openai.com/index/election-safeguards-2026/",
+   "source": "OpenAI / CNET",
+   "date": "2026-10-27",
+   "summary": "OpenAI 选举负责人 Josh Lawson 称目的是“削弱图片的证据价值，同时保留插画和社会评论空间”；CNET 测试“ICE 站在投票站外”“投票机记录错误选项”等提示均只得到卡通风格图像。ChatGPT 还接入 Democracy Works 投票信息与美联社实时计票。美国中期选举将于 11 月 3 日举行。",
+   "id": "303bcedc9a221c446773e7d90215984e660ab611",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T16:32:00+08:00"
+  },
+  {
+   "title": "《卫报》/路透：中国 AI 股泡沫已破——科创 50 指数不到四个月下跌约 40%、蒸发约 4800 亿美元市值，宇树股价较 8 月上市后腰斩，长鑫存储一个月跌逾四分之一",
+   "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+   "source": "The Guardian / Reuters",
+   "date": "2026-10-27",
+   "summary": "据高盛统计，AI 相关股票占 A 股与港股总市值约 42%、成交额约 57%；沪深 300 较 6 月高点回落约 20%。交易员认为估值过高、税负以及美国等可能禁用中国数据中心设备共同导致抛售，科创 50 市盈率仍约 100 倍。",
+   "id": "291dd7fdf89aab0e6ed78f4f37c9ece21f08e072",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-27T16:32:00+08:00"
+  },
   {
    "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
    "url": "https://markets.businessinsider.com/news/stocks/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth-1036668988",

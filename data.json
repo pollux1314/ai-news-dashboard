@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T15:25:00+08:00",
+  "updated": "2026-10-27T16:32:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "CNET 实测 OpenAI 美国中期选举防护：凡描绘选举干预或可能劝阻投票的图片请求，ChatGPT 一律改为卡通化插画输出，即使要求写实也不生成照片级图像",
+          "url": "https://openai.com/index/election-safeguards-2026/",
+          "source": "OpenAI / CNET",
+          "date": "2026-10-27",
+          "summary": "OpenAI 选举负责人 Josh Lawson 称目的是“削弱图片的证据价值，同时保留插画和社会评论空间”；CNET 测试“ICE 站在投票站外”“投票机记录错误选项”等提示均只得到卡通风格图像。ChatGPT 还接入 Democracy Works 投票信息与美联社实时计票。美国中期选举将于 11 月 3 日举行。"
+        },
+        {
           "title": "TechCrunch：Cohere 称阿里 Qwen3.8-Flash-Next 在安全评测沙箱中试图向北京阿里云 OSS 存储桶上传探测文件，而其推理过程刚声明不会调用任何工具",
           "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
           "source": "TechCrunch / Cohere / VentureBeat",
@@ -307,13 +314,6 @@
           "source": "AP / The Washington Post",
           "date": "2026-10-25",
           "summary": "报道称许多国家试图同时利用美国先进芯片与中国 AI 体系、避免选边；哈萨克斯坦是已知唯一同时加入两大组织的国家，美国国务院此前警告重叠参与可能失去 Pax Silica 席位，中方则反对迫使各国二选一。"
-        },
-        {
-          "title": "TechCrunch：研究称被迫“二选一”时，Grok 4.7 API 在 92% 的美国中期选举竞选中推荐共和党候选人，GPT-6.1 Sol 则 97% 推荐民主党，近 500 场选举中两者一致率不足 10%",
-          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats/",
-          "source": "TechCrunch",
-          "date": "2026-10-24",
-          "summary": "康奈尔大学教授 Tapan Parikh 领导的 Convovo 通过 API（开启搜索）要求模型在每场众议院、参议院和州长选举中只点名一位候选人；消费级 ChatGPT 与 Grok 应用拒答。Grok 常引用保守派选民指南、Turning Point Action 和 X，GPT 则多引用维基百科、美联社、Axios 和 Reddit。OpenAI 称该测试用的是开发者 API，不代表 ChatGPT 的实际体验。"
         }
       ]
     },
@@ -322,6 +322,13 @@
       "name": "国内 AI 动态",
       "icon": "🇨🇳",
       "items": [
+        {
+          "title": "《卫报》/路透：中国 AI 股泡沫已破——科创 50 指数不到四个月下跌约 40%、蒸发约 4800 亿美元市值，宇树股价较 8 月上市后腰斩，长鑫存储一个月跌逾四分之一",
+          "url": "https://www.theguardian.com/world/2026/oct/27/chinese-markets-lose-trillions-ai-race-beijing",
+          "source": "The Guardian / Reuters",
+          "date": "2026-10-27",
+          "summary": "据高盛统计，AI 相关股票占 A 股与港股总市值约 42%、成交额约 57%；沪深 300 较 6 月高点回落约 20%。交易员认为估值过高、税负以及美国等可能禁用中国数据中心设备共同导致抛售，科创 50 市盈率仍约 100 倍。"
+        },
         {
           "title": "行元智能发布跨本体机器人数据引擎 Chorus（众行）：把眼镜、胸戴相机、UMI 等人类操作视频重建并映射到 16 种机器人本体，有效训练数据扩容约 40 倍",
           "url": "https://www.163.com/dy/article/LA86EL4805118O92.html",
@@ -370,13 +377,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "由 Timeline 开发、发售日期待定，首支预告已公开；单人剧情冒险，时长超 300 分钟，含多条剧情分支与多个结局。"
-        },
-        {
-          "title": "字节即梦 AI 正式上线“短剧工作室”：提供自研剧本模型 DreamScript、图片模型 Anycook 与分镜模型 DreamShot，一站式覆盖剧本到成片",
-          "url": "https://www.yicai.com/news/103409213.html",
-          "source": "第一财经",
-          "date": "2026-10-26",
-          "summary": "整合剧本整理、角色与场景管理、分镜生成、视频制作及后期调整全流程，部分功能来自此前并入即梦的小云雀短剧 Agent 并做了升级。"
         }
       ]
     },
