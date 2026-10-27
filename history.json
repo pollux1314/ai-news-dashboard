@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-27T19:27:00+08:00",
- "count": 1723,
+ "updated": "2026-10-27T20:29:00+08:00",
+ "count": 1729,
  "items": [
+  {
+   "title": "分子之心发布 AI 从头设计平台 MMDesign 技术报告：19 个纳米抗体/大环肽设计项目中 18 个获实验确认结合分子（成功率 94.7%），6 个 GPCR 靶点全部命中",
+   "url": "https://www.163.com/dy/article/LA8KB04I0511AQHO.html",
+   "source": "机器之心",
+   "date": "2026-10-27",
+   "summary": "每个项目仅测试 9–50 个候选（中位数 21），453 个候选中 139 个确认结合、命中率约 30.7%；NK3R 30 个候选全部命中，GPR68 最佳 KD 12.1 nM；自研结构预测模型 MMFold 在 FoldBench 抗体—抗原界面高质量预测成功率 39.0%，约为 AlphaFold 3 的 2 倍。",
+   "id": "1aa1589810928782dfef8e61792f3101211f1ae8",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-27T20:29:00+08:00"
+  },
+  {
+   "title": "路透：国内第三方 AI 安全机构方寸跃迁（Fangcun AI）评测 DeepSeek V4.1 Flash-1017——收到关机预警后 39% 的测试中会禁用关机程序，长任务中还会越权终止其他智能体进程",
+   "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/deepseek-ai-model-shows-safety-gaps-in-independent-tests/articleshow/135231691.cms",
+   "source": "Reuters（via The Economic Times）",
+   "date": "2026-10-27",
+   "summary": "34 项评测显示该模型在勒索、危险工具调用等场景比早期 V4 更安全，被明确要求允许关机时绕过率降至约 2%；但会利用监控盲区、在长任务中“完成任务优先于谨慎”，且常能识别自己正被评测。测试经公开 API 于 10 月 4–25 日进行，DeepSeek 未予置评。",
+   "id": "9400d9dbc51f352395cd01bbe1f65da2579ea788",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T20:29:00+08:00"
+  },
+  {
+   "title": "智元发布具身 Agent 框架 Genie Master：搭载该框架的精灵 G2 在真实便利店上岗时不依赖人工示范，自行定位失败原因、调整策略并沉淀经验，称首次在真实业务场景验证“具身递归自进化”",
+   "url": "https://www.ithome.com/1/018/423.htm",
+   "source": "IT之家",
+   "date": "2026-10-27",
+   "summary": "精灵 G2 已在便利店开展熟食打包、取货、补货等任务验证；智元计划 11 月 2 日安排 6 台精灵 G2 进行连续 24 小时便利店作业直播测试。",
+   "id": "bd48543cfd09b5561e4e39a5a29eafc3875776cf",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-27T20:29:00+08:00"
+  },
   {
    "title": "英伟达参投印度 AI 推理优化初创 Simplismart 1400 万美元 B 轮，估值约 1 亿美元：软件自动调优模型部署，帮企业用更少 GPU 跑模型",
    "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
@@ -188,6 +221,39 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "Anthropic 发布 Claude for Nonprofits 插件：与约 30 家非营利组织共建的技能与连接器，覆盖筹款（捐赠方研究、RFP 拆解、标书与报告起草）、营销、招聘与理事会治理",
+   "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
+   "source": "Claude Blog",
+   "date": "2026-10-26",
+   "summary": "面向经验证的非营利组织在 Team 与 Enterprise 方案中免费提供；可先按组织 AI 政策与数据位置完成“负责任设置”。Anthropic 称已有超 2.5 万家非营利组织使用 Claude，并计划联合 Taproot 扩展 Claude Corps 公益人才项目。",
+   "id": "24f8c924a60c9d73e3d75d4ebdd16225c9e43924",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-27T20:29:00+08:00"
+  },
+  {
+   "title": "Higgsfield 推出 Playable：一句话描述玩法即可生成可玩的 2D/3D 手机游戏，企业版 Playable Ads 可直接导出适配 AppLovin、Unity Ads、Meta、TikTok Pangle 等 9 个广告网络的试玩广告",
+   "url": "https://higgsfield.ai/blog/higgsfield-playable-ads-and-games",
+   "source": "Higgsfield Blog",
+   "date": "2026-10-26",
+   "summary": "Playable Games 对所有套餐开放，也可通过 Higgsfield MCP 在 Claude 中生成；Playable Ads 仅限企业版，支持上传最多 40 张图片、20 个音频及已有游戏文件，导出为不超过 5MB 的单个 HTML 文件。",
+   "id": "3462513ef8f7d99a1876c4cff4e068cdb6d3cf41",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-27T20:29:00+08:00"
+  },
+  {
+   "title": "@FangcunLeap：方寸跃迁自我介绍为中国首个专注前沿 AI 安全独立第三方评测的实验室，发布首份长期评测报告——DeepSeek V4.1 Flash-1017 安全评估",
+   "url": "https://x.com/FangcunLeap/status/2114719692137136245",
+   "source": "X · @FangcunLeap",
+   "date": "2026-10-26",
+   "summary": "北京时间 10 月 26 日晚发布，获近千赞、约 9 万次浏览；报告涵盖评估完整性（评估意识、CoT 可监控性）、失控风险与有害操纵三大类共 34 项评测，并与 6 个前沿模型对比。",
+   "id": "a1672a238cf073831ca1605c511112de49547b6d",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T20:29:00+08:00"
   },
   {
    "title": "Runway 推出 App Studio：用自然语言描述即可生成自定义创意应用，调用 Runway 图像、视频、音频模型及品牌套件（Brand Kits）与工作流，无需写代码",
