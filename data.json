@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T22:36:00+08:00",
+  "updated": "2026-10-27T23:34:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "Axiom 宣布用 AI 智能体群完成“有限单群分类”（CFSG）完整 Lean 形式化：约 1.5 万页、500 多篇论文的数学史上最长证明，24 天生成约 4310 万行 Lean 代码并由计算机逐步验证",
+          "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+          "source": "Axiom 官方博客",
+          "date": "2026-10-27",
+          "summary": "AxiomProver 以数十个智能体分工拆解、检索、写证明与评审，过程中发现文献中 34 处值得注意的偏差，其中 Walter 对“非平衡群定理”（UGT）的论证存在反例，AI 给出新的替代证明（“简单顶保持”定理）；Lyons、Solomon 等群论专家参与咨询，代码含清华求真书院 Qiuzhen-CFSG 约 120 万行贡献，最终陈述仍待人类审查。"
+        },
+        {
           "title": "Anthropic 公开论文称内部 Claude 研究模型独立证伪“指数时间假设”（ETH）：给出 2^o(n) 时间的确定性 3-SAT 算法（还能计数 #3-SAT），并附 Lean 4 形式化证明",
           "url": "https://hexagonmath.org/2610.00577v1",
           "source": "Hexagon / Anthropic",
@@ -181,13 +188,6 @@
           "source": "Lynch Lab",
           "date": "2026-10-25",
           "summary": "CNN 在 68,011 张 ISIC 图像上微调，可在手机浏览器经 WebGPU 本地运行；但按预设阈值它会放走 30 例黑色素瘤中的 18 例，作者提示样本小、单次运行，测试数据与提示词已公开。"
-        },
-        {
-          "title": "清华丁宁团队发布跨本体灵巧操作仿真基准 HandsOn：66 项人工验证任务、1.8 万条人类示范，最佳训练策略 Core-50 成功率仅 29.1%，GPT-6 零样本控制仅 5.2%",
-          "url": "https://arxiv.org/abs/2610.26765",
-          "source": "arXiv 2610.26765 / 新浪财经",
-          "date": "2026-10-25",
-          "summary": "清华联合北邮、北大与 NatureWill 推出，支持 5 种机械臂、6 种灵巧手、约 200 种刚体/铰接/可变形资产；Core-50 用于示范学习评测，Transfer-16 测试资产迁移、技能组合与可变形物体（训练策略成功率均接近 0）。工具使用与精密装配几乎未解决（2–3%），代码与数据集已开源。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@axiommathai：Axiom 宣布“人类史上最大的数学证明现已被计算机验证”——完成有限单群分类（“对称性元素周期表”）的完整 Lean 自动形式化",
+          "url": "https://x.com/axiommathai/status/2115089794867040584",
+          "source": "X · @axiommathai",
+          "date": "2026-10-27",
+          "summary": "Axiom 官方账号于北京时间 10 月 27 日 22:34 发帖，称原证明约 1.5 万页、由百余位数学家跨代完成；帖子数小时内获约 19 万次浏览。"
+        },
+        {
           "title": "@runwayml：Runway 发布 App Studio，只需描述就能构建想要的创意应用，用 Runway 模型和品牌套件生成图像、视频与音频，无需代码",
           "url": "https://x.com/runwayml/status/2114805465658036425",
           "source": "X · @runwayml",
@@ -496,13 +503,6 @@
           "source": "X",
           "date": "2026-10-26",
           "summary": "这正是 Cursor 自家 Bugbot、Security Reviewer 等托管智能体所用的框架，支持响应 GitHub/GitLab/Bitbucket 等事件与事件回放；帖子约 13 万次浏览、2,000 赞。"
-        },
-        {
-          "title": "@OpenAI：发布 GPT-6.1 Terra，以更低价格提供快速、能干的电脑操作能力，能理解屏幕内容并跨应用执行操作",
-          "url": "https://x.com/OpenAI/status/2114780711664398349",
-          "source": "X",
-          "date": "2026-10-26",
-          "summary": "帖子发布于北京时间 10 月 27 日 02:06，约 20 分钟内获约 12 万次浏览、2,600 余赞；@OpenAIDevs 同步宣布 Terra 上线 API 与 Codex。"
         }
       ]
     }

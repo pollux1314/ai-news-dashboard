@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-27T22:36:00+08:00",
- "count": 1731,
+ "updated": "2026-10-27T23:34:00+08:00",
+ "count": 1733,
  "items": [
+  {
+   "title": "Axiom 宣布用 AI 智能体群完成“有限单群分类”（CFSG）完整 Lean 形式化：约 1.5 万页、500 多篇论文的数学史上最长证明，24 天生成约 4310 万行 Lean 代码并由计算机逐步验证",
+   "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",
+   "source": "Axiom 官方博客",
+   "date": "2026-10-27",
+   "summary": "AxiomProver 以数十个智能体分工拆解、检索、写证明与评审，过程中发现文献中 34 处值得注意的偏差，其中 Walter 对“非平衡群定理”（UGT）的论证存在反例，AI 给出新的替代证明（“简单顶保持”定理）；Lyons、Solomon 等群论专家参与咨询，代码含清华求真书院 Qiuzhen-CFSG 约 120 万行贡献，最终陈述仍待人类审查。",
+   "id": "cd36ff737c36cbfb8d5450d890cc5d4e2bdddc66",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-27T23:34:00+08:00"
+  },
+  {
+   "title": "@axiommathai：Axiom 宣布“人类史上最大的数学证明现已被计算机验证”——完成有限单群分类（“对称性元素周期表”）的完整 Lean 自动形式化",
+   "url": "https://x.com/axiommathai/status/2115089794867040584",
+   "source": "X · @axiommathai",
+   "date": "2026-10-27",
+   "summary": "Axiom 官方账号于北京时间 10 月 27 日 22:34 发帖，称原证明约 1.5 万页、由百余位数学家跨代完成；帖子数小时内获约 19 万次浏览。",
+   "id": "ec676f5556055807e8998aa90db015d7687f542e",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T23:34:00+08:00"
+  },
   {
    "title": "Anthropic 公开论文称内部 Claude 研究模型独立证伪“指数时间假设”（ETH）：给出 2^o(n) 时间的确定性 3-SAT 算法（还能计数 #3-SAT），并附 Lean 4 形式化证明",
    "url": "https://hexagonmath.org/2610.00577v1",
