@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T21:34:00+08:00",
+  "updated": "2026-10-27T22:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "Anthropic 公开论文称内部 Claude 研究模型独立证伪“指数时间假设”（ETH）：给出 2^o(n) 时间的确定性 3-SAT 算法（还能计数 #3-SAT），并附 Lean 4 形式化证明",
+          "url": "https://hexagonmath.org/2610.00577v1",
+          "source": "Hexagon / Anthropic",
+          "date": "2026-10-27",
+          "summary": "Anthropic 称核心算法由内部 Claude 模型于 10 月 16 日在无人类输入下找到（约 1400 万输出 Token），论文与 Lean 证明已在 GitHub 公开；与 OpenAI 同期宣布的 ETH 结果相互独立。该结论纯属渐近意义，不改善实际 SAT 求解，仍待学界独立审查。"
+        },
+        {
           "title": "分子之心发布 AI 从头设计平台 MMDesign 技术报告：19 个纳米抗体/大环肽设计项目中 18 个获实验确认结合分子（成功率 94.7%），6 个 GPCR 靶点全部命中",
           "url": "https://www.163.com/dy/article/LA8KB04I0511AQHO.html",
           "source": "机器之心",
@@ -181,13 +188,6 @@
           "source": "arXiv 2610.26765 / 新浪财经",
           "date": "2026-10-25",
           "summary": "清华联合北邮、北大与 NatureWill 推出，支持 5 种机械臂、6 种灵巧手、约 200 种刚体/铰接/可变形资产；Core-50 用于示范学习评测，Transfer-16 测试资产迁移、技能组合与可变形物体（训练策略成功率均接近 0）。工具使用与精密装配几乎未解决（2–3%），代码与数据集已开源。"
-        },
-        {
-          "title": "IBM Research（ISWC 2026）：用知识图谱承载智能体的对话记忆，结合命令式与生成式计算，让回答透明、可溯源且更确定",
-          "url": "https://research.ibm.com/publications/transparent-traceable-deterministic-agentic-memory-via-knowledge-graphs",
-          "source": "IBM Research",
-          "date": "2026-10-25",
-          "summary": "论文聚焦智能体在对话中积累的用户知识如何结构化、更新、追溯来源并在推理时使用；方案已完整实现、在 IBM 内部企业场景试点，并已开源。"
         }
       ]
     },

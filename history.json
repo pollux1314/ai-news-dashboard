@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-27T21:34:00+08:00",
- "count": 1730,
+ "updated": "2026-10-27T22:40:00+08:00",
+ "count": 1731,
  "items": [
+  {
+   "title": "Anthropic 公开论文称内部 Claude 研究模型独立证伪“指数时间假设”（ETH）：给出 2^o(n) 时间的确定性 3-SAT 算法（还能计数 #3-SAT），并附 Lean 4 形式化证明",
+   "url": "https://hexagonmath.org/2610.00577v1",
+   "source": "Hexagon / Anthropic",
+   "date": "2026-10-27",
+   "summary": "Anthropic 称核心算法由内部 Claude 模型于 10 月 16 日在无人类输入下找到（约 1400 万输出 Token），论文与 Lean 证明已在 GitHub 公开；与 OpenAI 同期宣布的 ETH 结果相互独立。该结论纯属渐近意义，不改善实际 SAT 求解，仍待学界独立审查。",
+   "id": "f2743529b56768efbfa74ba4e28d6847cfef37df",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-27T22:40:00+08:00"
+  },
   {
    "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
    "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
