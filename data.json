@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T20:29:00+08:00",
+  "updated": "2026-10-27T21:36:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
+          "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "WebAI 先在 Opera One 以可选开启的早期预览上线，支持文本生成、内容分类与信息关联等能力，数据留在用户设备上；Opera GX 与 Opera Neon 随后跟进。Opera 称开发者无需自建 AI 基础设施或为每次请求付费，但性能取决于本机硬件。"
+        },
+        {
           "title": "IBM 在 TechXchange 2026 推出 AI 智能体身份与管控能力：HashiCorp Vault 为每个智能体分配受治理的 Agent Identity，执行最小权限访问并可实时吊销",
           "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
           "source": "IBM Newsroom",
@@ -244,13 +251,6 @@
           "source": "IT之家",
           "date": "2026-10-26",
           "summary": "可把语音意图派发给电脑端 Codex、WorkBuddy 等智能体并在屏幕展示任务状态，支持用自然语言现场生成新组件；软件源码、物料清单、结构件模型与装配教程已在 GitHub 公开。"
-        },
-        {
-          "title": "Nanbeige 开源 Nanbeige4.3-33B：33B 稠密 Apache 2.0 智能体编程模型，Terminal-Bench 2.1 得 80.9（Qwen3.8-27B 为 73.0），DeepSWE 65.5，将作为教师模型蒸馏 Nanbeige4.3-3B",
-          "url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
-          "source": "Hugging Face",
-          "date": "2026-10-25",
-          "summary": "官方自报成绩，与 Qwen3.8-27B、Muse-Glimmer-30B、Gemma4-31B 对比，在多数智能体编程与办公基准领先，但 SWE-Bench Pro、GDPval 略逊 Qwen3.8-27B。"
         }
       ]
     },

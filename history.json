@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-27T20:29:00+08:00",
- "count": 1729,
+ "updated": "2026-10-27T21:36:00+08:00",
+ "count": 1730,
  "items": [
+  {
+   "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
+   "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
+   "source": "TechCrunch",
+   "date": "2026-10-27",
+   "summary": "WebAI 先在 Opera One 以可选开启的早期预览上线，支持文本生成、内容分类与信息关联等能力，数据留在用户设备上；Opera GX 与 Opera Neon 随后跟进。Opera 称开发者无需自建 AI 基础设施或为每次请求付费，但性能取决于本机硬件。",
+   "id": "c3f55709f5e3f7eaef3eb390f1d8d5c2c5a4bf2d",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-27T21:36:00+08:00"
+  },
   {
    "title": "分子之心发布 AI 从头设计平台 MMDesign 技术报告：19 个纳米抗体/大环肽设计项目中 18 个获实验确认结合分子（成功率 94.7%），6 个 GPCR 靶点全部命中",
    "url": "https://www.163.com/dy/article/LA8KB04I0511AQHO.html",
