@@ -1,6 +1,6 @@
 {
  "updated": "2026-10-27T13:30:00+08:00",
- "count": 1708,
+ "count": 1709,
  "items": [
   {
    "title": "工商时报：台积电 CoWoS 先进封装报价酝酿新一轮调涨，涨幅上看 2 成；AI 芯片抢产能，设备交期拉长至 6–8 个月",
@@ -67,6 +67,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "每经测算 OpenRouter 周榜：DeepSeek V4.1-Flash-1017 单周调用 33.6 万亿 Token 登顶全球、环比增 801%，全球前五均为中国模型",
+   "url": "https://www.nbd.com.cn/articles/2026-10-26/4617444.html",
+   "source": "每日经济新闻",
+   "date": "2026-10-26",
+   "summary": "《每日经济新闻》据 OpenRouter 数据测算，10 月 19–25 日全球大模型总调用量 188 万亿 Token、环比增 14.63%；中国模型 93.54 万亿 Token，连续 26 周超过美国（22.47 万亿）。10 月 17 日更新的 DeepSeek V4.1-Flash-1017 居首，旧版 V4.1 Flash 以 18 万亿居第二、环比降 45%，MiniMax M3.1 Flash（free）13.7 万亿居第三。",
+   "id": "8840c3092d184946e41dc2c3a7ca3215473f32bb",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-27T13:30:00+08:00"
   },
   {
    "title": "微软向约 6 万名员工提供自愿离职补偿（Voluntary Exit Offer）：约占全球员工 27%，以控制成本、为 AI 基建投入腾挪资金",
