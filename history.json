@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-27T17:26:00+08:00",
- "count": 1719,
+ "updated": "2026-10-27T18:40:00+08:00",
+ "count": 1720,
  "items": [
+  {
+   "title": "清华、英伟达、CMU、伯克利等发布实时交互视频生成基准 StreamEval：评测 37 个流式视频模型，发现画质与身份保持好不等于“听话”——指令跟随、状态一致性普遍是短板",
+   "url": "https://arxiv.org/abs/2610.28402",
+   "source": "arXiv / 机器之心",
+   "date": "2026-10-27",
+   "summary": "覆盖数字人对话、数字人表演、世界生成、指令编辑和参考编辑 5 类任务、300 个 15–300 秒脚本用例与 10 项指标；数字人表演最高跟随分仅 36.90（Vidu S2 Avatar），世界生成最高 25.93（Krea Realtime），参考编辑成功率最高仅 15.00；数据与代码全部开源，榜单按月更新。",
+   "id": "5653d3fc52b070b1465a1f4749d7c3dc8dac1f1d",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-27T18:40:00+08:00"
+  },
   {
    "title": "IBM 在 TechXchange 2026 推出 AI 智能体身份与管控能力：HashiCorp Vault 为每个智能体分配受治理的 Agent Identity，执行最小权限访问并可实时吊销",
    "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",

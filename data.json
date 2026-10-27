@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T17:26:00+08:00",
+  "updated": "2026-10-27T18:40:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -134,6 +134,13 @@
       "icon": "📄",
       "items": [
         {
+          "title": "清华、英伟达、CMU、伯克利等发布实时交互视频生成基准 StreamEval：评测 37 个流式视频模型，发现画质与身份保持好不等于“听话”——指令跟随、状态一致性普遍是短板",
+          "url": "https://arxiv.org/abs/2610.28402",
+          "source": "arXiv / 机器之心",
+          "date": "2026-10-27",
+          "summary": "覆盖数字人对话、数字人表演、世界生成、指令编辑和参考编辑 5 类任务、300 个 15–300 秒脚本用例与 10 项指标；数字人表演最高跟随分仅 36.90（Vidu S2 Avatar），世界生成最高 25.93（Krea Realtime），参考编辑成功率最高仅 15.00；数据与代码全部开源，榜单按月更新。"
+        },
+        {
           "title": "OpenAI 宣布其内部模型取得三项科学发现：证明 Sogge 局部光滑猜想（进而推出所有维度的 Kakeya 与 Stein 限制猜想）、证伪“指数时间假设”（ETH）、给出四维 QCD 与 Yang–Mills 存在性的严格证明",
           "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
           "source": "OpenAI",
@@ -181,13 +188,6 @@
           "source": "Google DeepMind / 机器之心",
           "date": "2026-10-24",
           "summary": "高置信度时目标 logit 梯度被舍入为 0（bf16 约 5.5、fp32 约 16.6 的 margin 即触发），导致梯度和不为零并引发 grokking 中的“slingshot”损失尖峰；蒸馏中师生 logits 相等时仍有非零梯度。修复在 log 空间用 softplus、expm1、log1p 重写，消除尖峰、加速 grokking。作者称该 Bug 最先由 Gemini Flash 3.7 发现并修复，多数实验由 Flash 3.8 完成。"
-        },
-        {
-          "title": "山东大学研究：编程智能体的 Harness 几乎不影响通过率，却能让同模型同任务的单任务成本相差最多 3 倍",
-          "url": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
-          "source": "The Decoder / arXiv 2610.04433",
-          "date": "2026-10-24",
-          "summary": "论文《What Does a Harness Buy? Tokens, Mostly》用 Claude Code、mini-SWE-agent、OpenCode 三种生产级 Harness 跑五个模型的 SWE-bench Verified：447 题上最重的 Claude Code 与最轻的 mini-SWE-agent 通过率相差在 5 个百分点内；45 道难题上换 Harness 翻转的题目比例（13%）与同配置重跑相同。成本差主要来自每步重发的系统提示与工具定义前缀（Claude Code 约 16k token，OpenCode 约 7k，mini-SWE-agent 不足 1k）及步数。"
         }
       ]
     },
