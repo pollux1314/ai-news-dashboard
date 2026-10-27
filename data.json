@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-28T01:34:00+08:00",
+  "updated": "2026-10-28T02:28:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "OpenAI 扩大与甲骨文合作：Oracle 应用与数据接入 ChatGPT，并推出基于 OpenAI 模型的 AI Workspace、AI Security Mesh、App Composer 等新产品",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt",
+          "source": "OpenAI",
+          "date": "2026-10-27",
+          "summary": "甲骨文在 Oracle AI World 上发布 Oracle AI Workspace，通过 ChatGPT 插件连接 Fusion、NetSuite、AI Database 与 OCI，让员工用自然语言在权限和审批范围内完成业务流程；同时推出用 OpenAI 网络安全模型找漏洞的 AI Security Mesh、捆绑 ChatGPT Business 与 Codex 的 SMB Bundle，以及用 Codex 构建企业应用的 App Composer。OpenAI 称甲骨文内部已有 13 万 ChatGPT 活跃用户和 9.5 万多 Codex 活跃用户；CNBC 报道 OCI 还将加入 Google TPU、OpenAI Jalapeño 芯片与 Cerebras 硬件。"
+        },
+        {
           "title": "TechCrunch 独家：Meta 超级智能实验室前总监 Rohit Patel 离职创办 Ndoc，主打 AI 原生办公套件，挑战 Microsoft Office 与 Google Workspace",
           "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
           "source": "TechCrunch",
@@ -118,13 +125,6 @@
           "source": "Microsoft 官方博客 / CNBC / The Verge / AP",
           "date": "2026-10-26",
           "summary": "首席人才官 Amy Coleman 宣布，计划面向美国、加拿大、印度、英国参与团队中 70 级及以下（至副总裁级）员工；Copilot、CoreAI、Windows + Devices、Xbox、财务与人力等团队参与，营销、商业销售、安全与量子团队不参与。员工需在 12 月初决定，参与者 12 月 31 日离职；此前微软今年已推出首个自愿退休计划并在 7 月裁员 4,800 人。"
-        },
-        {
-          "title": "美银、黑石、花旗、摩根士丹利宣布 630 亿美元融资结构：通过新设 SPV 购买博通 XPU 加速器与网络设备，再租赁给 Anthropic",
-          "url": "https://investors.broadcom.com/news-releases/news-release-details/bank-america-blackstone-citi-and-morgan-stanley-announce",
-          "source": "Broadcom / Reuters",
-          "date": "2026-10-26",
-          "summary": "一留置权融资由美银、花旗、大摩安排，黑石独家提供二留置权承诺部分；博通为 SPV 提供与一留置权等额的残值支持（峰值敞口预计 430 亿美元，五年内摊销至零），交付预计 2027 年开始。路透称这是 AI 基建相关规模最大的债务交易之一。"
         }
       ]
     },
