@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-28T03:30:00+08:00",
+  "updated": "2026-10-28T04:28:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -204,6 +204,13 @@
           "summary": "Mozilla 为 Firefox 的 AI 浏览体验 Smart Window 增加“Fill from sources”：在至少含四个文本框的表单中，可选择标签页（如作品集、LinkedIn）生成填写建议，来源页数据会发送给 Google Gemini 3.1 Flash Lite 处理；暂只支持文本框，下拉菜单和 PDF 支持在开发中。新的 /watch 任务可按日或按周检查网页上的降价、新职位等变化并通知用户（仅在浏览器打开时运行）。"
         },
         {
+          "title": "Harmonic 把 Aristotle 扩展到软件与芯片形式化验证：首批支持 C 与 Verilog，用自然语言描述性质即可得到机器可检验的证明或反例，并可在 CI 中每次提交自动运行",
+          "url": "https://www.harmonic.fun/news/aristotle-software-hardware-verification/",
+          "source": "Harmonic",
+          "date": "2026-10-27",
+          "summary": "Aristotle 会从代码中提出需要成立的性质，逐条返回已证明、被反驳或未决，并列出每个证明依赖的假设；C 侧可验证功能正确性与部分未定义行为，Verilog 侧覆盖活性、安全性等控制路径与数据路径性质。官方案例：在 Tensordyne 找到深达 11 万周期的 bug，为 LibTomMath 修复 3 个 bug 并让模幂运算提速 31–38%；美国聚变装置 DIII-D 用一篇论文加 254 词提示在 4 小时内复现并验证其等离子体控制算法。现已按用量自助开放，企业版支持本地部署。"
+        },
+        {
           "title": "Opera 推出拟议 Web 标准 WebAI 早期预览：网站与扩展可直接调用浏览器内本地运行的开放权重模型（如 Google Gemma，Mac 上还支持苹果端侧基础模型），无需云端",
           "url": "https://techcrunch.com/2026/10/27/opera-introduces-a-new-web-standard-to-let-users-deploy-ai-locally-in-their-browser/",
           "source": "TechCrunch",
@@ -244,13 +251,6 @@
           "source": "Entire 官方博客 / The New Stack / The Verge",
           "date": "2026-10-26",
           "summary": "Entire 以三大能力切入：Trails 把安全、代码质量、“Slop”等可自定义评测放到页面顶部，每次推送由云端沙箱里的评审智能体独立打分；兼容 Git 的分布式托管（官方称推送最高比 GitHub 快 89 倍）；以及把智能体会话与提示同步进仓库的 Continuous Memory。首发支持私有仓库托管，公开仓库与自托管节点仍在路线图上；公司今年 2 月曾宣布 6000 万美元种子轮。"
-        },
-        {
-          "title": "腾讯混元开源同声传译大模型 Hy-SimulMT：中英语音到语音边听边译、支持实时音色克隆，实测响应约 3 秒（人类专业译员平均 4–5 秒）",
-          "url": "https://www.ithome.com/1/018/168.htm",
-          "source": "IT之家 / Tencent-Hunyuan GitHub",
-          "date": "2026-10-26",
-          "summary": "官方称在长音频评测集 RealSI 上以最低延迟取得开源同传模型最佳效果、超过多数商用同传 API；在与 6 位 CATTI 一/二级同传专家的对比中翻译质量得分更高、时延更低。已在 GitHub（Tencent-Hunyuan/Hy-SimulMT）、Hugging Face 与 ModelScope 开源，并在腾讯 Hy 翻译 App 免费首发。"
         }
       ]
     },

@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T03:30:00+08:00",
- "count": 1742,
+ "updated": "2026-10-28T04:28:00+08:00",
+ "count": 1743,
  "items": [
   {
    "title": "@ArtificialAnlys：蚂蚁百灵发布开放权重推理模型 Ling 3.1 Flash 1019（总参数 560B、激活 25B），Artificial Analysis 智能指数 v4.3 得分由 41 升至 44",
@@ -45,6 +45,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "Harmonic 把 Aristotle 扩展到软件与芯片形式化验证：首批支持 C 与 Verilog，用自然语言描述性质即可得到机器可检验的证明或反例，并可在 CI 中每次提交自动运行",
+   "url": "https://www.harmonic.fun/news/aristotle-software-hardware-verification/",
+   "source": "Harmonic",
+   "date": "2026-10-27",
+   "summary": "Aristotle 会从代码中提出需要成立的性质，逐条返回已证明、被反驳或未决，并列出每个证明依赖的假设；C 侧可验证功能正确性与部分未定义行为，Verilog 侧覆盖活性、安全性等控制路径与数据路径性质。官方案例：在 Tensordyne 找到深达 11 万周期的 bug，为 LibTomMath 修复 3 个 bug 并让模幂运算提速 31–38%；美国聚变装置 DIII-D 用一篇论文加 254 词提示在 4 小时内复现并验证其等离子体控制算法。现已按用量自助开放，企业版支持本地部署。",
+   "id": "d3ccb2568824ab700f7e6af19c3474a4c48002e6",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-28T04:28:00+08:00"
   },
   {
    "title": "达拉斯投资机构 Disruptive 完成 100 亿美元旗舰基金募集：计划押注约 10 家 AI、AI 基础设施与国防科技等成长期公司，单笔投资最高 10 亿美元",
