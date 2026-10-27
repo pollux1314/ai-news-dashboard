@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T13:30:00+08:00",
+  "updated": "2026-10-27T14:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
+          "url": "https://markets.businessinsider.com/news/stocks/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth-1036668988",
+          "source": "GlobeNewswire / Reuters",
+          "date": "2026-10-27",
+          "summary": "双方将围绕 Muse 系列模型优化训练与推理性能、降低总拥有成本，并考虑在 NVIDIA OpenShell 参考架构（安全部署）与 NVIDIA Sentry（智能体行为监控）上合作。英伟达 30 亿美元认购的是 Meta 本周启动的至多 950 亿美元股权融资计划；黄仁勋称 AI 智能体是“新的计算范式”。"
+        },
+        {
           "title": "工商时报：台积电 CoWoS 先进封装报价酝酿新一轮调涨，涨幅上看 2 成；AI 芯片抢产能，设备交期拉长至 6–8 个月",
           "url": "https://www.ctee.com.tw/news/20261027700053-439901",
           "source": "工商时报 / Investing.com",
@@ -118,13 +125,6 @@
           "source": "TechCrunch",
           "date": "2026-10-26",
           "summary": "据周一监管文件，租期约 5 至 5.25 年，自每批设备交付起算；交易预计年底前完成，2027 年上半年随 GPU 到货起租。CFO Bret Johnsen 称其 AI 基础设施投资回本期不到一年，算力用于 Grok 等业务。"
-        },
-        {
-          "title": "量子位：拿不出模型的 Neolab 开始转售 GPU——Dealroom 统计全球 29 家典型 AI 新兴实验室累计融资 230 亿美元，推出商业化产品的不到 35%",
-          "url": "https://www.qbitai.com/2026/10/505478.html",
-          "source": "量子位",
-          "date": "2026-10-26",
-          "summary": "文章称提前锁定长期算力租约的 Neolab 在 H200 租金一度上涨约 160%、B200 上涨 120% 的现货紧缺下，可通过溢价转租租约、拆分出售闲置 GPU 实例或改跑开源模型卖 token 变现；Modal 创始人预计明年将有一批 Neolab 转型为 Neocloud。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "百度开源文心 Unlimited OCR 2：称首次实现任意页数文档解析，可一次解析《哈利·波特》全 7 部超 3600 页，MPDocBench 84.6、MarathonDocBench 77.1 达端到端 SOTA",
+          "url": "https://finance.sina.com.cn/tech/2026-10-27/doc-iniwruys2128200.shtml",
+          "source": "新浪科技 / GitHub / Hugging Face",
+          "date": "2026-10-27",
+          "summary": "核心是稀疏参考滑动窗口注意力 SR-SWA：页面门控先把视觉参考范围缩到相关页面，再用得分最高的视觉 Token 桶捕捉长距离依赖，百页文档单步解码比 Full Attention 快 7 倍；结合无限解码机制降低显存开销。代码与权重已开源至 GitHub baidu/Unlimited-OCR 与 Hugging Face baidu/Unlimited-OCR-2。"
+        },
+        {
           "title": "Cloudflare 披露 Workers AI 上 GLM-5.3 跨请求 KV 缓存泄露：155 条响应混入其他客户请求的数据，根因是 KV 池容量配置不足叠加 SGLang 分离式预填充/解码的拒绝路径 Bug",
           "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
           "source": "Cloudflare Blog / SGLang",
@@ -244,13 +251,6 @@
           "source": "The Verge",
           "date": "2026-10-25",
           "summary": "新规还要求提交项目至少满一年、持续维护且有多名贡献者，不再接受招募维护者请求，并以“无法区分 AI 写作与 AI 翻译”为由实际排除非英语用户；批评者指出 Linux 内核已含 AI 生成代码，按此规则相关项目也会被禁。"
-        },
-        {
-          "title": "MCP 官方参考服务器发布 v2.1.0 安全更新：一次修补 filesystem、everything、fetch 三个服务器共 8 个漏洞，含符号链接 TOCTOU 写出越界、跨源调用工具与 IDNA/NAT64 SSRF 绕过",
-          "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.1.0",
-          "source": "GitHub · modelcontextprotocol/servers",
-          "date": "2026-10-25",
-          "summary": "建议将 @modelcontextprotocol/server-filesystem 与 server-everything 升级到 2.0.1、mcp-server-fetch 升级到 2026.10.24；由于 npm 包从日期版本改为语义化版本，包管理器会把 2.0.1 视为更低版本、不会自动提示升级，需显式指定版本安装。Windows 上 filesystem 写入越界问题仅部分修复。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@Baidu_Inc：百度宣布开源 Unlimited OCR 2，新 SR-SWA 机制把文本-视觉注意力交互压缩为固定大小的工作参考集，控制长文档的注意力计算量",
+          "url": "https://x.com/Baidu_Inc/status/2114910381311512987",
+          "source": "X · @Baidu_Inc",
+          "date": "2026-10-27",
+          "summary": "百度官方账号发帖介绍 Unlimited OCR 2 开源，强调文档越长注意力计算越多，新机制让开销保持可控；百度世界 2026 大会将于 11 月 12 日进一步展示该模型。"
+        },
+        {
           "title": "@cursor_ai：DeepSeek V4.1 Flash 已上线 Cursor，称其各推理强度档位均位于 CursorBench 成本前沿——每任务 0.60–0.98 美元，同价位无模型得分更高",
           "url": "https://x.com/cursor_ai/status/2114839997568405608",
           "source": "X",
@@ -496,13 +503,6 @@
           "source": "X",
           "date": "2026-10-26",
           "summary": "t3.gg 创始人 Theo 称 Gemini 是技术栈中的“隐患”；多位开发者附和，Google DeepMind 工程师请他提供提示词与提交记录以便排查。"
-        },
-        {
-          "title": "@Kimi_Moonshot：月之暗面就 K3.1 Pro 订阅套餐限流与额度异常消耗致歉，向所有套餐订阅用户一次性重置 25% 月度额度（相当于一周用量）",
-          "url": "https://x.com/Kimi_Moonshot/status/2114450610724708492",
-          "source": "X @Kimi_Moonshot",
-          "date": "2026-10-26",
-          "summary": "Kimi 官方称限流与不必要的额度消耗是自身问题、本应更早修复；用量低于 25% 的用户直接清零，额度条将于太平洋时间当天结束前更新；同时调整套餐参数，减少不必要的子智能体调用与输出长度，让额度更耐用。此前 K3.1 Pro 发布后大量用户抱怨会员额度不够用。"
         }
       ]
     }

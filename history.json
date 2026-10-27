@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-27T13:30:00+08:00",
- "count": 1709,
+ "updated": "2026-10-27T14:35:00+08:00",
+ "count": 1712,
  "items": [
+  {
+   "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
+   "url": "https://markets.businessinsider.com/news/stocks/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth-1036668988",
+   "source": "GlobeNewswire / Reuters",
+   "date": "2026-10-27",
+   "summary": "双方将围绕 Muse 系列模型优化训练与推理性能、降低总拥有成本，并考虑在 NVIDIA OpenShell 参考架构（安全部署）与 NVIDIA Sentry（智能体行为监控）上合作。英伟达 30 亿美元认购的是 Meta 本周启动的至多 950 亿美元股权融资计划；黄仁勋称 AI 智能体是“新的计算范式”。",
+   "id": "076145c8a49fb4a20b1f797663700bb398f13691",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T14:35:00+08:00"
+  },
+  {
+   "title": "百度开源文心 Unlimited OCR 2：称首次实现任意页数文档解析，可一次解析《哈利·波特》全 7 部超 3600 页，MPDocBench 84.6、MarathonDocBench 77.1 达端到端 SOTA",
+   "url": "https://finance.sina.com.cn/tech/2026-10-27/doc-iniwruys2128200.shtml",
+   "source": "新浪科技 / GitHub / Hugging Face",
+   "date": "2026-10-27",
+   "summary": "核心是稀疏参考滑动窗口注意力 SR-SWA：页面门控先把视觉参考范围缩到相关页面，再用得分最高的视觉 Token 桶捕捉长距离依赖，百页文档单步解码比 Full Attention 快 7 倍；结合无限解码机制降低显存开销。代码与权重已开源至 GitHub baidu/Unlimited-OCR 与 Hugging Face baidu/Unlimited-OCR-2。",
+   "id": "b946eb9997aebd23c5b2b4a85ed4306a87f20399",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-27T14:35:00+08:00"
+  },
+  {
+   "title": "@Baidu_Inc：百度宣布开源 Unlimited OCR 2，新 SR-SWA 机制把文本-视觉注意力交互压缩为固定大小的工作参考集，控制长文档的注意力计算量",
+   "url": "https://x.com/Baidu_Inc/status/2114910381311512987",
+   "source": "X · @Baidu_Inc",
+   "date": "2026-10-27",
+   "summary": "百度官方账号发帖介绍 Unlimited OCR 2 开源，强调文档越长注意力计算越多，新机制让开销保持可控；百度世界 2026 大会将于 11 月 12 日进一步展示该模型。",
+   "id": "bedd2eb0fb79e00d0c64d69246a65afa3f2dc07a",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T14:35:00+08:00"
+  },
   {
    "title": "工商时报：台积电 CoWoS 先进封装报价酝酿新一轮调涨，涨幅上看 2 成；AI 芯片抢产能，设备交期拉长至 6–8 个月",
    "url": "https://www.ctee.com.tw/news/20261027700053-439901",
