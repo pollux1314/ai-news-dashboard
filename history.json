@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-27T23:34:00+08:00",
- "count": 1733,
+ "updated": "2026-10-28T00:40:00+08:00",
+ "count": 1737,
  "items": [
+  {
+   "title": "Google DeepMind 发布交互式世界模型 Genie 4：画面更逼真、可用自然语言实时改变场景并自动生成音频，单次模拟时长从约 1 分钟延长到约 2 分钟",
+   "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+   "source": "The Verge",
+   "date": "2026-10-28",
+   "summary": "Genie 4 借助 Gemini 3.8 Flash 辅助模拟，定位影视预演、游戏原型和机器人训练场景；Google 提醒模拟越长细节与物体持续性越可能漂移。目前以研究预览形式向受信测试者开放，即将登陆 Google AI Ultra 的 Project Genie，并已开放候补名单。",
+   "id": "3513fbe8e95205561274abe5bc9692bd3093a620",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-28T00:40:00+08:00"
+  },
+  {
+   "title": "@GoogleDeepMind：发布 Genie 4，“迄今最逼真、交互性最强的世界模型”——可实时探索动态环境，观察场景如何响应、发出声音，以及其中的人如何移动、反应和说话",
+   "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+   "source": "X · @GoogleDeepMind",
+   "date": "2026-10-28",
+   "summary": "Google DeepMind 官方账号于北京时间 10 月 28 日 00:10 发帖，后续帖称 Genie 4 基于 Gemini Omni 实现照片级细节，并支持更强物理效果与实时提示控制；发布不久浏览量约 3 万。",
+   "id": "c88ebf57d5ca2533ba76b08cad3ddaa8ad9ba5d0",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T00:40:00+08:00"
+  },
+  {
+   "title": "TechCrunch 独家：Meta 超级智能实验室前总监 Rohit Patel 离职创办 Ndoc，主打 AI 原生办公套件，挑战 Microsoft Office 与 Google Workspace",
+   "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+   "source": "TechCrunch",
+   "date": "2026-10-27",
+   "summary": "Ndoc 把演示（Stage）、分析叙述（Narrative）和数据与 Python 脚本（Model）放进同一工作区，未注册的同事也能访问；目前进行企业试点并向候补名单开放 alpha，按用量和 token 计费，计划数周内发布 beta、明年正式上线。",
+   "id": "122f4e228239d6c9e1be2e0f0ea9d36c5e86fdbe",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-28T00:40:00+08:00"
+  },
+  {
+   "title": "Guidewire 宣布以 17 亿美元现金收购伦敦保险 AI 公司 hyperexponential，另有最高 4 亿美元与经常性收入目标挂钩的对价",
+   "url": "https://www.guidewire.com/about/press-center/press-releases/20261027/guidewire-signs-definitive-agreement-to-acquire-hyperexponential",
+   "source": "Guidewire 新闻稿",
+   "date": "2026-10-27",
+   "summary": "hyperexponential 为商业财产与意外险保险公司提供 AI 原生的核保与定价软件。交易预计在 Guidewire 2027 财年第二季度完成，部分资金来自 10 亿美元定期贷款。",
+   "id": "821b1bfe250ca56d32a0e5eef2aeda9d03d560ba",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-28T00:40:00+08:00"
+  },
   {
    "title": "Axiom 宣布用 AI 智能体群完成“有限单群分类”（CFSG）完整 Lean 形式化：约 1.5 万页、500 多篇论文的数学史上最长证明，24 天生成约 4310 万行 Lean 代码并由计算机逐步验证",
    "url": "https://axiommath.ai/research/the-enormous-theorem-formalized/",

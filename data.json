@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T23:34:00+08:00",
+  "updated": "2026-10-28T00:40:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Google DeepMind 发布交互式世界模型 Genie 4：画面更逼真、可用自然语言实时改变场景并自动生成音频，单次模拟时长从约 1 分钟延长到约 2 分钟",
+          "url": "https://www.theverge.com/tech/1019076/google-genie-4-ai-model",
+          "source": "The Verge",
+          "date": "2026-10-28",
+          "summary": "Genie 4 借助 Gemini 3.8 Flash 辅助模拟，定位影视预演、游戏原型和机器人训练场景；Google 提醒模拟越长细节与物体持续性越可能漂移。目前以研究预览形式向受信测试者开放，即将登陆 Google AI Ultra 的 Project Genie，并已开放候补名单。"
+        },
         {
           "title": "Anthropic 发布 Claude for Nonprofits 插件：与约 30 家非营利组织共建的技能与连接器，覆盖筹款（捐赠方研究、RFP 拆解、标书与报告起草）、营销、招聘与理事会治理",
           "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
@@ -55,13 +62,6 @@
           "source": "Reuters（via Investing.com）",
           "date": "2026-10-26",
           "summary": "客户可用自有芯片设计数据微调模型，早期结果显示质量最高提升 30%、成本效率最高提升 5 倍；路线与对手 Synopsys 近期和 OpenAI 合作形成分野。发布当日 Cadence 股价上涨 3.9%。"
-        },
-        {
-          "title": "Anthropic 为 Claude 桌面应用推出新版界面：由 Claude 参与设计，从草图到上线不到 3 周，新增侧边栏，取消衬线字体与暖色背景",
-          "url": "https://www.ithome.com/1/017/710.htm",
-          "source": "IT之家",
-          "date": "2026-10-24",
-          "summary": "Anthropic 设计工程师 Chase McCoy 宣布新版界面上线；部分用户吐槽信息密度变低、风格偏冷、与 ChatGPT 趋同，项目面板可读性下降。"
         }
       ]
     },
@@ -70,6 +70,20 @@
       "name": "行业与融资",
       "icon": "💰",
       "items": [
+        {
+          "title": "TechCrunch 独家：Meta 超级智能实验室前总监 Rohit Patel 离职创办 Ndoc，主打 AI 原生办公套件，挑战 Microsoft Office 与 Google Workspace",
+          "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "Ndoc 把演示（Stage）、分析叙述（Narrative）和数据与 Python 脚本（Model）放进同一工作区，未注册的同事也能访问；目前进行企业试点并向候补名单开放 alpha，按用量和 token 计费，计划数周内发布 beta、明年正式上线。"
+        },
+        {
+          "title": "Guidewire 宣布以 17 亿美元现金收购伦敦保险 AI 公司 hyperexponential，另有最高 4 亿美元与经常性收入目标挂钩的对价",
+          "url": "https://www.guidewire.com/about/press-center/press-releases/20261027/guidewire-signs-definitive-agreement-to-acquire-hyperexponential",
+          "source": "Guidewire 新闻稿",
+          "date": "2026-10-27",
+          "summary": "hyperexponential 为商业财产与意外险保险公司提供 AI 原生的核保与定价软件。交易预计在 Guidewire 2027 财年第二季度完成，部分资金来自 10 亿美元定期贷款。"
+        },
         {
           "title": "英伟达参投印度 AI 推理优化初创 Simplismart 1400 万美元 B 轮，估值约 1 亿美元：软件自动调优模型部署，帮企业用更少 GPU 跑模型",
           "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
@@ -111,20 +125,6 @@
           "source": "Broadcom / Reuters",
           "date": "2026-10-26",
           "summary": "一留置权融资由美银、花旗、大摩安排，黑石独家提供二留置权承诺部分；博通为 SPV 提供与一留置权等额的残值支持（峰值敞口预计 430 亿美元，五年内摊销至零），交付预计 2027 年开始。路透称这是 AI 基建相关规模最大的债务交易之一。"
-        },
-        {
-          "title": "自动驾驶挖掘机公司 Bedrock Robotics 完成 6 亿美元 C 轮融资，估值 41 亿美元：CapitalG 与 Emergence Capital 共同领投，成立仅两年",
-          "url": "https://techcrunch.com/2026/10/26/this-startups-self-driving-excavators-help-dig-up-600m-in-new-funding/",
-          "source": "TechCrunch",
-          "date": "2026-10-26",
-          "summary": "Bedrock 为工程车辆提供可改装的自动驾驶套件，两个月前已从试点转入真实工地商用，目前在内华达州水处理厂、德州 Champion Site Prep 土方工地及 Zachry 120 万立方码土建项目上运行；新资金用于扩大工地部署与团队。"
-        },
-        {
-          "title": "Naveen Rao 的 Unconventional AI 收购以色列 AI 推理芯片公司 NeuReality：现金加股票交易，约 40 名工程师加入，冲刺“1000 倍能效”AI 计算",
-          "url": "https://www.neureality.ai/neureality-to-join-unconventional-ai-on-the-path-to-1000x-ai-compute-efficiency/",
-          "source": "NeuReality / 路透",
-          "date": "2026-10-26",
-          "summary": "成立不到一年、估值 45 亿美元的 Unconventional AI 称借助 AI 工具研发进度大幅提前，已做出首颗测试芯片、第二颗接近完成，需要能交付产品的团队；NeuReality 创始团队加入并保留以色列工程中心，交易预计 2026 年 Q4 完成，金额未披露。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@GoogleDeepMind：发布 Genie 4，“迄今最逼真、交互性最强的世界模型”——可实时探索动态环境，观察场景如何响应、发出声音，以及其中的人如何移动、反应和说话",
+          "url": "https://x.com/GoogleDeepMind/status/2115114028338962672",
+          "source": "X · @GoogleDeepMind",
+          "date": "2026-10-28",
+          "summary": "Google DeepMind 官方账号于北京时间 10 月 28 日 00:10 发帖，后续帖称 Genie 4 基于 Gemini Omni 实现照片级细节，并支持更强物理效果与实时提示控制；发布不久浏览量约 3 万。"
+        },
+        {
           "title": "@axiommathai：Axiom 宣布“人类史上最大的数学证明现已被计算机验证”——完成有限单群分类（“对称性元素周期表”）的完整 Lean 自动形式化",
           "url": "https://x.com/axiommathai/status/2115089794867040584",
           "source": "X · @axiommathai",
@@ -496,13 +503,6 @@
           "source": "X",
           "date": "2026-10-26",
           "summary": "帖子发布于北京时间 10 月 27 日 05:50，称“AI 开始帮助我们加深对宇宙的理解”，约 20 分钟内获约 4.8 万次浏览、1,400 余赞。"
-        },
-        {
-          "title": "@cursor_ai：Cursor 推出 Agent SDK——用代码定义智能体（Markdown 写提示、TypeScript 写工具），可部署到 Cursor 托管基础设施或自托管，内置评测",
-          "url": "https://x.com/cursor_ai/status/2114793714531102901",
-          "source": "X",
-          "date": "2026-10-26",
-          "summary": "这正是 Cursor 自家 Bugbot、Security Reviewer 等托管智能体所用的框架，支持响应 GitHub/GitLab/Bitbucket 等事件与事件回放；帖子约 13 万次浏览、2,000 赞。"
         }
       ]
     }
