@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T14:35:00+08:00",
+ "updated": "2026-10-27T14:28:00+08:00",
  "count": 1712,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "076145c8a49fb4a20b1f797663700bb398f13691",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-27T14:35:00+08:00"
+   "first_seen": "2026-10-27T14:28:00+08:00"
   },
   {
    "title": "百度开源文心 Unlimited OCR 2：称首次实现任意页数文档解析，可一次解析《哈利·波特》全 7 部超 3600 页，MPDocBench 84.6、MarathonDocBench 77.1 达端到端 SOTA",
@@ -22,7 +22,7 @@
    "id": "b946eb9997aebd23c5b2b4a85ed4306a87f20399",
    "module": "opensource",
    "module_name": "开源与工具",
-   "first_seen": "2026-10-27T14:35:00+08:00"
+   "first_seen": "2026-10-27T14:28:00+08:00"
   },
   {
    "title": "@Baidu_Inc：百度宣布开源 Unlimited OCR 2，新 SR-SWA 机制把文本-视觉注意力交互压缩为固定大小的工作参考集，控制长文档的注意力计算量",
@@ -33,7 +33,7 @@
    "id": "bedd2eb0fb79e00d0c64d69246a65afa3f2dc07a",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-27T14:35:00+08:00"
+   "first_seen": "2026-10-27T14:28:00+08:00"
   },
   {
    "title": "工商时报：台积电 CoWoS 先进封装报价酝酿新一轮调涨，涨幅上看 2 成；AI 芯片抢产能，设备交期拉长至 6–8 个月",
