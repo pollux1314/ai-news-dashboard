@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-27T09:34:00+08:00",
- "count": 1699,
+ "updated": "2026-10-27T10:35:00+08:00",
+ "count": 1701,
  "items": [
+  {
+   "title": "multica-ai/andrej-karpathy-skills",
+   "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+   "source": "GitHub · ⭐ 224716",
+   "date": "2026-10-27",
+   "summary": "只有一个 CLAUDE.md 文件的项目：把 Andrej Karpathy 总结的大模型写代码常见坑整理成行为准则，用来改进 Claude Code 的表现；星标超 22 万、Fork 超 2.2 万，今日再度登上 GitHub 趋势榜。",
+   "id": "b6773085f128113787ff8ca878b4f02a86e90bbe",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-27T10:35:00+08:00"
+  },
   {
    "title": "@cursor_ai：DeepSeek V4.1 Flash 已上线 Cursor，称其各推理强度档位均位于 CursorBench 成本前沿——每任务 0.60–0.98 美元，同价位无模型得分更高",
    "url": "https://x.com/cursor_ai/status/2114839997568405608",
@@ -23,6 +34,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "Cadence 发布芯片设计 AI 模型套件 Cadence Maestro：部分基于英伟达开放权重 Nemotron 构建、用 OpenShell 做安全防护，可在 Cadence 云、任意公有云或客户自有防火墙内运行",
+   "url": "https://www.investing.com/news/stock-market-news/cadence-unveils-nvidiabacked-ai-models-that-chipmakers-can-run-inhouse-4972805",
+   "source": "Reuters（via Investing.com）",
+   "date": "2026-10-26",
+   "summary": "客户可用自有芯片设计数据微调模型，早期结果显示质量最高提升 30%、成本效率最高提升 5 倍；路线与对手 Synopsys 近期和 OpenAI 合作形成分野。发布当日 Cadence 股价上涨 3.9%。",
+   "id": "7eabc17af36da12e4a60f97593a3c351175dc0e8",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-27T10:35:00+08:00"
   },
   {
    "title": "灵宝 CASBOT 母公司中科慧灵完成数亿元 A++ 轮融资：2026 年在手具身制鞋机器人订单超 4 亿元，设备排产步入数千台量级",
