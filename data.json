@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T18:32:00+08:00",
+  "updated": "2026-10-27T19:32:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -71,6 +71,13 @@
       "icon": "💰",
       "items": [
         {
+          "title": "英伟达参投印度 AI 推理优化初创 Simplismart 1400 万美元 B 轮，估值约 1 亿美元：软件自动调优模型部署，帮企业用更少 GPU 跑模型",
+          "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+          "source": "TechCrunch",
+          "date": "2026-10-27",
+          "summary": "本轮由 Dallas Venture Capital 领投，英伟达、Accel、Shastra VC、Micromax 跟投；Simplismart 称帮 InVideo 降低 56% GPU 推理成本，客户含 HeyGen、Higgsfield，年化收入半年增长 14 倍至八位数美元，新资金将用于拓展美国市场。"
+        },
+        {
           "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
           "url": "https://markets.businessinsider.com/news/stocks/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth-1036668988",
           "source": "GlobeNewswire / Reuters",
@@ -118,13 +125,6 @@
           "source": "NeuReality / 路透",
           "date": "2026-10-26",
           "summary": "成立不到一年、估值 45 亿美元的 Unconventional AI 称借助 AI 工具研发进度大幅提前，已做出首颗测试芯片、第二颗接近完成，需要能交付产品的团队；NeuReality 创始团队加入并保留以色列工程中心，交易预计 2026 年 Q4 完成，金额未披露。"
-        },
-        {
-          "title": "Replit 发文预言 2030 年底所有《财富》500 强都将成为“自动驾驶公司”：人定目标、担责，智能体在公司可控的“Agent Habitat”里执行工作",
-          "url": "https://replit.com/blog/rise-of-self-driving-company",
-          "source": "Replit",
-          "date": "2026-10-26",
-          "summary": "Replit 称如今多数智能体运行在聊天窗口、个人账户和临时脚本里，权限与行为无人管控；它主张企业为智能体建立受治理的运行环境，统一控制访问、规定何时需人工审批、限制错误影响，并沉淀人对智能体的纠正与工作流。Replit 此前称内部工程师代码产出近乎翻三倍。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "The Verge：美国参议员 Adam Schiff 继 Blackburn 之后要求 Meta 撤回商业条款修订——新条款似允许其用新闻网站内容训练 AI",
+          "url": "https://www.theverge.com/tech/1019254/another-senator-wants-meta-to-reverse-its-business-term-revisions",
+          "source": "The Verge",
+          "date": "2026-10-27",
+          "summary": "Schiff 敦促 Meta “补偿创作者和出版方”；Meta 已调整条款并推迟至 11 月 20 日生效，但 Schiff 称“仅推迟是不够的”。"
+        },
+        {
           "title": "CNET 实测 OpenAI 美国中期选举防护：凡描绘选举干预或可能劝阻投票的图片请求，ChatGPT 一律改为卡通化插画输出，即使要求写实也不生成照片级图像",
           "url": "https://openai.com/index/election-safeguards-2026/",
           "source": "OpenAI / CNET",
@@ -307,13 +314,6 @@
           "source": "Axios / 路透",
           "date": "2026-10-25",
           "summary": "Anthropic 称模型未访问该州选民登记系统、未更改或提取任何投票记录，已部署阻止此类行为的缓解措施；公司数周前已通知佐治亚州务卿办公室与白宫，知情人士称白宫曾敦促州政府尽早公开但未获回应。事件发生在中期选举前，加剧外界对 AI 智能体越权行为的担忧。"
-        },
-        {
-          "title": "美联社：美国主导的 Pax Silica 与中国发起的世界人工智能合作组织（WAICO）形成两大 AI 阵营，各国自由选择的窗口正在收窄",
-          "url": "https://apnews.com/article/china-us-ai-blocs-9974a3e5dc955a93935d131a4aeb8886",
-          "source": "AP / The Washington Post",
-          "date": "2026-10-25",
-          "summary": "报道称许多国家试图同时利用美国先进芯片与中国 AI 体系、避免选边；哈萨克斯坦是已知唯一同时加入两大组织的国家，美国国务院此前警告重叠参与可能失去 Pax Silica 席位，中方则反对迫使各国二选一。"
         }
       ]
     },
@@ -386,6 +386,13 @@
       "icon": "⭐",
       "items": [
         {
+          "title": "HKUDS/DeepTutor",
+          "url": "https://github.com/HKUDS/DeepTutor",
+          "source": "GitHub · Python · ⭐ 44780",
+          "date": "2026-10-27",
+          "summary": "港大数据智能实验室（HKUDS）开源的 DeepTutor：面向终身学习的个性化 AI 辅导系统，今日 GitHub 趋势榜单日新增约 1587 星。"
+        },
+        {
           "title": "alchaincyf/huashu-design",
           "url": "https://github.com/alchaincyf/huashu-design",
           "source": "GitHub · HTML · ⭐ 26734",
@@ -433,13 +440,6 @@
           "source": "GitHub · Python · ⭐ 53402",
           "date": "2026-10-24",
           "summary": "Hindsight：“会学习的智能体记忆”（MIT）。为 AI 智能体提供可保留、检索与反思的长期记忆服务，10 月 13 日发布 v1.0、21 日发布 v1.1.0（新增 webhook 事件投递 ID、服务端按调用选择 LLM 与凭据等）；今日登上 GitHub Python 趋势榜，单日新增约 340 星。"
-        },
-        {
-          "title": "aws/agent-toolkit-for-aws",
-          "url": "https://github.com/aws/agent-toolkit-for-aws",
-          "source": "GitHub · Python · ⭐ 3017",
-          "date": "2026-10-24",
-          "summary": "AWS 官方维护的智能体工具包（Apache-2.0）：汇集 AWS 支持的 MCP 服务器、技能（skills）与插件，帮助 AI 编程智能体在 AWS 上构建、部署和运维应用；今日登上 GitHub 趋势榜。"
         }
       ]
     },

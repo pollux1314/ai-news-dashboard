@@ -1,7 +1,40 @@
 {
- "updated": "2026-10-27T18:32:00+08:00",
- "count": 1720,
+ "updated": "2026-10-27T19:32:00+08:00",
+ "count": 1723,
  "items": [
+  {
+   "title": "英伟达参投印度 AI 推理优化初创 Simplismart 1400 万美元 B 轮，估值约 1 亿美元：软件自动调优模型部署，帮企业用更少 GPU 跑模型",
+   "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
+   "source": "TechCrunch",
+   "date": "2026-10-27",
+   "summary": "本轮由 Dallas Venture Capital 领投，英伟达、Accel、Shastra VC、Micromax 跟投；Simplismart 称帮 InVideo 降低 56% GPU 推理成本，客户含 HeyGen、Higgsfield，年化收入半年增长 14 倍至八位数美元，新资金将用于拓展美国市场。",
+   "id": "b007bafd9ff10551e06fcda8694561d2cc5be1c4",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-27T19:32:00+08:00"
+  },
+  {
+   "title": "The Verge：美国参议员 Adam Schiff 继 Blackburn 之后要求 Meta 撤回商业条款修订——新条款似允许其用新闻网站内容训练 AI",
+   "url": "https://www.theverge.com/tech/1019254/another-senator-wants-meta-to-reverse-its-business-term-revisions",
+   "source": "The Verge",
+   "date": "2026-10-27",
+   "summary": "Schiff 敦促 Meta “补偿创作者和出版方”；Meta 已调整条款并推迟至 11 月 20 日生效，但 Schiff 称“仅推迟是不够的”。",
+   "id": "6b27527b0ba64000563639887c6d5b8c768b4ca4",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-27T19:32:00+08:00"
+  },
+  {
+   "title": "HKUDS/DeepTutor",
+   "url": "https://github.com/HKUDS/DeepTutor",
+   "source": "GitHub · Python · ⭐ 44780",
+   "date": "2026-10-27",
+   "summary": "港大数据智能实验室（HKUDS）开源的 DeepTutor：面向终身学习的个性化 AI 辅导系统，今日 GitHub 趋势榜单日新增约 1587 星。",
+   "id": "f9173bb79a9aefe76fd9781bc78573a9f35efe5b",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-27T19:32:00+08:00"
+  },
   {
    "title": "清华、英伟达、CMU、伯克利等发布实时交互视频生成基准 StreamEval：评测 37 个流式视频模型，发现画质与身份保持好不等于“听话”——指令跟随、状态一致性普遍是短板",
    "url": "https://arxiv.org/abs/2610.28402",
