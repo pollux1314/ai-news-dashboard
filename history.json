@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-27T16:32:00+08:00",
- "count": 1716,
+ "updated": "2026-10-27T17:30:00+08:00",
+ "count": 1719,
  "items": [
+  {
+   "title": "IBM 在 TechXchange 2026 推出 AI 智能体身份与管控能力：HashiCorp Vault 为每个智能体分配受治理的 Agent Identity，执行最小权限访问并可实时吊销",
+   "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
+   "source": "IBM Newsroom",
+   "date": "2026-10-27",
+   "summary": "IBM watsonx Orchestrate 同步强化智能体发现、隔离与评估，覆盖 Amazon Bedrock、Microsoft Foundry 与 Google Gemini 上的智能体，帮助企业厘清每个智能体归属、可访问范围并追踪其操作。",
+   "id": "bc774dee7f87c7f4a312506ab055f4b95aed803f",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-27T17:30:00+08:00"
+  },
+  {
+   "title": "@runwayml：Runway 发布 App Studio，只需描述就能构建想要的创意应用，用 Runway 模型和品牌套件生成图像、视频与音频，无需代码",
+   "url": "https://x.com/runwayml/status/2114805465658036425",
+   "source": "X · @runwayml",
+   "date": "2026-10-27",
+   "summary": "Runway 官方账号于北京时间 10 月 27 日凌晨发帖宣布 App Studio，并在串推中展示示例应用；面向个人与整个团队使用。",
+   "id": "c4fa86f2e1e355aba6e31a84cd6095da1d1c4546",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-27T17:30:00+08:00"
+  },
   {
    "title": "CNET 实测 OpenAI 美国中期选举防护：凡描绘选举干预或可能劝阻投票的图片请求，ChatGPT 一律改为卡通化插画输出，即使要求写实也不生成照片级图像",
    "url": "https://openai.com/index/election-safeguards-2026/",
@@ -122,6 +144,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "Runway 推出 App Studio：用自然语言描述即可生成自定义创意应用，调用 Runway 图像、视频、音频模型及品牌套件（Brand Kits）与工作流，无需写代码",
+   "url": "https://runway.com/news/company-news/introducing-runway-app-studio",
+   "source": "Runway News",
+   "date": "2026-10-26",
+   "summary": "App Studio 自动编写、测试、部署并托管应用，可私用、分享给团队或公开发布链接；首批内置 Character Swap、AutoComp、Product Portfolio、3D Camera Control、Precise Edit 等应用，所有付费套餐即可使用，按现有积分计费。",
+   "id": "a86c834d16616b046b668286224cb11de3ee99e2",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-27T17:30:00+08:00"
   },
   {
    "title": "英特尔宣布收购量子计算软件公司 Classiq，打造全栈量子计算平台：把 Classiq 的量子算法自动综合平台与英特尔硅自旋量子比特制造结合，预计 2027 年上半年完成交割",

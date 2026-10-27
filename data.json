@@ -1,12 +1,19 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-27T16:32:00+08:00",
+  "updated": "2026-10-27T17:30:00+08:00",
   "modules": [
     {
       "id": "models",
       "name": "大模型与产品发布",
       "icon": "🚀",
       "items": [
+        {
+          "title": "Runway 推出 App Studio：用自然语言描述即可生成自定义创意应用，调用 Runway 图像、视频、音频模型及品牌套件（Brand Kits）与工作流，无需写代码",
+          "url": "https://runway.com/news/company-news/introducing-runway-app-studio",
+          "source": "Runway News",
+          "date": "2026-10-26",
+          "summary": "App Studio 自动编写、测试、部署并托管应用，可私用、分享给团队或公开发布链接；首批内置 Character Swap、AutoComp、Product Portfolio、3D Camera Control、Precise Edit 等应用，所有付费套餐即可使用，按现有积分计费。"
+        },
         {
           "title": "苹果发布 iOS 27.2：Siri AI 新增对话记忆，可回忆过往对话并调取语音留言、信息附件照片、日历参与人等更多个人来源，扩展至法语、日语、韩语、葡萄牙语和西班牙语",
           "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
@@ -55,13 +62,6 @@
           "source": "IT之家",
           "date": "2026-10-24",
           "summary": "有用户称此前被永久封禁的 Claude 账号可提交申诉、个别申诉成功（IT之家未能核实）；IT之家提醒付款页出现中国选项不等于 Anthropic 已开放相关地区服务，官方帮助中心仍要求用户位于受支持地区。本月初 Claude 网页端已新增简体与繁体中文界面。"
-        },
-        {
-          "title": "OpenAI Agents API 上线定时自动化（Scheduled Automations）：可用 cron 表达式加时区周期性触发，或指定时间单次运行，任务可新建会话或续接已有会话",
-          "url": "https://community.openai.com/t/introducing-scheduled-automations-to-the-agents-api/1409223",
-          "source": "OpenAI 开发者社区 / OpenAI API 文档",
-          "date": "2026-10-23",
-          "summary": "为智能体启用 automations 工具后，它还能按自然语言请求自行创建、更新或删除日程；每次触发都会记录为可查询的 invocation。"
         }
       ]
     },
@@ -197,6 +197,13 @@
       "icon": "🛠️",
       "items": [
         {
+          "title": "IBM 在 TechXchange 2026 推出 AI 智能体身份与管控能力：HashiCorp Vault 为每个智能体分配受治理的 Agent Identity，执行最小权限访问并可实时吊销",
+          "url": "https://newsroom.ibm.com/2026-10-27-ibm-introduces-identity-and-control-for-ai-agents,-securing-frontier-intelligence-for-the-enterprise",
+          "source": "IBM Newsroom",
+          "date": "2026-10-27",
+          "summary": "IBM watsonx Orchestrate 同步强化智能体发现、隔离与评估，覆盖 Amazon Bedrock、Microsoft Foundry 与 Google Gemini 上的智能体，帮助企业厘清每个智能体归属、可访问范围并追踪其操作。"
+        },
+        {
           "title": "百度开源文心 Unlimited OCR 2：称首次实现任意页数文档解析，可一次解析《哈利·波特》全 7 部超 3600 页，MPDocBench 84.6、MarathonDocBench 77.1 达端到端 SOTA",
           "url": "https://finance.sina.com.cn/tech/2026-10-27/doc-iniwruys2128200.shtml",
           "source": "新浪科技 / GitHub / Hugging Face",
@@ -244,13 +251,6 @@
           "source": "Hugging Face",
           "date": "2026-10-25",
           "summary": "官方自报成绩，与 Qwen3.8-27B、Muse-Glimmer-30B、Gemma4-31B 对比，在多数智能体编程与办公基准领先，但 SWE-Bench Pro、GDPval 略逊 Qwen3.8-27B。"
-        },
-        {
-          "title": "The Verge：Reddit r/opensource 版规全面禁止 AI 相关项目——凡“使用 AI、由 AI 制作或为 AI 而做”的项目均不受欢迎，引发社区反弹并催生 r/trueopensource",
-          "url": "https://www.theverge.com/ai-artificial-intelligence/1018217/reddit-opensource-ai-ban",
-          "source": "The Verge",
-          "date": "2026-10-25",
-          "summary": "新规还要求提交项目至少满一年、持续维护且有多名贡献者，不再接受招募维护者请求，并以“无法区分 AI 写作与 AI 翻译”为由实际排除非英语用户；批评者指出 Linux 内核已含 AI 生成代码，按此规则相关项目也会被禁。"
         }
       ]
     },
@@ -449,6 +449,13 @@
       "icon": "𝕏",
       "items": [
         {
+          "title": "@runwayml：Runway 发布 App Studio，只需描述就能构建想要的创意应用，用 Runway 模型和品牌套件生成图像、视频与音频，无需代码",
+          "url": "https://x.com/runwayml/status/2114805465658036425",
+          "source": "X · @runwayml",
+          "date": "2026-10-27",
+          "summary": "Runway 官方账号于北京时间 10 月 27 日凌晨发帖宣布 App Studio，并在串推中展示示例应用；面向个人与整个团队使用。"
+        },
+        {
           "title": "@Baidu_Inc：百度宣布开源 Unlimited OCR 2，新 SR-SWA 机制把文本-视觉注意力交互压缩为固定大小的工作参考集，控制长文档的注意力计算量",
           "url": "https://x.com/Baidu_Inc/status/2114910381311512987",
           "source": "X · @Baidu_Inc",
@@ -496,13 +503,6 @@
           "source": "X",
           "date": "2026-10-26",
           "summary": "帖子发布于北京时间 10 月 26 日 21:05，数小时内获约 27 万次浏览、4,300 余赞；拟在纳斯达克以“ANT”代码上市。"
-        },
-        {
-          "title": "@elonmusk：过去几周债务市场几乎已对所有缺乏独立于 AI 数据中心之外可观收入的公司关闭融资通道；SpaceX 已为 GPU 完成 400 亿美元债务融资，因其拥有投资级评级及星链与发射业务",
-          "url": "https://x.com/elonmusk/status/2114434646914068862",
-          "source": "X",
-          "date": "2026-10-26",
-          "summary": "回复 Chamath 的帖子，超 700 万次浏览、2.9 万赞；此前彭博称 SpaceX 这笔 400 亿美元表外 AI 债务融资受市场动荡拖累。"
         }
       ]
     }
