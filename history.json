@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-28T05:30:00+08:00",
- "count": 1745,
+ "updated": "2026-10-28T06:30:00+08:00",
+ "count": 1749,
  "items": [
+  {
+   "title": "Anthropic 随机对照研究：50 名因果推断分析师用 Claude Code 做分析时，在四个关键决策上 86% 跟随了智能体被暗中随机设定的“倾向”",
+   "url": "https://www.anthropic.com/research/agents-judgment-calls",
+   "source": "Anthropic Research",
+   "date": "2026-10-28",
+   "summary": "论文《Who's Aligned to Whom?》中，智能体按抛硬币结果偏向两个合理选项之一并如实论证；分析师跟随率 86%（随机为 50%），这些倾向单独即可预测 82% 的最终推广/停止建议。事后 77% 的人复述了智能体的论点，但仅 15% 提到智能体，多数仍认为结论出自自己判断。",
+   "id": "543233bf7b2526498cd7f7776884bf06a57a297f",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-28T06:30:00+08:00"
+  },
+  {
+   "title": "@AnthropicAI：扩大与美国总务管理局（GSA）的合作，在新的 OneGov 协议下以 4 折优惠向联邦、州、地方、部落及领地政府提供 Claude",
+   "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+   "source": "X · @AnthropicAI",
+   "date": "2026-10-28",
+   "summary": "Anthropic 官方账号于北京时间 10 月 28 日 06:20 发帖，发布后不久浏览量约 1.3 万、点赞约 140。",
+   "id": "a7c3cd92978215fe71b0793647b4af500a7bee28",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T06:30:00+08:00"
+  },
   {
    "title": "@AnthropicAI：过去几个月 Anthropic 科学家与六家新药研发机构开展深度研究合作，并已开始自有药物发现工作，总结 Claude 能如何支持药物研发的多个阶段",
    "url": "https://x.com/AnthropicAI/status/2115178675050307942",
@@ -56,6 +78,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "瑞士 Giotto.ai 发布“主权 AI”推理模型家族：旗舰 Giotto Alto 面向所有人免费开放，Giotto Solo 号称单卡 GPU 上最聪明的模型",
+   "url": "https://www.eqs-news.com/news/corporate/giotto-launches-sovereign-ai-family-to-make-ai-public-infrastructure/165f1e84-de97-428b-b77a-9e3c65dd5b57_en",
+   "source": "EQS News（Giotto.ai 官方新闻稿）",
+   "date": "2026-10-27",
+   "summary": "洛桑 AI 实验室 Giotto 称 Alto 运行于 8 张 B300、Solo 单 GPU 即可部署，提供欧洲共享云、瑞士/欧洲专属云和本地部署三种方式，不依赖美国云基础设施；共享云免费、API 按固定费用计，并同步上线 iOS/Android 应用与免注册匿名聊天。基准成绩为厂商自报。",
+   "id": "e8899bd43794475b98f0076ba7207daa6359a3f5",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-28T06:30:00+08:00"
+  },
+  {
+   "title": "美国 GSA 与 Anthropic 扩大 OneGov 协议：联邦、州、地方及部落政府按用量购买 Claude 享 40% 折扣，无最低采购量",
+   "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026",
+   "source": "GSA 官方新闻稿",
+   "date": "2026-10-27",
+   "summary": "新协议取代将于 10 月 31 日到期的“每用户 1 美元”方案，转向按 token 用量计费，覆盖政府可用的全部 Claude 模型（含 FedRAMP 授权环境），可直接、经经销商或主流云平台订购。GSA 称 OneGov 至今已节省逾 18 亿美元，其中约 16 亿来自 AI 协议；此前 OpenAI 已于上月改为按用量计费。",
+   "id": "cdc8cbb85799d36a24b36483b819495f8a8dd912",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-28T06:30:00+08:00"
   },
   {
    "title": "Anthropic 披露 Claude 加速药物研发的早期进展：与 BigHat、百时美施贵宝、Divergence Labs、Enveda、Generate Biomedicines、The Column Group 六家机构深度合作，并启动自有药物发现项目",
