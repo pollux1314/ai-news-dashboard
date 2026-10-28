@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-28T13:40:00+08:00",
+ "updated": "2026-10-28T13:35:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -36,6 +36,13 @@
      "summary": "洛桑 AI 实验室 Giotto 称 Alto 运行于 8 张 B300、Solo 单 GPU 即可部署，提供欧洲共享云、瑞士/欧洲专属云和本地部署三种方式，不依赖美国云基础设施；共享云免费、API 按固定费用计，并同步上线 iOS/Android 应用与免注册匿名聊天。基准成绩为厂商自报。"
     },
     {
+     "title": "新实验室 Mirendil 发布首个模型 Fern 0.1：从零预训练、上下文窗口最高 1000 万 Token（约 23MB、50 万行代码），主打大仓库编程、训练日志排错与智能体轨迹分析",
+     "url": "https://mirendil.com/news/introducing-fern/",
+     "source": "Mirendil",
+     "date": "2026-10-26",
+     "summary": "Fern 0.1 基于 Mirendil-Base 经短期后训练，目前仅开放早期体验申请，未公布 API、价格或权重；官方表格中 SWE-Bench Verified 73.4%、DeepSWE v1.1 44.2%，明显落后前沿模型。更大的 Mirendil-Base-Large（0.5–2T 参数）与 Base-XL（2–10T）仍在预训练。"
+    },
+    {
      "title": "Anthropic 发布 Claude for Nonprofits 插件：与约 30 家非营利组织共建的技能与连接器，覆盖筹款（捐赠方研究、RFP 拆解、标书与报告起草）、营销、招聘与理事会治理",
      "url": "https://claude.com/resources/articles/expanding-claude-for-nonprofits",
      "source": "Claude Blog",
@@ -55,13 +62,6 @@
      "source": "Runway News",
      "date": "2026-10-26",
      "summary": "App Studio 自动编写、测试、部署并托管应用，可私用、分享给团队或公开发布链接；首批内置 Character Swap、AutoComp、Product Portfolio、3D Camera Control、Precise Edit 等应用，所有付费套餐即可使用，按现有积分计费。"
-    },
-    {
-     "title": "苹果发布 iOS 27.2：Siri AI 新增对话记忆，可回忆过往对话并调取语音留言、信息附件照片、日历参与人等更多个人来源，扩展至法语、日语、韩语、葡萄牙语和西班牙语",
-     "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
-     "source": "Apple Newsroom / MacRumors",
-     "date": "2026-10-26",
-     "summary": "27.2 系统更新同步覆盖 iOS、iPadOS、macOS、watchOS 和 visionOS；新增“排除的 App”统一设置控制 Siri 与搜索可访问的应用，照片与 Image Playground 支持 SynthID 水印检测。Siri AI 仍为测试版，需 iPhone 15 Pro 及以上，欧盟与中国大陆暂不可用，繁体中文等语言预计年底前上线。"
     }
    ]
   },
@@ -70,6 +70,20 @@
    "name": "行业与融资",
    "icon": "💰",
    "items": [
+    {
+     "title": "Anthropic 收购单人生物科技公司 Mithril Medicine：创始人 Cody Tranbarger 加入，用 Claude 继续推进肌营养不良症药物项目并开展更多新项目",
+     "url": "https://runtimewire.com/article/anthropic-acquires-mithril-medicine-cody-tranbarger",
+     "source": "RuntimeWire",
+     "date": "2026-10-27",
+     "summary": "这是 Anthropic 自有药物发现工作的一部分，把与药企的软件合作延伸到直接运营药物研发；Mithril 的项目针对 LAMA2 相关先天性肌营养不良等罕见病，目前证据仍处临床前阶段。"
+    },
+    {
+     "title": "AI 智能体密钥与凭证安全公司 Infisical 完成 4000 万美元 B 轮融资，Elad Gil 领投，估值 6 亿美元",
+     "url": "https://infisical.com/blog/series-b",
+     "source": "Infisical",
+     "date": "2026-10-27",
+     "summary": "Infisical 帮助空客、大众等企业让 AI 智能体在不直接接触私有凭证的情况下访问敏感系统；创始人称 AI 让写代码和发现漏洞都容易了 10 倍，而现有安全基础设施并非为自主智能体设计。"
+    },
     {
      "title": "彭博：机器人 AI 公司 Physical Intelligence 洽谈以约 200 亿美元估值融资至少 10 亿美元，较今年早些时候的 115 亿美元估值近乎翻倍",
      "url": "https://www.bloomberg.com/news/articles/2026-10-27/robotics-lab-physical-intelligence-in-talks-for-a-20-billion-valuation",
@@ -111,20 +125,6 @@
      "source": "OpenAI",
      "date": "2026-10-27",
      "summary": "甲骨文在 Oracle AI World 上发布 Oracle AI Workspace，通过 ChatGPT 插件连接 Fusion、NetSuite、AI Database 与 OCI，让员工用自然语言在权限和审批范围内完成业务流程；同时推出用 OpenAI 网络安全模型找漏洞的 AI Security Mesh、捆绑 ChatGPT Business 与 Codex 的 SMB Bundle，以及用 Codex 构建企业应用的 App Composer。OpenAI 称甲骨文内部已有 13 万 ChatGPT 活跃用户和 9.5 万多 Codex 活跃用户；CNBC 报道 OCI 还将加入 Google TPU、OpenAI Jalapeño 芯片与 Cerebras 硬件。"
-    },
-    {
-     "title": "TechCrunch 独家：Meta 超级智能实验室前总监 Rohit Patel 离职创办 Ndoc，主打 AI 原生办公套件，挑战 Microsoft Office 与 Google Workspace",
-     "url": "https://techcrunch.com/2026/10/27/meta-ai-director-rohit-patel-leaves-to-take-on-microsoft-office-and-google-workspace/",
-     "source": "TechCrunch",
-     "date": "2026-10-27",
-     "summary": "Ndoc 把演示（Stage）、分析叙述（Narrative）和数据与 Python 脚本（Model）放进同一工作区，未注册的同事也能访问；目前进行企业试点并向候补名单开放 alpha，按用量和 token 计费，计划数周内发布 beta、明年正式上线。"
-    },
-    {
-     "title": "Guidewire 宣布以 17 亿美元现金收购伦敦保险 AI 公司 hyperexponential，另有最高 4 亿美元与经常性收入目标挂钩的对价",
-     "url": "https://www.guidewire.com/about/press-center/press-releases/20261027/guidewire-signs-definitive-agreement-to-acquire-hyperexponential",
-     "source": "Guidewire 新闻稿",
-     "date": "2026-10-27",
-     "summary": "hyperexponential 为商业财产与意外险保险公司提供 AI 原生的核保与定价软件。交易预计在 Guidewire 2027 财年第二季度完成，部分资金来自 10 亿美元定期贷款。"
     }
    ]
   },
