@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T08:35:00+08:00",
+ "updated": "2026-10-28T08:32:00+08:00",
  "count": 1755,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "10439e81d0b3763b476234263f383e446035c203",
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
-   "first_seen": "2026-10-28T08:35:00+08:00"
+   "first_seen": "2026-10-28T08:32:00+08:00"
   },
   {
    "title": "@ArtificialAnlys：Cartesia Managed Agents 在 Artificial Analysis 语音智能体竞技场 Elo 达 1115，比 Cartesia 上一代 Cartesia Line 高 98 分，任务成功率从 77.5% 升至 91.7%",
@@ -22,7 +22,7 @@
    "id": "506bfe97bb54d4f67247cfb41eba32a66a00f4d9",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-28T08:35:00+08:00"
+   "first_seen": "2026-10-28T08:32:00+08:00"
   },
   {
    "title": "Anthropic 随机对照研究：50 名因果推断分析师用 Claude Code 做分析时，在四个关键决策上 86% 跟随了智能体被暗中随机设定的“倾向”",
@@ -110,7 +110,7 @@
    "id": "41a2ce7f1f2a48839e03aa118b1e287538deace5",
    "module": "china",
    "module_name": "国内 AI 动态",
-   "first_seen": "2026-10-28T08:35:00+08:00"
+   "first_seen": "2026-10-28T08:32:00+08:00"
   },
   {
    "title": "Google 把具身推理模型 Gemini Robotics ER 2 上线 Google Cloud 公开预览：作为机器人的“高层大脑”，可适配从机械臂到人形的各类本体，支持长程规划、多机协作与内置安全护栏",
@@ -506,7 +506,7 @@
    "id": "40e4065f55d9c791a781a0b74294d5f46df6edaa",
    "module": "opensource",
    "module_name": "开源与工具",
-   "first_seen": "2026-10-28T08:35:00+08:00"
+   "first_seen": "2026-10-28T08:32:00+08:00"
   },
   {
    "title": "Anthropic 发布 Claude for Nonprofits 插件：与约 30 家非营利组织共建的技能与连接器，覆盖筹款（捐赠方研究、RFP 拆解、标书与报告起草）、营销、招聘与理事会治理",
