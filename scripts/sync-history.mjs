@@ -11,8 +11,8 @@ const hist = existsSync(hp) ? JSON.parse(readFileSync(hp, "utf8")) : { items: []
 const byId = new Map(hist.items.map(i => [i.id, i]));
 let added = 0;
 for (const x of rows.reverse()) { // oldest snapshot first
-  if (byId.has(x.id)) continue;
   let ex = {}; try { ex = JSON.parse(x.extra || "{}"); } catch {}
+  if (byId.has(x.id)) { const h = byId.get(x.id); for (const [k, v] of Object.entries(ex)) if (h[k] == null) h[k] = v; continue; } // fill missing stars/language etc.
   byId.set(x.id, { ...ex, title: x.title, url: x.url, source: x.source, summary: x.summary,
     date: ex.date || (x.published_at || "").slice(0, 10), id: x.id, module: x.module,
     first_seen: x.fetched_at.replace(" ", "T") + "Z" });

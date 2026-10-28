@@ -32,7 +32,7 @@ const esc=s=>String(s??'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&g
 const mname=id=>(MODS.find(m=>m.id===id)||{}).name||id;
 const fmt=n=>n>=1e4?(n/1e4).toFixed(1)+'万':Number(n).toLocaleString();
 const safeUrl=u=>/^https?:\/\//i.test(u||'')?u:'#';
-function extra(i){let h='';if(i.stars!=null){h+=`<div><span class="bd">★ ${fmt(i.stars)}</span>`+(i.stars_week?`<span class="bd g">本周 +${fmt(i.stars_week)}</span>`:'')+(i.language?`<span class="bd l">${esc(i.language)}</span>`:'')+'</div>';}
+function extra(i){let h='';if(i.stars!=null){h+=`<div><span class="bd">★ ${fmt(i.stars)}</span>`+(i.stars_week?`<span class="bd g">本周 +${fmt(i.stars_week)}</span>`:'')+(i.language?`<span class="bd l">${esc(i.language)}</span>`:'')+(i.note?`<span class="bd">🆕 ${esc(i.note)}</span>`:'')+'</div>';}
 if(i.why)h+=`<div class="why">💡 ${esc(i.why)}</div>`;
 if(i.metrics){const m=i.metrics;h+=`<div><span class="bd">❤ ${fmt(m.likes||0)}</span><span class="bd g">🔁 ${fmt(m.reposts||0)}</span><span class="bd l">👁 ${fmt(m.views||0)}</span></div>`}return h}
 const card=(i,showMod)=>`<div class="it"><a href="${esc(safeUrl(i.url))}" target="_blank" rel="noopener">${esc(i.title)}</a><p>${esc(i.summary)}</p>${extra(i)}<span class="tag">${showMod?esc(mname(i.module))+' · ':''}${esc(i.source)} · ${esc(i.date)}</span></div>`;

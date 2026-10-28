@@ -45,6 +45,20 @@ async function tb(env, pipe, params) {
   mem.set(url, { t: Date.now(), body });
   return body;
 }
+// GitHub items: older rows embed "GitHub · Lang · ⭐ 1234（10 月 20 日新建）" in source. Move into fields; source -> "GitHub".
+function parseStars(v) { const m = String(v).replace(/,/g, "").match(/^([\d.]+)\s*([kK万]?)/); if (!m) return null;
+  return Math.round(parseFloat(m[1]) * (m[2] === "万" ? 1e4 : m[2] ? 1e3 : 1)); }
+function normGithub(i) {
+  if (!/^GitHub\b/.test(i.source || "")) return i;
+  const parts = i.source.split("·").map(x => x.trim()).slice(1);
+  for (const part of parts) {
+    const st = part.match(/^⭐\s*([\d.,]+\s*[kK万]?)\s*(?:[（(]([^）)]*)[）)])?/);
+    if (st) { if (i.stars == null) { const n = parseStars(st[1]); if (n != null) i.stars = n; } if (st[2] && !i.note) i.note = st[2]; }
+    else if (part && !i.language && part.length <= 20) i.language = part;
+  }
+  i.source = "GitHub";
+  return i;
+}
 // Deduped (by id), newest-first items from news_history.
 async function itemsFor(env, p) {
   p.set("limit", String(FETCH_ALL));
@@ -53,14 +67,18 @@ async function itemsFor(env, p) {
   for (const r of rows) { // rows are fetched_at DESC: first = latest snapshot; keep earliest fetched_at as first_seen
     if (r.fetched_at > maxF) maxF = r.fetched_at;
     const prev = byId.get(r.id);
-    if (!prev) byId.set(r.id, { ...r, first_seen: r.fetched_at });
-    else prev.first_seen = r.fetched_at;
+    const hasEx = r.extra && r.extra !== "{}" && r.extra.trim() !== "";
+    if (!prev) byId.set(r.id, { ...r, extra: hasEx ? r.extra : "{}", first_seen: r.fetched_at });
+    else {
+      if (r.fetched_at < prev.first_seen) prev.first_seen = r.fetched_at;
+      if (hasEx && prev.extra === "{}") prev.extra = r.extra; // rows are newest-first: first non-empty extra = most recent one
+    }
   }
   const items = [...byId.values()].map(r => {
     let ex = {}; try { ex = JSON.parse(r.extra || "{}"); } catch {}
     const date = ex.date || (r.published_at ? r.published_at.slice(0, 10) : "");
     const { extra, published_at, ...rest } = r;
-    return { ...ex, ...rest, date, published_at };
+    return normGithub({ ...ex, ...rest, date, published_at });
   });
   const k = i => [i.published_at ? 1 : 0, i.published_at || "", i.first_seen || ""];
   items.sort((a, b) => { const x = k(a), y = k(b); for (let j = 0; j < 3; j++) if (x[j] !== y[j]) return x[j] < y[j] ? 1 : -1; return 0; });
