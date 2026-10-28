@@ -40,9 +40,13 @@ const errBox=msg=>`<div class="err">⚠️ ${esc(msg)}<br><br><button class="chi
 async function api(path){const ctl=new AbortController();const to=setTimeout(()=>ctl.abort(),10000);
 try{const r=await fetch(API+path,{signal:ctl.signal});if(!r.ok)throw new Error('HTTP '+r.status);return await r.json()}finally{clearTimeout(to)}}
 function setUpdated(u){if(u)$('up').textContent=new Date(u).toLocaleString('zh-CN',{timeZone:'Asia/Shanghai',hour12:false})}
-$('chips').innerHTML='<button class="chip on" data-id="all">本期全部</button><button class="chip" data-id="hist">📚 全部历史</button>'+MODS.map(m=>`<button class="chip" data-id="${m.id}">${m.icon} ${esc(m.name)}</button>`).join('');
-$('chips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;cur=b.dataset.id;page=1;[...$('chips').children].forEach(x=>x.classList.toggle('on',x===b));render()};
-async function loadLatest(){try{L=await api('/latest?per=8');setUpdated(L.updated);$('chips').querySelector('[data-id=hist]').textContent=`📚 全部历史 (${L.total})`;return true}
+$('chips').innerHTML='<button class="chip on" data-v="latest">🆕 本期最新</button><button class="chip" data-v="hist">📚 全部历史</button><span style="opacity:.4;margin:0 6px">|</span><button class="chip on" data-id="all">全部类型</button>'+MODS.map(m=>`<button class="chip" data-id="${m.id}">${m.icon} ${esc(m.name)}</button>`).join('');
+let view='latest';
+$('chips').onclick=e=>{const b=e.target.closest('.chip');if(!b)return;page=1;
+if(b.dataset.v){view=b.dataset.v;$('chips').querySelectorAll('[data-v]').forEach(x=>x.classList.toggle('on',x===b))}
+else{cur=b.dataset.id;hmod=cur==='all'?'':cur;$('chips').querySelectorAll('[data-id]').forEach(x=>x.classList.toggle('on',x===b))}
+render()};
+async function loadLatest(){try{L=await api('/latest?per=8');setUpdated(L.updated);$('chips').querySelector('[data-v=hist]').textContent=`📚 全部历史 (${L.total})`;return true}
 catch(e){$('m').innerHTML=errBox('资讯加载失败（'+e.message+'），请稍后重试');$('up').textContent='-';return false}}
 function retry(){if(!L)loadLatest().then(ok=>ok&&render());else render()}
 function renderMain(){const q=$('q').value.trim().toLowerCase();let n=0;
@@ -51,14 +55,14 @@ return `<section class="mod"><h2><span>${m.icon} ${esc(m.name)}</span><span clas
 async function renderHist(){const seq=++hseq,q=$('q').value.trim();
 const opts='<option value="">全部模块</option>'+MODS.map(m=>`<option value="${m.id}"${m.id===hmod?' selected':''}>${m.icon} ${esc(m.name)}</option>`).join('');
 try{const d=await api(`/history?limit=${PS}&offset=${(page-1)*PS}`+(hmod?`&module=${encodeURIComponent(hmod)}`:'')+(q?`&keyword=${encodeURIComponent(q)}`:''));
-if(seq!==hseq||cur!=='hist')return;const pages=Math.max(1,Math.ceil(d.total/PS));if(page>pages&&d.total){page=pages;return renderHist()}
+if(seq!==hseq||view!=='hist')return;const pages=Math.max(1,Math.ceil(d.total/PS));if(page>pages&&d.total){page=pages;return renderHist()}
 setUpdated(d.updated);$('cnt').textContent=d.total;
-$('m').innerHTML=`<section class="mod" id="histbox" style="grid-column:1/-1"><h2><span>📚 全部历史（按日期从新到旧）</span><span class="tag">第 ${page}/${pages} 页 · ${d.total} 条</span></h2><div class="tag" style="margin-bottom:8px"><select id="hmod" class="chip">${opts}</select></div>`+
+$('m').innerHTML=`<section class="mod" id="histbox" style="grid-column:1/-1"><h2><span>📚 全部历史${hmod?' · '+esc(mname(hmod)):''}（按日期从新到旧）</span><span class="tag">第 ${page}/${pages} 页 · ${d.total} 条</span></h2>`+
 (d.items.map(i=>card(i,true)).join('')||'<p class="mu">没有匹配的资讯</p>')+
 `<div class="pager"><button class="chip" onclick="page=Math.max(1,page-1);render()">上一页</button> <button class="chip" onclick="page=page+1;render()">下一页</button></div></section>`;
-$('hmod').onchange=e=>{hmod=e.target.value;page=1;render()}}
-catch(e){if(seq===hseq&&cur==='hist')$('m').innerHTML=errBox('历史数据加载失败（'+e.message+'），请稍后重试')}}
-function render(){if(cur==='hist')return renderHist();if(L)renderMain()}
-$('q').oninput=()=>{page=1;if(cur==='hist'){clearTimeout(htimer);htimer=setTimeout(render,300)}else render()};
+}
+catch(e){if(seq===hseq&&view==='hist')$('m').innerHTML=errBox('历史数据加载失败（'+e.message+'），请稍后重试')}}
+function render(){if(view==='hist')return renderHist();if(L)renderMain()}
+$('q').oninput=()=>{page=1;if(view==='hist'){clearTimeout(htimer);htimer=setTimeout(render,300)}else render()};
 loadLatest().then(ok=>ok&&render());
 </script></body></html>
