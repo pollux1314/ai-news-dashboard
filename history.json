@@ -1,7 +1,29 @@
 {
- "updated": "2026-10-28T07:25:00+08:00",
- "count": 1751,
+ "updated": "2026-10-28T08:35:00+08:00",
+ "count": 1755,
  "items": [
+  {
+   "title": "elayadesign/ai-design-skills",
+   "url": "https://github.com/elayadesign/ai-design-skills",
+   "source": "GitHub · ⭐ 9304",
+   "date": "2026-10-28",
+   "summary": "面向 Claude Code、Cursor、Codex、Windsurf 等 AI 编程工具的设计类 Skill 合集，首个 landing-page-design 技能涵盖需求访谈、页面结构、转化文案与完整视觉系统；今日 GitHub 趋势榜单日新增约 1395 星。",
+   "id": "10439e81d0b3763b476234263f383e446035c203",
+   "module": "github",
+   "module_name": "GitHub 热门 AI 项目",
+   "first_seen": "2026-10-28T08:35:00+08:00"
+  },
+  {
+   "title": "@ArtificialAnlys：Cartesia Managed Agents 在 Artificial Analysis 语音智能体竞技场 Elo 达 1115，比 Cartesia 上一代 Cartesia Line 高 98 分，任务成功率从 77.5% 升至 91.7%",
+   "url": "https://x.com/ArtificialAnlys/status/2115204127013929072",
+   "source": "X · @ArtificialAnlys",
+   "date": "2026-10-28",
+   "summary": "Artificial Analysis 于北京时间 10 月 28 日 06:08 发帖；Managed Agents 是 Cartesia 推出的全托管语音智能体构建平台。",
+   "id": "506bfe97bb54d4f67247cfb41eba32a66a00f4d9",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T08:35:00+08:00"
+  },
   {
    "title": "Anthropic 随机对照研究：50 名因果推断分析师用 Claude Code 做分析时，在四个关键决策上 86% 跟随了智能体被暗中随机设定的“倾向”",
    "url": "https://www.anthropic.com/research/agents-judgment-calls",
@@ -78,6 +100,17 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "钉钉 DingTalk Workspace CLI（DWS）完成鸿蒙 PC 适配并开源：25 项业务模块、1000 多条命令把群聊、听记、待办、AI 表格、文档、审批等办公能力开放给 Agent 调用",
+   "url": "https://www.geekpark.net/news/372984",
+   "source": "极客公园",
+   "date": "2026-10-27",
+   "summary": "DWS 以 Apache 2.0 协议开源，提供结构化 JSON 输出与内置 Agent Skills，可接入千问办公、Qoder、Claude Code、Cursor 等智能体；采用 OAuth 设备流认证与最小权限，需企业管理员授权，关键操作执行前需用户确认。鸿蒙 PC 版以 openharmony/arm64 发布包提供。",
+   "id": "41a2ce7f1f2a48839e03aa118b1e287538deace5",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-28T08:35:00+08:00"
   },
   {
    "title": "Google 把具身推理模型 Gemini Robotics ER 2 上线 Google Cloud 公开预览：作为机器人的“高层大脑”，可适配从机械臂到人形的各类本体，支持长程规划、多机协作与内置安全护栏",
@@ -463,6 +496,17 @@
    "module": "github",
    "module_name": "GitHub 热门 AI 项目",
    "first_seen": "2026-10-27T08:35:00+08:00"
+  },
+  {
+   "title": "Fortinet 推出云交付的 FortiGuard Inline AI Security 服务：FortiGate 防火墙可实时检查 LLM 提示词、模型响应与 MCP 工具调用，拦截提示注入并脱敏敏感数据",
+   "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-expands-ai-security-with-the-fortiguard-inline-ai-security-service",
+   "source": "Fortinet 新闻稿",
+   "date": "2026-10-26",
+   "summary": "服务基于 FortiAIGate 护栏，覆盖提示词、模型输出、MCP 工具调用与智能体动作；DLP 可识别 35 类个人与机密信息并告警、拦截或脱敏，支持按组织/项目/用户设置模型权限与花费上限，提供 50 多项一键合规策略。FortiAIGate 也可自托管在 Kubernetes + 英伟达 GPU 上。",
+   "id": "40e4065f55d9c791a781a0b74294d5f46df6edaa",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-28T08:35:00+08:00"
   },
   {
    "title": "Anthropic 发布 Claude for Nonprofits 插件：与约 30 家非营利组织共建的技能与连接器，覆盖筹款（捐赠方研究、RFP 拆解、标书与报告起草）、营销、招聘与理事会治理",

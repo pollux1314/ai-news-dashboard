@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-28T07:25:00+08:00",
+  "updated": "2026-10-28T08:35:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -232,6 +232,13 @@
           "summary": "核心是稀疏参考滑动窗口注意力 SR-SWA：页面门控先把视觉参考范围缩到相关页面，再用得分最高的视觉 Token 桶捕捉长距离依赖，百页文档单步解码比 Full Attention 快 7 倍；结合无限解码机制降低显存开销。代码与权重已开源至 GitHub baidu/Unlimited-OCR 与 Hugging Face baidu/Unlimited-OCR-2。"
         },
         {
+          "title": "Fortinet 推出云交付的 FortiGuard Inline AI Security 服务：FortiGate 防火墙可实时检查 LLM 提示词、模型响应与 MCP 工具调用，拦截提示注入并脱敏敏感数据",
+          "url": "https://www.fortinet.com/corporate/about-us/newsroom/press-releases/2026/fortinet-expands-ai-security-with-the-fortiguard-inline-ai-security-service",
+          "source": "Fortinet 新闻稿",
+          "date": "2026-10-26",
+          "summary": "服务基于 FortiAIGate 护栏，覆盖提示词、模型输出、MCP 工具调用与智能体动作；DLP 可识别 35 类个人与机密信息并告警、拦截或脱敏，支持按组织/项目/用户设置模型权限与花费上限，提供 50 多项一键合规策略。FortiAIGate 也可自托管在 Kubernetes + 英伟达 GPU 上。"
+        },
+        {
           "title": "Cloudflare 披露 Workers AI 上 GLM-5.3 跨请求 KV 缓存泄露：155 条响应混入其他客户请求的数据，根因是 KV 池容量配置不足叠加 SGLang 分离式预填充/解码的拒绝路径 Bug",
           "url": "https://blog.cloudflare.com/kv-cache-exposure-remediation/",
           "source": "Cloudflare Blog / SGLang",
@@ -244,13 +251,6 @@
           "source": "VideoCardz / 机器之心",
           "date": "2026-10-26",
           "summary": "gpu-unlock 系列 Linux 内核模块在官方驱动加载前改写 SM 速率选择寄存器，覆盖 RTX 20/30/40 系；RTX 3090 Ti BF16 矩阵乘从 87.5 升至 157.4 TFLOPS。实际 LLM 预填充提速约 14%–36%，token 生成与游戏基本不变，量化模型无收益，且存在硬件风险。"
-        },
-        {
-          "title": "前 GitHub CEO Thomas Dohmke 的创业公司 Entire 正式上线面向智能体的 Git 托管平台：用“Trails”取代 PR，每次推送由多个评审智能体打分",
-          "url": "https://entire.com/blog/the-git-forge-for-agent-human-collaboration",
-          "source": "Entire 官方博客 / The New Stack / The Verge",
-          "date": "2026-10-26",
-          "summary": "Entire 以三大能力切入：Trails 把安全、代码质量、“Slop”等可自定义评测放到页面顶部，每次推送由云端沙箱里的评审智能体独立打分；兼容 Git 的分布式托管（官方称推送最高比 GitHub 快 89 倍）；以及把智能体会话与提示同步进仓库的 Continuous Memory。首发支持私有仓库托管，公开仓库与自托管节点仍在路线图上；公司今年 2 月曾宣布 6000 万美元种子轮。"
         }
       ]
     },
@@ -323,6 +323,13 @@
       "icon": "🇨🇳",
       "items": [
         {
+          "title": "钉钉 DingTalk Workspace CLI（DWS）完成鸿蒙 PC 适配并开源：25 项业务模块、1000 多条命令把群聊、听记、待办、AI 表格、文档、审批等办公能力开放给 Agent 调用",
+          "url": "https://www.geekpark.net/news/372984",
+          "source": "极客公园",
+          "date": "2026-10-27",
+          "summary": "DWS 以 Apache 2.0 协议开源，提供结构化 JSON 输出与内置 Agent Skills，可接入千问办公、Qoder、Claude Code、Cursor 等智能体；采用 OAuth 设备流认证与最小权限，需企业管理员授权，关键操作执行前需用户确认。鸿蒙 PC 版以 openharmony/arm64 发布包提供。"
+        },
+        {
           "title": "智元发布具身 Agent 框架 Genie Master：搭载该框架的精灵 G2 在真实便利店上岗时不依赖人工示范，自行定位失败原因、调整策略并沉淀经验，称首次在真实业务场景验证“具身递归自进化”",
           "url": "https://www.ithome.com/1/018/423.htm",
           "source": "IT之家",
@@ -370,13 +377,6 @@
           "source": "机器之心",
           "date": "2026-10-26",
           "summary": "同一预训练模型下，约 1 分钟的单段示范即可让未见任务平均成功率达 52%（微调达到相近水平需约 180 条示范、9 小时）；保留自身失败历史时五次尝试累计成功率 84%，不保留为 56%；同一套权重还支持深度、分割、光流、人体姿态等感知任务。"
-        },
-        {
-          "title": "寒武纪陈天石回应“明年芯片出货超百万颗”传闻：公司从未进行过相关沟通，请以上交所公告为准",
-          "url": "https://www.ithome.com/1/018/135.htm",
-          "source": "IT之家",
-          "date": "2026-10-26",
-          "summary": "寒武纪 2026 年 Q3 营收 35.31 亿元、同比增长 104.47%，归母净利润 14.04 亿元、同比增长 147.74%。"
         }
       ]
     },
@@ -385,6 +385,13 @@
       "name": "GitHub 热门 AI 项目",
       "icon": "⭐",
       "items": [
+        {
+          "title": "elayadesign/ai-design-skills",
+          "url": "https://github.com/elayadesign/ai-design-skills",
+          "source": "GitHub · ⭐ 9304",
+          "date": "2026-10-28",
+          "summary": "面向 Claude Code、Cursor、Codex、Windsurf 等 AI 编程工具的设计类 Skill 合集，首个 landing-page-design 技能涵盖需求访谈、页面结构、转化文案与完整视觉系统；今日 GitHub 趋势榜单日新增约 1395 星。"
+        },
         {
           "title": "HKUDS/DeepTutor",
           "url": "https://github.com/HKUDS/DeepTutor",
@@ -433,13 +440,6 @@
           "source": "GitHub · TypeScript · ⭐ 107996",
           "date": "2026-10-24",
           "summary": "谷歌官方开源的终端 AI 智能体 Gemini CLI，把 Gemini 直接带进命令行；持续每日发布 nightly 版本（10 月 24 日 v0.67.0-nightly 修复请求取消后的续流处理、IDE 工作区相对路径解析等），今日登上 GitHub 趋势榜。"
-        },
-        {
-          "title": "vectorize-io/hindsight",
-          "url": "https://github.com/vectorize-io/hindsight",
-          "source": "GitHub · Python · ⭐ 53402",
-          "date": "2026-10-24",
-          "summary": "Hindsight：“会学习的智能体记忆”（MIT）。为 AI 智能体提供可保留、检索与反思的长期记忆服务，10 月 13 日发布 v1.0、21 日发布 v1.1.0（新增 webhook 事件投递 ID、服务端按调用选择 LLM 与凭据等）；今日登上 GitHub Python 趋势榜，单日新增约 340 星。"
         }
       ]
     },
@@ -448,6 +448,13 @@
       "name": "X 重要动态",
       "icon": "𝕏",
       "items": [
+        {
+          "title": "@ArtificialAnlys：Cartesia Managed Agents 在 Artificial Analysis 语音智能体竞技场 Elo 达 1115，比 Cartesia 上一代 Cartesia Line 高 98 分，任务成功率从 77.5% 升至 91.7%",
+          "url": "https://x.com/ArtificialAnlys/status/2115204127013929072",
+          "source": "X · @ArtificialAnlys",
+          "date": "2026-10-28",
+          "summary": "Artificial Analysis 于北京时间 10 月 28 日 06:08 发帖；Managed Agents 是 Cartesia 推出的全托管语音智能体构建平台。"
+        },
         {
           "title": "@AnthropicAI：扩大与美国总务管理局（GSA）的合作，在新的 OneGov 协议下以 4 折优惠向联邦、州、地方、部落及领地政府提供 Claude",
           "url": "https://x.com/AnthropicAI/status/2115207004293853358",
@@ -496,13 +503,6 @@
           "source": "X · @Baidu_Inc",
           "date": "2026-10-27",
           "summary": "百度官方账号发帖介绍 Unlimited OCR 2 开源，强调文档越长注意力计算越多，新机制让开销保持可控；百度世界 2026 大会将于 11 月 12 日进一步展示该模型。"
-        },
-        {
-          "title": "@cursor_ai：DeepSeek V4.1 Flash 已上线 Cursor，称其各推理强度档位均位于 CursorBench 成本前沿——每任务 0.60–0.98 美元，同价位无模型得分更高",
-          "url": "https://x.com/cursor_ai/status/2114839997568405608",
-          "source": "X",
-          "date": "2026-10-27",
-          "summary": "用户可在 Cursor Settings > Models 中开启；帖子发布于 10 月 27 日 06:02（UTC+8），约 9 万次浏览、1,700 赞。"
         }
       ]
     }
