@@ -1,6 +1,6 @@
 {
- "updated": "2026-10-28T08:32:00+08:00",
- "count": 1755,
+ "updated": "2026-10-28T09:31:00+08:00",
+ "count": 1757,
  "items": [
   {
    "title": "elayadesign/ai-design-skills",
@@ -100,6 +100,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "Meta 个人 AI 智能体 Muse 在新加坡上线：接入 Shopee、Grab、新加坡航空、Agoda、Klook、Lazada 等本地服务代用户办事",
+   "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+   "source": "Meta Newsroom",
+   "date": "2026-10-27",
+   "summary": "Muse 支持 iOS、Android 与 muse.ai，即将登陆 AI 眼镜；可跟进事务、接手任务并把长期目标拆成行动计划，用户可自行决定授予多少权限。基础功能免费，另有订阅档位。",
+   "id": "54079a67657ceb51174dfd314337225e5c077782",
+   "module": "models",
+   "module_name": "大模型与产品发布",
+   "first_seen": "2026-10-28T09:31:00+08:00"
+  },
+  {
+   "title": "WIRED：英国移民监察机构 ICIBI 考虑调查内政部用基于 GPT-4 的 AI 工具处理庇护申请，起因是外界质疑其准确性与使用不透明",
+   "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+   "source": "WIRED",
+   "date": "2026-10-27",
+   "summary": "内政部自 2024 年底试点基于 OpenAI GPT-4 与 Microsoft Foundry 的庇护面谈摘要（ACS）和国别政策检索（APS）工具，政府估算每案可省约 1 小时。数字权利组织 Open Rights Group 调查称 ACS 摘要“不可用”比例明显高于试点公布的 9% 错误率，APS 则缺乏质量控制；ICIBI 已向其索取资料用于制定明年检查计划，但未确认立案。内政部称决定仍由受训人员作出。",
+   "id": "ae72bdec54e137cc3e43434871a3a3e05bfdadd3",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-28T09:31:00+08:00"
   },
   {
    "title": "钉钉 DingTalk Workspace CLI（DWS）完成鸿蒙 PC 适配并开源：25 项业务模块、1000 多条命令把群聊、听记、待办、AI 表格、文档、审批等办公能力开放给 Agent 调用",

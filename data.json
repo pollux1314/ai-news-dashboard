@@ -1,6 +1,6 @@
 {
   "title": "AI 资讯面板",
-  "updated": "2026-10-28T08:32:00+08:00",
+  "updated": "2026-10-28T09:31:00+08:00",
   "modules": [
     {
       "id": "models",
@@ -13,6 +13,13 @@
           "source": "The Verge",
           "date": "2026-10-28",
           "summary": "Genie 4 借助 Gemini 3.8 Flash 辅助模拟，定位影视预演、游戏原型和机器人训练场景；Google 提醒模拟越长细节与物体持续性越可能漂移。目前以研究预览形式向受信测试者开放，即将登陆 Google AI Ultra 的 Project Genie，并已开放候补名单。"
+        },
+        {
+          "title": "Meta 个人 AI 智能体 Muse 在新加坡上线：接入 Shopee、Grab、新加坡航空、Agoda、Klook、Lazada 等本地服务代用户办事",
+          "url": "https://about.fb.com/news/2026/10/muse-is-now-available-in-singapore-the-worlds-first-personal-ai-agent-built-for-everyone/",
+          "source": "Meta Newsroom",
+          "date": "2026-10-27",
+          "summary": "Muse 支持 iOS、Android 与 muse.ai，即将登陆 AI 眼镜；可跟进事务、接手任务并把长期目标拆成行动计划，用户可自行决定授予多少权限。基础功能免费，另有订阅档位。"
         },
         {
           "title": "Google 把具身推理模型 Gemini Robotics ER 2 上线 Google Cloud 公开预览：作为机器人的“高层大脑”，可适配从机械臂到人形的各类本体，支持长程规划、多机协作与内置安全护栏",
@@ -55,13 +62,6 @@
           "source": "Apple Newsroom / MacRumors",
           "date": "2026-10-26",
           "summary": "27.2 系统更新同步覆盖 iOS、iPadOS、macOS、watchOS 和 visionOS；新增“排除的 App”统一设置控制 Siri 与搜索可访问的应用，照片与 Image Playground 支持 SynthID 水印检测。Siri AI 仍为测试版，需 iPhone 15 Pro 及以上，欧盟与中国大陆暂不可用，繁体中文等语言预计年底前上线。"
-        },
-        {
-          "title": "OpenAI 发布 GPT-6.1 Terra：主打快速、低价的电脑操作（computer use）与视觉推理，API 标准价比 GPT-5.6 Terra 和 GPT-6.1 Sol 低 50%",
-          "url": "https://openai.com/index/introducing-gpt-6-1-terra/",
-          "source": "OpenAI",
-          "date": "2026-10-26",
-          "summary": "即日起向 ChatGPT Work 与 Codex 的 Plus、Pro、Enterprise、Edu 用户开放，API 模型名 gpt-6.1-terra，定价每百万输入 1 美元、输出 5 美元，上下文约 105 万 token；OpenAI 称其在 Agents' Last Exam 上中等推理强度比 GPT-5.6 Terra 高 15 个百分点、成本约三分之一，与 GPT-6 Astra 持平而单价仅其十分之一。"
         }
       ]
     },
@@ -260,6 +260,13 @@
       "icon": "⚖️",
       "items": [
         {
+          "title": "WIRED：英国移民监察机构 ICIBI 考虑调查内政部用基于 GPT-4 的 AI 工具处理庇护申请，起因是外界质疑其准确性与使用不透明",
+          "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
+          "source": "WIRED",
+          "date": "2026-10-27",
+          "summary": "内政部自 2024 年底试点基于 OpenAI GPT-4 与 Microsoft Foundry 的庇护面谈摘要（ACS）和国别政策检索（APS）工具，政府估算每案可省约 1 小时。数字权利组织 Open Rights Group 调查称 ACS 摘要“不可用”比例明显高于试点公布的 9% 错误率，APS 则缺乏质量控制；ICIBI 已向其索取资料用于制定明年检查计划，但未确认立案。内政部称决定仍由受训人员作出。"
+        },
+        {
           "title": "美国 GSA 与 Anthropic 扩大 OneGov 协议：联邦、州、地方及部落政府按用量购买 Claude 享 40% 折扣，无最低采购量",
           "url": "https://www.gsa.gov/about-gsa/newsroom/news-releases/gsa-anthropic-reach-onegov-agreement-on-discounted-consumptionbased-pricing-10272026",
           "source": "GSA 官方新闻稿",
@@ -307,13 +314,6 @@
           "source": "The Verge",
           "date": "2026-10-26",
           "summary": "S-1 称部分规划数据中心依赖现场燃气轮机供电，超大规模云厂商争抢天然气与管道容量可能推高气价；若监管要求数据中心承担更多电网成本或电力供应受限，可能被迫推迟甚至放弃数据中心项目，进而限制算力扩张。"
-        },
-        {
-          "title": "前 DOGE 成员创办的安全初创公司 Cathedral 称其 AI 智能体不到 12 小时攻入 Anthropic 内部系统：借第三方业务软件漏洞拿到会议纪要、薪酬与 offer 信息及内部 Slack 消息",
-          "url": "https://gizmodo.com/former-doge-staffers-new-startup-claims-it-hacked-anthropic-2000830560",
-          "source": "Gizmodo / 华盛顿邮报",
-          "date": "2026-10-26",
-          "summary": "据《华盛顿邮报》看到的报告草稿，此次测试属于 Anthropic 外部漏洞奖励计划。Anthropic 确认对方进入了“有限的”销售、人力与 IT 系统，涉及部分客户和合作伙伴的商务联系信息及基础账户记录，但未触及 Claude 用户对话、源代码或模型权重；Anthropic 称监控当天发现并切断访问，并指责 Cathedral 未完整披露其活动、违反计划规则，已向联邦官员通报。"
         }
       ]
     },
