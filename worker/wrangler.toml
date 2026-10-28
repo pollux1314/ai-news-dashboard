@@ -1,0 +1,10 @@
+name = "ai-news-proxy"
+main = "src/index.js"
+compatibility_date = "2026-10-01"
+workers_dev = true
+account_id = "c2b6399bfb0491d9111f777e2fa1b2fb"
+
+[vars]
+TINYBIRD_URL = "https://api.us-east.aws.tinybird.co"
+ALLOWED_ORIGIN = "https://pollux1314.github.io"
+# TINYBIRD_TOKEN is a Worker secret (scoped read-only JWT), never stored here.
