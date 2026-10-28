@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-28T09:31:00+08:00",
- "count": 1757,
+ "updated": "2026-10-28T10:36:00+08:00",
+ "count": 1761,
  "items": [
+  {
+   "title": "@ArtificialAnlys：发布 Artificial Analysis 智能指数 v5，新增 2 项基准、升级 3 项，首次让指数的大部分建立在私有数据集上",
+   "url": "https://x.com/ArtificialAnlys/status/2115265133467635877",
+   "source": "X · @ArtificialAnlys",
+   "date": "2026-10-28",
+   "summary": "Artificial Analysis 于北京时间 10 月 28 日 10:11 发帖；该指数是其衡量模型跨任务综合能力的复合指标，改用私有数据集有助于降低基准污染。",
+   "id": "fcb798dcb04a0c4e9547ee2c44dfe6c225305747",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T10:36:00+08:00"
+  },
   {
    "title": "elayadesign/ai-design-skills",
    "url": "https://github.com/elayadesign/ai-design-skills",
@@ -100,6 +111,39 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "路透援引 The Information：OpenAI 计划采购谷歌 TPU 芯片，并招聘工程师“主导”其前沿模型在 TPU 上的优化",
+   "url": "https://www.channelnewsasia.com/business/openai-plans-buy-googles-ai-chips-information-reports-6498406",
+   "source": "Reuters / CNA",
+   "date": "2026-10-27",
+   "summary": "报道未披露金额与规模，OpenAI 拒绝置评、谷歌未回应；OpenAI 此前主要采购英伟达 GPU，2025 年 6 月起已租用谷歌 TPU，上周刚宣布前沿模型登陆 Google Cloud。Alphabet 将于本周三发布季度财报。",
+   "id": "784069f1f7a1ca58a215affd1d7dbf6bacf23e5c",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-28T10:36:00+08:00"
+  },
+  {
+   "title": "英伟达与甲骨文宣布把 OCI 超算集群的 Vera Rubin NVL72 扩展到多吉瓦级，Vera Rubin NVL72 与 Vera CPU 在 OCI 正式商用，首批 15 万颗 Vera CPU 面向智能体负载",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-and-oracle-expand-nvidia-vera-rubin-to-multi-gigawatt-scale-and-bring-nvidia-vera-cpu-to-oracle-cloud-infrastructure",
+   "source": "NVIDIA Newsroom",
+   "date": "2026-10-27",
+   "summary": "在 Oracle AI World 上发布：甲骨文称是首家上市 Vera CPU 的超大规模云厂商，Vera CPU 用于智能体调用工具、执行代码、检索数据等 CPU 密集环节，可与 GPU 独立扩缩；OCI 还计划推出 HGX Rubin NVL8 系统。",
+   "id": "6cf6ca19286ea176a25e4567f96ee0f711392d2e",
+   "module": "industry",
+   "module_name": "行业与融资",
+   "first_seen": "2026-10-28T10:36:00+08:00"
+  },
+  {
+   "title": "Liquid AI 发布并开源新一代端侧模型家族 LFM3：6 款 2B 级模型共用同一骨干，覆盖文本、视觉、音频、全模态与决策，文本模型 4-bit 下仅约 1 GB",
+   "url": "https://www.liquid.ai/blog/lfm3",
+   "source": "Liquid AI",
+   "date": "2026-10-27",
+   "summary": "采用新的三混合架构、22T token 预训练，LFM3-1.7B 以少 35% 参数超过上一代 LFM2.5-2.6B，文本模型支持 256K 上下文；所有模型可单卡微调，权重已上架 Hugging Face，支持 llama.cpp、MLX、vLLM 等。",
+   "id": "767a7db22edd66808e4acca675b8c8e6179886f9",
+   "module": "opensource",
+   "module_name": "开源与工具",
+   "first_seen": "2026-10-28T10:36:00+08:00"
   },
   {
    "title": "Meta 个人 AI 智能体 Muse 在新加坡上线：接入 Shopee、Grab、新加坡航空、Agoda、Klook、Lazada 等本地服务代用户办事",
