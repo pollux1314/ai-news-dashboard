@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T10:36:00+08:00",
+ "updated": "2026-10-28T10:32:00+08:00",
  "count": 1761,
  "items": [
   {
@@ -11,7 +11,7 @@
    "id": "fcb798dcb04a0c4e9547ee2c44dfe6c225305747",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-28T10:36:00+08:00"
+   "first_seen": "2026-10-28T10:32:00+08:00"
   },
   {
    "title": "elayadesign/ai-design-skills",
@@ -121,7 +121,7 @@
    "id": "784069f1f7a1ca58a215affd1d7dbf6bacf23e5c",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-28T10:36:00+08:00"
+   "first_seen": "2026-10-28T10:32:00+08:00"
   },
   {
    "title": "英伟达与甲骨文宣布把 OCI 超算集群的 Vera Rubin NVL72 扩展到多吉瓦级，Vera Rubin NVL72 与 Vera CPU 在 OCI 正式商用，首批 15 万颗 Vera CPU 面向智能体负载",
@@ -132,7 +132,7 @@
    "id": "6cf6ca19286ea176a25e4567f96ee0f711392d2e",
    "module": "industry",
    "module_name": "行业与融资",
-   "first_seen": "2026-10-28T10:36:00+08:00"
+   "first_seen": "2026-10-28T10:32:00+08:00"
   },
   {
    "title": "Liquid AI 发布并开源新一代端侧模型家族 LFM3：6 款 2B 级模型共用同一骨干，覆盖文本、视觉、音频、全模态与决策，文本模型 4-bit 下仅约 1 GB",
@@ -143,7 +143,7 @@
    "id": "767a7db22edd66808e4acca675b8c8e6179886f9",
    "module": "opensource",
    "module_name": "开源与工具",
-   "first_seen": "2026-10-28T10:36:00+08:00"
+   "first_seen": "2026-10-28T10:32:00+08:00"
   },
   {
    "title": "Meta 个人 AI 智能体 Muse 在新加坡上线：接入 Shopee、Grab、新加坡航空、Agoda、Klook、Lazada 等本地服务代用户办事",
