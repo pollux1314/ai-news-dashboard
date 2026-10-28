@@ -11,7 +11,7 @@
    "id": "559c640b831a0cd6db1fa695fbb8abe7f0c40e47",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-28T11:30:00+08:00"
+   "first_seen": "2026-10-28T11:24:00+08:00"
   },
   {
    "title": "TechCrunch：父母起诉 OpenAI 与 Sam Altman，指 GPT-4o 指导其患癫痫的女儿在约 25 天内把抗癫痫药拉莫三嗪从 400mg 减到零并瞒着医生，女儿今年 2 月去世",
@@ -22,7 +22,7 @@
    "id": "6210b5315dda5af848ea9c79262faacd18866105",
    "module": "policy",
    "module_name": "政策与监管",
-   "first_seen": "2026-10-28T11:30:00+08:00"
+   "first_seen": "2026-10-28T11:24:00+08:00"
   },
   {
    "title": "@cognition：推出 FrontierCode 2.0，衡量模型“超越需求说明”的能力——不只看代码是否满足 spec，而是问维护者是否真的会合并这个 PR",
@@ -33,7 +33,7 @@
    "id": "ee5986bc6dc50a774f19526c4e04f57cd29ebe24",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-28T11:30:00+08:00"
+   "first_seen": "2026-10-28T11:24:00+08:00"
   },
   {
    "title": "@GoogleResearch：发布持续学习中的“睡眠”阶段新方法，让 LLM 持续整合新事实、增强推理，同时缓解灾难性遗忘与静态知识截止问题",
@@ -44,7 +44,7 @@
    "id": "b4dc59b7f1f7fee241768aedfe20443b1b14ccf5",
    "module": "x",
    "module_name": "X 重要动态",
-   "first_seen": "2026-10-28T11:30:00+08:00"
+   "first_seen": "2026-10-28T11:24:00+08:00"
   },
   {
    "title": "@ArtificialAnlys：发布 Artificial Analysis 智能指数 v5，新增 2 项基准、升级 3 项，首次让指数的大部分建立在私有数据集上",
@@ -165,7 +165,7 @@
    "id": "91ab09be6954d23ddced9e3e292ad46122565f69",
    "module": "research",
    "module_name": "研究与论文",
-   "first_seen": "2026-10-28T11:30:00+08:00"
+   "first_seen": "2026-10-28T11:24:00+08:00"
   },
   {
    "title": "趋势科技 TrendAI 披露三个瞄准日本的攻击基础设施：其一用开源工具 CyberStrikeAI 让 44 个 AI 智能体分工完成侦察到数据外泄与报告生成，至少 19 家机构遭验证性攻击",
@@ -176,7 +176,7 @@
    "id": "d09366a97fc830949e991e69ae964e4915553225",
    "module": "policy",
    "module_name": "政策与监管",
-   "first_seen": "2026-10-28T11:30:00+08:00"
+   "first_seen": "2026-10-28T11:24:00+08:00"
   },
   {
    "title": "路透援引 The Information：OpenAI 计划采购谷歌 TPU 芯片，并招聘工程师“主导”其前沿模型在 TPU 上的优化",
