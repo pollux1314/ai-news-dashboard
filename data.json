@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-28T11:24:00+08:00",
+ "updated": "2026-10-28T12:34:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -71,6 +71,20 @@
    "icon": "💰",
    "items": [
     {
+     "title": "彭博：机器人 AI 公司 Physical Intelligence 洽谈以约 200 亿美元估值融资至少 10 亿美元，较今年早些时候的 115 亿美元估值近乎翻倍",
+     "url": "https://www.bloomberg.com/news/articles/2026-10-27/robotics-lab-physical-intelligence-in-talks-for-a-20-billion-valuation",
+     "source": "Bloomberg",
+     "date": "2026-10-27",
+     "summary": "知情人士称，现有投资方 Avenir 与 Lux Capital 正商讨领投本轮，谈判仍处早期、条款可能变化。Physical Intelligence 专注为各类机器人打造通用“机器人大脑”基础模型。"
+    },
+    {
+     "title": "甲骨文宣布 OCI 将提供谷歌 TPU，成为谷歌之外首家提供 TPU 的超大规模云；同时引入 Cerebras 与 SambaNova SN50 推理芯片",
+     "url": "https://www.oracle.com/news/announcement/ai-world-oracle-brings-google-tpus-to-oracle-cloud-infrastructure-2026-10-27/",
+     "source": "Oracle",
+     "date": "2026-10-27",
+     "summary": "在 Oracle AI World 上发布：OCI 将部署第八代 TPU 8t（训练）与 TPU 8i（推理），2027 年起上线并分多年扩容；Cerebras 推理同样计划 2027 年在 OCI 提供，SambaNova SN50 RDU 主打与 GPU 分工的解耦推理（GPU 做 prefill、SN50 做 decode）。路透称甲骨文借此在扩大英伟达 Vera Rubin 部署的同时实现芯片供应多元化。"
+    },
+    {
      "title": "路透援引 The Information：OpenAI 计划采购谷歌 TPU 芯片，并招聘工程师“主导”其前沿模型在 TPU 上的优化",
      "url": "https://www.channelnewsasia.com/business/openai-plans-buy-googles-ai-chips-information-reports-6498406",
      "source": "Reuters / CNA",
@@ -111,20 +125,6 @@
      "source": "Guidewire 新闻稿",
      "date": "2026-10-27",
      "summary": "hyperexponential 为商业财产与意外险保险公司提供 AI 原生的核保与定价软件。交易预计在 Guidewire 2027 财年第二季度完成，部分资金来自 10 亿美元定期贷款。"
-    },
-    {
-     "title": "英伟达参投印度 AI 推理优化初创 Simplismart 1400 万美元 B 轮，估值约 1 亿美元：软件自动调优模型部署，帮企业用更少 GPU 跑模型",
-     "url": "https://techcrunch.com/2026/10/27/nvidia-backs-indian-startup-helping-companies-run-ai-models-with-fewer-gpus/",
-     "source": "TechCrunch",
-     "date": "2026-10-27",
-     "summary": "本轮由 Dallas Venture Capital 领投，英伟达、Accel、Shastra VC、Micromax 跟投；Simplismart 称帮 InVideo 降低 56% GPU 推理成本，客户含 HeyGen、Higgsfield，年化收入半年增长 14 倍至八位数美元，新资金将用于拓展美国市场。"
-    },
-    {
-     "title": "英伟达与 Meta 扩大 Muse 模型与智能体合作，英伟达将认购 Meta 股权融资 30 亿美元：Meta 将扩大部署 Vera Rubin、Vera CPU、Spectrum-X 与 BlueField-4",
-     "url": "https://markets.businessinsider.com/news/stocks/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth-1036668988",
-     "source": "GlobeNewswire / Reuters",
-     "date": "2026-10-27",
-     "summary": "双方将围绕 Muse 系列模型优化训练与推理性能、降低总拥有成本，并考虑在 NVIDIA OpenShell 参考架构（安全部署）与 NVIDIA Sentry（智能体行为监控）上合作。英伟达 30 亿美元认购的是 Meta 本周启动的至多 950 亿美元股权融资计划；黄仁勋称 AI 智能体是“新的计算范式”。"
     }
    ]
   },
@@ -323,6 +323,13 @@
    "icon": "🇨🇳",
    "items": [
     {
+     "title": "脑机接口公司脑虎科技完成 7 亿元 B 轮融资：国投聚力、深创投、勤智资本联合领投，资金投向“三全”脑机接口临床注册、超级工厂量产与 BCI+AI 融合",
+     "url": "https://www.ithome.com/1/018/733.htm",
+     "source": "IT之家",
+     "date": "2026-10-28",
+     "summary": "中芯聚源、基石资本、IDG 资本等跟投，盛大、中平资本等老股东持续支持。下一代产品聚焦语言脑机接口迭代并加速视觉脑机接口研发，BCI+AI 方向围绕用意图调用 AI、连接工具、驱动环境投入；公司目标两年内实现医疗市场规模化落地。"
+    },
+    {
      "title": "钉钉 DingTalk Workspace CLI（DWS）完成鸿蒙 PC 适配并开源：25 项业务模块、1000 多条命令把群聊、听记、待办、AI 表格、文档、审批等办公能力开放给 Agent 调用",
      "url": "https://www.geekpark.net/news/372984",
      "source": "极客公园",
@@ -370,13 +377,6 @@
      "source": "中国证券报·中证网",
      "date": "2026-10-26",
      "summary": "本轮由知来投资、涌铧投资、茂天投资、元禾辰坤、国科科智、鲁宁投资等联合投资。其轻量化 CASBOT PA 感知到动作模型支持单张消费级 GPU 训练，已在制鞋工厂实现 7 秒盖章、18 秒压合鞋底；公司称方案年投资回报率约 50%–70%，回收期两年以内。"
-    },
-    {
-     "title": "可可矩阵 COCO Matrix 发布机器人模型 CO01：用“经验提示”把示范、失败与人类纠正直接放进上下文，无需重训即可上手新任务",
-     "url": "https://www.163.com/dy/article/LA6KH0EP0511AQHO.html",
-     "source": "机器之心",
-     "date": "2026-10-26",
-     "summary": "同一预训练模型下，约 1 分钟的单段示范即可让未见任务平均成功率达 52%（微调达到相近水平需约 180 条示范、9 小时）；保留自身失败历史时五次尝试累计成功率 84%，不保留为 56%；同一套权重还支持深度、分割、光流、人体姿态等感知任务。"
     }
    ]
   },
