@@ -1,7 +1,18 @@
 {
- "updated": "2026-10-28T12:34:00+08:00",
- "count": 1770,
+ "updated": "2026-10-28T13:40:00+08:00",
+ "count": 1771,
  "items": [
+  {
+   "title": "蚂蚁百灵开源 Ling-3.1-flash-1019 并同步开源基座 Ling-3.1-flash-base：面向 Personal Agent 长程任务，混合线性 MoE 总参约 560B、激活约 25B，基座以 MIT 许可开放",
+   "url": "https://www.qbitai.com/2026/10/505928.html",
+   "source": "量子位",
+   "date": "2026-10-28",
+   "summary": "新版本在 AA 智能指数 v4.3.2 获 44 分（+3），AA-Briefcase 从约 1400 升至 1524 Elo、AutomationBench-AA 从 62% 升至 68%；基座在 47 项基准中 32 项超过 DeepSeek-V4-Pro-Base 与 MiMo-V2.5-Pro-Base。此次迭代服务于 10 月 27 日升级的灵光 2.0 个人助理。",
+   "id": "604888650665f30492310934a7d9c998fdb50dc9",
+   "module": "china",
+   "module_name": "国内 AI 动态",
+   "first_seen": "2026-10-28T13:40:00+08:00"
+  },
   {
    "title": "脑机接口公司脑虎科技完成 7 亿元 B 轮融资：国投聚力、深创投、勤智资本联合领投，资金投向“三全”脑机接口临床注册、超级工厂量产与 BCI+AI 融合",
    "url": "https://www.ithome.com/1/018/733.htm",
