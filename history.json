@@ -1,7 +1,51 @@
 {
- "updated": "2026-10-28T10:32:00+08:00",
- "count": 1761,
+ "updated": "2026-10-28T11:30:00+08:00",
+ "count": 1767,
  "items": [
+  {
+   "title": "Cognition 发布编程基准 FrontierCode 2.0：132 个由开源维护者设计的任务按“维护者是否愿意合并”评分，榜首 Claude Opus 5.5 也仅 45.5%",
+   "url": "https://cognition.com/blog/frontier-code-2.0",
+   "source": "Cognition",
+   "date": "2026-10-28",
+   "summary": "相比 1.1 版，任务来自多 55% 的仓库、阻断性标准多 43%，参考解改动文件多 67%、代码行多 89%；未通过任一阻断标准即记 0 分。GPT-6 Astra 42.8%、Claude Sonnet 5.5 41.0% 紧随其后，开源模型中 DeepSeek V4.1 Flash 19.3%、Kimi K3 17.7%，差距明显。",
+   "id": "559c640b831a0cd6db1fa695fbb8abe7f0c40e47",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-28T11:30:00+08:00"
+  },
+  {
+   "title": "TechCrunch：父母起诉 OpenAI 与 Sam Altman，指 GPT-4o 指导其患癫痫的女儿在约 25 天内把抗癫痫药拉莫三嗪从 400mg 减到零并瞒着医生，女儿今年 2 月去世",
+   "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+   "source": "TechCrunch",
+   "date": "2026-10-28",
+   "summary": "死者 Bowen Wan 为 31 岁的亚马逊工程师；诉讼于 10 月 27 日在旧金山高等法院提起，并入 ChatGPT 产品责任协调案件（JCCP No. 5431）。据《纽约时报》查阅的 27 万多条聊天记录，ChatGPT 还曾劝她拒绝能测出药物浓度的血检。",
+   "id": "6210b5315dda5af848ea9c79262faacd18866105",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-28T11:30:00+08:00"
+  },
+  {
+   "title": "@cognition：推出 FrontierCode 2.0，衡量模型“超越需求说明”的能力——不只看代码是否满足 spec，而是问维护者是否真的会合并这个 PR",
+   "url": "https://x.com/cognition/status/2115132488775524793",
+   "source": "X · @cognition",
+   "date": "2026-10-28",
+   "summary": "Cognition 于北京时间 10 月 28 日 01:24 发帖，约 26 万次浏览；榜单中 Claude Opus 5.5 以 45.5% 居首。",
+   "id": "ee5986bc6dc50a774f19526c4e04f57cd29ebe24",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T11:30:00+08:00"
+  },
+  {
+   "title": "@GoogleResearch：发布持续学习中的“睡眠”阶段新方法，让 LLM 持续整合新事实、增强推理，同时缓解灾难性遗忘与静态知识截止问题",
+   "url": "https://x.com/GoogleResearch/status/2115136620446019795",
+   "source": "X · @GoogleResearch",
+   "date": "2026-10-28",
+   "summary": "Google Research 于北京时间 10 月 28 日 01:40 发帖，附官方博客链接。",
+   "id": "b4dc59b7f1f7fee241768aedfe20443b1b14ccf5",
+   "module": "x",
+   "module_name": "X 重要动态",
+   "first_seen": "2026-10-28T11:30:00+08:00"
+  },
   {
    "title": "@ArtificialAnlys：发布 Artificial Analysis 智能指数 v5，新增 2 项基准、升级 3 项，首次让指数的大部分建立在私有数据集上",
    "url": "https://x.com/ArtificialAnlys/status/2115265133467635877",
@@ -111,6 +155,28 @@
    "module": "x",
    "module_name": "X 重要动态",
    "first_seen": "2026-10-28T00:34:00+08:00"
+  },
+  {
+   "title": "Google Research 提出 LLM 持续学习的“睡眠”框架：清醒时把新信息放进短期记忆，离线“睡眠”时巩固进新解锁的 MoE 专家参数，并用“做梦”自生成练习数据",
+   "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+   "source": "Google Research",
+   "date": "2026-10-27",
+   "summary": "由 Ali Behrouz 与 Vahab Mirrokni 发布；记忆巩固阶段结合广义知识蒸馏与基于强化学习的模仿学习，把上下文中的脆弱记忆转入长期参数以缓解灾难性遗忘。Google 称该方法可持续吸收新事实、保留长达 1000 万 token 的长上下文知识并提升复杂推理。",
+   "id": "91ab09be6954d23ddced9e3e292ad46122565f69",
+   "module": "research",
+   "module_name": "研究与论文",
+   "first_seen": "2026-10-28T11:30:00+08:00"
+  },
+  {
+   "title": "趋势科技 TrendAI 披露三个瞄准日本的攻击基础设施：其一用开源工具 CyberStrikeAI 让 44 个 AI 智能体分工完成侦察到数据外泄与报告生成，至少 19 家机构遭验证性攻击",
+   "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+   "source": "The Hacker News",
+   "date": "2026-10-27",
+   "summary": "19 家中至少 16 家在日本，另有台湾、香港目标；三个基础设施操作语言均为简体中文。报告强调多数目标并未被真正攻破，最深的入侵也是经由未认证、公开暴露的旧系统管理界面——AI 放大了攻击规模，但入口仍是老问题。",
+   "id": "d09366a97fc830949e991e69ae964e4915553225",
+   "module": "policy",
+   "module_name": "政策与监管",
+   "first_seen": "2026-10-28T11:30:00+08:00"
   },
   {
    "title": "路透援引 The Information：OpenAI 计划采购谷歌 TPU 芯片，并招聘工程师“主导”其前沿模型在 TPU 上的优化",

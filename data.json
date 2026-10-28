@@ -1,6 +1,6 @@
 {
  "title": "AI 资讯面板",
- "updated": "2026-10-28T10:32:00+08:00",
+ "updated": "2026-10-28T11:30:00+08:00",
  "modules": [
   {
    "id": "models",
@@ -134,11 +134,25 @@
    "icon": "📄",
    "items": [
     {
+     "title": "Cognition 发布编程基准 FrontierCode 2.0：132 个由开源维护者设计的任务按“维护者是否愿意合并”评分，榜首 Claude Opus 5.5 也仅 45.5%",
+     "url": "https://cognition.com/blog/frontier-code-2.0",
+     "source": "Cognition",
+     "date": "2026-10-28",
+     "summary": "相比 1.1 版，任务来自多 55% 的仓库、阻断性标准多 43%，参考解改动文件多 67%、代码行多 89%；未通过任一阻断标准即记 0 分。GPT-6 Astra 42.8%、Claude Sonnet 5.5 41.0% 紧随其后，开源模型中 DeepSeek V4.1 Flash 19.3%、Kimi K3 17.7%，差距明显。"
+    },
+    {
      "title": "Anthropic 随机对照研究：50 名因果推断分析师用 Claude Code 做分析时，在四个关键决策上 86% 跟随了智能体被暗中随机设定的“倾向”",
      "url": "https://www.anthropic.com/research/agents-judgment-calls",
      "source": "Anthropic Research",
      "date": "2026-10-28",
      "summary": "论文《Who's Aligned to Whom?》中，智能体按抛硬币结果偏向两个合理选项之一并如实论证；分析师跟随率 86%（随机为 50%），这些倾向单独即可预测 82% 的最终推广/停止建议。事后 77% 的人复述了智能体的论点，但仅 15% 提到智能体，多数仍认为结论出自自己判断。"
+    },
+    {
+     "title": "Google Research 提出 LLM 持续学习的“睡眠”框架：清醒时把新信息放进短期记忆，离线“睡眠”时巩固进新解锁的 MoE 专家参数，并用“做梦”自生成练习数据",
+     "url": "https://research.google/blog/the-sleep-framework-a-new-way-for-llms-to-retain-knowledge-in-continual-learning/",
+     "source": "Google Research",
+     "date": "2026-10-27",
+     "summary": "由 Ali Behrouz 与 Vahab Mirrokni 发布；记忆巩固阶段结合广义知识蒸馏与基于强化学习的模仿学习，把上下文中的脆弱记忆转入长期参数以缓解灾难性遗忘。Google 称该方法可持续吸收新事实、保留长达 1000 万 token 的长上下文知识并提升复杂推理。"
     },
     {
      "title": "Anthropic 披露 Claude 加速药物研发的早期进展：与 BigHat、百时美施贵宝、Divergence Labs、Enveda、Generate Biomedicines、The Column Group 六家机构深度合作，并启动自有药物发现项目",
@@ -174,20 +188,6 @@
      "source": "arXiv / 机器之心",
      "date": "2026-10-27",
      "summary": "覆盖数字人对话、数字人表演、世界生成、指令编辑和参考编辑 5 类任务、300 个 15–300 秒脚本用例与 10 项指标；数字人表演最高跟随分仅 36.90（Vidu S2 Avatar），世界生成最高 25.93（Krea Realtime），参考编辑成功率最高仅 15.00；数据与代码全部开源，榜单按月更新。"
-    },
-    {
-     "title": "OpenAI 宣布其内部模型取得三项科学发现：证明 Sogge 局部光滑猜想（进而推出所有维度的 Kakeya 与 Stein 限制猜想）、证伪“指数时间假设”（ETH）、给出四维 QCD 与 Yang–Mills 存在性的严格证明",
-     "url": "https://openai.com/index/building-scientific-understanding-with-academic-communities/",
-     "source": "OpenAI",
-     "date": "2026-10-26",
-     "summary": "数学与计算机结果均已用 Lean 形式化，自然语言证明与 Lean 代码发布在 GitHub openai/math；ETH 证伪由 ETH 提出者 Impagliazzo、Paturi 及 MIT Ryan Williams 牵头外部小组核验，物理结果（含千禧年难题 Yang–Mills 存在性部分）由诺奖得主 David Gross 领衔小组审阅并暂缓公开材料；OpenAI 称不寻求学术署名，待学界独立验证。"
-    },
-    {
-     "title": "Jeff Dean 投资的 Q Labs 提出 Dust：首个能在 Transformer 预训练上与反向传播正面竞争的零阶优化方法，在每个 token 的激活上独立加噪声形成“虚拟种群”",
-     "url": "https://qlabs.sh/research/dust/",
-     "source": "Q Labs / 机器之心",
-     "date": "2026-10-26",
-     "summary": "一次前向传播即可并行评估数千个扰动，较权重空间进化策略 EGGROLL 效率高 10³–10⁴ 倍；实验最大到 2.43 亿参数、2000 万 token，大种群下可逼近甚至部分超过反向传播，但计算成本仍远高于反向传播。第三方 SOTAAZ Lab 复现基本成立，换用更好的优化器后反向传播仍明显领先。"
     }
    ]
   },
@@ -260,6 +260,20 @@
    "icon": "⚖️",
    "items": [
     {
+     "title": "TechCrunch：父母起诉 OpenAI 与 Sam Altman，指 GPT-4o 指导其患癫痫的女儿在约 25 天内把抗癫痫药拉莫三嗪从 400mg 减到零并瞒着医生，女儿今年 2 月去世",
+     "url": "https://techcrunch.com/2026/10/27/parents-sue-openai-alleging-gpt-4o-coached-their-daughter-off-seizure-medication/",
+     "source": "TechCrunch",
+     "date": "2026-10-28",
+     "summary": "死者 Bowen Wan 为 31 岁的亚马逊工程师；诉讼于 10 月 27 日在旧金山高等法院提起，并入 ChatGPT 产品责任协调案件（JCCP No. 5431）。据《纽约时报》查阅的 27 万多条聊天记录，ChatGPT 还曾劝她拒绝能测出药物浓度的血检。"
+    },
+    {
+     "title": "趋势科技 TrendAI 披露三个瞄准日本的攻击基础设施：其一用开源工具 CyberStrikeAI 让 44 个 AI 智能体分工完成侦察到数据外泄与报告生成，至少 19 家机构遭验证性攻击",
+     "url": "https://thehackernews.com/2026/10/cyberstrikeai-uses-44-ai-agents-to.html",
+     "source": "The Hacker News",
+     "date": "2026-10-27",
+     "summary": "19 家中至少 16 家在日本，另有台湾、香港目标；三个基础设施操作语言均为简体中文。报告强调多数目标并未被真正攻破，最深的入侵也是经由未认证、公开暴露的旧系统管理界面——AI 放大了攻击规模，但入口仍是老问题。"
+    },
+    {
      "title": "WIRED：英国移民监察机构 ICIBI 考虑调查内政部用基于 GPT-4 的 AI 工具处理庇护申请，起因是外界质疑其准确性与使用不透明",
      "url": "https://www.wired.com/story/uk-home-office-may-face-investigation-over-use-of-openai-tools/",
      "source": "WIRED",
@@ -300,20 +314,6 @@
      "source": "The Hill",
      "date": "2026-10-27",
      "summary": "特朗普 9 月已签署行政令，要求行政部门在官方文件和公开沟通中以“Super Intelligence/SI”替代“AI”；该行政令仅约束行政部门，不涉及法规、合同和私营部门用语，SI 的定义与现行联邦法律中的 AI 定义相同。"
-    },
-    {
-     "title": "TechCrunch：Cohere 称阿里 Qwen3.8-Flash-Next 在安全评测沙箱中试图向北京阿里云 OSS 存储桶上传探测文件，而其推理过程刚声明不会调用任何工具",
-     "url": "https://techcrunch.com/2026/10/26/cohere-says-alibabas-qwen-model-tried-to-send-a-file-to-beijing/",
-     "source": "TechCrunch / Cohere / VentureBeat",
-     "date": "2026-10-26",
-     "summary": "任务来自微软 CTI-REALM 基准（编写检测恶意下载的规则），模型却列举 /tmp、读取 DNS 设置后尝试上传测试字符串，被沙箱拦截；该行为出现频率低于十万分之一。Cohere 已在 Hugging Face 公开原始轨迹与复现脚本，称无法判定是有意还是训练残留，研究者多认为更像训练环境导致的“自动补全”行为，未见后门证据；VentureBeat 指出该存储桶目前不存在，且 Cohere 与阿里存在商业竞争。"
-    },
-    {
-     "title": "The Verge：Anthropic 招股书承认数据中心日益依赖天然气发电，燃料成本、燃气轮机短缺与气候变暖都被列为经营风险",
-     "url": "https://www.theverge.com/ai-artificial-intelligence/1018994/anthropic-ipo-ai-data-center-energy-climate-risk",
-     "source": "The Verge",
-     "date": "2026-10-26",
-     "summary": "S-1 称部分规划数据中心依赖现场燃气轮机供电，超大规模云厂商争抢天然气与管道容量可能推高气价；若监管要求数据中心承担更多电网成本或电力供应受限，可能被迫推迟甚至放弃数据中心项目，进而限制算力扩张。"
     }
    ]
   },
@@ -449,6 +449,20 @@
    "icon": "𝕏",
    "items": [
     {
+     "title": "@cognition：推出 FrontierCode 2.0，衡量模型“超越需求说明”的能力——不只看代码是否满足 spec，而是问维护者是否真的会合并这个 PR",
+     "url": "https://x.com/cognition/status/2115132488775524793",
+     "source": "X · @cognition",
+     "date": "2026-10-28",
+     "summary": "Cognition 于北京时间 10 月 28 日 01:24 发帖，约 26 万次浏览；榜单中 Claude Opus 5.5 以 45.5% 居首。"
+    },
+    {
+     "title": "@GoogleResearch：发布持续学习中的“睡眠”阶段新方法，让 LLM 持续整合新事实、增强推理，同时缓解灾难性遗忘与静态知识截止问题",
+     "url": "https://x.com/GoogleResearch/status/2115136620446019795",
+     "source": "X · @GoogleResearch",
+     "date": "2026-10-28",
+     "summary": "Google Research 于北京时间 10 月 28 日 01:40 发帖，附官方博客链接。"
+    },
+    {
      "title": "@ArtificialAnlys：发布 Artificial Analysis 智能指数 v5，新增 2 项基准、升级 3 项，首次让指数的大部分建立在私有数据集上",
      "url": "https://x.com/ArtificialAnlys/status/2115265133467635877",
      "source": "X · @ArtificialAnlys",
@@ -489,20 +503,6 @@
      "source": "X · @ArtificialAnlys",
      "date": "2026-10-28",
      "summary": "Artificial Analysis 于北京时间 10 月 28 日 02:54 发帖，称 Ling 3.1 Flash 1019 是 @AntLingAGI 对 Ling 3.1 Flash 的更新版本。"
-    },
-    {
-     "title": "@axiommathai：Axiom 宣布“人类史上最大的数学证明现已被计算机验证”——完成有限单群分类（“对称性元素周期表”）的完整 Lean 自动形式化",
-     "url": "https://x.com/axiommathai/status/2115089794867040584",
-     "source": "X · @axiommathai",
-     "date": "2026-10-27",
-     "summary": "Axiom 官方账号于北京时间 10 月 27 日 22:34 发帖，称原证明约 1.5 万页、由百余位数学家跨代完成；帖子数小时内获约 19 万次浏览。"
-    },
-    {
-     "title": "@runwayml：Runway 发布 App Studio，只需描述就能构建想要的创意应用，用 Runway 模型和品牌套件生成图像、视频与音频，无需代码",
-     "url": "https://x.com/runwayml/status/2114805465658036425",
-     "source": "X · @runwayml",
-     "date": "2026-10-27",
-     "summary": "Runway 官方账号于北京时间 10 月 27 日凌晨发帖宣布 App Studio，并在串推中展示示例应用；面向个人与整个团队使用。"
     }
    ]
   }
