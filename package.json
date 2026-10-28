@@ -1,13 +1,13 @@
 {
   "name": "ai-dashboard",
   "version": "1.0.0",
-  "description": "",
+  "description": "AI news dashboard: static shell + Cloudflare Worker API over Tinybird",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "ingest": "node --env-file=.env.local scripts/ingest.mjs",
-    "build:html": "python3 build.py",
-    "refresh": "node scripts/refresh.mjs"
+    "refresh": "node scripts/refresh.mjs",
+    "sync-history": "node --env-file=.env.local scripts/sync-history.mjs"
   },
   "keywords": [],
   "author": "",

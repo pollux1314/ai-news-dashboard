@@ -45,17 +45,13 @@ async function tb(env, pipe, params) {
   mem.set(url, { t: Date.now(), body });
   return body;
 }
-// Deduped, newest-first, paginated history built from news_history.
-async function history(env, sp) {
-  const p = clean(sp, ["date_from", "date_to", "module", "keyword"]);
-  if (sp.get("limit") && !RE.limit.test(sp.get("limit"))) throw new Error("bad limit");
-  if (sp.get("offset") && !RE.offset.test(sp.get("offset"))) throw new Error("bad offset");
-  const limit = Math.min(Math.max(parseInt(sp.get("limit") || "20", 10) || 20, 1), MAX_LIMIT);
-  const offset = Math.max(parseInt(sp.get("offset") || "0", 10) || 0, 0);
+// Deduped (by id), newest-first items from news_history.
+async function itemsFor(env, p) {
   p.set("limit", String(FETCH_ALL));
   const rows = (await tb(env, "news_history", p)).data || [];
-  const byId = new Map();
+  const byId = new Map(); let maxF = "";
   for (const r of rows) { // rows are fetched_at DESC: first = latest snapshot; keep earliest fetched_at as first_seen
+    if (r.fetched_at > maxF) maxF = r.fetched_at;
     const prev = byId.get(r.id);
     if (!prev) byId.set(r.id, { ...r, first_seen: r.fetched_at });
     else prev.first_seen = r.fetched_at;
@@ -68,7 +64,25 @@ async function history(env, sp) {
   });
   const k = i => [i.published_at ? 1 : 0, i.published_at || "", i.first_seen || ""];
   items.sort((a, b) => { const x = k(a), y = k(b); for (let j = 0; j < 3; j++) if (x[j] !== y[j]) return x[j] < y[j] ? 1 : -1; return 0; });
-  return { total: items.length, offset, limit, items: items.slice(offset, offset + limit) };
+  return { items, updated: maxF ? maxF.replace(" ", "T") + "Z" : null }; // fetched_at is UTC
+}
+function intParam(sp, k, def, max) {
+  const v = sp.get(k); if (v != null && v !== "" && !/^\d{1,5}$/.test(v)) throw new Error(`bad ${k}`);
+  return Math.min(Math.max(parseInt(v || String(def), 10) || def, 0), max);
+}
+async function history(env, sp) {
+  const p = clean(sp, ["date_from", "date_to", "module", "keyword"]);
+  const limit = Math.max(intParam(sp, "limit", 20, MAX_LIMIT), 1), offset = intParam(sp, "offset", 0, 99999);
+  const { items, updated } = await itemsFor(env, p);
+  return { total: items.length, offset, limit, updated, items: items.slice(offset, offset + limit) };
+}
+// Newest N items per module for the main view.
+async function latest(env, sp) {
+  const per = Math.max(intParam(sp, "per", 8, 20), 1);
+  const { items, updated } = await itemsFor(env, new URLSearchParams());
+  const modules = {}, counts = {};
+  for (const i of items) { counts[i.module] = (counts[i.module] || 0) + 1; (modules[i.module] ||= []).length < per && modules[i.module].push(i); }
+  return { updated, total: items.length, per, counts, modules };
 }
 export default {
   async fetch(req, env) {
@@ -76,8 +90,9 @@ export default {
     if (req.method !== "GET" && req.method !== "HEAD") return json(env, { error: "method not allowed" }, 405, false);
     const u = new URL(req.url);
     try {
-      if (u.pathname === "/" ) return json(env, { ok: true, endpoints: ["/history", "/pipes/news_history", "/pipes/news_daily_counts"] });
+      if (u.pathname === "/" ) return json(env, { ok: true, endpoints: ["/latest", "/history", "/pipes/news_history", "/pipes/news_daily_counts"] });
       if (u.pathname === "/history") return json(env, await history(env, u.searchParams));
+      if (u.pathname === "/latest") return json(env, await latest(env, u.searchParams));
       const m = u.pathname.match(/^\/pipes\/([a-z_]+?)(\.json)?$/);
       if (!m || !PIPES[m[1]]) return json(env, { error: "not found" }, 404, false);
       const p = clean(u.searchParams, PIPES[m[1]]);
